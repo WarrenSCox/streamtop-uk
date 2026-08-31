@@ -1,6 +1,6 @@
 {
-  "version": 5,
-  "generatedAt": "2026-08-31T21:23:17.305Z",
+  "version": 6,
+  "generatedAt": "2026-08-31T21:31:45.455Z",
   "country": "GB",
   "strategy": "Official source first; labelled fallback when no compatible official chart is available.",
   "services": {
@@ -1484,6 +1484,28 @@
           "trendDifference": -526,
           "daysInTop10": null,
           "topRank": 13
+        },
+        {
+          "rank": 9,
+          "title": "Spider-Man: No Way Home",
+          "year": 2021,
+          "poster": "/poster/349167628/s166/spider-man-no-way-home.webp",
+          "url": "https://www.justwatch.com/uk/movie/spider-man-no-way-home",
+          "trend": null,
+          "trendDifference": 0,
+          "daysInTop10": null,
+          "topRank": null
+        },
+        {
+          "rank": 10,
+          "title": "Spider-Man: Homecoming",
+          "year": 2017,
+          "poster": "/poster/31416882/s166/spider-man-homecoming.webp",
+          "url": "https://www.justwatch.com/uk/movie/spider-man-homecoming",
+          "trend": null,
+          "trendDifference": 0,
+          "daysInTop10": null,
+          "topRank": null
         }
       ],
       "tv": [
@@ -1501,18 +1523,6 @@
         },
         {
           "rank": 2,
-          "sourceRank": 230,
-          "title": "The Rapture",
-          "year": 2026,
-          "poster": "/poster/347600465/s166/the-rapture.webp",
-          "url": "https://www.justwatch.com/uk/tv-series/the-rapture",
-          "trend": "UP",
-          "trendDifference": 481,
-          "daysInTop10": null,
-          "topRank": 21
-        },
-        {
-          "rank": 3,
           "sourceRank": 277,
           "title": "Peaky Blinders",
           "year": 2013,
@@ -1524,7 +1534,7 @@
           "topRank": 1
         },
         {
-          "rank": 4,
+          "rank": 3,
           "sourceRank": 282,
           "title": "The Trip",
           "year": 2010,
@@ -1534,6 +1544,18 @@
           "trendDifference": -56,
           "daysInTop10": 1,
           "topRank": 9
+        },
+        {
+          "rank": 4,
+          "sourceRank": 288,
+          "title": "The Rapture",
+          "year": 2026,
+          "poster": "/poster/347600465/s166/the-rapture.webp",
+          "url": "https://www.justwatch.com/uk/tv-series/the-rapture",
+          "trend": "DOWN",
+          "trendDifference": -91,
+          "daysInTop10": null,
+          "topRank": 21
         },
         {
           "rank": 5,
@@ -1676,6 +1698,72 @@
           "trendDifference": 11,
           "daysInTop10": null,
           "topRank": 446
+        },
+        {
+          "rank": 5,
+          "title": "Harry Potter and the Philosopher's Stone",
+          "year": 2001,
+          "poster": "/poster/87608067/s166/harry-potter-and-the-philosophers-stone.webp",
+          "url": "https://www.justwatch.com/uk/movie/harry-potter-and-the-philosophers-stone",
+          "trend": null,
+          "trendDifference": 0,
+          "daysInTop10": null,
+          "topRank": null
+        },
+        {
+          "rank": 6,
+          "title": "The Batman",
+          "year": 2022,
+          "poster": "/poster/219348475/s166/the-batman.webp",
+          "url": "https://www.justwatch.com/uk/movie/the-batman",
+          "trend": null,
+          "trendDifference": 0,
+          "daysInTop10": null,
+          "topRank": null
+        },
+        {
+          "rank": 7,
+          "title": "The Princess Bride",
+          "year": 1987,
+          "poster": "/poster/181716130/s166/the-princess-bride.webp",
+          "url": "https://www.justwatch.com/uk/movie/the-princess-bride",
+          "trend": null,
+          "trendDifference": 0,
+          "daysInTop10": null,
+          "topRank": null
+        },
+        {
+          "rank": 8,
+          "title": "Sicario",
+          "year": 2015,
+          "poster": "/poster/139217929/s166/sicario.webp",
+          "url": "https://www.justwatch.com/uk/movie/sicario",
+          "trend": null,
+          "trendDifference": 0,
+          "daysInTop10": null,
+          "topRank": null
+        },
+        {
+          "rank": 9,
+          "title": "John Wick",
+          "year": 2014,
+          "poster": "/poster/321925615/s166/john-wick.webp",
+          "url": "https://www.justwatch.com/uk/movie/john-wick",
+          "trend": null,
+          "trendDifference": 0,
+          "daysInTop10": null,
+          "topRank": null
+        },
+        {
+          "rank": 10,
+          "title": "Twilight",
+          "year": 2008,
+          "poster": "/poster/194898708/s166/twilight.webp",
+          "url": "https://www.justwatch.com/uk/movie/twilight",
+          "trend": null,
+          "trendDifference": 0,
+          "daysInTop10": null,
+          "topRank": null
         }
       ],
       "tv": [
@@ -1717,13 +1805,13 @@
         },
         {
           "rank": 4,
-          "sourceRank": 819,
+          "sourceRank": 823,
           "title": "The Hack",
           "year": 2025,
           "poster": "/poster/337841585/s166/the-hack.webp",
           "url": "https://www.justwatch.com/uk/tv-series/the-hack",
           "trend": "DOWN",
-          "trendDifference": -57,
+          "trendDifference": -61,
           "daysInTop10": 3,
           "topRank": 5
         },
