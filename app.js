@@ -35,19 +35,49 @@ function dataUrls() {
   return urls;
 }
 
+function isUsableRankingFeed(body) {
+  const netflix = body?.services?.netflix;
+  return Boolean(
+    body &&
+    typeof body === 'object' &&
+    body.services &&
+    Array.isArray(netflix?.movies) && netflix.movies.length > 0 &&
+    Array.isArray(netflix?.tv) && netflix.tv.length > 0 &&
+    netflix?.sources?.movies && netflix?.sources?.tv
+  );
+}
+
+async function fetchOneRankingFeed(base) {
+  const stamp = Date.now();
+  const separator = base.includes('?') ? '&' : '?';
+  const res = await fetch(`${base}${separator}ww=${stamp}`, {
+    cache: 'no-store',
+    headers: {'Accept':'application/json'}
+  });
+  if (!res.ok) throw new Error(`Ranking feed returned ${res.status}`);
+  const body = await res.json();
+  if (!isUsableRankingFeed(body)) throw new Error('Ranking feed is empty or incomplete');
+  return body;
+}
+
 async function fetchRankings() {
   let lastError;
-  for (const base of dataUrls()) {
-    try {
-      const res = await fetch(`${base}?v=${Math.floor(Date.now()/300000)}`, {cache:'no-store'});
-      if (!res.ok) throw new Error(`Ranking feed returned ${res.status}`);
-      const body = await res.json();
-      if (!body?.services) throw new Error('Ranking feed is not ready yet');
-      return body;
-    } catch (error) {
-      lastError = error;
+  const urls = dataUrls();
+
+  // Try every source twice. This protects the app from a brief GitHub Pages/raw
+  // propagation delay immediately after the rankings workflow commits a new file.
+  for (let attempt = 0; attempt < 2; attempt += 1) {
+    for (const base of urls) {
+      try {
+        return await fetchOneRankingFeed(base);
+      } catch (error) {
+        console.warn(`WozzaWatch ranking source failed: ${base}`, error);
+        lastError = error;
+      }
     }
+    if (attempt === 0) await new Promise(resolve => setTimeout(resolve, 900));
   }
+
   throw lastError || new Error('Ranking feed could not be loaded');
 }
 
