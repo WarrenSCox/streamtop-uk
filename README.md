@@ -1,7 +1,5 @@
-# WozzaWatch v4.7.2
+WozzaWatch v4.8
 
-- Restores the original text provider pills.
-- Keeps the new source badges: OFFICIAL STATS + green tick, or STATS FROM JUSTWATCH.
-- Keeps title-as-details-link behaviour.
+Adds UK Cinema and US Cinema charts. UK uses the UK Cinema Association / Comscore official weekend Top 10. US tries Comscore/Rentrak Movies first and falls back to The Numbers if Comscore does not expose all 10 publicly.
 
-Replace app.js, styles.css, index.html and sw.js in the repo root.
+Upload the five files using the exact repository filenames shown in this ZIP, then run Update WozzaWatch rankings once.

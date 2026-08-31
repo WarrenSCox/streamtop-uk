@@ -5,7 +5,9 @@ const SERVICES = [
   {id:'apple', name:'Apple', slug:'apple-tv-plus', tone:'yellow'},
   {id:'max', name:'HBO', slug:'hbo-max', tone:'navy'},
   {id:'bbc', name:'BBC', slug:'bbc-iplayer', tone:'blue'},
-  {id:'itv', name:'ITV', slug:'itvx', tone:'green'}
+  {id:'itv', name:'ITV', slug:'itvx', tone:'green'},
+  {id:'ukcinema', name:'UK Cinema', slug:null, tone:'brick', cinema:true},
+  {id:'uscinema', name:'US Cinema', slug:null, tone:'blue', cinema:true}
 ];
 
 const state = {service: SERVICES[0], type: 'MOVIE', data: null, installPrompt: null};
@@ -23,6 +25,7 @@ const els = {
 };
 
 function justWatchUrl(service, type) {
+  if (service.cinema) return 'https://www.justwatch.com/uk/movies';
   return `https://www.justwatch.com/uk/provider/${service.slug}/${type === 'MOVIE' ? 'movies' : 'tv-series'}`;
 }
 
@@ -89,11 +92,14 @@ function syncControls({scroll = true} = {}) {
   document.querySelectorAll('.segmented button').forEach(button => {
     button.classList.toggle('active', button.dataset.type === state.type);
   });
+  const segmented = document.querySelector('.segmented');
+  if (segmented) segmented.classList.toggle('cinema-hidden', Boolean(state.service.cinema));
 }
 
 function selectService(index, {scroll = true} = {}) {
   if (index < 0 || index >= SERVICES.length) return false;
   state.service = SERVICES[index];
+  if (state.service.cinema) state.type = 'MOVIE';
   syncControls({scroll});
   renderCurrent();
   return true;
@@ -119,12 +125,14 @@ function providerIndex() {
 function setProviderIndex(index) {
   if (index < 0 || index >= SERVICES.length) return false;
   state.service = SERVICES[index];
+  if (state.service.cinema) state.type = 'MOVIE';
   syncControls({scroll:true});
   renderCurrent();
   return true;
 }
 
 function setContentType(type) {
+  if (state.service.cinema) return false;
   if (!['MOVIE','SHOW'].includes(type) || state.type === type) return false;
   state.type = type;
   syncControls({scroll:false});
@@ -180,6 +188,7 @@ function initProviderSwipe() {
   let tapTimer = null;
 
   const toggleContentType = () => {
+    if (state.service.cinema) return;
     const nextType = state.type === 'MOVIE' ? 'SHOW' : 'MOVIE';
     const card = document.querySelector('.chart-wrap');
     if (!card || card.dataset.animating === '1') return;
@@ -366,18 +375,19 @@ function renderCurrent() {
   const typeLabel = state.type === 'MOVIE' ? 'Movies' : 'TV Shows';
   const serviceData = state.data?.services?.[service.id];
   const source = serviceData?.sources?.[key];
-  const fallbackUrl = justWatchUrl(service, state.type);
+  const fallbackUrl = source?.url || justWatchUrl(service, state.type);
 
-  els.chartTitle.textContent = `${service.name} ${typeLabel}`;
+  els.chartTitle.textContent = service.cinema ? service.name : `${service.name} ${typeLabel}`;
   const isOfficial = source?.kind === 'official';
+  const fallbackName = source?.displayName || (source?.label || '').replace(/^JustWatch UK$/i, 'JustWatch').replace(/^Stats from\s+/i, '') || 'Source';
   els.sourceBadge.innerHTML = '';
   els.sourceBadge.href = source?.url || fallbackUrl;
-  els.sourceBadge.setAttribute('aria-label', isOfficial ? 'Official stats — open source' : 'Stats from JustWatch — open source');
+  els.sourceBadge.setAttribute('aria-label', isOfficial ? 'Official stats — open source' : `Stats from ${fallbackName} — open source`);
   els.sourceBadge.className = `source-badge ${isOfficial ? 'official' : 'fallback'}`;
 
   const sourceText = document.createElement('span');
   sourceText.className = 'source-text';
-  sourceText.textContent = isOfficial ? 'Official Stats' : 'Stats from JustWatch';
+  sourceText.textContent = isOfficial ? 'Official Stats' : `Stats from ${fallbackName}`;
 
   els.sourceBadge.append(sourceText);
   if (isOfficial) {
@@ -421,6 +431,7 @@ async function loadData() {
 
 document.querySelectorAll('.segmented button').forEach(button => {
   button.addEventListener('click', () => {
+    if (state.service.cinema) return;
     state.type = button.dataset.type;
     syncControls({scroll:false});
     renderCurrent();

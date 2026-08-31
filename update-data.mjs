@@ -5,6 +5,9 @@ const NETFLIX_TSV = 'https://www.netflix.com/tudum/top10/data/all-weeks-countrie
 const PRIME_MOVIES_URL = 'https://www.primevideo.com/movie/ref%3Datv_hom_Marqueetvuk_c_9zZ8D2_hom?tr=gb';
 const APPLE_MOVIES_URL = 'https://tv.apple.com/gb/collection/most-popular-now/uts.col.ChartsMovies.tvs.sbd.4000';
 const APPLE_TV_URL = 'https://tv.apple.com/gb/collection/most-popular-now/uts.col.ChartsShows.tvs.sbd.4000';
+const UK_CINEMA_URL = 'https://www.cinemauk.org.uk/the-industry/facts-and-figures/latest-uk-cinema-statistics/weekend-top-10-box-office/';
+const US_CINEMA_URL = 'https://movies.comscore.com/';
+const US_CINEMA_FALLBACK_URL = 'https://www.the-numbers.com/weekend-box-office-chart';
 const SERVICES = [
   { id:'netflix', name:'Netflix', aliases:['Netflix'] },
   { id:'prime', name:'Prime Video', aliases:['Amazon Prime Video','Prime Video'] },
@@ -473,6 +476,106 @@ async function fetchOfficialNetflix() {
     });
   return { week:latest, movies:byCategory('Films'), tv:byCategory('TV') };
 }
+
+function decodeEntities(value='') {
+  return String(value)
+    .replace(/&amp;/g,'&').replace(/&quot;/g,'"').replace(/&#39;|&apos;/g,"'")
+    .replace(/&nbsp;/g,' ').replace(/&pound;/g,'£').replace(/&dollar;/g,'$')
+    .replace(/&#(\d+);/g,(_,n)=>String.fromCodePoint(Number(n)))
+    .replace(/&#x([0-9a-f]+);/gi,(_,n)=>String.fromCodePoint(parseInt(n,16)));
+}
+function cleanCell(value='') {
+  return decodeEntities(String(value).replace(/<script[\s\S]*?<\/script>/gi,' ').replace(/<style[\s\S]*?<\/style>/gi,' ').replace(/<[^>]+>/g,' '))
+    .replace(/\s+/g,' ').trim();
+}
+function tableRows(html='') {
+  return [...String(html).matchAll(/<tr\b[^>]*>([\s\S]*?)<\/tr>/gi)].map(row =>
+    [...row[1].matchAll(/<t[dh]\b[^>]*>([\s\S]*?)<\/t[dh]>/gi)].map(cell=>cleanCell(cell[1]))
+  ).filter(row=>row.length);
+}
+function htmlLines(html='') {
+  return decodeEntities(String(html)
+    .replace(/<script[\s\S]*?<\/script>/gi,'\n').replace(/<style[\s\S]*?<\/style>/gi,'\n')
+    .replace(/<(?:br|\/p|\/div|\/li|\/h\d|\/tr|\/td|\/section)>/gi,'\n').replace(/<[^>]+>/g,' '))
+    .split(/\n+/).map(x=>x.replace(/\s+/g,' ').trim()).filter(Boolean);
+}
+function moneyValue(value='') {
+  const m=String(value).match(/[£$]\s?([\d,.]+)/);
+  return m ? Number(m[1].replace(/,/g,'')) : null;
+}
+
+async function fetchOfficialUKCinema() {
+  const html=await fetchText(UK_CINEMA_URL, {'accept-language':'en-GB,en;q=0.9'});
+  const rows=tableRows(html);
+  const items=[];
+  for(const cells of rows){
+    const rank=Number(cells[0]);
+    if(!Number.isInteger(rank)||rank<1||rank>10||cells.length<2) continue;
+    let title=cells[1].trim();
+    // UK Cinema Association appends distributor in brackets to the title cell.
+    title=title.replace(/\s+\([^()]{2,45}\)\s*$/,'').trim();
+    if(!title) continue;
+    items.push({rank,title,weekendGross:moneyValue(cells[2]),cumulativeGross:moneyValue(cells[3]),url:UK_CINEMA_URL});
+  }
+  const unique=[...new Map(items.map(x=>[x.rank,x])).values()].sort((a,b)=>a.rank-b.rank).slice(0,10);
+  if(unique.length!==10) throw new Error(`UK Cinema Association returned ${unique.length}/10 chart rows`);
+  return unique;
+}
+
+function parseComscoreDomestic(html='') {
+  const rows=tableRows(html);
+  const fromTable=[];
+  for(const cells of rows){
+    const rank=Number(cells[0]);
+    if(!Number.isInteger(rank)||rank<1||rank>10) continue;
+    const moneyIndex=cells.findIndex((x,i)=>i>0 && /^\$[\d,.]+(?:[KMB])?$/i.test(x.replace(/\s/g,'')));
+    if(moneyIndex<2) continue;
+    const title=cells[1]?.trim();
+    if(title) fromTable.push({rank,title,weekendGrossText:cells[moneyIndex],url:US_CINEMA_URL});
+  }
+  if(fromTable.length>=10) return fromTable.sort((a,b)=>a.rank-b.rank).slice(0,10);
+
+  const lines=htmlLines(html);
+  const start=lines.findIndex(x=>/^Domestic Box Office$/i.test(x));
+  if(start<0) return [];
+  const out=[];
+  for(let i=start+1;i<Math.min(lines.length,start+100);i++){
+    if(!/^(?:[1-9]|10)$/.test(lines[i])) continue;
+    const rank=Number(lines[i]);
+    const title=lines[i+1];
+    const studio=lines[i+2];
+    const gross=lines[i+3];
+    if(!title || !studio || !/^\$/.test(gross||'')) continue;
+    if(title.length>120 || /^(Worldwide|Domestic) Box Office/i.test(title)) continue;
+    out.push({rank,title,weekendGrossText:gross,url:US_CINEMA_URL});
+  }
+  return [...new Map(out.map(x=>[x.rank,x])).values()].sort((a,b)=>a.rank-b.rank).slice(0,10);
+}
+
+async function fetchOfficialUSCinema() {
+  const html=await fetchText(US_CINEMA_URL, {'accept-language':'en-US,en;q=0.9'});
+  const items=parseComscoreDomestic(html);
+  if(items.length!==10) throw new Error(`Comscore/Rentrak public page exposed ${items.length}/10 domestic chart rows`);
+  return items;
+}
+
+async function fetchUSCinemaFallback() {
+  const html=await fetchText(US_CINEMA_FALLBACK_URL, {'accept-language':'en-US,en;q=0.9'});
+  const rows=tableRows(html);
+  const out=[];
+  for(const cells of rows){
+    const rank=Number(cells[0]);
+    if(!Number.isInteger(rank)||rank<1||rank>10||cells.length<3) continue;
+    const title=(cells[2]||cells[1]||'').trim();
+    const grossCell=cells.find(x=>/^\$[\d,.]+/.test((x||'').replace(/\s/g,'')));
+    if(!title) continue;
+    out.push({rank,title,weekendGross:moneyValue(grossCell),url:US_CINEMA_FALLBACK_URL});
+  }
+  const unique=[...new Map(out.map(x=>[x.rank,x])).values()].sort((a,b)=>a.rank-b.rank).slice(0,10);
+  if(unique.length!==10) throw new Error(`The Numbers returned ${unique.length}/10 chart rows`);
+  return unique;
+}
+
 async function lookupTitleMetadata(title, objectType) {
   if (!title || title === 'Untitled') return null;
   try {
@@ -517,12 +620,15 @@ async function enrichOfficial(official, fallback=[], objectType) {
 }
 
 let previous={}; try{previous=JSON.parse(await readFile('data/rankings.json','utf8'));}catch{}
-const output={version:9,generatedAt:new Date().toISOString(),country:'GB',strategy:'Official source first; labelled fallback when no compatible official chart is available.',services:{}};
+const output={version:10,generatedAt:new Date().toISOString(),country:'GB',strategy:'Official source first; labelled fallback when no compatible official chart is available.',services:{}};
 const packageData=await gql(PACKAGES_QUERY,{country:'GB',platform:'WEB'}); const packages=packageData?.packages||[];
 let netflixOfficial=null; try{netflixOfficial=await fetchOfficialNetflix(); console.log(`Netflix official week ${netflixOfficial.week}`);}catch(err){console.error('Netflix official:',err.message);}
 let primeMoviesOfficial=null; try{primeMoviesOfficial=await fetchOfficialPrimeMovies(); console.log(`Prime official movies: ${primeMoviesOfficial.length}`);}catch(err){console.error('Prime official movies:',err.message);}
 let appleMoviesOfficial=null; try{appleMoviesOfficial=await fetchOfficialApple(APPLE_MOVIES_URL,'MOVIE'); console.log(`Apple official movies: ${appleMoviesOfficial.length}`);}catch(err){console.error('Apple official movies:',err.message);}
 let appleTVOfficial=null; try{appleTVOfficial=await fetchOfficialApple(APPLE_TV_URL,'SHOW'); console.log(`Apple official TV: ${appleTVOfficial.length}`);}catch(err){console.error('Apple official TV:',err.message);}
+let ukCinemaOfficial=null; try{ukCinemaOfficial=await fetchOfficialUKCinema(); console.log(`UK cinema official: ${ukCinemaOfficial.length}`);}catch(err){console.error('UK cinema official:',err.message);}
+let usCinemaOfficial=null; try{usCinemaOfficial=await fetchOfficialUSCinema(); console.log(`US cinema official: ${usCinemaOfficial.length}`);}catch(err){console.error('US cinema official:',err.message);}
+let usCinemaFallback=null; if(!usCinemaOfficial){ try{usCinemaFallback=await fetchUSCinemaFallback(); console.log(`US cinema The Numbers fallback: ${usCinemaFallback.length}`);}catch(err){console.error('US cinema fallback:',err.message);} }
 
 for(const service of SERVICES){
   const pkg=findPackage(packages,service); const entry={provider:pkg?.clearName||service.name,movies:[],tv:[],sources:{},error:null};
@@ -552,4 +658,33 @@ for(const service of SERVICES){
   }
   output.services[service.id]=entry;
 }
+
+// Cinema charts are movie-only. They deliberately use the same simple item shape as
+// streaming charts, so the existing WozzaWatch card can render them without clutter.
+{
+  const old=previous?.services?.ukcinema;
+  const entry={provider:'UK Cinema',movies:[],tv:[],sources:{},error:null};
+  if(ukCinemaOfficial?.length){
+    entry.movies=await enrichOfficial(ukCinemaOfficial,[],'MOVIE');
+    entry.sources.movies={kind:'official',label:'UK Cinema Association / Comscore',displayName:'UK Cinema Association',url:UK_CINEMA_URL,cadence:'weekly',note:'Official UK weekend box-office Top 10 published by the UK Cinema Association using Comscore data.'};
+  } else if(Array.isArray(old?.movies)&&old.movies.length){
+    entry.movies=old.movies.map((x,i)=>({...x,rank:i+1})); entry.sources.movies=old.sources?.movies; entry.stale=true;
+  } else entry.error='movies: no ranking available';
+  output.services.ukcinema=entry;
+}
+{
+  const old=previous?.services?.uscinema;
+  const entry={provider:'US Cinema',movies:[],tv:[],sources:{},error:null};
+  if(usCinemaOfficial?.length){
+    entry.movies=await enrichOfficial(usCinemaOfficial,[],'MOVIE');
+    entry.sources.movies={kind:'official',label:'Comscore / Rentrak Movies',displayName:'Comscore',url:US_CINEMA_URL,cadence:'weekly',note:'Official domestic weekend box-office estimates from Comscore/Rentrak Movies.'};
+  } else if(usCinemaFallback?.length){
+    entry.movies=await enrichOfficial(usCinemaFallback,[],'MOVIE');
+    entry.sources.movies={kind:'fallback',label:'The Numbers',displayName:'The Numbers',url:US_CINEMA_FALLBACK_URL,cadence:'weekly',note:'Comscore public chart did not expose a complete Top 10, so WozzaWatch used The Numbers weekend domestic chart.'};
+  } else if(Array.isArray(old?.movies)&&old.movies.length){
+    entry.movies=old.movies.map((x,i)=>({...x,rank:i+1})); entry.sources.movies=old.sources?.movies; entry.stale=true;
+  } else entry.error='movies: no ranking available';
+  output.services.uscinema=entry;
+}
+
 await mkdir('data',{recursive:true}); await writeFile('data/rankings.json',JSON.stringify(output,null,2)+'\n'); console.log(`Saved rankings at ${output.generatedAt}`);
