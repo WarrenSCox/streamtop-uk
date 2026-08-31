@@ -1,13 +1,1 @@
-{
-  "name": "StreamTop UK",
-  "short_name": "StreamTop",
-  "description": "UK Top 10 streaming popularity charts in one place.",
-  "start_url": "./",
-  "scope": "./",
-  "display": "standalone",
-  "background_color": "#09090b",
-  "theme_color": "#09090b",
-  "icons": [
-    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
-  ]
-}
+{"name":"WozzaWatch","short_name":"WozzaWatch","description":"UK streaming Top 10 charts, official sources first.","start_url":"./","scope":"./","display":"standalone","background_color":"#EEF0FB","theme_color":"#9AB2D4","icons":[{"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]}
