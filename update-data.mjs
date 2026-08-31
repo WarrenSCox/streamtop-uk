@@ -55,11 +55,11 @@ const TITLE_LOOKUP_QUERY = `query WozzaWatchTitleLookup($country: Country!,$lang
 
 const POPULAR_QUERY = `query StreamTopPopular($country: Country!,$language: Language!,$first: Int!,$filter: TitleFilter) { popularTitles(country:$country,filter:$filter,first:$first,sortBy:POPULAR) { edges { node { id objectType ... on MovieOrShowOrSeason { content(country:$country,language:$language) { title fullPath posterUrl(profile:S166,format:WEBP) originalReleaseYear } } } } } }`;
 
-async function fetchText(url) {
+async function fetchText(url, extraHeaders = {}) {
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), 30000);
   try {
-    const res = await fetch(url, { headers:{'user-agent':'WozzaWatch/4.0 (+GitHub Actions)'}, signal:controller.signal });
+    const res = await fetch(url, { headers:{'user-agent':'WozzaWatch/4.2 (+GitHub Actions)',...extraHeaders}, signal:controller.signal });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     return await res.text();
   } finally { clearTimeout(timeout); }
@@ -69,7 +69,7 @@ async function gql(query, variables) {
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), 20000);
   try {
-    const res = await fetch(ENDPOINT, { method:'POST', headers:{'content-type':'application/json','accept':'application/json','user-agent':'WozzaWatch/4.0 (+GitHub Actions)'}, body:JSON.stringify({query,variables}), signal:controller.signal });
+    const res = await fetch(ENDPOINT, { method:'POST', headers:{'content-type':'application/json','accept':'application/json','user-agent':'WozzaWatch/4.2 (+GitHub Actions)'}, body:JSON.stringify({query,variables}), signal:controller.signal });
     if (!res.ok) throw new Error(`JustWatch HTTP ${res.status}`);
     const body = await res.json();
     if (body.errors?.length) throw new Error(body.errors.map(e=>e.message).join('; '));
@@ -163,35 +163,81 @@ async function fetchOfficialApple(url, objectType) {
   return deduped;
 }
 function primeSection(html) {
-  const markers=['Top 10 movies in the UK','Top 10 Movies in the UK','Top movies in the UK','Top movies'];
+  // Prime's public page is rendered in several different shapes (SSR HTML,
+  // hydration JSON and escaped HTML). Anchor the parser to the UK Top 10
+  // heading, then only inspect the following chunk.
+  const decoded = String(html)
+    .replace(/\\u003c/gi,'<').replace(/\\u003e/gi,'>')
+    .replace(/\\u0026/gi,'&').replace(/\\u0027/gi,"'")
+    .replace(/\\u0022/gi,'"').replace(/\\\//g,'/');
+  const markers=['Top 10 movies in the UK','Top 10 Movies in the UK'];
   let idx=-1;
-  for(const marker of markers){idx=html.toLowerCase().indexOf(marker.toLowerCase()); if(idx>=0)break;}
-  return idx>=0?html.slice(idx,idx+450000):html;
+  for(const marker of markers){idx=decoded.toLowerCase().indexOf(marker.toLowerCase()); if(idx>=0)break;}
+  if(idx<0) throw new Error('Prime UK Top 10 heading was not found');
+  return decoded.slice(idx,idx+650000);
+}
+function cleanPrimeTitle(value='') {
+  return stripTags(String(value)
+    .replace(/\\u0026/gi,'&').replace(/\\u0027/gi,"'")
+    .replace(/\\u0022/gi,'"').replace(/\\"/g,'"').replace(/\\'/g,"'"));
+}
+function isPrimeNoise(value='') {
+  const v=cleanPrimeTitle(value).trim();
+  if(!validPublicTitle(v)) return true;
+  return /^(?:new movie|deal|most liked|recently added|top 10|trending|prime|included with prime|watch now|watch with a free prime trial|more details|rent|buy|play|continue watching|movies|top 10 movies in the uk)$/i.test(v);
 }
 function extractPrimeCandidateTitles(section) {
   const candidates=[];
-  const anchorRe=/<a\b([^>]*?)href=["']([^"']*(?:\/detail\/|\/gp\/video\/detail\/)[^"']*)["']([^>]*)>([\s\S]*?)<\/a>/gi;
+  const add=(title,url=PRIME_MOVIES_URL)=>{
+    const clean=cleanPrimeTitle(title);
+    if(!isPrimeNoise(clean)) candidates.push({title:clean,url});
+  };
+
+  // 1) Visible card links: most stable when Prime server-renders the carousel.
+  const anchorRe=/<a\b([^>]*?)href=["']([^"']+)["']([^>]*)>([\s\S]*?)<\/a>/gi;
   let m;
-  while((m=anchorRe.exec(section))&&candidates.length<40){
+  while((m=anchorRe.exec(section))&&candidates.length<80){
+    const href=m[2];
+    if(!/(?:\/detail\/|\/gp\/video\/detail\/|\/region\/[^/]+\/detail\/)/i.test(href)) continue;
     const attrs=`${m[1]} ${m[3]}`;
     const inner=m[4];
     const aria=(attrs.match(/aria-label=["']([^"']+)["']/i)||[])[1];
-    const alt=(inner.match(/alt=["']([^"']+)["']/i)||[])[1];
-    const text=stripTags(inner);
-    const title=[aria,alt,text].find(validPublicTitle);
-    if(title)candidates.push({title:stripTags(title),url:m[2].startsWith('http')?m[2]:`https://www.primevideo.com${m[2]}`});
+    const alt=(inner.match(/<img\b[^>]*alt=["']([^"']+)["']/i)||[])[1];
+    const headings=[...inner.matchAll(/<h[1-6]\b[^>]*>([\s\S]*?)<\/h[1-6]>/gi)].map(x=>x[1]);
+    const url=href.startsWith('http')?href:`https://www.primevideo.com${href}`;
+    [aria,...headings,alt].filter(Boolean).forEach(v=>add(v,url));
   }
-  const altRe=/<img\b[^>]*alt=["']([^"']+)["'][^>]*>/gi;
-  while((m=altRe.exec(section))&&candidates.length<80){if(validPublicTitle(m[1]))candidates.push({title:stripTags(m[1]),url:PRIME_MOVIES_URL});}
-  const jsonRes=[/\\?"title\\?"\s*:\s*\\?"([^"\\]{2,120})\\?"/gi,/\\?"displayTitle\\?"\s*:\s*\\?"([^"\\]{2,120})\\?"/gi];
-  for(const re of jsonRes){while((m=re.exec(section))&&candidates.length<120){const value=m[1].replace(/\\u0026/g,'&').replace(/\\"/g,'"');if(validPublicTitle(value))candidates.push({title:stripTags(value),url:PRIME_MOVIES_URL});}}
+
+  // 2) Heading text used by Prime cards even where the outer anchor is hydrated client-side.
+  const headingRe=/<h[2-6]\b[^>]*>([\s\S]*?)<\/h[2-6]>/gi;
+  while((m=headingRe.exec(section))&&candidates.length<120) add(m[1]);
+
+  // 3) Image alt/aria labels.
+  const labelRes=[/\balt=["']([^"']+)["']/gi,/\baria-label=["']([^"']+)["']/gi];
+  for(const re of labelRes){while((m=re.exec(section))&&candidates.length<180)add(m[1]);}
+
+  // 4) Prime regularly moves card data into hydration JSON. Accept several title keys.
+  const jsonKeys=['title','displayTitle','heading','headline','ariaLabel','altText'];
+  for(const key of jsonKeys){
+    const re=new RegExp(`(?:\\\\?"${key}\\\\?"|"${key}")\\s*:\\s*(?:\\\\?"|\")((?:\\\\.|[^"\\\\]){2,160})(?:\\\\?"|\")`,'gi');
+    while((m=re.exec(section))&&candidates.length<260)add(m[1]);
+  }
+
   return uniqueItems(candidates);
 }
 async function fetchOfficialPrimeMovies() {
-  const html=await fetchText(PRIME_MOVIES_URL);
-  const candidates=extractPrimeCandidateTitles(primeSection(html));
+  const html=await fetchText(PRIME_MOVIES_URL,{
+    'user-agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+    'accept':'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
+    'accept-language':'en-GB,en;q=0.9'
+  });
+  const section=primeSection(html);
+  const candidates=extractPrimeCandidateTitles(section);
   const items=candidates.slice(0,10).map((item,i)=>({rank:i+1,title:item.title,year:null,poster:null,url:item.url||PRIME_MOVIES_URL,trend:null,trendDifference:0,daysInTop10:null,topRank:null}));
-  if(items.length<10) throw new Error(`Prime public chart parser returned only ${items.length} titles`);
+  if(items.length<10) {
+    console.warn('Prime candidates found:', candidates.slice(0,20).map(x=>x.title).join(' | '));
+    throw new Error(`Prime public chart parser returned only ${items.length} titles`);
+  }
   return items;
 }
 async function fetchOfficialNetflix() {
@@ -258,7 +304,7 @@ async function enrichOfficial(official, fallback=[], objectType) {
 }
 
 let previous={}; try{previous=JSON.parse(await readFile('data/rankings.json','utf8'));}catch{}
-const output={version:4,generatedAt:new Date().toISOString(),country:'GB',strategy:'Official source first; labelled fallback when no compatible official chart is available.',services:{}};
+const output={version:5,generatedAt:new Date().toISOString(),country:'GB',strategy:'Official source first; labelled fallback when no compatible official chart is available.',services:{}};
 const packageData=await gql(PACKAGES_QUERY,{country:'GB',platform:'WEB'}); const packages=packageData?.packages||[];
 let netflixOfficial=null; try{netflixOfficial=await fetchOfficialNetflix(); console.log(`Netflix official week ${netflixOfficial.week}`);}catch(err){console.error('Netflix official:',err.message);}
 let primeMoviesOfficial=null; try{primeMoviesOfficial=await fetchOfficialPrimeMovies(); console.log(`Prime official movies: ${primeMoviesOfficial.length}`);}catch(err){console.error('Prime official movies:',err.message);}

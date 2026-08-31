@@ -51,21 +51,60 @@ async function fetchRankings() {
   throw lastError || new Error('Ranking feed could not be loaded');
 }
 
+function selectService(index, {scroll = true, animate = null} = {}) {
+  const wrapped = (index + SERVICES.length) % SERVICES.length;
+  state.service = SERVICES[wrapped];
+  const buttons = [...document.querySelectorAll('.service-tab')];
+  buttons.forEach(button => button.classList.toggle('active', button.dataset.service === state.service.id));
+  const active = buttons.find(button => button.dataset.service === state.service.id);
+  if (scroll && active) active.scrollIntoView({behavior:'smooth', block:'nearest', inline:'center'});
+  const wrap = document.querySelector('.chart-wrap');
+  if (wrap && animate) {
+    wrap.classList.remove('swipe-next','swipe-prev');
+    void wrap.offsetWidth;
+    wrap.classList.add(animate);
+    setTimeout(() => wrap.classList.remove('swipe-next','swipe-prev'), 180);
+  }
+  renderCurrent();
+}
+
 function initTabs() {
-  SERVICES.forEach(service => {
+  SERVICES.forEach((service, index) => {
     const button = document.createElement('button');
     button.className = `service-tab ${service.tone}`;
     button.type = 'button';
     button.textContent = service.name;
     button.dataset.service = service.id;
-    button.addEventListener('click', () => {
-      state.service = service;
-      document.querySelectorAll('.service-tab').forEach(x => x.classList.toggle('active', x === button));
-      renderCurrent();
-    });
+    button.addEventListener('click', () => selectService(index, {scroll:false}));
     els.tabs.appendChild(button);
   });
   els.tabs.firstElementChild?.classList.add('active');
+}
+
+function initProviderSwipe() {
+  const target = document.querySelector('.chart-wrap');
+  if (!target) return;
+  let startX = 0, startY = 0, tracking = false;
+  target.addEventListener('touchstart', event => {
+    if (event.touches.length !== 1) return;
+    const touch = event.touches[0];
+    // Avoid fighting Android/Chrome's edge-back gesture.
+    if (touch.clientX < 24 || touch.clientX > window.innerWidth - 24) return;
+    startX = touch.clientX; startY = touch.clientY; tracking = true;
+  }, {passive:true});
+  target.addEventListener('touchend', event => {
+    if (!tracking || event.changedTouches.length !== 1) return;
+    tracking = false;
+    const touch = event.changedTouches[0];
+    const dx = touch.clientX - startX;
+    const dy = touch.clientY - startY;
+    if (Math.abs(dx) < 55 || Math.abs(dx) < Math.abs(dy) * 1.25) return;
+    const current = SERVICES.findIndex(service => service.id === state.service.id);
+    // Requested interaction: swipe RIGHT = next provider, LEFT = previous.
+    if (dx > 0) selectService(current + 1, {animate:'swipe-next'});
+    else selectService(current - 1, {animate:'swipe-prev'});
+  }, {passive:true});
+  target.addEventListener('touchcancel', () => { tracking = false; }, {passive:true});
 }
 
 function posterUrl(raw) {
@@ -226,4 +265,5 @@ window.addEventListener('resize', () => fitSingleLine(els.chartTitle));
 if ('serviceWorker' in navigator) window.addEventListener('load', () => navigator.serviceWorker.register('./sw.js').catch(console.warn));
 
 initTabs();
+initProviderSwipe();
 loadData();
