@@ -1,20 +1,13 @@
-WOZZAWATCH — CLEAN MASTER BUILD (v4.0)
+WOZZAWATCH v4.6
 
-Upload/replace the files in this package in your GitHub repository.
+Quickest route:
+1. Replace root update-data.mjs
+2. Replace root index.html and sw.js (for visible v4.6/cache confirmation)
+3. Commit changes
+4. GitHub Actions > Update WozzaWatch rankings > Run workflow
+5. When it succeeds, data/rankings.json will be updated automatically
 
-IMPORTANT WORKFLOW PATH
-The workflow must live at:
+Do NOT manually edit data/rankings.json.
+
+If replacing the whole package, workflow belongs at:
 .github/workflows/update-rankings.yml
-
-A visible duplicate called WORKFLOW-UPDATE-RANKINGS.yml is included only to make mobile uploads easier. If your phone hides the .github folder, upload that visible file and rename/move it in GitHub to:
-.github/workflows/update-rankings.yml
-
-After upload, changing update-data.mjs will automatically trigger the rankings workflow. You can also run "Update WozzaWatch rankings" manually once to verify it turns green.
-
-DATA SOURCE ORDER
-- Netflix Movies + TV: official Netflix UK chart first.
-- Prime Movies: public Prime Video UK Top 10 movies first; JustWatch fallback if the public page cannot be parsed safely.
-- Apple Movies + TV: public Apple TV UK Most Popular Now charts first; JustWatch fallback if the public page cannot be parsed safely.
-- Disney / HBO / BBC / ITV and Prime TV: JustWatch fallback unless a compatible public official Movies/TV chart is available.
-
-All source badges are clickable and identify the source used.

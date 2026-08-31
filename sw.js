@@ -1,5 +1,5 @@
-const CACHE='wozzawatch-v4.5';
-const ASSETS=['./','./index.html','./styles.css?v=4.5','./app.js?v=4.5','./manifest.webmanifest','./icon.svg'];
+const CACHE='wozzawatch-v4.6';
+const ASSETS=['./','./index.html','./styles.css?v=4.6','./app.js?v=4.6','./manifest.webmanifest','./icon.svg'];
 self.addEventListener('install',event=>{self.skipWaiting();event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(ASSETS)))});
 self.addEventListener('activate',event=>event.waitUntil(Promise.all([self.clients.claim(),caches.keys().then(keys=>Promise.all(keys.filter(key=>key!==CACHE).map(key=>caches.delete(key))))])));
 self.addEventListener('fetch',event=>{

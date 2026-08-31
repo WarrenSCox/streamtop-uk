@@ -59,7 +59,7 @@ async function fetchText(url, extraHeaders = {}) {
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), 30000);
   try {
-    const res = await fetch(url, { headers:{'user-agent':'WozzaWatch/4.4 (+GitHub Actions)',...extraHeaders}, signal:controller.signal });
+    const res = await fetch(url, { headers:{'user-agent':'WozzaWatch/4.6 (+GitHub Actions)',...extraHeaders}, signal:controller.signal });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     return await res.text();
   } finally { clearTimeout(timeout); }
@@ -69,7 +69,7 @@ async function gql(query, variables) {
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), 20000);
   try {
-    const res = await fetch(ENDPOINT, { method:'POST', headers:{'content-type':'application/json','accept':'application/json','user-agent':'WozzaWatch/4.4 (+GitHub Actions)'}, body:JSON.stringify({query,variables}), signal:controller.signal });
+    const res = await fetch(ENDPOINT, { method:'POST', headers:{'content-type':'application/json','accept':'application/json','user-agent':'WozzaWatch/4.6 (+GitHub Actions)'}, body:JSON.stringify({query,variables}), signal:controller.signal });
     if (!res.ok) throw new Error(`JustWatch HTTP ${res.status}`);
     const body = await res.json();
     if (body.errors?.length) throw new Error(body.errors.map(e=>e.message).join('; '));
@@ -98,14 +98,42 @@ async function fetchJustWatch(pkg, objectType) {
   for (const packageCode of packageCandidates(pkg)) {
     try {
       const data=await gql(CHART_QUERY,{chartCountry:'GB',country:'GB',language:'en',first:10,filter:{category:'DAILY_POPULARITY_SAME_CONTENT_TYPE',objectType,packages:[packageCode]}});
-      const items=mapChartEdges(data?.streamingCharts?.edges||[]);
-      if(items.length) return {items,mode:'justwatch-daily',packageCode};
+      const chartItems=mapChartEdges(data?.streamingCharts?.edges||[]);
+
+      // Some providers (notably ITVX) only expose a Top 5 through the
+      // streamingCharts field. Keep those ranked items first, then backfill
+      // the remaining places from JustWatch UK's provider popularity list.
+      if(chartItems.length>=10) return {items:chartItems.slice(0,10),mode:'justwatch-daily',packageCode};
+
+      let popularItems=[];
+      try {
+        const popular=await gql(POPULAR_QUERY,{country:'GB',language:'en',first:20,filter:{objectTypes:[objectType],packages:[packageCode],monetizationTypes:['FLATRATE','ADS','FREE']}});
+        popularItems=mapPopularEdges(popular?.popularTitles?.edges||[]);
+      } catch(err) {
+        lastError=err;
+      }
+
+      const merged=[];
+      const seen=new Set();
+      for(const item of [...chartItems,...popularItems]){
+        const key=norm(item.title);
+        if(!key||seen.has(key)) continue;
+        seen.add(key);
+        merged.push({...item,rank:merged.length+1});
+        if(merged.length===10) break;
+      }
+      if(merged.length) {
+        console.log(`JustWatch ${pkg?.clearName||''} ${objectType}: ${chartItems.length} chart + ${Math.max(0,merged.length-chartItems.length)} popularity backfill = ${merged.length}`);
+        return {items:merged,mode:chartItems.length?'justwatch-daily+popular':'justwatch-popular',packageCode};
+      }
     } catch(err){lastError=err;}
   }
+
+  // Final popularity-only pass in case streamingCharts itself errors.
   for (const packageCode of packageCandidates(pkg)) {
     try {
-      const data=await gql(POPULAR_QUERY,{country:'GB',language:'en',first:10,filter:{objectTypes:[objectType],packages:[packageCode],monetizationTypes:['FLATRATE','ADS','FREE']}});
-      const items=mapPopularEdges(data?.popularTitles?.edges||[]);
+      const data=await gql(POPULAR_QUERY,{country:'GB',language:'en',first:20,filter:{objectTypes:[objectType],packages:[packageCode],monetizationTypes:['FLATRATE','ADS','FREE']}});
+      const items=mapPopularEdges(data?.popularTitles?.edges||[]).slice(0,10).map((x,i)=>({...x,rank:i+1}));
       if(items.length) return {items,mode:'justwatch-popular',packageCode};
     } catch(err){lastError=err;}
   }
@@ -162,29 +190,41 @@ async function fetchOfficialApple(url, objectType) {
   if(deduped.length<10) throw new Error(`Apple public chart parser returned only ${deduped.length} titles`);
   return deduped;
 }
-function primeSection(html) {
-  // Prime's public page is rendered in several different shapes (SSR HTML,
-  // hydration JSON and escaped HTML). Anchor the parser to the UK Top 10
-  // heading, then only inspect the following chunk.
-  const decoded = String(html)
+function decodePrimePayload(value='') {
+  return String(value)
     .replace(/\\u003c/gi,'<').replace(/\\u003e/gi,'>')
     .replace(/\\u0026/gi,'&').replace(/\\u0027/gi,"'")
     .replace(/\\u0022/gi,'"').replace(/\\\//g,'/');
-  const markers=['Top 10 movies in the UK','Top 10 Movies in the UK'];
-  let idx=-1;
-  for(const marker of markers){idx=decoded.toLowerCase().indexOf(marker.toLowerCase()); if(idx>=0)break;}
-  if(idx<0) throw new Error('Prime UK Top 10 heading was not found');
-  return decoded.slice(idx,idx+650000);
+}
+function primeSection(payload) {
+  const decoded=decodePrimePayload(payload);
+  const marker=/Top\s*10\s*movies\s*in\s*the\s*UK/i.exec(decoded);
+  if(!marker) throw new Error('Prime UK Top 10 heading was not found');
+  return decoded.slice(marker.index,marker.index+700000);
 }
 function cleanPrimeTitle(value='') {
-  return stripTags(String(value)
-    .replace(/\\u0026/gi,'&').replace(/\\u0027/gi,"'")
-    .replace(/\\u0022/gi,'"').replace(/\\"/g,'"').replace(/\\'/g,"'"));
+  return stripTags(decodePrimePayload(String(value)).replace(/\\"/g,'"').replace(/\\'/g,"'"));
 }
 function isPrimeNoise(value='') {
   const v=cleanPrimeTitle(value).trim();
   if(!validPublicTitle(v)) return true;
-  return /^(?:new movie|deal|most liked|recently added|top 10|trending|prime|included with prime|watch now|watch with a free prime trial|more details|rent|buy|play|continue watching|movies|top 10 movies in the uk)$/i.test(v);
+  return /^(?:image|new movie|deal|most liked|recently added|top 10|trending|prime|prime video|included with prime|watch now|watch with a free prime trial|more details|rent|buy|play|continue watching|movies|top 10 movies in the uk|featured originals and exclusives movies|see more)$/i.test(v);
+}
+function extractPrimeReadableTitles(section) {
+  // Handles markdown/readability output as well as text stripped from HTML.
+  const lines=decodePrimePayload(section).split(/\r?\n/).map(x=>cleanPrimeTitle(x.replace(/^\s*(?:[-*•]|\d+[.)])\s*/, '').replace(/^#{1,6}\s*/,''))).filter(Boolean);
+  const out=[];
+  const seen=new Set();
+  for(const line of lines){
+    if(isPrimeNoise(line)) continue;
+    if(/^(?:available to|suitable for|watch with|leaving soon|top-rated|documentaries|paranormal screams)/i.test(line)) continue;
+    const key=norm(line);
+    if(!key||seen.has(key)) continue;
+    seen.add(key);
+    out.push({title:line,url:PRIME_MOVIES_URL});
+    if(out.length===10) break;
+  }
+  return out;
 }
 function extractPrimeCandidateTitles(section) {
   const candidates=[];
@@ -193,10 +233,10 @@ function extractPrimeCandidateTitles(section) {
     if(!isPrimeNoise(clean)) candidates.push({title:clean,url});
   };
 
-  // 1) Visible card links: most stable when Prime server-renders the carousel.
+  // 1) Visible card links.
   const anchorRe=/<a\b([^>]*?)href=["']([^"']+)["']([^>]*)>([\s\S]*?)<\/a>/gi;
   let m;
-  while((m=anchorRe.exec(section))&&candidates.length<80){
+  while((m=anchorRe.exec(section))&&candidates.length<100){
     const href=m[2];
     if(!/(?:\/detail\/|\/gp\/video\/detail\/|\/region\/[^/]+\/detail\/)/i.test(href)) continue;
     const attrs=`${m[1]} ${m[3]}`;
@@ -208,41 +248,81 @@ function extractPrimeCandidateTitles(section) {
     [aria,...headings,alt].filter(Boolean).forEach(v=>add(v,url));
   }
 
-  // 2) Heading text used by Prime cards even where the outer anchor is hydrated client-side.
+  // 2) Heading text / labels.
   const headingRe=/<h[2-6]\b[^>]*>([\s\S]*?)<\/h[2-6]>/gi;
-  while((m=headingRe.exec(section))&&candidates.length<120) add(m[1]);
-
-  // 3) Image alt/aria labels.
-  const labelRes=[/\balt=["']([^"']+)["']/gi,/\baria-label=["']([^"']+)["']/gi];
-  for(const re of labelRes){while((m=re.exec(section))&&candidates.length<180)add(m[1]);}
-
-  // 4) Prime regularly moves card data into hydration JSON. Accept several title keys.
-  const jsonKeys=['title','displayTitle','heading','headline','ariaLabel','altText'];
-  for(const key of jsonKeys){
-    const re=new RegExp(`(?:\\\\?"${key}\\\\?"|"${key}")\\s*:\\s*(?:\\\\?"|\")((?:\\\\.|[^"\\\\]){2,160})(?:\\\\?"|\")`,'gi');
-    while((m=re.exec(section))&&candidates.length<260)add(m[1]);
+  while((m=headingRe.exec(section))&&candidates.length<160) add(m[1]);
+  for(const re of [/\balt=["']([^"']+)["']/gi,/\baria-label=["']([^"']+)["']/gi]){
+    while((m=re.exec(section))&&candidates.length<220)add(m[1]);
   }
 
-  return uniqueItems(candidates);
+  // 3) Hydration JSON.
+  for(const key of ['title','displayTitle','heading','headline','ariaLabel','altText']){
+    const re=new RegExp(`(?:\\\\?"${key}\\\\?"|"${key}")\\s*:\\s*(?:\\\\?"|")((?:\\\\.|[^"\\\\]){2,160})(?:\\\\?"|")`,'gi');
+    while((m=re.exec(section))&&candidates.length<320)add(m[1]);
+  }
+
+  const htmlCandidates=uniqueItems(candidates);
+  if(htmlCandidates.length>=10) return htmlCandidates;
+
+  // 4) Last-resort readable-text extraction from the same official section.
+  const readable=extractPrimeReadableTitles(section.replace(/<[^>]+>/g,'\n'));
+  return uniqueItems([...htmlCandidates,...readable]);
+}
+
+const PRIME_DIRECT_URLS = [
+  'https://www.primevideo.com/movie/ref=atv_hom_Marqueetvuk_c_9zZ8D2_hom?tr=gb&language=en_GB',
+  'https://www.primevideo.com/movie/ref=atv_hom_Marqueetvuk_c_9zZ8D2_hom?tr=gb',
+  'https://www.primevideo.com/movie?tr=gb&language=en_GB'
+];
+function primeItemsFromPayload(payload, transport='direct') {
+  const section=primeSection(payload);
+  const candidates=extractPrimeCandidateTitles(section);
+  console.log(`Prime ${transport}: ${candidates.length} candidate titles; first: ${candidates.slice(0,12).map(x=>x.title).join(' | ')}`);
+  const items=candidates.slice(0,10).map((item,i)=>({rank:i+1,title:item.title,year:null,poster:null,url:item.url||PRIME_MOVIES_URL,trend:null,trendDifference:0,daysInTop10:null,topRank:null}));
+  if(items.length<10) throw new Error(`Prime ${transport} parser returned only ${items.length} titles`);
+  return items;
 }
 async function fetchOfficialPrimeMovies() {
-  const html=await fetchText(PRIME_MOVIES_URL,{
+  const headers={
     'user-agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
     'accept':'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
     'accept-language':'en-GB,en;q=0.9',
-    // Encourage Prime to serve the same UK/English storefront seen by a UK browser.
     'cookie':'lc-main=en_GB; i18n-prefs=GBP',
     'referer':'https://www.primevideo.com/'
-  });
-  const section=primeSection(html);
-  const candidates=extractPrimeCandidateTitles(section);
-  const items=candidates.slice(0,10).map((item,i)=>({rank:i+1,title:item.title,year:null,poster:null,url:item.url||PRIME_MOVIES_URL,trend:null,trendDifference:0,daysInTop10:null,topRank:null}));
-  if(items.length<10) {
-    console.warn('Prime candidates found:', candidates.slice(0,20).map(x=>x.title).join(' | '));
-    throw new Error(`Prime public chart parser returned only ${items.length} titles`);
+  };
+  const errors=[];
+
+  // Try Prime directly first.
+  for(const url of PRIME_DIRECT_URLS){
+    try{
+      const html=await fetchText(url,headers);
+      console.log(`Prime direct fetch: ${url} (${html.length} chars, UK heading=${/Top\s*10\s*movies\s*in\s*the\s*UK/i.test(decodePrimePayload(html))})`);
+      return primeItemsFromPayload(html,'direct');
+    }catch(err){
+      errors.push(`direct: ${err.message}`);
+      console.warn(`Prime direct attempt failed: ${err.message}`);
+    }
   }
-  return items;
+
+  // GitHub-hosted runners can receive a geolocated/personalised Prime shell
+  // without the UK carousel. As a transport fallback, ask Jina Reader to
+  // render the same PUBLIC OFFICIAL Prime UK page into stable readable text.
+  // The ranking provenance remains Prime Video; the source link shown in the
+  // app still points directly to Prime's UK page.
+  for(const officialUrl of PRIME_DIRECT_URLS.slice(0,2)){
+    const readerUrl=`https://r.jina.ai/${officialUrl}`;
+    try{
+      const text=await fetchText(readerUrl,{'accept':'text/plain','user-agent':'WozzaWatch/4.6 (+GitHub Actions)'});
+      console.log(`Prime reader fetch: ${text.length} chars, UK heading=${/Top\s*10\s*movies\s*in\s*the\s*UK/i.test(text)}`);
+      return primeItemsFromPayload(text,'reader');
+    }catch(err){
+      errors.push(`reader: ${err.message}`);
+      console.warn(`Prime reader attempt failed: ${err.message}`);
+    }
+  }
+  throw new Error(errors.join(' | ')||'Prime UK chart unavailable');
 }
+
 async function fetchOfficialNetflix() {
   const rows=parseTsv(await fetchText(NETFLIX_TSV)).filter(r=>r.country_iso2==='GB');
   if(!rows.length) throw new Error('No UK rows in Netflix dataset');
@@ -307,7 +387,7 @@ async function enrichOfficial(official, fallback=[], objectType) {
 }
 
 let previous={}; try{previous=JSON.parse(await readFile('data/rankings.json','utf8'));}catch{}
-const output={version:5,generatedAt:new Date().toISOString(),country:'GB',strategy:'Official source first; labelled fallback when no compatible official chart is available.',services:{}};
+const output={version:6,generatedAt:new Date().toISOString(),country:'GB',strategy:'Official source first; labelled fallback when no compatible official chart is available.',services:{}};
 const packageData=await gql(PACKAGES_QUERY,{country:'GB',platform:'WEB'}); const packages=packageData?.packages||[];
 let netflixOfficial=null; try{netflixOfficial=await fetchOfficialNetflix(); console.log(`Netflix official week ${netflixOfficial.week}`);}catch(err){console.error('Netflix official:',err.message);}
 let primeMoviesOfficial=null; try{primeMoviesOfficial=await fetchOfficialPrimeMovies(); console.log(`Prime official movies: ${primeMoviesOfficial.length}`);}catch(err){console.error('Prime official movies:',err.message);}
