@@ -6,8 +6,7 @@ const PRIME_MOVIES_URL = 'https://www.primevideo.com/movie/ref%3Datv_hom_Marquee
 const APPLE_MOVIES_URL = 'https://tv.apple.com/gb/collection/most-popular-now/uts.col.ChartsMovies.tvs.sbd.4000';
 const APPLE_TV_URL = 'https://tv.apple.com/gb/collection/most-popular-now/uts.col.ChartsShows.tvs.sbd.4000';
 const UK_CINEMA_URL = 'https://www.cinemauk.org.uk/the-industry/facts-and-figures/latest-uk-cinema-statistics/weekend-top-10-box-office/';
-const US_CINEMA_URL = 'https://movies.comscore.com/';
-const US_CINEMA_FALLBACK_URL = 'https://www.the-numbers.com/weekend-box-office-chart';
+const US_CINEMA_URL = 'https://www.imdb.com/chart/boxoffice/?ref_=ext_shr_lnk';
 const SERVICES = [
   { id:'netflix', name:'Netflix', aliases:['Netflix'] },
   { id:'prime', name:'Prime Video', aliases:['Amazon Prime Video','Prime Video'] },
@@ -522,58 +521,123 @@ async function fetchOfficialUKCinema() {
   return unique;
 }
 
-function parseComscoreDomestic(html='') {
-  const rows=tableRows(html);
-  const fromTable=[];
-  for(const cells of rows){
-    const rank=Number(cells[0]);
-    if(!Number.isInteger(rank)||rank<1||rank>10) continue;
-    const moneyIndex=cells.findIndex((x,i)=>i>0 && /^\$[\d,.]+(?:[KMB])?$/i.test(x.replace(/\s/g,'')));
-    if(moneyIndex<2) continue;
-    const title=cells[1]?.trim();
-    if(title) fromTable.push({rank,title,weekendGrossText:cells[moneyIndex],url:US_CINEMA_URL});
-  }
-  if(fromTable.length>=10) return fromTable.sort((a,b)=>a.rank-b.rank).slice(0,10);
-
-  const lines=htmlLines(html);
-  const start=lines.findIndex(x=>/^Domestic Box Office$/i.test(x));
-  if(start<0) return [];
-  const out=[];
-  for(let i=start+1;i<Math.min(lines.length,start+100);i++){
-    if(!/^(?:[1-9]|10)$/.test(lines[i])) continue;
-    const rank=Number(lines[i]);
-    const title=lines[i+1];
-    const studio=lines[i+2];
-    const gross=lines[i+3];
-    if(!title || !studio || !/^\$/.test(gross||'')) continue;
-    if(title.length>120 || /^(Worldwide|Domestic) Box Office/i.test(title)) continue;
-    out.push({rank,title,weekendGrossText:gross,url:US_CINEMA_URL});
-  }
-  return [...new Map(out.map(x=>[x.rank,x])).values()].sort((a,b)=>a.rank-b.rank).slice(0,10);
+function cleanImdbTitle(value='') {
+  return cleanCell(value)
+    .replace(/^\s*(?:10|[1-9])\s*[.\-)]\s*/, '')
+    .replace(/\s+/g,' ')
+    .trim();
 }
-
-async function fetchOfficialUSCinema() {
-  const html=await fetchText(US_CINEMA_URL, {'accept-language':'en-US,en;q=0.9'});
-  const items=parseComscoreDomestic(html);
-  if(items.length!==10) throw new Error(`Comscore/Rentrak public page exposed ${items.length}/10 domestic chart rows`);
-  return items;
+function validImdbChartTitle(value='') {
+  const v=cleanImdbTitle(value);
+  if(!v || v.length<1 || v.length>140) return false;
+  return !/^(?:IMDb Charts|Top box office \(US\)|Weekend of|Weekend Gross|Total Gross|Weeks Released|Rate|Mark as watched|10 Titles|Share)$/i.test(v);
 }
-
-async function fetchUSCinemaFallback() {
-  const html=await fetchText(US_CINEMA_FALLBACK_URL, {'accept-language':'en-US,en;q=0.9'});
-  const rows=tableRows(html);
+function imdbTitleUrl(href='') {
+  if(!href) return US_CINEMA_URL;
+  const decoded=decodeEntities(href);
+  if(/^https?:\/\//i.test(decoded)) return decoded;
+  if(decoded.startsWith('/title/')) return `https://www.imdb.com${decoded.split('?')[0]}`;
+  return US_CINEMA_URL;
+}
+function parseImdbBoxOfficeHtml(html='') {
   const out=[];
-  for(const cells of rows){
-    const rank=Number(cells[0]);
-    if(!Number.isInteger(rank)||rank<1||rank>10||cells.length<3) continue;
-    const title=(cells[2]||cells[1]||'').trim();
-    const grossCell=cells.find(x=>/^\$[\d,.]+/.test((x||'').replace(/\s/g,'')));
-    if(!title) continue;
-    out.push({rank,title,weekendGross:moneyValue(grossCell),url:US_CINEMA_FALLBACK_URL});
+  const add=(rank,title,url=US_CINEMA_URL)=>{
+    rank=Number(rank);
+    title=cleanImdbTitle(title);
+    if(!Number.isInteger(rank)||rank<1||rank>10||!validImdbChartTitle(title)) return;
+    if(out.some(x=>x.rank===rank || norm(x.title)===norm(title))) return;
+    out.push({rank,title,url:imdbTitleUrl(url)});
+  };
+
+  // IMDb's current chart renders numbered h3 headings such as
+  // <h3 class="ipc-title__text">1. Movie title</h3> inside a /title/ link.
+  let m;
+  const linkedHeading=/<a\b[^>]*href=["']([^"']*\/title\/tt\d+[^"']*)["'][^>]*>[\s\S]{0,1800}?<h3\b[^>]*>([\s\S]*?)<\/h3>/gi;
+  while((m=linkedHeading.exec(html))){
+    const text=cleanCell(m[2]);
+    const mm=text.match(/^\s*(10|[1-9])\s*[.\-)]\s*(.+)$/);
+    if(mm) add(mm[1],mm[2],m[1]);
   }
-  const unique=[...new Map(out.map(x=>[x.rank,x])).values()].sort((a,b)=>a.rank-b.rank).slice(0,10);
-  if(unique.length!==10) throw new Error(`The Numbers returned ${unique.length}/10 chart rows`);
-  return unique;
+
+  // Some IMDb responses put the heading before the title link or omit the
+  // surrounding anchor in the SSR markup. Capture numbered h3 text as well.
+  const heading=/<h3\b[^>]*>([\s\S]*?)<\/h3>/gi;
+  while((m=heading.exec(html))){
+    const text=cleanCell(m[1]);
+    const mm=text.match(/^\s*(10|[1-9])\s*[.\-)]\s*(.+)$/);
+    if(mm) add(mm[1],mm[2]);
+  }
+
+  // JSON/SSR fallback: titleText is common in IMDb's embedded page data.
+  const jsonTitle=/"titleText"\s*:\s*\{\s*"text"\s*:\s*"((?:\\.|[^"\\])+)"[\s\S]{0,450}?"position"\s*:\s*(10|[1-9])/gi;
+  while((m=jsonTitle.exec(html))){
+    let title=m[1];
+    try{ title=JSON.parse(`"${title}"`); }catch{}
+    add(m[2],title);
+  }
+
+  return out.sort((a,b)=>a.rank-b.rank).slice(0,10);
+}
+function parseImdbReadable(text='') {
+  const lines=decodeEntities(String(text)).split(/\r?\n/).map(x=>x.replace(/^\s*[-*#>]+\s*/,'').replace(/\s+/g,' ').trim()).filter(Boolean);
+  const start=lines.findIndex(x=>/^Top box office \(US\)$/i.test(x));
+  const section=(start>=0?lines.slice(start):lines).slice(0,260);
+  const titles=[];
+  for(let i=0;i<section.length;i++){
+    if(!/^Weekend Gross:\s*\$/i.test(section[i])) continue;
+    // In IMDb's readable page, the film title is the nearest meaningful line
+    // immediately before the Weekend Gross row (possibly after an image alt line).
+    let j=i-1;
+    while(j>=0 && /^(?:Image:|Weekend of|10 Titles|\d+(?:\.\d+)?\s*\(|Mark as watched|Rate)$/i.test(section[j])) j--;
+    const title=section[j];
+    if(validImdbChartTitle(title) && !titles.some(x=>norm(x.title)===norm(title))) {
+      titles.push({rank:titles.length+1,title:cleanImdbTitle(title),url:US_CINEMA_URL});
+      if(titles.length===10) break;
+    }
+  }
+  return titles;
+}
+async function fetchUSCinemaIMDb() {
+  const errors=[];
+  const headers={
+    'user-agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+    'accept':'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
+    'accept-language':'en-US,en;q=0.9'
+  };
+
+  try{
+    const html=await fetchText(US_CINEMA_URL,headers);
+    const items=parseImdbBoxOfficeHtml(html);
+    console.log(`US cinema IMDb direct: ${items.length}/10`);
+    if(items.length===10) return items;
+    errors.push(`direct returned ${items.length}/10`);
+  }catch(err){
+    errors.push(`direct: ${err.message}`);
+    console.warn(`US cinema IMDb direct failed: ${err.message}`);
+  }
+
+  // GitHub-hosted runners can occasionally receive bot/interstitial markup from
+  // IMDb. Jina Reader renders the same public IMDb chart and gives us readable
+  // text; the source remains IMDb, not a substitute chart provider.
+  try{
+    const readerUrl=`https://r.jina.ai/https://www.imdb.com/chart/boxoffice/`;
+    const text=await fetchText(readerUrl,{
+      'accept':'text/plain',
+      'user-agent':'WozzaWatch/4.8.1 (+GitHub Actions)',
+      'x-engine':'browser',
+      'x-no-cache':'true',
+      'x-timeout':'20'
+    });
+    const items=parseImdbReadable(text);
+    console.log(`US cinema IMDb reader: ${items.length}/10`);
+    if(items.length===10) return items;
+    errors.push(`reader returned ${items.length}/10`);
+  }catch(err){
+    errors.push(`reader: ${err.message}`);
+    console.warn(`US cinema IMDb reader failed: ${err.message}`);
+  }
+
+  throw new Error(errors.join(' | ') || 'IMDb US box-office chart unavailable');
 }
 
 async function lookupTitleMetadata(title, objectType) {
@@ -620,15 +684,14 @@ async function enrichOfficial(official, fallback=[], objectType) {
 }
 
 let previous={}; try{previous=JSON.parse(await readFile('data/rankings.json','utf8'));}catch{}
-const output={version:10,generatedAt:new Date().toISOString(),country:'GB',strategy:'Official source first; labelled fallback when no compatible official chart is available.',services:{}};
+const output={version:11,generatedAt:new Date().toISOString(),country:'GB',strategy:'Official source first; labelled fallback when no compatible official chart is available.',services:{}};
 const packageData=await gql(PACKAGES_QUERY,{country:'GB',platform:'WEB'}); const packages=packageData?.packages||[];
 let netflixOfficial=null; try{netflixOfficial=await fetchOfficialNetflix(); console.log(`Netflix official week ${netflixOfficial.week}`);}catch(err){console.error('Netflix official:',err.message);}
 let primeMoviesOfficial=null; try{primeMoviesOfficial=await fetchOfficialPrimeMovies(); console.log(`Prime official movies: ${primeMoviesOfficial.length}`);}catch(err){console.error('Prime official movies:',err.message);}
 let appleMoviesOfficial=null; try{appleMoviesOfficial=await fetchOfficialApple(APPLE_MOVIES_URL,'MOVIE'); console.log(`Apple official movies: ${appleMoviesOfficial.length}`);}catch(err){console.error('Apple official movies:',err.message);}
 let appleTVOfficial=null; try{appleTVOfficial=await fetchOfficialApple(APPLE_TV_URL,'SHOW'); console.log(`Apple official TV: ${appleTVOfficial.length}`);}catch(err){console.error('Apple official TV:',err.message);}
 let ukCinemaOfficial=null; try{ukCinemaOfficial=await fetchOfficialUKCinema(); console.log(`UK cinema official: ${ukCinemaOfficial.length}`);}catch(err){console.error('UK cinema official:',err.message);}
-let usCinemaOfficial=null; try{usCinemaOfficial=await fetchOfficialUSCinema(); console.log(`US cinema official: ${usCinemaOfficial.length}`);}catch(err){console.error('US cinema official:',err.message);}
-let usCinemaFallback=null; if(!usCinemaOfficial){ try{usCinemaFallback=await fetchUSCinemaFallback(); console.log(`US cinema The Numbers fallback: ${usCinemaFallback.length}`);}catch(err){console.error('US cinema fallback:',err.message);} }
+let usCinemaIMDb=null; try{usCinemaIMDb=await fetchUSCinemaIMDb(); console.log(`US cinema IMDb: ${usCinemaIMDb.length}`);}catch(err){console.error('US cinema IMDb:',err.message);}
 
 for(const service of SERVICES){
   const pkg=findPackage(packages,service); const entry={provider:pkg?.clearName||service.name,movies:[],tv:[],sources:{},error:null};
@@ -675,15 +738,12 @@ for(const service of SERVICES){
 {
   const old=previous?.services?.uscinema;
   const entry={provider:'US Cinema',movies:[],tv:[],sources:{},error:null};
-  if(usCinemaOfficial?.length){
-    entry.movies=await enrichOfficial(usCinemaOfficial,[],'MOVIE');
-    entry.sources.movies={kind:'official',label:'Comscore / Rentrak Movies',displayName:'Comscore',url:US_CINEMA_URL,cadence:'weekly',note:'Official domestic weekend box-office estimates from Comscore/Rentrak Movies.'};
-  } else if(usCinemaFallback?.length){
-    entry.movies=await enrichOfficial(usCinemaFallback,[],'MOVIE');
-    entry.sources.movies={kind:'fallback',label:'The Numbers',displayName:'The Numbers',url:US_CINEMA_FALLBACK_URL,cadence:'weekly',note:'Comscore public chart did not expose a complete Top 10, so WozzaWatch used The Numbers weekend domestic chart.'};
-  } else if(Array.isArray(old?.movies)&&old.movies.length){
+  if(usCinemaIMDb?.length){
+    entry.movies=await enrichOfficial(usCinemaIMDb,[],'MOVIE');
+    entry.sources.movies={kind:'fallback',label:'IMDb',displayName:'IMDb',url:US_CINEMA_URL,cadence:'weekly',note:'US weekend box-office Top 10 from IMDb, reported by Box Office Mojo.'};
+  } else if(Array.isArray(old?.movies)&&old.movies.length && /IMDb/i.test(old?.sources?.movies?.label||old?.sources?.movies?.displayName||'')){
     entry.movies=old.movies.map((x,i)=>({...x,rank:i+1})); entry.sources.movies=old.sources?.movies; entry.stale=true;
-  } else entry.error='movies: no ranking available';
+  } else entry.error='movies: no IMDb ranking available';
   output.services.uscinema=entry;
 }
 
