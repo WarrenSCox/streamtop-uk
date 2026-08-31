@@ -321,18 +321,16 @@ function renderTitles(titles) {
     const info = document.createElement('div');
     info.className = 'item-info';
 
-    const title = document.createElement('p');
-    title.className = 'title';
+    const title = document.createElement('a');
+    title.className = 'title title-link';
     title.textContent = item.title || 'Untitled';
+    title.target = '_blank';
+    title.rel = 'noopener';
+    title.href = item.detailsUrl || item.url || justWatchUrl(state.service, state.type);
+    title.dataset.tooltip = 'Click for details';
+    title.setAttribute('aria-label', `${item.title || 'Untitled'} — open details`);
 
-    const details = document.createElement('a');
-    details.className = 'watch';
-    details.textContent = 'Details';
-    details.target = '_blank';
-    details.rel = 'noopener';
-    details.href = item.detailsUrl || item.url || justWatchUrl(state.service, state.type);
-
-    info.append(title, details);
+    info.append(title);
     li.append(rank, visual, info);
     els.chart.appendChild(li);
   });
@@ -371,10 +369,32 @@ function renderCurrent() {
   const fallbackUrl = justWatchUrl(service, state.type);
 
   els.chartTitle.textContent = `${service.name} ${typeLabel}`;
-  els.sourceBadge.textContent = source?.label || 'Source unavailable';
+  const isOfficial = source?.kind === 'official';
+  els.sourceBadge.innerHTML = '';
   els.sourceBadge.href = source?.url || fallbackUrl;
-  els.sourceBadge.setAttribute('aria-label', `Open source: ${source?.label || 'source'}`);
-  els.sourceBadge.className = `source-badge ${source?.kind === 'official' ? 'official' : 'fallback'}`;
+  els.sourceBadge.setAttribute('aria-label', isOfficial ? 'Official stats — open source' : 'Stats from JustWatch — open source');
+  els.sourceBadge.className = `source-badge ${isOfficial ? 'official' : 'fallback'}`;
+
+  const sourceIcon = document.createElement('img');
+  sourceIcon.className = 'source-icon';
+  sourceIcon.alt = '';
+  const iconDomain = isOfficial ? (() => {
+    try { return new URL(source?.url || fallbackUrl).hostname; } catch { return ''; }
+  })() : 'www.justwatch.com';
+  sourceIcon.src = `https://www.google.com/s2/favicons?domain=${encodeURIComponent(iconDomain)}&sz=64`;
+
+  const sourceText = document.createElement('span');
+  sourceText.className = 'source-text';
+  sourceText.textContent = isOfficial ? 'Official Stats' : 'Stats from JustWatch';
+
+  els.sourceBadge.append(sourceIcon, sourceText);
+  if (isOfficial) {
+    const verified = document.createElement('span');
+    verified.className = 'verified-tick';
+    verified.setAttribute('aria-hidden', 'true');
+    verified.textContent = '✓';
+    els.sourceBadge.append(verified);
+  }
   els.fallback.href = source?.url || fallbackUrl;
   els.error.classList.add('hidden');
   els.chart.innerHTML = '';
