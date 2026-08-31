@@ -1,11 +1,11 @@
 const SERVICES = [
-  {id:'netflix', name:'Netflix', slug:'netflix', tone:'brick', domain:'netflix.com'},
-  {id:'prime', name:'Prime', slug:'amazon-prime-video', tone:'blue', domain:'primevideo.com'},
-  {id:'disney', name:'Disney', slug:'disney-plus', tone:'green', domain:'disneyplus.com'},
-  {id:'apple', name:'Apple', slug:'apple-tv-plus', tone:'yellow', domain:'tv.apple.com'},
-  {id:'max', name:'HBO', slug:'hbo-max', tone:'navy', domain:'hbomax.com'},
-  {id:'bbc', name:'BBC', slug:'bbc-iplayer', tone:'blue', domain:'bbc.co.uk'},
-  {id:'itv', name:'ITV', slug:'itvx', tone:'green', domain:'itv.com'}
+  {id:'netflix', name:'Netflix', slug:'netflix', tone:'brick'},
+  {id:'prime', name:'Prime', slug:'amazon-prime-video', tone:'blue'},
+  {id:'disney', name:'Disney', slug:'disney-plus', tone:'green'},
+  {id:'apple', name:'Apple', slug:'apple-tv-plus', tone:'yellow'},
+  {id:'max', name:'HBO', slug:'hbo-max', tone:'navy'},
+  {id:'bbc', name:'BBC', slug:'bbc-iplayer', tone:'blue'},
+  {id:'itv', name:'ITV', slug:'itvx', tone:'green'}
 ];
 
 const state = {service: SERVICES[0], type: 'MOVIE', data: null, installPrompt: null};
@@ -104,15 +104,8 @@ function initTabs() {
     const button = document.createElement('button');
     button.className = `service-tab ${service.tone}`;
     button.type = 'button';
+    button.textContent = service.name;
     button.dataset.service = service.id;
-    button.setAttribute('aria-label', service.name);
-
-    const logo = document.createElement('img');
-    logo.className = 'service-logo';
-    logo.alt = '';
-    logo.src = `https://www.google.com/s2/favicons?domain=${encodeURIComponent(service.domain)}&sz=128`;
-
-    button.appendChild(logo);
     button.addEventListener('click', () => selectService(index, {scroll:false}));
     els.tabs.appendChild(button);
   });
