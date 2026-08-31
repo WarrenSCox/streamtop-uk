@@ -1,11 +1,11 @@
 const SERVICES = [
-  {id:'netflix', name:'Netflix', slug:'netflix', tone:'brick'},
-  {id:'prime', name:'Prime', slug:'amazon-prime-video', tone:'blue'},
-  {id:'disney', name:'Disney', slug:'disney-plus', tone:'green'},
-  {id:'apple', name:'Apple', slug:'apple-tv-plus', tone:'yellow'},
-  {id:'max', name:'HBO', slug:'hbo-max', tone:'navy'},
-  {id:'bbc', name:'BBC', slug:'bbc-iplayer', tone:'blue'},
-  {id:'itv', name:'ITV', slug:'itvx', tone:'green'}
+  {id:'netflix', name:'Netflix', slug:'netflix', tone:'brick', domain:'netflix.com'},
+  {id:'prime', name:'Prime', slug:'amazon-prime-video', tone:'blue', domain:'primevideo.com'},
+  {id:'disney', name:'Disney', slug:'disney-plus', tone:'green', domain:'disneyplus.com'},
+  {id:'apple', name:'Apple', slug:'apple-tv-plus', tone:'yellow', domain:'tv.apple.com'},
+  {id:'max', name:'HBO', slug:'hbo-max', tone:'navy', domain:'hbomax.com'},
+  {id:'bbc', name:'BBC', slug:'bbc-iplayer', tone:'blue', domain:'bbc.co.uk'},
+  {id:'itv', name:'ITV', slug:'itvx', tone:'green', domain:'itv.com'}
 ];
 
 const state = {service: SERVICES[0], type: 'MOVIE', data: null, installPrompt: null};
@@ -104,8 +104,15 @@ function initTabs() {
     const button = document.createElement('button');
     button.className = `service-tab ${service.tone}`;
     button.type = 'button';
-    button.textContent = service.name;
     button.dataset.service = service.id;
+    button.setAttribute('aria-label', service.name);
+
+    const logo = document.createElement('img');
+    logo.className = 'service-logo';
+    logo.alt = '';
+    logo.src = `https://www.google.com/s2/favicons?domain=${encodeURIComponent(service.domain)}&sz=128`;
+
+    button.appendChild(logo);
     button.addEventListener('click', () => selectService(index, {scroll:false}));
     els.tabs.appendChild(button);
   });
@@ -375,19 +382,11 @@ function renderCurrent() {
   els.sourceBadge.setAttribute('aria-label', isOfficial ? 'Official stats — open source' : 'Stats from JustWatch — open source');
   els.sourceBadge.className = `source-badge ${isOfficial ? 'official' : 'fallback'}`;
 
-  const sourceIcon = document.createElement('img');
-  sourceIcon.className = 'source-icon';
-  sourceIcon.alt = '';
-  const iconDomain = isOfficial ? (() => {
-    try { return new URL(source?.url || fallbackUrl).hostname; } catch { return ''; }
-  })() : 'www.justwatch.com';
-  sourceIcon.src = `https://www.google.com/s2/favicons?domain=${encodeURIComponent(iconDomain)}&sz=64`;
-
   const sourceText = document.createElement('span');
   sourceText.className = 'source-text';
   sourceText.textContent = isOfficial ? 'Official Stats' : 'Stats from JustWatch';
 
-  els.sourceBadge.append(sourceIcon, sourceText);
+  els.sourceBadge.append(sourceText);
   if (isOfficial) {
     const verified = document.createElement('span');
     verified.className = 'verified-tick';
