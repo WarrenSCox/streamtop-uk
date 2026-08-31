@@ -1,6 +1,6 @@
 {
   "version": 9,
-  "generatedAt": "2026-08-31T22:36:56.761Z",
+  "generatedAt": "2026-08-31T22:40:55.230Z",
   "country": "GB",
   "strategy": "Official source first; labelled fallback when no compatible official chart is available.",
   "services": {
@@ -695,18 +695,6 @@
         },
         {
           "rank": 9,
-          "sourceRank": 132,
-          "title": "Jurassic World",
-          "year": 2015,
-          "poster": "/poster/124172776/s166/jurassic-world.webp",
-          "url": "https://www.justwatch.com/uk/movie/jurassic-world",
-          "trend": "UP",
-          "trendDifference": 75,
-          "daysInTop10": 95,
-          "topRank": 2
-        },
-        {
-          "rank": 10,
           "sourceRank": 135,
           "title": "Perfect Blue",
           "year": 1998,
@@ -716,6 +704,18 @@
           "trendDifference": -71,
           "daysInTop10": 2,
           "topRank": 8
+        },
+        {
+          "rank": 10,
+          "sourceRank": 143,
+          "title": "Jurassic World",
+          "year": 2015,
+          "poster": "/poster/124172776/s166/jurassic-world.webp",
+          "url": "https://www.justwatch.com/uk/movie/jurassic-world",
+          "trend": "UP",
+          "trendDifference": 64,
+          "daysInTop10": 95,
+          "topRank": 2
         }
       ],
       "tv": [
@@ -1199,30 +1199,18 @@
         },
         {
           "rank": 7,
-          "sourceRank": 28,
+          "sourceRank": 24,
           "title": "Sinners",
           "year": 2025,
           "poster": "/poster/320977032/s166/sinners-2025.webp",
           "url": "https://www.justwatch.com/uk/movie/sinners-2025",
-          "trend": "STABLE",
-          "trendDifference": 0,
+          "trend": "UP",
+          "trendDifference": 4,
           "daysInTop10": 271,
           "topRank": 1
         },
         {
           "rank": 8,
-          "sourceRank": 36,
-          "title": "Weapons",
-          "year": 2025,
-          "poster": "/poster/330423135/s166/weapons-2026.webp",
-          "url": "https://www.justwatch.com/uk/movie/weapons-2026",
-          "trend": "DOWN",
-          "trendDifference": -7,
-          "daysInTop10": 141,
-          "topRank": 1
-        },
-        {
-          "rank": 9,
           "sourceRank": 46,
           "title": "Inception",
           "year": 2010,
@@ -1234,7 +1222,7 @@
           "topRank": 2
         },
         {
-          "rank": 10,
+          "rank": 9,
           "sourceRank": 49,
           "title": "Superman",
           "year": 2025,
@@ -1244,6 +1232,18 @@
           "trendDifference": 61,
           "daysInTop10": 43,
           "topRank": 2
+        },
+        {
+          "rank": 10,
+          "sourceRank": 58,
+          "title": "The Shawshank Redemption",
+          "year": 1994,
+          "poster": "/poster/320935764/s166/the-shawshank-redemption.webp",
+          "url": "https://www.justwatch.com/uk/movie/the-shawshank-redemption",
+          "trend": "UP",
+          "trendDifference": 129,
+          "daysInTop10": 8,
+          "topRank": 4
         }
       ],
       "tv": [
