@@ -1,20 +1,17 @@
-const JW_ENDPOINT = 'https://apis.justwatch.com/graphql';
-
 const SERVICES = [
-  { id:'netflix', name:'Netflix', aliases:['Netflix'], slug:'netflix' },
-  { id:'prime', name:'Prime Video', aliases:['Amazon Prime Video','Prime Video'], slug:'amazon-prime-video' },
-  { id:'disney', name:'Disney+', aliases:['Disney Plus','Disney+'], slug:'disney-plus' },
-  { id:'apple', name:'Apple TV+', aliases:['Apple TV','Apple TV Plus','Apple TV+'], slug:'apple-tv-plus' },
-  { id:'max', name:'HBO Max', aliases:['HBO Max','Max'], slug:'hbo-max' },
-  { id:'bbc', name:'BBC iPlayer', aliases:['BBC iPlayer'], slug:'bbc-iplayer' },
-  { id:'itv', name:'ITVX', aliases:['ITVX','ITV X'], slug:'itvx' },
+  { id:'netflix', name:'Netflix', slug:'netflix' },
+  { id:'prime', name:'Prime Video', slug:'amazon-prime-video' },
+  { id:'disney', name:'Disney+', slug:'disney-plus' },
+  { id:'apple', name:'Apple TV+', slug:'apple-tv-plus' },
+  { id:'max', name:'HBO Max', slug:'hbo-max' },
+  { id:'bbc', name:'BBC iPlayer', slug:'bbc-iplayer' },
+  { id:'itv', name:'ITVX', slug:'itvx' },
 ];
 
 const state = {
   service: SERVICES[0],
   type: 'MOVIE',
-  packages: null,
-  packageMap: new Map(),
+  data: null,
   installPrompt: null,
 };
 
@@ -32,6 +29,38 @@ const els = {
   install: document.querySelector('#installBtn'),
 };
 
+function justWatchUrl(service, type) {
+  return `https://www.justwatch.com/uk/provider/${service.slug}/${type === 'MOVIE' ? 'movies' : 'tv-series'}`;
+}
+
+function dataUrls() {
+  const urls = [];
+  const hostMatch = location.hostname.match(/^([^.]+)\.github\.io$/i);
+  const repo = location.pathname.split('/').filter(Boolean)[0];
+  if (hostMatch && repo) {
+    urls.push(`https://raw.githubusercontent.com/${hostMatch[1]}/${repo}/main/data/rankings.json`);
+  }
+  urls.push('./data/rankings.json');
+  return urls;
+}
+
+async function fetchRankings(force = false) {
+  let lastError;
+  for (const base of dataUrls()) {
+    try {
+      const url = `${base}${base.includes('?') ? '&' : '?'}v=${force ? Date.now() : Math.floor(Date.now()/300000)}`;
+      const res = await fetch(url, { cache:'no-store' });
+      if (!res.ok) throw new Error(`Ranking feed returned ${res.status}`);
+      const body = await res.json();
+      if (!body || !body.services) throw new Error('Ranking feed is not ready yet');
+      return body;
+    } catch (err) {
+      lastError = err;
+    }
+  }
+  throw lastError || new Error('Ranking feed could not be loaded');
+}
+
 function initTabs() {
   SERVICES.forEach(service => {
     const btn = document.createElement('button');
@@ -42,150 +71,91 @@ function initTabs() {
     btn.addEventListener('click', () => {
       state.service = service;
       document.querySelectorAll('.service-tab').forEach(b => b.classList.toggle('active', b === btn));
-      loadChart();
+      renderCurrent();
     });
     els.tabs.appendChild(btn);
   });
   els.tabs.firstElementChild?.classList.add('active');
 }
 
-function justWatchUrl(service, type) {
-  return `https://www.justwatch.com/uk/provider/${service.slug}/${type === 'MOVIE' ? 'movies' : 'tv-series'}`;
-}
-
-async function gql(query, variables) {
-  const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), 12000);
-  try {
-    const res = await fetch(JW_ENDPOINT, {
-      method:'POST',
-      headers:{ 'content-type':'application/json' },
-      body:JSON.stringify({ query, variables }),
-      signal:controller.signal,
-    });
-    if (!res.ok) throw new Error(`Data source returned ${res.status}`);
-    const body = await res.json();
-    if (body.errors?.length) throw new Error(body.errors[0].message || 'Data source error');
-    return body.data;
-  } finally {
-    clearTimeout(timer);
-  }
-}
-
-async function discoverPackages() {
-  if (state.packages) return state.packages;
-  const query = `query ProviderPackages($country: Country!, $platform: Platform!) {
-    packages(country: $country, platform: $platform) {
-      id packageId clearName shortName
-    }
-  }`;
-  const data = await gql(query, { country:'GB', platform:'WEB' });
-  state.packages = data.packages || [];
-  for (const service of SERVICES) {
-    const packageMatch = state.packages.find(p => service.aliases.some(a =>
-      String(p.clearName || '').toLowerCase() === a.toLowerCase()
-    ));
-    if (packageMatch) {
-      // JustWatch's current popularTitles package filter accepts package strings;
-      // prefer shortName and retain id as a fallback candidate.
-      state.packageMap.set(service.id, packageMatch.shortName || packageMatch.id || String(packageMatch.packageId));
-    }
-  }
-  return state.packages;
-}
-
-async function fetchPopularTitles(service, type) {
-  await discoverPackages();
-  const packageCode = state.packageMap.get(service.id);
-  if (!packageCode) throw new Error(`Could not identify ${service.name} in the UK provider list.`);
-
-  const query = `query TopTitles($country: Country!, $language: Language!, $first: Int!, $filter: TitleFilter) {
-    popularTitles(country: $country, first: $first, sortBy: POPULAR, filter: $filter) {
-      edges {
-        node {
-          id
-          objectType
-          ... on Movie {
-            content(country:$country, language:$language) { title originalReleaseYear posterUrl fullPath }
-          }
-          ... on Show {
-            content(country:$country, language:$language) { title originalReleaseYear posterUrl fullPath }
-          }
-        }
-      }
-    }
-  }`;
-
-  const variables = {
-    country:'GB', language:'en', first:10,
-    filter:{ objectTypes:[type], packages:[packageCode], monetizationTypes:['FLATRATE','ADS','FREE'] }
-  };
-
-  let data;
-  try {
-    data = await gql(query, variables);
-  } catch (err) {
-    // Some provider package identifiers can vary by schema version. If the discovered shortName
-    // isn't accepted, try the provider id as a compatibility fallback.
-    const pkg = state.packages.find(p => service.aliases.some(a => String(p.clearName||'').toLowerCase() === a.toLowerCase()));
-    if (pkg?.id && pkg.id !== packageCode) {
-      variables.filter.packages = [pkg.id];
-      data = await gql(query, variables);
-    } else throw err;
-  }
-  return (data.popularTitles?.edges || []).slice(0,10).map(e => e.node).filter(Boolean);
-}
-
 function posterUrl(raw) {
   if (!raw) return '';
-  // JustWatch poster URLs commonly include a size placeholder such as {profile}.
-  return raw
-    .replace('{profile}', 's166')
-    .replace('{format}', 'webp')
-    .replace('https://images.justwatch.com', 'https://images.justwatch.com');
+  if (raw.startsWith('//')) return `https:${raw}`;
+  if (raw.startsWith('/')) return `https://images.justwatch.com${raw}`;
+  return raw;
+}
+
+function trendText(item) {
+  if (!item.trend) return '';
+  const amount = Number(item.trendDifference || 0);
+  if (item.trend === 'UP') return amount ? `▲ ${Math.abs(amount)}` : '▲';
+  if (item.trend === 'DOWN') return amount ? `▼ ${Math.abs(amount)}` : '▼';
+  return '—';
 }
 
 function renderTitles(titles) {
   els.chart.innerHTML = '';
-  if (!titles.length) throw new Error('No titles were returned for this chart.');
-  titles.forEach((node, index) => {
-    const c = node.content || {};
+  if (!Array.isArray(titles) || !titles.length) throw new Error('No titles were returned for this chart.');
+  titles.slice(0,10).forEach((item, index) => {
     const li = document.createElement('li');
     li.className = 'chart-item';
 
     const rank = document.createElement('div');
     rank.className = 'rank';
-    rank.textContent = String(index + 1).padStart(2,'0');
+    rank.textContent = String(item.rank || index + 1).padStart(2,'0');
 
-    const img = document.createElement('img');
-    img.className = 'poster';
-    img.alt = '';
-    img.loading = 'lazy';
-    const p = posterUrl(c.posterUrl);
-    if (p) img.src = p;
-    img.addEventListener('error', () => {
-      const ph = document.createElement('div');
-      ph.className = 'poster poster-placeholder';
-      ph.textContent = state.type === 'MOVIE' ? '🎬' : '📺';
-      img.replaceWith(ph);
-    }, { once:true });
+    let visual;
+    if (item.poster) {
+      const img = document.createElement('img');
+      img.className = 'poster';
+      img.alt = '';
+      img.loading = 'lazy';
+      img.src = posterUrl(item.poster);
+      img.addEventListener('error', () => {
+        const ph = document.createElement('div');
+        ph.className = 'poster poster-placeholder';
+        ph.textContent = state.type === 'MOVIE' ? '🎬' : '📺';
+        img.replaceWith(ph);
+      }, { once:true });
+      visual = img;
+    } else {
+      visual = document.createElement('div');
+      visual.className = 'poster poster-placeholder';
+      visual.textContent = state.type === 'MOVIE' ? '🎬' : '📺';
+    }
 
     const info = document.createElement('div');
     const title = document.createElement('p');
-    title.className = 'title'; title.textContent = c.title || 'Untitled';
+    title.className = 'title';
+    title.textContent = item.title || 'Untitled';
     const meta = document.createElement('p');
-    meta.className = 'meta'; meta.textContent = [c.originalReleaseYear, state.type === 'MOVIE' ? 'Movie' : 'TV series'].filter(Boolean).join(' · ');
+    meta.className = 'meta';
+    const bits = [item.year, state.type === 'MOVIE' ? 'Movie' : 'TV series'];
+    const trend = trendText(item);
+    if (trend) bits.push(trend);
+    if (item.daysInTop10) bits.push(`${item.daysInTop10}d top 10`);
+    meta.textContent = bits.filter(Boolean).join(' · ');
     info.append(title, meta);
 
     const watch = document.createElement('a');
     watch.className = 'watch';
     watch.textContent = 'Details ↗';
-    watch.target = '_blank'; watch.rel = 'noopener';
-    watch.href = c.fullPath ? `https://www.justwatch.com${c.fullPath}` : justWatchUrl(state.service, state.type);
+    watch.target = '_blank';
+    watch.rel = 'noopener';
+    watch.href = item.url || justWatchUrl(state.service, state.type);
 
-    li.append(rank, img, info, watch);
+    li.append(rank, visual, info, watch);
     els.chart.appendChild(li);
   });
+}
+
+function formatUpdated(value) {
+  if (!value) return 'Waiting for first automatic refresh';
+  const d = new Date(value);
+  if (Number.isNaN(d.getTime())) return 'Ranking cache loaded';
+  return `Updated ${new Intl.DateTimeFormat('en-GB', {
+    weekday:'short', day:'numeric', month:'short', hour:'2-digit', minute:'2-digit'
+  }).format(d)}`;
 }
 
 function setLoading(on) {
@@ -196,24 +166,40 @@ function setLoading(on) {
   }
 }
 
-async function loadChart() {
+function renderCurrent() {
   const s = state.service;
   const label = state.type === 'MOVIE' ? 'Movies' : 'TV Shows';
-  els.chartTitle.textContent = `${s.name} · Top 10 ${label}`;
   const url = justWatchUrl(s, state.type);
+  els.chartTitle.textContent = `${s.name} · Top 10 ${label}`;
   els.sourceLink.href = url;
   els.fallback.href = url;
+  els.error.classList.add('hidden');
+  els.chart.innerHTML = '';
+
+  try {
+    const key = state.type === 'MOVIE' ? 'movies' : 'tv';
+    const serviceData = state.data?.services?.[s.id];
+    const titles = serviceData?.[key];
+    if (serviceData?.error && (!titles || !titles.length)) throw new Error(serviceData.error);
+    renderTitles(titles);
+    els.updated.textContent = formatUpdated(state.data?.generatedAt);
+  } catch (err) {
+    els.errorText.textContent = `${err.message || 'This ranking is not available yet'} You can still open the UK provider page directly.`;
+    els.error.classList.remove('hidden');
+  }
+}
+
+async function loadData(force = false) {
   setLoading(true);
   els.refresh.disabled = true;
   try {
-    const titles = await fetchPopularTitles(s, state.type);
-    renderTitles(titles);
-    els.updated.textContent = `Updated ${new Intl.DateTimeFormat('en-GB', { hour:'2-digit', minute:'2-digit' }).format(new Date())}`;
+    state.data = await fetchRankings(force);
+    renderCurrent();
   } catch (err) {
     console.error(err);
-    els.errorText.textContent = `${err.message || 'The live feed could not be reached'} You can still open the equivalent UK popularity page directly.`;
+    els.errorText.textContent = `${err.message || 'The ranking cache could not be loaded.'} The automatic GitHub refresh may not have run yet.`;
     els.error.classList.remove('hidden');
-    els.updated.textContent = 'Live feed unavailable';
+    els.updated.textContent = 'Ranking feed unavailable';
   } finally {
     setLoading(false);
     els.refresh.disabled = false;
@@ -224,15 +210,11 @@ document.querySelectorAll('.segmented button').forEach(btn => {
   btn.addEventListener('click', () => {
     state.type = btn.dataset.type;
     document.querySelectorAll('.segmented button').forEach(b => b.classList.toggle('active', b === btn));
-    loadChart();
+    renderCurrent();
   });
 });
 
-els.refresh.addEventListener('click', () => {
-  state.packages = null;
-  state.packageMap.clear();
-  loadChart();
-});
+els.refresh.addEventListener('click', () => loadData(true));
 
 window.addEventListener('beforeinstallprompt', e => {
   e.preventDefault();
@@ -253,4 +235,4 @@ if ('serviceWorker' in navigator) {
 }
 
 initTabs();
-loadChart();
+loadData();

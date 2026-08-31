@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <meta name="theme-color" content="#0b0b0d" />
-  <meta name="description" content="UK streaming popularity charts across Netflix, Prime Video, Disney+, Apple TV+, HBO Max, BBC iPlayer and ITVX." />
+  <meta name="description" content="UK streaming top-ten charts across Netflix, Prime Video, Disney+, Apple TV+, HBO Max, BBC iPlayer and ITVX." />
   <link rel="manifest" href="manifest.webmanifest" />
   <link rel="icon" href="icon.svg" type="image/svg+xml" />
   <link rel="apple-touch-icon" href="icon.svg" />
@@ -42,7 +42,7 @@
     <section class="chart-wrap">
       <div class="chart-heading">
         <div>
-          <p id="sourceLabel" class="source-label">POPULARITY</p>
+          <p id="sourceLabel" class="source-label">UK DAILY POPULARITY</p>
           <h3 id="chartTitle">Top 10</h3>
         </div>
         <a id="sourceLink" class="source-link" href="https://www.justwatch.com/uk" target="_blank" rel="noopener">Source ↗</a>
@@ -54,20 +54,20 @@
       <ol id="chart" class="chart" aria-live="polite"></ol>
 
       <div id="errorBox" class="error-box hidden">
-        <strong>Live ranking unavailable</strong>
-        <p id="errorText">The live feed could not be reached.</p>
+        <strong>Ranking unavailable</strong>
+        <p id="errorText">The cached ranking could not be loaded.</p>
         <a id="fallbackLink" target="_blank" rel="noopener">Open this chart on JustWatch ↗</a>
       </div>
     </section>
 
     <section class="note-card">
       <strong>How the ranking works</strong>
-      <p>This dashboard uses JustWatch UK popularity data so every service can be compared consistently. It is a popularity chart, not necessarily the streamer’s own official in-app Top 10.</p>
+      <p>Rankings are refreshed automatically on GitHub, then your phone reads the saved result. This avoids the browser security block that caused the first version to fail. The chart is JustWatch UK daily popularity for each service, not necessarily the streamer’s own in-app chart.</p>
     </section>
   </main>
 
   <footer>
-    <p>Made for quick UK streaming decisions. Data source: JustWatch.</p>
+    <p>StreamTop UK · automatically refreshed UK streaming popularity.</p>
   </footer>
 
   <script src="app.js" defer></script>
