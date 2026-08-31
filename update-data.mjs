@@ -2,7 +2,7 @@ import { mkdir, readFile, writeFile } from 'node:fs/promises';
 
 const ENDPOINT = 'https://apis.justwatch.com/graphql';
 const NETFLIX_TSV = 'https://www.netflix.com/tudum/top10/data/all-weeks-countries.tsv';
-const PRIME_MOVIES_URL = 'https://www.primevideo.com/movie/ref=atv_hom_Marqueetvuk_c_9zZ8D2_hom?tr=gb';
+const PRIME_MOVIES_URL = 'https://www.primevideo.com/movie/ref=atv_hom_Marqueetvuk_c_9zZ8D2_hom?tr=gb&language=en_GB';
 const APPLE_MOVIES_URL = 'https://tv.apple.com/gb/collection/most-popular-now/uts.col.ChartsMovies.tvs.sbd.4000';
 const APPLE_TV_URL = 'https://tv.apple.com/gb/collection/most-popular-now/uts.col.ChartsShows.tvs.sbd.4000';
 const SERVICES = [
@@ -59,7 +59,7 @@ async function fetchText(url, extraHeaders = {}) {
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), 30000);
   try {
-    const res = await fetch(url, { headers:{'user-agent':'WozzaWatch/4.2 (+GitHub Actions)',...extraHeaders}, signal:controller.signal });
+    const res = await fetch(url, { headers:{'user-agent':'WozzaWatch/4.4 (+GitHub Actions)',...extraHeaders}, signal:controller.signal });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     return await res.text();
   } finally { clearTimeout(timeout); }
@@ -69,7 +69,7 @@ async function gql(query, variables) {
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), 20000);
   try {
-    const res = await fetch(ENDPOINT, { method:'POST', headers:{'content-type':'application/json','accept':'application/json','user-agent':'WozzaWatch/4.2 (+GitHub Actions)'}, body:JSON.stringify({query,variables}), signal:controller.signal });
+    const res = await fetch(ENDPOINT, { method:'POST', headers:{'content-type':'application/json','accept':'application/json','user-agent':'WozzaWatch/4.4 (+GitHub Actions)'}, body:JSON.stringify({query,variables}), signal:controller.signal });
     if (!res.ok) throw new Error(`JustWatch HTTP ${res.status}`);
     const body = await res.json();
     if (body.errors?.length) throw new Error(body.errors.map(e=>e.message).join('; '));
@@ -229,7 +229,10 @@ async function fetchOfficialPrimeMovies() {
   const html=await fetchText(PRIME_MOVIES_URL,{
     'user-agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
     'accept':'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
-    'accept-language':'en-GB,en;q=0.9'
+    'accept-language':'en-GB,en;q=0.9',
+    // Encourage Prime to serve the same UK/English storefront seen by a UK browser.
+    'cookie':'lc-main=en_GB; i18n-prefs=GBP',
+    'referer':'https://www.primevideo.com/'
   });
   const section=primeSection(html);
   const candidates=extractPrimeCandidateTitles(section);

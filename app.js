@@ -82,31 +82,41 @@ function initTabs() {
   syncControls({scroll:false});
 }
 
-function sequenceIndex() {
-  const providerIndex = SERVICES.findIndex(service => service.id === state.service.id);
-  return providerIndex * 2 + (state.type === 'SHOW' ? 1 : 0);
+function providerIndex() {
+  return SERVICES.findIndex(service => service.id === state.service.id);
 }
 
-function setSequenceIndex(index) {
-  const max = SERVICES.length * 2 - 1;
-  if (index < 0 || index > max) return false;
-  state.service = SERVICES[Math.floor(index / 2)];
-  state.type = index % 2 ? 'SHOW' : 'MOVIE';
+function setProviderIndex(index) {
+  if (index < 0 || index >= SERVICES.length) return false;
+  state.service = SERVICES[index];
   syncControls({scroll:true});
   renderCurrent();
   return true;
 }
 
-function animateChartStep(direction, nextIndex) {
+function setContentType(type) {
+  if (!['MOVIE','SHOW'].includes(type) || state.type === type) return false;
+  state.type = type;
+  syncControls({scroll:false});
+  renderCurrent();
+  return true;
+}
+
+function animateChartChange(axis, direction, applyChange) {
   const card = document.querySelector('.chart-wrap');
   if (!card || card.dataset.animating === '1') return;
   card.dataset.animating = '1';
-  const outClass = direction === 'next' ? 'chart-out-next' : 'chart-out-prev';
-  const inClass = direction === 'next' ? 'chart-in-next' : 'chart-in-prev';
-  card.classList.remove('chart-out-next','chart-out-prev','chart-in-next','chart-in-prev','chart-edge-next','chart-edge-prev');
+  const outClass = axis === 'x'
+    ? (direction === 'next' ? 'chart-out-next' : 'chart-out-prev')
+    : (direction === 'next' ? 'chart-out-up' : 'chart-out-down');
+  const inClass = axis === 'x'
+    ? (direction === 'next' ? 'chart-in-next' : 'chart-in-prev')
+    : (direction === 'next' ? 'chart-in-up' : 'chart-in-down');
+  const classes=['chart-out-next','chart-out-prev','chart-in-next','chart-in-prev','chart-out-up','chart-out-down','chart-in-up','chart-in-down','chart-edge-next','chart-edge-prev','chart-edge-up','chart-edge-down'];
+  card.classList.remove(...classes);
   card.classList.add(outClass);
   window.setTimeout(() => {
-    setSequenceIndex(nextIndex);
+    applyChange();
     card.classList.remove(outClass);
     card.classList.add(inClass);
     window.setTimeout(() => {
@@ -119,8 +129,8 @@ function animateChartStep(direction, nextIndex) {
 function bounceChartEdge(direction) {
   const card = document.querySelector('.chart-wrap');
   if (!card || card.dataset.animating === '1') return;
-  const cls = direction === 'next' ? 'chart-edge-next' : 'chart-edge-prev';
-  card.classList.remove('chart-edge-next','chart-edge-prev');
+  const cls = `chart-edge-${direction}`;
+  card.classList.remove('chart-edge-next','chart-edge-prev','chart-edge-up','chart-edge-down');
   void card.offsetWidth;
   card.classList.add(cls);
   window.setTimeout(() => card.classList.remove(cls), 260);
@@ -144,17 +154,33 @@ function initProviderSwipe() {
     const touch = event.changedTouches[0];
     const dx = touch.clientX - startX;
     const dy = touch.clientY - startY;
-    if (Math.abs(dx) < 55 || Math.abs(dx) < Math.abs(dy) * 1.25) return;
+    const ax = Math.abs(dx), ay = Math.abs(dy);
+    const threshold = 55;
 
-    const current = sequenceIndex();
-    const max = SERVICES.length * 2 - 1;
-    // WozzaWatch gesture: swipe RIGHT = forward, swipe LEFT = back.
-    if (dx > 0) {
-      if (current >= max) bounceChartEdge('next');
-      else animateChartStep('next', current + 1);
-    } else {
-      if (current <= 0) bounceChartEdge('prev');
-      else animateChartStep('prev', current - 1);
+    if (ax < threshold && ay < threshold) return;
+
+    if (ax > ay * 1.2) {
+      const current = providerIndex();
+      // Natural carousel direction: LEFT = next provider, RIGHT = previous.
+      if (dx < 0) {
+        if (current >= SERVICES.length - 1) bounceChartEdge('next');
+        else animateChartChange('x','next',() => setProviderIndex(current + 1));
+      } else {
+        if (current <= 0) bounceChartEdge('prev');
+        else animateChartChange('x','prev',() => setProviderIndex(current - 1));
+      }
+      return;
+    }
+
+    if (ay > ax * 1.2) {
+      // Vertical gesture changes content type only: UP = TV, DOWN = Movies.
+      if (dy < 0) {
+        if (state.type === 'SHOW') bounceChartEdge('up');
+        else animateChartChange('y','next',() => setContentType('SHOW'));
+      } else {
+        if (state.type === 'MOVIE') bounceChartEdge('down');
+        else animateChartChange('y','prev',() => setContentType('MOVIE'));
+      }
     }
   }, {passive:true});
   target.addEventListener('touchcancel', () => { tracking = false; }, {passive:true});
