@@ -2,6 +2,9 @@ import { mkdir, readFile, writeFile } from 'node:fs/promises';
 
 const ENDPOINT = 'https://apis.justwatch.com/graphql';
 const NETFLIX_TSV = 'https://www.netflix.com/tudum/top10/data/all-weeks-countries.tsv';
+const PRIME_MOVIES_URL = 'https://www.primevideo.com/movie/ref=atv_hom_Marqueetvuk_c_9zZ8D2_hom?tr=gb';
+const APPLE_MOVIES_URL = 'https://tv.apple.com/gb/collection/most-popular-now/uts.col.ChartsMovies.tvs.sbd.4000';
+const APPLE_TV_URL = 'https://tv.apple.com/gb/collection/most-popular-now/uts.col.ChartsShows.tvs.sbd.4000';
 const SERVICES = [
   { id:'netflix', name:'Netflix', aliases:['Netflix'] },
   { id:'prime', name:'Prime Video', aliases:['Amazon Prime Video','Prime Video'] },
@@ -18,6 +21,24 @@ const OFFICIAL = {
     url:'https://www.netflix.com/tudum/top10/united-kingdom',
     cadence:'weekly',
     note:'Netflix Tudum UK weekly Top 10',
+  },
+  prime: {
+    label:'Official Prime',
+    url:PRIME_MOVIES_URL,
+    cadence:'live',
+    note:'Prime Video public UK Top 10 movies',
+  },
+  appleMovies: {
+    label:'Official Apple',
+    url:APPLE_MOVIES_URL,
+    cadence:'live',
+    note:'Apple TV public UK Most Popular Now movies',
+  },
+  appleTV: {
+    label:'Official Apple',
+    url:APPLE_TV_URL,
+    cadence:'live',
+    note:'Apple TV public UK Most Popular Now TV shows',
   },
   disney: {
     label:'Official Disney+',
@@ -38,7 +59,7 @@ async function fetchText(url) {
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), 30000);
   try {
-    const res = await fetch(url, { headers:{'user-agent':'WozzaWatch/3.0 (+GitHub Actions)'}, signal:controller.signal });
+    const res = await fetch(url, { headers:{'user-agent':'WozzaWatch/4.0 (+GitHub Actions)'}, signal:controller.signal });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     return await res.text();
   } finally { clearTimeout(timeout); }
@@ -48,7 +69,7 @@ async function gql(query, variables) {
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), 20000);
   try {
-    const res = await fetch(ENDPOINT, { method:'POST', headers:{'content-type':'application/json','accept':'application/json','user-agent':'WozzaWatch/3.0 (+GitHub Actions)'}, body:JSON.stringify({query,variables}), signal:controller.signal });
+    const res = await fetch(ENDPOINT, { method:'POST', headers:{'content-type':'application/json','accept':'application/json','user-agent':'WozzaWatch/4.0 (+GitHub Actions)'}, body:JSON.stringify({query,variables}), signal:controller.signal });
     if (!res.ok) throw new Error(`JustWatch HTTP ${res.status}`);
     const body = await res.json();
     if (body.errors?.length) throw new Error(body.errors.map(e=>e.message).join('; '));
@@ -98,6 +119,80 @@ function parseTsv(text) {
 function cleanNetflixCell(value='') {
   const v=String(value??'').trim();
   return !v || /^(?:N\/?A|NULL)$/i.test(v) ? '' : v;
+}
+
+function decodeHtml(value='') {
+  return String(value)
+    .replace(/&amp;/g,'&').replace(/&quot;/g,'"').replace(/&#39;|&apos;/g,"'")
+    .replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&#x27;/gi,"'")
+    .replace(/&#(\d+);/g,(_,n)=>String.fromCharCode(Number(n)));
+}
+function stripTags(value='') { return decodeHtml(String(value).replace(/<[^>]+>/g,' ').replace(/\s+/g,' ').trim()); }
+function titleFromSlug(slug='') {
+  return decodeURIComponent(slug).split('-').filter(Boolean).map(word=>word.length<=3&&/^[a-z]+$/.test(word)?word:word.charAt(0).toUpperCase()+word.slice(1)).join(' ');
+}
+function validPublicTitle(value='') {
+  const v=stripTags(value).trim();
+  if(!v || v.length<2 || v.length>120) return false;
+  return !/^(?:image|play|watch|details|top ?10|new movie|trending|most popular now|prime video|apple tv|see more)$/i.test(v);
+}
+function uniqueItems(items=[]) {
+  const seen=new Set();
+  return items.filter(item=>{const key=norm(item.title); if(!key||seen.has(key))return false; seen.add(key); return true;});
+}
+async function fetchOfficialApple(url, objectType) {
+  const html=await fetchText(url);
+  const pathType=objectType==='MOVIE'?'movie':'show';
+  const marker=html.search(/Most Popular Now/i);
+  const section=marker>=0?html.slice(marker, marker+500000):html;
+  const items=[];
+  const re=new RegExp(`<a\\b([^>]*?)href=["']([^"']*\\/gb\\/${pathType}\\/([^"'/?#]+)\\/[^"']+)["']([^>]*)>([\\s\\S]*?)<\\/a>`, 'gi');
+  let match;
+  while((match=re.exec(section))&&items.length<20){
+    const attrs=`${match[1]} ${match[4]}`;
+    const inner=match[5];
+    const aria=(attrs.match(/aria-label=["']([^"']+)["']/i)||[])[1];
+    const alt=(inner.match(/alt=["']([^"']+)["']/i)||[])[1];
+    const innerText=stripTags(inner);
+    const title=[aria,alt,innerText,titleFromSlug(match[3])].find(validPublicTitle);
+    if(!title)continue;
+    items.push({rank:items.length+1,title:stripTags(title),year:null,poster:null,url:match[2].startsWith('http')?match[2]:`https://tv.apple.com${match[2]}`,trend:null,trendDifference:0,daysInTop10:null,topRank:null});
+  }
+  const deduped=uniqueItems(items).slice(0,10).map((x,i)=>({...x,rank:i+1}));
+  if(deduped.length<10) throw new Error(`Apple public chart parser returned only ${deduped.length} titles`);
+  return deduped;
+}
+function primeSection(html) {
+  const markers=['Top 10 movies in the UK','Top 10 Movies in the UK','Top movies in the UK','Top movies'];
+  let idx=-1;
+  for(const marker of markers){idx=html.toLowerCase().indexOf(marker.toLowerCase()); if(idx>=0)break;}
+  return idx>=0?html.slice(idx,idx+450000):html;
+}
+function extractPrimeCandidateTitles(section) {
+  const candidates=[];
+  const anchorRe=/<a\b([^>]*?)href=["']([^"']*(?:\/detail\/|\/gp\/video\/detail\/)[^"']*)["']([^>]*)>([\s\S]*?)<\/a>/gi;
+  let m;
+  while((m=anchorRe.exec(section))&&candidates.length<40){
+    const attrs=`${m[1]} ${m[3]}`;
+    const inner=m[4];
+    const aria=(attrs.match(/aria-label=["']([^"']+)["']/i)||[])[1];
+    const alt=(inner.match(/alt=["']([^"']+)["']/i)||[])[1];
+    const text=stripTags(inner);
+    const title=[aria,alt,text].find(validPublicTitle);
+    if(title)candidates.push({title:stripTags(title),url:m[2].startsWith('http')?m[2]:`https://www.primevideo.com${m[2]}`});
+  }
+  const altRe=/<img\b[^>]*alt=["']([^"']+)["'][^>]*>/gi;
+  while((m=altRe.exec(section))&&candidates.length<80){if(validPublicTitle(m[1]))candidates.push({title:stripTags(m[1]),url:PRIME_MOVIES_URL});}
+  const jsonRes=[/\\?"title\\?"\s*:\s*\\?"([^"\\]{2,120})\\?"/gi,/\\?"displayTitle\\?"\s*:\s*\\?"([^"\\]{2,120})\\?"/gi];
+  for(const re of jsonRes){while((m=re.exec(section))&&candidates.length<120){const value=m[1].replace(/\\u0026/g,'&').replace(/\\"/g,'"');if(validPublicTitle(value))candidates.push({title:stripTags(value),url:PRIME_MOVIES_URL});}}
+  return uniqueItems(candidates);
+}
+async function fetchOfficialPrimeMovies() {
+  const html=await fetchText(PRIME_MOVIES_URL);
+  const candidates=extractPrimeCandidateTitles(primeSection(html));
+  const items=candidates.slice(0,10).map((item,i)=>({rank:i+1,title:item.title,year:null,poster:null,url:item.url||PRIME_MOVIES_URL,trend:null,trendDifference:0,daysInTop10:null,topRank:null}));
+  if(items.length<10) throw new Error(`Prime public chart parser returned only ${items.length} titles`);
+  return items;
 }
 async function fetchOfficialNetflix() {
   const rows=parseTsv(await fetchText(NETFLIX_TSV)).filter(r=>r.country_iso2==='GB');
@@ -163,9 +258,12 @@ async function enrichOfficial(official, fallback=[], objectType) {
 }
 
 let previous={}; try{previous=JSON.parse(await readFile('data/rankings.json','utf8'));}catch{}
-const output={version:3,generatedAt:new Date().toISOString(),country:'GB',strategy:'Official source first; labelled fallback when no compatible official chart is available.',services:{}};
+const output={version:4,generatedAt:new Date().toISOString(),country:'GB',strategy:'Official source first; labelled fallback when no compatible official chart is available.',services:{}};
 const packageData=await gql(PACKAGES_QUERY,{country:'GB',platform:'WEB'}); const packages=packageData?.packages||[];
 let netflixOfficial=null; try{netflixOfficial=await fetchOfficialNetflix(); console.log(`Netflix official week ${netflixOfficial.week}`);}catch(err){console.error('Netflix official:',err.message);}
+let primeMoviesOfficial=null; try{primeMoviesOfficial=await fetchOfficialPrimeMovies(); console.log(`Prime official movies: ${primeMoviesOfficial.length}`);}catch(err){console.error('Prime official movies:',err.message);}
+let appleMoviesOfficial=null; try{appleMoviesOfficial=await fetchOfficialApple(APPLE_MOVIES_URL,'MOVIE'); console.log(`Apple official movies: ${appleMoviesOfficial.length}`);}catch(err){console.error('Apple official movies:',err.message);}
+let appleTVOfficial=null; try{appleTVOfficial=await fetchOfficialApple(APPLE_TV_URL,'SHOW'); console.log(`Apple official TV: ${appleTVOfficial.length}`);}catch(err){console.error('Apple official TV:',err.message);}
 
 for(const service of SERVICES){
   const pkg=findPackage(packages,service); const entry={provider:pkg?.clearName||service.name,movies:[],tv:[],sources:{},error:null};
@@ -175,6 +273,15 @@ for(const service of SERVICES){
     if(service.id==='netflix' && netflixOfficial?.[key]?.length){
       entry[key]=await enrichOfficial(netflixOfficial[key],fallback?.items||[],type);
       entry.sources[key]={kind:'official',label:OFFICIAL.netflix.label,url:OFFICIAL.netflix.url,cadence:'weekly',asOf:netflixOfficial.week,note:OFFICIAL.netflix.note};
+    } else if(service.id==='prime' && key==='movies' && primeMoviesOfficial?.length){
+      entry[key]=await enrichOfficial(primeMoviesOfficial,fallback?.items||[],type);
+      entry.sources[key]={kind:'official',label:OFFICIAL.prime.label,url:OFFICIAL.prime.url,cadence:OFFICIAL.prime.cadence,note:OFFICIAL.prime.note};
+    } else if(service.id==='apple' && key==='movies' && appleMoviesOfficial?.length){
+      entry[key]=await enrichOfficial(appleMoviesOfficial,fallback?.items||[],type);
+      entry.sources[key]={kind:'official',label:OFFICIAL.appleMovies.label,url:OFFICIAL.appleMovies.url,cadence:OFFICIAL.appleMovies.cadence,note:OFFICIAL.appleMovies.note};
+    } else if(service.id==='apple' && key==='tv' && appleTVOfficial?.length){
+      entry[key]=await enrichOfficial(appleTVOfficial,fallback?.items||[],type);
+      entry.sources[key]={kind:'official',label:OFFICIAL.appleTV.label,url:OFFICIAL.appleTV.url,cadence:OFFICIAL.appleTV.cadence,note:OFFICIAL.appleTV.note};
     } else if(fallback?.items?.length){
       entry[key]=fallback.items.map((x,i)=>({...x,rank:i+1}));
       entry.sources[key]={kind:'fallback',label:'JustWatch UK',url:`https://www.justwatch.com/uk/provider/${service.id==='prime'?'amazon-prime-video':service.id==='disney'?'disney-plus':service.id==='apple'?'apple-tv-plus':service.id==='max'?'hbo-max':service.id==='bbc'?'bbc-iplayer':service.id==='itv'?'itvx':'netflix'}/${key==='movies'?'movies':'tv-series'}`,cadence:'daily',note:service.id==='disney'?OFFICIAL.disney.note:'No compatible public official Movies/TV chart is currently used, so WozzaWatch falls back to JustWatch UK popularity.'};
