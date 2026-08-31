@@ -1,6 +1,6 @@
 {
-  "version": 9,
-  "generatedAt": "2026-08-31T22:40:55.230Z",
+  "version": 10,
+  "generatedAt": "2026-08-31T22:51:26.424Z",
   "country": "GB",
   "strategy": "Official source first; labelled fallback when no compatible official chart is available.",
   "services": {
@@ -383,30 +383,18 @@
         },
         {
           "rank": 5,
-          "sourceRank": 10,
+          "sourceRank": 14,
           "title": "The Housemaid",
           "year": 2025,
           "poster": "/poster/340262671/s166/the-housemaid-0.webp",
           "url": "https://www.justwatch.com/uk/movie/the-housemaid-0",
           "trend": "UP",
-          "trendDifference": 6,
+          "trendDifference": 2,
           "daysInTop10": 51,
           "topRank": 1
         },
         {
           "rank": 6,
-          "sourceRank": 11,
-          "title": "The Sheep Detectives",
-          "year": 2026,
-          "poster": "/poster/349989642/s166/three-bags-full-a-sheep-detective-movie.webp",
-          "url": "https://www.justwatch.com/uk/movie/three-bags-full-a-sheep-detective-movie",
-          "trend": "STABLE",
-          "trendDifference": 0,
-          "daysInTop10": 24,
-          "topRank": 1
-        },
-        {
-          "rank": 7,
           "sourceRank": 16,
           "title": "Marty Supreme",
           "year": 2025,
@@ -418,19 +406,7 @@
           "topRank": 1
         },
         {
-          "rank": 8,
-          "sourceRank": 20,
-          "title": "Dune: Part Two",
-          "year": 2024,
-          "poster": "/poster/312362420/s166/dune-part-two.webp",
-          "url": "https://www.justwatch.com/uk/movie/dune-part-two",
-          "trend": "UP",
-          "trendDifference": 3,
-          "daysInTop10": 106,
-          "topRank": 1
-        },
-        {
-          "rank": 9,
+          "rank": 7,
           "sourceRank": 21,
           "title": "The Godfather",
           "year": 1972,
@@ -442,15 +418,39 @@
           "topRank": 6
         },
         {
-          "rank": 10,
-          "sourceRank": 21,
-          "title": "Masters of the Universe",
-          "year": 2026,
-          "poster": "/poster/347453342/s166/masters-of-the-universe-2019.webp",
-          "url": "https://www.justwatch.com/uk/movie/masters-of-the-universe-2019",
+          "rank": 8,
+          "sourceRank": 22,
+          "title": "Napoleon Dynamite",
+          "year": 2004,
+          "poster": "/poster/138611435/s166/napoleon-dynamite.webp",
+          "url": "https://www.justwatch.com/uk/movie/napoleon-dynamite",
           "trend": "UP",
-          "trendDifference": 9,
-          "daysInTop10": 13,
+          "trendDifference": 193,
+          "daysInTop10": null,
+          "topRank": 20
+        },
+        {
+          "rank": 9,
+          "sourceRank": 23,
+          "title": "The Sheep Detectives",
+          "year": 2026,
+          "poster": "/poster/349989642/s166/three-bags-full-a-sheep-detective-movie.webp",
+          "url": "https://www.justwatch.com/uk/movie/three-bags-full-a-sheep-detective-movie",
+          "trend": "DOWN",
+          "trendDifference": -12,
+          "daysInTop10": 24,
+          "topRank": 1
+        },
+        {
+          "rank": 10,
+          "sourceRank": 25,
+          "title": "Dune: Part Two",
+          "year": 2024,
+          "poster": "/poster/312362420/s166/dune-part-two.webp",
+          "url": "https://www.justwatch.com/uk/movie/dune-part-two",
+          "trend": "DOWN",
+          "trendDifference": -2,
+          "daysInTop10": 106,
           "topRank": 1
         }
       ],
@@ -623,6 +623,18 @@
         },
         {
           "rank": 3,
+          "sourceRank": 30,
+          "title": "Something's Coming: West Side Story",
+          "year": 2021,
+          "poster": "/poster/302217737/s166/somethings-coming-west-side-story.webp",
+          "url": "https://www.justwatch.com/uk/movie/somethings-coming-west-side-story",
+          "trend": "UP",
+          "trendDifference": 17504,
+          "daysInTop10": null,
+          "topRank": 28
+        },
+        {
+          "rank": 4,
           "sourceRank": 32,
           "title": "The Devil Wears Prada 2",
           "year": 2026,
@@ -632,18 +644,6 @@
           "trendDifference": -8,
           "daysInTop10": 6,
           "topRank": 5
-        },
-        {
-          "rank": 4,
-          "sourceRank": 39,
-          "title": "Jurassic Park",
-          "year": 1993,
-          "poster": "/poster/138456732/s166/jurassic-park.webp",
-          "url": "https://www.justwatch.com/uk/movie/jurassic-park",
-          "trend": "UP",
-          "trendDifference": 20,
-          "daysInTop10": 26,
-          "topRank": 1
         },
         {
           "rank": 5,
@@ -659,15 +659,15 @@
         },
         {
           "rank": 6,
-          "sourceRank": 65,
-          "title": "Something's Coming: West Side Story",
-          "year": 2021,
-          "poster": "/poster/302217737/s166/somethings-coming-west-side-story.webp",
-          "url": "https://www.justwatch.com/uk/movie/somethings-coming-west-side-story",
+          "sourceRank": 53,
+          "title": "Jurassic Park",
+          "year": 1993,
+          "poster": "/poster/138456732/s166/jurassic-park.webp",
+          "url": "https://www.justwatch.com/uk/movie/jurassic-park",
           "trend": "UP",
-          "trendDifference": 17469,
-          "daysInTop10": null,
-          "topRank": 28
+          "trendDifference": 6,
+          "daysInTop10": 26,
+          "topRank": 1
         },
         {
           "rank": 7,
@@ -695,6 +695,18 @@
         },
         {
           "rank": 9,
+          "sourceRank": 106,
+          "title": "Akira",
+          "year": 1988,
+          "poster": "/poster/239922303/s166/akira.webp",
+          "url": "https://www.justwatch.com/uk/movie/akira",
+          "trend": "UP",
+          "trendDifference": 163,
+          "daysInTop10": 4,
+          "topRank": 2
+        },
+        {
+          "rank": 10,
           "sourceRank": 135,
           "title": "Perfect Blue",
           "year": 1998,
@@ -704,18 +716,6 @@
           "trendDifference": -71,
           "daysInTop10": 2,
           "topRank": 8
-        },
-        {
-          "rank": 10,
-          "sourceRank": 143,
-          "title": "Jurassic World",
-          "year": 2015,
-          "poster": "/poster/124172776/s166/jurassic-world.webp",
-          "url": "https://www.justwatch.com/uk/movie/jurassic-world",
-          "trend": "UP",
-          "trendDifference": 64,
-          "daysInTop10": 95,
-          "topRank": 2
         }
       ],
       "tv": [
@@ -1139,25 +1139,25 @@
         },
         {
           "rank": 2,
-          "sourceRank": 15,
+          "sourceRank": 11,
           "title": "Dune",
           "year": 2021,
           "poster": "/poster/320955108/s166/dune-2020.webp",
           "url": "https://www.justwatch.com/uk/movie/dune-2020",
-          "trend": "DOWN",
-          "trendDifference": -1,
+          "trend": "UP",
+          "trendDifference": 3,
           "daysInTop10": 345,
           "topRank": 1
         },
         {
           "rank": 3,
-          "sourceRank": 16,
+          "sourceRank": 13,
           "title": "The Lord of the Rings: The Fellowship of the Ring",
           "year": 2001,
           "poster": "/poster/8731868/s166/the-lord-of-the-rings-the-fellowship-of-the-ring.webp",
           "url": "https://www.justwatch.com/uk/movie/the-lord-of-the-rings-the-fellowship-of-the-ring",
           "trend": "UP",
-          "trendDifference": 1,
+          "trendDifference": 4,
           "daysInTop10": 41,
           "topRank": 3
         },
@@ -1175,13 +1175,13 @@
         },
         {
           "rank": 5,
-          "sourceRank": 19,
+          "sourceRank": 18,
           "title": "One Battle After Another",
           "year": 2025,
           "poster": "/poster/340576026/s166/the-battle-of-baktan-cross.webp",
           "url": "https://www.justwatch.com/uk/movie/the-battle-of-baktan-cross",
-          "trend": "DOWN",
-          "trendDifference": -1,
+          "trend": "STABLE",
+          "trendDifference": 0,
           "daysInTop10": 195,
           "topRank": 1
         },
@@ -1223,6 +1223,18 @@
         },
         {
           "rank": 9,
+          "sourceRank": 47,
+          "title": "The Shawshank Redemption",
+          "year": 1994,
+          "poster": "/poster/320935764/s166/the-shawshank-redemption.webp",
+          "url": "https://www.justwatch.com/uk/movie/the-shawshank-redemption",
+          "trend": "UP",
+          "trendDifference": 140,
+          "daysInTop10": 8,
+          "topRank": 4
+        },
+        {
+          "rank": 10,
           "sourceRank": 49,
           "title": "Superman",
           "year": 2025,
@@ -1232,18 +1244,6 @@
           "trendDifference": 61,
           "daysInTop10": 43,
           "topRank": 2
-        },
-        {
-          "rank": 10,
-          "sourceRank": 58,
-          "title": "The Shawshank Redemption",
-          "year": 1994,
-          "poster": "/poster/320935764/s166/the-shawshank-redemption.webp",
-          "url": "https://www.justwatch.com/uk/movie/the-shawshank-redemption",
-          "trend": "UP",
-          "trendDifference": 129,
-          "daysInTop10": 8,
-          "topRank": 4
         }
       ],
       "tv": [
@@ -1905,6 +1905,130 @@
         }
       },
       "error": null
+    },
+    "ukcinema": {
+      "provider": "UK Cinema",
+      "movies": [
+        {
+          "rank": 1,
+          "title": "Spider-Man: Brand New Day",
+          "weekendGross": null,
+          "cumulativeGross": null,
+          "url": "https://www.cinemauk.org.uk/the-industry/facts-and-figures/latest-uk-cinema-statistics/weekend-top-10-box-office/",
+          "poster": "/poster/347907260/s166/spider-man-brand-new-day.webp",
+          "year": 2026,
+          "detailsUrl": "https://www.justwatch.com/uk/movie/spider-man-brand-new-day"
+        },
+        {
+          "rank": 2,
+          "title": "The Odyssey",
+          "weekendGross": null,
+          "cumulativeGross": null,
+          "url": "https://www.cinemauk.org.uk/the-industry/facts-and-figures/latest-uk-cinema-statistics/weekend-top-10-box-office/",
+          "poster": "/poster/347473608/s166/the-odyssey-2026.webp",
+          "year": 2026,
+          "detailsUrl": "https://www.justwatch.com/uk/movie/the-odyssey-2026"
+        },
+        {
+          "rank": 3,
+          "title": "Insidious: Out Of The Further",
+          "weekendGross": null,
+          "cumulativeGross": null,
+          "url": "https://www.cinemauk.org.uk/the-industry/facts-and-figures/latest-uk-cinema-statistics/weekend-top-10-box-office/",
+          "poster": "/poster/344313654/s166/insidious-the-bleeding-world.webp",
+          "year": 2026,
+          "detailsUrl": "https://www.justwatch.com/uk/movie/insidious-the-bleeding-world"
+        },
+        {
+          "rank": 4,
+          "title": "The End Of Oak Street",
+          "weekendGross": null,
+          "cumulativeGross": null,
+          "url": "https://www.cinemauk.org.uk/the-industry/facts-and-figures/latest-uk-cinema-statistics/weekend-top-10-box-office/",
+          "poster": "/poster/346670132/s166/flowervale-street.webp",
+          "year": 2026,
+          "detailsUrl": "https://www.justwatch.com/uk/movie/flowervale-street"
+        },
+        {
+          "rank": 5,
+          "title": "Spa Weekend",
+          "weekendGross": null,
+          "cumulativeGross": null,
+          "url": "https://www.cinemauk.org.uk/the-industry/facts-and-figures/latest-uk-cinema-statistics/weekend-top-10-box-office/",
+          "poster": "/poster/347593396/s166/spa-weekend.webp",
+          "year": 2026,
+          "detailsUrl": "https://www.justwatch.com/uk/movie/spa-weekend"
+        },
+        {
+          "rank": 6,
+          "title": "Paw Patrol: The Dino Movie",
+          "weekendGross": null,
+          "cumulativeGross": null,
+          "url": "https://www.cinemauk.org.uk/the-industry/facts-and-figures/latest-uk-cinema-statistics/weekend-top-10-box-office/",
+          "poster": "/poster/249449213/s166/paw-patrol-the-movie.webp",
+          "year": 2021,
+          "detailsUrl": "https://www.justwatch.com/uk/movie/paw-patrol-the-movie"
+        },
+        {
+          "rank": 7,
+          "title": "Bethlehem Kudumba Unit",
+          "weekendGross": null,
+          "cumulativeGross": null,
+          "url": "https://www.cinemauk.org.uk/the-industry/facts-and-figures/latest-uk-cinema-statistics/weekend-top-10-box-office/",
+          "poster": "/poster/350533103/s166/bethlehem-kudumba-unit.webp",
+          "year": 2026,
+          "detailsUrl": "https://www.justwatch.com/uk/movie/bethlehem-kudumba-unit"
+        },
+        {
+          "rank": 8,
+          "title": "Toy Story 5",
+          "weekendGross": null,
+          "cumulativeGross": null,
+          "url": "https://www.cinemauk.org.uk/the-industry/facts-and-figures/latest-uk-cinema-statistics/weekend-top-10-box-office/",
+          "poster": "/poster/346581396/s166/toy-story-5.webp",
+          "year": 2026,
+          "detailsUrl": "https://www.justwatch.com/uk/movie/toy-story-5"
+        },
+        {
+          "rank": 9,
+          "title": "Mutiny",
+          "weekendGross": null,
+          "cumulativeGross": null,
+          "url": "https://www.cinemauk.org.uk/the-industry/facts-and-figures/latest-uk-cinema-statistics/weekend-top-10-box-office/",
+          "poster": "/poster/347607536/s166/mutiny-2026.webp",
+          "year": 2026,
+          "detailsUrl": "https://www.justwatch.com/uk/movie/mutiny-2026"
+        },
+        {
+          "rank": 10,
+          "title": "Tony",
+          "weekendGross": null,
+          "cumulativeGross": null,
+          "url": "https://www.cinemauk.org.uk/the-industry/facts-and-figures/latest-uk-cinema-statistics/weekend-top-10-box-office/",
+          "poster": "/poster/344830147/s166/tony-2026.webp",
+          "year": 2026,
+          "detailsUrl": "https://www.justwatch.com/uk/movie/tony-2026"
+        }
+      ],
+      "tv": [],
+      "sources": {
+        "movies": {
+          "kind": "official",
+          "label": "UK Cinema Association / Comscore",
+          "displayName": "UK Cinema Association",
+          "url": "https://www.cinemauk.org.uk/the-industry/facts-and-figures/latest-uk-cinema-statistics/weekend-top-10-box-office/",
+          "cadence": "weekly",
+          "note": "Official UK weekend box-office Top 10 published by the UK Cinema Association using Comscore data."
+        }
+      },
+      "error": null
+    },
+    "uscinema": {
+      "provider": "US Cinema",
+      "movies": [],
+      "tv": [],
+      "sources": {},
+      "error": "movies: no ranking available"
     }
   }
 }
