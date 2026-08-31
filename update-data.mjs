@@ -92,19 +92,38 @@ function parseTsv(text) {
   const lines=text.trim().split(/\r?\n/); const headers=lines.shift().split('\t');
   return lines.map(line=>{ const vals=line.split('\t'), row={}; headers.forEach((h,i)=>row[h]=vals[i]??''); return row; });
 }
+function cleanNetflixCell(value='') {
+  const v=String(value??'').trim();
+  return !v || /^(?:N\/?A|NULL)$/i.test(v) ? '' : v;
+}
 async function fetchOfficialNetflix() {
   const rows=parseTsv(await fetchText(NETFLIX_TSV)).filter(r=>r.country_iso2==='GB');
   if(!rows.length) throw new Error('No UK rows in Netflix dataset');
   const latest=rows.reduce((m,r)=>r.week>m?r.week:m,'');
-  const byCategory=cat=>rows.filter(r=>r.week===latest&&r.category===cat).sort((a,b)=>Number(a.weekly_rank)-Number(b.weekly_rank)).slice(0,10).map((r,i)=>({
-    rank:i+1, title:r.season_title||r.show_title, showTitle:r.show_title||null, seasonTitle:r.season_title||null, year:null, poster:null,
-    url:OFFICIAL.netflix.url, trend:null, trendDifference:0, daysInTop10:Number(r.cumulative_weeks_in_top_10)||null, topRank:null
-  }));
+  const byCategory=cat=>rows
+    .filter(r=>r.week===latest&&r.category===cat)
+    .sort((a,b)=>Number(a.weekly_rank)-Number(b.weekly_rank))
+    .slice(0,10)
+    .map((r,i)=>{
+      const showTitle=cleanNetflixCell(r.show_title);
+      const seasonTitle=cleanNetflixCell(r.season_title);
+      return {
+        rank:i+1, sourceRank:Number(r.weekly_rank)||i+1,
+        title:showTitle||seasonTitle||'Untitled', showTitle:showTitle||null, seasonTitle:seasonTitle||null, year:null, poster:null,
+        url:cat==='Films'?'https://www.netflix.com/tudum/top10/united-kingdom/films.html':'https://www.netflix.com/tudum/top10/united-kingdom/tv.html',
+        trend:null, trendDifference:0, daysInTop10:Number(r.cumulative_weeks_in_top_10)||null, topRank:null
+      };
+    });
   return { week:latest, movies:byCategory('Films'), tv:byCategory('TV') };
 }
 function enrichOfficial(official, fallback=[]) {
-  const lookup=new Map(fallback.map(x=>[norm(x.title),x]));
-  return official.map((x,i)=>{ const hit=lookup.get(norm(x.title))||lookup.get(norm(x.showTitle)); return {...x,rank:i+1,poster:hit?.poster||x.poster,year:hit?.year||x.year,url:x.url||hit?.url}; });
+  const lookup=new Map();
+  for (const item of fallback) lookup.set(norm(item.title), item);
+  return official.map((x,i)=>{
+    const candidates=[x.showTitle,x.title,x.seasonTitle].filter(Boolean).map(norm);
+    const hit=candidates.map(k=>lookup.get(k)).find(Boolean);
+    return {...x,rank:i+1,poster:hit?.poster||x.poster,year:hit?.year||x.year};
+  });
 }
 
 let previous={}; try{previous=JSON.parse(await readFile('data/rankings.json','utf8'));}catch{}
