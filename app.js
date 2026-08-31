@@ -6,6 +6,7 @@ const SERVICES = [
   {id:'max', name:'HBO', slug:'hbo-max', tone:'navy'},
   {id:'bbc', name:'BBC', slug:'bbc-iplayer', tone:'blue'},
   {id:'itv', name:'ITV', slug:'itvx', tone:'green'},
+  {id:'channel4', name:'Channel 4', slug:'channel-4', tone:'yellow'},
   {id:'ukcinema', name:'UK Cinema', slug:null, tone:'brick', cinema:true},
   {id:'uscinema', name:'US Cinema', slug:null, tone:'blue', cinema:true}
 ];

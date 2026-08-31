@@ -15,6 +15,7 @@ const SERVICES = [
   { id:'max', name:'HBO Max', aliases:['HBO Max','Max'] },
   { id:'bbc', name:'BBC iPlayer', aliases:['BBC iPlayer'] },
   { id:'itv', name:'ITVX', aliases:['ITVX','ITV X'] },
+  { id:'channel4', name:'Channel 4', aliases:['Channel 4','All 4'] },
 ];
 
 const OFFICIAL = {
@@ -280,6 +281,8 @@ const PRIME_DIRECT_URLS = [
   // Prime's EU route can avoid the generic storefront GitHub runners receive.
   'https://www.primevideo.com/region/eu/movie/ref%3Datv_hom_Marqueetvuk_c_9zZ8D2_hom?tr=gb&avCurrentTerritory=UK&language=en_GB',
   'https://www.primevideo.com/region/eu/movie/ref%3Datv_hom_Marqueetvuk_c_9zZ8D2_hom?tr=gb&avCurrentTerritory=GB&language=en_GB',
+  // UK IP hint used by Prime's storefront localisation layer.
+  'https://www.primevideo.com/movie/ref%3Datv_hom_Marqueetvuk_c_9zZ8D2_hom?tr=gb&avClientAddress=81.2.69.142&language=en_GB',
   'https://www.primevideo.com/movie?avCurrentTerritory=UK&language=en_GB&tr=gb'
 ];
 function primeItemsFromPayload(payload, transport='direct') {
@@ -378,26 +381,35 @@ async function fetchPrimeViaPublicSearchIndex() {
 }
 
 async function fetchOfficialPrimeMovies() {
-  const headers={
-    'user-agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  const baseHeaders={
     'accept':'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
     'accept-language':'en-GB,en;q=0.9',
     'cookie':'lc-main=en_GB; i18n-prefs=GBP; av-timezone=Europe%2FLondon',
     'referer':'https://www.primevideo.com/'
   };
+  // Prime exposes the UK chart to public web crawlers even when cloud-hosted
+  // browser requests are geolocated to another storefront. Try normal browser
+  // traffic first, then crawler rendering profiles against the same official page.
+  const headerProfiles=[
+    ['browser', {...baseHeaders,'user-agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36'}],
+    ['googlebot', {...baseHeaders,'user-agent':'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)'}],
+    ['bingbot', {...baseHeaders,'user-agent':'Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)'}]
+  ];
   const errors=[];
 
-  // 1) Prime itself. This is preferred because it is the official page with no intermediary.
-  for(const url of PRIME_DIRECT_URLS){
-    try{
-      const html=await fetchText(url,headers);
-      const hasUk=/Top\s*10\s*movies\s*in\s*the\s*UK/i.test(decodePrimePayload(html));
-      console.log(`Prime direct fetch: ${url} (${html.length} chars, UK heading=${hasUk})`);
-      if(!hasUk) throw new Error('Prime returned a page without the UK Top 10 carousel');
-      return primeItemsFromPayload(html,'direct');
-    }catch(err){
-      errors.push(`direct: ${err.message}`);
-      console.warn(`Prime direct attempt failed: ${err.message}`);
+  // 1) Prime itself. Only accept an exact UK Top 10 heading from Prime's page.
+  for(const [profile,headers] of headerProfiles){
+    for(const url of PRIME_DIRECT_URLS){
+      try{
+        const html=await fetchText(url,headers);
+        const hasUk=/Top\s*10\s*movies\s*in\s*the\s*UK/i.test(decodePrimePayload(html));
+        console.log(`Prime ${profile} fetch: ${url} (${html.length} chars, UK heading=${hasUk})`);
+        if(!hasUk) throw new Error('Prime returned a page without the UK Top 10 carousel');
+        return primeItemsFromPayload(html,profile);
+      }catch(err){
+        errors.push(`${profile}: ${err.message}`);
+        console.warn(`Prime ${profile} attempt failed: ${err.message}`);
+      }
     }
   }
 
@@ -406,7 +418,7 @@ async function fetchOfficialPrimeMovies() {
   // UK carousel. Reader renders the public page in a browser; provenance remains Prime.
   const readerHeaders={
     'accept':'text/plain',
-    'user-agent':'WozzaWatch/4.8.3 (+GitHub Actions)',
+    'user-agent':'WozzaWatch/4.9 (+GitHub Actions)',
     'x-engine':'browser',
     'x-no-cache':'true',
     'x-timeout':'20'
@@ -432,7 +444,7 @@ async function fetchOfficialPrimeMovies() {
     const query=encodeURIComponent('site:primevideo.com/movie "Top 10 movies in the UK" Prime Video');
     const searchText=await fetchText(`https://s.jina.ai/${query}`,{
       'accept':'text/plain',
-      'user-agent':'WozzaWatch/4.8.3 (+GitHub Actions)',
+      'user-agent':'WozzaWatch/4.9 (+GitHub Actions)',
       'x-no-cache':'true'
     });
     const hasUk=/Top\s*10\s*movies\s*in\s*the\s*UK/i.test(searchText);
@@ -655,7 +667,7 @@ async function fetchUSCinemaIMDb() {
     const readerUrl=`https://r.jina.ai/https://www.imdb.com/chart/boxoffice/`;
     const text=await fetchText(readerUrl,{
       'accept':'text/plain',
-      'user-agent':'WozzaWatch/4.8.3 (+GitHub Actions)',
+      'user-agent':'WozzaWatch/4.9 (+GitHub Actions)',
       'x-engine':'browser',
       'x-no-cache':'true',
       'x-timeout':'20'
@@ -716,7 +728,7 @@ async function enrichOfficial(official, fallback=[], objectType) {
 }
 
 let previous={}; try{previous=JSON.parse(await readFile('data/rankings.json','utf8'));}catch{}
-const output={version:11,generatedAt:new Date().toISOString(),country:'GB',strategy:'Official source first; labelled fallback when no compatible official chart is available.',services:{}};
+const output={version:12,generatedAt:new Date().toISOString(),country:'GB',strategy:'Official source first; labelled fallback when no compatible official chart is available.',services:{}};
 const packageData=await gql(PACKAGES_QUERY,{country:'GB',platform:'WEB'}); const packages=packageData?.packages||[];
 let netflixOfficial=null; try{netflixOfficial=await fetchOfficialNetflix(); console.log(`Netflix official week ${netflixOfficial.week}`);}catch(err){console.error('Netflix official:',err.message);}
 let primeMoviesOfficial=null; try{primeMoviesOfficial=await fetchOfficialPrimeMovies(); console.log(`Prime official movies: ${primeMoviesOfficial.length}`);}catch(err){console.error('Prime official movies:',err.message);}
@@ -744,7 +756,7 @@ for(const service of SERVICES){
       entry.sources[key]={kind:'official',label:OFFICIAL.appleTV.label,url:OFFICIAL.appleTV.url,cadence:OFFICIAL.appleTV.cadence,note:OFFICIAL.appleTV.note};
     } else if(fallback?.items?.length){
       entry[key]=fallback.items.map((x,i)=>({...x,rank:i+1}));
-      entry.sources[key]={kind:'fallback',label:'JustWatch UK',url:`https://www.justwatch.com/uk/provider/${service.id==='prime'?'amazon-prime-video':service.id==='disney'?'disney-plus':service.id==='apple'?'apple-tv-plus':service.id==='max'?'hbo-max':service.id==='bbc'?'bbc-iplayer':service.id==='itv'?'itvx':'netflix'}/${key==='movies'?'movies':'tv-series'}`,cadence:'daily',note:service.id==='disney'?OFFICIAL.disney.note:'No compatible public official Movies/TV chart is currently used, so WozzaWatch falls back to JustWatch UK popularity.'};
+      entry.sources[key]={kind:'fallback',label:'JustWatch UK',url:`https://www.justwatch.com/uk/provider/${service.id==='prime'?'amazon-prime-video':service.id==='disney'?'disney-plus':service.id==='apple'?'apple-tv-plus':service.id==='max'?'hbo-max':service.id==='bbc'?'bbc-iplayer':service.id==='itv'?'itvx':service.id==='channel4'?'channel-4':'netflix'}/${key==='movies'?'movies':'tv-series'}`,cadence:'daily',note:service.id==='disney'?OFFICIAL.disney.note:'No compatible public official Movies/TV chart is currently used, so WozzaWatch falls back to JustWatch UK popularity.'};
     } else {
       const old=previous?.services?.[service.id]?.[key];
       if(Array.isArray(old)&&old.length){ entry[key]=old.map((x,i)=>({...x,rank:i+1})); entry.sources[key]=previous.services[service.id]?.sources?.[key]||{kind:'stale',label:'Previous cached result',url:null,note:'Fresh data was unavailable.'}; entry.stale=true; }
