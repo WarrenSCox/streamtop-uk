@@ -1,6 +1,6 @@
 {
   "version": 5,
-  "generatedAt": "2026-08-31T21:17:40.396Z",
+  "generatedAt": "2026-08-31T21:23:17.305Z",
   "country": "GB",
   "strategy": "Official source first; labelled fallback when no compatible official chart is available.",
   "services": {
@@ -1033,18 +1033,6 @@
         },
         {
           "rank": 5,
-          "title": "Lucky",
-          "year": 2026,
-          "poster": "/poster/341456365/s166/lucky-2026.webp",
-          "url": "https://tv.apple.com/gb/show/lucky/umc.cmc.5qo7t3nngb2vj0m9dxkwebw1o",
-          "trend": null,
-          "trendDifference": 0,
-          "daysInTop10": null,
-          "topRank": null,
-          "detailsUrl": "https://www.justwatch.com/uk/tv-series/lucky-2026"
-        },
-        {
-          "rank": 6,
           "title": "Trying",
           "year": 2020,
           "poster": "/poster/348215563/s166/trying-2020.webp",
@@ -1054,6 +1042,18 @@
           "daysInTop10": null,
           "topRank": null,
           "detailsUrl": "https://www.justwatch.com/uk/tv-series/trying-2020"
+        },
+        {
+          "rank": 6,
+          "title": "Lucky",
+          "year": 2026,
+          "poster": "/poster/341456365/s166/lucky-2026.webp",
+          "url": "https://tv.apple.com/gb/show/lucky/umc.cmc.5qo7t3nngb2vj0m9dxkwebw1o",
+          "trend": null,
+          "trendDifference": 0,
+          "daysInTop10": null,
+          "topRank": null,
+          "detailsUrl": "https://www.justwatch.com/uk/tv-series/lucky-2026"
         },
         {
           "rank": 7,
