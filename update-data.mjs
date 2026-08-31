@@ -363,40 +363,12 @@ function extractPrimeIndexedTitles(payload, transport='indexed-search') {
 }
 
 async function fetchPrimeViaPublicSearchIndex() {
-  const query='"Top 10 movies in the UK" site:primevideo.com/movie Prime Video';
-  const q=encodeURIComponent(query);
-  const attempts=[
-    {
-      name:'bing-index',
-      url:`https://www.bing.com/search?q=${q}&setlang=en-GB&cc=gb&count=10`,
-      headers:{'accept-language':'en-GB,en;q=0.9','user-agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/139.0.0.0 Safari/537.36'}
-    },
-    {
-      name:'duckduckgo-index',
-      url:`https://html.duckduckgo.com/html/?q=${q}&kl=uk-en`,
-      headers:{'accept-language':'en-GB,en;q=0.9','user-agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/139.0.0.0 Safari/537.36'}
-    },
-    {
-      name:'google-index',
-      url:`https://www.google.com/search?q=${q}&hl=en&gl=gb&num=10&filter=0`,
-      headers:{'accept-language':'en-GB,en;q=0.9','user-agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/139.0.0.0 Safari/537.36'}
-    }
-  ];
-  const errors=[];
-  for(const attempt of attempts){
-    try{
-      const text=await fetchText(attempt.url,attempt.headers);
-      const hasPrime=/primevideo\.com/i.test(text);
-      const hasUk=/Top\s*10\s*movies\s*in\s*the\s*UK/i.test(decodePrimePayload(text));
-      console.log(`Prime ${attempt.name}: ${text.length} chars, Prime URL=${hasPrime}, UK heading=${hasUk}`);
-      if(!hasPrime||!hasUk) throw new Error('indexed result did not expose the official UK chart text');
-      return extractPrimeIndexedTitles(text,attempt.name);
-    }catch(err){
-      errors.push(`${attempt.name}: ${err.message}`);
-      console.warn(`Prime ${attempt.name} failed: ${err.message}`);
-    }
-  }
-  throw new Error(errors.join(' | ')||'No public search index exposed the Prime UK chart');
+  // Search-result HTML is not a trustworthy representation of Prime's page.
+  // It can contain our query text plus unrelated result cards/images, which
+  // previously produced false "movie titles". Never publish that as official.
+  // Keep this explicit failure so fetchOfficialPrimeMovies() continues to the
+  // labelled JustWatch UK fallback when Prime hides its carousel from CI.
+  throw new Error('public search index disabled: cannot safely prove 10 Prime UK chart titles');
 }
 
 async function fetchOfficialPrimeMovies() {
