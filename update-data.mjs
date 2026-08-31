@@ -29,6 +29,9 @@ const OFFICIAL = {
 
 const PACKAGES_QUERY = `query Packages($country: Country!, $platform: Platform!) { packages(country: $country, platform: $platform) { id packageId clearName shortName technicalName } }`;
 const CHART_QUERY = `query StreamTopChart($chartCountry: Country,$country: Country!,$language: Language!,$first: Int!,$filter: StreamingChartsFilter) { streamingCharts(country:$chartCountry,filter:$filter,first:$first) { edges { streamingChartInfo { rank trend trendDifference daysInTop10 topRank } node { id objectType ... on MovieOrShowOrSeason { content(country:$country,language:$language) { title fullPath posterUrl(profile:S166,format:WEBP) originalReleaseYear } } } } } }`;
+
+const TITLE_LOOKUP_QUERY = `query WozzaWatchTitleLookup($country: Country!,$language: Language!,$first: Int!,$filter: TitleFilter) { popularTitles(country:$country,filter:$filter,first:$first,sortBy:POPULAR) { edges { node { id objectType ... on MovieOrShowOrSeason { content(country:$country,language:$language) { title fullPath posterUrl(profile:S166,format:WEBP) originalReleaseYear } } } } } }`;
+
 const POPULAR_QUERY = `query StreamTopPopular($country: Country!,$language: Language!,$first: Int!,$filter: TitleFilter) { popularTitles(country:$country,filter:$filter,first:$first,sortBy:POPULAR) { edges { node { id objectType ... on MovieOrShowOrSeason { content(country:$country,language:$language) { title fullPath posterUrl(profile:S166,format:WEBP) originalReleaseYear } } } } } }`;
 
 async function fetchText(url) {
@@ -109,21 +112,54 @@ async function fetchOfficialNetflix() {
       const seasonTitle=cleanNetflixCell(r.season_title);
       return {
         rank:i+1, sourceRank:Number(r.weekly_rank)||i+1,
-        title:showTitle||seasonTitle||'Untitled', showTitle:showTitle||null, seasonTitle:seasonTitle||null, year:null, poster:null,
+        title:showTitle||'Untitled', showTitle:showTitle||null, seasonTitle:seasonTitle||null, year:null, poster:null,
         url:cat==='Films'?'https://www.netflix.com/tudum/top10/united-kingdom/films.html':'https://www.netflix.com/tudum/top10/united-kingdom/tv.html',
         trend:null, trendDifference:0, daysInTop10:Number(r.cumulative_weeks_in_top_10)||null, topRank:null
       };
     });
   return { week:latest, movies:byCategory('Films'), tv:byCategory('TV') };
 }
-function enrichOfficial(official, fallback=[]) {
+async function lookupTitleMetadata(title, objectType) {
+  if (!title || title === 'Untitled') return null;
+  try {
+    const data = await gql(TITLE_LOOKUP_QUERY, {
+      country:'GB', language:'en', first:5,
+      filter:{searchQuery:title, objectTypes:[objectType]}
+    });
+    const edges=data?.popularTitles?.edges||[];
+    const exact=edges.find(e=>norm(e.node?.content?.title)===norm(title)) || edges[0];
+    const c=exact?.node?.content;
+    if(!c) return null;
+    return {
+      poster:c.posterUrl||null,
+      year:c.originalReleaseYear||null,
+      justWatchUrl:c.fullPath?`https://www.justwatch.com${c.fullPath}`:null
+    };
+  } catch(err) {
+    console.warn(`Metadata lookup failed for ${title}: ${err.message}`);
+    return null;
+  }
+}
+
+async function enrichOfficial(official, fallback=[], objectType) {
   const lookup=new Map();
   for (const item of fallback) lookup.set(norm(item.title), item);
-  return official.map((x,i)=>{
-    const candidates=[x.showTitle,x.title,x.seasonTitle].filter(Boolean).map(norm);
+  const enriched=[];
+  for (let i=0;i<official.length;i++) {
+    const x=official[i];
+    const candidates=[x.showTitle,x.title].filter(Boolean).map(norm);
     const hit=candidates.map(k=>lookup.get(k)).find(Boolean);
-    return {...x,rank:i+1,poster:hit?.poster||x.poster,year:hit?.year||x.year};
-  });
+    let meta=hit ? {poster:hit.poster,year:hit.year,justWatchUrl:hit.url} : null;
+    if(!meta?.poster) meta=await lookupTitleMetadata(x.title, objectType);
+    enriched.push({
+      ...x,
+      rank:i+1,
+      poster:meta?.poster||x.poster||null,
+      year:meta?.year||x.year||null,
+      detailsUrl:meta?.justWatchUrl||null
+    });
+  }
+  return enriched;
 }
 
 let previous={}; try{previous=JSON.parse(await readFile('data/rankings.json','utf8'));}catch{}
@@ -137,7 +173,7 @@ for(const service of SERVICES){
     let fallback=null;
     if(pkg){ try{fallback=await fetchJustWatch(pkg,type);}catch(err){console.error(`${service.name} fallback ${key}:`,err.message);} }
     if(service.id==='netflix' && netflixOfficial?.[key]?.length){
-      entry[key]=enrichOfficial(netflixOfficial[key],fallback?.items||[]);
+      entry[key]=await enrichOfficial(netflixOfficial[key],fallback?.items||[],type);
       entry.sources[key]={kind:'official',label:OFFICIAL.netflix.label,url:OFFICIAL.netflix.url,cadence:'weekly',asOf:netflixOfficial.week,note:OFFICIAL.netflix.note};
     } else if(fallback?.items?.length){
       entry[key]=fallback.items.map((x,i)=>({...x,rank:i+1}));

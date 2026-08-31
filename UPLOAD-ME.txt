@@ -1,0 +1,18 @@
+WOZZAWATCH - LATEST CONSOLIDATED BUILD
+
+Upload/replace these files in your GitHub repository.
+
+IMPORTANT:
+- The workflow must end up at: .github/workflows/update-rankings.yml
+- WORKFLOW-UPDATE-RANKINGS.yml is only a visible helper copy for mobile GitHub uploads. You do not need both copies in the repository.
+- After upload, the workflow should run automatically because update-data.mjs changed. You can also run it manually once.
+
+This consolidated build includes:
+- Daydream branding / WozzaWatch UI
+- Minimal provider labels
+- Icon-only Movies/TV selector
+- Source badge itself is clickable
+- 01-10 ranking numbers
+- Netflix official-first parsing fixes
+- Poster enrichment logic
+- Robust workflow push with rebase
