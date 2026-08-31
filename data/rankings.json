@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "generatedAt": "2026-08-31T19:10:49.759Z",
+  "generatedAt": "2026-08-31T19:33:53.529Z",
   "country": "GB",
   "strategy": "Official source first; labelled fallback when no compatible official chart is available.",
   "services": {
@@ -13,13 +13,14 @@
           "title": "Don't Say Good Luck",
           "showTitle": "Don't Say Good Luck",
           "seasonTitle": null,
-          "year": null,
-          "poster": null,
+          "year": 2026,
+          "poster": "/poster/347522019/s166/dont-say-good-luck.webp",
           "url": "https://www.netflix.com/tudum/top10/united-kingdom/films.html",
           "trend": null,
           "trendDifference": 0,
           "daysInTop10": 2,
-          "topRank": null
+          "topRank": null,
+          "detailsUrl": "https://www.justwatch.com/uk/movie/dont-say-good-luck"
         },
         {
           "rank": 2,
@@ -27,13 +28,14 @@
           "title": "Freefall: A Reckoning for Boeing",
           "showTitle": "Freefall: A Reckoning for Boeing",
           "seasonTitle": null,
-          "year": null,
-          "poster": null,
+          "year": 2026,
+          "poster": "/poster/347620845/s166/freefall-a-reckoning-for-boeing.webp",
           "url": "https://www.netflix.com/tudum/top10/united-kingdom/films.html",
           "trend": null,
           "trendDifference": 0,
           "daysInTop10": 1,
-          "topRank": null
+          "topRank": null,
+          "detailsUrl": "https://www.justwatch.com/uk/movie/freefall-a-reckoning-for-boeing"
         },
         {
           "rank": 3,
@@ -47,7 +49,8 @@
           "trend": null,
           "trendDifference": 0,
           "daysInTop10": 3,
-          "topRank": null
+          "topRank": null,
+          "detailsUrl": "https://www.justwatch.com/uk/movie/the-last-house-2026"
         },
         {
           "rank": 4,
@@ -55,13 +58,14 @@
           "title": "Breaking In",
           "showTitle": "Breaking In",
           "seasonTitle": null,
-          "year": null,
-          "poster": null,
+          "year": 2018,
+          "poster": "/poster/48471357/s166/breaking-in.webp",
           "url": "https://www.netflix.com/tudum/top10/united-kingdom/films.html",
           "trend": null,
           "trendDifference": 0,
           "daysInTop10": 1,
-          "topRank": null
+          "topRank": null,
+          "detailsUrl": "https://www.justwatch.com/uk/movie/breaking-in"
         },
         {
           "rank": 5,
@@ -69,13 +73,14 @@
           "title": "The Wild Robot",
           "showTitle": "The Wild Robot",
           "seasonTitle": null,
-          "year": null,
-          "poster": null,
+          "year": 2024,
+          "poster": "/poster/317457812/s166/the-wild-robot.webp",
           "url": "https://www.netflix.com/tudum/top10/united-kingdom/films.html",
           "trend": null,
           "trendDifference": 0,
           "daysInTop10": 1,
-          "topRank": null
+          "topRank": null,
+          "detailsUrl": "https://www.justwatch.com/uk/movie/the-wild-robot"
         },
         {
           "rank": 6,
@@ -83,13 +88,14 @@
           "title": "Rise of the Footsoldier: Vengeance",
           "showTitle": "Rise of the Footsoldier: Vengeance",
           "seasonTitle": null,
-          "year": null,
-          "poster": null,
+          "year": 2023,
+          "poster": "/poster/309397927/s166/rise-of-the-footsoldier-vengeance.webp",
           "url": "https://www.netflix.com/tudum/top10/united-kingdom/films.html",
           "trend": null,
           "trendDifference": 0,
           "daysInTop10": 2,
-          "topRank": null
+          "topRank": null,
+          "detailsUrl": "https://www.justwatch.com/uk/movie/rise-of-the-footsoldier-vengeance"
         },
         {
           "rank": 7,
@@ -97,13 +103,14 @@
           "title": "Gladiator II",
           "showTitle": "Gladiator II",
           "seasonTitle": null,
-          "year": null,
-          "poster": null,
+          "year": 2024,
+          "poster": "/poster/344681920/s166/gladiator-2.webp",
           "url": "https://www.netflix.com/tudum/top10/united-kingdom/films.html",
           "trend": null,
           "trendDifference": 0,
           "daysInTop10": 2,
-          "topRank": null
+          "topRank": null,
+          "detailsUrl": "https://www.justwatch.com/uk/movie/gladiator-2"
         },
         {
           "rank": 8,
@@ -111,13 +118,14 @@
           "title": "The Heat",
           "showTitle": "The Heat",
           "seasonTitle": null,
-          "year": null,
-          "poster": null,
+          "year": 2013,
+          "poster": "/poster/177638667/s166/the-heat.webp",
           "url": "https://www.netflix.com/tudum/top10/united-kingdom/films.html",
           "trend": null,
           "trendDifference": 0,
           "daysInTop10": 1,
-          "topRank": null
+          "topRank": null,
+          "detailsUrl": "https://www.justwatch.com/uk/movie/the-heat"
         },
         {
           "rank": 9,
@@ -125,13 +133,14 @@
           "title": "Venom: The Last Dance",
           "showTitle": "Venom: The Last Dance",
           "seasonTitle": null,
-          "year": null,
-          "poster": null,
+          "year": 2024,
+          "poster": "/poster/317163423/s166/venom-3-2024.webp",
           "url": "https://www.netflix.com/tudum/top10/united-kingdom/films.html",
           "trend": null,
           "trendDifference": 0,
           "daysInTop10": 2,
-          "topRank": null
+          "topRank": null,
+          "detailsUrl": "https://www.justwatch.com/uk/movie/venom-3-2024"
         },
         {
           "rank": 10,
@@ -139,13 +148,14 @@
           "title": "Suicide Squad",
           "showTitle": "Suicide Squad",
           "seasonTitle": null,
-          "year": null,
-          "poster": null,
+          "year": 2016,
+          "poster": "/poster/320732524/s166/suicide-squad.webp",
           "url": "https://www.netflix.com/tudum/top10/united-kingdom/films.html",
           "trend": null,
           "trendDifference": 0,
           "daysInTop10": 6,
-          "topRank": null
+          "topRank": null,
+          "detailsUrl": "https://www.justwatch.com/uk/movie/suicide-squad"
         }
       ],
       "tv": [
@@ -155,13 +165,14 @@
           "title": "Outer Banks",
           "showTitle": "Outer Banks",
           "seasonTitle": "Outer Banks: Season 5",
-          "year": null,
-          "poster": null,
+          "year": 2020,
+          "poster": "/poster/321319025/s166/outer-banks.webp",
           "url": "https://www.netflix.com/tudum/top10/united-kingdom/tv.html",
           "trend": null,
           "trendDifference": 0,
           "daysInTop10": 1,
-          "topRank": null
+          "topRank": null,
+          "detailsUrl": "https://www.justwatch.com/uk/tv-series/outer-banks"
         },
         {
           "rank": 2,
@@ -169,13 +180,14 @@
           "title": "Love Is Blind: UK",
           "showTitle": "Love Is Blind: UK",
           "seasonTitle": "Love Is Blind: UK: Season 3",
-          "year": null,
-          "poster": null,
+          "year": 2024,
+          "poster": "/poster/348421479/s166/love-is-blind-uk.webp",
           "url": "https://www.netflix.com/tudum/top10/united-kingdom/tv.html",
           "trend": null,
           "trendDifference": 0,
           "daysInTop10": 1,
-          "topRank": null
+          "topRank": null,
+          "detailsUrl": "https://www.justwatch.com/uk/tv-series/love-is-blind-uk"
         },
         {
           "rank": 3,
@@ -183,13 +195,14 @@
           "title": "Conversations with a Killer: The Charles Manson Tapes",
           "showTitle": "Conversations with a Killer: The Charles Manson Tapes",
           "seasonTitle": "Conversations with a Killer: The Charles Manson Tapes: Season 1",
-          "year": null,
-          "poster": null,
+          "year": 2026,
+          "poster": "/poster/347753784/s166/conversations-with-a-killer-the-charles-manson-tapes.webp",
           "url": "https://www.netflix.com/tudum/top10/united-kingdom/tv.html",
           "trend": null,
           "trendDifference": 0,
           "daysInTop10": 2,
-          "topRank": null
+          "topRank": null,
+          "detailsUrl": "https://www.justwatch.com/uk/tv-series/conversations-with-a-killer-the-charles-manson-tapes"
         },
         {
           "rank": 4,
@@ -197,13 +210,14 @@
           "title": "MOURINHO",
           "showTitle": "MOURINHO",
           "seasonTitle": "MOURINHO: Season 1",
-          "year": null,
-          "poster": null,
+          "year": 2026,
+          "poster": "/poster/347636174/s166/mourinho.webp",
           "url": "https://www.netflix.com/tudum/top10/united-kingdom/tv.html",
           "trend": null,
           "trendDifference": 0,
           "daysInTop10": 2,
-          "topRank": null
+          "topRank": null,
+          "detailsUrl": "https://www.justwatch.com/uk/tv-series/mourinho"
         },
         {
           "rank": 5,
@@ -217,7 +231,8 @@
           "trend": null,
           "trendDifference": 0,
           "daysInTop10": 2,
-          "topRank": null
+          "topRank": null,
+          "detailsUrl": "https://www.justwatch.com/uk/tv-series/my-brilliant-career"
         },
         {
           "rank": 6,
@@ -225,13 +240,14 @@
           "title": "My Life With the Walter Boys",
           "showTitle": "My Life With the Walter Boys",
           "seasonTitle": "My Life With the Walter Boys: Season 3",
-          "year": null,
-          "poster": null,
+          "year": 2023,
+          "poster": "/poster/335781090/s166/my-life-with-the-walter-boys.webp",
           "url": "https://www.netflix.com/tudum/top10/united-kingdom/tv.html",
           "trend": null,
           "trendDifference": 0,
           "daysInTop10": 3,
-          "topRank": null
+          "topRank": null,
+          "detailsUrl": "https://www.justwatch.com/uk/tv-series/my-life-with-the-walter-boys"
         },
         {
           "rank": 7,
@@ -239,13 +255,14 @@
           "title": "Blood Sacrifice",
           "showTitle": "Blood Sacrifice",
           "seasonTitle": "Blood Sacrifice: Season 1",
-          "year": null,
-          "poster": null,
+          "year": 2026,
+          "poster": "/poster/350564012/s166/blodsoffer.webp",
           "url": "https://www.netflix.com/tudum/top10/united-kingdom/tv.html",
           "trend": null,
           "trendDifference": 0,
           "daysInTop10": 1,
-          "topRank": null
+          "topRank": null,
+          "detailsUrl": "https://www.justwatch.com/uk/tv-series/blodsoffer"
         },
         {
           "rank": 8,
@@ -253,13 +270,14 @@
           "title": "The Idaho Murders: College Nightmare",
           "showTitle": "The Idaho Murders: College Nightmare",
           "seasonTitle": "The Idaho Murders: College Nightmare: Season 1",
-          "year": null,
-          "poster": null,
+          "year": 2026,
+          "poster": "/poster/347455000/s166/the-idaho-murders-college-nightmare.webp",
           "url": "https://www.netflix.com/tudum/top10/united-kingdom/tv.html",
           "trend": null,
           "trendDifference": 0,
           "daysInTop10": 4,
-          "topRank": null
+          "topRank": null,
+          "detailsUrl": "https://www.justwatch.com/uk/tv-series/the-idaho-murders-college-nightmare"
         },
         {
           "rank": 9,
@@ -267,13 +285,14 @@
           "title": "Raw",
           "showTitle": "Raw",
           "seasonTitle": "Raw: August 17, 2026",
-          "year": null,
-          "poster": null,
+          "year": 2008,
+          "poster": "/poster/321050063/s166/raw.webp",
           "url": "https://www.netflix.com/tudum/top10/united-kingdom/tv.html",
           "trend": null,
           "trendDifference": 0,
           "daysInTop10": 1,
-          "topRank": null
+          "topRank": null,
+          "detailsUrl": "https://www.justwatch.com/uk/tv-series/raw"
         },
         {
           "rank": 10,
@@ -281,13 +300,14 @@
           "title": "I Will Find You",
           "showTitle": "I Will Find You",
           "seasonTitle": "I Will Find You: Limited Series",
-          "year": null,
-          "poster": null,
+          "year": 2026,
+          "poster": "/poster/346499080/s166/i-will-find-you.webp",
           "url": "https://www.netflix.com/tudum/top10/united-kingdom/tv.html",
           "trend": null,
           "trendDifference": 0,
           "daysInTop10": 9,
-          "topRank": null
+          "topRank": null,
+          "detailsUrl": "https://www.justwatch.com/uk/tv-series/i-will-find-you"
         }
       ],
       "sources": {
