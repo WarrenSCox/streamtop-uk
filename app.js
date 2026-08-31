@@ -330,17 +330,21 @@ function renderTitles(titles) {
     const info = document.createElement('div');
     info.className = 'item-info';
 
-    const title = document.createElement('a');
-    title.className = 'title title-link';
+    const detailsHref = item.detailsUrl || item.url || justWatchUrl(state.service, state.type);
+    const visualLink = document.createElement('a');
+    visualLink.className = 'poster-link';
+    visualLink.href = detailsHref;
+    visualLink.target = '_blank';
+    visualLink.rel = 'noopener';
+    visualLink.setAttribute('aria-label', `${item.title || 'Untitled'} — open details`);
+    visualLink.append(visual);
+
+    const title = document.createElement('div');
+    title.className = 'title';
     title.textContent = item.title || 'Untitled';
-    title.target = '_blank';
-    title.rel = 'noopener';
-    title.href = item.detailsUrl || item.url || justWatchUrl(state.service, state.type);
-    title.dataset.tooltip = 'Click for details';
-    title.setAttribute('aria-label', `${item.title || 'Untitled'} — open details`);
 
     info.append(title);
-    li.append(rank, visual, info);
+    li.append(rank, visualLink, info);
     els.chart.appendChild(li);
   });
 }

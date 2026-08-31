@@ -31,3 +31,8 @@ footer{width:min(760px,100%);margin:0 auto;padding:0 20px max(24px,env(safe-area
 
 /* v4.8 cinema charts: movies-only, so the Movies/TV switch quietly disappears. */
 .segmented.cinema-hidden{visibility:hidden;pointer-events:none;}
+
+/* v4.8.2: poster is the details link; title stays plain text for double-tap navigation. */
+.poster-link{display:block;border-radius:14px;line-height:0;text-decoration:none;justify-self:start}
+.poster-link:focus-visible{outline:3px solid var(--ink);outline-offset:3px}
+.poster-link .poster{display:block}

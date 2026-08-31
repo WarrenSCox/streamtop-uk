@@ -581,21 +581,27 @@ function parseImdbBoxOfficeHtml(html='') {
 function parseImdbReadable(text='') {
   const lines=decodeEntities(String(text)).split(/\r?\n/).map(x=>x.replace(/^\s*[-*#>]+\s*/,'').replace(/\s+/g,' ').trim()).filter(Boolean);
   const start=lines.findIndex(x=>/^Top box office \(US\)$/i.test(x));
-  const section=(start>=0?lines.slice(start):lines).slice(0,260);
+  const section=(start>=0?lines.slice(start):lines).slice(0,320);
   const titles=[];
-  for(let i=0;i<section.length;i++){
-    if(!/^Weekend Gross:\s*\$/i.test(section[i])) continue;
-    // In IMDb's readable page, the film title is the nearest meaningful line
-    // immediately before the Weekend Gross row (possibly after an image alt line).
-    let j=i-1;
-    while(j>=0 && /^(?:Image:|Weekend of|10 Titles|\d+(?:\.\d+)?\s*\(|Mark as watched|Rate)$/i.test(section[j])) j--;
-    const title=section[j];
+  const add=(title,url=US_CINEMA_URL)=>{
+    title=cleanImdbTitle(title);
     if(validImdbChartTitle(title) && !titles.some(x=>norm(x.title)===norm(title))) {
-      titles.push({rank:titles.length+1,title:cleanImdbTitle(title),url:US_CINEMA_URL});
-      if(titles.length===10) break;
+      titles.push({rank:titles.length+1,title,url:imdbTitleUrl(url)});
+    }
+  };
+  for(let i=0;i<section.length && titles.length<10;i++){
+    if(!/^Weekend Gross:\s*\$/i.test(section[i])) continue;
+    // Jina renders IMDb titles as Markdown links: [Movie title](https://www.imdb.com/title/tt.../)
+    // Find the nearest IMDb title link before the Weekend Gross line and keep
+    // the label only, rather than accidentally storing the full Markdown link.
+    for(let j=i-1;j>=Math.max(0,i-10);j--){
+      const md=section[j].match(/^\[([^\]]+)\]\((https?:\/\/www\.imdb\.com\/title\/tt\d+[^)]*)\)$/i);
+      if(md){ add(md[1],md[2]); break; }
+      const html=section[j].match(/^(.+?)\s+(https?:\/\/www\.imdb\.com\/title\/tt\d+\S*)$/i);
+      if(html){ add(html[1],html[2]); break; }
     }
   }
-  return titles;
+  return titles.slice(0,10);
 }
 async function fetchUSCinemaIMDb() {
   const errors=[];
@@ -623,7 +629,7 @@ async function fetchUSCinemaIMDb() {
     const readerUrl=`https://r.jina.ai/https://www.imdb.com/chart/boxoffice/`;
     const text=await fetchText(readerUrl,{
       'accept':'text/plain',
-      'user-agent':'WozzaWatch/4.8.1 (+GitHub Actions)',
+      'user-agent':'WozzaWatch/4.8.2 (+GitHub Actions)',
       'x-engine':'browser',
       'x-no-cache':'true',
       'x-timeout':'20'
