@@ -139,29 +139,64 @@ function bounceChartEdge(direction) {
 function initProviderSwipe() {
   const target = document.querySelector('.chart-wrap');
   if (!target) return;
-  let startX = 0, startY = 0, tracking = false;
+
+  let startX = 0;
+  let startY = 0;
+  let startTime = 0;
+  let tracking = false;
+  let lastTapAt = 0;
+  let lastTapX = 0;
+  let lastTapY = 0;
+  let tapTimer = null;
+
+  const toggleContentType = () => {
+    const nextType = state.type === 'MOVIE' ? 'SHOW' : 'MOVIE';
+    const card = document.querySelector('.chart-wrap');
+    if (!card || card.dataset.animating === '1') return;
+    card.dataset.animating = '1';
+    card.classList.remove('chart-toggle');
+    void card.offsetWidth;
+    card.classList.add('chart-toggle');
+    window.setTimeout(() => {
+      setContentType(nextType);
+      window.setTimeout(() => {
+        card.classList.remove('chart-toggle');
+        delete card.dataset.animating;
+      }, 120);
+    }, 95);
+  };
+
   target.addEventListener('touchstart', event => {
     if (event.touches.length !== 1 || target.dataset.animating === '1') return;
     const touch = event.touches[0];
     if (touch.clientX < 24 || touch.clientX > window.innerWidth - 24) return;
     startX = touch.clientX;
     startY = touch.clientY;
+    startTime = Date.now();
     tracking = true;
   }, {passive:true});
+
   target.addEventListener('touchend', event => {
     if (!tracking || event.changedTouches.length !== 1) return;
     tracking = false;
+
     const touch = event.changedTouches[0];
     const dx = touch.clientX - startX;
     const dy = touch.clientY - startY;
-    const ax = Math.abs(dx), ay = Math.abs(dy);
-    const threshold = 55;
+    const ax = Math.abs(dx);
+    const ay = Math.abs(dy);
+    const elapsed = Date.now() - startTime;
+    const swipeThreshold = 55;
 
-    if (ax < threshold && ay < threshold) return;
-
-    if (ax > ay * 1.2) {
+    // Horizontal swipes navigate providers. Vertical movement is deliberately
+    // ignored so normal page scrolling remains completely native.
+    if (ax >= swipeThreshold && ax > ay * 1.2) {
+      lastTapAt = 0;
+      if (tapTimer) {
+        clearTimeout(tapTimer);
+        tapTimer = null;
+      }
       const current = providerIndex();
-      // Natural carousel direction: LEFT = next provider, RIGHT = previous.
       if (dx < 0) {
         if (current >= SERVICES.length - 1) bounceChartEdge('next');
         else animateChartChange('x','next',() => setProviderIndex(current + 1));
@@ -172,18 +207,43 @@ function initProviderSwipe() {
       return;
     }
 
-    if (ay > ax * 1.2) {
-      // Vertical gesture changes content type only: UP = TV, DOWN = Movies.
-      if (dy < 0) {
-        if (state.type === 'SHOW') bounceChartEdge('up');
-        else animateChartChange('y','next',() => setContentType('SHOW'));
-      } else {
-        if (state.type === 'MOVIE') bounceChartEdge('down');
-        else animateChartChange('y','prev',() => setContentType('MOVIE'));
+    // A vertical gesture is just a normal scroll — never change Movies/TV.
+    if (ay > 16 || ax > 16 || elapsed > 450) return;
+
+    // Don't turn a deliberate double-tap on a link/button into a chart change.
+    if (event.target.closest('a,button')) return;
+
+    const now = Date.now();
+    const closeToLastTap = Math.hypot(touch.clientX - lastTapX, touch.clientY - lastTapY) < 42;
+    if (lastTapAt && now - lastTapAt <= 330 && closeToLastTap) {
+      if (tapTimer) {
+        clearTimeout(tapTimer);
+        tapTimer = null;
       }
+      lastTapAt = 0;
+      toggleContentType();
+      return;
     }
+
+    lastTapAt = now;
+    lastTapX = touch.clientX;
+    lastTapY = touch.clientY;
+    if (tapTimer) clearTimeout(tapTimer);
+    tapTimer = window.setTimeout(() => {
+      lastTapAt = 0;
+      tapTimer = null;
+    }, 340);
   }, {passive:true});
-  target.addEventListener('touchcancel', () => { tracking = false; }, {passive:true});
+
+  target.addEventListener('touchcancel', () => {
+    tracking = false;
+  }, {passive:true});
+
+  // Desktop/testing convenience: a true double-click on the card also toggles.
+  target.addEventListener('dblclick', event => {
+    if (event.target.closest('a,button')) return;
+    toggleContentType();
+  });
 }
 
 function posterUrl(raw) {
