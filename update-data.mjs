@@ -284,6 +284,91 @@ function primeItemsFromPayload(payload, transport='direct') {
   if(items.length<10) throw new Error(`Prime ${transport} parser returned only ${items.length} titles`);
   return items;
 }
+
+
+function extractPrimeIndexedTitles(payload, transport='indexed-search') {
+  const decoded=decodePrimePayload(payload);
+  const marker=/Top\s*10\s*movies\s*in\s*the\s*UK/i.exec(decoded);
+  if(!marker) throw new Error(`${transport} did not expose the UK Top 10 heading`);
+
+  // Search engines often HTML-escape or JSON-escape the indexed page text.
+  // Limit parsing to the area after the exact official Prime heading so we do
+  // not accidentally read unrelated movie names from the search results page.
+  const section=decoded.slice(marker.index, marker.index+180000);
+  const candidates=[];
+  const add=(value)=>{
+    const v=cleanPrimeTitle(value)
+      .replace(/^[-*•#\d.)\s]+/,'')
+      .replace(/\s+(?:Image|NEW MOVIE|MOST LIKED|DEAL|RECENTLY ADDED)$/i,'')
+      .trim();
+    if(!isPrimeNoise(v) && !/^(?:featured originals|top-rated movies|documentaries|paranormal screams|see more)/i.test(v)) candidates.push({title:v,url:PRIME_MOVIES_URL});
+  };
+
+  // Markdown/readability-like headings and bullets.
+  for(const line of section.split(/\r?\n/)) {
+    const clean=line.replace(/^\s*(?:[-*•]|\d+[.)]|#{1,6})\s*/, '').trim();
+    if(clean) add(clean);
+  }
+
+  // HTML headings, anchor text and common JSON title fields.
+  let m;
+  const headingRe=/<h[2-6]\b[^>]*>([\s\S]*?)<\/h[2-6]>/gi;
+  while((m=headingRe.exec(section))&&candidates.length<120) add(m[1]);
+  const anchorRe=/<a\b[^>]*>([\s\S]*?)<\/a>/gi;
+  while((m=anchorRe.exec(section))&&candidates.length<180) add(m[1]);
+  for(const key of ['title','displayTitle','heading','headline','ariaLabel','altText']) {
+    const re=new RegExp(`(?:\\\\?"${key}\\\\?"|"${key}")\\s*:\\s*(?:\\\\?"|")((?:\\\\.|[^"\\\\]){2,160})(?:\\\\?"|")`,'gi');
+    while((m=re.exec(section))&&candidates.length<260) add(m[1]);
+  }
+
+  const deduped=uniqueItems(candidates)
+    .filter(x=>!/^top 10 movies in the uk$/i.test(x.title));
+
+  // Stop when we hit the next known Prime section. The first 10 clean unique
+  // titles after the heading are the official ordered chart.
+  const items=deduped.slice(0,10).map((x,i)=>({rank:i+1,title:x.title,year:null,poster:null,url:PRIME_MOVIES_URL,trend:null,trendDifference:0,daysInTop10:null,topRank:null}));
+  console.log(`Prime ${transport}: ${items.length} indexed titles; first: ${items.map(x=>x.title).join(' | ')}`);
+  if(items.length<10) throw new Error(`${transport} returned only ${items.length} usable titles`);
+  return items;
+}
+
+async function fetchPrimeViaPublicSearchIndex() {
+  const query='"Top 10 movies in the UK" site:primevideo.com/movie Prime Video';
+  const q=encodeURIComponent(query);
+  const attempts=[
+    {
+      name:'bing-index',
+      url:`https://www.bing.com/search?q=${q}&setlang=en-GB&cc=gb&count=10`,
+      headers:{'accept-language':'en-GB,en;q=0.9','user-agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/139.0.0.0 Safari/537.36'}
+    },
+    {
+      name:'duckduckgo-index',
+      url:`https://html.duckduckgo.com/html/?q=${q}&kl=uk-en`,
+      headers:{'accept-language':'en-GB,en;q=0.9','user-agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/139.0.0.0 Safari/537.36'}
+    },
+    {
+      name:'google-index',
+      url:`https://www.google.com/search?q=${q}&hl=en&gl=gb&num=10&filter=0`,
+      headers:{'accept-language':'en-GB,en;q=0.9','user-agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/139.0.0.0 Safari/537.36'}
+    }
+  ];
+  const errors=[];
+  for(const attempt of attempts){
+    try{
+      const text=await fetchText(attempt.url,attempt.headers);
+      const hasPrime=/primevideo\.com/i.test(text);
+      const hasUk=/Top\s*10\s*movies\s*in\s*the\s*UK/i.test(decodePrimePayload(text));
+      console.log(`Prime ${attempt.name}: ${text.length} chars, Prime URL=${hasPrime}, UK heading=${hasUk}`);
+      if(!hasPrime||!hasUk) throw new Error('indexed result did not expose the official UK chart text');
+      return extractPrimeIndexedTitles(text,attempt.name);
+    }catch(err){
+      errors.push(`${attempt.name}: ${err.message}`);
+      console.warn(`Prime ${attempt.name} failed: ${err.message}`);
+    }
+  }
+  throw new Error(errors.join(' | ')||'No public search index exposed the Prime UK chart');
+}
+
 async function fetchOfficialPrimeMovies() {
   const headers={
     'user-agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
@@ -313,7 +398,7 @@ async function fetchOfficialPrimeMovies() {
   // UK carousel. Reader renders the public page in a browser; provenance remains Prime.
   const readerHeaders={
     'accept':'text/plain',
-    'user-agent':'WozzaWatch/4.6.2 (+GitHub Actions)',
+    'user-agent':'WozzaWatch/4.6.3 (+GitHub Actions)',
     'x-engine':'browser',
     'x-no-cache':'true',
     'x-timeout':'20'
@@ -339,7 +424,7 @@ async function fetchOfficialPrimeMovies() {
     const query=encodeURIComponent('site:primevideo.com/movie "Top 10 movies in the UK" Prime Video');
     const searchText=await fetchText(`https://s.jina.ai/${query}`,{
       'accept':'text/plain',
-      'user-agent':'WozzaWatch/4.6.2 (+GitHub Actions)',
+      'user-agent':'WozzaWatch/4.6.3 (+GitHub Actions)',
       'x-no-cache':'true'
     });
     const hasUk=/Top\s*10\s*movies\s*in\s*the\s*UK/i.test(searchText);
@@ -350,6 +435,17 @@ async function fetchOfficialPrimeMovies() {
   }catch(err){
     errors.push(`search: ${err.message}`);
     console.warn(`Prime search attempt failed: ${err.message}`);
+  }
+
+  // 4) Public search-index fallback. Search engines can see the UK-specific
+  // Prime page even when Amazon geolocates GitHub's runner outside the UK. We
+  // still require the exact official Prime heading and parse only the indexed
+  // Prime page text. If that condition is not met, we refuse to call it official.
+  try {
+    return await fetchPrimeViaPublicSearchIndex();
+  } catch(err) {
+    errors.push(`indexed: ${err.message}`);
+    console.warn(`Prime indexed fallback failed: ${err.message}`);
   }
 
   throw new Error(errors.join(' | ')||'Prime UK chart unavailable');
@@ -419,7 +515,7 @@ async function enrichOfficial(official, fallback=[], objectType) {
 }
 
 let previous={}; try{previous=JSON.parse(await readFile('data/rankings.json','utf8'));}catch{}
-const output={version:7,generatedAt:new Date().toISOString(),country:'GB',strategy:'Official source first; labelled fallback when no compatible official chart is available.',services:{}};
+const output={version:8,generatedAt:new Date().toISOString(),country:'GB',strategy:'Official source first; labelled fallback when no compatible official chart is available.',services:{}};
 const packageData=await gql(PACKAGES_QUERY,{country:'GB',platform:'WEB'}); const packages=packageData?.packages||[];
 let netflixOfficial=null; try{netflixOfficial=await fetchOfficialNetflix(); console.log(`Netflix official week ${netflixOfficial.week}`);}catch(err){console.error('Netflix official:',err.message);}
 let primeMoviesOfficial=null; try{primeMoviesOfficial=await fetchOfficialPrimeMovies(); console.log(`Prime official movies: ${primeMoviesOfficial.length}`);}catch(err){console.error('Prime official movies:',err.message);}
