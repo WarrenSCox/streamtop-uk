@@ -1,6 +1,6 @@
 {
   "version": 9,
-  "generatedAt": "2026-08-31T22:31:43.987Z",
+  "generatedAt": "2026-08-31T22:36:56.761Z",
   "country": "GB",
   "strategy": "Official source first; labelled fallback when no compatible official chart is available.",
   "services": {
@@ -407,13 +407,13 @@
         },
         {
           "rank": 7,
-          "sourceRank": 9,
+          "sourceRank": 16,
           "title": "Marty Supreme",
           "year": 2025,
           "poster": "/poster/341442240/s166/marty-supreme.webp",
           "url": "https://www.justwatch.com/uk/movie/marty-supreme",
-          "trend": "STABLE",
-          "trendDifference": 0,
+          "trend": "DOWN",
+          "trendDifference": -7,
           "daysInTop10": 44,
           "topRank": 1
         },
@@ -1223,18 +1223,6 @@
         },
         {
           "rank": 9,
-          "sourceRank": 41,
-          "title": "Mystic River",
-          "year": 2003,
-          "poster": "/poster/202176339/s166/mystic-river.webp",
-          "url": "https://www.justwatch.com/uk/movie/mystic-river",
-          "trend": "DOWN",
-          "trendDifference": -6,
-          "daysInTop10": 2,
-          "topRank": 1
-        },
-        {
-          "rank": 10,
           "sourceRank": 46,
           "title": "Inception",
           "year": 2010,
@@ -1243,6 +1231,18 @@
           "trend": "UP",
           "trendDifference": 26,
           "daysInTop10": 19,
+          "topRank": 2
+        },
+        {
+          "rank": 10,
+          "sourceRank": 49,
+          "title": "Superman",
+          "year": 2025,
+          "poster": "/poster/332665033/s166/superman-2025.webp",
+          "url": "https://www.justwatch.com/uk/movie/superman-2025",
+          "trend": "UP",
+          "trendDifference": 61,
+          "daysInTop10": 43,
           "topRank": 2
         }
       ],
