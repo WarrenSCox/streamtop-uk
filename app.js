@@ -237,11 +237,9 @@ function initProviderSwipe() {
       }
       const current = providerIndex();
       if (dx < 0) {
-        if (current >= SERVICES.length - 1) bounceChartEdge('next');
-        else animateChartChange('x','next',() => setProviderIndex(current + 1));
+        animateChartChange('x','next',() => setProviderIndex((current + 1) % SERVICES.length));
       } else {
-        if (current <= 0) bounceChartEdge('prev');
-        else animateChartChange('x','prev',() => setProviderIndex(current - 1));
+        animateChartChange('x','prev',() => setProviderIndex((current - 1 + SERVICES.length) % SERVICES.length));
       }
       return;
     }

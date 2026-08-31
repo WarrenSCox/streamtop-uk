@@ -272,10 +272,14 @@ function extractPrimeCandidateTitles(section) {
 }
 
 const PRIME_DIRECT_URLS = [
-  // Canonical public UK movies landing page (same page exposed to search engines).
-  'https://www.primevideo.com/movie/ref%3Datv_hom_Marqueetvuk_c_9zZ8D2_hom?tr=gb',
-  // Territory hint helps when the caller is a GitHub-hosted runner outside the UK.
+  // Canonical public UK movies landing page.
+  PRIME_MOVIES_URL,
+  // Explicit UK/GB territory hints for cloud runners.
   'https://www.primevideo.com/movie/ref%3Datv_hom_Marqueetvuk_c_9zZ8D2_hom?tr=gb&avCurrentTerritory=UK&language=en_GB',
+  'https://www.primevideo.com/movie/ref%3Datv_hom_Marqueetvuk_c_9zZ8D2_hom?tr=gb&avCurrentTerritory=GB&language=en_GB',
+  // Prime's EU route can avoid the generic storefront GitHub runners receive.
+  'https://www.primevideo.com/region/eu/movie/ref%3Datv_hom_Marqueetvuk_c_9zZ8D2_hom?tr=gb&avCurrentTerritory=UK&language=en_GB',
+  'https://www.primevideo.com/region/eu/movie/ref%3Datv_hom_Marqueetvuk_c_9zZ8D2_hom?tr=gb&avCurrentTerritory=GB&language=en_GB',
   'https://www.primevideo.com/movie?avCurrentTerritory=UK&language=en_GB&tr=gb'
 ];
 function primeItemsFromPayload(payload, transport='direct') {
@@ -402,17 +406,17 @@ async function fetchOfficialPrimeMovies() {
   // UK carousel. Reader renders the public page in a browser; provenance remains Prime.
   const readerHeaders={
     'accept':'text/plain',
-    'user-agent':'WozzaWatch/4.6.4 (+GitHub Actions)',
+    'user-agent':'WozzaWatch/4.8.3 (+GitHub Actions)',
     'x-engine':'browser',
     'x-no-cache':'true',
     'x-timeout':'20'
   };
-  for(const officialUrl of PRIME_DIRECT_URLS.slice(0,2)){
+  for(const officialUrl of PRIME_DIRECT_URLS){
     const readerUrl=`https://r.jina.ai/${officialUrl}`;
     try{
       const text=await fetchText(readerUrl,readerHeaders);
       const hasUk=/Top\s*10\s*movies\s*in\s*the\s*UK/i.test(text);
-      console.log(`Prime reader fetch: ${text.length} chars, UK heading=${hasUk}`);
+      console.log(`Prime reader fetch: ${officialUrl} (${text.length} chars, UK heading=${hasUk})`);
       if(!hasUk) throw new Error('Rendered Prime page did not contain the UK Top 10 heading');
       return primeItemsFromPayload(text,'reader');
     }catch(err){
@@ -428,7 +432,7 @@ async function fetchOfficialPrimeMovies() {
     const query=encodeURIComponent('site:primevideo.com/movie "Top 10 movies in the UK" Prime Video');
     const searchText=await fetchText(`https://s.jina.ai/${query}`,{
       'accept':'text/plain',
-      'user-agent':'WozzaWatch/4.6.4 (+GitHub Actions)',
+      'user-agent':'WozzaWatch/4.8.3 (+GitHub Actions)',
       'x-no-cache':'true'
     });
     const hasUk=/Top\s*10\s*movies\s*in\s*the\s*UK/i.test(searchText);
@@ -522,7 +526,11 @@ async function fetchOfficialUKCinema() {
 }
 
 function cleanImdbTitle(value='') {
-  return cleanCell(value)
+  let v=cleanCell(value).trim();
+  // Reader output can hand us an entire Markdown link. Keep only its label.
+  const md=v.match(/^\[([^\]]+)\]\((https?:\/\/[^)]+)\)$/i);
+  if(md) v=md[1];
+  return v
     .replace(/^\s*(?:10|[1-9])\s*[.\-)]\s*/, '')
     .replace(/\s+/g,' ')
     .trim();
@@ -579,29 +587,47 @@ function parseImdbBoxOfficeHtml(html='') {
   return out.sort((a,b)=>a.rank-b.rank).slice(0,10);
 }
 function parseImdbReadable(text='') {
-  const lines=decodeEntities(String(text)).split(/\r?\n/).map(x=>x.replace(/^\s*[-*#>]+\s*/,'').replace(/\s+/g,' ').trim()).filter(Boolean);
-  const start=lines.findIndex(x=>/^Top box office \(US\)$/i.test(x));
-  const section=(start>=0?lines.slice(start):lines).slice(0,320);
-  const titles=[];
-  const add=(title,url=US_CINEMA_URL)=>{
+  const raw=decodeEntities(String(text));
+  const out=[];
+  const add=(rank,title,url=US_CINEMA_URL)=>{
+    rank=Number(rank);
     title=cleanImdbTitle(title);
-    if(validImdbChartTitle(title) && !titles.some(x=>norm(x.title)===norm(title))) {
-      titles.push({rank:titles.length+1,title,url:imdbTitleUrl(url)});
-    }
+    if(!Number.isInteger(rank)||rank<1||rank>10||!validImdbChartTitle(title)) return;
+    if(out.some(x=>x.rank===rank || norm(x.title)===norm(title))) return;
+    out.push({rank,title,url:imdbTitleUrl(url)});
   };
-  for(let i=0;i<section.length && titles.length<10;i++){
+
+  // Strongest IMDb/Jina signal: the chart links themselves contain chtbo_t_1 ... chtbo_t_10.
+  // This lets us recover all 10 even when only some cards expose a Weekend Gross line.
+  let m;
+  const rankedMd=/\[([^\]\n]{1,180})\]\((https?:\/\/www\.imdb\.com\/title\/tt\d+[^)\n]*?[?&]ref_=chtbo_t_(10|[1-9])[^)\n]*)\)/gi;
+  while((m=rankedMd.exec(raw))) add(m[3],m[1],m[2]);
+
+  // Some Reader variants escape underscores or omit the ref_ query parameter from the URL
+  // but print the rank beside the title. Catch the common numbered Markdown form too.
+  const numberedMd=/^(?:#{1,6}\s*)?(10|[1-9])\s*[.\-)]\s*\[([^\]]+)\]\((https?:\/\/www\.imdb\.com\/title\/tt\d+[^)]*)\)/gmi;
+  while((m=numberedMd.exec(raw))) add(m[1],m[2],m[3]);
+
+  if(out.length===10) return out.sort((a,b)=>a.rank-b.rank);
+
+  const lines=raw.split(/\r?\n/).map(x=>x.replace(/^\s*[-*#>]+\s*/,'').replace(/\s+/g,' ').trim()).filter(Boolean);
+  const start=lines.findIndex(x=>/^Top box office \(US\)$/i.test(x));
+  const section=(start>=0?lines.slice(start):lines).slice(0,420);
+
+  // Last fallback: anchor titles to Weekend Gross lines, assigning the first unused rank.
+  for(let i=0;i<section.length && out.length<10;i++){
     if(!/^Weekend Gross:\s*\$/i.test(section[i])) continue;
-    // Jina renders IMDb titles as Markdown links: [Movie title](https://www.imdb.com/title/tt.../)
-    // Find the nearest IMDb title link before the Weekend Gross line and keep
-    // the label only, rather than accidentally storing the full Markdown link.
-    for(let j=i-1;j>=Math.max(0,i-10);j--){
+    for(let j=i-1;j>=Math.max(0,i-12);j--){
       const md=section[j].match(/^\[([^\]]+)\]\((https?:\/\/www\.imdb\.com\/title\/tt\d+[^)]*)\)$/i);
-      if(md){ add(md[1],md[2]); break; }
-      const html=section[j].match(/^(.+?)\s+(https?:\/\/www\.imdb\.com\/title\/tt\d+\S*)$/i);
-      if(html){ add(html[1],html[2]); break; }
+      if(md){
+        const ref=md[2].match(/[?&]ref_=chtbo_t_(10|[1-9])/i);
+        const rank=ref ? Number(ref[1]) : Array.from({length:10},(_,k)=>k+1).find(r=>!out.some(x=>x.rank===r));
+        add(rank,md[1],md[2]);
+        break;
+      }
     }
   }
-  return titles.slice(0,10);
+  return out.sort((a,b)=>a.rank-b.rank).slice(0,10);
 }
 async function fetchUSCinemaIMDb() {
   const errors=[];
@@ -629,7 +655,7 @@ async function fetchUSCinemaIMDb() {
     const readerUrl=`https://r.jina.ai/https://www.imdb.com/chart/boxoffice/`;
     const text=await fetchText(readerUrl,{
       'accept':'text/plain',
-      'user-agent':'WozzaWatch/4.8.2 (+GitHub Actions)',
+      'user-agent':'WozzaWatch/4.8.3 (+GitHub Actions)',
       'x-engine':'browser',
       'x-no-cache':'true',
       'x-timeout':'20'
