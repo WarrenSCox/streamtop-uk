@@ -2,7 +2,7 @@ import { mkdir, readFile, writeFile } from 'node:fs/promises';
 
 const ENDPOINT = 'https://apis.justwatch.com/graphql';
 const NETFLIX_TSV = 'https://www.netflix.com/tudum/top10/data/all-weeks-countries.tsv';
-const PRIME_MOVIES_URL = 'https://www.primevideo.com/movie/ref=atv_hom_Marqueetvuk_c_9zZ8D2_hom?tr=gb&language=en_GB';
+const PRIME_MOVIES_URL = 'https://www.primevideo.com/movie/ref%3Datv_hom_Marqueetvuk_c_9zZ8D2_hom?tr=gb';
 const APPLE_MOVIES_URL = 'https://tv.apple.com/gb/collection/most-popular-now/uts.col.ChartsMovies.tvs.sbd.4000';
 const APPLE_TV_URL = 'https://tv.apple.com/gb/collection/most-popular-now/uts.col.ChartsShows.tvs.sbd.4000';
 const SERVICES = [
@@ -270,9 +270,11 @@ function extractPrimeCandidateTitles(section) {
 }
 
 const PRIME_DIRECT_URLS = [
-  'https://www.primevideo.com/movie/ref=atv_hom_Marqueetvuk_c_9zZ8D2_hom?tr=gb&language=en_GB',
-  'https://www.primevideo.com/movie/ref=atv_hom_Marqueetvuk_c_9zZ8D2_hom?tr=gb',
-  'https://www.primevideo.com/movie?tr=gb&language=en_GB'
+  // Canonical public UK movies landing page (same page exposed to search engines).
+  'https://www.primevideo.com/movie/ref%3Datv_hom_Marqueetvuk_c_9zZ8D2_hom?tr=gb',
+  // Territory hint helps when the caller is a GitHub-hosted runner outside the UK.
+  'https://www.primevideo.com/movie/ref%3Datv_hom_Marqueetvuk_c_9zZ8D2_hom?tr=gb&avCurrentTerritory=UK&language=en_GB',
+  'https://www.primevideo.com/movie?avCurrentTerritory=UK&language=en_GB&tr=gb'
 ];
 function primeItemsFromPayload(payload, transport='direct') {
   const section=primeSection(payload);
@@ -287,16 +289,18 @@ async function fetchOfficialPrimeMovies() {
     'user-agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
     'accept':'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
     'accept-language':'en-GB,en;q=0.9',
-    'cookie':'lc-main=en_GB; i18n-prefs=GBP',
+    'cookie':'lc-main=en_GB; i18n-prefs=GBP; av-timezone=Europe%2FLondon',
     'referer':'https://www.primevideo.com/'
   };
   const errors=[];
 
-  // Try Prime directly first.
+  // 1) Prime itself. This is preferred because it is the official page with no intermediary.
   for(const url of PRIME_DIRECT_URLS){
     try{
       const html=await fetchText(url,headers);
-      console.log(`Prime direct fetch: ${url} (${html.length} chars, UK heading=${/Top\s*10\s*movies\s*in\s*the\s*UK/i.test(decodePrimePayload(html))})`);
+      const hasUk=/Top\s*10\s*movies\s*in\s*the\s*UK/i.test(decodePrimePayload(html));
+      console.log(`Prime direct fetch: ${url} (${html.length} chars, UK heading=${hasUk})`);
+      if(!hasUk) throw new Error('Prime returned a page without the UK Top 10 carousel');
       return primeItemsFromPayload(html,'direct');
     }catch(err){
       errors.push(`direct: ${err.message}`);
@@ -304,22 +308,50 @@ async function fetchOfficialPrimeMovies() {
     }
   }
 
-  // GitHub-hosted runners can receive a geolocated/personalised Prime shell
-  // without the UK carousel. As a transport fallback, ask Jina Reader to
-  // render the same PUBLIC OFFICIAL Prime UK page into stable readable text.
-  // The ranking provenance remains Prime Video; the source link shown in the
-  // app still points directly to Prime's UK page.
+  // 2) Render the SAME official Prime page through Jina Reader. This is useful on
+  // GitHub Actions because Amazon can geolocate/cloud-block the runner and omit the
+  // UK carousel. Reader renders the public page in a browser; provenance remains Prime.
+  const readerHeaders={
+    'accept':'text/plain',
+    'user-agent':'WozzaWatch/4.6.2 (+GitHub Actions)',
+    'x-engine':'browser',
+    'x-no-cache':'true',
+    'x-timeout':'20'
+  };
   for(const officialUrl of PRIME_DIRECT_URLS.slice(0,2)){
     const readerUrl=`https://r.jina.ai/${officialUrl}`;
     try{
-      const text=await fetchText(readerUrl,{'accept':'text/plain','user-agent':'WozzaWatch/4.6 (+GitHub Actions)'});
-      console.log(`Prime reader fetch: ${text.length} chars, UK heading=${/Top\s*10\s*movies\s*in\s*the\s*UK/i.test(text)}`);
+      const text=await fetchText(readerUrl,readerHeaders);
+      const hasUk=/Top\s*10\s*movies\s*in\s*the\s*UK/i.test(text);
+      console.log(`Prime reader fetch: ${text.length} chars, UK heading=${hasUk}`);
+      if(!hasUk) throw new Error('Rendered Prime page did not contain the UK Top 10 heading');
       return primeItemsFromPayload(text,'reader');
     }catch(err){
       errors.push(`reader: ${err.message}`);
       console.warn(`Prime reader attempt failed: ${err.message}`);
     }
   }
+
+  // 3) Last-resort discovery transport: Jina Search. We only accept it when the
+  // returned text contains Prime's exact UK heading, then parse the official Prime
+  // section itself. This avoids silently substituting US or generic popularity data.
+  try{
+    const query=encodeURIComponent('site:primevideo.com/movie "Top 10 movies in the UK" Prime Video');
+    const searchText=await fetchText(`https://s.jina.ai/${query}`,{
+      'accept':'text/plain',
+      'user-agent':'WozzaWatch/4.6.2 (+GitHub Actions)',
+      'x-no-cache':'true'
+    });
+    const hasUk=/Top\s*10\s*movies\s*in\s*the\s*UK/i.test(searchText);
+    const hasPrime=/primevideo\.com\/movie/i.test(searchText);
+    console.log(`Prime search transport: ${searchText.length} chars, UK heading=${hasUk}, Prime URL=${hasPrime}`);
+    if(!hasUk||!hasPrime) throw new Error('Search transport did not return the official Prime UK chart');
+    return primeItemsFromPayload(searchText,'search');
+  }catch(err){
+    errors.push(`search: ${err.message}`);
+    console.warn(`Prime search attempt failed: ${err.message}`);
+  }
+
   throw new Error(errors.join(' | ')||'Prime UK chart unavailable');
 }
 
@@ -387,7 +419,7 @@ async function enrichOfficial(official, fallback=[], objectType) {
 }
 
 let previous={}; try{previous=JSON.parse(await readFile('data/rankings.json','utf8'));}catch{}
-const output={version:6,generatedAt:new Date().toISOString(),country:'GB',strategy:'Official source first; labelled fallback when no compatible official chart is available.',services:{}};
+const output={version:7,generatedAt:new Date().toISOString(),country:'GB',strategy:'Official source first; labelled fallback when no compatible official chart is available.',services:{}};
 const packageData=await gql(PACKAGES_QUERY,{country:'GB',platform:'WEB'}); const packages=packageData?.packages||[];
 let netflixOfficial=null; try{netflixOfficial=await fetchOfficialNetflix(); console.log(`Netflix official week ${netflixOfficial.week}`);}catch(err){console.error('Netflix official:',err.message);}
 let primeMoviesOfficial=null; try{primeMoviesOfficial=await fetchOfficialPrimeMovies(); console.log(`Prime official movies: ${primeMoviesOfficial.length}`);}catch(err){console.error('Prime official movies:',err.message);}
