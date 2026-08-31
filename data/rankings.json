@@ -1,6 +1,6 @@
 {
   "version": 11,
-  "generatedAt": "2026-08-31T23:01:29.217Z",
+  "generatedAt": "2026-08-31T23:06:35.942Z",
   "country": "GB",
   "strategy": "Official source first; labelled fallback when no compatible official chart is available.",
   "services": {
@@ -457,18 +457,6 @@
       "tv": [
         {
           "rank": 1,
-          "sourceRank": 8,
-          "title": "Ted Lasso",
-          "year": 2020,
-          "poster": "/poster/320936342/s166/ted-lasso.webp",
-          "url": "https://www.justwatch.com/uk/tv-series/ted-lasso",
-          "trend": "DOWN",
-          "trendDifference": -1,
-          "daysInTop10": 260,
-          "topRank": 1
-        },
-        {
-          "rank": 2,
           "sourceRank": 11,
           "title": "Reacher",
           "year": 2022,
@@ -480,7 +468,7 @@
           "topRank": 1
         },
         {
-          "rank": 3,
+          "rank": 2,
           "sourceRank": 12,
           "title": "The Rookie",
           "year": 2018,
@@ -492,7 +480,7 @@
           "topRank": 3
         },
         {
-          "rank": 4,
+          "rank": 3,
           "sourceRank": 26,
           "title": "Ride or Die",
           "year": 2026,
@@ -504,7 +492,7 @@
           "topRank": 1
         },
         {
-          "rank": 5,
+          "rank": 4,
           "sourceRank": 28,
           "title": "Sterling Point",
           "year": 2026,
@@ -516,7 +504,7 @@
           "topRank": 4
         },
         {
-          "rank": 6,
+          "rank": 5,
           "sourceRank": 31,
           "title": "The Blacklist",
           "year": 2013,
@@ -528,7 +516,7 @@
           "topRank": 1
         },
         {
-          "rank": 7,
+          "rank": 6,
           "sourceRank": 37,
           "title": "Legion",
           "year": 2017,
@@ -538,6 +526,18 @@
           "trendDifference": 9,
           "daysInTop10": 54,
           "topRank": 1
+        },
+        {
+          "rank": 7,
+          "sourceRank": 41,
+          "title": "Band of Brothers",
+          "year": 2001,
+          "poster": "/poster/248240709/s166/band-of-brothers.webp",
+          "url": "https://www.justwatch.com/uk/tv-series/band-of-brothers",
+          "trend": "UP",
+          "trendDifference": 4,
+          "daysInTop10": 38,
+          "topRank": 2
         },
         {
           "rank": 8,
@@ -2021,7 +2021,8 @@
           "note": "Official UK weekend box-office Top 10 published by the UK Cinema Association using Comscore data."
         }
       },
-      "error": null
+      "error": null,
+      "stale": true
     },
     "uscinema": {
       "provider": "US Cinema",
@@ -2118,7 +2119,8 @@
           "note": "US weekend box-office Top 10 from IMDb, reported by Box Office Mojo."
         }
       },
-      "error": null
+      "error": null,
+      "stale": true
     }
   }
 }
