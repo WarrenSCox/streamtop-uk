@@ -51,21 +51,22 @@ async function fetchRankings() {
   throw lastError || new Error('Ranking feed could not be loaded');
 }
 
-function selectService(index, {scroll = true, animate = null} = {}) {
-  const wrapped = (index + SERVICES.length) % SERVICES.length;
-  state.service = SERVICES[wrapped];
+function syncControls({scroll = true} = {}) {
   const buttons = [...document.querySelectorAll('.service-tab')];
   buttons.forEach(button => button.classList.toggle('active', button.dataset.service === state.service.id));
-  const active = buttons.find(button => button.dataset.service === state.service.id);
-  if (scroll && active) active.scrollIntoView({behavior:'smooth', block:'nearest', inline:'center'});
-  const wrap = document.querySelector('.chart-wrap');
-  if (wrap && animate) {
-    wrap.classList.remove('swipe-next','swipe-prev');
-    void wrap.offsetWidth;
-    wrap.classList.add(animate);
-    setTimeout(() => wrap.classList.remove('swipe-next','swipe-prev'), 180);
-  }
+  const activeService = buttons.find(button => button.dataset.service === state.service.id);
+  if (scroll && activeService) activeService.scrollIntoView({behavior:'smooth', block:'nearest', inline:'center'});
+  document.querySelectorAll('.segmented button').forEach(button => {
+    button.classList.toggle('active', button.dataset.type === state.type);
+  });
+}
+
+function selectService(index, {scroll = true} = {}) {
+  if (index < 0 || index >= SERVICES.length) return false;
+  state.service = SERVICES[index];
+  syncControls({scroll});
   renderCurrent();
+  return true;
 }
 
 function initTabs() {
@@ -78,7 +79,51 @@ function initTabs() {
     button.addEventListener('click', () => selectService(index, {scroll:false}));
     els.tabs.appendChild(button);
   });
-  els.tabs.firstElementChild?.classList.add('active');
+  syncControls({scroll:false});
+}
+
+function sequenceIndex() {
+  const providerIndex = SERVICES.findIndex(service => service.id === state.service.id);
+  return providerIndex * 2 + (state.type === 'SHOW' ? 1 : 0);
+}
+
+function setSequenceIndex(index) {
+  const max = SERVICES.length * 2 - 1;
+  if (index < 0 || index > max) return false;
+  state.service = SERVICES[Math.floor(index / 2)];
+  state.type = index % 2 ? 'SHOW' : 'MOVIE';
+  syncControls({scroll:true});
+  renderCurrent();
+  return true;
+}
+
+function animateChartStep(direction, nextIndex) {
+  const card = document.querySelector('.chart-wrap');
+  if (!card || card.dataset.animating === '1') return;
+  card.dataset.animating = '1';
+  const outClass = direction === 'next' ? 'chart-out-next' : 'chart-out-prev';
+  const inClass = direction === 'next' ? 'chart-in-next' : 'chart-in-prev';
+  card.classList.remove('chart-out-next','chart-out-prev','chart-in-next','chart-in-prev','chart-edge-next','chart-edge-prev');
+  card.classList.add(outClass);
+  window.setTimeout(() => {
+    setSequenceIndex(nextIndex);
+    card.classList.remove(outClass);
+    card.classList.add(inClass);
+    window.setTimeout(() => {
+      card.classList.remove(inClass);
+      delete card.dataset.animating;
+    }, 210);
+  }, 170);
+}
+
+function bounceChartEdge(direction) {
+  const card = document.querySelector('.chart-wrap');
+  if (!card || card.dataset.animating === '1') return;
+  const cls = direction === 'next' ? 'chart-edge-next' : 'chart-edge-prev';
+  card.classList.remove('chart-edge-next','chart-edge-prev');
+  void card.offsetWidth;
+  card.classList.add(cls);
+  window.setTimeout(() => card.classList.remove(cls), 260);
 }
 
 function initProviderSwipe() {
@@ -86,11 +131,12 @@ function initProviderSwipe() {
   if (!target) return;
   let startX = 0, startY = 0, tracking = false;
   target.addEventListener('touchstart', event => {
-    if (event.touches.length !== 1) return;
+    if (event.touches.length !== 1 || target.dataset.animating === '1') return;
     const touch = event.touches[0];
-    // Avoid fighting Android/Chrome's edge-back gesture.
     if (touch.clientX < 24 || touch.clientX > window.innerWidth - 24) return;
-    startX = touch.clientX; startY = touch.clientY; tracking = true;
+    startX = touch.clientX;
+    startY = touch.clientY;
+    tracking = true;
   }, {passive:true});
   target.addEventListener('touchend', event => {
     if (!tracking || event.changedTouches.length !== 1) return;
@@ -99,10 +145,17 @@ function initProviderSwipe() {
     const dx = touch.clientX - startX;
     const dy = touch.clientY - startY;
     if (Math.abs(dx) < 55 || Math.abs(dx) < Math.abs(dy) * 1.25) return;
-    const current = SERVICES.findIndex(service => service.id === state.service.id);
-    // Requested interaction: swipe RIGHT = next provider, LEFT = previous.
-    if (dx > 0) selectService(current + 1, {animate:'swipe-next'});
-    else selectService(current - 1, {animate:'swipe-prev'});
+
+    const current = sequenceIndex();
+    const max = SERVICES.length * 2 - 1;
+    // WozzaWatch gesture: swipe RIGHT = forward, swipe LEFT = back.
+    if (dx > 0) {
+      if (current >= max) bounceChartEdge('next');
+      else animateChartStep('next', current + 1);
+    } else {
+      if (current <= 0) bounceChartEdge('prev');
+      else animateChartStep('prev', current - 1);
+    }
   }, {passive:true});
   target.addEventListener('touchcancel', () => { tracking = false; }, {passive:true});
 }
@@ -241,7 +294,7 @@ async function loadData() {
 document.querySelectorAll('.segmented button').forEach(button => {
   button.addEventListener('click', () => {
     state.type = button.dataset.type;
-    document.querySelectorAll('.segmented button').forEach(x => x.classList.toggle('active', x === button));
+    syncControls({scroll:false});
     renderCurrent();
   });
 });
