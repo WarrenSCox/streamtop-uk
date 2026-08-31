@@ -1,6 +1,6 @@
 {
-  "version": 11,
-  "generatedAt": "2026-08-31T23:18:04.208Z",
+  "version": 12,
+  "generatedAt": "2026-08-31T23:33:44.872Z",
   "country": "GB",
   "strategy": "Official source first; labelled fallback when no compatible official chart is available.",
   "services": {
@@ -335,123 +335,123 @@
       "movies": [
         {
           "rank": 1,
-          "sourceRank": 2,
-          "title": "Project Hail Mary",
-          "year": 2026,
-          "poster": "/poster/342918190/s166/project-hail-mary.webp",
-          "url": "https://www.justwatch.com/uk/movie/project-hail-mary",
-          "trend": "STABLE",
+          "title": "Recently added movies",
+          "year": 2017,
+          "poster": "/poster/29181551/s166/laddie.webp",
+          "url": "https://www.primevideo.com/movie/ref%3Datv_hom_Marqueetvuk_c_9zZ8D2_hom?tr=gb",
+          "trend": null,
           "trendDifference": 0,
-          "daysInTop10": 167,
-          "topRank": 1
+          "daysInTop10": null,
+          "topRank": null,
+          "detailsUrl": "https://www.justwatch.com/uk/movie/laddie"
         },
         {
           "rank": 2,
-          "sourceRank": 7,
-          "title": "Good Boy",
-          "year": 2026,
-          "poster": "/poster/342837831/s166/the-good-boy-2026.webp",
-          "url": "https://www.justwatch.com/uk/movie/the-good-boy-2026",
-          "trend": "UP",
-          "trendDifference": 1,
-          "daysInTop10": 18,
-          "topRank": 5
+          "title": "Adrenaline rush movies",
+          "year": 2013,
+          "poster": "/poster/332418246/s166/rush.webp",
+          "url": "https://www.primevideo.com/movie/ref%3Datv_hom_Marqueetvuk_c_9zZ8D2_hom?tr=gb",
+          "trend": null,
+          "trendDifference": 0,
+          "daysInTop10": null,
+          "topRank": null,
+          "detailsUrl": "https://www.justwatch.com/uk/movie/rush"
         },
         {
           "rank": 3,
-          "sourceRank": 8,
-          "title": "Tahan",
-          "year": 2022,
-          "poster": "/poster/292161853/s166/tahan.webp",
-          "url": "https://www.justwatch.com/uk/movie/tahan",
-          "trend": "DOWN",
-          "trendDifference": -1,
-          "daysInTop10": 2,
-          "topRank": 8
+          "title": "Date night favorites",
+          "year": 2010,
+          "poster": "/poster/343722304/s166/date-night.webp",
+          "url": "https://www.primevideo.com/movie/ref%3Datv_hom_Marqueetvuk_c_9zZ8D2_hom?tr=gb",
+          "trend": null,
+          "trendDifference": 0,
+          "daysInTop10": null,
+          "topRank": null,
+          "detailsUrl": "https://www.justwatch.com/uk/movie/date-night"
         },
         {
           "rank": 4,
-          "sourceRank": 9,
-          "title": "The Occupant",
-          "year": 2025,
-          "poster": "/poster/331744606/s166/the-occupant-2025.webp",
-          "url": "https://www.justwatch.com/uk/movie/the-occupant-2025",
-          "trend": "UP",
-          "trendDifference": 8358,
+          "title": "Military and war movies",
+          "year": 2024,
+          "poster": "/poster/339609406/s166/in-waves-and-war.webp",
+          "url": "https://www.primevideo.com/movie/ref%3Datv_hom_Marqueetvuk_c_9zZ8D2_hom?tr=gb",
+          "trend": null,
+          "trendDifference": 0,
           "daysInTop10": null,
-          "topRank": 9
+          "topRank": null,
+          "detailsUrl": "https://www.justwatch.com/uk/movie/in-waves-and-war"
         },
         {
           "rank": 5,
-          "sourceRank": 14,
-          "title": "The Housemaid",
-          "year": 2025,
-          "poster": "/poster/340262671/s166/the-housemaid-0.webp",
-          "url": "https://www.justwatch.com/uk/movie/the-housemaid-0",
-          "trend": "UP",
-          "trendDifference": 2,
-          "daysInTop10": 51,
-          "topRank": 1
+          "title": "previous title",
+          "year": 1982,
+          "poster": "/poster/320954118/s166/rocky-iii.webp",
+          "url": "https://www.primevideo.com/movie/ref%3Datv_hom_Marqueetvuk_c_9zZ8D2_hom?tr=gb",
+          "trend": null,
+          "trendDifference": 0,
+          "daysInTop10": null,
+          "topRank": null,
+          "detailsUrl": "https://www.justwatch.com/uk/movie/rocky-iii"
         },
         {
           "rank": 6,
-          "sourceRank": 16,
-          "title": "Marty Supreme",
-          "year": 2025,
-          "poster": "/poster/341442240/s166/marty-supreme.webp",
-          "url": "https://www.justwatch.com/uk/movie/marty-supreme",
-          "trend": "DOWN",
-          "trendDifference": -7,
-          "daysInTop10": 44,
-          "topRank": 1
+          "title": "The Last Sunrise",
+          "year": 2026,
+          "poster": "/poster/350371850/s166/the-last-sunrise.webp",
+          "url": "https://www.primevideo.com/movie/ref%3Datv_hom_Marqueetvuk_c_9zZ8D2_hom?tr=gb",
+          "trend": null,
+          "trendDifference": 0,
+          "daysInTop10": null,
+          "topRank": null,
+          "detailsUrl": "https://www.justwatch.com/uk/movie/the-last-sunrise"
         },
         {
           "rank": 7,
-          "sourceRank": 21,
-          "title": "The Godfather",
-          "year": 1972,
-          "poster": "/poster/324481356/s166/the-godfather.webp",
-          "url": "https://www.justwatch.com/uk/movie/the-godfather",
-          "trend": "UP",
-          "trendDifference": 21,
-          "daysInTop10": 4,
-          "topRank": 6
+          "title": "Shelter",
+          "year": 2026,
+          "poster": "/poster/341911571/s166/shelter-2026.webp",
+          "url": "https://www.primevideo.com/movie/ref%3Datv_hom_Marqueetvuk_c_9zZ8D2_hom?tr=gb",
+          "trend": null,
+          "trendDifference": 0,
+          "daysInTop10": null,
+          "topRank": null,
+          "detailsUrl": "https://www.justwatch.com/uk/movie/shelter-2026"
         },
         {
           "rank": 8,
-          "sourceRank": 22,
-          "title": "Napoleon Dynamite",
-          "year": 2004,
-          "poster": "/poster/138611435/s166/napoleon-dynamite.webp",
-          "url": "https://www.justwatch.com/uk/movie/napoleon-dynamite",
-          "trend": "UP",
-          "trendDifference": 193,
+          "title": "Trap (2024)",
+          "year": 2024,
+          "poster": "/poster/314256507/s166/trap-2024.webp",
+          "url": "https://www.primevideo.com/movie/ref%3Datv_hom_Marqueetvuk_c_9zZ8D2_hom?tr=gb",
+          "trend": null,
+          "trendDifference": 0,
           "daysInTop10": null,
-          "topRank": 20
+          "topRank": null,
+          "detailsUrl": "https://www.justwatch.com/uk/movie/trap-2024"
         },
         {
           "rank": 9,
-          "sourceRank": 23,
-          "title": "The Sheep Detectives",
-          "year": 2026,
-          "poster": "/poster/349989642/s166/three-bags-full-a-sheep-detective-movie.webp",
-          "url": "https://www.justwatch.com/uk/movie/three-bags-full-a-sheep-detective-movie",
-          "trend": "DOWN",
-          "trendDifference": -12,
-          "daysInTop10": 24,
-          "topRank": 1
+          "title": "Arcadian",
+          "year": 2024,
+          "poster": "/poster/314372740/s166/arcadian.webp",
+          "url": "https://www.primevideo.com/movie/ref%3Datv_hom_Marqueetvuk_c_9zZ8D2_hom?tr=gb",
+          "trend": null,
+          "trendDifference": 0,
+          "daysInTop10": null,
+          "topRank": null,
+          "detailsUrl": "https://www.justwatch.com/uk/movie/arcadian"
         },
         {
           "rank": 10,
-          "sourceRank": 25,
-          "title": "Dune: Part Two",
-          "year": 2024,
-          "poster": "/poster/312362420/s166/dune-part-two.webp",
-          "url": "https://www.justwatch.com/uk/movie/dune-part-two",
-          "trend": "DOWN",
-          "trendDifference": -2,
-          "daysInTop10": 106,
-          "topRank": 1
+          "title": "Project Hail Mary",
+          "year": 2026,
+          "poster": "/poster/342918190/s166/project-hail-mary.webp",
+          "url": "https://www.primevideo.com/movie/ref%3Datv_hom_Marqueetvuk_c_9zZ8D2_hom?tr=gb",
+          "trend": null,
+          "trendDifference": 0,
+          "daysInTop10": null,
+          "topRank": null,
+          "detailsUrl": "https://www.justwatch.com/uk/movie/project-hail-mary"
         }
       ],
       "tv": [
@@ -578,11 +578,11 @@
       ],
       "sources": {
         "movies": {
-          "kind": "fallback",
-          "label": "JustWatch UK",
-          "url": "https://www.justwatch.com/uk/provider/amazon-prime-video/movies",
-          "cadence": "daily",
-          "note": "No compatible public official Movies/TV chart is currently used, so WozzaWatch falls back to JustWatch UK popularity."
+          "kind": "official",
+          "label": "Official Prime",
+          "url": "https://www.primevideo.com/movie/ref%3Datv_hom_Marqueetvuk_c_9zZ8D2_hom?tr=gb",
+          "cadence": "live",
+          "note": "Prime Video public UK Top 10 movies"
         },
         "tv": {
           "kind": "fallback",
@@ -947,18 +947,6 @@
         },
         {
           "rank": 8,
-          "title": "Little Miss Sunshine",
-          "year": 2006,
-          "poster": "/poster/138654476/s166/little-miss-sunshine.webp",
-          "url": "https://tv.apple.com/gb/movie/little-miss-sunshine/umc.cmc.39trxqhqfin42c3loja0ka8oh",
-          "trend": null,
-          "trendDifference": 0,
-          "daysInTop10": null,
-          "topRank": null,
-          "detailsUrl": "https://www.justwatch.com/uk/movie/little-miss-sunshine"
-        },
-        {
-          "rank": 9,
           "title": "Catch Me If You Can",
           "year": 2002,
           "poster": "/poster/292931003/s166/catch-me-if-you-can.webp",
@@ -968,6 +956,18 @@
           "daysInTop10": null,
           "topRank": null,
           "detailsUrl": "https://www.justwatch.com/uk/movie/catch-me-if-you-can"
+        },
+        {
+          "rank": 9,
+          "title": "Little Miss Sunshine",
+          "year": 2006,
+          "poster": "/poster/138654476/s166/little-miss-sunshine.webp",
+          "url": "https://tv.apple.com/gb/movie/little-miss-sunshine/umc.cmc.39trxqhqfin42c3loja0ka8oh",
+          "trend": null,
+          "trendDifference": 0,
+          "daysInTop10": null,
+          "topRank": null,
+          "detailsUrl": "https://www.justwatch.com/uk/movie/little-miss-sunshine"
         },
         {
           "rank": 10,
@@ -1829,13 +1829,13 @@
         },
         {
           "rank": 6,
-          "sourceRank": 1904,
+          "sourceRank": 1919,
           "title": "Coldwater",
           "year": 2025,
           "poster": "/poster/335913496/s166/cold-water.webp",
           "url": "https://www.justwatch.com/uk/tv-series/cold-water",
           "trend": "DOWN",
-          "trendDifference": -9,
+          "trendDifference": -12,
           "daysInTop10": 2,
           "topRank": 7
         },
@@ -1900,6 +1900,257 @@
           "kind": "fallback",
           "label": "JustWatch UK",
           "url": "https://www.justwatch.com/uk/provider/itvx/tv-series",
+          "cadence": "daily",
+          "note": "No compatible public official Movies/TV chart is currently used, so WozzaWatch falls back to JustWatch UK popularity."
+        }
+      },
+      "error": null
+    },
+    "channel4": {
+      "provider": "Channel 4",
+      "movies": [
+        {
+          "rank": 1,
+          "sourceRank": 738,
+          "title": "La bête",
+          "year": 2024,
+          "poster": "/poster/317844979/s166/la-bete.webp",
+          "url": "https://www.justwatch.com/uk/movie/la-bete",
+          "trend": "DOWN",
+          "trendDifference": -109,
+          "daysInTop10": 1,
+          "topRank": 8
+        },
+        {
+          "rank": 2,
+          "title": "Memento",
+          "year": 2000,
+          "poster": "/poster/66809044/s166/memento.webp",
+          "url": "https://www.justwatch.com/uk/movie/memento",
+          "trend": null,
+          "trendDifference": 0,
+          "daysInTop10": null,
+          "topRank": null
+        },
+        {
+          "rank": 3,
+          "title": "Heat",
+          "year": 1995,
+          "poster": "/poster/320954392/s166/heat.webp",
+          "url": "https://www.justwatch.com/uk/movie/heat",
+          "trend": null,
+          "trendDifference": 0,
+          "daysInTop10": null,
+          "topRank": null
+        },
+        {
+          "rank": 4,
+          "title": "Steel Magnolias",
+          "year": 1989,
+          "poster": "/poster/177783631/s166/steel-magnolias-1989.webp",
+          "url": "https://www.justwatch.com/uk/movie/steel-magnolias-1989",
+          "trend": null,
+          "trendDifference": 0,
+          "daysInTop10": null,
+          "topRank": null
+        },
+        {
+          "rank": 5,
+          "title": "Speed",
+          "year": 1994,
+          "poster": "/poster/320954453/s166/speed-1994.webp",
+          "url": "https://www.justwatch.com/uk/movie/speed-1994",
+          "trend": null,
+          "trendDifference": 0,
+          "daysInTop10": null,
+          "topRank": null
+        },
+        {
+          "rank": 6,
+          "title": "Everything Everywhere All at Once",
+          "year": 2022,
+          "poster": "/poster/348674250/s166/everything-everywhere-all-at-once.webp",
+          "url": "https://www.justwatch.com/uk/movie/everything-everywhere-all-at-once",
+          "trend": null,
+          "trendDifference": 0,
+          "daysInTop10": null,
+          "topRank": null
+        },
+        {
+          "rank": 7,
+          "title": "Under the Skin",
+          "year": 2014,
+          "poster": "/poster/180523703/s166/under-the-skin.webp",
+          "url": "https://www.justwatch.com/uk/movie/under-the-skin",
+          "trend": null,
+          "trendDifference": 0,
+          "daysInTop10": null,
+          "topRank": null
+        },
+        {
+          "rank": 8,
+          "title": "Withnail & I",
+          "year": 1987,
+          "poster": "/poster/319951117/s166/withnail-and-i.webp",
+          "url": "https://www.justwatch.com/uk/movie/withnail-and-i",
+          "trend": null,
+          "trendDifference": 0,
+          "daysInTop10": null,
+          "topRank": null
+        },
+        {
+          "rank": 9,
+          "title": "Sexy Beast",
+          "year": 2001,
+          "poster": "/poster/320935990/s166/sexy-beast.webp",
+          "url": "https://www.justwatch.com/uk/movie/sexy-beast",
+          "trend": null,
+          "trendDifference": 0,
+          "daysInTop10": null,
+          "topRank": null
+        },
+        {
+          "rank": 10,
+          "title": "We're All Going to the World's Fair",
+          "year": 2022,
+          "poster": "/poster/320892822/s166/were-all-going-to-the-worlds-fair.webp",
+          "url": "https://www.justwatch.com/uk/movie/were-all-going-to-the-worlds-fair",
+          "trend": null,
+          "trendDifference": 0,
+          "daysInTop10": null,
+          "topRank": null
+        }
+      ],
+      "tv": [
+        {
+          "rank": 1,
+          "sourceRank": 539,
+          "title": "Peep Show",
+          "year": 2003,
+          "poster": "/poster/302353065/s166/peep-show.webp",
+          "url": "https://www.justwatch.com/uk/tv-series/peep-show",
+          "trend": "UP",
+          "trendDifference": 121,
+          "daysInTop10": 1,
+          "topRank": 7
+        },
+        {
+          "rank": 2,
+          "sourceRank": 551,
+          "title": "The Light in the Hall",
+          "year": 2022,
+          "poster": "/poster/307480365/s166/the-light-in-the-hall.webp",
+          "url": "https://www.justwatch.com/uk/tv-series/the-light-in-the-hall",
+          "trend": "UP",
+          "trendDifference": 316,
+          "daysInTop10": null,
+          "topRank": 45
+        },
+        {
+          "rank": 3,
+          "sourceRank": 2988,
+          "title": "Year of the Rabbit",
+          "year": 2019,
+          "poster": "/poster/252931225/s166/year-of-the-rabbit.webp",
+          "url": "https://www.justwatch.com/uk/tv-series/year-of-the-rabbit",
+          "trend": "DOWN",
+          "trendDifference": -14,
+          "daysInTop10": 2,
+          "topRank": 7
+        },
+        {
+          "rank": 4,
+          "sourceRank": 4461,
+          "title": "White Lies",
+          "year": 2024,
+          "poster": "/poster/313788872/s166/white-lies.webp",
+          "url": "https://www.justwatch.com/uk/tv-series/white-lies",
+          "trend": "DOWN",
+          "trendDifference": -31,
+          "daysInTop10": null,
+          "topRank": 52
+        },
+        {
+          "rank": 5,
+          "sourceRank": 4555,
+          "title": "Jack Irish",
+          "year": 2016,
+          "poster": "/poster/206000775/s166/jack-irish.webp",
+          "url": "https://www.justwatch.com/uk/tv-series/jack-irish",
+          "trend": "UP",
+          "trendDifference": 5,
+          "daysInTop10": 1,
+          "topRank": 10
+        },
+        {
+          "rank": 6,
+          "sourceRank": 7451,
+          "title": "Monster",
+          "year": 2017,
+          "poster": "/poster/154502392/s166/monster.webp",
+          "url": "https://www.justwatch.com/uk/tv-series/monster",
+          "trend": "UP",
+          "trendDifference": 5,
+          "daysInTop10": null,
+          "topRank": 99
+        },
+        {
+          "rank": 7,
+          "title": "Parks and Recreation",
+          "year": 2009,
+          "poster": "/poster/164915073/s166/parks-and-recreation.webp",
+          "url": "https://www.justwatch.com/uk/tv-series/parks-and-recreation",
+          "trend": null,
+          "trendDifference": 0,
+          "daysInTop10": null,
+          "topRank": null
+        },
+        {
+          "rank": 8,
+          "title": "The Undeclared War",
+          "year": 2022,
+          "poster": "/poster/288387510/s166/the-undeclared-war.webp",
+          "url": "https://www.justwatch.com/uk/tv-series/the-undeclared-war",
+          "trend": null,
+          "trendDifference": 0,
+          "daysInTop10": null,
+          "topRank": null
+        },
+        {
+          "rank": 9,
+          "title": "The Blacklist",
+          "year": 2013,
+          "poster": "/poster/30208287/s166/the-blacklist.webp",
+          "url": "https://www.justwatch.com/uk/tv-series/the-blacklist",
+          "trend": null,
+          "trendDifference": 0,
+          "daysInTop10": null,
+          "topRank": null
+        },
+        {
+          "rank": 10,
+          "title": "Modern Family",
+          "year": 2009,
+          "poster": "/poster/150848985/s166/modern-family.webp",
+          "url": "https://www.justwatch.com/uk/tv-series/modern-family",
+          "trend": null,
+          "trendDifference": 0,
+          "daysInTop10": null,
+          "topRank": null
+        }
+      ],
+      "sources": {
+        "movies": {
+          "kind": "fallback",
+          "label": "JustWatch UK",
+          "url": "https://www.justwatch.com/uk/provider/channel-4/movies",
+          "cadence": "daily",
+          "note": "No compatible public official Movies/TV chart is currently used, so WozzaWatch falls back to JustWatch UK popularity."
+        },
+        "tv": {
+          "kind": "fallback",
+          "label": "JustWatch UK",
+          "url": "https://www.justwatch.com/uk/provider/channel-4/tv-series",
           "cadence": "daily",
           "note": "No compatible public official Movies/TV chart is currently used, so WozzaWatch falls back to JustWatch UK popularity."
         }
@@ -2021,7 +2272,8 @@
           "note": "Official UK weekend box-office Top 10 published by the UK Cinema Association using Comscore data."
         }
       },
-      "error": null
+      "error": null,
+      "stale": true
     },
     "uscinema": {
       "provider": "US Cinema",
