@@ -1,6 +1,6 @@
 {
   "version": 11,
-  "generatedAt": "2026-08-31T23:06:35.942Z",
+  "generatedAt": "2026-08-31T23:18:04.208Z",
   "country": "GB",
   "strategy": "Official source first; labelled fallback when no compatible official chart is available.",
   "services": {
@@ -1427,13 +1427,13 @@
         },
         {
           "rank": 4,
-          "sourceRank": 6661,
+          "sourceRank": 6666,
           "title": "The Firm",
           "year": 1989,
           "poster": "/poster/306331930/s166/the-firm-1989.webp",
           "url": "https://www.justwatch.com/uk/movie/the-firm-1989",
           "trend": "UP",
-          "trendDifference": 29,
+          "trendDifference": 24,
           "daysInTop10": null,
           "topRank": 11
         },
@@ -2021,91 +2021,90 @@
           "note": "Official UK weekend box-office Top 10 published by the UK Cinema Association using Comscore data."
         }
       },
-      "error": null,
-      "stale": true
+      "error": null
     },
     "uscinema": {
       "provider": "US Cinema",
       "movies": [
         {
           "rank": 1,
-          "title": "[Spider-Man: Brand New Day](https://www.imdb.com/title/tt22084616/?ref_=chtbo_t_1)",
-          "url": "https://www.imdb.com/chart/boxoffice/?ref_=ext_shr_lnk",
+          "title": "Spider-Man: Brand New Day",
+          "url": "https://www.imdb.com/title/tt22084616/?ref_=chtbo_t_1",
           "poster": "/poster/347907260/s166/spider-man-brand-new-day.webp",
           "year": 2026,
           "detailsUrl": "https://www.justwatch.com/uk/movie/spider-man-brand-new-day"
         },
         {
           "rank": 2,
-          "title": "[The Odyssey](https://www.imdb.com/title/tt33764258/?ref_=chtbo_t_2)",
-          "url": "https://www.imdb.com/chart/boxoffice/?ref_=ext_shr_lnk",
-          "poster": "/poster/324704244/s166/iu-concert-the-winning.webp",
-          "year": 2025,
-          "detailsUrl": "https://www.justwatch.com/uk/movie/iu-concert-the-winning"
+          "title": "The Odyssey",
+          "url": "https://www.imdb.com/title/tt33764258/?ref_=chtbo_t_2",
+          "poster": "/poster/347473608/s166/the-odyssey-2026.webp",
+          "year": 2026,
+          "detailsUrl": "https://www.justwatch.com/uk/movie/the-odyssey-2026"
         },
         {
           "rank": 3,
-          "title": "[Coyote vs. Acme](https://www.imdb.com/title/tt1756855/?ref_=chtbo_t_3)",
-          "url": "https://www.imdb.com/chart/boxoffice/?ref_=ext_shr_lnk",
+          "title": "Coyote vs. Acme",
+          "url": "https://www.imdb.com/title/tt1756855/?ref_=chtbo_t_3",
           "poster": "/poster/348099537/s166/coyote-vs-acme.webp",
           "year": 2026,
           "detailsUrl": "https://www.justwatch.com/uk/movie/coyote-vs-acme"
         },
         {
           "rank": 4,
-          "title": "[The Dog Stars](https://www.imdb.com/title/tt21285562/?ref_=chtbo_t_4)",
-          "url": "https://www.imdb.com/chart/boxoffice/?ref_=ext_shr_lnk",
-          "poster": "/poster/193002637/s166/dogma.webp",
-          "year": 1999,
-          "detailsUrl": "https://www.justwatch.com/uk/movie/dogma"
+          "title": "The Dog Stars",
+          "url": "https://www.imdb.com/title/tt21285562/?ref_=chtbo_t_4",
+          "poster": "/poster/346657270/s166/the-dog-stars.webp",
+          "year": 2026,
+          "detailsUrl": "https://www.justwatch.com/uk/movie/the-dog-stars"
         },
         {
           "rank": 5,
-          "title": "[Insidious: Out of the Further](https://www.imdb.com/title/tt32393988/?ref_=chtbo_t_5)",
-          "url": "https://www.imdb.com/chart/boxoffice/?ref_=ext_shr_lnk",
+          "title": "Insidious: Out of the Further",
+          "url": "https://www.imdb.com/title/tt32393988/?ref_=chtbo_t_5",
           "poster": "/poster/344313654/s166/insidious-the-bleeding-world.webp",
           "year": 2026,
           "detailsUrl": "https://www.justwatch.com/uk/movie/insidious-the-bleeding-world"
         },
         {
           "rank": 6,
-          "title": "[Buddy](https://www.imdb.com/title/tt37281055/?ref_=chtbo_t_6)",
-          "url": "https://www.imdb.com/chart/boxoffice/?ref_=ext_shr_lnk",
-          "poster": null,
-          "year": null,
-          "detailsUrl": null
+          "title": "Buddy",
+          "url": "https://www.imdb.com/title/tt37281055/?ref_=chtbo_t_6",
+          "poster": "/poster/340383635/s166/buddy-2026.webp",
+          "year": 2026,
+          "detailsUrl": "https://www.justwatch.com/uk/movie/buddy-2026"
         },
         {
           "rank": 7,
-          "title": "[The End of Oak Street](https://www.imdb.com/title/tt27165187/?ref_=chtbo_t_7)",
-          "url": "https://www.imdb.com/chart/boxoffice/?ref_=ext_shr_lnk",
+          "title": "The End of Oak Street",
+          "url": "https://www.imdb.com/title/tt27165187/?ref_=chtbo_t_7",
           "poster": "/poster/346670132/s166/flowervale-street.webp",
           "year": 2026,
           "detailsUrl": "https://www.justwatch.com/uk/movie/flowervale-street"
         },
         {
           "rank": 8,
-          "title": "[PAW Patrol: The Dino Movie](https://www.imdb.com/title/tt29356163/?ref_=chtbo_t_8)",
-          "url": "https://www.imdb.com/chart/boxoffice/?ref_=ext_shr_lnk",
+          "title": "PAW Patrol: The Dino Movie",
+          "url": "https://www.imdb.com/title/tt29356163/?ref_=chtbo_t_8",
           "poster": "/poster/249449213/s166/paw-patrol-the-movie.webp",
           "year": 2021,
           "detailsUrl": "https://www.justwatch.com/uk/movie/paw-patrol-the-movie"
         },
         {
           "rank": 9,
-          "title": "[Mutiny](https://www.imdb.com/title/tt32338669/?ref_=chtbo_t_9)",
-          "url": "https://www.imdb.com/chart/boxoffice/?ref_=ext_shr_lnk",
-          "poster": null,
-          "year": null,
-          "detailsUrl": null
+          "title": "Mutiny",
+          "url": "https://www.imdb.com/title/tt32338669/?ref_=chtbo_t_9",
+          "poster": "/poster/347607536/s166/mutiny-2026.webp",
+          "year": 2026,
+          "detailsUrl": "https://www.justwatch.com/uk/movie/mutiny-2026"
         },
         {
           "rank": 10,
-          "title": "[Tony](https://www.imdb.com/title/tt33095251/?ref_=chtbo_t_10)",
-          "url": "https://www.imdb.com/chart/boxoffice/?ref_=ext_shr_lnk",
-          "poster": null,
-          "year": null,
-          "detailsUrl": null
+          "title": "Tony",
+          "url": "https://www.imdb.com/title/tt33095251/?ref_=chtbo_t_10",
+          "poster": "/poster/344830147/s166/tony-2026.webp",
+          "year": 2026,
+          "detailsUrl": "https://www.justwatch.com/uk/movie/tony-2026"
         }
       ],
       "tv": [],
@@ -2119,8 +2118,7 @@
           "note": "US weekend box-office Top 10 from IMDb, reported by Box Office Mojo."
         }
       },
-      "error": null,
-      "stale": true
+      "error": null
     }
   }
 }
