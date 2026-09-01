@@ -1,6 +1,6 @@
 {
-  "version": 15,
-  "generatedAt": "2026-09-01T12:09:05.188Z",
+  "version": 16,
+  "generatedAt": "2026-09-01T12:16:11.832Z",
   "country": "GB",
   "strategy": "Official source first; labelled fallback when no compatible official chart is available.",
   "services": {
@@ -2272,8 +2272,7 @@
           "note": "Official UK weekend box-office Top 10 published by the UK Cinema Association using Comscore data."
         }
       },
-      "error": null,
-      "stale": true
+      "error": null
     },
     "uscinema": {
       "provider": "US Cinema",
@@ -2374,7 +2373,88 @@
     },
     "ukmusic": {
       "provider": "UK Music",
-      "singles": [],
+      "singles": [
+        {
+          "rank": 1,
+          "title": "IN ME IN",
+          "artist": "SAM FENDER & OLIVIA DEAN",
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e9/9e/ce/e99ece56-dcda-540a-d0b3-3927d152846f/25UMGIM83718.rgb.jpg/400x400bb.jpg",
+          "detailsUrl": "https://www.officialcharts.com/charts/uk-top-40-singles-chart/",
+          "musicUrl": "https://music.apple.com/gb/album/rein-me-in-edit/1822833563?i=1822833748&uo=4"
+        },
+        {
+          "rank": 2,
+          "title": "MOVIN' TO THE SUN",
+          "artist": "HUGEL/",
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/96/61/7a/96617ab5-51da-7cfc-97e5-c5a6a893c210/1087654.jpg/400x400bb.jpg",
+          "detailsUrl": "https://www.officialcharts.com/charts/uk-top-40-singles-chart/",
+          "musicUrl": "https://music.apple.com/gb/album/movin-to-the-sun/6769069923?i=6769070199&uo=4"
+        },
+        {
+          "rank": 3,
+          "title": "CHOOSIN' TEXAS",
+          "artist": "ELLA LANGLEY",
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a1/ba/64/a1ba6484-f462-1b88-ddff-d4c014d5f265/196874018361.jpg/400x400bb.jpg",
+          "detailsUrl": "https://www.officialcharts.com/charts/uk-top-40-singles-chart/",
+          "musicUrl": "https://music.apple.com/gb/album/choosin-texas/1869436835?i=1869436839&uo=4"
+        },
+        {
+          "rank": 4,
+          "title": "BOSTON",
+          "artist": "STELLA LEFTY",
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7c/de/5e/7cde5e7a-612d-9714-d34c-1eb234c85ebb/810129961546.jpg/400x400bb.jpg",
+          "detailsUrl": "https://www.officialcharts.com/charts/uk-top-40-singles-chart/",
+          "musicUrl": "https://music.apple.com/gb/album/boston/1884403092?i=1884403093&uo=4"
+        },
+        {
+          "rank": 5,
+          "title": "GREAT EXPECTATION",
+          "artist": "SIENNA SPIRO",
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c6/1e/1b/c61e1b6d-e9dd-40ca-916a-223e1dc5a269/26UMGIM51349.rgb.jpg/400x400bb.jpg",
+          "detailsUrl": "https://www.officialcharts.com/charts/uk-top-40-singles-chart/",
+          "musicUrl": "https://music.apple.com/gb/album/great-expectation/6769553652?i=6769553656&uo=4"
+        },
+        {
+          "rank": 6,
+          "title": "HATE THAT I MADE YOU LOVE ME",
+          "artist": "ARIANA GRANDE",
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/56/f4/96/56f49612-02dd-83f4-44fe-d2118cc70707/26UMGIM51129.rgb.jpg/400x400bb.jpg",
+          "detailsUrl": "https://www.officialcharts.com/charts/uk-top-40-singles-chart/",
+          "musicUrl": "https://music.apple.com/gb/album/hate-that-i-made-you-love-me/1895420874?i=6763656725&uo=4"
+        },
+        {
+          "rank": 7,
+          "title": "THE CURE",
+          "artist": "OLIVIA RODRIGO",
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ea/cc/ad/eaccad77-3cb8-ddc2-a2e1-224c409aa26b/26UMGIM64019.rgb.jpg/400x400bb.jpg",
+          "detailsUrl": "https://www.officialcharts.com/charts/uk-top-40-singles-chart/",
+          "musicUrl": "https://music.apple.com/gb/album/the-cure/6771598352?i=6771598356&uo=4"
+        },
+        {
+          "rank": 8,
+          "title": "MAN I NEED",
+          "artist": "OLIVIA DEAN",
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/08/e2/21/08e22164-7c0b-1522-818f-e0e74f62dc49/25UMGIM69703.rgb.jpg/400x400bb.jpg",
+          "detailsUrl": "https://www.officialcharts.com/charts/uk-top-40-singles-chart/",
+          "musicUrl": "https://music.apple.com/gb/album/man-i-need/1817609404?i=1817609509&uo=4"
+        },
+        {
+          "rank": 9,
+          "title": "JOLENE",
+          "artist": "DOLLY PARTON",
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/c5/d6/48/c5d648b3-7977-1953-17fb-c57aed4e4539/dj.ebwqbkfy.jpg/400x400bb.jpg",
+          "detailsUrl": "https://www.officialcharts.com/charts/uk-top-40-singles-chart/",
+          "musicUrl": "https://music.apple.com/gb/album/jolene/283305967?i=283305977&uo=4"
+        },
+        {
+          "rank": 10,
+          "title": "ON 2NITE",
+          "artist": "SILVA BUMPA",
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/50/ee/af/50eeaf04-22c6-8a83-1fa7-12e8e8c08146/196874442296.jpg/400x400bb.jpg",
+          "detailsUrl": "https://www.officialcharts.com/charts/uk-top-40-singles-chart/",
+          "musicUrl": "https://music.apple.com/gb/album/on-2nite/6772312874?i=6772312877&uo=4"
+        }
+      ],
       "albums": [
         {
           "rank": 1,
@@ -2456,6 +2536,14 @@
         }
       ],
       "sources": {
+        "singles": {
+          "kind": "official",
+          "label": "Official Charts Company",
+          "displayName": "Official Charts",
+          "url": "https://www.officialcharts.com/charts/uk-top-40-singles-chart/",
+          "cadence": "weekly",
+          "note": "Official UK chart compiled by the Official Charts Company."
+        },
         "albums": {
           "kind": "official",
           "label": "Official Charts Company",
@@ -2465,7 +2553,7 @@
           "note": "Official UK chart compiled by the Official Charts Company."
         }
       },
-      "error": "singles: no ranking available"
+      "error": null
     },
     "usmusic": {
       "provider": "USA Music",
