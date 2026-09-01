@@ -48,6 +48,6 @@ footer{width:min(760px,100%);margin:0 auto;padding:0 20px max(24px,env(safe-area
 .tune-page .service-tab{min-width:120px}
 @media(max-width:560px){.sister-switch.sister-brand{height:36px;padding-right:5px;gap:3px}.sister-switch.sister-brand img{width:31px;height:31px}.sister-switch.sister-brand span{font-size:9px}}
 /* WozzaTune v1.3: supplied Singles/Albums marks */
-.tune-page .segmented button img{width:58px;height:58px;object-fit:contain;border-radius:13px;display:block}
+.tune-page .segmented button img{width:43px;height:43px;object-fit:contain;display:block;border:0;border-radius:0;background:transparent;box-shadow:none}
 .tune-page .segmented button{padding:4px}
-@media(max-width:560px){.tune-page .segmented button img{width:54px;height:54px}}
+@media(max-width:560px){.tune-page .segmented button img{width:43px;height:43px}}

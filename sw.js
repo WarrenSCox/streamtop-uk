@@ -1,10 +1,10 @@
-const CACHE='wozzawatch-v5.0.3';
+const CACHE='wozzawatch-v5.0.5';
 const ASSETS=['./','./index.html',
   './tune.html',
   './tune.js',
   './tune-icon.svg',
   './single-icon.png',
-  './album-icon.png','./styles.css?v=5.0.3','./app.js?v=5.0.3','./manifest.webmanifest','./icon.svg'];
+  './album-icon.png','./styles.css?v=5.0.5','./app.js?v=5.0.5','./manifest.webmanifest','./icon.svg'];
 self.addEventListener('install',event=>{self.skipWaiting();event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(ASSETS)))});
 self.addEventListener('activate',event=>event.waitUntil(Promise.all([self.clients.claim(),caches.keys().then(keys=>Promise.all(keys.filter(key=>key!==CACHE).map(key=>caches.delete(key))))])));
 self.addEventListener('fetch',event=>{

@@ -743,7 +743,7 @@ async function enrichOfficial(official, fallback=[], objectType) {
 }
 
 
-const UK_SINGLES_URL='https://www.officialcharts.com/charts/singles-chart/?lang=en';
+const UK_SINGLES_URL='https://www.officialcharts.com/charts/uk-top-40-singles-chart/';
 const UK_ALBUMS_URL='https://www.officialcharts.com/charts/albums-chart/?lang=en';
 function cleanMusicText(v=''){return decodeHtml(String(v)).replace(/^New(?=[A-Z0-9])/,'').replace(/^Re(?=[A-Z0-9])/,'').replace(/\s+/g,' ').trim();}
 function parseOfficialChartsMarkdown(md, sourceUrl){
@@ -768,6 +768,16 @@ function parseOfficialChartsMarkdown(md, sourceUrl){
       if(ti>=0) artist=cleanMusicText((candidates[ti+1]||'').replace(/^\[|\]$/g,''));
     }
     if(title&&artist&&!/^(LW|Peak|Weeks):/i.test(artist))items.push({rank,title,artist,poster,detailsUrl:detailsUrl||sourceUrl});
+  }
+  if(items.length<10){
+    const text=String(md).replace(/\r/g,'');
+    const re=/Number\s+(10|[1-9])\s*\n(?:[^\n]*cover art[^\n]*\n)?(?:New|RE|Re-entry)?\s*([^\n]+)\s*\n([^\n]+)(?=\n\s*(?:\d+\.\s*)?LW:|\n\s*Peak:|\n\s*Weeks:)/gi;
+    let m;
+    while((m=re.exec(text))){
+      const rank=Number(m[1]); if(items.some(x=>x.rank===rank))continue;
+      const title=cleanMusicText(m[2]),artist=cleanMusicText(m[3]);
+      if(title&&artist)items.push({rank,title,artist,poster:null,detailsUrl:sourceUrl});
+    }
   }
   return items.sort((a,b)=>a.rank-b.rank).slice(0,10);
 }
@@ -797,6 +807,38 @@ function parseBillboardMarkdown(md, sourceUrl){
   }
   return items.sort((a,b)=>a.rank-b.rank).slice(0,10);
 }
+
+function normMusic(v=''){
+  return cleanMusicText(v).toLowerCase().replace(/&/g,' and ').replace(/[^a-z0-9]+/g,' ').trim();
+}
+async function lookupMusicArtwork(item,country='US',kind='SINGLE'){
+  try{
+    const term=encodeURIComponent(`${item.title} ${item.artist}`);
+    const entity=kind==='ALBUM'?'album':'song';
+    const url=`https://itunes.apple.com/search?term=${term}&country=${country}&media=music&entity=${entity}&limit=8`;
+    const text=await fetchText(url,{'accept':'application/json'});
+    const data=JSON.parse(text); const rows=Array.isArray(data?.results)?data.results:[];
+    const nt=normMusic(item.title), na=normMusic(item.artist);
+    const score=r=>{
+      const rt=normMusic(kind==='ALBUM'?(r.collectionName||''):(r.trackName||''));
+      const ra=normMusic(r.artistName||'');
+      let n=0;
+      if(rt===nt)n+=6; else if(rt.includes(nt)||nt.includes(rt))n+=3;
+      if(ra===na)n+=4; else if(ra.includes(na)||na.includes(ra))n+=2;
+      return n;
+    };
+    rows.sort((a,b)=>score(b)-score(a)); const hit=rows[0];
+    if(!hit||score(hit)<5)return item;
+    const art=hit.artworkUrl100||hit.artworkUrl60||null;
+    return {...item,poster:art?art.replace(/\/100x100bb(?:-\d+)?\./,'/400x400bb.'):item.poster,
+      musicUrl:kind==='ALBUM'?(hit.collectionViewUrl||null):(hit.trackViewUrl||hit.collectionViewUrl||null)};
+  }catch{return item;}
+}
+async function enrichMusicArtwork(items,country,kind){
+  const out=[];
+  for(const item of items||[]) out.push(await lookupMusicArtwork(item,country,kind));
+  return out;
+}
 async function fetchBillboardMusicChart(url,label){
   const attempts=[url,`https://r.jina.ai/${url}`];
   let last='';
@@ -806,36 +848,42 @@ async function fetchBillboardMusicChart(url,label){
       const items=parseBillboardMarkdown(text,url);
       const route=u.startsWith('https://r.jina.ai/')?'reader':'direct';
       console.log(`USA music ${label}: ${items.length}/10 via ${route}`);
-      if(items.length===10)return items;
+      if(items.length===10)return await enrichMusicArtwork(items,'US',label==='albums'?'ALBUM':'SINGLE');
       last=`${route} returned ${items.length}/10`;
     }catch(e){last=e.message;console.warn(`USA music ${label} attempt failed: ${e.message}`);}
   }
   throw new Error(last||'chart unavailable');
 }
 async function fetchOfficialMusicChart(url,label){
-  // Official Charts' normal page is HTML, while the reader route exposes the same
-  // page as clean Markdown. Use the existing timeout-safe fetchText helper rather
-  // than the old undefined fetchWithTimeout/UA references.
-  const attempts=[url,`https://r.jina.ai/${url}`];
+  // OfficialCharts blocks GitHub-hosted direct requests intermittently. Try the
+  // canonical chart page plus alternate OfficialCharts entry pages, both direct
+  // and through the text reader. The data is accepted only when all ranks 1-10
+  // are present.
+  const canonical=label==='singles'
+    ? 'https://www.officialcharts.com/charts/uk-top-40-singles-chart/'
+    : 'https://www.officialcharts.com/charts/albums-chart/?lang=en';
+  const alternates=label==='singles'
+    ? ['https://www.officialcharts.com/charts/singles-chart/?lang=en','https://www.officialcharts.com/singles/']
+    : ['https://www.officialcharts.com/charts/albums-chart/','https://www.officialcharts.com/albums/'];
+  const pages=[canonical,...alternates];
+  const attempts=[];
+  for(const page of pages){ attempts.push(page,`https://r.jina.ai/${page}`); }
   let last='';
   for(const u of attempts){
     try{
       const text=await fetchText(u,{'accept-language':'en-GB,en;q=0.9'});
-      const items=parseOfficialChartsMarkdown(text,url);
+      const items=parseOfficialChartsMarkdown(text,canonical);
       const route=u.startsWith('https://r.jina.ai/')?'reader':'direct';
-      console.log(`UK music ${label}: ${items.length}/10 via ${route}`);
-      if(items.length===10)return items;
+      console.log(`UK music ${label}: ${items.length}/10 via ${route} ${u.replace('https://r.jina.ai/','')}`);
+      if(items.length===10)return await enrichMusicArtwork(items,'GB',label==='albums'?'ALBUM':'SINGLE');
       last=`${route} returned ${items.length}/10`;
-    }catch(e){
-      last=e.message;
-      console.warn(`UK music ${label} attempt failed: ${e.message}`);
-    }
+    }catch(e){last=e.message;console.warn(`UK music ${label} attempt failed: ${e.message}`);}
   }
   throw new Error(last||'chart unavailable');
 }
 
 let previous={}; try{previous=JSON.parse(await readFile('data/rankings.json','utf8'));}catch{}
-const output={version:13,generatedAt:new Date().toISOString(),country:'GB',strategy:'Official source first; labelled fallback when no compatible official chart is available.',services:{}};
+const output={version:14,generatedAt:new Date().toISOString(),country:'GB',strategy:'Official source first; labelled fallback when no compatible official chart is available.',services:{}};
 const packageData=await gql(PACKAGES_QUERY,{country:'GB',platform:'WEB'}); const packages=packageData?.packages||[];
 let netflixOfficial=null; try{netflixOfficial=await fetchOfficialNetflix(); console.log(`Netflix official week ${netflixOfficial.week}`);}catch(err){console.error('Netflix official:',err.message);}
 let primeMoviesOfficial=null; try{primeMoviesOfficial=await fetchOfficialPrimeMovies(); console.log(`Prime official movies: ${primeMoviesOfficial.length}`);}catch(err){console.error('Prime official movies:',err.message);}
