@@ -62,12 +62,14 @@ footer{width:min(760px,100%);margin:0 auto;padding:0 20px max(24px,env(safe-area
 .watch-eye{position:absolute;top:2px;width:19px;height:25px;border:2.5px solid var(--navy);border-radius:50%;background:#fff;box-sizing:border-box}
 .watch-eye:first-child{left:1px}.watch-eye:nth-child(2){right:1px}
 .watch-pupil{position:absolute;left:50%;top:52%;width:8px;height:10px;margin:-5px 0 0 -4px;border-radius:50%;background:var(--navy);opacity:0;transform:translateY(-20px) scale(.55)}
-.watch-toggle.saved .watch-pupil{opacity:1;transform:translateY(0) scale(1)}
+.watch-toggle.saved .watch-pupil{opacity:1;transform:translate(-3px,1px) scale(1)}
 .watch-toggle.pupil-pop .watch-pupil{animation:googly-drop .58s cubic-bezier(.22,.85,.28,1.18) both}
 .watch-toggle.pupil-pop .watch-eye:nth-child(2) .watch-pupil{animation-delay:.055s}
-@keyframes googly-drop{0%{opacity:0;transform:translateY(-23px) scale(.55)}48%{opacity:1;transform:translateY(4px) scale(1.08)}68%{transform:translateY(-3px) scale(.96)}84%{transform:translateY(1.5px) scale(1.02)}100%{opacity:1;transform:translateY(0) scale(1)}}
-.watch-toggle.saved:hover .watch-pupil:first-child{transform:translate(-1px,1px)}
+@keyframes googly-drop{0%{opacity:0;transform:translate(-3px,-23px) scale(.55)}48%{opacity:1;transform:translate(-3px,5px) scale(1.08)}68%{transform:translate(-3px,-2px) scale(.96)}84%{transform:translate(-3px,2px) scale(1.02)}100%{opacity:1;transform:translate(-3px,1px) scale(1)}}
+.watch-toggle.saved:hover .watch-pupil{transform:translate(-3px,1px) scale(1)}
 .my-list-page .chart-wrap{margin-top:22px}.my-list-page .chart-heading{grid-template-columns:1fr}.my-list-page .chart-item{grid-template-columns:46px 58px minmax(0,1fr) 44px}.my-list-page .empty-list{padding:34px 20px 42px;text-align:center}.my-list-page .empty-list strong{font-family:'Archivo Black',Impact,sans-serif;font-size:20px}.my-list-page .empty-list p{margin:8px auto 0;max-width:320px;opacity:.7;font-size:13px;line-height:1.4}.list-meta{margin-top:4px;font-size:10px;font-weight:700;opacity:.58;text-transform:uppercase;letter-spacing:.03em}
-.tune-page .music-title-link{color:var(--navy);text-decoration:none;border-radius:5px}.tune-page .music-title-link:active{opacity:.65}.tune-page .music-title-link:focus-visible{outline:3px solid rgba(154,178,212,.9);outline-offset:2px}@media(hover:hover) and (pointer:fine){.tune-page .music-title-link:hover{text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:3px}}
 @media(max-width:560px){.chart-item.has-watch-toggle,.my-list-page .chart-item{grid-template-columns:38px 52px minmax(0,1fr) 39px;padding-right:9px}.watch-eyes{width:35px;height:26px}.watch-eye{width:18px;height:24px}.list-switch{width:34px!important;height:34px!important}.list-switch img{width:32px!important;height:25px!important}}
 .brand-link{color:inherit;text-decoration:none}.my-list-page .brand-link{display:flex}
+
+/* v5.2.2 — My List mirrors WozzaWatch Movies / TV sub-sections */
+.my-list-page .my-list-controls{margin-top:10px;margin-bottom:14px}.my-list-page .my-list-controls .segmented{width:100%;max-width:none}.my-list-page .chart-wrap{margin-top:0}

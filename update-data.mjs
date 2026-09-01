@@ -753,7 +753,7 @@ async function enrichOfficial(official, fallback=[], objectType) {
 
 const UK_SINGLES_URL='https://www.officialcharts.com/charts/uk-top-40-singles-chart/';
 const UK_ALBUMS_URL='https://www.officialcharts.com/charts/albums-chart/?lang=en';
-function cleanMusicText(v=''){return decodeHtml(String(v)).replace(/^New(?=[A-Z0-9])/,'').replace(/^Re(?=[A-Z0-9])/,'').replace(/\s+/g,' ').trim();}
+function cleanMusicText(v=''){return decodeHtml(String(v)).replace(/^New(?=[A-Z0-9])/,'').replace(/\s+/g,' ').trim();}
 function parseOfficialChartsMarkdown(md, sourceUrl){
   const items=[];
   const chunks=String(md).split(/\n(?=Number\s+\d+\s*$)/mi);
