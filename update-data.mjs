@@ -486,9 +486,9 @@ async function fetchPrimeViaPublicSearchIndex() {
 }
 
 async function fetchOfficialPrimeMovies() {
-  // v5.3.5 forensic build: concentrate on the one response that GitHub Actions
-  // consistently receives with lots of TOP 10 markers. Do not publish anything
-  // from this yet — the live Prime chart remains on its existing fallback.
+  // v5.3.6 forensic build: only inspect genuine *current* TOP 10 metadata badges.
+  // Historical strings such as "Spent 8 weeks in Top 10" are deliberately ignored.
+  // Nothing is published from this function yet; Prime keeps its existing fallback.
   const url='https://www.amazon.co.uk/gp/video/storefront?ref_=atv_hm_hom';
   const headers={
     'accept':'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
@@ -499,83 +499,101 @@ async function fetchOfficialPrimeMovies() {
   };
   const html=await fetchText(url,headers);
   const decoded=decodePrimePayload(html);
-  const markers=[...decoded.matchAll(/TOP\s*10/gi)];
   const ukSignals=(decoded.match(/(?:£|en_GB|en-GB|amazon\.co\.uk|avCurrentTerritory[=\":]+(?:UK|GB))/gi)||[]).length;
-  console.log(`Prime forensic fetch: ${url} (${html.length} chars, TOP10 markers=${markers.length}, UK signals=${ukSignals})`);
 
-  const cleanSnippet=value=>cleanPrimeTitle(String(value||''))
+  // Match the real metadata badge itself, not prose like "Spent N weeks in Top 10".
+  const badgeRe=/["']titleMetadataBadge["']\s*:\s*\{[\s\S]{0,700}?["']message["']\s*:\s*["']TOP\s*10["']/gi;
+  const badges=[...decoded.matchAll(badgeRe)];
+  console.log(`Prime TOP10-object fetch: ${url} (${html.length} chars, genuine badges=${badges.length}, UK signals=${ukSignals})`);
+
+  const clean=value=>cleanPrimeTitle(String(value||''))
+    .replace(/\\u0026/gi,'&')
+    .replace(/&quot;/gi,'"')
+    .replace(/&#39;/gi,"'")
+    .replace(/\\\"/g,'"')
     .replace(/\s+/g,' ')
-    .replace(/[\u0000-\u001f]+/g,' ')
     .trim();
-  const candidateKeys=['title','displayTitle','heading','headline','ariaLabel','altText','text'];
-  const extractStrings=window=>{
-    const found=[];
-    const seen=new Set();
-    const add=v=>{
-      const clean=cleanSnippet(v).replace(/&quot;/gi,'"').replace(/&#39;/gi,"'");
-      if(!clean || clean.length<2 || clean.length>140 || isPrimeNoise(clean)) return;
-      if(/^(?:top 10|amazon|prime video|watch now|included with prime|learn more|see more|movies|tv|home)$/i.test(clean)) return;
-      const key=norm(clean); if(!key||seen.has(key)) return; seen.add(key); found.push(clean);
-    };
-    for(const key of candidateKeys){
-      const re=new RegExp(`(?:\\\\?"${key}\\\\?"|"${key}")\\s*:\\s*(?:\\\\?"|")((?:\\\\.|[^"\\\\]){2,180})(?:\\\\?"|")`,'gi');
-      let m; while((m=re.exec(window))&&found.length<20) add(m[1]);
-    }
+
+  const collectKeyed=(window,key)=>{
+    const out=[];
+    const re=new RegExp(`(?:\\\\?"${key}\\\\?"|"${key}")\\s*:\\s*(?:\\\\?"|")((?:\\\\.|[^"\\\\]){1,220})(?:\\\\?"|")`,'gi');
     let m;
-    const anchorRe=/<a\b[^>]*href=["']([^"']*(?:\/detail\/|\/gp\/video\/detail\/)[^"']*)["'][^>]*>([\s\S]*?)<\/a>/gi;
-    while((m=anchorRe.exec(window))&&found.length<24){
-      const inner=m[2];
-      const aria=(m[0].match(/aria-label=["']([^"']+)["']/i)||[])[1];
-      const alt=(inner.match(/alt=["']([^"']+)["']/i)||[])[1];
-      add(aria); add(alt); add(stripTags(inner));
+    while((m=re.exec(window))){
+      const value=clean(m[1]);
+      if(value) out.push({value,index:m.index});
     }
-    return found.slice(0,8);
+    return out;
   };
-  const extractIds=window=>{
-    const vals=[]; const seen=new Set();
-    const add=v=>{if(!v||seen.has(v))return;seen.add(v);vals.push(v)};
-    for(const re of [/\bB0[A-Z0-9]{8}\b/g,/\b(?:asin|ASIN)\W{0,12}([A-Z0-9]{10})\b/g,/\b(?:titleId|contentId|gti)\W{0,16}["']?([A-Za-z0-9._:-]{8,80})/gi]){
-      let m; while((m=re.exec(window))&&vals.length<8)add(m[1]||m[0]);
+  const nearest=(items,target,filter=()=>true)=>items
+    .filter(x=>filter(x.value))
+    .sort((a,b)=>Math.abs(a.index-target)-Math.abs(b.index-target))[0]?.value||null;
+
+  const isUsefulTitle=t=>t && t.length>=2 && t.length<=140 && !isPrimeNoise(t) &&
+    !/^(?:top 10|amazon|prime video|watch now|included with prime|learn more|see more|your watchlist|add to watchlist|add season to watchlist|movies|tv|home)$/i.test(t) &&
+    !/^(?:free trial|rent|buy|free trial, rent, or buy|free trial or buy)$/i.test(t) &&
+    !/^spent \d+ weeks? in top 10$/i.test(t);
+
+  const seen=new Set();
+  const rows=[];
+  badges.forEach((badge,i)=>{
+    // Keep the window much tighter than v5.3.6 so adjacent cards do not pollute results.
+    const from=Math.max(0,badge.index-6500);
+    const to=Math.min(decoded.length,badge.index+6500);
+    const window=decoded.slice(from,to);
+    const local=badge.index-from;
+
+    const titleKeys=['displayTitle','title','heading','headline','ariaLabel','alternateText'];
+    const titleCandidates=[];
+    for(const key of titleKeys) titleCandidates.push(...collectKeyed(window,key));
+    const title=nearest(titleCandidates,local,isUsefulTitle)||'-';
+
+    const entityCandidates=collectKeyed(window,'entityType');
+    const entityType=nearest(entityCandidates,local,v=>/^(?:Movie|TV Show|TV|Series|Show)$/i.test(v))||'-';
+
+    const idMatches=[];
+    for(const re of [/\bB0[A-Z0-9]{8}\b/g,/\b(?:asin|ASIN)\W{0,12}([A-Z0-9]{10})\b/g]){
+      let m; while((m=re.exec(window))) idMatches.push({value:m[1]||m[0],index:m.index});
     }
-    return vals.slice(0,5);
-  };
-  const extractRanks=window=>{
-    const vals=[]; const seen=new Set();
-    const add=v=>{v=String(v||'').trim(); if(!v||seen.has(v))return;seen.add(v);vals.push(v)};
-    const patterns=[
+    const id=nearest(idMatches,local)||'-';
+
+    const rankMatches=[];
+    for(const re of [
       /top[_-]?ranked[_-]?(\d{1,2})/gi,
       /["'](?:rank|ranking|position|ordinal)["']\s*:\s*["']?(\d{1,2})/gi,
-      /#\s*(\d{1,2})\b/g,
-      /\b(\d{1,2})\s+(?:in|of)\s+(?:the\s+)?top\s*10\b/gi
-    ];
-    for(const re of patterns){let m;while((m=re.exec(window))&&vals.length<8)add(m[1]);}
-    return vals.slice(0,6);
-  };
+      /["']rankLabel["']\s*:\s*["'][^"']*?(\d{1,2})[^"']*["']/gi,
+      /#\s*(\d{1,2})\b/g
+    ]){
+      let m; while((m=re.exec(window))) rankMatches.push({value:m[1],index:m.index});
+    }
+    const possibleRank=nearest(rankMatches,local,v=>Number(v)>=1&&Number(v)<=10)||'-';
 
-  markers.slice(0,30).forEach((marker,i)=>{
-    const from=Math.max(0,marker.index-5000), to=Math.min(decoded.length,marker.index+9000);
-    const window=decoded.slice(from,to);
-    const titles=extractStrings(window);
-    const ids=extractIds(window);
-    const ranks=extractRanks(window);
-    const text=cleanSnippet(window.replace(/<script[\s\S]*?<\/script>/gi,' ').replace(/<style[\s\S]*?<\/style>/gi,' ').replace(/<[^>]+>/g,' '));
-    const markerPos=marker.index-from;
-    const approx=Math.max(0, Math.min(text.length-1, Math.floor((markerPos/Math.max(window.length,1))*text.length)));
-    const snippet=text.slice(Math.max(0,approx-120),Math.min(text.length,approx+220));
-    console.log(`Prime forensic marker ${String(i+1).padStart(2,'0')} @${marker.index}: ranks=[${ranks.join(',')||'-'}] ids=[${ids.join(',')||'-'}] titles=[${titles.join(' | ')||'-'}]`);
-    if(snippet) console.log(`Prime forensic snippet ${String(i+1).padStart(2,'0')}: ${snippet}`);
+    const coverMatch=window.match(/["'](?:url|imageUrl)["']\s*:\s*["'](https?:\\?\/?\\?\/\/m\.media-amazon\.com\/images\/[^"']{20,500})["']/i);
+    const artwork=coverMatch?clean(coverMatch[1]).replace(/\\\//g,'/'):'-';
+
+    const key=`${title}|${entityType}|${id}`;
+    if(!seen.has(key)){
+      seen.add(key);
+      rows.push({title,entityType,id,possibleRank,artwork,offset:badge.index});
+    }
   });
 
-  // Also inspect spacing. Ten tightly-grouped markers are more likely to belong
-  // to one carousel than isolated badges elsewhere on the storefront.
-  if(markers.length){
-    const positions=markers.map(m=>m.index);
+  rows.forEach((r,i)=>{
+    console.log(`Prime TOP10 object ${String(i+1).padStart(2,'0')} | title=${r.title} | type=${r.entityType} | id=${r.id} | possibleRank=${r.possibleRank} | artwork=${r.artwork==='-'?'-':'yes'} | @${r.offset}`);
+  });
+
+  const movies=rows.filter(r=>/^Movie$/i.test(r.entityType)).length;
+  const shows=rows.filter(r=>/^(?:TV Show|TV|Series|Show)$/i.test(r.entityType)).length;
+  const ranked=rows.filter(r=>r.possibleRank!=='-').length;
+  console.log(`Prime TOP10-object summary: ${rows.length} unique genuine badges; movies=${movies}; TV=${shows}; possible ranks=${ranked}`);
+
+  if(rows.length){
+    const positions=rows.map(r=>r.offset);
     const gaps=positions.slice(1).map((p,i)=>p-positions[i]);
-    console.log(`Prime forensic marker positions: ${positions.join(',')}`);
-    console.log(`Prime forensic marker gaps: ${gaps.join(',')||'-'}`);
+    console.log(`Prime TOP10-object positions: ${positions.join(',')}`);
+    console.log(`Prime TOP10-object gaps: ${gaps.join(',')||'-'}`);
   }
 
-  throw new Error(`forensic-only build captured ${markers.length} TOP 10 markers; inspect marker logs before enabling official Prime`);
+  throw new Error(`forensic-only v5.3.6 captured ${rows.length} genuine TOP 10 objects; inspect clean object lines before enabling official Prime`);
 }
 
 async function fetchOfficialNetflix() {
