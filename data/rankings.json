@@ -1,6 +1,6 @@
 {
   "version": 17,
-  "generatedAt": "2026-09-01T18:55:23.544Z",
+  "generatedAt": "2026-09-01T19:00:03.859Z",
   "country": "GB",
   "strategy": "Official source first; labelled fallback when no compatible official chart is available.",
   "services": {
@@ -1931,13 +1931,13 @@
       "movies": [
         {
           "rank": 1,
-          "sourceRank": 831,
+          "sourceRank": 857,
           "title": "La bête",
           "year": 2024,
           "poster": "/poster/317844979/s166/la-bete.webp",
           "url": "https://www.justwatch.com/uk/movie/la-bete",
           "trend": "DOWN",
-          "trendDifference": -99,
+          "trendDifference": -125,
           "daysInTop10": 1,
           "topRank": 8
         },
