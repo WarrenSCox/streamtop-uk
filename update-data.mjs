@@ -486,9 +486,10 @@ async function fetchPrimeViaPublicSearchIndex() {
 }
 
 async function fetchOfficialPrimeMovies() {
-  // v5.3.8 forensic build: reconstruct Amazon storefront carousels from the
-  // component id embedded in ref_=atv_hm_hom_c_<component>... links. This lets
-  // us group cards by shelf without relying on a visible collection heading.
+  // v5.3.10 forensic build: dynamic-request hunt only. We already proved the
+  // storefront contains three genuine current TOP 10 badges, but they sit in
+  // unrelated shelves. Now inspect hydrated state and Prime JS bundles for the
+  // anonymous endpoints/tokens used by the browser to fetch shelf content.
   const url='https://www.amazon.co.uk/gp/video/storefront?ref_=atv_hm_hom';
   const headers={
     'accept':'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
@@ -502,15 +503,14 @@ async function fetchOfficialPrimeMovies() {
   const ukSignals=(decoded.match(/(?:£|en_GB|en-GB|amazon\.co\.uk|avCurrentTerritory[=\":]+(?:UK|GB))/gi)||[]).length;
   const badgeRe=/["']titleMetadataBadge["']\s*:\s*\{[\s\S]{0,700}?["']message["']\s*:\s*["']TOP\s*10["']/gi;
   const badges=[...decoded.matchAll(badgeRe)];
-  console.log(`Prime carousel-rebuild fetch: ${url} (${html.length} chars, genuine badges=${badges.length}, UK signals=${ukSignals})`);
+  console.log(`Prime dynamic fetch: ${url} (${html.length} chars, genuine badges=${badges.length}, UK signals=${ukSignals})`);
 
   const clean=value=>cleanPrimeTitle(String(value||''))
     .replace(/\\u0026/gi,'&').replace(/&quot;/gi,'"').replace(/&#39;/gi,"'")
     .replace(/\\\"/g,'"').replace(/\s+/g,' ').trim();
   const collectKeyed=(window,key)=>{const out=[];const re=new RegExp(`(?:\\\\?"${key}\\\\?"|"${key}")\\s*:\\s*(?:\\\\?"|")((?:\\\\.|[^"\\\\]){1,300})(?:\\\\?"|")`,'gi');let m;while((m=re.exec(window))){const value=clean(m[1]);if(value)out.push({value,index:m.index});}return out;};
   const nearest=(items,target,filter=()=>true)=>items.filter(x=>filter(x.value)).sort((a,b)=>Math.abs(a.index-target)-Math.abs(b.index-target))[0]?.value||null;
-  const isUsefulTitle=t=>t&&t.length>=2&&t.length<=140&&!isPrimeNoise(t)&&!/^(?:top 10|amazon|prime video|watch now|included with prime|learn more|see more|your watchlist|add to watchlist|add season to watchlist|movies|tv|home)$/i.test(t)&&!/^(?:free trial|rent|buy|free trial, rent, or buy|free trial or buy)$/i.test(t)&&!/^spent \d+ weeks? in top 10$/i.test(t);
-
+  const isUsefulTitle=t=>t&&t.length>=2&&t.length<=140&&!isPrimeNoise(t)&&!/^(?:top 10|amazon|prime video|watch now|included with prime|learn more|see more|your watchlist|add to watchlist|add season to watchlist|movies|tv|home)$/i.test(t)&&!/^spent \d+ weeks? in top 10$/i.test(t);
   const anchors=[];
   for(const badge of badges){
     const from=Math.max(0,badge.index-7000),to=Math.min(decoded.length,badge.index+7000),win=decoded.slice(from,to),local=badge.index-from;
@@ -519,51 +519,49 @@ async function fetchOfficialPrimeMovies() {
     const type=nearest(collectKeyed(win,'entityType'),local,v=>/^(?:Movie|TV Show|TV|Series|Show)$/i.test(v))||'-';
     const ids=[];let im;const ir=/\bB0[A-Z0-9]{8}\b/g;while((im=ir.exec(win)))ids.push({value:im[0],index:im.index});
     const id=nearest(ids,local)||'-';
-    const ranks=[];for(const re of [/top[_-]?ranked[_-]?(\d{1,2})/gi,/["'](?:rank|ranking|position|ordinal)["']\s*:\s*["']?(\d{1,2})/gi]){let m;while((m=re.exec(win)))ranks.push({value:m[1],index:m.index});}
-    const rank=nearest(ranks,local,v=>+v>=1&&+v<=10)||'-';
-    if(!anchors.some(x=>x.id===id&&x.title===title))anchors.push({title,type,id,rank,offset:badge.index});
+    if(!anchors.some(x=>x.id===id&&x.title===title))anchors.push({title,type,id,offset:badge.index});
   }
-  anchors.forEach((a,i)=>console.log(`Prime TOP10 anchor ${String(i+1).padStart(2,'0')} | title=${a.title} | type=${a.type} | id=${a.id} | possibleRank=${a.rank}`));
+  anchors.forEach((a,i)=>console.log(`Prime dynamic anchor ${String(i+1).padStart(2,'0')} | title=${a.title} | type=${a.type} | id=${a.id}`));
 
-  // Parse storefront detail links and group them by the c_<component> id.
-  // Capture the card's titleID/title from the nearby hydrated object and its
-  // explicit slot number from the ref suffix where Amazon supplies one.
-  const groups=new Map();
-  const refRe=/\/gp\/video\/detail\/([A-Z0-9]{10})\?[^"'<>]{0,500}?ref_=atv_hm_hom_c_([A-Za-z0-9]+)_([^"'&<>\s]{1,160})/gi;
-  let rm;
-  while((rm=refRe.exec(decoded))){
-    const id=rm[1],component=rm[2],suffix=rm[3],at=rm.index;
-    const ctx=decoded.slice(Math.max(0,at-3500),Math.min(decoded.length,at+1500));
-    const local=Math.min(3500,at);
-    const tc=[];for(const key of ['displayTitle','title','alternateText'])tc.push(...collectKeyed(ctx,key));
-    const title=nearest(tc,local,isUsefulTitle)||'-';
-    const nums=[...suffix.matchAll(/(?:^|_)(\d{1,2})(?=_|$)/g)].map(m=>+m[1]).filter(n=>n>=1&&n<=40);
-    const slot=nums.length?nums[nums.length-1]:null;
-    if(!groups.has(component))groups.set(component,[]);
-    const arr=groups.get(component);
-    if(!arr.some(x=>x.id===id))arr.push({id,title,slot,at,suffix});
-  }
+  const hints=[];
+  const add=(kind,value,at,source='html')=>{value=String(value||'').replace(/\\u0026/gi,'&').replace(/\\\//g,'/').replace(/&amp;/g,'&').trim();if(!value||value.length<3||value.length>1200||/watchlistToggle|auth-redirect/i.test(value))return;if(!hints.some(x=>x.kind===kind&&x.value===value))hints.push({kind,value,at,source});};
+  const patterns=[
+    ['endpoint',/["'](?:endpoint|ajaxUrl|ajaxURL|apiUrl|apiURL|nextPageUrl|paginationUrl|seeMoreUrl|loadMoreUrl|partialURL)["']\s*:\s*["']([^"']{3,1000})["']/gi],
+    ['token',/["'](?:paginationToken|nextToken|pageToken|serviceToken|continuationToken|cursor)["']\s*:\s*["']([^"']{3,1000})["']/gi],
+    ['api-path',/(?:\\?\/|\/)(?:gp\/video\/)?(?:api|ajax|widgets?|getPage|collection|storefront|pagination)[A-Za-z0-9_?&=%./:+-]{2,1000}/gi]
+  ];
+  for(const [kind,re] of patterns){let m;while((m=re.exec(decoded)))add(kind,m[1]||m[0],m.index);}
+  const anchorOffsets=anchors.map(a=>a.offset);
+  const dist=h=>anchorOffsets.length?Math.min(...anchorOffsets.map(x=>Math.abs(h.at-x))):h.at;
+  hints.sort((a,b)=>dist(a)-dist(b));
+  console.log(`Prime dynamic HTML hints: ${hints.length}`);
+  hints.slice(0,40).forEach((h,i)=>console.log(`Prime dynamic HTML ${String(i+1).padStart(2,'0')} | ${h.kind} | ${h.value.slice(0,900)}`));
 
-  const anchorComponents=[];
-  for(const [component,cards] of groups){
-    const hits=anchors.filter(a=>cards.some(c=>c.id===a.id||c.title===a.title));
-    if(hits.length)anchorComponents.push({component,cards,hits});
+  const scripts=[];let sm;const scriptRe=/<script[^>]+src=["']([^"']+)["']/gi;
+  while((sm=scriptRe.exec(html))){let src=sm[1].replace(/&amp;/g,'&');if(src.startsWith('//'))src='https:'+src;else if(src.startsWith('/'))src='https://www.amazon.co.uk'+src;if(/^https?:\/\//i.test(src)&&!scripts.includes(src))scripts.push(src);}
+  const likely=scripts.filter(x=>/prime|video|atv|web|client|bundle|chunk|amazon/i.test(x)).slice(0,30);
+  console.log(`Prime dynamic scripts: ${scripts.length} total; ${likely.length} selected for endpoint scan`);
+  let scanned=0,scriptHints=0;
+  for(const src of likely){
+    try{
+      const js=await fetchText(src,{'accept':'*/*','referer':url,'user-agent':headers['user-agent']});
+      scanned++;
+      const found=[];
+      const re=/(?:https?:\/\/[^"'`\s]{8,500}|\/(?:gp\/video\/)?(?:api|ajax|widgets?|getPage|collection|storefront|pagination)[A-Za-z0-9_?&=%./:+-]{2,500})/gi;
+      let m;while((m=re.exec(js))){const v=m[0].replace(/\\\//g,'/');if(/watchlistToggle|auth-redirect/i.test(v))continue;if(!found.includes(v))found.push(v);}
+      if(found.length){
+        console.log(`Prime dynamic script match | ${src.slice(0,220)} | endpoints=${found.length}`);
+        found.slice(0,12).forEach((v,i)=>console.log(`Prime dynamic JS ${String(++scriptHints).padStart(2,'0')} | ${v.slice(0,900)}`));
+      }
+    }catch(e){ console.log(`Prime dynamic script fetch failed | ${src.slice(0,180)} | ${e.message}`); }
   }
-  anchorComponents.sort((a,b)=>b.hits.length-a.hits.length||b.cards.length-a.cards.length);
-  console.log(`Prime carousel reconstruction: ${groups.size} component groups found; ${anchorComponents.length} contain confirmed TOP 10 anchors`);
-  for(const g of anchorComponents.slice(0,10)){
-    const ordered=[...g.cards].sort((a,b)=>(a.slot??999)-(b.slot??999)||a.at-b.at);
-    console.log(`Prime carousel c_${g.component} | cards=${ordered.length} | TOP10 anchors=${g.hits.map(h=>`${h.title}${h.rank!=='-'?` (#${h.rank})`:''}`).join(' | ')}`);
-    ordered.slice(0,25).forEach((c,i)=>console.log(`Prime carousel c_${g.component} card ${String(i+1).padStart(2,'0')} | slot=${c.slot??'-'} | title=${c.title} | id=${c.id} | refTail=${c.suffix.slice(0,90)}`));
+  for(const a of anchors){
+    const win=decoded.slice(Math.max(0,a.offset-22000),Math.min(decoded.length,a.offset+22000));
+    const keys=[...new Set((win.match(/(?:ajaxEnabled|pagination|continuation|nextPage|loadMore|serviceToken|endpoint|collectionId|widgetId|pageType|pageId|partialURL)/gi)||[]).map(x=>x.toLowerCase()))];
+    console.log(`Prime dynamic context | ${a.title} | keys=[${keys.join(',')||'-'}]`);
   }
-
-  // Also show the components with the most cards: useful if the TOP 10 badge
-  // belongs to a card rendered elsewhere while the full shelf is another copy.
-  [...groups.entries()].sort((a,b)=>b[1].length-a[1].length).slice(0,8).forEach(([component,cards])=>{
-    console.log(`Prime largest carousel c_${component}: ${cards.length} unique cards`);
-  });
-  console.log(`Prime carousel-rebuild summary: ${anchors.length} genuine anchors; hunting a component that reconstructs the full ranked shelf`);
-  throw new Error(`forensic-only v5.3.8 captured ${anchors.length} genuine TOP 10 anchors and ${anchorComponents.length} matching carousel groups`);
+  console.log(`Prime dynamic-hunt summary: anchors=${anchors.length}; htmlHints=${hints.length}; scriptsScanned=${scanned}; jsHints=${scriptHints}`);
+  throw new Error(`forensic-only v5.3.10: Prime dynamic hunt complete; anchors=${anchors.length}, htmlHints=${hints.length}, jsHints=${scriptHints}`);
 }
 
 async function fetchOfficialNetflix() {

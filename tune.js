@@ -95,7 +95,7 @@ initMusicGestures();
 (async()=>{try{state.data=await loadFeed();render()}catch(e){els.errorText.textContent=e.message;els.error.classList.remove('hidden');els.updated.textContent='Ranking feed unavailable'}finally{els.loading.classList.add('hidden')}})();
 
 
-// v5.3.8: when already at the top, a deliberate downward pull switches
+// v5.3.10: when already at the top, a deliberate downward pull switches
 // WozzaWatch → WozzaTune → Watchlist → WozzaWatch instead of native refresh.
 function initTopPullSwitch(nextUrl,nextLabel){
   let startY=0,pulling=false,distance=0;
@@ -122,7 +122,7 @@ function initTopPullSwitch(nextUrl,nextLabel){
   },{passive:false});
   const finish=()=>{
     if(!pulling)return;pulling=false;
-    if(distance>=threshold){indicator.textContent=`Opening ${nextLabel}…`;indicator.classList.add('visible','ready','go');setTimeout(()=>location.href=nextUrl,90);}
+    if(distance>=threshold){indicator.classList.remove('visible','ready','go');indicator.style.transform='';location.href=nextUrl;}
     else{indicator.classList.remove('visible','ready','go');indicator.style.transform='';}
     distance=0;
   };
@@ -130,3 +130,16 @@ function initTopPullSwitch(nextUrl,nextLabel){
 }
 
 initTopPullSwitch('my-list.html','Watchlist');
+
+
+// v5.3.10: at the bottom, a deliberate upward flick switches backwards
+// through Watch ← Tune ← List. No popup/"Opening" message.
+function initBottomFlickSwitch(prevUrl){
+  let startY=0,tracking=false,distance=0; const threshold=82;
+  const atBottom=()=>window.innerHeight+window.scrollY>=document.documentElement.scrollHeight-3;
+  window.addEventListener('touchstart',e=>{if(e.touches.length!==1||!atBottom())return;startY=e.touches[0].clientY;distance=0;tracking=true;},{passive:true});
+  window.addEventListener('touchmove',e=>{if(!tracking||e.touches.length!==1)return;const dy=startY-e.touches[0].clientY;if(dy<=0){distance=0;return;}if(!atBottom()){tracking=false;return;}distance=dy;if(dy>12)e.preventDefault();},{passive:false});
+  const finish=()=>{if(!tracking)return;tracking=false;if(distance>=threshold)location.href=prevUrl;distance=0;};
+  window.addEventListener('touchend',finish,{passive:true});window.addEventListener('touchcancel',()=>{tracking=false;distance=0;},{passive:true});
+}
+initBottomFlickSwitch('index.html');
