@@ -1,6 +1,6 @@
 {
-  "version": 16,
-  "generatedAt": "2026-09-01T12:16:11.832Z",
+  "version": 17,
+  "generatedAt": "2026-09-01T12:26:39.673Z",
   "country": "GB",
   "strategy": "Official source first; labelled fallback when no compatible official chart is available.",
   "services": {
@@ -580,16 +580,18 @@
         "movies": {
           "kind": "fallback",
           "label": "JustWatch UK",
+          "displayName": "JustWatch",
           "url": "https://www.justwatch.com/uk/provider/amazon-prime-video/movies",
           "cadence": "daily",
-          "note": "No compatible public official Movies/TV chart is currently used, so WozzaWatch falls back to JustWatch UK popularity."
+          "note": "Prime Video currently uses JustWatch UK popularity while no reliable Prime-specific chart source is configured."
         },
         "tv": {
           "kind": "fallback",
           "label": "JustWatch UK",
+          "displayName": "JustWatch",
           "url": "https://www.justwatch.com/uk/provider/amazon-prime-video/tv-series",
           "cadence": "daily",
-          "note": "No compatible public official Movies/TV chart is currently used, so WozzaWatch falls back to JustWatch UK popularity."
+          "note": "Prime Video currently uses JustWatch UK popularity while no reliable Prime-specific chart source is configured."
         }
       },
       "error": null
@@ -844,16 +846,18 @@
         "movies": {
           "kind": "fallback",
           "label": "JustWatch UK",
+          "displayName": "JustWatch",
           "url": "https://www.justwatch.com/uk/provider/disney-plus/movies",
           "cadence": "daily",
-          "note": "Disney+ UK Top 10 Movies and TV Shows reported by FlixPatrol."
+          "note": "Disney+ currently uses JustWatch UK popularity while no reliable separate official Movies/TV chart source is configured."
         },
         "tv": {
           "kind": "fallback",
           "label": "JustWatch UK",
+          "displayName": "JustWatch",
           "url": "https://www.justwatch.com/uk/provider/disney-plus/tv-series",
           "cadence": "daily",
-          "note": "Disney+ UK Top 10 Movies and TV Shows reported by FlixPatrol."
+          "note": "Disney+ currently uses JustWatch UK popularity while no reliable separate official Movies/TV chart source is configured."
         }
       },
       "error": null
@@ -1372,6 +1376,7 @@
         "movies": {
           "kind": "fallback",
           "label": "JustWatch UK",
+          "displayName": "JustWatch",
           "url": "https://www.justwatch.com/uk/provider/hbo-max/movies",
           "cadence": "daily",
           "note": "No compatible public official Movies/TV chart is currently used, so WozzaWatch falls back to JustWatch UK popularity."
@@ -1379,6 +1384,7 @@
         "tv": {
           "kind": "fallback",
           "label": "JustWatch UK",
+          "displayName": "JustWatch",
           "url": "https://www.justwatch.com/uk/provider/hbo-max/tv-series",
           "cadence": "daily",
           "note": "No compatible public official Movies/TV chart is currently used, so WozzaWatch falls back to JustWatch UK popularity."
@@ -1634,6 +1640,7 @@
         "movies": {
           "kind": "fallback",
           "label": "JustWatch UK",
+          "displayName": "JustWatch",
           "url": "https://www.justwatch.com/uk/provider/bbc-iplayer/movies",
           "cadence": "daily",
           "note": "No compatible public official Movies/TV chart is currently used, so WozzaWatch falls back to JustWatch UK popularity."
@@ -1641,6 +1648,7 @@
         "tv": {
           "kind": "fallback",
           "label": "JustWatch UK",
+          "displayName": "JustWatch",
           "url": "https://www.justwatch.com/uk/provider/bbc-iplayer/tv-series",
           "cadence": "daily",
           "note": "No compatible public official Movies/TV chart is currently used, so WozzaWatch falls back to JustWatch UK popularity."
@@ -1892,6 +1900,7 @@
         "movies": {
           "kind": "fallback",
           "label": "JustWatch UK",
+          "displayName": "JustWatch",
           "url": "https://www.justwatch.com/uk/provider/itvx/movies",
           "cadence": "daily",
           "note": "No compatible public official Movies/TV chart is currently used, so WozzaWatch falls back to JustWatch UK popularity."
@@ -1899,6 +1908,7 @@
         "tv": {
           "kind": "fallback",
           "label": "JustWatch UK",
+          "displayName": "JustWatch",
           "url": "https://www.justwatch.com/uk/provider/itvx/tv-series",
           "cadence": "daily",
           "note": "No compatible public official Movies/TV chart is currently used, so WozzaWatch falls back to JustWatch UK popularity."
@@ -2143,6 +2153,7 @@
         "movies": {
           "kind": "fallback",
           "label": "JustWatch UK",
+          "displayName": "JustWatch",
           "url": "https://www.justwatch.com/uk/provider/channel-4/movies",
           "cadence": "daily",
           "note": "No compatible public official Movies/TV chart is currently used, so WozzaWatch falls back to JustWatch UK popularity."
@@ -2150,6 +2161,7 @@
         "tv": {
           "kind": "fallback",
           "label": "JustWatch UK",
+          "displayName": "JustWatch",
           "url": "https://www.justwatch.com/uk/provider/channel-4/tv-series",
           "cadence": "daily",
           "note": "No compatible public official Movies/TV chart is currently used, so WozzaWatch falls back to JustWatch UK popularity."
@@ -2272,7 +2284,8 @@
           "note": "Official UK weekend box-office Top 10 published by the UK Cinema Association using Comscore data."
         }
       },
-      "error": null
+      "error": null,
+      "stale": true
     },
     "uscinema": {
       "provider": "US Cinema",
@@ -2644,8 +2657,9 @@
           "rank": 1,
           "title": "WILD (EP)",
           "artist": "KATSEYE",
-          "poster": null,
-          "detailsUrl": "https://ca.billboard.com/charts/billboard-200"
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0a/63/b5/0a63b5b0-dff7-1194-79c0-6bc8f5ab2d74/093624821526.jpg/400x400bb.jpg",
+          "detailsUrl": "https://ca.billboard.com/charts/billboard-200",
+          "musicUrl": "https://music.apple.com/us/album/wild/1885046822?uo=4"
         },
         {
           "rank": 2,
@@ -2699,17 +2713,15 @@
           "rank": 8,
           "title": "petal",
           "artist": "Ariana Grande",
-          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/56/f4/96/56f49612-02dd-83f4-44fe-d2118cc70707/26UMGIM51129.rgb.jpg/400x400bb.jpg",
-          "detailsUrl": "https://ca.billboard.com/charts/billboard-200",
-          "musicUrl": "https://music.apple.com/us/album/petal/1895420874?uo=4"
+          "poster": null,
+          "detailsUrl": "https://ca.billboard.com/charts/billboard-200"
         },
         {
           "rank": 9,
           "title": "ICEMAN",
           "artist": "Drake",
-          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7f/39/61/7f396123-be56-bc11-eaab-976441808e58/26UMGIM63622.rgb.jpg/400x400bb.jpg",
-          "detailsUrl": "https://ca.billboard.com/charts/billboard-200",
-          "musicUrl": "https://music.apple.com/us/album/iceman/6769649287?uo=4"
+          "poster": null,
+          "detailsUrl": "https://ca.billboard.com/charts/billboard-200"
         },
         {
           "rank": 10,
