@@ -2,11 +2,6 @@ import { mkdir, readFile, writeFile } from 'node:fs/promises';
 
 const ENDPOINT = 'https://apis.justwatch.com/graphql';
 const NETFLIX_TSV = 'https://www.netflix.com/tudum/top10/data/all-weeks-countries.tsv';
-const FLIXPATROL_PRIME_URL = 'https://flixpatrol.com/top10/amazon-prime/united-kingdom/';
-const FLIXPATROL_DISNEY_URL = 'https://flixpatrol.com/top10/disney/united-kingdom/';
-const FLIXPATROL_STREAMING_UK = 'https://flixpatrol.com/top10/streaming/united-kingdom/';
-function ymdUTC(date=new Date()) { return date.toISOString().slice(0,10); }
-function daysAgoUTC(days=0) { const d=new Date(); d.setUTCDate(d.getUTCDate()-days); return ymdUTC(d); }
 function latestFridayUTC() {
   const d=new Date();
   const dow=d.getUTCDay(); // Sun=0 ... Fri=5
@@ -14,9 +9,7 @@ function latestFridayUTC() {
   d.setUTCDate(d.getUTCDate()-back);
   return d.toISOString().slice(0,10).replace(/-/g,'');
 }
-// Legacy Prime parser helpers below still reference this canonical URL.
-// FlixPatrol is now the active Prime chart source; this constant only prevents
-// the unused fallback helpers from failing during module initialisation.
+// Legacy Prime parser helpers retain the canonical Prime Movies URL.
 const PRIME_MOVIES_URL = 'https://www.primevideo.com/movie/ref%3Datv_hom_Marqueetvuk_c_9zZ8D2_hom?tr=gb';
 const APPLE_MOVIES_URL = 'https://tv.apple.com/gb/collection/most-popular-now/uts.col.ChartsMovies.tvs.sbd.4000';
 const APPLE_TV_URL = 'https://tv.apple.com/gb/collection/most-popular-now/uts.col.ChartsShows.tvs.sbd.4000';
@@ -41,10 +34,10 @@ const OFFICIAL = {
     note:'Netflix Tudum UK weekly Top 10',
   },
   prime: {
-    label:'FlixPatrol',
-    url:FLIXPATROL_PRIME_URL,
+    label:'JustWatch UK',
+    url:'https://www.justwatch.com/uk/provider/amazon-prime-video',
     cadence:'daily',
-    note:'Amazon Prime UK Top 10 Movies and TV Shows reported by FlixPatrol.',
+    note:'Prime Video currently uses JustWatch UK popularity while no reliable Prime-specific chart source is configured.',
   },
   appleMovies: {
     label:'Official Apple',
@@ -59,10 +52,10 @@ const OFFICIAL = {
     note:'Apple TV public UK Most Popular Now TV shows',
   },
   disney: {
-    label:'FlixPatrol',
-    url:FLIXPATROL_DISNEY_URL,
+    label:'JustWatch UK',
+    url:'https://www.justwatch.com/uk/provider/disney-plus',
     cadence:'daily',
-    note:'Disney+ UK Top 10 Movies and TV Shows reported by FlixPatrol.',
+    note:'Disney+ currently uses JustWatch UK popularity while no reliable separate official Movies/TV chart source is configured.',
   }
 };
 
@@ -501,119 +494,6 @@ async function fetchOfficialPrimeMovies() {
   throw new Error(errors.join(' | ')||'Prime UK chart unavailable');
 }
 
-function parseFlixPatrolSection(text, heading, sourceUrl){
-  const raw=String(text||'').replace(/\r/g,'');
-  const plain=decodeHtml(raw);
-  const headingRe=new RegExp(`(?:^|\\n)\\s*#{0,6}\\s*${heading.replace(/[.*+?^${}()|[\\]\\]/g,'\\$&')}\\s*(?:\\n|$)`,'i');
-  const hm=headingRe.exec(plain);
-  let start=hm ? hm.index+hm[0].length : -1;
-  if(start<0){
-    const idx=plain.toLowerCase().indexOf(heading.toLowerCase());
-    if(idx<0)return [];
-    start=idx+heading.length;
-  }
-  let section=plain.slice(start);
-  const nextHeading=section.search(/\n\s*#{0,6}\s*(?:TOP\s+10\s+(?:Movies|TV Shows|Overall)|TOP Movies and TV Shows|Top ranked Movies|Top ranked TV Shows)\b/i);
-  if(nextHeading>=0)section=section.slice(0,nextHeading);
-
-  const byRank=new Map();
-  const add=(rank,title,url=null)=>{
-    rank=Number(rank);
-    title=decodeHtml(String(title||''))
-      .replace(/!\[[^\]]*\]\([^)]*\)/g,'')
-      .replace(/\[([^\]]+)\]\([^)]*\)/g,'$1')
-      .replace(/^[|\s–—+\-]+|[|\s]+$/g,'')
-      .replace(/\s+/g,' ').trim();
-    if(rank>=1&&rank<=10&&title&&!byRank.has(rank)&&!/^n\/?a$|^–$|^-$/.test(title))
-      byRank.set(rank,{rank,title,url:url||sourceUrl});
-  };
-
-  // FlixPatrol's reader output is usually: 1. | – | [Title](url) | 18 d
-  let m;
-  const mdRow=/(?:^|\n)\s*(10|[1-9])\.\s*\|\s*[^|\n]*\|\s*(?:\[([^\]]+)\]\((https?:\/\/[^)]+)\)|([^|\n]+))\s*\|/gim;
-  while((m=mdRow.exec(section))) add(m[1],m[2]||m[4],m[3]);
-
-  // Some renderers flatten the table but preserve rank + title link.
-  const flatLink=/(?:^|\n)\s*(10|[1-9])\.\s*(?:\|[^\n]*?\|\s*)?\[([^\]]+)\]\((https?:\/\/[^)]+)\)/gim;
-  while((m=flatLink.exec(section))) add(m[1],m[2],m[3]);
-
-  // HTML/direct fallback: inspect row-like chunks and strip tags.
-  const rows=section.match(/<tr\b[\s\S]*?<\/tr>/gi)||[];
-  for(const row of rows){
-    const txt=decodeHtml(row.replace(/<script[\s\S]*?<\/script>/gi,' ').replace(/<style[\s\S]*?<\/style>/gi,' ').replace(/<[^>]+>/g,' ')).replace(/\s+/g,' ').trim();
-    const rm=txt.match(/^\s*(10|[1-9])\b\s*(?:[+\-–—]|n\/?a)?\s*(.+?)(?:\s+\d+\s*d\b|$)/i);
-    if(rm){
-      const am=row.match(/<a\b[^>]*href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/i);
-      const title=am?am[2].replace(/<[^>]+>/g,' '):rm[2];
-      const href=am&&am[1]?(am[1].startsWith('http')?am[1]:`https://flixpatrol.com${am[1]}`):sourceUrl;
-      add(rm[1],title,href);
-    }
-  }
-
-  // Last-resort readable text line parser.
-  for(const line of section.split('\n')){
-    const s=line.replace(/\s+/g,' ').trim();
-    const lm=s.match(/^(10|[1-9])\.\s+(?:[+\-–—]|n\/?a)?\s*(.+?)(?:\s+\d+\s*d\s*)?$/i);
-    if(lm)add(lm[1],lm[2],sourceUrl);
-  }
-  return [...byRank.values()].sort((a,b)=>a.rank-b.rank).slice(0,10);
-}
-function parseFlixPatrolProviderFromStreaming(text, providerLabel, sourceUrl){
-  const raw=String(text||'').replace(/\r/g,'');
-  const providerEsc=providerLabel.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
-  // Scope to one provider block on the all-streaming UK page.
-  const re=new RegExp(`(?:^|\\n)\\s*#{1,3}\\s*${providerEsc}\\s+TOP\\s+10\\s+in\\s+the\\s+United\\s+Kingdom[^\\n]*\\n([\\s\\S]*?)(?=\\n\\s*#{1,3}\\s+[^\\n]+TOP\\s+10\\s+in\\s+the\\s+United\\s+Kingdom|$)`,'i');
-  const m=re.exec(raw);
-  if(!m)return {movies:[],tv:[]};
-  const scoped=m[1];
-  return {
-    movies:parseFlixPatrolSection(`TOP 10 Movies\n${scoped.split(/TOP 10 Movies/i)[1]||''}`,'TOP 10 Movies',sourceUrl),
-    tv:parseFlixPatrolSection(`TOP 10 TV Shows\n${scoped.split(/TOP 10 TV Shows/i)[1]||''}`,'TOP 10 TV Shows',sourceUrl)
-  };
-}
-async function fetchFlixPatrolUK(url,label){
-  const hostPath=url.replace(/^https?:\/\/flixpatrol\.com/,'');
-  const attempts=[
-    ['direct',url],
-    ['reader',`https://r.jina.ai/${url}`],
-    ['reader-http',`https://r.jina.ai/http://${url.replace(/^https?:\/\//,'')}`],
-    ['translate',`https://flixpatrol-com.translate.goog${hostPath}${hostPath.includes('?')?'&':'?'}_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en-GB`]
-  ];
-  let last='';
-  for(const [route,u] of attempts){
-    try{
-      const text=await fetchText(u,{'accept-language':'en-GB,en;q=0.9'});
-      const movies=parseFlixPatrolSection(text,'TOP 10 Movies',url);
-      const tv=parseFlixPatrolSection(text,'TOP 10 TV Shows',url);
-      console.log(`FlixPatrol ${label}: ${text.length} chars, movies ${movies.length}/10, TV ${tv.length}/10 via ${route}`);
-      if(movies.length===10&&tv.length===10)return {movies,tv};
-      last=`${route} returned movies ${movies.length}/10, TV ${tv.length}/10`;
-    }catch(e){last=e.message;console.warn(`FlixPatrol ${label} ${route} attempt failed: ${e.message}`);}
-  }
-
-  // FlixPatrol's provider pages can block cloud runners even while the daily
-  // all-streaming UK page remains indexed/cached. Try today's and recent dated
-  // aggregate pages and extract only the requested provider block.
-  const providerLabel=/Prime/i.test(label)?'Amazon Prime':'Disney+';
-  for(const day of [0,1,2]){
-    const dated=`${FLIXPATROL_STREAMING_UK}${daysAgoUTC(day)}/`;
-    for(const [route,u] of [
-      [`streaming-${day===0?'today':day+'d'}`,dated],
-      [`streaming-reader-${day===0?'today':day+'d'}`,`https://r.jina.ai/${dated}`],
-      [`streaming-reader-http-${day===0?'today':day+'d'}`,`https://r.jina.ai/http://${dated.replace(/^https?:\/\//,'')}`]
-    ]){
-      try{
-        const text=await fetchText(u,{'accept-language':'en-GB,en;q=0.9'});
-        const parsed=parseFlixPatrolProviderFromStreaming(text,providerLabel,url);
-        console.log(`FlixPatrol ${label}: aggregate ${daysAgoUTC(day)} ${text.length} chars, movies ${parsed.movies.length}/10, TV ${parsed.tv.length}/10 via ${route}`);
-        if(parsed.movies.length===10&&parsed.tv.length===10)return parsed;
-        last=`${route} returned movies ${parsed.movies.length}/10, TV ${parsed.tv.length}/10`;
-      }catch(e){last=e.message;console.warn(`FlixPatrol ${label} ${route} attempt failed: ${e.message}`);}
-    }
-  }
-  throw new Error(last||'FlixPatrol chart unavailable');
-}
-
 async function fetchOfficialNetflix() {
   const rows=parseTsv(await fetchText(NETFLIX_TSV)).filter(r=>r.country_iso2==='GB');
   if(!rows.length) throw new Error('No UK rows in Netflix dataset');
@@ -1019,26 +899,48 @@ function normMusic(v=''){
   return cleanMusicText(v).toLowerCase().replace(/&/g,' and ').replace(/[^a-z0-9]+/g,' ').trim();
 }
 async function lookupMusicArtwork(item,country='US',kind='SINGLE'){
+  // Chart sites often prefix brand-new albums with "New" and Billboard may
+  // append format labels such as "(EP)".  Those strings are useful on the
+  // chart but make Apple's artwork search miss the release — most noticeably
+  // when a brand-new album enters at #1.
+  const rawTitle=String(item.title||'').trim();
+  const cleanTitle=rawTitle
+    .replace(/^new(?=[A-Z0-9])/,'')
+    .replace(/^new\s+/i,'')
+    .replace(/\s*\((?:ep|album|deluxe(?: edition)?)\)\s*$/i,'')
+    .trim();
+  const artist=String(item.artist||'').trim();
+  const entity=kind==='ALBUM'?'album':'song';
+  const searches=[
+    `${cleanTitle} ${artist}`,
+    `${rawTitle} ${artist}`,
+    cleanTitle
+  ].filter((v,i,a)=>v&&a.indexOf(v)===i);
+  const targetTitles=[normMusic(rawTitle),normMusic(cleanTitle)].filter(Boolean);
+  const na=normMusic(artist);
+  const score=r=>{
+    const rt=normMusic(kind==='ALBUM'?(r.collectionName||''):(r.trackName||''));
+    const ra=normMusic(r.artistName||'');
+    let n=0;
+    if(targetTitles.some(t=>rt===t))n+=7;
+    else if(targetTitles.some(t=>rt.includes(t)||t.includes(rt)))n+=4;
+    if(ra===na)n+=5; else if(ra&&na&&(ra.includes(na)||na.includes(ra)))n+=3;
+    return n;
+  };
   try{
-    const term=encodeURIComponent(`${item.title} ${item.artist}`);
-    const entity=kind==='ALBUM'?'album':'song';
-    const url=`https://itunes.apple.com/search?term=${term}&country=${country}&media=music&entity=${entity}&limit=8`;
-    const text=await fetchText(url,{'accept':'application/json'});
-    const data=JSON.parse(text); const rows=Array.isArray(data?.results)?data.results:[];
-    const nt=normMusic(item.title), na=normMusic(item.artist);
-    const score=r=>{
-      const rt=normMusic(kind==='ALBUM'?(r.collectionName||''):(r.trackName||''));
-      const ra=normMusic(r.artistName||'');
-      let n=0;
-      if(rt===nt)n+=6; else if(rt.includes(nt)||nt.includes(rt))n+=3;
-      if(ra===na)n+=4; else if(ra.includes(na)||na.includes(ra))n+=2;
-      return n;
-    };
-    rows.sort((a,b)=>score(b)-score(a)); const hit=rows[0];
-    if(!hit||score(hit)<5)return item;
-    const art=hit.artworkUrl100||hit.artworkUrl60||null;
+    let best=null,bestScore=0;
+    for(const q of searches){
+      const term=encodeURIComponent(q);
+      const url=`https://itunes.apple.com/search?term=${term}&country=${country}&media=music&entity=${entity}&limit=20`;
+      const text=await fetchText(url,{'accept':'application/json'});
+      const data=JSON.parse(text); const rows=Array.isArray(data?.results)?data.results:[];
+      for(const row of rows){ const n=score(row); if(n>bestScore){best=row;bestScore=n;} }
+      if(bestScore>=12)break;
+    }
+    if(!best||bestScore<6)return item;
+    const art=best.artworkUrl100||best.artworkUrl60||null;
     return {...item,poster:art?art.replace(/\/100x100bb(?:-\d+)?\./,'/400x400bb.'):item.poster,
-      musicUrl:kind==='ALBUM'?(hit.collectionViewUrl||null):(hit.trackViewUrl||hit.collectionViewUrl||null)};
+      musicUrl:kind==='ALBUM'?(best.collectionViewUrl||null):(best.trackViewUrl||best.collectionViewUrl||null)};
   }catch{return item;}
 }
 async function enrichMusicArtwork(items,country,kind){
@@ -1110,11 +1012,9 @@ async function fetchOfficialMusicChart(url,label){
 }
 
 let previous={}; try{previous=JSON.parse(await readFile('data/rankings.json','utf8'));}catch{}
-const output={version:16,generatedAt:new Date().toISOString(),country:'GB',strategy:'Official source first; labelled fallback when no compatible official chart is available.',services:{}};
+const output={version:17,generatedAt:new Date().toISOString(),country:'GB',strategy:'Official source first; labelled fallback when no compatible official chart is available.',services:{}};
 const packageData=await gql(PACKAGES_QUERY,{country:'GB',platform:'WEB'}); const packages=packageData?.packages||[];
 let netflixOfficial=null; try{netflixOfficial=await fetchOfficialNetflix(); console.log(`Netflix official week ${netflixOfficial.week}`);}catch(err){console.error('Netflix official:',err.message);}
-let primeFlix=null; try{primeFlix=await fetchFlixPatrolUK(FLIXPATROL_PRIME_URL,'Prime UK');}catch(err){console.error('Prime FlixPatrol:',err.message);}
-let disneyFlix=null; try{disneyFlix=await fetchFlixPatrolUK(FLIXPATROL_DISNEY_URL,'Disney+ UK');}catch(err){console.error('Disney FlixPatrol:',err.message);}
 let appleMoviesOfficial=null; try{appleMoviesOfficial=await fetchOfficialApple(APPLE_MOVIES_URL,'MOVIE'); console.log(`Apple official movies: ${appleMoviesOfficial.length}`);}catch(err){console.error('Apple official movies:',err.message);}
 let appleTVOfficial=null; try{appleTVOfficial=await fetchOfficialApple(APPLE_TV_URL,'SHOW'); console.log(`Apple official TV: ${appleTVOfficial.length}`);}catch(err){console.error('Apple official TV:',err.message);}
 let ukCinemaOfficial=null; try{ukCinemaOfficial=await fetchOfficialUKCinema(); console.log(`UK cinema official: ${ukCinemaOfficial.length}`);}catch(err){console.error('UK cinema official:',err.message);}
@@ -1132,12 +1032,6 @@ for(const service of SERVICES){
     if(service.id==='netflix' && netflixOfficial?.[key]?.length){
       entry[key]=await enrichOfficial(netflixOfficial[key],fallback?.items||[],type);
       entry.sources[key]={kind:'official',label:OFFICIAL.netflix.label,url:OFFICIAL.netflix.url,cadence:'weekly',asOf:netflixOfficial.week,note:OFFICIAL.netflix.note};
-    } else if(service.id==='prime' && primeFlix?.[key]?.length===10){
-      entry[key]=await enrichOfficial(primeFlix[key],fallback?.items||[],type);
-      entry.sources[key]={kind:'fallback',label:'FlixPatrol',displayName:'FlixPatrol',url:FLIXPATROL_PRIME_URL,cadence:'daily',note:OFFICIAL.prime.note};
-    } else if(service.id==='disney' && disneyFlix?.[key]?.length===10){
-      entry[key]=await enrichOfficial(disneyFlix[key],fallback?.items||[],type);
-      entry.sources[key]={kind:'fallback',label:'FlixPatrol',displayName:'FlixPatrol',url:FLIXPATROL_DISNEY_URL,cadence:'daily',note:OFFICIAL.disney.note};
     } else if(service.id==='apple' && key==='movies' && appleMoviesOfficial?.length){
       entry[key]=await enrichOfficial(appleMoviesOfficial,fallback?.items||[],type);
       entry.sources[key]={kind:'official',label:OFFICIAL.appleMovies.label,url:OFFICIAL.appleMovies.url,cadence:OFFICIAL.appleMovies.cadence,note:OFFICIAL.appleMovies.note};
@@ -1146,7 +1040,7 @@ for(const service of SERVICES){
       entry.sources[key]={kind:'official',label:OFFICIAL.appleTV.label,url:OFFICIAL.appleTV.url,cadence:OFFICIAL.appleTV.cadence,note:OFFICIAL.appleTV.note};
     } else if(fallback?.items?.length){
       entry[key]=fallback.items.map((x,i)=>({...x,rank:i+1}));
-      entry.sources[key]={kind:'fallback',label:'JustWatch UK',url:`https://www.justwatch.com/uk/provider/${service.id==='prime'?'amazon-prime-video':service.id==='disney'?'disney-plus':service.id==='apple'?'apple-tv-plus':service.id==='max'?'hbo-max':service.id==='bbc'?'bbc-iplayer':service.id==='itv'?'itvx':service.id==='channel4'?'channel-4':'netflix'}/${key==='movies'?'movies':'tv-series'}`,cadence:'daily',note:service.id==='disney'?OFFICIAL.disney.note:'No compatible public official Movies/TV chart is currently used, so WozzaWatch falls back to JustWatch UK popularity.'};
+      entry.sources[key]={kind:'fallback',label:'JustWatch UK',displayName:'JustWatch',url:`https://www.justwatch.com/uk/provider/${service.id==='prime'?'amazon-prime-video':service.id==='disney'?'disney-plus':service.id==='apple'?'apple-tv-plus':service.id==='max'?'hbo-max':service.id==='bbc'?'bbc-iplayer':service.id==='itv'?'itvx':service.id==='channel4'?'channel-4':'netflix'}/${key==='movies'?'movies':'tv-series'}`,cadence:'daily',note:OFFICIAL[service.id]?.note||'No compatible public official Movies/TV chart is currently used, so WozzaWatch falls back to JustWatch UK popularity.'};
     } else {
       const old=previous?.services?.[service.id]?.[key];
       if(Array.isArray(old)&&old.length){ entry[key]=old.map((x,i)=>({...x,rank:i+1})); entry.sources[key]=previous.services[service.id]?.sources?.[key]||{kind:'stale',label:'Previous cached result',url:null,note:'Fresh data was unavailable.'}; entry.stale=true; }

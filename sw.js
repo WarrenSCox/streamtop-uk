@@ -1,4 +1,4 @@
-const CACHE='wozzawatch-v5.0.5';
+const CACHE='wozzawatch-v5.1.0';
 const ASSETS=['./','./index.html',
   './tune.html',
   './tune.js',
@@ -18,7 +18,7 @@ self.addEventListener('fetch',event=>{
     event.respondWith(fetch(event.request,{cache:'no-store'}).catch(()=>caches.match('./index.html')));
     return;
   }
-  if(url.origin===self.location.origin && (url.pathname.endsWith('/app.js')||url.pathname.endsWith('/styles.css')||url.pathname.endsWith('/sw.js'))){
+  if(url.origin===self.location.origin && (url.pathname.endsWith('/app.js')||url.pathname.endsWith('/tune.js')||url.pathname.endsWith('/styles.css')||url.pathname.endsWith('/sw.js'))){
     event.respondWith(fetch(event.request,{cache:'no-store'}).then(response=>{
       const copy=response.clone();
       caches.open(CACHE).then(cache=>cache.put(event.request,copy));
