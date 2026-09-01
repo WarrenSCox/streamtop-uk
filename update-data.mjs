@@ -4,6 +4,16 @@ const ENDPOINT = 'https://apis.justwatch.com/graphql';
 const NETFLIX_TSV = 'https://www.netflix.com/tudum/top10/data/all-weeks-countries.tsv';
 const FLIXPATROL_PRIME_URL = 'https://flixpatrol.com/top10/amazon-prime/united-kingdom/';
 const FLIXPATROL_DISNEY_URL = 'https://flixpatrol.com/top10/disney/united-kingdom/';
+const FLIXPATROL_STREAMING_UK = 'https://flixpatrol.com/top10/streaming/united-kingdom/';
+function ymdUTC(date=new Date()) { return date.toISOString().slice(0,10); }
+function daysAgoUTC(days=0) { const d=new Date(); d.setUTCDate(d.getUTCDate()-days); return ymdUTC(d); }
+function latestFridayUTC() {
+  const d=new Date();
+  const dow=d.getUTCDay(); // Sun=0 ... Fri=5
+  const back=(dow-5+7)%7;
+  d.setUTCDate(d.getUTCDate()-back);
+  return d.toISOString().slice(0,10).replace(/-/g,'');
+}
 // Legacy Prime parser helpers below still reference this canonical URL.
 // FlixPatrol is now the active Prime chart source; this constant only prevents
 // the unused fallback helpers from failing during module initialisation.
@@ -548,6 +558,19 @@ function parseFlixPatrolSection(text, heading, sourceUrl){
   }
   return [...byRank.values()].sort((a,b)=>a.rank-b.rank).slice(0,10);
 }
+function parseFlixPatrolProviderFromStreaming(text, providerLabel, sourceUrl){
+  const raw=String(text||'').replace(/\r/g,'');
+  const providerEsc=providerLabel.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
+  // Scope to one provider block on the all-streaming UK page.
+  const re=new RegExp(`(?:^|\\n)\\s*#{1,3}\\s*${providerEsc}\\s+TOP\\s+10\\s+in\\s+the\\s+United\\s+Kingdom[^\\n]*\\n([\\s\\S]*?)(?=\\n\\s*#{1,3}\\s+[^\\n]+TOP\\s+10\\s+in\\s+the\\s+United\\s+Kingdom|$)`,'i');
+  const m=re.exec(raw);
+  if(!m)return {movies:[],tv:[]};
+  const scoped=m[1];
+  return {
+    movies:parseFlixPatrolSection(`TOP 10 Movies\n${scoped.split(/TOP 10 Movies/i)[1]||''}`,'TOP 10 Movies',sourceUrl),
+    tv:parseFlixPatrolSection(`TOP 10 TV Shows\n${scoped.split(/TOP 10 TV Shows/i)[1]||''}`,'TOP 10 TV Shows',sourceUrl)
+  };
+}
 async function fetchFlixPatrolUK(url,label){
   const hostPath=url.replace(/^https?:\/\/flixpatrol\.com/,'');
   const attempts=[
@@ -566,6 +589,27 @@ async function fetchFlixPatrolUK(url,label){
       if(movies.length===10&&tv.length===10)return {movies,tv};
       last=`${route} returned movies ${movies.length}/10, TV ${tv.length}/10`;
     }catch(e){last=e.message;console.warn(`FlixPatrol ${label} ${route} attempt failed: ${e.message}`);}
+  }
+
+  // FlixPatrol's provider pages can block cloud runners even while the daily
+  // all-streaming UK page remains indexed/cached. Try today's and recent dated
+  // aggregate pages and extract only the requested provider block.
+  const providerLabel=/Prime/i.test(label)?'Amazon Prime':'Disney+';
+  for(const day of [0,1,2]){
+    const dated=`${FLIXPATROL_STREAMING_UK}${daysAgoUTC(day)}/`;
+    for(const [route,u] of [
+      [`streaming-${day===0?'today':day+'d'}`,dated],
+      [`streaming-reader-${day===0?'today':day+'d'}`,`https://r.jina.ai/${dated}`],
+      [`streaming-reader-http-${day===0?'today':day+'d'}`,`https://r.jina.ai/http://${dated.replace(/^https?:\/\//,'')}`]
+    ]){
+      try{
+        const text=await fetchText(u,{'accept-language':'en-GB,en;q=0.9'});
+        const parsed=parseFlixPatrolProviderFromStreaming(text,providerLabel,url);
+        console.log(`FlixPatrol ${label}: aggregate ${daysAgoUTC(day)} ${text.length} chars, movies ${parsed.movies.length}/10, TV ${parsed.tv.length}/10 via ${route}`);
+        if(parsed.movies.length===10&&parsed.tv.length===10)return parsed;
+        last=`${route} returned movies ${parsed.movies.length}/10, TV ${parsed.tv.length}/10`;
+      }catch(e){last=e.message;console.warn(`FlixPatrol ${label} ${route} attempt failed: ${e.message}`);}
+    }
   }
   throw new Error(last||'FlixPatrol chart unavailable');
 }
@@ -920,6 +964,31 @@ function parseOfficialChartsHtmlBlocks(raw,sourceUrl){
   return [...byRank.values()].sort((a,b)=>a.rank-b.rank).slice(0,10);
 }
 
+function parseOfficialChartsNumberBlocks(raw,sourceUrl){
+  const text=decodeHtml(String(raw||''))
+    .replace(/<script[\s\S]*?<\/script>/gi,'\n')
+    .replace(/<style[\s\S]*?<\/style>/gi,'\n')
+    .replace(/<[^>]+>/g,'\n')
+    .replace(/\r/g,'')
+    .split('\n').map(x=>x.replace(/\s+/g,' ').trim()).filter(Boolean).join('\n');
+  const marks=[...text.matchAll(/(?:^|\n)Number\s+(10|[1-9])(?:\n|$)/gi)];
+  const out=[];
+  const noise=/^(?:Image:.*|New|RE|Re-entry|LW:.*|Peak:.*|Weeks:.*|\d+\.\s*(?:LW|Peak|Weeks):.*|Buy|Listen|Watch|Share|View.*)$/i;
+  for(let i=0;i<marks.length;i++){
+    const rank=Number(marks[i][1]);
+    if(rank<1||rank>10||out.some(x=>x.rank===rank))continue;
+    const from=marks[i].index+marks[i][0].length;
+    const to=i+1<marks.length?marks[i+1].index:Math.min(text.length,from+2500);
+    const lines=text.slice(from,to).split('\n').map(cleanMusicText).filter(Boolean);
+    const useful=lines.filter(x=>!noise.test(x) && !/^(?:Official Charts|view as list|view as cards)$/i.test(x));
+    // The first two meaningful lines after each Number marker are the title and artist.
+    const title=useful[0]||'';
+    const artist=useful[1]||'';
+    if(title&&artist)out.push({rank,title,artist,poster:null,detailsUrl:sourceUrl});
+  }
+  return out.sort((a,b)=>a.rank-b.rank).slice(0,10);
+}
+
 const US_SINGLES_URL='https://ca.billboard.com/charts/hot-100';
 const US_ALBUMS_URL='https://ca.billboard.com/charts/billboard-200';
 function parseBillboardMarkdown(md, sourceUrl){
@@ -993,17 +1062,20 @@ async function fetchBillboardMusicChart(url,label){
   throw new Error(last||'chart unavailable');
 }
 async function fetchOfficialMusicChart(url,label){
-  // OfficialCharts blocks GitHub-hosted direct requests intermittently. Try the
-  // canonical chart page plus alternate OfficialCharts entry pages, both direct
-  // and through the text reader. The data is accepted only when all ranks 1-10
-  // are present.
   const canonical=label==='singles'
     ? 'https://www.officialcharts.com/charts/uk-top-40-singles-chart/'
     : 'https://www.officialcharts.com/charts/albums-chart/?lang=en';
+  const chartFriday=latestFridayUTC();
+  const dated=label==='singles'
+    ? [
+        `https://www.officialcharts.com/charts/singles-chart/${chartFriday}/7501/`,
+        `https://www.officialcharts.com/charts/uk-top-40-singles-chart/${chartFriday}/750140/`
+      ]
+    : [];
   const alternates=label==='singles'
     ? ['https://www.officialcharts.com/charts/singles-chart/?lang=en','https://www.officialcharts.com/singles/']
     : ['https://www.officialcharts.com/charts/albums-chart/','https://www.officialcharts.com/albums/'];
-  const pages=[canonical,...alternates];
+  const pages=[...dated,canonical,...alternates];
   const attempts=[];
   for(const page of pages){
     attempts.push(page,`https://r.jina.ai/${page}`,`https://r.jina.ai/http://${page.replace(/^https?:\/\//,'')}`);
@@ -1011,20 +1083,26 @@ async function fetchOfficialMusicChart(url,label){
     attempts.push(`https://www-officialcharts-com.translate.goog${hostPath}${hostPath.includes('?')?'&':'?'}_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en-GB`);
   }
   let last='';
+  const allByRank=new Map();
   for(const u of attempts){
     try{
       const text=await fetchText(u,{'accept-language':'en-GB,en;q=0.9'});
       let items=parseOfficialChartsMarkdown(text,canonical);
-      if(items.length<10){
-        const rendered=parseOfficialChartsRenderedText(text,canonical);
-        const htmlItems=parseOfficialChartsHtmlBlocks(text,canonical);
-        const merged=new Map();
-        for(const x of [...items,...rendered,...htmlItems]) if(x?.rank&&!merged.has(x.rank)) merged.set(x.rank,x);
-        items=[...merged.values()].sort((a,b)=>a.rank-b.rank).slice(0,10);
-      }
+      const rendered=parseOfficialChartsRenderedText(text,canonical);
+      const htmlItems=parseOfficialChartsHtmlBlocks(text,canonical);
+      const blockItems=parseOfficialChartsNumberBlocks(text,canonical);
+      const merged=new Map();
+      for(const x of [...items,...rendered,...htmlItems,...blockItems]) if(x?.rank&&!merged.has(x.rank)) merged.set(x.rank,x);
+      items=[...merged.values()].sort((a,b)=>a.rank-b.rank).slice(0,10);
+      for(const x of items) if(x?.rank&&!allByRank.has(x.rank))allByRank.set(x.rank,x);
       const route=u.startsWith('https://r.jina.ai/')?'reader':'direct';
       console.log(`UK music ${label}: ${items.length}/10 via ${route} ${u.replace('https://r.jina.ai/','')}`);
       if(items.length===10)return await enrichMusicArtwork(items,'GB',label==='albums'?'ALBUM':'SINGLE');
+      if(allByRank.size===10){
+        const combined=[...allByRank.values()].sort((a,b)=>a.rank-b.rank).slice(0,10);
+        console.log(`UK music ${label}: 10/10 by merging validated ranks across Official Charts routes`);
+        return await enrichMusicArtwork(combined,'GB',label==='albums'?'ALBUM':'SINGLE');
+      }
       last=`${route} returned ${items.length}/10`;
     }catch(e){last=e.message;console.warn(`UK music ${label} attempt failed: ${e.message}`);}
   }
@@ -1032,7 +1110,7 @@ async function fetchOfficialMusicChart(url,label){
 }
 
 let previous={}; try{previous=JSON.parse(await readFile('data/rankings.json','utf8'));}catch{}
-const output={version:15,generatedAt:new Date().toISOString(),country:'GB',strategy:'Official source first; labelled fallback when no compatible official chart is available.',services:{}};
+const output={version:16,generatedAt:new Date().toISOString(),country:'GB',strategy:'Official source first; labelled fallback when no compatible official chart is available.',services:{}};
 const packageData=await gql(PACKAGES_QUERY,{country:'GB',platform:'WEB'}); const packages=packageData?.packages||[];
 let netflixOfficial=null; try{netflixOfficial=await fetchOfficialNetflix(); console.log(`Netflix official week ${netflixOfficial.week}`);}catch(err){console.error('Netflix official:',err.message);}
 let primeFlix=null; try{primeFlix=await fetchFlixPatrolUK(FLIXPATROL_PRIME_URL,'Prime UK');}catch(err){console.error('Prime FlixPatrol:',err.message);}
