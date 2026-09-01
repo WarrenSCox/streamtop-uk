@@ -772,8 +772,25 @@ function parseOfficialChartsMarkdown(md, sourceUrl){
   return items.sort((a,b)=>a.rank-b.rank).slice(0,10);
 }
 async function fetchOfficialMusicChart(url,label){
-  const attempts=[url,`https://r.jina.ai/${url}`]; let last='';
-  for(const u of attempts){try{const r=await fetchWithTimeout(u,{headers:{'User-Agent':UA,'Accept-Language':'en-GB,en;q=0.9'}},22000);if(!r.ok)throw new Error(`HTTP ${r.status}`);const text=await r.text();const items=parseOfficialChartsMarkdown(text,url);console.log(`UK music ${label}: ${items.length}/10 via ${u.startsWith('https://r.jina.ai/')?'reader':'direct'}`);if(items.length===10)return items;last=`returned ${items.length}/10`;}catch(e){last=e.message;console.warn(`UK music ${label} attempt failed: ${e.message}`)}}throw new Error(last||'chart unavailable');
+  // Official Charts' normal page is HTML, while the reader route exposes the same
+  // page as clean Markdown. Use the existing timeout-safe fetchText helper rather
+  // than the old undefined fetchWithTimeout/UA references.
+  const attempts=[url,`https://r.jina.ai/${url}`];
+  let last='';
+  for(const u of attempts){
+    try{
+      const text=await fetchText(u,{'accept-language':'en-GB,en;q=0.9'});
+      const items=parseOfficialChartsMarkdown(text,url);
+      const route=u.startsWith('https://r.jina.ai/')?'reader':'direct';
+      console.log(`UK music ${label}: ${items.length}/10 via ${route}`);
+      if(items.length===10)return items;
+      last=`${route} returned ${items.length}/10`;
+    }catch(e){
+      last=e.message;
+      console.warn(`UK music ${label} attempt failed: ${e.message}`);
+    }
+  }
+  throw new Error(last||'chart unavailable');
 }
 
 let previous={}; try{previous=JSON.parse(await readFile('data/rankings.json','utf8'));}catch{}
