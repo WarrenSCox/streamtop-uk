@@ -1,6 +1,6 @@
 {
   "version": 17,
-  "generatedAt": "2026-09-01T18:29:16.323Z",
+  "generatedAt": "2026-09-01T18:30:10.629Z",
   "country": "GB",
   "strategy": "Official source first; labelled fallback when no compatible official chart is available.",
   "services": {
@@ -906,7 +906,7 @@
           "rank": 5,
           "title": "Adults",
           "year": 2025,
-          "type": "SHOW",
+          "type": null,
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/01a0594b-7386-7572-812d-1c2b3db67b2d/compose?format=webp&width=386&label=top_ranked_5_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-09794373-fbd3-44fb-9f3b-869a2e976094"
         },
@@ -938,7 +938,7 @@
           "rank": 9,
           "title": "Sing 2",
           "year": 2021,
-          "type": "MOVIE",
+          "type": null,
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/076e500a-3c16-4076-aa3d-e34b36579fd8/compose?format=webp&width=386&label=top_ranked_9_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-66900ca4-534e-4463-a3e6-a4d5e32c97f0"
         },
@@ -2666,8 +2666,9 @@
           "rank": 1,
           "title": "WILD (EP)",
           "artist": "KATSEYE",
-          "poster": null,
-          "detailsUrl": "https://ca.billboard.com/charts/billboard-200"
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0a/63/b5/0a63b5b0-dff7-1194-79c0-6bc8f5ab2d74/093624821526.jpg/400x400bb.jpg",
+          "detailsUrl": "https://ca.billboard.com/charts/billboard-200",
+          "musicUrl": "https://music.apple.com/us/album/wild/1885046822?uo=4"
         },
         {
           "rank": 2,
@@ -2689,15 +2690,17 @@
           "rank": 4,
           "title": "you seem pretty sad for a girl so in love",
           "artist": "Olivia Rodrigo",
-          "poster": null,
-          "detailsUrl": "https://ca.billboard.com/charts/billboard-200"
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/92/51/b9925128-dac6-2cef-5674-d5ebbe1a4e83/26UMGIM75556.rgb.jpg/400x400bb.jpg",
+          "detailsUrl": "https://ca.billboard.com/charts/billboard-200",
+          "musicUrl": "https://music.apple.com/us/album/you-seem-pretty-sad-for-a-girl-so-in-love/6779097512?uo=4"
         },
         {
           "rank": 5,
           "title": "Dandelion",
           "artist": "Ella Langley",
-          "poster": null,
-          "detailsUrl": "https://ca.billboard.com/charts/billboard-200"
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/26/35/03/26350323-d656-4817-49e6-4d658af8363a/196874332917.jpg/400x400bb.jpg",
+          "detailsUrl": "https://ca.billboard.com/charts/billboard-200",
+          "musicUrl": "https://music.apple.com/us/album/dandelion/1895159736?uo=4"
         },
         {
           "rank": 6,
@@ -2711,8 +2714,9 @@
           "rank": 7,
           "title": "The Great Divide",
           "artist": "Noah Kahan",
-          "poster": null,
-          "detailsUrl": "https://ca.billboard.com/charts/billboard-200"
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e0/53/5b/e0535bb5-a269-8cc4-e12f-589e26809569/26UMGIM02802.rgb.jpg/400x400bb.jpg",
+          "detailsUrl": "https://ca.billboard.com/charts/billboard-200",
+          "musicUrl": "https://music.apple.com/us/album/the-great-divide/1872241079?uo=4"
         },
         {
           "rank": 8,
