@@ -16,12 +16,22 @@ function renderPile(){
  const watched=readWatched(), count=watched.length;
  pileButton.classList.toggle('hidden',count===0);pileButton.setAttribute('aria-label',`Open Watched — ${count} ${count===1?'title':'titles'}`);pileCount.textContent=String(count);
  pileEyes.innerHTML='';
- const visible=Math.min(count,18);
- for(let i=0;i<visible;i++){
-  const pair=document.createElement('span');pair.className='pile-eye-pair';pair.innerHTML=eyes();
-  const col=i%6,row=Math.floor(i/6),jitter=((i*17)%11)-5;
-  pair.style.setProperty('--pile-x',`${8+col*18+jitter}px`);pair.style.setProperty('--pile-y',`${4+row*13+((i*7)%6)}px`);pair.style.setProperty('--pile-r',`${((i*23)%35)-17}deg`);pair.style.setProperty('--pile-s',`${.72+((i*13)%24)/100}`);pileEyes.append(pair);
+ const visible=Math.min(count,28);
+ // Build a loose heap: fill a wide bottom row first, then shorter centred rows.
+ const rows=[10,8,6,4], positions=[];
+ let used=0;
+ for(let row=0;row<rows.length && used<visible;row++){
+  const n=Math.min(rows[row],visible-used), spacing=20, rowWidth=(n-1)*spacing, centre=112;
+  for(let col=0;col<n;col++){
+   const i=used+col, jitter=((i*17)%9)-4;
+   positions.push({x:centre-rowWidth/2+col*spacing+jitter,y:3+row*15+((i*7)%5)});
+  }
+  used+=n;
  }
+ positions.forEach((pos,i)=>{
+  const pair=document.createElement('span');pair.className='pile-eye-pair';pair.innerHTML=eyes();
+  pair.style.setProperty('--pile-x',`${pos.x}px`);pair.style.setProperty('--pile-y',`${pos.y}px`);pair.style.setProperty('--pile-r',`${((i*23)%35)-17}deg`);pair.style.setProperty('--pile-s',`${.72+((i*13)%24)/100}`);pileEyes.append(pair);
+ });
 }
 function animateEyesFall(fromRect){
  requestAnimationFrame(()=>{

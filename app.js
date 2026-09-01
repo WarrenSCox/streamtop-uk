@@ -100,7 +100,8 @@ function syncControls({scroll = true} = {}) {
 function selectService(index, {scroll = true} = {}) {
   if (index < 0 || index >= SERVICES.length) return false;
   state.service = SERVICES[index];
-  if (state.type === 'COMBINED' && state.service.id !== 'disney') state.type = 'MOVIE';
+  if (state.service.id === 'disney') state.type = 'COMBINED';
+  else if (state.type === 'COMBINED') state.type = 'MOVIE';
   if (state.service.cinema) state.type = 'MOVIE';
   syncControls({scroll});
   renderCurrent();
@@ -127,7 +128,8 @@ function providerIndex() {
 function setProviderIndex(index) {
   if (index < 0 || index >= SERVICES.length) return false;
   state.service = SERVICES[index];
-  if (state.type === 'COMBINED' && state.service.id !== 'disney') state.type = 'MOVIE';
+  if (state.service.id === 'disney') state.type = 'COMBINED';
+  else if (state.type === 'COMBINED') state.type = 'MOVIE';
   if (state.service.cinema) state.type = 'MOVIE';
   syncControls({scroll:true});
   renderCurrent();
