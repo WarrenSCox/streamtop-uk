@@ -201,9 +201,18 @@ function decodePrimePayload(value='') {
 }
 function primeSection(payload) {
   const decoded=decodePrimePayload(payload);
-  const marker=/Top\s*10\s*movies\s*in\s*the\s*UK/i.exec(decoded);
-  if(!marker) throw new Error('Prime UK Top 10 heading was not found');
-  return decoded.slice(marker.index,marker.index+700000);
+  // Prime can repeat the UK Top 10 heading in hydration/navigation metadata before
+  // the real visible carousel. The old parser used the first occurrence, which can
+  // lead us into shelf labels such as "Recently added movies". Prefer the LAST
+  // occurrence: on Prime's crawler HTML this is the rendered carousel heading.
+  const markers=[...decoded.matchAll(/Top\s*10\s*movies\s*in\s*the\s*UK/ig)];
+  if(!markers.length) throw new Error('Prime UK Top 10 heading was not found');
+  const marker=markers[markers.length-1];
+  let section=decoded.slice(marker.index,marker.index+260000);
+  // Keep extraction inside this carousel only.
+  const stop=section.slice(40).search(/(?:Featured\s+Originals\s+and\s+Exclusives\s+movies|Top-rated\s+movies|Documentaries|Paranormal\s+screams|Recently\s+added\s+movies|Adrenaline\s+rush\s+movies|Date\s+night\s+favorites|Military\s+and\s+war\s+movies)/i);
+  if(stop>=0) section=section.slice(0,stop+40);
+  return section;
 }
 function cleanPrimeTitle(value='') {
   return stripTags(decodePrimePayload(String(value)).replace(/\\"/g,'"').replace(/\\'/g,"'"));
@@ -211,7 +220,7 @@ function cleanPrimeTitle(value='') {
 function isPrimeNoise(value='') {
   const v=cleanPrimeTitle(value).trim();
   if(!validPublicTitle(v)) return true;
-  return /^(?:image|new movie|deal|most liked|recently added|top 10|trending|prime|prime video|included with prime|watch now|watch with a free prime trial|more details|rent|buy|play|continue watching|movies|top 10 movies in the uk|featured originals and exclusives movies|see more)$/i.test(v);
+  return /^(?:image|new movie|deal|most liked|recently added|top 10|trending|prime|prime video|included with prime|watch now|watch with a free prime trial|more details|rent|buy|play|continue watching|movies|top 10 movies in the uk|featured originals and exclusives movies|see more|recently added movies|adrenaline rush movies|date night favorites|military and war movies|previous title|next title)$/i.test(v);
 }
 function extractPrimeReadableTitles(section) {
   // Handles markdown/readability output as well as text stripped from HTML.
@@ -287,10 +296,16 @@ const PRIME_DIRECT_URLS = [
 ];
 function primeItemsFromPayload(payload, transport='direct') {
   const section=primeSection(payload);
-  const candidates=extractPrimeCandidateTitles(section);
+  const candidates=extractPrimeCandidateTitles(section)
+    .filter(x=>!isPrimeNoise(x.title));
   console.log(`Prime ${transport}: ${candidates.length} candidate titles; first: ${candidates.slice(0,12).map(x=>x.title).join(' | ')}`);
   const items=candidates.slice(0,10).map((item,i)=>({rank:i+1,title:item.title,year:null,poster:null,url:item.url||PRIME_MOVIES_URL,trend:null,trendDifference:0,daysInTop10:null,topRank:null}));
-  if(items.length<10) throw new Error(`Prime ${transport} parser returned only ${items.length} titles`);
+  if(items.length<10) throw new Error(`Prime ${transport} parser returned only ${items.length} clean titles`);
+  // Never publish obvious Prime shelf/navigation labels as chart entries. If the
+  // page shape changes again, fail safely and let the labelled JustWatch fallback
+  // take over rather than showing false OFFICIAL STATS.
+  const bad=items.find(x=>/(?:recently added movies|adrenaline rush movies|date night favorites|military and war movies|previous title|next title)/i.test(x.title));
+  if(bad) throw new Error(`Prime ${transport} rejected non-title shelf label: ${bad.title}`);
   return items;
 }
 
@@ -418,7 +433,7 @@ async function fetchOfficialPrimeMovies() {
   // UK carousel. Reader renders the public page in a browser; provenance remains Prime.
   const readerHeaders={
     'accept':'text/plain',
-    'user-agent':'WozzaWatch/4.9 (+GitHub Actions)',
+    'user-agent':'WozzaWatch/4.9.1 (+GitHub Actions)',
     'x-engine':'browser',
     'x-no-cache':'true',
     'x-timeout':'20'
@@ -444,7 +459,7 @@ async function fetchOfficialPrimeMovies() {
     const query=encodeURIComponent('site:primevideo.com/movie "Top 10 movies in the UK" Prime Video');
     const searchText=await fetchText(`https://s.jina.ai/${query}`,{
       'accept':'text/plain',
-      'user-agent':'WozzaWatch/4.9 (+GitHub Actions)',
+      'user-agent':'WozzaWatch/4.9.1 (+GitHub Actions)',
       'x-no-cache':'true'
     });
     const hasUk=/Top\s*10\s*movies\s*in\s*the\s*UK/i.test(searchText);
@@ -667,7 +682,7 @@ async function fetchUSCinemaIMDb() {
     const readerUrl=`https://r.jina.ai/https://www.imdb.com/chart/boxoffice/`;
     const text=await fetchText(readerUrl,{
       'accept':'text/plain',
-      'user-agent':'WozzaWatch/4.9 (+GitHub Actions)',
+      'user-agent':'WozzaWatch/4.9.1 (+GitHub Actions)',
       'x-engine':'browser',
       'x-no-cache':'true',
       'x-timeout':'20'
