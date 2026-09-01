@@ -1,6 +1,6 @@
 {
-  "version": 13,
-  "generatedAt": "2026-09-01T10:42:28.524Z",
+  "version": 14,
+  "generatedAt": "2026-09-01T10:59:11.464Z",
   "country": "GB",
   "strategy": "Official source first; labelled fallback when no compatible official chart is available.",
   "services": {
@@ -2072,13 +2072,13 @@
         },
         {
           "rank": 5,
-          "sourceRank": 4538,
+          "sourceRank": 4537,
           "title": "Jack Irish",
           "year": 2016,
           "poster": "/poster/206000775/s166/jack-irish.webp",
           "url": "https://www.justwatch.com/uk/tv-series/jack-irish",
           "trend": "UP",
-          "trendDifference": 8,
+          "trendDifference": 9,
           "daysInTop10": 1,
           "topRank": 10
         },
@@ -2272,7 +2272,8 @@
           "note": "Official UK weekend box-office Top 10 published by the UK Cinema Association using Comscore data."
         }
       },
-      "error": null
+      "error": null,
+      "stale": true
     },
     "uscinema": {
       "provider": "US Cinema",
@@ -2369,8 +2370,7 @@
           "note": "US weekend box-office Top 10 from IMDb, reported by Box Office Mojo."
         }
       },
-      "error": null,
-      "stale": true
+      "error": null
     },
     "ukmusic": {
       "provider": "UK Music",
@@ -2386,71 +2386,81 @@
           "rank": 1,
           "title": "Choosin' Texas",
           "artist": "Ella Langley",
-          "poster": null,
-          "detailsUrl": "https://ca.billboard.com/charts/hot-100"
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e2/91/4d/e2914d0a-7f1d-f04c-fbf4-c50b38548838/196873638690.jpg/400x400bb.jpg",
+          "detailsUrl": "https://ca.billboard.com/charts/hot-100",
+          "musicUrl": "https://music.apple.com/us/album/choosin-texas/1844932149?i=1844932150&uo=4"
         },
         {
           "rank": 2,
           "title": "Boston",
           "artist": "Stella Lefty",
-          "poster": null,
-          "detailsUrl": "https://ca.billboard.com/charts/hot-100"
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7c/de/5e/7cde5e7a-612d-9714-d34c-1eb234c85ebb/810129961546.jpg/400x400bb.jpg",
+          "detailsUrl": "https://ca.billboard.com/charts/hot-100",
+          "musicUrl": "https://music.apple.com/us/album/boston/1884403092?i=1884403093&uo=4"
         },
         {
           "rank": 3,
           "title": "I Knew It, I Knew You",
           "artist": "Taylor Swift",
-          "poster": null,
-          "detailsUrl": "https://ca.billboard.com/charts/hot-100"
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/34/35/6c/34356cb4-bd0b-3bac-b118-1a6d7264dc64/26UMGIM69942.rgb.jpg/400x400bb.jpg",
+          "detailsUrl": "https://ca.billboard.com/charts/hot-100",
+          "musicUrl": "https://music.apple.com/us/album/i-knew-it-i-knew-you-from-toy-story-5/6775527442?i=6775527443&uo=4"
         },
         {
           "rank": 4,
           "title": "Been By Now",
           "artist": "Morgan Wallen",
-          "poster": null,
-          "detailsUrl": "https://ca.billboard.com/charts/hot-100"
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9f/8d/52/9f8d52a0-b6d9-d038-327b-4fe58bedce67/26UMGIM94572.rgb.jpg/400x400bb.jpg",
+          "detailsUrl": "https://ca.billboard.com/charts/hot-100",
+          "musicUrl": "https://music.apple.com/us/album/been-by-now/6792676858?i=6792676860&uo=4"
         },
         {
           "rank": 5,
           "title": "Hate That I Made You Love Me",
           "artist": "Ariana Grande",
-          "poster": null,
-          "detailsUrl": "https://ca.billboard.com/charts/hot-100"
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/56/f4/96/56f49612-02dd-83f4-44fe-d2118cc70707/26UMGIM51129.rgb.jpg/400x400bb.jpg",
+          "detailsUrl": "https://ca.billboard.com/charts/hot-100",
+          "musicUrl": "https://music.apple.com/us/album/hate-that-i-made-you-love-me/1895420874?i=6763656725&uo=4"
         },
         {
           "rank": 6,
           "title": "I Can't Love You Anymore",
           "artist": "Ella Langley & Morgan Wallen",
-          "poster": null,
-          "detailsUrl": "https://ca.billboard.com/charts/hot-100"
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/26/35/03/26350323-d656-4817-49e6-4d658af8363a/196874332917.jpg/400x400bb.jpg",
+          "detailsUrl": "https://ca.billboard.com/charts/hot-100",
+          "musicUrl": "https://music.apple.com/us/album/i-cant-love-you-anymore/1895159736?i=6763094377&uo=4"
         },
         {
           "rank": 7,
           "title": "So Easy (To Fall In Love)",
           "artist": "Olivia Dean",
-          "poster": null,
-          "detailsUrl": "https://ca.billboard.com/charts/hot-100"
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/08/e2/21/08e22164-7c0b-1522-818f-e0e74f62dc49/25UMGIM69703.rgb.jpg/400x400bb.jpg",
+          "detailsUrl": "https://ca.billboard.com/charts/hot-100",
+          "musicUrl": "https://music.apple.com/us/album/so-easy-to-fall-in-love/1817609404?i=1817609507&uo=4"
         },
         {
           "rank": 8,
           "title": "Dracula",
           "artist": "Tame Impala & JENNIE",
-          "poster": null,
-          "detailsUrl": "https://ca.billboard.com/charts/hot-100"
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/36/be/b4/36beb41f-c644-55cb-9fbb-bf0622a66653/196873644783.jpg/400x400bb.jpg",
+          "detailsUrl": "https://ca.billboard.com/charts/hot-100",
+          "musicUrl": "https://music.apple.com/us/album/dracula/1842444456?i=1842444457&uo=4"
         },
         {
           "rank": 9,
           "title": "Man I Need",
           "artist": "Olivia Dean",
-          "poster": null,
-          "detailsUrl": "https://ca.billboard.com/charts/hot-100"
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/08/e2/21/08e22164-7c0b-1522-818f-e0e74f62dc49/25UMGIM69703.rgb.jpg/400x400bb.jpg",
+          "detailsUrl": "https://ca.billboard.com/charts/hot-100",
+          "musicUrl": "https://music.apple.com/us/album/man-i-need/1817609404?i=1817609509&uo=4"
         },
         {
           "rank": 10,
           "title": "Be Her",
           "artist": "Ella Langley",
-          "poster": null,
-          "detailsUrl": "https://ca.billboard.com/charts/hot-100"
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a1/ba/64/a1ba6484-f462-1b88-ddff-d4c014d5f265/196874018361.jpg/400x400bb.jpg",
+          "detailsUrl": "https://ca.billboard.com/charts/hot-100",
+          "musicUrl": "https://music.apple.com/us/album/be-her/1869436835?i=1869436845&uo=4"
         }
       ],
       "albums": [
@@ -2465,64 +2475,73 @@
           "rank": 2,
           "title": "Lost Weekend",
           "artist": "Phoebe Bridgers",
-          "poster": null,
-          "detailsUrl": "https://ca.billboard.com/charts/billboard-200"
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/aa/9e/a6/aa9ea64a-bbf2-470e-b447-fa407b4645fa/66852.jpg/400x400bb.jpg",
+          "detailsUrl": "https://ca.billboard.com/charts/billboard-200",
+          "musicUrl": "https://music.apple.com/us/album/lost-weekend/6781051268?uo=4"
         },
         {
           "rank": 3,
           "title": "This & That",
           "artist": "Stray Kids",
-          "poster": null,
-          "detailsUrl": "https://ca.billboard.com/charts/billboard-200"
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c0/05/aa/c005aa79-a3a7-6e28-48e2-4c5e72eff603/8809928957357_Cover.jpg/400x400bb.jpg",
+          "detailsUrl": "https://ca.billboard.com/charts/billboard-200",
+          "musicUrl": "https://music.apple.com/us/album/this-that/6781751949?uo=4"
         },
         {
           "rank": 4,
           "title": "you seem pretty sad for a girl so in love",
           "artist": "Olivia Rodrigo",
-          "poster": null,
-          "detailsUrl": "https://ca.billboard.com/charts/billboard-200"
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/92/51/b9925128-dac6-2cef-5674-d5ebbe1a4e83/26UMGIM75556.rgb.jpg/400x400bb.jpg",
+          "detailsUrl": "https://ca.billboard.com/charts/billboard-200",
+          "musicUrl": "https://music.apple.com/us/album/you-seem-pretty-sad-for-a-girl-so-in-love/6779097512?uo=4"
         },
         {
           "rank": 5,
           "title": "Dandelion",
           "artist": "Ella Langley",
-          "poster": null,
-          "detailsUrl": "https://ca.billboard.com/charts/billboard-200"
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/26/35/03/26350323-d656-4817-49e6-4d658af8363a/196874332917.jpg/400x400bb.jpg",
+          "detailsUrl": "https://ca.billboard.com/charts/billboard-200",
+          "musicUrl": "https://music.apple.com/us/album/dandelion/1895159736?uo=4"
         },
         {
           "rank": 6,
           "title": "I'm The Problem",
           "artist": "Morgan Wallen",
-          "poster": null,
-          "detailsUrl": "https://ca.billboard.com/charts/billboard-200"
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fa/60/fe/fa60fe4a-4329-a0bb-eb7c-3b6094a4d831/25UMGIM46049.rgb.jpg/400x400bb.jpg",
+          "detailsUrl": "https://ca.billboard.com/charts/billboard-200",
+          "musicUrl": "https://music.apple.com/us/album/im-the-problem/1802103906?uo=4"
         },
         {
           "rank": 7,
           "title": "The Great Divide",
           "artist": "Noah Kahan",
-          "poster": null,
-          "detailsUrl": "https://ca.billboard.com/charts/billboard-200"
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e0/53/5b/e0535bb5-a269-8cc4-e12f-589e26809569/26UMGIM02802.rgb.jpg/400x400bb.jpg",
+          "detailsUrl": "https://ca.billboard.com/charts/billboard-200",
+          "musicUrl": "https://music.apple.com/us/album/the-great-divide/1872241079?uo=4"
         },
         {
           "rank": 8,
           "title": "petal",
           "artist": "Ariana Grande",
-          "poster": null,
-          "detailsUrl": "https://ca.billboard.com/charts/billboard-200"
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/56/f4/96/56f49612-02dd-83f4-44fe-d2118cc70707/26UMGIM51129.rgb.jpg/400x400bb.jpg",
+          "detailsUrl": "https://ca.billboard.com/charts/billboard-200",
+          "musicUrl": "https://music.apple.com/us/album/petal/1895420874?uo=4"
         },
         {
           "rank": 9,
           "title": "ICEMAN",
           "artist": "Drake",
-          "poster": null,
-          "detailsUrl": "https://ca.billboard.com/charts/billboard-200"
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7f/39/61/7f396123-be56-bc11-eaab-976441808e58/26UMGIM63622.rgb.jpg/400x400bb.jpg",
+          "detailsUrl": "https://ca.billboard.com/charts/billboard-200",
+          "musicUrl": "https://music.apple.com/us/album/iceman/6769649287?uo=4"
         },
         {
           "rank": 10,
           "title": "The Art Of Loving",
           "artist": "Olivia Dean",
-          "poster": null,
-          "detailsUrl": "https://ca.billboard.com/charts/billboard-200"
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/08/e2/21/08e22164-7c0b-1522-818f-e0e74f62dc49/25UMGIM69703.rgb.jpg/400x400bb.jpg",
+          "detailsUrl": "https://ca.billboard.com/charts/billboard-200",
+          "musicUrl": "https://music.apple.com/us/album/the-art-of-loving/1817609404?uo=4"
         }
       ],
       "sources": {
