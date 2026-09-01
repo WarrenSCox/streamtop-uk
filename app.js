@@ -295,17 +295,25 @@ function posterUrl(raw) {
 
 
 const WATCHLIST_KEY = 'wozzawatch-my-list-v1';
+const WATCHED_KEY = 'wozzawatch-watched-v1';
 function readWatchList(){try{return JSON.parse(localStorage.getItem(WATCHLIST_KEY)||'[]')}catch{return[]}}
 function writeWatchList(items){localStorage.setItem(WATCHLIST_KEY,JSON.stringify(items))}
-function watchId(item){return `${state.service.id}|${state.type}|${String(item.title||'').trim().toLowerCase()}`}
-function isSaved(item){const id=watchId(item);return readWatchList().some(x=>x.id===id)}
+function readWatched(){try{return JSON.parse(localStorage.getItem(WATCHED_KEY)||'[]')}catch{return[]}}
+function writeWatched(items){localStorage.setItem(WATCHED_KEY,JSON.stringify(items))}
+function itemMediaType(item){const raw=String(item?.type||state.type||'MOVIE').toUpperCase();return raw==='SHOW'||raw==='SERIES'||raw==='TV'?'SHOW':'MOVIE'}
+function watchId(item){return `${state.service.id}|${itemMediaType(item)}|${String(item.title||'').trim().toLowerCase()}`}
+function isSaved(item){const id=watchId(item),title=String(item.title||'').trim().toLowerCase();return readWatchList().some(x=>x.id===id||(x.serviceId===state.service.id&&String(x.title||'').trim().toLowerCase()===title))}
+function archiveWatched(item){const watched=readWatched().filter(x=>x.id!==item.id);watched.unshift({...item,watchedAt:new Date().toISOString()});writeWatched(watched)}
 function youtubeTrailerUrl(title){return `https://www.youtube.com/results?search_query=${encodeURIComponent(`${title||''} trailer`)}`}
 function eyesMarkup(){return '<span class="watch-eyes" aria-hidden="true"><span class="watch-eye"><span class="watch-pupil"></span></span><span class="watch-eye"><span class="watch-pupil"></span></span></span>'}
 function toggleSaved(item,button){
-  const id=watchId(item), list=readWatchList(), at=list.findIndex(x=>x.id===id);
-  if(at>=0){list.splice(at,1);button.classList.remove('saved','pupil-pop');button.setAttribute('aria-pressed','false');button.setAttribute('aria-label',`Add ${item.title||'title'} to My List`)}
+  const id=watchId(item), titleKey=String(item.title||'').trim().toLowerCase(), list=readWatchList(), at=list.findIndex(x=>x.id===id||(x.serviceId===state.service.id&&String(x.title||'').trim().toLowerCase()===titleKey));
+  if(at>=0){
+    const removed={...list[at],id,type:itemMediaType(item)};list.splice(at,1);archiveWatched(removed);
+    button.classList.remove('saved','pupil-pop');button.setAttribute('aria-pressed','false');button.setAttribute('aria-label',`Add ${item.title||'title'} to My List`)
+  }
   else{
-    list.push({id,title:item.title||'Untitled',poster:posterUrl(item.poster||''),service:state.service.name,serviceId:state.service.id,type:state.type,addedAt:new Date().toISOString()});
+    list.push({id,title:item.title||'Untitled',poster:posterUrl(item.poster||''),service:state.service.name,serviceId:state.service.id,type:itemMediaType(item),addedAt:new Date().toISOString()});
     button.classList.add('saved');button.classList.remove('pupil-pop');void button.offsetWidth;button.classList.add('pupil-pop');setTimeout(()=>button.classList.remove('pupil-pop'),700);button.setAttribute('aria-pressed','true');button.setAttribute('aria-label',`Remove ${item.title||'title'} from My List`)
   }
   writeWatchList(list);

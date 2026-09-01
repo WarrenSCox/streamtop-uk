@@ -129,7 +129,8 @@ function extractDisneyCombined(html) {
     const rank=rankMatch ? Number(rankMatch[1]) : i+1;
     if(!id||!titleRaw||!imageId||rank<1||rank>10||found.has(rank)) continue;
     const title=decodeDisneyEscapes(titleRaw), year=yearRaw?Number(yearRaw):null;
-    found.set(rank,{rank,title,year,poster:`https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/${imageId}/compose?format=webp&width=386&label=top_ranked_${rank}_080`,detailsUrl:`https://www.disneyplus.com/en-gb/browse/entity-${id}`});
+    const type=(/urn:ds:cmp:eva:series\//.test(card)||card.includes('dXJuOmRzOmNtcDpldmE6c2VyaWVz'))?'SHOW':((/urn:ds:cmp:eva:movie\//.test(card)||card.includes('dXJuOmRzOmNtcDpldmE6bW92aWU'))?'MOVIE':null);
+    found.set(rank,{rank,title,year,type,poster:`https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/${imageId}/compose?format=webp&width=386&label=top_ranked_${rank}_080`,detailsUrl:`https://www.disneyplus.com/en-gb/browse/entity-${id}`});
   }
 
   // Safety fallback for a response containing rendered cards but not the
