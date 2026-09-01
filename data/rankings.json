@@ -1,6 +1,6 @@
 {
   "version": 17,
-  "generatedAt": "2026-09-01T14:46:43.842Z",
+  "generatedAt": "2026-09-01T15:05:53.243Z",
   "country": "GB",
   "strategy": "Official source first; labelled fallback when no compatible official chart is available.",
   "services": {
@@ -2284,7 +2284,8 @@
           "note": "Official UK weekend box-office Top 10 published by the UK Cinema Association using Comscore data."
         }
       },
-      "error": null
+      "error": null,
+      "stale": true
     },
     "uscinema": {
       "provider": "US Cinema",
@@ -2388,11 +2389,11 @@
       "singles": [
         {
           "rank": 1,
-          "title": "IN ME IN",
+          "title": "REIN ME IN",
           "artist": "SAM FENDER & OLIVIA DEAN",
-          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e9/9e/ce/e99ece56-dcda-540a-d0b3-3927d152846f/25UMGIM83718.rgb.jpg/400x400bb.jpg",
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ec/81/1d/ec811d0e-64d9-224c-25df-9d26456874f9/25UMGIM75096.rgb.jpg/400x400bb.jpg",
           "detailsUrl": "https://www.officialcharts.com/charts/uk-top-40-singles-chart/",
-          "musicUrl": "https://music.apple.com/gb/album/rein-me-in-edit/1822833563?i=1822833748&uo=4"
+          "musicUrl": "https://music.apple.com/gb/album/rein-me-in/1820918843?i=1820918844&uo=4"
         },
         {
           "rank": 2,
