@@ -21,31 +21,52 @@ const HBO_UK_SERIES_URLS = [
   'https://www.hbomax.com/gb/en/shows'
 ];
 
-function extractHBOTitles(html, marker, typePattern) {
+function decodeHBOText(value='') {
+  return String(value)
+    .replace(/\\u0026/g, '&')
+    .replace(/\\u0027/g, "'")
+    .replace(/\\u003c/gi, '<')
+    .replace(/\\u003e/gi, '>')
+    .replace(/\\\"/g, '"')
+    .trim();
+}
+
+function extractHBOTitles(html, marker, kind) {
   const pos = html.indexOf(marker);
   if (pos < 0) return { found:false, titles:[] };
-  const chunk = html.slice(pos, pos + 450000);
+
+  // HBO embeds the collection as structured data in the page HTML. Anchor on
+  // the GB content route, then read the title belonging to that same item.
+  // This avoids accidentally collecting summaries/descriptions.
+  const chunk = html.slice(pos, pos + 650000);
+  const route = kind === 'movie'
+    ? '\\/gb\\/en\\/movie\\/'
+    : '\\/gb\\/en\\/(?:show|series)\\/';
+  const re = new RegExp(
+    `"imageUrlLink"\\s*:\\s*"(${route}[^\"]+)"[\\s\\S]{0,6000}?"title"\\s*:\\s*\\{[\\s\\S]{0,1200}?"short"\\s*:\\s*"([^\"]+)"`,
+    'g'
+  );
+
   const titles=[];
   const seen=new Set();
-  const re = new RegExp(`"__typename"\\s*:\s*"(?:${typePattern})"[\s\S]{0,3500}?"title"\s*:\s*\{[\s\S]{0,500}?"short"\s*:\s*"([^"]+)"`, 'g');
   let m;
   while ((m=re.exec(chunk)) && titles.length<10) {
-    const title=(m[1]||'').replace(/\u0026/g,'&').trim();
+    const title=decodeHBOText(m[2]);
     if (!title || seen.has(title)) continue;
-    seen.add(title); titles.push(title);
+    seen.add(title);
+    titles.push(title);
   }
   return {found:true,titles};
 }
-
 async function diagnoseHBOMaxUKMovies() {
-  console.log('--- HBO UK DIAGNOSTIC V2 (does not change rankings) ---');
+  console.log('--- HBO UK DIAGNOSTIC V3 (does not change rankings) ---');
   try {
     const html = await fetchText(HBO_UK_MOVIES_URL, {
       'accept':'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
       'accept-language':'en-GB,en;q=0.9'
     });
     console.log(`HBO UK movies HTTP: OK (${html.length} chars)`);
-    const movies=extractHBOTitles(html,'Most Popular Movies','Feature');
+    const movies=extractHBOTitles(html,'Most Popular Movies','movie');
     console.log(`Most Popular Movies: ${movies.found ? 'FOUND' : 'NOT FOUND'}`);
     console.log(`HBO UK movie titles: ${movies.titles.length}/10`);
     movies.titles.forEach((t,i)=>console.log(`${i+1}. ${t}`));
@@ -66,7 +87,7 @@ async function diagnoseHBOMaxUKMovies() {
       const markers=['Most Popular Series','Most Popular TV Shows','Most Popular Shows'];
       let result={found:false,titles:[]}, used='';
       for (const marker of markers) {
-        const r=extractHBOTitles(html,marker,'Series|Show');
+        const r=extractHBOTitles(html,marker,'series');
         if (r.found) {result=r; used=marker; break;}
       }
       console.log(`Series popularity marker: ${result.found ? `FOUND (${used})` : 'NOT FOUND'}`);
@@ -79,7 +100,7 @@ async function diagnoseHBOMaxUKMovies() {
     }
   }
   if (!seriesSucceeded) console.log('HBO UK series diagnostic: no usable popularity collection found yet');
-  console.log('--- END HBO UK DIAGNOSTIC V2 ---');
+  console.log('--- END HBO UK DIAGNOSTIC V3 ---');
 }
 const SERVICES = [
   { id:'netflix', name:'Netflix', aliases:['Netflix'] },
