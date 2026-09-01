@@ -486,98 +486,96 @@ async function fetchPrimeViaPublicSearchIndex() {
 }
 
 async function fetchOfficialPrimeMovies() {
-  const baseHeaders={
+  // v5.3.5 forensic build: concentrate on the one response that GitHub Actions
+  // consistently receives with lots of TOP 10 markers. Do not publish anything
+  // from this yet — the live Prime chart remains on its existing fallback.
+  const url='https://www.amazon.co.uk/gp/video/storefront?ref_=atv_hm_hom';
+  const headers={
     'accept':'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
     'accept-language':'en-GB,en;q=0.9',
     'cookie':'lc-main=en_GB; i18n-prefs=GBP; av-timezone=Europe%2FLondon',
-    'referer':'https://www.primevideo.com/'
+    'referer':'https://www.amazon.co.uk/',
+    'user-agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36'
   };
-  // Prime exposes the UK chart to public web crawlers even when cloud-hosted
-  // browser requests are geolocated to another storefront. Try normal browser
-  // traffic first, then crawler rendering profiles against the same official page.
-  const headerProfiles=[
-    ['browser', {...baseHeaders,'user-agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36'}],
-    ['googlebot', {...baseHeaders,'user-agent':'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)'}],
-    ['bingbot', {...baseHeaders,'user-agent':'Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)'}]
-  ];
-  const errors=[];
+  const html=await fetchText(url,headers);
+  const decoded=decodePrimePayload(html);
+  const markers=[...decoded.matchAll(/TOP\s*10/gi)];
+  const ukSignals=(decoded.match(/(?:£|en_GB|en-GB|amazon\.co\.uk|avCurrentTerritory[=\":]+(?:UK|GB))/gi)||[]).length;
+  console.log(`Prime forensic fetch: ${url} (${html.length} chars, TOP10 markers=${markers.length}, UK signals=${ukSignals})`);
 
-  // 1) Prime itself. Only accept an exact UK Top 10 heading from Prime's page.
-  for(const [profile,headers] of headerProfiles){
-    for(const url of PRIME_DIRECT_URLS){
-      try{
-        const html=await fetchText(url,headers);
-        const decoded=decodePrimePayload(html);
-        const hasUk=/Top\s*10\s*movies\s*in\s*the\s*UK/i.test(decoded);
-        const top10Labels=(decoded.match(/TOP\s*10/gi)||[]).length;
-        const ukSignals=(decoded.match(/(?:£|en_GB|en-GB|amazon\.co\.uk|avCurrentTerritory[=\":]+(?:UK|GB))/gi)||[]).length;
-        console.log(`Prime ${profile} fetch: ${url} (${html.length} chars, UK heading=${hasUk}, TOP10 labels=${top10Labels}, UK signals=${ukSignals})`);
-        if(!hasUk) throw new Error('Prime returned a page without the UK Top 10 carousel');
-        return primeItemsFromPayload(html,profile);
-      }catch(err){
-        errors.push(`${profile}: ${err.message}`);
-        console.warn(`Prime ${profile} attempt failed: ${err.message}`);
-      }
+  const cleanSnippet=value=>cleanPrimeTitle(String(value||''))
+    .replace(/\s+/g,' ')
+    .replace(/[\u0000-\u001f]+/g,' ')
+    .trim();
+  const candidateKeys=['title','displayTitle','heading','headline','ariaLabel','altText','text'];
+  const extractStrings=window=>{
+    const found=[];
+    const seen=new Set();
+    const add=v=>{
+      const clean=cleanSnippet(v).replace(/&quot;/gi,'"').replace(/&#39;/gi,"'");
+      if(!clean || clean.length<2 || clean.length>140 || isPrimeNoise(clean)) return;
+      if(/^(?:top 10|amazon|prime video|watch now|included with prime|learn more|see more|movies|tv|home)$/i.test(clean)) return;
+      const key=norm(clean); if(!key||seen.has(key)) return; seen.add(key); found.push(clean);
+    };
+    for(const key of candidateKeys){
+      const re=new RegExp(`(?:\\\\?"${key}\\\\?"|"${key}")\\s*:\\s*(?:\\\\?"|")((?:\\\\.|[^"\\\\]){2,180})(?:\\\\?"|")`,'gi');
+      let m; while((m=re.exec(window))&&found.length<20) add(m[1]);
     }
-  }
-
-  // 2) Render the SAME official Prime page through Jina Reader. This is useful on
-  // GitHub Actions because Amazon can geolocate/cloud-block the runner and omit the
-  // UK carousel. Reader renders the public page in a browser; provenance remains Prime.
-  const readerHeaders={
-    'accept':'text/plain',
-    'user-agent':'WozzaWatch/4.9.1 (+GitHub Actions)',
-    'x-engine':'browser',
-    'x-no-cache':'true',
-    'x-timeout':'20'
+    let m;
+    const anchorRe=/<a\b[^>]*href=["']([^"']*(?:\/detail\/|\/gp\/video\/detail\/)[^"']*)["'][^>]*>([\s\S]*?)<\/a>/gi;
+    while((m=anchorRe.exec(window))&&found.length<24){
+      const inner=m[2];
+      const aria=(m[0].match(/aria-label=["']([^"']+)["']/i)||[])[1];
+      const alt=(inner.match(/alt=["']([^"']+)["']/i)||[])[1];
+      add(aria); add(alt); add(stripTags(inner));
+    }
+    return found.slice(0,8);
   };
-  for(const officialUrl of PRIME_DIRECT_URLS){
-    const readerUrl=`https://r.jina.ai/${officialUrl}`;
-    try{
-      const text=await fetchText(readerUrl,readerHeaders);
-      const hasUk=/Top\s*10\s*movies\s*in\s*the\s*UK/i.test(text);
-      const top10Labels=(text.match(/TOP\s*10/gi)||[]).length;
-      console.log(`Prime reader fetch: ${officialUrl} (${text.length} chars, UK heading=${hasUk}, TOP10 labels=${top10Labels})`);
-      if(!hasUk) throw new Error('Rendered Prime page did not contain the UK Top 10 heading');
-      return primeItemsFromPayload(text,'reader');
-    }catch(err){
-      errors.push(`reader: ${err.message}`);
-      console.warn(`Prime reader attempt failed: ${err.message}`);
+  const extractIds=window=>{
+    const vals=[]; const seen=new Set();
+    const add=v=>{if(!v||seen.has(v))return;seen.add(v);vals.push(v)};
+    for(const re of [/\bB0[A-Z0-9]{8}\b/g,/\b(?:asin|ASIN)\W{0,12}([A-Z0-9]{10})\b/g,/\b(?:titleId|contentId|gti)\W{0,16}["']?([A-Za-z0-9._:-]{8,80})/gi]){
+      let m; while((m=re.exec(window))&&vals.length<8)add(m[1]||m[0]);
     }
+    return vals.slice(0,5);
+  };
+  const extractRanks=window=>{
+    const vals=[]; const seen=new Set();
+    const add=v=>{v=String(v||'').trim(); if(!v||seen.has(v))return;seen.add(v);vals.push(v)};
+    const patterns=[
+      /top[_-]?ranked[_-]?(\d{1,2})/gi,
+      /["'](?:rank|ranking|position|ordinal)["']\s*:\s*["']?(\d{1,2})/gi,
+      /#\s*(\d{1,2})\b/g,
+      /\b(\d{1,2})\s+(?:in|of)\s+(?:the\s+)?top\s*10\b/gi
+    ];
+    for(const re of patterns){let m;while((m=re.exec(window))&&vals.length<8)add(m[1]);}
+    return vals.slice(0,6);
+  };
+
+  markers.slice(0,30).forEach((marker,i)=>{
+    const from=Math.max(0,marker.index-5000), to=Math.min(decoded.length,marker.index+9000);
+    const window=decoded.slice(from,to);
+    const titles=extractStrings(window);
+    const ids=extractIds(window);
+    const ranks=extractRanks(window);
+    const text=cleanSnippet(window.replace(/<script[\s\S]*?<\/script>/gi,' ').replace(/<style[\s\S]*?<\/style>/gi,' ').replace(/<[^>]+>/g,' '));
+    const markerPos=marker.index-from;
+    const approx=Math.max(0, Math.min(text.length-1, Math.floor((markerPos/Math.max(window.length,1))*text.length)));
+    const snippet=text.slice(Math.max(0,approx-120),Math.min(text.length,approx+220));
+    console.log(`Prime forensic marker ${String(i+1).padStart(2,'0')} @${marker.index}: ranks=[${ranks.join(',')||'-'}] ids=[${ids.join(',')||'-'}] titles=[${titles.join(' | ')||'-'}]`);
+    if(snippet) console.log(`Prime forensic snippet ${String(i+1).padStart(2,'0')}: ${snippet}`);
+  });
+
+  // Also inspect spacing. Ten tightly-grouped markers are more likely to belong
+  // to one carousel than isolated badges elsewhere on the storefront.
+  if(markers.length){
+    const positions=markers.map(m=>m.index);
+    const gaps=positions.slice(1).map((p,i)=>p-positions[i]);
+    console.log(`Prime forensic marker positions: ${positions.join(',')}`);
+    console.log(`Prime forensic marker gaps: ${gaps.join(',')||'-'}`);
   }
 
-  // 3) Last-resort discovery transport: Jina Search. We only accept it when the
-  // returned text contains Prime's exact UK heading, then parse the official Prime
-  // section itself. This avoids silently substituting US or generic popularity data.
-  try{
-    const query=encodeURIComponent('site:primevideo.com/movie "Top 10 movies in the UK" Prime Video');
-    const searchText=await fetchText(`https://s.jina.ai/${query}`,{
-      'accept':'text/plain',
-      'user-agent':'WozzaWatch/4.9.1 (+GitHub Actions)',
-      'x-no-cache':'true'
-    });
-    const hasUk=/Top\s*10\s*movies\s*in\s*the\s*UK/i.test(searchText);
-    const hasPrime=/primevideo\.com\/movie/i.test(searchText);
-    console.log(`Prime search transport: ${searchText.length} chars, UK heading=${hasUk}, Prime URL=${hasPrime}`);
-    if(!hasUk||!hasPrime) throw new Error('Search transport did not return the official Prime UK chart');
-    return primeItemsFromPayload(searchText,'search');
-  }catch(err){
-    errors.push(`search: ${err.message}`);
-    console.warn(`Prime search attempt failed: ${err.message}`);
-  }
-
-  // 4) Public search-index fallback. Search engines can see the UK-specific
-  // Prime page even when Amazon geolocates GitHub's runner outside the UK. We
-  // still require the exact official Prime heading and parse only the indexed
-  // Prime page text. If that condition is not met, we refuse to call it official.
-  try {
-    return await fetchPrimeViaPublicSearchIndex();
-  } catch(err) {
-    errors.push(`indexed: ${err.message}`);
-    console.warn(`Prime indexed fallback failed: ${err.message}`);
-  }
-
-  throw new Error(errors.join(' | ')||'Prime UK chart unavailable');
+  throw new Error(`forensic-only build captured ${markers.length} TOP 10 markers; inspect marker logs before enabling official Prime`);
 }
 
 async function fetchOfficialNetflix() {
