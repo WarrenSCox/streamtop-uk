@@ -1,6 +1,6 @@
 {
   "version": 17,
-  "generatedAt": "2026-09-01T19:06:52.978Z",
+  "generatedAt": "2026-09-01T19:12:18.494Z",
   "country": "GB",
   "strategy": "Official source first; labelled fallback when no compatible official chart is available.",
   "services": {
@@ -1635,13 +1635,13 @@
         },
         {
           "rank": 10,
-          "sourceRank": 636,
+          "sourceRank": 652,
           "title": "King Gary",
           "year": 2020,
           "poster": "/poster/165388224/s166/king-gary.webp",
           "url": "https://www.justwatch.com/uk/tv-series/king-gary",
           "trend": "DOWN",
-          "trendDifference": -80,
+          "trendDifference": -96,
           "daysInTop10": null,
           "topRank": 69
         }
@@ -2294,8 +2294,7 @@
           "note": "Official UK weekend box-office Top 10 published by the UK Cinema Association using Comscore data."
         }
       },
-      "error": null,
-      "stale": true
+      "error": null
     },
     "uscinema": {
       "provider": "US Cinema",
@@ -2392,7 +2391,8 @@
           "note": "US weekend box-office Top 10 from IMDb, reported by Box Office Mojo."
         }
       },
-      "error": null
+      "error": null,
+      "stale": true
     },
     "ukmusic": {
       "provider": "UK Music",
