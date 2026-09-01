@@ -1,6 +1,6 @@
 {
-  "version": 14,
-  "generatedAt": "2026-09-01T11:38:20.074Z",
+  "version": 15,
+  "generatedAt": "2026-09-01T12:02:46.937Z",
   "country": "GB",
   "strategy": "Official source first; labelled fallback when no compatible official chart is available.",
   "services": {
@@ -846,14 +846,14 @@
           "label": "JustWatch UK",
           "url": "https://www.justwatch.com/uk/provider/disney-plus/movies",
           "cadence": "daily",
-          "note": "Disney+ publishes a combined UK Top 10; WozzaWatch keeps separate Movies/TV tabs, so it uses a fallback for those tabs."
+          "note": "Disney+ UK Top 10 Movies and TV Shows reported by FlixPatrol."
         },
         "tv": {
           "kind": "fallback",
           "label": "JustWatch UK",
           "url": "https://www.justwatch.com/uk/provider/disney-plus/tv-series",
           "cadence": "daily",
-          "note": "Disney+ publishes a combined UK Top 10; WozzaWatch keeps separate Movies/TV tabs, so it uses a fallback for those tabs."
+          "note": "Disney+ UK Top 10 Movies and TV Shows reported by FlixPatrol."
         }
       },
       "error": null
@@ -1045,18 +1045,6 @@
         },
         {
           "rank": 6,
-          "title": "Widow’s Bay",
-          "year": 2026,
-          "poster": "/poster/345823300/s166/widows-bay.webp",
-          "url": "https://tv.apple.com/gb/show/widows-bay/umc.cmc.1zzly0vah46bnvnwf0qkrjhh2",
-          "trend": null,
-          "trendDifference": 0,
-          "daysInTop10": null,
-          "topRank": null,
-          "detailsUrl": "https://www.justwatch.com/uk/tv-series/widows-bay"
-        },
-        {
-          "rank": 7,
           "title": "Lucky",
           "year": 2026,
           "poster": "/poster/341456365/s166/lucky-2026.webp",
@@ -1066,6 +1054,18 @@
           "daysInTop10": null,
           "topRank": null,
           "detailsUrl": "https://www.justwatch.com/uk/tv-series/lucky-2026"
+        },
+        {
+          "rank": 7,
+          "title": "Widow’s Bay",
+          "year": 2026,
+          "poster": "/poster/345823300/s166/widows-bay.webp",
+          "url": "https://tv.apple.com/gb/show/widows-bay/umc.cmc.1zzly0vah46bnvnwf0qkrjhh2",
+          "trend": null,
+          "trendDifference": 0,
+          "daysInTop10": null,
+          "topRank": null,
+          "detailsUrl": "https://www.justwatch.com/uk/tv-series/widows-bay"
         },
         {
           "rank": 8,
@@ -2374,9 +2374,97 @@
     "ukmusic": {
       "provider": "UK Music",
       "singles": [],
-      "albums": [],
-      "sources": {},
-      "error": "singles: no ranking available | albums: no ranking available"
+      "albums": [
+        {
+          "rank": 1,
+          "title": "JENIUS",
+          "artist": "PAUL HEATON",
+          "poster": null,
+          "detailsUrl": "https://www.officialcharts.com/charts/albums-chart/?lang=en"
+        },
+        {
+          "rank": 2,
+          "title": "THE ESSENTIAL",
+          "artist": "MICHAEL JACKSON",
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/3d/9d/38/3d9d3811-71f0-3a0e-1ada-3004e56ff852/827969428726.jpg/400x400bb.jpg",
+          "detailsUrl": "https://www.officialcharts.com/charts/albums-chart/?lang=en",
+          "musicUrl": "https://music.apple.com/gb/album/the-essential-michael-jackson/159292399?uo=4"
+        },
+        {
+          "rank": 3,
+          "title": "THRASHER",
+          "artist": "BRANDON FLOWERS",
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0e/fe/f8/0efef8b0-439f-c70c-e2f1-1035b87b9c93/26UMGIM69978.rgb.jpg/400x400bb.jpg",
+          "detailsUrl": "https://www.officialcharts.com/charts/albums-chart/?lang=en",
+          "musicUrl": "https://music.apple.com/gb/album/thrasher/6781078037?uo=4"
+        },
+        {
+          "rank": 4,
+          "title": "YOU SEEM PRETTY SAD FOR A GIRL SO IN",
+          "artist": "OLIVIA RODRIGO",
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/92/51/b9925128-dac6-2cef-5674-d5ebbe1a4e83/26UMGIM75556.rgb.jpg/400x400bb.jpg",
+          "detailsUrl": "https://www.officialcharts.com/charts/albums-chart/?lang=en",
+          "musicUrl": "https://music.apple.com/gb/album/you-seem-pretty-sad-for-a-girl-so-in-love/6779097512?uo=4"
+        },
+        {
+          "rank": 5,
+          "title": "IT GOES ON",
+          "artist": "WESTSIDE COWBOY",
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/08/38/5d/08385d46-5a7d-20c6-fb6d-eddd0fa1168a/26UMGIM54625.rgb.jpg/400x400bb.jpg",
+          "detailsUrl": "https://www.officialcharts.com/charts/albums-chart/?lang=en",
+          "musicUrl": "https://music.apple.com/gb/album/it-goes-on/6768651964?uo=4"
+        },
+        {
+          "rank": 6,
+          "title": "DIAMONDS & RHINESTONES - GREATEST HITS",
+          "artist": "DOLLY PARTON",
+          "poster": null,
+          "detailsUrl": "https://www.officialcharts.com/charts/albums-chart/?lang=en"
+        },
+        {
+          "rank": 7,
+          "title": "VISITOR",
+          "artist": "SIENNA SPIRO",
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c6/1e/1b/c61e1b6d-e9dd-40ca-916a-223e1dc5a269/26UMGIM51349.rgb.jpg/400x400bb.jpg",
+          "detailsUrl": "https://www.officialcharts.com/charts/albums-chart/?lang=en",
+          "musicUrl": "https://music.apple.com/gb/album/visitor/6769553652?uo=4"
+        },
+        {
+          "rank": 8,
+          "title": "THE ART OF LOVING",
+          "artist": "OLIVIA DEAN",
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/08/e2/21/08e22164-7c0b-1522-818f-e0e74f62dc49/25UMGIM69703.rgb.jpg/400x400bb.jpg",
+          "detailsUrl": "https://www.officialcharts.com/charts/albums-chart/?lang=en",
+          "musicUrl": "https://music.apple.com/gb/album/the-art-of-loving/1817609404?uo=4"
+        },
+        {
+          "rank": 9,
+          "title": "DMA'S",
+          "artist": "DMA'S",
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6f/04/4c/6f044c75-98fb-545e-da31-4a7bd0651bca/196874241592.jpg/400x400bb.jpg",
+          "detailsUrl": "https://www.officialcharts.com/charts/albums-chart/?lang=en",
+          "musicUrl": "https://music.apple.com/gb/album/dmas/1895085045?uo=4"
+        },
+        {
+          "rank": 10,
+          "title": "THE HIGHLIGHTS",
+          "artist": "WEEKND",
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/4b/ab/3c/4bab3c0d-ea9a-ad8e-4229-b1e73cad0283/21UMGIM06668.rgb.jpg/400x400bb.jpg",
+          "detailsUrl": "https://www.officialcharts.com/charts/albums-chart/?lang=en",
+          "musicUrl": "https://music.apple.com/gb/album/the-highlights/1550877895?uo=4"
+        }
+      ],
+      "sources": {
+        "albums": {
+          "kind": "official",
+          "label": "Official Charts Company",
+          "displayName": "Official Charts",
+          "url": "https://www.officialcharts.com/charts/albums-chart/?lang=en",
+          "cadence": "weekly",
+          "note": "Official UK chart compiled by the Official Charts Company."
+        }
+      },
+      "error": "singles: no ranking available"
     },
     "usmusic": {
       "provider": "USA Music",
