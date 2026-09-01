@@ -486,7 +486,7 @@ async function fetchPrimeViaPublicSearchIndex() {
 }
 
 async function fetchOfficialPrimeMovies() {
-  // v5.3.13 forensic build: dynamic-request hunt only. We already proved the
+  // v5.3.14 forensic build: inspect rank/position metadata around genuine TOP 10 badges. We already proved the
   // storefront contains three genuine current TOP 10 badges, but they sit in
   // unrelated shelves. Now inspect hydrated state and Prime JS bundles for the
   // anonymous endpoints/tokens used by the browser to fetch shelf content.
@@ -522,6 +522,27 @@ async function fetchOfficialPrimeMovies() {
     if(!anchors.some(x=>x.id===id&&x.title===title))anchors.push({title,type,id,offset:badge.index});
   }
   anchors.forEach((a,i)=>console.log(`Prime dynamic anchor ${String(i+1).padStart(2,'0')} | title=${a.title} | type=${a.type} | id=${a.id}`));
+
+  // v5.3.14: deeper pagination proved to be an ordinary shelf chain: after the
+  // first page it repeatedly returned Clarkson's Farm and no new TOP 10 badges.
+  // Pivot to the metadata immediately surrounding each genuine badge and log
+  // rank-like fields/phrases. If Amazon exposes the actual Top 10 position here,
+  // we can reconstruct the chart without crawling unrelated shelves.
+  const rankFieldRe=/(?:\\?"|")([A-Za-z0-9_]*(?:rank|position|ordinal|order|index)[A-Za-z0-9_]*)(?:\\?"|")\s*:\s*(?:\\?"([^"\\]{1,80})(?:\\?"|")|(-?\d+(?:\.\d+)?))/gi;
+  for(const a of anchors){
+    const win=decoded.slice(Math.max(0,a.offset-12000),Math.min(decoded.length,a.offset+12000));
+    const fields=[]; let rm;
+    while((rm=rankFieldRe.exec(win))){
+      const key=clean(rm[1]), value=clean(rm[2]||rm[3]);
+      if(!key||!value)continue;
+      const pair=`${key}=${value}`; if(!fields.includes(pair))fields.push(pair);
+    }
+    const phrases=[];
+    for(const re of [/#\s*\d{1,2}\s*(?:movie|show|tv show)?\s*in\s*(?:the\s*)?UK/gi,/No\.?\s*\d{1,2}\s*(?:movie|show|tv show)?/gi,/\b(?:rank|position)\s*#?\s*\d{1,2}\b/gi,/\b\d{1,2}(?:st|nd|rd|th)\s+(?:most|in)\b/gi]){
+      for(const m of win.matchAll(re)){const v=clean(m[0]);if(v&&!phrases.includes(v))phrases.push(v)}
+    }
+    console.log(`Prime rank context | ${a.title} | fields=[${fields.slice(0,24).join(',')||'-'}] | phrases=[${phrases.slice(0,12).join(' | ')||'-'}]`);
+  }
 
   const hints=[];
   const add=(kind,value,at,source='html')=>{value=String(value||'').replace(/\\u0026/gi,'&').replace(/\\\//g,'/').replace(/&amp;/g,'&').trim();if(!value||value.length<3||value.length>1200||/watchlistToggle|auth-redirect/i.test(value))return;if(!hints.some(x=>x.kind===kind&&x.value===value))hints.push({kind,value,at,source});};
@@ -560,7 +581,7 @@ async function fetchOfficialPrimeMovies() {
     const keys=[...new Set((win.match(/(?:ajaxEnabled|pagination|continuation|nextPage|loadMore|serviceToken|endpoint|collectionId|widgetId|pageType|pageId|partialURL)/gi)||[]).map(x=>x.toLowerCase()))];
     console.log(`Prime dynamic context | ${a.title} | keys=[${keys.join(',')||'-'}]`);
   }
-  // v5.3.13: Amazon changes the continuation URL shape between requests, so
+  // v5.3.14: Amazon changes the continuation URL shape between requests, so
   // do not require startIndex/targetId to be present. Harvest every anonymous
   // storefront URL carrying a serviceToken, and also reconstruct a request
   // from nearby pagination fields when Amazon splits the values across JSON.
@@ -617,7 +638,7 @@ async function fetchOfficialPrimeMovies() {
 
   let pageNo=0,totalContinuationBadges=0;
   const continuationAnchors=[];
-  while(queue.length && pageNo<16){
+  while(queue.length && pageNo<4){
     const continuationUrl=queue.shift();
     if(!continuationUrl||continuationSeen.has(continuationUrl))continue;
     continuationSeen.add(continuationUrl);pageNo++;
@@ -650,7 +671,7 @@ async function fetchOfficialPrimeMovies() {
   }
   console.log(`Prime pagination summary: requests=${pageNo}; continuation TOP10 badges=${totalContinuationBadges}; unique continuation anchors=${continuationAnchors.length}; remainingQueue=${queue.length}`);
   console.log(`Prime dynamic-hunt summary: anchors=${anchors.length}; htmlHints=${hints.length}; scriptsScanned=${scanned}; jsHints=${scriptHints}`);
-  throw new Error(`forensic-only v5.3.13: Prime deeper-pagination hunt complete; anchors=${anchors.length}, paginationRequests=${pageNo}, continuationBadges=${totalContinuationBadges}, continuationAnchors=${continuationAnchors.length}`);
+  throw new Error(`forensic-only v5.3.14: Prime rank-context hunt complete; anchors=${anchors.length}, paginationRequests=${pageNo}, continuationBadges=${totalContinuationBadges}, continuationAnchors=${continuationAnchors.length}`);
 
 }
 
