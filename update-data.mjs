@@ -16,92 +16,7 @@ const APPLE_TV_URL = 'https://tv.apple.com/gb/collection/most-popular-now/uts.co
 const UK_CINEMA_URL = 'https://www.cinemauk.org.uk/the-industry/facts-and-figures/latest-uk-cinema-statistics/weekend-top-10-box-office/';
 const US_CINEMA_URL = 'https://www.imdb.com/chart/boxoffice/?ref_=ext_shr_lnk';
 const HBO_UK_MOVIES_URL = 'https://www.hbomax.com/gb/en/movies';
-const HBO_UK_SERIES_URLS = [
-  'https://www.hbomax.com/gb/en/series',
-  'https://www.hbomax.com/gb/en/shows'
-];
-
-function decodeHBOText(value='') {
-  return String(value)
-    .replace(/\\u0026/g, '&')
-    .replace(/\\u0027/g, "'")
-    .replace(/\\u003c/gi, '<')
-    .replace(/\\u003e/gi, '>')
-    .replace(/\\\"/g, '"')
-    .trim();
-}
-
-function extractHBOTitles(html, marker, kind) {
-  const pos = html.indexOf(marker);
-  if (pos < 0) return { found:false, titles:[] };
-
-  // HBO embeds the collection as structured data in the page HTML. Anchor on
-  // the GB content route, then read the title belonging to that same item.
-  // This avoids accidentally collecting summaries/descriptions.
-  const chunk = html.slice(pos, pos + 650000);
-  const route = kind === 'movie'
-    ? '\\/gb\\/en\\/movie\\/'
-    : '\\/gb\\/en\\/(?:show|series)\\/';
-  const re = new RegExp(
-    `"imageUrlLink"\\s*:\\s*"(${route}[^\"]+)"[\\s\\S]{0,6000}?"title"\\s*:\\s*\\{[\\s\\S]{0,1200}?"short"\\s*:\\s*"([^\"]+)"`,
-    'g'
-  );
-
-  const titles=[];
-  const seen=new Set();
-  let m;
-  while ((m=re.exec(chunk)) && titles.length<10) {
-    const title=decodeHBOText(m[2]);
-    if (!title || seen.has(title)) continue;
-    seen.add(title);
-    titles.push(title);
-  }
-  return {found:true,titles};
-}
-async function diagnoseHBOMaxUKMovies() {
-  console.log('--- HBO UK DIAGNOSTIC V3 (does not change rankings) ---');
-  try {
-    const html = await fetchText(HBO_UK_MOVIES_URL, {
-      'accept':'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-      'accept-language':'en-GB,en;q=0.9'
-    });
-    console.log(`HBO UK movies HTTP: OK (${html.length} chars)`);
-    const movies=extractHBOTitles(html,'Most Popular Movies','movie');
-    console.log(`Most Popular Movies: ${movies.found ? 'FOUND' : 'NOT FOUND'}`);
-    console.log(`HBO UK movie titles: ${movies.titles.length}/10`);
-    movies.titles.forEach((t,i)=>console.log(`${i+1}. ${t}`));
-    console.log(`GB movie route marker: ${html.includes('/gb/en/movie/') ? 'FOUND' : 'NOT FOUND'}`);
-  } catch (err) {
-    console.log(`HBO UK movies fetch: FAILED - ${err.message}`);
-  }
-
-  let seriesSucceeded=false;
-  for (const url of HBO_UK_SERIES_URLS) {
-    try {
-      const html=await fetchText(url,{
-        'accept':'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-        'accept-language':'en-GB,en;q=0.9'
-      });
-      console.log(`HBO UK series URL: ${url}`);
-      console.log(`HBO UK series HTTP: OK (${html.length} chars)`);
-      const markers=['Most Popular Series','Most Popular TV Shows','Most Popular Shows'];
-      let result={found:false,titles:[]}, used='';
-      for (const marker of markers) {
-        const r=extractHBOTitles(html,marker,'series');
-        if (r.found) {result=r; used=marker; break;}
-      }
-      console.log(`Series popularity marker: ${result.found ? `FOUND (${used})` : 'NOT FOUND'}`);
-      console.log(`HBO UK series titles: ${result.titles.length}/10`);
-      result.titles.forEach((t,i)=>console.log(`${i+1}. ${t}`));
-      console.log(`GB series route marker: ${(html.includes('/gb/en/show/')||html.includes('/gb/en/series/')) ? 'FOUND' : 'NOT FOUND'}`);
-      if (result.found || result.titles.length) {seriesSucceeded=true; break;}
-    } catch(err) {
-      console.log(`HBO UK series fetch (${url}): FAILED - ${err.message}`);
-    }
-  }
-  if (!seriesSucceeded) console.log('HBO UK series diagnostic: no usable popularity collection found yet');
-  console.log('--- END HBO UK DIAGNOSTIC V3 ---');
-}
+const HBO_UK_SHOWS_URL = 'https://www.hbomax.com/gb/en/shows';
 const SERVICES = [
   { id:'netflix', name:'Netflix', aliases:['Netflix'] },
   { id:'prime', name:'Prime Video', aliases:['Amazon Prime Video','Prime Video'] },
@@ -143,7 +58,9 @@ const OFFICIAL = {
     url:'https://www.justwatch.com/uk/provider/disney-plus',
     cadence:'daily',
     note:'Disney+ currently uses JustWatch UK popularity while no reliable separate official Movies/TV chart source is configured.',
-  }
+  },
+  maxMovies: {label:'Official HBO Max',url:HBO_UK_MOVIES_URL,cadence:'daily',note:'HBO Max UK Most Popular Movies, read directly from the public HBO Max UK Movies page.'},
+  maxTV: {label:'Official HBO Max',url:HBO_UK_SHOWS_URL,cadence:'daily',note:'HBO Max UK Most Popular Series, read directly from the public HBO Max UK Shows page.'}
 };
 
 const PACKAGES_QUERY = `query Packages($country: Country!, $platform: Platform!) { packages(country: $country, platform: $platform) { id packageId clearName shortName technicalName } }`;
@@ -161,6 +78,30 @@ async function fetchText(url, extraHeaders = {}) {
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     return await res.text();
   } finally { clearTimeout(timeout); }
+}
+
+function decodeHBOText(value='') {
+  return String(value).replace(/\\u0026/g,'&').replace(/\\u0027/g,"'").replace(/\\u003c/gi,'<').replace(/\\u003e/gi,'>').replace(/\\\"/g,'"').trim();
+}
+function extractHBOOfficialTitles(html, marker, kind) {
+  const pos=html.indexOf(marker);
+  if(pos<0) return [];
+  const chunk=html.slice(pos,pos+650000);
+  const route=kind==='MOVIE'?'\\/gb\\/en\\/movie\\/':'\\/gb\\/en\\/(?:show|series)\\/';
+  const re=new RegExp(`"imageUrlLink"\\s*:\\s*"(${route}[^\"]+)"[\\s\\S]{0,6000}?"title"\\s*:\\s*\\{[\\s\\S]{0,1200}?"short"\\s*:\\s*"([^\"]+)"`,'g');
+  const out=[],seen=new Set(); let m;
+  while((m=re.exec(chunk))&&out.length<10){
+    const title=decodeHBOText(m[2]); if(!title||seen.has(title))continue; seen.add(title);
+    out.push({rank:out.length+1,title,url:`https://www.hbomax.com${decodeHBOText(m[1])}`});
+  }
+  return out;
+}
+async function fetchOfficialHBOMax(url, marker, kind) {
+  const html=await fetchText(url,{'accept':'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8','accept-language':'en-GB,en;q=0.9'});
+  if(!html.includes('/gb/en/')) throw new Error('HBO Max did not return the GB page');
+  const items=extractHBOOfficialTitles(html,marker,kind);
+  if(items.length!==10) throw new Error(`${marker} returned ${items.length}/10`);
+  return items;
 }
 
 async function gql(query, variables) {
@@ -1098,14 +1039,14 @@ async function fetchOfficialMusicChart(url,label){
   throw new Error(last||'chart unavailable');
 }
 
-await diagnoseHBOMaxUKMovies();
-
 let previous={}; try{previous=JSON.parse(await readFile('data/rankings.json','utf8'));}catch{}
 const output={version:17,generatedAt:new Date().toISOString(),country:'GB',strategy:'Official source first; labelled fallback when no compatible official chart is available.',services:{}};
 const packageData=await gql(PACKAGES_QUERY,{country:'GB',platform:'WEB'}); const packages=packageData?.packages||[];
 let netflixOfficial=null; try{netflixOfficial=await fetchOfficialNetflix(); console.log(`Netflix official week ${netflixOfficial.week}`);}catch(err){console.error('Netflix official:',err.message);}
 let appleMoviesOfficial=null; try{appleMoviesOfficial=await fetchOfficialApple(APPLE_MOVIES_URL,'MOVIE'); console.log(`Apple official movies: ${appleMoviesOfficial.length}`);}catch(err){console.error('Apple official movies:',err.message);}
 let appleTVOfficial=null; try{appleTVOfficial=await fetchOfficialApple(APPLE_TV_URL,'SHOW'); console.log(`Apple official TV: ${appleTVOfficial.length}`);}catch(err){console.error('Apple official TV:',err.message);}
+let hboMoviesOfficial=null; try{hboMoviesOfficial=await fetchOfficialHBOMax(HBO_UK_MOVIES_URL,'Most Popular Movies','MOVIE'); console.log(`HBO Max official movies: ${hboMoviesOfficial.length}`);}catch(err){console.error('HBO Max official movies:',err.message);}
+let hboTVOfficial=null; try{hboTVOfficial=await fetchOfficialHBOMax(HBO_UK_SHOWS_URL,'Most Popular Series','SHOW'); console.log(`HBO Max official TV: ${hboTVOfficial.length}`);}catch(err){console.error('HBO Max official TV:',err.message);}
 let ukCinemaOfficial=null; try{ukCinemaOfficial=await fetchOfficialUKCinema(); console.log(`UK cinema official: ${ukCinemaOfficial.length}`);}catch(err){console.error('UK cinema official:',err.message);}
 let usCinemaIMDb=null; try{usCinemaIMDb=await fetchUSCinemaIMDb(); console.log(`US cinema IMDb: ${usCinemaIMDb.length}`);}catch(err){console.error('US cinema IMDb:',err.message);}
 let ukSingles=null; try{ukSingles=await fetchOfficialMusicChart(UK_SINGLES_URL,'singles');}catch(err){console.error('UK music singles:',err.message);}
@@ -1127,6 +1068,12 @@ for(const service of SERVICES){
     } else if(service.id==='apple' && key==='tv' && appleTVOfficial?.length){
       entry[key]=await enrichOfficial(appleTVOfficial,fallback?.items||[],type);
       entry.sources[key]={kind:'official',label:OFFICIAL.appleTV.label,url:OFFICIAL.appleTV.url,cadence:OFFICIAL.appleTV.cadence,note:OFFICIAL.appleTV.note};
+    } else if(service.id==='max' && key==='movies' && hboMoviesOfficial?.length===10){
+      entry[key]=await enrichOfficial(hboMoviesOfficial,fallback?.items||[],type);
+      entry.sources[key]={kind:'official',label:OFFICIAL.maxMovies.label,displayName:'HBO Max',url:OFFICIAL.maxMovies.url,cadence:OFFICIAL.maxMovies.cadence,note:OFFICIAL.maxMovies.note};
+    } else if(service.id==='max' && key==='tv' && hboTVOfficial?.length===10){
+      entry[key]=await enrichOfficial(hboTVOfficial,fallback?.items||[],type);
+      entry.sources[key]={kind:'official',label:OFFICIAL.maxTV.label,displayName:'HBO Max',url:OFFICIAL.maxTV.url,cadence:OFFICIAL.maxTV.cadence,note:OFFICIAL.maxTV.note};
     } else if(fallback?.items?.length){
       entry[key]=fallback.items.map((x,i)=>({...x,rank:i+1}));
       entry.sources[key]={kind:'fallback',label:'JustWatch UK',displayName:'JustWatch',url:`https://www.justwatch.com/uk/provider/${service.id==='prime'?'amazon-prime-video':service.id==='disney'?'disney-plus':service.id==='apple'?'apple-tv-plus':service.id==='max'?'hbo-max':service.id==='bbc'?'bbc-iplayer':service.id==='itv'?'itvx':service.id==='channel4'?'channel-4':'netflix'}/${key==='movies'?'movies':'tv-series'}`,cadence:'daily',note:OFFICIAL[service.id]?.note||'No compatible public official Movies/TV chart is currently used, so WozzaWatch falls back to JustWatch UK popularity.'};
