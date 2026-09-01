@@ -1,6 +1,6 @@
 {
-  "version": 17,
-  "generatedAt": "2026-09-01T12:26:39.673Z",
+  "version": 12,
+  "generatedAt": "2026-09-01T14:07:15.338Z",
   "country": "GB",
   "strategy": "Official source first; labelled fallback when no compatible official chart is available.",
   "services": {
@@ -443,15 +443,15 @@
         },
         {
           "rank": 10,
-          "sourceRank": 32,
-          "title": "Napoleon Dynamite",
-          "year": 2004,
-          "poster": "/poster/138611435/s166/napoleon-dynamite.webp",
-          "url": "https://www.justwatch.com/uk/movie/napoleon-dynamite",
-          "trend": "DOWN",
-          "trendDifference": -10,
-          "daysInTop10": null,
-          "topRank": 20
+          "sourceRank": 27,
+          "title": "Vivarium",
+          "year": 2019,
+          "poster": "/poster/320938027/s166/vivarium.webp",
+          "url": "https://www.justwatch.com/uk/movie/vivarium",
+          "trend": "UP",
+          "trendDifference": 75,
+          "daysInTop10": 2,
+          "topRank": 2
         }
       ],
       "tv": [
@@ -580,18 +580,16 @@
         "movies": {
           "kind": "fallback",
           "label": "JustWatch UK",
-          "displayName": "JustWatch",
           "url": "https://www.justwatch.com/uk/provider/amazon-prime-video/movies",
           "cadence": "daily",
-          "note": "Prime Video currently uses JustWatch UK popularity while no reliable Prime-specific chart source is configured."
+          "note": "No compatible public official Movies/TV chart is currently used, so WozzaWatch falls back to JustWatch UK popularity."
         },
         "tv": {
           "kind": "fallback",
           "label": "JustWatch UK",
-          "displayName": "JustWatch",
           "url": "https://www.justwatch.com/uk/provider/amazon-prime-video/tv-series",
           "cadence": "daily",
-          "note": "Prime Video currently uses JustWatch UK popularity while no reliable Prime-specific chart source is configured."
+          "note": "No compatible public official Movies/TV chart is currently used, so WozzaWatch falls back to JustWatch UK popularity."
         }
       },
       "error": null
@@ -673,13 +671,13 @@
         },
         {
           "rank": 7,
-          "sourceRank": 57,
+          "sourceRank": 78,
           "title": "The Lost World: Jurassic Park",
           "year": 1997,
           "poster": "/poster/248318812/s166/the-lost-world-jurassic-park.webp",
           "url": "https://www.justwatch.com/uk/movie/the-lost-world-jurassic-park",
-          "trend": "UP",
-          "trendDifference": 2,
+          "trend": "DOWN",
+          "trendDifference": -19,
           "daysInTop10": 1,
           "topRank": 5
         },
@@ -846,18 +844,16 @@
         "movies": {
           "kind": "fallback",
           "label": "JustWatch UK",
-          "displayName": "JustWatch",
           "url": "https://www.justwatch.com/uk/provider/disney-plus/movies",
           "cadence": "daily",
-          "note": "Disney+ currently uses JustWatch UK popularity while no reliable separate official Movies/TV chart source is configured."
+          "note": "Disney+ publishes a combined UK Top 10; WozzaWatch keeps separate Movies/TV tabs, so it uses a fallback for those tabs."
         },
         "tv": {
           "kind": "fallback",
           "label": "JustWatch UK",
-          "displayName": "JustWatch",
           "url": "https://www.justwatch.com/uk/provider/disney-plus/tv-series",
           "cadence": "daily",
-          "note": "Disney+ currently uses JustWatch UK popularity while no reliable separate official Movies/TV chart source is configured."
+          "note": "Disney+ publishes a combined UK Top 10; WozzaWatch keeps separate Movies/TV tabs, so it uses a fallback for those tabs."
         }
       },
       "error": null
@@ -1087,7 +1083,7 @@
           "rank": 9,
           "title": "Your Friends & Neighbours",
           "year": 2025,
-          "poster": "/poster/329436694/s166/your-friends-and-neighbors.webp",
+          "poster": "/poster/344285930/s166/your-friends-and-neighbors.webp",
           "url": "https://tv.apple.com/gb/show/your-friends--neighbours/umc.cmc.74o37kzay0yuuub8iumddjsg",
           "trend": null,
           "trendDifference": 0,
@@ -1239,13 +1235,13 @@
         },
         {
           "rank": 10,
-          "sourceRank": 51,
+          "sourceRank": 47,
           "title": "Wuthering Heights",
           "year": 2026,
           "poster": "/poster/346670219/s166/wuthering-heights-2026.webp",
           "url": "https://www.justwatch.com/uk/movie/wuthering-heights-2026",
           "trend": "UP",
-          "trendDifference": 14,
+          "trendDifference": 18,
           "daysInTop10": 3,
           "topRank": 6
         }
@@ -1325,18 +1321,6 @@
         },
         {
           "rank": 7,
-          "sourceRank": 37,
-          "title": "The Big Bang Theory",
-          "year": 2007,
-          "poster": "/poster/86201639/s166/the-big-bang-theory.webp",
-          "url": "https://www.justwatch.com/uk/tv-series/the-big-bang-theory",
-          "trend": "UP",
-          "trendDifference": 5,
-          "daysInTop10": 1092,
-          "topRank": 1
-        },
-        {
-          "rank": 8,
           "sourceRank": 42,
           "title": "Rick and Morty",
           "year": 2013,
@@ -1345,6 +1329,18 @@
           "trend": "DOWN",
           "trendDifference": -5,
           "daysInTop10": 496,
+          "topRank": 1
+        },
+        {
+          "rank": 8,
+          "sourceRank": 43,
+          "title": "The Big Bang Theory",
+          "year": 2007,
+          "poster": "/poster/86201639/s166/the-big-bang-theory.webp",
+          "url": "https://www.justwatch.com/uk/tv-series/the-big-bang-theory",
+          "trend": "DOWN",
+          "trendDifference": -1,
+          "daysInTop10": 1092,
           "topRank": 1
         },
         {
@@ -1376,7 +1372,6 @@
         "movies": {
           "kind": "fallback",
           "label": "JustWatch UK",
-          "displayName": "JustWatch",
           "url": "https://www.justwatch.com/uk/provider/hbo-max/movies",
           "cadence": "daily",
           "note": "No compatible public official Movies/TV chart is currently used, so WozzaWatch falls back to JustWatch UK popularity."
@@ -1384,7 +1379,6 @@
         "tv": {
           "kind": "fallback",
           "label": "JustWatch UK",
-          "displayName": "JustWatch",
           "url": "https://www.justwatch.com/uk/provider/hbo-max/tv-series",
           "cadence": "daily",
           "note": "No compatible public official Movies/TV chart is currently used, so WozzaWatch falls back to JustWatch UK popularity."
@@ -1409,13 +1403,13 @@
         },
         {
           "rank": 2,
-          "sourceRank": 3039,
+          "sourceRank": 3071,
           "title": "André Is an Idiot",
           "year": 2026,
           "poster": "/poster/343098259/s166/andre-is-an-idiot.webp",
           "url": "https://www.justwatch.com/uk/movie/andre-is-an-idiot",
           "trend": "DOWN",
-          "trendDifference": -12,
+          "trendDifference": -43,
           "daysInTop10": null,
           "topRank": 22
         },
@@ -1553,13 +1547,13 @@
         },
         {
           "rank": 4,
-          "sourceRank": 348,
+          "sourceRank": 350,
           "title": "Inside No. 9",
           "year": 2014,
           "poster": "/poster/272701868/s166/inside-no-9.webp",
           "url": "https://www.justwatch.com/uk/tv-series/inside-no-9",
-          "trend": "STABLE",
-          "trendDifference": 0,
+          "trend": "DOWN",
+          "trendDifference": -2,
           "daysInTop10": 22,
           "topRank": 3
         },
@@ -1613,18 +1607,6 @@
         },
         {
           "rank": 9,
-          "sourceRank": 521,
-          "title": "Merlin",
-          "year": 2008,
-          "poster": "/poster/138973101/s166/merlin.webp",
-          "url": "https://www.justwatch.com/uk/tv-series/merlin",
-          "trend": "UP",
-          "trendDifference": 11,
-          "daysInTop10": 1,
-          "topRank": 4
-        },
-        {
-          "rank": 10,
           "sourceRank": 636,
           "title": "King Gary",
           "year": 2020,
@@ -1634,13 +1616,24 @@
           "trendDifference": -80,
           "daysInTop10": null,
           "topRank": 69
+        },
+        {
+          "rank": 10,
+          "sourceRank": 676,
+          "title": "His Dark Materials",
+          "year": 2019,
+          "poster": "/poster/212065735/s166/his-dark-materials.webp",
+          "url": "https://www.justwatch.com/uk/tv-series/his-dark-materials",
+          "trend": "DOWN",
+          "trendDifference": -247,
+          "daysInTop10": 49,
+          "topRank": 2
         }
       ],
       "sources": {
         "movies": {
           "kind": "fallback",
           "label": "JustWatch UK",
-          "displayName": "JustWatch",
           "url": "https://www.justwatch.com/uk/provider/bbc-iplayer/movies",
           "cadence": "daily",
           "note": "No compatible public official Movies/TV chart is currently used, so WozzaWatch falls back to JustWatch UK popularity."
@@ -1648,7 +1641,6 @@
         "tv": {
           "kind": "fallback",
           "label": "JustWatch UK",
-          "displayName": "JustWatch",
           "url": "https://www.justwatch.com/uk/provider/bbc-iplayer/tv-series",
           "cadence": "daily",
           "note": "No compatible public official Movies/TV chart is currently used, so WozzaWatch falls back to JustWatch UK popularity."
@@ -1777,13 +1769,13 @@
       "tv": [
         {
           "rank": 1,
-          "sourceRank": 71,
+          "sourceRank": 62,
           "title": "Battlestar Galactica",
           "year": 2004,
           "poster": "/poster/71839228/s166/battlestar-galactica.webp",
           "url": "https://www.justwatch.com/uk/tv-series/battlestar-galactica",
           "trend": "UP",
-          "trendDifference": 5,
+          "trendDifference": 14,
           "daysInTop10": 6,
           "topRank": 1
         },
@@ -1849,13 +1841,13 @@
         },
         {
           "rank": 7,
-          "sourceRank": 3852,
+          "sourceRank": 3854,
           "title": "Coronation Street",
           "year": 2010,
           "poster": "/poster/320953901/s166/coronation-street.webp",
           "url": "https://www.justwatch.com/uk/tv-series/coronation-street",
           "trend": "DOWN",
-          "trendDifference": -10,
+          "trendDifference": -12,
           "daysInTop10": null,
           "topRank": 75
         },
@@ -1873,13 +1865,13 @@
         },
         {
           "rank": 9,
-          "sourceRank": 7695,
+          "sourceRank": 7691,
           "title": "Serial Killer with Piers Morgan",
           "year": 2017,
           "poster": "/poster/142914488/s166/serial-killer-with-piers-morgan.webp",
           "url": "https://www.justwatch.com/uk/tv-series/serial-killer-with-piers-morgan",
           "trend": "UP",
-          "trendDifference": 5,
+          "trendDifference": 1,
           "daysInTop10": null,
           "topRank": 174
         },
@@ -1900,7 +1892,6 @@
         "movies": {
           "kind": "fallback",
           "label": "JustWatch UK",
-          "displayName": "JustWatch",
           "url": "https://www.justwatch.com/uk/provider/itvx/movies",
           "cadence": "daily",
           "note": "No compatible public official Movies/TV chart is currently used, so WozzaWatch falls back to JustWatch UK popularity."
@@ -1908,7 +1899,6 @@
         "tv": {
           "kind": "fallback",
           "label": "JustWatch UK",
-          "displayName": "JustWatch",
           "url": "https://www.justwatch.com/uk/provider/itvx/tv-series",
           "cadence": "daily",
           "note": "No compatible public official Movies/TV chart is currently used, so WozzaWatch falls back to JustWatch UK popularity."
@@ -2153,7 +2143,6 @@
         "movies": {
           "kind": "fallback",
           "label": "JustWatch UK",
-          "displayName": "JustWatch",
           "url": "https://www.justwatch.com/uk/provider/channel-4/movies",
           "cadence": "daily",
           "note": "No compatible public official Movies/TV chart is currently used, so WozzaWatch falls back to JustWatch UK popularity."
@@ -2161,7 +2150,6 @@
         "tv": {
           "kind": "fallback",
           "label": "JustWatch UK",
-          "displayName": "JustWatch",
           "url": "https://www.justwatch.com/uk/provider/channel-4/tv-series",
           "cadence": "daily",
           "note": "No compatible public official Movies/TV chart is currently used, so WozzaWatch falls back to JustWatch UK popularity."
@@ -2284,8 +2272,7 @@
           "note": "Official UK weekend box-office Top 10 published by the UK Cinema Association using Comscore data."
         }
       },
-      "error": null,
-      "stale": true
+      "error": null
     },
     "uscinema": {
       "provider": "US Cinema",
@@ -2566,191 +2553,8 @@
           "note": "Official UK chart compiled by the Official Charts Company."
         }
       },
-      "error": null
-    },
-    "usmusic": {
-      "provider": "USA Music",
-      "singles": [
-        {
-          "rank": 1,
-          "title": "Choosin' Texas",
-          "artist": "Ella Langley",
-          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e2/91/4d/e2914d0a-7f1d-f04c-fbf4-c50b38548838/196873638690.jpg/400x400bb.jpg",
-          "detailsUrl": "https://ca.billboard.com/charts/hot-100",
-          "musicUrl": "https://music.apple.com/us/album/choosin-texas/1844932149?i=1844932150&uo=4"
-        },
-        {
-          "rank": 2,
-          "title": "Boston",
-          "artist": "Stella Lefty",
-          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7c/de/5e/7cde5e7a-612d-9714-d34c-1eb234c85ebb/810129961546.jpg/400x400bb.jpg",
-          "detailsUrl": "https://ca.billboard.com/charts/hot-100",
-          "musicUrl": "https://music.apple.com/us/album/boston/1884403092?i=1884403093&uo=4"
-        },
-        {
-          "rank": 3,
-          "title": "I Knew It, I Knew You",
-          "artist": "Taylor Swift",
-          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/34/35/6c/34356cb4-bd0b-3bac-b118-1a6d7264dc64/26UMGIM69942.rgb.jpg/400x400bb.jpg",
-          "detailsUrl": "https://ca.billboard.com/charts/hot-100",
-          "musicUrl": "https://music.apple.com/us/album/i-knew-it-i-knew-you-from-toy-story-5/6775527442?i=6775527443&uo=4"
-        },
-        {
-          "rank": 4,
-          "title": "Been By Now",
-          "artist": "Morgan Wallen",
-          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9f/8d/52/9f8d52a0-b6d9-d038-327b-4fe58bedce67/26UMGIM94572.rgb.jpg/400x400bb.jpg",
-          "detailsUrl": "https://ca.billboard.com/charts/hot-100",
-          "musicUrl": "https://music.apple.com/us/album/been-by-now/6792676858?i=6792676860&uo=4"
-        },
-        {
-          "rank": 5,
-          "title": "Hate That I Made You Love Me",
-          "artist": "Ariana Grande",
-          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/56/f4/96/56f49612-02dd-83f4-44fe-d2118cc70707/26UMGIM51129.rgb.jpg/400x400bb.jpg",
-          "detailsUrl": "https://ca.billboard.com/charts/hot-100",
-          "musicUrl": "https://music.apple.com/us/album/hate-that-i-made-you-love-me/1895420874?i=6763656725&uo=4"
-        },
-        {
-          "rank": 6,
-          "title": "I Can't Love You Anymore",
-          "artist": "Ella Langley & Morgan Wallen",
-          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/26/35/03/26350323-d656-4817-49e6-4d658af8363a/196874332917.jpg/400x400bb.jpg",
-          "detailsUrl": "https://ca.billboard.com/charts/hot-100",
-          "musicUrl": "https://music.apple.com/us/album/i-cant-love-you-anymore/1895159736?i=6763094377&uo=4"
-        },
-        {
-          "rank": 7,
-          "title": "So Easy (To Fall In Love)",
-          "artist": "Olivia Dean",
-          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/08/e2/21/08e22164-7c0b-1522-818f-e0e74f62dc49/25UMGIM69703.rgb.jpg/400x400bb.jpg",
-          "detailsUrl": "https://ca.billboard.com/charts/hot-100",
-          "musicUrl": "https://music.apple.com/us/album/so-easy-to-fall-in-love/1817609404?i=1817609507&uo=4"
-        },
-        {
-          "rank": 8,
-          "title": "Dracula",
-          "artist": "Tame Impala & JENNIE",
-          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/36/be/b4/36beb41f-c644-55cb-9fbb-bf0622a66653/196873644783.jpg/400x400bb.jpg",
-          "detailsUrl": "https://ca.billboard.com/charts/hot-100",
-          "musicUrl": "https://music.apple.com/us/album/dracula/1842444456?i=1842444457&uo=4"
-        },
-        {
-          "rank": 9,
-          "title": "Man I Need",
-          "artist": "Olivia Dean",
-          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/08/e2/21/08e22164-7c0b-1522-818f-e0e74f62dc49/25UMGIM69703.rgb.jpg/400x400bb.jpg",
-          "detailsUrl": "https://ca.billboard.com/charts/hot-100",
-          "musicUrl": "https://music.apple.com/us/album/man-i-need/1817609404?i=1817609509&uo=4"
-        },
-        {
-          "rank": 10,
-          "title": "Be Her",
-          "artist": "Ella Langley",
-          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a1/ba/64/a1ba6484-f462-1b88-ddff-d4c014d5f265/196874018361.jpg/400x400bb.jpg",
-          "detailsUrl": "https://ca.billboard.com/charts/hot-100",
-          "musicUrl": "https://music.apple.com/us/album/be-her/1869436835?i=1869436845&uo=4"
-        }
-      ],
-      "albums": [
-        {
-          "rank": 1,
-          "title": "WILD (EP)",
-          "artist": "KATSEYE",
-          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0a/63/b5/0a63b5b0-dff7-1194-79c0-6bc8f5ab2d74/093624821526.jpg/400x400bb.jpg",
-          "detailsUrl": "https://ca.billboard.com/charts/billboard-200",
-          "musicUrl": "https://music.apple.com/us/album/wild/1885046822?uo=4"
-        },
-        {
-          "rank": 2,
-          "title": "Lost Weekend",
-          "artist": "Phoebe Bridgers",
-          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/aa/9e/a6/aa9ea64a-bbf2-470e-b447-fa407b4645fa/66852.jpg/400x400bb.jpg",
-          "detailsUrl": "https://ca.billboard.com/charts/billboard-200",
-          "musicUrl": "https://music.apple.com/us/album/lost-weekend/6781051268?uo=4"
-        },
-        {
-          "rank": 3,
-          "title": "This & That",
-          "artist": "Stray Kids",
-          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c0/05/aa/c005aa79-a3a7-6e28-48e2-4c5e72eff603/8809928957357_Cover.jpg/400x400bb.jpg",
-          "detailsUrl": "https://ca.billboard.com/charts/billboard-200",
-          "musicUrl": "https://music.apple.com/us/album/this-that/6781751949?uo=4"
-        },
-        {
-          "rank": 4,
-          "title": "you seem pretty sad for a girl so in love",
-          "artist": "Olivia Rodrigo",
-          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/92/51/b9925128-dac6-2cef-5674-d5ebbe1a4e83/26UMGIM75556.rgb.jpg/400x400bb.jpg",
-          "detailsUrl": "https://ca.billboard.com/charts/billboard-200",
-          "musicUrl": "https://music.apple.com/us/album/you-seem-pretty-sad-for-a-girl-so-in-love/6779097512?uo=4"
-        },
-        {
-          "rank": 5,
-          "title": "Dandelion",
-          "artist": "Ella Langley",
-          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/26/35/03/26350323-d656-4817-49e6-4d658af8363a/196874332917.jpg/400x400bb.jpg",
-          "detailsUrl": "https://ca.billboard.com/charts/billboard-200",
-          "musicUrl": "https://music.apple.com/us/album/dandelion/1895159736?uo=4"
-        },
-        {
-          "rank": 6,
-          "title": "I'm The Problem",
-          "artist": "Morgan Wallen",
-          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fa/60/fe/fa60fe4a-4329-a0bb-eb7c-3b6094a4d831/25UMGIM46049.rgb.jpg/400x400bb.jpg",
-          "detailsUrl": "https://ca.billboard.com/charts/billboard-200",
-          "musicUrl": "https://music.apple.com/us/album/im-the-problem/1802103906?uo=4"
-        },
-        {
-          "rank": 7,
-          "title": "The Great Divide",
-          "artist": "Noah Kahan",
-          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e0/53/5b/e0535bb5-a269-8cc4-e12f-589e26809569/26UMGIM02802.rgb.jpg/400x400bb.jpg",
-          "detailsUrl": "https://ca.billboard.com/charts/billboard-200",
-          "musicUrl": "https://music.apple.com/us/album/the-great-divide/1872241079?uo=4"
-        },
-        {
-          "rank": 8,
-          "title": "petal",
-          "artist": "Ariana Grande",
-          "poster": null,
-          "detailsUrl": "https://ca.billboard.com/charts/billboard-200"
-        },
-        {
-          "rank": 9,
-          "title": "ICEMAN",
-          "artist": "Drake",
-          "poster": null,
-          "detailsUrl": "https://ca.billboard.com/charts/billboard-200"
-        },
-        {
-          "rank": 10,
-          "title": "The Art Of Loving",
-          "artist": "Olivia Dean",
-          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/08/e2/21/08e22164-7c0b-1522-818f-e0e74f62dc49/25UMGIM69703.rgb.jpg/400x400bb.jpg",
-          "detailsUrl": "https://ca.billboard.com/charts/billboard-200",
-          "musicUrl": "https://music.apple.com/us/album/the-art-of-loving/1817609404?uo=4"
-        }
-      ],
-      "sources": {
-        "singles": {
-          "kind": "official",
-          "label": "Billboard",
-          "displayName": "Billboard",
-          "url": "https://ca.billboard.com/charts/hot-100",
-          "cadence": "weekly",
-          "note": "Billboard Hot 100 — the weekly US singles chart."
-        },
-        "albums": {
-          "kind": "official",
-          "label": "Billboard",
-          "displayName": "Billboard",
-          "url": "https://ca.billboard.com/charts/billboard-200",
-          "cadence": "weekly",
-          "note": "Billboard 200 — the weekly US albums chart."
-        }
-      },
-      "error": null
+      "error": null,
+      "stale": true
     }
   }
 }
