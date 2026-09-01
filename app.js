@@ -94,12 +94,13 @@ function syncControls({scroll = true} = {}) {
     button.classList.toggle('active', button.dataset.type === state.type);
   });
   const segmented = document.querySelector('.segmented');
-  if (segmented) segmented.classList.toggle('cinema-hidden', Boolean(state.service.cinema));
+  if (segmented) { segmented.classList.toggle('cinema-hidden', Boolean(state.service.cinema)); segmented.classList.toggle('disney-combined', state.service.id === 'disney'); }
 }
 
 function selectService(index, {scroll = true} = {}) {
   if (index < 0 || index >= SERVICES.length) return false;
   state.service = SERVICES[index];
+  if (state.type === 'COMBINED' && state.service.id !== 'disney') state.type = 'MOVIE';
   if (state.service.cinema) state.type = 'MOVIE';
   syncControls({scroll});
   renderCurrent();
@@ -126,6 +127,7 @@ function providerIndex() {
 function setProviderIndex(index) {
   if (index < 0 || index >= SERVICES.length) return false;
   state.service = SERVICES[index];
+  if (state.type === 'COMBINED' && state.service.id !== 'disney') state.type = 'MOVIE';
   if (state.service.cinema) state.type = 'MOVIE';
   syncControls({scroll:true});
   renderCurrent();
@@ -134,7 +136,7 @@ function setProviderIndex(index) {
 
 function setContentType(type) {
   if (state.service.cinema) return false;
-  if (!['MOVIE','SHOW'].includes(type) || state.type === type) return false;
+  if (!['MOVIE','SHOW','COMBINED'].includes(type) || (type === 'COMBINED' && state.service.id !== 'disney') || state.type === type) return false;
   state.type = type;
   syncControls({scroll:false});
   renderCurrent();
@@ -401,8 +403,8 @@ function setLoading(on) {
 
 function renderCurrent() {
   const service = state.service;
-  const key = state.type === 'MOVIE' ? 'movies' : 'tv';
-  const typeLabel = state.type === 'MOVIE' ? 'Movies' : 'TV Shows';
+  const key = state.type === 'MOVIE' ? 'movies' : state.type === 'SHOW' ? 'tv' : 'combined';
+  const typeLabel = state.type === 'MOVIE' ? 'Movies' : state.type === 'SHOW' ? 'TV Shows' : 'Combined';
   const serviceData = state.data?.services?.[service.id];
   const source = serviceData?.sources?.[key];
   const fallbackUrl = source?.url || justWatchUrl(service, state.type);
@@ -462,6 +464,7 @@ async function loadData() {
 document.querySelectorAll('.segmented button').forEach(button => {
   button.addEventListener('click', () => {
     if (state.service.cinema) return;
+    if (button.dataset.type === 'COMBINED' && state.service.id !== 'disney') return;
     state.type = button.dataset.type;
     syncControls({scroll:false});
     renderCurrent();

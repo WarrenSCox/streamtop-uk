@@ -17,6 +17,7 @@ const UK_CINEMA_URL = 'https://www.cinemauk.org.uk/the-industry/facts-and-figure
 const US_CINEMA_URL = 'https://www.imdb.com/chart/boxoffice/?ref_=ext_shr_lnk';
 const HBO_UK_MOVIES_URL = 'https://www.hbomax.com/gb/en/movies';
 const HBO_UK_SHOWS_URL = 'https://www.hbomax.com/gb/en/shows';
+const DISNEY_UK_URL='https://www.disneyplus.com/en-gb';
 const SERVICES = [
   { id:'netflix', name:'Netflix', aliases:['Netflix'] },
   { id:'prime', name:'Prime Video', aliases:['Amazon Prime Video','Prime Video'] },
@@ -102,6 +103,28 @@ async function fetchOfficialHBOMax(url, marker, kind) {
   const items=extractHBOOfficialTitles(html,marker,kind);
   if(items.length!==10) throw new Error(`${marker} returned ${items.length}/10`);
   return items;
+}
+
+function decodeDisneyEscapes(v='') { return String(v).replace(/\\u0026/g,'&').replace(/\\u003c/g,'<').replace(/\\u003e/g,'>').replace(/\\\"/g,'"'); }
+function extractDisneyCombined(html) {
+  const sectionAt=html.indexOf('Top 10 Today');
+  if(sectionAt<0) throw new Error('Disney UK Top 10 Today shelf not found');
+  const start=Math.max(0,sectionAt-2500), end=Math.min(html.length,sectionAt+180000);
+  const chunk=html.slice(start,end);
+  const re=/"_type":"TopRankedCard","_id":"([^"]+)","title":"([^"]+)"[\s\S]{0,5000}?"ripcutId":"([^"]+)"[\s\S]{0,1500}?"label":"top_ranked_(\d+)[^"]*"[\s\S]{0,12000}?"year":"?(\d{4})?"?/g;
+  const found=new Map(); let m;
+  while((m=re.exec(chunk))){
+    const rank=Number(m[4]); if(rank<1||rank>10||found.has(rank)) continue;
+    const id=m[1], title=decodeDisneyEscapes(m[2]), imageId=m[3], year=m[5]?Number(m[5]):null;
+    found.set(rank,{rank,title,year,poster:`https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/${imageId}/compose?format=webp&width=386&label=top_ranked_${rank}_080`,detailsUrl:`https://www.disneyplus.com/en-gb/browse/entity-${id}`});
+  }
+  const items=[...found.values()].sort((a,b)=>a.rank-b.rank);
+  if(items.length!==10) throw new Error(`Disney UK combined returned ${items.length}/10`);
+  return items;
+}
+async function fetchOfficialDisneyCombined(){
+  const html=await fetchText(DISNEY_UK_URL,{'accept':'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8','accept-language':'en-GB,en;q=0.9'});
+  return extractDisneyCombined(html);
 }
 
 async function gql(query, variables) {
@@ -1045,6 +1068,7 @@ const packageData=await gql(PACKAGES_QUERY,{country:'GB',platform:'WEB'}); const
 let netflixOfficial=null; try{netflixOfficial=await fetchOfficialNetflix(); console.log(`Netflix official week ${netflixOfficial.week}`);}catch(err){console.error('Netflix official:',err.message);}
 let appleMoviesOfficial=null; try{appleMoviesOfficial=await fetchOfficialApple(APPLE_MOVIES_URL,'MOVIE'); console.log(`Apple official movies: ${appleMoviesOfficial.length}`);}catch(err){console.error('Apple official movies:',err.message);}
 let appleTVOfficial=null; try{appleTVOfficial=await fetchOfficialApple(APPLE_TV_URL,'SHOW'); console.log(`Apple official TV: ${appleTVOfficial.length}`);}catch(err){console.error('Apple official TV:',err.message);}
+let disneyCombinedOfficial=null; try{disneyCombinedOfficial=await fetchOfficialDisneyCombined(); console.log(`Disney official combined: ${disneyCombinedOfficial.length}`);}catch(err){console.error('Disney official combined:',err.message);}
 let hboMoviesOfficial=null; try{hboMoviesOfficial=await fetchOfficialHBOMax(HBO_UK_MOVIES_URL,'Most Popular Movies','MOVIE'); console.log(`HBO Max official movies: ${hboMoviesOfficial.length}`);}catch(err){console.error('HBO Max official movies:',err.message);}
 let hboTVOfficial=null; try{hboTVOfficial=await fetchOfficialHBOMax(HBO_UK_SHOWS_URL,'Most Popular Series','SHOW'); console.log(`HBO Max official TV: ${hboTVOfficial.length}`);}catch(err){console.error('HBO Max official TV:',err.message);}
 let ukCinemaOfficial=null; try{ukCinemaOfficial=await fetchOfficialUKCinema(); console.log(`UK cinema official: ${ukCinemaOfficial.length}`);}catch(err){console.error('UK cinema official:',err.message);}
@@ -1082,6 +1106,13 @@ for(const service of SERVICES){
       if(Array.isArray(old)&&old.length){ entry[key]=old.map((x,i)=>({...x,rank:i+1})); entry.sources[key]=previous.services[service.id]?.sources?.[key]||{kind:'stale',label:'Previous cached result',url:null,note:'Fresh data was unavailable.'}; entry.stale=true; }
       else entry.error=[entry.error,`${key}: no ranking available`].filter(Boolean).join(' | ');
     }
+  }
+  if(service.id==='disney' && disneyCombinedOfficial?.length===10){
+    entry.combined=disneyCombinedOfficial;
+    entry.sources.combined={kind:'official',label:'Official Disney+',displayName:'Disney+',url:DISNEY_UK_URL,cadence:'daily',note:'Disney+ UK Top 10 Today, read directly from the public Disney+ UK homepage.'};
+  } else if(service.id==='disney') {
+    const oldCombined=previous?.services?.disney?.combined;
+    if(Array.isArray(oldCombined)&&oldCombined.length){ entry.combined=oldCombined; entry.sources.combined=previous.services.disney?.sources?.combined||{kind:'stale',label:'Previous cached result',url:DISNEY_UK_URL,note:'Fresh Disney combined data was unavailable.'}; }
   }
   output.services[service.id]=entry;
 }

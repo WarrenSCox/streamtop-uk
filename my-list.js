@@ -12,7 +12,7 @@ function render(){
  chartTitle.textContent=currentType==='SHOW'?'MY LIST TV SHOWS':'MY LIST MOVIES';
  emptyEl.classList.toggle('hidden',items.length>0);
  emptyEl.querySelector('strong').textContent=currentType==='SHOW'?'No TV shows yet 👀':'No movies yet 👀';
- emptyEl.querySelector('p').innerHTML=`Add titles to your list from the chart pages by clicking the <span class="instruction-eyes">${eyes()}</span>.`;
+ emptyEl.querySelector('p').innerHTML=`Add titles to your list from the chart pages by clicking the <span class="instruction-eyes">${eyes()}</span>`;
  items.forEach((item,i)=>{
   const li=document.createElement('li');li.className=`chart-item accent-${i%4}`;
   const rank=document.createElement('div');rank.className='rank';rank.textContent=String(i+1).padStart(2,'0');
