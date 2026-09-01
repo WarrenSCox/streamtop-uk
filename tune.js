@@ -1,95 +1,12 @@
-const state={service:'ukmusic',type:'SINGLE',data:null};
-const SERVICE_ORDER=['ukmusic','usmusic'];
-const SERVICE_LABEL={ukmusic:'UK Music',usmusic:'USA Music'};
+const state={type:'SINGLE',data:null};
 const els={chart:document.querySelector('#chart'),loading:document.querySelector('#loading'),error:document.querySelector('#errorBox'),errorText:document.querySelector('#errorText'),fallback:document.querySelector('#fallbackLink'),chartTitle:document.querySelector('#chartTitle'),sourceBadge:document.querySelector('#sourceBadge'),updated:document.querySelector('#updatedText')};
-const SOURCES={ukmusic:{SINGLE:'https://www.officialcharts.com/charts/singles-chart/',ALBUM:'https://www.officialcharts.com/charts/albums-chart/'},usmusic:{SINGLE:'https://ca.billboard.com/charts/hot-100',ALBUM:'https://ca.billboard.com/charts/billboard-200'}};
+const SOURCES={SINGLE:'https://www.officialcharts.com/charts/singles-chart/',ALBUM:'https://www.officialcharts.com/charts/albums-chart/'};
 function dataUrls(){const u=[];const gh=location.hostname.match(/^([^.]+)\.github\.io$/i);const repo=location.pathname.split('/').filter(Boolean)[0];if(gh&&repo)u.push(`https://raw.githubusercontent.com/${gh[1]}/${repo}/main/data/rankings.json`);u.push('./data/rankings.json');return u}
-async function loadFeed(){let e;for(let a=0;a<2;a++){for(const base of dataUrls()){try{const r=await fetch(`${base}${base.includes('?')?'&':'?'}ww=${Date.now()}`,{cache:'no-store'});if(!r.ok)throw Error(`Ranking feed returned ${r.status}`);const b=await r.json();if(!b?.services?.ukmusic&&!b?.services?.usmusic)throw Error('Music rankings are not available yet');return b}catch(x){e=x}}if(!a)await new Promise(r=>setTimeout(r,700))}throw e||Error('Ranking feed unavailable')}
+async function loadFeed(){let e;for(let a=0;a<2;a++){for(const base of dataUrls()){try{const r=await fetch(`${base}${base.includes('?')?'&':'?'}ww=${Date.now()}`,{cache:'no-store'});if(!r.ok)throw Error(`Ranking feed returned ${r.status}`);const b=await r.json();if(!b?.services?.ukmusic)throw Error('UK Music ranking is not available yet');return b}catch(x){e=x}}if(!a)await new Promise(r=>setTimeout(r,700))}throw e||Error('Ranking feed unavailable')}
 function formatUpdated(v){if(!v)return'Waiting for update';const d=new Date(v);return Number.isNaN(d.getTime())?'Ranking cache loaded':`Updated ${new Intl.DateTimeFormat('en-GB',{weekday:'short',day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'}).format(d)}`}
 function fit(el,max=25,min=13){el.style.fontSize=`${max}px`;let n=max;while(el.scrollWidth>el.clientWidth&&n>min){n-=.5;el.style.fontSize=`${n}px`}}
-function sourceFor(){return SOURCES[state.service][state.type]}
-function render(){const key=state.type==='SINGLE'?'singles':'albums',label=state.type==='SINGLE'?'Singles':'Albums',d=state.data?.services?.[state.service],source=d?.sources?.[key];els.chartTitle.textContent=`${SERVICE_LABEL[state.service]} ${label}`;els.sourceBadge.href=source?.url||sourceFor();const official=source?.kind==='official';els.sourceBadge.className=`source-badge ${official?'official':'fallback'}`;els.sourceBadge.innerHTML=official?'<span class="source-text">Official Stats</span><span class="verified-tick" aria-hidden="true">✓</span>':`<span class="source-text">Stats from ${source?.displayName||source?.label||'source'}</span>`;els.fallback.href=source?.url||sourceFor();els.chart.innerHTML='';els.error.classList.add('hidden');requestAnimationFrame(()=>fit(els.chartTitle));const items=d?.[key];if(!Array.isArray(items)||!items.length){els.errorText.textContent='This chart is not available yet. You can still open the source directly.';els.error.classList.remove('hidden');return}items.slice(0,10).forEach((item,i)=>{const li=document.createElement('li');li.className=`chart-item accent-${i%4}`;const rank=document.createElement('div');rank.className='rank';rank.textContent=String(i+1).padStart(2,'0');const img=document.createElement('img');img.className='poster';img.alt='';img.loading='lazy';img.src=item.poster|| (state.type==='SINGLE'?'single-icon.svg':'album-icon.svg');const a=document.createElement('a');a.className='poster-link';a.href=item.detailsUrl||source?.url||sourceFor();a.target='_blank';a.rel='noopener';a.setAttribute('aria-label',`${item.title} — open details`);a.append(img);const info=document.createElement('div');info.className='item-info';const title=document.createElement('div');title.className='title';title.textContent=item.title||'Untitled';info.append(title);if(item.artist){const artist=document.createElement('div');artist.className='artist';artist.textContent=item.artist;info.append(artist)}li.append(rank,a,info);els.chart.append(li)});els.updated.textContent=formatUpdated(state.data?.generatedAt)}
-function setType(t){
-  if(!['SINGLE','ALBUM'].includes(t)||t===state.type)return;
-  state.type=t;
-  document.querySelectorAll('.segmented button').forEach(b=>b.classList.toggle('active',b.dataset.type===t));
-  render();
-}
-function setService(id,direction=0){
-  if(!SERVICE_ORDER.includes(id)||id===state.service)return;
-  state.service=id;
-  document.querySelectorAll('.service-tab').forEach(b=>b.classList.toggle('active',b.dataset.service===id));
-  const active=document.querySelector(`.service-tab[data-service="${id}"]`);
-  active?.scrollIntoView({behavior:'smooth',block:'nearest',inline:'center'});
-  if(direction){
-    const out=direction>0?'chart-out-prev':'chart-out-next',inn=direction>0?'chart-in-prev':'chart-in-next';
-    card.dataset.animating='1';
-    card.classList.add(out);
-    setTimeout(()=>{
-      card.classList.remove(out);
-      render();
-      card.classList.add(inn);
-      setTimeout(()=>{card.classList.remove(inn);delete card.dataset.animating},230);
-    },170);
-  }else render();
-}
+function render(){const key=state.type==='SINGLE'?'singles':'albums',label=state.type==='SINGLE'?'Singles':'Albums',d=state.data?.services?.ukmusic,source=d?.sources?.[key];els.chartTitle.textContent=`UK Music ${label}`;els.sourceBadge.href=source?.url||SOURCES[state.type];els.sourceBadge.className='source-badge official';els.sourceBadge.innerHTML='<span class="source-text">Official Stats</span><span class="verified-tick" aria-hidden="true">✓</span>';els.fallback.href=source?.url||SOURCES[state.type];els.chart.innerHTML='';els.error.classList.add('hidden');requestAnimationFrame(()=>fit(els.chartTitle));const items=d?.[key];if(!Array.isArray(items)||!items.length){els.errorText.textContent='This chart is not available yet. You can still open the source directly.';els.error.classList.remove('hidden');return}items.slice(0,10).forEach((item,i)=>{const li=document.createElement('li');li.className=`chart-item accent-${i%4}`;const rank=document.createElement('div');rank.className='rank';rank.textContent=String(i+1).padStart(2,'0');const img=document.createElement('img');img.className='poster';img.alt='';img.loading='lazy';img.src=item.poster|| (state.type==='SINGLE'?'single-icon.svg':'album-icon.svg');const a=document.createElement('a');a.className='poster-link';a.href=item.detailsUrl||source?.url||SOURCES[state.type];a.target='_blank';a.rel='noopener';a.setAttribute('aria-label',`${item.title} — open details`);a.append(img);const info=document.createElement('div');info.className='item-info';const title=document.createElement('div');title.className='title';title.textContent=item.title||'Untitled';info.append(title);if(item.artist){const artist=document.createElement('div');artist.className='artist';artist.textContent=item.artist;info.append(artist)}li.append(rank,a,info);els.chart.append(li)});els.updated.textContent=formatUpdated(state.data?.generatedAt)}
+function setType(t){if(!['SINGLE','ALBUM'].includes(t)||t===state.type)return;state.type=t;document.querySelectorAll('.segmented button').forEach(b=>b.classList.toggle('active',b.dataset.type===t));render()}
 document.querySelectorAll('.segmented button').forEach(b=>b.addEventListener('click',()=>setType(b.dataset.type)));
-document.querySelectorAll('.service-tab').forEach(b=>b.addEventListener('click',()=>setService(b.dataset.service)));
-
-const card=document.querySelector('.chart-wrap');
-function initMusicGestures(){
-  if(!card)return;
-  let startX=0,startY=0,startTime=0,tracking=false,lastTapAt=0,lastTapX=0,lastTapY=0,tapTimer=null;
-
-  const toggleMusicType=()=>{
-    if(card.dataset.animating==='1')return;
-    const next=state.type==='SINGLE'?'ALBUM':'SINGLE';
-    card.dataset.animating='1';
-    card.classList.remove('chart-toggle');
-    void card.offsetWidth;
-    card.classList.add('chart-toggle');
-    setTimeout(()=>{
-      setType(next);
-      setTimeout(()=>{card.classList.remove('chart-toggle');delete card.dataset.animating},120);
-    },95);
-  };
-
-  card.addEventListener('touchstart',event=>{
-    if(event.touches.length!==1||card.dataset.animating==='1')return;
-    const touch=event.touches[0];
-    if(touch.clientX<24||touch.clientX>window.innerWidth-24)return;
-    startX=touch.clientX;startY=touch.clientY;startTime=Date.now();tracking=true;
-  },{passive:true});
-
-  card.addEventListener('touchend',event=>{
-    if(!tracking||event.changedTouches.length!==1)return;
-    tracking=false;
-    const touch=event.changedTouches[0];
-    const dx=touch.clientX-startX,dy=touch.clientY-startY,ax=Math.abs(dx),ay=Math.abs(dy),elapsed=Date.now()-startTime;
-
-    if(ax>=55&&ax>ay*1.2){
-      lastTapAt=0;if(tapTimer){clearTimeout(tapTimer);tapTimer=null}
-      const i=SERVICE_ORDER.indexOf(state.service);
-      const next=dx<0?(i+1)%SERVICE_ORDER.length:(i-1+SERVICE_ORDER.length)%SERVICE_ORDER.length;
-      setService(SERVICE_ORDER[next],dx<0?1:-1);
-      return;
-    }
-    if(ay>16||ax>16||elapsed>450)return;
-    if(event.target.closest('a,button'))return;
-
-    const now=Date.now();
-    const close=Math.hypot(touch.clientX-lastTapX,touch.clientY-lastTapY)<42;
-    if(lastTapAt&&now-lastTapAt<=330&&close){
-      if(tapTimer){clearTimeout(tapTimer);tapTimer=null}
-      lastTapAt=0;toggleMusicType();return;
-    }
-    lastTapAt=now;lastTapX=touch.clientX;lastTapY=touch.clientY;
-    if(tapTimer)clearTimeout(tapTimer);
-    tapTimer=setTimeout(()=>{lastTapAt=0;tapTimer=null},340);
-  },{passive:true});
-
-  card.addEventListener('touchcancel',()=>{tracking=false},{passive:true});
-  card.addEventListener('dblclick',event=>{if(!event.target.closest('a,button'))toggleMusicType()});
-}
-initMusicGestures();
+const card=document.querySelector('.chart-wrap');let sx=0,sy=0,st=0,lastTap=0,lastX=0,lastY=0;card.addEventListener('touchstart',e=>{if(e.touches.length!==1)return;const t=e.touches[0];sx=t.clientX;sy=t.clientY;st=Date.now()},{passive:true});card.addEventListener('touchend',e=>{if(e.changedTouches.length!==1||e.target.closest('a,button'))return;const t=e.changedTouches[0],dx=t.clientX-sx,dy=t.clientY-sy,ax=Math.abs(dx),ay=Math.abs(dy);if(ax>55&&ax>ay*1.2){setType(state.type==='SINGLE'?'ALBUM':'SINGLE');lastTap=0;return}if(ax>16||ay>16||Date.now()-st>450)return;const now=Date.now();if(lastTap&&now-lastTap<330&&Math.hypot(t.clientX-lastX,t.clientY-lastY)<42){setType(state.type==='SINGLE'?'ALBUM':'SINGLE');lastTap=0}else{lastTap=now;lastX=t.clientX;lastY=t.clientY}},{passive:true});card.addEventListener('dblclick',e=>{if(!e.target.closest('a,button'))setType(state.type==='SINGLE'?'ALBUM':'SINGLE')});
 (async()=>{try{state.data=await loadFeed();render()}catch(e){els.errorText.textContent=e.message;els.error.classList.remove('hidden');els.updated.textContent='Ranking feed unavailable'}finally{els.loading.classList.add('hidden')}})();

@@ -294,6 +294,76 @@ function posterUrl(raw) {
 const MOVIE_PLACEHOLDER = '<svg class="placeholder-icon" viewBox="0 0 64 64" aria-hidden="true"><path d="M12 24h40v28H12zM11 13.5 48 7l4 11-37 6.5z" fill="currentColor"/><path d="m18 12 8-1.4-5.3 10.1-8 1.4zm16-2.8 8-1.4-5.3 10.1-8 1.4z" fill="#eef0fb"/><rect x="18" y="32" width="28" height="5" rx="2.5" fill="#eef0fb"/></svg>';
 const TV_PLACEHOLDER = '<svg class="placeholder-icon" viewBox="0 0 64 64" aria-hidden="true"><rect x="21" y="5" width="22" height="54" rx="8" fill="currentColor"/><circle cx="32" cy="17" r="4" fill="#eef0fb"/><circle cx="27" cy="28" r="2.5" fill="#eef0fb"/><circle cx="37" cy="28" r="2.5" fill="#eef0fb"/><circle cx="32" cy="46" r="6" fill="none" stroke="#eef0fb" stroke-width="3"/></svg>';
 
+const WATCHLIST_KEY = 'wozzawatch-my-list-v1';
+
+function normaliseWatchKey(title, type = state.type) {
+  return `${type}|${String(title || '').trim().toLowerCase().replace(/\s+/g,' ')}`;
+}
+
+function readWatchlist() {
+  try {
+    const raw = JSON.parse(localStorage.getItem(WATCHLIST_KEY) || '[]');
+    return Array.isArray(raw) ? raw : [];
+  } catch {
+    return [];
+  }
+}
+
+function writeWatchlist(items) {
+  localStorage.setItem(WATCHLIST_KEY, JSON.stringify(items));
+}
+
+function isOnWatchlist(title, type = state.type) {
+  const key = normaliseWatchKey(title, type);
+  return readWatchlist().some(item => item.key === key);
+}
+
+function eyeSvg(active) {
+  return `<svg class="watch-eye-icon" viewBox="0 0 64 36" aria-hidden="true">
+    <path d="M3 18C8 9 14 5 22 5s14 4 19 13c-5 9-11 13-19 13S8 27 3 18Z" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linejoin="round"/>
+    <path d="M23 18c5-9 11-13 19-13s14 4 19 13c-5 9-11 13-19 13s-14-4-19-13Z" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linejoin="round"/>
+    <circle class="eye-pupil" cx="22" cy="18" r="5" fill="currentColor" opacity="${active ? 1 : 0}"/>
+    <circle class="eye-pupil" cx="42" cy="18" r="5" fill="currentColor" opacity="${active ? 1 : 0}"/>
+  </svg>`;
+}
+
+function updateWatchButton(button, active, title) {
+  button.classList.toggle('active', active);
+  button.setAttribute('aria-pressed', active ? 'true' : 'false');
+  button.setAttribute('aria-label', `${active ? 'Remove' : 'Add'} ${title || 'title'} ${active ? 'from' : 'to'} My List`);
+  button.title = active ? 'Remove from My List' : 'Add to My List';
+  button.innerHTML = eyeSvg(active);
+}
+
+function toggleWatchlist(item, button) {
+  const title = item.title || 'Untitled';
+  const key = normaliseWatchKey(title, state.type);
+  const list = readWatchlist();
+  const existing = list.findIndex(entry => entry.key === key);
+  let active;
+  if (existing >= 0) {
+    list.splice(existing, 1);
+    active = false;
+  } else {
+    list.unshift({
+      key,
+      title,
+      poster: item.poster || '',
+      type: state.type,
+      serviceId: state.service.id,
+      serviceName: state.service.name,
+      addedAt: new Date().toISOString()
+    });
+    active = true;
+  }
+  writeWatchlist(list);
+  updateWatchButton(button, active, title);
+}
+
+function youtubeTrailerUrl(title) {
+  return `https://www.youtube.com/results?search_query=${encodeURIComponent(`${title || 'trailer'} trailer`)}`;
+}
+
 function renderTitles(titles) {
   els.chart.innerHTML = '';
   if (!Array.isArray(titles) || !titles.length) throw new Error('No titles were returned for this chart.');
@@ -329,21 +399,27 @@ function renderTitles(titles) {
     const info = document.createElement('div');
     info.className = 'item-info';
 
-    const detailsHref = item.detailsUrl || item.url || justWatchUrl(state.service, state.type);
     const visualLink = document.createElement('a');
     visualLink.className = 'poster-link';
-    visualLink.href = detailsHref;
+    visualLink.href = youtubeTrailerUrl(item.title);
     visualLink.target = '_blank';
     visualLink.rel = 'noopener';
-    visualLink.setAttribute('aria-label', `${item.title || 'Untitled'} — open details`);
+    visualLink.setAttribute('aria-label', `${item.title || 'Untitled'} — search YouTube for trailer`);
+    visualLink.title = 'Search trailer on YouTube';
     visualLink.append(visual);
 
     const title = document.createElement('div');
     title.className = 'title';
     title.textContent = item.title || 'Untitled';
 
+    const watchButton = document.createElement('button');
+    watchButton.className = 'watch-toggle';
+    watchButton.type = 'button';
+    updateWatchButton(watchButton, isOnWatchlist(item.title, state.type), item.title || 'Untitled');
+    watchButton.addEventListener('click', () => toggleWatchlist(item, watchButton));
+
     info.append(title);
-    li.append(rank, visualLink, info);
+    li.append(rank, visualLink, info, watchButton);
     els.chart.appendChild(li);
   });
 }
