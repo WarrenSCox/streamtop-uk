@@ -1,6 +1,6 @@
 {
   "version": 17,
-  "generatedAt": "2026-09-01T16:39:18.828Z",
+  "generatedAt": "2026-09-01T17:34:53.620Z",
   "country": "GB",
   "strategy": "Official source first; labelled fallback when no compatible official chart is available.",
   "services": {
@@ -738,7 +738,7 @@
           "sourceRank": 10,
           "title": "Trigger Point",
           "year": 2022,
-          "poster": "/poster/320919928/s166/trigger-point.webp",
+          "poster": "/poster/350950214/s166/trigger-point.webp",
           "url": "https://www.justwatch.com/uk/tv-series/trigger-point",
           "trend": "STABLE",
           "trendDifference": 0,
@@ -2204,8 +2204,7 @@
           "note": "Official UK weekend box-office Top 10 published by the UK Cinema Association using Comscore data."
         }
       },
-      "error": null,
-      "stale": true
+      "error": null
     },
     "uscinema": {
       "provider": "US Cinema",
