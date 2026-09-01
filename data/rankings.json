@@ -1,6 +1,6 @@
 {
   "version": 17,
-  "generatedAt": "2026-09-01T19:01:01.820Z",
+  "generatedAt": "2026-09-01T19:06:52.978Z",
   "country": "GB",
   "strategy": "Official source first; labelled fallback when no compatible official chart is available.",
   "services": {
@@ -882,7 +882,7 @@
           "rank": 2,
           "title": "The Devil Wears Prada 2",
           "year": 2026,
-          "type": "MOVIE",
+          "type": null,
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/019fac2c-f245-7bf4-bd98-9b222eda6a9c/compose?format=webp&width=386&label=top_ranked_2_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-34bc6b99-813f-4d5d-bbe7-f3099b45879b"
         },
@@ -914,7 +914,7 @@
           "rank": 6,
           "title": "Marvel Studios' Avengers: Endgame",
           "year": 2019,
-          "type": "MOVIE",
+          "type": null,
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/6a8390cc-0240-46fc-9c52-5287ca3676eb/compose?format=webp&width=386&label=top_ranked_6_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-b39aa962-be56-4b09-a536-98617031717f"
         },
@@ -1551,18 +1551,6 @@
         },
         {
           "rank": 3,
-          "sourceRank": 288,
-          "title": "The Rapture",
-          "year": 2026,
-          "poster": "/poster/347600465/s166/the-rapture.webp",
-          "url": "https://www.justwatch.com/uk/tv-series/the-rapture",
-          "trend": "DOWN",
-          "trendDifference": -91,
-          "daysInTop10": null,
-          "topRank": 21
-        },
-        {
-          "rank": 4,
           "sourceRank": 291,
           "title": "The Trip",
           "year": 2010,
@@ -1574,7 +1562,7 @@
           "topRank": 9
         },
         {
-          "rank": 5,
+          "rank": 4,
           "sourceRank": 322,
           "title": "Inside No. 9",
           "year": 2014,
@@ -1584,6 +1572,18 @@
           "trendDifference": 26,
           "daysInTop10": 22,
           "topRank": 3
+        },
+        {
+          "rank": 5,
+          "sourceRank": 440,
+          "title": "The Rapture",
+          "year": 2026,
+          "poster": "/poster/347600465/s166/the-rapture.webp",
+          "url": "https://www.justwatch.com/uk/tv-series/the-rapture",
+          "trend": "UP",
+          "trendDifference": 336,
+          "daysInTop10": null,
+          "topRank": 21
         },
         {
           "rank": 6,
@@ -1859,13 +1859,13 @@
         },
         {
           "rank": 7,
-          "sourceRank": 3854,
+          "sourceRank": 3856,
           "title": "Coronation Street",
           "year": 2010,
           "poster": "/poster/320953901/s166/coronation-street.webp",
           "url": "https://www.justwatch.com/uk/tv-series/coronation-street",
           "trend": "DOWN",
-          "trendDifference": -12,
+          "trendDifference": -14,
           "daysInTop10": null,
           "topRank": 75
         },
@@ -2092,13 +2092,13 @@
         },
         {
           "rank": 5,
-          "sourceRank": 4537,
+          "sourceRank": 4541,
           "title": "Jack Irish",
           "year": 2016,
           "poster": "/poster/206000775/s166/jack-irish.webp",
           "url": "https://www.justwatch.com/uk/tv-series/jack-irish",
           "trend": "UP",
-          "trendDifference": 9,
+          "trendDifference": 5,
           "daysInTop10": 1,
           "topRank": 10
         },
@@ -2294,7 +2294,8 @@
           "note": "Official UK weekend box-office Top 10 published by the UK Cinema Association using Comscore data."
         }
       },
-      "error": null
+      "error": null,
+      "stale": true
     },
     "uscinema": {
       "provider": "US Cinema",
