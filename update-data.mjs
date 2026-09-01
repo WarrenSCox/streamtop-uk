@@ -2,7 +2,8 @@ import { mkdir, readFile, writeFile } from 'node:fs/promises';
 
 const ENDPOINT = 'https://apis.justwatch.com/graphql';
 const NETFLIX_TSV = 'https://www.netflix.com/tudum/top10/data/all-weeks-countries.tsv';
-const PRIME_MOVIES_URL = 'https://www.primevideo.com/movie/ref%3Datv_hom_Marqueetvuk_c_9zZ8D2_hom?tr=gb';
+const FLIXPATROL_PRIME_URL = 'https://flixpatrol.com/top10/amazon-prime/united-kingdom/';
+const FLIXPATROL_DISNEY_URL = 'https://flixpatrol.com/top10/disney/united-kingdom/';
 const APPLE_MOVIES_URL = 'https://tv.apple.com/gb/collection/most-popular-now/uts.col.ChartsMovies.tvs.sbd.4000';
 const APPLE_TV_URL = 'https://tv.apple.com/gb/collection/most-popular-now/uts.col.ChartsShows.tvs.sbd.4000';
 const UK_CINEMA_URL = 'https://www.cinemauk.org.uk/the-industry/facts-and-figures/latest-uk-cinema-statistics/weekend-top-10-box-office/';
@@ -26,10 +27,10 @@ const OFFICIAL = {
     note:'Netflix Tudum UK weekly Top 10',
   },
   prime: {
-    label:'Official Prime',
-    url:PRIME_MOVIES_URL,
-    cadence:'live',
-    note:'Prime Video public UK Top 10 movies',
+    label:'FlixPatrol',
+    url:FLIXPATROL_PRIME_URL,
+    cadence:'daily',
+    note:'Amazon Prime UK Top 10 Movies and TV Shows reported by FlixPatrol.',
   },
   appleMovies: {
     label:'Official Apple',
@@ -44,10 +45,10 @@ const OFFICIAL = {
     note:'Apple TV public UK Most Popular Now TV shows',
   },
   disney: {
-    label:'Official Disney+',
-    url:'https://www.disneyplus.com/en-gb/explore/what-to-watch',
+    label:'FlixPatrol',
+    url:FLIXPATROL_DISNEY_URL,
     cadence:'daily',
-    note:'Disney+ publishes a combined UK Top 10; WozzaWatch keeps separate Movies/TV tabs, so it uses a fallback for those tabs.',
+    note:'Disney+ UK Top 10 Movies and TV Shows reported by FlixPatrol.',
   }
 };
 
@@ -486,6 +487,42 @@ async function fetchOfficialPrimeMovies() {
   throw new Error(errors.join(' | ')||'Prime UK chart unavailable');
 }
 
+function parseFlixPatrolSection(text, heading, sourceUrl){
+  const clean=String(text).replace(/\r/g,'');
+  const startRe=new RegExp(`(?:^|\\n)#{1,4}\\s*${heading.replace(/[.*+?^${}()|[\\]\\]/g,'\\$&')}\\s*(?:\\n|$)`,'i');
+  const m=startRe.exec(clean); if(!m)return [];
+  let section=clean.slice(m.index+m[0].length);
+  const next=section.search(/\n#{1,4}\s+TOP\s+10\s+(?:Movies|TV Shows|Overall)/i);
+  if(next>=0)section=section.slice(0,next);
+  const items=[];
+  for(const line of section.split('\n')){
+    if(items.length>=10)break;
+    const s=line.replace(/\|/g,' | ').replace(/\s+/g,' ').trim();
+    let mm=s.match(/^(10|[1-9])\.\s*\|\s*[^|]*\|\s*([^|]+?)\s*\|/);
+    if(!mm) mm=s.match(/^(10|[1-9])\.\s+(.+?)(?:\s+\d+\s*d\s*)?$/i);
+    if(!mm)continue;
+    const rank=Number(mm[1]);
+    const title=decodeHtml(mm[2]).replace(/\[([^\]]+)\]\([^)]*\)/g,'$1').replace(/^[–—+\-\d\s]+/,'').trim();
+    if(rank>=1&&rank<=10&&title&&!items.some(x=>x.rank===rank))items.push({rank,title,url:sourceUrl});
+  }
+  return items.sort((a,b)=>a.rank-b.rank).slice(0,10);
+}
+async function fetchFlixPatrolUK(url,label){
+  const attempts=[url,`https://r.jina.ai/${url}`]; let last='';
+  for(const u of attempts){
+    try{
+      const text=await fetchText(u,{'accept-language':'en-GB,en;q=0.9'});
+      const movies=parseFlixPatrolSection(text,'TOP 10 Movies',url);
+      const tv=parseFlixPatrolSection(text,'TOP 10 TV Shows',url);
+      const route=u.startsWith('https://r.jina.ai/')?'reader':'direct';
+      console.log(`FlixPatrol ${label}: movies ${movies.length}/10, TV ${tv.length}/10 via ${route}`);
+      if(movies.length===10&&tv.length===10)return {movies,tv};
+      last=`${route} returned movies ${movies.length}/10, TV ${tv.length}/10`;
+    }catch(e){last=e.message;console.warn(`FlixPatrol ${label} attempt failed: ${e.message}`);}
+  }
+  throw new Error(last||'FlixPatrol chart unavailable');
+}
+
 async function fetchOfficialNetflix() {
   const rows=parseTsv(await fetchText(NETFLIX_TSV)).filter(r=>r.country_iso2==='GB');
   if(!rows.length) throw new Error('No UK rows in Netflix dataset');
@@ -781,6 +818,20 @@ function parseOfficialChartsMarkdown(md, sourceUrl){
   }
   return items.sort((a,b)=>a.rank-b.rank).slice(0,10);
 }
+function parseOfficialChartsRenderedText(raw,sourceUrl){
+  const text=decodeHtml(String(raw))
+    .replace(/<script[\s\S]*?<\/script>/gi,'\n').replace(/<style[\s\S]*?<\/style>/gi,'\n')
+    .replace(/<[^>]+>/g,'\n').replace(/\r/g,'')
+    .split('\n').map(x=>x.replace(/\s+/g,' ').trim()).filter(Boolean).join('\n');
+  const items=[];
+  const re=/Number\s+(10|[1-9])\s*\n(?:Image:[^\n]*\n)*(?:New|RE|Re-entry)?\s*([^\n]+)\s*\n([^\n]+)(?=\n(?:\d+\.\s*)?LW:|\nPeak:|\nWeeks:)/gi;
+  let m;
+  while((m=re.exec(text))){
+    const rank=Number(m[1]); const title=cleanMusicText(m[2]),artist=cleanMusicText(m[3]);
+    if(title&&artist&&!items.some(x=>x.rank===rank))items.push({rank,title,artist,poster:null,detailsUrl:sourceUrl});
+  }
+  return items.sort((a,b)=>a.rank-b.rank).slice(0,10);
+}
 
 const US_SINGLES_URL='https://ca.billboard.com/charts/hot-100';
 const US_ALBUMS_URL='https://ca.billboard.com/charts/billboard-200';
@@ -867,12 +918,17 @@ async function fetchOfficialMusicChart(url,label){
     : ['https://www.officialcharts.com/charts/albums-chart/','https://www.officialcharts.com/albums/'];
   const pages=[canonical,...alternates];
   const attempts=[];
-  for(const page of pages){ attempts.push(page,`https://r.jina.ai/${page}`); }
+  for(const page of pages){
+    attempts.push(page,`https://r.jina.ai/${page}`,`https://r.jina.ai/http://${page.replace(/^https?:\/\//,'')}`);
+    const hostPath=page.replace(/^https?:\/\/www\.officialcharts\.com/,'');
+    attempts.push(`https://www-officialcharts-com.translate.goog${hostPath}${hostPath.includes('?')?'&':'?'}_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en-GB`);
+  }
   let last='';
   for(const u of attempts){
     try{
       const text=await fetchText(u,{'accept-language':'en-GB,en;q=0.9'});
-      const items=parseOfficialChartsMarkdown(text,canonical);
+      let items=parseOfficialChartsMarkdown(text,canonical);
+      if(items.length<10)items=parseOfficialChartsRenderedText(text,canonical);
       const route=u.startsWith('https://r.jina.ai/')?'reader':'direct';
       console.log(`UK music ${label}: ${items.length}/10 via ${route} ${u.replace('https://r.jina.ai/','')}`);
       if(items.length===10)return await enrichMusicArtwork(items,'GB',label==='albums'?'ALBUM':'SINGLE');
@@ -883,10 +939,11 @@ async function fetchOfficialMusicChart(url,label){
 }
 
 let previous={}; try{previous=JSON.parse(await readFile('data/rankings.json','utf8'));}catch{}
-const output={version:14,generatedAt:new Date().toISOString(),country:'GB',strategy:'Official source first; labelled fallback when no compatible official chart is available.',services:{}};
+const output={version:15,generatedAt:new Date().toISOString(),country:'GB',strategy:'Official source first; labelled fallback when no compatible official chart is available.',services:{}};
 const packageData=await gql(PACKAGES_QUERY,{country:'GB',platform:'WEB'}); const packages=packageData?.packages||[];
 let netflixOfficial=null; try{netflixOfficial=await fetchOfficialNetflix(); console.log(`Netflix official week ${netflixOfficial.week}`);}catch(err){console.error('Netflix official:',err.message);}
-let primeMoviesOfficial=null; try{primeMoviesOfficial=await fetchOfficialPrimeMovies(); console.log(`Prime official movies: ${primeMoviesOfficial.length}`);}catch(err){console.error('Prime official movies:',err.message);}
+let primeFlix=null; try{primeFlix=await fetchFlixPatrolUK(FLIXPATROL_PRIME_URL,'Prime UK');}catch(err){console.error('Prime FlixPatrol:',err.message);}
+let disneyFlix=null; try{disneyFlix=await fetchFlixPatrolUK(FLIXPATROL_DISNEY_URL,'Disney+ UK');}catch(err){console.error('Disney FlixPatrol:',err.message);}
 let appleMoviesOfficial=null; try{appleMoviesOfficial=await fetchOfficialApple(APPLE_MOVIES_URL,'MOVIE'); console.log(`Apple official movies: ${appleMoviesOfficial.length}`);}catch(err){console.error('Apple official movies:',err.message);}
 let appleTVOfficial=null; try{appleTVOfficial=await fetchOfficialApple(APPLE_TV_URL,'SHOW'); console.log(`Apple official TV: ${appleTVOfficial.length}`);}catch(err){console.error('Apple official TV:',err.message);}
 let ukCinemaOfficial=null; try{ukCinemaOfficial=await fetchOfficialUKCinema(); console.log(`UK cinema official: ${ukCinemaOfficial.length}`);}catch(err){console.error('UK cinema official:',err.message);}
@@ -904,9 +961,12 @@ for(const service of SERVICES){
     if(service.id==='netflix' && netflixOfficial?.[key]?.length){
       entry[key]=await enrichOfficial(netflixOfficial[key],fallback?.items||[],type);
       entry.sources[key]={kind:'official',label:OFFICIAL.netflix.label,url:OFFICIAL.netflix.url,cadence:'weekly',asOf:netflixOfficial.week,note:OFFICIAL.netflix.note};
-    } else if(service.id==='prime' && key==='movies' && primeMoviesOfficial?.length){
-      entry[key]=await enrichOfficial(primeMoviesOfficial,fallback?.items||[],type);
-      entry.sources[key]={kind:'official',label:OFFICIAL.prime.label,url:OFFICIAL.prime.url,cadence:OFFICIAL.prime.cadence,note:OFFICIAL.prime.note};
+    } else if(service.id==='prime' && primeFlix?.[key]?.length===10){
+      entry[key]=await enrichOfficial(primeFlix[key],fallback?.items||[],type);
+      entry.sources[key]={kind:'fallback',label:'FlixPatrol',displayName:'FlixPatrol',url:FLIXPATROL_PRIME_URL,cadence:'daily',note:OFFICIAL.prime.note};
+    } else if(service.id==='disney' && disneyFlix?.[key]?.length===10){
+      entry[key]=await enrichOfficial(disneyFlix[key],fallback?.items||[],type);
+      entry.sources[key]={kind:'fallback',label:'FlixPatrol',displayName:'FlixPatrol',url:FLIXPATROL_DISNEY_URL,cadence:'daily',note:OFFICIAL.disney.note};
     } else if(service.id==='apple' && key==='movies' && appleMoviesOfficial?.length){
       entry[key]=await enrichOfficial(appleMoviesOfficial,fallback?.items||[],type);
       entry.sources[key]={kind:'official',label:OFFICIAL.appleMovies.label,url:OFFICIAL.appleMovies.url,cadence:OFFICIAL.appleMovies.cadence,note:OFFICIAL.appleMovies.note};
