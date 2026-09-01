@@ -93,3 +93,40 @@ function initMusicGestures(){
 }
 initMusicGestures();
 (async()=>{try{state.data=await loadFeed();render()}catch(e){els.errorText.textContent=e.message;els.error.classList.remove('hidden');els.updated.textContent='Ranking feed unavailable'}finally{els.loading.classList.add('hidden')}})();
+
+
+// v5.3.8: when already at the top, a deliberate downward pull switches
+// WozzaWatch → WozzaTune → Watchlist → WozzaWatch instead of native refresh.
+function initTopPullSwitch(nextUrl,nextLabel){
+  let startY=0,pulling=false,distance=0;
+  const threshold=92;
+  const indicator=document.createElement('div');
+  indicator.className='pull-switch-indicator';indicator.setAttribute('aria-hidden','true');
+  indicator.textContent=`↓ Pull for ${nextLabel}`;document.body.append(indicator);
+  window.addEventListener('touchstart',e=>{
+    if(e.touches.length!==1||window.scrollY>1)return;
+    startY=e.touches[0].clientY;distance=0;pulling=true;
+  },{passive:true});
+  window.addEventListener('touchmove',e=>{
+    if(!pulling||e.touches.length!==1)return;
+    const dy=e.touches[0].clientY-startY;
+    if(dy<=0){distance=0;indicator.classList.remove('visible','ready','go');return;}
+    if(window.scrollY>1){pulling=false;indicator.classList.remove('visible','ready','go');return;}
+    distance=dy;
+    // Suppress the browser's pull-to-refresh only while this app gesture owns it.
+    e.preventDefault();
+    const travel=Math.min(38,Math.max(0,dy*.28));
+    indicator.style.transform=`translate(-50%,${-54+travel}px) scale(${.92+Math.min(dy/700,.1)})`;
+    indicator.textContent=dy>=threshold?`Release for ${nextLabel}`:`↓ Pull for ${nextLabel}`;
+    indicator.classList.add('visible');indicator.classList.toggle('ready',dy>=threshold);
+  },{passive:false});
+  const finish=()=>{
+    if(!pulling)return;pulling=false;
+    if(distance>=threshold){indicator.textContent=`Opening ${nextLabel}…`;indicator.classList.add('visible','ready','go');setTimeout(()=>location.href=nextUrl,90);}
+    else{indicator.classList.remove('visible','ready','go');indicator.style.transform='';}
+    distance=0;
+  };
+  window.addEventListener('touchend',finish,{passive:true});window.addEventListener('touchcancel',()=>{pulling=false;distance=0;indicator.classList.remove('visible','ready','go');indicator.style.transform='';},{passive:true});
+}
+
+initTopPullSwitch('my-list.html','Watchlist');

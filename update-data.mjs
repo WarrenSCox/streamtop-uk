@@ -486,9 +486,9 @@ async function fetchPrimeViaPublicSearchIndex() {
 }
 
 async function fetchOfficialPrimeMovies() {
-  // v5.3.7 forensic build: use the three proven current TOP 10 cards as anchors
-  // and hunt their surrounding Amazon hydration data for the collection/carousel
-  // request that could expose the rest of the ranked shelf. Still publishes nothing.
+  // v5.3.8 forensic build: reconstruct Amazon storefront carousels from the
+  // component id embedded in ref_=atv_hm_hom_c_<component>... links. This lets
+  // us group cards by shelf without relying on a visible collection heading.
   const url='https://www.amazon.co.uk/gp/video/storefront?ref_=atv_hm_hom';
   const headers={
     'accept':'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
@@ -500,92 +500,70 @@ async function fetchOfficialPrimeMovies() {
   const html=await fetchText(url,headers);
   const decoded=decodePrimePayload(html);
   const ukSignals=(decoded.match(/(?:£|en_GB|en-GB|amazon\.co\.uk|avCurrentTerritory[=\":]+(?:UK|GB))/gi)||[]).length;
-
   const badgeRe=/["']titleMetadataBadge["']\s*:\s*\{[\s\S]{0,700}?["']message["']\s*:\s*["']TOP\s*10["']/gi;
   const badges=[...decoded.matchAll(badgeRe)];
-  console.log(`Prime collection-hunt fetch: ${url} (${html.length} chars, genuine badges=${badges.length}, UK signals=${ukSignals})`);
+  console.log(`Prime carousel-rebuild fetch: ${url} (${html.length} chars, genuine badges=${badges.length}, UK signals=${ukSignals})`);
 
   const clean=value=>cleanPrimeTitle(String(value||''))
     .replace(/\\u0026/gi,'&').replace(/&quot;/gi,'"').replace(/&#39;/gi,"'")
     .replace(/\\\"/g,'"').replace(/\s+/g,' ').trim();
-
-  const collectKeyed=(window,key)=>{
-    const out=[];
-    const re=new RegExp(`(?:\\\\?"${key}\\\\?"|"${key}")\\s*:\\s*(?:\\\\?"|")((?:\\\\.|[^"\\\\]){1,300})(?:\\\\?"|")`,'gi');
-    let m; while((m=re.exec(window))){ const value=clean(m[1]); if(value) out.push({value,index:m.index}); }
-    return out;
-  };
+  const collectKeyed=(window,key)=>{const out=[];const re=new RegExp(`(?:\\\\?"${key}\\\\?"|"${key}")\\s*:\\s*(?:\\\\?"|")((?:\\\\.|[^"\\\\]){1,300})(?:\\\\?"|")`,'gi');let m;while((m=re.exec(window))){const value=clean(m[1]);if(value)out.push({value,index:m.index});}return out;};
   const nearest=(items,target,filter=()=>true)=>items.filter(x=>filter(x.value)).sort((a,b)=>Math.abs(a.index-target)-Math.abs(b.index-target))[0]?.value||null;
-  const uniq=arr=>[...new Set(arr.filter(Boolean))];
-  const isUsefulTitle=t=>t && t.length>=2 && t.length<=140 && !isPrimeNoise(t) &&
-    !/^(?:top 10|amazon|prime video|watch now|included with prime|learn more|see more|your watchlist|add to watchlist|add season to watchlist|movies|tv|home)$/i.test(t) &&
-    !/^(?:free trial|rent|buy|free trial, rent, or buy|free trial or buy)$/i.test(t) && !/^spent \d+ weeks? in top 10$/i.test(t);
+  const isUsefulTitle=t=>t&&t.length>=2&&t.length<=140&&!isPrimeNoise(t)&&!/^(?:top 10|amazon|prime video|watch now|included with prime|learn more|see more|your watchlist|add to watchlist|add season to watchlist|movies|tv|home)$/i.test(t)&&!/^(?:free trial|rent|buy|free trial, rent, or buy|free trial or buy)$/i.test(t)&&!/^spent \d+ weeks? in top 10$/i.test(t);
 
-  const seen=new Set();
-  const rows=[];
-  badges.forEach(badge=>{
-    const from=Math.max(0,badge.index-6500), to=Math.min(decoded.length,badge.index+6500);
-    const window=decoded.slice(from,to), local=badge.index-from;
-    const titleCandidates=[];
-    for(const key of ['displayTitle','title','heading','headline','ariaLabel','alternateText']) titleCandidates.push(...collectKeyed(window,key));
-    const title=nearest(titleCandidates,local,isUsefulTitle)||'-';
-    const entityType=nearest(collectKeyed(window,'entityType'),local,v=>/^(?:Movie|TV Show|TV|Series|Show)$/i.test(v))||'-';
-    const idMatches=[];
-    for(const re of [/\bB0[A-Z0-9]{8}\b/g,/\b(?:asin|ASIN)\W{0,12}([A-Z0-9]{10})\b/g]){ let m; while((m=re.exec(window))) idMatches.push({value:m[1]||m[0],index:m.index}); }
-    const id=nearest(idMatches,local)||'-';
-    const rankMatches=[];
-    for(const re of [/top[_-]?ranked[_-]?(\d{1,2})/gi,/["'](?:rank|ranking|position|ordinal)["']\s*:\s*["']?(\d{1,2})/gi,/["']rankLabel["']\s*:\s*["'][^"']*?(\d{1,2})[^"']*["']/gi,/#\s*(\d{1,2})\b/g]){ let m; while((m=re.exec(window))) rankMatches.push({value:m[1],index:m.index}); }
-    const possibleRank=nearest(rankMatches,local,v=>Number(v)>=1&&Number(v)<=10)||'-';
-    const coverMatch=window.match(/["'](?:url|imageUrl)["']\s*:\s*["'](https?:\\?\/?\\?\/\/m\.media-amazon\.com\/images\/[^"']{20,500})["']/i);
-    const artwork=coverMatch?clean(coverMatch[1]).replace(/\\\//g,'/'):'-';
-    const key=`${title}|${entityType}|${id}`;
-    if(!seen.has(key)){seen.add(key);rows.push({title,entityType,id,possibleRank,artwork,offset:badge.index});}
-  });
+  const anchors=[];
+  for(const badge of badges){
+    const from=Math.max(0,badge.index-7000),to=Math.min(decoded.length,badge.index+7000),win=decoded.slice(from,to),local=badge.index-from;
+    const tc=[];for(const key of ['displayTitle','title','heading','headline','ariaLabel','alternateText'])tc.push(...collectKeyed(win,key));
+    const title=nearest(tc,local,isUsefulTitle)||'-';
+    const type=nearest(collectKeyed(win,'entityType'),local,v=>/^(?:Movie|TV Show|TV|Series|Show)$/i.test(v))||'-';
+    const ids=[];let im;const ir=/\bB0[A-Z0-9]{8}\b/g;while((im=ir.exec(win)))ids.push({value:im[0],index:im.index});
+    const id=nearest(ids,local)||'-';
+    const ranks=[];for(const re of [/top[_-]?ranked[_-]?(\d{1,2})/gi,/["'](?:rank|ranking|position|ordinal)["']\s*:\s*["']?(\d{1,2})/gi]){let m;while((m=re.exec(win)))ranks.push({value:m[1],index:m.index});}
+    const rank=nearest(ranks,local,v=>+v>=1&&+v<=10)||'-';
+    if(!anchors.some(x=>x.id===id&&x.title===title))anchors.push({title,type,id,rank,offset:badge.index});
+  }
+  anchors.forEach((a,i)=>console.log(`Prime TOP10 anchor ${String(i+1).padStart(2,'0')} | title=${a.title} | type=${a.type} | id=${a.id} | possibleRank=${a.rank}`));
 
-  rows.forEach((r,i)=>console.log(`Prime TOP10 anchor ${String(i+1).padStart(2,'0')} | title=${r.title} | type=${r.entityType} | id=${r.id} | possibleRank=${r.possibleRank} | artwork=${r.artwork==='-'?'-':'yes'} | @${r.offset}`));
-
-  // For each confirmed card, inspect a wider hydration-data neighbourhood for
-  // collection IDs, cursors/tokens, widget IDs and API/request paths.
-  const hintKeys=['collectionId','collectionID','carouselId','carouselID','shelfId','shelfID','widgetId','widgetID','paginationToken','nextPageToken','pageToken','nextToken','cursor','continuationToken','requestId','requestID','startIndex','pageSize','pageNumber','endpoint','ajaxUrl','requestUrl','apiUrl','collectionTitle'];
-  const headingKeys=['collectionTitle','heading','headline','sectionTitle','label','name'];
-  for(const r of rows){
-    const from=Math.max(0,r.offset-35000), to=Math.min(decoded.length,r.offset+35000);
-    const ctx=decoded.slice(from,to), local=r.offset-from;
-    const hints=[];
-    for(const key of hintKeys){
-      for(const item of collectKeyed(ctx,key)){
-        if(item.value.length<=260 && !/^(?:true|false|null|undefined)$/i.test(item.value)) hints.push(`${key}=${item.value}`);
-      }
-      const numRe=new RegExp(`(?:\\\\?"${key}\\\\?"|"${key}")\\s*:\\s*(\\d{1,6})`,'gi');
-      let nm; while((nm=numRe.exec(ctx))) hints.push(`${key}=${nm[1]}`);
-    }
-    const headings=[];
-    for(const key of headingKeys){
-      for(const item of collectKeyed(ctx,key)) if(item.value.length<=120 && isUsefulTitle(item.value)) headings.push(item.value);
-    }
-    const requestHints=[];
-    const urlRe=/(?:https?:\\?\/?\\?\/\/[^"'\s<>]{8,420}|\/(?:gp\/video|api|ajax|graphql|hz|primevideo)[^"'\s<>]{5,420})/gi;
-    let um; while((um=urlRe.exec(ctx))){
-      const v=clean(um[0]).replace(/\\\//g,'/');
-      if(/(?:collection|carousel|pagination|page|token|cursor|ajax|api|graphql|video)/i.test(v)) requestHints.push(v.slice(0,260));
-    }
-    const keywordHits=[];
-    const kwRe=/(collection|carousel|pagination|nextPage|pageToken|cursor|continuation|ajax|graphql|lazyLoad|loadMore)/gi;
-    let km; while((km=kwRe.exec(ctx)) && keywordHits.length<12){
-      const a=Math.max(0,km.index-90), b=Math.min(ctx.length,km.index+190);
-      keywordHits.push(clean(ctx.slice(a,b)).slice(0,280));
-    }
-    const idOccurrences=r.id==='-'?0:(decoded.match(new RegExp(r.id.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'),'g'))||[]).length;
-    console.log(`Prime collection hunt | ${r.title} | id occurrences=${idOccurrences} | nearby headings=[${uniq(headings).slice(0,8).join(' | ')||'-'}]`);
-    console.log(`Prime collection IDs/tokens | ${r.title} | ${uniq(hints).slice(0,18).join(' | ')||'none found'}`);
-    console.log(`Prime collection request hints | ${r.title} | ${uniq(requestHints).slice(0,10).join(' | ')||'none found'}`);
-    console.log(`Prime collection keyword context | ${r.title} | ${uniq(keywordHits).slice(0,6).join(' || ')||'none found'}`);
+  // Parse storefront detail links and group them by the c_<component> id.
+  // Capture the card's titleID/title from the nearby hydrated object and its
+  // explicit slot number from the ref suffix where Amazon supplies one.
+  const groups=new Map();
+  const refRe=/\/gp\/video\/detail\/([A-Z0-9]{10})\?[^"'<>]{0,500}?ref_=atv_hm_hom_c_([A-Za-z0-9]+)_([^"'&<>\s]{1,160})/gi;
+  let rm;
+  while((rm=refRe.exec(decoded))){
+    const id=rm[1],component=rm[2],suffix=rm[3],at=rm.index;
+    const ctx=decoded.slice(Math.max(0,at-3500),Math.min(decoded.length,at+1500));
+    const local=Math.min(3500,at);
+    const tc=[];for(const key of ['displayTitle','title','alternateText'])tc.push(...collectKeyed(ctx,key));
+    const title=nearest(tc,local,isUsefulTitle)||'-';
+    const nums=[...suffix.matchAll(/(?:^|_)(\d{1,2})(?=_|$)/g)].map(m=>+m[1]).filter(n=>n>=1&&n<=40);
+    const slot=nums.length?nums[nums.length-1]:null;
+    if(!groups.has(component))groups.set(component,[]);
+    const arr=groups.get(component);
+    if(!arr.some(x=>x.id===id))arr.push({id,title,slot,at,suffix});
   }
 
-  const movies=rows.filter(r=>/^Movie$/i.test(r.entityType)).length;
-  const shows=rows.filter(r=>/^(?:TV Show|TV|Series|Show)$/i.test(r.entityType)).length;
-  console.log(`Prime collection-hunt summary: ${rows.length} anchors; movies=${movies}; TV=${shows}; looking for a reusable collection/pagination request`);
-  throw new Error(`forensic-only v5.3.7 captured ${rows.length} genuine TOP 10 anchors; inspect collection hunt lines before enabling official Prime`);
+  const anchorComponents=[];
+  for(const [component,cards] of groups){
+    const hits=anchors.filter(a=>cards.some(c=>c.id===a.id||c.title===a.title));
+    if(hits.length)anchorComponents.push({component,cards,hits});
+  }
+  anchorComponents.sort((a,b)=>b.hits.length-a.hits.length||b.cards.length-a.cards.length);
+  console.log(`Prime carousel reconstruction: ${groups.size} component groups found; ${anchorComponents.length} contain confirmed TOP 10 anchors`);
+  for(const g of anchorComponents.slice(0,10)){
+    const ordered=[...g.cards].sort((a,b)=>(a.slot??999)-(b.slot??999)||a.at-b.at);
+    console.log(`Prime carousel c_${g.component} | cards=${ordered.length} | TOP10 anchors=${g.hits.map(h=>`${h.title}${h.rank!=='-'?` (#${h.rank})`:''}`).join(' | ')}`);
+    ordered.slice(0,25).forEach((c,i)=>console.log(`Prime carousel c_${g.component} card ${String(i+1).padStart(2,'0')} | slot=${c.slot??'-'} | title=${c.title} | id=${c.id} | refTail=${c.suffix.slice(0,90)}`));
+  }
+
+  // Also show the components with the most cards: useful if the TOP 10 badge
+  // belongs to a card rendered elsewhere while the full shelf is another copy.
+  [...groups.entries()].sort((a,b)=>b[1].length-a[1].length).slice(0,8).forEach(([component,cards])=>{
+    console.log(`Prime largest carousel c_${component}: ${cards.length} unique cards`);
+  });
+  console.log(`Prime carousel-rebuild summary: ${anchors.length} genuine anchors; hunting a component that reconstructs the full ranked shelf`);
+  throw new Error(`forensic-only v5.3.8 captured ${anchors.length} genuine TOP 10 anchors and ${anchorComponents.length} matching carousel groups`);
 }
 
 async function fetchOfficialNetflix() {
