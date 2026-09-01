@@ -105,19 +105,45 @@ async function fetchOfficialHBOMax(url, marker, kind) {
   return items;
 }
 
-function decodeDisneyEscapes(v='') { return String(v).replace(/\\u0026/g,'&').replace(/\\u003c/g,'<').replace(/\\u003e/g,'>').replace(/\\\"/g,'"'); }
+function decodeDisneyEscapes(v='') { return String(v).replace(/\\u0026/g,'&').replace(/\\u003c/g,'<').replace(/\\u003e/g,'>').replace(/\\\"/g,'"').replace(/&quot;/g,'"').replace(/&amp;/g,'&'); }
 function extractDisneyCombined(html) {
   const sectionAt=html.indexOf('Top 10 Today');
   if(sectionAt<0) throw new Error('Disney UK Top 10 Today shelf not found');
-  const start=Math.max(0,sectionAt-2500), end=Math.min(html.length,sectionAt+180000);
-  const chunk=html.slice(start,end);
-  const re=/"_type":"TopRankedCard","_id":"([^"]+)","title":"([^"]+)"[\s\S]{0,5000}?"ripcutId":"([^"]+)"[\s\S]{0,1500}?"label":"top_ranked_(\d+)[^"]*"[\s\S]{0,12000}?"year":"?(\d{4})?"?/g;
-  const found=new Map(); let m;
-  while((m=re.exec(chunk))){
-    const rank=Number(m[4]); if(rank<1||rank>10||found.has(rank)) continue;
-    const id=m[1], title=decodeDisneyEscapes(m[2]), imageId=m[3], year=m[5]?Number(m[5]):null;
+
+  // Disney embeds the ranked shelf as JSON-like TopRankedCard objects.
+  // Parse each card independently: a single card is large (responsive image
+  // variants + telemetry), so do not require year/label to sit within a
+  // small fixed distance of the title.
+  const chunk=html.slice(Math.max(0,sectionAt-5000), Math.min(html.length,sectionAt+900000));
+  const marker='"_type":"TopRankedCard"';
+  const starts=[]; let at=0;
+  while((at=chunk.indexOf(marker,at))>=0 && starts.length<12){ starts.push(at); at+=marker.length; }
+  const found=new Map();
+  for(let i=0;i<starts.length;i++){
+    const card=chunk.slice(starts[i], i+1<starts.length ? starts[i+1] : Math.min(chunk.length,starts[i]+100000));
+    const id=card.match(/"_id":"([^"]+)"/)?.[1];
+    const titleRaw=card.match(/"title":"([^"]+)"/)?.[1];
+    const rankMatch=card.match(/"label":"top_ranked_(\d+)[^"]*"/);
+    const imageId=card.match(/"defaultImage":\{[\s\S]{0,1200}?"ripcutId":"([^"]+)"/)?.[1] || card.match(/"ripcutId":"([^"]+)"/)?.[1];
+    const yearRaw=card.match(/"year":"?(\d{4})"?/)?.[1];
+    const rank=rankMatch ? Number(rankMatch[1]) : i+1;
+    if(!id||!titleRaw||!imageId||rank<1||rank>10||found.has(rank)) continue;
+    const title=decodeDisneyEscapes(titleRaw), year=yearRaw?Number(yearRaw):null;
     found.set(rank,{rank,title,year,poster:`https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/${imageId}/compose?format=webp&width=386&label=top_ranked_${rank}_080`,detailsUrl:`https://www.disneyplus.com/en-gb/browse/entity-${id}`});
   }
+
+  // Safety fallback for a response containing rendered cards but not the
+  // embedded TopRankedCard objects. This keeps the GitHub runner useful if
+  // Disney changes how the hydration payload is serialized.
+  if(found.size<10){
+    const rendered=chunk.matchAll(/data-testid="collection-tile-(\d+)"[\s\S]{0,1800}?aria-label="([^"]+)"[\s\S]{0,16000}?(?:variant\/disney\/|ripcutId":"?)([0-9a-f-]{20,})[\s\S]{0,2500}?top_ranked_(\d+)/gi);
+    for(const m of rendered){
+      const rank=Number(m[4]||Number(m[1])+1); if(rank<1||rank>10||found.has(rank)) continue;
+      const title=decodeDisneyEscapes(m[2]), imageId=m[3];
+      found.set(rank,{rank,title,year:null,poster:`https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/${imageId}/compose?format=webp&width=386&label=top_ranked_${rank}_080`,detailsUrl:DISNEY_UK_URL});
+    }
+  }
+
   const items=[...found.values()].sort((a,b)=>a.rank-b.rank);
   if(items.length!==10) throw new Error(`Disney UK combined returned ${items.length}/10`);
   return items;
