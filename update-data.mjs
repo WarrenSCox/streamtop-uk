@@ -492,37 +492,80 @@ async function fetchOfficialPrimeMovies() {
 }
 
 function parseFlixPatrolSection(text, heading, sourceUrl){
-  const clean=String(text).replace(/\r/g,'');
-  const startRe=new RegExp(`(?:^|\\n)#{1,4}\\s*${heading.replace(/[.*+?^${}()|[\\]\\]/g,'\\$&')}\\s*(?:\\n|$)`,'i');
-  const m=startRe.exec(clean); if(!m)return [];
-  let section=clean.slice(m.index+m[0].length);
-  const next=section.search(/\n#{1,4}\s+TOP\s+10\s+(?:Movies|TV Shows|Overall)/i);
-  if(next>=0)section=section.slice(0,next);
-  const items=[];
-  for(const line of section.split('\n')){
-    if(items.length>=10)break;
-    const s=line.replace(/\|/g,' | ').replace(/\s+/g,' ').trim();
-    let mm=s.match(/^(10|[1-9])\.\s*\|\s*[^|]*\|\s*([^|]+?)\s*\|/);
-    if(!mm) mm=s.match(/^(10|[1-9])\.\s+(.+?)(?:\s+\d+\s*d\s*)?$/i);
-    if(!mm)continue;
-    const rank=Number(mm[1]);
-    const title=decodeHtml(mm[2]).replace(/\[([^\]]+)\]\([^)]*\)/g,'$1').replace(/^[–—+\-\d\s]+/,'').trim();
-    if(rank>=1&&rank<=10&&title&&!items.some(x=>x.rank===rank))items.push({rank,title,url:sourceUrl});
+  const raw=String(text||'').replace(/\r/g,'');
+  const plain=decodeHtml(raw);
+  const headingRe=new RegExp(`(?:^|\\n)\\s*#{0,6}\\s*${heading.replace(/[.*+?^${}()|[\\]\\]/g,'\\$&')}\\s*(?:\\n|$)`,'i');
+  const hm=headingRe.exec(plain);
+  let start=hm ? hm.index+hm[0].length : -1;
+  if(start<0){
+    const idx=plain.toLowerCase().indexOf(heading.toLowerCase());
+    if(idx<0)return [];
+    start=idx+heading.length;
   }
-  return items.sort((a,b)=>a.rank-b.rank).slice(0,10);
+  let section=plain.slice(start);
+  const nextHeading=section.search(/\n\s*#{0,6}\s*(?:TOP\s+10\s+(?:Movies|TV Shows|Overall)|TOP Movies and TV Shows|Top ranked Movies|Top ranked TV Shows)\b/i);
+  if(nextHeading>=0)section=section.slice(0,nextHeading);
+
+  const byRank=new Map();
+  const add=(rank,title,url=null)=>{
+    rank=Number(rank);
+    title=decodeHtml(String(title||''))
+      .replace(/!\[[^\]]*\]\([^)]*\)/g,'')
+      .replace(/\[([^\]]+)\]\([^)]*\)/g,'$1')
+      .replace(/^[|\s–—+\-]+|[|\s]+$/g,'')
+      .replace(/\s+/g,' ').trim();
+    if(rank>=1&&rank<=10&&title&&!byRank.has(rank)&&!/^n\/?a$|^–$|^-$/.test(title))
+      byRank.set(rank,{rank,title,url:url||sourceUrl});
+  };
+
+  // FlixPatrol's reader output is usually: 1. | – | [Title](url) | 18 d
+  let m;
+  const mdRow=/(?:^|\n)\s*(10|[1-9])\.\s*\|\s*[^|\n]*\|\s*(?:\[([^\]]+)\]\((https?:\/\/[^)]+)\)|([^|\n]+))\s*\|/gim;
+  while((m=mdRow.exec(section))) add(m[1],m[2]||m[4],m[3]);
+
+  // Some renderers flatten the table but preserve rank + title link.
+  const flatLink=/(?:^|\n)\s*(10|[1-9])\.\s*(?:\|[^\n]*?\|\s*)?\[([^\]]+)\]\((https?:\/\/[^)]+)\)/gim;
+  while((m=flatLink.exec(section))) add(m[1],m[2],m[3]);
+
+  // HTML/direct fallback: inspect row-like chunks and strip tags.
+  const rows=section.match(/<tr\b[\s\S]*?<\/tr>/gi)||[];
+  for(const row of rows){
+    const txt=decodeHtml(row.replace(/<script[\s\S]*?<\/script>/gi,' ').replace(/<style[\s\S]*?<\/style>/gi,' ').replace(/<[^>]+>/g,' ')).replace(/\s+/g,' ').trim();
+    const rm=txt.match(/^\s*(10|[1-9])\b\s*(?:[+\-–—]|n\/?a)?\s*(.+?)(?:\s+\d+\s*d\b|$)/i);
+    if(rm){
+      const am=row.match(/<a\b[^>]*href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/i);
+      const title=am?am[2].replace(/<[^>]+>/g,' '):rm[2];
+      const href=am&&am[1]?(am[1].startsWith('http')?am[1]:`https://flixpatrol.com${am[1]}`):sourceUrl;
+      add(rm[1],title,href);
+    }
+  }
+
+  // Last-resort readable text line parser.
+  for(const line of section.split('\n')){
+    const s=line.replace(/\s+/g,' ').trim();
+    const lm=s.match(/^(10|[1-9])\.\s+(?:[+\-–—]|n\/?a)?\s*(.+?)(?:\s+\d+\s*d\s*)?$/i);
+    if(lm)add(lm[1],lm[2],sourceUrl);
+  }
+  return [...byRank.values()].sort((a,b)=>a.rank-b.rank).slice(0,10);
 }
 async function fetchFlixPatrolUK(url,label){
-  const attempts=[url,`https://r.jina.ai/${url}`]; let last='';
-  for(const u of attempts){
+  const hostPath=url.replace(/^https?:\/\/flixpatrol\.com/,'');
+  const attempts=[
+    ['direct',url],
+    ['reader',`https://r.jina.ai/${url}`],
+    ['reader-http',`https://r.jina.ai/http://${url.replace(/^https?:\/\//,'')}`],
+    ['translate',`https://flixpatrol-com.translate.goog${hostPath}${hostPath.includes('?')?'&':'?'}_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en-GB`]
+  ];
+  let last='';
+  for(const [route,u] of attempts){
     try{
       const text=await fetchText(u,{'accept-language':'en-GB,en;q=0.9'});
       const movies=parseFlixPatrolSection(text,'TOP 10 Movies',url);
       const tv=parseFlixPatrolSection(text,'TOP 10 TV Shows',url);
-      const route=u.startsWith('https://r.jina.ai/')?'reader':'direct';
-      console.log(`FlixPatrol ${label}: movies ${movies.length}/10, TV ${tv.length}/10 via ${route}`);
+      console.log(`FlixPatrol ${label}: ${text.length} chars, movies ${movies.length}/10, TV ${tv.length}/10 via ${route}`);
       if(movies.length===10&&tv.length===10)return {movies,tv};
       last=`${route} returned movies ${movies.length}/10, TV ${tv.length}/10`;
-    }catch(e){last=e.message;console.warn(`FlixPatrol ${label} attempt failed: ${e.message}`);}
+    }catch(e){last=e.message;console.warn(`FlixPatrol ${label} ${route} attempt failed: ${e.message}`);}
   }
   throw new Error(last||'FlixPatrol chart unavailable');
 }
@@ -837,6 +880,46 @@ function parseOfficialChartsRenderedText(raw,sourceUrl){
   return items.sort((a,b)=>a.rank-b.rank).slice(0,10);
 }
 
+function parseOfficialChartsHtmlBlocks(raw,sourceUrl){
+  const html=String(raw||'');
+  const byRank=new Map();
+  const markerRe=/Number\s*(10|[1-9])\b/gi;
+  const marks=[...html.matchAll(markerRe)];
+  for(let i=0;i<marks.length;i++){
+    const rank=Number(marks[i][1]);
+    if(rank<1||rank>10||byRank.has(rank))continue;
+    const from=marks[i].index;
+    const to=i+1<marks.length?marks[i+1].index:Math.min(html.length,from+25000);
+    const block=html.slice(from,to);
+    let poster=null;
+    const img=(block.match(/(?:src|data-src)=["'](https?:\/\/[^"']+)["']/i)||[])[1];
+    if(img)poster=decodeHtml(img);
+    const anchors=[...block.matchAll(/<a\b[^>]*href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi)]
+      .map(m=>({url:m[1],text:cleanMusicText(m[2].replace(/<[^>]+>/g,' '))}))
+      .filter(x=>x.text && !/^(?:New|Re-entry|LW:|Peak:|Weeks:|Buy|Listen|Watch)$/i.test(x.text));
+    let title='',artist='',detailsUrl=sourceUrl;
+    // Chart title links generally point at song/album pages; artist follows immediately.
+    for(let j=0;j<anchors.length;j++){
+      const a=anchors[j];
+      if(/\/songs?\/|\/albums?\/|\/title\//i.test(a.url) || (a.text.length>1 && !/official charts|view|share|facebook|twitter/i.test(a.text))){
+        title=a.text; detailsUrl=a.url.startsWith('http')?a.url:`https://www.officialcharts.com${a.url}`;
+        if(anchors[j+1])artist=anchors[j+1].text;
+        break;
+      }
+    }
+    if(!title||!artist){
+      const txt=decodeHtml(block.replace(/<script[\s\S]*?<\/script>/gi,'\n').replace(/<style[\s\S]*?<\/style>/gi,'\n').replace(/<[^>]+>/g,'\n'))
+        .split(/\n+/).map(x=>cleanMusicText(x)).filter(Boolean);
+      const ni=txt.findIndex(x=>new RegExp(`^Number\\s*${rank}$`,'i').test(x));
+      const candidates=txt.slice(Math.max(0,ni+1),ni+16).filter(x=>!/^Image:|^New$|^Re-entry$|^LW:|^Peak:|^Weeks:|^\d+\.$/i.test(x));
+      if(!title)title=candidates[0]||'';
+      if(!artist)artist=candidates[1]||'';
+    }
+    if(title&&artist)byRank.set(rank,{rank,title,artist,poster,detailsUrl});
+  }
+  return [...byRank.values()].sort((a,b)=>a.rank-b.rank).slice(0,10);
+}
+
 const US_SINGLES_URL='https://ca.billboard.com/charts/hot-100';
 const US_ALBUMS_URL='https://ca.billboard.com/charts/billboard-200';
 function parseBillboardMarkdown(md, sourceUrl){
@@ -932,7 +1015,13 @@ async function fetchOfficialMusicChart(url,label){
     try{
       const text=await fetchText(u,{'accept-language':'en-GB,en;q=0.9'});
       let items=parseOfficialChartsMarkdown(text,canonical);
-      if(items.length<10)items=parseOfficialChartsRenderedText(text,canonical);
+      if(items.length<10){
+        const rendered=parseOfficialChartsRenderedText(text,canonical);
+        const htmlItems=parseOfficialChartsHtmlBlocks(text,canonical);
+        const merged=new Map();
+        for(const x of [...items,...rendered,...htmlItems]) if(x?.rank&&!merged.has(x.rank)) merged.set(x.rank,x);
+        items=[...merged.values()].sort((a,b)=>a.rank-b.rank).slice(0,10);
+      }
       const route=u.startsWith('https://r.jina.ai/')?'reader':'direct';
       console.log(`UK music ${label}: ${items.length}/10 via ${route} ${u.replace('https://r.jina.ai/','')}`);
       if(items.length===10)return await enrichMusicArtwork(items,'GB',label==='albums'?'ALBUM':'SINGLE');
