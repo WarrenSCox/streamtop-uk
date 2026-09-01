@@ -1,6 +1,6 @@
 {
   "version": 17,
-  "generatedAt": "2026-09-01T15:55:17.533Z",
+  "generatedAt": "2026-09-01T16:03:33.398Z",
   "country": "GB",
   "strategy": "Official source first; labelled fallback when no compatible official chart is available.",
   "services": {
@@ -1131,263 +1131,183 @@
       "movies": [
         {
           "rank": 1,
-          "sourceRank": 3,
-          "title": "Practical Magic",
-          "year": 1998,
-          "poster": "/poster/11005490/s166/practical-magic.webp",
-          "url": "https://www.justwatch.com/uk/movie/practical-magic",
-          "trend": "STABLE",
-          "trendDifference": 0,
-          "daysInTop10": 19,
-          "topRank": 1
+          "title": "One Battle After Another",
+          "url": "https://www.hbomax.com/gb/en/movie/bebe611d-8178-481a-a4f2-de743b5b135a",
+          "poster": "/poster/340576026/s166/the-battle-of-baktan-cross.webp",
+          "year": 2025,
+          "detailsUrl": "https://www.justwatch.com/uk/movie/the-battle-of-baktan-cross"
         },
         {
           "rank": 2,
-          "sourceRank": 9,
-          "title": "Harry Potter and the Philosopher's Stone",
-          "year": 2001,
-          "poster": "/poster/87608067/s166/harry-potter-and-the-philosophers-stone.webp",
-          "url": "https://www.justwatch.com/uk/movie/harry-potter-and-the-philosophers-stone",
-          "trend": "UP",
-          "trendDifference": 4,
-          "daysInTop10": 163,
-          "topRank": 1
+          "title": "Sinners",
+          "url": "https://www.hbomax.com/gb/en/movie/2a072173-2bac-43ba-9933-10eba021ed96",
+          "poster": "/poster/320977032/s166/sinners-2025.webp",
+          "year": 2025,
+          "detailsUrl": "https://www.justwatch.com/uk/movie/sinners-2025"
         },
         {
           "rank": 3,
-          "sourceRank": 13,
-          "title": "One Battle After Another",
+          "title": "Superman",
+          "url": "https://www.hbomax.com/gb/en/movie/b22d075e-d037-4c61-9b03-2e406f293b0e",
+          "poster": "/poster/332665033/s166/superman-2025.webp",
           "year": 2025,
-          "poster": "/poster/340576026/s166/the-battle-of-baktan-cross.webp",
-          "url": "https://www.justwatch.com/uk/movie/the-battle-of-baktan-cross",
-          "trend": "UP",
-          "trendDifference": 1,
-          "daysInTop10": 195,
-          "topRank": 1
+          "detailsUrl": "https://www.justwatch.com/uk/movie/superman-2025"
         },
         {
           "rank": 4,
-          "sourceRank": 15,
-          "title": "Dune",
-          "year": 2021,
-          "poster": "/poster/320955108/s166/dune-2020.webp",
-          "url": "https://www.justwatch.com/uk/movie/dune-2020",
-          "trend": "UP",
-          "trendDifference": 1,
-          "daysInTop10": 345,
-          "topRank": 1
+          "title": "A Minecraft Movie",
+          "url": "https://www.hbomax.com/gb/en/movie/05eee581-3112-4515-b17f-219ff6265ef8",
+          "poster": "/poster/322594675/s166/a-minecraft-movie.webp",
+          "year": 2025,
+          "detailsUrl": "https://www.justwatch.com/uk/movie/a-minecraft-movie"
         },
         {
           "rank": 5,
-          "sourceRank": 17,
-          "title": "The Lord of the Rings: The Fellowship of the Ring",
+          "title": "Harry Potter and the Philosopher's Stone",
+          "url": "https://www.hbomax.com/gb/en/movie/4b990c5d-38ab-4daf-8092-2617cbc6d062",
+          "poster": "/poster/87608067/s166/harry-potter-and-the-philosophers-stone.webp",
           "year": 2001,
-          "poster": "/poster/320954518/s166/the-lord-of-the-rings-the-fellowship-of-the-ring.webp",
-          "url": "https://www.justwatch.com/uk/movie/the-lord-of-the-rings-the-fellowship-of-the-ring",
-          "trend": "DOWN",
-          "trendDifference": -2,
-          "daysInTop10": 41,
-          "topRank": 3
+          "detailsUrl": "https://www.justwatch.com/uk/movie/harry-potter-and-the-philosophers-stone"
         },
         {
           "rank": 6,
-          "sourceRank": 20,
-          "title": "Interstellar",
-          "year": 2014,
-          "poster": "/poster/320955086/s166/interstellar.webp",
-          "url": "https://www.justwatch.com/uk/movie/interstellar",
-          "trend": "DOWN",
-          "trendDifference": -2,
-          "daysInTop10": 121,
-          "topRank": 1
+          "title": "Dune",
+          "url": "https://www.hbomax.com/gb/en/movie/e7dc7b3a-a494-4ef1-8107-f4308aa6bbf7",
+          "poster": "/poster/320955108/s166/dune-2020.webp",
+          "year": 2021,
+          "detailsUrl": "https://www.justwatch.com/uk/movie/dune-2020"
         },
         {
           "rank": 7,
-          "sourceRank": 36,
-          "title": "Sinners",
-          "year": 2025,
-          "poster": "/poster/320977032/s166/sinners-2025.webp",
-          "url": "https://www.justwatch.com/uk/movie/sinners-2025",
-          "trend": "DOWN",
-          "trendDifference": -2,
-          "daysInTop10": 271,
-          "topRank": 1
+          "title": "The Batman",
+          "url": "https://www.hbomax.com/gb/en/movie/dfa50804-e6f6-4fa2-a732-693dbc50527b",
+          "poster": "/poster/219348475/s166/the-batman.webp",
+          "year": 2022,
+          "detailsUrl": "https://www.justwatch.com/uk/movie/the-batman"
         },
         {
           "rank": 8,
-          "sourceRank": 40,
-          "title": "Inception",
-          "year": 2010,
-          "poster": "/poster/302449148/s166/inception.webp",
-          "url": "https://www.justwatch.com/uk/movie/inception",
-          "trend": "UP",
-          "trendDifference": 9,
-          "daysInTop10": 19,
-          "topRank": 2
+          "title": "Joker",
+          "url": "https://www.hbomax.com/gb/en/movie/e37195fe-c232-4ba0-bb9e-c4004279b6fa",
+          "poster": "/poster/141746696/s166/joker-2019.webp",
+          "year": 2019,
+          "detailsUrl": "https://www.justwatch.com/uk/movie/joker-2019"
         },
         {
           "rank": 9,
-          "sourceRank": 43,
-          "title": "Superman",
-          "year": 2025,
-          "poster": "/poster/332665033/s166/superman-2025.webp",
-          "url": "https://www.justwatch.com/uk/movie/superman-2025",
-          "trend": "STABLE",
-          "trendDifference": 0,
-          "daysInTop10": 43,
-          "topRank": 2
+          "title": "The Lord of the Rings: The Return of the King",
+          "url": "https://www.hbomax.com/gb/en/movie/ad704585-6774-4d37-8c61-1bd41154173f",
+          "poster": "/poster/36388733/s166/the-lord-of-the-rings-the-return-of-the-king.webp",
+          "year": 2003,
+          "detailsUrl": "https://www.justwatch.com/uk/movie/the-lord-of-the-rings-the-return-of-the-king"
         },
         {
           "rank": 10,
-          "sourceRank": 47,
-          "title": "Wuthering Heights",
-          "year": 2026,
-          "poster": "/poster/346670219/s166/wuthering-heights-2026.webp",
-          "url": "https://www.justwatch.com/uk/movie/wuthering-heights-2026",
-          "trend": "UP",
-          "trendDifference": 18,
-          "daysInTop10": 3,
-          "topRank": 6
+          "title": "The Conjuring: The Devil Made Me Do It",
+          "url": "https://www.hbomax.com/gb/en/movie/5ed8a825-101d-4438-8153-f6d5c9b405f9",
+          "poster": "/poster/244553453/s166/the-conjuring-the-devil-made-me-do-it.webp",
+          "year": 2021,
+          "detailsUrl": "https://www.justwatch.com/uk/movie/the-conjuring-the-devil-made-me-do-it"
         }
       ],
       "tv": [
         {
           "rank": 1,
-          "sourceRank": 2,
-          "title": "Lanterns",
+          "title": "A Knight of the Seven Kingdoms",
+          "url": "https://www.hbomax.com/gb/en/show/3507a932-eace-46ea-bfe1-638ae819fa12",
+          "poster": "/poster/341168823/s166/a-knight-of-the-seven-kingdoms-the-hedge-knight.webp",
           "year": 2026,
-          "poster": "/poster/348909471/s166/lanterns.webp",
-          "url": "https://www.justwatch.com/uk/tv-series/lanterns",
-          "trend": "UP",
-          "trendDifference": 1,
-          "daysInTop10": 19,
-          "topRank": 1
+          "detailsUrl": "https://www.justwatch.com/uk/tv-series/a-knight-of-the-seven-kingdoms-the-hedge-knight"
         },
         {
           "rank": 2,
-          "sourceRank": 14,
-          "title": "House of the Dragon",
-          "year": 2022,
-          "poster": "/poster/301444667/s166/house-of-the-dragon.webp",
-          "url": "https://www.justwatch.com/uk/tv-series/house-of-the-dragon",
-          "trend": "UP",
-          "trendDifference": 1,
-          "daysInTop10": 232,
-          "topRank": 1
+          "title": "The Pitt",
+          "url": "https://www.hbomax.com/gb/en/show/e6e7bad9-d48d-4434-b334-7c651ffc4bdf",
+          "poster": "/poster/340287190/s166/the-pitt.webp",
+          "year": 2025,
+          "detailsUrl": "https://www.justwatch.com/uk/tv-series/the-pitt"
         },
         {
           "rank": 3,
-          "sourceRank": 18,
-          "title": "The Pitt",
-          "year": 2025,
-          "poster": "/poster/340287190/s166/the-pitt.webp",
-          "url": "https://www.justwatch.com/uk/tv-series/the-pitt",
-          "trend": "DOWN",
-          "trendDifference": -1,
-          "daysInTop10": 285,
-          "topRank": 1
+          "title": "House of the Dragon",
+          "url": "https://www.hbomax.com/gb/en/show/c68e69d7-9317-428a-a615-cdf8fe5a2e06",
+          "poster": "/poster/301444667/s166/house-of-the-dragon.webp",
+          "year": 2022,
+          "detailsUrl": "https://www.justwatch.com/uk/tv-series/house-of-the-dragon"
         },
         {
           "rank": 4,
-          "sourceRank": 26,
-          "title": "Game of Thrones",
-          "year": 2011,
-          "poster": "/poster/309783298/s166/game-of-thrones.webp",
-          "url": "https://www.justwatch.com/uk/tv-series/game-of-thrones",
-          "trend": "DOWN",
-          "trendDifference": -2,
-          "daysInTop10": 1384,
-          "topRank": 1
+          "title": "Euphoria",
+          "url": "https://www.hbomax.com/gb/en/show/4ffd33c9-e0d6-4cd6-bd13-34c266c79be0",
+          "poster": "/poster/128560279/s166/euphoria.webp",
+          "year": 2019,
+          "detailsUrl": "https://www.justwatch.com/uk/tv-series/euphoria"
         },
         {
           "rank": 5,
-          "sourceRank": 32,
-          "title": "True Detective",
-          "year": 2014,
-          "poster": "/poster/243933920/s166/true-detective.webp",
-          "url": "https://www.justwatch.com/uk/tv-series/true-detective",
-          "trend": "UP",
-          "trendDifference": 3,
-          "daysInTop10": 131,
-          "topRank": 1
+          "title": "Friends",
+          "url": "https://www.hbomax.com/gb/en/show/52dae4c7-2ab1-4bb9-ab1c-8100fd54e2f9",
+          "poster": "/poster/300603462/s166/friends-1994.webp",
+          "year": 1994,
+          "detailsUrl": "https://www.justwatch.com/uk/tv-series/friends-1994"
         },
         {
           "rank": 6,
-          "sourceRank": 33,
-          "title": "Stuart Fails to Save the Universe",
-          "year": 2026,
-          "poster": "/poster/347883413/s166/stuart-fails-to-save-the-universe.webp",
-          "url": "https://www.justwatch.com/uk/tv-series/stuart-fails-to-save-the-universe",
-          "trend": "DOWN",
-          "trendDifference": -5,
-          "daysInTop10": 6,
-          "topRank": 1
+          "title": "The White Lotus",
+          "url": "https://www.hbomax.com/gb/en/show/14f9834d-bc23-41a8-ab61-5c8abdbea505",
+          "poster": "/poster/247152730/s166/the-white-lotus.webp",
+          "year": 2021,
+          "detailsUrl": "https://www.justwatch.com/uk/tv-series/the-white-lotus"
         },
         {
           "rank": 7,
-          "sourceRank": 40,
-          "title": "The Sopranos",
-          "year": 1999,
-          "poster": "/poster/346669603/s166/the-sopranos.webp",
-          "url": "https://www.justwatch.com/uk/tv-series/the-sopranos",
-          "trend": "UP",
-          "trendDifference": 15,
-          "daysInTop10": 108,
-          "topRank": 1
+          "title": "The Last of Us",
+          "url": "https://www.hbomax.com/gb/en/show/93ba22b1-833e-47ba-ae94-8ee7b9eefa9a",
+          "poster": "/poster/301981224/s166/the-last-of-us.webp",
+          "year": 2023,
+          "detailsUrl": "https://www.justwatch.com/uk/tv-series/the-last-of-us"
         },
         {
           "rank": 8,
-          "sourceRank": 43,
-          "title": "The Big Bang Theory",
-          "year": 2007,
-          "poster": "/poster/86201639/s166/the-big-bang-theory.webp",
-          "url": "https://www.justwatch.com/uk/tv-series/the-big-bang-theory",
-          "trend": "DOWN",
-          "trendDifference": -1,
-          "daysInTop10": 1092,
-          "topRank": 1
+          "title": "IT: Welcome To Derry",
+          "url": "https://www.hbomax.com/gb/en/show/6c39354a-c52d-46d7-982c-b5d196988189",
+          "poster": "/poster/337882384/s166/welcome-to-derry.webp",
+          "year": 2025,
+          "detailsUrl": "https://www.justwatch.com/uk/tv-series/welcome-to-derry"
         },
         {
           "rank": 9,
-          "sourceRank": 44,
-          "title": "Rick and Morty",
-          "year": 2013,
-          "poster": "/poster/320955712/s166/rick-and-morty.webp",
-          "url": "https://www.justwatch.com/uk/tv-series/rick-and-morty",
-          "trend": "DOWN",
-          "trendDifference": -7,
-          "daysInTop10": 496,
-          "topRank": 1
+          "title": "Game of Thrones",
+          "url": "https://www.hbomax.com/gb/en/show/4f6b4985-2dc9-4ab6-ac79-d60f0860b0ac",
+          "poster": "/poster/309783298/s166/game-of-thrones.webp",
+          "year": 2011,
+          "detailsUrl": "https://www.justwatch.com/uk/tv-series/game-of-thrones"
         },
         {
           "rank": 10,
-          "sourceRank": 48,
-          "title": "A Knight of the Seven Kingdoms",
-          "year": 2026,
-          "poster": "/poster/341168823/s166/a-knight-of-the-seven-kingdoms-the-hedge-knight.webp",
-          "url": "https://www.justwatch.com/uk/tv-series/a-knight-of-the-seven-kingdoms-the-hedge-knight",
-          "trend": "DOWN",
-          "trendDifference": -8,
-          "daysInTop10": 63,
-          "topRank": 1
+          "title": "Task",
+          "url": "https://www.hbomax.com/gb/en/show/86bc816f-97a7-4cd6-8d53-08d5e6337063",
+          "poster": "/poster/336551128/s166/task.webp",
+          "year": 2025,
+          "detailsUrl": "https://www.justwatch.com/uk/tv-series/task"
         }
       ],
       "sources": {
         "movies": {
-          "kind": "fallback",
-          "label": "JustWatch UK",
-          "displayName": "JustWatch",
-          "url": "https://www.justwatch.com/uk/provider/hbo-max/movies",
+          "kind": "official",
+          "label": "Official HBO Max",
+          "displayName": "HBO Max",
+          "url": "https://www.hbomax.com/gb/en/movies",
           "cadence": "daily",
-          "note": "No compatible public official Movies/TV chart is currently used, so WozzaWatch falls back to JustWatch UK popularity."
+          "note": "HBO Max UK Most Popular Movies, read directly from the public HBO Max UK Movies page."
         },
         "tv": {
-          "kind": "fallback",
-          "label": "JustWatch UK",
-          "displayName": "JustWatch",
-          "url": "https://www.justwatch.com/uk/provider/hbo-max/tv-series",
+          "kind": "official",
+          "label": "Official HBO Max",
+          "displayName": "HBO Max",
+          "url": "https://www.hbomax.com/gb/en/shows",
           "cadence": "daily",
-          "note": "No compatible public official Movies/TV chart is currently used, so WozzaWatch falls back to JustWatch UK popularity."
+          "note": "HBO Max UK Most Popular Series, read directly from the public HBO Max UK Shows page."
         }
       },
       "error": null
@@ -2381,8 +2301,7 @@
           "note": "US weekend box-office Top 10 from IMDb, reported by Box Office Mojo."
         }
       },
-      "error": null,
-      "stale": true
+      "error": null
     },
     "ukmusic": {
       "provider": "UK Music",
@@ -2657,22 +2576,25 @@
           "rank": 1,
           "title": "WILD (EP)",
           "artist": "KATSEYE",
-          "poster": null,
-          "detailsUrl": "https://ca.billboard.com/charts/billboard-200"
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0a/63/b5/0a63b5b0-dff7-1194-79c0-6bc8f5ab2d74/093624821526.jpg/400x400bb.jpg",
+          "detailsUrl": "https://ca.billboard.com/charts/billboard-200",
+          "musicUrl": "https://music.apple.com/us/album/wild/1885046822?uo=4"
         },
         {
           "rank": 2,
           "title": "Lost Weekend",
           "artist": "Phoebe Bridgers",
-          "poster": null,
-          "detailsUrl": "https://ca.billboard.com/charts/billboard-200"
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/aa/9e/a6/aa9ea64a-bbf2-470e-b447-fa407b4645fa/66852.jpg/400x400bb.jpg",
+          "detailsUrl": "https://ca.billboard.com/charts/billboard-200",
+          "musicUrl": "https://music.apple.com/us/album/lost-weekend/6781051268?uo=4"
         },
         {
           "rank": 3,
           "title": "This & That",
           "artist": "Stray Kids",
-          "poster": null,
-          "detailsUrl": "https://ca.billboard.com/charts/billboard-200"
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c0/05/aa/c005aa79-a3a7-6e28-48e2-4c5e72eff603/8809928957357_Cover.jpg/400x400bb.jpg",
+          "detailsUrl": "https://ca.billboard.com/charts/billboard-200",
+          "musicUrl": "https://music.apple.com/us/album/this-that/6781751949?uo=4"
         },
         {
           "rank": 4,
@@ -2702,8 +2624,9 @@
           "rank": 7,
           "title": "The Great Divide",
           "artist": "Noah Kahan",
-          "poster": null,
-          "detailsUrl": "https://ca.billboard.com/charts/billboard-200"
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e0/53/5b/e0535bb5-a269-8cc4-e12f-589e26809569/26UMGIM02802.rgb.jpg/400x400bb.jpg",
+          "detailsUrl": "https://ca.billboard.com/charts/billboard-200",
+          "musicUrl": "https://music.apple.com/us/album/the-great-divide/1872241079?uo=4"
         },
         {
           "rank": 8,
@@ -2725,8 +2648,9 @@
           "rank": 10,
           "title": "The Art Of Loving",
           "artist": "Olivia Dean",
-          "poster": null,
-          "detailsUrl": "https://ca.billboard.com/charts/billboard-200"
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/08/e2/21/08e22164-7c0b-1522-818f-e0e74f62dc49/25UMGIM69703.rgb.jpg/400x400bb.jpg",
+          "detailsUrl": "https://ca.billboard.com/charts/billboard-200",
+          "musicUrl": "https://music.apple.com/us/album/the-art-of-loving/1817609404?uo=4"
         }
       ],
       "sources": {
