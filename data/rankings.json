@@ -1,6 +1,6 @@
 {
   "version": 17,
-  "generatedAt": "2026-09-01T14:39:15.790Z",
+  "generatedAt": "2026-09-01T14:46:43.842Z",
   "country": "GB",
   "strategy": "Official source first; labelled fallback when no compatible official chart is available.",
   "services": {
@@ -2021,10 +2021,10 @@
         },
         {
           "rank": 10,
-          "title": "Babylon",
+          "title": "We're All Going to the World's Fair",
           "year": 2022,
-          "poster": "/poster/301809868/s166/babylon-2022.webp",
-          "url": "https://www.justwatch.com/uk/movie/babylon-2022",
+          "poster": "/poster/320892822/s166/were-all-going-to-the-worlds-fair.webp",
+          "url": "https://www.justwatch.com/uk/movie/were-all-going-to-the-worlds-fair",
           "trend": null,
           "trendDifference": 0,
           "daysInTop10": null,
@@ -2656,22 +2656,25 @@
           "rank": 1,
           "title": "WILD (EP)",
           "artist": "KATSEYE",
-          "poster": null,
-          "detailsUrl": "https://ca.billboard.com/charts/billboard-200"
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0a/63/b5/0a63b5b0-dff7-1194-79c0-6bc8f5ab2d74/093624821526.jpg/400x400bb.jpg",
+          "detailsUrl": "https://ca.billboard.com/charts/billboard-200",
+          "musicUrl": "https://music.apple.com/us/album/wild/1885046822?uo=4"
         },
         {
           "rank": 2,
           "title": "Lost Weekend",
           "artist": "Phoebe Bridgers",
-          "poster": null,
-          "detailsUrl": "https://ca.billboard.com/charts/billboard-200"
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/aa/9e/a6/aa9ea64a-bbf2-470e-b447-fa407b4645fa/66852.jpg/400x400bb.jpg",
+          "detailsUrl": "https://ca.billboard.com/charts/billboard-200",
+          "musicUrl": "https://music.apple.com/us/album/lost-weekend/6781051268?uo=4"
         },
         {
           "rank": 3,
           "title": "This & That",
           "artist": "Stray Kids",
-          "poster": null,
-          "detailsUrl": "https://ca.billboard.com/charts/billboard-200"
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c0/05/aa/c005aa79-a3a7-6e28-48e2-4c5e72eff603/8809928957357_Cover.jpg/400x400bb.jpg",
+          "detailsUrl": "https://ca.billboard.com/charts/billboard-200",
+          "musicUrl": "https://music.apple.com/us/album/this-that/6781751949?uo=4"
         },
         {
           "rank": 4,
