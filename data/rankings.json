@@ -1,6 +1,6 @@
 {
-  "version": 12,
-  "generatedAt": "2026-09-01T10:25:45.537Z",
+  "version": 13,
+  "generatedAt": "2026-09-01T10:42:28.524Z",
   "country": "GB",
   "strategy": "Official source first; labelled fallback when no compatible official chart is available.",
   "services": {
@@ -1045,18 +1045,6 @@
         },
         {
           "rank": 6,
-          "title": "Widow’s Bay",
-          "year": 2026,
-          "poster": "/poster/345823300/s166/widows-bay.webp",
-          "url": "https://tv.apple.com/gb/show/widows-bay/umc.cmc.1zzly0vah46bnvnwf0qkrjhh2",
-          "trend": null,
-          "trendDifference": 0,
-          "daysInTop10": null,
-          "topRank": null,
-          "detailsUrl": "https://www.justwatch.com/uk/tv-series/widows-bay"
-        },
-        {
-          "rank": 7,
           "title": "Lucky",
           "year": 2026,
           "poster": "/poster/341456365/s166/lucky-2026.webp",
@@ -1066,6 +1054,18 @@
           "daysInTop10": null,
           "topRank": null,
           "detailsUrl": "https://www.justwatch.com/uk/tv-series/lucky-2026"
+        },
+        {
+          "rank": 7,
+          "title": "Widow’s Bay",
+          "year": 2026,
+          "poster": "/poster/345823300/s166/widows-bay.webp",
+          "url": "https://tv.apple.com/gb/show/widows-bay/umc.cmc.1zzly0vah46bnvnwf0qkrjhh2",
+          "trend": null,
+          "trendDifference": 0,
+          "daysInTop10": null,
+          "topRank": null,
+          "detailsUrl": "https://www.justwatch.com/uk/tv-series/widows-bay"
         },
         {
           "rank": 8,
@@ -2272,8 +2272,7 @@
           "note": "Official UK weekend box-office Top 10 published by the UK Cinema Association using Comscore data."
         }
       },
-      "error": null,
-      "stale": true
+      "error": null
     },
     "uscinema": {
       "provider": "US Cinema",
@@ -2370,7 +2369,8 @@
           "note": "US weekend box-office Top 10 from IMDb, reported by Box Office Mojo."
         }
       },
-      "error": null
+      "error": null,
+      "stale": true
     },
     "ukmusic": {
       "provider": "UK Music",
@@ -2378,6 +2378,172 @@
       "albums": [],
       "sources": {},
       "error": "singles: no ranking available | albums: no ranking available"
+    },
+    "usmusic": {
+      "provider": "USA Music",
+      "singles": [
+        {
+          "rank": 1,
+          "title": "Choosin' Texas",
+          "artist": "Ella Langley",
+          "poster": null,
+          "detailsUrl": "https://ca.billboard.com/charts/hot-100"
+        },
+        {
+          "rank": 2,
+          "title": "Boston",
+          "artist": "Stella Lefty",
+          "poster": null,
+          "detailsUrl": "https://ca.billboard.com/charts/hot-100"
+        },
+        {
+          "rank": 3,
+          "title": "I Knew It, I Knew You",
+          "artist": "Taylor Swift",
+          "poster": null,
+          "detailsUrl": "https://ca.billboard.com/charts/hot-100"
+        },
+        {
+          "rank": 4,
+          "title": "Been By Now",
+          "artist": "Morgan Wallen",
+          "poster": null,
+          "detailsUrl": "https://ca.billboard.com/charts/hot-100"
+        },
+        {
+          "rank": 5,
+          "title": "Hate That I Made You Love Me",
+          "artist": "Ariana Grande",
+          "poster": null,
+          "detailsUrl": "https://ca.billboard.com/charts/hot-100"
+        },
+        {
+          "rank": 6,
+          "title": "I Can't Love You Anymore",
+          "artist": "Ella Langley & Morgan Wallen",
+          "poster": null,
+          "detailsUrl": "https://ca.billboard.com/charts/hot-100"
+        },
+        {
+          "rank": 7,
+          "title": "So Easy (To Fall In Love)",
+          "artist": "Olivia Dean",
+          "poster": null,
+          "detailsUrl": "https://ca.billboard.com/charts/hot-100"
+        },
+        {
+          "rank": 8,
+          "title": "Dracula",
+          "artist": "Tame Impala & JENNIE",
+          "poster": null,
+          "detailsUrl": "https://ca.billboard.com/charts/hot-100"
+        },
+        {
+          "rank": 9,
+          "title": "Man I Need",
+          "artist": "Olivia Dean",
+          "poster": null,
+          "detailsUrl": "https://ca.billboard.com/charts/hot-100"
+        },
+        {
+          "rank": 10,
+          "title": "Be Her",
+          "artist": "Ella Langley",
+          "poster": null,
+          "detailsUrl": "https://ca.billboard.com/charts/hot-100"
+        }
+      ],
+      "albums": [
+        {
+          "rank": 1,
+          "title": "WILD (EP)",
+          "artist": "KATSEYE",
+          "poster": null,
+          "detailsUrl": "https://ca.billboard.com/charts/billboard-200"
+        },
+        {
+          "rank": 2,
+          "title": "Lost Weekend",
+          "artist": "Phoebe Bridgers",
+          "poster": null,
+          "detailsUrl": "https://ca.billboard.com/charts/billboard-200"
+        },
+        {
+          "rank": 3,
+          "title": "This & That",
+          "artist": "Stray Kids",
+          "poster": null,
+          "detailsUrl": "https://ca.billboard.com/charts/billboard-200"
+        },
+        {
+          "rank": 4,
+          "title": "you seem pretty sad for a girl so in love",
+          "artist": "Olivia Rodrigo",
+          "poster": null,
+          "detailsUrl": "https://ca.billboard.com/charts/billboard-200"
+        },
+        {
+          "rank": 5,
+          "title": "Dandelion",
+          "artist": "Ella Langley",
+          "poster": null,
+          "detailsUrl": "https://ca.billboard.com/charts/billboard-200"
+        },
+        {
+          "rank": 6,
+          "title": "I'm The Problem",
+          "artist": "Morgan Wallen",
+          "poster": null,
+          "detailsUrl": "https://ca.billboard.com/charts/billboard-200"
+        },
+        {
+          "rank": 7,
+          "title": "The Great Divide",
+          "artist": "Noah Kahan",
+          "poster": null,
+          "detailsUrl": "https://ca.billboard.com/charts/billboard-200"
+        },
+        {
+          "rank": 8,
+          "title": "petal",
+          "artist": "Ariana Grande",
+          "poster": null,
+          "detailsUrl": "https://ca.billboard.com/charts/billboard-200"
+        },
+        {
+          "rank": 9,
+          "title": "ICEMAN",
+          "artist": "Drake",
+          "poster": null,
+          "detailsUrl": "https://ca.billboard.com/charts/billboard-200"
+        },
+        {
+          "rank": 10,
+          "title": "The Art Of Loving",
+          "artist": "Olivia Dean",
+          "poster": null,
+          "detailsUrl": "https://ca.billboard.com/charts/billboard-200"
+        }
+      ],
+      "sources": {
+        "singles": {
+          "kind": "official",
+          "label": "Billboard",
+          "displayName": "Billboard",
+          "url": "https://ca.billboard.com/charts/hot-100",
+          "cadence": "weekly",
+          "note": "Billboard Hot 100 — the weekly US singles chart."
+        },
+        "albums": {
+          "kind": "official",
+          "label": "Billboard",
+          "displayName": "Billboard",
+          "url": "https://ca.billboard.com/charts/billboard-200",
+          "cadence": "weekly",
+          "note": "Billboard 200 — the weekly US albums chart."
+        }
+      },
+      "error": null
     }
   }
 }
