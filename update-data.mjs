@@ -486,7 +486,7 @@ async function fetchPrimeViaPublicSearchIndex() {
 }
 
 async function fetchOfficialPrimeMovies() {
-  // v5.3.14 forensic build: inspect rank/position metadata around genuine TOP 10 badges. We already proved the
+  // v5.3.15 forensic build: inspect rank/position metadata around genuine TOP 10 badges. We already proved the
   // storefront contains three genuine current TOP 10 badges, but they sit in
   // unrelated shelves. Now inspect hydrated state and Prime JS bundles for the
   // anonymous endpoints/tokens used by the browser to fetch shelf content.
@@ -523,7 +523,7 @@ async function fetchOfficialPrimeMovies() {
   }
   anchors.forEach((a,i)=>console.log(`Prime dynamic anchor ${String(i+1).padStart(2,'0')} | title=${a.title} | type=${a.type} | id=${a.id}`));
 
-  // v5.3.14: deeper pagination proved to be an ordinary shelf chain: after the
+  // v5.3.15: deeper pagination proved to be an ordinary shelf chain: after the
   // first page it repeatedly returned Clarkson's Farm and no new TOP 10 badges.
   // Pivot to the metadata immediately surrounding each genuine badge and log
   // rank-like fields/phrases. If Amazon exposes the actual Top 10 position here,
@@ -581,7 +581,7 @@ async function fetchOfficialPrimeMovies() {
     const keys=[...new Set((win.match(/(?:ajaxEnabled|pagination|continuation|nextPage|loadMore|serviceToken|endpoint|collectionId|widgetId|pageType|pageId|partialURL)/gi)||[]).map(x=>x.toLowerCase()))];
     console.log(`Prime dynamic context | ${a.title} | keys=[${keys.join(',')||'-'}]`);
   }
-  // v5.3.14: Amazon changes the continuation URL shape between requests, so
+  // v5.3.15: Amazon changes the continuation URL shape between requests, so
   // do not require startIndex/targetId to be present. Harvest every anonymous
   // storefront URL carrying a serviceToken, and also reconstruct a request
   // from nearby pagination fields when Amazon splits the values across JSON.
@@ -671,7 +671,7 @@ async function fetchOfficialPrimeMovies() {
   }
   console.log(`Prime pagination summary: requests=${pageNo}; continuation TOP10 badges=${totalContinuationBadges}; unique continuation anchors=${continuationAnchors.length}; remainingQueue=${queue.length}`);
   console.log(`Prime dynamic-hunt summary: anchors=${anchors.length}; htmlHints=${hints.length}; scriptsScanned=${scanned}; jsHints=${scriptHints}`);
-  throw new Error(`forensic-only v5.3.14: Prime rank-context hunt complete; anchors=${anchors.length}, paginationRequests=${pageNo}, continuationBadges=${totalContinuationBadges}, continuationAnchors=${continuationAnchors.length}`);
+  throw new Error(`forensic-only v5.3.15: Prime rank-context hunt complete; anchors=${anchors.length}, paginationRequests=${pageNo}, continuationBadges=${totalContinuationBadges}, continuationAnchors=${continuationAnchors.length}`);
 
 }
 
