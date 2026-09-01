@@ -742,6 +742,40 @@ async function enrichOfficial(official, fallback=[], objectType) {
   return enriched;
 }
 
+
+const UK_SINGLES_URL='https://www.officialcharts.com/charts/singles-chart/';
+const UK_ALBUMS_URL='https://www.officialcharts.com/charts/albums-chart/';
+function cleanMusicText(v=''){return decodeHtml(String(v)).replace(/^New(?=[A-Z0-9])/,'').replace(/^Re(?=[A-Z0-9])/,'').replace(/\s+/g,' ').trim();}
+function parseOfficialChartsMarkdown(md, sourceUrl){
+  const items=[];
+  const chunks=String(md).split(/\n(?=Number\s+\d+\s*$)/mi);
+  for(const chunk of chunks){
+    const m=chunk.match(/^Number\s+(\d+)\s*$/mi); if(!m) continue;
+    const rank=Number(m[1]); if(rank<1||rank>10) continue;
+    const lines=chunk.split(/\r?\n/).map(x=>x.trim()).filter(Boolean);
+    let title='',artist='',poster=null,detailsUrl=null;
+    for(const line of lines){
+      const img=line.match(/!\[[^\]]*\]\((https?:\/\/[^)]+)\)/i); if(img&&!poster)poster=img[1];
+      const link=line.match(/^\[([^\]]+)\]\((https?:\/\/www\.officialcharts\.com\/[^)]+)\)$/i);
+      if(link&&!/^(Number|LW:|Peak:|Weeks:)/i.test(link[1])){ if(!title)title=cleanMusicText(link[1]); detailsUrl=link[2]; }
+    }
+    const candidates=lines.filter(line=>!/^Number\s+\d+/i.test(line)&&!/^Image:/i.test(line)&&!/^!\[/i.test(line)&&!/^\d+\.\s*(LW|Peak|Weeks):/i.test(line)&&!/^\*\s*/.test(line)&&!/^view as/i.test(line));
+    if(!title){
+      const idx=candidates.findIndex(x=>!/^\[?New\]?$/i.test(x)&&!/^\[?Re-?entry\]?$/i.test(x));
+      if(idx>=0){title=cleanMusicText(candidates[idx].replace(/^\[|\]$/g,'')); artist=cleanMusicText((candidates[idx+1]||'').replace(/^\[|\]$/g,''));}
+    } else {
+      const ti=candidates.findIndex(x=>cleanMusicText(x.replace(/^\[|\]$/g,''))===title);
+      if(ti>=0) artist=cleanMusicText((candidates[ti+1]||'').replace(/^\[|\]$/g,''));
+    }
+    if(title&&artist&&!/^(LW|Peak|Weeks):/i.test(artist))items.push({rank,title,artist,poster,detailsUrl:detailsUrl||sourceUrl});
+  }
+  return items.sort((a,b)=>a.rank-b.rank).slice(0,10);
+}
+async function fetchOfficialMusicChart(url,label){
+  const attempts=[url,`https://r.jina.ai/${url}`]; let last='';
+  for(const u of attempts){try{const r=await fetchWithTimeout(u,{headers:{'User-Agent':UA,'Accept-Language':'en-GB,en;q=0.9'}},22000);if(!r.ok)throw new Error(`HTTP ${r.status}`);const text=await r.text();const items=parseOfficialChartsMarkdown(text,url);console.log(`UK music ${label}: ${items.length}/10 via ${u.startsWith('https://r.jina.ai/')?'reader':'direct'}`);if(items.length===10)return items;last=`returned ${items.length}/10`;}catch(e){last=e.message;console.warn(`UK music ${label} attempt failed: ${e.message}`)}}throw new Error(last||'chart unavailable');
+}
+
 let previous={}; try{previous=JSON.parse(await readFile('data/rankings.json','utf8'));}catch{}
 const output={version:12,generatedAt:new Date().toISOString(),country:'GB',strategy:'Official source first; labelled fallback when no compatible official chart is available.',services:{}};
 const packageData=await gql(PACKAGES_QUERY,{country:'GB',platform:'WEB'}); const packages=packageData?.packages||[];
@@ -751,6 +785,8 @@ let appleMoviesOfficial=null; try{appleMoviesOfficial=await fetchOfficialApple(A
 let appleTVOfficial=null; try{appleTVOfficial=await fetchOfficialApple(APPLE_TV_URL,'SHOW'); console.log(`Apple official TV: ${appleTVOfficial.length}`);}catch(err){console.error('Apple official TV:',err.message);}
 let ukCinemaOfficial=null; try{ukCinemaOfficial=await fetchOfficialUKCinema(); console.log(`UK cinema official: ${ukCinemaOfficial.length}`);}catch(err){console.error('UK cinema official:',err.message);}
 let usCinemaIMDb=null; try{usCinemaIMDb=await fetchUSCinemaIMDb(); console.log(`US cinema IMDb: ${usCinemaIMDb.length}`);}catch(err){console.error('US cinema IMDb:',err.message);}
+let ukSingles=null; try{ukSingles=await fetchOfficialMusicChart(UK_SINGLES_URL,'singles');}catch(err){console.error('UK music singles:',err.message);}
+let ukAlbums=null; try{ukAlbums=await fetchOfficialMusicChart(UK_ALBUMS_URL,'albums');}catch(err){console.error('UK music albums:',err.message);}
 
 for(const service of SERVICES){
   const pkg=findPackage(packages,service); const entry={provider:pkg?.clearName||service.name,movies:[],tv:[],sources:{},error:null};
@@ -804,6 +840,19 @@ for(const service of SERVICES){
     entry.movies=old.movies.map((x,i)=>({...x,rank:i+1})); entry.sources.movies=old.sources?.movies; entry.stale=true;
   } else entry.error='movies: no IMDb ranking available';
   output.services.uscinema=entry;
+}
+
+
+// WozzaTune: official UK singles + albums, kept in the same rankings feed.
+{
+  const old=previous?.services?.ukmusic;
+  const entry={provider:'UK Music',singles:[],albums:[],sources:{},error:null};
+  for(const [key,fresh,url] of [['singles',ukSingles,UK_SINGLES_URL],['albums',ukAlbums,UK_ALBUMS_URL]]){
+    if(Array.isArray(fresh)&&fresh.length===10){entry[key]=fresh.map((x,i)=>({...x,rank:i+1}));entry.sources[key]={kind:'official',label:'Official Charts Company',displayName:'Official Charts',url,cadence:'weekly',note:'Official UK chart compiled by the Official Charts Company.'};}
+    else if(Array.isArray(old?.[key])&&old[key].length){entry[key]=old[key].map((x,i)=>({...x,rank:i+1}));entry.sources[key]=old.sources?.[key];entry.stale=true;}
+    else entry.error=[entry.error,`${key}: no ranking available`].filter(Boolean).join(' | ');
+  }
+  output.services.ukmusic=entry;
 }
 
 await mkdir('data',{recursive:true}); await writeFile('data/rankings.json',JSON.stringify(output,null,2)+'\n'); console.log(`Saved rankings at ${output.generatedAt}`);

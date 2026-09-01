@@ -36,3 +36,14 @@ footer{width:min(760px,100%);margin:0 auto;padding:0 20px max(24px,env(safe-area
 .poster-link{display:block;border-radius:14px;line-height:0;text-decoration:none;justify-self:start}
 .poster-link:focus-visible{outline:3px solid var(--ink);outline-offset:3px}
 .poster-link .poster{display:block}
+
+/* v5.0 sister-brand switcher + WozzaTune */
+.brand-cluster{display:flex;align-items:center;gap:10px;min-width:0}.sister-switch{display:grid;place-items:center;width:40px;height:40px;border-radius:12px;transition:transform .15s ease,background .15s ease}.sister-switch img{width:36px;height:36px;display:block}.sister-switch:hover{background:rgba(255,255,255,.25);transform:translateY(-1px)}.sister-switch:focus-visible{outline:3px solid var(--navy);outline-offset:2px}.tune-page .brand h1 span{display:block}.tune-page .service-tabs{justify-content:flex-start}.tune-page .service-tab{min-width:120px}.tune-page .poster{aspect-ratio:1/1}.tune-page .item-info{display:block}.artist{margin-top:3px;font-size:11px;font-weight:600;opacity:.66;line-height:1.2}.tune-page .segmented button img{width:43px;height:43px;display:block}@media(max-width:560px){.brand-cluster{gap:6px}.sister-switch{width:34px;height:34px}.sister-switch img{width:31px;height:31px}.artist{font-size:10px}}
+
+/* WozzaTune sister-brand polish v5.0.1 */
+.sister-switch.sister-brand{width:auto;height:42px;padding:2px 8px 2px 4px;display:flex;gap:5px;text-decoration:none;color:var(--navy);border-radius:12px}
+.sister-switch.sister-brand img{width:36px;height:36px;flex:0 0 auto}
+.sister-switch.sister-brand span{font-family:'Archivo Black',Impact,sans-serif;font-size:11px;line-height:.86;letter-spacing:-.35px;text-align:left}
+.tune-page .service-tabs{overflow-x:visible}
+.tune-page .service-tab{min-width:120px}
+@media(max-width:560px){.sister-switch.sister-brand{height:36px;padding-right:5px;gap:3px}.sister-switch.sister-brand img{width:31px;height:31px}.sister-switch.sister-brand span{font-size:9px}}
