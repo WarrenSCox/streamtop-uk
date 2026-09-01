@@ -60,7 +60,7 @@ undoButton.addEventListener('click',()=>{if(!lastRemoved)return;const item=lastR
 render();
 
 
-// v5.3.11: when already at the top, a deliberate downward pull switches
+// v5.3.12: when already at the top, a deliberate downward pull switches
 // WozzaWatch → WozzaTune → Watchlist → WozzaWatch instead of native refresh.
 function initTopPullSwitch(nextUrl,nextLabel){
   let startY=0,pulling=false,distance=0;
@@ -97,7 +97,7 @@ function initTopPullSwitch(nextUrl,nextLabel){
 initTopPullSwitch('index.html','WozzaWatch');
 
 
-// v5.3.11: at the bottom, a deliberate upward flick switches backwards
+// v5.3.12: at the bottom, a deliberate upward flick switches backwards
 // through Watch ← Tune ← List. No popup/"Opening" message.
 function initBottomFlickSwitch(prevUrl){
   let startY=0,tracking=false,distance=0; const threshold=82;
@@ -109,7 +109,7 @@ function initBottomFlickSwitch(prevUrl){
 }
 initBottomFlickSwitch('tune.html');
 
-// v5.3.11 — aggressively adopt new PWA releases without an update popup.
+// v5.3.12 — aggressively adopt new PWA releases without an update popup.
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', async () => {
     try {

@@ -95,7 +95,7 @@ initMusicGestures();
 (async()=>{try{state.data=await loadFeed();render()}catch(e){els.errorText.textContent=e.message;els.error.classList.remove('hidden');els.updated.textContent='Ranking feed unavailable'}finally{els.loading.classList.add('hidden')}})();
 
 
-// v5.3.11: when already at the top, a deliberate downward pull switches
+// v5.3.12: when already at the top, a deliberate downward pull switches
 // WozzaWatch → WozzaTune → Watchlist → WozzaWatch instead of native refresh.
 function initTopPullSwitch(nextUrl,nextLabel){
   let startY=0,pulling=false,distance=0;
@@ -132,7 +132,7 @@ function initTopPullSwitch(nextUrl,nextLabel){
 initTopPullSwitch('my-list.html','Watchlist');
 
 
-// v5.3.11: at the bottom, a deliberate upward flick switches backwards
+// v5.3.12: at the bottom, a deliberate upward flick switches backwards
 // through Watch ← Tune ← List. No popup/"Opening" message.
 function initBottomFlickSwitch(prevUrl){
   let startY=0,tracking=false,distance=0; const threshold=82;
@@ -144,7 +144,28 @@ function initBottomFlickSwitch(prevUrl){
 }
 initBottomFlickSwitch('index.html');
 
-// v5.3.11 — aggressively adopt new PWA releases without an update popup.
+
+
+// v5.3.12 — subtle gesture hint after 4 seconds of inactivity. It is only a
+// visual nudge: WozzaWatch double-snaps the clapper; WozzaTune spins the vinyl.
+function initIdleGestureHint(){
+  const selector=document.querySelector('.segmented');
+  if(!selector||window.matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+  let timer=null,repeatTimer=null;
+  const clear=()=>{if(timer)clearTimeout(timer);if(repeatTimer)clearTimeout(repeatTimer);timer=repeatTimer=null;selector.classList.remove('idle-gesture-hint')};
+  const play=()=>{
+    selector.classList.remove('idle-gesture-hint');void selector.offsetWidth;selector.classList.add('idle-gesture-hint');
+    setTimeout(()=>selector.classList.remove('idle-gesture-hint'),1300);
+    repeatTimer=setTimeout(play,12000);
+  };
+  const arm=()=>{clear();timer=setTimeout(play,4000)};
+  ['pointerdown','touchstart','keydown'].forEach(name=>document.addEventListener(name,arm,{passive:true}));
+  document.addEventListener('visibilitychange',()=>{if(document.hidden)clear();else arm()});
+  arm();
+}
+initIdleGestureHint();
+
+// v5.3.12 — aggressively adopt new PWA releases without an update popup.
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', async () => {
     try {

@@ -486,7 +486,7 @@ async function fetchPrimeViaPublicSearchIndex() {
 }
 
 async function fetchOfficialPrimeMovies() {
-  // v5.3.11 forensic build: dynamic-request hunt only. We already proved the
+  // v5.3.12 forensic build: dynamic-request hunt only. We already proved the
   // storefront contains three genuine current TOP 10 badges, but they sit in
   // unrelated shelves. Now inspect hydrated state and Prime JS bundles for the
   // anonymous endpoints/tokens used by the browser to fetch shelf content.
@@ -560,36 +560,98 @@ async function fetchOfficialPrimeMovies() {
     const keys=[...new Set((win.match(/(?:ajaxEnabled|pagination|continuation|nextPage|loadMore|serviceToken|endpoint|collectionId|widgetId|pageType|pageId|partialURL)/gi)||[]).map(x=>x.toLowerCase()))];
     console.log(`Prime dynamic context | ${a.title} | keys=[${keys.join(',')||'-'}]`);
   }
-  // v5.3.11: execute Amazon's anonymous storefront continuation request(s).
-  // The initial HTML exposes startIndex + targetId + serviceToken. Follow up to
-  // four unique continuations and inspect each response for genuine TOP 10 badges.
+  // v5.3.12: Amazon changes the continuation URL shape between requests, so
+  // do not require startIndex/targetId to be present. Harvest every anonymous
+  // storefront URL carrying a serviceToken, and also reconstruct a request
+  // from nearby pagination fields when Amazon splits the values across JSON.
+  const normaliseContinuation=value=>{
+    let v=String(value||'').replace(/&amp;/gi,'&').replace(/\\u0026/gi,'&').replace(/\\\//g,'/').trim();
+    v=v.replace(/[\\,}\]]+$/g,'');
+    if(v.startsWith('/'))v='https://www.amazon.co.uk'+v;
+    if(!/^https:\/\/www\.amazon\.co\.uk\/gp\/video\/storefront\?/i.test(v))return null;
+    if(!/[?&]serviceToken=/i.test(v))return null;
+    try{return new URL(v).toString()}catch{return null}
+  };
+  const extractContinuationCandidates=text=>{
+    const src=decodePrimePayload(text);
+    const out=[]; const seen=new Set();
+    const addContinuation=v=>{const n=normaliseContinuation(v);if(n&&!seen.has(n)){seen.add(n);out.push(n)}};
+
+    // 1) Exact storefront paths. The current Amazon response may expose only
+    //    ?serviceToken=..., or may include startIndex/targetId in any order.
+    let pos=0;
+    while((pos=src.indexOf('/gp/video/storefront?',pos))>=0){
+      const tail=src.slice(pos,pos+12000);
+      const stop=tail.search(/["'<>\s]/);
+      addContinuation(stop>0?tail.slice(0,stop):tail);
+      pos+=22;
+    }
+
+    // 2) Pagination objects can split endpoint, targetId, startIndex and token.
+    const markers=[];let pm;const paginationRe=/(?:["']pagination["']|["']serviceToken["'])\s*:/gi;
+    while((pm=paginationRe.exec(src))&&markers.length<80)markers.push(pm.index);
+    const pick=(win,key)=>{
+      const re=new RegExp(`(?:\\?"${key}\\?"|"${key}")\\s*:\\s*(?:\\?"|")((?:\\\\.|[^"\\\\]){1,7000})(?:\\?"|")`,'i');
+      const m=win.match(re);return m?m[1].replace(/\\u0026/gi,'&').replace(/\\\//g,'/').replace(/\\"/g,'"'):null;
+    };
+    for(const at of markers){
+      const win=src.slice(Math.max(0,at-7000),Math.min(src.length,at+14000));
+      const token=pick(win,'serviceToken'); if(!token)continue;
+      const endpoint=pick(win,'partialURL')||pick(win,'endpoint')||'/gp/video/storefront';
+      let base=endpoint.includes('?')?endpoint.split('?')[0]:endpoint;
+      if(!/\/gp\/video\/storefront/i.test(base))base='/gp/video/storefront';
+      const params=new URLSearchParams();
+      const startIndex=pick(win,'startIndex'); const targetId=pick(win,'targetId');
+      if(startIndex&&/^\d+$/.test(startIndex))params.set('startIndex',startIndex);
+      if(targetId)params.set('targetId',targetId);
+      params.set('serviceToken',token);
+      addContinuation(`${base}?${params.toString()}`);
+    }
+    return out;
+  };
+
   const continuationSeen=new Set();
-  let continuationUrl=null;
-  const contMatch=decoded.match(/\/gp\/video\/storefront\?startIndex=\d+(?:&|&amp;)[^\"'<>]{20,6000}?serviceToken=[^\"'<>\s]{20,5000}/i);
-  if(contMatch){
-    continuationUrl=contMatch[0].replace(/&amp;/g,'&').replace(/\\u0026/gi,'&').replace(/\\\//g,'/');
-    if(continuationUrl.startsWith('/')) continuationUrl='https://www.amazon.co.uk'+continuationUrl;
-  }
+  const queue=extractContinuationCandidates(decoded);
+  console.log(`Prime pagination candidates: ${queue.length}`);
+  queue.slice(0,8).forEach((u,i)=>console.log(`Prime pagination candidate ${String(i+1).padStart(2,'0')} | ${u.slice(0,420)}`));
+
   let pageNo=0,totalContinuationBadges=0;
-  while(continuationUrl && pageNo<4 && !continuationSeen.has(continuationUrl)){
-    continuationSeen.add(continuationUrl); pageNo++;
+  const continuationAnchors=[];
+  while(queue.length && pageNo<6){
+    const continuationUrl=queue.shift();
+    if(!continuationUrl||continuationSeen.has(continuationUrl))continue;
+    continuationSeen.add(continuationUrl);pageNo++;
     try{
       const body=await fetchText(continuationUrl,{...headers,'accept':'text/html,*/*','referer':url,'x-requested-with':'XMLHttpRequest'});
       const d=decodePrimePayload(body);
       const bs=[...d.matchAll(badgeRe)]; totalContinuationBadges+=bs.length;
-      console.log(`Prime pagination ${pageNo}: ${body.length} chars; genuine TOP10 badges=${bs.length}; url=${continuationUrl.slice(0,260)}`);
-      const ids=[...new Set((d.match(/\bB0[A-Z0-9]{8}\b/g)||[]))];
-      console.log(`Prime pagination ${pageNo} IDs: ${ids.slice(0,30).join(',')||'-'}`);
-      const next=d.match(/\/gp\/video\/storefront\?startIndex=\d+(?:&|&amp;)[^\"'<>]{20,6000}?serviceToken=[^\"'<>\s]{20,5000}/i);
-      if(!next) { console.log(`Prime pagination ${pageNo}: no further continuation found`); break; }
-      let n=next[0].replace(/&amp;/g,'&').replace(/\\u0026/gi,'&').replace(/\\\//g,'/');
-      if(n.startsWith('/')) n='https://www.amazon.co.uk'+n;
-      continuationUrl=n;
-    }catch(e){ console.log(`Prime pagination ${pageNo} failed: ${e.message}`); break; }
+      console.log(`Prime pagination ${pageNo}: ${body.length} chars; genuine TOP10 badges=${bs.length}; url=${continuationUrl.slice(0,420)}`);
+
+      // Log the actual titles/IDs around TOP 10 badges, not just every ASIN in
+      // the response, so we can tell immediately whether this is the missing list.
+      for(const badge of bs){
+        const from=Math.max(0,badge.index-7000),to=Math.min(d.length,badge.index+7000),win=d.slice(from,to),local=badge.index-from;
+        const tc=[];for(const key of ['displayTitle','title','heading','headline','ariaLabel','alternateText'])tc.push(...collectKeyed(win,key));
+        const title=nearest(tc,local,isUsefulTitle)||'-';
+        const type=nearest(collectKeyed(win,'entityType'),local,v=>/^(?:Movie|TV Show|TV|Series|Show)$/i.test(v))||'-';
+        const ids=[];let im;const ir=/\bB0[A-Z0-9]{8}\b/g;while((im=ir.exec(win)))ids.push({value:im[0],index:im.index});
+        const id=nearest(ids,local)||'-';
+        if(!continuationAnchors.some(x=>x.id===id&&x.title===title))continuationAnchors.push({title,type,id});
+      }
+      continuationAnchors.slice(-Math.max(bs.length,1)).forEach(a=>console.log(`Prime pagination anchor | title=${a.title} | type=${a.type} | id=${a.id}`));
+
+      const next=extractContinuationCandidates(d);
+      let added=0;
+      for(const n of next){if(!continuationSeen.has(n)&&!queue.includes(n)){queue.push(n);added++;}}
+      console.log(`Prime pagination ${pageNo}: discovered ${next.length} continuation candidate(s), queued ${added} new`);
+    }catch(e){
+      console.log(`Prime pagination ${pageNo} failed: ${e.message}; url=${continuationUrl.slice(0,420)}`);
+    }
   }
-  console.log(`Prime pagination summary: requests=${pageNo}; continuation TOP10 badges=${totalContinuationBadges}`);
+  console.log(`Prime pagination summary: requests=${pageNo}; continuation TOP10 badges=${totalContinuationBadges}; unique continuation anchors=${continuationAnchors.length}; remainingQueue=${queue.length}`);
   console.log(`Prime dynamic-hunt summary: anchors=${anchors.length}; htmlHints=${hints.length}; scriptsScanned=${scanned}; jsHints=${scriptHints}`);
-  throw new Error(`forensic-only v5.3.11: Prime pagination hunt complete; anchors=${anchors.length}, paginationRequests=${pageNo}, continuationBadges=${totalContinuationBadges}`);
+  throw new Error(`forensic-only v5.3.12: Prime flexible-pagination hunt complete; anchors=${anchors.length}, paginationRequests=${pageNo}, continuationBadges=${totalContinuationBadges}, continuationAnchors=${continuationAnchors.length}`);
+
 }
 
 async function fetchOfficialNetflix() {
