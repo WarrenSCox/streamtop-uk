@@ -368,6 +368,10 @@ function extractPrimeCandidateTitles(section) {
 }
 
 const PRIME_DIRECT_URLS = [
+  // Explicit Amazon UK marketplace routes first: these bind the request to the
+  // UK storefront by hostname rather than relying only on the runner IP.
+  'https://www.amazon.co.uk/gp/video/storefront?ref_=atv_hm_hom',
+  'https://www.amazon.co.uk/gp/video/movie?ref_=atv_nb_m_mv',
   // Canonical public UK movies landing page.
   PRIME_MOVIES_URL,
   // Explicit UK/GB territory hints for cloud runners.
@@ -503,8 +507,11 @@ async function fetchOfficialPrimeMovies() {
     for(const url of PRIME_DIRECT_URLS){
       try{
         const html=await fetchText(url,headers);
-        const hasUk=/Top\s*10\s*movies\s*in\s*the\s*UK/i.test(decodePrimePayload(html));
-        console.log(`Prime ${profile} fetch: ${url} (${html.length} chars, UK heading=${hasUk})`);
+        const decoded=decodePrimePayload(html);
+        const hasUk=/Top\s*10\s*movies\s*in\s*the\s*UK/i.test(decoded);
+        const top10Labels=(decoded.match(/TOP\s*10/gi)||[]).length;
+        const ukSignals=(decoded.match(/(?:£|en_GB|en-GB|amazon\.co\.uk|avCurrentTerritory[=\":]+(?:UK|GB))/gi)||[]).length;
+        console.log(`Prime ${profile} fetch: ${url} (${html.length} chars, UK heading=${hasUk}, TOP10 labels=${top10Labels}, UK signals=${ukSignals})`);
         if(!hasUk) throw new Error('Prime returned a page without the UK Top 10 carousel');
         return primeItemsFromPayload(html,profile);
       }catch(err){
@@ -529,7 +536,8 @@ async function fetchOfficialPrimeMovies() {
     try{
       const text=await fetchText(readerUrl,readerHeaders);
       const hasUk=/Top\s*10\s*movies\s*in\s*the\s*UK/i.test(text);
-      console.log(`Prime reader fetch: ${officialUrl} (${text.length} chars, UK heading=${hasUk})`);
+      const top10Labels=(text.match(/TOP\s*10/gi)||[]).length;
+      console.log(`Prime reader fetch: ${officialUrl} (${text.length} chars, UK heading=${hasUk}, TOP10 labels=${top10Labels})`);
       if(!hasUk) throw new Error('Rendered Prime page did not contain the UK Top 10 heading');
       return primeItemsFromPayload(text,'reader');
     }catch(err){
