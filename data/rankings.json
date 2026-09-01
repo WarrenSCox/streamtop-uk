@@ -1,6 +1,6 @@
 {
   "version": 17,
-  "generatedAt": "2026-09-01T19:26:46.329Z",
+  "generatedAt": "2026-09-01T19:27:43.436Z",
   "country": "GB",
   "strategy": "Official source first; labelled fallback when no compatible official chart is available.",
   "services": {
@@ -946,7 +946,7 @@
           "rank": 10,
           "title": "Marvel Studios' The Avengers",
           "year": 2012,
-          "type": null,
+          "type": "MOVIE",
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/f31231d4-500b-42eb-a3a6-ef53aaef969f/compose?format=webp&width=386&label=top_ranked_10_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-d2ab699b-67da-4906-a7a4-5bc542c953cf"
         }
@@ -2698,17 +2698,15 @@
           "rank": 5,
           "title": "Dandelion",
           "artist": "Ella Langley",
-          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/26/35/03/26350323-d656-4817-49e6-4d658af8363a/196874332917.jpg/400x400bb.jpg",
-          "detailsUrl": "https://ca.billboard.com/charts/billboard-200",
-          "musicUrl": "https://music.apple.com/us/album/dandelion/1895159736?uo=4"
+          "poster": null,
+          "detailsUrl": "https://ca.billboard.com/charts/billboard-200"
         },
         {
           "rank": 6,
           "title": "I'm The Problem",
           "artist": "Morgan Wallen",
-          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fa/60/fe/fa60fe4a-4329-a0bb-eb7c-3b6094a4d831/25UMGIM46049.rgb.jpg/400x400bb.jpg",
-          "detailsUrl": "https://ca.billboard.com/charts/billboard-200",
-          "musicUrl": "https://music.apple.com/us/album/im-the-problem/1802103906?uo=4"
+          "poster": null,
+          "detailsUrl": "https://ca.billboard.com/charts/billboard-200"
         },
         {
           "rank": 7,
@@ -2722,17 +2720,15 @@
           "rank": 8,
           "title": "petal",
           "artist": "Ariana Grande",
-          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/56/f4/96/56f49612-02dd-83f4-44fe-d2118cc70707/26UMGIM51129.rgb.jpg/400x400bb.jpg",
-          "detailsUrl": "https://ca.billboard.com/charts/billboard-200",
-          "musicUrl": "https://music.apple.com/us/album/petal/1895420874?uo=4"
+          "poster": null,
+          "detailsUrl": "https://ca.billboard.com/charts/billboard-200"
         },
         {
           "rank": 9,
           "title": "ICEMAN",
           "artist": "Drake",
-          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7f/39/61/7f396123-be56-bc11-eaab-976441808e58/26UMGIM63622.rgb.jpg/400x400bb.jpg",
-          "detailsUrl": "https://ca.billboard.com/charts/billboard-200",
-          "musicUrl": "https://music.apple.com/us/album/iceman/6769649287?uo=4"
+          "poster": null,
+          "detailsUrl": "https://ca.billboard.com/charts/billboard-200"
         },
         {
           "rank": 10,
