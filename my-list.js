@@ -57,10 +57,10 @@ function render(){
 }
 document.querySelectorAll('.my-list-controls .segmented button').forEach(button=>button.addEventListener('click',()=>{currentType=button.dataset.type;document.querySelectorAll('.my-list-controls .segmented button').forEach(b=>b.classList.toggle('active',b===button));render()}));
 undoButton.addEventListener('click',()=>{if(!lastRemoved)return;const item=lastRemoved;const list=readList();if(!list.some(x=>x.id===item.id)){list.push({...item,addedAt:item.addedAt||new Date().toISOString()});writeList(list)}writeWatched(readWatched().filter(x=>x.id!==item.id));lastRemoved=null;clearTimeout(undoTimer);undoToast.classList.add('hidden');render()});
-render();if('serviceWorker'in navigator)navigator.serviceWorker.register('./sw.js').catch(()=>{});
+render();
 
 
-// v5.3.10: when already at the top, a deliberate downward pull switches
+// v5.3.11: when already at the top, a deliberate downward pull switches
 // WozzaWatch → WozzaTune → Watchlist → WozzaWatch instead of native refresh.
 function initTopPullSwitch(nextUrl,nextLabel){
   let startY=0,pulling=false,distance=0;
@@ -97,7 +97,7 @@ function initTopPullSwitch(nextUrl,nextLabel){
 initTopPullSwitch('index.html','WozzaWatch');
 
 
-// v5.3.10: at the bottom, a deliberate upward flick switches backwards
+// v5.3.11: at the bottom, a deliberate upward flick switches backwards
 // through Watch ← Tune ← List. No popup/"Opening" message.
 function initBottomFlickSwitch(prevUrl){
   let startY=0,tracking=false,distance=0; const threshold=82;
@@ -108,3 +108,18 @@ function initBottomFlickSwitch(prevUrl){
   window.addEventListener('touchend',finish,{passive:true});window.addEventListener('touchcancel',()=>{tracking=false;distance=0;},{passive:true});
 }
 initBottomFlickSwitch('tune.html');
+
+// v5.3.11 — aggressively adopt new PWA releases without an update popup.
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', async () => {
+    try {
+      const reg = await navigator.serviceWorker.register('./sw.js', { updateViaCache: 'none' });
+      await reg.update();
+      if (reg.waiting) reg.waiting.postMessage({type:'SKIP_WAITING'});
+      let reloading=false;
+      navigator.serviceWorker.addEventListener('controllerchange', () => {
+        if (reloading) return; reloading=true; window.location.reload();
+      });
+    } catch (e) { console.warn('Service worker update check failed', e); }
+  });
+}

@@ -439,6 +439,15 @@ function renderCurrent() {
     verified.textContent = '✓';
     els.sourceBadge.append(verified);
   }
+  if (source?.stale) {
+    const stale = document.createElement('span');
+    stale.className = 'stale-alert';
+    stale.textContent = '!';
+    stale.title = 'This source did not update successfully, so the last available results are being shown.';
+    stale.setAttribute('aria-label', stale.title);
+    stale.addEventListener('click', (event) => { event.preventDefault(); event.stopPropagation(); alert(stale.title); });
+    els.sourceBadge.append(stale);
+  }
   els.fallback.href = source?.url || fallbackUrl;
   els.error.classList.add('hidden');
   els.chart.innerHTML = '';
@@ -497,14 +506,14 @@ els.install.addEventListener('click', async () => {
 
 window.addEventListener('appinstalled', () => els.install.classList.add('hidden'));
 window.addEventListener('resize', () => fitSingleLine(els.chartTitle));
-if ('serviceWorker' in navigator) window.addEventListener('load', () => navigator.serviceWorker.register('./sw.js').catch(console.warn));
+
 
 initTabs();
 initProviderSwipe();
 loadData();
 
 
-// v5.3.10: when already at the top, a deliberate downward pull switches
+// v5.3.11: when already at the top, a deliberate downward pull switches
 // WozzaWatch → WozzaTune → Watchlist → WozzaWatch instead of native refresh.
 function initTopPullSwitch(nextUrl,nextLabel){
   let startY=0,pulling=false,distance=0;
@@ -541,7 +550,7 @@ function initTopPullSwitch(nextUrl,nextLabel){
 initTopPullSwitch('tune.html','WozzaTune');
 
 
-// v5.3.10: at the bottom, a deliberate upward flick switches backwards
+// v5.3.11: at the bottom, a deliberate upward flick switches backwards
 // through Watch ← Tune ← List. No popup/"Opening" message.
 function initBottomFlickSwitch(prevUrl){
   let startY=0,tracking=false,distance=0; const threshold=82;
@@ -552,3 +561,18 @@ function initBottomFlickSwitch(prevUrl){
   window.addEventListener('touchend',finish,{passive:true});window.addEventListener('touchcancel',()=>{tracking=false;distance=0;},{passive:true});
 }
 initBottomFlickSwitch('my-list.html');
+
+// v5.3.11 — aggressively adopt new PWA releases without an update popup.
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', async () => {
+    try {
+      const reg = await navigator.serviceWorker.register('./sw.js', { updateViaCache: 'none' });
+      await reg.update();
+      if (reg.waiting) reg.waiting.postMessage({type:'SKIP_WAITING'});
+      let reloading=false;
+      navigator.serviceWorker.addEventListener('controllerchange', () => {
+        if (reloading) return; reloading=true; window.location.reload();
+      });
+    } catch (e) { console.warn('Service worker update check failed', e); }
+  });
+}

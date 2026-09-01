@@ -8,7 +8,7 @@ async function loadFeed(){let e;for(let a=0;a<2;a++){for(const base of dataUrls(
 function formatUpdated(v){if(!v)return'Waiting for update';const d=new Date(v);return Number.isNaN(d.getTime())?'Ranking cache loaded':`Updated ${new Intl.DateTimeFormat('en-GB',{weekday:'short',day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'}).format(d)}`}
 function fit(el,max=25,min=13){el.style.fontSize=`${max}px`;let n=max;while(el.scrollWidth>el.clientWidth&&n>min){n-=.5;el.style.fontSize=`${n}px`}}
 function sourceFor(){return SOURCES[state.service][state.type]}
-function render(){const key=state.type==='SINGLE'?'singles':'albums',label=state.type==='SINGLE'?'Singles':'Albums',d=state.data?.services?.[state.service],source=d?.sources?.[key];els.chartTitle.textContent=`${SERVICE_LABEL[state.service]} ${label}`;els.sourceBadge.href=source?.url||sourceFor();const official=source?.kind==='official';els.sourceBadge.className=`source-badge ${official?'official':'fallback'}`;els.sourceBadge.innerHTML=official?'<span class="source-text">Official Stats</span><span class="verified-tick" aria-hidden="true">✓</span>':`<span class="source-text">Stats from ${source?.displayName||source?.label||'source'}</span>`;els.fallback.href=source?.url||sourceFor();els.chart.innerHTML='';els.error.classList.add('hidden');requestAnimationFrame(()=>fit(els.chartTitle));const items=d?.[key];if(!Array.isArray(items)||!items.length){els.errorText.textContent='This chart is not available yet. You can still open the source directly.';els.error.classList.remove('hidden');return}items.slice(0,10).forEach((item,i)=>{const li=document.createElement('li');li.className=`chart-item accent-${i%4}`;const rank=document.createElement('div');rank.className='rank';rank.textContent=String(i+1).padStart(2,'0');const img=document.createElement('img');img.className='poster';img.alt='';img.loading='lazy';img.src=item.poster|| (state.type==='SINGLE'?'single-icon.svg':'album-icon.svg');const spotifyUrl=`https://open.spotify.com/search/${encodeURIComponent([item.title,item.artist].filter(Boolean).join(' '))}`;const a=document.createElement('a');a.className='poster-link';a.href=spotifyUrl;a.target='_blank';a.rel='noopener';a.setAttribute('aria-label',`${item.title||'Untitled'} — search Spotify`);a.append(img);const info=document.createElement('div');info.className='item-info';const title=document.createElement('div');title.className='title';title.textContent=item.title||'Untitled';info.append(title);if(item.artist){const artist=document.createElement('div');artist.className='artist';artist.textContent=item.artist;info.append(artist)}li.append(rank,a,info);els.chart.append(li)});els.updated.textContent=formatUpdated(state.data?.generatedAt)}
+function render(){const key=state.type==='SINGLE'?'singles':'albums',label=state.type==='SINGLE'?'Singles':'Albums',d=state.data?.services?.[state.service],source=d?.sources?.[key];els.chartTitle.textContent=`${SERVICE_LABEL[state.service]} ${label}`;els.sourceBadge.href=source?.url||sourceFor();const official=source?.kind==='official';els.sourceBadge.className=`source-badge ${official?'official':'fallback'}`;els.sourceBadge.innerHTML=official?'<span class="source-text">Official Stats</span><span class="verified-tick" aria-hidden="true">✓</span>':`<span class="source-text">Stats from ${source?.displayName||source?.label||'source'}</span>`;if(source?.stale){const stale=document.createElement('span');stale.className='stale-alert';stale.textContent='!';stale.title='This source did not update successfully, so the last available results are being shown.';stale.onclick=e=>{e.preventDefault();e.stopPropagation();alert(stale.title)};els.sourceBadge.append(stale)}els.fallback.href=source?.url||sourceFor();els.chart.innerHTML='';els.error.classList.add('hidden');requestAnimationFrame(()=>fit(els.chartTitle));const items=d?.[key];if(!Array.isArray(items)||!items.length){els.errorText.textContent='This chart is not available yet. You can still open the source directly.';els.error.classList.remove('hidden');return}items.slice(0,10).forEach((item,i)=>{const li=document.createElement('li');li.className=`chart-item accent-${i%4}`;const rank=document.createElement('div');rank.className='rank';rank.textContent=String(i+1).padStart(2,'0');const img=document.createElement('img');img.className='poster';img.alt='';img.loading='lazy';img.src=item.poster|| (state.type==='SINGLE'?'single-icon.svg':'album-icon.svg');const spotifyUrl=`https://open.spotify.com/search/${encodeURIComponent([item.title,item.artist].filter(Boolean).join(' '))}`;const a=document.createElement('a');a.className='poster-link';a.href=spotifyUrl;a.target='_blank';a.rel='noopener';a.setAttribute('aria-label',`${item.title||'Untitled'} — search Spotify`);a.append(img);const info=document.createElement('div');info.className='item-info';const title=document.createElement('div');title.className='title';title.textContent=item.title||'Untitled';info.append(title);if(item.artist){const artist=document.createElement('div');artist.className='artist';artist.textContent=item.artist;info.append(artist)}li.append(rank,a,info);els.chart.append(li)});els.updated.textContent=formatUpdated(state.data?.generatedAt)}
 function setType(t){
   if(!['SINGLE','ALBUM'].includes(t)||t===state.type)return;
   state.type=t;
@@ -95,7 +95,7 @@ initMusicGestures();
 (async()=>{try{state.data=await loadFeed();render()}catch(e){els.errorText.textContent=e.message;els.error.classList.remove('hidden');els.updated.textContent='Ranking feed unavailable'}finally{els.loading.classList.add('hidden')}})();
 
 
-// v5.3.10: when already at the top, a deliberate downward pull switches
+// v5.3.11: when already at the top, a deliberate downward pull switches
 // WozzaWatch → WozzaTune → Watchlist → WozzaWatch instead of native refresh.
 function initTopPullSwitch(nextUrl,nextLabel){
   let startY=0,pulling=false,distance=0;
@@ -132,7 +132,7 @@ function initTopPullSwitch(nextUrl,nextLabel){
 initTopPullSwitch('my-list.html','Watchlist');
 
 
-// v5.3.10: at the bottom, a deliberate upward flick switches backwards
+// v5.3.11: at the bottom, a deliberate upward flick switches backwards
 // through Watch ← Tune ← List. No popup/"Opening" message.
 function initBottomFlickSwitch(prevUrl){
   let startY=0,tracking=false,distance=0; const threshold=82;
@@ -143,3 +143,18 @@ function initBottomFlickSwitch(prevUrl){
   window.addEventListener('touchend',finish,{passive:true});window.addEventListener('touchcancel',()=>{tracking=false;distance=0;},{passive:true});
 }
 initBottomFlickSwitch('index.html');
+
+// v5.3.11 — aggressively adopt new PWA releases without an update popup.
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', async () => {
+    try {
+      const reg = await navigator.serviceWorker.register('./sw.js', { updateViaCache: 'none' });
+      await reg.update();
+      if (reg.waiting) reg.waiting.postMessage({type:'SKIP_WAITING'});
+      let reloading=false;
+      navigator.serviceWorker.addEventListener('controllerchange', () => {
+        if (reloading) return; reloading=true; window.location.reload();
+      });
+    } catch (e) { console.warn('Service worker update check failed', e); }
+  });
+}

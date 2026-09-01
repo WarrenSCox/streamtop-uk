@@ -486,7 +486,7 @@ async function fetchPrimeViaPublicSearchIndex() {
 }
 
 async function fetchOfficialPrimeMovies() {
-  // v5.3.10 forensic build: dynamic-request hunt only. We already proved the
+  // v5.3.11 forensic build: dynamic-request hunt only. We already proved the
   // storefront contains three genuine current TOP 10 badges, but they sit in
   // unrelated shelves. Now inspect hydrated state and Prime JS bundles for the
   // anonymous endpoints/tokens used by the browser to fetch shelf content.
@@ -560,8 +560,36 @@ async function fetchOfficialPrimeMovies() {
     const keys=[...new Set((win.match(/(?:ajaxEnabled|pagination|continuation|nextPage|loadMore|serviceToken|endpoint|collectionId|widgetId|pageType|pageId|partialURL)/gi)||[]).map(x=>x.toLowerCase()))];
     console.log(`Prime dynamic context | ${a.title} | keys=[${keys.join(',')||'-'}]`);
   }
+  // v5.3.11: execute Amazon's anonymous storefront continuation request(s).
+  // The initial HTML exposes startIndex + targetId + serviceToken. Follow up to
+  // four unique continuations and inspect each response for genuine TOP 10 badges.
+  const continuationSeen=new Set();
+  let continuationUrl=null;
+  const contMatch=decoded.match(/\/gp\/video\/storefront\?startIndex=\d+(?:&|&amp;)[^\"'<>]{20,6000}?serviceToken=[^\"'<>\s]{20,5000}/i);
+  if(contMatch){
+    continuationUrl=contMatch[0].replace(/&amp;/g,'&').replace(/\\u0026/gi,'&').replace(/\\\//g,'/');
+    if(continuationUrl.startsWith('/')) continuationUrl='https://www.amazon.co.uk'+continuationUrl;
+  }
+  let pageNo=0,totalContinuationBadges=0;
+  while(continuationUrl && pageNo<4 && !continuationSeen.has(continuationUrl)){
+    continuationSeen.add(continuationUrl); pageNo++;
+    try{
+      const body=await fetchText(continuationUrl,{...headers,'accept':'text/html,*/*','referer':url,'x-requested-with':'XMLHttpRequest'});
+      const d=decodePrimePayload(body);
+      const bs=[...d.matchAll(badgeRe)]; totalContinuationBadges+=bs.length;
+      console.log(`Prime pagination ${pageNo}: ${body.length} chars; genuine TOP10 badges=${bs.length}; url=${continuationUrl.slice(0,260)}`);
+      const ids=[...new Set((d.match(/\bB0[A-Z0-9]{8}\b/g)||[]))];
+      console.log(`Prime pagination ${pageNo} IDs: ${ids.slice(0,30).join(',')||'-'}`);
+      const next=d.match(/\/gp\/video\/storefront\?startIndex=\d+(?:&|&amp;)[^\"'<>]{20,6000}?serviceToken=[^\"'<>\s]{20,5000}/i);
+      if(!next) { console.log(`Prime pagination ${pageNo}: no further continuation found`); break; }
+      let n=next[0].replace(/&amp;/g,'&').replace(/\\u0026/gi,'&').replace(/\\\//g,'/');
+      if(n.startsWith('/')) n='https://www.amazon.co.uk'+n;
+      continuationUrl=n;
+    }catch(e){ console.log(`Prime pagination ${pageNo} failed: ${e.message}`); break; }
+  }
+  console.log(`Prime pagination summary: requests=${pageNo}; continuation TOP10 badges=${totalContinuationBadges}`);
   console.log(`Prime dynamic-hunt summary: anchors=${anchors.length}; htmlHints=${hints.length}; scriptsScanned=${scanned}; jsHints=${scriptHints}`);
-  throw new Error(`forensic-only v5.3.10: Prime dynamic hunt complete; anchors=${anchors.length}, htmlHints=${hints.length}, jsHints=${scriptHints}`);
+  throw new Error(`forensic-only v5.3.11: Prime pagination hunt complete; anchors=${anchors.length}, paginationRequests=${pageNo}, continuationBadges=${totalContinuationBadges}`);
 }
 
 async function fetchOfficialNetflix() {
@@ -1123,7 +1151,7 @@ for(const service of SERVICES){
       entry.sources[key]={kind:'fallback',label:'JustWatch UK',displayName:'JustWatch',url:`https://www.justwatch.com/uk/provider/${service.id==='prime'?'amazon-prime-video':service.id==='disney'?'disney-plus':service.id==='apple'?'apple-tv-plus':service.id==='max'?'hbo-max':service.id==='bbc'?'bbc-iplayer':service.id==='itv'?'itvx':service.id==='channel4'?'channel-4':'netflix'}/${key==='movies'?'movies':'tv-series'}`,cadence:'daily',note:OFFICIAL[service.id]?.note||'No compatible public official Movies/TV chart is currently used, so WozzaWatch falls back to JustWatch UK popularity.'};
     } else {
       const old=previous?.services?.[service.id]?.[key];
-      if(Array.isArray(old)&&old.length){ entry[key]=old.map((x,i)=>({...x,rank:i+1})); entry.sources[key]=previous.services[service.id]?.sources?.[key]||{kind:'stale',label:'Previous cached result',url:null,note:'Fresh data was unavailable.'}; entry.stale=true; }
+      if(Array.isArray(old)&&old.length){ entry[key]=old.map((x,i)=>({...x,rank:i+1})); entry.sources[key]={...(previous.services[service.id]?.sources?.[key]||{kind:'stale',label:'Previous cached result',url:null}),stale:true,staleAsOf:previous.services[service.id]?.sources?.[key]?.asOf||previous?.generatedAt||null,note:'Fresh data did not update successfully, so the last successful results are being shown.'}; entry.stale=true; }
       else entry.error=[entry.error,`${key}: no ranking available`].filter(Boolean).join(' | ');
     }
   }
@@ -1132,7 +1160,7 @@ for(const service of SERVICES){
     entry.sources.combined={kind:'official',label:'Official Disney+',displayName:'Disney+',url:DISNEY_UK_URL,cadence:'daily',note:'Disney+ UK Top 10 Today, read directly from the public Disney+ UK homepage.'};
   } else if(service.id==='disney') {
     const oldCombined=previous?.services?.disney?.combined;
-    if(Array.isArray(oldCombined)&&oldCombined.length){ entry.combined=oldCombined; entry.sources.combined=previous.services.disney?.sources?.combined||{kind:'stale',label:'Previous cached result',url:DISNEY_UK_URL,note:'Fresh Disney combined data was unavailable.'}; }
+    if(Array.isArray(oldCombined)&&oldCombined.length){ entry.combined=oldCombined; entry.sources.combined={...(previous.services.disney?.sources?.combined||{kind:'stale',label:'Previous cached result',url:DISNEY_UK_URL}),stale:true,staleAsOf:previous.services.disney?.sources?.combined?.asOf||previous?.generatedAt||null,note:'Fresh Disney data did not update successfully, so the last successful results are being shown.'}; }
   }
   output.services[service.id]=entry;
 }
@@ -1142,22 +1170,22 @@ for(const service of SERVICES){
 {
   const old=previous?.services?.ukcinema;
   const entry={provider:'UK Cinema',movies:[],tv:[],sources:{},error:null};
-  if(ukCinemaOfficial?.length){
+  if(ukCinemaOfficial?.length===10){
     entry.movies=await enrichOfficial(ukCinemaOfficial,[],'MOVIE');
     entry.sources.movies={kind:'official',label:'UK Cinema Association / Comscore',displayName:'UK Cinema Association',url:UK_CINEMA_URL,cadence:'weekly',note:'Official UK weekend box-office Top 10 published by the UK Cinema Association using Comscore data.'};
   } else if(Array.isArray(old?.movies)&&old.movies.length){
-    entry.movies=old.movies.map((x,i)=>({...x,rank:i+1})); entry.sources.movies=old.sources?.movies; entry.stale=true;
+    entry.movies=old.movies.map((x,i)=>({...x,rank:i+1})); entry.sources.movies={...(old.sources?.movies||{}),stale:true,staleAsOf:old.sources?.movies?.asOf||previous?.generatedAt||null,note:'Fresh data did not update successfully, so the last successful results are being shown.'}; entry.stale=true;
   } else entry.error='movies: no ranking available';
   output.services.ukcinema=entry;
 }
 {
   const old=previous?.services?.uscinema;
   const entry={provider:'US Cinema',movies:[],tv:[],sources:{},error:null};
-  if(usCinemaIMDb?.length){
+  if(usCinemaIMDb?.length===10){
     entry.movies=await enrichOfficial(usCinemaIMDb,[],'MOVIE');
     entry.sources.movies={kind:'fallback',label:'IMDb',displayName:'IMDb',url:US_CINEMA_URL,cadence:'weekly',note:'US weekend box-office Top 10 from IMDb, reported by Box Office Mojo.'};
   } else if(Array.isArray(old?.movies)&&old.movies.length && /IMDb/i.test(old?.sources?.movies?.label||old?.sources?.movies?.displayName||'')){
-    entry.movies=old.movies.map((x,i)=>({...x,rank:i+1})); entry.sources.movies=old.sources?.movies; entry.stale=true;
+    entry.movies=old.movies.map((x,i)=>({...x,rank:i+1})); entry.sources.movies={...(old.sources?.movies||{}),stale:true,staleAsOf:old.sources?.movies?.asOf||previous?.generatedAt||null,note:'Fresh data did not update successfully, so the last successful results are being shown.'}; entry.stale=true;
   } else entry.error='movies: no IMDb ranking available';
   output.services.uscinema=entry;
 }
@@ -1169,7 +1197,7 @@ for(const service of SERVICES){
   const entry={provider:'UK Music',singles:[],albums:[],sources:{},error:null};
   for(const [key,fresh,url] of [['singles',ukSingles,UK_SINGLES_URL],['albums',ukAlbums,UK_ALBUMS_URL]]){
     if(Array.isArray(fresh)&&fresh.length===10){entry[key]=fresh.map((x,i)=>({...x,rank:i+1}));entry.sources[key]={kind:'official',label:'Official Charts Company',displayName:'Official Charts',url,cadence:'weekly',note:'Official UK chart compiled by the Official Charts Company.'};}
-    else if(Array.isArray(old?.[key])&&old[key].length){entry[key]=old[key].map((x,i)=>({...x,rank:i+1}));entry.sources[key]=old.sources?.[key];entry.stale=true;}
+    else if(Array.isArray(old?.[key])&&old[key].length){entry[key]=old[key].map((x,i)=>({...x,rank:i+1}));entry.sources[key]={...(old.sources?.[key]||{}),stale:true,staleAsOf:old.sources?.[key]?.asOf||previous?.generatedAt||null,note:'Fresh data did not update successfully, so the last successful results are being shown.'};entry.stale=true;}
     else entry.error=[entry.error,`${key}: no ranking available`].filter(Boolean).join(' | ');
   }
   output.services.ukmusic=entry;
@@ -1185,7 +1213,7 @@ for(const service of SERVICES){
       entry[key]=fresh.map((x,i)=>({...x,rank:i+1}));
       entry.sources[key]={kind:'official',label:'Billboard',displayName:'Billboard',url,cadence:'weekly',note:key==='singles'?'Billboard Hot 100 — the weekly US singles chart.':'Billboard 200 — the weekly US albums chart.'};
     } else if(Array.isArray(old?.[key])&&old[key].length){
-      entry[key]=old[key].map((x,i)=>({...x,rank:i+1}));entry.sources[key]=old.sources?.[key];entry.stale=true;
+      entry[key]=old[key].map((x,i)=>({...x,rank:i+1}));entry.sources[key]={...(old.sources?.[key]||{}),stale:true,staleAsOf:old.sources?.[key]?.asOf||previous?.generatedAt||null,note:'Fresh data did not update successfully, so the last successful results are being shown.'};entry.stale=true;
     } else entry.error=[entry.error,`${key}: no ranking available`].filter(Boolean).join(' | ');
   }
   output.services.usmusic=entry;
