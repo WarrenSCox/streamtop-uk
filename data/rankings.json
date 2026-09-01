@@ -1,6 +1,6 @@
 {
   "version": 17,
-  "generatedAt": "2026-09-01T19:12:18.494Z",
+  "generatedAt": "2026-09-01T19:19:37.176Z",
   "country": "GB",
   "strategy": "Official source first; labelled fallback when no compatible official chart is available.",
   "services": {
@@ -882,7 +882,7 @@
           "rank": 2,
           "title": "The Devil Wears Prada 2",
           "year": 2026,
-          "type": null,
+          "type": "MOVIE",
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/019fac2c-f245-7bf4-bd98-9b222eda6a9c/compose?format=webp&width=386&label=top_ranked_2_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-34bc6b99-813f-4d5d-bbe7-f3099b45879b"
         },
@@ -914,7 +914,7 @@
           "rank": 6,
           "title": "Marvel Studios' Avengers: Endgame",
           "year": 2019,
-          "type": null,
+          "type": "MOVIE",
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/6a8390cc-0240-46fc-9c52-5287ca3676eb/compose?format=webp&width=386&label=top_ranked_6_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-b39aa962-be56-4b09-a536-98617031717f"
         },
@@ -1479,13 +1479,13 @@
         },
         {
           "rank": 7,
-          "sourceRank": 11448,
+          "sourceRank": 11454,
           "title": "Eternal Spring (長春)",
           "year": 2023,
-          "poster": "/poster/300736478/s166/eternal-spring.webp",
+          "poster": "/poster/326985515/s166/eternal-spring.webp",
           "url": "https://www.justwatch.com/uk/movie/eternal-spring",
           "trend": "UP",
-          "trendDifference": 13,
+          "trendDifference": 7,
           "daysInTop10": null,
           "topRank": 38
         },
@@ -2391,8 +2391,7 @@
           "note": "US weekend box-office Top 10 from IMDb, reported by Box Office Mojo."
         }
       },
-      "error": null,
-      "stale": true
+      "error": null
     },
     "ukmusic": {
       "provider": "UK Music",
