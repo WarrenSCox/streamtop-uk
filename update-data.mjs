@@ -486,9 +486,9 @@ async function fetchPrimeViaPublicSearchIndex() {
 }
 
 async function fetchOfficialPrimeMovies() {
-  // v5.3.6 forensic build: only inspect genuine *current* TOP 10 metadata badges.
-  // Historical strings such as "Spent 8 weeks in Top 10" are deliberately ignored.
-  // Nothing is published from this function yet; Prime keeps its existing fallback.
+  // v5.3.7 forensic build: use the three proven current TOP 10 cards as anchors
+  // and hunt their surrounding Amazon hydration data for the collection/carousel
+  // request that could expose the rest of the ranked shelf. Still publishes nothing.
   const url='https://www.amazon.co.uk/gp/video/storefront?ref_=atv_hm_hom';
   const headers={
     'accept':'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
@@ -501,99 +501,91 @@ async function fetchOfficialPrimeMovies() {
   const decoded=decodePrimePayload(html);
   const ukSignals=(decoded.match(/(?:£|en_GB|en-GB|amazon\.co\.uk|avCurrentTerritory[=\":]+(?:UK|GB))/gi)||[]).length;
 
-  // Match the real metadata badge itself, not prose like "Spent N weeks in Top 10".
   const badgeRe=/["']titleMetadataBadge["']\s*:\s*\{[\s\S]{0,700}?["']message["']\s*:\s*["']TOP\s*10["']/gi;
   const badges=[...decoded.matchAll(badgeRe)];
-  console.log(`Prime TOP10-object fetch: ${url} (${html.length} chars, genuine badges=${badges.length}, UK signals=${ukSignals})`);
+  console.log(`Prime collection-hunt fetch: ${url} (${html.length} chars, genuine badges=${badges.length}, UK signals=${ukSignals})`);
 
   const clean=value=>cleanPrimeTitle(String(value||''))
-    .replace(/\\u0026/gi,'&')
-    .replace(/&quot;/gi,'"')
-    .replace(/&#39;/gi,"'")
-    .replace(/\\\"/g,'"')
-    .replace(/\s+/g,' ')
-    .trim();
+    .replace(/\\u0026/gi,'&').replace(/&quot;/gi,'"').replace(/&#39;/gi,"'")
+    .replace(/\\\"/g,'"').replace(/\s+/g,' ').trim();
 
   const collectKeyed=(window,key)=>{
     const out=[];
-    const re=new RegExp(`(?:\\\\?"${key}\\\\?"|"${key}")\\s*:\\s*(?:\\\\?"|")((?:\\\\.|[^"\\\\]){1,220})(?:\\\\?"|")`,'gi');
-    let m;
-    while((m=re.exec(window))){
-      const value=clean(m[1]);
-      if(value) out.push({value,index:m.index});
-    }
+    const re=new RegExp(`(?:\\\\?"${key}\\\\?"|"${key}")\\s*:\\s*(?:\\\\?"|")((?:\\\\.|[^"\\\\]){1,300})(?:\\\\?"|")`,'gi');
+    let m; while((m=re.exec(window))){ const value=clean(m[1]); if(value) out.push({value,index:m.index}); }
     return out;
   };
-  const nearest=(items,target,filter=()=>true)=>items
-    .filter(x=>filter(x.value))
-    .sort((a,b)=>Math.abs(a.index-target)-Math.abs(b.index-target))[0]?.value||null;
-
+  const nearest=(items,target,filter=()=>true)=>items.filter(x=>filter(x.value)).sort((a,b)=>Math.abs(a.index-target)-Math.abs(b.index-target))[0]?.value||null;
+  const uniq=arr=>[...new Set(arr.filter(Boolean))];
   const isUsefulTitle=t=>t && t.length>=2 && t.length<=140 && !isPrimeNoise(t) &&
     !/^(?:top 10|amazon|prime video|watch now|included with prime|learn more|see more|your watchlist|add to watchlist|add season to watchlist|movies|tv|home)$/i.test(t) &&
-    !/^(?:free trial|rent|buy|free trial, rent, or buy|free trial or buy)$/i.test(t) &&
-    !/^spent \d+ weeks? in top 10$/i.test(t);
+    !/^(?:free trial|rent|buy|free trial, rent, or buy|free trial or buy)$/i.test(t) && !/^spent \d+ weeks? in top 10$/i.test(t);
 
   const seen=new Set();
   const rows=[];
-  badges.forEach((badge,i)=>{
-    // Keep the window much tighter than v5.3.6 so adjacent cards do not pollute results.
-    const from=Math.max(0,badge.index-6500);
-    const to=Math.min(decoded.length,badge.index+6500);
-    const window=decoded.slice(from,to);
-    const local=badge.index-from;
-
-    const titleKeys=['displayTitle','title','heading','headline','ariaLabel','alternateText'];
+  badges.forEach(badge=>{
+    const from=Math.max(0,badge.index-6500), to=Math.min(decoded.length,badge.index+6500);
+    const window=decoded.slice(from,to), local=badge.index-from;
     const titleCandidates=[];
-    for(const key of titleKeys) titleCandidates.push(...collectKeyed(window,key));
+    for(const key of ['displayTitle','title','heading','headline','ariaLabel','alternateText']) titleCandidates.push(...collectKeyed(window,key));
     const title=nearest(titleCandidates,local,isUsefulTitle)||'-';
-
-    const entityCandidates=collectKeyed(window,'entityType');
-    const entityType=nearest(entityCandidates,local,v=>/^(?:Movie|TV Show|TV|Series|Show)$/i.test(v))||'-';
-
+    const entityType=nearest(collectKeyed(window,'entityType'),local,v=>/^(?:Movie|TV Show|TV|Series|Show)$/i.test(v))||'-';
     const idMatches=[];
-    for(const re of [/\bB0[A-Z0-9]{8}\b/g,/\b(?:asin|ASIN)\W{0,12}([A-Z0-9]{10})\b/g]){
-      let m; while((m=re.exec(window))) idMatches.push({value:m[1]||m[0],index:m.index});
-    }
+    for(const re of [/\bB0[A-Z0-9]{8}\b/g,/\b(?:asin|ASIN)\W{0,12}([A-Z0-9]{10})\b/g]){ let m; while((m=re.exec(window))) idMatches.push({value:m[1]||m[0],index:m.index}); }
     const id=nearest(idMatches,local)||'-';
-
     const rankMatches=[];
-    for(const re of [
-      /top[_-]?ranked[_-]?(\d{1,2})/gi,
-      /["'](?:rank|ranking|position|ordinal)["']\s*:\s*["']?(\d{1,2})/gi,
-      /["']rankLabel["']\s*:\s*["'][^"']*?(\d{1,2})[^"']*["']/gi,
-      /#\s*(\d{1,2})\b/g
-    ]){
-      let m; while((m=re.exec(window))) rankMatches.push({value:m[1],index:m.index});
-    }
+    for(const re of [/top[_-]?ranked[_-]?(\d{1,2})/gi,/["'](?:rank|ranking|position|ordinal)["']\s*:\s*["']?(\d{1,2})/gi,/["']rankLabel["']\s*:\s*["'][^"']*?(\d{1,2})[^"']*["']/gi,/#\s*(\d{1,2})\b/g]){ let m; while((m=re.exec(window))) rankMatches.push({value:m[1],index:m.index}); }
     const possibleRank=nearest(rankMatches,local,v=>Number(v)>=1&&Number(v)<=10)||'-';
-
     const coverMatch=window.match(/["'](?:url|imageUrl)["']\s*:\s*["'](https?:\\?\/?\\?\/\/m\.media-amazon\.com\/images\/[^"']{20,500})["']/i);
     const artwork=coverMatch?clean(coverMatch[1]).replace(/\\\//g,'/'):'-';
-
     const key=`${title}|${entityType}|${id}`;
-    if(!seen.has(key)){
-      seen.add(key);
-      rows.push({title,entityType,id,possibleRank,artwork,offset:badge.index});
-    }
+    if(!seen.has(key)){seen.add(key);rows.push({title,entityType,id,possibleRank,artwork,offset:badge.index});}
   });
 
-  rows.forEach((r,i)=>{
-    console.log(`Prime TOP10 object ${String(i+1).padStart(2,'0')} | title=${r.title} | type=${r.entityType} | id=${r.id} | possibleRank=${r.possibleRank} | artwork=${r.artwork==='-'?'-':'yes'} | @${r.offset}`);
-  });
+  rows.forEach((r,i)=>console.log(`Prime TOP10 anchor ${String(i+1).padStart(2,'0')} | title=${r.title} | type=${r.entityType} | id=${r.id} | possibleRank=${r.possibleRank} | artwork=${r.artwork==='-'?'-':'yes'} | @${r.offset}`));
+
+  // For each confirmed card, inspect a wider hydration-data neighbourhood for
+  // collection IDs, cursors/tokens, widget IDs and API/request paths.
+  const hintKeys=['collectionId','collectionID','carouselId','carouselID','shelfId','shelfID','widgetId','widgetID','paginationToken','nextPageToken','pageToken','nextToken','cursor','continuationToken','requestId','requestID','startIndex','pageSize','pageNumber','endpoint','ajaxUrl','requestUrl','apiUrl','collectionTitle'];
+  const headingKeys=['collectionTitle','heading','headline','sectionTitle','label','name'];
+  for(const r of rows){
+    const from=Math.max(0,r.offset-35000), to=Math.min(decoded.length,r.offset+35000);
+    const ctx=decoded.slice(from,to), local=r.offset-from;
+    const hints=[];
+    for(const key of hintKeys){
+      for(const item of collectKeyed(ctx,key)){
+        if(item.value.length<=260 && !/^(?:true|false|null|undefined)$/i.test(item.value)) hints.push(`${key}=${item.value}`);
+      }
+      const numRe=new RegExp(`(?:\\\\?"${key}\\\\?"|"${key}")\\s*:\\s*(\\d{1,6})`,'gi');
+      let nm; while((nm=numRe.exec(ctx))) hints.push(`${key}=${nm[1]}`);
+    }
+    const headings=[];
+    for(const key of headingKeys){
+      for(const item of collectKeyed(ctx,key)) if(item.value.length<=120 && isUsefulTitle(item.value)) headings.push(item.value);
+    }
+    const requestHints=[];
+    const urlRe=/(?:https?:\\?\/?\\?\/\/[^"'\s<>]{8,420}|\/(?:gp\/video|api|ajax|graphql|hz|primevideo)[^"'\s<>]{5,420})/gi;
+    let um; while((um=urlRe.exec(ctx))){
+      const v=clean(um[0]).replace(/\\\//g,'/');
+      if(/(?:collection|carousel|pagination|page|token|cursor|ajax|api|graphql|video)/i.test(v)) requestHints.push(v.slice(0,260));
+    }
+    const keywordHits=[];
+    const kwRe=/(collection|carousel|pagination|nextPage|pageToken|cursor|continuation|ajax|graphql|lazyLoad|loadMore)/gi;
+    let km; while((km=kwRe.exec(ctx)) && keywordHits.length<12){
+      const a=Math.max(0,km.index-90), b=Math.min(ctx.length,km.index+190);
+      keywordHits.push(clean(ctx.slice(a,b)).slice(0,280));
+    }
+    const idOccurrences=r.id==='-'?0:(decoded.match(new RegExp(r.id.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'),'g'))||[]).length;
+    console.log(`Prime collection hunt | ${r.title} | id occurrences=${idOccurrences} | nearby headings=[${uniq(headings).slice(0,8).join(' | ')||'-'}]`);
+    console.log(`Prime collection IDs/tokens | ${r.title} | ${uniq(hints).slice(0,18).join(' | ')||'none found'}`);
+    console.log(`Prime collection request hints | ${r.title} | ${uniq(requestHints).slice(0,10).join(' | ')||'none found'}`);
+    console.log(`Prime collection keyword context | ${r.title} | ${uniq(keywordHits).slice(0,6).join(' || ')||'none found'}`);
+  }
 
   const movies=rows.filter(r=>/^Movie$/i.test(r.entityType)).length;
   const shows=rows.filter(r=>/^(?:TV Show|TV|Series|Show)$/i.test(r.entityType)).length;
-  const ranked=rows.filter(r=>r.possibleRank!=='-').length;
-  console.log(`Prime TOP10-object summary: ${rows.length} unique genuine badges; movies=${movies}; TV=${shows}; possible ranks=${ranked}`);
-
-  if(rows.length){
-    const positions=rows.map(r=>r.offset);
-    const gaps=positions.slice(1).map((p,i)=>p-positions[i]);
-    console.log(`Prime TOP10-object positions: ${positions.join(',')}`);
-    console.log(`Prime TOP10-object gaps: ${gaps.join(',')||'-'}`);
-  }
-
-  throw new Error(`forensic-only v5.3.6 captured ${rows.length} genuine TOP 10 objects; inspect clean object lines before enabling official Prime`);
+  console.log(`Prime collection-hunt summary: ${rows.length} anchors; movies=${movies}; TV=${shows}; looking for a reusable collection/pagination request`);
+  throw new Error(`forensic-only v5.3.7 captured ${rows.length} genuine TOP 10 anchors; inspect collection hunt lines before enabling official Prime`);
 }
 
 async function fetchOfficialNetflix() {
