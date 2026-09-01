@@ -15,6 +15,43 @@ const APPLE_MOVIES_URL = 'https://tv.apple.com/gb/collection/most-popular-now/ut
 const APPLE_TV_URL = 'https://tv.apple.com/gb/collection/most-popular-now/uts.col.ChartsShows.tvs.sbd.4000';
 const UK_CINEMA_URL = 'https://www.cinemauk.org.uk/the-industry/facts-and-figures/latest-uk-cinema-statistics/weekend-top-10-box-office/';
 const US_CINEMA_URL = 'https://www.imdb.com/chart/boxoffice/?ref_=ext_shr_lnk';
+const HBO_UK_MOVIES_URL = 'https://www.hbomax.com/gb/en/movies';
+
+async function diagnoseHBOMaxUKMovies() {
+  console.log('--- HBO UK DIAGNOSTIC (does not change rankings) ---');
+  try {
+    const html = await fetchText(HBO_UK_MOVIES_URL, {
+      'accept':'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+      'accept-language':'en-GB,en;q=0.9'
+    });
+    console.log(`HBO UK movies HTTP: OK (${html.length} chars)`);
+    const marker = 'Most Popular Movies';
+    const pos = html.indexOf(marker);
+    console.log(`Most Popular Movies: ${pos >= 0 ? 'FOUND' : 'NOT FOUND'}`);
+    if (pos < 0) {
+      console.log(`GB route marker: ${html.includes('/gb/en/movie/') ? 'FOUND' : 'NOT FOUND'}`);
+      return;
+    }
+    // Inspect only the payload following the named collection. HBO currently
+    // serialises the collection as JSON-like data in the public page document.
+    const chunk = html.slice(pos, pos + 250000);
+    const titles = [];
+    const seen = new Set();
+    const re = /(?:\"short\"|"short")\s*:\s*(?:\"([^\"]+)\"|"([^"]+)")/g;
+    let m;
+    while ((m = re.exec(chunk)) && titles.length < 10) {
+      const title = (m[1] || m[2] || '').replace(/\u0026/g, '&').trim();
+      if (!title || seen.has(title) || /Wave \d|Movies \|/i.test(title)) continue;
+      seen.add(title); titles.push(title);
+    }
+    console.log(`HBO UK candidate titles: ${titles.length}/10`);
+    titles.forEach((t,i)=>console.log(`${i+1}. ${t}`));
+    console.log(`GB route marker: ${html.includes('/gb/en/movie/') ? 'FOUND' : 'NOT FOUND'}`);
+  } catch (err) {
+    console.log(`HBO UK movies fetch: FAILED - ${err.message}`);
+  }
+  console.log('--- END HBO UK DIAGNOSTIC ---');
+}
 const SERVICES = [
   { id:'netflix', name:'Netflix', aliases:['Netflix'] },
   { id:'prime', name:'Prime Video', aliases:['Amazon Prime Video','Prime Video'] },
@@ -1010,6 +1047,8 @@ async function fetchOfficialMusicChart(url,label){
   }
   throw new Error(last||'chart unavailable');
 }
+
+await diagnoseHBOMaxUKMovies();
 
 let previous={}; try{previous=JSON.parse(await readFile('data/rankings.json','utf8'));}catch{}
 const output={version:17,generatedAt:new Date().toISOString(),country:'GB',strategy:'Official source first; labelled fallback when no compatible official chart is available.',services:{}};
