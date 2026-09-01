@@ -4,6 +4,10 @@ const ENDPOINT = 'https://apis.justwatch.com/graphql';
 const NETFLIX_TSV = 'https://www.netflix.com/tudum/top10/data/all-weeks-countries.tsv';
 const FLIXPATROL_PRIME_URL = 'https://flixpatrol.com/top10/amazon-prime/united-kingdom/';
 const FLIXPATROL_DISNEY_URL = 'https://flixpatrol.com/top10/disney/united-kingdom/';
+// Legacy Prime parser helpers below still reference this canonical URL.
+// FlixPatrol is now the active Prime chart source; this constant only prevents
+// the unused fallback helpers from failing during module initialisation.
+const PRIME_MOVIES_URL = 'https://www.primevideo.com/movie/ref%3Datv_hom_Marqueetvuk_c_9zZ8D2_hom?tr=gb';
 const APPLE_MOVIES_URL = 'https://tv.apple.com/gb/collection/most-popular-now/uts.col.ChartsMovies.tvs.sbd.4000';
 const APPLE_TV_URL = 'https://tv.apple.com/gb/collection/most-popular-now/uts.col.ChartsShows.tvs.sbd.4000';
 const UK_CINEMA_URL = 'https://www.cinemauk.org.uk/the-industry/facts-and-figures/latest-uk-cinema-statistics/weekend-top-10-box-office/';
