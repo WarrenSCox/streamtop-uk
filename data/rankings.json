@@ -1,6 +1,6 @@
 {
   "version": 17,
-  "generatedAt": "2026-09-01T18:04:05.836Z",
+  "generatedAt": "2026-09-01T18:14:15.152Z",
   "country": "GB",
   "strategy": "Official source first; labelled fallback when no compatible official chart is available.",
   "services": {
@@ -493,6 +493,18 @@
         },
         {
           "rank": 4,
+          "sourceRank": 104,
+          "title": "Banshee",
+          "year": 2013,
+          "poster": "/poster/175475823/s166/banshee.webp",
+          "url": "https://www.justwatch.com/uk/tv-series/banshee",
+          "trend": "UP",
+          "trendDifference": 77,
+          "daysInTop10": 14,
+          "topRank": 1
+        },
+        {
+          "rank": 5,
           "sourceRank": 27,
           "title": "Sterling Point",
           "year": 2026,
@@ -504,7 +516,19 @@
           "topRank": 4
         },
         {
-          "rank": 5,
+          "rank": 6,
+          "sourceRank": 28,
+          "title": "Band of Brothers",
+          "year": 2001,
+          "poster": "/poster/248240709/s166/band-of-brothers.webp",
+          "url": "https://www.justwatch.com/uk/tv-series/band-of-brothers",
+          "trend": "UP",
+          "trendDifference": 50,
+          "daysInTop10": 38,
+          "topRank": 2
+        },
+        {
+          "rank": 7,
           "sourceRank": 34,
           "title": "The Blacklist",
           "year": 2013,
@@ -516,7 +540,19 @@
           "topRank": 1
         },
         {
-          "rank": 6,
+          "rank": 8,
+          "sourceRank": 40,
+          "title": "Battlestar Galactica",
+          "year": 2004,
+          "poster": "/poster/71839228/s166/battlestar-galactica.webp",
+          "url": "https://www.justwatch.com/uk/tv-series/battlestar-galactica",
+          "trend": "UP",
+          "trendDifference": 36,
+          "daysInTop10": 6,
+          "topRank": 1
+        },
+        {
+          "rank": 9,
           "sourceRank": 45,
           "title": "Clarkson's Farm",
           "year": 2021,
@@ -528,7 +564,7 @@
           "topRank": 1
         },
         {
-          "rank": 7,
+          "rank": 10,
           "sourceRank": 47,
           "title": "Chicago P.D.",
           "year": 2014,
@@ -538,42 +574,6 @@
           "trendDifference": 18,
           "daysInTop10": 1,
           "topRank": 6
-        },
-        {
-          "rank": 8,
-          "sourceRank": 51,
-          "title": "The X-Files",
-          "year": 1993,
-          "poster": "/poster/342097814/s166/the-x-files.webp",
-          "url": "https://www.justwatch.com/uk/tv-series/the-x-files",
-          "trend": "DOWN",
-          "trendDifference": -5,
-          "daysInTop10": 18,
-          "topRank": 1
-        },
-        {
-          "rank": 9,
-          "sourceRank": 55,
-          "title": "Band of Brothers",
-          "year": 2001,
-          "poster": "/poster/248240709/s166/band-of-brothers.webp",
-          "url": "https://www.justwatch.com/uk/tv-series/band-of-brothers",
-          "trend": "UP",
-          "trendDifference": 23,
-          "daysInTop10": 38,
-          "topRank": 2
-        },
-        {
-          "rank": 10,
-          "sourceRank": 62,
-          "title": "Battlestar Galactica",
-          "year": 2004,
-          "poster": "/poster/71839228/s166/battlestar-galactica.webp",
-          "url": "https://www.justwatch.com/uk/tv-series/battlestar-galactica",
-          "trend": "UP",
-          "trendDifference": 14,
-          "daysInTop10": 6,
-          "topRank": 1
         }
       ],
       "sources": {
@@ -922,7 +922,7 @@
           "rank": 7,
           "title": "Marvel Studios' Avengers: Infinity War",
           "year": 2018,
-          "type": null,
+          "type": "MOVIE",
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/433236b6-470b-461e-bfc5-e48016f077eb/compose?format=webp&width=386&label=top_ranked_7_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-9a136e06-852a-41bf-b71d-fa061cb43225"
         },
@@ -938,7 +938,7 @@
           "rank": 9,
           "title": "Sing 2",
           "year": 2021,
-          "type": null,
+          "type": "MOVIE",
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/076e500a-3c16-4076-aa3d-e34b36579fd8/compose?format=webp&width=386&label=top_ranked_9_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-66900ca4-534e-4463-a3e6-a4d5e32c97f0"
         },
@@ -1539,18 +1539,6 @@
         },
         {
           "rank": 2,
-          "sourceRank": 175,
-          "title": "Peaky Blinders",
-          "year": 2013,
-          "poster": "/poster/265096894/s166/peaky-blinders.webp",
-          "url": "https://www.justwatch.com/uk/tv-series/peaky-blinders",
-          "trend": "DOWN",
-          "trendDifference": -30,
-          "daysInTop10": 53,
-          "topRank": 1
-        },
-        {
-          "rank": 3,
           "sourceRank": 281,
           "title": "The Trip",
           "year": 2010,
@@ -1560,6 +1548,18 @@
           "trendDifference": 21,
           "daysInTop10": 1,
           "topRank": 9
+        },
+        {
+          "rank": 3,
+          "sourceRank": 175,
+          "title": "Peaky Blinders",
+          "year": 2013,
+          "poster": "/poster/265096894/s166/peaky-blinders.webp",
+          "url": "https://www.justwatch.com/uk/tv-series/peaky-blinders",
+          "trend": "DOWN",
+          "trendDifference": -30,
+          "daysInTop10": 53,
+          "topRank": 1
         },
         {
           "rank": 4,
@@ -1611,6 +1611,18 @@
         },
         {
           "rank": 8,
+          "sourceRank": 488,
+          "title": "Merlin",
+          "year": 2008,
+          "poster": "/poster/138973101/s166/merlin.webp",
+          "url": "https://www.justwatch.com/uk/tv-series/merlin",
+          "trend": "UP",
+          "trendDifference": 44,
+          "daysInTop10": 1,
+          "topRank": 4
+        },
+        {
+          "rank": 9,
           "sourceRank": 507,
           "title": "Bluey",
           "year": 2018,
@@ -1622,7 +1634,7 @@
           "topRank": 16
         },
         {
-          "rank": 9,
+          "rank": 10,
           "sourceRank": 511,
           "title": "Strike",
           "year": 2017,
@@ -1632,18 +1644,6 @@
           "trendDifference": -10,
           "daysInTop10": 14,
           "topRank": 3
-        },
-        {
-          "rank": 10,
-          "sourceRank": 636,
-          "title": "King Gary",
-          "year": 2020,
-          "poster": "/poster/165388224/s166/king-gary.webp",
-          "url": "https://www.justwatch.com/uk/tv-series/king-gary",
-          "trend": "DOWN",
-          "trendDifference": -80,
-          "daysInTop10": null,
-          "topRank": 69
         }
       ],
       "sources": {
@@ -1787,13 +1787,13 @@
       "tv": [
         {
           "rank": 1,
-          "sourceRank": 62,
+          "sourceRank": 40,
           "title": "Battlestar Galactica",
           "year": 2004,
           "poster": "/poster/71839228/s166/battlestar-galactica.webp",
           "url": "https://www.justwatch.com/uk/tv-series/battlestar-galactica",
           "trend": "UP",
-          "trendDifference": 14,
+          "trendDifference": 36,
           "daysInTop10": 6,
           "topRank": 1
         },
@@ -2294,7 +2294,8 @@
           "note": "Official UK weekend box-office Top 10 published by the UK Cinema Association using Comscore data."
         }
       },
-      "error": null
+      "error": null,
+      "stale": true
     },
     "uscinema": {
       "provider": "US Cinema",
@@ -2674,9 +2675,8 @@
           "rank": 2,
           "title": "Lost Weekend",
           "artist": "Phoebe Bridgers",
-          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/aa/9e/a6/aa9ea64a-bbf2-470e-b447-fa407b4645fa/66852.jpg/400x400bb.jpg",
-          "detailsUrl": "https://ca.billboard.com/charts/billboard-200",
-          "musicUrl": "https://music.apple.com/us/album/lost-weekend/6781051268?uo=4"
+          "poster": null,
+          "detailsUrl": "https://ca.billboard.com/charts/billboard-200"
         },
         {
           "rank": 3,
