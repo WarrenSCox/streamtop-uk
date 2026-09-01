@@ -60,14 +60,11 @@ undoButton.addEventListener('click',()=>{if(!lastRemoved)return;const item=lastR
 render();
 
 
-// v5.3.12: when already at the top, a deliberate downward pull switches
+// v5.3.13: when already at the top, a deliberate downward pull switches
 // WozzaWatch → WozzaTune → Watchlist → WozzaWatch instead of native refresh.
 function initTopPullSwitch(nextUrl,nextLabel){
   let startY=0,pulling=false,distance=0;
   const threshold=92;
-  const indicator=document.createElement('div');
-  indicator.className='pull-switch-indicator';indicator.setAttribute('aria-hidden','true');
-  indicator.textContent=`↓ Pull for ${nextLabel}`;document.body.append(indicator);
   window.addEventListener('touchstart',e=>{
     if(e.touches.length!==1||window.scrollY>1)return;
     startY=e.touches[0].clientY;distance=0;pulling=true;
@@ -75,29 +72,24 @@ function initTopPullSwitch(nextUrl,nextLabel){
   window.addEventListener('touchmove',e=>{
     if(!pulling||e.touches.length!==1)return;
     const dy=e.touches[0].clientY-startY;
-    if(dy<=0){distance=0;indicator.classList.remove('visible','ready','go');return;}
-    if(window.scrollY>1){pulling=false;indicator.classList.remove('visible','ready','go');return;}
+    if(dy<=0){distance=0;return;}
+    if(window.scrollY>1){pulling=false;distance=0;return;}
     distance=dy;
-    // Suppress the browser's pull-to-refresh only while this app gesture owns it.
     e.preventDefault();
-    const travel=Math.min(38,Math.max(0,dy*.28));
-    indicator.style.transform=`translate(-50%,${-54+travel}px) scale(${.92+Math.min(dy/700,.1)})`;
-    indicator.textContent=dy>=threshold?`Release for ${nextLabel}`:`↓ Pull for ${nextLabel}`;
-    indicator.classList.add('visible');indicator.classList.toggle('ready',dy>=threshold);
   },{passive:false});
   const finish=()=>{
     if(!pulling)return;pulling=false;
-    if(distance>=threshold){indicator.classList.remove('visible','ready','go');indicator.style.transform='';location.href=nextUrl;}
-    else{indicator.classList.remove('visible','ready','go');indicator.style.transform='';}
+    if(distance>=threshold)location.href=nextUrl;
     distance=0;
   };
-  window.addEventListener('touchend',finish,{passive:true});window.addEventListener('touchcancel',()=>{pulling=false;distance=0;indicator.classList.remove('visible','ready','go');indicator.style.transform='';},{passive:true});
+  window.addEventListener('touchend',finish,{passive:true});
+  window.addEventListener('touchcancel',()=>{pulling=false;distance=0;},{passive:true});
 }
 
 initTopPullSwitch('index.html','WozzaWatch');
 
 
-// v5.3.12: at the bottom, a deliberate upward flick switches backwards
+// v5.3.13: at the bottom, a deliberate upward flick switches backwards
 // through Watch ← Tune ← List. No popup/"Opening" message.
 function initBottomFlickSwitch(prevUrl){
   let startY=0,tracking=false,distance=0; const threshold=82;
@@ -109,7 +101,27 @@ function initBottomFlickSwitch(prevUrl){
 }
 initBottomFlickSwitch('tune.html');
 
-// v5.3.12 — aggressively adopt new PWA releases without an update popup.
+// v5.3.13 — after four quiet seconds, alternate the two selector icons every four seconds.
+function initIdleGestureHint(){
+  const selector=document.querySelector('.segmented');
+  if(!selector||window.matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+  let timer=null,step=0;
+  const clearClasses=()=>selector.classList.remove('idle-hint-first','idle-hint-second');
+  const stop=()=>{if(timer)clearTimeout(timer);timer=null;clearClasses()};
+  const play=()=>{
+    clearClasses();void selector.offsetWidth;
+    selector.classList.add(step%2===0?'idle-hint-first':'idle-hint-second');
+    step++;
+    timer=setTimeout(play,4000);
+  };
+  const arm=()=>{stop();step=0;timer=setTimeout(play,4000)};
+  ['pointerdown','touchstart','keydown','wheel'].forEach(name=>document.addEventListener(name,arm,{passive:true}));
+  document.addEventListener('visibilitychange',()=>{if(document.hidden)stop();else arm()});
+  arm();
+}
+initIdleGestureHint();
+
+// v5.3.13 — aggressively adopt new PWA releases without an update popup.
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', async () => {
     try {
