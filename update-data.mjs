@@ -16,41 +16,70 @@ const APPLE_TV_URL = 'https://tv.apple.com/gb/collection/most-popular-now/uts.co
 const UK_CINEMA_URL = 'https://www.cinemauk.org.uk/the-industry/facts-and-figures/latest-uk-cinema-statistics/weekend-top-10-box-office/';
 const US_CINEMA_URL = 'https://www.imdb.com/chart/boxoffice/?ref_=ext_shr_lnk';
 const HBO_UK_MOVIES_URL = 'https://www.hbomax.com/gb/en/movies';
+const HBO_UK_SERIES_URLS = [
+  'https://www.hbomax.com/gb/en/series',
+  'https://www.hbomax.com/gb/en/shows'
+];
+
+function extractHBOTitles(html, marker, typePattern) {
+  const pos = html.indexOf(marker);
+  if (pos < 0) return { found:false, titles:[] };
+  const chunk = html.slice(pos, pos + 450000);
+  const titles=[];
+  const seen=new Set();
+  const re = new RegExp(`"__typename"\\s*:\s*"(?:${typePattern})"[\s\S]{0,3500}?"title"\s*:\s*\{[\s\S]{0,500}?"short"\s*:\s*"([^"]+)"`, 'g');
+  let m;
+  while ((m=re.exec(chunk)) && titles.length<10) {
+    const title=(m[1]||'').replace(/\u0026/g,'&').trim();
+    if (!title || seen.has(title)) continue;
+    seen.add(title); titles.push(title);
+  }
+  return {found:true,titles};
+}
 
 async function diagnoseHBOMaxUKMovies() {
-  console.log('--- HBO UK DIAGNOSTIC (does not change rankings) ---');
+  console.log('--- HBO UK DIAGNOSTIC V2 (does not change rankings) ---');
   try {
     const html = await fetchText(HBO_UK_MOVIES_URL, {
       'accept':'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
       'accept-language':'en-GB,en;q=0.9'
     });
     console.log(`HBO UK movies HTTP: OK (${html.length} chars)`);
-    const marker = 'Most Popular Movies';
-    const pos = html.indexOf(marker);
-    console.log(`Most Popular Movies: ${pos >= 0 ? 'FOUND' : 'NOT FOUND'}`);
-    if (pos < 0) {
-      console.log(`GB route marker: ${html.includes('/gb/en/movie/') ? 'FOUND' : 'NOT FOUND'}`);
-      return;
-    }
-    // Inspect only the payload following the named collection. HBO currently
-    // serialises the collection as JSON-like data in the public page document.
-    const chunk = html.slice(pos, pos + 250000);
-    const titles = [];
-    const seen = new Set();
-    const re = /(?:\"short\"|"short")\s*:\s*(?:\"([^\"]+)\"|"([^"]+)")/g;
-    let m;
-    while ((m = re.exec(chunk)) && titles.length < 10) {
-      const title = (m[1] || m[2] || '').replace(/\u0026/g, '&').trim();
-      if (!title || seen.has(title) || /Wave \d|Movies \|/i.test(title)) continue;
-      seen.add(title); titles.push(title);
-    }
-    console.log(`HBO UK candidate titles: ${titles.length}/10`);
-    titles.forEach((t,i)=>console.log(`${i+1}. ${t}`));
-    console.log(`GB route marker: ${html.includes('/gb/en/movie/') ? 'FOUND' : 'NOT FOUND'}`);
+    const movies=extractHBOTitles(html,'Most Popular Movies','Feature');
+    console.log(`Most Popular Movies: ${movies.found ? 'FOUND' : 'NOT FOUND'}`);
+    console.log(`HBO UK movie titles: ${movies.titles.length}/10`);
+    movies.titles.forEach((t,i)=>console.log(`${i+1}. ${t}`));
+    console.log(`GB movie route marker: ${html.includes('/gb/en/movie/') ? 'FOUND' : 'NOT FOUND'}`);
   } catch (err) {
     console.log(`HBO UK movies fetch: FAILED - ${err.message}`);
   }
-  console.log('--- END HBO UK DIAGNOSTIC ---');
+
+  let seriesSucceeded=false;
+  for (const url of HBO_UK_SERIES_URLS) {
+    try {
+      const html=await fetchText(url,{
+        'accept':'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+        'accept-language':'en-GB,en;q=0.9'
+      });
+      console.log(`HBO UK series URL: ${url}`);
+      console.log(`HBO UK series HTTP: OK (${html.length} chars)`);
+      const markers=['Most Popular Series','Most Popular TV Shows','Most Popular Shows'];
+      let result={found:false,titles:[]}, used='';
+      for (const marker of markers) {
+        const r=extractHBOTitles(html,marker,'Series|Show');
+        if (r.found) {result=r; used=marker; break;}
+      }
+      console.log(`Series popularity marker: ${result.found ? `FOUND (${used})` : 'NOT FOUND'}`);
+      console.log(`HBO UK series titles: ${result.titles.length}/10`);
+      result.titles.forEach((t,i)=>console.log(`${i+1}. ${t}`));
+      console.log(`GB series route marker: ${(html.includes('/gb/en/show/')||html.includes('/gb/en/series/')) ? 'FOUND' : 'NOT FOUND'}`);
+      if (result.found || result.titles.length) {seriesSucceeded=true; break;}
+    } catch(err) {
+      console.log(`HBO UK series fetch (${url}): FAILED - ${err.message}`);
+    }
+  }
+  if (!seriesSucceeded) console.log('HBO UK series diagnostic: no usable popularity collection found yet');
+  console.log('--- END HBO UK DIAGNOSTIC V2 ---');
 }
 const SERVICES = [
   { id:'netflix', name:'Netflix', aliases:['Netflix'] },
