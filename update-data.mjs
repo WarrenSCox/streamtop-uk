@@ -779,7 +779,7 @@ function parseOfficialChartsMarkdown(md, sourceUrl){
   }
   if(items.length<10){
     const text=String(md).replace(/\r/g,'');
-    const re=/Number\s+(10|[1-9])\s*\n(?:[^\n]*cover art[^\n]*\n)?(?:New|RE|Re-entry)?\s*([^\n]+)\s*\n([^\n]+)(?=\n\s*(?:\d+\.\s*)?LW:|\n\s*Peak:|\n\s*Weeks:)/gi;
+    const re=/Number\s+(10|[1-9])\s*\n(?:[^\n]*cover art[^\n]*\n)?(?:(?:New|RE|Re-entry)\s*\n)?([^\n]+)\s*\n([^\n]+)(?=\n\s*(?:\d+\.\s*)?LW:|\n\s*Peak:|\n\s*Weeks:)/gi;
     let m;
     while((m=re.exec(text))){
       const rank=Number(m[1]); if(items.some(x=>x.rank===rank))continue;
@@ -795,7 +795,7 @@ function parseOfficialChartsRenderedText(raw,sourceUrl){
     .replace(/<[^>]+>/g,'\n').replace(/\r/g,'')
     .split('\n').map(x=>x.replace(/\s+/g,' ').trim()).filter(Boolean).join('\n');
   const items=[];
-  const re=/Number\s+(10|[1-9])\s*\n(?:Image:[^\n]*\n)*(?:New|RE|Re-entry)?\s*([^\n]+)\s*\n([^\n]+)(?=\n(?:\d+\.\s*)?LW:|\nPeak:|\nWeeks:)/gi;
+  const re=/Number\s+(10|[1-9])\s*\n(?:Image:[^\n]*\n)*(?:(?:New|RE|Re-entry)\s*\n)?([^\n]+)\s*\n([^\n]+)(?=\n(?:\d+\.\s*)?LW:|\nPeak:|\nWeeks:)/gi;
   let m;
   while((m=re.exec(text))){
     const rank=Number(m[1]); const title=cleanMusicText(m[2]),artist=cleanMusicText(m[3]);

@@ -71,10 +71,10 @@ footer{width:min(760px,100%);margin:0 auto;padding:0 20px max(24px,env(safe-area
 @media(max-width:560px){.chart-item.has-watch-toggle,.my-list-page .chart-item{grid-template-columns:38px 52px minmax(0,1fr) 39px;padding-right:9px}.watch-eyes{width:35px;height:26px}.watch-eye{width:18px;height:24px}.list-switch{width:34px!important;height:34px!important}.list-switch img{width:32px!important;height:25px!important}}
 .brand-link{color:inherit;text-decoration:none}.my-list-page .brand-link{display:flex}
 
-/* v5.2.3 — shared release; flipped My List logo + sleepy empty eyes */
+/* v5.2.4 — shared release; softer empty eyes + UK music title parser fix */
 .my-list-page .my-list-controls{margin-top:10px;margin-bottom:14px}.my-list-page .my-list-controls .segmented{width:100%;max-width:none}.my-list-page .chart-wrap{margin-top:0}
 
 /* v5.2.3 — empty eyes stay faint until a title is saved */
 .watch-toggle .watch-eyes{transition:opacity .22s ease,filter .22s ease}
-.watch-toggle:not(.saved) .watch-eyes{opacity:.32;filter:saturate(.72)}
+.watch-toggle:not(.saved) .watch-eyes{opacity:.14;filter:saturate(.58)}
 .watch-toggle.saved .watch-eyes{opacity:1;filter:none}
