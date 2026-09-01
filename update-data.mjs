@@ -743,8 +743,8 @@ async function enrichOfficial(official, fallback=[], objectType) {
 }
 
 
-const UK_SINGLES_URL='https://www.officialcharts.com/charts/singles-chart/';
-const UK_ALBUMS_URL='https://www.officialcharts.com/charts/albums-chart/';
+const UK_SINGLES_URL='https://www.officialcharts.com/charts/singles-chart/?lang=en';
+const UK_ALBUMS_URL='https://www.officialcharts.com/charts/albums-chart/?lang=en';
 function cleanMusicText(v=''){return decodeHtml(String(v)).replace(/^New(?=[A-Z0-9])/,'').replace(/^Re(?=[A-Z0-9])/,'').replace(/\s+/g,' ').trim();}
 function parseOfficialChartsMarkdown(md, sourceUrl){
   const items=[];
@@ -771,6 +771,47 @@ function parseOfficialChartsMarkdown(md, sourceUrl){
   }
   return items.sort((a,b)=>a.rank-b.rank).slice(0,10);
 }
+
+const US_SINGLES_URL='https://ca.billboard.com/charts/hot-100';
+const US_ALBUMS_URL='https://ca.billboard.com/charts/billboard-200';
+function parseBillboardMarkdown(md, sourceUrl){
+  const lines=String(md).split(/\r?\n/).map(x=>x.trim()).filter(Boolean);
+  const items=[];
+  for(let i=0;i<lines.length&&items.length<10;i++){
+    if(!/^([1-9]|10)$/.test(lines[i])) continue;
+    const rank=Number(lines[i]);
+    if(items.some(x=>x.rank===rank)) continue;
+    let title='',artist='';
+    for(let j=i+1;j<Math.min(lines.length,i+12);j++){
+      const tm=lines[j].match(/^##\s+(.+)/);
+      if(tm){title=cleanMusicText(tm[1]);
+        for(let k=j+1;k<Math.min(lines.length,j+6);k++){
+          const am=lines[k].match(/^###\s+(.+)/);
+          if(am){artist=cleanMusicText(am[1]);break;}
+        }
+        break;
+      }
+      if(/^([1-9]|10)$/.test(lines[j])) break;
+    }
+    if(title&&artist) items.push({rank,title,artist,poster:null,detailsUrl:sourceUrl});
+  }
+  return items.sort((a,b)=>a.rank-b.rank).slice(0,10);
+}
+async function fetchBillboardMusicChart(url,label){
+  const attempts=[url,`https://r.jina.ai/${url}`];
+  let last='';
+  for(const u of attempts){
+    try{
+      const text=await fetchText(u,{'accept-language':'en-US,en;q=0.9'});
+      const items=parseBillboardMarkdown(text,url);
+      const route=u.startsWith('https://r.jina.ai/')?'reader':'direct';
+      console.log(`USA music ${label}: ${items.length}/10 via ${route}`);
+      if(items.length===10)return items;
+      last=`${route} returned ${items.length}/10`;
+    }catch(e){last=e.message;console.warn(`USA music ${label} attempt failed: ${e.message}`);}
+  }
+  throw new Error(last||'chart unavailable');
+}
 async function fetchOfficialMusicChart(url,label){
   // Official Charts' normal page is HTML, while the reader route exposes the same
   // page as clean Markdown. Use the existing timeout-safe fetchText helper rather
@@ -794,7 +835,7 @@ async function fetchOfficialMusicChart(url,label){
 }
 
 let previous={}; try{previous=JSON.parse(await readFile('data/rankings.json','utf8'));}catch{}
-const output={version:12,generatedAt:new Date().toISOString(),country:'GB',strategy:'Official source first; labelled fallback when no compatible official chart is available.',services:{}};
+const output={version:13,generatedAt:new Date().toISOString(),country:'GB',strategy:'Official source first; labelled fallback when no compatible official chart is available.',services:{}};
 const packageData=await gql(PACKAGES_QUERY,{country:'GB',platform:'WEB'}); const packages=packageData?.packages||[];
 let netflixOfficial=null; try{netflixOfficial=await fetchOfficialNetflix(); console.log(`Netflix official week ${netflixOfficial.week}`);}catch(err){console.error('Netflix official:',err.message);}
 let primeMoviesOfficial=null; try{primeMoviesOfficial=await fetchOfficialPrimeMovies(); console.log(`Prime official movies: ${primeMoviesOfficial.length}`);}catch(err){console.error('Prime official movies:',err.message);}
@@ -804,6 +845,8 @@ let ukCinemaOfficial=null; try{ukCinemaOfficial=await fetchOfficialUKCinema(); c
 let usCinemaIMDb=null; try{usCinemaIMDb=await fetchUSCinemaIMDb(); console.log(`US cinema IMDb: ${usCinemaIMDb.length}`);}catch(err){console.error('US cinema IMDb:',err.message);}
 let ukSingles=null; try{ukSingles=await fetchOfficialMusicChart(UK_SINGLES_URL,'singles');}catch(err){console.error('UK music singles:',err.message);}
 let ukAlbums=null; try{ukAlbums=await fetchOfficialMusicChart(UK_ALBUMS_URL,'albums');}catch(err){console.error('UK music albums:',err.message);}
+let usSingles=null; try{usSingles=await fetchBillboardMusicChart(US_SINGLES_URL,'singles');}catch(err){console.error('USA music singles:',err.message);}
+let usAlbums=null; try{usAlbums=await fetchBillboardMusicChart(US_ALBUMS_URL,'albums');}catch(err){console.error('USA music albums:',err.message);}
 
 for(const service of SERVICES){
   const pkg=findPackage(packages,service); const entry={provider:pkg?.clearName||service.name,movies:[],tv:[],sources:{},error:null};
@@ -870,6 +913,22 @@ for(const service of SERVICES){
     else entry.error=[entry.error,`${key}: no ranking available`].filter(Boolean).join(' | ');
   }
   output.services.ukmusic=entry;
+}
+
+
+// WozzaTune: USA singles + albums from Billboard's Hot 100 / Billboard 200.
+{
+  const old=previous?.services?.usmusic;
+  const entry={provider:'USA Music',singles:[],albums:[],sources:{},error:null};
+  for(const [key,fresh,url] of [['singles',usSingles,US_SINGLES_URL],['albums',usAlbums,US_ALBUMS_URL]]){
+    if(Array.isArray(fresh)&&fresh.length===10){
+      entry[key]=fresh.map((x,i)=>({...x,rank:i+1}));
+      entry.sources[key]={kind:'official',label:'Billboard',displayName:'Billboard',url,cadence:'weekly',note:key==='singles'?'Billboard Hot 100 — the weekly US singles chart.':'Billboard 200 — the weekly US albums chart.'};
+    } else if(Array.isArray(old?.[key])&&old[key].length){
+      entry[key]=old[key].map((x,i)=>({...x,rank:i+1}));entry.sources[key]=old.sources?.[key];entry.stale=true;
+    } else entry.error=[entry.error,`${key}: no ranking available`].filter(Boolean).join(' | ');
+  }
+  output.services.usmusic=entry;
 }
 
 await mkdir('data',{recursive:true}); await writeFile('data/rankings.json',JSON.stringify(output,null,2)+'\n'); console.log(`Saved rankings at ${output.generatedAt}`);
