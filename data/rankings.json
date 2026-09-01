@@ -1,6 +1,6 @@
 {
   "version": 17,
-  "generatedAt": "2026-09-01T14:23:47.219Z",
+  "generatedAt": "2026-09-01T14:24:38.779Z",
   "country": "GB",
   "strategy": "Official source first; labelled fallback when no compatible official chart is available.",
   "services": {
@@ -359,15 +359,15 @@
         },
         {
           "rank": 3,
-          "sourceRank": 8,
+          "sourceRank": 10,
           "title": "Tahan",
           "year": 2022,
           "poster": "/poster/292161853/s166/tahan.webp",
           "url": "https://www.justwatch.com/uk/movie/tahan",
           "trend": "UP",
-          "trendDifference": 3,
+          "trendDifference": 1,
           "daysInTop10": 2,
-          "topRank": 8
+          "topRank": 10
         },
         {
           "rank": 4,
@@ -407,18 +407,6 @@
         },
         {
           "rank": 7,
-          "sourceRank": 20,
-          "title": "Dune: Part Two",
-          "year": 2024,
-          "poster": "/poster/311556128/s166/dune-part-two.webp",
-          "url": "https://www.justwatch.com/uk/movie/dune-part-two",
-          "trend": "UP",
-          "trendDifference": 11,
-          "daysInTop10": 106,
-          "topRank": 1
-        },
-        {
-          "rank": 8,
           "sourceRank": 21,
           "title": "Marty Supreme",
           "year": 2025,
@@ -427,6 +415,18 @@
           "trend": "DOWN",
           "trendDifference": -1,
           "daysInTop10": 44,
+          "topRank": 1
+        },
+        {
+          "rank": 8,
+          "sourceRank": 20,
+          "title": "Dune: Part Two",
+          "year": 2024,
+          "poster": "/poster/311556128/s166/dune-part-two.webp",
+          "url": "https://www.justwatch.com/uk/movie/dune-part-two",
+          "trend": "UP",
+          "trendDifference": 11,
+          "daysInTop10": 106,
           "topRank": 1
         },
         {
@@ -493,13 +493,13 @@
         },
         {
           "rank": 4,
-          "sourceRank": 27,
+          "sourceRank": 29,
           "title": "Sterling Point",
           "year": 2026,
           "poster": "/poster/347373626/s166/sterling-point.webp",
           "url": "https://www.justwatch.com/uk/tv-series/sterling-point",
-          "trend": "UP",
-          "trendDifference": 2,
+          "trend": "STABLE",
+          "trendDifference": 0,
           "daysInTop10": 9,
           "topRank": 4
         },
@@ -649,13 +649,13 @@
         },
         {
           "rank": 5,
-          "sourceRank": 30,
+          "sourceRank": 32,
           "title": "The Devil Wears Prada 2",
           "year": 2026,
           "poster": "/poster/343075058/s166/the-devil-wears-prada-2.webp",
           "url": "https://www.justwatch.com/uk/movie/the-devil-wears-prada-2",
           "trend": "UP",
-          "trendDifference": 6,
+          "trendDifference": 4,
           "daysInTop10": 6,
           "topRank": 5
         },
@@ -709,15 +709,15 @@
         },
         {
           "rank": 10,
-          "sourceRank": 129,
-          "title": "Aliens",
-          "year": 1986,
-          "poster": "/poster/128898155/s166/aliens.webp",
-          "url": "https://www.justwatch.com/uk/movie/aliens",
+          "sourceRank": 136,
+          "title": "Jurassic World: Fallen Kingdom",
+          "year": 2018,
+          "poster": "/poster/142071796/s166/jurassic-world-fallen-kingdom.webp",
+          "url": "https://www.justwatch.com/uk/movie/jurassic-world-fallen-kingdom",
           "trend": "UP",
-          "trendDifference": 114,
-          "daysInTop10": 2,
-          "topRank": 2
+          "trendDifference": 34,
+          "daysInTop10": 35,
+          "topRank": 1
         }
       ],
       "tv": [
@@ -1191,13 +1191,13 @@
         },
         {
           "rank": 6,
-          "sourceRank": 18,
+          "sourceRank": 20,
           "title": "Interstellar",
           "year": 2014,
           "poster": "/poster/320955086/s166/interstellar.webp",
           "url": "https://www.justwatch.com/uk/movie/interstellar",
-          "trend": "STABLE",
-          "trendDifference": 0,
+          "trend": "DOWN",
+          "trendDifference": -2,
           "daysInTop10": 121,
           "topRank": 1
         },
@@ -1227,13 +1227,13 @@
         },
         {
           "rank": 9,
-          "sourceRank": 46,
+          "sourceRank": 43,
           "title": "Superman",
           "year": 2025,
           "poster": "/poster/332665033/s166/superman-2025.webp",
           "url": "https://www.justwatch.com/uk/movie/superman-2025",
-          "trend": "DOWN",
-          "trendDifference": -3,
+          "trend": "STABLE",
+          "trendDifference": 0,
           "daysInTop10": 43,
           "topRank": 2
         },
@@ -1313,13 +1313,13 @@
         },
         {
           "rank": 6,
-          "sourceRank": 27,
+          "sourceRank": 33,
           "title": "Stuart Fails to Save the Universe",
           "year": 2026,
           "poster": "/poster/347883413/s166/stuart-fails-to-save-the-universe.webp",
           "url": "https://www.justwatch.com/uk/tv-series/stuart-fails-to-save-the-universe",
-          "trend": "UP",
-          "trendDifference": 1,
+          "trend": "DOWN",
+          "trendDifference": -5,
           "daysInTop10": 6,
           "topRank": 1
         },
