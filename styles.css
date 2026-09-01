@@ -40,16 +40,34 @@ footer{width:min(760px,100%);margin:0 auto;padding:0 20px max(24px,env(safe-area
 /* v5.0 sister-brand switcher + WozzaTune */
 .brand-cluster{display:flex;align-items:center;gap:10px;min-width:0}.sister-switch{display:grid;place-items:center;width:40px;height:40px;border-radius:12px;transition:transform .15s ease,background .15s ease}.sister-switch img{width:36px;height:36px;display:block}.sister-switch:hover{background:rgba(255,255,255,.25);transform:translateY(-1px)}.sister-switch:focus-visible{outline:3px solid var(--navy);outline-offset:2px}.tune-page .brand h1 span{display:block}.tune-page .service-tabs{justify-content:flex-start}.tune-page .service-tab{min-width:120px}.tune-page .poster{aspect-ratio:1/1}.tune-page .item-info{display:block}.artist{margin-top:3px;font-size:11px;font-weight:600;opacity:.66;line-height:1.2}.tune-page .segmented button img{width:43px;height:43px;display:block}@media(max-width:560px){.brand-cluster{gap:6px}.sister-switch{width:34px;height:34px}.sister-switch img{width:31px;height:31px}.artist{font-size:10px}}
 
-/* v5.1 My List + poster-to-YouTube behaviour */
-.chart-item{grid-template-columns:46px 58px minmax(0,1fr) 38px}
-.watch-toggle{appearance:none;border:0;background:transparent;color:rgba(23,33,61,.42);width:38px;height:38px;padding:3px;border-radius:11px;display:grid;place-items:center;cursor:pointer;transition:transform .14s ease,color .14s ease,background .14s ease;justify-self:end}
-.watch-toggle:hover{background:rgba(154,178,212,.16);color:var(--navy);transform:scale(1.04)}
-.watch-toggle.active{color:var(--navy)}
-.watch-toggle:active{transform:scale(.92)}
-.watch-toggle:focus-visible{outline:3px solid rgba(154,178,212,.85);outline-offset:2px}
-.watch-eye-icon{width:34px;height:24px;display:block;overflow:visible}.eye-pupil{transition:opacity .16s ease}
-.my-list-switch img{width:34px;height:34px}
-.my-list-page .chart-heading{grid-template-columns:minmax(0,1fr) auto}.list-count{display:inline-flex;align-items:center;justify-content:center;background:rgba(255,255,255,.86);border:1px solid rgba(23,33,61,.12);border-radius:999px;padding:7px 10px;font-size:9px;font-weight:900;text-transform:uppercase;white-space:nowrap;box-shadow:0 3px 10px rgba(23,33,61,.08)}
-.my-list-page .chart-item{grid-template-columns:58px minmax(0,1fr) 38px;padding-left:16px}.my-list-page .poster{width:58px}.my-list-page .item-info{display:block}.list-meta{margin-top:4px;font-size:10px;font-weight:700;color:var(--muted)}
-.empty-list{padding:34px 20px 38px;text-align:center}.empty-list svg{width:56px;height:34px;color:rgba(23,33,61,.35)}.empty-list h3{font-family:"Archivo Black",Impact,sans-serif;margin:12px 0 6px;font-size:18px}.empty-list p{margin:0;color:var(--muted);font-size:13px;line-height:1.45}
-@media(max-width:560px){.chart-item{grid-template-columns:38px 52px minmax(0,1fr) 34px;padding-right:10px}.watch-toggle{width:34px;height:34px}.watch-eye-icon{width:31px}.my-list-page .chart-item{grid-template-columns:52px minmax(0,1fr) 34px;padding-left:14px}.my-list-page .poster{width:52px}.brand-cluster{gap:4px}.my-list-switch img{width:29px;height:29px}}
+/* WozzaTune sister-brand polish v5.0.1 */
+.sister-switch.sister-brand{width:auto;height:42px;padding:2px 8px 2px 4px;display:flex;gap:5px;text-decoration:none;color:var(--navy);border-radius:12px}
+.sister-switch.sister-brand img{width:36px;height:36px;flex:0 0 auto}
+.sister-switch.sister-brand span{font-family:'Archivo Black',Impact,sans-serif;font-size:11px;line-height:.86;letter-spacing:-.35px;text-align:left}
+.tune-page .service-tabs{overflow-x:visible}
+.tune-page .service-tab{min-width:120px}
+@media(max-width:560px){.sister-switch.sister-brand{height:36px;padding-right:5px;gap:3px}.sister-switch.sister-brand img{width:31px;height:31px}.sister-switch.sister-brand span{font-size:9px}}
+/* WozzaTune v1.3: supplied Singles/Albums marks */
+.tune-page .segmented button img{width:43px;height:43px;object-fit:contain;display:block;border:0;border-radius:0;background:transparent;box-shadow:none}
+.tune-page .segmented button{padding:4px}
+@media(max-width:560px){.tune-page .segmented button img{width:43px;height:43px}}
+
+/* v5.2 — playful My List eyes */
+.list-switch{padding:2px!important;width:42px!important;height:42px!important;display:grid!important;place-items:center!important}
+.list-switch img{width:39px!important;height:30px!important;object-fit:contain}
+.chart-item.has-watch-toggle{grid-template-columns:46px 58px minmax(0,1fr) 44px}
+.watch-toggle{appearance:none;border:0;background:transparent;padding:4px 1px;display:flex;align-items:center;justify-content:center;cursor:pointer;border-radius:12px;color:var(--navy);touch-action:manipulation}
+.watch-toggle:focus-visible{outline:3px solid rgba(154,178,212,.9);outline-offset:2px}
+.watch-eyes{position:relative;width:39px;height:28px;display:block}
+.watch-eye{position:absolute;top:2px;width:19px;height:25px;border:2.5px solid var(--navy);border-radius:50%;background:#fff;box-sizing:border-box}
+.watch-eye:first-child{left:1px}.watch-eye:nth-child(2){right:1px}
+.watch-pupil{position:absolute;left:50%;top:52%;width:8px;height:10px;margin:-5px 0 0 -4px;border-radius:50%;background:var(--navy);opacity:0;transform:translateY(-20px) scale(.55)}
+.watch-toggle.saved .watch-pupil{opacity:1;transform:translateY(0) scale(1)}
+.watch-toggle.pupil-pop .watch-pupil{animation:googly-drop .58s cubic-bezier(.22,.85,.28,1.18) both}
+.watch-toggle.pupil-pop .watch-eye:nth-child(2) .watch-pupil{animation-delay:.055s}
+@keyframes googly-drop{0%{opacity:0;transform:translateY(-23px) scale(.55)}48%{opacity:1;transform:translateY(4px) scale(1.08)}68%{transform:translateY(-3px) scale(.96)}84%{transform:translateY(1.5px) scale(1.02)}100%{opacity:1;transform:translateY(0) scale(1)}}
+.watch-toggle.saved:hover .watch-pupil:first-child{transform:translate(-1px,1px)}
+.my-list-page .chart-wrap{margin-top:22px}.my-list-page .chart-heading{grid-template-columns:1fr}.my-list-page .chart-item{grid-template-columns:46px 58px minmax(0,1fr) 44px}.my-list-page .empty-list{padding:34px 20px 42px;text-align:center}.my-list-page .empty-list strong{font-family:'Archivo Black',Impact,sans-serif;font-size:20px}.my-list-page .empty-list p{margin:8px auto 0;max-width:320px;opacity:.7;font-size:13px;line-height:1.4}.list-meta{margin-top:4px;font-size:10px;font-weight:700;opacity:.58;text-transform:uppercase;letter-spacing:.03em}
+.tune-page .music-title-link{color:var(--navy);text-decoration:none;border-radius:5px}.tune-page .music-title-link:active{opacity:.65}.tune-page .music-title-link:focus-visible{outline:3px solid rgba(154,178,212,.9);outline-offset:2px}@media(hover:hover) and (pointer:fine){.tune-page .music-title-link:hover{text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:3px}}
+@media(max-width:560px){.chart-item.has-watch-toggle,.my-list-page .chart-item{grid-template-columns:38px 52px minmax(0,1fr) 39px;padding-right:9px}.watch-eyes{width:35px;height:26px}.watch-eye{width:18px;height:24px}.list-switch{width:34px!important;height:34px!important}.list-switch img{width:32px!important;height:25px!important}}
+.brand-link{color:inherit;text-decoration:none}.my-list-page .brand-link{display:flex}
