@@ -123,7 +123,7 @@ footer{width:min(760px,100%);margin:0 auto;padding:0 20px max(24px,env(safe-area
 @media(prefers-reduced-motion:reduce){.segmented.idle-hint-first .clapper-top,.segmented.idle-hint-second button[data-type="SHOW"] .remote-icon,.tune-page .segmented.idle-hint-first button[data-type="SINGLE"] img,.tune-page .segmented.idle-hint-second button[data-type="ALBUM"] img{animation:none!important}}
 
 
-/* v5.3.19 — Watchlist hold-drag priority + nervous Watched eyes */
+/* v5.3.20 — Watchlist hold-drag priority + nervous Watched eyes */
 .my-list-page .chart-item{grid-template-columns:46px 58px minmax(0,1fr) 44px;touch-action:pan-y;transition:transform .14s ease,box-shadow .14s ease,background .14s ease}
 .my-list-page .chart-item.hold-dragging{z-index:15;transform:scale(1.018);background:#fffdf8;box-shadow:0 12px 28px rgba(23,33,61,.20);border-radius:12px}
 body.watchlist-reordering{overscroll-behavior:none}
@@ -134,3 +134,11 @@ body.watchlist-reordering{overscroll-behavior:none}
 @keyframes pile-nervous-look{0%,100%{transform:translate(-2px,1px) scale(.82)}18%{transform:translate(-5px,1px) scale(.82)}42%{transform:translate(3px,1px) scale(.82)}63%{transform:translate(-4px,1px) scale(.82)}82%{transform:translate(2px,1px) scale(.82)}}
 @media(max-width:560px){.my-list-page .chart-item{grid-template-columns:38px 52px minmax(0,1fr) 39px;padding-right:9px;gap:9px}}
 @media(prefers-reduced-motion:reduce){.pile-eye-pair.nervous-glance .watch-pupil{animation:none!important}}
+
+
+/* v5.3.20 — app-wide text selection suppression + randomized Watched eye idle animation */
+html,body,body *{-webkit-user-select:none;user-select:none;-webkit-touch-callout:none}
+.pile-eye-pair.random-blink .watch-eye{animation:pile-random-blink .72s ease-in-out}
+.pile-eye-pair.random-blink .watch-eye:nth-child(2){animation-delay:.035s}
+@keyframes pile-random-blink{0%,18%,42%,100%{transform:scaleY(1)}28%,32%{transform:scaleY(.08)}}
+@media(prefers-reduced-motion:reduce){.pile-eye-pair.random-blink .watch-eye{animation:none!important}}
