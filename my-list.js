@@ -68,28 +68,35 @@ function persistVisibleOrder(){
  const merged=all.map(item=>mediaType(item)===currentType?ordered[n++]:item);writeList(merged);
 }
 function enableRowDrag(li,handle){
- let pointerId=null,startY=0,holdTimer=null,dragging=false;
- const clearHold=()=>{if(holdTimer)clearTimeout(holdTimer);holdTimer=null};
- const activate=e=>{if(dragging)return;dragging=true;li.classList.add('dragging');document.body.classList.add('watchlist-dragging');try{handle.setPointerCapture(pointerId)}catch{};if(navigator.vibrate)navigator.vibrate(18)};
+ let pointerId=null,dragging=false;
+ const finish=e=>{
+  if(pointerId===null||e.pointerId!==pointerId)return;
+  if(dragging){persistVisibleOrder();updateVisibleRanks()}
+  dragging=false;li.classList.remove('dragging');document.body.classList.remove('watchlist-dragging');window.__watchlistReordering=false;
+  try{handle.releasePointerCapture(pointerId)}catch{}
+  pointerId=null;
+ };
  handle.addEventListener('pointerdown',e=>{
-  if(e.button!==undefined&&e.button!==0)return;pointerId=e.pointerId;startY=e.clientY;clearHold();
-  if(e.pointerType==='mouse')activate(e);else holdTimer=setTimeout(()=>activate(e),220);
+  if(e.button!==undefined&&e.button!==0)return;
+  e.preventDefault();e.stopPropagation();
+  pointerId=e.pointerId;dragging=true;window.__watchlistReordering=true;
+  li.classList.add('dragging');document.body.classList.add('watchlist-dragging');
+  try{handle.setPointerCapture(pointerId)}catch{}
+  if(navigator.vibrate&&e.pointerType!=='mouse')navigator.vibrate(18);
  });
  handle.addEventListener('pointermove',e=>{
-  if(e.pointerId!==pointerId)return;
-  if(!dragging){if(Math.abs(e.clientY-startY)>9)clearHold();return}
-  e.preventDefault();
-  const others=[...listEl.querySelectorAll('.chart-item:not(.dragging)')];
-  const before=others.find(row=>e.clientY<row.getBoundingClientRect().top+row.getBoundingClientRect().height/2);
-  if(before)listEl.insertBefore(li,before);else listEl.append(li);updateVisibleRanks();
-  const edge=64;if(e.clientY<edge)window.scrollBy(0,-10);else if(e.clientY>window.innerHeight-edge)window.scrollBy(0,10);
+  if(!dragging||e.pointerId!==pointerId)return;
+  e.preventDefault();e.stopPropagation();
+  const rows=[...listEl.querySelectorAll('.chart-item:not(.dragging)')];
+  const before=rows.find(row=>{const r=row.getBoundingClientRect();return e.clientY<r.top+r.height/2});
+  if(before)listEl.insertBefore(li,before);else listEl.append(li);
+  updateVisibleRanks();
+  const edge=72;
+  if(e.clientY<edge)window.scrollBy(0,-12);else if(e.clientY>window.innerHeight-edge)window.scrollBy(0,12);
  },{passive:false});
- const finish=e=>{
-  if(e.pointerId!==pointerId)return;clearHold();
-  if(dragging){dragging=false;li.classList.remove('dragging');document.body.classList.remove('watchlist-dragging');persistVisibleOrder();updateVisibleRanks()}
-  try{handle.releasePointerCapture(pointerId)}catch{};pointerId=null;
- };
- handle.addEventListener('pointerup',finish);handle.addEventListener('pointercancel',finish);
+ handle.addEventListener('pointerup',finish);
+ handle.addEventListener('pointercancel',finish);
+ handle.addEventListener('lostpointercapture',e=>{if(pointerId!==null&&e.pointerId===pointerId)finish(e)});
 }
 function render(){
  const all=readList();const items=all.filter(item=>mediaType(item)===currentType);listEl.innerHTML='';chartTitle.textContent=currentType==='SHOW'?'WATCHLIST TV SHOWS':'WATCHLIST MOVIES';emptyEl.classList.toggle('hidden',items.length>0);emptyEl.querySelector('strong').textContent=currentType==='SHOW'?'No TV shows yet 👀':'No movies yet 👀';emptyEl.querySelector('p').innerHTML=`Add titles to your list from the chart pages by clicking the <span class="instruction-eyes">${eyes()}</span>`;
@@ -107,17 +114,17 @@ render();
 document.addEventListener('visibilitychange',()=>{if(document.hidden)stopNervousPile();else scheduleNervousPile()});
 
 
-// v5.3.16: when already at the top, a deliberate downward pull switches
+// v5.3.17: when already at the top, a deliberate downward pull switches
 // WozzaWatch → WozzaTune → Watchlist → WozzaWatch instead of native refresh.
 function initTopPullSwitch(nextUrl,nextLabel){
   let startY=0,pulling=false,distance=0;
   const threshold=92;
   window.addEventListener('touchstart',e=>{
-    if(e.touches.length!==1||window.scrollY>1)return;
+    if(e.touches.length!==1||window.scrollY>1||window.__watchlistReordering||e.target.closest?.('.drag-handle'))return;
     startY=e.touches[0].clientY;distance=0;pulling=true;
   },{passive:true});
   window.addEventListener('touchmove',e=>{
-    if(!pulling||e.touches.length!==1)return;
+    if(!pulling||e.touches.length!==1||window.__watchlistReordering)return;
     const dy=e.touches[0].clientY-startY;
     if(dy<=0){distance=0;return;}
     if(window.scrollY>1){pulling=false;distance=0;return;}
@@ -136,19 +143,19 @@ function initTopPullSwitch(nextUrl,nextLabel){
 initTopPullSwitch('index.html','WozzaWatch');
 
 
-// v5.3.16: at the bottom, a deliberate upward flick switches backwards
+// v5.3.17: at the bottom, a deliberate upward flick switches backwards
 // through Watch ← Tune ← List. No popup/"Opening" message.
 function initBottomFlickSwitch(prevUrl){
   let startY=0,tracking=false,distance=0; const threshold=82;
   const atBottom=()=>window.innerHeight+window.scrollY>=document.documentElement.scrollHeight-3;
-  window.addEventListener('touchstart',e=>{if(e.touches.length!==1||!atBottom())return;startY=e.touches[0].clientY;distance=0;tracking=true;},{passive:true});
-  window.addEventListener('touchmove',e=>{if(!tracking||e.touches.length!==1)return;const dy=startY-e.touches[0].clientY;if(dy<=0){distance=0;return;}if(!atBottom()){tracking=false;return;}distance=dy;if(dy>12)e.preventDefault();},{passive:false});
+  window.addEventListener('touchstart',e=>{if(e.touches.length!==1||!atBottom()||window.__watchlistReordering||e.target.closest?.('.drag-handle'))return;startY=e.touches[0].clientY;distance=0;tracking=true;},{passive:true});
+  window.addEventListener('touchmove',e=>{if(!tracking||e.touches.length!==1||window.__watchlistReordering)return;const dy=startY-e.touches[0].clientY;if(dy<=0){distance=0;return;}if(!atBottom()){tracking=false;return;}distance=dy;if(dy>12)e.preventDefault();},{passive:false});
   const finish=()=>{if(!tracking)return;tracking=false;if(distance>=threshold)location.href=prevUrl;distance=0;};
   window.addEventListener('touchend',finish,{passive:true});window.addEventListener('touchcancel',()=>{tracking=false;distance=0;},{passive:true});
 }
 initBottomFlickSwitch('tune.html');
 
-// v5.3.16 — after four quiet seconds, alternate the two selector icons every four seconds.
+// v5.3.17 — after four quiet seconds, alternate the two selector icons every four seconds.
 function initIdleGestureHint(){
   const selector=document.querySelector('.segmented');
   if(!selector||window.matchMedia('(prefers-reduced-motion: reduce)').matches)return;
@@ -168,7 +175,7 @@ function initIdleGestureHint(){
 }
 initIdleGestureHint();
 
-// v5.3.16 — aggressively adopt new PWA releases without an update popup.
+// v5.3.17 — aggressively adopt new PWA releases without an update popup.
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', async () => {
     try {
