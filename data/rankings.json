@@ -1,6 +1,6 @@
 {
   "version": 17,
-  "generatedAt": "2026-09-02T20:10:36.556Z",
+  "generatedAt": "2026-09-02T20:28:32.442Z",
   "country": "GB",
   "strategy": "Official source first; labelled fallback when no compatible official chart is available.",
   "services": {
@@ -335,13 +335,13 @@
       "movies": [
         {
           "rank": 1,
-          "sourceRank": 2,
+          "sourceRank": 1,
           "title": "Project Hail Mary",
           "year": 2026,
           "poster": "/poster/345628912/s166/project-hail-mary.webp",
           "url": "https://www.justwatch.com/uk/movie/project-hail-mary",
           "trend": "UP",
-          "trendDifference": 1,
+          "trendDifference": 2,
           "daysInTop10": 169,
           "topRank": 1
         },
@@ -359,6 +359,18 @@
         },
         {
           "rank": 3,
+          "sourceRank": 6,
+          "title": "The Runner",
+          "year": 2026,
+          "poster": "/poster/347747910/s166/the-runner-2026-1.webp",
+          "url": "https://www.justwatch.com/uk/movie/the-runner-2026-1",
+          "trend": "NEW",
+          "trendDifference": 0,
+          "daysInTop10": 1,
+          "topRank": 6
+        },
+        {
+          "rank": 4,
           "sourceRank": 9,
           "title": "The Rainmaker",
           "year": 1997,
@@ -370,31 +382,7 @@
           "topRank": 9
         },
         {
-          "rank": 4,
-          "sourceRank": 12,
-          "title": "The Runner",
-          "year": 2026,
-          "poster": "/poster/347747910/s166/the-runner-2026-1.webp",
-          "url": "https://www.justwatch.com/uk/movie/the-runner-2026-1",
-          "trend": "NEW",
-          "trendDifference": 0,
-          "daysInTop10": null,
-          "topRank": 12
-        },
-        {
           "rank": 5,
-          "sourceRank": 16,
-          "title": "Dune: Part Two",
-          "year": 2024,
-          "poster": "/poster/311556128/s166/dune-part-two.webp",
-          "url": "https://www.justwatch.com/uk/movie/dune-part-two",
-          "trend": "UP",
-          "trendDifference": 11,
-          "daysInTop10": 106,
-          "topRank": 1
-        },
-        {
-          "rank": 6,
           "sourceRank": 18,
           "title": "Gladiator",
           "year": 2000,
@@ -406,7 +394,7 @@
           "topRank": 1
         },
         {
-          "rank": 7,
+          "rank": 6,
           "sourceRank": 19,
           "title": "When the Mist Clears",
           "year": 2022,
@@ -418,7 +406,7 @@
           "topRank": 15
         },
         {
-          "rank": 8,
+          "rank": 7,
           "sourceRank": 21,
           "title": "Good Boy",
           "year": 2026,
@@ -430,7 +418,7 @@
           "topRank": 5
         },
         {
-          "rank": 9,
+          "rank": 8,
           "sourceRank": 22,
           "title": "The Godfather",
           "year": 1972,
@@ -442,7 +430,7 @@
           "topRank": 6
         },
         {
-          "rank": 10,
+          "rank": 9,
           "sourceRank": 25,
           "title": "In & Out",
           "year": 1997,
@@ -452,6 +440,18 @@
           "trendDifference": 27,
           "daysInTop10": null,
           "topRank": 25
+        },
+        {
+          "rank": 10,
+          "sourceRank": 26,
+          "title": "The Silence of the Lambs",
+          "year": 1991,
+          "poster": "/poster/304338085/s166/the-silence-of-the-lambs.webp",
+          "url": "https://www.justwatch.com/uk/movie/the-silence-of-the-lambs",
+          "trend": "DOWN",
+          "trendDifference": -11,
+          "daysInTop10": null,
+          "topRank": 13
         }
       ],
       "tv": [
@@ -661,18 +661,6 @@
         },
         {
           "rank": 6,
-          "sourceRank": 34,
-          "title": "The Devil Wears Prada 2",
-          "year": 2026,
-          "poster": "/poster/343075058/s166/the-devil-wears-prada-2.webp",
-          "url": "https://www.justwatch.com/uk/movie/the-devil-wears-prada-2",
-          "trend": "UP",
-          "trendDifference": 16,
-          "daysInTop10": 6,
-          "topRank": 5
-        },
-        {
-          "rank": 7,
           "sourceRank": 35,
           "title": "Idiocracy",
           "year": 2006,
@@ -682,6 +670,18 @@
           "trendDifference": 48,
           "daysInTop10": 5,
           "topRank": 7
+        },
+        {
+          "rank": 7,
+          "sourceRank": 56,
+          "title": "The Devil Wears Prada 2",
+          "year": 2026,
+          "poster": "/poster/343075058/s166/the-devil-wears-prada-2.webp",
+          "url": "https://www.justwatch.com/uk/movie/the-devil-wears-prada-2",
+          "trend": "DOWN",
+          "trendDifference": -6,
+          "daysInTop10": 6,
+          "topRank": 5
         },
         {
           "rank": 8,
@@ -874,7 +874,7 @@
           "rank": 1,
           "title": "Furious",
           "year": 2026,
-          "type": "SHOW",
+          "type": null,
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/019fa9fd-c0de-7eab-963c-8ec352530398/compose?format=webp&width=386&label=top_ranked_1_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-5d4924b7-1cde-47c3-8852-f30bdd7fe979"
         },
@@ -930,7 +930,7 @@
           "rank": 8,
           "title": "Marvel Studios' Avengers: Endgame",
           "year": 2019,
-          "type": null,
+          "type": "MOVIE",
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/6a8390cc-0240-46fc-9c52-5287ca3676eb/compose?format=webp&width=386&label=top_ranked_8_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-b39aa962-be56-4b09-a536-98617031717f"
         },
@@ -981,18 +981,6 @@
         },
         {
           "rank": 3,
-          "title": "The Proposal",
-          "year": 2009,
-          "poster": "/poster/295619501/s166/the-proposal.webp",
-          "url": "https://tv.apple.com/gb/movie/the-proposal/umc.cmc.5ccom84litnu26th25moncgpa",
-          "trend": null,
-          "trendDifference": 0,
-          "daysInTop10": null,
-          "topRank": null,
-          "detailsUrl": "https://www.justwatch.com/uk/movie/the-proposal"
-        },
-        {
-          "rank": 4,
           "title": "The Town",
           "year": 2010,
           "poster": "/poster/138732258/s166/the-town.webp",
@@ -1002,6 +990,18 @@
           "daysInTop10": null,
           "topRank": null,
           "detailsUrl": "https://www.justwatch.com/uk/movie/the-town"
+        },
+        {
+          "rank": 4,
+          "title": "The Proposal",
+          "year": 2009,
+          "poster": "/poster/295619501/s166/the-proposal.webp",
+          "url": "https://tv.apple.com/gb/movie/the-proposal/umc.cmc.5ccom84litnu26th25moncgpa",
+          "trend": null,
+          "trendDifference": 0,
+          "daysInTop10": null,
+          "topRank": null,
+          "detailsUrl": "https://www.justwatch.com/uk/movie/the-proposal"
         },
         {
           "rank": 5,
@@ -1115,18 +1115,6 @@
         },
         {
           "rank": 4,
-          "title": "Slow Horses",
-          "year": 2022,
-          "poster": "/poster/337328350/s166/slow-horses.webp",
-          "url": "https://tv.apple.com/gb/show/slow-horses/umc.cmc.2szz3fdt71tl1ulnbp8utgq5o",
-          "trend": null,
-          "trendDifference": 0,
-          "daysInTop10": null,
-          "topRank": null,
-          "detailsUrl": "https://www.justwatch.com/uk/tv-series/slow-horses"
-        },
-        {
-          "rank": 5,
           "title": "Widow’s Bay",
           "year": 2026,
           "poster": "/poster/345823300/s166/widows-bay.webp",
@@ -1136,6 +1124,18 @@
           "daysInTop10": null,
           "topRank": null,
           "detailsUrl": "https://www.justwatch.com/uk/tv-series/widows-bay"
+        },
+        {
+          "rank": 5,
+          "title": "Slow Horses",
+          "year": 2022,
+          "poster": "/poster/337328350/s166/slow-horses.webp",
+          "url": "https://tv.apple.com/gb/show/slow-horses/umc.cmc.2szz3fdt71tl1ulnbp8utgq5o",
+          "trend": null,
+          "trendDifference": 0,
+          "daysInTop10": null,
+          "topRank": null,
+          "detailsUrl": "https://www.justwatch.com/uk/tv-series/slow-horses"
         },
         {
           "rank": 6,
@@ -2696,9 +2696,8 @@
           "rank": 5,
           "title": "Hate That I Made You Love Me",
           "artist": "Ariana Grande",
-          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/56/f4/96/56f49612-02dd-83f4-44fe-d2118cc70707/26UMGIM51129.rgb.jpg/400x400bb.jpg",
-          "detailsUrl": "https://ca.billboard.com/charts/hot-100",
-          "musicUrl": "https://music.apple.com/us/album/hate-that-i-made-you-love-me/1895420874?i=6763656725&uo=4"
+          "poster": null,
+          "detailsUrl": "https://ca.billboard.com/charts/hot-100"
         },
         {
           "rank": 6,
@@ -2712,17 +2711,15 @@
           "rank": 7,
           "title": "So Easy (To Fall In Love)",
           "artist": "Olivia Dean",
-          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/08/e2/21/08e22164-7c0b-1522-818f-e0e74f62dc49/25UMGIM69703.rgb.jpg/400x400bb.jpg",
-          "detailsUrl": "https://ca.billboard.com/charts/hot-100",
-          "musicUrl": "https://music.apple.com/us/album/so-easy-to-fall-in-love/1817609404?i=1817609507&uo=4"
+          "poster": null,
+          "detailsUrl": "https://ca.billboard.com/charts/hot-100"
         },
         {
           "rank": 8,
           "title": "Dracula",
           "artist": "Tame Impala & JENNIE",
-          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/36/be/b4/36beb41f-c644-55cb-9fbb-bf0622a66653/196873644783.jpg/400x400bb.jpg",
-          "detailsUrl": "https://ca.billboard.com/charts/hot-100",
-          "musicUrl": "https://music.apple.com/us/album/dracula/1842444456?i=1842444457&uo=4"
+          "poster": null,
+          "detailsUrl": "https://ca.billboard.com/charts/hot-100"
         },
         {
           "rank": 9,
@@ -2746,9 +2743,8 @@
           "rank": 1,
           "title": "WILD (EP)",
           "artist": "KATSEYE",
-          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0a/63/b5/0a63b5b0-dff7-1194-79c0-6bc8f5ab2d74/093624821526.jpg/400x400bb.jpg",
-          "detailsUrl": "https://ca.billboard.com/charts/billboard-200",
-          "musicUrl": "https://music.apple.com/us/album/wild/1885046822?uo=4"
+          "poster": null,
+          "detailsUrl": "https://ca.billboard.com/charts/billboard-200"
         },
         {
           "rank": 2,
@@ -2778,9 +2774,8 @@
           "rank": 5,
           "title": "Dandelion",
           "artist": "Ella Langley",
-          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/26/35/03/26350323-d656-4817-49e6-4d658af8363a/196874332917.jpg/400x400bb.jpg",
-          "detailsUrl": "https://ca.billboard.com/charts/billboard-200",
-          "musicUrl": "https://music.apple.com/us/album/dandelion/1895159736?uo=4"
+          "poster": null,
+          "detailsUrl": "https://ca.billboard.com/charts/billboard-200"
         },
         {
           "rank": 6,
@@ -2794,9 +2789,8 @@
           "rank": 7,
           "title": "The Great Divide",
           "artist": "Noah Kahan",
-          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e0/53/5b/e0535bb5-a269-8cc4-e12f-589e26809569/26UMGIM02802.rgb.jpg/400x400bb.jpg",
-          "detailsUrl": "https://ca.billboard.com/charts/billboard-200",
-          "musicUrl": "https://music.apple.com/us/album/the-great-divide/1872241079?uo=4"
+          "poster": null,
+          "detailsUrl": "https://ca.billboard.com/charts/billboard-200"
         },
         {
           "rank": 8,
@@ -2810,9 +2804,8 @@
           "rank": 9,
           "title": "ICEMAN",
           "artist": "Drake",
-          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7f/39/61/7f396123-be56-bc11-eaab-976441808e58/26UMGIM63622.rgb.jpg/400x400bb.jpg",
-          "detailsUrl": "https://ca.billboard.com/charts/billboard-200",
-          "musicUrl": "https://music.apple.com/us/album/iceman/6769649287?uo=4"
+          "poster": null,
+          "detailsUrl": "https://ca.billboard.com/charts/billboard-200"
         },
         {
           "rank": 10,
