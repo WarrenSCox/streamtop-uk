@@ -1,9 +1,12 @@
-WozzaWatch v5.3.43 — WozzaRead Hotfix
+WozzaWatch v6.0.0
 
-- Fixes UK Books chart extraction by reading the ten ordered LoveReading /book/ entries from the Official UK Top 10 section only.
-- Adds title/author extraction for Books and cover enrichment from each book detail page when the chart page does not expose a usable image.
-- Reworks Audible parsing around the explicit numbered 1–10 headings instead of brittle list-item markup.
-- Fetches audiobook cover artwork from Audible product metadata when it is not present beside the ranked heading.
-- Removes the redundant UK SALES / AUDIBLE UK badge from the WozzaRead chart heading, eliminating the mobile overlap.
-- Keeps fail-safe behaviour: an incomplete chart never replaces the last verified Top 10.
-- Includes the existing master GitHub Actions workflow that runs update-read.mjs alongside rankings/news.
+WOZZAREAD CR RELEASE
+- WozzaRead now mirrors the compact WozzaWatch chart sizing.
+- Replaces large Books/Audiobooks tabs with WozzaWatch-style two-icon segmented control.
+- Book icon selects Books; headphones icon selects Audiobooks.
+- Swipe left/right on the WozzaRead chart switches Books <-> Audiobooks.
+- Double-tap the chart switches Books <-> Audiobooks.
+- Narrator names removed from audiobook rows; author remains.
+- Audible cover lookup now prefers the individual Audible product page metadata to avoid promotional/composite chart artwork.
+- Existing verified Top 10 fail-safe remains intact.
+- Release renamed to v6.0.0.

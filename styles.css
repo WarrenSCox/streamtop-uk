@@ -599,3 +599,23 @@ html,body,body *{-webkit-user-select:none;user-select:none;-webkit-touch-callout
 .read-chart-heading{display:flex;align-items:center;justify-content:flex-start!important;}
 .read-chart-heading h2{max-width:100%;overflow-wrap:anywhere;}
 @media(max-width:560px){.read-chart-heading h2{font-size:clamp(23px,7vw,34px);letter-spacing:-.5px;}}
+
+
+/* v6.0.0 — WozzaRead mirrors WozzaWatch chart controls and sizing */
+.read-page .read-controls{margin:10px 0 14px}
+.read-page .read-segmented{width:100%;max-width:none;min-height:64px}
+.read-page .read-segmented .read-tab{height:auto;border:0;outline:0;background:transparent;box-shadow:none;border-radius:11px;padding:8px;color:var(--navy)}
+.read-page .read-segmented .read-tab.active{background:var(--lav);box-shadow:0 2px 8px rgba(23,33,61,.1)}
+.read-page .read-segmented .media-icon{width:43px;height:43px}
+.read-page .read-chart-heading{min-height:0;padding:19px 18px 14px}
+.read-page .read-chart-heading h2{font-size:clamp(22px,4.2vw,32px);white-space:nowrap;overflow:visible;overflow-wrap:normal}
+.read-page .read-row{position:relative;grid-template-columns:46px 58px minmax(0,1fr);gap:12px;min-height:84px;padding:10px 18px 10px 10px}
+.read-page .read-row:after{content:"";position:absolute;right:0;top:12px;bottom:12px;width:5px;border-radius:5px}
+.read-page .read-row:nth-child(4n+1):after{background:var(--brick)}.read-page .read-row:nth-child(4n+2):after{background:var(--blue)}.read-page .read-row:nth-child(4n+3):after{background:var(--apple)}.read-page .read-row:nth-child(4n):after{background:var(--sun)}
+.read-page .read-row .rank{font-size:27px}
+.read-page .read-cover{width:58px;height:auto;aspect-ratio:2/3;border-radius:9px}
+.read-page .read-copy{gap:3px}
+.read-page .read-copy strong{font-size:15px;line-height:1.2}
+.read-page .read-copy small{font-size:11px;font-weight:700;color:var(--muted)}
+.read-page .read-copy em{display:none!important}
+@media(max-width:560px){.read-page .read-controls{margin-top:10px}.read-page .read-segmented{min-height:64px}.read-page .read-chart-heading{padding:17px 14px 13px}.read-page .read-chart-heading h2{font-size:clamp(21px,6vw,29px)}.read-page .read-row{grid-template-columns:38px 52px minmax(0,1fr);gap:9px;min-height:78px;padding:10px 14px 10px 10px}.read-page .read-row .rank{font-size:24px}.read-page .read-cover{width:52px}.read-page .read-copy strong{font-size:14px}.read-page .read-copy small{font-size:10px}}
