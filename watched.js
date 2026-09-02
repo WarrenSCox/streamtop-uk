@@ -1,14 +1,8 @@
-
-function updateWatchedCounts(){
-  const el=document.getElementById('watchedCounts'); if(!el)return;
-  const items=loadWatched();
-  const movies=items.filter(x=>x.type==='MOVIE').length;
-  const shows=items.filter(x=>x.type==='SHOW').length;
-  el.textContent=`MOVIES ${movies} | SHOWS ${shows}`;
+| SHOWS ${shows}`;
 }
 const WATCHLIST_KEY='wozzawatch-my-list-v1', WATCHED_KEY='wozzawatch-watched-v1';
 const listEl=document.querySelector('#watchedList'),emptyEl=document.querySelector('#emptyWatched'),chartTitle=document.querySelector('#chartTitle');let currentType='MOVIE';
-function readKey(key){try{return JSON.parse(localStorage.getItem(key)||'[]')}catch{return[]}}function writeKey(key,v){localStorage.setItem(key,JSON.stringify(v))}function youtube(title){return `https://www.youtube.com/results?search_query=${encodeURIComponent(`${title||''} trailer`)}`}function mediaType(item){return item?.type==='SHOW'?'SHOW':'MOVIE'}
+function readKey(key){try{return JSON.parse(localStorage.getItem(key)||'[]')}catch{return[]}}function updateWatchedCounts(){const el=document.getElementById('watchedCounts');if(!el)return;const items=readKey(WATCHED_KEY);const movies=items.filter(x=>mediaType(x)==='MOVIE').length;const shows=items.filter(x=>mediaType(x)==='SHOW').length;el.textContent=`MOVIES ${movies} | SHOWS ${shows}`;}function writeKey(key,v){localStorage.setItem(key,JSON.stringify(v))}function youtube(title){return `https://www.youtube.com/results?search_query=${encodeURIComponent(`${title||''} trailer`)}`}function mediaType(item){return item?.type==='SHOW'?'SHOW':'MOVIE'}
 function restore(item){const list=readKey(WATCHLIST_KEY);if(!list.some(x=>x.id===item.id))list.push({...item,addedAt:new Date().toISOString()});writeKey(WATCHLIST_KEY,list);writeKey(WATCHED_KEY,readKey(WATCHED_KEY).filter(x=>x.id!==item.id));render()}
 function permanentlyRemove(item){writeKey(WATCHED_KEY,readKey(WATCHED_KEY).filter(x=>x.id!==item.id));render()}
 function trashIcon(){return '<svg class="trash-icon" viewBox="0 0 64 64" aria-hidden="true"><path d="M20 20h24l-2 34H22L20 20Z" fill="currentColor"/><path d="M16 15h32v7H16zM25 8h14l3 7H22l3-7Z" fill="currentColor"/><path d="M28 28v18M36 28v18" stroke="#eef0fb" stroke-width="4" stroke-linecap="round"/></svg>'}
@@ -22,7 +16,7 @@ function initWatchedDoubleTap(){const target=document.querySelector('.chart-wrap
 function initWatchedEdgeBack(){let sx=0,sy=0,tracking=false,edge='';const EDGE=24,THRESHOLD=58;window.addEventListener('touchstart',e=>{if(e.touches.length!==1)return;const t=e.touches[0],w=innerWidth,h=innerHeight;edge=t.clientX<=EDGE?'left':t.clientX>=w-EDGE?'right':t.clientY<=EDGE?'top':t.clientY>=h-EDGE?'bottom':'';if(!edge)return;sx=t.clientX;sy=t.clientY;tracking=true},{passive:true});window.addEventListener('touchmove',e=>{if(!tracking||e.touches.length!==1)return;const t=e.touches[0],dx=t.clientX-sx,dy=t.clientY-sy;const deliberate=edge==='left'?dx>12:edge==='right'?dx<-12:edge==='top'?dy>12:dy<-12;if(deliberate)e.preventDefault()},{passive:false});window.addEventListener('touchend',e=>{if(!tracking||e.changedTouches.length!==1){tracking=false;return}const t=e.changedTouches[0],dx=t.clientX-sx,dy=t.clientY-sy;tracking=false;const go=edge==='left'?dx>=THRESHOLD:edge==='right'?dx<=-THRESHOLD:edge==='top'?dy>=THRESHOLD:dy<=-THRESHOLD;if(go)location.href='my-list.html'},{passive:true});window.addEventListener('touchcancel',()=>{tracking=false},{passive:true})}
 initWatchedDoubleTap();initWatchedEdgeBack();
 
-// v5.3.31 — after four quiet seconds, alternate the two selector icons every four seconds.
+// v5.3.32 — after four quiet seconds, alternate the two selector icons every four seconds.
 function initIdleGestureHint(){
   const selector=document.querySelector('.segmented');
   if(!selector||window.matchMedia('(prefers-reduced-motion: reduce)').matches)return;
@@ -42,7 +36,7 @@ function initIdleGestureHint(){
 }
 initIdleGestureHint();
 
-// v5.3.31 — aggressively adopt new PWA releases without an update popup.
+// v5.3.32 — aggressively adopt new PWA releases without an update popup.
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', async () => {
     try {
@@ -60,7 +54,7 @@ if ('serviceWorker' in navigator) {
 function initWozzaMenu(){const trigger=document.querySelector('.header-copy'),menu=document.querySelector('#wozzaMenu'),backdrop=document.querySelector('#wozzaMenuBackdrop');if(!trigger||!menu||!backdrop)return;trigger.setAttribute('role','button');trigger.setAttribute('tabindex','0');trigger.setAttribute('aria-haspopup','menu');trigger.setAttribute('aria-expanded','false');const open=()=>{backdrop.hidden=false;menu.classList.add('open');menu.setAttribute('aria-hidden','false');trigger.setAttribute('aria-expanded','true')};const close=()=>{menu.classList.remove('open');menu.setAttribute('aria-hidden','true');trigger.setAttribute('aria-expanded','false');setTimeout(()=>{if(!menu.classList.contains('open'))backdrop.hidden=true},180)};const toggle=()=>menu.classList.contains('open')?close():open();trigger.addEventListener('click',toggle);trigger.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();toggle()}});backdrop.addEventListener('click',close);document.addEventListener('keydown',e=>{if(e.key==='Escape')close()});menu.querySelectorAll('.prototype-item').forEach(button=>button.addEventListener('click',()=>{button.classList.remove('prototype-pulse');void button.offsetWidth;button.classList.add('prototype-pulse')}))}initWozzaMenu();
 
 
-// v5.3.31 — Ranked All Wozzas menu. Hold + drag; top three become header navigation.
+// v5.3.32 — Ranked All Wozzas menu. Hold + drag; top three become header navigation.
 const WOZZA_ORDER_KEY='wozzawatch-nav-order-v1';
 const WOZZA_META={
  watch:{label:'WozzaWatch',href:'index.html',icon:'icon.svg'},
@@ -144,7 +138,7 @@ function initWozzaRankDrag(){
 renderWozzaMenuOrder();initWozzaRankDrag();
 
 
-// v5.3.31 — Android-safe ranked menu.
+// v5.3.32 — Android-safe ranked menu.
 // Quick tap navigates; hold+drag reorders. Native long-press link/image menus are suppressed.
 function hardenWozzaMenuRows(){
   const list=document.getElementById('wozzaMenuList'); if(!list)return;
@@ -181,7 +175,7 @@ function hardenWozzaMenuRows(){
 }
 hardenWozzaMenuRows();
 
-/* v5.3.31 — close All Wozzas from footer back button */
+/* v5.3.32 — close All Wozzas from footer back button */
 document.addEventListener('click',e=>{
   const b=e.target.closest?.('.wozza-menu-back');
   if(!b)return;
@@ -189,12 +183,3 @@ document.addEventListener('click',e=>{
   document.querySelector('.header-copy')?.click();
 });
 
-function updateWatchedHeaderCounts(){
-  const el=document.getElementById('watchedCounts'); if(!el)return;
-  let rows=[]; try{rows=JSON.parse(localStorage.getItem('wozzawatch-watched-v1')||'[]')}catch{}
-  const movies=rows.filter(x=>String(x.type||x.mediaType||'').toUpperCase().includes('MOVIE')).length;
-  const shows=rows.length-movies; el.textContent=`MOVIES ${movies} | SHOWS ${shows}`;
-}
-window.addEventListener('storage',updateWatchedHeaderCounts);
-document.addEventListener('click',()=>setTimeout(updateWatchedHeaderCounts,0));
-updateWatchedHeaderCounts();
