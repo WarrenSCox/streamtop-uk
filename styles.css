@@ -638,3 +638,43 @@ html,body,body *{-webkit-user-select:none;user-select:none;-webkit-touch-callout
 @media(max-width:560px){
   .read-page .read-cover{width:52px;height:70px}
 }
+
+
+/* v6.0.2 WozzaRead pairing, artwork and linked-cover fixes */
+.read-page .read-cover-link{
+  display:grid;
+  place-items:center;
+  width:58px;
+  height:78px;
+  justify-self:center;
+  align-self:center;
+  border-radius:9px;
+  text-decoration:none;
+  overflow:hidden;
+  background:#eef1f7;
+}
+.read-page .read-cover-link .read-cover{
+  width:100%;
+  height:100%;
+  max-width:100%;
+  max-height:100%;
+  object-fit:contain;
+  object-position:center;
+  background:transparent;
+  border-radius:8px;
+}
+.read-page.read-audio-mode .read-cover-link{
+  width:58px;
+  height:58px;
+}
+.read-page.read-audio-mode .read-cover-link .read-cover{
+  object-fit:cover;
+  aspect-ratio:1/1;
+}
+.read-page .read-cover-fallback{width:100%!important;height:100%!important}
+.read-page .read-audio-icon{width:46px!important;height:46px!important}
+@media(max-width:560px){
+  .read-page .read-cover-link{width:52px;height:70px}
+  .read-page.read-audio-mode .read-cover-link{width:52px;height:52px}
+  .read-page .read-audio-icon{width:43px!important;height:43px!important}
+}

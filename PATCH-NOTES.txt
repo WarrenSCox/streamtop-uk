@@ -1,7 +1,9 @@
-WozzaWatch v6.0.1 — WozzaRead cover/icon hotfix
+WozzaWatch v6.0.2 — WozzaRead pairing + cover hotfix
 
-- Fixes Books cover/title pairing by re-fetching the cover from each book's own product page instead of trusting the chart-page image position.
-- Improves Audible cover extraction by preferring literal cover-art/product images over promotional/social artwork.
-- Centres and contains audiobook/book cover artwork consistently in the compact WozzaWatch-style rows.
-- Replaces the audiobook tab icon with the approved retro wired-earbuds design. The icon is inline SVG, so it has a true transparent background.
-- Keeps existing Books/Audiobooks tap, double-tap and swipe navigation.
+- Books: artwork is now accepted only when the image alt text matches the exact chart title on that book's own LoveReading product page. Wrong artwork is rejected rather than displayed.
+- Audiobooks: artwork is now accepted only from the exact Audible product image labelled for that title's cover art.
+- Audiobook artwork uses a square frame so Audible's square cover art is no longer stretched/cropped into a portrait slot.
+- Audiobook selector icon keeps the approved wired-earbud look, but separates the buds and raises the right bud slightly.
+- Tapping a Book cover opens an Amazon UK search for that exact title.
+- Tapping an Audiobook cover opens a Spotify search for that exact title.
+- Existing tap, double-tap and swipe Books/Audiobooks navigation is retained.
