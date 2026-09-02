@@ -5,7 +5,7 @@
 <meta name="theme-color" content="#9AB2D4"><meta name="description" content="WozzaRead — the UK overall Top 10 books and audiobooks.">
 <link rel="icon" href="read-icon.png"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css?v=6.0.0"><title>WozzaRead</title><meta name="build" content="6.0.0">
+<link rel="stylesheet" href="styles.css?v=6.0.1"><title>WozzaRead</title><meta name="build" content="6.0.1">
 </head><body class="read-page">
 <header class="topbar">
  <div class="brand-cluster"><div class="brand read-brand"><img src="read-icon.png" alt="" class="brand-icon"><h1>WOZZA<span>READ</span></h1></div>
@@ -29,11 +29,17 @@
    <svg class="media-icon read-book-icon" viewBox="0 0 64 64" aria-hidden="true"><path d="M10 13c8-3 15-2 22 3v36c-7-5-14-6-22-3V13Z" fill="currentColor"/><path d="M54 13c-8-3-15-2-22 3v36c7-5 14-6 22-3V13Z" fill="currentColor"/><path d="M32 16v36" fill="none" stroke="#eef0fb" stroke-width="3"/><path d="M15 20c5-1 9 0 13 2M15 27c5-1 9 0 13 2" fill="none" stroke="#eef0fb" stroke-width="2.5" stroke-linecap="round"/></svg>
   </button>
   <button type="button" class="read-tab" data-read-type="AUDIOBOOKS" aria-label="Audiobooks" title="Audiobooks">
-   <svg class="media-icon read-audio-icon" viewBox="0 0 64 64" aria-hidden="true"><path d="M14 34v-5c0-12 8-21 18-21s18 9 18 21v5" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round"/><rect x="9" y="31" width="12" height="22" rx="5" fill="currentColor"/><rect x="43" y="31" width="12" height="22" rx="5" fill="currentColor"/><path d="M21 48c4 4 18 4 22 0" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round"/></svg>
+   <svg class="media-icon read-audio-icon" viewBox="0 0 64 64" aria-hidden="true">
+    <g fill="currentColor">
+      <path d="M11 13c0-4 3-7 7-7h8c4 0 7 3 7 7v4c0 4-3 7-7 7h-4v5h-5v-6c-4-1-6-4-6-8v-2Zm9-2c-2 0-4 2-4 4v2h11v-4c0-1-1-2-3-2h-4Z"/>
+      <path d="M53 13c0-4-3-7-7-7h-8c-4 0-7 3-7 7v4c0 4 3 7 7 7h4v5h5v-6c4-1 6-4 6-8v-2Zm-9-2c2 0 4 2 4 4v2H37v-4c0-1 1-2 3-2h4Z"/>
+    </g>
+    <path d="M19 28c0 7 4 12 11 16 7 4 10 7 10 12 0 3-1 5-3 7M45 28c0 6-3 11-9 15" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+   </svg>
   </button>
  </div>
 </section>
 <section class="chart-wrap read-chart-wrap"><div class="chart-heading read-chart-heading"><h2 id="readTitle">UK TOP 10 BOOKS</h2></div>
 <ol id="readChart" class="chart read-chart"></ol><div id="readError" class="error-box hidden"><strong>Chart unavailable</strong><p>The last verified chart will stay in place until a complete Top 10 can be confirmed.</p></div></section>
-</main><footer><p>App created by Warren · v6.0.0</p></footer><script src="read.js?v=6.0.0" defer></script>
+</main><footer><p>App created by Warren · v6.0.1</p></footer><script src="read.js?v=6.0.1" defer></script>
 </body></html>

@@ -619,3 +619,22 @@ html,body,body *{-webkit-user-select:none;user-select:none;-webkit-touch-callout
 .read-page .read-copy small{font-size:11px;font-weight:700;color:var(--muted)}
 .read-page .read-copy em{display:none!important}
 @media(max-width:560px){.read-page .read-controls{margin-top:10px}.read-page .read-segmented{min-height:64px}.read-page .read-chart-heading{padding:17px 14px 13px}.read-page .read-chart-heading h2{font-size:clamp(21px,6vw,29px)}.read-page .read-row{grid-template-columns:38px 52px minmax(0,1fr);gap:9px;min-height:78px;padding:10px 14px 10px 10px}.read-page .read-row .rank{font-size:24px}.read-page .read-cover{width:52px}.read-page .read-copy strong{font-size:14px}.read-page .read-copy small{font-size:10px}}
+
+
+/* v6.0.1 WozzaRead cover + icon CR fixes */
+.read-page .read-cover{
+  display:block;
+  width:58px;
+  height:78px;
+  aspect-ratio:auto;
+  object-fit:contain;
+  object-position:50% 50%;
+  justify-self:center;
+  align-self:center;
+  background:#eef1f7;
+}
+.read-page .read-row{align-items:center}
+.read-page .read-audio-icon{overflow:visible}
+@media(max-width:560px){
+  .read-page .read-cover{width:52px;height:70px}
+}

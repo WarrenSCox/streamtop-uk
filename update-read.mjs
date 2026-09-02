@@ -3,7 +3,7 @@ import fs from 'node:fs/promises';
 const BOOKS_URL='https://www.lovereading.co.uk/genres/lrt10/uk-top-10-books';
 const AUDIO_URL='https://www.audible.co.uk/charts/best';
 const headers={
-  'User-Agent':'Mozilla/5.0 (compatible; WozzaRead/6.0.0; +https://github.com/)',
+  'User-Agent':'Mozilla/5.0 (compatible; WozzaRead/6.0.1; +https://github.com/)',
   'Accept':'text/html,application/xhtml+xml'
 };
 
@@ -46,12 +46,37 @@ function metaImage(src,base){
   for(const p of patterns){const m=src.match(p);if(m?.[1])return absolute(m[1].replace(/&amp;/g,'&'),base)}
   return bestImg(src,base);
 }
+
+function productCover(src,base){
+  // Prefer a literal cover-art/product image over social/promotional artwork.
+  const tags=[...String(src||'').matchAll(/<img\b[^>]*>/gi)].map(m=>m[0]);
+  const scored=[];
+  for(const tag of tags){
+    const alt=decode(attr(tag,'alt')).toLowerCase();
+    const cls=(attr(tag,'class')||'').toLowerCase();
+    let u=attr(tag,'data-src')||attr(tag,'data-lazy-src')||attr(tag,'src');
+    const ss=attr(tag,'srcset')||attr(tag,'data-srcset');
+    if(ss){
+      const candidate=ss.split(',').map(x=>x.trim().split(/\s+/)[0]).filter(Boolean).pop();
+      if(candidate) u=candidate;
+    }
+    if(!u||/^data:/i.test(u)) continue;
+    let score=0;
+    if(/cover art|book cover|cover image/.test(alt)) score+=100;
+    if(/bc-pub-block|product-image|cover|adbl-product/.test(cls)) score+=45;
+    if(/m\.media-amazon\.com/.test(u)) score+=20;
+    if(/audible|logo|icon|sprite|hero|background/.test(alt+' '+u)) score-=35;
+    scored.push({score,url:absolute(u.replace(/&amp;/g,'&'),base)});
+  }
+  scored.sort((a,b)=>b.score-a.score);
+  return scored[0]?.score>0?scored[0].url:(metaImage(src,base)||'');
+}
 async function enrichImages(rows,base,force=false){
   return Promise.all(rows.map(async row=>{
     if((row.image&&!force)||!row.url) return row;
     try{
       const page=await html(row.url);
-      return {...row,image:metaImage(page,row.url)};
+      return {...row,image:productCover(page,row.url)};
     }catch(e){
       console.warn(`cover lookup failed for ${row.title}: ${e.message}`);
       return row;
@@ -123,7 +148,7 @@ for(const [key,url,parser] of [['BOOKS',BOOKS_URL,booksFromHtml],['AUDIOBOOKS',A
   try{
     let rows=parser(await html(url));
     if(rows.length!==10||rows.some(x=>!x.title)) throw Error(`expected exactly 10 ranked titles, got ${rows.length}`);
-    rows=await enrichImages(rows,url,key==='AUDIOBOOKS');
+    rows=await enrichImages(rows,url,true);
     rows=rows.map(({url:_,...x})=>x);
     next.charts[key]=rows;
     changed=true;

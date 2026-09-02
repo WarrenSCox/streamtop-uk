@@ -1,12 +1,7 @@
-WozzaWatch v6.0.0
+WozzaWatch v6.0.1 — WozzaRead cover/icon hotfix
 
-WOZZAREAD CR RELEASE
-- WozzaRead now mirrors the compact WozzaWatch chart sizing.
-- Replaces large Books/Audiobooks tabs with WozzaWatch-style two-icon segmented control.
-- Book icon selects Books; headphones icon selects Audiobooks.
-- Swipe left/right on the WozzaRead chart switches Books <-> Audiobooks.
-- Double-tap the chart switches Books <-> Audiobooks.
-- Narrator names removed from audiobook rows; author remains.
-- Audible cover lookup now prefers the individual Audible product page metadata to avoid promotional/composite chart artwork.
-- Existing verified Top 10 fail-safe remains intact.
-- Release renamed to v6.0.0.
+- Fixes Books cover/title pairing by re-fetching the cover from each book's own product page instead of trusting the chart-page image position.
+- Improves Audible cover extraction by preferring literal cover-art/product images over promotional/social artwork.
+- Centres and contains audiobook/book cover artwork consistently in the compact WozzaWatch-style rows.
+- Replaces the audiobook tab icon with the approved retro wired-earbuds design. The icon is inline SVG, so it has a true transparent background.
+- Keeps existing Books/Audiobooks tap, double-tap and swipe navigation.
