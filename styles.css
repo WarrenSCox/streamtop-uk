@@ -123,7 +123,7 @@ footer{width:min(760px,100%);margin:0 auto;padding:0 20px max(24px,env(safe-area
 @media(prefers-reduced-motion:reduce){.segmented.idle-hint-first .clapper-top,.segmented.idle-hint-second button[data-type="SHOW"] .remote-icon,.tune-page .segmented.idle-hint-first button[data-type="SINGLE"] img,.tune-page .segmented.idle-hint-second button[data-type="ALBUM"] img{animation:none!important}}
 
 
-/* v5.3.20 — Watchlist hold-drag priority + nervous Watched eyes */
+/* v5.3.21 — Watchlist hold-drag priority + nervous Watched eyes */
 .my-list-page .chart-item{grid-template-columns:46px 58px minmax(0,1fr) 44px;touch-action:pan-y;transition:transform .14s ease,box-shadow .14s ease,background .14s ease}
 .my-list-page .chart-item.hold-dragging{z-index:15;transform:scale(1.018);background:#fffdf8;box-shadow:0 12px 28px rgba(23,33,61,.20);border-radius:12px}
 body.watchlist-reordering{overscroll-behavior:none}
@@ -136,9 +136,34 @@ body.watchlist-reordering{overscroll-behavior:none}
 @media(prefers-reduced-motion:reduce){.pile-eye-pair.nervous-glance .watch-pupil{animation:none!important}}
 
 
-/* v5.3.20 — app-wide text selection suppression + randomized Watched eye idle animation */
+/* v5.3.21 — app-wide text selection suppression + randomized Watched eye idle animation */
 html,body,body *{-webkit-user-select:none;user-select:none;-webkit-touch-callout:none}
 .pile-eye-pair.random-blink .watch-eye{animation:pile-random-blink .72s ease-in-out}
 .pile-eye-pair.random-blink .watch-eye:nth-child(2){animation-delay:.035s}
 @keyframes pile-random-blink{0%,18%,42%,100%{transform:scaleY(1)}28%,32%{transform:scaleY(.08)}}
 @media(prefers-reduced-motion:reduce){.pile-eye-pair.random-blink .watch-eye{animation:none!important}}
+
+
+/* v5.3.21 — minimal Watched rows + slower Looney-Tunes-style eye pile */
+.watched-page .watched-intro{margin-bottom:12px}
+.watched-page .chart-item .item-info{align-self:center;display:flex;align-items:center}
+.watched-page .chart-item .title{margin:0}
+
+.pile-eye-pair.nervous-glance .watch-eye:first-child .watch-pupil{animation:pile-nervous-look-slow 1.45s ease-in-out}
+.pile-eye-pair.nervous-glance .watch-eye:nth-child(2) .watch-pupil{animation:pile-nervous-look-slow 1.45s ease-in-out .06s}
+@keyframes pile-nervous-look-slow{0%,100%{transform:translate(-2px,1px) scale(.82)}22%{transform:translate(-5px,1px) scale(.82)}50%{transform:translate(3px,1px) scale(.82)}76%{transform:translate(-4px,1px) scale(.82)}}
+
+.pile-eye-pair.random-blink .watch-eye{animation:pile-double-blink 1.38s ease-in-out}
+.pile-eye-pair.random-blink .watch-eye:nth-child(2){animation-delay:.025s}
+@keyframes pile-double-blink{
+  0%,34%,45%,79%,100%{transform:scaleY(1)}
+  17%,25%,62%,70%{transform:scaleY(.08)}
+}
+
+.pile-eye-pair.eye-pop{animation:pile-eye-pop-pair 1.28s cubic-bezier(.2,.9,.25,1)}
+.pile-eye-pair.eye-pop .watch-eye{animation:pile-eye-pop-eye 1.28s cubic-bezier(.2,.9,.25,1)}
+.pile-eye-pair.eye-pop .watch-pupil{animation:pile-eye-pop-pupil 1.28s cubic-bezier(.2,.9,.25,1)}
+@keyframes pile-eye-pop-pair{0%,100%{z-index:1}18%,72%{z-index:10}}
+@keyframes pile-eye-pop-eye{0%,100%{transform:scale(1)}22%{transform:scale(1.34)}44%{transform:scale(1.24)}66%{transform:scale(1.38)}82%{transform:scale(.94)}}
+@keyframes pile-eye-pop-pupil{0%,100%{transform:translate(-2px,1px) scale(.82)}22%{transform:translate(-2px,1px) scale(1.06)}66%{transform:translate(-2px,1px) scale(1.12)}82%{transform:translate(-2px,1px) scale(.78)}}
+@media(prefers-reduced-motion:reduce){.pile-eye-pair.nervous-glance .watch-pupil,.pile-eye-pair.random-blink .watch-eye,.pile-eye-pair.eye-pop,.pile-eye-pair.eye-pop .watch-eye,.pile-eye-pair.eye-pop .watch-pupil{animation:none!important}}

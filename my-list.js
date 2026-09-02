@@ -1,6 +1,6 @@
 const WATCHLIST_KEY='wozzawatch-my-list-v1';
 const WATCHED_KEY='wozzawatch-watched-v1';
-const listEl=document.querySelector('#myList'), emptyEl=document.querySelector('#emptyList'), chartTitle=document.querySelector('#chartTitle'), pileButton=document.querySelector('#watchedPile'), pileEyes=document.querySelector('#watchedPileEyes'), pileCount=document.querySelector('#watchedPileCount'), undoToast=document.querySelector('#undoToast'), undoButton=document.querySelector('#undoButton');
+const listEl=document.querySelector('#myList'), emptyEl=document.querySelector('#emptyList'), chartTitle=document.querySelector('#chartTitle'), watchlistCounts=document.querySelector('#watchlistCounts'), pileButton=document.querySelector('#watchedPile'), pileEyes=document.querySelector('#watchedPileEyes'), pileCount=document.querySelector('#watchedPileCount'), undoToast=document.querySelector('#undoToast'), undoButton=document.querySelector('#undoButton');
 let currentType='MOVIE', undoTimer=null, lastRemoved=null, nervousTimer=null, lastNervousIndex=-1;
 function readKey(key){try{return JSON.parse(localStorage.getItem(key)||'[]')}catch{return[]}}
 function writeKey(key,v){localStorage.setItem(key,JSON.stringify(v))}
@@ -21,9 +21,10 @@ function scheduleNervousPile(){
   let idx=Math.floor(Math.random()*pairs.length);
   if(pairs.length>1&&idx===lastNervousIndex)idx=(idx+1+Math.floor(Math.random()*(pairs.length-1)))%pairs.length;
   lastNervousIndex=idx;const pair=pairs[idx];
-  const animation=Math.random()<.5?'nervous-glance':'random-blink';
-  pair.classList.remove('nervous-glance','random-blink');void pair.offsetWidth;pair.classList.add(animation);
-  setTimeout(()=>pair.classList.remove(animation),1050);
+  const animations=['nervous-glance','random-blink','eye-pop'];
+  const animation=animations[Math.floor(Math.random()*animations.length)];
+  pair.classList.remove(...animations);void pair.offsetWidth;pair.classList.add(animation);
+  setTimeout(()=>pair.classList.remove(animation),1650);
   scheduleNervousPile();
  },4000);
 }
@@ -78,7 +79,7 @@ function enableHoldDrag(li){
    active=false;
    li.classList.remove('hold-dragging');
    document.body.classList.remove('watchlist-reordering');
-   window.__watchlistRowDrag=false;
+   window.__watchlistRowDrag=false;window.__watchlistLastDragAt=Date.now();
    if(save){persistVisibleOrder();updateVisibleRanks()}
    if(navigator.vibrate)navigator.vibrate(10);
   }
@@ -115,7 +116,7 @@ function enableHoldDrag(li){
  li.addEventListener('touchcancel',()=>endDrag(active),{passive:true});
 }
 function render(){
- const all=readList();const items=all.filter(item=>mediaType(item)===currentType);listEl.innerHTML='';chartTitle.textContent=currentType==='SHOW'?'WATCHLIST TV SHOWS':'WATCHLIST MOVIES';emptyEl.classList.toggle('hidden',items.length>0);emptyEl.querySelector('strong').textContent=currentType==='SHOW'?'No TV shows yet 👀':'No movies yet 👀';emptyEl.querySelector('p').innerHTML=`Add titles to your list from the chart pages by clicking the <span class="instruction-eyes">${eyes()}</span>`;
+ const all=readList();const movieCount=all.filter(item=>mediaType(item)==='MOVIE').length,showCount=all.filter(item=>mediaType(item)==='SHOW').length;if(watchlistCounts)watchlistCounts.textContent=`MOVIES ${movieCount} | SHOWS ${showCount}`;const items=all.filter(item=>mediaType(item)===currentType);listEl.innerHTML='';chartTitle.textContent=currentType==='SHOW'?'WATCHLIST TV SHOWS':'WATCHLIST MOVIES';emptyEl.classList.toggle('hidden',items.length>0);emptyEl.querySelector('strong').textContent=currentType==='SHOW'?'No TV shows yet 👀':'No movies yet 👀';emptyEl.querySelector('p').innerHTML=`Add titles to your list from the chart pages by clicking the <span class="instruction-eyes">${eyes()}</span>`;
  items.forEach((item,i)=>{
   const li=document.createElement('li');li.className=`chart-item accent-${i%4}`;const rank=document.createElement('div');rank.className='rank';rank.textContent=String(i+1).padStart(2,'0');
   const a=document.createElement('a');a.className='poster-link';a.href=youtube(item.title);a.target='_blank';a.rel='noopener';a.setAttribute('aria-label',`${item.title} — search YouTube for trailer`);if(item.poster){const img=document.createElement('img');img.className='poster';img.alt='';img.src=item.poster;img.loading='lazy';a.append(img)}else{const ph=document.createElement('div');ph.className='poster poster-placeholder';ph.textContent='▶';a.append(ph)}
@@ -125,12 +126,25 @@ function render(){
  });renderPile();
 }
 document.querySelectorAll('.my-list-controls .segmented button').forEach(button=>button.addEventListener('click',()=>{currentType=button.dataset.type;document.querySelectorAll('.my-list-controls .segmented button').forEach(b=>b.classList.toggle('active',b===button));render()}));
+function setWatchlistType(type){currentType=type;document.querySelectorAll('.my-list-controls .segmented button').forEach(b=>b.classList.toggle('active',b.dataset.type===type));const wrap=document.querySelector('.chart-wrap');if(wrap&&!window.matchMedia('(prefers-reduced-motion: reduce)').matches){wrap.classList.remove('chart-toggle');void wrap.offsetWidth;wrap.classList.add('chart-toggle');setTimeout(()=>wrap.classList.remove('chart-toggle'),260)}render()}
+function toggleWatchlistType(){setWatchlistType(currentType==='MOVIE'?'SHOW':'MOVIE')}
+function initWatchlistDoubleTap(){
+ const target=document.querySelector('.chart-wrap');if(!target)return;let lastTapAt=0,lastTapX=0,lastTapY=0;
+ target.addEventListener('touchend',e=>{
+  if(e.changedTouches.length!==1||e.target.closest?.('a,button')||window.__watchlistRowDrag||Date.now()-(window.__watchlistLastDragAt||0)<500)return;
+  const t=e.changedTouches[0],now=Date.now();
+  if(lastTapAt&&now-lastTapAt<340&&Math.hypot(t.clientX-lastTapX,t.clientY-lastTapY)<28){lastTapAt=0;e.preventDefault();toggleWatchlistType();return}
+  lastTapAt=now;lastTapX=t.clientX;lastTapY=t.clientY;
+ },{passive:false});
+ target.addEventListener('dblclick',e=>{if(!e.target.closest('a,button')&&Date.now()-(window.__watchlistLastDragAt||0)>=500)toggleWatchlistType()});
+}
+initWatchlistDoubleTap();
 undoButton.addEventListener('click',()=>{if(!lastRemoved)return;const item=lastRemoved;const list=readList();if(!list.some(x=>x.id===item.id)){list.push({...item,addedAt:item.addedAt||new Date().toISOString()});writeList(list)}writeWatched(readWatched().filter(x=>x.id!==item.id));lastRemoved=null;clearTimeout(undoTimer);undoToast.classList.add('hidden');render()});
 render();
 document.addEventListener('visibilitychange',()=>{if(document.hidden)stopNervousPile();else scheduleNervousPile()});
 
 
-// v5.3.20: when already at the top, a deliberate downward pull switches
+// v5.3.21: when already at the top, a deliberate downward pull switches
 // WozzaWatch → WozzaTune → Watchlist → WozzaWatch instead of native refresh.
 function initTopPullSwitch(nextUrl,nextLabel){
   let startY=0,pulling=false,distance=0;
@@ -159,7 +173,7 @@ function initTopPullSwitch(nextUrl,nextLabel){
 initTopPullSwitch('index.html','WozzaWatch');
 
 
-// v5.3.20: at the bottom, a deliberate upward flick switches backwards
+// v5.3.21: at the bottom, a deliberate upward flick switches backwards
 // through Watch ← Tune ← List. No popup/"Opening" message.
 function initBottomFlickSwitch(prevUrl){
   let startY=0,tracking=false,distance=0; const threshold=82;
@@ -171,7 +185,7 @@ function initBottomFlickSwitch(prevUrl){
 }
 initBottomFlickSwitch('tune.html');
 
-// v5.3.20 — after four quiet seconds, alternate the two selector icons every four seconds.
+// v5.3.21 — after four quiet seconds, alternate the two selector icons every four seconds.
 function initIdleGestureHint(){
   const selector=document.querySelector('.segmented');
   if(!selector||window.matchMedia('(prefers-reduced-motion: reduce)').matches)return;
@@ -191,7 +205,7 @@ function initIdleGestureHint(){
 }
 initIdleGestureHint();
 
-// v5.3.20 — aggressively adopt new PWA releases without an update popup.
+// v5.3.21 — aggressively adopt new PWA releases without an update popup.
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', async () => {
     try {
