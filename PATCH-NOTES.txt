@@ -1,8 +1,16 @@
-WozzaWatch v5.3.41 — WozzaNews CR fixes
+WozzaWatch v5.3.42 — WozzaRead + News/Menu CRs
 
-- Sky News / The Guardian / Metro forced into one single horizontal row.
-- Provider selector keeps the full width aligned with the newsfeed card.
-- Metro category handling tightened so generic fallback stories are classified by topic before appearing in Tech, Entertainment, Business, Politics or World.
-- Paper-aeroplane + contrail flourish restored in the LATEST [CATEGORY] header.
-- Animation runs on a ~4 second loop and respects reduced-motion preferences.
-- Cache/build version bumped so installed copies pick up the corrected CSS.
+NEW: WozzaRead
+- Adds read.html with two UK-only overall charts: BOOKS and AUDIOBOOKS.
+- Books updater uses LoveReading's public Official UK Top 10 (trade-sales chart).
+- Audiobooks updater uses Audible UK Best-selling / All categories.
+- update-read.mjs refuses partial/uncertain results: exactly 10 ranked titles are required; otherwise the previous verified chart is retained.
+- All Wozzas menu now links to WozzaRead.
+
+CR FIXES
+- All Wozzas menu is centred in the viewport from both access methods.
+- WozzaNews paper plane is horizontally flipped.
+- Metro categorisation tightened further and now includes RSS category metadata in classification; overly broad tech matches removed.
+
+DATA NOTE
+- Add update-read.mjs to the same scheduled GitHub Actions refresh pattern as update-news.mjs and commit read.json after a successful run.

@@ -51,13 +51,13 @@ function media(xml){
 }
 
 function metroCategoryMatches(cat,row){
- const hay=`${row.title||""} ${row.link||""}`.toLowerCase();
+ const hay=`${row.title||""} ${row.link||""} ${row.categories||""}`.toLowerCase();
  const has=(words)=>words.some(w=>hay.includes(w));
  const rules={
   TECH:[
    "technology","/tech/"," tech ","artificial intelligence"," ai ","chatgpt","gemini","claude",
-   "iphone","android","smartphone","phone","apple","google","microsoft","samsung","gadget",
-   "software","cyber","internet","whatsapp","instagram","tiktok","social media","gaming",
+   "iphone","android","smartphone"," apple "," google ","microsoft","samsung","gadget",
+   "software","cybersecurity","cyber attack","internet","whatsapp","instagram","tiktok","social media","gaming",
    "playstation","xbox","nintendo","computer","laptop","robot"
   ],
   ENTERTAINMENT:[
@@ -122,6 +122,7 @@ async function buildProvider(name,feeds){
    link:tag(x,"link")||tag(x,"guid"),
    published:tag(x,"pubDate")||tag(x,"dc:date"),
    source:name==="SKY"?"Sky News":name==="GUARDIAN"?"The Guardian":"Metro",
+   categories:[...x.matchAll(/<category(?:\s[^>]*)?>([\s\S]*?)<\/category>/gi)].map(m=>cleanHeadline(m[1])).join(" "),
    image:media(x)
   })).filter(x=>{
    if(!x.title||!/^https?:\/\//i.test(x.link))return false;

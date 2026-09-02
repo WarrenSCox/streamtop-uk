@@ -600,8 +600,8 @@ const WOZZA_META={
  watch:{label:'WozzaWatch',href:'index.html',icon:'icon.svg'},
  tune:{label:'WozzaTune',href:'tune.html',icon:'tune-icon.svg'},
  list:{label:'Watchlist',href:'my-list.html',icon:'my-list-icon.svg'},
- read:{label:'WozzaRead',href:null,icon:'read-icon.svg'},
- news:{label:'WozzaNews',href:null,icon:'news-icon.svg'}
+ read:{label:'WozzaRead',href:'read.html',icon:'read-icon.png'},
+ news:{label:'WozzaNews',href:'news.html',icon:'news-icon.png'}
 };
 function getWozzaOrder(){
   const fallback=['watch','tune','list','read','news'];

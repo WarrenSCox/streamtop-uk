@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#9AB2D4"><meta name="description" content="WozzaRead — the UK overall Top 10 books and audiobooks.">
+<link rel="icon" href="read-icon.png"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css?v=5.3.42"><title>WozzaRead</title><meta name="build" content="5.3.42">
+</head><body class="read-page">
+<header class="topbar">
+ <div class="brand-cluster"><div class="brand read-brand"><img src="read-icon.png" alt="" class="brand-icon"><h1>WOZZA<span>READ</span></h1></div>
+ <a class="news-home-switch" href="index.html" aria-label="Back to WozzaWatch"><img src="news-back.svg" alt=""></a></div>
+ <div class="header-copy" aria-label="WozzaRead tagline and last update"><strong>ONE PLACE.<br>EVERY BESTSELLER.</strong><span id="readUpdated">Loading charts…</span></div>
+</header>
+<div class="wozza-menu-backdrop" id="wozzaMenuBackdrop" hidden></div>
+<aside class="wozza-menu" id="wozzaMenu" aria-hidden="true" aria-label="All Wozzas">
+ <div class="wozza-menu-title">ALL WOZZAS</div><div class="wozza-menu-list" id="wozzaMenuList">
+ <button type="button" class="wozza-menu-item" data-wozza="watch" data-href="index.html"><span class="wozza-menu-rank">01</span><img src="icon.svg" alt=""><span>WozzaWatch</span></button>
+ <button type="button" class="wozza-menu-item" data-wozza="tune" data-href="tune.html"><span class="wozza-menu-rank">02</span><img src="tune-icon.svg" alt=""><span>WozzaTune</span></button>
+ <button type="button" class="wozza-menu-item" data-wozza="list" data-href="my-list.html"><span class="wozza-menu-rank">03</span><img src="my-list-icon.svg" alt=""><span>Watchlist</span></button>
+ <button type="button" class="wozza-menu-item" data-wozza="read" data-href="read.html"><span class="wozza-menu-rank">04</span><img src="read-icon.png" alt=""><span>WozzaRead</span></button>
+ <button type="button" class="wozza-menu-item" data-wozza="news" data-href="news.html"><span class="wozza-menu-rank">05</span><img src="news-icon.png" alt=""><span>WozzaNews</span></button>
+ </div><button type="button" class="wozza-menu-back" aria-label="Close All Wozzas menu">← BACK</button>
+</aside>
+<main>
+<nav class="read-tabs" aria-label="Reading chart type">
+ <button type="button" class="read-tab active" data-read-type="BOOKS">BOOKS</button>
+ <button type="button" class="read-tab" data-read-type="AUDIOBOOKS">AUDIOBOOKS</button>
+</nav>
+<section class="chart-wrap read-chart-wrap"><div class="chart-heading read-chart-heading"><h2 id="readTitle">UK TOP 10 BOOKS</h2><a id="readSource" class="source-badge" target="_blank" rel="noopener">UK SALES</a></div>
+<ol id="readChart" class="chart read-chart"></ol><div id="readError" class="error-box hidden"><strong>Chart unavailable</strong><p>The last verified chart will stay in place until a complete Top 10 can be confirmed.</p></div></section>
+</main><footer><p>App created by Warren · v5.3.42</p></footer><script src="read.js?v=5.3.42" defer></script>
+</body></html>
