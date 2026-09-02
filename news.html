@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#9AB2D4"><meta name="description" content="WozzaNews — the latest UK and world headlines in one place.">
+<link rel="icon" href="news-icon.png"><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css?v=5.3.31"><title>WozzaNews</title><meta name="build" content="5.3.31">
+</head><body class="news-page">
+<header class="topbar">
+ <div class="brand-cluster"><div class="brand news-brand"><img src="news-icon.png" alt="" class="brand-icon"><h1>WOZZA<span>NEWS</span></h1></div>
+ <a class="news-home-switch" href="index.html" aria-label="Back to WozzaWatch" title="Back to WozzaWatch"><span>←</span></a></div>
+ <div class="header-copy" aria-label="WozzaNews tagline and last update"><strong>ONE PLACE.<br>EVERY HEADLINE.</strong><span id="newsUpdated">Loading news…</span></div>
+</header>
+<div class="wozza-menu-backdrop" id="wozzaMenuBackdrop" hidden></div>
+<aside class="wozza-menu" id="wozzaMenu" aria-hidden="true" aria-label="All Wozzas">
+ <div class="wozza-menu-title">ALL WOZZAS</div><div class="wozza-menu-list" id="wozzaMenuList">
+ <button type="button" class="wozza-menu-item" data-wozza="watch" data-href="index.html"><span class="wozza-menu-rank">01</span><img src="icon.svg" alt=""><span>WozzaWatch</span></button>
+ <button type="button" class="wozza-menu-item" data-wozza="tune" data-href="tune.html"><span class="wozza-menu-rank">02</span><img src="tune-icon.svg" alt=""><span>WozzaTune</span></button>
+ <button type="button" class="wozza-menu-item" data-wozza="list" data-href="my-list.html"><span class="wozza-menu-rank">03</span><img src="my-list-icon.svg" alt=""><span>Watchlist</span></button>
+ <button type="button" class="wozza-menu-item prototype-item" data-wozza="read"><span class="wozza-menu-rank">04</span><img src="read-icon.png" alt=""><span>WozzaRead</span></button>
+ <button type="button" class="wozza-menu-item" data-wozza="news" data-href="news.html"><span class="wozza-menu-rank">05</span><img src="news-icon.png" alt=""><span>WozzaNews</span></button>
+ </div><button type="button" class="wozza-menu-back" aria-label="Close All Wozzas menu">← BACK</button>
+</aside>
+<main>
+<nav id="newsTabs" class="service-tabs news-tabs" aria-label="News categories"></nav>
+<section class="chart-wrap news-chart-wrap"><div class="chart-heading"><h2 id="newsTitle">LATEST UK</h2><a id="newsSourceBadge" class="source-badge official" href="https://news.sky.com/info/rss" target="_blank" rel="noopener">SKY NEWS <span class="verified">✓</span></a></div>
+<ol id="newsChart" class="chart news-chart"></ol><div id="newsError" class="error-box hidden"><strong>News unavailable</strong><p>We'll try again on the next update.</p></div></section>
+</main><footer><p>App created by Warren · v5.3.31</p></footer><script src="news.js?v=5.3.31" defer></script>
+</body></html>
