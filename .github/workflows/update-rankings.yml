@@ -12,6 +12,7 @@ on:
     paths:
       - 'update-data.mjs'
       - 'update-news.mjs'
+      - 'update-read.mjs'
       - '.github/workflows/update-rankings.yml'
 
 permissions:
@@ -47,6 +48,9 @@ jobs:
 
       - name: Fetch Sky News RSS
         run: node update-news.mjs
+
+      - name: Fetch WozzaRead charts
+        run: node update-read.mjs
 
       - name: Save refreshed data
         run: |
