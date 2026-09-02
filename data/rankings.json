@@ -1,6 +1,6 @@
 {
   "version": 17,
-  "generatedAt": "2026-09-02T19:43:27.666Z",
+  "generatedAt": "2026-09-02T19:56:18.488Z",
   "country": "GB",
   "strategy": "Official source first; labelled fallback when no compatible official chart is available.",
   "services": {
@@ -395,18 +395,6 @@
         },
         {
           "rank": 6,
-          "sourceRank": 17,
-          "title": "Margin Call",
-          "year": 2011,
-          "poster": "/poster/241779763/s166/margin-call.webp",
-          "url": "https://www.justwatch.com/uk/movie/margin-call",
-          "trend": "UP",
-          "trendDifference": 17,
-          "daysInTop10": 8,
-          "topRank": 2
-        },
-        {
-          "rank": 7,
           "sourceRank": 18,
           "title": "Gladiator",
           "year": 2000,
@@ -418,7 +406,7 @@
           "topRank": 1
         },
         {
-          "rank": 8,
+          "rank": 7,
           "sourceRank": 19,
           "title": "When the Mist Clears",
           "year": 2022,
@@ -430,7 +418,7 @@
           "topRank": 15
         },
         {
-          "rank": 9,
+          "rank": 8,
           "sourceRank": 21,
           "title": "Good Boy",
           "year": 2026,
@@ -440,6 +428,18 @@
           "trendDifference": -5,
           "daysInTop10": 18,
           "topRank": 5
+        },
+        {
+          "rank": 9,
+          "sourceRank": 22,
+          "title": "The Godfather",
+          "year": 1972,
+          "poster": "/poster/202440770/s166/the-godfather.webp",
+          "url": "https://www.justwatch.com/uk/movie/the-godfather",
+          "trend": "UP",
+          "trendDifference": 16,
+          "daysInTop10": 4,
+          "topRank": 6
         },
         {
           "rank": 10,
@@ -1293,18 +1293,6 @@
         },
         {
           "rank": 7,
-          "sourceRank": 31,
-          "title": "Interstellar",
-          "year": 2014,
-          "poster": "/poster/302754241/s166/interstellar.webp",
-          "url": "https://www.justwatch.com/uk/movie/interstellar",
-          "trend": "UP",
-          "trendDifference": 13,
-          "daysInTop10": 121,
-          "topRank": 1
-        },
-        {
-          "rank": 8,
           "sourceRank": 43,
           "title": "Inception",
           "year": 2010,
@@ -1314,6 +1302,18 @@
           "trendDifference": 26,
           "daysInTop10": 19,
           "topRank": 2
+        },
+        {
+          "rank": 8,
+          "sourceRank": 46,
+          "title": "Interstellar",
+          "year": 2014,
+          "poster": "/poster/302754241/s166/interstellar.webp",
+          "url": "https://www.justwatch.com/uk/movie/interstellar",
+          "trend": "DOWN",
+          "trendDifference": -2,
+          "daysInTop10": 121,
+          "topRank": 1
         },
         {
           "rank": 9,
