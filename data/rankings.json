@@ -1,6 +1,6 @@
 {
   "version": 17,
-  "generatedAt": "2026-09-02T17:55:24.504Z",
+  "generatedAt": "2026-09-02T17:56:28.835Z",
   "country": "GB",
   "strategy": "Official source first; labelled fallback when no compatible official chart is available.",
   "services": {
@@ -890,7 +890,7 @@
           "rank": 3,
           "title": "Welcome to the Family: The Murder of Dan Markel",
           "year": 2026,
-          "type": "SHOW",
+          "type": null,
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/01a04a2a-5023-732a-b9c6-5af93b18a409/compose?format=webp&width=386&label=top_ranked_3_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-77fa109a-7f84-4e84-8a1c-f48cee4a5671"
         },
@@ -898,7 +898,7 @@
           "rank": 4,
           "title": "Adults",
           "year": 2025,
-          "type": null,
+          "type": "SHOW",
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/01a0594b-7386-7572-812d-1c2b3db67b2d/compose?format=webp&width=386&label=top_ranked_4_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-09794373-fbd3-44fb-9f3b-869a2e976094"
         },
@@ -906,7 +906,7 @@
           "rank": 5,
           "title": "The Killing of Claire Leveque",
           "year": 3000,
-          "type": null,
+          "type": "SHOW",
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/019f4158-199a-7427-974c-8dbedb19f39e/compose?format=webp&width=386&label=top_ranked_5_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-31e7af82-5341-43fe-baaa-72df8e7ca3b8"
         },
@@ -922,7 +922,7 @@
           "rank": 7,
           "title": "The Devil Wears Prada 2",
           "year": 2026,
-          "type": "MOVIE",
+          "type": null,
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/019fac2c-f245-7bf4-bd98-9b222eda6a9c/compose?format=webp&width=386&label=top_ranked_7_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-34bc6b99-813f-4d5d-bbe7-f3099b45879b"
         },
