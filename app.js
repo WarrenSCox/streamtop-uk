@@ -513,7 +513,7 @@ initProviderSwipe();
 loadData();
 
 
-// v5.3.22: when already at the top, a deliberate downward pull switches
+// v5.3.23: when already at the top, a deliberate downward pull switches
 // WozzaWatch → WozzaTune → Watchlist → WozzaWatch instead of native refresh.
 function initTopPullSwitch(nextUrl,nextLabel){
   let startY=0,pulling=false,distance=0;
@@ -542,7 +542,7 @@ function initTopPullSwitch(nextUrl,nextLabel){
 initTopPullSwitch('tune.html','WozzaTune');
 
 
-// v5.3.22: at the bottom, a deliberate upward flick switches backwards
+// v5.3.23: at the bottom, a deliberate upward flick switches backwards
 // through Watch ← Tune ← List. No popup/"Opening" message.
 function initBottomFlickSwitch(prevUrl){
   let startY=0,tracking=false,distance=0; const threshold=82;
@@ -556,7 +556,7 @@ initBottomFlickSwitch('my-list.html');
 
 
 
-// v5.3.22 — after four quiet seconds, alternate the two selector icons every four seconds.
+// v5.3.23 — after four quiet seconds, alternate the two selector icons every four seconds.
 function initIdleGestureHint(){
   const selector=document.querySelector('.segmented');
   if(!selector||window.matchMedia('(prefers-reduced-motion: reduce)').matches)return;
@@ -576,7 +576,7 @@ function initIdleGestureHint(){
 }
 initIdleGestureHint();
 
-// v5.3.22 — aggressively adopt new PWA releases without an update popup.
+// v5.3.23 — aggressively adopt new PWA releases without an update popup.
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', async () => {
     try {
@@ -592,3 +592,87 @@ if ('serviceWorker' in navigator) {
 }
 
 function initWozzaMenu(){const trigger=document.querySelector('.header-copy'),menu=document.querySelector('#wozzaMenu'),backdrop=document.querySelector('#wozzaMenuBackdrop');if(!trigger||!menu||!backdrop)return;trigger.setAttribute('role','button');trigger.setAttribute('tabindex','0');trigger.setAttribute('aria-haspopup','menu');trigger.setAttribute('aria-expanded','false');const open=()=>{backdrop.hidden=false;menu.classList.add('open');menu.setAttribute('aria-hidden','false');trigger.setAttribute('aria-expanded','true')};const close=()=>{menu.classList.remove('open');menu.setAttribute('aria-hidden','true');trigger.setAttribute('aria-expanded','false');setTimeout(()=>{if(!menu.classList.contains('open'))backdrop.hidden=true},180)};const toggle=()=>menu.classList.contains('open')?close():open();trigger.addEventListener('click',toggle);trigger.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();toggle()}});backdrop.addEventListener('click',close);document.addEventListener('keydown',e=>{if(e.key==='Escape')close()});menu.querySelectorAll('.prototype-item').forEach(button=>button.addEventListener('click',()=>{button.classList.remove('prototype-pulse');void button.offsetWidth;button.classList.add('prototype-pulse')}))}initWozzaMenu();
+
+
+// v5.3.23 — Ranked All Wozzas menu. Hold + drag; top three become header navigation.
+const WOZZA_ORDER_KEY='wozzawatch-nav-order-v1';
+const WOZZA_META={
+ watch:{label:'WozzaWatch',href:'index.html',icon:'icon.svg'},
+ tune:{label:'WozzaTune',href:'tune.html',icon:'tune-icon.svg'},
+ list:{label:'Watchlist',href:'my-list.html',icon:'my-list-icon.svg'},
+ read:{label:'WozzaRead',href:null,icon:'read-icon.svg'},
+ news:{label:'WozzaNews',href:null,icon:'news-icon.svg'}
+};
+function getWozzaOrder(){
+  const fallback=['watch','tune','list','read','news'];
+  try{
+    const saved=JSON.parse(localStorage.getItem(WOZZA_ORDER_KEY)||'[]');
+    const clean=saved.filter(x=>fallback.includes(x));
+    fallback.forEach(x=>{if(!clean.includes(x))clean.push(x)});
+    return clean;
+  }catch(e){return fallback}
+}
+function saveWozzaOrder(order){localStorage.setItem(WOZZA_ORDER_KEY,JSON.stringify(order))}
+function renderWozzaMenuOrder(){
+  const list=document.getElementById('wozzaMenuList'); if(!list)return;
+  const order=getWozzaOrder();
+  order.forEach((id,i)=>{
+    const row=list.querySelector(`[data-wozza="${id}"]`); if(!row)return;
+    const rank=row.querySelector('.wozza-menu-rank'); if(rank)rank.textContent=String(i+1).padStart(2,'0');
+    list.appendChild(row);
+  });
+  renderTopWozzas(order);
+}
+function renderTopWozzas(order=getWozzaOrder()){
+  const nav=document.querySelector('.brand-nav'); if(!nav)return;
+  const current=location.pathname.split('/').pop()||'index.html';
+  const currentId=current==='tune.html'?'tune':current==='my-list.html'||current==='watched.html'?'list':'watch';
+  const top=order.slice(0,3);
+  nav.innerHTML='';
+  top.forEach(id=>{
+    const m=WOZZA_META[id]; if(!m)return;
+    const active=id===currentId;
+    const el=document.createElement(m.href?'a':'button');
+    el.className='brand-link'+(active?' active':'')+(!m.href?' prototype-nav':'');
+    if(m.href)el.href=m.href; else el.type='button';
+    el.setAttribute('aria-label',m.label);
+    el.innerHTML=`<img src="${m.icon}" alt=""><span>${active?m.label.toUpperCase():''}</span>`;
+    if(!m.href)el.addEventListener('click',()=>{const menu=document.getElementById('wozzaMenu');if(menu&&!menu.classList.contains('open'))document.querySelector('.header-copy')?.click()});
+    nav.appendChild(el);
+  });
+}
+function initWozzaRankDrag(){
+  const list=document.getElementById('wozzaMenuList');if(!list)return;
+  let timer=null,drag=null,startY=0,lastY=0,activated=false;
+  const cancel=()=>{clearTimeout(timer);timer=null;if(drag)drag.classList.remove('wozza-menu-dragging');drag=null;activated=false};
+  list.addEventListener('touchstart',e=>{
+    const row=e.target.closest('.wozza-menu-item');if(!row||e.touches.length!==1)return;
+    drag=row;startY=lastY=e.touches[0].clientY;activated=false;
+    timer=setTimeout(()=>{if(!drag)return;activated=true;drag.classList.add('wozza-menu-dragging');navigator.vibrate?.(18)},350);
+  },{passive:true});
+  list.addEventListener('touchmove',e=>{
+    if(!drag||e.touches.length!==1)return;
+    const y=e.touches[0].clientY;
+    if(!activated){if(Math.abs(y-startY)>10)cancel();return}
+    e.preventDefault(); lastY=y;
+    const el=document.elementFromPoint(e.touches[0].clientX,y);
+    const over=el?.closest?.('.wozza-menu-item');
+    if(over&&over!==drag&&over.parentElement===list){
+      const rect=over.getBoundingClientRect();
+      list.insertBefore(drag,y<rect.top+rect.height/2?over:over.nextSibling);
+      [...list.querySelectorAll('.wozza-menu-item')].forEach((r,i)=>r.querySelector('.wozza-menu-rank').textContent=String(i+1).padStart(2,'0'));
+    }
+  },{passive:false});
+  list.addEventListener('touchend',e=>{
+    clearTimeout(timer);
+    if(activated&&drag){
+      e.preventDefault();
+      drag.classList.remove('wozza-menu-dragging');
+      const order=[...list.querySelectorAll('.wozza-menu-item')].map(r=>r.dataset.wozza);
+      saveWozzaOrder(order);renderTopWozzas(order);navigator.vibrate?.(12);
+    }
+    drag=null;activated=false;
+  },{passive:false});
+  list.addEventListener('touchcancel',cancel,{passive:true});
+}
+renderWozzaMenuOrder();initWozzaRankDrag();

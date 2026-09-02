@@ -11,9 +11,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=5.3.22">
+  <link rel="stylesheet" href="styles.css?v=5.3.23">
   <title>WozzaWatch</title>
-  <meta name="build" content="5.3.22">
+  <meta name="build" content="5.3.23">
 </head>
 <body>
   <header class="topbar">
@@ -28,7 +28,18 @@
       <strong>ONE PLACE.<br>EVERY TOP TEN.</strong>
       <span id="updatedText">Loading rankings…</span>
     </div>
-  </header><div class="wozza-menu-backdrop" id="wozzaMenuBackdrop" hidden></div><aside class="wozza-menu" id="wozzaMenu" aria-hidden="true" aria-label="All Wozzas"><div class="wozza-menu-title">ALL WOZZAS</div><a href="index.html" class="wozza-menu-item"><img src="icon.svg" alt=""><span>WozzaWatch</span><span class="wozza-star">★</span></a><a href="tune.html" class="wozza-menu-item"><img src="tune-icon.svg" alt=""><span>WozzaTune</span><span class="wozza-star">★</span></a><a href="my-list.html" class="wozza-menu-item"><img src="my-list-icon.svg" alt=""><span>Watchlist</span><span class="wozza-star">★</span></a><button type="button" class="wozza-menu-item prototype-item"><img src="read-icon.svg" alt=""><span>WozzaRead</span><span class="wozza-star muted">☆</span></button><button type="button" class="wozza-menu-item prototype-item"><img src="news-icon.svg" alt=""><span>WozzaNews</span><span class="wozza-star muted">☆</span></button><div class="wozza-menu-note">More Wozzas coming soon</div></aside>
+  </header><div class="wozza-menu-backdrop" id="wozzaMenuBackdrop" hidden></div>
+<aside class="wozza-menu" id="wozzaMenu" aria-hidden="true" aria-label="All Wozzas">
+  <div class="wozza-menu-title">ALL WOZZAS</div>
+  <div class="wozza-menu-list" id="wozzaMenuList">
+    <a href="index.html" class="wozza-menu-item" data-wozza="watch"><span class="wozza-menu-rank">01</span><img src="icon.svg" alt=""><span>WozzaWatch</span></a>
+    <a href="tune.html" class="wozza-menu-item" data-wozza="tune"><span class="wozza-menu-rank">02</span><img src="tune-icon.svg" alt=""><span>WozzaTune</span></a>
+    <a href="my-list.html" class="wozza-menu-item" data-wozza="list"><span class="wozza-menu-rank">03</span><img src="my-list-icon.svg" alt=""><span>Watchlist</span></a>
+    <button type="button" class="wozza-menu-item prototype-item" data-wozza="read"><span class="wozza-menu-rank">04</span><img src="read-icon.svg" alt=""><span>WozzaRead</span></button>
+    <button type="button" class="wozza-menu-item prototype-item" data-wozza="news"><span class="wozza-menu-rank">05</span><img src="news-icon.svg" alt=""><span>WozzaNews</span></button>
+  </div>
+  <div class="wozza-menu-note">HOLD + DRAG TO REORDER · TOP 3 SHOW IN HEADER</div>
+</aside>
 
   <main>
     <nav id="serviceTabs" class="service-tabs" aria-label="Streaming services and cinema charts"></nav>
@@ -71,7 +82,7 @@
     </section>
   </main>
 
-  <footer><p>App created by Warren · v5.3.22</p></footer>
-  <script src="app.js?v=5.3.22" defer></script>
+  <footer><p>App created by Warren · v5.3.23</p></footer>
+  <script src="app.js?v=5.3.23" defer></script>
 </body>
 </html>
