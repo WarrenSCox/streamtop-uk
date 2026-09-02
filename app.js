@@ -730,3 +730,10 @@ const open=()=>{menu.classList.add('open');menu.setAttribute('aria-hidden','fals
 document.addEventListener('pointerdown',e=>{if(e.target.closest('a,button,.wozza-menu'))return;p={x:e.clientX,y:e.clientY};t=setTimeout(()=>{if(p&&p.x>innerWidth*.2&&p.x<innerWidth*.8&&p.y>innerHeight*.2&&p.y<innerHeight*.8)open()},350)});
 document.addEventListener('pointermove',e=>{if(p&&Math.hypot(e.clientX-p.x,e.clientY-p.y)>12){clearTimeout(t);t=null}});
 ['pointerup','pointercancel'].forEach(n=>document.addEventListener(n,()=>{clearTimeout(t);t=null;p=null}));})();
+
+// wozza-bfcache-close: browser/system back should always restore normal WozzaWatch.
+window.addEventListener("pageshow",()=>{
+ const menu=document.querySelector("#wozzaMenu"),bd=document.querySelector("#wozzaMenuBackdrop");
+ if(menu){menu.classList.remove("open");menu.setAttribute("aria-hidden","true")}
+ if(bd)bd.hidden=true;
+});

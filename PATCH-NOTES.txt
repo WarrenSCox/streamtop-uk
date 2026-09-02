@@ -1,9 +1,8 @@
-WozzaWatch v5.3.39
+WozzaWatch v5.3.40 — WozzaNews Metro release
 
-WozzaNews:
-- Adds publisher selector: Sky News / The Guardian / The Independent.
-- Three equal publisher tabs span the same width as the chart.
-- Each publisher supplies up to 10 stories for the selected category.
-- Category selection is retained when switching publisher.
-- One failed publisher/category no longer breaks all News updates.
-- Right-edge back swipe goes directly to WozzaWatch and cannot trigger All Wozzas first.
+- Adds Metro as the third WozzaNews provider: Sky News / The Guardian / Metro.
+- Provider selector now has three equal tabs and is explicitly the same full width as the newsfeed card below.
+- Removes the repeated source badge and green verified tick from the newsfeed header.
+- Uses that header space for a Wozza-style paper aeroplane with curved contrail.
+- Paper plane performs a short playful movement every 4 seconds; respects reduced-motion settings.
+- Metro RSS uses category-specific endpoints with safe fallbacks to the main Metro feed.
