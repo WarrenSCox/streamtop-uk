@@ -1,6 +1,6 @@
 {
   "version": 17,
-  "generatedAt": "2026-09-02T03:05:51.783Z",
+  "generatedAt": "2026-09-02T03:16:54.948Z",
   "country": "GB",
   "strategy": "Official source first; labelled fallback when no compatible official chart is available.",
   "services": {
@@ -882,7 +882,7 @@
           "rank": 2,
           "title": "The Devil Wears Prada 2",
           "year": 2026,
-          "type": null,
+          "type": "MOVIE",
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/019fac2c-f245-7bf4-bd98-9b222eda6a9c/compose?format=webp&width=386&label=top_ranked_2_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-34bc6b99-813f-4d5d-bbe7-f3099b45879b"
         },
@@ -898,7 +898,7 @@
           "rank": 4,
           "title": "Sing",
           "year": 2016,
-          "type": "MOVIE",
+          "type": null,
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/019ffd08-0677-7e53-b16d-0ef9b623aa78/compose?format=webp&width=386&label=top_ranked_4_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-aa1ffc86-4858-45ba-b5ef-2498ef275495"
         },
@@ -1053,18 +1053,6 @@
         },
         {
           "rank": 9,
-          "title": "Little Miss Sunshine",
-          "year": 2006,
-          "poster": "/poster/138654476/s166/little-miss-sunshine.webp",
-          "url": "https://tv.apple.com/gb/movie/little-miss-sunshine/umc.cmc.39trxqhqfin42c3loja0ka8oh",
-          "trend": null,
-          "trendDifference": 0,
-          "daysInTop10": null,
-          "topRank": null,
-          "detailsUrl": "https://www.justwatch.com/uk/movie/little-miss-sunshine"
-        },
-        {
-          "rank": 10,
           "title": "Step Brothers",
           "year": 2008,
           "poster": "/poster/320936168/s166/step-brothers.webp",
@@ -1074,6 +1062,18 @@
           "daysInTop10": null,
           "topRank": null,
           "detailsUrl": "https://www.justwatch.com/uk/movie/step-brothers"
+        },
+        {
+          "rank": 10,
+          "title": "Little Miss Sunshine",
+          "year": 2006,
+          "poster": "/poster/138654476/s166/little-miss-sunshine.webp",
+          "url": "https://tv.apple.com/gb/movie/little-miss-sunshine/umc.cmc.39trxqhqfin42c3loja0ka8oh",
+          "trend": null,
+          "trendDifference": 0,
+          "daysInTop10": null,
+          "topRank": null,
+          "detailsUrl": "https://www.justwatch.com/uk/movie/little-miss-sunshine"
         }
       ],
       "tv": [
@@ -2293,7 +2293,7 @@
           "cadence": "weekly",
           "note": "Fresh data did not update successfully, so the last successful results are being shown.",
           "stale": true,
-          "staleAsOf": "2026-09-02T02:59:32.789Z"
+          "staleAsOf": "2026-09-02T03:05:51.783Z"
         }
       },
       "error": null,
