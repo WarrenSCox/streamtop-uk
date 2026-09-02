@@ -431,3 +431,29 @@ html,body,body *{-webkit-user-select:none;user-select:none;-webkit-touch-callout
  .news-row{grid-template-columns:38px 74px minmax(0,1fr)!important;gap:10px!important;padding-right:14px!important}
  .news-row .news-thumb{width:74px;height:86px}
 }
+
+/* v5.3.39 — WozzaNews provider selector */
+.news-provider-switch{
+ width:min(760px,calc(100% - 24px));margin:0 auto 18px;
+ display:grid;grid-template-columns:1fr 1fr;
+ padding:5px;border-radius:24px;background:rgba(238,240,251,.92);
+ border:1px solid rgba(23,33,61,.12);box-shadow:0 5px 12px rgba(23,33,61,.08);
+ overflow:hidden;
+}
+.news-provider-btn{
+ min-height:72px;border:0;border-radius:19px;background:transparent;color:var(--navy);
+ display:flex;align-items:center;justify-content:center;gap:9px;cursor:pointer;
+}
+.news-provider-btn.active{background:#d9d0ef;box-shadow:inset 0 0 0 2px rgba(255,255,255,.45)}
+.sky-wordmark{font-family:Inter,sans-serif;font-size:22px;font-weight:500;letter-spacing:-.08em}
+.sky-wordmark span{font-weight:900;margin-left:3px;letter-spacing:-.06em}
+.guardian-mark{
+ display:grid;place-items:center;width:31px;height:31px;border-radius:50%;
+ background:var(--navy);color:white;font-family:Georgia,serif;font-weight:900;font-size:21px;
+}
+.guardian-wordmark{font-family:Georgia,serif;font-size:14px;font-weight:700;line-height:.78;text-align:left}
+@media(max-width:560px){
+ .news-provider-switch{margin-bottom:16px;border-radius:22px}
+ .news-provider-btn{min-height:62px;border-radius:17px}
+ .sky-wordmark{font-size:20px}.guardian-mark{width:28px;height:28px;font-size:19px}.guardian-wordmark{font-size:13px}
+}

@@ -1,24 +1,33 @@
 const CATS=["UK","WORLD","POLITICS","BUSINESS","TECH","ENTERTAINMENT"];
 const COLORS=["#F5A083","#B9C9E3","#BFE2AF","#FFDD69","#CFC5EF","#F4A083"];
-let active="UK", data={categories:{}};
+let active="UK", provider="SKY", data={providers:{}};
 const $=s=>document.querySelector(s);
 function esc(s){return String(s||"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m]))}
 function ago(d){if(!d)return"";let n=(Date.now()-new Date(d))/60000;if(n<60)return Math.max(1,Math.floor(n))+"m ago";if(n<1440)return Math.floor(n/60)+"h ago";return Math.floor(n/1440)+"d ago"}
 function tabs(){let n=$("#newsTabs");CATS.forEach((c,i)=>{let b=document.createElement("button");b.textContent=c;b.style.background=COLORS[i];b.className="service-tab "+(c===active?"active":"");b.onclick=()=>{active=c;tabsRefresh();render()};n.appendChild(b)})}
 function tabsRefresh(){[...$("#newsTabs").children].forEach(b=>b.classList.toggle("active",b.textContent===active));const a=[...$("#newsTabs").children].find(b=>b.textContent===active);a?.scrollIntoView({behavior:"smooth",block:"nearest",inline:"center"});}
-function render(){let rows=data.categories?.[active]||[];$("#newsTitle").textContent="LATEST "+active;$("#newsChart").innerHTML=rows.slice(0,10).map((x,i)=>`<li class="news-row"><span class="rank">${String(i+1).padStart(2,"0")}</span><a class="news-image-link" href="${esc(x.link)}" target="_blank" rel="noopener" aria-label="${esc(x.title)}">${x.image?`<img class="poster news-thumb" src="${esc(x.image)}" alt="">`:`<span class="poster news-thumb news-thumb-fallback">W</span>`}</a><a class="news-story" href="${esc(x.link)}" target="_blank" rel="noopener"><span class="news-copy"><strong>${esc(x.title)}</strong><small>${ago(x.published)}</small></span></a></li>`).join("");$("#newsError").classList.toggle("hidden",rows.length>0)}
+function providerCategories(){return data.providers?.[provider]?.categories||((provider==="SKY"&&data.categories)?data.categories:{});}
+function providerRefresh(){
+ document.querySelectorAll(".news-provider-btn").forEach(b=>b.classList.toggle("active",b.dataset.provider===provider));
+ const badge=$("#newsSourceBadge");
+ if(provider==="GUARDIAN"){badge.href="https://www.theguardian.com/help/feeds";badge.innerHTML='THE GUARDIAN <span class="verified-tick">✓</span>'}
+ else{badge.href="https://news.sky.com/info/rss";badge.innerHTML='SKY NEWS <span class="verified-tick">✓</span>'}
+}
+function render(){let rows=providerCategories()?.[active]||[];$("#newsTitle").textContent="LATEST "+active;$("#newsChart").innerHTML=rows.slice(0,10).map((x,i)=>`<li class="news-row"><span class="rank">${String(i+1).padStart(2,"0")}</span><a class="news-image-link" href="${esc(x.link)}" target="_blank" rel="noopener" aria-label="${esc(x.title)}">${x.image?`<img class="poster news-thumb" src="${esc(x.image)}" alt="">`:`<span class="poster news-thumb news-thumb-fallback">W</span>`}</a><a class="news-story" href="${esc(x.link)}" target="_blank" rel="noopener"><span class="news-copy"><strong>${esc(x.title)}</strong><small>${ago(x.published)}</small></span></a></li>`).join("");$("#newsError").classList.toggle("hidden",rows.length>0)}
 async function loadNews(){
  try{
   const r=await fetch("./news.json?v="+Date.now(),{cache:"no-store"});
   if(!r.ok)throw new Error("news.json "+r.status);
   const x=await r.json();
-  data=(x&&x.categories)?x:{categories:{}};
+  data=(x&&x.providers)?x:((x&&x.categories)?{providers:{SKY:{categories:x.categories}}}:{providers:{}});
   const d=x.updated?new Date(x.updated):null;
   $("#newsUpdated").textContent=d&&!Number.isNaN(d.valueOf())?"Updated "+d.toLocaleDateString("en-GB",{weekday:"short",day:"numeric",month:"short"})+", "+d.toLocaleTimeString("en-GB",{hour:"2-digit",minute:"2-digit"}):"Latest headlines";
  }catch(e){console.error("WozzaNews load failed",e);data={categories:{}}}
  render();
 }
-tabs();loadNews();
+tabs();initProviderSwitch();loadNews();
+function initProviderSwitch(){document.querySelectorAll(".news-provider-btn").forEach(b=>b.addEventListener("click",()=>{provider=b.dataset.provider;providerRefresh();render()}));providerRefresh();}
+
 function initMenu(){const menu=$("#wozzaMenu"),bd=$("#wozzaMenuBackdrop"),trigger=$(".header-copy");let timer=null,start=null;
  const open=()=>{menu.classList.add("open");menu.setAttribute("aria-hidden","false");bd.hidden=false};
  const close=()=>{menu.classList.remove("open");menu.setAttribute("aria-hidden","true");bd.hidden=true};
@@ -52,4 +61,6 @@ function initNewsCategorySwipe(){
  },{passive:true});
  target.addEventListener('touchcancel',()=>{tracking=false},{passive:true});
 }initNewsCategorySwipe();
-let edge=null;document.addEventListener("touchstart",e=>{let t=e.touches[0];if(t.clientX>innerWidth-28)edge={x:t.clientX,y:t.clientY}},{passive:true});document.addEventListener("touchend",e=>{if(!edge)return;let t=e.changedTouches[0];if(edge.x-t.clientX>70&&Math.abs(t.clientY-edge.y)<80)location.href="index.html";edge=null},{passive:true});
+let edge=null;
+document.addEventListener("touchstart",e=>{let t=e.touches[0];if(t.clientX>innerWidth-32)edge={x:t.clientX,y:t.clientY}},{passive:true});
+document.addEventListener("touchend",e=>{if(!edge)return;let t=e.changedTouches[0],dx=edge.x-t.clientX,dy=t.clientY-edge.y;edge=null;if(dx>60&&Math.abs(dy)<80){location.replace("index.html")}}, {passive:true});document.addEventListener("touchend",e=>{if(!edge)return;let t=e.changedTouches[0];if(edge.x-t.clientX>70&&Math.abs(t.clientY-edge.y)<80)location.href="index.html";edge=null},{passive:true});

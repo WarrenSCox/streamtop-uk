@@ -1,12 +1,28 @@
 import fs from "node:fs/promises";
 
-const feeds={
- UK:"https://feeds.skynews.com/feeds/rss/uk.xml",
- WORLD:"https://feeds.skynews.com/feeds/rss/world.xml",
- POLITICS:"https://feeds.skynews.com/feeds/rss/politics.xml",
- BUSINESS:"https://feeds.skynews.com/feeds/rss/business.xml",
- TECH:"https://feeds.skynews.com/feeds/rss/technology.xml",
- ENTERTAINMENT:"https://feeds.skynews.com/feeds/rss/entertainment.xml"
+const providerFeeds={
+ SKY:{
+  source:{name:"Sky News",url:"https://news.sky.com/info/rss",official:true},
+  feeds:{
+   UK:"https://feeds.skynews.com/feeds/rss/uk.xml",
+   WORLD:"https://feeds.skynews.com/feeds/rss/world.xml",
+   POLITICS:"https://feeds.skynews.com/feeds/rss/politics.xml",
+   BUSINESS:"https://feeds.skynews.com/feeds/rss/business.xml",
+   TECH:"https://feeds.skynews.com/feeds/rss/technology.xml",
+   ENTERTAINMENT:"https://feeds.skynews.com/feeds/rss/entertainment.xml"
+  }
+ },
+ GUARDIAN:{
+  source:{name:"The Guardian",url:"https://www.theguardian.com/help/feeds",official:true},
+  feeds:{
+   UK:"https://www.theguardian.com/uk-news/rss",
+   WORLD:"https://www.theguardian.com/world/rss",
+   POLITICS:"https://www.theguardian.com/politics/rss",
+   BUSINESS:"https://www.theguardian.com/business/rss",
+   TECH:"https://www.theguardian.com/technology/rss",
+   ENTERTAINMENT:"https://www.theguardian.com/culture/rss"
+  }
+ }
 };
 
 const decode=s=>String(s??"")
@@ -34,7 +50,7 @@ function media(xml){
 }
 async function fetchFeed(url){
  const r=await fetch(url,{redirect:"follow",headers:{
-  "User-Agent":"Mozilla/5.0 (compatible; WozzaNews/5.3.38)",
+  "User-Agent":"Mozilla/5.0 (compatible; WozzaNews/5.3.39)",
   "Accept":"application/rss+xml, application/xml, text/xml;q=0.9, */*;q=0.8"
  }});
  if(!r.ok)throw new Error(`${r.status} ${r.statusText}`);
@@ -43,24 +59,27 @@ async function fetchFeed(url){
  return [...xml.matchAll(/<item\b[\s\S]*?<\/item>/gi)].map(m=>m[0]);
 }
 
-const categories={};
-for(const [cat,url] of Object.entries(feeds)){
- const items=await fetchFeed(url);
- console.log(`${cat}: ${items.length} RSS items received`);
- const rows=items.map(x=>({
-  title:cleanHeadline(tag(x,"title")),
-  link:tag(x,"link")||tag(x,"guid"),
-  published:tag(x,"pubDate")||tag(x,"dc:date"),
-  source:"Sky News",
-  image:media(x)
- })).filter(x=>x.title&&/^https?:\/\//i.test(x.link)).slice(0,10);
- if(!rows.length)throw new Error(`${cat}: RSS returned no usable stories`);
- categories[cat]=rows;
- console.log(`${cat}: ${rows.length} stories`);
+const providers={};
+for(const [providerName,config] of Object.entries(providerFeeds)){
+ const categories={};
+ for(const [cat,url] of Object.entries(config.feeds)){
+  const items=await fetchFeed(url);
+  console.log(`${providerName} ${cat}: ${items.length} RSS items received`);
+  const rows=items.map(x=>({
+   title:cleanHeadline(tag(x,"title")),
+   link:tag(x,"link")||tag(x,"guid"),
+   published:tag(x,"pubDate")||tag(x,"dc:date"),
+   source:config.source.name,
+   image:media(x)
+  })).filter(x=>x.title&&/^https?:\/\//i.test(x.link)).slice(0,10);
+  if(!rows.length)throw new Error(`${providerName} ${cat}: RSS returned no usable stories`);
+  categories[cat]=rows;
+  console.log(`${providerName} ${cat}: ${rows.length} stories`);
+ }
+ providers[providerName]={source:config.source,categories};
 }
 
 await fs.writeFile("news.json",JSON.stringify({
  updated:new Date().toISOString(),
- source:{name:"Sky News",url:"https://news.sky.com/info/rss",official:true},
- categories
+ providers
 },null,2)+"\n");

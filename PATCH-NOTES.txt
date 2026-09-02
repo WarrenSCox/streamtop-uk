@@ -1,6 +1,10 @@
-WozzaWatch v5.3.38 hotfix
+WozzaWatch v5.3.39 patch
 
-- Fixes the WozzaNews RSS XML field parser introduced in v5.3.37.
-- Keeps headline HTML sanitising, but applies it after normal RSS title extraction.
-- Adds feed item-count logging to GitHub Actions for easier diagnosis.
-- No visual or gesture changes from v5.3.37.
+WozzaNews:
+- Adds Sky News / The Guardian provider selector beneath the category carousel.
+- Keeps 10 stories per category/provider.
+- Provider choice persists while swiping categories.
+- Source badge switches with provider.
+- Guardian uses its official section RSS feeds (/rss).
+- Right-edge back gesture goes directly to WozzaWatch.
+- Existing WozzaNews category carousel and proven WozzaWatch-style swipe remain.
