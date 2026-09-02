@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-02T20:49:32.554Z",
+  "updated": "2026-09-02T22:34:21.451Z",
   "providers": {
     "SKY": {
       "categories": {
@@ -11,6 +11,14 @@
             "source": "Sky News",
             "categories": "",
             "image": "https://e3.365dm.com/26/09/1920x1080/skynews-marinha-albufeira-portugal_7339142.jpg?20260902190645"
+          },
+          {
+            "title": "Families of Nottingham attacks victims 'kept in dark' about mentally ill man pursuing them",
+            "link": "https://news.sky.com/story/families-of-nottingham-attacks-victims-kept-in-dark-about-mentally-ill-man-pursuing-them-13580529",
+            "published": "Wed, 02 Sep 2026 21:12:00 +0100",
+            "source": "Sky News",
+            "categories": "",
+            "image": "https://e3.365dm.com/24/05/1920x1080/skynews-grace-kumar-barnaby-webber_6553532.jpg?20240514090950"
           },
           {
             "title": "Six police officers sacked after racism complaint in Manchester",
@@ -75,14 +83,6 @@
             "source": "Sky News",
             "categories": "",
             "image": "https://e3.365dm.com/22/04/1920x1080/skynews-emergency-department_5731522.jpg?20260901135044"
-          },
-          {
-            "title": "Man City equal British transfer record with deadline day splurge",
-            "link": "https://news.sky.com/story/man-city-equal-british-transfer-record-with-deadline-day-splurge-13580210",
-            "published": "Wed, 02 Sep 2026 01:19:00 +0100",
-            "source": "Sky News",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-enzo-fernandez-chelsea_7337822.jpg?20260901171828"
           }
         ],
         "WORLD": [
@@ -117,6 +117,14 @@
             "source": "Sky News",
             "categories": "",
             "image": "https://e3.365dm.com/26/09/1920x1080/skynews-ceuta-spain-migrants_7339036.jpg?20260902170456"
+          },
+          {
+            "title": "Maltese businessman cleared over murder of journalist Daphne Caruana Galizia",
+            "link": "https://news.sky.com/story/maltese-businessman-cleared-over-murder-of-journalist-daphne-caruana-galizia-13580542",
+            "published": "Wed, 02 Sep 2026 21:43:00 +0100",
+            "source": "Sky News",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-fenech-malta_7339321.jpg?20260902221001"
           },
           {
             "title": "Pistol in lake could be linked to unsolved killings of British family",
@@ -157,14 +165,6 @@
             "source": "Sky News",
             "categories": "",
             "image": "https://e3.365dm.com/26/08/1920x1080/skynews-germany-leipzig-halle_7314592.jpg?20260805140142"
-          },
-          {
-            "title": "Bank of America vice president killed in Times Square stabbing",
-            "link": "https://news.sky.com/story/bank-of-america-vice-president-killed-in-times-square-stabbing-13580026",
-            "published": "Tue, 01 Sep 2026 20:21:00 +0100",
-            "source": "Sky News",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-police-shooting_7338016.jpg?20260901204302"
           }
         ],
         "POLITICS": [
@@ -485,6 +485,22 @@
       "categories": {
         "UK": [
           {
+            "title": "Nuclear bomb test veterans were victims of one of ‘greatest scandals in Britain’, says ex-defence minister",
+            "link": "https://www.theguardian.com/uk-news/2026/sep/02/nuclear-bomb-test-veterans-were-victims-of-one-of-greatest-scandals-in-britain-says-ex-defence-minister",
+            "published": "Wed, 02 Sep 2026 21:30:35 GMT",
+            "source": "The Guardian",
+            "categories": "Ministry of Defence Nuclear weapons Military UK news",
+            "image": "https://i.guim.co.uk/img/media/a0427057e478c22f071f5808062e521e62340e9a/64_0_3096_2476/master/3096.jpg?width=140&quality=85&auto=format&fit=max&s=0240b8d9993e13117d96618363f3710d"
+          },
+          {
+            "title": "Andy Burnham targets migrant crisis ahead of Macron’s visit to No 10",
+            "link": "https://www.theguardian.com/politics/2026/sep/02/andy-burnham-migrant-crisis-macron-downing-street",
+            "published": "Wed, 02 Sep 2026 21:30:35 GMT",
+            "source": "The Guardian",
+            "categories": "Andy Burnham Politics France UK news World news Europe Emmanuel Macron Foreign policy Ukraine Volodymyr Zelenskyy Migration",
+            "image": "https://i.guim.co.uk/img/media/d8b6e77992a2874ce0fb5db3183f3f2258d4c1ed/471_0_4188_3351/master/4188.jpg?width=140&quality=85&auto=format&fit=max&s=551626e2bb47199cb0a91adb67b9fc1a"
+          },
+          {
             "title": "Trump ‘happy’ about Harry and Meghan UK return: ‘I was not a fan’",
             "link": "https://www.theguardian.com/us-news/2026/sep/02/trump-meghan-harry",
             "published": "Wed, 02 Sep 2026 20:01:16 GMT",
@@ -541,28 +557,12 @@
             "image": "https://i.guim.co.uk/img/media/f89dcc944b11e120270f68907c76b430c496ed95/0_0_3000_2400/master/3000.jpg?width=140&quality=85&auto=format&fit=max&s=4c48c1f90ccd3872c93d826ac7ca3c02"
           },
           {
-            "title": "Baby stabbed to death in Sheffield was found on top of washing machine, court told",
-            "link": "https://www.theguardian.com/uk-news/2026/sep/02/charged-newborn-baby-stabbed-death-sheffield",
-            "published": "Wed, 02 Sep 2026 15:44:00 GMT",
+            "title": "Farage compares standards inquiry to investigations faced by fellow ‘outsider’ Trump",
+            "link": "https://www.theguardian.com/politics/2026/sep/02/nigel-farage-compares-standards-inquiry-reform-trump",
+            "published": "Wed, 02 Sep 2026 15:24:18 GMT",
             "source": "The Guardian",
-            "categories": "UK news",
-            "image": "https://i.guim.co.uk/img/media/6e1751c11d74e05105ba2eb8a675b2838cbdca58/59_866_1477_1182/master/1477.jpg?width=140&quality=85&auto=format&fit=max&s=b0f0a183c2e5a3e475a9960dc0e01979"
-          },
-          {
-            "title": "Uber drivers launch European class action over ‘soulless’ and ‘scary’ AI algorithm",
-            "link": "https://www.theguardian.com/technology/2026/sep/02/uber-drivers-europe-legal-action-ai-algorithm",
-            "published": "Wed, 02 Sep 2026 15:37:26 GMT",
-            "source": "The Guardian",
-            "categories": "Uber AI (artificial intelligence) Transport Gig economy Europe Netherlands GDPR UK news Pay Employment law Law Business",
-            "image": "https://i.guim.co.uk/img/media/af1a826c308241d71b41b55c9dd6d67cedc8041f/560_0_5600_4480/master/5600.jpg?width=140&quality=85&auto=format&fit=max&s=d23cd7fbd9c09e9b25577395465cbb1d"
-          },
-          {
-            "title": "Mass breeding of game birds without welfare checks may be curtailed in England",
-            "link": "https://www.theguardian.com/environment/2026/sep/02/mass-breeding-of-game-birds-without-welfare-checks-may-be-curtailed-in-england",
-            "published": "Wed, 02 Sep 2026 14:29:50 GMT",
-            "source": "The Guardian",
-            "categories": "Hunting Hunting Birds Animal welfare Wildlife Rural affairs England UK news Game Animals Environment Politics",
-            "image": "https://i.guim.co.uk/img/media/1e8c1503696b3e62e4fb1a2b7b975c55b0daf8b6/861_0_5123_4098/master/5123.jpg?width=140&quality=85&auto=format&fit=max&s=034cfcd55ce97a6b7cb10fc6cdff4b34"
+            "categories": "Nigel Farage Reform UK Politics Party funding House of Commons UK news",
+            "image": "https://i.guim.co.uk/img/media/878723f68912fd6cd8e89e1cd4fe23f6095268c5/964_0_4036_3230/master/4036.jpg?width=140&quality=85&auto=format&fit=max&s=cd72095e7fab8e6e437a89aedd6b820b"
           }
         ],
         "WORLD": [
@@ -609,7 +609,7 @@
           {
             "title": "Apple Maps renames Lake Ontario as ‘Lake America’ for US users after Trump order",
             "link": "https://www.theguardian.com/technology/2026/sep/02/apple-maps-renames-lake-ontario-lake-america",
-            "published": "Wed, 02 Sep 2026 19:06:39 GMT",
+            "published": "Wed, 02 Sep 2026 21:15:12 GMT",
             "source": "The Guardian",
             "categories": "Apple Donald Trump Canada Mark Carney US news Technology Americas Trump administration US politics",
             "image": "https://i.guim.co.uk/img/media/b2bd6650f4d068d875cb8169d5614712313bb34a/0_0_1000_800/master/1000.jpg?width=140&quality=85&auto=format&fit=max&s=a63b9f82ae3723167c5691de78ef02a9"
@@ -648,6 +648,14 @@
           }
         ],
         "POLITICS": [
+          {
+            "title": "Andy Burnham targets migrant crisis ahead of Macron’s visit to No 10",
+            "link": "https://www.theguardian.com/politics/2026/sep/02/andy-burnham-migrant-crisis-macron-downing-street",
+            "published": "Wed, 02 Sep 2026 21:30:35 GMT",
+            "source": "The Guardian",
+            "categories": "Andy Burnham Politics France UK news World news Europe Emmanuel Macron Foreign policy Ukraine Volodymyr Zelenskyy Migration",
+            "image": "https://i.guim.co.uk/img/media/d8b6e77992a2874ce0fb5db3183f3f2258d4c1ed/471_0_4188_3351/master/4188.jpg?width=140&quality=85&auto=format&fit=max&s=551626e2bb47199cb0a91adb67b9fc1a"
+          },
           {
             "title": "Burnham to crack down on UK mega-donors influencing politics",
             "link": "https://www.theguardian.com/politics/2026/sep/02/new-uk-taskforce-will-examine-influence-of-political-mega-donors",
@@ -697,12 +705,12 @@
             "image": "https://i.guim.co.uk/img/media/5e388a34c0e75d4ab6e759119e9d0377631ca93f/147_0_4583_3667/master/4583.jpg?width=140&quality=85&auto=format&fit=max&s=d6a7e9d60f8862010000ccf9f0858725"
           },
           {
-            "title": "UK politics: Andy Burnham pressed on borrowing costs and spending at first PMQs – as it happened",
-            "link": "https://www.theguardian.com/politics/live/2026/sep/02/pmqs-andy-burnham-kemi-badenoch-labour-uk-politics-latest-news",
-            "published": "Wed, 02 Sep 2026 16:36:41 GMT",
+            "title": "I inadvertently misled parliament over a British nuclear scandal. Now I’m calling for justice | Tobias Ellwood",
+            "link": "https://www.theguardian.com/commentisfree/2026/sep/02/british-nuclear-tests-compensation-for-veterans",
+            "published": "Wed, 02 Sep 2026 21:30:35 GMT",
             "source": "The Guardian",
-            "categories": "Politics UK news Andy Burnham PMQs Labour Kemi Badenoch House of Commons Government borrowing Tax and spending Economics Economic policy Pensions Zack Polanski Green party Byelections Scottish politics Welsh politics Wales Rhun ap Iorwerth Nigel Farage Reform UK",
-            "image": "https://i.guim.co.uk/img/media/f89dcc944b11e120270f68907c76b430c496ed95/0_0_3000_2400/master/3000.jpg?width=140&quality=85&auto=format&fit=max&s=4c48c1f90ccd3872c93d826ac7ca3c02"
+            "categories": "Ministry of Defence Nuclear weapons Defence policy Ben Wallace Politics UK news World news",
+            "image": "https://i.guim.co.uk/img/media/a22a28b4f98cdebe53c1aefce220feb63a82f6b2/0_620_1763_1410/master/1763.jpg?width=140&quality=85&auto=format&fit=max&s=064778d5a9bfda2c8cf185a423001630"
           },
           {
             "title": "The Guardian view on Kemi Badenoch and the economy: a plan stuck in the Tory comfort zone | Editorial",
@@ -719,14 +727,6 @@
             "source": "The Guardian",
             "categories": "Israel West Bank Palestine Middle East and north Africa Ed Miliband Politics UK news World news",
             "image": "https://i.guim.co.uk/img/media/a70231d013087d29e2a1de62b01d7d6c65cf500a/416_0_4156_3324/master/4156.jpg?width=140&quality=85&auto=format&fit=max&s=e0360a879e574dc873251726bcb2868b"
-          },
-          {
-            "title": "Burnham beware, the bond markets will demand proper answers in the budget | Nils Pratley",
-            "link": "https://www.theguardian.com/business/nils-pratley-on-finance/2026/sep/02/burnham-beware-bond-markets-demand-answers-budget",
-            "published": "Wed, 02 Sep 2026 17:14:31 GMT",
-            "source": "The Guardian",
-            "categories": "Gilts Business Bonds Government borrowing Economics Economic policy Politics UK news",
-            "image": "https://i.guim.co.uk/img/media/c4aa985612c834aacf4fece2e59ab7fb9d3d579f/508_49_4339_3470/master/4339.jpg?width=140&quality=85&auto=format&fit=max&s=72577708a6fd73a326f04d47b9bf9790"
           }
         ],
         "BUSINESS": [
@@ -751,7 +751,7 @@
             "link": "https://www.theguardian.com/business/2026/sep/02/global-bond-sell-off-us-iran-tensions-inflation-fears",
             "published": "Wed, 02 Sep 2026 08:54:52 GMT",
             "source": "The Guardian",
-            "categories": "Bonds Gilts Stock markets Business John Healey Government borrowing Inflation Oil UK news US-Israel war on Iran Europe World news Economics Budget",
+            "categories": "Bonds Gilts Stock markets Business John Healey Government borrowing Inflation Oil UK news US-Israel war on Iran Europe World news Economics Budget Politics",
             "image": "https://i.guim.co.uk/img/media/033de6884d460c7e8716c2a91cc0ed742c61f477/285_42_2840_2274/master/2840.jpg?width=140&quality=85&auto=format&fit=max&s=b0535491faa7d47a4f49a2a37f375d99"
           },
           {
@@ -869,6 +869,14 @@
             "image": "https://i.guim.co.uk/img/media/7c7128dc7679d8f7392c821f4bebc8b71431f487/1_0_4998_4000/master/4998.jpg?width=140&quality=85&auto=format&fit=max&s=5530b0382e6f45a941ab7e335b07e7b5"
           },
           {
+            "title": "Trump administration sides with OpenAI in lawsuit against New York Times",
+            "link": "https://www.theguardian.com/technology/2026/sep/02/trump-new-york-times-lawsuit-ai",
+            "published": "Wed, 02 Sep 2026 20:39:54 GMT",
+            "source": "The Guardian",
+            "categories": "Technology AI (artificial intelligence) OpenAI New York Times Trump administration Media Newspapers Newspapers & magazines US press and publishing US news",
+            "image": "https://i.guim.co.uk/img/media/a607777885d72961d611a824d4848337e9a4d787/768_0_5438_4351/master/5438.jpg?width=140&quality=85&auto=format&fit=max&s=90479e237c267bc3fc0dc89b41f05358"
+          },
+          {
             "title": "Google defeats US justice department bid to force ad tech sale",
             "link": "https://www.theguardian.com/technology/2026/sep/02/google-defeats-justice-department-bid-ad-tech-sale",
             "published": "Wed, 02 Sep 2026 18:37:20 GMT",
@@ -883,14 +891,6 @@
             "source": "The Guardian",
             "categories": "Uber AI (artificial intelligence) Transport Gig economy Europe Netherlands GDPR UK news Pay Employment law Law Business",
             "image": "https://i.guim.co.uk/img/media/af1a826c308241d71b41b55c9dd6d67cedc8041f/560_0_5600_4480/master/5600.jpg?width=140&quality=85&auto=format&fit=max&s=d23cd7fbd9c09e9b25577395465cbb1d"
-          },
-          {
-            "title": "New York City to ban student AI use in public schools until high school",
-            "link": "https://www.theguardian.com/technology/2026/sep/02/new-york-city-school-ai-ban",
-            "published": "Wed, 02 Sep 2026 15:22:20 GMT",
-            "source": "The Guardian",
-            "categories": "Technology AI (artificial intelligence) US news US education",
-            "image": "https://i.guim.co.uk/img/media/dcbfd45c8361cdc72b4b6a984252c88e2c3640ae/314_438_2784_2228/master/2784.jpg?width=140&quality=85&auto=format&fit=max&s=4823479de8a2eafc167ba89824915196"
           }
         ],
         "ENTERTAINMENT": [
@@ -981,6 +981,22 @@
       "categories": {
         "UK": [
           {
+            "title": "‘Selfless’ teenage passenger killed after car smashes into tree",
+            "link": "https://metro.co.uk/2026/09/02/selfless-teenage-passenger-killed-car-smashes-tree-29522227/",
+            "published": "Wed, 02 Sep 2026 21:32:26 +0000",
+            "source": "Metro",
+            "categories": "News Crash",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310411109-3a6e-e1788384277893.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Family mourn new mother randomly slain in Times Square knife attack",
+            "link": "https://metro.co.uk/2026/09/02/family-mourn-new-mother-randomly-slain-times-square-knife-attack-29521942/",
+            "published": "Wed, 02 Sep 2026 21:02:04 +0000",
+            "source": "Metro",
+            "categories": "News US Murder New York Times Square",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310435791-7c75-e1788381993855.jpg?quality=90&strip=all&w=646"
+          },
+          {
             "title": "Donald Trump says he’s ‘happy’ Harry and Meghan left the US",
             "link": "https://metro.co.uk/2026/09/02/donald-trump-says-happy-harry-meghan-left-us-29521612/",
             "published": "Wed, 02 Sep 2026 20:06:46 +0000",
@@ -1043,22 +1059,6 @@
             "source": "Metro",
             "categories": "News UK Crime News London Sexual harassment",
             "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310377242-417c.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Mum accused of murder of baby who suffered 33 wounds in stabbing",
-            "link": "https://metro.co.uk/2026/09/02/four-court-murder-baby-suffered-33-wounds-stabbing-29519933/",
-            "published": "Wed, 02 Sep 2026 15:42:46 +0000",
-            "source": "Metro",
-            "categories": "News UK Court Crime News Murder Sheffield",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310382752-f235-e1788367632223.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Lucy Letby’s ‘boyfriend’ who died after he was sacked as doctor named",
-            "link": "https://metro.co.uk/2026/09/02/lucy-letbys-boyfriend-died-sacked-doctor-named-29519412/",
-            "published": "Wed, 02 Sep 2026 14:46:28 +0000",
-            "source": "Metro",
-            "categories": "News UK Crime News Liverpool Lucy Letby",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310379268-04b6.jpg?quality=90&strip=all&w=646"
           }
         ],
         "WORLD": [
@@ -1125,6 +1125,14 @@
             "source": "Metro",
             "categories": "News World Kyiv Russia Russia-Ukraine war Ukraine Volodymyr Zelensky",
             "image": "https://metro.co.uk/wp-content/uploads/2026/08/SEI_310137957-0a44.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Premier League transfer spending spree has made a dog’s dinner of Europe’s old elite",
+            "link": "https://metro.co.uk/2026/09/02/premier-league-transfer-spending-spree-made-a-dogs-dinner-europes-old-elite-29521340/",
+            "published": "Wed, 02 Sep 2026 21:30:00 +0000",
+            "source": "Metro",
+            "categories": "Football Sport Arsenal Aston Villa Chelsea FC Liverpool FC Manchester City FC Manchester United Premier League Tottenham Hotspur Transfer News and Rumours",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310302191-4e57.jpg?quality=90&strip=all&w=646"
           },
           {
             "title": "Donald Trump says he’s ‘happy’ Harry and Meghan left the US",
@@ -1311,6 +1319,14 @@
         ],
         "ENTERTAINMENT": [
           {
+            "title": "New documents reveal Tim Curry’s cause of death aged 80",
+            "link": "https://metro.co.uk/2026/09/02/new-documents-reveal-tim-currys-cause-death-aged-80-29521976/",
+            "published": "Wed, 02 Sep 2026 21:10:59 +0000",
+            "source": "Metro",
+            "categories": "Entertainment Showbiz Celebrity Deaths Tim Curry",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/08/SEI_309572613-e4e1.jpg?quality=90&strip=all&w=646"
+          },
+          {
             "title": "Dancing with the Stars’ insane A-list line-up is strictly one for millennials",
             "link": "https://metro.co.uk/2026/09/02/dancing-stars-insane-a-list-line-up-strictly-one-millennials-29521418/",
             "published": "Wed, 02 Sep 2026 20:07:47 +0000",
@@ -1381,14 +1397,6 @@
             "source": "Metro",
             "categories": "Entertainment TV LGBTQ+ The Traitors",
             "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310356952-12b7-e1788347419717.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Netflix confirms James Corden in Dept Q season 2 – and fans are spiralling",
-            "link": "https://metro.co.uk/2026/09/02/dept-q-fans-threaten-skip-season-2-james-corden-joining-netflix-cast-29516313/",
-            "published": "Wed, 02 Sep 2026 10:04:01 +0000",
-            "source": "Metro",
-            "categories": "Entertainment TV James Corden Netflix",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEC_310339265-122a.jpg?quality=90&strip=all&w=646"
           }
         ]
       }
@@ -1403,6 +1411,14 @@
         "source": "Sky News",
         "categories": "",
         "image": "https://e3.365dm.com/26/09/1920x1080/skynews-marinha-albufeira-portugal_7339142.jpg?20260902190645"
+      },
+      {
+        "title": "Families of Nottingham attacks victims 'kept in dark' about mentally ill man pursuing them",
+        "link": "https://news.sky.com/story/families-of-nottingham-attacks-victims-kept-in-dark-about-mentally-ill-man-pursuing-them-13580529",
+        "published": "Wed, 02 Sep 2026 21:12:00 +0100",
+        "source": "Sky News",
+        "categories": "",
+        "image": "https://e3.365dm.com/24/05/1920x1080/skynews-grace-kumar-barnaby-webber_6553532.jpg?20240514090950"
       },
       {
         "title": "Six police officers sacked after racism complaint in Manchester",
@@ -1467,14 +1483,6 @@
         "source": "Sky News",
         "categories": "",
         "image": "https://e3.365dm.com/22/04/1920x1080/skynews-emergency-department_5731522.jpg?20260901135044"
-      },
-      {
-        "title": "Man City equal British transfer record with deadline day splurge",
-        "link": "https://news.sky.com/story/man-city-equal-british-transfer-record-with-deadline-day-splurge-13580210",
-        "published": "Wed, 02 Sep 2026 01:19:00 +0100",
-        "source": "Sky News",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-enzo-fernandez-chelsea_7337822.jpg?20260901171828"
       }
     ],
     "WORLD": [
@@ -1509,6 +1517,14 @@
         "source": "Sky News",
         "categories": "",
         "image": "https://e3.365dm.com/26/09/1920x1080/skynews-ceuta-spain-migrants_7339036.jpg?20260902170456"
+      },
+      {
+        "title": "Maltese businessman cleared over murder of journalist Daphne Caruana Galizia",
+        "link": "https://news.sky.com/story/maltese-businessman-cleared-over-murder-of-journalist-daphne-caruana-galizia-13580542",
+        "published": "Wed, 02 Sep 2026 21:43:00 +0100",
+        "source": "Sky News",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-fenech-malta_7339321.jpg?20260902221001"
       },
       {
         "title": "Pistol in lake could be linked to unsolved killings of British family",
@@ -1549,14 +1565,6 @@
         "source": "Sky News",
         "categories": "",
         "image": "https://e3.365dm.com/26/08/1920x1080/skynews-germany-leipzig-halle_7314592.jpg?20260805140142"
-      },
-      {
-        "title": "Bank of America vice president killed in Times Square stabbing",
-        "link": "https://news.sky.com/story/bank-of-america-vice-president-killed-in-times-square-stabbing-13580026",
-        "published": "Tue, 01 Sep 2026 20:21:00 +0100",
-        "source": "Sky News",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-police-shooting_7338016.jpg?20260901204302"
       }
     ],
     "POLITICS": [
