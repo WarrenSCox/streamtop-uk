@@ -1,6 +1,6 @@
 {
   "version": 17,
-  "generatedAt": "2026-09-02T04:31:11.318Z",
+  "generatedAt": "2026-09-02T04:32:24.314Z",
   "country": "GB",
   "strategy": "Official source first; labelled fallback when no compatible official chart is available.",
   "services": {
@@ -882,7 +882,7 @@
           "rank": 2,
           "title": "The Devil Wears Prada 2",
           "year": 2026,
-          "type": null,
+          "type": "MOVIE",
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/019fac2c-f245-7bf4-bd98-9b222eda6a9c/compose?format=webp&width=386&label=top_ranked_2_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-34bc6b99-813f-4d5d-bbe7-f3099b45879b"
         },
@@ -922,7 +922,7 @@
           "rank": 7,
           "title": "Marvel Studios' Avengers: Infinity War",
           "year": 2018,
-          "type": "MOVIE",
+          "type": null,
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/433236b6-470b-461e-bfc5-e48016f077eb/compose?format=webp&width=386&label=top_ranked_7_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-9a136e06-852a-41bf-b71d-fa061cb43225"
         },
@@ -930,7 +930,7 @@
           "rank": 8,
           "title": "Camp Rock 3",
           "year": 2026,
-          "type": "MOVIE",
+          "type": null,
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/019ffe9d-80a0-76b1-9f10-760c4fe89db9/compose?format=webp&width=386&label=top_ranked_8_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-db450dbe-0450-473e-ad79-a89ad39d2aa7"
         },
@@ -938,7 +938,7 @@
           "rank": 9,
           "title": "Sing 2",
           "year": 2021,
-          "type": null,
+          "type": "MOVIE",
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/076e500a-3c16-4076-aa3d-e34b36579fd8/compose?format=webp&width=386&label=top_ranked_9_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-66900ca4-534e-4463-a3e6-a4d5e32c97f0"
         },
