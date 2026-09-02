@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-02T19:06:36.443Z",
+  "updated": "2026-09-02T19:38:54.705Z",
   "providers": {
     "SKY": {
       "categories": {
@@ -103,20 +103,20 @@
             "image": "https://e3.365dm.com/26/09/1920x1080/skynews-marinha-albufeira-portugal_7339142.jpg?20260902190645"
           },
           {
-            "title": "Nationwide migrant protests prompt appeals for calm in Spain's North African territory",
-            "link": "https://news.sky.com/story/nationwide-migrant-protests-prompt-appeals-for-calm-in-ceuta-spains-north-african-territory-13580443",
-            "published": "Wed, 02 Sep 2026 16:35:00 +0100",
-            "source": "Sky News",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-ceuta-spain-migrants_7339036.jpg?20260902170456"
-          },
-          {
             "title": "Tiger Woods gets five-year driving ban and fine after entering car crash plea deal",
             "link": "https://news.sky.com/story/tiger-woods-gets-five-year-driving-ban-and-fine-after-entering-plea-deal-over-charges-related-to-car-crash-13580365",
             "published": "Wed, 02 Sep 2026 13:21:00 +0100",
             "source": "Sky News",
             "categories": "",
             "image": "https://e3.365dm.com/26/09/1920x1080/skynews-tiger-woods-court_7338755.jpg?20260902133756"
+          },
+          {
+            "title": "Nationwide migrant protests prompt appeals for calm in Spain's North African territory",
+            "link": "https://news.sky.com/story/nationwide-migrant-protests-prompt-appeals-for-calm-in-ceuta-spains-north-african-territory-13580443",
+            "published": "Wed, 02 Sep 2026 16:35:00 +0100",
+            "source": "Sky News",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-ceuta-spain-migrants_7339036.jpg?20260902170456"
           },
           {
             "title": "Pistol in lake could be linked to unsolved killings of British family",
@@ -485,11 +485,19 @@
       "categories": {
         "UK": [
           {
+            "title": "Gun found in French lake is analysed by 2012 Alps killings investigators",
+            "link": "https://www.theguardian.com/world/2026/sep/02/gun-found-in-french-lake-is-analysed-by-2012-alps-killings-investigators",
+            "published": "Wed, 02 Sep 2026 19:03:06 GMT",
+            "source": "The Guardian",
+            "categories": "France Crime Europe UK news",
+            "image": "https://i.guim.co.uk/img/media/23ed6464d859c6e60e33921cade8bfdec1cc8a64/150_0_3333_2667/master/3333.jpg?width=140&quality=85&auto=format&fit=max&s=9f9db624968e8adb8e1b8adefcbf3b12"
+          },
+          {
             "title": "Bayeux tapestry loan symbolises ‘entente amicale’ between France and UK, says King Charles",
             "link": "https://www.theguardian.com/world/2026/sep/02/bayeux-tapestry-loan-symbolises-entente-amicale-between-france-and-uk-says-king-charles",
-            "published": "Wed, 02 Sep 2026 18:23:39 GMT",
+            "published": "Wed, 02 Sep 2026 18:58:50 GMT",
             "source": "The Guardian",
-            "categories": "Bayeux tapestry King Charles III Emmanuel Macron Andy Burnham Monarchy Politics UK news France British Museum Heritage",
+            "categories": "Bayeux tapestry King Charles III Emmanuel Macron Andy Burnham Monarchy Politics UK news France British Museum Heritage Europe",
             "image": "https://i.guim.co.uk/img/media/f22941b851e3fad322fbd8fa5f1851e6e71ea962/0_0_3916_3133/master/3916.jpg?width=140&quality=85&auto=format&fit=max&s=5f341c02a9bcfcf7b2d474c7a0ec6db0"
           },
           {
@@ -549,20 +557,12 @@
             "image": "https://i.guim.co.uk/img/media/878723f68912fd6cd8e89e1cd4fe23f6095268c5/964_0_4036_3230/master/4036.jpg?width=140&quality=85&auto=format&fit=max&s=cd72095e7fab8e6e437a89aedd6b820b"
           },
           {
-            "title": "BP seeks to end years of boardroom turmoil with appointment of new chair",
-            "link": "https://www.theguardian.com/business/2026/sep/02/bp-appoints-new-chair-after-ousting-of-albert-manifold-in-may",
-            "published": "Wed, 02 Sep 2026 14:58:36 GMT",
+            "title": "Mass breeding of game birds without welfare checks may be curtailed in England",
+            "link": "https://www.theguardian.com/environment/2026/sep/02/mass-breeding-of-game-birds-without-welfare-checks-may-be-curtailed-in-england",
+            "published": "Wed, 02 Sep 2026 14:29:50 GMT",
             "source": "The Guardian",
-            "categories": "BP Oil and gas companies Business Energy industry Oil UK news Europe World news Commodities",
-            "image": "https://i.guim.co.uk/img/media/016bdd2ea70dee777e15c79942e7b5a941d5f253/364_19_2532_2027/master/2532.jpg?width=140&quality=85&auto=format&fit=max&s=5019846bb778c3104a31b06f74ab897b"
-          },
-          {
-            "title": "Architect of UK’s AI strategy joins Anthropic amid conflict of interest warning",
-            "link": "https://www.theguardian.com/technology/2026/sep/02/architect-of-uks-ai-strategy-joins-anthropic",
-            "published": "Wed, 02 Sep 2026 14:29:43 GMT",
-            "source": "The Guardian",
-            "categories": "Anthropic AI (artificial intelligence) Computing Technology Politics UK news Business",
-            "image": "https://i.guim.co.uk/img/media/852ec2a6836480a45df3ced8fc2d4b4204eb9886/155_0_2073_1659/master/2073.jpg?width=140&quality=85&auto=format&fit=max&s=78565fb8a269d14119f55dafd9800097"
+            "categories": "Hunting Hunting Birds Animal welfare Wildlife Rural affairs England UK news Game Animals Environment Politics",
+            "image": "https://i.guim.co.uk/img/media/1e8c1503696b3e62e4fb1a2b7b975c55b0daf8b6/861_0_5123_4098/master/5123.jpg?width=140&quality=85&auto=format&fit=max&s=034cfcd55ce97a6b7cb10fc6cdff4b34"
           }
         ],
         "WORLD": [
@@ -607,6 +607,14 @@
             "image": "https://i.guim.co.uk/img/media/c0dd2ae7e5932bb0877575ffd8448d3b061d544f/965_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=8046527e7718d64c46b58e17dfa6fff2"
           },
           {
+            "title": "Apple Maps renames Lake Ontario to ‘Lake America’ for US users after Trump order",
+            "link": "https://www.theguardian.com/technology/2026/sep/02/apple-maps-renames-lake-ontario-lake-america",
+            "published": "Wed, 02 Sep 2026 19:06:39 GMT",
+            "source": "The Guardian",
+            "categories": "Apple Donald Trump Canada Mark Carney US news Technology Americas Trump administration US politics",
+            "image": "https://i.guim.co.uk/img/media/c8f81ed4d96912f58d06ede265b4c825d74adbdf/60_0_2001_1600/master/2001.jpg?width=140&quality=85&auto=format&fit=max&s=e7cd16689dee4f346e99ff2f724c9b93"
+          },
+          {
             "title": "Trump ally defends Venezuela oil deal amid ‘gunpoint diplomacy’ criticism",
             "link": "https://www.theguardian.com/world/2026/sep/02/venezuela-oil-deal-trump-chris-wright",
             "published": "Wed, 02 Sep 2026 14:44:39 GMT",
@@ -637,17 +645,25 @@
             "source": "The Guardian",
             "categories": "US news US politics Canada Trump tariffs US economy Business Donald Trump Economics Tariffs Americas International trade",
             "image": "https://i.guim.co.uk/img/media/8d857fc058b9e91c6650da2a24687d0d8b7e4a2b/1019_0_6500_5199/master/6500.jpg?width=140&quality=85&auto=format&fit=max&s=a1ac0c1878844aeb9e8ffef56e9632cc"
-          },
-          {
-            "title": "MapQuest app reaches No 1 on US Apple list after defying Trump’s Lake Ontario order",
-            "link": "https://www.theguardian.com/us-news/2026/sep/01/mapquest-lake-ontario-trump",
-            "published": "Tue, 01 Sep 2026 13:49:33 GMT",
-            "source": "The Guardian",
-            "categories": "Donald Trump US news Trump administration Canada Americas US politics Maps Technology Apple Apps World news",
-            "image": "https://i.guim.co.uk/img/media/607a7f7d9a44bbc6ef8f3a7be73b54bd608f4800/96_0_1093_874/master/1093.jpg?width=140&quality=85&auto=format&fit=max&s=fc97ad8fa85e4e0121d1668096b7a01d"
           }
         ],
         "POLITICS": [
+          {
+            "title": "New UK taskforce will examine influence of political mega-donors",
+            "link": "https://www.theguardian.com/politics/2026/sep/02/new-uk-taskforce-will-examine-influence-of-political-mega-donors",
+            "published": "Wed, 02 Sep 2026 19:00:42 GMT",
+            "source": "The Guardian",
+            "categories": "Politics Stella Creasy Labour Andy Burnham Reform UK Nigel Farage Christopher Harborne",
+            "image": "https://i.guim.co.uk/img/media/8175e7eb0fb70b4194c6f7b24c36be784d16fe2e/121_0_2857_2286/master/2857.jpg?width=140&quality=85&auto=format&fit=max&s=3bd75b44cce61e3328f7de4cadc314f0"
+          },
+          {
+            "title": "Bayeux tapestry loan symbolises ‘entente amicale’ between France and UK, says King Charles",
+            "link": "https://www.theguardian.com/world/2026/sep/02/bayeux-tapestry-loan-symbolises-entente-amicale-between-france-and-uk-says-king-charles",
+            "published": "Wed, 02 Sep 2026 18:58:50 GMT",
+            "source": "The Guardian",
+            "categories": "Bayeux tapestry King Charles III Emmanuel Macron Andy Burnham Monarchy Politics UK news France British Museum Heritage Europe",
+            "image": "https://i.guim.co.uk/img/media/f22941b851e3fad322fbd8fa5f1851e6e71ea962/0_0_3916_3133/master/3916.jpg?width=140&quality=85&auto=format&fit=max&s=5f341c02a9bcfcf7b2d474c7a0ec6db0"
+          },
           {
             "title": "Burnham tries to calm bond market fears as sell-off threatens crucial first budget",
             "link": "https://www.theguardian.com/business/2026/sep/02/burnham-tries-to-calm-bond-market-fears-as-sell-off-threatens-budget",
@@ -655,14 +671,6 @@
             "source": "The Guardian",
             "categories": "Business Politics Bonds Budget Andy Burnham John Healey Labour",
             "image": "https://i.guim.co.uk/img/media/cc32d3b16fe2049b60c6ed4f5264cdb6c78bdfb3/368_0_3063_2450/master/3063.jpg?width=140&quality=85&auto=format&fit=max&s=9ad49f159ebc197d1aa3a605a5b1d914"
-          },
-          {
-            "title": "Bayeux tapestry loan symbolises ‘entente amicale’ between France and UK, says King Charles",
-            "link": "https://www.theguardian.com/world/2026/sep/02/bayeux-tapestry-loan-symbolises-entente-amicale-between-france-and-uk-says-king-charles",
-            "published": "Wed, 02 Sep 2026 18:23:39 GMT",
-            "source": "The Guardian",
-            "categories": "Bayeux tapestry King Charles III Emmanuel Macron Andy Burnham Monarchy Politics UK news France British Museum Heritage",
-            "image": "https://i.guim.co.uk/img/media/f22941b851e3fad322fbd8fa5f1851e6e71ea962/0_0_3916_3133/master/3916.jpg?width=140&quality=85&auto=format&fit=max&s=5f341c02a9bcfcf7b2d474c7a0ec6db0"
           },
           {
             "title": "Green party members back Zack Polanski to stand in London byelection",
@@ -695,14 +703,6 @@
             "source": "The Guardian",
             "categories": "Politics UK news Andy Burnham PMQs Labour Kemi Badenoch House of Commons Government borrowing Tax and spending Economics Economic policy Pensions Zack Polanski Green party Byelections Scottish politics Welsh politics Wales Rhun ap Iorwerth Nigel Farage Reform UK",
             "image": "https://i.guim.co.uk/img/media/f89dcc944b11e120270f68907c76b430c496ed95/0_0_3000_2400/master/3000.jpg?width=140&quality=85&auto=format&fit=max&s=4c48c1f90ccd3872c93d826ac7ca3c02"
-          },
-          {
-            "title": "Farage compares standards inquiry to investigations faced by fellow ‘outsider’ Trump",
-            "link": "https://www.theguardian.com/politics/2026/sep/02/nigel-farage-compares-standards-inquiry-reform-trump",
-            "published": "Wed, 02 Sep 2026 15:24:18 GMT",
-            "source": "The Guardian",
-            "categories": "Nigel Farage Reform UK Politics Party funding House of Commons UK news",
-            "image": "https://i.guim.co.uk/img/media/878723f68912fd6cd8e89e1cd4fe23f6095268c5/964_0_4036_3230/master/4036.jpg?width=140&quality=85&auto=format&fit=max&s=cd72095e7fab8e6e437a89aedd6b820b"
           },
           {
             "title": "The Guardian view on Kemi Badenoch and the economy: a plan stuck in the Tory comfort zone | Editorial",
@@ -869,6 +869,14 @@
             "image": "https://i.guim.co.uk/img/media/7c7128dc7679d8f7392c821f4bebc8b71431f487/1_0_4998_4000/master/4998.jpg?width=140&quality=85&auto=format&fit=max&s=5530b0382e6f45a941ab7e335b07e7b5"
           },
           {
+            "title": "Google defeats US justice department bid to force ad tech sale",
+            "link": "https://www.theguardian.com/technology/2026/sep/02/google-defeats-justice-department-bid-ad-tech-sale",
+            "published": "Wed, 02 Sep 2026 18:37:20 GMT",
+            "source": "The Guardian",
+            "categories": "Google Technology Alphabet Law (US) AI (artificial intelligence) Advertising",
+            "image": "https://i.guim.co.uk/img/media/d9626a0a79a75b81819b461da606062afd9d0125/283_0_3017_2415/master/3017.jpg?width=140&quality=85&auto=format&fit=max&s=1026a9a7d9f5dd046d2e634c233d3b5d"
+          },
+          {
             "title": "Uber drivers launch European class action over ‘soulless’ and ‘scary’ AI algorithm",
             "link": "https://www.theguardian.com/technology/2026/sep/02/uber-drivers-europe-legal-action-ai-algorithm",
             "published": "Wed, 02 Sep 2026 15:37:26 GMT",
@@ -883,14 +891,6 @@
             "source": "The Guardian",
             "categories": "Technology AI (artificial intelligence) US news US education",
             "image": "https://i.guim.co.uk/img/media/dcbfd45c8361cdc72b4b6a984252c88e2c3640ae/314_438_2784_2228/master/2784.jpg?width=140&quality=85&auto=format&fit=max&s=4823479de8a2eafc167ba89824915196"
-          },
-          {
-            "title": "Architect of UK’s AI strategy joins Anthropic amid conflict of interest warning",
-            "link": "https://www.theguardian.com/technology/2026/sep/02/architect-of-uks-ai-strategy-joins-anthropic",
-            "published": "Wed, 02 Sep 2026 14:29:43 GMT",
-            "source": "The Guardian",
-            "categories": "Anthropic AI (artificial intelligence) Computing Technology Politics UK news Business",
-            "image": "https://i.guim.co.uk/img/media/852ec2a6836480a45df3ced8fc2d4b4204eb9886/155_0_2073_1659/master/2073.jpg?width=140&quality=85&auto=format&fit=max&s=78565fb8a269d14119f55dafd9800097"
           }
         ],
         "ENTERTAINMENT": [
@@ -1495,20 +1495,20 @@
         "image": "https://e3.365dm.com/26/09/1920x1080/skynews-marinha-albufeira-portugal_7339142.jpg?20260902190645"
       },
       {
-        "title": "Nationwide migrant protests prompt appeals for calm in Spain's North African territory",
-        "link": "https://news.sky.com/story/nationwide-migrant-protests-prompt-appeals-for-calm-in-ceuta-spains-north-african-territory-13580443",
-        "published": "Wed, 02 Sep 2026 16:35:00 +0100",
-        "source": "Sky News",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-ceuta-spain-migrants_7339036.jpg?20260902170456"
-      },
-      {
         "title": "Tiger Woods gets five-year driving ban and fine after entering car crash plea deal",
         "link": "https://news.sky.com/story/tiger-woods-gets-five-year-driving-ban-and-fine-after-entering-plea-deal-over-charges-related-to-car-crash-13580365",
         "published": "Wed, 02 Sep 2026 13:21:00 +0100",
         "source": "Sky News",
         "categories": "",
         "image": "https://e3.365dm.com/26/09/1920x1080/skynews-tiger-woods-court_7338755.jpg?20260902133756"
+      },
+      {
+        "title": "Nationwide migrant protests prompt appeals for calm in Spain's North African territory",
+        "link": "https://news.sky.com/story/nationwide-migrant-protests-prompt-appeals-for-calm-in-ceuta-spains-north-african-territory-13580443",
+        "published": "Wed, 02 Sep 2026 16:35:00 +0100",
+        "source": "Sky News",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-ceuta-spain-migrants_7339036.jpg?20260902170456"
       },
       {
         "title": "Pistol in lake could be linked to unsolved killings of British family",

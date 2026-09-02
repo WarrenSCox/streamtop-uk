@@ -1,6 +1,6 @@
 {
   "version": 17,
-  "generatedAt": "2026-09-02T19:05:44.420Z",
+  "generatedAt": "2026-09-02T19:37:36.877Z",
   "country": "GB",
   "strategy": "Official source first; labelled fallback when no compatible official chart is available.",
   "services": {
@@ -685,6 +685,30 @@
         },
         {
           "rank": 8,
+          "sourceRank": 58,
+          "title": "The Rock",
+          "year": 1996,
+          "poster": "/poster/180394645/s166/the-rock.webp",
+          "url": "https://www.justwatch.com/uk/movie/the-rock",
+          "trend": "UP",
+          "trendDifference": 92,
+          "daysInTop10": 1,
+          "topRank": 9
+        },
+        {
+          "rank": 9,
+          "sourceRank": 69,
+          "title": "Aliens",
+          "year": 1986,
+          "poster": "/poster/320935529/s166/aliens.webp",
+          "url": "https://www.justwatch.com/uk/movie/aliens",
+          "trend": "UP",
+          "trendDifference": 7,
+          "daysInTop10": 2,
+          "topRank": 2
+        },
+        {
+          "rank": 10,
           "sourceRank": 70,
           "title": "Send Help",
           "year": 2026,
@@ -694,30 +718,6 @@
           "trendDifference": -33,
           "daysInTop10": 52,
           "topRank": 1
-        },
-        {
-          "rank": 9,
-          "sourceRank": 81,
-          "title": "Aliens",
-          "year": 1986,
-          "poster": "/poster/320935529/s166/aliens.webp",
-          "url": "https://www.justwatch.com/uk/movie/aliens",
-          "trend": "DOWN",
-          "trendDifference": -5,
-          "daysInTop10": 2,
-          "topRank": 2
-        },
-        {
-          "rank": 10,
-          "sourceRank": 107,
-          "title": "Office Space",
-          "year": 1999,
-          "poster": "/poster/138486566/s166/office-space.webp",
-          "url": "https://www.justwatch.com/uk/movie/office-space",
-          "trend": "UP",
-          "trendDifference": 407,
-          "daysInTop10": 1,
-          "topRank": 10
         }
       ],
       "tv": [
@@ -882,7 +882,7 @@
           "rank": 2,
           "title": "Yellow Mirror",
           "year": 2026,
-          "type": "MOVIE",
+          "type": null,
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/01a020fe-1a30-77cd-a762-593482b1ed6f/compose?format=webp&width=386&label=top_ranked_2_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-b85428e1-f670-4270-96d3-4d0e186336e6"
         },
@@ -930,7 +930,7 @@
           "rank": 8,
           "title": "Marvel Studios' Avengers: Endgame",
           "year": 2019,
-          "type": "MOVIE",
+          "type": null,
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/6a8390cc-0240-46fc-9c52-5287ca3676eb/compose?format=webp&width=386&label=top_ranked_8_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-b39aa962-be56-4b09-a536-98617031717f"
         },
@@ -938,7 +938,7 @@
           "rank": 9,
           "title": "Marvel Studios' Avengers: Infinity War",
           "year": 2018,
-          "type": "MOVIE",
+          "type": null,
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/433236b6-470b-461e-bfc5-e48016f077eb/compose?format=webp&width=386&label=top_ranked_9_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-9a136e06-852a-41bf-b71d-fa061cb43225"
         },
@@ -1317,6 +1317,18 @@
         },
         {
           "rank": 9,
+          "sourceRank": 50,
+          "title": "The Shawshank Redemption",
+          "year": 1994,
+          "poster": "/poster/309786652/s166/the-shawshank-redemption.webp",
+          "url": "https://www.justwatch.com/uk/movie/the-shawshank-redemption",
+          "trend": "UP",
+          "trendDifference": 95,
+          "daysInTop10": 8,
+          "topRank": 4
+        },
+        {
+          "rank": 10,
           "sourceRank": 52,
           "title": "Tenet",
           "year": 2020,
@@ -1325,18 +1337,6 @@
           "trend": "UP",
           "trendDifference": 7,
           "daysInTop10": 89,
-          "topRank": 1
-        },
-        {
-          "rank": 10,
-          "sourceRank": 53,
-          "title": "Mystic River",
-          "year": 2003,
-          "poster": "/poster/202176339/s166/mystic-river.webp",
-          "url": "https://www.justwatch.com/uk/movie/mystic-river",
-          "trend": "UP",
-          "trendDifference": 17,
-          "daysInTop10": 2,
           "topRank": 1
         }
       ],
@@ -2373,7 +2373,7 @@
           "cadence": "weekly",
           "note": "Fresh data did not update successfully, so the last successful results are being shown.",
           "stale": true,
-          "staleAsOf": "2026-09-02T19:04:24.010Z"
+          "staleAsOf": "2026-09-02T19:05:44.420Z"
         }
       },
       "error": null,
