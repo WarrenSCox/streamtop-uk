@@ -11,9 +11,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=5.3.29">
+  <link rel="stylesheet" href="styles.css?v=5.3.30">
   <title>WozzaWatch</title>
-  <meta name="build" content="5.3.29">
+  <meta name="build" content="5.3.30">
 </head>
 <body>
   <header class="topbar">
@@ -35,10 +35,10 @@
     <button type="button" class="wozza-menu-item" data-wozza="watch" data-href="index.html"><span class="wozza-menu-rank">01</span><img src="icon.svg" alt=""><span>WozzaWatch</span></button>
     <button type="button" class="wozza-menu-item" data-wozza="tune" data-href="tune.html"><span class="wozza-menu-rank">02</span><img src="tune-icon.svg" alt=""><span>WozzaTune</span></button>
     <button type="button" class="wozza-menu-item" data-wozza="list" data-href="my-list.html"><span class="wozza-menu-rank">03</span><img src="my-list-icon.svg" alt=""><span>Watchlist</span></button>
-    <button type="button" class="wozza-menu-item prototype-item" data-wozza="read"><span class="wozza-menu-rank">04</span><img src="read-icon.svg" alt=""><span>WozzaRead</span></button>
-    <button type="button" class="wozza-menu-item prototype-item" data-wozza="news"><span class="wozza-menu-rank">05</span><img src="news-icon.svg" alt=""><span>WozzaNews</span></button>
+    <button type="button" class="wozza-menu-item prototype-item" data-wozza="read"><span class="wozza-menu-rank">04</span><img src="read-icon.png" alt=""><span>WozzaRead</span></button>
+    <button type="button" class="wozza-menu-item prototype-item" data-wozza="news"><span class="wozza-menu-rank">05</span><img src="news-icon.png" alt=""><span>WozzaNews</span></button>
   </div>
-  <div class="wozza-menu-note"></div>
+  <button type="button" class="wozza-menu-back" aria-label="Close All Wozzas menu">← BACK</button>
 </aside>
 
   <main>
@@ -71,7 +71,7 @@
         <a id="sourceBadge" class="source-badge" target="_blank" rel="noopener">Loading</a>
       </div>
       <div id="loading" class="loading-list">
-        <div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div><div class="wozza-menu-back" role="button" tabindex="0" aria-label="Close All Wozzas menu">← <span>BACK</span></div>
+        <div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div>
       </div>
       <ol id="chart" class="chart"></ol>
       <div id="errorBox" class="error-box hidden">
@@ -82,7 +82,7 @@
     </section>
   </main>
 
-  <footer><p>App created by Warren · v5.3.29</p></footer>
-  <script src="app.js?v=5.3.29" defer></script>
+  <footer><p>App created by Warren · v5.3.30</p></footer>
+  <script src="app.js?v=5.3.30" defer></script>
 </body>
 </html>
