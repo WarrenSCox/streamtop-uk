@@ -468,4 +468,116 @@ html,body,body *{-webkit-user-select:none;user-select:none;-webkit-touch-callout
  .guardian-logo i{width:36px;height:36px;font-size:25px}
  .guardian-logo b{font-size:17px}
 }
-\n\n/* v5.3.40 — Metro + aligned provider switch + WozzaNews paper-plane flourish */\n.news-provider-switch,.news-chart-wrap{width:100%!important;max-width:none!important;box-sizing:border-box!important}\n.news-provider-switch{grid-template-columns:repeat(3,minmax(0,1fr))!important}\n.news-provider-btn{padding:0 8px}\n.metro-logo{font-family:"Archivo Black",Impact,sans-serif;font-size:28px;letter-spacing:-.055em;color:var(--navy);white-space:nowrap}\n.news-chart-heading{grid-template-columns:minmax(0,1fr) 112px!important;min-height:72px}\n.news-plane{width:108px;height:54px;justify-self:end;display:block;overflow:visible}\n.news-plane svg{width:100%;height:100%;overflow:visible}\n.plane-trail{fill:none;stroke:#8e78bf;stroke-width:3;stroke-linecap:round;stroke-dasharray:4 7;opacity:.75;stroke-dashoffset:0}\n.paper-plane{fill:#c8b9e7;stroke:var(--navy);stroke-width:2.6;stroke-linejoin:round;transform-origin:82px 28px}\n.paper-plane-fold{fill:none;stroke:var(--navy);stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}\n@keyframes newsTrailFly{0%,72%,100%{stroke-dashoffset:0;opacity:.72}78%{stroke-dashoffset:26;opacity:.25}86%{stroke-dashoffset:-18;opacity:.9}}\n@keyframes newsPlaneFly{0%,72%,100%{transform:translate(0,0) rotate(0)}77%{transform:translate(-5px,3px) rotate(-7deg)}84%{transform:translate(5px,-5px) rotate(8deg)}90%{transform:translate(0,0) rotate(0)}}\n.plane-trail{animation:newsTrailFly 4s ease-in-out infinite}\n.paper-plane,.paper-plane-fold{animation:newsPlaneFly 4s ease-in-out infinite;transform-origin:82px 28px}\n@media(max-width:560px){\n .news-provider-btn{height:66px!important;padding:0 4px}\n .sky-logo{font-size:21px!important}\n .guardian-logo{gap:5px!important}.guardian-logo i{width:30px!important;height:30px!important;font-size:21px!important}.guardian-logo b{font-size:13px!important}\n .metro-logo{font-size:20px}\n .news-chart-heading{grid-template-columns:minmax(0,1fr) 92px!important}\n .news-plane{width:90px;height:46px}\n}\n@media(max-width:370px){.sky-logo{font-size:18px!important}.guardian-logo b{font-size:11px!important}.guardian-logo i{width:27px!important;height:27px!important;font-size:18px!important}.metro-logo{font-size:17px}}\n@media(prefers-reduced-motion:reduce){.plane-trail,.paper-plane,.paper-plane-fold{animation:none!important}}\n
+
+
+/* v5.3.40 — Metro + aligned provider switch + WozzaNews paper-plane flourish */
+.news-provider-switch,.news-chart-wrap{width:100%!important;max-width:none!important;box-sizing:border-box!important}
+.news-provider-switch{grid-template-columns:repeat(3,minmax(0,1fr))!important}
+.news-provider-btn{padding:0 8px}
+.metro-logo{font-family:"Archivo Black",Impact,sans-serif;font-size:28px;letter-spacing:-.055em;color:var(--navy);white-space:nowrap}
+.news-chart-heading{grid-template-columns:minmax(0,1fr) 112px!important;min-height:72px}
+.news-plane{width:108px;height:54px;justify-self:end;display:block;overflow:visible}
+.news-plane svg{width:100%;height:100%;overflow:visible}
+.plane-trail{fill:none;stroke:#8e78bf;stroke-width:3;stroke-linecap:round;stroke-dasharray:4 7;opacity:.75;stroke-dashoffset:0}
+.paper-plane{fill:#c8b9e7;stroke:var(--navy);stroke-width:2.6;stroke-linejoin:round;transform-origin:82px 28px}
+.paper-plane-fold{fill:none;stroke:var(--navy);stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+@keyframes newsTrailFly{0%,72%,100%{stroke-dashoffset:0;opacity:.72}78%{stroke-dashoffset:26;opacity:.25}86%{stroke-dashoffset:-18;opacity:.9}}
+@keyframes newsPlaneFly{0%,72%,100%{transform:translate(0,0) rotate(0)}77%{transform:translate(-5px,3px) rotate(-7deg)}84%{transform:translate(5px,-5px) rotate(8deg)}90%{transform:translate(0,0) rotate(0)}}
+.plane-trail{animation:newsTrailFly 4s ease-in-out infinite}
+.paper-plane,.paper-plane-fold{animation:newsPlaneFly 4s ease-in-out infinite;transform-origin:82px 28px}
+@media(max-width:560px){
+ .news-provider-btn{height:66px!important;padding:0 4px}
+ .sky-logo{font-size:21px!important}
+ .guardian-logo{gap:5px!important}.guardian-logo i{width:30px!important;height:30px!important;font-size:21px!important}.guardian-logo b{font-size:13px!important}
+ .metro-logo{font-size:20px}
+ .news-chart-heading{grid-template-columns:minmax(0,1fr) 92px!important}
+ .news-plane{width:90px;height:46px}
+}
+@media(max-width:370px){.sky-logo{font-size:18px!important}.guardian-logo b{font-size:11px!important}.guardian-logo i{width:27px!important;height:27px!important;font-size:18px!important}.metro-logo{font-size:17px}}
+@media(prefers-reduced-motion:reduce){.plane-trail,.paper-plane,.paper-plane-fold{animation:none!important}}
+
+
+/* v5.3.41 — WozzaNews CR fixes */
+.news-provider-switch{
+  display:grid!important;
+  grid-template-columns:repeat(3,minmax(0,1fr))!important;
+  grid-template-rows:1fr!important;
+  width:100%!important;
+  max-width:none!important;
+  align-items:stretch!important;
+}
+.news-provider-btn{
+  width:100%!important;
+  min-width:0!important;
+  max-width:none!important;
+  overflow:hidden!important;
+}
+.news-provider-btn .sky-logo,
+.news-provider-btn .guardian-logo,
+.news-provider-btn .metro-logo{
+  max-width:100%!important;
+}
+.news-chart-heading{
+  display:grid!important;
+  grid-template-columns:minmax(0,1fr) 108px!important;
+  align-items:center!important;
+}
+.news-plane{
+  display:block!important;
+  visibility:visible!important;
+  opacity:1!important;
+  width:108px!important;
+  height:54px!important;
+  justify-self:end!important;
+  pointer-events:none;
+}
+.news-plane svg{display:block!important;width:100%!important;height:100%!important}
+.news-plane .plane-trail{
+  fill:none!important;
+  stroke:#8e78bf!important;
+  stroke-width:3!important;
+  stroke-linecap:round!important;
+  stroke-dasharray:4 7!important;
+  animation:newsTrailFly 4s ease-in-out infinite!important;
+}
+.news-plane .paper-plane{
+  fill:#c8b9e7!important;
+  stroke:var(--navy)!important;
+  stroke-width:2.6!important;
+  stroke-linejoin:round!important;
+  animation:newsPlaneFly 4s ease-in-out infinite!important;
+  transform-origin:82px 28px!important;
+}
+.news-plane .paper-plane-fold{
+  fill:none!important;
+  stroke:var(--navy)!important;
+  stroke-width:2.2!important;
+  stroke-linecap:round!important;
+  stroke-linejoin:round!important;
+  animation:newsPlaneFly 4s ease-in-out infinite!important;
+  transform-origin:82px 28px!important;
+}
+@media(max-width:560px){
+  .news-provider-switch{grid-template-columns:repeat(3,minmax(0,1fr))!important}
+  .news-provider-btn{height:66px!important;padding:0 3px!important}
+  .sky-logo{font-size:20px!important}
+  .guardian-logo{gap:4px!important}
+  .guardian-logo i{width:28px!important;height:28px!important;font-size:19px!important}
+  .guardian-logo b{font-size:12px!important}
+  .metro-logo{font-size:18px!important}
+  .news-chart-heading{grid-template-columns:minmax(0,1fr) 88px!important}
+  .news-plane{width:88px!important;height:44px!important}
+}
+@media(max-width:380px){
+  .sky-logo{font-size:17px!important}
+  .guardian-logo i{width:25px!important;height:25px!important;font-size:17px!important}
+  .guardian-logo b{font-size:10px!important}
+  .metro-logo{font-size:16px!important}
+  .news-chart-heading{grid-template-columns:minmax(0,1fr) 78px!important}
+  .news-plane{width:78px!important;height:40px!important}
+}
+@media(prefers-reduced-motion:reduce){
+  .news-plane .plane-trail,
+  .news-plane .paper-plane,
+  .news-plane .paper-plane-fold{animation:none!important}
+}

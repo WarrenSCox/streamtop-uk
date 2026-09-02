@@ -1,8 +1,8 @@
-WozzaWatch v5.3.40 — WozzaNews Metro release
+WozzaWatch v5.3.41 — WozzaNews CR fixes
 
-- Adds Metro as the third WozzaNews provider: Sky News / The Guardian / Metro.
-- Provider selector now has three equal tabs and is explicitly the same full width as the newsfeed card below.
-- Removes the repeated source badge and green verified tick from the newsfeed header.
-- Uses that header space for a Wozza-style paper aeroplane with curved contrail.
-- Paper plane performs a short playful movement every 4 seconds; respects reduced-motion settings.
-- Metro RSS uses category-specific endpoints with safe fallbacks to the main Metro feed.
+- Sky News / The Guardian / Metro forced into one single horizontal row.
+- Provider selector keeps the full width aligned with the newsfeed card.
+- Metro category handling tightened so generic fallback stories are classified by topic before appearing in Tech, Entertainment, Business, Politics or World.
+- Paper-aeroplane + contrail flourish restored in the LATEST [CATEGORY] header.
+- Animation runs on a ~4 second loop and respects reduced-motion preferences.
+- Cache/build version bumped so installed copies pick up the corrected CSS.
