@@ -350,3 +350,39 @@ html,body,body *{-webkit-user-select:none;user-select:none;-webkit-touch-callout
  .news-chart-heading .source-badge{padding:6px 8px;font-size:7.5px}
  .news-chart-heading .verified{width:18px;height:18px;font-size:11px;margin-left:3px}
 }
+
+/* v5.3.35 — WozzaNews no-overlap header + cleaner back control */
+.news-home-switch{
+  width:40px!important;height:40px!important;
+  display:grid!important;place-items:center!important;
+  margin-left:4px!important;flex:0 0 auto!important;
+}
+.news-home-switch img{width:38px!important;height:30px!important;display:block!important}
+
+.news-chart-heading{
+  display:flex!important;
+  flex-direction:column!important;
+  align-items:stretch!important;
+  grid-template-columns:none!important;
+  gap:10px!important;
+}
+.news-chart-heading #newsTitle{
+  width:100%!important;
+  max-width:100%!important;
+  min-width:0!important;
+  margin:0!important;
+  white-space:normal!important;
+  overflow:visible!important;
+  line-height:.98!important;
+}
+.news-chart-heading .source-badge{
+  position:static!important;
+  align-self:flex-end!important;
+  flex:0 0 auto!important;
+  margin:0!important;
+  z-index:auto!important;
+}
+@media(max-width:420px){
+  .news-chart-heading{gap:9px!important}
+  .news-chart-heading #newsTitle{font-size:clamp(24px,7.4vw,31px)!important}
+}

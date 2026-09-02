@@ -30,7 +30,7 @@ function media(xml){
 }
 async function fetchFeed(url){
  const r=await fetch(url,{redirect:"follow",headers:{
-  "User-Agent":"Mozilla/5.0 (compatible; WozzaNews/5.3.34)",
+  "User-Agent":"Mozilla/5.0 (compatible; WozzaNews/5.3.35)",
   "Accept":"application/rss+xml, application/xml, text/xml;q=0.9, */*;q=0.8"
  }});
  if(!r.ok)throw new Error(`${r.status} ${r.statusText}`);
