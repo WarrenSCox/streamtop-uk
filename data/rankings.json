@@ -1,6 +1,6 @@
 {
   "version": 17,
-  "generatedAt": "2026-09-02T18:32:58.370Z",
+  "generatedAt": "2026-09-02T18:34:59.005Z",
   "country": "GB",
   "strategy": "Official source first; labelled fallback when no compatible official chart is available.",
   "services": {
@@ -505,13 +505,13 @@
         },
         {
           "rank": 5,
-          "sourceRank": 31,
+          "sourceRank": 29,
           "title": "Sterling Point",
           "year": 2026,
           "poster": "/poster/347373626/s166/sterling-point.webp",
           "url": "https://www.justwatch.com/uk/tv-series/sterling-point",
           "trend": "DOWN",
-          "trendDifference": -5,
+          "trendDifference": -3,
           "daysInTop10": 9,
           "topRank": 4
         },
@@ -795,13 +795,13 @@
         },
         {
           "rank": 7,
-          "sourceRank": 42,
+          "sourceRank": 44,
           "title": "The Bear",
           "year": 2022,
           "poster": "/poster/346903971/s166/the-bear-2022.webp",
           "url": "https://www.justwatch.com/uk/tv-series/the-bear-2022",
           "trend": "DOWN",
-          "trendDifference": -9,
+          "trendDifference": -11,
           "daysInTop10": 351,
           "topRank": 1
         },
@@ -874,7 +874,7 @@
           "rank": 1,
           "title": "Furious",
           "year": 2026,
-          "type": "SHOW",
+          "type": null,
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/019fa9fd-c0de-7eab-963c-8ec352530398/compose?format=webp&width=386&label=top_ranked_1_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-5d4924b7-1cde-47c3-8852-f30bdd7fe979"
         },
@@ -1811,13 +1811,13 @@
         },
         {
           "rank": 3,
-          "sourceRank": 375,
+          "sourceRank": 758,
           "title": "The Hack",
           "year": 2025,
           "poster": "/poster/337841585/s166/the-hack.webp",
           "url": "https://www.justwatch.com/uk/tv-series/the-hack",
-          "trend": "UP",
-          "trendDifference": 301,
+          "trend": "DOWN",
+          "trendDifference": -82,
           "daysInTop10": 3,
           "topRank": 5
         },
