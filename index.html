@@ -6,20 +6,20 @@
   <meta name="theme-color" content="#9AB2D4">
   <meta name="description" content="WozzaWatch brings UK streaming and cinema charts together, using official sources first and clearly labelled fallbacks.">
   <link rel="manifest" href="manifest.webmanifest">
-  <link rel="icon" href="icon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="icon.svg">
+  <link rel="icon" href="icon.png" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=5.3.24">
+  <link rel="stylesheet" href="styles.css?v=5.3.25">
   <title>WozzaWatch</title>
-  <meta name="build" content="5.3.24">
+  <meta name="build" content="5.3.25">
 </head>
 <body>
   <header class="topbar">
     <div class="brand-cluster">
       <div class="brand">
-        <img src="icon.svg" alt="" class="brand-icon">
+        <img src="icon.png" alt="" class="brand-icon">
         <h1>WOZZA<span>WATCH</span></h1>
       </div>
       <a class="sister-switch sister-brand compact-brand" href="tune.html" aria-label="Open WozzaTune" title="Open WozzaTune"><img src="tune-icon.svg" alt=""></a><a class="sister-switch list-switch compact-brand" href="my-list.html" aria-label="Open Watchlist" title="Watchlist"><img src="my-list-icon.svg" alt=""></a>
@@ -32,9 +32,9 @@
 <aside class="wozza-menu" id="wozzaMenu" aria-hidden="true" aria-label="All Wozzas">
   <div class="wozza-menu-title">ALL WOZZAS</div>
   <div class="wozza-menu-list" id="wozzaMenuList">
-    <a href="index.html" class="wozza-menu-item" data-wozza="watch"><span class="wozza-menu-rank">01</span><img src="icon.svg" alt=""><span>WozzaWatch</span></a>
-    <a href="tune.html" class="wozza-menu-item" data-wozza="tune"><span class="wozza-menu-rank">02</span><img src="tune-icon.svg" alt=""><span>WozzaTune</span></a>
-    <a href="my-list.html" class="wozza-menu-item" data-wozza="list"><span class="wozza-menu-rank">03</span><img src="my-list-icon.svg" alt=""><span>Watchlist</span></a>
+    <button type="button" class="wozza-menu-item" data-wozza="watch" data-href="index.html"><span class="wozza-menu-rank">01</span><img src="icon.png" alt=""><span>WozzaWatch</span></button>
+    <button type="button" class="wozza-menu-item" data-wozza="tune" data-href="tune.html"><span class="wozza-menu-rank">02</span><img src="tune-icon.svg" alt=""><span>WozzaTune</span></button>
+    <button type="button" class="wozza-menu-item" data-wozza="list" data-href="my-list.html"><span class="wozza-menu-rank">03</span><img src="my-list-icon.svg" alt=""><span>Watchlist</span></button>
     <button type="button" class="wozza-menu-item prototype-item" data-wozza="read"><span class="wozza-menu-rank">04</span><img src="read-icon.png" alt=""><span>WozzaRead</span></button>
     <button type="button" class="wozza-menu-item prototype-item" data-wozza="news"><span class="wozza-menu-rank">05</span><img src="news-icon.png" alt=""><span>WozzaNews</span></button>
   </div>
@@ -82,7 +82,7 @@
     </section>
   </main>
 
-  <footer><p>App created by Warren · v5.3.24</p></footer>
-  <script src="app.js?v=5.3.24" defer></script>
+  <footer><p>App created by Warren · v5.3.25</p></footer>
+  <script src="app.js?v=5.3.25" defer></script>
 </body>
 </html>

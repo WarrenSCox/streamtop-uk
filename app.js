@@ -513,7 +513,7 @@ initProviderSwipe();
 loadData();
 
 
-// v5.3.24: when already at the top, a deliberate downward pull switches
+// v5.3.25: when already at the top, a deliberate downward pull switches
 // WozzaWatch → WozzaTune → Watchlist → WozzaWatch instead of native refresh.
 function initTopPullSwitch(nextUrl,nextLabel){
   let startY=0,pulling=false,distance=0;
@@ -542,7 +542,7 @@ function initTopPullSwitch(nextUrl,nextLabel){
 initTopPullSwitch('tune.html','WozzaTune');
 
 
-// v5.3.24: at the bottom, a deliberate upward flick switches backwards
+// v5.3.25: at the bottom, a deliberate upward flick switches backwards
 // through Watch ← Tune ← List. No popup/"Opening" message.
 function initBottomFlickSwitch(prevUrl){
   let startY=0,tracking=false,distance=0; const threshold=82;
@@ -556,7 +556,7 @@ initBottomFlickSwitch('my-list.html');
 
 
 
-// v5.3.24 — after four quiet seconds, alternate the two selector icons every four seconds.
+// v5.3.25 — after four quiet seconds, alternate the two selector icons every four seconds.
 function initIdleGestureHint(){
   const selector=document.querySelector('.segmented');
   if(!selector||window.matchMedia('(prefers-reduced-motion: reduce)').matches)return;
@@ -576,7 +576,7 @@ function initIdleGestureHint(){
 }
 initIdleGestureHint();
 
-// v5.3.24 — aggressively adopt new PWA releases without an update popup.
+// v5.3.25 — aggressively adopt new PWA releases without an update popup.
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', async () => {
     try {
@@ -594,10 +594,10 @@ if ('serviceWorker' in navigator) {
 function initWozzaMenu(){const trigger=document.querySelector('.header-copy'),menu=document.querySelector('#wozzaMenu'),backdrop=document.querySelector('#wozzaMenuBackdrop');if(!trigger||!menu||!backdrop)return;trigger.setAttribute('role','button');trigger.setAttribute('tabindex','0');trigger.setAttribute('aria-haspopup','menu');trigger.setAttribute('aria-expanded','false');const open=()=>{backdrop.hidden=false;menu.classList.add('open');menu.setAttribute('aria-hidden','false');trigger.setAttribute('aria-expanded','true')};const close=()=>{menu.classList.remove('open');menu.setAttribute('aria-hidden','true');trigger.setAttribute('aria-expanded','false');setTimeout(()=>{if(!menu.classList.contains('open'))backdrop.hidden=true},180)};const toggle=()=>menu.classList.contains('open')?close():open();trigger.addEventListener('click',toggle);trigger.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();toggle()}});backdrop.addEventListener('click',close);document.addEventListener('keydown',e=>{if(e.key==='Escape')close()});menu.querySelectorAll('.prototype-item').forEach(button=>button.addEventListener('click',()=>{button.classList.remove('prototype-pulse');void button.offsetWidth;button.classList.add('prototype-pulse')}))}initWozzaMenu();
 
 
-// v5.3.24 — Ranked All Wozzas menu. Hold + drag; top three become header navigation.
+// v5.3.25 — Ranked All Wozzas menu. Hold + drag; top three become header navigation.
 const WOZZA_ORDER_KEY='wozzawatch-nav-order-v1';
 const WOZZA_META={
- watch:{label:'WozzaWatch',href:'index.html',icon:'icon.svg'},
+ watch:{label:'WozzaWatch',href:'index.html',icon:'icon.png'},
  tune:{label:'WozzaTune',href:'tune.html',icon:'tune-icon.svg'},
  list:{label:'Watchlist',href:'my-list.html',icon:'my-list-icon.svg'},
  read:{label:'WozzaRead',href:null,icon:'read-icon.png'},
@@ -676,3 +676,41 @@ function initWozzaRankDrag(){
   list.addEventListener('touchcancel',cancel,{passive:true});
 }
 renderWozzaMenuOrder();initWozzaRankDrag();
+
+
+// v5.3.25 — Android-safe ranked menu.
+// Quick tap navigates; hold+drag reorders. Native long-press link/image menus are suppressed.
+function hardenWozzaMenuRows(){
+  const list=document.getElementById('wozzaMenuList'); if(!list)return;
+  list.querySelectorAll('.wozza-menu-item').forEach(row=>{
+    row.addEventListener('contextmenu',e=>e.preventDefault());
+    row.addEventListener('dragstart',e=>e.preventDefault());
+    row.querySelectorAll('img').forEach(img=>{
+      img.draggable=false;
+      img.addEventListener('contextmenu',e=>e.preventDefault());
+      img.addEventListener('dragstart',e=>e.preventDefault());
+    });
+    row.addEventListener('click',e=>{
+      if(row.dataset.suppressTap==='1'){
+        e.preventDefault();
+        row.dataset.suppressTap='0';
+        return;
+      }
+      const href=row.dataset.href;
+      if(href) location.href=href;
+    });
+  });
+
+  let movedWhileDragging=false;
+  list.addEventListener('touchstart',()=>{movedWhileDragging=false},{passive:true});
+  list.addEventListener('touchmove',()=>{
+    if(list.querySelector('.wozza-menu-dragging')) movedWhileDragging=true;
+  },{passive:true});
+  list.addEventListener('touchend',()=>{
+    if(!movedWhileDragging)return;
+    const rows=list.querySelectorAll('.wozza-menu-item');
+    rows.forEach(r=>r.dataset.suppressTap='1');
+    setTimeout(()=>rows.forEach(r=>r.dataset.suppressTap='0'),450);
+  },{passive:true});
+}
+hardenWozzaMenuRows();
