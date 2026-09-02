@@ -144,7 +144,7 @@ render();
 document.addEventListener('visibilitychange',()=>{if(document.hidden)stopNervousPile();else scheduleNervousPile()});
 
 
-// v5.3.23: when already at the top, a deliberate downward pull switches
+// v5.3.24: when already at the top, a deliberate downward pull switches
 // WozzaWatch → WozzaTune → Watchlist → WozzaWatch instead of native refresh.
 function initTopPullSwitch(nextUrl,nextLabel){
   let startY=0,pulling=false,distance=0;
@@ -173,7 +173,7 @@ function initTopPullSwitch(nextUrl,nextLabel){
 initTopPullSwitch('index.html','WozzaWatch');
 
 
-// v5.3.23: at the bottom, a deliberate upward flick switches backwards
+// v5.3.24: at the bottom, a deliberate upward flick switches backwards
 // through Watch ← Tune ← List. No popup/"Opening" message.
 function initBottomFlickSwitch(prevUrl){
   let startY=0,tracking=false,distance=0; const threshold=82;
@@ -185,7 +185,7 @@ function initBottomFlickSwitch(prevUrl){
 }
 initBottomFlickSwitch('tune.html');
 
-// v5.3.23 — after four quiet seconds, alternate the two selector icons every four seconds.
+// v5.3.24 — after four quiet seconds, alternate the two selector icons every four seconds.
 function initIdleGestureHint(){
   const selector=document.querySelector('.segmented');
   if(!selector||window.matchMedia('(prefers-reduced-motion: reduce)').matches)return;
@@ -205,7 +205,7 @@ function initIdleGestureHint(){
 }
 initIdleGestureHint();
 
-// v5.3.23 — aggressively adopt new PWA releases without an update popup.
+// v5.3.24 — aggressively adopt new PWA releases without an update popup.
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', async () => {
     try {
@@ -223,14 +223,14 @@ if ('serviceWorker' in navigator) {
 function initWozzaMenu(){const trigger=document.querySelector('.header-copy'),menu=document.querySelector('#wozzaMenu'),backdrop=document.querySelector('#wozzaMenuBackdrop');if(!trigger||!menu||!backdrop)return;trigger.setAttribute('role','button');trigger.setAttribute('tabindex','0');trigger.setAttribute('aria-haspopup','menu');trigger.setAttribute('aria-expanded','false');const open=()=>{backdrop.hidden=false;menu.classList.add('open');menu.setAttribute('aria-hidden','false');trigger.setAttribute('aria-expanded','true')};const close=()=>{menu.classList.remove('open');menu.setAttribute('aria-hidden','true');trigger.setAttribute('aria-expanded','false');setTimeout(()=>{if(!menu.classList.contains('open'))backdrop.hidden=true},180)};const toggle=()=>menu.classList.contains('open')?close():open();trigger.addEventListener('click',toggle);trigger.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();toggle()}});backdrop.addEventListener('click',close);document.addEventListener('keydown',e=>{if(e.key==='Escape')close()});menu.querySelectorAll('.prototype-item').forEach(button=>button.addEventListener('click',()=>{button.classList.remove('prototype-pulse');void button.offsetWidth;button.classList.add('prototype-pulse')}))}initWozzaMenu();
 
 
-// v5.3.23 — Ranked All Wozzas menu. Hold + drag; top three become header navigation.
+// v5.3.24 — Ranked All Wozzas menu. Hold + drag; top three become header navigation.
 const WOZZA_ORDER_KEY='wozzawatch-nav-order-v1';
 const WOZZA_META={
  watch:{label:'WozzaWatch',href:'index.html',icon:'icon.svg'},
  tune:{label:'WozzaTune',href:'tune.html',icon:'tune-icon.svg'},
  list:{label:'Watchlist',href:'my-list.html',icon:'my-list-icon.svg'},
- read:{label:'WozzaRead',href:null,icon:'read-icon.svg'},
- news:{label:'WozzaNews',href:null,icon:'news-icon.svg'}
+ read:{label:'WozzaRead',href:null,icon:'read-icon.png'},
+ news:{label:'WozzaNews',href:null,icon:'news-icon.png'}
 };
 function getWozzaOrder(){
   const fallback=['watch','tune','list','read','news'];

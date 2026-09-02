@@ -1,1 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><rect width="512" height="512" rx="116" fill="#9AB2D4"/><path d="M160 91l-48-52M352 91l48-52" stroke="#17213d" stroke-width="20" stroke-linecap="round"/><rect x="67" y="96" width="378" height="326" rx="82" fill="#17213d"/><rect x="100" y="130" width="268" height="226" rx="45" fill="#F0743E" stroke="#FFF7ED" stroke-width="12"/><path d="M132 169h48l28 120 27-120h43l28 120 27-120h48l-51 151h-45l-29-111-29 111h-45z" fill="#17213d"/><circle cx="406" cy="177" r="20" fill="#FDD848"/><circle cx="406" cy="239" r="13" fill="#AAD59E"/><path d="M392 297h28M392 326h28" stroke="#9AB2D4" stroke-width="11" stroke-linecap="round"/><path d="M136 420l-24 47M376 420l24 47" stroke="#17213d" stroke-width="25" stroke-linecap="round"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
+  <g stroke="#17213d" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M28 9l8 11M68 9L60 20" fill="none"/>
+    <rect x="14" y="19" width="68" height="58" rx="15" fill="#F0743E"/>
+    <rect x="22" y="27" width="48" height="38" rx="9" fill="#fffaf3"/>
+    <circle cx="76" cy="35" r="3" fill="#FDD848" stroke="none"/><circle cx="76" cy="47" r="3" fill="#AAD59E" stroke="none"/>
+    <path d="M27 78l-5 9M69 78l5 9" fill="none"/>
+  </g>
+  <text x="46" y="57" text-anchor="middle" font-family="Arial Black,Arial,sans-serif" font-size="33" font-weight="900" fill="#F0743E">W</text>
+</svg>
