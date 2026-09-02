@@ -593,3 +593,9 @@ html,body,body *{-webkit-user-select:none;user-select:none;-webkit-touch-callout
 .read-row{display:grid;grid-template-columns:64px 92px minmax(0,1fr);align-items:center;gap:18px;min-height:154px;padding:18px 24px;border-bottom:1px solid var(--line)}
 .read-row:last-child{border-bottom:0}.read-row .rank{font-family:"Archivo Black",Impact,sans-serif;font-size:32px;color:#8d72c7;text-align:center}.read-cover{width:88px;height:118px;object-fit:cover;border-radius:10px;background:#e9edf5}.read-cover-fallback{display:grid;place-items:center;color:#f28c5a;font-family:"Archivo Black",Impact,sans-serif;font-size:34px}.read-copy{min-width:0;display:flex;flex-direction:column;gap:6px}.read-copy strong{font-size:22px;line-height:1.08}.read-copy small{font-size:14px;font-weight:800;color:#747d90}.read-copy em{font-size:12px;font-style:normal;font-weight:700;color:#8b92a2}
 @media(max-width:560px){.read-tab{height:68px;font-size:16px;border-radius:23px}.read-row{grid-template-columns:42px 72px minmax(0,1fr);gap:11px;padding:16px 13px;min-height:132px}.read-row .rank{font-size:26px}.read-cover{width:70px;height:96px}.read-copy strong{font-size:18px}.read-copy small{font-size:12px}.read-chart-heading .source-badge{font-size:8px}}
+
+
+/* v5.3.43 WozzaRead hotfix */
+.read-chart-heading{display:flex;align-items:center;justify-content:flex-start!important;}
+.read-chart-heading h2{max-width:100%;overflow-wrap:anywhere;}
+@media(max-width:560px){.read-chart-heading h2{font-size:clamp(23px,7vw,34px);letter-spacing:-.5px;}}

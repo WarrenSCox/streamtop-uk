@@ -1,16 +1,9 @@
-WozzaWatch v5.3.42 — WozzaRead + News/Menu CRs
+WozzaWatch v5.3.43 — WozzaRead Hotfix
 
-NEW: WozzaRead
-- Adds read.html with two UK-only overall charts: BOOKS and AUDIOBOOKS.
-- Books updater uses LoveReading's public Official UK Top 10 (trade-sales chart).
-- Audiobooks updater uses Audible UK Best-selling / All categories.
-- update-read.mjs refuses partial/uncertain results: exactly 10 ranked titles are required; otherwise the previous verified chart is retained.
-- All Wozzas menu now links to WozzaRead.
-
-CR FIXES
-- All Wozzas menu is centred in the viewport from both access methods.
-- WozzaNews paper plane is horizontally flipped.
-- Metro categorisation tightened further and now includes RSS category metadata in classification; overly broad tech matches removed.
-
-DATA NOTE
-- Add update-read.mjs to the same scheduled GitHub Actions refresh pattern as update-news.mjs and commit read.json after a successful run.
+- Fixes UK Books chart extraction by reading the ten ordered LoveReading /book/ entries from the Official UK Top 10 section only.
+- Adds title/author extraction for Books and cover enrichment from each book detail page when the chart page does not expose a usable image.
+- Reworks Audible parsing around the explicit numbered 1–10 headings instead of brittle list-item markup.
+- Fetches audiobook cover artwork from Audible product metadata when it is not present beside the ranked heading.
+- Removes the redundant UK SALES / AUDIBLE UK badge from the WozzaRead chart heading, eliminating the mobile overlap.
+- Keeps fail-safe behaviour: an incomplete chart never replaces the last verified Top 10.
+- Includes the existing master GitHub Actions workflow that runs update-read.mjs alongside rankings/news.
