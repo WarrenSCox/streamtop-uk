@@ -513,7 +513,7 @@ initProviderSwipe();
 loadData();
 
 
-// v5.3.18: when already at the top, a deliberate downward pull switches
+// v5.3.19: when already at the top, a deliberate downward pull switches
 // WozzaWatch → WozzaTune → Watchlist → WozzaWatch instead of native refresh.
 function initTopPullSwitch(nextUrl,nextLabel){
   let startY=0,pulling=false,distance=0;
@@ -542,7 +542,7 @@ function initTopPullSwitch(nextUrl,nextLabel){
 initTopPullSwitch('tune.html','WozzaTune');
 
 
-// v5.3.18: at the bottom, a deliberate upward flick switches backwards
+// v5.3.19: at the bottom, a deliberate upward flick switches backwards
 // through Watch ← Tune ← List. No popup/"Opening" message.
 function initBottomFlickSwitch(prevUrl){
   let startY=0,tracking=false,distance=0; const threshold=82;
@@ -556,7 +556,7 @@ initBottomFlickSwitch('my-list.html');
 
 
 
-// v5.3.18 — after four quiet seconds, alternate the two selector icons every four seconds.
+// v5.3.19 — after four quiet seconds, alternate the two selector icons every four seconds.
 function initIdleGestureHint(){
   const selector=document.querySelector('.segmented');
   if(!selector||window.matchMedia('(prefers-reduced-motion: reduce)').matches)return;
@@ -576,7 +576,7 @@ function initIdleGestureHint(){
 }
 initIdleGestureHint();
 
-// v5.3.18 — aggressively adopt new PWA releases without an update popup.
+// v5.3.19 — aggressively adopt new PWA releases without an update popup.
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', async () => {
     try {
