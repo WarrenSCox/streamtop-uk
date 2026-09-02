@@ -1,6 +1,6 @@
 {
   "version": 17,
-  "generatedAt": "2026-09-02T02:47:59.290Z",
+  "generatedAt": "2026-09-02T02:54:32.630Z",
   "country": "GB",
   "strategy": "Official source first; labelled fallback when no compatible official chart is available.",
   "services": {
@@ -906,7 +906,7 @@
           "rank": 5,
           "title": "Adults",
           "year": 2025,
-          "type": "SHOW",
+          "type": null,
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/01a0594b-7386-7572-812d-1c2b3db67b2d/compose?format=webp&width=386&label=top_ranked_5_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-09794373-fbd3-44fb-9f3b-869a2e976094"
         },
@@ -946,7 +946,7 @@
           "rank": 10,
           "title": "Marvel Studios' The Avengers",
           "year": 2012,
-          "type": null,
+          "type": "MOVIE",
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/f31231d4-500b-42eb-a3a6-ef53aaef969f/compose?format=webp&width=386&label=top_ranked_10_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-d2ab699b-67da-4906-a7a4-5bc542c953cf"
         }
