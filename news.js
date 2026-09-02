@@ -7,7 +7,18 @@ function ago(d){if(!d)return"";let n=(Date.now()-new Date(d))/60000;if(n<60)retu
 function tabs(){let n=$("#newsTabs");CATS.forEach((c,i)=>{let b=document.createElement("button");b.textContent=c;b.style.background=COLORS[i];b.className="service-tab "+(c===active?"active":"");b.onclick=()=>{active=c;tabsRefresh();render()};n.appendChild(b)})}
 function tabsRefresh(){[...$("#newsTabs").children].forEach(b=>b.classList.toggle("active",b.textContent===active));const a=[...$("#newsTabs").children].find(b=>b.textContent===active);a?.scrollIntoView({behavior:"smooth",block:"nearest",inline:"center"});}
 function render(){let rows=data.categories?.[active]||[];$("#newsTitle").textContent="LATEST "+active;$("#newsChart").innerHTML=rows.slice(0,10).map((x,i)=>`<li class="chart-row news-row"><span class="rank">${String(i+1).padStart(2,"0")}</span><a class="news-story" href="${esc(x.link)}" target="_blank" rel="noopener">${x.image?`<img class="poster news-thumb" src="${esc(x.image)}" alt="">`:`<span class="news-thumb news-thumb-fallback">W</span>`}<span class="news-copy"><strong>${esc(x.title)}</strong><small>${esc(x.source||"Sky News")} · ${ago(x.published)}</small></span></a></li>`).join("");$("#newsError").classList.toggle("hidden",rows.length>0)}
-fetch("news.json?"+Date.now()).then(r=>r.json()).then(x=>{data=x;let d=x.updated?new Date(x.updated):null;$("#newsUpdated").textContent=d?"Updated "+d.toLocaleDateString("en-GB",{weekday:"short",day:"numeric",month:"short"})+", "+d.toLocaleTimeString("en-GB",{hour:"2-digit",minute:"2-digit"}):"Latest headlines";render()}).catch(()=>render());tabs();
+async function loadNews(){
+ try{
+  const r=await fetch("./news.json?v="+Date.now(),{cache:"no-store"});
+  if(!r.ok)throw new Error("news.json "+r.status);
+  const x=await r.json();
+  data=(x&&x.categories)?x:{categories:{}};
+  const d=x.updated?new Date(x.updated):null;
+  $("#newsUpdated").textContent=d&&!Number.isNaN(d.valueOf())?"Updated "+d.toLocaleDateString("en-GB",{weekday:"short",day:"numeric",month:"short"})+", "+d.toLocaleTimeString("en-GB",{hour:"2-digit",minute:"2-digit"}):"Latest headlines";
+ }catch(e){console.error("WozzaNews load failed",e);data={categories:{}}}
+ render();
+}
+tabs();loadNews();
 function initMenu(){const menu=$("#wozzaMenu"),bd=$("#wozzaMenuBackdrop"),trigger=$(".header-copy");let timer=null,start=null;
  const open=()=>{menu.classList.add("open");menu.setAttribute("aria-hidden","false");bd.hidden=false};
  const close=()=>{menu.classList.remove("open");menu.setAttribute("aria-hidden","true");bd.hidden=true};

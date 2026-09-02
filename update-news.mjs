@@ -1,9 +1,61 @@
 import fs from "node:fs/promises";
-const feeds={UK:"https://feeds.skynews.com/feeds/rss/uk.xml",WORLD:"https://feeds.skynews.com/feeds/rss/world.xml",POLITICS:"https://feeds.skynews.com/feeds/rss/politics.xml",BUSINESS:"https://feeds.skynews.com/feeds/rss/business.xml",TECH:"https://feeds.skynews.com/feeds/rss/technology.xml",ENTERTAINMENT:"https://feeds.skynews.com/feeds/rss/entertainment.xml"};
-const clean=s=>String(s||"").replace(/<!\[CDATA\[|\]\]>/g,"").replace(/&amp;/g,"&").replace(/&quot;/g,'"').replace(/&#39;/g,"'").replace(/&lt;/g,"<").replace(/&gt;/g,">").trim();
-const tag=(x,n)=>clean((x.match(new RegExp(`<${n}(?:\\s[^>]*)?>([\\s\\S]*?)<\\/${n}>`,"i"))||[])[1]);
-const attr=(x,n,a)=>clean((x.match(new RegExp(`<${n}[^>]*\\s${a}=["']([^"']+)["'][^>]*>`,"i"))||[])[1]);
-let old={categories:{}};try{old=JSON.parse(await fs.readFile("news.json","utf8"))}catch{}
-let out={updated:new Date().toISOString(),source:{name:"Sky News",url:"https://news.sky.com/info/rss",official:true},categories:{}},total=0;
-for(const [cat,url] of Object.entries(feeds)){try{const r=await fetch(url,{headers:{"user-agent":"Mozilla/5.0 WozzaNews/1.0","accept":"application/rss+xml, application/xml, text/xml, */*"}});if(!r.ok)throw Error(`HTTP ${r.status}`);const xml=await r.text();const items=[...xml.matchAll(/<item\b[\s\S]*?<\/item>/gi)].map(m=>m[0]);const rows=items.map(x=>({title:tag(x,"title"),link:tag(x,"link")||tag(x,"guid"),published:tag(x,"pubDate"),source:"Sky News",image:attr(x,"media:content","url")||attr(x,"media:thumbnail","url")||attr(x,"enclosure","url")})).filter(x=>x.title&&x.link).slice(0,10);if(!rows.length)throw Error("No stories parsed");out.categories[cat]=rows;total+=rows.length;console.log(cat,rows.length)}catch(e){console.error(cat,e.message);out.categories[cat]=old.categories?.[cat]||[];total+=out.categories[cat].length}}
-if(!total)throw new Error("No stories retrieved; existing news.json left unchanged");await fs.writeFile("news.json",JSON.stringify(out,null,2));
+
+const feeds={
+ UK:"https://feeds.skynews.com/feeds/rss/uk.xml",
+ WORLD:"https://feeds.skynews.com/feeds/rss/world.xml",
+ POLITICS:"https://feeds.skynews.com/feeds/rss/politics.xml",
+ BUSINESS:"https://feeds.skynews.com/feeds/rss/business.xml",
+ TECH:"https://feeds.skynews.com/feeds/rss/technology.xml",
+ ENTERTAINMENT:"https://feeds.skynews.com/feeds/rss/entertainment.xml"
+};
+
+const decode=s=>String(s??"")
+ .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g,"$1")
+ .replace(/&amp;/g,"&").replace(/&quot;/g,'"').replace(/&#39;|&apos;/g,"'")
+ .replace(/&lt;/g,"<").replace(/&gt;/g,">").trim();
+
+function tag(xml,name){
+ const m=xml.match(new RegExp("<"+name+"(?:\\\\s[^>]*)?>([\\\\s\\\\S]*?)<\\\\/"+name+">","i"));
+ return decode(m?.[1]);
+}
+function media(xml){
+ const patterns=[
+  /<media:content\b[^>]*\burl=["']([^"']+)["']/i,
+  /<media:thumbnail\b[^>]*\burl=["']([^"']+)["']/i,
+  /<enclosure\b[^>]*\burl=["']([^"']+)["'][^>]*\btype=["']image\//i,
+  /<enclosure\b[^>]*\btype=["']image\/[^"']*["'][^>]*\burl=["']([^"']+)["']/i
+ ];
+ for(const p of patterns){const m=xml.match(p);if(m)return decode(m[1])}
+ return "";
+}
+async function fetchFeed(url){
+ const r=await fetch(url,{redirect:"follow",headers:{
+  "User-Agent":"Mozilla/5.0 (compatible; WozzaNews/5.3.34)",
+  "Accept":"application/rss+xml, application/xml, text/xml;q=0.9, */*;q=0.8"
+ }});
+ if(!r.ok)throw new Error(`${r.status} ${r.statusText}`);
+ const xml=await r.text();
+ if(!/<rss\b|<feed\b/i.test(xml))throw new Error("Response was not RSS/XML");
+ return [...xml.matchAll(/<item\b[\s\S]*?<\/item>/gi)].map(m=>m[0]);
+}
+
+const categories={};
+for(const [cat,url] of Object.entries(feeds)){
+ const items=await fetchFeed(url);
+ const rows=items.map(x=>({
+  title:tag(x,"title"),
+  link:tag(x,"link")||tag(x,"guid"),
+  published:tag(x,"pubDate")||tag(x,"dc:date"),
+  source:"Sky News",
+  image:media(x)
+ })).filter(x=>x.title&&/^https?:\/\//i.test(x.link)).slice(0,10);
+ if(!rows.length)throw new Error(`${cat}: RSS returned no usable stories`);
+ categories[cat]=rows;
+ console.log(`${cat}: ${rows.length} stories`);
+}
+
+await fs.writeFile("news.json",JSON.stringify({
+ updated:new Date().toISOString(),
+ source:{name:"Sky News",url:"https://news.sky.com/info/rss",official:true},
+ categories
+},null,2)+"\n");

@@ -337,3 +337,16 @@ html,body,body *{-webkit-user-select:none;user-select:none;-webkit-touch-callout
 .verified{display:inline-grid;place-items:center;margin-left:5px;width:22px;height:22px;border-radius:50%;background:#48c99a;color:white;font-size:14px}
 @media(max-width:560px){.news-tabs button{font-size:16px;padding:13px 20px}.news-thumb{width:74px;height:86px}.news-copy strong{font-size:18px}.news-home-switch{width:43px;height:43px}}
 .news-home-switch img{width:46px;height:38px;display:block;object-fit:contain}.news-tabs{gap:8px;padding:11px 4px 16px}.news-tabs .service-tab{min-width:0!important;padding:11px 15px!important;border-radius:999px!important;font-size:13px!important;font-weight:800!important;box-shadow:0 4px 0 rgba(23,33,61,.08)!important}.news-tabs .service-tab.active{box-shadow:0 0 0 3px var(--navy),0 4px 0 rgba(23,33,61,.08)!important}
+/* v5.3.34 WozzaNews hotfix */
+.news-home-switch{width:40px!important;height:40px!important;margin-left:4px}
+.news-home-switch img{width:40px!important;height:32px!important}
+.news-tabs .service-tab{height:44px!important;min-width:92px!important;padding:0 16px!important;font-size:13px!important;border-radius:999px!important}
+.news-chart-heading{grid-template-columns:minmax(0,1fr) auto!important;gap:12px!important}
+.news-chart-heading #newsTitle{min-width:0;max-width:100%;font-size:clamp(25px,6.2vw,38px);line-height:.98;letter-spacing:-.05em;white-space:normal!important;overflow-wrap:normal}
+.news-chart-heading .source-badge{position:relative;z-index:2;flex:0 0 auto;margin:0;font-size:9px}
+@media(max-width:420px){
+ .news-chart-heading{gap:8px!important;padding-left:14px!important;padding-right:12px!important}
+ .news-chart-heading #newsTitle{font-size:clamp(22px,7.2vw,30px)}
+ .news-chart-heading .source-badge{padding:6px 8px;font-size:7.5px}
+ .news-chart-heading .verified{width:18px;height:18px;font-size:11px;margin-left:3px}
+}
