@@ -1,6 +1,6 @@
 {
   "version": 17,
-  "generatedAt": "2026-09-02T13:58:10.394Z",
+  "generatedAt": "2026-09-02T14:12:05.981Z",
   "country": "GB",
   "strategy": "Official source first; labelled fallback when no compatible official chart is available.",
   "services": {
@@ -410,7 +410,7 @@
           "sourceRank": 18,
           "title": "Masters of the Universe",
           "year": 2026,
-          "poster": "/poster/341237774/s166/masters-of-the-universe-2019.webp",
+          "poster": "/poster/347453342/s166/masters-of-the-universe-2019.webp",
           "url": "https://www.justwatch.com/uk/movie/masters-of-the-universe-2019",
           "trend": "UP",
           "trendDifference": 2,
@@ -874,7 +874,7 @@
           "rank": 1,
           "title": "Furious",
           "year": 2026,
-          "type": null,
+          "type": "SHOW",
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/019fa9fd-c0de-7eab-963c-8ec352530398/compose?format=webp&width=386&label=top_ranked_1_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-5d4924b7-1cde-47c3-8852-f30bdd7fe979"
         },
@@ -930,7 +930,7 @@
           "rank": 8,
           "title": "Marvel Studios' Avengers: Endgame",
           "year": 2019,
-          "type": "MOVIE",
+          "type": null,
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/6a8390cc-0240-46fc-9c52-5287ca3676eb/compose?format=webp&width=386&label=top_ranked_8_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-b39aa962-be56-4b09-a536-98617031717f"
         },
@@ -2752,7 +2752,7 @@
           "cadence": "weekly",
           "note": "Fresh data did not update successfully, so the last successful results are being shown.",
           "stale": true,
-          "staleAsOf": "2026-09-02T11:17:37.046Z"
+          "staleAsOf": "2026-09-02T13:58:10.394Z"
         },
         "albums": {
           "kind": "official",
@@ -2762,7 +2762,7 @@
           "cadence": "weekly",
           "note": "Fresh data did not update successfully, so the last successful results are being shown.",
           "stale": true,
-          "staleAsOf": "2026-09-02T11:17:37.046Z"
+          "staleAsOf": "2026-09-02T13:58:10.394Z"
         }
       },
       "error": null,
