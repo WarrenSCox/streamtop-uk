@@ -1,11 +1,414 @@
 {
-  "updated": null,
+  "updated": "2026-09-02T17:24:21.538Z",
+  "source": {
+    "name": "Sky News",
+    "url": "https://news.sky.com/info/rss",
+    "official": true
+  },
   "categories": {
-    "UK": [],
-    "WORLD": [],
-    "POLITICS": [],
-    "BUSINESS": [],
-    "TECH": [],
-    "ENTERTAINMENT": []
+    "UK": [
+      {
+        "title": "Sky News launches new Sunday morning current affairs programme",
+        "link": "https://news.sky.com/story/sky-news-launches-new-sunday-morning-current-affairs-programme-13580246",
+        "published": "Wed, 02 Sep 2026 07:16:00 +0100",
+        "source": "Sky News",
+        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-sunday-mornings_7338664.jpg?20260902122708"
+      },
+      {
+        "title": "Pistol in lake could be linked to unsolved killings of British family in France",
+        "link": "https://news.sky.com/story/pistol-found-in-lake-could-be-linked-to-unsolved-killings-of-british-family-in-france-13580416",
+        "published": "Wed, 02 Sep 2026 15:39:00 +0100",
+        "source": "Sky News",
+        "image": "https://e3.365dm.com/21/10/1920x1080/skynews-rex-aerial-alps-fee_5531702.jpg?20211001165610"
+      },
+      {
+        "title": "Four people charged with murder after death of newborn baby girl",
+        "link": "https://news.sky.com/story/four-people-charged-with-murder-after-death-of-newborn-baby-girl-in-sheffield-13580290",
+        "published": "Wed, 02 Sep 2026 09:55:00 +0100",
+        "source": "Sky News",
+        "image": "https://e3.365dm.com/26/08/1920x1080/skynews-sheffield-murder-baby_7336126.jpg?20260830203912"
+      },
+      {
+        "title": "Sadiq Khan says he's been scammed after London mayor convicted of failing to tax car",
+        "link": "https://news.sky.com/story/sadiq-khan-says-hes-been-scammed-after-london-mayor-convicted-of-failing-to-tax-car-13580285",
+        "published": "Wed, 02 Sep 2026 09:51:00 +0100",
+        "source": "Sky News",
+        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-sir-sadiq-khan-london-mayor_7338536.jpg?20260902100051"
+      },
+      {
+        "title": "Gary Glitter denies historical child sexual abuse offences",
+        "link": "https://news.sky.com/story/gary-glitter-appears-in-court-and-denies-historical-child-sexual-abuse-offences-13580311",
+        "published": "Wed, 02 Sep 2026 10:48:00 +0100",
+        "source": "Sky News",
+        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-gary-glitter-solicitor_7338654.jpg?20260902122823"
+      },
+      {
+        "title": "Joey Barton's trial over alleged assault outside golf club delayed until next year",
+        "link": "https://news.sky.com/story/joey-bartons-trial-over-alleged-assault-outside-golf-club-delayed-until-next-year-13580412",
+        "published": "Wed, 02 Sep 2026 15:20:00 +0100",
+        "source": "Sky News",
+        "image": "https://e3.365dm.com/26/03/1920x1080/skynews-joey-barton-arrest_7187792.jpg?20260902153208"
+      },
+      {
+        "title": "Rise in number of children as young as six suffering mental health crisis",
+        "link": "https://news.sky.com/story/number-of-children-as-young-as-six-going-to-ae-in-mental-health-crisis-rises-new-figures-reveal-13579784",
+        "published": "Tue, 01 Sep 2026 11:42:00 +0100",
+        "source": "Sky News",
+        "image": "https://e3.365dm.com/22/04/1920x1080/skynews-emergency-department_5731522.jpg?20260901135044"
+      },
+      {
+        "title": "Man City equal British transfer record with deadline day splurge",
+        "link": "https://news.sky.com/story/man-city-equal-british-transfer-record-with-deadline-day-splurge-13580210",
+        "published": "Wed, 02 Sep 2026 01:19:00 +0100",
+        "source": "Sky News",
+        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-enzo-fernandez-chelsea_7337822.jpg?20260901171828"
+      },
+      {
+        "title": "Fake 10 Downing Street listing 'exposes security failures' on Booking.com",
+        "link": "https://news.sky.com/story/fake-10-downing-street-listing-exposes-security-failureson-bookingcom-13580279",
+        "published": "Wed, 02 Sep 2026 11:18:00 +0100",
+        "source": "Sky News",
+        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-larry-cat-downing-street_7337223.jpg?20260901092829"
+      },
+      {
+        "title": "Poundland owner races to agree sale ahead of festive trading rush",
+        "link": "https://news.sky.com/story/poundland-owner-races-to-agree-sale-ahead-of-festive-trading-rush-13580269",
+        "published": "Wed, 02 Sep 2026 09:24:00 +0100",
+        "source": "Sky News",
+        "image": "https://e3.365dm.com/25/01/1920x1080/skynews-poundland-pound_6802760.jpg?20250118095137"
+      }
+    ],
+    "WORLD": [
+      {
+        "title": "Nationwide migrant protests prompt appeals for calm in Spain's North African territory",
+        "link": "https://news.sky.com/story/nationwide-migrant-protests-prompt-appeals-for-calm-in-ceuta-spains-north-african-territory-13580443",
+        "published": "Wed, 02 Sep 2026 16:35:00 +0100",
+        "source": "Sky News",
+        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-ceuta-spain-migrants_7339036.jpg?20260902170456"
+      },
+      {
+        "title": "Tiger Woods gets five-year driving ban and fine after entering car crash plea deal",
+        "link": "https://news.sky.com/story/tiger-woods-gets-five-year-driving-ban-and-fine-after-entering-plea-deal-over-charges-related-to-car-crash-13580365",
+        "published": "Wed, 02 Sep 2026 13:21:00 +0100",
+        "source": "Sky News",
+        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-tiger-woods-court_7338755.jpg?20260902133756"
+      },
+      {
+        "title": "Pistol in lake could be linked to unsolved killings of British family in France",
+        "link": "https://news.sky.com/story/pistol-found-in-lake-could-be-linked-to-unsolved-killings-of-british-family-in-france-13580416",
+        "published": "Wed, 02 Sep 2026 15:39:00 +0100",
+        "source": "Sky News",
+        "image": "https://e3.365dm.com/21/10/1920x1080/skynews-rex-aerial-alps-fee_5531702.jpg?20211001165610"
+      },
+      {
+        "title": "22 people killed in bus crash in Egypt",
+        "link": "https://news.sky.com/story/egypt-bus-crash-21-people-killed-in-area-popular-with-tourists-13580237",
+        "published": "Wed, 02 Sep 2026 06:56:00 +0100",
+        "source": "Sky News",
+        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-egypt-bus-crash_7338858.jpg?20260902142019"
+      },
+      {
+        "title": "Joshua Wong pleads guilty under Hong Kong's security law",
+        "link": "https://news.sky.com/story/joshua-wong-pleads-guilty-under-hong-kongs-security-law-13580218",
+        "published": "Wed, 02 Sep 2026 03:16:00 +0100",
+        "source": "Sky News",
+        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-joshua-wong-hong-kong_7338349.jpg?20260902032006"
+      },
+      {
+        "title": "Stop doing memes and throwing shade, Carney tells Trump",
+        "link": "https://news.sky.com/story/mark-carney-tells-trump-stop-doing-memes-and-throwing-shade-13580195",
+        "published": "Tue, 01 Sep 2026 23:37:00 +0100",
+        "source": "Sky News",
+        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-mark-carney-canada_7338304.jpg?20260902000119"
+      },
+      {
+        "title": "Attempted drone attack at German airport blamed on Russia",
+        "link": "https://news.sky.com/story/attempted-drone-attack-at-leipzig-airport-blamed-on-russia-german-government-says-13579937",
+        "published": "Tue, 01 Sep 2026 16:49:00 +0100",
+        "source": "Sky News",
+        "image": "https://e3.365dm.com/26/08/1920x1080/skynews-germany-leipzig-halle_7314592.jpg?20260805140142"
+      },
+      {
+        "title": "Bank of America vice president killed in Times Square stabbing",
+        "link": "https://news.sky.com/story/bank-of-america-vice-president-killed-in-times-square-stabbing-13580026",
+        "published": "Tue, 01 Sep 2026 20:21:00 +0100",
+        "source": "Sky News",
+        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-police-shooting_7338016.jpg?20260901204302"
+      }
+    ],
+    "POLITICS": [
+      {
+        "title": "Sadiq Khan says he's been scammed after London mayor convicted of failing to tax car",
+        "link": "https://news.sky.com/story/sadiq-khan-says-hes-been-scammed-after-london-mayor-convicted-of-failing-to-tax-car-13580285",
+        "published": "Wed, 02 Sep 2026 09:51:00 +0100",
+        "source": "Sky News",
+        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-sir-sadiq-khan-london-mayor_7338536.jpg?20260902100051"
+      },
+      {
+        "title": "Sky News launches new Sunday morning current affairs programme",
+        "link": "https://news.sky.com/story/sky-news-launches-new-sunday-morning-current-affairs-programme-13580246",
+        "published": "Wed, 02 Sep 2026 07:16:00 +0100",
+        "source": "Sky News",
+        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-sunday-mornings_7338664.jpg?20260902122708"
+      },
+      {
+        "title": "Fake 10 Downing Street listing 'exposes security failures' on Booking.com",
+        "link": "https://news.sky.com/story/fake-10-downing-street-listing-exposes-security-failureson-bookingcom-13580279",
+        "published": "Wed, 02 Sep 2026 11:18:00 +0100",
+        "source": "Sky News",
+        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-larry-cat-downing-street_7337223.jpg?20260901092829"
+      },
+      {
+        "title": "Is Burnham living in a economic dreamland?",
+        "link": "https://news.sky.com/story/is-burnham-living-in-a-economic-dreamland-13579844",
+        "published": "Tue, 01 Sep 2026 13:59:00 +0100",
+        "source": "Sky News",
+        "image": "https://e3.365dm.com/26/08/1920x1080/skynews-pasaa-sam-and-anne_7332493.png?20260827102415"
+      },
+      {
+        "title": "Cleveland Police given extra £2m to tackle serious crime after deadly crash",
+        "link": "https://news.sky.com/story/cleveland-police-given-extra-2m-to-tackle-serious-crime-after-deadly-incidents-13580018",
+        "published": "Tue, 01 Sep 2026 20:11:00 +0100",
+        "source": "Sky News",
+        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-shabana-mahmood-home-secretary_7338012.jpg?20260901204008"
+      },
+      {
+        "title": "Sir Keir Starmer to stand down as MP: 'It's been an honour and privilege'",
+        "link": "https://news.sky.com/story/sir-keir-starmer-to-stand-down-as-mp-triggering-london-by-election-13579870",
+        "published": "Tue, 01 Sep 2026 15:34:00 +0100",
+        "source": "Sky News",
+        "image": "https://e3.365dm.com/26/04/1920x1080/image_7234128.jpg?20260429125306"
+      },
+      {
+        "title": "Swinney unveils plans to cut health boards, introduce misogyny bill and roll out £2 bus fare cap",
+        "link": "https://news.sky.com/story/scotlands-first-minister-john-swinney-unveils-plans-to-cut-health-boards-introduce-misogyny-bill-and-roll-out-2-bus-fare-cap-13579768",
+        "published": "Tue, 01 Sep 2026 11:11:00 +0100",
+        "source": "Sky News",
+        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-john-swinney-snp-first-minister_7337374.jpg?20260901111644"
+      },
+      {
+        "title": "'Big-hitting' Tory MP quits shadow cabinet to stand for London mayor",
+        "link": "https://news.sky.com/story/conservative-mp-james-cleverly-quits-shadow-cabinet-to-stand-for-london-mayor-13578660",
+        "published": "Sat, 29 Aug 2026 16:17:00 +0100",
+        "source": "Sky News",
+        "image": "https://e3.365dm.com/26/05/1920x1080/skynews-james-cleverly-election_7242270.jpg?20260829223154"
+      },
+      {
+        "title": "Prison-building plans get £110m investment to avoid 'nightmare' of running out of cells",
+        "link": "https://news.sky.com/story/prison-building-plans-get-110m-investment-to-avoid-nightmare-of-running-out-of-cells-13579672",
+        "published": "Tue, 01 Sep 2026 07:05:00 +0100",
+        "source": "Sky News",
+        "image": "https://e3.365dm.com/26/05/1920x1080/skynews-prison-building_7247663.jpg?20260822222642"
+      }
+    ],
+    "BUSINESS": [
+      {
+        "title": "Former BBC chief Davie stages corporate return with FGS Global and Mediawan roles",
+        "link": "https://news.sky.com/story/former-bbc-chief-davie-stages-corporate-return-with-fgs-global-and-mediawan-roles-13580259",
+        "published": "Wed, 02 Sep 2026 08:45:00 +0100",
+        "source": "Sky News",
+        "image": "https://e3.365dm.com/25/11/1920x1080/skynews-bbc-tim-davie_7078907.jpg?20251111092644"
+      },
+      {
+        "title": "Poundland owner races to agree sale ahead of festive trading rush",
+        "link": "https://news.sky.com/story/poundland-owner-races-to-agree-sale-ahead-of-festive-trading-rush-13580269",
+        "published": "Wed, 02 Sep 2026 09:24:00 +0100",
+        "source": "Sky News",
+        "image": "https://e3.365dm.com/25/01/1920x1080/skynews-poundland-pound_6802760.jpg?20250118095137"
+      },
+      {
+        "title": "Fake 10 Downing Street listing 'exposes security failures' on Booking.com",
+        "link": "https://news.sky.com/story/fake-10-downing-street-listing-exposes-security-failureson-bookingcom-13580279",
+        "published": "Wed, 02 Sep 2026 11:18:00 +0100",
+        "source": "Sky News",
+        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-larry-cat-downing-street_7337223.jpg?20260901092829"
+      },
+      {
+        "title": "One million people set to get £50 payments - but there's a 'real risk' of missing out",
+        "link": "https://news.sky.com/story/one-million-people-set-to-get-50-payments-but-theres-a-real-risk-of-missing-out-13580292",
+        "published": "Wed, 02 Sep 2026 10:01:00 +0100",
+        "source": "Sky News",
+        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-hmrc-money_7338540.jpg?20260902100621"
+      },
+      {
+        "title": "Pensions trick to increase your Universal Credit | Money newsletter",
+        "link": "https://news.sky.com/story/money-newsletter-sky-news-personal-finance-13367142",
+        "published": "Tue, 13 May 2025 13:06:00 +0100",
+        "source": "Sky News",
+        "image": "https://e3.365dm.com/26/08/1920x1080/skynews-pension-stock_7327125.jpg?20260821111846"
+      },
+      {
+        "title": "Retail giants including M&S and Tesco warn PM over budget tax raid",
+        "link": "https://news.sky.com/story/retail-giants-including-ms-and-tesco-warn-pm-over-budget-tax-raid-13579753",
+        "published": "Tue, 01 Sep 2026 10:36:00 +0100",
+        "source": "Sky News",
+        "image": "https://e3.365dm.com/20/06/1920x1080/skynews-marks-spencer-store_5009565.jpg?20200609143922"
+      },
+      {
+        "title": "AI could cause global economic downturn, Bank of England head warns",
+        "link": "https://news.sky.com/story/artificial-intelligence-could-cause-global-economic-downturn-bank-of-england-governor-warns-13579423",
+        "published": "Mon, 31 Aug 2026 14:36:00 +0100",
+        "source": "Sky News",
+        "image": "https://e3.365dm.com/26/08/1920x1080/skynews-istock-data-centre_7336678.jpg?20260831155822"
+      },
+      {
+        "title": "Norwegian steel group Blastr lines up new funding for SSUK bid",
+        "link": "https://news.sky.com/story/norwegian-steel-group-blastr-lines-up-new-funding-for-ssuk-bid-13578998",
+        "published": "Sun, 30 Aug 2026 13:03:00 +0100",
+        "source": "Sky News",
+        "image": "https://e3.365dm.com/21/03/1920x1080/skynews-liberty-steel-dalzell_5319233.jpg?20210326161804"
+      },
+      {
+        "title": "German insurer Allianz weighs £5bn takeover of AA roadside rescue giant",
+        "link": "https://news.sky.com/story/german-insurer-allianz-weighs-5bn-takeover-of-aa-roadside-rescue-giant-13578449",
+        "published": "Sat, 29 Aug 2026 09:08:00 +0100",
+        "source": "Sky News",
+        "image": "https://e3.365dm.com/26/08/1920x1080/skynews-aa-van_7334325.jpg?20260829092520"
+      },
+      {
+        "title": "Fed chair hints at US rate rise amid inflation threat",
+        "link": "https://news.sky.com/story/jackson-hole-warsh-gives-clear-us-rate-rise-signal-amid-inflation-threat-13578046",
+        "published": "Fri, 28 Aug 2026 09:51:00 +0100",
+        "source": "Sky News",
+        "image": "https://e3.365dm.com/26/08/1920x1080/skynews-kevin-warsh-federal-reserve_7333743.jpg?20260828163810"
+      }
+    ],
+    "TECH": [
+      {
+        "title": "Summer 2026 was UK's hottest on record, Met Office says",
+        "link": "https://news.sky.com/story/summer-2026-was-hottest-on-record-met-office-says-13579724",
+        "published": "Tue, 01 Sep 2026 09:46:00 +0100",
+        "source": "Sky News",
+        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-heatwaves-summer-weather_7337416.jpg?20260901115405"
+      },
+      {
+        "title": "New storm names revealed - but how are they chosen, and why?",
+        "link": "https://news.sky.com/story/how-are-storm-names-chosen-and-why-13422904",
+        "published": "Tue, 01 Sep 2026 09:25:00 +0100",
+        "source": "Sky News",
+        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-tynemouth-storm-waves_7337192.jpg?20260901090328"
+      },
+      {
+        "title": "Tech companies call for collective action against AI-enabled cyber attacks",
+        "link": "https://news.sky.com/story/tech-companies-write-open-letter-calling-for-collective-action-against-ai-enabled-cyber-attacks-13577985",
+        "published": "Thu, 27 Aug 2026 22:52:00 +0100",
+        "source": "Sky News",
+        "image": "https://e3.365dm.com/26/08/1920x1080/skynews-artificial-intelligence_7333218.jpg?20260827230854"
+      },
+      {
+        "title": "Google renames Lake Ontario as 'Lake America' after Trump order",
+        "link": "https://news.sky.com/story/google-renames-lake-ontario-as-lake-america-for-us-users-after-trump-order-13579311",
+        "published": "Mon, 31 Aug 2026 01:07:00 +0100",
+        "source": "Sky News",
+        "image": "https://e3.365dm.com/26/08/1920x1080/skynews-donald-trump_7333047.jpg?20260827194426"
+      },
+      {
+        "title": "More than 22,000 tonnes of rubbish cleared from illegal dump site",
+        "link": "https://news.sky.com/story/more-than-22000-tonnes-of-rubbish-removed-to-clear-illegal-oxfordshire-dump-site-13577900",
+        "published": "Thu, 27 Aug 2026 18:53:00 +0100",
+        "source": "Sky News",
+        "image": "https://e3.365dm.com/26/08/1920x1080/skynews-oxfordshire-dump_7333020.jpg?20260827192137"
+      },
+      {
+        "title": "British man first in the world to have brain tumour removed with help of AI",
+        "link": "https://news.sky.com/story/ai-helps-perform-brain-surgery-on-british-man-in-world-first-13577615",
+        "published": "Thu, 27 Aug 2026 03:28:00 +0100",
+        "source": "Sky News",
+        "image": "https://e3.365dm.com/26/08/1920x1080/skynews-rhys-hibbert-nhs-ai_7332287.jpg?20260827034319"
+      },
+      {
+        "title": "World's most valuable company beats expectations",
+        "link": "https://news.sky.com/story/ai-boom-continues-apace-as-worlds-most-valuable-company-nvidia-beats-expectations-13577580",
+        "published": "Wed, 26 Aug 2026 23:21:00 +0100",
+        "source": "Sky News",
+        "image": "https://e3.365dm.com/26/06/1920x1080/skynews-vera-rubin-architecture_7262659.jpg?20260601075813"
+      },
+      {
+        "title": "Meta to pay billions to settle 'tobacco moment' trial",
+        "link": "https://news.sky.com/story/meta-agrees-to-pay-up-to-166bn-to-settle-social-media-addiction-trial-13577349",
+        "published": "Wed, 26 Aug 2026 12:41:00 +0100",
+        "source": "Sky News",
+        "image": "https://e3.365dm.com/26/08/1920x1080/skynews-meta-california_7331889.jpg?20260826144821"
+      },
+      {
+        "title": "Shingles vaccine could slash risk of stroke and heart disease, study finds",
+        "link": "https://news.sky.com/story/shingles-vaccine-could-protect-against-stroke-and-heart-disease-study-finds-13577301",
+        "published": "Wed, 26 Aug 2026 15:30:00 +0100",
+        "source": "Sky News",
+        "image": "https://e3.365dm.com/26/08/1920x1080/skynews-shingles-vaccine_7331662.jpg?20260826112351"
+      }
+    ],
+    "ENTERTAINMENT": [
+      {
+        "title": "Gary Glitter denies historical child sexual abuse offences",
+        "link": "https://news.sky.com/story/gary-glitter-appears-in-court-and-denies-historical-child-sexual-abuse-offences-13580311",
+        "published": "Wed, 02 Sep 2026 10:48:00 +0100",
+        "source": "Sky News",
+        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-gary-glitter-solicitor_7338654.jpg?20260902122823"
+      },
+      {
+        "title": "Sky News launches new Sunday morning current affairs programme",
+        "link": "https://news.sky.com/story/sky-news-launches-new-sunday-morning-current-affairs-programme-13580246",
+        "published": "Wed, 02 Sep 2026 07:16:00 +0100",
+        "source": "Sky News",
+        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-sunday-mornings_7338664.jpg?20260902122708"
+      },
+      {
+        "title": "How former gang leader was convicted thanks to his own book",
+        "link": "https://news.sky.com/story/how-the-former-gang-leader-who-orchestrated-tupac-shakurs-murder-talked-himself-into-prison-13578651",
+        "published": "Mon, 31 Aug 2026 17:17:00 +0100",
+        "source": "Sky News",
+        "image": "https://e3.365dm.com/26/08/1920x1080/skynews-duane-davis-keffe-d_7335310.jpg?20260829224109"
+      },
+      {
+        "title": "Dolly Parton laid to rest in private family funeral",
+        "link": "https://news.sky.com/story/dolly-parton-laid-to-rest-in-private-family-funeral-13579425",
+        "published": "Mon, 31 Aug 2026 14:42:00 +0100",
+        "source": "Sky News",
+        "image": "https://e3.365dm.com/26/08/1920x1080/skynews-dolly-parton-hollywood_7336685.jpg?20260831161005"
+      },
+      {
+        "title": "Met Gala exhibition honouring John Galliano cancelled after backlash over past antisemitic comments",
+        "link": "https://news.sky.com/story/met-gala-exhibition-honouring-john-galliano-cancelled-after-backlash-over-past-antisemitic-comments-13579552",
+        "published": "Mon, 31 Aug 2026 19:20:00 +0100",
+        "source": "Sky News",
+        "image": "https://e3.365dm.com/26/08/1920x1080/skynews-john-galliano-met-gala_7336908.jpg?20260831205308"
+      },
+      {
+        "title": "'No chance' Meghan's possible return to acting was reason for Sussexes' move - industry insiders",
+        "link": "https://news.sky.com/story/no-chance-meghans-possible-return-to-acting-was-reason-for-sussexes-uk-move-industry-insiders-say-13578243",
+        "published": "Sat, 29 Aug 2026 00:01:00 +0100",
+        "source": "Sky News",
+        "image": "https://e3.365dm.com/26/08/1920x1080/skynews-meghan-markle-harry_7333880.jpg?20260828182638"
+      },
+      {
+        "title": "Optimus Prime voice actor dies",
+        "link": "https://news.sky.com/story/peter-cullen-who-voiced-eeyore-and-optimus-prime-dies-aged-85-13577938",
+        "published": "Thu, 27 Aug 2026 21:04:00 +0100",
+        "source": "Sky News",
+        "image": "https://e3.365dm.com/26/08/1920x1080/skynews-peter-cullen-cullen_7333129.jpg?20260827211730"
+      },
+      {
+        "title": "Japanese artist Yayoi Kusama dies aged 97",
+        "link": "https://news.sky.com/story/japanese-artist-yayoi-kusama-dies-aged-97-13577660",
+        "published": "Thu, 27 Aug 2026 09:13:00 +0100",
+        "source": "Sky News",
+        "image": "https://e3.365dm.com/26/08/1920x1080/skynews-yayoi-kusama-artist_7332423.jpg?20260827091634"
+      },
+      {
+        "title": "Dame Jenni Murray died after being dazzled by headlights and crashing car, inquest hears",
+        "link": "https://news.sky.com/story/dame-jenni-murray-died-after-being-dazzled-by-headlights-and-crashing-car-inquest-hears-13577762",
+        "published": "Thu, 27 Aug 2026 13:05:00 +0100",
+        "source": "Sky News",
+        "image": "https://e3.365dm.com/26/03/1920x1080/skynews-jenni-murray-broadcaster_7198517.jpg?20260320181629"
+      },
+      {
+        "title": "Actor Tim Curry has died",
+        "link": "https://news.sky.com/story/actor-tim-curry-who-starred-in-the-rocky-horror-picture-show-has-died-13577457",
+        "published": "Wed, 26 Aug 2026 16:36:00 +0100",
+        "source": "Sky News",
+        "image": "https://e3.365dm.com/26/08/1920x1080/skynews-tim-curry-actor_7331989.jpg?20260826164855"
+      }
+    ]
   }
 }

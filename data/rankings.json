@@ -1,6 +1,6 @@
 {
   "version": 17,
-  "generatedAt": "2026-09-02T14:54:02.223Z",
+  "generatedAt": "2026-09-02T17:23:20.715Z",
   "country": "GB",
   "strategy": "Official source first; labelled fallback when no compatible official chart is available.",
   "services": {
@@ -874,7 +874,7 @@
           "rank": 1,
           "title": "Furious",
           "year": 2026,
-          "type": "SHOW",
+          "type": null,
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/019fa9fd-c0de-7eab-963c-8ec352530398/compose?format=webp&width=386&label=top_ranked_1_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-5d4924b7-1cde-47c3-8852-f30bdd7fe979"
         },
@@ -882,7 +882,7 @@
           "rank": 2,
           "title": "Yellow Mirror",
           "year": 2026,
-          "type": null,
+          "type": "MOVIE",
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/01a020fe-1a30-77cd-a762-593482b1ed6f/compose?format=webp&width=386&label=top_ranked_2_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-b85428e1-f670-4270-96d3-4d0e186336e6"
         },
@@ -906,7 +906,7 @@
           "rank": 5,
           "title": "The Killing of Claire Leveque",
           "year": 3000,
-          "type": "SHOW",
+          "type": null,
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/019f4158-199a-7427-974c-8dbedb19f39e/compose?format=webp&width=386&label=top_ranked_5_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-31e7af82-5341-43fe-baaa-72df8e7ca3b8"
         },
@@ -914,7 +914,7 @@
           "rank": 6,
           "title": "Sing",
           "year": 2016,
-          "type": null,
+          "type": "MOVIE",
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/019ffd08-0677-7e53-b16d-0ef9b623aa78/compose?format=webp&width=386&label=top_ranked_6_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-aa1ffc86-4858-45ba-b5ef-2498ef275495"
         },
@@ -1029,18 +1029,6 @@
         },
         {
           "rank": 7,
-          "title": "Greyhound",
-          "year": 2020,
-          "poster": "/poster/188181053/s166/greyhound.webp",
-          "url": "https://tv.apple.com/gb/movie/greyhound/umc.cmc.o5z5ztufuu3uv8lx7m0jcega",
-          "trend": null,
-          "trendDifference": 0,
-          "daysInTop10": null,
-          "topRank": null,
-          "detailsUrl": "https://www.justwatch.com/uk/movie/greyhound"
-        },
-        {
-          "rank": 8,
           "title": "Step Brothers",
           "year": 2008,
           "poster": "/poster/297627242/s166/step-brothers.webp",
@@ -1050,6 +1038,18 @@
           "daysInTop10": null,
           "topRank": null,
           "detailsUrl": "https://www.justwatch.com/uk/movie/step-brothers"
+        },
+        {
+          "rank": 8,
+          "title": "Greyhound",
+          "year": 2020,
+          "poster": "/poster/188181053/s166/greyhound.webp",
+          "url": "https://tv.apple.com/gb/movie/greyhound/umc.cmc.o5z5ztufuu3uv8lx7m0jcega",
+          "trend": null,
+          "trendDifference": 0,
+          "daysInTop10": null,
+          "topRank": null,
+          "detailsUrl": "https://www.justwatch.com/uk/movie/greyhound"
         },
         {
           "rank": 9,
@@ -1563,6 +1563,18 @@
         },
         {
           "rank": 4,
+          "sourceRank": 370,
+          "title": "The Rapture",
+          "year": 2026,
+          "poster": "/poster/347600465/s166/the-rapture.webp",
+          "url": "https://www.justwatch.com/uk/tv-series/the-rapture",
+          "trend": "DOWN",
+          "trendDifference": -59,
+          "daysInTop10": null,
+          "topRank": 21
+        },
+        {
+          "rank": 5,
           "sourceRank": 413,
           "title": "Naruto",
           "year": 2002,
@@ -1572,18 +1584,6 @@
           "trendDifference": 61,
           "daysInTop10": null,
           "topRank": 19
-        },
-        {
-          "rank": 5,
-          "sourceRank": 440,
-          "title": "The Rapture",
-          "year": 2026,
-          "poster": "/poster/347600465/s166/the-rapture.webp",
-          "url": "https://www.justwatch.com/uk/tv-series/the-rapture",
-          "trend": "UP",
-          "trendDifference": 336,
-          "daysInTop10": null,
-          "topRank": 21
         },
         {
           "rank": 6,
@@ -1859,13 +1859,13 @@
         },
         {
           "rank": 7,
-          "sourceRank": 3856,
+          "sourceRank": 3851,
           "title": "Coronation Street",
           "year": 2010,
           "poster": "/poster/320953901/s166/coronation-street.webp",
           "url": "https://www.justwatch.com/uk/tv-series/coronation-street",
-          "trend": "DOWN",
-          "trendDifference": -14,
+          "trend": "UP",
+          "trendDifference": 5,
           "daysInTop10": null,
           "topRank": 75
         },
@@ -1956,7 +1956,7 @@
           "rank": 3,
           "title": "Steel Magnolias",
           "year": 1989,
-          "poster": "/poster/177783631/s166/steel-magnolias-1989.webp",
+          "poster": "/poster/320954176/s166/steel-magnolias-1989.webp",
           "url": "https://www.justwatch.com/uk/movie/steel-magnolias-1989",
           "trend": null,
           "trendDifference": 0,
@@ -2068,37 +2068,37 @@
         },
         {
           "rank": 3,
-          "sourceRank": 3005,
+          "sourceRank": 3020,
           "title": "Year of the Rabbit",
           "year": 2019,
           "poster": "/poster/252931225/s166/year-of-the-rabbit.webp",
           "url": "https://www.justwatch.com/uk/tv-series/year-of-the-rabbit",
           "trend": "DOWN",
-          "trendDifference": -2,
+          "trendDifference": -9,
           "daysInTop10": 2,
           "topRank": 7
         },
         {
           "rank": 4,
-          "sourceRank": 4460,
+          "sourceRank": 4456,
           "title": "White Lies",
           "year": 2024,
           "poster": "/poster/313788872/s166/white-lies.webp",
           "url": "https://www.justwatch.com/uk/tv-series/white-lies",
-          "trend": "DOWN",
-          "trendDifference": -1,
+          "trend": "UP",
+          "trendDifference": 7,
           "daysInTop10": null,
           "topRank": 52
         },
         {
           "rank": 5,
-          "sourceRank": 4532,
+          "sourceRank": 4534,
           "title": "Jack Irish",
           "year": 2016,
           "poster": "/poster/206000775/s166/jack-irish.webp",
           "url": "https://www.justwatch.com/uk/tv-series/jack-irish",
           "trend": "UP",
-          "trendDifference": 10,
+          "trendDifference": 8,
           "daysInTop10": 1,
           "topRank": 10
         },
@@ -2293,7 +2293,7 @@
           "cadence": "weekly",
           "note": "Fresh data did not update successfully, so the last successful results are being shown.",
           "stale": true,
-          "staleAsOf": "2026-09-02T14:53:02.023Z"
+          "staleAsOf": "2026-09-02T14:54:02.223Z"
         }
       },
       "error": null,
@@ -2753,9 +2753,7 @@
           "displayName": "Billboard",
           "url": "https://ca.billboard.com/charts/hot-100",
           "cadence": "weekly",
-          "note": "Fresh data did not update successfully, so the last successful results are being shown.",
-          "stale": true,
-          "staleAsOf": "2026-09-02T14:53:02.023Z"
+          "note": "Billboard Hot 100 — the weekly US singles chart."
         },
         "albums": {
           "kind": "official",
@@ -2763,13 +2761,10 @@
           "displayName": "Billboard",
           "url": "https://ca.billboard.com/charts/billboard-200",
           "cadence": "weekly",
-          "note": "Fresh data did not update successfully, so the last successful results are being shown.",
-          "stale": true,
-          "staleAsOf": "2026-09-02T14:53:02.023Z"
+          "note": "Billboard 200 — the weekly US albums chart."
         }
       },
-      "error": null,
-      "stale": true
+      "error": null
     }
   }
 }
