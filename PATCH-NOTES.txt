@@ -1,14 +1,6 @@
-WozzaWatch v5.3.35 patch
+WozzaWatch v5.3.38 hotfix
 
-Changed files:
-- news.html
-- news.js
-- news-back.svg
-- styles.css
-- update-news.mjs
-- .github/workflows/update-rankings.yml
-
-Important:
-This version runs WozzaNews from the existing 'Update WozzaWatch rankings' workflow.
-The old .github/workflows/update-news.yml is no longer required. It can be deleted,
-but leaving it in the repository will not stop the main updater from working.
+- Fixes the WozzaNews RSS XML field parser introduced in v5.3.37.
+- Keeps headline HTML sanitising, but applies it after normal RSS title extraction.
+- Adds feed item-count logging to GitHub Actions for easier diagnosis.
+- No visual or gesture changes from v5.3.37.
