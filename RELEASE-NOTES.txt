@@ -1,0 +1,13 @@
+WozzaWatch v5.3.37 — Full consolidated release
+
+WozzaNews:
+- back arrow horizontally flipped
+- rank rows aligned [number] [image] [headline]
+- story metadata shows age only
+- source badge uses WozzaWatch's scalloped verified tick
+- category heading and source badge share one line without overlap
+- RSS headline HTML is stripped before display
+- category swipe mirrors WozzaWatch provider swipe behaviour
+- News remains integrated into the main Update WozzaWatch rankings workflow
+
+This is the scheduled full-app checkpoint release.

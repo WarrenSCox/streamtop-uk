@@ -123,7 +123,7 @@ footer{width:min(760px,100%);margin:0 auto;padding:0 20px max(24px,env(safe-area
 @media(prefers-reduced-motion:reduce){.segmented.idle-hint-first .clapper-top,.segmented.idle-hint-second button[data-type="SHOW"] .remote-icon,.tune-page .segmented.idle-hint-first button[data-type="SINGLE"] img,.tune-page .segmented.idle-hint-second button[data-type="ALBUM"] img{animation:none!important}}
 
 
-/* v5.3.36 — Watchlist hold-drag priority + nervous Watched eyes */
+/* v5.3.32 — Watchlist hold-drag priority + nervous Watched eyes */
 .my-list-page .chart-item{grid-template-columns:46px 58px minmax(0,1fr) 44px;touch-action:pan-y;transition:transform .14s ease,box-shadow .14s ease,background .14s ease}
 .my-list-page .chart-item.hold-dragging{z-index:15;transform:scale(1.018);background:#fffdf8;box-shadow:0 12px 28px rgba(23,33,61,.20);border-radius:12px}
 body.watchlist-reordering{overscroll-behavior:none}
@@ -136,7 +136,7 @@ body.watchlist-reordering{overscroll-behavior:none}
 @media(prefers-reduced-motion:reduce){.pile-eye-pair.nervous-glance .watch-pupil{animation:none!important}}
 
 
-/* v5.3.36 — app-wide text selection suppression + randomized Watched eye idle animation */
+/* v5.3.32 — app-wide text selection suppression + randomized Watched eye idle animation */
 html,body,body *{-webkit-user-select:none;user-select:none;-webkit-touch-callout:none}
 .pile-eye-pair.random-blink .watch-eye{animation:pile-random-blink .72s ease-in-out}
 .pile-eye-pair.random-blink .watch-eye:nth-child(2){animation-delay:.035s}
@@ -144,7 +144,7 @@ html,body,body *{-webkit-user-select:none;user-select:none;-webkit-touch-callout
 @media(prefers-reduced-motion:reduce){.pile-eye-pair.random-blink .watch-eye{animation:none!important}}
 
 
-/* v5.3.36 — minimal Watched rows + slower Looney-Tunes-style eye pile */
+/* v5.3.32 — minimal Watched rows + slower Looney-Tunes-style eye pile */
 .watched-page .watched-intro{margin-bottom:12px}
 .watched-page .chart-item .item-info{align-self:center;display:flex;align-items:center}
 .watched-page .chart-item .title{margin:0}
@@ -173,7 +173,7 @@ html,body,body *{-webkit-user-select:none;user-select:none;-webkit-touch-callout
 .header-copy{cursor:pointer;border-radius:10px;padding:4px;margin-right:-4px;transition:background .15s ease,transform .15s ease}.header-copy:active{transform:scale(.98)}.header-copy:focus-visible{outline:3px solid var(--navy);outline-offset:2px}
 .wozza-menu-backdrop{position:fixed;inset:0;z-index:79;background:rgba(23,33,61,.08);backdrop-filter:blur(1px)}.wozza-menu{position:fixed;z-index:80;right:max(12px,env(safe-area-inset-right));top:max(74px,calc(env(safe-area-inset-top) + 62px));width:min(292px,calc(100vw - 24px));padding:12px;border:1px solid rgba(23,33,61,.12);border-radius:22px;background:rgba(248,245,239,.98);box-shadow:0 18px 48px rgba(23,33,61,.24);transform:translateY(-8px) scale(.96);transform-origin:top right;opacity:0;pointer-events:none;transition:transform .18s cubic-bezier(.2,.9,.25,1),opacity .14s ease}.wozza-menu.open{transform:translateY(0) scale(1);opacity:1;pointer-events:auto}.wozza-menu-title{padding:5px 8px 9px;font-family:"Archivo Black",Impact,sans-serif;font-size:11px;letter-spacing:.04em}.wozza-menu-item{appearance:none;border:0;width:100%;display:grid;grid-template-columns:42px minmax(0,1fr) 28px;align-items:center;gap:10px;padding:8px;border-radius:14px;background:transparent;color:var(--navy);text-decoration:none;text-align:left;font:800 14px/1.1 Inter,sans-serif;cursor:pointer}.wozza-menu-item:hover,.wozza-menu-item:focus-visible{background:rgba(154,178,212,.20);outline:none}.wozza-menu-item img{width:40px;height:40px;display:block;object-fit:contain}.wozza-star{font-size:19px;text-align:center;color:#FDD848;-webkit-text-stroke:1px rgba(23,33,61,.28)}.wozza-star.muted{color:transparent;-webkit-text-stroke:1.5px #17213d}.wozza-menu-note{padding:8px 8px 3px;text-align:center;font-size:9px;font-weight:700;color:#65708a;opacity:.72}.prototype-item.prototype-pulse{animation:prototype-pulse .34s ease}@keyframes prototype-pulse{50%{transform:scale(.98);background:rgba(253,216,72,.22)}}@media(prefers-reduced-motion:reduce){.wozza-menu{transition:none}.prototype-item.prototype-pulse{animation:none}}
 
-/* v5.3.36 — All Wozzas ranked menu */
+/* v5.3.32 — All Wozzas ranked menu */
 .wozza-menu{
   background:#ded7f3;
   border:3px solid #dce6f2;
@@ -206,7 +206,7 @@ html,body,body *{-webkit-user-select:none;user-select:none;-webkit-touch-callout
 }
 .wozza-menu-note{border-top:1px solid rgba(23,33,61,.10);margin-top:4px;padding-top:9px}
 
-/* v5.3.36 — All Wozzas menu now mirrors the chart-card visual language. */
+/* v5.3.32 — All Wozzas menu now mirrors the chart-card visual language. */
 .wozza-menu{
   background:var(--panel);
   border:1px solid var(--line);
@@ -245,7 +245,7 @@ html,body,body *{-webkit-user-select:none;user-select:none;-webkit-touch-callout
   background:transparent;
 }
 
-/* v5.3.36 — Android-safe ranked menu + restored floating TV logo */
+/* v5.3.32 — Android-safe ranked menu + restored floating TV logo */
 .wozza-menu-item,
 .wozza-menu-item *{
   -webkit-touch-callout:none!important;
@@ -261,7 +261,7 @@ html,body,body *{-webkit-user-select:none;user-select:none;-webkit-touch-callout
   box-shadow:none!important;
 }
 
-/* v5.3.36 TV icon hotfix — genuine original SVG, transparent and optically balanced */
+/* v5.3.32 TV icon hotfix — genuine original SVG, transparent and optically balanced */
 .brand-icon[src$="icon.svg"]{
   width:52px;
   height:52px;
@@ -280,7 +280,7 @@ html,body,body *{-webkit-user-select:none;user-select:none;-webkit-touch-callout
   }
 }
 
-/* v5.3.36 — All Wozzas menu simplification */
+/* v5.3.32 — All Wozzas menu simplification */
 .wozza-menu-help,
 .wozza-menu-footer,
 .menu-help{
@@ -302,7 +302,7 @@ html,body,body *{-webkit-user-select:none;user-select:none;-webkit-touch-callout
 
 
 
-/* v5.3.36 — corrected All Wozzas back control */
+/* v5.3.32 — corrected All Wozzas back control */
 .wozza-menu-back{
   appearance:none;
   width:100%;
@@ -321,7 +321,7 @@ html,body,body *{-webkit-user-select:none;user-select:none;-webkit-touch-callout
 }
 .wozza-menu-back:active{opacity:.55}
 
-/* v5.3.36 WozzaNews */
+/* v5.3.32 WozzaNews */
 .news-home-switch{width:46px;height:46px;display:grid;place-items:center;text-decoration:none;flex:0 0 auto}
 .news-brand .brand-icon{object-fit:contain}
 .news-tabs button{border:0;color:var(--navy);font:800 18px Inter,sans-serif;white-space:nowrap;padding:15px 25px;border-radius:28px;box-shadow:0 5px 0 rgba(23,33,61,.08)}
@@ -337,7 +337,7 @@ html,body,body *{-webkit-user-select:none;user-select:none;-webkit-touch-callout
 .verified{display:inline-grid;place-items:center;margin-left:5px;width:22px;height:22px;border-radius:50%;background:#48c99a;color:white;font-size:14px}
 @media(max-width:560px){.news-tabs button{font-size:16px;padding:13px 20px}.news-thumb{width:74px;height:86px}.news-copy strong{font-size:18px}.news-home-switch{width:43px;height:43px}}
 .news-home-switch img{width:46px;height:38px;display:block;object-fit:contain}.news-tabs{gap:8px;padding:11px 4px 16px}.news-tabs .service-tab{min-width:0!important;padding:11px 15px!important;border-radius:999px!important;font-size:13px!important;font-weight:800!important;box-shadow:0 4px 0 rgba(23,33,61,.08)!important}.news-tabs .service-tab.active{box-shadow:0 0 0 3px var(--navy),0 4px 0 rgba(23,33,61,.08)!important}
-/* v5.3.36 WozzaNews hotfix */
+/* v5.3.34 WozzaNews hotfix */
 .news-home-switch{width:40px!important;height:40px!important;margin-left:4px}
 .news-home-switch img{width:40px!important;height:32px!important}
 .news-tabs .service-tab{height:44px!important;min-width:92px!important;padding:0 16px!important;font-size:13px!important;border-radius:999px!important}
@@ -351,7 +351,7 @@ html,body,body *{-webkit-user-select:none;user-select:none;-webkit-touch-callout
  .news-chart-heading .verified{width:18px;height:18px;font-size:11px;margin-left:3px}
 }
 
-/* v5.3.36 — WozzaNews no-overlap header + cleaner back control */
+/* v5.3.35 — WozzaNews no-overlap header + cleaner back control */
 .news-home-switch{
   width:40px!important;height:40px!important;
   display:grid!important;place-items:center!important;
@@ -385,4 +385,49 @@ html,body,body *{-webkit-user-select:none;user-select:none;-webkit-touch-callout
 @media(max-width:420px){
   .news-chart-heading{gap:9px!important}
   .news-chart-heading #newsTitle{font-size:clamp(24px,7.4vw,31px)!important}
+}
+
+/* v5.3.37 — WozzaNews alignment and interaction parity */
+.news-chart-heading{
+  display:grid!important;
+  grid-template-columns:minmax(0,1fr) auto!important;
+  align-items:center!important;
+  gap:10px!important;
+}
+.news-chart-heading #newsTitle{
+  width:auto!important;max-width:100%!important;min-width:0!important;
+  margin:0!important;white-space:nowrap!important;overflow:hidden!important;
+  text-overflow:clip!important;
+  font-size:clamp(21px,5.7vw,38px)!important;
+}
+.news-chart-heading .source-badge{
+  position:static!important;align-self:center!important;justify-self:end!important;
+  margin:0!important;z-index:auto!important;
+}
+.news-chart-heading .verified-tick{margin-left:1px}
+.news-row{
+  position:relative;
+  display:grid!important;
+  grid-template-columns:46px 86px minmax(0,1fr)!important;
+  align-items:center!important;
+  gap:14px!important;
+  min-height:142px!important;
+  padding:12px 18px 12px 10px!important;
+  border-bottom:1px solid var(--line);
+}
+.news-row:last-child{border-bottom:0}
+.news-row .rank{grid-column:1;text-align:center;align-self:center}
+.news-image-link{grid-column:2;display:block;text-decoration:none}
+.news-row .news-thumb{width:86px;height:96px;margin:0}
+.news-row .news-story{
+  grid-column:3;display:block!important;min-width:0;color:inherit;text-decoration:none;
+}
+.news-copy{display:flex;flex-direction:column;gap:7px;min-width:0}
+.news-copy small{font-size:12px;color:#7d8495;font-weight:800;text-transform:uppercase}
+@media(max-width:560px){
+ .news-chart-heading{gap:8px!important;padding-left:14px!important;padding-right:12px!important}
+ .news-chart-heading #newsTitle{font-size:clamp(19px,5.9vw,29px)!important}
+ .news-chart-heading .source-badge{font-size:7.5px!important;padding:6px 8px!important}
+ .news-row{grid-template-columns:38px 74px minmax(0,1fr)!important;gap:10px!important;padding-right:14px!important}
+ .news-row .news-thumb{width:74px;height:86px}
 }

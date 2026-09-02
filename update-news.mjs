@@ -14,8 +14,11 @@ const decode=s=>String(s??"")
  .replace(/&amp;/g,"&").replace(/&quot;/g,'"').replace(/&#39;|&apos;/g,"'")
  .replace(/&lt;/g,"<").replace(/&gt;/g,">").trim();
 
+function cleanHeadline(s){
+ return decode(s).replace(/<[^>]*>/g," ").replace(/\s+/g," ").trim();
+}
 function tag(xml,name){
- const m=xml.match(new RegExp("<"+name+"(?:\\s[^>]*)?>([\\s\\S]*?)<\\/"+name+">","i"));
+ const m=xml.match(new RegExp("<"+name+"(?:\\\\s[^>]*)?>([\\\\s\\\\S]*?)<\\\\/"+name+">","i"));
  return decode(m?.[1]);
 }
 function media(xml){
@@ -30,7 +33,7 @@ function media(xml){
 }
 async function fetchFeed(url){
  const r=await fetch(url,{redirect:"follow",headers:{
-  "User-Agent":"Mozilla/5.0 (compatible; WozzaNews/5.3.36)",
+  "User-Agent":"Mozilla/5.0 (compatible; WozzaNews/5.3.37)",
   "Accept":"application/rss+xml, application/xml, text/xml;q=0.9, */*;q=0.8"
  }});
  if(!r.ok)throw new Error(`${r.status} ${r.statusText}`);
@@ -42,9 +45,8 @@ async function fetchFeed(url){
 const categories={};
 for(const [cat,url] of Object.entries(feeds)){
  const items=await fetchFeed(url);
- console.log(`${cat}: ${items.length} raw RSS items`);
  const rows=items.map(x=>({
-  title:tag(x,"title"),
+  title:cleanHeadline(tag(x,"title")),
   link:tag(x,"link")||tag(x,"guid"),
   published:tag(x,"pubDate")||tag(x,"dc:date"),
   source:"Sky News",
