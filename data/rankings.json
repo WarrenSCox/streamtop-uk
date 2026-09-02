@@ -1,6 +1,6 @@
 {
   "version": 17,
-  "generatedAt": "2026-09-02T04:35:56.026Z",
+  "generatedAt": "2026-09-02T04:44:59.477Z",
   "country": "GB",
   "strategy": "Official source first; labelled fallback when no compatible official chart is available.",
   "services": {
@@ -874,7 +874,7 @@
           "rank": 1,
           "title": "Furious",
           "year": 2026,
-          "type": "SHOW",
+          "type": null,
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/019fa9fd-c0de-7eab-963c-8ec352530398/compose?format=webp&width=386&label=top_ranked_1_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-5d4924b7-1cde-47c3-8852-f30bdd7fe979"
         },
@@ -930,7 +930,7 @@
           "rank": 8,
           "title": "Camp Rock 3",
           "year": 2026,
-          "type": "MOVIE",
+          "type": null,
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/019ffe9d-80a0-76b1-9f10-760c4fe89db9/compose?format=webp&width=386&label=top_ranked_8_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-db450dbe-0450-473e-ad79-a89ad39d2aa7"
         },
@@ -946,7 +946,7 @@
           "rank": 10,
           "title": "Marvel Studios' The Avengers",
           "year": 2012,
-          "type": null,
+          "type": "MOVIE",
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/f31231d4-500b-42eb-a3a6-ef53aaef969f/compose?format=webp&width=386&label=top_ranked_10_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-d2ab699b-67da-4906-a7a4-5bc542c953cf"
         }
