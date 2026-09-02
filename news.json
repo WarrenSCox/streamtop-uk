@@ -1,10 +1,7 @@
 {
-  "updated": "2026-09-02T17:57:26.286Z",
-  "defaultProvider": "SKY",
+  "updated": "2026-09-02T18:34:24.366Z",
   "providers": {
     "SKY": {
-      "name": "Sky News",
-      "url": "https://news.sky.com/info/rss",
       "categories": {
         "UK": [
           {
@@ -15,7 +12,7 @@
             "image": "https://e3.365dm.com/26/09/1920x1080/skynews-sunday-mornings_7338664.jpg?20260902122708"
           },
           {
-            "title": "Pistol in lake could be linked to unsolved killings of British family in France",
+            "title": "Pistol in lake could be linked to unsolved killings of British family",
             "link": "https://news.sky.com/story/pistol-found-in-lake-could-be-linked-to-unsolved-killings-of-british-family-in-france-13580416",
             "published": "Wed, 02 Sep 2026 15:39:00 +0100",
             "source": "Sky News",
@@ -80,6 +77,13 @@
         ],
         "WORLD": [
           {
+            "title": "Germany probes possible acts of sabotage after explosives found at substation",
+            "link": "https://news.sky.com/story/germany-probes-possible-acts-of-sabotage-after-explosives-found-at-substation-13580446",
+            "published": "Wed, 02 Sep 2026 17:15:00 +0100",
+            "source": "Sky News",
+            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-polie-police-germany_7339068.jpg?20260902174803"
+          },
+          {
             "title": "Nationwide migrant protests prompt appeals for calm in Spain's North African territory",
             "link": "https://news.sky.com/story/nationwide-migrant-protests-prompt-appeals-for-calm-in-ceuta-spains-north-african-territory-13580443",
             "published": "Wed, 02 Sep 2026 16:35:00 +0100",
@@ -94,7 +98,7 @@
             "image": "https://e3.365dm.com/26/09/1920x1080/skynews-tiger-woods-court_7338755.jpg?20260902133756"
           },
           {
-            "title": "Pistol in lake could be linked to unsolved killings of British family in France",
+            "title": "Pistol in lake could be linked to unsolved killings of British family",
             "link": "https://news.sky.com/story/pistol-found-in-lake-could-be-linked-to-unsolved-killings-of-british-family-in-france-13580416",
             "published": "Wed, 02 Sep 2026 15:39:00 +0100",
             "source": "Sky News",
@@ -413,10 +417,15 @@
       }
     },
     "GUARDIAN": {
-      "name": "The Guardian",
-      "url": "https://www.theguardian.com/help/feeds",
       "categories": {
         "UK": [
+          {
+            "title": "Green party members back Zack Polanski to stand in London byelection",
+            "link": "https://www.theguardian.com/politics/2026/sep/02/green-party-members-back-zack-polanski-to-stand-in-london-byelection",
+            "published": "Wed, 02 Sep 2026 18:11:55 GMT",
+            "source": "The Guardian",
+            "image": "https://i.guim.co.uk/img/media/2843c9d9eb9e2d4f8a6a881ae53dd9db0bad9642/369_162_4143_3315/master/4143.jpg?width=140&quality=85&auto=format&fit=max&s=8d08eb8a9f05a75ef0c4679389a15d12"
+          },
           {
             "title": "Sadiq Khan fined over untaxed car falsely registered in his name",
             "link": "https://www.theguardian.com/politics/2026/sep/02/sadiq-khan-fined-fast-track-court-untaxed-car-city-hall-says-he-doesnt-own",
@@ -472,13 +481,6 @@
             "published": "Wed, 02 Sep 2026 14:29:50 GMT",
             "source": "The Guardian",
             "image": "https://i.guim.co.uk/img/media/1e8c1503696b3e62e4fb1a2b7b975c55b0daf8b6/861_0_5123_4098/master/5123.jpg?width=140&quality=85&auto=format&fit=max&s=034cfcd55ce97a6b7cb10fc6cdff4b34"
-          },
-          {
-            "title": "Architect of UK’s AI strategy joins Anthropic amid conflict of interest warning",
-            "link": "https://www.theguardian.com/technology/2026/sep/02/architect-of-uks-ai-strategy-joins-anthropic",
-            "published": "Wed, 02 Sep 2026 14:29:43 GMT",
-            "source": "The Guardian",
-            "image": "https://i.guim.co.uk/img/media/852ec2a6836480a45df3ced8fc2d4b4204eb9886/155_0_2073_1659/master/2073.jpg?width=140&quality=85&auto=format&fit=max&s=78565fb8a269d14119f55dafd9800097"
           },
           {
             "title": "Andy Burnham blames Tory legacy for leaving UK economy vulnerable",
@@ -562,6 +564,20 @@
         ],
         "POLITICS": [
           {
+            "title": "Bayeux tapestry loan symbolises ‘entente amicale’ between France and UK, says King Charles",
+            "link": "https://www.theguardian.com/world/2026/sep/02/bayeux-tapestry-loan-symbolises-entente-amicale-between-france-and-uk-says-king-charles",
+            "published": "Wed, 02 Sep 2026 18:23:39 GMT",
+            "source": "The Guardian",
+            "image": "https://i.guim.co.uk/img/media/7e9c44a8fd3a26110b6b30b0e657333fc1224e07/557_0_4080_3264/master/4080.jpg?width=140&quality=85&auto=format&fit=max&s=a439065bb3268714a1c528ad3a1dd829"
+          },
+          {
+            "title": "Green party members back Zack Polanski to stand in London byelection",
+            "link": "https://www.theguardian.com/politics/2026/sep/02/green-party-members-back-zack-polanski-to-stand-in-london-byelection",
+            "published": "Wed, 02 Sep 2026 18:11:55 GMT",
+            "source": "The Guardian",
+            "image": "https://i.guim.co.uk/img/media/2843c9d9eb9e2d4f8a6a881ae53dd9db0bad9642/369_162_4143_3315/master/4143.jpg?width=140&quality=85&auto=format&fit=max&s=8d08eb8a9f05a75ef0c4679389a15d12"
+          },
+          {
             "title": "Sadiq Khan fined over untaxed car falsely registered in his name",
             "link": "https://www.theguardian.com/politics/2026/sep/02/sadiq-khan-fined-fast-track-court-untaxed-car-city-hall-says-he-doesnt-own",
             "published": "Wed, 02 Sep 2026 17:08:08 GMT",
@@ -595,20 +611,6 @@
             "published": "Wed, 02 Sep 2026 14:29:50 GMT",
             "source": "The Guardian",
             "image": "https://i.guim.co.uk/img/media/1e8c1503696b3e62e4fb1a2b7b975c55b0daf8b6/861_0_5123_4098/master/5123.jpg?width=140&quality=85&auto=format&fit=max&s=034cfcd55ce97a6b7cb10fc6cdff4b34"
-          },
-          {
-            "title": "Architect of UK’s AI strategy joins Anthropic amid conflict of interest warning",
-            "link": "https://www.theguardian.com/technology/2026/sep/02/architect-of-uks-ai-strategy-joins-anthropic",
-            "published": "Wed, 02 Sep 2026 14:29:43 GMT",
-            "source": "The Guardian",
-            "image": "https://i.guim.co.uk/img/media/852ec2a6836480a45df3ced8fc2d4b4204eb9886/155_0_2073_1659/master/2073.jpg?width=140&quality=85&auto=format&fit=max&s=78565fb8a269d14119f55dafd9800097"
-          },
-          {
-            "title": "UK government does not know what datacentres are being used for, FoI request shows",
-            "link": "https://www.theguardian.com/uk-news/2026/sep/02/uk-datacentres-ai-boom-foi-environment",
-            "published": "Wed, 02 Sep 2026 13:44:54 GMT",
-            "source": "The Guardian",
-            "image": "https://i.guim.co.uk/img/media/33707db5e34c5051b9aca30ad14e30d71dccc76a/1564_52_6560_5251/master/6560.jpg?width=140&quality=85&auto=format&fit=max&s=7f822ea7479cef34c2c65f3eea345f05"
           },
           {
             "title": "The Guardian view on Kemi Badenoch and the economy: a plan stuck in the Tory comfort zone | Editorial",
@@ -850,412 +852,438 @@
         ]
       }
     },
-    "INDEPENDENT": {
-      "name": "The Independent",
-      "url": "https://www.independent.co.uk/service/rss-feeds-775086.html",
+    "METRO": {
       "categories": {
         "UK": [
           {
-            "title": "Watch live: King and Queen speak after historic Bayeux Tapestry viewing with Macron and Burnham",
-            "link": "https://www.independent.co.uk/news/uk/home-news/bayeux-tapestry-king-charles-macron-burnham-b3043649.html",
-            "published": "Wed, 02 Sep 2026 17:55:47 GMT",
-            "source": "The Independent",
-            "image": "https://static.independent.co.uk/2026/09/02/18/2292633713..?width=1200&auto=webp&trim=1%2C0%2C1%2C0"
+            "title": "Man waiting for kebab launches knife attack after someone ‘rang bell of his e-scooter’ outside",
+            "link": "https://metro.co.uk/2026/09/02/man-waiting-kebab-launches-knife-attack-someone-rang-bell-e-scooter-outside-29521332/",
+            "published": "Wed, 02 Sep 2026 18:14:17 +0000",
+            "source": "Metro",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/kris-stimson-75ed-e1788371838705.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "King Charles and Camilla view Bayeux Tapestry with Macron and Burnham",
-            "link": "https://www.independent.co.uk/news/uk/home-news/bayeux-tapestry-charles-camilla-burnham-macron-british-museum-b3043519.html",
-            "published": "Wed, 02 Sep 2026 17:33:40 GMT",
-            "source": "The Independent",
-            "image": "https://static.independent.co.uk/2026/09/02/18/2292627024..?width=1200&auto=webp&trim=0%2C213%2C0%2C213"
+            "title": "Mysterious ten-sided structure discovered in Saturn’s atmosphere",
+            "link": "https://metro.co.uk/2026/09/02/mysterious-ten-sided-structure-discovered-saturns-atmosphere-29521031/",
+            "published": "Wed, 02 Sep 2026 18:00:00 +0000",
+            "source": "Metro",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310350645-95dd.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Burnham warned cash ‘not vibes’ needed to stop Putin as Russian threats intensify",
-            "link": "https://www.independent.co.uk/news/uk/politics/burnham-defence-spending-putin-threat-uk-pmqs-russia-b3043668.html",
-            "published": "Wed, 02 Sep 2026 17:27:34 GMT",
-            "source": "The Independent",
-            "image": "https://static.independent.co.uk/2026/09/02/13/2e732fe31bbe90f0344cfa242d793a66Y29udGVudHNlYXJjaGFwaSwxNzg4NDM2NTg0-2.85717482.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0"
+            "title": "PE teacher ‘had sex with boy and asked him to call her miss’ when alone together",
+            "link": "https://metro.co.uk/2026/09/02/pe-teacher-had-sex-boy-asked-call-miss-alone-29520149/",
+            "published": "Wed, 02 Sep 2026 16:56:17 +0000",
+            "source": "Metro",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310391190-bd55.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Asda issues urgent recall of handbags over ‘serious chemical risk’ to reproductive system",
-            "link": "https://www.independent.co.uk/news/uk/home-news/asda-recall-handbags-chemical-risk-b3043674.html",
-            "published": "Wed, 02 Sep 2026 17:07:56 GMT",
-            "source": "The Independent",
-            "image": "https://static.independent.co.uk/2026/08/28/14/01KAGHAM9F7B7E2KHEGFKR0NB7.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0"
+            "title": "Son killed dad in pub after finding out he was his biological father",
+            "link": "https://metro.co.uk/2026/09/02/son-killed-dad-pub-finding-biological-father-29520626/",
+            "published": "Wed, 02 Sep 2026 16:51:39 +0000",
+            "source": "Metro",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310394523-4b48.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Doctor accused of being Lucy Letby ‘crush’ named for first time",
-            "link": "https://www.independent.co.uk/news/uk/crime/lucy-letby-dr-mark-deakin-crush-b3043598.html",
-            "published": "Wed, 02 Sep 2026 16:56:03 GMT",
-            "source": "The Independent",
-            "image": "https://static.independent.co.uk/2026/09/02/16/48/Letby-split-copy.jpeg?width=1200&auto=webp&trim=0%2C0%2C0%2C0"
+            "title": "Metro uncovers upskirting website of unsuspecting women and girls across London",
+            "link": "https://metro.co.uk/2026/09/02/metro-uncovers-upskirting-website-unsuspecting-women-girls-across-london-29516265/",
+            "published": "Wed, 02 Sep 2026 16:00:00 +0000",
+            "source": "Metro",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310343151-570b-e1788347436492.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Missing British trail runner found dead in Pakistan forest after major search operation",
-            "link": "https://www.independent.co.uk/news/uk/home-news/alexander-harris-runner-pakistan-mountain-body-found-b3043659.html",
-            "published": "Wed, 02 Sep 2026 16:48:48 GMT",
-            "source": "The Independent",
-            "image": "https://static.independent.co.uk/2026/09/02/16/16/f0eb1540-a6ac-11f1-b048-153395f36aa1-copy.jpeg?width=1200&auto=webp&trim=0%2C0%2C0%2C0"
+            "title": "‘I investigated the seedy world of online upskirting – what I saw should worry Londoners’",
+            "link": "https://metro.co.uk/2026/09/02/i-investigated-seedy-world-online-upskirting-saw-worry-londoners-29518134/",
+            "published": "Wed, 02 Sep 2026 16:00:00 +0000",
+            "source": "Metro",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310377242-417c.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Argentina gives fresh warning to UK over Falkland Islands",
-            "link": "https://www.independent.co.uk/news/uk/politics/falklands-islands-uk-argentina-warning-trump-b3043368.html",
-            "published": "Wed, 02 Sep 2026 16:46:22 GMT",
-            "source": "The Independent",
-            "image": "https://static.independent.co.uk/2024/03/12/13/cc3dd7b6421aa565f0993d0de8fc1485Y29udGVudHNlYXJjaGFwaSwxNzEwMzM1NzUy-2.75394462.jpg?width=1200&auto=webp&crop=3%3A2"
+            "title": "Four in court over murder of baby who suffered 33 wounds in stabbing",
+            "link": "https://metro.co.uk/2026/09/02/four-court-murder-baby-suffered-33-wounds-stabbing-29519933/",
+            "published": "Wed, 02 Sep 2026 15:42:46 +0000",
+            "source": "Metro",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310382752-f235-e1788367632223.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Ditch pensions triple lock and cut welfare spending to calm markets, Burnham told",
-            "link": "https://www.independent.co.uk/news/uk/politics/pension-triple-lock-welfare-burnham-jim-oneill-b3043523.html",
-            "published": "Wed, 02 Sep 2026 16:29:40 GMT",
-            "source": "The Independent",
-            "image": "https://static.independent.co.uk/2026/09/02/14/40/260715_PMQs-8_75098-copy-212dcaae.jpeg?width=1200&auto=webp&trim=0%2C0%2C0%2C0"
+            "title": "Lucy Letby’s ‘boyfriend’ who died after he was sacked as doctor named",
+            "link": "https://metro.co.uk/2026/09/02/lucy-letbys-boyfriend-died-sacked-doctor-named-29519412/",
+            "published": "Wed, 02 Sep 2026 14:46:28 +0000",
+            "source": "Metro",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310379268-04b6.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "British woman stabbed to death by stranger in Germany pictured as tributes paid to ‘beloved’ friend",
-            "link": "https://www.independent.co.uk/news/uk/home-news/becca-bullock-germany-rosenheim-bavaria-b3043348.html",
-            "published": "Wed, 02 Sep 2026 16:22:58 GMT",
-            "source": "The Independent",
-            "image": "https://static.independent.co.uk/2026/09/02/8/38/23543675468-93f1da1a.jpeg?width=1200&auto=webp&trim=0%2C0%2C0%2C0"
+            "title": "Woman ‘thrown from rollercoaster and dragged along track trapped in her seatbelt’",
+            "link": "https://metro.co.uk/2026/09/02/woman-thrown-rollercoaster-dragged-along-track-trapped-seatbelt-29517197/",
+            "published": "Wed, 02 Sep 2026 14:12:01 +0000",
+            "source": "Metro",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310350327-d669.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Farage warned he could face stiffer penalty after claiming probe into £5m crypto donation is rigged",
-            "link": "https://www.independent.co.uk/news/uk/politics/nigel-farage-crypto-billionaire-gift-standards-committee-b3043501.html",
-            "published": "Wed, 02 Sep 2026 16:21:32 GMT",
-            "source": "The Independent",
-            "image": "https://static.independent.co.uk/2026/08/22/15/22144457-5bfab528-ebda-4fe2-bb82-a82020391510.jpg?width=1200&auto=webp&trim=113%2C0%2C113%2C0"
+            "title": "Hackers sell scans of 153,000,000 US driving licences – and drivers here could be next",
+            "link": "https://metro.co.uk/2026/09/02/hackers-sell-scans-153-000-000-us-driving-licences-drivers-next-29517259/",
+            "published": "Wed, 02 Sep 2026 14:04:54 +0000",
+            "source": "Metro",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/drivers-comp-50a2.gif?w=646"
           }
         ],
         "WORLD": [
           {
-            "title": "Burnham warned cash ‘not vibes’ needed to stop Putin as Russian threats intensify",
-            "link": "https://www.independent.co.uk/news/uk/politics/burnham-defence-spending-putin-threat-uk-pmqs-russia-b3043668.html",
-            "published": "Wed, 02 Sep 2026 17:27:34 GMT",
-            "source": "The Independent",
-            "image": "https://static.independent.co.uk/2026/09/02/13/2e732fe31bbe90f0344cfa242d793a66Y29udGVudHNlYXJjaGFwaSwxNzg4NDM2NTg0-2.85717482.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0"
+            "title": "Mysterious ten-sided structure discovered in Saturn’s atmosphere",
+            "link": "https://metro.co.uk/2026/09/02/mysterious-ten-sided-structure-discovered-saturns-atmosphere-29521031/",
+            "published": "Wed, 02 Sep 2026 18:00:00 +0000",
+            "source": "Metro",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310350645-95dd.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Texas facing 30 inches of rain in 24 hours as rescues underway",
-            "link": "https://www.independent.co.uk/news/world/americas/texas-weather-floods-edouard-storm-b3043622.html",
-            "published": "Wed, 02 Sep 2026 17:24:52 GMT",
-            "source": "The Independent",
-            "image": "https://static.independent.co.uk/2026/09/02/17/download..?width=1200&auto=webp&trim=0%2C0%2C0%2C0"
+            "title": "Iran accuses US of bombing a wedding and wounding more than 68 people",
+            "link": "https://metro.co.uk/2026/09/02/iran-accuses-us-bombing-a-wedding-wounding-68-people-29516960/",
+            "published": "Wed, 02 Sep 2026 11:36:24 +0000",
+            "source": "Metro",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310338834-15d6-e1788361718131.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "British activist deported by Israel says he was kidnapped at gunpoint and locked in shed by Israeli settlers",
-            "link": "https://www.independent.co.uk/news/world/middle-east/israel-deports-british-activist-finn-joughin-b3042836.html",
-            "published": "Wed, 02 Sep 2026 13:31:02 GMT",
-            "source": "The Independent",
-            "image": "https://static.independent.co.uk/2026/09/01/14/53/IMG-20260901-WA0001.jpeg?width=1200&auto=webp&trim=122%2C0%2C625%2C0"
+            "title": "Putin smirks when claiming plot to launch attacks on British soil is a ‘military secret’",
+            "link": "https://metro.co.uk/2026/09/02/putin-says-plot-launch-attacks-british-soil-a-military-secret-29516038/",
+            "published": "Wed, 02 Sep 2026 08:32:30 +0000",
+            "source": "Metro",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_309403854-7775.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Trump will stand alone on the 9/11 25th anniversary as the only living president not at Ground Zero in NYC",
-            "link": "https://www.independent.co.uk/news/world/americas/us-politics/trump-biden-september-11-anniversary-new-york-b3043460.html",
-            "published": "Wed, 02 Sep 2026 17:22:01 GMT",
-            "source": "The Independent",
-            "image": "https://static.independent.co.uk/2026/09/02/12/57/GettyImages-2281591012.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0"
+            "title": "First picture of British woman stabbed to death by stranger in Germany",
+            "link": "https://metro.co.uk/2026/09/02/first-picture-british-woman-stabbed-death-stranger-germany-29515885/",
+            "published": "Wed, 02 Sep 2026 07:48:18 +0000",
+            "source": "Metro",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310293861-1811-e1788334950365.jpg?quality=90&strip=all&w=611"
           },
           {
-            "title": "Shooting reported at Virginia elementary school",
-            "link": "https://www.independent.co.uk/news/world/americas/crime/waynesboro-shooting-va-school-b3043643.html",
-            "published": "Wed, 02 Sep 2026 17:12:40 GMT",
-            "source": "The Independent",
-            "image": "https://static.independent.co.uk/2026/09/02/17/Virginia_School_Emergency_56555.jpg?width=1200&auto=webp&trim=0%2C150%2C0%2C150"
+            "title": "At least 22 people killed after bus crashes near tourist resort in Egypt",
+            "link": "https://metro.co.uk/2026/09/02/least-16-people-killed-bus-crashes-near-tourist-resort-egypt-29515929/",
+            "published": "Wed, 02 Sep 2026 07:44:14 +0000",
+            "source": "Metro",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310354114-133f.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "No one wants to go to Trump’s ‘waste of time’ midterm convention: report",
-            "link": "https://www.independent.co.uk/news/world/americas/us-politics/trump-midterm-convention-republicans-b3043586.html",
-            "published": "Wed, 02 Sep 2026 17:02:17 GMT",
-            "source": "The Independent",
-            "image": "https://static.independent.co.uk/2026/09/02/16/56/GettyImages-2162620069.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0"
+            "title": "British mum ‘stabbed to death with scissors’ in front of son, 4, at luxury Algarve resort",
+            "link": "https://metro.co.uk/2026/09/02/british-tourist-34-stabbed-death-hotel-portugal-holiday-hotspot-29515329/",
+            "published": "Wed, 02 Sep 2026 06:23:48 +0000",
+            "source": "Metro",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310373337-3678.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Woman in court charged with intimidating jurors in Lindsay Clancy case by allegedly filming them",
-            "link": "https://www.independent.co.uk/news/world/americas/crime/lindsay-clancy-trial-jurors-verdict-woman-arrested-b3043529.html",
-            "published": "Wed, 02 Sep 2026 16:49:26 GMT",
-            "source": "The Independent",
-            "image": "https://static.independent.co.uk/2026/09/02/15/2292612530..?width=1200&auto=webp&trim=0%2C0%2C0%2C0"
+            "title": "Hundreds injured in stone-throwing festival fiasco",
+            "link": "https://metro.co.uk/2026/09/01/hundreds-injured-stone-throwing-festival-fiasco-29512199/",
+            "published": "Tue, 01 Sep 2026 18:54:34 +0000",
+            "source": "Metro",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310270139-dfe2-e1788288769846.jpg?quality=90&strip=all&w=550"
           },
           {
-            "title": "EXCLUSIVE: AOC reveals why she’s gone public with her fertility journey",
-            "link": "https://www.independent.co.uk/news/world/americas/us-politics/aoc-fertility-health-care-cost-b3043065.html",
-            "published": "Wed, 02 Sep 2026 16:46:20 GMT",
-            "source": "The Independent",
-            "image": "https://static.independent.co.uk/2026/09/01/21/2026-09-01T200231Z_1026682876_RC2IANA9JO2Q_RTRMADP_3_USA-CONGRESS-SHUTDOWN.JPG?width=1200&auto=webp&trim=0%2C0%2C0%2C0"
+            "title": "Russia behind ‘hybrid warfare’ drone attack on German airport",
+            "link": "https://metro.co.uk/2026/09/01/russia-behind-hybrid-warfare-drone-attack-german-airport-29511873/",
+            "published": "Tue, 01 Sep 2026 16:00:17 +0000",
+            "source": "Metro",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310265577-1dc7.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Ukraine-Russia war latest: Moscow threatens direct strike on Germany in escalating tensions with Europe and UK",
-            "link": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-putin-zelensky-uk-germany-b3043169.html",
-            "published": "Wed, 02 Sep 2026 16:45:03 GMT",
-            "source": "The Independent",
-            "image": "https://static.independent.co.uk/2026/09/02/12/2292555286..?width=1200&auto=webp&trim=0%2C2%2C0%2C2"
+            "title": "Death toll from Nepal floods tops 1,000 as rescue squads pull 118 more survivors from rubble",
+            "link": "https://metro.co.uk/2026/09/01/british-survivor-pulled-alive-rubble-nearly-a-week-nepal-disaster-29511247/",
+            "published": "Tue, 01 Sep 2026 14:57:04 +0000",
+            "source": "Metro",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310259963-e919.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "MAGA pundit appears to blame Haitian immigrant for endangering Americans — by taking his own life",
-            "link": "https://www.independent.co.uk/news/world/americas/maga-haiti-pierre-damas-bel-brianna-lyman-b3043600.html",
-            "published": "Wed, 02 Sep 2026 16:40:58 GMT",
-            "source": "The Independent",
-            "image": "https://static.independent.co.uk/2026/09/02/15/16/Screenshot-2026-09-02-at-11-34-33-AM.png?width=1200&auto=webp&trim=0%2C38%2C0%2C38"
+            "title": "Biker crashes into bus and ends up accidentally boarding it",
+            "link": "https://metro.co.uk/2026/09/01/biker-crashes-bus-ends-accidentally-boarding-29510208/",
+            "published": "Tue, 01 Sep 2026 14:46:03 +0000",
+            "source": "Metro",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310255829-f2a0.jpg?quality=90&strip=all&w=646"
           }
         ],
         "POLITICS": [
           {
-            "title": "Burnham warned cash ‘not vibes’ needed to stop Putin as Russian threats intensify",
-            "link": "https://www.independent.co.uk/news/uk/politics/burnham-defence-spending-putin-threat-uk-pmqs-russia-b3043668.html",
-            "published": "Wed, 02 Sep 2026 17:27:34 GMT",
-            "source": "The Independent",
-            "image": "https://static.independent.co.uk/2026/09/02/13/2e732fe31bbe90f0344cfa242d793a66Y29udGVudHNlYXJjaGFwaSwxNzg4NDM2NTg0-2.85717482.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0"
+            "title": "Burnham ‘needs to be Churchill, not Chamberlain’ over Israel, top Trump ally warns",
+            "link": "https://metro.co.uk/2026/09/02/burnham-needs-churchill-not-chamberlain-israel-top-trump-ally-warns-29516780/",
+            "published": "Wed, 02 Sep 2026 11:04:56 +0000",
+            "source": "Metro",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/churchill-burnham.png?w=646"
           },
           {
-            "title": "Argentina gives fresh warning to UK over Falkland Islands",
-            "link": "https://www.independent.co.uk/news/uk/politics/falklands-islands-uk-argentina-warning-trump-b3043368.html",
-            "published": "Wed, 02 Sep 2026 16:46:22 GMT",
-            "source": "The Independent",
-            "image": "https://static.independent.co.uk/2024/03/12/13/cc3dd7b6421aa565f0993d0de8fc1485Y29udGVudHNlYXJjaGFwaSwxNzEwMzM1NzUy-2.75394462.jpg?width=1200&auto=webp&crop=3%3A2"
+            "title": "The minutes after Burnham’s first speech showed how different he is to Starmer",
+            "link": "https://metro.co.uk/2026/09/01/minutes-burnhams-speech-showed-contrast-starmer-29511544/",
+            "published": "Tue, 01 Sep 2026 17:07:48 +0000",
+            "source": "Metro",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310269169-b090.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Ditch pensions triple lock and cut welfare spending to calm markets, Burnham told",
-            "link": "https://www.independent.co.uk/news/uk/politics/pension-triple-lock-welfare-burnham-jim-oneill-b3043523.html",
-            "published": "Wed, 02 Sep 2026 16:29:40 GMT",
-            "source": "The Independent",
-            "image": "https://static.independent.co.uk/2026/09/02/14/40/260715_PMQs-8_75098-copy-212dcaae.jpeg?width=1200&auto=webp&trim=0%2C0%2C0%2C0"
+            "title": "Keir Starmer to step down as MP and force London by-election",
+            "link": "https://metro.co.uk/2026/09/01/keir-starmer-step-mp-force-london-by-election-29509407/",
+            "published": "Tue, 01 Sep 2026 11:23:15 +0000",
+            "source": "Metro",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_302683802-db2d.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Farage warned he could face stiffer penalty after claiming probe into £5m crypto donation is rigged",
-            "link": "https://www.independent.co.uk/news/uk/politics/nigel-farage-crypto-billionaire-gift-standards-committee-b3043501.html",
-            "published": "Wed, 02 Sep 2026 16:21:32 GMT",
-            "source": "The Independent",
-            "image": "https://static.independent.co.uk/2026/08/22/15/22144457-5bfab528-ebda-4fe2-bb82-a82020391510.jpg?width=1200&auto=webp&trim=113%2C0%2C113%2C0"
+            "title": "Prisoners to be locked up in laundry rooms under Labour plans to increase space",
+            "link": "https://metro.co.uk/2026/09/01/prisoners-put-laundry-rooms-plans-increase-space-29508649/",
+            "published": "Tue, 01 Sep 2026 10:48:45 +0000",
+            "source": "Metro",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_309274976-d70d.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Farage demands crackdown on non-English speaking Britons voting in elections",
-            "link": "https://www.independent.co.uk/news/uk/politics/nigel-farage-voting-reform-elections-english-speaking-b3040899.html",
-            "published": "Fri, 28 Aug 2026 14:27:00 GMT",
-            "source": "The Independent",
-            "image": "https://static.independent.co.uk/2026/08/14/09/MdRtmE2yzJDaaWPH9jeaX1KsR0cb3N-549Lh1MTXsEq_2cS0X7M7I0c6uoObBPrJlZtg4Y5BtDE1sLqqEaA4F9MUtgHQ9h5hxDTU..?width=1200&auto=webp&trim=0%2C0%2C0%2C0"
+            "title": "Andy Burnham enters Parliament for the first time as PM – what’s on the agenda?",
+            "link": "https://metro.co.uk/2026/09/01/agenda-andy-burnhams-returns-parliament-pm-29507556/",
+            "published": "Tue, 01 Sep 2026 09:06:03 +0000",
+            "source": "Metro",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/08/SEI_308390979-7864.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Nigel Farage breaks parliamentary rules on first day back",
-            "link": "https://www.independent.co.uk/news/uk/politics/nigel-farage-parliament-rules-video-reform-uk-b3043323.html",
-            "published": "Wed, 02 Sep 2026 11:38:56 GMT",
-            "source": "The Independent",
-            "image": "https://static.independent.co.uk/2026/09/02/10/26/Screenshot-2026-09-02-at-11-21-45.png?width=1200&auto=webp&trim=0%2C36%2C0%2C36"
+            "title": "‘My son spent 14 years in jail for phone theft – now give us a release date’",
+            "link": "https://metro.co.uk/2026/09/01/my-son-spent-14-years-jail-phone-theft-now-give-us-a-release-date-29501716/",
+            "published": "Tue, 01 Sep 2026 06:00:00 +0000",
+            "source": "Metro",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/08/SEI_307444120-7fcd-e1785943981591.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Putin issues new threat over Russian attacks on UK sites",
-            "link": "https://www.independent.co.uk/news/uk/politics/putin-uk-attack-ukraine-war-russia-storm-shadow-b3043273.html",
-            "published": "Wed, 02 Sep 2026 08:46:31 GMT",
-            "source": "The Independent",
-            "image": "https://static.independent.co.uk/2026/09/02/08/2292555309..?width=1200&auto=webp&crop=3%3A2"
+            "title": "Sex offenders ‘should be banned from buying smart glasses’ to protect women",
+            "link": "https://metro.co.uk/2026/09/01/sex-offenders-should-banned-buying-smart-glasses-protect-women-29499557/",
+            "published": "Tue, 01 Sep 2026 05:00:00 +0000",
+            "source": "Metro",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/08/SEI_308058950-f078.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "UK to pursue ‘pragmatic relationship’ with China despite US calls for trade barriers",
-            "link": "https://www.independent.co.uk/news/uk/politics/britain-china-trade-us-g20-finance-leaders-meeting-b3043084.html",
-            "published": "Tue, 01 Sep 2026 22:45:23 GMT",
-            "source": "The Independent",
-            "image": "https://static.independent.co.uk/2026/09/01/22/2026-09-01T170402Z_1805280825_RC2HANAB8OH9_RTRMADP_3_G20-FINANCE.JPG?width=1200&auto=webp&trim=1%2C0%2C1%2C0"
+            "title": "Fanatical Maga supporter Milo Yiannopoulos back in UK after deportation by ICE",
+            "link": "https://metro.co.uk/2026/08/30/fanatical-maga-supporter-milo-yiannopoulos-back-uk-deportation-29494058/",
+            "published": "Sun, 30 Aug 2026 11:59:54 +0000",
+            "source": "Metro",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/08/SEI_309945221-5795.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Privatisation of water firms ‘difficult to reverse’, Burnham admits",
-            "link": "https://www.independent.co.uk/news/uk/politics/burnham-water-companies-privatisation-sewage-tourism-b3043094.html",
-            "published": "Tue, 01 Sep 2026 22:42:34 GMT",
-            "source": "The Independent",
-            "image": "https://static.independent.co.uk/2026/09/01/15/2293011864..?width=1200&auto=webp&trim=0%2C0%2C0%2C0"
+            "title": "Dozens of children aged 12 or under reported to forced marriage unit since 2021",
+            "link": "https://metro.co.uk/2026/08/30/least-100-children-aged-12-younger-forced-marriage-concerns-29494390/",
+            "published": "Sun, 30 Aug 2026 10:49:02 +0000",
+            "source": "Metro",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/08/SEI_229799476-d66d-e1788084338827.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Israel will ‘act against Britain’ if it imposes sanctions over plans to expand illegal settlements",
-            "link": "https://www.independent.co.uk/news/uk/politics/uk-israel-sanctions-burnham-ed-miliband-gideon-saar-b3043100.html",
-            "published": "Tue, 01 Sep 2026 22:14:15 GMT",
-            "source": "The Independent",
-            "image": "https://static.independent.co.uk/2026/08/20/14/2288201878..?width=1200&auto=webp&trim=0%2C0%2C0%2C0"
+            "title": "James Cleverly kicks off London mayor bid with taunts at Sadiq Khan",
+            "link": "https://metro.co.uk/2026/08/30/james-cleverly-kicks-off-london-mayor-bid-taunts-sadiq-khan-29493690/",
+            "published": "Sun, 30 Aug 2026 07:14:57 +0000",
+            "source": "Metro",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/08/SEI_310004375-7c57.jpg?quality=90&strip=all&w=646"
           }
         ],
         "BUSINESS": [
           {
-            "title": "Uber to cut more than 3,000 jobs as part of a major restructuring",
-            "link": "https://www.independent.co.uk/news/business/uber-job-cuts-restructure-workforce-b3043688.html",
-            "published": "Wed, 02 Sep 2026 17:30:29 GMT",
-            "source": "The Independent",
-            "image": "https://static.independent.co.uk/2025/06/10/12/7e0bd24d227f3ae0563b0b79defb9430Y29udGVudHNlYXJjaGFwaSwxNzQ5NjM4NDgz-2.80132778.jpg?width=1200&auto=webp&crop=3%3A2"
+            "title": "Here’s why the new CEO of Apple has a lot to live up to",
+            "link": "https://metro.co.uk/2026/08/31/new-ceo-apple-a-lot-live-29501166/",
+            "published": "Mon, 31 Aug 2026 14:50:57 +0000",
+            "source": "Metro",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/08/SEI_310157644-ace9.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "EasyJet returns to FTSE 100 ahead of private equity takeover",
-            "link": "https://www.independent.co.uk/news/business/easyjet-persimmon-north-sea-apollo-london-stock-exchange-b3043670.html",
-            "published": "Wed, 02 Sep 2026 17:00:31 GMT",
-            "source": "The Independent",
-            "image": "https://static.independent.co.uk/2026/09/02/18/c70341a06be3f73f649d4a2b7b81f3a8Y29udGVudHNlYXJjaGFwaSwxNzg4NDUxODg4-2.79098136.jpg?width=1200&auto=webp&crop=3%3A2"
+            "title": "My teachers thought I would amount to nothing – then I saw one of them in the street",
+            "link": "https://metro.co.uk/2026/08/30/teachers-thought-amount-nothing-saw-one-street-29376420/",
+            "published": "Sun, 30 Aug 2026 12:00:00 +0000",
+            "source": "Metro",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/08/laurie-anne-split-comp.png?w=646"
           },
           {
-            "title": "FTSE 100 falls as higher oil prices add to investor worries",
-            "link": "https://www.independent.co.uk/news/business/london-donald-trump-aim-aj-bell-dow-jones-industrial-average-b3043642.html",
-            "published": "Wed, 02 Sep 2026 16:18:34 GMT",
-            "source": "The Independent",
-            "image": "https://static.independent.co.uk/2026/09/02/17/eb257f10349290a5a636f9442650c0f2Y29udGVudHNlYXJjaGFwaSwxNzg4NDUyMjMw-2.73406289.jpg?width=1200&auto=webp&crop=3%3A2"
+            "title": "Trump administration threatens ‘economic D-Day’ on countries working with Iran",
+            "link": "https://metro.co.uk/2026/08/25/trump-administration-threatens-economic-d-day-countries-working-iran-29455573/",
+            "published": "Tue, 25 Aug 2026 07:38:31 +0000",
+            "source": "Metro",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/08/SEI_309422119-5aa8.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "The three reasons behind the bond market shock and what it means for Andy Burnham’s first Budget",
-            "link": "https://www.independent.co.uk/news/business/bond-markets-andy-burnham-budget-uk-b3043257.html",
-            "published": "Wed, 02 Sep 2026 13:41:31 GMT",
-            "source": "The Independent",
-            "image": "https://static.independent.co.uk/2026/09/02/00/77551702510a8b38f0177451bfe57286Y29udGVudHNlYXJjaGFwaSwxNzg4Mzg3MjEy-2.85712831.jpg?width=1200&auto=webp&crop=3%3A2"
+            "title": "I lost my hair twice – now I have a £20m wig business and sell to celebrities",
+            "link": "https://metro.co.uk/2026/08/21/selling-wigs-door-door-now-im-a-multi-millionaire-29251881/",
+            "published": "Fri, 21 Aug 2026 06:00:00 +0000",
+            "source": "Metro",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/08/SEI_307894777-28ae-e1786358998546.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Citibank’s London unit fined £4.7m for breaching Russia sanctions",
-            "link": "https://www.independent.co.uk/news/business/london-citibank-russia-uk-treasury-b3043474.html",
-            "published": "Wed, 02 Sep 2026 12:58:50 GMT",
-            "source": "The Independent",
-            "image": "https://static.independent.co.uk/2026/09/02/14/003e8a297672c264de67ecc85cbe089bY29udGVudHNlYXJjaGFwaSwxNzg4NDM5MzA5-2.9177332.jpg?width=1200&auto=webp&crop=3%3A2"
+            "title": "I turned my Vinted hobby into a full-time job — I’ll make £100,000 this year",
+            "link": "https://metro.co.uk/2026/08/20/turned-vinted-hobby-a-full-time-job-make-100-000-this-year-29421689/",
+            "published": "Thu, 20 Aug 2026 13:32:52 +0000",
+            "source": "Metro",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/08/SEI_308885127-5989-e1787222318837.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Poundland could be sold within weeks after being bought for £1 last June",
-            "link": "https://www.independent.co.uk/news/business/poundland-sold-price-cost-a-m-b3043419.html",
-            "published": "Wed, 02 Sep 2026 11:57:11 GMT",
-            "source": "The Independent",
-            "image": "https://static.independent.co.uk/2025/06/12/09/f08686c60dcdf534f84091796996958bY29udGVudHNlYXJjaGFwaSwxNzQ5ODAwOTQ0-2.33013969.jpg?width=1200&auto=webp&crop=3%3A2"
+            "title": "CEO who fired 900 employees on Zoom before Christmas now upset he’s been fired",
+            "link": "https://metro.co.uk/2026/08/19/ceo-fired-900-employees-zoom-christmas-now-upset-fired-29413545/",
+            "published": "Wed, 19 Aug 2026 14:32:09 +0000",
+            "source": "Metro",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/08/SEI_308695650-9f8c.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "BP names new chairman after removing Albert Manifold over conduct",
-            "link": "https://www.independent.co.uk/news/business/bp-names-new-chairman-after-removing-albert-manifold-over-conduct-b3043239.html",
-            "published": "Wed, 02 Sep 2026 07:02:11 GMT",
-            "source": "The Independent",
-            "image": "https://static.independent.co.uk/2026/02/10/08/09152229-e04999ba-bcbe-4aba-840c-ca94fde38859.jpg?width=1200&auto=webp&crop=3%3A2"
+            "title": "I started a secondhand fashion business as a student — now I turnover £120,000 a year",
+            "link": "https://metro.co.uk/2026/08/09/i-started-a-secondhand-fashion-business-as-a-student-now-i-turnover-120000-a-year-29323255/",
+            "published": "Sun, 09 Aug 2026 09:00:00 +0000",
+            "source": "Metro",
+            "image": "https://metro.co.uk/wp-content/uploads/2025/11/Harriet-3-1dd1-e1762279253881.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Sports Direct ad banned over ‘misleading’ RRP",
-            "link": "https://www.independent.co.uk/news/business/sports-direct-ad-banned-over-misleading-rrp-b3043120.html",
-            "published": "Tue, 01 Sep 2026 23:01:00 GMT",
-            "source": "The Independent",
-            "image": "https://static.independent.co.uk/2026/09/02/00/7a40dc5f3ef27cbcac95a0a162c75828Y29udGVudHNlYXJjaGFwaSwxNzg4MzY3NjI2-2.25169964.jpg?width=1200&auto=webp&crop=3%3A2"
+            "title": "West End pubs have become insufferable – pavement pinters need to go",
+            "link": "https://metro.co.uk/2026/08/06/defence-westminster-councils-controversial-pub-proposals-29316164/",
+            "published": "Thu, 06 Aug 2026 16:11:02 +0000",
+            "source": "Metro",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/08/SEI_307543370-ae55.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Iconic bike firm Raleigh looks set to go into administration",
+            "link": "https://metro.co.uk/2026/08/06/iconic-bike-firm-raleigh-looks-set-go-administration-29313160/",
+            "published": "Thu, 06 Aug 2026 11:33:51 +0000",
+            "source": "Metro",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/08/SEI_307507439-6b5b.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "I made £30,000 in one month — but the money wasn’t worth it",
+            "link": "https://metro.co.uk/2026/07/31/made-30-000-one-month-money-wasnt-worth-2-29269120/",
+            "published": "Fri, 31 Jul 2026 13:36:06 +0000",
+            "source": "Metro",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/02/Julie-Creffield-1-CREDIT-SASKIA-ALBERS-COLL-a03f-e1771749609920.jpeg?quality=90&strip=all&w=646"
           }
         ],
         "TECH": [
           {
-            "title": "Sonos launches new products and a huge software update as it tries to recover from terrible period",
-            "link": "https://www.the-independent.com/tech/sonos-update-new-beam-software-b3043652.html",
-            "published": "Wed, 02 Sep 2026 16:36:57 GMT",
-            "source": "The Independent",
-            "image": "https://static.independent.co.uk/2026/09/02/16/52/Beam-Ultra-8.jpeg?width=1200&auto=webp&trim=62%2C0%2C62%2C0"
+            "title": "EastEnders confirms Ravi’s grim revenge on Max as new spoilers reveal what happens next",
+            "link": "https://metro.co.uk/2026/09/02/eastenders-confirms-ravis-revenge-max-new-spoilers-reveal-happens-next-29519870/",
+            "published": "Wed, 02 Sep 2026 18:26:37 +0000",
+            "source": "Metro",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310387490-ab09.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Scientists find new details on how exactly the Moon was formed",
-            "link": "https://www.the-independent.com/space/moon-earth-theia-study-b3043639.html",
-            "published": "Wed, 02 Sep 2026 16:20:21 GMT",
-            "source": "The Independent",
-            "image": "https://static.independent.co.uk/2026/08/28/11/download.-2.?width=1200&auto=webp&trim=0%2C0%2C0%2C0"
+            "title": "Man waiting for kebab launches knife attack after someone ‘rang bell of his e-scooter’ outside",
+            "link": "https://metro.co.uk/2026/09/02/man-waiting-kebab-launches-knife-attack-someone-rang-bell-e-scooter-outside-29521332/",
+            "published": "Wed, 02 Sep 2026 18:14:17 +0000",
+            "source": "Metro",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/kris-stimson-75ed-e1788371838705.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "GoPro has been bought – and is turning into a defence and space company",
-            "link": "https://www.the-independent.com/tech/gopro-acquisition-defence-space-military-b3043619.html",
-            "published": "Wed, 02 Sep 2026 16:06:56 GMT",
-            "source": "The Independent",
-            "image": "https://static.independent.co.uk/2026/09/02/16/2026-09-01T154337Z_566483660_RC2FANA6UO1B_RTRMADP_3_GOPRO-M-A-STARMAN-OPTICAL.JPG?width=1200&auto=webp&trim=0%2C0%2C0%2C0"
+            "title": "Zhao Xintong planning big change to his game for first time in 15 years",
+            "link": "https://metro.co.uk/2026/09/02/zhao-xintong-planning-big-change-game-first-time-15-years-29520874/",
+            "published": "Wed, 02 Sep 2026 18:11:51 +0000",
+            "source": "Metro",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_309915125-63ab.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Apple CEO hints at company’s future in first public comments",
-            "link": "https://www.the-independent.com/tech/apple-ceo-john-ternus-new-iphone-b3043590.html",
-            "published": "Wed, 02 Sep 2026 16:02:29 GMT",
-            "source": "The Independent",
-            "image": "https://static.independent.co.uk/2026/09/01/14/2292460584..?width=1200&auto=webp&trim=1%2C0%2C1%2C0"
+            "title": "Who is Sadie King in Emmerdale and what did she do? Patsy Kensit return explained",
+            "link": "https://metro.co.uk/2026/09/02/sadie-king-emmerdale-patsy-kensit-return-explained-29521182/",
+            "published": "Wed, 02 Sep 2026 18:09:20 +0000",
+            "source": "Metro",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310252840-753c.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "OpenAI and Anthropic are launching new, more powerful updates amid panic over ‘rogue’ AI systems",
-            "link": "https://www.the-independent.com/tech/openai-anthropic-claude-fable-astra-rogue-b3043605.html",
-            "published": "Wed, 02 Sep 2026 15:40:56 GMT",
-            "source": "The Independent",
-            "image": "https://static.independent.co.uk/2026/08/27/13/2291705007..?width=1200&auto=webp&trim=0%2C0%2C0%2C0"
+            "title": "Mysterious ten-sided structure discovered in Saturn’s atmosphere",
+            "link": "https://metro.co.uk/2026/09/02/mysterious-ten-sided-structure-discovered-saturns-atmosphere-29521031/",
+            "published": "Wed, 02 Sep 2026 18:00:00 +0000",
+            "source": "Metro",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310350645-95dd.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Beyond the E-Reader: How Modern E-Paper Workstations Are Reshaping Work, Learning and Creativity",
-            "link": "https://www.the-independent.com/tech/tech-gadgets-ereader-epaper-b3036526.html",
-            "published": "Wed, 02 Sep 2026 13:05:17 GMT",
-            "source": "The Independent",
-            "image": "https://static.independent.co.uk/2026/08/27/12/25/Image_20260824212915_154_134.png?width=1200&auto=webp&trim=0%2C60%2C0%2C60"
+            "title": "Readers discuss Trump’s ‘latest bizarre decree’",
+            "link": "https://metro.co.uk/2026/09/02/readers-discuss-trumps-latest-bizarre-decree-29520146/",
+            "published": "Wed, 02 Sep 2026 17:30:00 +0000",
+            "source": "Metro",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310189717-a93d.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Scientists may have found the most compelling evidence of dark matter to date",
-            "link": "https://www.the-independent.com/space/dark-matter-evidence-definition-study-b3043447.html",
-            "published": "Wed, 02 Sep 2026 12:27:50 GMT",
-            "source": "The Independent",
-            "image": "https://static.independent.co.uk/2026/08/31/14/01M1BQWY3C1RBDS0RNNN7G76FW.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0"
+            "title": "Tomb Raider: Legacy Of Atlantis preview – the new old Lara Croft",
+            "link": "https://metro.co.uk/2026/09/02/tomb-raider-legacy-atlantis-preview-new-old-lara-croft-29520838/",
+            "published": "Wed, 02 Sep 2026 17:00:00 +0000",
+            "source": "Metro",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310399163-a3fe.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "A psychologist explains why we are comfortable trusting chatbots without fact-checking",
-            "link": "https://www.the-independent.com/tech/ai-chatgpt-psychology-chatbot-b3043058.html",
-            "published": "Tue, 01 Sep 2026 20:29:54 GMT",
-            "source": "The Independent",
-            "image": "https://static.independent.co.uk/2026/07/17/8/17/GettyImages-1408517171-2048x2048.jpeg?width=1200&auto=webp&trim=0%2C0%2C0%2C0"
+            "title": "Downton Abbey’s Hugh Bonneville ‘gets spicy’ in The Gentlemen season 2",
+            "link": "https://metro.co.uk/2026/09/02/downton-abbeys-hugh-bonneville-gets-spicy-gentlemen-season-2-29520725/",
+            "published": "Wed, 02 Sep 2026 17:00:00 +0000",
+            "source": "Metro",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_309575571-c34a.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "John Terry reveals Chelsea star was left ‘gutted’ by Xabi Alonso transfer decision",
+            "link": "https://metro.co.uk/2026/09/02/john-terry-reveals-chelsea-star-gutted-xabi-alonso-transfer-decision-29520696/",
+            "published": "Wed, 02 Sep 2026 16:57:24 +0000",
+            "source": "Metro",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/GettyImages-2169732444-9611.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "PE teacher ‘had sex with boy and asked him to call her miss’ when alone together",
+            "link": "https://metro.co.uk/2026/09/02/pe-teacher-had-sex-boy-asked-call-miss-alone-29520149/",
+            "published": "Wed, 02 Sep 2026 16:56:17 +0000",
+            "source": "Metro",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310391190-bd55.jpg?quality=90&strip=all&w=646"
           }
         ],
         "ENTERTAINMENT": [
           {
-            "title": "DWTS fans fume over multiple new cast members with previous dance experience",
-            "link": "https://www.the-independent.com/arts-entertainment/tv/news/dancing-with-the-stars-season-35-jenna-dewan-harry-shum-b3043631.html",
-            "published": "Wed, 02 Sep 2026 17:19:13 GMT",
-            "source": "The Independent",
-            "image": "https://static.independent.co.uk/2026/09/02/16/27/MixCollage-02-Sep-2026-12-57-PM-855.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0"
+            "title": "Tomb Raider: Legacy Of Atlantis preview – the new old Lara Croft",
+            "link": "https://metro.co.uk/2026/09/02/tomb-raider-legacy-atlantis-preview-new-old-lara-croft-29520838/",
+            "published": "Wed, 02 Sep 2026 17:00:00 +0000",
+            "source": "Metro",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310399163-a3fe.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Dancing with the Stars Season 35: Full cast and partners unveiled, featuring Julia Stiles and Jenna Dewan",
-            "link": "https://www.the-independent.com/arts-entertainment/tv/news/dancing-with-the-stars-season-35-cast-b3043428.html",
-            "published": "Wed, 02 Sep 2026 12:35:26 GMT",
-            "source": "The Independent",
-            "image": "https://static.independent.co.uk/2026/09/02/12/54/MixCollage-02-Sep-2026-01-49-PM-1784.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0"
+            "title": "Downton Abbey’s Hugh Bonneville ‘gets spicy’ in The Gentlemen season 2",
+            "link": "https://metro.co.uk/2026/09/02/downton-abbeys-hugh-bonneville-gets-spicy-gentlemen-season-2-29520725/",
+            "published": "Wed, 02 Sep 2026 17:00:00 +0000",
+            "source": "Metro",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_309575571-c34a.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "‘LOTR’ star Sean Astin thanks Trump as Hollywood unions rally behind the president’s plan to bring jobs back to US",
-            "link": "https://www.the-independent.com/arts-entertainment/trump-federal-film-production-incentive-b3043574.html",
-            "published": "Wed, 02 Sep 2026 14:58:30 GMT",
-            "source": "The Independent",
-            "image": "https://static.independent.co.uk/2026/07/27/09/2264347909..?width=1200&auto=webp&trim=168%2C679%2C807%2C514"
+            "title": "Danny Boyle: Jack O’Connell reminds me of Al Pacino – his next role is insane",
+            "link": "https://metro.co.uk/2026/09/02/danny-boyle-jack-oconnell-reminds-al-pacino-next-role-insane-29520806/",
+            "published": "Wed, 02 Sep 2026 16:50:39 +0000",
+            "source": "Metro",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310391076-acce-e1788366984119.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Jeremy Clarkson, Richard Hammond and James May’s response to new Grand Tour hosts",
-            "link": "https://www.the-independent.com/arts-entertainment/tv/news/new-grand-tour-released-date-jeremy-clarkson-b3043537.html",
-            "published": "Wed, 02 Sep 2026 14:52:24 GMT",
-            "source": "The Independent",
-            "image": "https://static.independent.co.uk/2026/09/02/14/18/Screenshot-2026-09-02-at-15-33-52.png?width=1200&auto=webp&trim=47%2C0%2C47%2C0"
+            "title": "George Clooney living in fear he’ll be used for tampon advert after death",
+            "link": "https://metro.co.uk/2026/09/02/george-clooney-living-fear-used-tampon-advert-death-29519918/",
+            "published": "Wed, 02 Sep 2026 16:25:52 +0000",
+            "source": "Metro",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310385676-3c8d.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Giovanni Pernice says BBC’s Strictly investigation was ‘the right thing to do’",
-            "link": "https://www.the-independent.com/arts-entertainment/tv/news/strictly-giovanni-pernice-amanda-abbington-b3043516.html",
-            "published": "Wed, 02 Sep 2026 14:35:22 GMT",
-            "source": "The Independent",
-            "image": "https://static.independent.co.uk/2024/07/23/10/447518.jpg?width=1200&auto=webp&crop=3%3A2"
+            "title": "Harry Potter TV series unveils full trailer with first look at new Hogwarts",
+            "link": "https://metro.co.uk/2026/09/02/harry-potter-tv-series-unveils-full-trailer-first-look-new-hogwarts-29520299/",
+            "published": "Wed, 02 Sep 2026 16:21:58 +0000",
+            "source": "Metro",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310389634-44a8.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "George Clooney and over 170 stars defend Mark Ruffalo amid antisemitism claim",
-            "link": "https://www.the-independent.com/arts-entertainment/films/news/george-clooney-mark-ruffalo-anti-semitism-david-ellison-paramount-b3043425.html",
-            "published": "Wed, 02 Sep 2026 13:30:01 GMT",
-            "source": "The Independent",
-            "image": "https://static.independent.co.uk/2026/09/02/13/2292598361..?width=1200&auto=webp&trim=0%2C0%2C0%2C0"
+            "title": "Amiga classic Alien Breed to get a 35th Anniversary Collection with six games",
+            "link": "https://metro.co.uk/2026/09/02/amiga-classic-alien-breed-get-a-35th-anniversary-collection-six-games-29518543/",
+            "published": "Wed, 02 Sep 2026 15:20:08 +0000",
+            "source": "Metro",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310384816-c112.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Amol Rajan makes emotional speech as he leaves BBC Radio 4’s Today show: ‘Do you think I’ve made a terrible mistake?’",
-            "link": "https://www.the-independent.com/arts-entertainment/tv/news/amol-rajan-bbc-radio-4-exit-b3043389.html",
-            "published": "Wed, 02 Sep 2026 13:20:48 GMT",
-            "source": "The Independent",
-            "image": "https://static.independent.co.uk/2026/09/02/11/21/Screenshot-2026-09-02-at-12-22-15.png?width=1200&auto=webp&trim=0%2C5%2C0%2C4"
+            "title": "Saber Interactive hands-on with Hellraiser: Revival, Turok: Origins and Stuntman",
+            "link": "https://metro.co.uk/2026/09/02/saber-interactive-hands-on-hellraiser-revival-turok-origins-stuntman-29519080/",
+            "published": "Wed, 02 Sep 2026 14:00:31 +0000",
+            "source": "Metro",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310374413-35c2.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Patsy Kensit left with ‘panic attacks’ over ‘worrying’ return to Emmerdale after 20 years",
-            "link": "https://www.the-independent.com/arts-entertainment/tv/news/emmerdale-patsy-kensit-sadie-king-kim-tate-b3043414.html",
-            "published": "Wed, 02 Sep 2026 12:39:45 GMT",
-            "source": "The Independent",
-            "image": "https://static.independent.co.uk/2026/09/02/12/28/Screenshot-2026-09-02-at-13-17-06.png?width=1200&auto=webp&trim=2%2C0%2C143%2C0"
+            "title": "Nicole Kidman dazzles in sheer black lace at Practical Magic 2 premiere",
+            "link": "https://metro.co.uk/2026/09/02/nicole-kidman-dazzles-sheer-black-lace-practical-magic-2-premiere-29517498/",
+            "published": "Wed, 02 Sep 2026 13:33:40 +0000",
+            "source": "Metro",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI310209602-ef03.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Ariana Grande ends London tour in tears and steps back from public life",
-            "link": "https://www.the-independent.com/arts-entertainment/music/news/ariana-grande-tour-end-london-eternal-sunshine-break-b3043185.html",
-            "published": "Wed, 02 Sep 2026 12:14:17 GMT",
-            "source": "The Independent",
-            "image": "https://static.independent.co.uk/2026/09/02/07/f9e2e82b711d64e69fb5af4385a9450bY29udGVudHNlYXJjaGFwaSwxNzg4Mzg1NjE3-2.82366756.jpg?width=1200&auto=webp&crop=3%3A2"
+            "title": "John Cena reveals how he’s coping with WWE retirement after ‘secret plan’",
+            "link": "https://metro.co.uk/2026/09/02/john-cena-reveals-coping-wwe-retirement-secret-plan-29517657/",
+            "published": "Wed, 02 Sep 2026 13:00:00 +0000",
+            "source": "Metro",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310356709-5e3b.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Maureen Lipman slams ‘cowardly’ co-star after former BBC actor quits West End show over Israel stance",
-            "link": "https://www.the-independent.com/arts-entertainment/theatre-dance/news/maureen-lipman-israel-west-end-bbc-b3043252.html",
-            "published": "Wed, 02 Sep 2026 12:05:27 GMT",
-            "source": "The Independent",
-            "image": "https://static.independent.co.uk/2026/09/02/10/2065588332..?width=1200&auto=webp&trim=158%2C0%2C1871%2C0"
+            "title": "Ariana Grande hints at marriage with boyfriend Ricky Alvarez in tearful final tour show",
+            "link": "https://metro.co.uk/2026/09/02/ariana-grande-hints-marriage-boyfriend-ricky-alvarez-tearful-final-tour-show-29517775/",
+            "published": "Wed, 02 Sep 2026 11:40:13 +0000",
+            "source": "Metro",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/comp-1788348863.png?w=646"
           }
         ]
       }
@@ -1271,7 +1299,7 @@
         "image": "https://e3.365dm.com/26/09/1920x1080/skynews-sunday-mornings_7338664.jpg?20260902122708"
       },
       {
-        "title": "Pistol in lake could be linked to unsolved killings of British family in France",
+        "title": "Pistol in lake could be linked to unsolved killings of British family",
         "link": "https://news.sky.com/story/pistol-found-in-lake-could-be-linked-to-unsolved-killings-of-british-family-in-france-13580416",
         "published": "Wed, 02 Sep 2026 15:39:00 +0100",
         "source": "Sky News",
@@ -1336,6 +1364,13 @@
     ],
     "WORLD": [
       {
+        "title": "Germany probes possible acts of sabotage after explosives found at substation",
+        "link": "https://news.sky.com/story/germany-probes-possible-acts-of-sabotage-after-explosives-found-at-substation-13580446",
+        "published": "Wed, 02 Sep 2026 17:15:00 +0100",
+        "source": "Sky News",
+        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-polie-police-germany_7339068.jpg?20260902174803"
+      },
+      {
         "title": "Nationwide migrant protests prompt appeals for calm in Spain's North African territory",
         "link": "https://news.sky.com/story/nationwide-migrant-protests-prompt-appeals-for-calm-in-ceuta-spains-north-african-territory-13580443",
         "published": "Wed, 02 Sep 2026 16:35:00 +0100",
@@ -1350,7 +1385,7 @@
         "image": "https://e3.365dm.com/26/09/1920x1080/skynews-tiger-woods-court_7338755.jpg?20260902133756"
       },
       {
-        "title": "Pistol in lake could be linked to unsolved killings of British family in France",
+        "title": "Pistol in lake could be linked to unsolved killings of British family",
         "link": "https://news.sky.com/story/pistol-found-in-lake-could-be-linked-to-unsolved-killings-of-british-family-in-france-13580416",
         "published": "Wed, 02 Sep 2026 15:39:00 +0100",
         "source": "Sky News",
