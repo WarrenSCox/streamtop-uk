@@ -25,11 +25,12 @@
 </aside>
 <main>
 <nav id="newsTabs" class="service-tabs news-tabs" aria-label="News categories"></nav>
-<div class="news-provider-switch" id="newsProviderSwitch" role="group" aria-label="News provider">
- <button type="button" class="news-provider-btn active" data-provider="SKY" aria-label="Sky News"><span class="sky-wordmark">sky<span>news</span></span></button>
- <button type="button" class="news-provider-btn" data-provider="GUARDIAN" aria-label="The Guardian"><span class="guardian-mark">G</span><span class="guardian-wordmark">The<br>Guardian</span></button>
+<div class="news-provider-switch" id="newsProviderSwitch" aria-label="News provider">
+ <button type="button" class="news-provider active" data-provider="SKY" aria-label="Sky News"><span class="sky-wordmark">sky <b>news</b></span></button>
+ <button type="button" class="news-provider" data-provider="GUARDIAN" aria-label="The Guardian"><span class="guardian-wordmark"><i>G</i><b>The<br>Guardian</b></span></button>
+ <button type="button" class="news-provider" data-provider="INDEPENDENT" aria-label="The Independent"><span class="independent-wordmark"><i>I</i><b>INDEPENDENT</b></span></button>
 </div>
-<section class="chart-wrap news-chart-wrap"><div class="chart-heading news-chart-heading"><h2 id="newsTitle">LATEST UK</h2><a id="newsSourceBadge" class="source-badge official" href="https://news.sky.com/info/rss" target="_blank" rel="noopener">SKY NEWS <span class="verified-tick">✓</span></a></div>
+<section class="chart-wrap news-chart-wrap"><div class="chart-heading news-chart-heading"><h2 id="newsTitle">LATEST UK</h2><a id="newsSourceBadge" class="source-badge official" href="https://news.sky.com/info/rss" target="_blank" rel="noopener"><span id="newsSourceName">SKY NEWS</span> <span class="verified-tick">✓</span></a></div>
 <ol id="newsChart" class="chart news-chart"></ol><div id="newsError" class="error-box hidden"><strong>News unavailable</strong><p>We'll try again on the next update.</p></div></section>
 </main><footer><p>App created by Warren · v5.3.39</p></footer><script src="news.js?v=5.3.39" defer></script>
 </body></html>

@@ -1,10 +1,9 @@
-WozzaWatch v5.3.39 patch
+WozzaWatch v5.3.39
 
 WozzaNews:
-- Adds Sky News / The Guardian provider selector beneath the category carousel.
-- Keeps 10 stories per category/provider.
-- Provider choice persists while swiping categories.
-- Source badge switches with provider.
-- Guardian uses its official section RSS feeds (/rss).
-- Right-edge back gesture goes directly to WozzaWatch.
-- Existing WozzaNews category carousel and proven WozzaWatch-style swipe remain.
+- Adds publisher selector: Sky News / The Guardian / The Independent.
+- Three equal publisher tabs span the same width as the chart.
+- Each publisher supplies up to 10 stories for the selected category.
+- Category selection is retained when switching publisher.
+- One failed publisher/category no longer breaks all News updates.
+- Right-edge back swipe goes directly to WozzaWatch and cannot trigger All Wozzas first.
