@@ -1,6 +1,6 @@
 {
   "version": 17,
-  "generatedAt": "2026-09-02T20:29:48.309Z",
+  "generatedAt": "2026-09-02T20:30:40.957Z",
   "country": "GB",
   "strategy": "Official source first; labelled fallback when no compatible official chart is available.",
   "services": {
@@ -930,7 +930,7 @@
           "rank": 8,
           "title": "Marvel Studios' Avengers: Endgame",
           "year": 2019,
-          "type": "MOVIE",
+          "type": null,
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/6a8390cc-0240-46fc-9c52-5287ca3676eb/compose?format=webp&width=386&label=top_ranked_8_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-b39aa962-be56-4b09-a536-98617031717f"
         },
