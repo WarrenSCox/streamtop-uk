@@ -1,0 +1,71 @@
+{
+  "updated": "2026-09-02T19:43:09.781Z",
+  "charts": {
+    "AUDIOBOOKS": [
+      {
+        "title": "Dungeon Crawler Carl",
+        "author": "",
+        "narrator": "",
+        "image": ""
+      },
+      {
+        "title": "The Murder at the Vicarage",
+        "author": "",
+        "narrator": "",
+        "image": ""
+      },
+      {
+        "title": "The Let Them Theory",
+        "author": "",
+        "narrator": "",
+        "image": ""
+      },
+      {
+        "title": "Project Hail Mary",
+        "author": "",
+        "narrator": "",
+        "image": ""
+      },
+      {
+        "title": "Carl's Doomsday Scenario",
+        "author": "",
+        "narrator": "",
+        "image": ""
+      },
+      {
+        "title": "The Dungeon Anarchist's Cookbook",
+        "author": "",
+        "narrator": "",
+        "image": ""
+      },
+      {
+        "title": "The Gate of the Feral Gods",
+        "author": "",
+        "narrator": "",
+        "image": ""
+      },
+      {
+        "title": "The Wife Upstairs",
+        "author": "",
+        "narrator": "",
+        "image": ""
+      },
+      {
+        "title": "The Butcher's Masquerade",
+        "author": "",
+        "narrator": "",
+        "image": ""
+      },
+      {
+        "title": "The Wicked and the Warped",
+        "author": "",
+        "narrator": "",
+        "image": ""
+      }
+    ]
+  },
+  "sources": {
+    "BOOKS": "https://www.lovereading.co.uk/genres/lrt10/uk-top-10-books",
+    "AUDIOBOOKS": "https://www.audible.co.uk/charts/best"
+  }
+}

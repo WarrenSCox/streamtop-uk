@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-02T19:38:54.705Z",
+  "updated": "2026-09-02T19:43:09.736Z",
   "providers": {
     "SKY": {
       "categories": {
@@ -11,6 +11,14 @@
             "source": "Sky News",
             "categories": "",
             "image": "https://e3.365dm.com/26/09/1920x1080/skynews-marinha-albufeira-portugal_7339142.jpg?20260902190645"
+          },
+          {
+            "title": "Six police officers sacked after racism complaint in Manchester",
+            "link": "https://news.sky.com/story/six-police-officers-sacked-after-racism-complaint-greater-manchester-police-says-13580487",
+            "published": "Wed, 02 Sep 2026 18:21:00 +0100",
+            "source": "Sky News",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/01/1920x1080/skynews-greater-manchester_7147940.jpg?20260902183657"
           },
           {
             "title": "Sky News launches new Sunday morning current affairs programme",
@@ -75,14 +83,6 @@
             "source": "Sky News",
             "categories": "",
             "image": "https://e3.365dm.com/26/09/1920x1080/skynews-enzo-fernandez-chelsea_7337822.jpg?20260901171828"
-          },
-          {
-            "title": "Fake 10 Downing Street listing 'exposes security failures' on Booking.com",
-            "link": "https://news.sky.com/story/fake-10-downing-street-listing-exposes-security-failureson-bookingcom-13580279",
-            "published": "Wed, 02 Sep 2026 11:18:00 +0100",
-            "source": "Sky News",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-larry-cat-downing-street_7337223.jpg?20260901092829"
           }
         ],
         "WORLD": [
@@ -1299,14 +1299,6 @@
             "source": "Metro",
             "categories": "Entertainment Gaming Games news Games previews Lara Croft Tomb Raider",
             "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310399163-a3fe.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Amiga classic Alien Breed to get a 35th Anniversary Collection with six games",
-            "link": "https://metro.co.uk/2026/09/02/amiga-classic-alien-breed-get-a-35th-anniversary-collection-six-games-29518543/",
-            "published": "Wed, 02 Sep 2026 15:20:08 +0000",
-            "source": "Metro",
-            "categories": "Entertainment Gaming 90s nostalgia Games news",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310384816-c112.jpg?quality=90&strip=all&w=646"
           }
         ],
         "ENTERTAINMENT": [
@@ -1405,6 +1397,14 @@
         "image": "https://e3.365dm.com/26/09/1920x1080/skynews-marinha-albufeira-portugal_7339142.jpg?20260902190645"
       },
       {
+        "title": "Six police officers sacked after racism complaint in Manchester",
+        "link": "https://news.sky.com/story/six-police-officers-sacked-after-racism-complaint-greater-manchester-police-says-13580487",
+        "published": "Wed, 02 Sep 2026 18:21:00 +0100",
+        "source": "Sky News",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/01/1920x1080/skynews-greater-manchester_7147940.jpg?20260902183657"
+      },
+      {
         "title": "Sky News launches new Sunday morning current affairs programme",
         "link": "https://news.sky.com/story/sky-news-launches-new-sunday-morning-current-affairs-programme-13580246",
         "published": "Wed, 02 Sep 2026 07:16:00 +0100",
@@ -1467,14 +1467,6 @@
         "source": "Sky News",
         "categories": "",
         "image": "https://e3.365dm.com/26/09/1920x1080/skynews-enzo-fernandez-chelsea_7337822.jpg?20260901171828"
-      },
-      {
-        "title": "Fake 10 Downing Street listing 'exposes security failures' on Booking.com",
-        "link": "https://news.sky.com/story/fake-10-downing-street-listing-exposes-security-failureson-bookingcom-13580279",
-        "published": "Wed, 02 Sep 2026 11:18:00 +0100",
-        "source": "Sky News",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-larry-cat-downing-street_7337223.jpg?20260901092829"
       }
     ],
     "WORLD": [
