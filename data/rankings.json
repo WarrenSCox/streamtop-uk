@@ -1,6 +1,6 @@
 {
   "version": 17,
-  "generatedAt": "2026-09-02T11:17:37.046Z",
+  "generatedAt": "2026-09-02T13:58:10.394Z",
   "country": "GB",
   "strategy": "Official source first; labelled fallback when no compatible official chart is available.",
   "services": {
@@ -738,7 +738,7 @@
           "sourceRank": 6,
           "title": "Trigger Point",
           "year": 2022,
-          "poster": "/poster/350950214/s166/trigger-point.webp",
+          "poster": "/poster/351088597/s166/trigger-point.webp",
           "url": "https://www.justwatch.com/uk/tv-series/trigger-point",
           "trend": "DOWN",
           "trendDifference": -1,
@@ -774,7 +774,7 @@
           "sourceRank": 32,
           "title": "The Bear",
           "year": 2022,
-          "poster": "/poster/305353236/s166/the-bear-2022.webp",
+          "poster": "/poster/346903971/s166/the-bear-2022.webp",
           "url": "https://www.justwatch.com/uk/tv-series/the-bear-2022",
           "trend": "UP",
           "trendDifference": 1,
@@ -874,7 +874,7 @@
           "rank": 1,
           "title": "Furious",
           "year": 2026,
-          "type": "SHOW",
+          "type": null,
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/019fa9fd-c0de-7eab-963c-8ec352530398/compose?format=webp&width=386&label=top_ranked_1_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-5d4924b7-1cde-47c3-8852-f30bdd7fe979"
         },
@@ -983,7 +983,7 @@
           "rank": 3,
           "title": "F1 The Movie",
           "year": 2025,
-          "poster": "/poster/336298604/s166/f1-the-movie.webp",
+          "poster": "/poster/332805834/s166/f1-the-movie.webp",
           "url": "https://tv.apple.com/gb/movie/f1-the-movie/umc.cmc.3t6dvnnr87zwd4wmvpdx5came",
           "trend": null,
           "trendDifference": 0,
@@ -1041,6 +1041,18 @@
         },
         {
           "rank": 8,
+          "title": "Step Brothers",
+          "year": 2008,
+          "poster": "/poster/297627242/s166/step-brothers.webp",
+          "url": "https://tv.apple.com/gb/movie/step-brothers/umc.cmc.62my0s1tfb2q3qoe089pk1oxo",
+          "trend": null,
+          "trendDifference": 0,
+          "daysInTop10": null,
+          "topRank": null,
+          "detailsUrl": "https://www.justwatch.com/uk/movie/step-brothers"
+        },
+        {
+          "rank": 9,
           "title": "The Family Plan",
           "year": 2023,
           "poster": "/poster/331474196/s166/the-family-plan.webp",
@@ -1050,18 +1062,6 @@
           "daysInTop10": null,
           "topRank": null,
           "detailsUrl": "https://www.justwatch.com/uk/movie/the-family-plan"
-        },
-        {
-          "rank": 9,
-          "title": "Step Brothers",
-          "year": 2008,
-          "poster": "/poster/320936168/s166/step-brothers.webp",
-          "url": "https://tv.apple.com/gb/movie/step-brothers/umc.cmc.62my0s1tfb2q3qoe089pk1oxo",
-          "trend": null,
-          "trendDifference": 0,
-          "daysInTop10": null,
-          "topRank": null,
-          "detailsUrl": "https://www.justwatch.com/uk/movie/step-brothers"
         },
         {
           "rank": 10,
@@ -1127,18 +1127,6 @@
         },
         {
           "rank": 5,
-          "title": "Trying",
-          "year": 2020,
-          "poster": "/poster/348215563/s166/trying-2020.webp",
-          "url": "https://tv.apple.com/gb/show/trying/umc.cmc.6muy4la7lj1omu5nci4bt2m66",
-          "trend": null,
-          "trendDifference": 0,
-          "daysInTop10": null,
-          "topRank": null,
-          "detailsUrl": "https://www.justwatch.com/uk/tv-series/trying-2020"
-        },
-        {
-          "rank": 6,
           "title": "Widow’s Bay",
           "year": 2026,
           "poster": "/poster/345823300/s166/widows-bay.webp",
@@ -1148,6 +1136,18 @@
           "daysInTop10": null,
           "topRank": null,
           "detailsUrl": "https://www.justwatch.com/uk/tv-series/widows-bay"
+        },
+        {
+          "rank": 6,
+          "title": "Trying",
+          "year": 2020,
+          "poster": "/poster/348215563/s166/trying-2020.webp",
+          "url": "https://tv.apple.com/gb/show/trying/umc.cmc.6muy4la7lj1omu5nci4bt2m66",
+          "trend": null,
+          "trendDifference": 0,
+          "daysInTop10": null,
+          "topRank": null,
+          "detailsUrl": "https://www.justwatch.com/uk/tv-series/trying-2020"
         },
         {
           "rank": 7,
@@ -1279,7 +1279,7 @@
           "rank": 8,
           "title": "Joker",
           "url": "https://www.hbomax.com/gb/en/movie/e37195fe-c232-4ba0-bb9e-c4004279b6fa",
-          "poster": "/poster/141746696/s166/joker-2019.webp",
+          "poster": "/poster/123221980/s166/joker-2019.webp",
           "year": 2019,
           "detailsUrl": "https://www.justwatch.com/uk/movie/joker-2019"
         },
@@ -1479,13 +1479,13 @@
         },
         {
           "rank": 7,
-          "sourceRank": 11454,
+          "sourceRank": 11474,
           "title": "Eternal Spring (長春)",
           "year": 2023,
-          "poster": "/poster/326985515/s166/eternal-spring.webp",
+          "poster": "/poster/300736478/s166/eternal-spring.webp",
           "url": "https://www.justwatch.com/uk/movie/eternal-spring",
           "trend": "UP",
-          "trendDifference": 7,
+          "trendDifference": 9,
           "daysInTop10": null,
           "topRank": 38
         },
@@ -2750,7 +2750,9 @@
           "displayName": "Billboard",
           "url": "https://ca.billboard.com/charts/hot-100",
           "cadence": "weekly",
-          "note": "Billboard Hot 100 — the weekly US singles chart."
+          "note": "Fresh data did not update successfully, so the last successful results are being shown.",
+          "stale": true,
+          "staleAsOf": "2026-09-02T11:17:37.046Z"
         },
         "albums": {
           "kind": "official",
@@ -2758,10 +2760,13 @@
           "displayName": "Billboard",
           "url": "https://ca.billboard.com/charts/billboard-200",
           "cadence": "weekly",
-          "note": "Billboard 200 — the weekly US albums chart."
+          "note": "Fresh data did not update successfully, so the last successful results are being shown.",
+          "stale": true,
+          "staleAsOf": "2026-09-02T11:17:37.046Z"
         }
       },
-      "error": null
+      "error": null,
+      "stale": true
     }
   }
 }
