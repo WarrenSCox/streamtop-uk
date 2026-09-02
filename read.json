@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-02T20:08:55.844Z",
+  "updated": "2026-09-02T20:10:17.352Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -12,7 +12,7 @@
         "title": "The Murder at the Vicarage",
         "author": "Agatha Christie",
         "narrator": "Toni Collette , Kit Harington , Jasmine Jobson , Calam Lynch , Eliot Salt , Katy Wix , Lolly Adefope , Billy Postlethwaite , Vicki Pepperdine , Meera Syal , La Voix , Leo Reich , full cast",
-        "image": "https://m.media-amazon.com/images/I/51GzNQrzYrL._SL10_UR1600,800_CR200,50,1200,630_CLa%7C1200,630%7C51GzNQrzYrL.jpg%7C0,0,1200,630+82,82,465,465_PJAdblSocialShare-Gradientoverlay-largeasin-0to70,TopLeft,0,0_PJAdblSocialShare-AudibleLogo-Large,TopLeft,600,270_OU01_ZBLISTENING%20ON,617,216,52,500,AudibleSansMd,30,255,255,255.jpg"
+        "image": ""
       },
       {
         "title": "The Let Them Theory",
@@ -39,15 +39,21 @@
         "image": "https://m.media-amazon.com/images/I/518nfG1FaYL._SL10_UR1600,800_CR200,50,1200,630_CLa%7C1200,630%7C518nfG1FaYL.jpg%7C0,0,1200,630+82,82,465,465_PJAdblSocialShare-Gradientoverlay-largeasin-0to70,TopLeft,0,0_PJAdblSocialShare-AudibleLogo-Large,TopLeft,600,270_OU01_ZBLISTENING%20ON,617,216,52,500,AudibleSansMd,30,255,255,255.jpg"
       },
       {
+        "title": "The Wife Upstairs",
+        "author": "Freida McFadden",
+        "narrator": "Angie Kane",
+        "image": "https://m.media-amazon.com/images/I/51yIohyMWYL._SL10_UR1600,800_CR200,50,1200,630_CLa%7C1200,630%7C51yIohyMWYL.jpg%7C0,0,1200,630+82,82,465,465_PJAdblSocialShare-Gradientoverlay-largeasin-0to70,TopLeft,0,0_PJAdblSocialShare-AudibleLogo-Large,TopLeft,600,270_OU01_ZBLISTENING%20ON,617,216,52,500,AudibleSansMd,30,255,255,255.jpg"
+      },
+      {
         "title": "The Gate of the Feral Gods",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
         "image": "https://m.media-amazon.com/images/I/51rmyTTWPsL._SL10_UR1600,800_CR200,50,1200,630_CLa%7C1200,630%7C51rmyTTWPsL.jpg%7C0,0,1200,630+82,82,465,465_PJAdblSocialShare-Gradientoverlay-largeasin-0to70,TopLeft,0,0_PJAdblSocialShare-AudibleLogo-Large,TopLeft,600,270_OU01_ZBLISTENING%20ON,617,216,52,500,AudibleSansMd,30,255,255,255.jpg"
       },
       {
-        "title": "The Wife Upstairs",
-        "author": "Freida McFadden",
-        "narrator": "Angie Kane",
+        "title": "The Wicked and the Warped",
+        "author": "Robert Rath",
+        "narrator": "Richard Reed",
         "image": ""
       },
       {
@@ -55,12 +61,6 @@
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
         "image": ""
-      },
-      {
-        "title": "The Wicked and the Warped",
-        "author": "Robert Rath",
-        "narrator": "Richard Reed",
-        "image": "https://m.media-amazon.com/images/I/51vlFnh90aL._SL10_UR1600,800_CR200,50,1200,630_CLa%7C1200,630%7C51vlFnh90aL.jpg%7C0,0,1200,630+82,82,465,465_PJAdblSocialShare-Gradientoverlay-largeasin-0to70,TopLeft,0,0_PJAdblSocialShare-AudibleLogo-Large,TopLeft,600,270_OU01_ZBLISTENING%20ON,617,216,52,500,AudibleSansMd,30,255,255,255.jpg"
       }
     ],
     "BOOKS": [
