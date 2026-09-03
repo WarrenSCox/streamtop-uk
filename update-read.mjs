@@ -4,7 +4,7 @@ import crypto from 'node:crypto';
 const BOOKS_URL='https://www.lovereading.co.uk/genres/lrt10/uk-top-10-books';
 const AUDIO_URL='https://www.audible.co.uk/charts/best';
 const headers={
-  'User-Agent':'Mozilla/5.0 (compatible; WozzaRead/6.2.18; +https://github.com/)',
+  'User-Agent':'Mozilla/5.0 (compatible; WozzaRead/6.2.19; +https://github.com/)',
   'Accept':'text/html,application/xhtml+xml'
 };
 
@@ -274,29 +274,52 @@ async function primaryCover(row,kind){
 }
 
 function booksFromHtml(src){
-  // LoveReading exposes the Official UK Top 10 as ten /book/ links followed by an /author/ link.
-  // Restrict parsing to the chart itself so recommendations/navigation cannot leak into the Top 10.
+  // LoveReading's current UK Top 10 markup no longer reliably uses /book/ and /author/
+  // paths. Parse the chart's product-card links instead, using each product URL once,
+  // and take the author from the same card/segment.
   const start=src.search(/UK Top 10 Books|Official UK Top 10/i);
-  const end=start>=0?src.slice(start).search(/Browse Books|Join Our Community|Customer Service/i):-1;
-  const area=start>=0?src.slice(start,end>0?start+end:Math.min(src.length,start+180000)):src;
-  const bookLinks=[...area.matchAll(/<a\b([^>]*href=["'][^"']*\/book\/[^"']+["'][^>]*)>([\s\S]*?)<\/a>/gi)]
-    .map(m=>({index:m.index,tag:m[0],href:attr(m[0],'href'),title:decode(m[2])}))
-    .filter(x=>x.title&&x.href);
-  const unique=[];
-  const seen=new Set();
-  for(const b of bookLinks){
-    const key=b.href.split('#')[0];
-    if(seen.has(key)) continue;
-    seen.add(key); unique.push(b);
+  const tail=start>=0?src.slice(start):src;
+  const endRel=tail.search(/Browse Books|Join Our Community|Customer Service/i);
+  const area=endRel>0?tail.slice(0,endRel):tail.slice(0,180000);
+
+  // Product links on LoveReading commonly contain /books/ or /book/; title text is the
+  // visible anchor text. Exclude navigation/category/author links and dedupe by URL.
+  const anchors=[...area.matchAll(/<a\b[^>]*href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi)]
+    .map(m=>({index:m.index,href:decode(m[1]),text:decode(m[2]),tag:m[0]}))
+    .filter(a=>{
+      const h=a.href.toLowerCase();
+      if(!a.text||a.text.length<2) return false;
+      if(/\/author\/|\/authors\/|\/genres?\/|\/collections?\/|\/features?\//.test(h)) return false;
+      return /\/book\/|\/books\//.test(h);
+    });
+
+  const unique=[]; const seen=new Set();
+  for(const a of anchors){
+    const key=absolute(a.href,BOOKS_URL).split(/[?#]/)[0].replace(/\/$/,'');
+    if(!key||seen.has(key)) continue;
+    seen.add(key);
+    unique.push({...a,url:key});
     if(unique.length===10) break;
   }
-  return unique.map((b,i)=>{
+
+  const rows=unique.map((b,i)=>{
     const next=unique[i+1]?.index??area.length;
     const seg=area.slice(b.index,next);
-    const am=seg.match(/<a\b[^>]*href=["'][^"']*\/author\/[^"']+["'][^>]*>([\s\S]*?)<\/a>/i);
+
+    // Prefer an explicit author link, but tolerate current LoveReading author URL forms.
+    const am=seg.match(/<a\b[^>]*href=["'][^"']*\/authors?\/[^"']+["'][^>]*>([\s\S]*?)<\/a>/i)
+      ||seg.match(/<a\b[^>]*href=["'][^"']*\/author\/[^"']+["'][^>]*>([\s\S]*?)<\/a>/i);
+
+    // Some product cards expose "by Author" as plain text rather than an author link.
+    const plain=decode(seg).match(/\bby\s+([A-Z][A-Za-zÀ-ÖØ-öø-ÿ'’.-]+(?:\s+[A-Z][A-Za-zÀ-ÖØ-öø-ÿ'’.-]+){1,4})\b/);
+    const author=decode(am?.[1]||plain?.[1]||'');
     const image=bestImg(seg,BOOKS_URL);
-    return {title:b.title,author:decode(am?.[1]||''),image,url:absolute(b.href,BOOKS_URL)};
+    return {title:b.text,author,image,url:b.url};
   });
+
+  console.log(`LoveReading parser: found ${rows.length} candidate ranked titles`);
+  if(rows.length) console.log(`LoveReading parser titles: ${rows.map((r,i)=>`${i+1}. ${r.title}${r.author?` — ${r.author}`:''}`).join(' | ')}`);
+  return rows;
 }
 
 function audibleFromHtml(src){
