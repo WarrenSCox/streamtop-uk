@@ -1,8 +1,9 @@
-WozzaWatch v6.1.6 — Audiobook Ear Rework
+WozzaWatch v6.1.7 — Audiobook Ear Shape Fix
 
-- Focused correction to the audiobook ear only.
-- Replaces the previous spiral/lobe-heavy symbol with a clean human-ear silhouette closer to the agreed reference.
-- Unsaved: soft grey/navy outline matching the opacity/treatment of unsaved eyes.
-- Saved: same ear fills yellow with orange inner detail.
-- The identical yellow ear is used in Watchlist, Watched List, falling animation and mixed Watched pile.
-- No ranking workflow changes.
+Changed files only.
+
+- Rebuilt the audiobook ear as a recognisable human-ear silhouette.
+- Unsaved state uses the same soft navy/grey outline treatment as unsaved eyes.
+- Saved state fills the exact same ear yellow with orange inner-ear detail.
+- The same filled ear is reused in Watchlist, Watched and the falling/pile animation.
+- No workflow files included; update-rankings.yml is unchanged.
