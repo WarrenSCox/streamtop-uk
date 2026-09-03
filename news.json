@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03T17:23:15.232Z",
+  "updated": "2026-09-03T17:33:14.368Z",
   "providers": {
     "SKY": {
       "categories": {
@@ -501,20 +501,36 @@
       "categories": {
         "UK": [
           {
+            "title": "UK mortgage borrowers brace for rate jump amid global bond sell-off",
+            "link": "https://www.theguardian.com/money/2026/sep/03/uk-mortgage-borrowers-brace-for-rate-jump-global-bond-sell-off",
+            "published": "Thu, 03 Sep 2026 17:21:57 GMT",
+            "source": "The Guardian",
+            "categories": "Mortgage rates Mortgages Bonds Business Gilts Inflation Interest rates Economics Oil Property Money UK news US-Israel war on Iran",
+            "image": "https://i.guim.co.uk/img/media/8fd177c6dec6c088123aeb8605ffca7684dfc727/1078_196_3922_3139/master/3922.jpg?width=140&quality=85&auto=format&fit=max&s=6d650b90a087cd9f803a1e5261c282be"
+          },
+          {
+            "title": "Thieves steal more than 70,000 pints worth of Guinness from depot in Cheshire",
+            "link": "https://www.theguardian.com/uk-news/2026/sep/03/thieves-steal-guinness-depot-cheshire-runcorn",
+            "published": "Thu, 03 Sep 2026 17:18:45 GMT",
+            "source": "The Guardian",
+            "categories": "Cheshire UK news Crime Pubs",
+            "image": "https://i.guim.co.uk/img/media/c6708c113391649f3e64f170e7fe8b811c9f0572/450_0_4454_3563/master/4454.jpg?width=140&quality=85&auto=format&fit=max&s=b98ebf71e0f425daba58454000287c7f"
+          },
+          {
+            "title": "Pro-Palestine activists who were sentenced as terrorists launch appeal",
+            "link": "https://www.theguardian.com/uk-news/2026/sep/03/pro-palestine-activists-who-were-sentenced-as-terrorists-launch-appeal",
+            "published": "Thu, 03 Sep 2026 17:10:21 GMT",
+            "source": "The Guardian",
+            "categories": "Palestine Action England Law Palestine Israel-Gaza war Arms trade",
+            "image": "https://i.guim.co.uk/img/media/07255cfe9e7f7271a6b258b6c152fd3e3ec30a3a/430_0_7077_5662/master/7077.jpg?width=140&quality=85&auto=format&fit=max&s=ba5f1864493388a508d3b4a04a60c8b2"
+          },
+          {
             "title": "Hundreds gather outside Holyrood to call for pause on Scotland’s datacentre boom",
             "link": "https://www.theguardian.com/uk-news/2026/sep/03/hundreds-holyrood-pause-scotland-datacentre-boom-ai",
             "published": "Thu, 03 Sep 2026 17:09:11 GMT",
             "source": "The Guardian",
             "categories": "Datacentres - UK Scotland AI (artificial intelligence) Edinburgh Environment Technology UK news",
             "image": "https://i.guim.co.uk/img/media/e2a0d1349bc80c7d01a895dc55a30dfa0af25360/838_0_6829_5464/master/6829.jpg?width=140&quality=85&auto=format&fit=max&s=ffa0fd4aaba860372dd131ecd612ea28"
-          },
-          {
-            "title": "Pro-Palestine activists who were sentenced as terrorists launch appeal",
-            "link": "https://www.theguardian.com/uk-news/2026/sep/03/pro-palestine-activists-who-were-sentenced-as-terrorists-launch-appeal",
-            "published": "Thu, 03 Sep 2026 17:01:40 GMT",
-            "source": "The Guardian",
-            "categories": "Palestine Action England Law Palestine Israel-Gaza war Arms trade",
-            "image": "https://i.guim.co.uk/img/media/07255cfe9e7f7271a6b258b6c152fd3e3ec30a3a/430_0_7077_5662/master/7077.jpg?width=140&quality=85&auto=format&fit=max&s=ba5f1864493388a508d3b4a04a60c8b2"
           },
           {
             "title": "Labour condemns Reform’s plan for £100bn in cuts as ‘half-baked’ and ‘incredibly reckless’ – as it happened",
@@ -529,7 +545,7 @@
             "link": "https://www.theguardian.com/politics/2026/sep/03/reform-media-presenter-worked-chinese-state-propaganda-channel",
             "published": "Thu, 03 Sep 2026 16:30:46 GMT",
             "source": "The Guardian",
-            "categories": "Reform UK Politics China Uyghurs Xinjiang UK news World news",
+            "categories": "Reform UK Podcasting Uyghurs China Xinjiang Politics UK news World news Media Digital media",
             "image": "https://i.guim.co.uk/img/media/db55a7af7353ac1214cca0457c8a207622c791e3/267_111_3118_2494/master/3118.jpg?width=140&quality=85&auto=format&fit=max&s=b3ca959a8fa34cc06782225b5c33c1ab"
           },
           {
@@ -539,14 +555,6 @@
             "source": "The Guardian",
             "categories": "UK news England Manchester UK security and counter-terrorism MI5 Home Office Police",
             "image": "https://i.guim.co.uk/img/media/7a2d7ba0af4f1476b6ed17b1a5f1c46f488b0f3b/982_0_4910_3928/master/4910.jpg?width=140&quality=85&auto=format&fit=max&s=2040fbab211916c83501cea066c47b0e"
-          },
-          {
-            "title": "UK mortgage borrowers brace for rate jump amid global bond sell-off",
-            "link": "https://www.theguardian.com/money/2026/sep/03/uk-mortgage-borrowers-brace-for-rate-jump-global-bond-sell-off",
-            "published": "Thu, 03 Sep 2026 13:35:39 GMT",
-            "source": "The Guardian",
-            "categories": "Mortgage rates Mortgages Bonds Business Gilts Inflation Interest rates Economics Oil Property Money UK news US-Israel war on Iran",
-            "image": "https://i.guim.co.uk/img/media/8fd177c6dec6c088123aeb8605ffca7684dfc727/1078_196_3922_3139/master/3922.jpg?width=140&quality=85&auto=format&fit=max&s=6d650b90a087cd9f803a1e5261c282be"
           },
           {
             "title": "John Lewis to launch YouTube chatshow to improve AI search results",
@@ -565,20 +573,12 @@
             "image": "https://i.guim.co.uk/img/media/84379927098124f7e2b44e48c143573726b35cc8/0_0_958_766/master/958.jpg?width=140&quality=85&auto=format&fit=max&s=1e056f3a4af90dd389e1a2abe55449fa"
           },
           {
-            "title": "Invasive tropical mosquito found breeding in east London",
-            "link": "https://www.theguardian.com/environment/2026/sep/03/invasive-tropical-mosquito-breeding-london",
-            "published": "Thu, 03 Sep 2026 12:51:53 GMT",
+            "title": "Kemi Badenoch condemns Reform UK’s ‘authoritarian’ press bans",
+            "link": "https://www.theguardian.com/politics/2026/sep/03/kemi-badenoch-farage-state-power-reform",
+            "published": "Thu, 03 Sep 2026 12:40:00 GMT",
             "source": "The Guardian",
-            "categories": "Invasive species Insects Infectious diseases Science Environment UK news London Zika virus Animals",
-            "image": "https://i.guim.co.uk/img/media/c43c7b76790cb7651e05e30a68893bd439a36f3f/144_0_4688_3751/master/4688.jpg?width=140&quality=85&auto=format&fit=max&s=c284dbef8f6f9a1254a02dd7203c7e18"
-          },
-          {
-            "title": "Crypto billionaire pardoned by Trump gives Reform UK another £4m",
-            "link": "https://www.theguardian.com/politics/2026/sep/03/reform-uk-crypto-billionaire-ben-delo-pardoned-trump",
-            "published": "Thu, 03 Sep 2026 12:28:49 GMT",
-            "source": "The Guardian",
-            "categories": "Reform UK Party funding Cryptocurrencies Nigel Farage Donald Trump UK news US news World news E-commerce Politics Technology Electoral Commission",
-            "image": "https://i.guim.co.uk/img/media/091692f78253f08d995456a1665f7c31396b249f/1601_486_5789_4632/master/5789.jpg?width=140&quality=85&auto=format&fit=max&s=bd82236387cca07c9264bcfa12acd24d"
+            "categories": "Kemi Badenoch Conservatives Reform UK Nigel Farage Defence policy Welfare Politics UK news Tax and spending Economic policy",
+            "image": "https://i.guim.co.uk/img/media/3210431c81136f0cd59c662129ef7fe027a3e237/1039_0_6588_5270/master/6588.jpg?width=140&quality=85&auto=format&fit=max&s=ff4e10cb034b9cfb08bae57385d6e4cf"
           }
         ],
         "WORLD": [
