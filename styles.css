@@ -835,3 +835,39 @@ body.watchlist-reordering .my-list-page .chart-wrap,body.watchlist-reordering #m
 /* Approved ear artwork unchanged; slightly smaller and optically centred beside the book. */
 .read-page .read-tab[data-read-type="AUDIOBOOKS"] .read-selector-ear{width:27px!important;height:37px!important;place-self:center!important;display:block!important;overflow:visible!important;transform-origin:50% 50%!important}
 @media(max-width:560px){.read-page .read-tab[data-read-type="AUDIOBOOKS"] .read-selector-ear{width:27px!important;height:37px!important}}
+
+/* v6.2.11 — approved WozzaRead interaction polish. */
+/* Remove Chromium/Android tap flash from eye + ear save controls while retaining :focus-visible keyboard focus. */
+.watch-toggle,
+.audiobook-ear-toggle,
+.read-watch-toggle{
+  -webkit-tap-highlight-color:transparent;
+}
+
+/* WozzaRead Books now runs the exact same two-layer motion as the Watchlist Books control:
+   the whole open-book uses the existing wozza-page-flip animation while its left page uses wl-book-page. */
+.read-page .read-tab.read-animate[data-read-type="BOOKS"] .read-book-icon{
+  animation:wozza-page-flip .65s ease-in-out;
+}
+.read-page .read-tab.read-animate[data-read-type="BOOKS"] .read-book-icon .book-page-flip{
+  animation:wl-book-page .62s cubic-bezier(.25,.75,.25,1);
+}
+
+/* Approved ear artwork unchanged — one final small optical size reduction. */
+.read-page .read-tab[data-read-type="AUDIOBOOKS"] .read-selector-ear{
+  width:25px!important;
+  height:34px!important;
+}
+@media(max-width:560px){
+  .read-page .read-tab[data-read-type="AUDIOBOOKS"] .read-selector-ear{
+    width:25px!important;
+    height:34px!important;
+  }
+}
+
+@media(prefers-reduced-motion:reduce){
+  .read-page .read-tab.read-animate[data-read-type="BOOKS"] .read-book-icon,
+  .read-page .read-tab.read-animate[data-read-type="BOOKS"] .read-book-icon .book-page-flip{
+    animation:none!important;
+  }
+}
