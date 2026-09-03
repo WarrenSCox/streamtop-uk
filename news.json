@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03T17:33:14.368Z",
+  "updated": "2026-09-03T17:43:08.496Z",
   "providers": {
     "SKY": {
       "categories": {
@@ -509,7 +509,7 @@
             "image": "https://i.guim.co.uk/img/media/8fd177c6dec6c088123aeb8605ffca7684dfc727/1078_196_3922_3139/master/3922.jpg?width=140&quality=85&auto=format&fit=max&s=6d650b90a087cd9f803a1e5261c282be"
           },
           {
-            "title": "Thieves steal more than 70,000 pints worth of Guinness from depot in Cheshire",
+            "title": "Thieves steal more than 70,000 pints’ worth of Guinness from depot in Cheshire",
             "link": "https://www.theguardian.com/uk-news/2026/sep/03/thieves-steal-guinness-depot-cheshire-runcorn",
             "published": "Thu, 03 Sep 2026 17:18:45 GMT",
             "source": "The Guardian",
@@ -677,7 +677,7 @@
             "link": "https://www.theguardian.com/politics/2026/sep/03/reform-media-presenter-worked-chinese-state-propaganda-channel",
             "published": "Thu, 03 Sep 2026 16:30:46 GMT",
             "source": "The Guardian",
-            "categories": "Reform UK Politics China Uyghurs Xinjiang UK news World news",
+            "categories": "Reform UK Podcasting Uyghurs China Xinjiang Politics UK news World news Media Digital media",
             "image": "https://i.guim.co.uk/img/media/db55a7af7353ac1214cca0457c8a207622c791e3/267_111_3118_2494/master/3118.jpg?width=140&quality=85&auto=format&fit=max&s=b3ca959a8fa34cc06782225b5c33c1ab"
           },
           {
@@ -997,6 +997,14 @@
       "categories": {
         "UK": [
           {
+            "title": "Putin’s top nuclear general ‘shot in face by motorcycle assassin’",
+            "link": "https://metro.co.uk/2026/09/03/putins-top-nuclear-general-shot-face-motorcycle-assassin-29529205/",
+            "published": "Thu, 03 Sep 2026 17:39:03 +0000",
+            "source": "Metro",
+            "categories": "News World Russia-Ukraine war Vladimir Putin",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310511101-293b.jpg?quality=90&strip=all&w=646"
+          },
+          {
             "title": "First picture of ‘precious’ boy, 4, killed in bike crash",
             "link": "https://metro.co.uk/2026/09/03/first-picture-precious-boy-4-killed-bike-crash-29529330/",
             "published": "Thu, 03 Sep 2026 17:06:37 +0000",
@@ -1067,17 +1075,17 @@
             "source": "Metro",
             "categories": "News UK Food recalls Health Advice Health News",
             "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310527513-df12.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Locals forced to wait hours at Royal Mail depot after six weeks without post",
-            "link": "https://metro.co.uk/2026/09/03/locals-forced-wait-hours-royal-mail-depot-six-weeks-without-post-29527042/",
-            "published": "Thu, 03 Sep 2026 13:24:09 +0000",
-            "source": "Metro",
-            "categories": "News UK Royal Mail Somerset",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310487970-860b.jpg?quality=90&strip=all&w=646"
           }
         ],
         "WORLD": [
+          {
+            "title": "Putin’s top nuclear general ‘shot in face by motorcycle assassin’",
+            "link": "https://metro.co.uk/2026/09/03/putins-top-nuclear-general-shot-face-motorcycle-assassin-29529205/",
+            "published": "Thu, 03 Sep 2026 17:39:03 +0000",
+            "source": "Metro",
+            "categories": "News World Russia-Ukraine war Vladimir Putin",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310511101-293b.jpg?quality=90&strip=all&w=646"
+          },
           {
             "title": "Sunbed wars take a bizarre twist after holidaymakers jump through bushes",
             "link": "https://metro.co.uk/2026/09/03/sunbed-wars-take-a-bizarre-twist-holidaymakers-jump-bushes-29525313/",
