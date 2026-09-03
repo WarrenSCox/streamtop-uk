@@ -1,6 +1,6 @@
 {
   "version": 17,
-  "generatedAt": "2026-09-03T17:54:06.165Z",
+  "generatedAt": "2026-09-03T17:57:38.681Z",
   "country": "GB",
   "strategy": "Official source first; labelled fallback when no compatible official chart is available.",
   "services": {
@@ -906,7 +906,7 @@
           "rank": 5,
           "title": "LEGO Star Wars: The Mandalorian",
           "year": 2026,
-          "type": null,
+          "type": "MOVIE",
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/01a06088-3dc6-7cd3-a09d-f7747998842d/compose?format=webp&width=386&label=top_ranked_5_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-e1234eda-704c-4729-a47e-e8be088bc61f"
         },
@@ -1562,7 +1562,7 @@
           "sourceRank": 11481,
           "title": "Eternal Spring (長春)",
           "year": 2023,
-          "poster": "/poster/326985515/s166/eternal-spring.webp",
+          "poster": "/poster/300736478/s166/eternal-spring.webp",
           "url": "https://www.justwatch.com/uk/movie/eternal-spring",
           "trend": "UP",
           "trendDifference": 6,
@@ -2373,7 +2373,7 @@
           "cadence": "weekly",
           "note": "Fresh data did not update successfully, so the last successful results are being shown.",
           "stale": true,
-          "staleAsOf": "2026-09-03T17:47:48.902Z"
+          "staleAsOf": "2026-09-03T17:54:06.165Z"
         }
       },
       "error": null,

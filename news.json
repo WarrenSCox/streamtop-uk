@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03T17:54:59.479Z",
+  "updated": "2026-09-03T17:58:31.417Z",
   "providers": {
     "SKY": {
       "categories": {
@@ -501,6 +501,14 @@
       "categories": {
         "UK": [
           {
+            "title": "Hundreds gather to urge Scottish government to pause datacentre boom",
+            "link": "https://www.theguardian.com/uk-news/2026/sep/03/hundreds-holyrood-pause-scotland-datacentre-boom-ai",
+            "published": "Thu, 03 Sep 2026 17:48:48 GMT",
+            "source": "The Guardian",
+            "categories": "Datacentres - UK Scotland AI (artificial intelligence) Edinburgh Environment Technology UK news",
+            "image": "https://i.guim.co.uk/img/media/e2a0d1349bc80c7d01a895dc55a30dfa0af25360/838_0_6829_5464/master/6829.jpg?width=140&quality=85&auto=format&fit=max&s=ffa0fd4aaba860372dd131ecd612ea28"
+          },
+          {
             "title": "UK mortgage borrowers brace for rate jump amid global bond sell-off",
             "link": "https://www.theguardian.com/money/2026/sep/03/uk-mortgage-borrowers-brace-for-rate-jump-global-bond-sell-off",
             "published": "Thu, 03 Sep 2026 17:21:57 GMT",
@@ -523,14 +531,6 @@
             "source": "The Guardian",
             "categories": "Palestine Action England Law Palestine Israel-Gaza war Arms trade",
             "image": "https://i.guim.co.uk/img/media/07255cfe9e7f7271a6b258b6c152fd3e3ec30a3a/430_0_7077_5662/master/7077.jpg?width=140&quality=85&auto=format&fit=max&s=ba5f1864493388a508d3b4a04a60c8b2"
-          },
-          {
-            "title": "Hundreds gather outside Holyrood to call for pause on Scotland’s datacentre boom",
-            "link": "https://www.theguardian.com/uk-news/2026/sep/03/hundreds-holyrood-pause-scotland-datacentre-boom-ai",
-            "published": "Thu, 03 Sep 2026 17:09:11 GMT",
-            "source": "The Guardian",
-            "categories": "Datacentres - UK Scotland AI (artificial intelligence) Edinburgh Environment Technology UK news",
-            "image": "https://i.guim.co.uk/img/media/e2a0d1349bc80c7d01a895dc55a30dfa0af25360/838_0_6829_5464/master/6829.jpg?width=140&quality=85&auto=format&fit=max&s=ffa0fd4aaba860372dd131ecd612ea28"
           },
           {
             "title": "Labour condemns Reform’s plan for £100bn in cuts as ‘half-baked’ and ‘incredibly reckless’ – as it happened",
@@ -747,20 +747,20 @@
         ],
         "BUSINESS": [
           {
-            "title": "Bond market turmoil eases, as Bank of England chief economist argues for interest rate rise – as it happened",
-            "link": "https://www.theguardian.com/business/live/2026/sep/03/uk-mortgage-rates-set-to-rise-bond-sell-off-borrowing-costs-latest-news-updates",
-            "published": "Thu, 03 Sep 2026 16:21:16 GMT",
+            "title": "Nvidia to buy developer platform Hugging Face in $12.9bn deal",
+            "link": "https://www.theguardian.com/technology/2026/sep/03/nvidia-to-buy-hugging-face-in-129bn-deal",
+            "published": "Thu, 03 Sep 2026 16:59:56 GMT",
             "source": "The Guardian",
-            "categories": "Business Economics Stock markets Mortgage rates",
-            "image": "https://i.guim.co.uk/img/media/dec78de4dde1c7a8e455a1c0ae22063ce7128983/1002_0_4557_3646/master/4557.jpg?width=140&quality=85&auto=format&fit=max&s=5f6ad7bbe7e5b1f180cc5687899361cc"
+            "categories": "Nvidia AI (artificial intelligence) Computing Technology sector Business US news Technology World news",
+            "image": "https://i.guim.co.uk/img/media/435487580779be5596c03bb62e0d164456bff6da/472_0_3333_2667/master/3333.jpg?width=140&quality=85&auto=format&fit=max&s=bd3e3efffa14c6a769a34b4d87640a1a"
           },
           {
-            "title": "CBS brings back Norah O’Donnell to co-anchor morning show amid ratings challenges",
-            "link": "https://www.theguardian.com/media/2026/sep/03/cbs-norah-odonnell-morning-show",
-            "published": "Thu, 03 Sep 2026 14:57:09 GMT",
+            "title": "Fox News Media abruptly ousts longtime anchor Maria Bartiromo",
+            "link": "https://www.theguardian.com/media/2026/sep/03/maria-bartiromo-fox-news-departure",
+            "published": "Thu, 03 Sep 2026 17:46:30 GMT",
             "source": "The Guardian",
-            "categories": "CBS Media US television industry Business",
-            "image": "https://i.guim.co.uk/img/media/513c75a832929543c2b447435f20dbce57400e91/252_0_2501_2000/master/2501.jpg?width=140&quality=85&auto=format&fit=max&s=2237abc80d22183900a99c51b9104f89"
+            "categories": "Fox News Media TV news Business Fox",
+            "image": "https://i.guim.co.uk/img/media/be7571d47b428938e47d1eb0f1d32b3be1462716/352_392_4110_3287/master/4110.jpg?width=140&quality=85&auto=format&fit=max&s=3a2954f66528e738578a11d1f168b87e"
           },
           {
             "title": "Dutch central bank moves 86 tonnes of gold to UK from US and Canada, citing ‘geopolitical unrest’",
