@@ -1,6 +1,6 @@
 {
   "version": 17,
-  "generatedAt": "2026-09-03T19:20:55.466Z",
+  "generatedAt": "2026-09-03T19:29:23.573Z",
   "country": "GB",
   "strategy": "Official source first; labelled fallback when no compatible official chart is available.",
   "services": {
@@ -882,7 +882,7 @@
           "rank": 2,
           "title": "Welcome to the Family: The Murder of Dan Markel",
           "year": 2026,
-          "type": "SHOW",
+          "type": null,
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/01a04a2a-5023-732a-b9c6-5af93b18a409/compose?format=webp&width=386&label=top_ranked_2_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-77fa109a-7f84-4e84-8a1c-f48cee4a5671"
         },
@@ -1007,7 +1007,7 @@
           "rank": 5,
           "title": "Step Brothers",
           "year": 2008,
-          "poster": "/poster/297627242/s166/step-brothers.webp",
+          "poster": "/poster/320936168/s166/step-brothers.webp",
           "url": "https://tv.apple.com/gb/movie/step-brothers/umc.cmc.62my0s1tfb2q3qoe089pk1oxo",
           "trend": null,
           "trendDifference": 0,
