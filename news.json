@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-02T22:34:21.451Z",
+  "updated": "2026-09-03T00:38:31.389Z",
   "providers": {
     "SKY": {
       "categories": {
@@ -485,6 +485,14 @@
       "categories": {
         "UK": [
           {
+            "title": "Private equity owns 11 of England’s 20 biggest children’s care providers, research finds",
+            "link": "https://www.theguardian.com/society/2026/sep/03/private-equity-england-childrens-care-providers-profit",
+            "published": "Wed, 02 Sep 2026 23:01:36 GMT",
+            "source": "The Guardian",
+            "categories": "Social care Fostering Outsourcing Children Private equity UK news Society Unison",
+            "image": "https://i.guim.co.uk/img/media/b4cf3d06cfca680cd39ab030c61672ad17f243b6/29_0_1146_917/master/1146.jpg?width=140&quality=85&auto=format&fit=max&s=d2461e04115f9e612bf194dffa33901a"
+          },
+          {
             "title": "Nuclear bomb test veterans were victims of one of ‘greatest scandals in Britain’, says ex-defence minister",
             "link": "https://www.theguardian.com/uk-news/2026/sep/02/nuclear-bomb-test-veterans-were-victims-of-one-of-greatest-scandals-in-britain-says-ex-defence-minister",
             "published": "Wed, 02 Sep 2026 21:30:35 GMT",
@@ -547,14 +555,6 @@
             "source": "The Guardian",
             "categories": "Reform UK Politics UK news",
             "image": "https://i.guim.co.uk/img/media/5e388a34c0e75d4ab6e759119e9d0377631ca93f/147_0_4583_3667/master/4583.jpg?width=140&quality=85&auto=format&fit=max&s=d6a7e9d60f8862010000ccf9f0858725"
-          },
-          {
-            "title": "UK politics: Andy Burnham pressed on borrowing costs and spending at first PMQs – as it happened",
-            "link": "https://www.theguardian.com/politics/live/2026/sep/02/pmqs-andy-burnham-kemi-badenoch-labour-uk-politics-latest-news",
-            "published": "Wed, 02 Sep 2026 16:36:41 GMT",
-            "source": "The Guardian",
-            "categories": "Politics UK news Andy Burnham PMQs Labour Kemi Badenoch House of Commons Government borrowing Tax and spending Economics Economic policy Pensions Zack Polanski Green party Byelections Scottish politics Welsh politics Wales Rhun ap Iorwerth Nigel Farage Reform UK",
-            "image": "https://i.guim.co.uk/img/media/f89dcc944b11e120270f68907c76b430c496ed95/0_0_3000_2400/master/3000.jpg?width=140&quality=85&auto=format&fit=max&s=4c48c1f90ccd3872c93d826ac7ca3c02"
           },
           {
             "title": "Farage compares standards inquiry to investigations faced by fellow ‘outsider’ Trump",
@@ -1309,6 +1309,22 @@
         ],
         "TECH": [
           {
+            "title": "The Blood Of Dawnwalker launch day interview – ‘there’s constant stress’",
+            "link": "https://metro.co.uk/2026/09/03/blood-dawnwalker-launch-day-interview-theres-constant-stress-29522734/",
+            "published": "Thu, 03 Sep 2026 00:00:15 +0000",
+            "source": "Metro",
+            "categories": "Entertainment Gaming Games news Games previews The Witcher",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310457048-9baf.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Daily horoscope September 3, 2026: Today’s predictions for your star sign",
+            "link": "https://metro.co.uk/2026/09/03/daily-horoscope-september-3-2026-predictions-star-sign-29512132/",
+            "published": "Wed, 02 Sep 2026 23:01:00 +0000",
+            "source": "Metro",
+            "categories": "Horoscopes Lifestyle Aquarius Aries Astrology Cancer (star sign) Capricorn Gemini Leo Libra Pisces Sagittarius Scorpio Taurus Virgo",
+            "image": "https://metro.co.uk/wp-content/uploads/2023/04/new-horoscope-2023-02-a5db.gif?w=646"
+          },
+          {
             "title": "Tomb Raider: Legacy Of Atlantis preview – the new old Lara Croft",
             "link": "https://metro.co.uk/2026/09/02/tomb-raider-legacy-atlantis-preview-new-old-lara-croft-29520838/",
             "published": "Wed, 02 Sep 2026 17:00:00 +0000",
@@ -1318,6 +1334,14 @@
           }
         ],
         "ENTERTAINMENT": [
+          {
+            "title": "Jack O’Connell’s sensational performance in Ink should finally make him a mega star",
+            "link": "https://metro.co.uk/2026/09/03/jack-oconnells-sensational-performance-ink-finally-make-a-mega-star-29520848/",
+            "published": "Wed, 02 Sep 2026 23:47:33 +0000",
+            "source": "Metro",
+            "categories": "Entertainment Film Claire Foy Danny Boyle Film reviews Guy Pearce Jack O'Connell Rupert Murdoch Venice Film Festival",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310391091-6376-e1788391425300.jpg?quality=90&strip=all&w=646"
+          },
           {
             "title": "New documents reveal Tim Curry’s cause of death aged 80",
             "link": "https://metro.co.uk/2026/09/02/new-documents-reveal-tim-currys-cause-death-aged-80-29521976/",
@@ -1347,7 +1371,7 @@
             "link": "https://metro.co.uk/2026/09/02/danny-boyle-jack-oconnell-reminds-al-pacino-next-role-insane-29520806/",
             "published": "Wed, 02 Sep 2026 16:50:39 +0000",
             "source": "Metro",
-            "categories": "Entertainment Film Danny Boyle Jack O'Connell Venice Film Festival",
+            "categories": "Entertainment Film Danny Boyle Jack O'Connell Rupert Murdoch Venice Film Festival",
             "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310391076-acce-e1788366984119.jpg?quality=90&strip=all&w=646"
           },
           {
@@ -1389,14 +1413,6 @@
             "source": "Metro",
             "categories": "Entertainment Showbiz Ariana Grande US Showbiz news",
             "image": "https://metro.co.uk/wp-content/uploads/2026/09/comp-1788348863.png?w=646"
-          },
-          {
-            "title": "The Traitors star Freddie Fraser announces he’s bisexual after boyfriend ‘hard launch’",
-            "link": "https://metro.co.uk/2026/09/02/traitors-star-freddie-fraser-announces-bisexual-boyfriend-hard-launch-29517727/",
-            "published": "Wed, 02 Sep 2026 11:33:26 +0000",
-            "source": "Metro",
-            "categories": "Entertainment TV LGBTQ+ The Traitors",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310356952-12b7-e1788347419717.jpg?quality=90&strip=all&w=646"
           }
         ]
       }
