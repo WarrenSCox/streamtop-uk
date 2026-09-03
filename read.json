@@ -1,12 +1,12 @@
 {
-  "updated": "2026-09-03T21:48:39.422Z",
+  "updated": "2026-09-03T21:50:06.301Z",
   "charts": {
     "AUDIOBOOKS": [
       {
         "title": "Dungeon Crawler Carl",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://covers.openlibrary.org/b/id/15143022-L.jpg"
+        "image": "https://m.media-amazon.com/images/I/51HIZdnqASL._SL500_.jpg"
       },
       {
         "title": "The Murder at the Vicarage",
@@ -60,7 +60,7 @@
         "title": "The Eye of the Bedlam Bride",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays , Patrick Warburton , Travis Baldree , Annie Ellicott",
-        "image": "https://covers.openlibrary.org/b/id/15231488-L.jpg"
+        "image": "https://m.media-amazon.com/images/I/51qfZAq2J4L._SL500_.jpg"
       }
     ],
     "BOOKS": [
@@ -123,14 +123,14 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-09-03T21:48:39.422Z",
-      "lastSuccessfulRefresh": "2026-09-03T21:48:39.422Z",
+      "checkedAt": "2026-09-03T21:50:06.301Z",
+      "lastSuccessfulRefresh": "2026-09-03T21:50:06.301Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-09-03T21:48:52.028Z",
-      "lastSuccessfulRefresh": "2026-09-03T21:48:52.028Z",
+      "checkedAt": "2026-09-03T21:50:20.201Z",
+      "lastSuccessfulRefresh": "2026-09-03T21:50:20.201Z",
       "reason": ""
     }
   }
