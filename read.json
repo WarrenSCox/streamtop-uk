@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03T21:41:24.824Z",
+  "updated": "2026-09-03T21:48:39.422Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -107,7 +107,7 @@
       {
         "title": "It's Not What You Think",
         "author": "Clare Mackintosh",
-        "image": ""
+        "image": "https://storage.googleapis.com/lr-assets/main/covers/1762345134-71jkr0elb5l._sl1500_-130x200.jpg"
       },
       {
         "title": "Yesteryear",
@@ -119,5 +119,19 @@
   "sources": {
     "BOOKS": "https://www.lovereading.co.uk/genres/lrt10/uk-top-10-books",
     "AUDIOBOOKS": "https://www.audible.co.uk/charts/best"
+  },
+  "health": {
+    "BOOKS": {
+      "status": "healthy",
+      "checkedAt": "2026-09-03T21:48:39.422Z",
+      "lastSuccessfulRefresh": "2026-09-03T21:48:39.422Z",
+      "reason": ""
+    },
+    "AUDIOBOOKS": {
+      "status": "healthy",
+      "checkedAt": "2026-09-03T21:48:52.028Z",
+      "lastSuccessfulRefresh": "2026-09-03T21:48:52.028Z",
+      "reason": ""
+    }
   }
 }

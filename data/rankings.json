@@ -1,6 +1,6 @@
 {
   "version": 17,
-  "generatedAt": "2026-09-03T21:40:37.356Z",
+  "generatedAt": "2026-09-03T21:47:50.204Z",
   "country": "GB",
   "strategy": "Official source first; labelled fallback when no compatible official chart is available.",
   "services": {
@@ -544,7 +544,7 @@
           "sourceRank": 44,
           "title": "Legion",
           "year": 2017,
-          "poster": "/poster/320937706/s166/legion.webp",
+          "poster": "/poster/147938680/s166/legion.webp",
           "url": "https://www.justwatch.com/uk/tv-series/legion",
           "trend": "UP",
           "trendDifference": 21,
@@ -822,7 +822,7 @@
           "sourceRank": 36,
           "title": "The Game",
           "year": 2025,
-          "poster": "/poster/331029874/s166/catch-you-later.webp",
+          "poster": "/poster/353583221/s166/catch-you-later.webp",
           "url": "https://www.justwatch.com/uk/tv-series/catch-you-later",
           "trend": "UP",
           "trendDifference": 2,
@@ -874,7 +874,7 @@
           "rank": 1,
           "title": "Star Wars: The Mandalorian and Grogu",
           "year": 2026,
-          "type": null,
+          "type": "MOVIE",
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/01a06213-9861-7d5b-a9ba-b56eabc0796c/compose?format=webp&width=386&label=top_ranked_1_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-d830ec57-499e-498c-b6b3-2b85a18a5f51"
         },
@@ -882,7 +882,7 @@
           "rank": 2,
           "title": "Welcome to the Family: The Murder of Dan Markel",
           "year": 2026,
-          "type": "SHOW",
+          "type": null,
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/01a04a2a-5023-732a-b9c6-5af93b18a409/compose?format=webp&width=386&label=top_ranked_2_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-77fa109a-7f84-4e84-8a1c-f48cee4a5671"
         },
@@ -890,7 +890,7 @@
           "rank": 3,
           "title": "Furious",
           "year": 2026,
-          "type": "SHOW",
+          "type": null,
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/019fa9fd-c0de-7eab-963c-8ec352530398/compose?format=webp&width=386&label=top_ranked_3_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-5d4924b7-1cde-47c3-8852-f30bdd7fe979"
         },
@@ -938,7 +938,7 @@
           "rank": 9,
           "title": "Marvel Studios' Avengers: Infinity War",
           "year": 2018,
-          "type": null,
+          "type": "MOVIE",
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/433236b6-470b-461e-bfc5-e48016f077eb/compose?format=webp&width=386&label=top_ranked_9_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-9a136e06-852a-41bf-b71d-fa061cb43225"
         },
@@ -1499,13 +1499,13 @@
         },
         {
           "rank": 2,
-          "sourceRank": 3209,
+          "sourceRank": 3216,
           "title": "André Is an Idiot",
           "year": 2026,
           "poster": "/poster/343098259/s166/andre-is-an-idiot.webp",
           "url": "https://www.justwatch.com/uk/movie/andre-is-an-idiot",
           "trend": "DOWN",
-          "trendDifference": -20,
+          "trendDifference": -27,
           "daysInTop10": null,
           "topRank": 22
         },
