@@ -809,3 +809,26 @@ html,body,body *{-webkit-user-select:none;user-select:none;-webkit-touch-callout
 .read-tab.read-animate .read-selector-ear{animation:read-ear-wiggle .62s cubic-bezier(.36,.07,.19,.97)}
 @keyframes read-ear-wiggle{0%,100%{transform:rotate(0deg)}20%{transform:rotate(-8deg)}42%{transform:rotate(6deg)}64%{transform:rotate(-4deg)}82%{transform:rotate(2deg)}}
 @media(prefers-reduced-motion:reduce){.read-tab.read-animate .read-selector-ear{animation:none!important}}
+
+/* v6.2.4 — WozzaRead selector sizing/resting-state fix. */
+/* The book always rests fully open; the page only folds during the selection animation. */
+.read-book-icon .book-page-flip{opacity:1!important;transform:scaleX(1) skewY(0)!important}
+.read-tab.read-animate .read-book-icon .book-page-flip{animation:read-book-page-flip-v624 .62s cubic-bezier(.25,.75,.25,1)!important}
+@keyframes read-book-page-flip-v624{
+  0%,100%{transform:scaleX(1) skewY(0);opacity:1}
+  42%{transform:scaleX(.10) skewY(-5deg);opacity:.82}
+  55%{transform:scaleX(.10) skewY(5deg);opacity:.82}
+}
+/* Keep the approved ear artwork unchanged; only scale the selector ear to match the other tab icons. */
+.read-selector-ear{width:35px!important;height:46px!important}
+@media(max-width:560px){.read-selector-ear{width:34px!important;height:44px!important}}
+@media(prefers-reduced-motion:reduce){.read-tab.read-animate .read-book-icon .book-page-flip{animation:none!important;transform:scaleX(1) skewY(0)!important;opacity:1!important}}
+
+
+/* v6.2.5 — Watchlist ranking interaction: hold-to-drag is the priority gesture. */
+.my-list-page .chart-item{position:relative;touch-action:pan-y;-webkit-user-drag:none}
+.my-list-page .chart-item img{-webkit-user-drag:none;user-drag:none;pointer-events:none}
+.my-list-page .chart-item.hold-dragging{z-index:30;cursor:grabbing;transform:scale(1.025);box-shadow:0 16px 34px rgba(23,33,61,.24);background:#fffdf8}
+body.watchlist-reordering{overflow-anchor:none;overscroll-behavior:none;touch-action:none}
+body.watchlist-reordering .my-list-page .chart-wrap,body.watchlist-reordering #myList,body.watchlist-reordering #myList .chart-item{touch-action:none!important}
+@media(prefers-reduced-motion:reduce){.my-list-page .chart-item{transition:none!important}.my-list-page .chart-item.hold-dragging{transform:none}}

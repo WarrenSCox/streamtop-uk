@@ -422,7 +422,7 @@ function setLoading(on) {
 function renderCurrent() {
   const service = state.service;
   const key = state.type === 'MOVIE' ? 'movies' : state.type === 'SHOW' ? 'tv' : 'combined';
-  const typeLabel = state.type === 'MOVIE' ? 'Movies' : state.type === 'SHOW' ? 'TV Shows' : 'Combined';
+  const typeLabel = state.type === 'MOVIE' ? 'Movies' : state.type === 'SHOW' ? 'TV' : 'Combined';
   const serviceData = state.data?.services?.[service.id];
   const source = serviceData?.sources?.[key];
   const fallbackUrl = source?.url || justWatchUrl(service, state.type);
@@ -565,7 +565,7 @@ initBottomFlickSwitch('my-list.html');
 
 
 
-// v6.1.3 — selector icons animate only from user selection/navigation.
+// v6.1.4 — selector icons animate only from user selection/navigation.
 // v5.3.32 — aggressively adopt new PWA releases without an update popup.
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', async () => {
