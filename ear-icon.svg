@@ -1,8 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 88">
-  <symbol id="ear-shell" viewBox="0 0 64 88">
-    <path d="M34 4C18 4 7 16 7 33c0 10 4 17 10 24 4 5 6 9 6 16 0 7 5 11 11 11 7 0 11-5 11-12 0-7 2-11 7-15 7-6 10-14 10-25C62 15 51 4 34 4Z"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 96">
+  <!-- Shared audiobook ear. CSS supplies outline/filled state colours. -->
+  <symbol id="ear-shell" viewBox="0 0 72 96">
+    <path d="M39 5C20.7 5 8 18.2 8 37.2c0 12.8 5.5 22.1 12.1 29.2 4.6 5 6.6 9.1 6.6 15.3 0 6.1 4.7 10.3 10.7 10.3 8.7 0 13.4-6.1 14.2-14.2.7-7.4 3.2-11.2 8.1-16.6C65.3 55 68 47.2 68 37.3 68 18.5 56.4 5 39 5Z"/>
   </symbol>
-  <symbol id="ear-detail" viewBox="0 0 64 88">
-    <path d="M36 16c-10 0-18 8-18 19 0 8 4 13 10 17 5 3 7 7 6 13M39 27c-7 0-12 5-12 11 0 5 3 8 8 10M45 35c4 2 6 6 5 11M24 58c-3 4-4 8-3 12"/>
+  <symbol id="ear-detail" viewBox="0 0 72 96">
+    <!-- helix / antihelix -->
+    <path d="M42.5 18.2c-11.8 0-20.3 8.8-20.3 20.3 0 8.6 4.3 14.6 11.2 19.2 5.6 3.8 8.2 8.2 7.2 14.8"/>
+    <path d="M45.5 29.3c-7.6 0-13.3 5.4-13.3 12.2 0 5.4 3.1 8.9 8.4 11.4"/>
+    <!-- concha / inner bowl -->
+    <path d="M48.7 39.5c4.2 2.6 6.1 6.6 5.2 11.3-1.2 6.1-6.1 9.6-12.2 10.5"/>
+    <!-- tragus / lobe definition -->
+    <path d="M27.7 57.8c-4.4 3.8-6.3 8.2-5.5 13.1.8 4.8 4.2 7.5 8.2 7.5 4.8 0 7.6-3.2 8.1-7.9"/>
   </symbol>
 </svg>
