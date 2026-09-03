@@ -754,13 +754,13 @@ html,body,body *{-webkit-user-select:none;user-select:none;-webkit-touch-callout
 .tune-page .segmented.idle-hint-first button[data-type="SINGLE"] img,
 .tune-page .segmented.idle-hint-second button[data-type="ALBUM"] img{animation:none!important}
 
-/* v6.1.5 — audiobook ears: same interaction language as the eyes.
-   Empty = soft/grey navy outline; saved = warm yellow filled ear. */
+/* v6.1.6 — audiobook ear rework. Simple human-ear silhouette matching the reference.
+   Unsaved = soft grey outline, matching unsaved eyes. Saved/pile = solid yellow ear with orange inner line. */
 .audio-ear{display:block;width:34px;height:44px;overflow:visible;transform-origin:50% 55%;color:var(--navy)}
-.audio-ear-shell{fill:#fff;stroke:currentColor;stroke-width:4.2;stroke-linejoin:round;transition:fill .18s ease,stroke .18s ease,opacity .18s ease}
-.audio-ear-detail{fill:none;stroke:currentColor;stroke-width:3.5;stroke-linecap:round;stroke-linejoin:round;transition:stroke .18s ease,opacity .18s ease}
+.audio-ear-shell{fill:none;stroke:currentColor;stroke-width:4.4;stroke-linecap:round;stroke-linejoin:round;transition:fill .16s ease,stroke .16s ease,opacity .16s ease}
+.audio-ear-detail{fill:none;stroke:currentColor;stroke-width:3.5;stroke-linecap:round;stroke-linejoin:round;transition:stroke .16s ease,opacity .16s ease}
 .audiobook-ear-toggle{min-width:39px;display:grid;place-items:center}
-.audiobook-ear-toggle:not(.saved) .audio-ear{opacity:.14;filter:saturate(.58)}
+.audiobook-ear-toggle:not(.saved) .audio-ear{color:#17213d;opacity:.14;filter:none}
 .audiobook-ear-toggle.saved .audio-ear{opacity:1;filter:none;animation:ear-saved-pop .48s cubic-bezier(.2,.9,.25,1)}
 .audiobook-ear-toggle.saved .audio-ear-shell,.pile-ear .audio-ear-shell,.falling-ear .audio-ear-shell,.watched-ear-mark .audio-ear-shell{fill:#FDD848;stroke:#F2A51A}
 .audiobook-ear-toggle.saved .audio-ear-detail,.pile-ear .audio-ear-detail,.falling-ear .audio-ear-detail,.watched-ear-mark .audio-ear-detail{stroke:#F2A51A}
@@ -770,6 +770,4 @@ html,body,body *{-webkit-user-select:none;user-select:none;-webkit-touch-callout
 .falling-watch-eyes.falling-ear{width:34px;height:44px}
 .falling-watch-eyes.falling-ear .audio-ear{width:32px;height:42px;opacity:1}
 .watched-ear-mark{width:34px;display:grid;place-items:center;opacity:1}.watched-ear-mark .audio-ear{width:27px;height:35px}
-.watched-page .watched-actions:has(.watched-ear-mark){flex-basis:116px}.watched-page .chart-item:has(.watched-ear-mark){grid-template-columns:46px 58px minmax(0,1fr) 116px}
-@media(max-width:560px){.watched-page .chart-item:has(.watched-ear-mark){grid-template-columns:38px 52px minmax(0,1fr) 108px}.watched-page .watched-actions:has(.watched-ear-mark){flex-basis:108px}}
 @media(prefers-reduced-motion:reduce){.audiobook-ear-toggle.saved .audio-ear{animation:none!important}}

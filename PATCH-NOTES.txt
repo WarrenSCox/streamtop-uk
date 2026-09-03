@@ -1,9 +1,8 @@
-WozzaWatch v6.1.5 — Audiobook Ear Icon CR
+WozzaWatch v6.1.6 — Audiobook Ear Rework
 
-- Focused release: audiobook ear visuals only.
-- Replaces the previous spiral-style ear with a more natural ear silhouette.
-- Unsaved audiobook: soft greyed-out/navy outline, matching the visual treatment of unsaved Watchlist eyes.
-- Saved audiobook: filled yellow ear with warm orange detail.
-- The same yellow filled ear is used in Watchlist, Watched List and the mixed Watched pile.
-- Falling-to-pile animation now carries the same yellow ear artwork.
-- No GitHub Actions workflow file is included; the workflow did not change.
+- Focused correction to the audiobook ear only.
+- Replaces the previous spiral/lobe-heavy symbol with a clean human-ear silhouette closer to the agreed reference.
+- Unsaved: soft grey/navy outline matching the opacity/treatment of unsaved eyes.
+- Saved: same ear fills yellow with orange inner detail.
+- The identical yellow ear is used in Watchlist, Watched List, falling animation and mixed Watched pile.
+- No ranking workflow changes.
