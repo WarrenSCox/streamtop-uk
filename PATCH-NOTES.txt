@@ -1,9 +1,9 @@
-WozzaWatch v6.1.7 — Audiobook Ear Shape Fix
+WozzaWatch v6.1.8 — Real Audiobook Ear SVG
 
 Changed files only.
 
-- Rebuilt the audiobook ear as a recognisable human-ear silhouette.
-- Unsaved state uses the same soft navy/grey outline treatment as unsaved eyes.
-- Saved state fills the exact same ear yellow with orange inner-ear detail.
-- The same filled ear is reused in Watchlist, Watched and the falling/pile animation.
-- No workflow files included; update-rankings.yml is unchanged.
+- Added ear-icon.svg as the single source-of-truth ear artwork.
+- Read, Watchlist, Watched and pile/falling animations now reference that SVG asset.
+- Unsaved audiobook: same ear as a soft grey/navy outline.
+- Saved audiobook: same silhouette filled yellow with orange inner-ear detail.
+- No workflow file included; update-rankings.yml is unchanged.
