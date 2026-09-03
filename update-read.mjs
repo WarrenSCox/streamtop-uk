@@ -4,7 +4,7 @@ import crypto from 'node:crypto';
 const BOOKS_URL='https://www.lovereading.co.uk/genres/lrt10/uk-top-10-books';
 const AUDIO_URL='https://www.audible.co.uk/charts/best';
 const headers={
-  'User-Agent':'Mozilla/5.0 (compatible; WozzaRead/6.2.15; +https://github.com/)',
+  'User-Agent':'Mozilla/5.0 (compatible; WozzaRead/6.2.16; +https://github.com/)',
   'Accept':'text/html,application/xhtml+xml'
 };
 
@@ -89,17 +89,50 @@ function productCover(src,base,expectedTitle,kind){
   return candidates[0]?.url||'';
 }
 
+async function googleBooksStrictCover(row){
+  // Google Books query operators apply to a single term unless the phrase is quoted.
+  // The old `intitle:Some Multi Word Title` query therefore searched much more loosely
+  // than intended and could bury the exact edition outside maxResults=5.
+  // Search the exact title/author phrases, inspect a larger result set, and accept only
+  // metadata that resolves back to this exact chart row.
+  try{
+    const queries=[
+      `intitle:"${row.title}" inauthor:"${row.author||''}"`,
+      `"${row.title}" "${row.author||''}"`
+    ];
+    const wantedTitle=normText(row.title);
+    const wantedAuthor=normText(row.author||'');
+    for(const query of queries){
+      const params=new URLSearchParams({q:query,maxResults:'40',printType:'books'});
+      const r=await fetch(`https://www.googleapis.com/books/v1/volumes?${params}`,{headers:{'User-Agent':headers['User-Agent']}});
+      if(!r.ok)continue;
+      const j=await r.json();
+      const hits=(j.items||[]).filter(x=>{
+        const vi=x.volumeInfo||{};
+        const title=normText(vi.title);
+        const authors=(vi.authors||[]).map(normText);
+        return title===wantedTitle && (!wantedAuthor||authors.some(a=>a===wantedAuthor||a.includes(wantedAuthor)||wantedAuthor.includes(a)));
+      });
+      // Prefer a normal API-provided artwork URL. If Google knows the exact volume but
+      // omitted imageLinks for that edition, its volume id can still address the official
+      // Google Books front-cover endpoint.
+      for(const hit of hits){
+        const vi=hit.volumeInfo||{};
+        const u=vi.imageLinks?.extraLarge||vi.imageLinks?.large||vi.imageLinks?.medium||vi.imageLinks?.small||vi.imageLinks?.thumbnail||vi.imageLinks?.smallThumbnail||'';
+        if(u)return String(u).replace(/^http:/,'https:');
+      }
+      const withId=hits.find(x=>x.id);
+      if(withId?.id){
+        return `https://books.google.com/books/content?id=${encodeURIComponent(withId.id)}&printsec=frontcover&img=1&zoom=2&source=gbs_api`;
+      }
+    }
+    return '';
+  }catch{return ''}
+}
+
 async function secondaryCover(row,kind){
   try{
-    if(kind==='BOOKS'){
-      const q=encodeURIComponent(`intitle:${row.title} inauthor:${row.author||''}`);
-      const r=await fetch(`https://www.googleapis.com/books/v1/volumes?q=${q}&maxResults=5`,{headers:{'User-Agent':headers['User-Agent']}});
-      if(!r.ok)return '';
-      const j=await r.json();
-      const hit=(j.items||[]).find(x=>normText(x.volumeInfo?.title)===normText(row.title) && (!row.author||(x.volumeInfo?.authors||[]).some(a=>normText(a).includes(normText(row.author))||normText(row.author).includes(normText(a)))));
-      const u=hit?.volumeInfo?.imageLinks?.thumbnail||hit?.volumeInfo?.imageLinks?.smallThumbnail||'';
-      return u.replace(/^http:/,'https:');
-    }
+    if(kind==='BOOKS') return await googleBooksStrictCover(row);
     const term=encodeURIComponent(`${row.title} ${row.author||''}`);
     const r=await fetch(`https://itunes.apple.com/search?country=gb&media=audiobook&limit=10&term=${term}`,{headers:{'User-Agent':headers['User-Agent']}});
     if(!r.ok)return '';
@@ -145,8 +178,8 @@ async function lastResortTitleOnlyCover(row){
   // Fifth and final source: exact normalized title only. Intentionally ignores author,
   // but rejects common derivative/companion variants. If ambiguous, keep the W fallback.
   try{
-    const q=encodeURIComponent(`intitle:${row.title}`);
-    const r=await fetch(`https://www.googleapis.com/books/v1/volumes?q=${q}&maxResults=20&printType=books`,{headers:{'User-Agent':headers['User-Agent']}});
+    const params=new URLSearchParams({q:`intitle:"${row.title}"`,maxResults:'40',printType:'books'});
+    const r=await fetch(`https://www.googleapis.com/books/v1/volumes?${params}`,{headers:{'User-Agent':headers['User-Agent']}});
     if(!r.ok)return '';
     const j=await r.json();
     const wanted=normText(row.title);
@@ -273,7 +306,7 @@ for(const [key,url,parser] of [['BOOKS',BOOKS_URL,booksFromHtml],['AUDIOBOOKS',A
     if(rows.length!==10||rows.some(x=>!x.title)) throw Error(`expected exactly 10 ranked titles, got ${rows.length}`);
     const oldRows=previous?.charts?.[key]||[];
     rows=await Promise.all(rows.map(async row=>{
-      // BOOKS keep the strict v6.2.14 safety policy, but get two extra chances before W:
+      // BOOKS keep the strict safety policy, but get extra chances before W:
       // a fourth strict Open Library title+author lookup, then a fifth exact-title-only
       // Google Books fallback with ambiguity/derivative guards. Previous book covers
       // are still never reused.
