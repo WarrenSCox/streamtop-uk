@@ -4,7 +4,7 @@ import crypto from 'node:crypto';
 const BOOKS_URL='https://www.lovereading.co.uk/genres/lrt10/uk-top-10-books';
 const AUDIO_URL='https://www.audible.co.uk/charts/best';
 const headers={
-  'User-Agent':'Mozilla/5.0 (compatible; WozzaRead/6.2.19; +https://github.com/)',
+  'User-Agent':'Mozilla/5.0 (compatible; WozzaRead/6.2.20; +https://github.com/)',
   'Accept':'text/html,application/xhtml+xml'
 };
 
@@ -17,8 +17,40 @@ const decode=s=>String(s||'')
 
 async function html(url){
   const r=await fetch(url,{redirect:'follow',headers});
+  const body=await r.text();
+
+  if(url===BOOKS_URL){
+    const title=(body.match(/<title\b[^>]*>([\s\S]*?)<\/title>/i)||[])[1]||'';
+    const bookCount=(body.match(/\/book\//gi)||[]).length;
+    const booksCount=(body.match(/\/books\//gi)||[]).length;
+    const authorCount=(body.match(/\/author\//gi)||[]).length+(body.match(/\/authors\//gi)||[]).length;
+    const top10Count=(body.match(/UK Top 10|Official UK Top 10/gi)||[]).length;
+    const anchorSamples=[...body.matchAll(/<a\b[^>]*href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi)]
+      .slice(0,80)
+      .map(m=>`${decode(m[2]).slice(0,70)} => ${m[1]}`)
+      .filter(x=>/book|top 10|clare|mackintosh|correspondent|yesteryear/i.test(x))
+      .slice(0,20);
+
+    console.log(`[LOVEREADING-DIAG] HTTP ${r.status} final=${r.url}`);
+    console.log(`[LOVEREADING-DIAG] bytes=${body.length} title="${decode(title)}"`);
+    console.log(`[LOVEREADING-DIAG] markers top10=${top10Count} /book/=${bookCount} /books/=${booksCount} authorPaths=${authorCount}`);
+    if(anchorSamples.length) console.log(`[LOVEREADING-DIAG] candidate anchors: ${anchorSamples.join(' | ')}`);
+    else console.log(`[LOVEREADING-DIAG] candidate anchors: NONE`);
+
+    const lower=body.toLowerCase();
+    const challengeSignals=[
+      ['cloudflare',lower.includes('cloudflare')],
+      ['captcha',lower.includes('captcha')],
+      ['access denied',lower.includes('access denied')],
+      ['enable javascript',lower.includes('enable javascript')],
+      ['just a moment',lower.includes('just a moment')],
+      ['cf-chl-',lower.includes('cf-chl-')]
+    ].filter(([,v])=>v).map(([k])=>k);
+    console.log(`[LOVEREADING-DIAG] challengeSignals=${challengeSignals.length?challengeSignals.join(','):'none'}`);
+  }
+
   if(!r.ok) throw Error(`${r.status} ${url}`);
-  return r.text();
+  return body;
 }
 const absolute=(href,base)=>{try{return new URL(href,base).href}catch{return ''}};
 const attr=(tag,name)=>{
@@ -318,6 +350,11 @@ function booksFromHtml(src){
   });
 
   console.log(`LoveReading parser: found ${rows.length} candidate ranked titles`);
+  if(!rows.length){
+    console.log(`[LOVEREADING-DIAG] parser area bytes=${area.length}`);
+    console.log(`[LOVEREADING-DIAG] parser startMarkerFound=${start>=0} endMarkerFound=${endRel>0}`);
+    console.log(`[LOVEREADING-DIAG] qualifying anchors after filters=${anchors.length}`);
+  }
   if(rows.length) console.log(`LoveReading parser titles: ${rows.map((r,i)=>`${i+1}. ${r.title}${r.author?` — ${r.author}`:''}`).join(' | ')}`);
   return rows;
 }
