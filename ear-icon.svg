@@ -1,24 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 88" role="img" aria-label="Audiobook ear">
-  <!-- Shared ear asset. Default = grey outline. Add class="is-saved" for filled yellow ear. -->
-  <style>
-    .ear-outline{fill:none;stroke:#d8dbe3;stroke-width:4.6;stroke-linecap:round;stroke-linejoin:round}
-    .ear-fill,.ear-fill-detail{display:none}
-    .is-saved .ear-outline{display:none}
-    .is-saved .ear-fill{display:block;fill:#ffc928}
-    .is-saved .ear-fill-detail{display:block;fill:none;stroke:#f39a12;stroke-width:5;stroke-linecap:round;stroke-linejoin:round}
-  </style>
-  <!-- recognisable outline ear, based on supplied guide -->
-  <g class="ear-outline">
-    <path d="M12 40C12 19 25 6 40 6c14 0 23 11 23 26 0 13-6 22-14 29-7 6-10 11-10 18 0 6-4 9-9 9-7 0-12-5-12-13"/>
-    <path d="M20 45c-2-4-3-8-3-12 0-11 8-19 18-19 10 0 17 8 17 18 0 9-5 15-11 20-6 5-8 9-8 15"/>
-    <path d="M19 31c8-1 15 2 18 8 3 7 1 15-5 20-5 4-8 7-7 12"/>
-    <path d="M18 43c7-1 13 2 16 7"/>
-  </g>
-  <!-- saved state: solid yellow silhouette + orange cartilage -->
-  <path class="ear-fill" d="M40 4C21 4 8 18 8 39c0 12 5 20 11 27 4 5 6 9 6 15 0 5 4 8 9 8 8 0 12-6 13-14 1-6 3-9 9-15 7-7 11-16 11-28C67 15 56 4 40 4Z"/>
-  <g class="ear-fill-detail">
-    <path d="M18 39c0-16 9-27 22-27 12 0 19 9 19 21 0 10-5 17-12 23-7 6-10 11-10 18"/>
-    <path d="M21 31c9-1 16 2 19 9 3 7 1 14-5 20-5 4-8 8-7 13"/>
-    <path d="M20 44c7-1 13 2 16 7"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 88">
+  <!-- Shared audiobook ear geometry. State colours are controlled by app CSS. -->
+  <defs>
+    <!-- Closed, recognisable ear silhouette based on Warren's approved reference. -->
+    <path id="ear-shell" d="M35.5 3.5C19.2 3.5 8.5 16.4 8.5 35.4c0 10.8 3.4 18.3 8.8 25.5 4.2 5.6 6.1 10.1 6.1 16.4 0 6.8 4.7 10.7 10.8 10.7 9.7 0 14.5-7.3 15.1-17.3.4-6.8 2.7-10.4 7.4-15.7 5.7-6.5 8.8-14.3 8.8-24.1 0-16.7-12.1-27.4-30-27.4Z"/>
+    <g id="ear-detail">
+      <!-- upper inner rim -->
+      <path d="M17.1 37.5c0-15.3 8.2-25.1 19.3-25.1 11.2 0 19 8.4 19 19.7 0 9.6-4.8 16.4-11.3 22.2-6.4 5.8-9.1 10.7-9.1 18.1"/>
+      <!-- antihelix / central fold -->
+      <path d="M19.2 29.9c8.2-1 14.8 1.8 18 7.5 3.7 6.7 2 14.4-4.3 19.8-5.3 4.5-8.1 8.4-7.4 13.2"/>
+      <!-- concha fold -->
+      <path d="M18.3 43.3c6.7-1.1 12.8 1.4 16.2 6.6"/>
+    </g>
+  </defs>
 </svg>
