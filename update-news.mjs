@@ -1,5 +1,15 @@
 import fs from "node:fs/promises";
 
+async function loadPreviousNews(){
+ try{
+  return JSON.parse(await fs.readFile("news.json","utf8"));
+ }catch{
+  return null;
+ }
+}
+
+const previousNews=await loadPreviousNews();
+
 const skyFeeds={
  UK:"https://feeds.skynews.com/feeds/rss/uk.xml",
  WORLD:"https://feeds.skynews.com/feeds/rss/world.xml",
@@ -96,7 +106,7 @@ async function fetchFeed(url){
  if(!/<rss\b|<feed\b/i.test(xml))throw new Error("Response was not RSS/XML");
  return [...xml.matchAll(/<item\b[\s\S]*?<\/item>/gi)].map(m=>m[0]);
 }
-async function buildProvider(name,feeds){
+async function buildProvider(name,feeds,previousProvider){
  const categories={};
  for(const [cat,feedValue] of Object.entries(feeds)){
   const urls=Array.isArray(feedValue)?feedValue:[feedValue];
@@ -114,7 +124,17 @@ async function buildProvider(name,feeds){
    }
   }
 
-  if(!rawItems.length)throw lastError||new Error(`${name} ${cat}: no RSS items received`);
+  if(!rawItems.length){
+   const previousRows=previousProvider?.categories?.[cat];
+   if(Array.isArray(previousRows) && previousRows.length){
+    categories[cat]=previousRows;
+    console.warn(`${name} ${cat}: no RSS items received — keeping ${previousRows.length} previous stories`);
+    continue;
+   }
+   console.warn(`${name} ${cat}: no RSS items received and no previous category is available — continuing with an empty category${lastError?` (${lastError.message})`:""}`);
+   categories[cat]=[];
+   continue;
+  }
 
   const seen=new Set();
   let rows=rawItems.map(x=>({
@@ -137,7 +157,17 @@ async function buildProvider(name,feeds){
   }
 
   rows=rows.slice(0,10);
-  if(!rows.length)throw new Error(`${name} ${cat}: RSS returned no correctly classified stories`);
+  if(!rows.length){
+   const previousRows=previousProvider?.categories?.[cat];
+   if(Array.isArray(previousRows) && previousRows.length){
+    categories[cat]=previousRows;
+    console.warn(`${name} ${cat}: RSS returned no correctly classified stories — keeping ${previousRows.length} previous stories`);
+   }else{
+    categories[cat]=[];
+    console.warn(`${name} ${cat}: RSS returned no correctly classified stories and no previous category is available — continuing with an empty category`);
+   }
+   continue;
+  }
   categories[cat]=rows;
   console.log(`${name} ${cat}: ${rows.length} correctly classified usable stories`);
  }
@@ -145,9 +175,9 @@ async function buildProvider(name,feeds){
 }
 
 const providers={
- SKY:await buildProvider("SKY",skyFeeds),
- GUARDIAN:await buildProvider("GUARDIAN",guardianFeeds),
- METRO:await buildProvider("METRO",metroFeeds)
+ SKY:await buildProvider("SKY",skyFeeds,previousNews?.providers?.SKY),
+ GUARDIAN:await buildProvider("GUARDIAN",guardianFeeds,previousNews?.providers?.GUARDIAN),
+ METRO:await buildProvider("METRO",metroFeeds,previousNews?.providers?.METRO)
 };
 
 await fs.writeFile("news.json",JSON.stringify({
