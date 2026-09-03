@@ -1,12 +1,12 @@
 {
-  "updated": "2026-09-03T00:38:31.438Z",
+  "updated": "2026-09-03T04:40:18.615Z",
   "charts": {
     "AUDIOBOOKS": [
       {
         "title": "Dungeon Crawler Carl",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": ""
+        "image": "https://m.media-amazon.com/images/I/51HIZdnqASL._SL500_.jpg"
       },
       {
         "title": "The Murder at the Vicarage",
@@ -24,7 +24,7 @@
         "title": "Project Hail Mary",
         "author": "Andy Weir",
         "narrator": "Ray Porter",
-        "image": "https://m.media-amazon.com/images/I/51POf8gOyLL._SL500_.jpg"
+        "image": ""
       },
       {
         "title": "Carl's Doomsday Scenario",
@@ -48,7 +48,7 @@
         "title": "The Wife Upstairs",
         "author": "Freida McFadden",
         "narrator": "Angie Kane",
-        "image": "https://m.media-amazon.com/images/I/51yIohyMWYL._SL500_.jpg"
+        "image": ""
       },
       {
         "title": "The Butcher's Masquerade",
@@ -60,7 +60,7 @@
         "title": "The Wicked and the Warped",
         "author": "Robert Rath",
         "narrator": "Richard Reed",
-        "image": "https://m.media-amazon.com/images/I/51vlFnh90aL._SL500_.jpg"
+        "image": ""
       }
     ],
     "BOOKS": [

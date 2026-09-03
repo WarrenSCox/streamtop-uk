@@ -1,9 +1,17 @@
 {
-  "updated": "2026-09-03T00:38:31.389Z",
+  "updated": "2026-09-03T04:40:18.568Z",
   "providers": {
     "SKY": {
       "categories": {
         "UK": [
+          {
+            "title": "'Deeply uncomfortable' fiscal position facing UK ahead of crucial budget",
+            "link": "https://news.sky.com/story/britain-warned-its-in-deeply-uncomfortable-fiscal-position-ahead-of-challenging-budget-13580664",
+            "published": "Thu, 03 Sep 2026 00:14:00 +0100",
+            "source": "Sky News",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/08/1920x1080/skynews-andy-burnham-john-healey_7326772.jpg?20260820173917"
+          },
           {
             "title": "British woman, 34, stabbed to death in hotel corridor in Portugal",
             "link": "https://news.sky.com/story/british-woman-34-stabbed-to-death-in-hotel-corridor-in-portugal-13580496",
@@ -13,20 +21,20 @@
             "image": "https://e3.365dm.com/26/09/1920x1080/skynews-marinha-albufeira-portugal_7339142.jpg?20260902190645"
           },
           {
-            "title": "Families of Nottingham attacks victims 'kept in dark' about mentally ill man pursuing them",
-            "link": "https://news.sky.com/story/families-of-nottingham-attacks-victims-kept-in-dark-about-mentally-ill-man-pursuing-them-13580529",
-            "published": "Wed, 02 Sep 2026 21:12:00 +0100",
-            "source": "Sky News",
-            "categories": "",
-            "image": "https://e3.365dm.com/24/05/1920x1080/skynews-grace-kumar-barnaby-webber_6553532.jpg?20240514090950"
-          },
-          {
             "title": "Six police officers sacked after racism complaint in Manchester",
             "link": "https://news.sky.com/story/six-police-officers-sacked-after-racism-complaint-greater-manchester-police-says-13580487",
             "published": "Wed, 02 Sep 2026 18:21:00 +0100",
             "source": "Sky News",
             "categories": "",
             "image": "https://e3.365dm.com/26/01/1920x1080/skynews-greater-manchester_7147940.jpg?20260902183657"
+          },
+          {
+            "title": "Families of Nottingham attacks victims 'kept in dark' about mentally ill man pursuing them",
+            "link": "https://news.sky.com/story/families-of-nottingham-attacks-victims-kept-in-dark-about-mentally-ill-man-pursuing-them-13580529",
+            "published": "Wed, 02 Sep 2026 21:12:00 +0100",
+            "source": "Sky News",
+            "categories": "",
+            "image": "https://e3.365dm.com/24/05/1920x1080/skynews-grace-kumar-barnaby-webber_6553532.jpg?20240514090950"
           },
           {
             "title": "Sky News launches new Sunday morning current affairs programme",
@@ -75,14 +83,6 @@
             "source": "Sky News",
             "categories": "",
             "image": "https://e3.365dm.com/26/03/1920x1080/skynews-joey-barton-arrest_7187792.jpg?20260902153208"
-          },
-          {
-            "title": "Rise in number of children as young as six suffering mental health crisis",
-            "link": "https://news.sky.com/story/number-of-children-as-young-as-six-going-to-ae-in-mental-health-crisis-rises-new-figures-reveal-13579784",
-            "published": "Tue, 01 Sep 2026 11:42:00 +0100",
-            "source": "Sky News",
-            "categories": "",
-            "image": "https://e3.365dm.com/22/04/1920x1080/skynews-emergency-department_5731522.jpg?20260901135044"
           }
         ],
         "WORLD": [
@@ -157,17 +157,17 @@
             "source": "Sky News",
             "categories": "",
             "image": "https://e3.365dm.com/26/09/1920x1080/skynews-mark-carney-canada_7338304.jpg?20260902000119"
-          },
-          {
-            "title": "Attempted drone attack at German airport blamed on Russia",
-            "link": "https://news.sky.com/story/attempted-drone-attack-at-leipzig-airport-blamed-on-russia-german-government-says-13579937",
-            "published": "Tue, 01 Sep 2026 16:49:00 +0100",
-            "source": "Sky News",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/08/1920x1080/skynews-germany-leipzig-halle_7314592.jpg?20260805140142"
           }
         ],
         "POLITICS": [
+          {
+            "title": "'Deeply uncomfortable' fiscal position facing UK ahead of crucial budget",
+            "link": "https://news.sky.com/story/britain-warned-its-in-deeply-uncomfortable-fiscal-position-ahead-of-challenging-budget-13580664",
+            "published": "Thu, 03 Sep 2026 00:14:00 +0100",
+            "source": "Sky News",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/08/1920x1080/skynews-andy-burnham-john-healey_7326772.jpg?20260820173917"
+          },
           {
             "title": "Sadiq Khan says he's been scammed after London mayor convicted of failing to tax car",
             "link": "https://news.sky.com/story/sadiq-khan-says-hes-been-scammed-after-london-mayor-convicted-of-failing-to-tax-car-13580285",
@@ -243,6 +243,14 @@
         ],
         "BUSINESS": [
           {
+            "title": "'Deeply uncomfortable' fiscal position facing UK ahead of crucial budget",
+            "link": "https://news.sky.com/story/britain-warned-its-in-deeply-uncomfortable-fiscal-position-ahead-of-challenging-budget-13580664",
+            "published": "Thu, 03 Sep 2026 00:14:00 +0100",
+            "source": "Sky News",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/08/1920x1080/skynews-andy-burnham-john-healey_7326772.jpg?20260820173917"
+          },
+          {
             "title": "Spire Healthcare buyer squares Circle as £1bn takeover looms",
             "link": "https://news.sky.com/story/spire-healthcare-buyer-squares-circle-as-1bn-takeover-looms-13580466",
             "published": "Wed, 02 Sep 2026 17:39:00 +0100",
@@ -313,14 +321,6 @@
             "source": "Sky News",
             "categories": "",
             "image": "https://e3.365dm.com/21/03/1920x1080/skynews-liberty-steel-dalzell_5319233.jpg?20210326161804"
-          },
-          {
-            "title": "German insurer Allianz weighs £5bn takeover of AA roadside rescue giant",
-            "link": "https://news.sky.com/story/german-insurer-allianz-weighs-5bn-takeover-of-aa-roadside-rescue-giant-13578449",
-            "published": "Sat, 29 Aug 2026 09:08:00 +0100",
-            "source": "Sky News",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/08/1920x1080/skynews-aa-van_7334325.jpg?20260829092520"
           }
         ],
         "TECH": [
@@ -387,14 +387,6 @@
             "source": "Sky News",
             "categories": "",
             "image": "https://e3.365dm.com/26/08/1920x1080/skynews-meta-california_7331889.jpg?20260826144821"
-          },
-          {
-            "title": "Shingles vaccine could slash risk of stroke and heart disease, study finds",
-            "link": "https://news.sky.com/story/shingles-vaccine-could-protect-against-stroke-and-heart-disease-study-finds-13577301",
-            "published": "Wed, 26 Aug 2026 15:30:00 +0100",
-            "source": "Sky News",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/08/1920x1080/skynews-shingles-vaccine_7331662.jpg?20260826112351"
           }
         ],
         "ENTERTAINMENT": [
@@ -485,6 +477,14 @@
       "categories": {
         "UK": [
           {
+            "title": "‘Internal exclusion’ of England secondary school students almost triples in three years",
+            "link": "https://www.theguardian.com/education/2026/sep/03/proportion-of-secondary-school-students-in-england-placed-in-internal-exclusion-almost-triples-in-three-years",
+            "published": "Thu, 03 Sep 2026 04:00:44 GMT",
+            "source": "The Guardian",
+            "categories": "Education Special educational needs Children Young people Society Schools Secondary schools England UK news Department for Education",
+            "image": "https://i.guim.co.uk/img/media/5923d6f314ead2f62242d41a818927de3191b59b/514_0_3555_2844/master/3555.jpg?width=140&quality=85&auto=format&fit=max&s=60310da40979688bb9affc88746dd001"
+          },
+          {
             "title": "Private equity owns 11 of England’s 20 biggest children’s care providers, research finds",
             "link": "https://www.theguardian.com/society/2026/sep/03/private-equity-england-childrens-care-providers-profit",
             "published": "Wed, 02 Sep 2026 23:01:36 GMT",
@@ -549,20 +549,12 @@
             "image": "https://i.guim.co.uk/img/media/b406771945e45ae994506a862b98098037a277de/961_42_3347_2678/master/3347.jpg?width=140&quality=85&auto=format&fit=max&s=38787c0b119cd2369d1ef0c9ae569fe6"
           },
           {
-            "title": "Reform UK bans three journalists from its conference after critical reporting",
-            "link": "https://www.theguardian.com/politics/2026/sep/02/reform-uk-conference-journalist-ban",
-            "published": "Wed, 02 Sep 2026 17:07:14 GMT",
+            "title": "UK politics: Andy Burnham pressed on borrowing costs and spending at first PMQs – as it happened",
+            "link": "https://www.theguardian.com/politics/live/2026/sep/02/pmqs-andy-burnham-kemi-badenoch-labour-uk-politics-latest-news",
+            "published": "Wed, 02 Sep 2026 16:36:41 GMT",
             "source": "The Guardian",
-            "categories": "Reform UK Politics UK news",
-            "image": "https://i.guim.co.uk/img/media/5e388a34c0e75d4ab6e759119e9d0377631ca93f/147_0_4583_3667/master/4583.jpg?width=140&quality=85&auto=format&fit=max&s=d6a7e9d60f8862010000ccf9f0858725"
-          },
-          {
-            "title": "Farage compares standards inquiry to investigations faced by fellow ‘outsider’ Trump",
-            "link": "https://www.theguardian.com/politics/2026/sep/02/nigel-farage-compares-standards-inquiry-reform-trump",
-            "published": "Wed, 02 Sep 2026 15:24:18 GMT",
-            "source": "The Guardian",
-            "categories": "Nigel Farage Reform UK Politics Party funding House of Commons UK news",
-            "image": "https://i.guim.co.uk/img/media/878723f68912fd6cd8e89e1cd4fe23f6095268c5/964_0_4036_3230/master/4036.jpg?width=140&quality=85&auto=format&fit=max&s=cd72095e7fab8e6e437a89aedd6b820b"
+            "categories": "Politics UK news Andy Burnham PMQs Labour Kemi Badenoch House of Commons Government borrowing Tax and spending Economics Economic policy Pensions Zack Polanski Green party Byelections Scottish politics Welsh politics Wales Rhun ap Iorwerth Nigel Farage Reform UK",
+            "image": "https://i.guim.co.uk/img/media/f89dcc944b11e120270f68907c76b430c496ed95/0_0_3000_2400/master/3000.jpg?width=140&quality=85&auto=format&fit=max&s=4c48c1f90ccd3872c93d826ac7ca3c02"
           }
         ],
         "WORLD": [
@@ -1309,6 +1301,14 @@
         ],
         "TECH": [
           {
+            "title": "Games Inbox: Will there be a Trailer 3 for GTA 6?",
+            "link": "https://metro.co.uk/2026/09/03/games-inbox-will-a-trailer-3-gta-6-29522988/",
+            "published": "Thu, 03 Sep 2026 00:15:00 +0000",
+            "source": "Metro",
+            "categories": "Entertainment Gaming Games Inbox GTA 6 Mario Kart Nintendo Nintendo Switch 2 PlayStation 5 Rockstar Games Sony Tomb Raider",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310234403-fd70.jpg?quality=90&strip=all&w=646"
+          },
+          {
             "title": "The Blood Of Dawnwalker launch day interview – ‘there’s constant stress’",
             "link": "https://metro.co.uk/2026/09/03/blood-dawnwalker-launch-day-interview-theres-constant-stress-29522734/",
             "published": "Thu, 03 Sep 2026 00:00:15 +0000",
@@ -1421,6 +1421,14 @@
   "categories": {
     "UK": [
       {
+        "title": "'Deeply uncomfortable' fiscal position facing UK ahead of crucial budget",
+        "link": "https://news.sky.com/story/britain-warned-its-in-deeply-uncomfortable-fiscal-position-ahead-of-challenging-budget-13580664",
+        "published": "Thu, 03 Sep 2026 00:14:00 +0100",
+        "source": "Sky News",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/08/1920x1080/skynews-andy-burnham-john-healey_7326772.jpg?20260820173917"
+      },
+      {
         "title": "British woman, 34, stabbed to death in hotel corridor in Portugal",
         "link": "https://news.sky.com/story/british-woman-34-stabbed-to-death-in-hotel-corridor-in-portugal-13580496",
         "published": "Wed, 02 Sep 2026 18:55:00 +0100",
@@ -1429,20 +1437,20 @@
         "image": "https://e3.365dm.com/26/09/1920x1080/skynews-marinha-albufeira-portugal_7339142.jpg?20260902190645"
       },
       {
-        "title": "Families of Nottingham attacks victims 'kept in dark' about mentally ill man pursuing them",
-        "link": "https://news.sky.com/story/families-of-nottingham-attacks-victims-kept-in-dark-about-mentally-ill-man-pursuing-them-13580529",
-        "published": "Wed, 02 Sep 2026 21:12:00 +0100",
-        "source": "Sky News",
-        "categories": "",
-        "image": "https://e3.365dm.com/24/05/1920x1080/skynews-grace-kumar-barnaby-webber_6553532.jpg?20240514090950"
-      },
-      {
         "title": "Six police officers sacked after racism complaint in Manchester",
         "link": "https://news.sky.com/story/six-police-officers-sacked-after-racism-complaint-greater-manchester-police-says-13580487",
         "published": "Wed, 02 Sep 2026 18:21:00 +0100",
         "source": "Sky News",
         "categories": "",
         "image": "https://e3.365dm.com/26/01/1920x1080/skynews-greater-manchester_7147940.jpg?20260902183657"
+      },
+      {
+        "title": "Families of Nottingham attacks victims 'kept in dark' about mentally ill man pursuing them",
+        "link": "https://news.sky.com/story/families-of-nottingham-attacks-victims-kept-in-dark-about-mentally-ill-man-pursuing-them-13580529",
+        "published": "Wed, 02 Sep 2026 21:12:00 +0100",
+        "source": "Sky News",
+        "categories": "",
+        "image": "https://e3.365dm.com/24/05/1920x1080/skynews-grace-kumar-barnaby-webber_6553532.jpg?20240514090950"
       },
       {
         "title": "Sky News launches new Sunday morning current affairs programme",
@@ -1491,14 +1499,6 @@
         "source": "Sky News",
         "categories": "",
         "image": "https://e3.365dm.com/26/03/1920x1080/skynews-joey-barton-arrest_7187792.jpg?20260902153208"
-      },
-      {
-        "title": "Rise in number of children as young as six suffering mental health crisis",
-        "link": "https://news.sky.com/story/number-of-children-as-young-as-six-going-to-ae-in-mental-health-crisis-rises-new-figures-reveal-13579784",
-        "published": "Tue, 01 Sep 2026 11:42:00 +0100",
-        "source": "Sky News",
-        "categories": "",
-        "image": "https://e3.365dm.com/22/04/1920x1080/skynews-emergency-department_5731522.jpg?20260901135044"
       }
     ],
     "WORLD": [
@@ -1573,17 +1573,17 @@
         "source": "Sky News",
         "categories": "",
         "image": "https://e3.365dm.com/26/09/1920x1080/skynews-mark-carney-canada_7338304.jpg?20260902000119"
-      },
-      {
-        "title": "Attempted drone attack at German airport blamed on Russia",
-        "link": "https://news.sky.com/story/attempted-drone-attack-at-leipzig-airport-blamed-on-russia-german-government-says-13579937",
-        "published": "Tue, 01 Sep 2026 16:49:00 +0100",
-        "source": "Sky News",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/08/1920x1080/skynews-germany-leipzig-halle_7314592.jpg?20260805140142"
       }
     ],
     "POLITICS": [
+      {
+        "title": "'Deeply uncomfortable' fiscal position facing UK ahead of crucial budget",
+        "link": "https://news.sky.com/story/britain-warned-its-in-deeply-uncomfortable-fiscal-position-ahead-of-challenging-budget-13580664",
+        "published": "Thu, 03 Sep 2026 00:14:00 +0100",
+        "source": "Sky News",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/08/1920x1080/skynews-andy-burnham-john-healey_7326772.jpg?20260820173917"
+      },
       {
         "title": "Sadiq Khan says he's been scammed after London mayor convicted of failing to tax car",
         "link": "https://news.sky.com/story/sadiq-khan-says-hes-been-scammed-after-london-mayor-convicted-of-failing-to-tax-car-13580285",
@@ -1659,6 +1659,14 @@
     ],
     "BUSINESS": [
       {
+        "title": "'Deeply uncomfortable' fiscal position facing UK ahead of crucial budget",
+        "link": "https://news.sky.com/story/britain-warned-its-in-deeply-uncomfortable-fiscal-position-ahead-of-challenging-budget-13580664",
+        "published": "Thu, 03 Sep 2026 00:14:00 +0100",
+        "source": "Sky News",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/08/1920x1080/skynews-andy-burnham-john-healey_7326772.jpg?20260820173917"
+      },
+      {
         "title": "Spire Healthcare buyer squares Circle as £1bn takeover looms",
         "link": "https://news.sky.com/story/spire-healthcare-buyer-squares-circle-as-1bn-takeover-looms-13580466",
         "published": "Wed, 02 Sep 2026 17:39:00 +0100",
@@ -1729,14 +1737,6 @@
         "source": "Sky News",
         "categories": "",
         "image": "https://e3.365dm.com/21/03/1920x1080/skynews-liberty-steel-dalzell_5319233.jpg?20210326161804"
-      },
-      {
-        "title": "German insurer Allianz weighs £5bn takeover of AA roadside rescue giant",
-        "link": "https://news.sky.com/story/german-insurer-allianz-weighs-5bn-takeover-of-aa-roadside-rescue-giant-13578449",
-        "published": "Sat, 29 Aug 2026 09:08:00 +0100",
-        "source": "Sky News",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/08/1920x1080/skynews-aa-van_7334325.jpg?20260829092520"
       }
     ],
     "TECH": [
@@ -1803,14 +1803,6 @@
         "source": "Sky News",
         "categories": "",
         "image": "https://e3.365dm.com/26/08/1920x1080/skynews-meta-california_7331889.jpg?20260826144821"
-      },
-      {
-        "title": "Shingles vaccine could slash risk of stroke and heart disease, study finds",
-        "link": "https://news.sky.com/story/shingles-vaccine-could-protect-against-stroke-and-heart-disease-study-finds-13577301",
-        "published": "Wed, 26 Aug 2026 15:30:00 +0100",
-        "source": "Sky News",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/08/1920x1080/skynews-shingles-vaccine_7331662.jpg?20260826112351"
       }
     ],
     "ENTERTAINMENT": [
