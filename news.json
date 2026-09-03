@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03T19:46:13.108Z",
+  "updated": "2026-09-03T19:55:46.079Z",
   "providers": {
     "SKY": {
       "categories": {
@@ -665,6 +665,14 @@
         ],
         "POLITICS": [
           {
+            "title": "Minister tells Brits to stock up on days of supplies after ‘supersize’ El Niño warning",
+            "link": "https://www.theguardian.com/environment/2026/sep/03/angela-eagle-uk-stock-up-supplies-el-nino-warning",
+            "published": "Thu, 03 Sep 2026 19:43:15 GMT",
+            "source": "The Guardian",
+            "categories": "El Niño southern oscillation UK news Angela Eagle Environment Climate crisis Flooding Extreme weather Extreme heat Politics World news United Nations",
+            "image": "https://i.guim.co.uk/img/media/b818fee8c052b4289dcbd7bb977dd4e7766a1467/720_0_7200_5760/master/7200.jpg?width=140&quality=85&auto=format&fit=max&s=7f10f3b4c7fab1b98fe38a7605a7f64f"
+          },
+          {
             "title": "Labour condemns Reform’s plan for £100bn in cuts as ‘half-baked’ and ‘incredibly reckless’ – as it happened",
             "link": "https://www.theguardian.com/politics/live/2026/sep/03/andy-burnham-emmanuel-macron-zack-polanski-latest-news-updates",
             "published": "Thu, 03 Sep 2026 16:40:33 GMT",
@@ -711,14 +719,6 @@
             "source": "The Guardian",
             "categories": "Modern slavery Human rights Home Office Immigration and asylum Politics UK news Care workers",
             "image": "https://i.guim.co.uk/img/media/df5bd73059407de30a5c490ac54685f42e4c0c67/479_12_2905_2325/master/2905.jpg?width=140&quality=85&auto=format&fit=max&s=b784a2597b3db0f40501c6e0700582f7"
-          },
-          {
-            "title": "Sadiq Khan cleared of car tax conviction caused by ‘scam’",
-            "link": "https://www.theguardian.com/politics/2026/sep/03/sadiq-khan-cleared-of-car-tax-conviction-caused-by-scam",
-            "published": "Thu, 03 Sep 2026 11:19:07 GMT",
-            "source": "The Guardian",
-            "categories": "Sadiq Khan London DVLA Politics UK news England",
-            "image": "https://i.guim.co.uk/img/media/205b56a4e1fce5568e8e6ff7f369ea0232ddb3dc/75_70_2518_2014/master/2518.jpg?width=140&quality=85&auto=format&fit=max&s=fc17abc3e2f059e2e1a107282815227b"
           },
           {
             "title": "Unlike Keir Starmer, Andy Burnham promises us that things will get better. And we must believe they can | Polly Toynbee",
@@ -1331,17 +1331,17 @@
             "source": "Metro",
             "categories": "Entertainment Gaming Final Fantasy Games news Nintendo Switch 2 PC Games PlayStation 5 Xbox Series X",
             "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310544990-691e.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Internet introjection is the worrying phenomenon every parent should know about",
-            "link": "https://metro.co.uk/2026/09/03/internet-introjection-worrying-phenomenon-every-parent-know-29526848/",
-            "published": "Thu, 03 Sep 2026 15:14:16 +0000",
-            "source": "Metro",
-            "categories": "Families Lifestyle Children Parenting Social Media Teenager",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310543638-74c0.jpg?quality=90&strip=all&w=646"
           }
         ],
         "ENTERTAINMENT": [
+          {
+            "title": "How Stacey Solomon made her £10,000,000 net worth as she sells Pickle Cottage",
+            "link": "https://metro.co.uk/2026/09/03/stacey-solomon-made-10-000-000-net-worth-sells-pickle-cottage-29529914/",
+            "published": "Thu, 03 Sep 2026 19:50:10 +0000",
+            "source": "Metro",
+            "categories": "Entertainment Showbiz Joe Swash Stacey Solomon",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_289953250-e68e-e1788464650352.jpg?quality=90&strip=all&w=646"
+          },
           {
             "title": "Gogglebox confirms two new families and first cast member with Down’s syndrome",
             "link": "https://metro.co.uk/2026/09/03/gogglebox-confirms-two-new-families-first-cast-member-downs-syndrome-29529762/",
@@ -1413,14 +1413,6 @@
             "source": "Metro",
             "categories": "Entertainment TV Meera Syal",
             "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_308850794-2b19-e1788354079282.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Noel Gallagher teases Oasis’ return after rumours of 2027 tour",
-            "link": "https://metro.co.uk/2026/09/03/noel-gallagher-teases-oasis-return-rumours-2027-tour-29524261/",
-            "published": "Thu, 03 Sep 2026 09:31:10 +0000",
-            "source": "Metro",
-            "categories": "Entertainment Music Liam Gallagher Noel Gallagher Oasis",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/06/SEI_264225737-f769-e1788422283548.jpg?quality=90&strip=all&w=646"
           }
         ]
       }
