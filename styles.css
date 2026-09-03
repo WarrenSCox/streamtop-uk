@@ -832,3 +832,8 @@ html,body,body *{-webkit-user-select:none;user-select:none;-webkit-touch-callout
 body.watchlist-reordering{overflow-anchor:none;overscroll-behavior:none;touch-action:none}
 body.watchlist-reordering .my-list-page .chart-wrap,body.watchlist-reordering #myList,body.watchlist-reordering #myList .chart-item{touch-action:none!important}
 @media(prefers-reduced-motion:reduce){.my-list-page .chart-item{transition:none!important}.my-list-page .chart-item.hold-dragging{transform:none}}
+
+
+/* v6.2.9 — WozzaRead audiobook selector size/alignment only. */
+.read-page .read-tab[data-read-type="AUDIOBOOKS"] .read-selector-ear{width:30px!important;height:40px!important;place-self:center!important;display:block!important;overflow:visible!important;transform-origin:50% 50%!important}
+@media(max-width:560px){.read-page .read-tab[data-read-type="AUDIOBOOKS"] .read-selector-ear{width:30px!important;height:40px!important}}
