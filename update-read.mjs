@@ -119,9 +119,17 @@ async function tertiaryCover(row){
   }catch{return ''}
 }
 async function primaryCover(row,kind){
-  if(!row.url)return row.image||'';
-  try{const page=await html(row.url);return productCover(page,row.url,row.title,kind)||row.image||''}
-  catch(e){console.warn(`primary cover lookup failed for ${row.title}: ${e.message}`);return row.image||''}
+  // Only accept artwork that can be tied to the exact product title on its own page.
+  // Never fall back to the image scraped from the ranking-card HTML here: cards can
+  // bleed into the next result and are the source of cross-title cover mix-ups.
+  if(!row.url)return '';
+  try{
+    const page=await html(row.url);
+    return productCover(page,row.url,row.title,kind)||'';
+  }catch(e){
+    console.warn(`primary cover lookup failed for ${row.title}: ${e.message}`);
+    return '';
+  }
 }
 
 function booksFromHtml(src){
@@ -194,7 +202,14 @@ for(const [key,url,parser] of [['BOOKS',BOOKS_URL,booksFromHtml],['AUDIOBOOKS',A
       let image=await primaryCover(row,key);
       if(!image){
         const old=oldRows.find(x=>normText(x.title)===normText(row.title) && (row.author ? (x.author && normText(x.author)===normText(row.author)) : true));
-        image=old?.image||'';
+        const oldImage=old?.image||'';
+        // A previously cached image is only reusable when it is unique to this exact
+        // title+author pair. If the same URL is attached to another book/audiobook,
+        // treat it as contaminated and resolve a fresh verified cover instead.
+        const reusedByDifferentTitle=Boolean(oldImage&&oldRows.some(x=>
+          x!==old && x.image===oldImage && (normText(x.title)!==normText(row.title) || normText(x.author||'')!==normText(row.author||''))
+        ));
+        image=reusedByDifferentTitle?'':oldImage;
       }
       if(!image)image=await secondaryCover(row,key);
       if(!image)image=await tertiaryCover(row);
