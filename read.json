@@ -1,12 +1,12 @@
 {
-  "updated": "2026-09-03T21:50:06.301Z",
+  "updated": "2026-09-03T21:51:48.764Z",
   "charts": {
     "AUDIOBOOKS": [
       {
         "title": "Dungeon Crawler Carl",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://m.media-amazon.com/images/I/51HIZdnqASL._SL500_.jpg"
+        "image": "https://covers.openlibrary.org/b/id/15143022-L.jpg"
       },
       {
         "title": "The Murder at the Vicarage",
@@ -18,7 +18,7 @@
         "title": "The Let Them Theory",
         "author": "Mel Robbins",
         "narrator": "Mel Robbins",
-        "image": "https://m.media-amazon.com/images/I/51YOr6ua-PL._SL500_.jpg"
+        "image": "https://covers.openlibrary.org/b/id/15165806-L.jpg"
       },
       {
         "title": "Carl's Doomsday Scenario",
@@ -42,7 +42,7 @@
         "title": "The Gate of the Feral Gods",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://m.media-amazon.com/images/I/51rmyTTWPsL._SL500_.jpg"
+        "image": "https://covers.openlibrary.org/b/id/15232581-L.jpg"
       },
       {
         "title": "The Butcher's Masquerade",
@@ -54,7 +54,7 @@
         "title": "The Wicked and the Warped",
         "author": "Robert Rath",
         "narrator": "Richard Reed",
-        "image": "https://m.media-amazon.com/images/I/51vlFnh90aL._SL500_.jpg"
+        "image": "https://covers.openlibrary.org/b/id/15247665-L.jpg"
       },
       {
         "title": "The Eye of the Bedlam Bride",
@@ -123,14 +123,14 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-09-03T21:50:06.301Z",
-      "lastSuccessfulRefresh": "2026-09-03T21:50:06.301Z",
+      "checkedAt": "2026-09-03T21:51:48.764Z",
+      "lastSuccessfulRefresh": "2026-09-03T21:51:48.764Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-09-03T21:50:20.201Z",
-      "lastSuccessfulRefresh": "2026-09-03T21:50:20.201Z",
+      "checkedAt": "2026-09-03T21:51:59.983Z",
+      "lastSuccessfulRefresh": "2026-09-03T21:51:59.983Z",
       "reason": ""
     }
   }
