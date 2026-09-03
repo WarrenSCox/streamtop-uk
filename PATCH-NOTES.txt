@@ -1,10 +1,9 @@
-WozzaWatch v6.1.4 — Watchlist / Watched / Read / Tune CR pack
+WozzaWatch v6.1.5 — Audiobook Ear Icon CR
 
-- Audiobooks now use an ear control in WozzaRead and retain audiobook identity in Watchlist/Watched.
-- Watched audiobook ears join the animated Watchlist pile and fall into it when archived.
-- Watchlist swipe navigation restored alongside double-tap; cycle remains Movies > TV Shows > Books only.
-- Watched permanent-delete/bin action restored alongside Restore.
-- WozzaTune page regressed to its known-good tune.js integration; selector animations are interaction-driven without idle intervals.
-- All selector idle/4-second animations suppressed; selection/navigation triggers remain.
-- v6.1.3 Read cover fallback chain and same-line responsive stats badge retained.
-- update-rankings.yml intentionally NOT included: workflow is unchanged.
+- Focused release: audiobook ear visuals only.
+- Replaces the previous spiral-style ear with a more natural ear silhouette.
+- Unsaved audiobook: soft greyed-out/navy outline, matching the visual treatment of unsaved Watchlist eyes.
+- Saved audiobook: filled yellow ear with warm orange detail.
+- The same yellow filled ear is used in Watchlist, Watched List and the mixed Watched pile.
+- Falling-to-pile animation now carries the same yellow ear artwork.
+- No GitHub Actions workflow file is included; the workflow did not change.

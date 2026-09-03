@@ -695,7 +695,7 @@ html,body,body *{-webkit-user-select:none;user-select:none;-webkit-touch-callout
 .my-list-page .book-list-icon{width:38px;height:38px}
 @media(max-width:560px){.read-page .read-row.has-watch-toggle{grid-template-columns:38px 52px minmax(0,1fr) 39px}.read-page .read-chart-heading{gap:6px}.read-page .read-chart-heading .source-badge{font-size:7px;padding:6px 7px}}
 @media(prefers-reduced-motion:reduce){.read-tab.read-animate .book-page-flip,.read-tab.read-animate .audio-wire{animation:none!important}}
-/* v6.1.4 Watchlist/Watched/Read polish */
+/* v6.1.5 Watchlist/Watched/Read polish */
 .provider-line{display:block!important;margin-top:4px!important;line-height:1.15!important}
 .my-list-page .segmented.three-way,.watched-page .segmented.three-way{grid-template-columns:repeat(3,1fr)!important}
 .my-list-page .chart-item.drag-over{box-shadow:inset 0 3px 0 var(--brick)}
@@ -705,7 +705,7 @@ html,body,body *{-webkit-user-select:none;user-select:none;-webkit-touch-callout
 @media(min-width:700px){.read-page .read-chart-heading{grid-template-columns:minmax(0,1fr) auto!important;align-items:center!important}.read-page .read-chart-heading .source-badge{justify-self:end;margin-top:0}}
 @media(prefers-reduced-motion:reduce){.icon-toggle.wozza-tab-animate .clapper-top,.icon-toggle.wozza-tab-animate .remote-icon,.icon-toggle.wozza-tab-animate .book-list-icon{animation:none!important}}
 
-/* v6.1.4 — interaction-driven selector motion + restored Watchlist soul */
+/* v6.1.5 — interaction-driven selector motion + restored Watchlist soul */
 /* No selector icon animates on an idle timer. */
 .segmented.idle-hint-first .clapper-top,
 .segmented.idle-hint-second button[data-type="SHOW"] .remote-icon,
@@ -748,26 +748,28 @@ html,body,body *{-webkit-user-select:none;user-select:none;-webkit-touch-callout
 
 @media(prefers-reduced-motion:reduce){.read-tab.read-animate .audio-wire,.read-tab.read-animate .book-list-icon .book-page-flip,.tune-page .icon-toggle.wozza-tab-animate img{animation:none!important}}
 
-/* v6.1.4 — interaction-only selector motion (no timed/idle hints). */
+/* v6.1.5 — interaction-only selector motion (no timed/idle hints). */
 .segmented.idle-hint-first .clapper-top,
 .segmented.idle-hint-second button[data-type="SHOW"] .remote-icon,
 .tune-page .segmented.idle-hint-first button[data-type="SINGLE"] img,
 .tune-page .segmented.idle-hint-second button[data-type="ALBUM"] img{animation:none!important}
 
-/* v6.1.4 — audiobook ears: deliberately playful but visually compatible with the eye controls. */
-.audio-ear{position:relative;display:inline-block;width:29px;height:36px;border:4px solid var(--navy);border-left-width:5px;border-radius:55% 48% 58% 45%;transform:rotate(8deg);box-sizing:border-box;background:transparent}
-.audio-ear:before{content:"";position:absolute;left:6px;top:7px;width:10px;height:16px;border:3px solid var(--navy);border-left-color:transparent;border-bottom-color:transparent;border-radius:50%;transform:rotate(12deg)}
-.audio-ear-inner{position:absolute;left:9px;bottom:5px;width:7px;height:9px;border:3px solid var(--navy);border-top-color:transparent;border-radius:50%}
+/* v6.1.5 — audiobook ears: same interaction language as the eyes.
+   Empty = soft/grey navy outline; saved = warm yellow filled ear. */
+.audio-ear{display:block;width:34px;height:44px;overflow:visible;transform-origin:50% 55%;color:var(--navy)}
+.audio-ear-shell{fill:#fff;stroke:currentColor;stroke-width:4.2;stroke-linejoin:round;transition:fill .18s ease,stroke .18s ease,opacity .18s ease}
+.audio-ear-detail{fill:none;stroke:currentColor;stroke-width:3.5;stroke-linecap:round;stroke-linejoin:round;transition:stroke .18s ease,opacity .18s ease}
 .audiobook-ear-toggle{min-width:39px;display:grid;place-items:center}
-.audiobook-ear-toggle.saved .audio-ear{animation:ear-saved-pop .48s cubic-bezier(.2,.9,.25,1)}
-@keyframes ear-saved-pop{0%{transform:rotate(8deg) scale(.72)}55%{transform:rotate(-5deg) scale(1.16)}100%{transform:rotate(8deg) scale(1)}}
-.pile-ear{position:absolute;left:var(--pile-x);bottom:var(--pile-y);width:30px;height:38px;transform:rotate(var(--pile-r)) scale(var(--pile-s));transform-origin:center bottom;z-index:2}
-.pile-ear .audio-ear{width:25px;height:31px;border-width:3px}
-.pile-ear .audio-ear:before{left:5px;top:6px;width:8px;height:13px;border-width:2px}
-.pile-ear .audio-ear-inner{left:8px;bottom:4px;width:6px;height:7px;border-width:2px}
-.falling-watch-eyes.falling-ear{width:32px;height:40px}
-.falling-watch-eyes.falling-ear .audio-ear{width:29px;height:36px}
-.watched-ear-mark{width:34px;display:grid;place-items:center;opacity:.9}.watched-ear-mark .audio-ear{width:23px;height:29px;border-width:3px}.watched-ear-mark .audio-ear:before{border-width:2px;left:4px;top:5px}.watched-ear-mark .audio-ear-inner{border-width:2px;left:7px;bottom:3px}
+.audiobook-ear-toggle:not(.saved) .audio-ear{opacity:.14;filter:saturate(.58)}
+.audiobook-ear-toggle.saved .audio-ear{opacity:1;filter:none;animation:ear-saved-pop .48s cubic-bezier(.2,.9,.25,1)}
+.audiobook-ear-toggle.saved .audio-ear-shell,.pile-ear .audio-ear-shell,.falling-ear .audio-ear-shell,.watched-ear-mark .audio-ear-shell{fill:#FDD848;stroke:#F2A51A}
+.audiobook-ear-toggle.saved .audio-ear-detail,.pile-ear .audio-ear-detail,.falling-ear .audio-ear-detail,.watched-ear-mark .audio-ear-detail{stroke:#F2A51A}
+@keyframes ear-saved-pop{0%{transform:rotate(0deg) scale(.72)}55%{transform:rotate(-6deg) scale(1.16)}100%{transform:rotate(0deg) scale(1)}}
+.pile-ear{position:absolute;left:var(--pile-x);bottom:var(--pile-y);width:30px;height:40px;transform:rotate(var(--pile-r)) scale(var(--pile-s));transform-origin:center bottom;z-index:2}
+.pile-ear .audio-ear{width:27px;height:36px;opacity:1}
+.falling-watch-eyes.falling-ear{width:34px;height:44px}
+.falling-watch-eyes.falling-ear .audio-ear{width:32px;height:42px;opacity:1}
+.watched-ear-mark{width:34px;display:grid;place-items:center;opacity:1}.watched-ear-mark .audio-ear{width:27px;height:35px}
 .watched-page .watched-actions:has(.watched-ear-mark){flex-basis:116px}.watched-page .chart-item:has(.watched-ear-mark){grid-template-columns:46px 58px minmax(0,1fr) 116px}
 @media(max-width:560px){.watched-page .chart-item:has(.watched-ear-mark){grid-template-columns:38px 52px minmax(0,1fr) 108px}.watched-page .watched-actions:has(.watched-ear-mark){flex-basis:108px}}
 @media(prefers-reduced-motion:reduce){.audiobook-ear-toggle.saved .audio-ear{animation:none!important}}
