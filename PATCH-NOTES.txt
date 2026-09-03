@@ -1,3 +1,13 @@
+WozzaWatch v6.1.1 — Refresh Button Removal CR
+
+- Removed REFRESH STATS from the All Wozzas / extra menu on every page.
+- The previous button only opened GitHub Actions; it did not force a refresh from inside WozzaWatch.
+- No fake/manual refresh control remains in the app.
+- A true in-app forced refresh would require a secure server-side trigger; no GitHub token is exposed client-side.
+- All other v6.1.0 Read Polish CR features remain unchanged.
+
+Previous v6.1.0 notes follow:
+
 WozzaWatch v6.1.0 — Read Polish CR Pack
 
 DONE
