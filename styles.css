@@ -812,13 +812,8 @@ html,body,body *{-webkit-user-select:none;user-select:none;-webkit-touch-callout
 
 /* v6.2.4 — WozzaRead selector sizing/resting-state fix. */
 /* The book always rests fully open; the page only folds during the selection animation. */
-.read-book-icon .book-page-flip{opacity:1!important;transform:scaleX(1) skewY(0)!important}
-.read-tab.read-animate .read-book-icon .book-page-flip{animation:read-book-page-flip-v624 .62s cubic-bezier(.25,.75,.25,1)!important}
-@keyframes read-book-page-flip-v624{
-  0%,100%{transform:scaleX(1) skewY(0);opacity:1}
-  42%{transform:scaleX(.10) skewY(-5deg);opacity:.82}
-  55%{transform:scaleX(.10) skewY(5deg);opacity:.82}
-}
+.read-book-icon .book-page-flip{opacity:1;transform:scaleX(1) skewY(0);transform-box:fill-box;transform-origin:right center}
+.read-tab.read-animate .read-book-icon .book-page-flip{animation:wl-book-page .62s cubic-bezier(.25,.75,.25,1)!important}
 /* Keep the approved ear artwork unchanged; only scale the selector ear to match the other tab icons. */
 .read-selector-ear{width:35px!important;height:46px!important}
 @media(max-width:560px){.read-selector-ear{width:34px!important;height:44px!important}}
@@ -834,6 +829,9 @@ body.watchlist-reordering .my-list-page .chart-wrap,body.watchlist-reordering #m
 @media(prefers-reduced-motion:reduce){.my-list-page .chart-item{transition:none!important}.my-list-page .chart-item.hold-dragging{transform:none}}
 
 
-/* v6.2.9 — WozzaRead audiobook selector size/alignment only. */
-.read-page .read-tab[data-read-type="AUDIOBOOKS"] .read-selector-ear{width:30px!important;height:40px!important;place-self:center!important;display:block!important;overflow:visible!important;transform-origin:50% 50%!important}
-@media(max-width:560px){.read-page .read-tab[data-read-type="AUDIOBOOKS"] .read-selector-ear{width:30px!important;height:40px!important}}
+/* v6.2.10 — WozzaRead selector polish. */
+/* Match Watchlist exactly: same open-book asset and same page-flip keyframe. */
+.read-page .read-tab[data-read-type="BOOKS"] .read-book-icon{width:38px;height:38px}
+/* Approved ear artwork unchanged; slightly smaller and optically centred beside the book. */
+.read-page .read-tab[data-read-type="AUDIOBOOKS"] .read-selector-ear{width:27px!important;height:37px!important;place-self:center!important;display:block!important;overflow:visible!important;transform-origin:50% 50%!important}
+@media(max-width:560px){.read-page .read-tab[data-read-type="AUDIOBOOKS"] .read-selector-ear{width:27px!important;height:37px!important}}
