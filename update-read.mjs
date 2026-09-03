@@ -4,7 +4,7 @@ import crypto from 'node:crypto';
 const BOOKS_URL='https://www.lovereading.co.uk/genres/lrt10/uk-top-10-books';
 const AUDIO_URL='https://www.audible.co.uk/charts/best';
 const headers={
-  'User-Agent':'Mozilla/5.0 (compatible; WozzaRead/6.1.3; +https://github.com/)',
+  'User-Agent':'Mozilla/5.0 (compatible; WozzaRead/6.2.14; +https://github.com/)',
   'Accept':'text/html,application/xhtml+xml'
 };
 
@@ -229,21 +229,26 @@ for(const [key,url,parser] of [['BOOKS',BOOKS_URL,booksFromHtml],['AUDIOBOOKS',A
     if(rows.length!==10||rows.some(x=>!x.title)) throw Error(`expected exactly 10 ranked titles, got ${rows.length}`);
     const oldRows=previous?.charts?.[key]||[];
     rows=await Promise.all(rows.map(async row=>{
-      // Prefer a fresh title+author-verified lookup every run. Previous artwork is now
-      // the LAST resort so a historically contaminated row cannot keep poisoning itself.
+      // BOOKS use a deliberately strict cover policy: exact LoveReading product-page
+      // artwork first, then exact title+author Google Books. If neither can prove the
+      // pairing, leave the image empty so the UI uses the W fallback. Do not reuse a
+      // previous book cover and do not use generic/tertiary cover search for books.
+      // This prevents a contaminated image (for example a neighbouring chart title)
+      // from surviving or being reintroduced by a loose image source.
       let image=await primaryCover(row,key);
       if(!image)image=await secondaryCover(row,key);
-      if(!image)image=await tertiaryCover(row);
-      if(!image){
-        const old=oldRows.find(x=>
-          normText(x.title)===normText(row.title) &&
-          (!row.author||(x.author&&normText(x.author)===normText(row.author)))
-        );
-        const oldImage=old?.image||'';
-        // Different CDN URLs can still serve identical bytes. Fingerprint the actual
-        // image content before reusing an old cover and reject it if another title in
-        // the previous chart used the same artwork.
-        if(oldImage&&await oldCoverIsUnique(oldImage,old,oldRows)) image=oldImage;
+
+      if(key!=='BOOKS'){
+        if(!image)image=await tertiaryCover(row);
+        if(!image){
+          const old=oldRows.find(x=>
+            normText(x.title)===normText(row.title) &&
+            (!row.author||(x.author&&normText(x.author)===normText(row.author)))
+          );
+          const oldImage=old?.image||'';
+          // Audiobooks retain the existing conservative previous-cover fallback.
+          if(oldImage&&await oldCoverIsUnique(oldImage,old,oldRows)) image=oldImage;
+        }
       }
       return {...row,image};
     }));
