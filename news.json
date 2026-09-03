@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03T17:43:08.496Z",
+  "updated": "2026-09-03T17:48:41.242Z",
   "providers": {
     "SKY": {
       "categories": {
@@ -95,6 +95,14 @@
             "image": "https://e3.365dm.com/26/09/1920x1080/skynews-migrant-canaria-boat_7339773.jpg?20260903123231"
           },
           {
+            "title": "FIFA accuses UEFA of launching 'smear campaign' against Gianni Infantino",
+            "link": "https://news.sky.com/story/fifa-accuses-uefa-of-launching-smear-campaign-against-gianni-infantino-13580964",
+            "published": "Thu, 03 Sep 2026 18:33:00 +0100",
+            "source": "Sky News",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-infantino-fifa_7340206.jpg?20260903184707"
+          },
+          {
             "title": "Current El Nino extreme weather phenomenon will be 'exceptional', say forecasters",
             "link": "https://news.sky.com/story/forecasters-say-climate-impacting-el-nino-weather-phenomenon-to-be-exceptional-and-to-last-until-february-13580428",
             "published": "Wed, 02 Sep 2026 16:17:00 +0100",
@@ -157,14 +165,6 @@
             "source": "Sky News",
             "categories": "",
             "image": "https://e3.365dm.com/21/10/1920x1080/skynews-rex-aerial-alps-fee_5531702.jpg?20211001165610"
-          },
-          {
-            "title": "22 people killed in bus crash in Egypt",
-            "link": "https://news.sky.com/story/egypt-bus-crash-21-people-killed-in-area-popular-with-tourists-13580237",
-            "published": "Wed, 02 Sep 2026 06:56:00 +0100",
-            "source": "Sky News",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-egypt-bus-crash_7338858.jpg?20260902142019"
           }
         ],
         "POLITICS": [
@@ -997,6 +997,14 @@
       "categories": {
         "UK": [
           {
+            "title": "Police officer reveals why he shot and killed Heehaw, the baby donkey",
+            "link": "https://metro.co.uk/2026/09/03/police-officer-reveals-shot-killed-heehaw-baby-donkey-29529619/",
+            "published": "Thu, 03 Sep 2026 17:46:20 +0000",
+            "source": "Metro",
+            "categories": "News US Animals United States of America",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310566891-284e.jpg?quality=90&strip=all&w=646"
+          },
+          {
             "title": "Putin’s top nuclear general ‘shot in face by motorcycle assassin’",
             "link": "https://metro.co.uk/2026/09/03/putins-top-nuclear-general-shot-face-motorcycle-assassin-29529205/",
             "published": "Thu, 03 Sep 2026 17:39:03 +0000",
@@ -1067,14 +1075,6 @@
             "source": "Metro",
             "categories": "News US Crime News United States of America",
             "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310509570-218e.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Number of Salmonella cases linked to imported eggs rises to 528",
-            "link": "https://metro.co.uk/2026/09/03/number-salmonella-cases-linked-imported-eggs-rises-528-29527375/",
-            "published": "Thu, 03 Sep 2026 13:37:09 +0000",
-            "source": "Metro",
-            "categories": "News UK Food recalls Health Advice Health News",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310527513-df12.jpg?quality=90&strip=all&w=646"
           }
         ],
         "WORLD": [
@@ -1339,14 +1339,6 @@
             "source": "Metro",
             "categories": "Families Lifestyle Children Parenting Social Media Teenager",
             "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310543638-74c0.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "GTA 6 on PS5 gets an exclusive controller you can buy next week",
-            "link": "https://metro.co.uk/2026/09/03/gta-6-ps5-gets-exclusive-controller-can-buy-next-week-29528106/",
-            "published": "Thu, 03 Sep 2026 14:32:29 +0000",
-            "source": "Metro",
-            "categories": "Entertainment Gaming Games news GTA 6 PlayStation 5 Sony",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310538140-dea7.jpg?quality=90&strip=all&w=646"
           }
         ],
         "ENTERTAINMENT": [
@@ -1527,6 +1519,14 @@
         "image": "https://e3.365dm.com/26/09/1920x1080/skynews-migrant-canaria-boat_7339773.jpg?20260903123231"
       },
       {
+        "title": "FIFA accuses UEFA of launching 'smear campaign' against Gianni Infantino",
+        "link": "https://news.sky.com/story/fifa-accuses-uefa-of-launching-smear-campaign-against-gianni-infantino-13580964",
+        "published": "Thu, 03 Sep 2026 18:33:00 +0100",
+        "source": "Sky News",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-infantino-fifa_7340206.jpg?20260903184707"
+      },
+      {
         "title": "Current El Nino extreme weather phenomenon will be 'exceptional', say forecasters",
         "link": "https://news.sky.com/story/forecasters-say-climate-impacting-el-nino-weather-phenomenon-to-be-exceptional-and-to-last-until-february-13580428",
         "published": "Wed, 02 Sep 2026 16:17:00 +0100",
@@ -1589,14 +1589,6 @@
         "source": "Sky News",
         "categories": "",
         "image": "https://e3.365dm.com/21/10/1920x1080/skynews-rex-aerial-alps-fee_5531702.jpg?20211001165610"
-      },
-      {
-        "title": "22 people killed in bus crash in Egypt",
-        "link": "https://news.sky.com/story/egypt-bus-crash-21-people-killed-in-area-popular-with-tourists-13580237",
-        "published": "Wed, 02 Sep 2026 06:56:00 +0100",
-        "source": "Sky News",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-egypt-bus-crash_7338858.jpg?20260902142019"
       }
     ],
     "POLITICS": [
