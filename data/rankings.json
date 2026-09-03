@@ -1,6 +1,6 @@
 {
   "version": 17,
-  "generatedAt": "2026-09-03T18:10:44.024Z",
+  "generatedAt": "2026-09-03T18:15:28.714Z",
   "country": "GB",
   "strategy": "Official source first; labelled fallback when no compatible official chart is available.",
   "services": {
@@ -371,18 +371,42 @@
         },
         {
           "rank": 4,
-          "sourceRank": 13,
+          "sourceRank": 25,
+          "title": "Rebuilding",
+          "year": 2025,
+          "poster": "/poster/336820975/s166/rebuilding.webp",
+          "url": "https://www.justwatch.com/uk/movie/rebuilding",
+          "trend": "UP",
+          "trendDifference": 522,
+          "daysInTop10": null,
+          "topRank": 25
+        },
+        {
+          "rank": 5,
+          "sourceRank": 14,
           "title": "Good Boy",
           "year": 2026,
           "poster": "/poster/342837831/s166/the-good-boy-2026.webp",
           "url": "https://www.justwatch.com/uk/movie/the-good-boy-2026",
-          "trend": "UP",
-          "trendDifference": 1,
+          "trend": "STABLE",
+          "trendDifference": 0,
           "daysInTop10": 18,
           "topRank": 5
         },
         {
-          "rank": 5,
+          "rank": 6,
+          "sourceRank": 16,
+          "title": "Truth & Treason",
+          "year": 2025,
+          "poster": "/poster/340119413/s166/truth-and-treason.webp",
+          "url": "https://www.justwatch.com/uk/movie/truth-and-treason",
+          "trend": "UP",
+          "trendDifference": 5197,
+          "daysInTop10": null,
+          "topRank": 16
+        },
+        {
+          "rank": 7,
           "sourceRank": 17,
           "title": "The Rainmaker",
           "year": 1997,
@@ -394,7 +418,7 @@
           "topRank": 10
         },
         {
-          "rank": 6,
+          "rank": 8,
           "sourceRank": 20,
           "title": "Marty Supreme",
           "year": 2025,
@@ -404,30 +428,6 @@
           "trendDifference": -2,
           "daysInTop10": 44,
           "topRank": 1
-        },
-        {
-          "rank": 7,
-          "sourceRank": 24,
-          "title": "Boogie Nights",
-          "year": 1997,
-          "poster": "/poster/320954415/s166/boogie-nights.webp",
-          "url": "https://www.justwatch.com/uk/movie/boogie-nights",
-          "trend": "DOWN",
-          "trendDifference": -18,
-          "daysInTop10": 5,
-          "topRank": 4
-        },
-        {
-          "rank": 8,
-          "sourceRank": 25,
-          "title": "Rebuilding",
-          "year": 2025,
-          "poster": "/poster/336820975/s166/rebuilding.webp",
-          "url": "https://www.justwatch.com/uk/movie/rebuilding",
-          "trend": "UP",
-          "trendDifference": 522,
-          "daysInTop10": null,
-          "topRank": 25
         },
         {
           "rank": 9,
@@ -493,13 +493,13 @@
         },
         {
           "rank": 4,
-          "sourceRank": 29,
+          "sourceRank": 28,
           "title": "Ride or Die",
           "year": 2026,
           "poster": "/poster/346372629/s166/ride-or-die.webp",
           "url": "https://www.justwatch.com/uk/tv-series/ride-or-die",
           "trend": "UP",
-          "trendDifference": 19,
+          "trendDifference": 20,
           "daysInTop10": 16,
           "topRank": 1
         },
@@ -517,18 +517,6 @@
         },
         {
           "rank": 6,
-          "sourceRank": 39,
-          "title": "Sterling Point",
-          "year": 2026,
-          "poster": "/poster/347373626/s166/sterling-point.webp",
-          "url": "https://www.justwatch.com/uk/tv-series/sterling-point",
-          "trend": "UP",
-          "trendDifference": 4,
-          "daysInTop10": 9,
-          "topRank": 4
-        },
-        {
-          "rank": 7,
           "sourceRank": 40,
           "title": "Battlestar Galactica",
           "year": 2004,
@@ -540,7 +528,7 @@
           "topRank": 1
         },
         {
-          "rank": 8,
+          "rank": 7,
           "sourceRank": 41,
           "title": "The X-Files",
           "year": 1993,
@@ -552,7 +540,7 @@
           "topRank": 1
         },
         {
-          "rank": 9,
+          "rank": 8,
           "sourceRank": 42,
           "title": "Legion",
           "year": 2017,
@@ -564,16 +552,28 @@
           "topRank": 1
         },
         {
-          "rank": 10,
-          "sourceRank": 36,
+          "rank": 9,
+          "sourceRank": 46,
           "title": "Nikita",
           "year": 2010,
           "poster": "/poster/259370321/s166/nikita.webp",
           "url": "https://www.justwatch.com/uk/tv-series/nikita",
-          "trend": "UP",
-          "trendDifference": 9,
+          "trend": "DOWN",
+          "trendDifference": -1,
           "daysInTop10": null,
-          "topRank": 36
+          "topRank": 46
+        },
+        {
+          "rank": 10,
+          "sourceRank": 39,
+          "title": "Sterling Point",
+          "year": 2026,
+          "poster": "/poster/347373626/s166/sterling-point.webp",
+          "url": "https://www.justwatch.com/uk/tv-series/sterling-point",
+          "trend": "UP",
+          "trendDifference": 4,
+          "daysInTop10": 9,
+          "topRank": 4
         }
       ],
       "sources": {
@@ -625,6 +625,18 @@
         },
         {
           "rank": 3,
+          "sourceRank": 15,
+          "title": "The Rocky Horror Picture Show",
+          "year": 1975,
+          "poster": "/poster/93692846/s166/the-rocky-horror-picture-show.webp",
+          "url": "https://www.justwatch.com/uk/movie/the-rocky-horror-picture-show",
+          "trend": "UP",
+          "trendDifference": 1,
+          "daysInTop10": 6,
+          "topRank": 2
+        },
+        {
+          "rank": 4,
           "sourceRank": 10,
           "title": "Nine to Five",
           "year": 1980,
@@ -634,18 +646,6 @@
           "trendDifference": 0,
           "daysInTop10": 7,
           "topRank": 1
-        },
-        {
-          "rank": 4,
-          "sourceRank": 14,
-          "title": "The Rocky Horror Picture Show",
-          "year": 1975,
-          "poster": "/poster/93692846/s166/the-rocky-horror-picture-show.webp",
-          "url": "https://www.justwatch.com/uk/movie/the-rocky-horror-picture-show",
-          "trend": "UP",
-          "trendDifference": 2,
-          "daysInTop10": 6,
-          "topRank": 2
         },
         {
           "rank": 5,
@@ -661,13 +661,13 @@
         },
         {
           "rank": 6,
-          "sourceRank": 45,
+          "sourceRank": 44,
           "title": "Send Help",
           "year": 2026,
           "poster": "/poster/340689435/s166/send-help.webp",
           "url": "https://www.justwatch.com/uk/movie/send-help",
           "trend": "UP",
-          "trendDifference": 7,
+          "trendDifference": 8,
           "daysInTop10": 52,
           "topRank": 1
         },
@@ -771,6 +771,18 @@
         },
         {
           "rank": 5,
+          "sourceRank": 20,
+          "title": "Chad Powers",
+          "year": 2025,
+          "poster": "/poster/348265344/s166/chad-powers.webp",
+          "url": "https://www.justwatch.com/uk/tv-series/chad-powers",
+          "trend": "UP",
+          "trendDifference": 174,
+          "daysInTop10": 2,
+          "topRank": 1
+        },
+        {
+          "rank": 6,
           "sourceRank": 26,
           "title": "Modern Family",
           "year": 2009,
@@ -782,43 +794,43 @@
           "topRank": 1
         },
         {
-          "rank": 6,
-          "sourceRank": 26,
+          "rank": 7,
+          "sourceRank": 27,
           "title": "The Shards",
           "year": 2026,
           "poster": "/poster/347382936/s166/the-shards.webp",
           "url": "https://www.justwatch.com/uk/tv-series/the-shards",
           "trend": "UP",
-          "trendDifference": 29,
+          "trendDifference": 28,
           "daysInTop10": 5,
           "topRank": 3
         },
         {
-          "rank": 7,
-          "sourceRank": 28,
+          "rank": 8,
+          "sourceRank": 33,
           "title": "Taskmaster",
           "year": 2015,
           "poster": "/poster/320958136/s166/taskmaster.webp",
           "url": "https://www.justwatch.com/uk/tv-series/taskmaster",
           "trend": "UP",
-          "trendDifference": 14,
+          "trendDifference": 9,
           "daysInTop10": 117,
           "topRank": 2
         },
         {
-          "rank": 8,
-          "sourceRank": 35,
+          "rank": 9,
+          "sourceRank": 36,
           "title": "The Game",
           "year": 2025,
           "poster": "/poster/331029874/s166/catch-you-later.webp",
           "url": "https://www.justwatch.com/uk/tv-series/catch-you-later",
           "trend": "UP",
-          "trendDifference": 3,
+          "trendDifference": 2,
           "daysInTop10": null,
           "topRank": 19
         },
         {
-          "rank": 9,
+          "rank": 10,
           "sourceRank": 38,
           "title": "Law & Order: Special Victims Unit",
           "year": 1999,
@@ -828,18 +840,6 @@
           "trendDifference": 31,
           "daysInTop10": 4,
           "topRank": 7
-        },
-        {
-          "rank": 10,
-          "sourceRank": 41,
-          "title": "The X-Files",
-          "year": 1993,
-          "poster": "/poster/342097814/s166/the-x-files.webp",
-          "url": "https://www.justwatch.com/uk/tv-series/the-x-files",
-          "trend": "DOWN",
-          "trendDifference": -5,
-          "daysInTop10": 18,
-          "topRank": 1
         }
       ],
       "sources": {
@@ -1005,18 +1005,6 @@
         },
         {
           "rank": 5,
-          "title": "The Gorge",
-          "year": 2025,
-          "poster": "/poster/323605873/s166/the-gorge.webp",
-          "url": "https://tv.apple.com/gb/movie/the-gorge/umc.cmc.26o403koqo2klixc0jtqy6tmc",
-          "trend": null,
-          "trendDifference": 0,
-          "daysInTop10": null,
-          "topRank": null,
-          "detailsUrl": "https://www.justwatch.com/uk/movie/the-gorge"
-        },
-        {
-          "rank": 6,
           "title": "Step Brothers",
           "year": 2008,
           "poster": "/poster/297627242/s166/step-brothers.webp",
@@ -1026,6 +1014,18 @@
           "daysInTop10": null,
           "topRank": null,
           "detailsUrl": "https://www.justwatch.com/uk/movie/step-brothers"
+        },
+        {
+          "rank": 6,
+          "title": "The Gorge",
+          "year": 2025,
+          "poster": "/poster/323605873/s166/the-gorge.webp",
+          "url": "https://tv.apple.com/gb/movie/the-gorge/umc.cmc.26o403koqo2klixc0jtqy6tmc",
+          "trend": null,
+          "trendDifference": 0,
+          "daysInTop10": null,
+          "topRank": null,
+          "detailsUrl": "https://www.justwatch.com/uk/movie/the-gorge"
         },
         {
           "rank": 7,
@@ -1233,6 +1233,18 @@
         },
         {
           "rank": 2,
+          "sourceRank": 7,
+          "title": "Harry Potter and the Philosopher's Stone",
+          "year": 2001,
+          "poster": "/poster/320954661/s166/harry-potter-and-the-philosophers-stone.webp",
+          "url": "https://www.justwatch.com/uk/movie/harry-potter-and-the-philosophers-stone",
+          "trend": "UP",
+          "trendDifference": 6,
+          "daysInTop10": 163,
+          "topRank": 1
+        },
+        {
+          "rank": 3,
           "sourceRank": 9,
           "title": "Dune",
           "year": 2021,
@@ -1241,18 +1253,6 @@
           "trend": "STABLE",
           "trendDifference": 0,
           "daysInTop10": 346,
-          "topRank": 1
-        },
-        {
-          "rank": 3,
-          "sourceRank": 12,
-          "title": "Harry Potter and the Philosopher's Stone",
-          "year": 2001,
-          "poster": "/poster/320954661/s166/harry-potter-and-the-philosophers-stone.webp",
-          "url": "https://www.justwatch.com/uk/movie/harry-potter-and-the-philosophers-stone",
-          "trend": "UP",
-          "trendDifference": 1,
-          "daysInTop10": 163,
           "topRank": 1
         },
         {
@@ -1293,18 +1293,6 @@
         },
         {
           "rank": 7,
-          "sourceRank": 24,
-          "title": "Boogie Nights",
-          "year": 1997,
-          "poster": "/poster/320954415/s166/boogie-nights.webp",
-          "url": "https://www.justwatch.com/uk/movie/boogie-nights",
-          "trend": "DOWN",
-          "trendDifference": -18,
-          "daysInTop10": 5,
-          "topRank": 4
-        },
-        {
-          "rank": 8,
           "sourceRank": 32,
           "title": "The Matrix",
           "year": 1999,
@@ -1316,7 +1304,7 @@
           "topRank": 1
         },
         {
-          "rank": 9,
+          "rank": 8,
           "sourceRank": 40,
           "title": "Interstellar",
           "year": 2014,
@@ -1328,7 +1316,7 @@
           "topRank": 1
         },
         {
-          "rank": 10,
+          "rank": 9,
           "sourceRank": 44,
           "title": "Sinners",
           "year": 2025,
@@ -1338,6 +1326,18 @@
           "trendDifference": 16,
           "daysInTop10": 271,
           "topRank": 1
+        },
+        {
+          "rank": 10,
+          "sourceRank": 24,
+          "title": "Boogie Nights",
+          "year": 1997,
+          "poster": "/poster/320954415/s166/boogie-nights.webp",
+          "url": "https://www.justwatch.com/uk/movie/boogie-nights",
+          "trend": "DOWN",
+          "trendDifference": -18,
+          "daysInTop10": 5,
+          "topRank": 4
         }
       ],
       "tv": [
@@ -1403,13 +1403,13 @@
         },
         {
           "rank": 6,
-          "sourceRank": 31,
+          "sourceRank": 29,
           "title": "Friends",
           "year": 1994,
           "poster": "/poster/300603462/s166/friends-1994.webp",
           "url": "https://www.justwatch.com/uk/tv-series/friends-1994",
-          "trend": "DOWN",
-          "trendDifference": -2,
+          "trend": "STABLE",
+          "trendDifference": 0,
           "daysInTop10": 87,
           "topRank": 1
         },
@@ -1427,25 +1427,25 @@
         },
         {
           "rank": 8,
-          "sourceRank": 51,
+          "sourceRank": 44,
           "title": "True Detective",
           "year": 2014,
           "poster": "/poster/243933920/s166/true-detective.webp",
           "url": "https://www.justwatch.com/uk/tv-series/true-detective",
-          "trend": "STABLE",
-          "trendDifference": 0,
+          "trend": "UP",
+          "trendDifference": 7,
           "daysInTop10": 131,
           "topRank": 1
         },
         {
           "rank": 9,
-          "sourceRank": 58,
+          "sourceRank": 49,
           "title": "The Big Bang Theory",
           "year": 2007,
           "poster": "/poster/86201639/s166/the-big-bang-theory.webp",
           "url": "https://www.justwatch.com/uk/tv-series/the-big-bang-theory",
           "trend": "DOWN",
-          "trendDifference": -14,
+          "trendDifference": -5,
           "daysInTop10": 1092,
           "topRank": 1
         },
@@ -1619,15 +1619,15 @@
         },
         {
           "rank": 2,
-          "sourceRank": 390,
-          "title": "His Dark Materials",
-          "year": 2019,
-          "poster": "/poster/212065735/s166/his-dark-materials.webp",
-          "url": "https://www.justwatch.com/uk/tv-series/his-dark-materials",
-          "trend": "DOWN",
-          "trendDifference": -96,
-          "daysInTop10": 49,
-          "topRank": 2
+          "sourceRank": 349,
+          "title": "Strike",
+          "year": 2017,
+          "poster": "/poster/342846578/s166/c-b-strike.webp",
+          "url": "https://www.justwatch.com/uk/tv-series/c-b-strike",
+          "trend": "UP",
+          "trendDifference": 18,
+          "daysInTop10": 14,
+          "topRank": 3
         },
         {
           "rank": 3,
@@ -1643,18 +1643,30 @@
         },
         {
           "rank": 4,
-          "sourceRank": 466,
+          "sourceRank": 452,
           "title": "Industry",
           "year": 2020,
           "poster": "/poster/340430998/s166/industry.webp",
           "url": "https://www.justwatch.com/uk/tv-series/industry",
           "trend": "DOWN",
-          "trendDifference": -230,
+          "trendDifference": -216,
           "daysInTop10": 42,
           "topRank": 1
         },
         {
           "rank": 5,
+          "sourceRank": 517,
+          "title": "His Dark Materials",
+          "year": 2019,
+          "poster": "/poster/212065735/s166/his-dark-materials.webp",
+          "url": "https://www.justwatch.com/uk/tv-series/his-dark-materials",
+          "trend": "DOWN",
+          "trendDifference": -223,
+          "daysInTop10": 49,
+          "topRank": 2
+        },
+        {
+          "rank": 6,
           "sourceRank": 532,
           "title": "The Rapture",
           "year": 2026,
@@ -1666,7 +1678,7 @@
           "topRank": 21
         },
         {
-          "rank": 6,
+          "rank": 7,
           "sourceRank": 555,
           "title": "Merlin",
           "year": 2008,
@@ -1678,26 +1690,14 @@
           "topRank": 4
         },
         {
-          "rank": 7,
-          "sourceRank": 580,
-          "title": "Strike",
-          "year": 2017,
-          "poster": "/poster/342846578/s166/c-b-strike.webp",
-          "url": "https://www.justwatch.com/uk/tv-series/c-b-strike",
-          "trend": "DOWN",
-          "trendDifference": -213,
-          "daysInTop10": 14,
-          "topRank": 3
-        },
-        {
           "rank": 8,
-          "sourceRank": 609,
+          "sourceRank": 593,
           "title": "Bluey",
           "year": 2018,
           "poster": "/poster/85093308/s166/bluey.webp",
           "url": "https://www.justwatch.com/uk/tv-series/bluey",
           "trend": "UP",
-          "trendDifference": 17,
+          "trendDifference": 33,
           "daysInTop10": null,
           "topRank": 16
         },
@@ -1715,13 +1715,13 @@
         },
         {
           "rank": 10,
-          "sourceRank": 830,
+          "sourceRank": 850,
           "title": "The Trip",
           "year": 2010,
           "poster": "/poster/311284129/s166/the-trip.webp",
           "url": "https://www.justwatch.com/uk/tv-series/the-trip",
           "trend": "DOWN",
-          "trendDifference": -39,
+          "trendDifference": -59,
           "daysInTop10": 1,
           "topRank": 9
         }
@@ -1891,27 +1891,27 @@
         },
         {
           "rank": 3,
-          "sourceRank": 416,
-          "title": "The Sex Lives of College Girls",
-          "year": 2021,
-          "poster": "/poster/301680153/s166/the-sex-lives-of-college-girls.webp",
-          "url": "https://www.justwatch.com/uk/tv-series/the-sex-lives-of-college-girls",
-          "trend": "UP",
-          "trendDifference": 19,
-          "daysInTop10": 5,
-          "topRank": 4
-        },
-        {
-          "rank": 4,
-          "sourceRank": 365,
+          "sourceRank": 465,
           "title": "The Staircase",
           "year": 2022,
           "poster": "/poster/320936344/s166/the-staircase-0.webp",
           "url": "https://www.justwatch.com/uk/tv-series/the-staircase-0",
           "trend": "DOWN",
-          "trendDifference": -23,
+          "trendDifference": -123,
           "daysInTop10": 34,
           "topRank": 1
+        },
+        {
+          "rank": 4,
+          "sourceRank": 678,
+          "title": "The Sex Lives of College Girls",
+          "year": 2021,
+          "poster": "/poster/301680153/s166/the-sex-lives-of-college-girls.webp",
+          "url": "https://www.justwatch.com/uk/tv-series/the-sex-lives-of-college-girls",
+          "trend": "DOWN",
+          "trendDifference": -243,
+          "daysInTop10": 5,
+          "topRank": 4
         },
         {
           "rank": 5,
