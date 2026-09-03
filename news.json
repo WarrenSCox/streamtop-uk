@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03T18:50:52.861Z",
+  "updated": "2026-09-03T19:21:52.478Z",
   "providers": {
     "SKY": {
       "categories": {
@@ -251,6 +251,14 @@
         ],
         "BUSINESS": [
           {
+            "title": "London-listed Molten Ventures joins race to run Burnham-backed £1bn tech fund",
+            "link": "https://news.sky.com/story/london-listed-molten-ventures-joins-race-to-run-burnham-backed-1bn-tech-fund-13581004",
+            "published": "Thu, 03 Sep 2026 19:48:00 +0100",
+            "source": "Sky News",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-city-london_7340283.jpg?20260903195133"
+          },
+          {
             "title": "'Deeply uncomfortable' fiscal position facing UK ahead of crucial budget",
             "link": "https://news.sky.com/story/britain-warned-its-in-deeply-uncomfortable-fiscal-position-ahead-of-challenging-budget-13580664",
             "published": "Thu, 03 Sep 2026 00:14:00 +0100",
@@ -321,14 +329,6 @@
             "source": "Sky News",
             "categories": "",
             "image": "https://e3.365dm.com/26/09/1920x1080/skynews-larry-cat-downing-street_7337223.jpg?20260901092829"
-          },
-          {
-            "title": "One million people set to get £50 payments - but there's a 'real risk' of missing out",
-            "link": "https://news.sky.com/story/one-million-people-set-to-get-50-payments-but-theres-a-real-risk-of-missing-out-13580292",
-            "published": "Wed, 02 Sep 2026 10:01:00 +0100",
-            "source": "Sky News",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-hmrc-money_7338540.jpg?20260902100621"
           }
         ],
         "TECH": [
@@ -501,6 +501,22 @@
       "categories": {
         "UK": [
           {
+            "title": "Schools in England face checks to root out unhealthy lunches",
+            "link": "https://www.theguardian.com/education/2026/sep/03/schools-england-checks-to-root-out-unhealthy-lunches",
+            "published": "Thu, 03 Sep 2026 19:09:52 GMT",
+            "source": "The Guardian",
+            "categories": "Schools Food Nutrition Education England",
+            "image": "https://i.guim.co.uk/img/media/dff4d5008ad8aed3b7a26659ba8520cfaa807581/0_0_4800_3840/master/4800.jpg?width=140&quality=85&auto=format&fit=max&s=dd33ff6be0dd8ec23e8fc4e3dc811aef"
+          },
+          {
+            "title": "Higher education regulator apologises for imposing £585,000 fine on university",
+            "link": "https://www.theguardian.com/education/2026/sep/03/higher-education-regulator-ofs-university-sussex-fine",
+            "published": "Thu, 03 Sep 2026 19:01:27 GMT",
+            "source": "The Guardian",
+            "categories": "Higher education University of Sussex Office for Students Freedom of speech University administration Universities Education UK news",
+            "image": "https://i.guim.co.uk/img/media/7e3ab2775aae155ba53ed134c17618ef05f57f73/950_0_5600_4480/master/5600.jpg?width=140&quality=85&auto=format&fit=max&s=966c0acbde3391c302bed165dd152eb8"
+          },
+          {
             "title": "Hundreds gather to urge Scottish government to pause datacentre boom",
             "link": "https://www.theguardian.com/uk-news/2026/sep/03/hundreds-holyrood-pause-scotland-datacentre-boom-ai",
             "published": "Thu, 03 Sep 2026 17:48:48 GMT",
@@ -555,22 +571,6 @@
             "source": "The Guardian",
             "categories": "UK news England Manchester UK security and counter-terrorism MI5 Home Office Police",
             "image": "https://i.guim.co.uk/img/media/7a2d7ba0af4f1476b6ed17b1a5f1c46f488b0f3b/982_0_4910_3928/master/4910.jpg?width=140&quality=85&auto=format&fit=max&s=2040fbab211916c83501cea066c47b0e"
-          },
-          {
-            "title": "John Lewis to launch YouTube chatshow to improve AI search results",
-            "link": "https://www.theguardian.com/business/2026/sep/03/john-lewis-youtube-chat-show-angela-scanlon",
-            "published": "Thu, 03 Sep 2026 13:08:54 GMT",
-            "source": "The Guardian",
-            "categories": "John Lewis YouTube Social media Chatbots AI (artificial intelligence) Business Retail industry Media Digital media UK news",
-            "image": "https://i.guim.co.uk/img/media/df7a8c6ef48011c868452ac111ed2cd45186fc92/188_0_4560_3648/master/4560.jpg?width=140&quality=85&auto=format&fit=max&s=db2ec5c8ed2570eb80d647a055476dd4"
-          },
-          {
-            "title": "Teenager in Wales given detention sentence for stabbing teacher in head",
-            "link": "https://www.theguardian.com/uk-news/2026/sep/03/teenager-wales-sentenced-youth-detention-stabbing-attack-teacher",
-            "published": "Thu, 03 Sep 2026 13:01:54 GMT",
-            "source": "The Guardian",
-            "categories": "Wales Crime Knife crime Schools Education UK news",
-            "image": "https://i.guim.co.uk/img/media/84379927098124f7e2b44e48c143573726b35cc8/0_0_958_766/master/958.jpg?width=140&quality=85&auto=format&fit=max&s=1e056f3a4af90dd389e1a2abe55449fa"
           },
           {
             "title": "Kemi Badenoch condemns Reform UK’s ‘authoritarian’ press bans",
@@ -771,6 +771,14 @@
             "image": "https://i.guim.co.uk/img/media/62c6dc63a027a4bd45e7f9a84a226e5215ede54b/295_0_3405_2724/master/3405.jpg?width=140&quality=85&auto=format&fit=max&s=be88d46ae2a5e9720977204126d77f7f"
           },
           {
+            "title": "Thieves steal more than 70,000 pints’ worth of Guinness from depot in Cheshire",
+            "link": "https://www.theguardian.com/uk-news/2026/sep/03/thieves-steal-guinness-depot-cheshire-runcorn",
+            "published": "Thu, 03 Sep 2026 17:18:45 GMT",
+            "source": "The Guardian",
+            "categories": "Crime Cheshire UK news Pubs Food & drink industry Business Beer Food",
+            "image": "https://i.guim.co.uk/img/media/c6708c113391649f3e64f170e7fe8b811c9f0572/450_0_4454_3563/master/4454.jpg?width=140&quality=85&auto=format&fit=max&s=b98ebf71e0f425daba58454000287c7f"
+          },
+          {
             "title": "Teamsters union leaders support Republicans despite members endorsing Democrats",
             "link": "https://www.theguardian.com/us-news/2026/sep/02/teamsters-union-republican-endorsement",
             "published": "Wed, 02 Sep 2026 11:00:22 GMT",
@@ -809,14 +817,6 @@
             "source": "The Guardian",
             "categories": "Amazon Technology US news Law (US) E-commerce Internet Advertising Business",
             "image": "https://i.guim.co.uk/img/media/e8c0fbf690fb7de0c9bc31006a069c434114b13f/464_0_4640_3712/master/4640.jpg?width=140&quality=85&auto=format&fit=max&s=e5490f0505ce56b9ea38fe697d242dcf"
-          },
-          {
-            "title": "As US-Canada tensions flare, who’s calling the shots in Trump’s trade team?",
-            "link": "https://www.theguardian.com/us-news/2026/aug/31/trump-trade-officials-tariffs-canada",
-            "published": "Mon, 31 Aug 2026 10:00:23 GMT",
-            "source": "The Guardian",
-            "categories": "US news Canada US economy Trump tariffs Donald Trump Trump administration Business Economics Americas US politics International trade",
-            "image": "https://i.guim.co.uk/img/media/17ce014c4db5f3bebe24623ab3ea6c719481a4c8/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=806f0699d02caa1891933fd6ee5457dc"
           },
           {
             "title": "Summer box office 2026: what can we learn from the hits and misses?",
@@ -1675,6 +1675,14 @@
     ],
     "BUSINESS": [
       {
+        "title": "London-listed Molten Ventures joins race to run Burnham-backed £1bn tech fund",
+        "link": "https://news.sky.com/story/london-listed-molten-ventures-joins-race-to-run-burnham-backed-1bn-tech-fund-13581004",
+        "published": "Thu, 03 Sep 2026 19:48:00 +0100",
+        "source": "Sky News",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-city-london_7340283.jpg?20260903195133"
+      },
+      {
         "title": "'Deeply uncomfortable' fiscal position facing UK ahead of crucial budget",
         "link": "https://news.sky.com/story/britain-warned-its-in-deeply-uncomfortable-fiscal-position-ahead-of-challenging-budget-13580664",
         "published": "Thu, 03 Sep 2026 00:14:00 +0100",
@@ -1745,14 +1753,6 @@
         "source": "Sky News",
         "categories": "",
         "image": "https://e3.365dm.com/26/09/1920x1080/skynews-larry-cat-downing-street_7337223.jpg?20260901092829"
-      },
-      {
-        "title": "One million people set to get £50 payments - but there's a 'real risk' of missing out",
-        "link": "https://news.sky.com/story/one-million-people-set-to-get-50-payments-but-theres-a-real-risk-of-missing-out-13580292",
-        "published": "Wed, 02 Sep 2026 10:01:00 +0100",
-        "source": "Sky News",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-hmrc-money_7338540.jpg?20260902100621"
       }
     ],
     "TECH": [
