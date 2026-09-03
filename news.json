@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03T18:35:02.662Z",
+  "updated": "2026-09-03T18:49:43.130Z",
   "providers": {
     "SKY": {
       "categories": {
@@ -27,6 +27,14 @@
             "source": "Sky News",
             "categories": "",
             "image": "https://e3.365dm.com/26/02/1920x1080/skynews-milford-haven-school_7156678.jpg?20260207054159"
+          },
+          {
+            "title": "Thieves steal more than 70,000 pints of Guinness worth £115,000 from depot",
+            "link": "https://news.sky.com/story/thieves-steal-more-than-70000-pints-of-guinness-worth-115000-in-cheshire-13580950",
+            "published": "Thu, 03 Sep 2026 17:51:00 +0100",
+            "source": "Sky News",
+            "categories": "",
+            "image": "https://e3.365dm.com/24/02/1920x1080/skynews-guinness-diageo_6441663.jpg?20240202113101"
           },
           {
             "title": "Ex-college lecturer admits causing death of couple in drink-driving crash",
@@ -75,14 +83,6 @@
             "source": "Sky News",
             "categories": "",
             "image": "https://e3.365dm.com/26/09/1920x1080/skynews-matthew-pickard-paul-laver_7339889.jpg?20260903141122"
-          },
-          {
-            "title": "Polanski signals intention to run for Starmer's old seat",
-            "link": "https://news.sky.com/story/zack-polanski-signals-intention-to-run-for-sir-keir-starmers-old-seat-13580805",
-            "published": "Thu, 03 Sep 2026 12:43:00 +0100",
-            "source": "Sky News",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/07/1920x1080/skynews-polanski-greens_7308996.jpg?20260729034659"
           }
         ],
         "WORLD": [
@@ -521,7 +521,7 @@
             "link": "https://www.theguardian.com/uk-news/2026/sep/03/thieves-steal-guinness-depot-cheshire-runcorn",
             "published": "Thu, 03 Sep 2026 17:18:45 GMT",
             "source": "The Guardian",
-            "categories": "Cheshire UK news Crime Pubs",
+            "categories": "Crime Cheshire UK news Pubs Food & drink industry Business Beer Food",
             "image": "https://i.guim.co.uk/img/media/c6708c113391649f3e64f170e7fe8b811c9f0572/450_0_4454_3563/master/4454.jpg?width=140&quality=85&auto=format&fit=max&s=b98ebf71e0f425daba58454000287c7f"
           },
           {
@@ -997,6 +997,14 @@
       "categories": {
         "UK": [
           {
+            "title": "Hit-and-run driver who killed boy, 12, and fled UK finally jailed",
+            "link": "https://metro.co.uk/2026/09/03/hit-and-run-driver-killed-boy-12-fled-uk-finally-jailed-29529862/",
+            "published": "Thu, 03 Sep 2026 18:43:20 +0000",
+            "source": "Metro",
+            "categories": "News UK Coventry Crime News West Midlands",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310572893-394b.jpg?quality=90&strip=all&w=646"
+          },
+          {
             "title": "Police officer reveals why he shot and killed Heehaw, the baby donkey",
             "link": "https://metro.co.uk/2026/09/03/police-officer-reveals-shot-killed-heehaw-baby-donkey-29529619/",
             "published": "Thu, 03 Sep 2026 17:46:20 +0000",
@@ -1067,14 +1075,6 @@
             "source": "Metro",
             "categories": "News UK Domestic abuse Family",
             "image": "https://metro.co.uk/wp-content/uploads/2026/09/woman-abused-by-1594067-5b58.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Mum who killed 11-month-old son said it was ‘worth it’ to deny ex getting custody",
-            "link": "https://metro.co.uk/2026/09/03/mum-killed-11-month-old-son-said-worth-it-deny-ex-getting-custody-29526214/",
-            "published": "Thu, 03 Sep 2026 13:54:22 +0000",
-            "source": "Metro",
-            "categories": "News US Crime News United States of America",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310509570-218e.jpg?quality=90&strip=all&w=646"
           }
         ],
         "WORLD": [
@@ -1453,6 +1453,14 @@
         "image": "https://e3.365dm.com/26/02/1920x1080/skynews-milford-haven-school_7156678.jpg?20260207054159"
       },
       {
+        "title": "Thieves steal more than 70,000 pints of Guinness worth £115,000 from depot",
+        "link": "https://news.sky.com/story/thieves-steal-more-than-70000-pints-of-guinness-worth-115000-in-cheshire-13580950",
+        "published": "Thu, 03 Sep 2026 17:51:00 +0100",
+        "source": "Sky News",
+        "categories": "",
+        "image": "https://e3.365dm.com/24/02/1920x1080/skynews-guinness-diageo_6441663.jpg?20240202113101"
+      },
+      {
         "title": "Ex-college lecturer admits causing death of couple in drink-driving crash",
         "link": "https://news.sky.com/story/ex-fife-college-lecturer-admits-causing-death-of-couple-in-drink-driving-crash-13580765",
         "published": "Thu, 03 Sep 2026 13:13:00 +0100",
@@ -1499,14 +1507,6 @@
         "source": "Sky News",
         "categories": "",
         "image": "https://e3.365dm.com/26/09/1920x1080/skynews-matthew-pickard-paul-laver_7339889.jpg?20260903141122"
-      },
-      {
-        "title": "Polanski signals intention to run for Starmer's old seat",
-        "link": "https://news.sky.com/story/zack-polanski-signals-intention-to-run-for-sir-keir-starmers-old-seat-13580805",
-        "published": "Thu, 03 Sep 2026 12:43:00 +0100",
-        "source": "Sky News",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/07/1920x1080/skynews-polanski-greens_7308996.jpg?20260729034659"
       }
     ],
     "WORLD": [

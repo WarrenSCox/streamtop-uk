@@ -1,6 +1,6 @@
 {
   "version": 17,
-  "generatedAt": "2026-09-03T18:34:19.423Z",
+  "generatedAt": "2026-09-03T18:48:40.738Z",
   "country": "GB",
   "strategy": "Official source first; labelled fallback when no compatible official chart is available.",
   "services": {
@@ -338,7 +338,7 @@
           "sourceRank": 2,
           "title": "Project Hail Mary",
           "year": 2026,
-          "poster": "/poster/345628912/s166/project-hail-mary.webp",
+          "poster": "/poster/332594610/s166/project-hail-mary.webp",
           "url": "https://www.justwatch.com/uk/movie/project-hail-mary",
           "trend": "STABLE",
           "trendDifference": 0,
@@ -882,7 +882,7 @@
           "rank": 2,
           "title": "Welcome to the Family: The Murder of Dan Markel",
           "year": 2026,
-          "type": "SHOW",
+          "type": null,
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/01a04a2a-5023-732a-b9c6-5af93b18a409/compose?format=webp&width=386&label=top_ranked_2_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-77fa109a-7f84-4e84-8a1c-f48cee4a5671"
         },
@@ -898,7 +898,7 @@
           "rank": 4,
           "title": "Yellow Mirror",
           "year": 2026,
-          "type": null,
+          "type": "MOVIE",
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/01a020fe-1a30-77cd-a762-593482b1ed6f/compose?format=webp&width=386&label=top_ranked_4_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-b85428e1-f670-4270-96d3-4d0e186336e6"
         },
@@ -914,7 +914,7 @@
           "rank": 6,
           "title": "Sing",
           "year": 2016,
-          "type": "MOVIE",
+          "type": null,
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/019ffd08-0677-7e53-b16d-0ef9b623aa78/compose?format=webp&width=386&label=top_ranked_6_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-aa1ffc86-4858-45ba-b5ef-2498ef275495"
         },
@@ -938,7 +938,7 @@
           "rank": 9,
           "title": "Marvel Studios' Avengers: Infinity War",
           "year": 2018,
-          "type": null,
+          "type": "MOVIE",
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/433236b6-470b-461e-bfc5-e48016f077eb/compose?format=webp&width=386&label=top_ranked_9_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-9a136e06-852a-41bf-b71d-fa061cb43225"
         },
@@ -1812,7 +1812,7 @@
           "rank": 6,
           "title": "The Batman",
           "year": 2022,
-          "poster": "/poster/253599997/s166/the-batman.webp",
+          "poster": "/poster/348211605/s166/the-batman.webp",
           "url": "https://www.justwatch.com/uk/movie/the-batman",
           "trend": null,
           "trendDifference": 0,
@@ -2148,13 +2148,13 @@
         },
         {
           "rank": 3,
-          "sourceRank": 3049,
+          "sourceRank": 3054,
           "title": "Year of the Rabbit",
           "year": 2019,
           "poster": "/poster/252931225/s166/year-of-the-rabbit.webp",
           "url": "https://www.justwatch.com/uk/tv-series/year-of-the-rabbit",
           "trend": "DOWN",
-          "trendDifference": -13,
+          "trendDifference": -18,
           "daysInTop10": 2,
           "topRank": 7
         },
@@ -2373,7 +2373,7 @@
           "cadence": "weekly",
           "note": "Fresh data did not update successfully, so the last successful results are being shown.",
           "stale": true,
-          "staleAsOf": "2026-09-03T18:23:16.772Z"
+          "staleAsOf": "2026-09-03T18:34:19.423Z"
         }
       },
       "error": null,
