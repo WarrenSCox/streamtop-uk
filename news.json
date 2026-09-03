@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03T19:55:46.079Z",
+  "updated": "2026-09-03T20:30:29.269Z",
   "providers": {
     "SKY": {
       "categories": {
@@ -11,6 +11,14 @@
             "source": "Sky News",
             "categories": "",
             "image": "https://e3.365dm.com/26/08/1920x1080/skynews-andy-burnham-john-healey_7326772.jpg?20260820173917"
+          },
+          {
+            "title": "Ex-Premier League ref admits he tried not to blow whistle during matches as a 'game'",
+            "link": "https://news.sky.com/story/mike-dean-admits-he-tried-not-to-blow-whistle-during-premier-league-matches-as-a-game-13580978",
+            "published": "Thu, 03 Sep 2026 19:01:00 +0100",
+            "source": "Sky News",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-mike-dean-dean_7340241.jpg?20260903192003"
           },
           {
             "title": "Murder trial of four people charged over death of newborn baby girl set for next year",
@@ -75,14 +83,6 @@
             "source": "Sky News",
             "categories": "",
             "image": "https://e3.365dm.com/26/09/1920x1080/skynews-wildfire-portugal_7339539.jpg?20260903074634"
-          },
-          {
-            "title": "Fraudsters jailed after buying supercars and yacht in £70m tree-planting scam",
-            "link": "https://news.sky.com/story/three-fraudsters-jailed-after-buying-supercars-and-yacht-in-70m-tree-planting-scam-13580841",
-            "published": "Thu, 03 Sep 2026 13:48:00 +0100",
-            "source": "Sky News",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-matthew-pickard-paul-laver_7339889.jpg?20260903141122"
           }
         ],
         "WORLD": [
@@ -239,14 +239,6 @@
             "source": "Sky News",
             "categories": "",
             "image": "https://e3.365dm.com/26/08/1920x1080/skynews-pasaa-sam-and-anne_7332493.png?20260827102415"
-          },
-          {
-            "title": "Cleveland Police given extra £2m to tackle serious crime after deadly crash",
-            "link": "https://news.sky.com/story/cleveland-police-given-extra-2m-to-tackle-serious-crime-after-deadly-incidents-13580018",
-            "published": "Tue, 01 Sep 2026 20:11:00 +0100",
-            "source": "Sky News",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-shabana-mahmood-home-secretary_7338012.jpg?20260901204008"
           }
         ],
         "BUSINESS": [
@@ -501,6 +493,30 @@
       "categories": {
         "UK": [
           {
+            "title": "Reform officials ‘plotted to break law on foreign donations’ in undercover film",
+            "link": "https://www.theguardian.com/politics/2026/sep/03/reform-officials-plotted-to-break-law-on-foreign-donations-in-undercover-film",
+            "published": "Thu, 03 Sep 2026 19:51:22 GMT",
+            "source": "The Guardian",
+            "categories": "Reform UK Politics UK news Party funding",
+            "image": "https://i.guim.co.uk/img/media/95ce5f0575e919ec4f93ea08f2abc46efa33dda1/4_0_5394_4315/master/5394.jpg?width=140&quality=85&auto=format&fit=max&s=a52f3aebf78a160ccbd841665206849d"
+          },
+          {
+            "title": "We’re prepared to change the law to reform water industry, says Angela Eagle",
+            "link": "https://www.theguardian.com/business/2026/sep/03/were-prepared-to-change-the-law-to-reform-water-industry-says-angela-eagle",
+            "published": "Thu, 03 Sep 2026 19:49:34 GMT",
+            "source": "The Guardian",
+            "categories": "Thames Water Water industry Utilities Nationalisation Business Politics UK news",
+            "image": "https://i.guim.co.uk/img/media/05ada8d3fecfc249122a5840184f552c67c09adc/474_0_3280_2624/master/3280.jpg?width=140&quality=85&auto=format&fit=max&s=03a73a98dd0a7e2ab7d41d911e48b3cd"
+          },
+          {
+            "title": "Minister tells Brits to stock up on days of supplies after ‘supersize’ El Niño warning",
+            "link": "https://www.theguardian.com/environment/2026/sep/03/angela-eagle-uk-stock-up-supplies-el-nino-warning",
+            "published": "Thu, 03 Sep 2026 19:43:15 GMT",
+            "source": "The Guardian",
+            "categories": "El Niño southern oscillation UK news Angela Eagle Environment Climate crisis Flooding Extreme weather Extreme heat Politics World news United Nations",
+            "image": "https://i.guim.co.uk/img/media/b818fee8c052b4289dcbd7bb977dd4e7766a1467/720_0_7200_5760/master/7200.jpg?width=140&quality=85&auto=format&fit=max&s=7f10f3b4c7fab1b98fe38a7605a7f64f"
+          },
+          {
             "title": "Schools in England face checks to root out unhealthy lunches",
             "link": "https://www.theguardian.com/education/2026/sep/03/schools-england-checks-to-root-out-unhealthy-lunches",
             "published": "Thu, 03 Sep 2026 19:09:52 GMT",
@@ -549,36 +565,12 @@
             "image": "https://i.guim.co.uk/img/media/07255cfe9e7f7271a6b258b6c152fd3e3ec30a3a/430_0_7077_5662/master/7077.jpg?width=140&quality=85&auto=format&fit=max&s=ba5f1864493388a508d3b4a04a60c8b2"
           },
           {
-            "title": "Labour condemns Reform’s plan for £100bn in cuts as ‘half-baked’ and ‘incredibly reckless’ – as it happened",
-            "link": "https://www.theguardian.com/politics/live/2026/sep/03/andy-burnham-emmanuel-macron-zack-polanski-latest-news-updates",
-            "published": "Thu, 03 Sep 2026 16:40:33 GMT",
-            "source": "The Guardian",
-            "categories": "Politics UK news Andy Burnham Labour Emmanuel Macron Kemi Badenoch Conservatives Reform UK Immigration and asylum Migration Defence policy France Zack Polanski Green party London Byelections Diane Abbott Lee Anderson Robert Jenrick Government borrowing Unison Social care Children Tax and spending European Union Richard Tice Planning policy Environment Anas Sarwar Emily Thornberry",
-            "image": "https://i.guim.co.uk/img/media/c67a5bb1a72f622ad8e4c264c37285065deda1a8/535_0_6140_4912/master/6140.jpg?width=140&quality=85&auto=format&fit=max&s=24c3e5e66d7767f041f5302c5c15697f"
-          },
-          {
             "title": "Reform’s media presenter worked for Chinese state propaganda channel",
             "link": "https://www.theguardian.com/politics/2026/sep/03/reform-media-presenter-worked-chinese-state-propaganda-channel",
             "published": "Thu, 03 Sep 2026 16:30:46 GMT",
             "source": "The Guardian",
             "categories": "Reform UK Podcasting Uyghurs China Xinjiang Politics UK news World news Media Digital media",
             "image": "https://i.guim.co.uk/img/media/db55a7af7353ac1214cca0457c8a207622c791e3/267_111_3118_2494/master/3118.jpg?width=140&quality=85&auto=format&fit=max&s=b3ca959a8fa34cc06782225b5c33c1ab"
-          },
-          {
-            "title": "Manchester synagogue attack: ministers seek to block MI5 files from inquest",
-            "link": "https://www.theguardian.com/uk-news/2026/sep/03/manchester-synagogue-attack-ministers-seek-block-m15-files-inquest",
-            "published": "Thu, 03 Sep 2026 15:07:16 GMT",
-            "source": "The Guardian",
-            "categories": "UK news England Manchester UK security and counter-terrorism MI5 Home Office Police",
-            "image": "https://i.guim.co.uk/img/media/7a2d7ba0af4f1476b6ed17b1a5f1c46f488b0f3b/982_0_4910_3928/master/4910.jpg?width=140&quality=85&auto=format&fit=max&s=2040fbab211916c83501cea066c47b0e"
-          },
-          {
-            "title": "Kemi Badenoch condemns Reform UK’s ‘authoritarian’ press bans",
-            "link": "https://www.theguardian.com/politics/2026/sep/03/kemi-badenoch-farage-state-power-reform",
-            "published": "Thu, 03 Sep 2026 12:40:00 GMT",
-            "source": "The Guardian",
-            "categories": "Kemi Badenoch Conservatives Reform UK Nigel Farage Defence policy Welfare Politics UK news Tax and spending Economic policy",
-            "image": "https://i.guim.co.uk/img/media/3210431c81136f0cd59c662129ef7fe027a3e237/1039_0_6588_5270/master/6588.jpg?width=140&quality=85&auto=format&fit=max&s=ff4e10cb034b9cfb08bae57385d6e4cf"
           }
         ],
         "WORLD": [
@@ -665,6 +657,22 @@
         ],
         "POLITICS": [
           {
+            "title": "Reform officials ‘plotted to break law on foreign donations’ in undercover film",
+            "link": "https://www.theguardian.com/politics/2026/sep/03/reform-officials-plotted-to-break-law-on-foreign-donations-in-undercover-film",
+            "published": "Thu, 03 Sep 2026 19:51:22 GMT",
+            "source": "The Guardian",
+            "categories": "Reform UK Politics UK news Party funding",
+            "image": "https://i.guim.co.uk/img/media/95ce5f0575e919ec4f93ea08f2abc46efa33dda1/4_0_5394_4315/master/5394.jpg?width=140&quality=85&auto=format&fit=max&s=a52f3aebf78a160ccbd841665206849d"
+          },
+          {
+            "title": "We’re prepared to change the law to reform water industry, says Angela Eagle",
+            "link": "https://www.theguardian.com/business/2026/sep/03/were-prepared-to-change-the-law-to-reform-water-industry-says-angela-eagle",
+            "published": "Thu, 03 Sep 2026 19:49:34 GMT",
+            "source": "The Guardian",
+            "categories": "Thames Water Water industry Utilities Nationalisation Business Politics UK news",
+            "image": "https://i.guim.co.uk/img/media/05ada8d3fecfc249122a5840184f552c67c09adc/474_0_3280_2624/master/3280.jpg?width=140&quality=85&auto=format&fit=max&s=03a73a98dd0a7e2ab7d41d911e48b3cd"
+          },
+          {
             "title": "Minister tells Brits to stock up on days of supplies after ‘supersize’ El Niño warning",
             "link": "https://www.theguardian.com/environment/2026/sep/03/angela-eagle-uk-stock-up-supplies-el-nino-warning",
             "published": "Thu, 03 Sep 2026 19:43:15 GMT",
@@ -703,22 +711,6 @@
             "source": "The Guardian",
             "categories": "Reform UK Party funding Cryptocurrencies Nigel Farage Donald Trump UK news US news World news E-commerce Politics Technology Electoral Commission",
             "image": "https://i.guim.co.uk/img/media/091692f78253f08d995456a1665f7c31396b249f/1601_486_5789_4632/master/5789.jpg?width=140&quality=85&auto=format&fit=max&s=bd82236387cca07c9264bcfa12acd24d"
-          },
-          {
-            "title": "Can Zack Polanski win Keir Starmer’s old seat? – podcast",
-            "link": "https://www.theguardian.com/politics/audio/2026/sep/03/can-zack-polanski-win-keir-starmer-old-seat-holborn-st-pancras-byelection-podcast",
-            "published": "Thu, 03 Sep 2026 12:04:07 GMT",
-            "source": "The Guardian",
-            "categories": "Politics Zack Polanski Green party Reform UK Nigel Farage UK news",
-            "image": "https://i.guim.co.uk/img/media/2843c9d9eb9e2d4f8a6a881ae53dd9db0bad9642/454_128_3965_3172/master/3965.jpg?width=140&quality=85&auto=format&fit=max&s=8f08d3e33a3850499ef92fb2582b1e0e"
-          },
-          {
-            "title": "Care workers and others fleeing UK modern slavery win visa reprieve",
-            "link": "https://www.theguardian.com/world/2026/sep/03/care-workers-fleeing-uk-modern-slavery-win-visa-reprieve",
-            "published": "Thu, 03 Sep 2026 11:19:19 GMT",
-            "source": "The Guardian",
-            "categories": "Modern slavery Human rights Home Office Immigration and asylum Politics UK news Care workers",
-            "image": "https://i.guim.co.uk/img/media/df5bd73059407de30a5c490ac54685f42e4c0c67/479_12_2905_2325/master/2905.jpg?width=140&quality=85&auto=format&fit=max&s=b784a2597b3db0f40501c6e0700582f7"
           },
           {
             "title": "Unlike Keir Starmer, Andy Burnham promises us that things will get better. And we must believe they can | Polly Toynbee",
@@ -997,6 +989,14 @@
       "categories": {
         "UK": [
           {
+            "title": "Daughter helped dad weigh down and dump victim in canal",
+            "link": "https://metro.co.uk/2026/09/03/daughter-helped-dad-weigh-dump-victim-canal-29530074/",
+            "published": "Thu, 03 Sep 2026 20:13:29 +0000",
+            "source": "Metro",
+            "categories": "News UK Birmingham Crime News",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310542644-4b60-e1788466117919.jpg?quality=90&strip=all&w=646"
+          },
+          {
             "title": "Nigel Farage caught on hidden camera ‘celebrating foreign donations’ to Reform",
             "link": "https://metro.co.uk/2026/09/03/nigel-farage-caught-hidden-camera-celebrating-foreign-donations-reform-29530169/",
             "published": "Thu, 03 Sep 2026 19:34:21 +0000",
@@ -1067,14 +1067,6 @@
             "source": "Metro",
             "categories": "News UK Crime News London Sexual harassment",
             "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310343374-d64f.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Gran says her teeth ‘look like Haribos’ after buying dentures on Facebook",
-            "link": "https://metro.co.uk/2026/09/03/gran-says-teeth-look-like-haribos-buying-dentures-facebook-29527794/",
-            "published": "Thu, 03 Sep 2026 14:47:02 +0000",
-            "source": "Metro",
-            "categories": "News UK Facebook Wales",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310538889-ab78-e1788446762720.jpg?quality=90&strip=all&w=646"
           }
         ],
         "WORLD": [
@@ -1335,6 +1327,22 @@
         ],
         "ENTERTAINMENT": [
           {
+            "title": "Alanis Morissette sues tour manager over alleged plot to frame her for drug trafficking",
+            "link": "https://metro.co.uk/2026/09/03/alanis-morissette-sues-tour-manager-alleged-plot-frame-drug-trafficking-29529119/",
+            "published": "Thu, 03 Sep 2026 20:14:05 +0000",
+            "source": "Metro",
+            "categories": "Entertainment Showbiz Alanis Morissette",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_281393706-ba0c-e1788458484531.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Bucking Fastard promised us bonkers brilliance – instead it’s just relentlessly pointless",
+            "link": "https://metro.co.uk/2026/09/03/bucking-fastard-promised-us-bonkers-brilliance-instead-just-relentlessly-pointless-29530319/",
+            "published": "Thu, 03 Sep 2026 20:00:18 +0000",
+            "source": "Metro",
+            "categories": "Entertainment Film Kate Mara Rooney Mara Venice Film Festival",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310269007-2f5a.jpg?quality=90&strip=all&w=646"
+          },
+          {
             "title": "How Stacey Solomon made her £10,000,000 net worth as she sells Pickle Cottage",
             "link": "https://metro.co.uk/2026/09/03/stacey-solomon-made-10-000-000-net-worth-sells-pickle-cottage-29529914/",
             "published": "Thu, 03 Sep 2026 19:50:10 +0000",
@@ -1397,22 +1405,6 @@
             "source": "Metro",
             "categories": "Entertainment Showbiz Tess Daly Vernon Kay",
             "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310496529-0d55-e1788447643890.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Saturday Night Live UK fans are ‘screaming’ after Jeff Goldblum joins as host",
-            "link": "https://metro.co.uk/2026/09/03/saturday-night-live-uks-first-season-2-host-eccentric-hollywood-legend-29525218/",
-            "published": "Thu, 03 Sep 2026 10:01:00 +0000",
-            "source": "Metro",
-            "categories": "Entertainment TV Jeff Goldblum Saturday Night Live Sky",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_294882593-3bcf.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Dame Meera Syal: ‘My big Victoria Wood moment was nightmarish career low’",
-            "link": "https://metro.co.uk/2026/09/03/dame-meera-syal-my-big-victoria-wood-moment-nightmarish-career-low-29495992/",
-            "published": "Thu, 03 Sep 2026 10:00:00 +0000",
-            "source": "Metro",
-            "categories": "Entertainment TV Meera Syal",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_308850794-2b19-e1788354079282.jpg?quality=90&strip=all&w=646"
           }
         ]
       }
@@ -1427,6 +1419,14 @@
         "source": "Sky News",
         "categories": "",
         "image": "https://e3.365dm.com/26/08/1920x1080/skynews-andy-burnham-john-healey_7326772.jpg?20260820173917"
+      },
+      {
+        "title": "Ex-Premier League ref admits he tried not to blow whistle during matches as a 'game'",
+        "link": "https://news.sky.com/story/mike-dean-admits-he-tried-not-to-blow-whistle-during-premier-league-matches-as-a-game-13580978",
+        "published": "Thu, 03 Sep 2026 19:01:00 +0100",
+        "source": "Sky News",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-mike-dean-dean_7340241.jpg?20260903192003"
       },
       {
         "title": "Murder trial of four people charged over death of newborn baby girl set for next year",
@@ -1491,14 +1491,6 @@
         "source": "Sky News",
         "categories": "",
         "image": "https://e3.365dm.com/26/09/1920x1080/skynews-wildfire-portugal_7339539.jpg?20260903074634"
-      },
-      {
-        "title": "Fraudsters jailed after buying supercars and yacht in £70m tree-planting scam",
-        "link": "https://news.sky.com/story/three-fraudsters-jailed-after-buying-supercars-and-yacht-in-70m-tree-planting-scam-13580841",
-        "published": "Thu, 03 Sep 2026 13:48:00 +0100",
-        "source": "Sky News",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-matthew-pickard-paul-laver_7339889.jpg?20260903141122"
       }
     ],
     "WORLD": [
@@ -1655,14 +1647,6 @@
         "source": "Sky News",
         "categories": "",
         "image": "https://e3.365dm.com/26/08/1920x1080/skynews-pasaa-sam-and-anne_7332493.png?20260827102415"
-      },
-      {
-        "title": "Cleveland Police given extra £2m to tackle serious crime after deadly crash",
-        "link": "https://news.sky.com/story/cleveland-police-given-extra-2m-to-tackle-serious-crime-after-deadly-incidents-13580018",
-        "published": "Tue, 01 Sep 2026 20:11:00 +0100",
-        "source": "Sky News",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-shabana-mahmood-home-secretary_7338012.jpg?20260901204008"
       }
     ],
     "BUSINESS": [
