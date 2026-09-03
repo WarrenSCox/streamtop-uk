@@ -1,6 +1,6 @@
 {
   "version": 17,
-  "generatedAt": "2026-09-03T18:04:11.791Z",
+  "generatedAt": "2026-09-03T18:10:44.024Z",
   "country": "GB",
   "strategy": "Official source first; labelled fallback when no compatible official chart is available.",
   "services": {
@@ -431,18 +431,6 @@
         },
         {
           "rank": 9,
-          "sourceRank": 26,
-          "title": "The Matrix",
-          "year": 1999,
-          "poster": "/poster/320954513/s166/the-matrix.webp",
-          "url": "https://www.justwatch.com/uk/movie/the-matrix",
-          "trend": "UP",
-          "trendDifference": 2,
-          "daysInTop10": 38,
-          "topRank": 1
-        },
-        {
-          "rank": 10,
           "sourceRank": 27,
           "title": "The Godfather",
           "year": 1972,
@@ -452,6 +440,18 @@
           "trendDifference": 2,
           "daysInTop10": 4,
           "topRank": 6
+        },
+        {
+          "rank": 10,
+          "sourceRank": 29,
+          "title": "The Sheep Detectives",
+          "year": 2026,
+          "poster": "/poster/349989642/s166/three-bags-full-a-sheep-detective-movie.webp",
+          "url": "https://www.justwatch.com/uk/movie/three-bags-full-a-sheep-detective-movie",
+          "trend": "UP",
+          "trendDifference": 15,
+          "daysInTop10": 24,
+          "topRank": 1
         }
       ],
       "tv": [
@@ -505,30 +505,18 @@
         },
         {
           "rank": 5,
-          "sourceRank": 30,
+          "sourceRank": 32,
           "title": "Banshee",
           "year": 2013,
           "poster": "/poster/175475823/s166/banshee.webp",
           "url": "https://www.justwatch.com/uk/tv-series/banshee",
           "trend": "DOWN",
-          "trendDifference": -15,
+          "trendDifference": -17,
           "daysInTop10": 14,
           "topRank": 1
         },
         {
           "rank": 6,
-          "sourceRank": 36,
-          "title": "Nikita",
-          "year": 2010,
-          "poster": "/poster/259370321/s166/nikita.webp",
-          "url": "https://www.justwatch.com/uk/tv-series/nikita",
-          "trend": "UP",
-          "trendDifference": 9,
-          "daysInTop10": null,
-          "topRank": 36
-        },
-        {
-          "rank": 7,
           "sourceRank": 39,
           "title": "Sterling Point",
           "year": 2026,
@@ -540,7 +528,31 @@
           "topRank": 4
         },
         {
+          "rank": 7,
+          "sourceRank": 40,
+          "title": "Battlestar Galactica",
+          "year": 2004,
+          "poster": "/poster/71839228/s166/battlestar-galactica.webp",
+          "url": "https://www.justwatch.com/uk/tv-series/battlestar-galactica",
+          "trend": "DOWN",
+          "trendDifference": -8,
+          "daysInTop10": 6,
+          "topRank": 1
+        },
+        {
           "rank": 8,
+          "sourceRank": 41,
+          "title": "The X-Files",
+          "year": 1993,
+          "poster": "/poster/342097814/s166/the-x-files.webp",
+          "url": "https://www.justwatch.com/uk/tv-series/the-x-files",
+          "trend": "DOWN",
+          "trendDifference": -5,
+          "daysInTop10": 18,
+          "topRank": 1
+        },
+        {
+          "rank": 9,
           "sourceRank": 42,
           "title": "Legion",
           "year": 2017,
@@ -552,28 +564,16 @@
           "topRank": 1
         },
         {
-          "rank": 9,
-          "sourceRank": 43,
-          "title": "Battlestar Galactica",
-          "year": 2004,
-          "poster": "/poster/71839228/s166/battlestar-galactica.webp",
-          "url": "https://www.justwatch.com/uk/tv-series/battlestar-galactica",
-          "trend": "DOWN",
-          "trendDifference": -11,
-          "daysInTop10": 6,
-          "topRank": 1
-        },
-        {
           "rank": 10,
-          "sourceRank": 45,
-          "title": "The X-Files",
-          "year": 1993,
-          "poster": "/poster/342097814/s166/the-x-files.webp",
-          "url": "https://www.justwatch.com/uk/tv-series/the-x-files",
-          "trend": "DOWN",
-          "trendDifference": -9,
-          "daysInTop10": 18,
-          "topRank": 1
+          "sourceRank": 36,
+          "title": "Nikita",
+          "year": 2010,
+          "poster": "/poster/259370321/s166/nikita.webp",
+          "url": "https://www.justwatch.com/uk/tv-series/nikita",
+          "trend": "UP",
+          "trendDifference": 9,
+          "daysInTop10": null,
+          "topRank": 36
         }
       ],
       "sources": {
@@ -697,18 +697,6 @@
         },
         {
           "rank": 9,
-          "sourceRank": 78,
-          "title": "LEGO Star Wars: The Mandalorian",
-          "year": 2026,
-          "poster": "/poster/348289306/s166/lego-star-wars-the-mandalorian.webp",
-          "url": "https://www.justwatch.com/uk/movie/lego-star-wars-the-mandalorian",
-          "trend": "UP",
-          "trendDifference": 47,
-          "daysInTop10": null,
-          "topRank": 78
-        },
-        {
-          "rank": 10,
           "sourceRank": 82,
           "title": "Idiocracy",
           "year": 2006,
@@ -718,6 +706,18 @@
           "trendDifference": -14,
           "daysInTop10": 5,
           "topRank": 7
+        },
+        {
+          "rank": 10,
+          "sourceRank": 89,
+          "title": "Speed",
+          "year": 1994,
+          "poster": "/poster/305264666/s166/speed-1994.webp",
+          "url": "https://www.justwatch.com/uk/movie/speed-1994",
+          "trend": "UP",
+          "trendDifference": 76,
+          "daysInTop10": null,
+          "topRank": 16
         }
       ],
       "tv": [
@@ -759,25 +759,25 @@
         },
         {
           "rank": 4,
-          "sourceRank": 15,
+          "sourceRank": 16,
           "title": "Adults",
           "year": 2025,
           "poster": "/poster/348348273/s166/adults.webp",
           "url": "https://www.justwatch.com/uk/tv-series/adults",
           "trend": "UP",
-          "trendDifference": 3,
+          "trendDifference": 2,
           "daysInTop10": 4,
           "topRank": 8
         },
         {
           "rank": 5,
-          "sourceRank": 22,
+          "sourceRank": 26,
           "title": "Modern Family",
           "year": 2009,
           "poster": "/poster/150848985/s166/modern-family.webp",
           "url": "https://www.justwatch.com/uk/tv-series/modern-family",
-          "trend": "STABLE",
-          "trendDifference": 0,
+          "trend": "DOWN",
+          "trendDifference": -4,
           "daysInTop10": 297,
           "topRank": 1
         },
@@ -831,14 +831,14 @@
         },
         {
           "rank": 10,
-          "sourceRank": 42,
-          "title": "Legion",
-          "year": 2017,
-          "poster": "/poster/147938680/s166/legion.webp",
-          "url": "https://www.justwatch.com/uk/tv-series/legion",
-          "trend": "UP",
-          "trendDifference": 23,
-          "daysInTop10": 54,
+          "sourceRank": 41,
+          "title": "The X-Files",
+          "year": 1993,
+          "poster": "/poster/342097814/s166/the-x-files.webp",
+          "url": "https://www.justwatch.com/uk/tv-series/the-x-files",
+          "trend": "DOWN",
+          "trendDifference": -5,
+          "daysInTop10": 18,
           "topRank": 1
         }
       ],
@@ -906,7 +906,7 @@
           "rank": 5,
           "title": "LEGO Star Wars: The Mandalorian",
           "year": 2026,
-          "type": null,
+          "type": "MOVIE",
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/01a06088-3dc6-7cd3-a09d-f7747998842d/compose?format=webp&width=386&label=top_ranked_5_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-e1234eda-704c-4729-a47e-e8be088bc61f"
         },
@@ -930,7 +930,7 @@
           "rank": 8,
           "title": "The Devil Wears Prada 2",
           "year": 2026,
-          "type": null,
+          "type": "MOVIE",
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/019fac2c-f245-7bf4-bd98-9b222eda6a9c/compose?format=webp&width=386&label=top_ranked_8_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-34bc6b99-813f-4d5d-bbe7-f3099b45879b"
         },
@@ -1305,13 +1305,13 @@
         },
         {
           "rank": 8,
-          "sourceRank": 26,
+          "sourceRank": 32,
           "title": "The Matrix",
           "year": 1999,
           "poster": "/poster/320954513/s166/the-matrix.webp",
           "url": "https://www.justwatch.com/uk/movie/the-matrix",
-          "trend": "UP",
-          "trendDifference": 2,
+          "trend": "DOWN",
+          "trendDifference": -4,
           "daysInTop10": 38,
           "topRank": 1
         },
@@ -1368,6 +1368,18 @@
         {
           "rank": 3,
           "sourceRank": 19,
+          "title": "Rick and Morty",
+          "year": 2013,
+          "poster": "/poster/320955712/s166/rick-and-morty.webp",
+          "url": "https://www.justwatch.com/uk/tv-series/rick-and-morty",
+          "trend": "UP",
+          "trendDifference": 1,
+          "daysInTop10": 496,
+          "topRank": 1
+        },
+        {
+          "rank": 4,
+          "sourceRank": 19,
           "title": "Doom Patrol",
           "year": 2019,
           "poster": "/poster/109665724/s166/doom-patrol.webp",
@@ -1375,18 +1387,6 @@
           "trend": "DOWN",
           "trendDifference": -3,
           "daysInTop10": 27,
-          "topRank": 1
-        },
-        {
-          "rank": 4,
-          "sourceRank": 20,
-          "title": "Rick and Morty",
-          "year": 2013,
-          "poster": "/poster/320955712/s166/rick-and-morty.webp",
-          "url": "https://www.justwatch.com/uk/tv-series/rick-and-morty",
-          "trend": "STABLE",
-          "trendDifference": 0,
-          "daysInTop10": 496,
           "topRank": 1
         },
         {
@@ -1403,18 +1403,6 @@
         },
         {
           "rank": 6,
-          "sourceRank": 30,
-          "title": "Banshee",
-          "year": 2013,
-          "poster": "/poster/175475823/s166/banshee.webp",
-          "url": "https://www.justwatch.com/uk/tv-series/banshee",
-          "trend": "DOWN",
-          "trendDifference": -15,
-          "daysInTop10": 14,
-          "topRank": 1
-        },
-        {
-          "rank": 7,
           "sourceRank": 31,
           "title": "Friends",
           "year": 1994,
@@ -1426,40 +1414,52 @@
           "topRank": 1
         },
         {
+          "rank": 7,
+          "sourceRank": 32,
+          "title": "Banshee",
+          "year": 2013,
+          "poster": "/poster/175475823/s166/banshee.webp",
+          "url": "https://www.justwatch.com/uk/tv-series/banshee",
+          "trend": "DOWN",
+          "trendDifference": -17,
+          "daysInTop10": 14,
+          "topRank": 1
+        },
+        {
           "rank": 8,
-          "sourceRank": 44,
+          "sourceRank": 51,
           "title": "True Detective",
           "year": 2014,
           "poster": "/poster/243933920/s166/true-detective.webp",
           "url": "https://www.justwatch.com/uk/tv-series/true-detective",
-          "trend": "UP",
-          "trendDifference": 7,
+          "trend": "STABLE",
+          "trendDifference": 0,
           "daysInTop10": 131,
           "topRank": 1
         },
         {
           "rank": 9,
-          "sourceRank": 49,
+          "sourceRank": 58,
           "title": "The Big Bang Theory",
           "year": 2007,
           "poster": "/poster/86201639/s166/the-big-bang-theory.webp",
           "url": "https://www.justwatch.com/uk/tv-series/the-big-bang-theory",
           "trend": "DOWN",
-          "trendDifference": -5,
+          "trendDifference": -14,
           "daysInTop10": 1092,
           "topRank": 1
         },
         {
           "rank": 10,
-          "sourceRank": 54,
-          "title": "Game of Thrones",
-          "year": 2011,
-          "poster": "/poster/309783298/s166/game-of-thrones.webp",
-          "url": "https://www.justwatch.com/uk/tv-series/game-of-thrones",
-          "trend": "DOWN",
-          "trendDifference": -2,
-          "daysInTop10": 1384,
-          "topRank": 1
+          "sourceRank": 61,
+          "title": "Over the Garden Wall",
+          "year": 2014,
+          "poster": "/poster/320910241/s166/over-the-garden-wall.webp",
+          "url": "https://www.justwatch.com/uk/tv-series/over-the-garden-wall",
+          "trend": "UP",
+          "trendDifference": 20,
+          "daysInTop10": 3,
+          "topRank": 4
         }
       ],
       "sources": {
@@ -1607,13 +1607,13 @@
       "tv": [
         {
           "rank": 1,
-          "sourceRank": 235,
+          "sourceRank": 262,
           "title": "Peaky Blinders",
           "year": 2013,
           "poster": "/poster/265096894/s166/peaky-blinders.webp",
           "url": "https://www.justwatch.com/uk/tv-series/peaky-blinders",
           "trend": "DOWN",
-          "trendDifference": -77,
+          "trendDifference": -104,
           "daysInTop10": 53,
           "topRank": 1
         },
@@ -1631,13 +1631,13 @@
         },
         {
           "rank": 3,
-          "sourceRank": 433,
+          "sourceRank": 400,
           "title": "Naruto",
           "year": 2002,
           "poster": "/poster/350188841/s166/naruto.webp",
           "url": "https://www.justwatch.com/uk/tv-series/naruto",
           "trend": "DOWN",
-          "trendDifference": -46,
+          "trendDifference": -13,
           "daysInTop10": null,
           "topRank": 19
         },
@@ -1667,13 +1667,13 @@
         },
         {
           "rank": 6,
-          "sourceRank": 563,
+          "sourceRank": 555,
           "title": "Merlin",
           "year": 2008,
           "poster": "/poster/138973101/s166/merlin.webp",
           "url": "https://www.justwatch.com/uk/tv-series/merlin",
           "trend": "DOWN",
-          "trendDifference": -19,
+          "trendDifference": -11,
           "daysInTop10": 1,
           "topRank": 4
         },
@@ -1763,13 +1763,13 @@
         },
         {
           "rank": 2,
-          "sourceRank": 10264,
+          "sourceRank": 10265,
           "title": "Lucy Letby: Beyond Reasonable Doubt?",
           "year": 2025,
           "poster": "/poster/334070804/s166/lucy-letby-beyond-reasonable-doubt.webp",
           "url": "https://www.justwatch.com/uk/movie/lucy-letby-beyond-reasonable-doubt",
           "trend": "DOWN",
-          "trendDifference": -296,
+          "trendDifference": -297,
           "daysInTop10": null,
           "topRank": 280
         },
@@ -1867,13 +1867,13 @@
       "tv": [
         {
           "rank": 1,
-          "sourceRank": 43,
+          "sourceRank": 40,
           "title": "Battlestar Galactica",
           "year": 2004,
           "poster": "/poster/71839228/s166/battlestar-galactica.webp",
           "url": "https://www.justwatch.com/uk/tv-series/battlestar-galactica",
           "trend": "DOWN",
-          "trendDifference": -11,
+          "trendDifference": -8,
           "daysInTop10": 6,
           "topRank": 1
         },
@@ -1891,18 +1891,6 @@
         },
         {
           "rank": 3,
-          "sourceRank": 365,
-          "title": "The Staircase",
-          "year": 2022,
-          "poster": "/poster/320936344/s166/the-staircase-0.webp",
-          "url": "https://www.justwatch.com/uk/tv-series/the-staircase-0",
-          "trend": "DOWN",
-          "trendDifference": -23,
-          "daysInTop10": 34,
-          "topRank": 1
-        },
-        {
-          "rank": 4,
           "sourceRank": 416,
           "title": "The Sex Lives of College Girls",
           "year": 2021,
@@ -1912,6 +1900,18 @@
           "trendDifference": 19,
           "daysInTop10": 5,
           "topRank": 4
+        },
+        {
+          "rank": 4,
+          "sourceRank": 365,
+          "title": "The Staircase",
+          "year": 2022,
+          "poster": "/poster/320936344/s166/the-staircase-0.webp",
+          "url": "https://www.justwatch.com/uk/tv-series/the-staircase-0",
+          "trend": "DOWN",
+          "trendDifference": -23,
+          "daysInTop10": 34,
+          "topRank": 1
         },
         {
           "rank": 5,
@@ -2124,13 +2124,13 @@
       "tv": [
         {
           "rank": 1,
-          "sourceRank": 317,
+          "sourceRank": 433,
           "title": "Peep Show",
           "year": 2003,
           "poster": "/poster/302353065/s166/peep-show.webp",
           "url": "https://www.justwatch.com/uk/tv-series/peep-show",
-          "trend": "UP",
-          "trendDifference": 46,
+          "trend": "DOWN",
+          "trendDifference": -70,
           "daysInTop10": 1,
           "topRank": 7
         },
@@ -2371,13 +2371,10 @@
           "displayName": "UK Cinema Association",
           "url": "https://www.cinemauk.org.uk/the-industry/facts-and-figures/latest-uk-cinema-statistics/weekend-top-10-box-office/",
           "cadence": "weekly",
-          "note": "Fresh data did not update successfully, so the last successful results are being shown.",
-          "stale": true,
-          "staleAsOf": "2026-09-03T17:57:38.681Z"
+          "note": "Official UK weekend box-office Top 10 published by the UK Cinema Association using Comscore data."
         }
       },
-      "error": null,
-      "stale": true
+      "error": null
     },
     "uscinema": {
       "provider": "US Cinema",
