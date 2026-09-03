@@ -13,79 +13,76 @@ function earPair([x,y,r,s],i){return `<span class="pile-ear" style="--pile-x:${x
 function schedulePileLife(){clearTimeout(pileTimer);const box=$('#watchedPileEyes');if(!box||!box.children.length||matchMedia('(prefers-reduced-motion: reduce)').matches)return;pileTimer=setTimeout(()=>{const pairs=[...box.querySelectorAll('.pile-eye-pair')];if(!pairs.length)return;const pair=pairs[Math.floor(Math.random()*pairs.length)],modes=['nervous-glance','random-blink','eye-pop'],mode=modes[Math.floor(Math.random()*modes.length)];pair.classList.remove(...modes);void pair.offsetWidth;pair.classList.add(mode);setTimeout(()=>pair.classList.remove(mode),1600);schedulePileLife()},1800+Math.random()*2600)}
 function pile(){const w=watched(),p=$('#watchedPile'),box=$('#watchedPileEyes');$('#watchedPileCount').textContent=w.length;p.classList.toggle('hidden',w.length===0);if(box){const n=Math.min(EYE_POS.length,Math.max(0,w.length));box.innerHTML=EYE_POS.slice(0,n).map((pos,i)=>w[i]?.readKind==='AUDIOBOOK'?earPair(pos,i):eyePair(pos,i)).join('');schedulePileLife()}}
 function fallingEyes(from,item){const pileEl=$('#watchedPile');if(!from||!pileEl||matchMedia('(prefers-reduced-motion: reduce)').matches)return;const a=from.getBoundingClientRect(),b=pileEl.getBoundingClientRect(),fly=document.createElement('span');fly.className='falling-watch-eyes'+(item?.readKind==='AUDIOBOOK'?' falling-ear':'');fly.innerHTML=item?.readKind==='AUDIOBOOK'?'<svg class="audio-ear" viewBox="0 0 64 88" aria-hidden="true" focusable="false"><use class="audio-ear-shell" href="ear-icon.svg?v=6.2.5#ear-shell"></use><use class="audio-ear-detail" href="ear-icon.svg?v=6.2.5#ear-detail"></use></svg>':'<span class="watch-eyes"><span class="watch-eye"><span class="watch-pupil"></span></span><span class="watch-eye"><span class="watch-pupil"></span></span></span>';fly.style.left=`${a.left+a.width/2-20}px`;fly.style.top=`${a.top+a.height/2-14}px`;fly.style.setProperty('--fall-x',`${b.left+b.width/2-(a.left+a.width/2)}px`);fly.style.setProperty('--fall-y',`${b.top+42-(a.top+a.height/2)}px`);document.body.appendChild(fly);setTimeout(()=>{fly.remove();pileEl.classList.remove('pile-bump');void pileEl.offsetWidth;pileEl.classList.add('pile-bump');setTimeout(()=>pileEl.classList.remove('pile-bump'),450)},820)}
-function render(){const all=read(),r=all.filter(x=>(x.type||'MOVIE')===type),counts={MOVIE:0,SHOW:0,BOOK:0};all.forEach(x=>counts[x.type]!==undefined&&counts[x.type]++);$('#watchlistCounts').textContent=`MOVIES ${counts.MOVIE} | TV ${counts.SHOW} | BOOKS ${counts.BOOK}`;$('#chartTitle').textContent=`WATCHLIST ${type==='MOVIE'?'MOVIES':type==='SHOW'?'TV':'BOOKS'}`;$('#myList').innerHTML=r.map((x,i)=>`<li class="chart-item accent-${i%4}" draggable="true" data-id="${esc(x.id)}"><span class="rank">${String(i+1).padStart(2,'0')}</span>${x.poster?`<img class="poster" src="${esc(x.poster)}" alt="">`:`<div class="poster poster-placeholder">${type==='BOOK'?'W':''}</div>`}<span class="item-info"><span><strong class="title">${esc(x.title)}</strong><small class="list-meta provider-line">${esc(provider(x))}</small></span></span><button class="watch-toggle saved${x.readKind==='AUDIOBOOK'?' audiobook-ear-toggle':''}" data-remove="${esc(x.id)}" type="button" aria-label="Move ${esc(x.title)} to Watched">${x.readKind==='AUDIOBOOK'?'<svg class="audio-ear" viewBox="0 0 64 88" aria-hidden="true" focusable="false"><use class="audio-ear-shell" href="ear-icon.svg?v=6.2.5#ear-shell"></use><use class="audio-ear-detail" href="ear-icon.svg?v=6.2.5#ear-detail"></use></svg>':'<span class="watch-eyes" aria-hidden="true"><span class="watch-eye"><span class="watch-pupil"></span></span><span class="watch-eye"><span class="watch-pupil"></span></span></span>'}</button></li>`).join('');$('#emptyList').classList.toggle('hidden',r.length>0);pile();document.querySelectorAll('[data-remove]').forEach(b=>b.onclick=()=>{const rect=b.getBoundingClientRect(),list=read(),at=list.findIndex(x=>x.id===b.dataset.remove);if(at>=0){const [x]=list.splice(at,1);write(list);const w=watched();w.unshift({...x,watchedAt:new Date().toISOString()});writeWatched(w);render();fallingEyes({getBoundingClientRect:()=>rect},x)}});initDrag()}
+function render(){const all=read(),r=all.filter(x=>(x.type||'MOVIE')===type),counts={MOVIE:0,SHOW:0,BOOK:0};all.forEach(x=>counts[x.type]!==undefined&&counts[x.type]++);$('#watchlistCounts').textContent=`MOVIES ${counts.MOVIE} | TV ${counts.SHOW} | BOOKS ${counts.BOOK}`;$('#chartTitle').textContent=`WATCHLIST ${type==='MOVIE'?'MOVIES':type==='SHOW'?'TV':'BOOKS'}`;$('#myList').innerHTML=r.map((x,i)=>`<li class="chart-item accent-${i%4}" data-id="${esc(x.id)}"><span class="rank">${String(i+1).padStart(2,'0')}</span>${x.poster?`<img class="poster" src="${esc(x.poster)}" alt="">`:`<div class="poster poster-placeholder">${type==='BOOK'?'W':''}</div>`}<span class="item-info"><span><strong class="title">${esc(x.title)}</strong><small class="list-meta provider-line">${esc(provider(x))}</small></span></span><button class="watch-toggle saved${x.readKind==='AUDIOBOOK'?' audiobook-ear-toggle':''}" data-remove="${esc(x.id)}" type="button" aria-label="Move ${esc(x.title)} to Watched">${x.readKind==='AUDIOBOOK'?'<svg class="audio-ear" viewBox="0 0 64 88" aria-hidden="true" focusable="false"><use class="audio-ear-shell" href="ear-icon.svg?v=6.2.5#ear-shell"></use><use class="audio-ear-detail" href="ear-icon.svg?v=6.2.5#ear-detail"></use></svg>':'<span class="watch-eyes" aria-hidden="true"><span class="watch-eye"><span class="watch-pupil"></span></span><span class="watch-eye"><span class="watch-pupil"></span></span></span>'}</button></li>`).join('');$('#emptyList').classList.toggle('hidden',r.length>0);pile();document.querySelectorAll('[data-remove]').forEach(b=>b.onclick=()=>{const rect=b.getBoundingClientRect(),list=read(),at=list.findIndex(x=>x.id===b.dataset.remove);if(at>=0){const [x]=list.splice(at,1);write(list);const w=watched();w.unshift({...x,watchedAt:new Date().toISOString()});writeWatched(w);render();fallingEyes({getBoundingClientRect:()=>rect},x)}});initDrag()}
 function saveDomOrder(){const ids=[...document.querySelectorAll('#myList .chart-item')].map(x=>x.dataset.id),all=read(),map=new Map(all.filter(x=>(x.type||'MOVIE')===type).map(x=>[x.id,x])),ordered=ids.map(id=>map.get(id)).filter(Boolean);let n=0;write(all.map(x=>(x.type||'MOVIE')===type?ordered[n++]:x));render()}
 function initDrag(){
   const list=$('#myList');if(!list)return;
-  const rows=[...list.querySelectorAll('.chart-item')];
-  let drag=null,holdTimer=null,startX=0,startY=0,lastX=0,lastY=0,active=false,pointerId=null,autoScrollRaf=null;
+  let drag=null,holdTimer=null,startX=0,startY=0,lastX=0,lastY=0,activated=false,moved=false;
   const updateRanks=()=>[...list.querySelectorAll('.chart-item .rank')].forEach((el,i)=>el.textContent=String(i+1).padStart(2,'0'));
   const moveRow=(x,y)=>{
-    const over=document.elementFromPoint(x,y)?.closest?.('#myList .chart-item');
-    if(!over||over===drag)return;
-    const rect=over.getBoundingClientRect();
-    list.insertBefore(drag,y<rect.top+rect.height/2?over:over.nextSibling);
-    updateRanks();
+    if(!drag)return;
+    const others=[...list.querySelectorAll('.chart-item')].filter(row=>row!==drag);
+    const before=others.find(row=>{const r=row.getBoundingClientRect();return y<r.top+r.height/2});
+    const oldNext=drag.nextElementSibling;
+    if(before)list.insertBefore(drag,before);else list.appendChild(drag);
+    if(drag.nextElementSibling!==oldNext){updateRanks();moved=true}
   };
-  const autoScroll=()=>{
-    if(!active)return;
-    const edge=86;
-    let dy=0;
-    if(lastY<edge)dy=-Math.max(3,(edge-lastY)*.16);
-    else if(lastY>innerHeight-edge)dy=Math.max(3,(lastY-(innerHeight-edge))*.16);
-    if(dy)window.scrollBy(0,dy);
-    autoScrollRaf=requestAnimationFrame(autoScroll);
-  };
-  const begin=(li,id)=>{
-    if(!li||active)return;
-    drag=li;active=true;pointerId=id??null;
-    clearTimeout(holdTimer);holdTimer=null;
-    li.classList.add('hold-dragging');
+  const begin=()=>{
+    if(!drag||activated)return;
+    activated=true;
+    drag.classList.add('hold-dragging');
     document.body.classList.add('watchlist-reordering');
-    li.setAttribute('aria-grabbed','true');
+    drag.setAttribute('aria-grabbed','true');
     navigator.vibrate?.(18);
-    cancelAnimationFrame(autoScrollRaf);autoScrollRaf=requestAnimationFrame(autoScroll);
   };
-  const cleanup=save=>{
+  const finish=(save=true)=>{
     clearTimeout(holdTimer);holdTimer=null;
-    cancelAnimationFrame(autoScrollRaf);autoScrollRaf=null;
-    const did=active;
+    const didDrag=activated;
     if(drag){drag.classList.remove('hold-dragging');drag.removeAttribute('aria-grabbed')}
-    rows.forEach(x=>x.classList.remove('drag-over'));
     document.body.classList.remove('watchlist-reordering');
-    drag=null;active=false;pointerId=null;
-    if(save&&did)saveDomOrder();
+    drag=null;activated=false;
+    if(save&&didDrag&&moved){saveDomOrder();navigator.vibrate?.(12)}
+    moved=false;
   };
-  rows.forEach(li=>{
-    li.draggable=true;
-    li.addEventListener('contextmenu',e=>{if(active)e.preventDefault()});
-    li.addEventListener('dragstart',e=>{
-      if(e.target.closest('button,a')||e.pointerType==='touch'){e.preventDefault();return}
-      drag=li;active=true;li.classList.add('hold-dragging');document.body.classList.add('watchlist-reordering');
-      e.dataTransfer.effectAllowed='move';e.dataTransfer.setData('text/plain',li.dataset.id||'');
+
+  // Mobile: the old reliable pattern — hold still, then drag. A normal swipe/scroll
+  // before the hold threshold cancels reordering so the page still scrolls normally.
+  list.addEventListener('touchstart',e=>{
+    const row=e.target.closest('.chart-item');
+    if(!row||e.target.closest('button,a')||e.touches.length!==1)return;
+    const t=e.touches[0];
+    drag=row;startX=lastX=t.clientX;startY=lastY=t.clientY;moved=false;activated=false;
+    clearTimeout(holdTimer);holdTimer=setTimeout(begin,340);
+  },{passive:true});
+  list.addEventListener('touchmove',e=>{
+    if(!drag||e.touches.length!==1)return;
+    const t=e.touches[0];lastX=t.clientX;lastY=t.clientY;
+    if(!activated){
+      if(Math.hypot(t.clientX-startX,t.clientY-startY)>12){clearTimeout(holdTimer);holdTimer=null;drag=null}
+      return;
+    }
+    e.preventDefault();
+    moveRow(t.clientX,t.clientY);
+    const edge=72;
+    if(t.clientY<edge)window.scrollBy(0,-9);
+    else if(t.clientY>innerHeight-edge)window.scrollBy(0,9);
+  },{passive:false});
+  list.addEventListener('touchend',e=>{if(!drag)return;if(activated)e.preventDefault();finish(true)},{passive:false});
+  list.addEventListener('touchcancel',()=>finish(false),{passive:true});
+
+  // Desktop/mouse: native drag-and-drop.
+  list.querySelectorAll('.chart-item').forEach(row=>{
+    row.draggable=matchMedia('(pointer:fine)').matches;
+    row.addEventListener('dragstart',e=>{
+      if(e.target.closest('button,a')){e.preventDefault();return}
+      drag=row;activated=true;moved=false;
+      row.classList.add('hold-dragging');document.body.classList.add('watchlist-reordering');
+      e.dataTransfer.effectAllowed='move';e.dataTransfer.setData('text/plain',row.dataset.id||'');
     });
-    li.addEventListener('dragover',e=>{if(!drag||drag===li)return;e.preventDefault();lastY=e.clientY;moveRow(e.clientX,e.clientY)});
-    li.addEventListener('drop',e=>{e.preventDefault();cleanup(true)});
-    li.addEventListener('dragend',()=>cleanup(true));
-    li.addEventListener('pointerdown',e=>{
-      if(e.pointerType==='mouse'||e.target.closest('button,a')||e.button!==0)return;
-      startX=lastX=e.clientX;startY=lastY=e.clientY;pointerId=e.pointerId;
-      clearTimeout(holdTimer);
-      holdTimer=setTimeout(()=>begin(li,e.pointerId),320);
-    });
-    li.addEventListener('pointermove',e=>{
-      if(e.pointerId!==pointerId)return;
-      lastX=e.clientX;lastY=e.clientY;
-      if(!active){
-        if(Math.hypot(e.clientX-startX,e.clientY-startY)>11){clearTimeout(holdTimer);holdTimer=null;pointerId=null}
-        return;
-      }
-      e.preventDefault();
-      moveRow(e.clientX,e.clientY);
-    },{passive:false});
-    li.addEventListener('pointerup',e=>{if(e.pointerId===pointerId)cleanup(active)});
-    li.addEventListener('pointercancel',e=>{if(e.pointerId===pointerId)cleanup(false)});
   });
+  list.addEventListener('dragover',e=>{if(!drag)return;e.preventDefault();moveRow(e.clientX,e.clientY)});
+  list.addEventListener('drop',e=>{if(!drag)return;e.preventDefault();finish(true)});
+  list.addEventListener('dragend',()=>{if(drag)finish(true)});
 }
 document.querySelectorAll('.segmented button').forEach(b=>b.onclick=()=>setType(b.dataset.type));function initGestures(){
   const target=$('.chart-wrap');if(!target)return;
