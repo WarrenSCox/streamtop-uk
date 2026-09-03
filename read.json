@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03T05:43:49.267Z",
+  "updated": "2026-09-03T11:08:03.682Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -9,15 +9,15 @@
         "image": "https://m.media-amazon.com/images/I/51HIZdnqASL._SL500_.jpg"
       },
       {
-        "title": "The Murder at the Vicarage",
-        "author": "Agatha Christie",
-        "narrator": "Toni Collette , Kit Harington , Jasmine Jobson , Calam Lynch , Eliot Salt , Katy Wix , Lolly Adefope , Billy Postlethwaite , Vicki Pepperdine , Meera Syal , La Voix , Leo Reich , full cast",
-        "image": "https://m.media-amazon.com/images/I/51GzNQrzYrL._SL500_.jpg"
-      },
-      {
         "title": "The Let Them Theory",
         "author": "Mel Robbins",
         "narrator": "Mel Robbins",
+        "image": ""
+      },
+      {
+        "title": "The Murder at the Vicarage",
+        "author": "Agatha Christie",
+        "narrator": "Toni Collette , Kit Harington , Jasmine Jobson , Calam Lynch , Eliot Salt , Katy Wix , Lolly Adefope , Billy Postlethwaite , Vicki Pepperdine , Meera Syal , La Voix , Leo Reich , full cast",
         "image": ""
       },
       {
@@ -60,7 +60,7 @@
         "title": "The Eye of the Bedlam Bride",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays , Patrick Warburton , Travis Baldree , Annie Ellicott",
-        "image": "https://m.media-amazon.com/images/I/51qfZAq2J4L._SL500_.jpg"
+        "image": ""
       }
     ],
     "BOOKS": [
