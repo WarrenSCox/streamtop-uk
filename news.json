@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03T04:40:18.568Z",
+  "updated": "2026-09-03T05:43:49.219Z",
   "providers": {
     "SKY": {
       "categories": {
@@ -477,6 +477,14 @@
       "categories": {
         "UK": [
           {
+            "title": "London’s first self-driving taxis for hire hit the streets",
+            "link": "https://www.theguardian.com/technology/2026/sep/03/london-first-self-driving-taxis-for-hire-wayve-uber",
+            "published": "Thu, 03 Sep 2026 05:00:44 GMT",
+            "source": "The Guardian",
+            "categories": "Self-driving cars Uber Business TfL London Road transport Automotive industry UK news AI (artificial intelligence) Motoring Technology",
+            "image": "https://i.guim.co.uk/img/media/13ad74bbf6a847452aef3394bcc50d8b81bb7a10/2555_2007_4490_3594/master/4490.jpg?width=140&quality=85&auto=format&fit=max&s=6f7b750d67d617b3c907a7f77ad38989"
+          },
+          {
             "title": "‘Internal exclusion’ of England secondary school students almost triples in three years",
             "link": "https://www.theguardian.com/education/2026/sep/03/proportion-of-secondary-school-students-in-england-placed-in-internal-exclusion-almost-triples-in-three-years",
             "published": "Thu, 03 Sep 2026 04:00:44 GMT",
@@ -541,20 +549,12 @@
             "image": "https://i.guim.co.uk/img/media/2843c9d9eb9e2d4f8a6a881ae53dd9db0bad9642/369_162_4143_3315/master/4143.jpg?width=140&quality=85&auto=format&fit=max&s=8d08eb8a9f05a75ef0c4679389a15d12"
           },
           {
-            "title": "Sadiq Khan fined over untaxed car falsely registered in his name",
-            "link": "https://www.theguardian.com/politics/2026/sep/02/sadiq-khan-fined-fast-track-court-untaxed-car-city-hall-says-he-doesnt-own",
-            "published": "Wed, 02 Sep 2026 17:08:08 GMT",
+            "title": "Reform UK bans three journalists from its conference after critical reporting",
+            "link": "https://www.theguardian.com/politics/2026/sep/02/reform-uk-conference-journalist-ban",
+            "published": "Wed, 02 Sep 2026 17:07:14 GMT",
             "source": "The Guardian",
-            "categories": "Sadiq Khan London Low emission zones UK criminal justice Law UK news Politics Transport Transport policy DVLA",
-            "image": "https://i.guim.co.uk/img/media/b406771945e45ae994506a862b98098037a277de/961_42_3347_2678/master/3347.jpg?width=140&quality=85&auto=format&fit=max&s=38787c0b119cd2369d1ef0c9ae569fe6"
-          },
-          {
-            "title": "UK politics: Andy Burnham pressed on borrowing costs and spending at first PMQs – as it happened",
-            "link": "https://www.theguardian.com/politics/live/2026/sep/02/pmqs-andy-burnham-kemi-badenoch-labour-uk-politics-latest-news",
-            "published": "Wed, 02 Sep 2026 16:36:41 GMT",
-            "source": "The Guardian",
-            "categories": "Politics UK news Andy Burnham PMQs Labour Kemi Badenoch House of Commons Government borrowing Tax and spending Economics Economic policy Pensions Zack Polanski Green party Byelections Scottish politics Welsh politics Wales Rhun ap Iorwerth Nigel Farage Reform UK",
-            "image": "https://i.guim.co.uk/img/media/f89dcc944b11e120270f68907c76b430c496ed95/0_0_3000_2400/master/3000.jpg?width=140&quality=85&auto=format&fit=max&s=4c48c1f90ccd3872c93d826ac7ca3c02"
+            "categories": "Reform UK Politics UK news",
+            "image": "https://i.guim.co.uk/img/media/5e388a34c0e75d4ab6e759119e9d0377631ca93f/147_0_4583_3667/master/4583.jpg?width=140&quality=85&auto=format&fit=max&s=d6a7e9d60f8862010000ccf9f0858725"
           }
         ],
         "WORLD": [
@@ -861,6 +861,14 @@
             "image": "https://i.guim.co.uk/img/media/7c7128dc7679d8f7392c821f4bebc8b71431f487/1_0_4998_4000/master/4998.jpg?width=140&quality=85&auto=format&fit=max&s=5530b0382e6f45a941ab7e335b07e7b5"
           },
           {
+            "title": "London’s first self-driving taxis for hire hit the streets",
+            "link": "https://www.theguardian.com/technology/2026/sep/03/london-first-self-driving-taxis-for-hire-wayve-uber",
+            "published": "Thu, 03 Sep 2026 05:00:44 GMT",
+            "source": "The Guardian",
+            "categories": "Self-driving cars Uber Business TfL London Road transport Automotive industry UK news AI (artificial intelligence) Motoring Technology",
+            "image": "https://i.guim.co.uk/img/media/13ad74bbf6a847452aef3394bcc50d8b81bb7a10/2555_2007_4490_3594/master/4490.jpg?width=140&quality=85&auto=format&fit=max&s=6f7b750d67d617b3c907a7f77ad38989"
+          },
+          {
             "title": "Trump administration sides with OpenAI in lawsuit against New York Times",
             "link": "https://www.theguardian.com/technology/2026/sep/02/trump-new-york-times-lawsuit-ai",
             "published": "Wed, 02 Sep 2026 20:39:54 GMT",
@@ -875,14 +883,6 @@
             "source": "The Guardian",
             "categories": "Google Technology Alphabet Law (US) AI (artificial intelligence) Advertising",
             "image": "https://i.guim.co.uk/img/media/d9626a0a79a75b81819b461da606062afd9d0125/283_0_3017_2415/master/3017.jpg?width=140&quality=85&auto=format&fit=max&s=1026a9a7d9f5dd046d2e634c233d3b5d"
-          },
-          {
-            "title": "Uber drivers launch European class action over ‘soulless’ and ‘scary’ AI algorithm",
-            "link": "https://www.theguardian.com/technology/2026/sep/02/uber-drivers-europe-legal-action-ai-algorithm",
-            "published": "Wed, 02 Sep 2026 15:37:26 GMT",
-            "source": "The Guardian",
-            "categories": "Uber AI (artificial intelligence) Transport Gig economy Europe Netherlands GDPR UK news Pay Employment law Law Business",
-            "image": "https://i.guim.co.uk/img/media/af1a826c308241d71b41b55c9dd6d67cedc8041f/560_0_5600_4480/master/5600.jpg?width=140&quality=85&auto=format&fit=max&s=d23cd7fbd9c09e9b25577395465cbb1d"
           }
         ],
         "ENTERTAINMENT": [
@@ -973,6 +973,14 @@
       "categories": {
         "UK": [
           {
+            "title": "Two dead after mass shooting in Minneapolis apartment building",
+            "link": "https://metro.co.uk/2026/09/03/two-dead-mass-shooting-minneapolis-apartment-building-29523757/",
+            "published": "Thu, 03 Sep 2026 05:32:02 +0000",
+            "source": "Metro",
+            "categories": "News US Minneapolis",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310452466-ed21.jpg?quality=90&strip=all&w=646"
+          },
+          {
             "title": "‘Selfless’ teenage passenger killed after car smashes into tree",
             "link": "https://metro.co.uk/2026/09/02/selfless-teenage-passenger-killed-car-smashes-tree-29522227/",
             "published": "Wed, 02 Sep 2026 21:32:26 +0000",
@@ -1043,14 +1051,6 @@
             "source": "Metro",
             "categories": "News UK Crime News London Sexual harassment This is Not Right",
             "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310343151-570b-e1788347436492.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "‘I investigated the seedy world of online upskirting – what I saw should worry Londoners’",
-            "link": "https://metro.co.uk/2026/09/02/i-investigated-seedy-world-online-upskirting-saw-worry-londoners-29518134/",
-            "published": "Wed, 02 Sep 2026 16:00:00 +0000",
-            "source": "Metro",
-            "categories": "News UK Crime News London Sexual harassment",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310377242-417c.jpg?quality=90&strip=all&w=646"
           }
         ],
         "WORLD": [
@@ -1119,20 +1119,20 @@
             "image": "https://metro.co.uk/wp-content/uploads/2026/08/SEI_310137957-0a44.jpg?quality=90&strip=all&w=646"
           },
           {
+            "title": "The 5 Greek islands that are best for solo travellers",
+            "link": "https://metro.co.uk/2026/09/03/5-greek-islands-best-solo-travellers-29484586/",
+            "published": "Thu, 03 Sep 2026 05:00:00 +0000",
+            "source": "Metro",
+            "categories": "Lifestyle Travel Beach Destinations Europe Travel Greece Travel Inspiration",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/08/SEI_253651185-22d3.jpg?quality=90&strip=all&w=646"
+          },
+          {
             "title": "Premier League transfer spending spree has made a dog’s dinner of Europe’s old elite",
             "link": "https://metro.co.uk/2026/09/02/premier-league-transfer-spending-spree-made-a-dogs-dinner-europes-old-elite-29521340/",
             "published": "Wed, 02 Sep 2026 21:30:00 +0000",
             "source": "Metro",
             "categories": "Football Sport Arsenal Aston Villa Chelsea FC Liverpool FC Manchester City FC Manchester United Premier League Tottenham Hotspur Transfer News and Rumours",
             "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310302191-4e57.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Donald Trump says he’s ‘happy’ Harry and Meghan left the US",
-            "link": "https://metro.co.uk/2026/09/02/donald-trump-says-happy-harry-meghan-left-us-29521612/",
-            "published": "Wed, 02 Sep 2026 20:06:46 +0000",
-            "source": "Metro",
-            "categories": "News US Donald Trump Meghan Markle Duchess of Sussex Prince Harry United States of America",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310419952-164b.jpg?quality=90&strip=all&w=646"
           }
         ],
         "POLITICS": [
@@ -1335,6 +1335,14 @@
         ],
         "ENTERTAINMENT": [
           {
+            "title": "Olivia Attwood praises Pete Wicks as romance heats up: ‘He’s everything I knew he was’",
+            "link": "https://metro.co.uk/2026/09/03/olivia-attwood-pete-wicks-romance-heats-hes-everything-knew-was-29518218/",
+            "published": "Thu, 03 Sep 2026 05:00:00 +0000",
+            "source": "Metro",
+            "categories": "Entertainment Showbiz Exclusive Olivia Attwood Pete Wicks",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI309588304-c004.jpg?quality=90&strip=all&w=646"
+          },
+          {
             "title": "Jack O’Connell’s sensational performance in Ink should finally make him a mega star",
             "link": "https://metro.co.uk/2026/09/03/jack-oconnells-sensational-performance-ink-finally-make-a-mega-star-29520848/",
             "published": "Wed, 02 Sep 2026 23:47:33 +0000",
@@ -1405,14 +1413,6 @@
             "source": "Metro",
             "categories": "Entertainment TV Exclusive John Cena Wrestling WWE",
             "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310356709-5e3b.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Ariana Grande hints at marriage with boyfriend Ricky Alvarez in tearful final tour show",
-            "link": "https://metro.co.uk/2026/09/02/ariana-grande-hints-marriage-boyfriend-ricky-alvarez-tearful-final-tour-show-29517775/",
-            "published": "Wed, 02 Sep 2026 11:40:13 +0000",
-            "source": "Metro",
-            "categories": "Entertainment Showbiz Ariana Grande US Showbiz news",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/comp-1788348863.png?w=646"
           }
         ]
       }

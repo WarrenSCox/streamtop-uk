@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03T04:40:18.615Z",
+  "updated": "2026-09-03T05:43:49.267Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -12,18 +12,12 @@
         "title": "The Murder at the Vicarage",
         "author": "Agatha Christie",
         "narrator": "Toni Collette , Kit Harington , Jasmine Jobson , Calam Lynch , Eliot Salt , Katy Wix , Lolly Adefope , Billy Postlethwaite , Vicki Pepperdine , Meera Syal , La Voix , Leo Reich , full cast",
-        "image": ""
+        "image": "https://m.media-amazon.com/images/I/51GzNQrzYrL._SL500_.jpg"
       },
       {
         "title": "The Let Them Theory",
         "author": "Mel Robbins",
         "narrator": "Mel Robbins",
-        "image": "https://m.media-amazon.com/images/I/51YOr6ua-PL._SL500_.jpg"
-      },
-      {
-        "title": "Project Hail Mary",
-        "author": "Andy Weir",
-        "narrator": "Ray Porter",
         "image": ""
       },
       {
@@ -31,6 +25,12 @@
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
         "image": ""
+      },
+      {
+        "title": "Project Hail Mary",
+        "author": "Andy Weir",
+        "narrator": "Ray Porter",
+        "image": "https://m.media-amazon.com/images/I/51POf8gOyLL._SL500_.jpg"
       },
       {
         "title": "The Dungeon Anarchist's Cookbook",
@@ -42,13 +42,7 @@
         "title": "The Gate of the Feral Gods",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": ""
-      },
-      {
-        "title": "The Wife Upstairs",
-        "author": "Freida McFadden",
-        "narrator": "Angie Kane",
-        "image": ""
+        "image": "https://m.media-amazon.com/images/I/51rmyTTWPsL._SL500_.jpg"
       },
       {
         "title": "The Butcher's Masquerade",
@@ -61,6 +55,12 @@
         "author": "Robert Rath",
         "narrator": "Richard Reed",
         "image": ""
+      },
+      {
+        "title": "The Eye of the Bedlam Bride",
+        "author": "Matt Dinniman",
+        "narrator": "Jeff Hays , Patrick Warburton , Travis Baldree , Annie Ellicott",
+        "image": "https://m.media-amazon.com/images/I/51qfZAq2J4L._SL500_.jpg"
       }
     ],
     "BOOKS": [
