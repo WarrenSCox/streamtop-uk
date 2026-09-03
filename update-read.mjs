@@ -1,4 +1,5 @@
 import fs from 'node:fs/promises';
+import crypto from 'node:crypto';
 
 const BOOKS_URL='https://www.lovereading.co.uk/genres/lrt10/uk-top-10-books';
 const AUDIO_URL='https://www.audible.co.uk/charts/best';
@@ -118,6 +119,36 @@ async function tertiaryCover(row){
     return hit?.cover_i?`https://covers.openlibrary.org/b/id/${hit.cover_i}-L.jpg`:'';
   }catch{return ''}
 }
+
+async function imageFingerprint(url){
+  if(!url)return '';
+  try{
+    const r=await fetch(url,{redirect:'follow',headers:{'User-Agent':headers['User-Agent'],'Accept':'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'}});
+    if(!r.ok)return '';
+    const type=(r.headers.get('content-type')||'').toLowerCase();
+    if(type&&!type.startsWith('image/'))return '';
+    const buf=Buffer.from(await r.arrayBuffer());
+    if(buf.length<512)return '';
+    return crypto.createHash('sha256').update(buf).digest('hex');
+  }catch{return ''}
+}
+async function oldCoverIsUnique(oldImage,old,oldRows){
+  if(!oldImage)return false;
+  const fp=await imageFingerprint(oldImage);
+  if(!fp){
+    // If the image cannot be fingerprinted, only trust a URL that is not used by any
+    // different title+author in the previous verified chart.
+    return !oldRows.some(x=>x!==old&&x.image===oldImage&&(normText(x.title)!==normText(old?.title)||normText(x.author||'')!==normText(old?.author||'')));
+  }
+  for(const x of oldRows){
+    if(x===old||!x.image)continue;
+    if(normText(x.title)===normText(old?.title)&&normText(x.author||'')===normText(old?.author||''))continue;
+    const other=await imageFingerprint(x.image);
+    if(other&&other===fp)return false;
+  }
+  return true;
+}
+
 async function primaryCover(row,kind){
   // Only accept artwork that can be tied to the exact product title on its own page.
   // Never fall back to the image scraped from the ranking-card HTML here: cards can
@@ -198,21 +229,22 @@ for(const [key,url,parser] of [['BOOKS',BOOKS_URL,booksFromHtml],['AUDIOBOOKS',A
     if(rows.length!==10||rows.some(x=>!x.title)) throw Error(`expected exactly 10 ranked titles, got ${rows.length}`);
     const oldRows=previous?.charts?.[key]||[];
     rows=await Promise.all(rows.map(async row=>{
-      // New verified primary -> existing known-good -> verified secondary -> strict tertiary.
+      // Prefer a fresh title+author-verified lookup every run. Previous artwork is now
+      // the LAST resort so a historically contaminated row cannot keep poisoning itself.
       let image=await primaryCover(row,key);
-      if(!image){
-        const old=oldRows.find(x=>normText(x.title)===normText(row.title) && (row.author ? (x.author && normText(x.author)===normText(row.author)) : true));
-        const oldImage=old?.image||'';
-        // A previously cached image is only reusable when it is unique to this exact
-        // title+author pair. If the same URL is attached to another book/audiobook,
-        // treat it as contaminated and resolve a fresh verified cover instead.
-        const reusedByDifferentTitle=Boolean(oldImage&&oldRows.some(x=>
-          x!==old && x.image===oldImage && (normText(x.title)!==normText(row.title) || normText(x.author||'')!==normText(row.author||''))
-        ));
-        image=reusedByDifferentTitle?'':oldImage;
-      }
       if(!image)image=await secondaryCover(row,key);
       if(!image)image=await tertiaryCover(row);
+      if(!image){
+        const old=oldRows.find(x=>
+          normText(x.title)===normText(row.title) &&
+          (!row.author||(x.author&&normText(x.author)===normText(row.author)))
+        );
+        const oldImage=old?.image||'';
+        // Different CDN URLs can still serve identical bytes. Fingerprint the actual
+        // image content before reusing an old cover and reject it if another title in
+        // the previous chart used the same artwork.
+        if(oldImage&&await oldCoverIsUnique(oldImage,old,oldRows)) image=oldImage;
+      }
       return {...row,image};
     }));
     rows=rows.map(({url:_,...x})=>x);
