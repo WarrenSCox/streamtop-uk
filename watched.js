@@ -5,10 +5,11 @@ function render(){const all=get(KEY),r=all.filter(x=>(x.type||'MOVIE')===type),c
 document.querySelectorAll('.segmented button').forEach(b=>b.onclick=()=>setType(b.dataset.type));
 function initWatchedGestures(){
   const target=$('.chart-wrap');if(!target)return;
-  let sx=0,sy=0,tracking=false,lastTap=0,lastX=0,lastY=0;
+  let sx=0,sy=0,tracking=false,lastTap=0,lastX=0,lastY=0,lastTouchAt=0;
   const move=dir=>{const i=TYPES.indexOf(type);setType(TYPES[(i+dir+TYPES.length)%TYPES.length])};
   target.addEventListener('touchstart',e=>{
     if(e.target.closest('button,a')||e.touches.length!==1)return;
+    lastTouchAt=Date.now();
     const t=e.touches[0];sx=t.clientX;sy=t.clientY;tracking=true;
   },{passive:true});
   target.addEventListener('touchend',e=>{
@@ -22,7 +23,13 @@ function initWatchedGestures(){
     lastTap=now;lastX=t.clientX;lastY=t.clientY;
   },{passive:true});
   target.addEventListener('touchcancel',()=>{tracking=false},{passive:true});
-  target.addEventListener('dblclick',e=>{if(!e.target.closest('button,a'))move(1)});
+  target.addEventListener('dblclick',e=>{
+    if(e.target.closest('button,a'))return;
+    // Touch double-taps are already handled above. Some mobile browsers also
+    // emit a synthetic dblclick afterwards, which would otherwise advance twice.
+    if(Date.now()-lastTouchAt<700)return;
+    move(1);
+  });
 }
 initWatchedGestures();
 function initMenu(){const m=$('#wozzaMenu'),bd=$('#wozzaMenuBackdrop'),trigger=$('.header-copy');if(!m||!bd)return;const open=()=>{m.classList.add('open');m.setAttribute('aria-hidden','false');bd.hidden=false},close=()=>{m.classList.remove('open');m.setAttribute('aria-hidden','true');bd.hidden=true};trigger?.addEventListener('click',open);trigger?.setAttribute('role','button');trigger?.setAttribute('tabindex','0');trigger?.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();open()}});bd.addEventListener('click',close);$('.wozza-menu-back')?.addEventListener('click',close);$('#wozzaMenuList')?.addEventListener('click',e=>{const b=e.target.closest('[data-href]');if(b)location.href=b.dataset.href})}
