@@ -1,9 +1,16 @@
-WozzaWatch v6.0.2 — WozzaRead pairing + cover hotfix
+WozzaWatch v6.1.0 — Read Polish CR Pack
 
-- Books: artwork is now accepted only when the image alt text matches the exact chart title on that book's own LoveReading product page. Wrong artwork is rejected rather than displayed.
-- Audiobooks: artwork is now accepted only from the exact Audible product image labelled for that title's cover art.
-- Audiobook artwork uses a square frame so Audible's square cover art is no longer stretched/cropped into a portrait slot.
-- Audiobook selector icon keeps the approved wired-earbud look, but separates the buds and raises the right bud slightly.
-- Tapping a Book cover opens an Amazon UK search for that exact title.
-- Tapping an Audiobook cover opens a Spotify search for that exact title.
-- Existing tap, double-tap and swipe Books/Audiobooks navigation is retained.
+DONE
+- WozzaRead source badge in the normal chart-heading position:
+  Books = STATS FROM LOVEREADING; Audiobooks = STATS FROM AUDIBLE.
+- Animated Read controls: book page flip; audiobook wire wiggle. Reduced-motion respected.
+- Stronger missing-cover recovery for BOTH Books and Audiobooks:
+  exact primary product artwork first, then strict title-matched Google Books (books) / Apple audiobook artwork (audio), then W fallback.
+- Books can now be added to the existing Watchlist with the googly-eyes control.
+- Watchlist gains a third Books tab and book counts. Book removal does not send books into the film/TV Watched pile.
+- WozzaRead double-tap and swipe toggle Books <-> Audiobooks; links/buttons remain protected.
+- All Wozzas menu gains REFRESH STATS, taking you straight to the repository's manual Update WozzaWatch rankings workflow without exposing a GitHub token.
+
+NOT BUNDLED / SAFETY NOTE
+- HBO 403 resilience is NOT replacing update-data.mjs in this patch because the v6.0.2 patch archive did not contain the current live updater. Bundling an older Library copy would regress the newer Prime/HBO work. Keep the repository's current update-data.mjs unchanged for this upload.
+- Customisable menus deliberately excluded per CR.

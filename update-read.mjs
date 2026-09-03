@@ -3,7 +3,7 @@ import fs from 'node:fs/promises';
 const BOOKS_URL='https://www.lovereading.co.uk/genres/lrt10/uk-top-10-books';
 const AUDIO_URL='https://www.audible.co.uk/charts/best';
 const headers={
-  'User-Agent':'Mozilla/5.0 (compatible; WozzaRead/6.0.2; +https://github.com/)',
+  'User-Agent':'Mozilla/5.0 (compatible; WozzaRead/6.1.0; +https://github.com/)',
   'Accept':'text/html,application/xhtml+xml'
 };
 
@@ -87,16 +87,38 @@ function productCover(src,base,expectedTitle,kind){
   candidates.sort((a,b)=>b.score-a.score||a.index-b.index);
   return candidates[0]?.url||'';
 }
+
+async function secondaryCover(row,kind){
+  try{
+    if(kind==='BOOKS'){
+      const q=encodeURIComponent(`intitle:${row.title} inauthor:${row.author||''}`);
+      const r=await fetch(`https://www.googleapis.com/books/v1/volumes?q=${q}&maxResults=5`,{headers:{'User-Agent':headers['User-Agent']}});
+      if(!r.ok)return '';
+      const j=await r.json();
+      const hit=(j.items||[]).find(x=>normText(x.volumeInfo?.title)===normText(row.title) && (!row.author||(x.volumeInfo?.authors||[]).some(a=>normText(a).includes(normText(row.author))||normText(row.author).includes(normText(a)))));
+      const u=hit?.volumeInfo?.imageLinks?.thumbnail||hit?.volumeInfo?.imageLinks?.smallThumbnail||'';
+      return u.replace(/^http:/,'https:');
+    }
+    const term=encodeURIComponent(`${row.title} ${row.author||''}`);
+    const r=await fetch(`https://itunes.apple.com/search?country=gb&media=audiobook&limit=10&term=${term}`,{headers:{'User-Agent':headers['User-Agent']}});
+    if(!r.ok)return '';
+    const j=await r.json();
+    const hit=(j.results||[]).find(x=>normText(x.collectionName||x.trackName)===normText(row.title));
+    return String(hit?.artworkUrl100||'').replace(/100x100bb/g,'600x600bb');
+  }catch{return ''}
+}
+
 async function enrichImages(rows,kind){
   return Promise.all(rows.map(async row=>{
     if(!row.url) return row;
     try{
       const page=await html(row.url);
-      const image=productCover(page,row.url,row.title,kind);
+      let image=productCover(page,row.url,row.title,kind);
+      if(!image) image=await secondaryCover(row,kind);
       return {...row,image};
     }catch(e){
       console.warn(`cover lookup failed for ${row.title}: ${e.message}`);
-      return {...row,image:''};
+      return {...row,image:await secondaryCover(row,kind)};
     }
   }));
 }

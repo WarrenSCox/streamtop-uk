@@ -678,3 +678,21 @@ html,body,body *{-webkit-user-select:none;user-select:none;-webkit-touch-callout
   .read-page.read-audio-mode .read-cover-link{width:52px;height:52px}
   .read-page .read-audio-icon{width:43px!important;height:43px!important}
 }
+
+
+/* v6.1.0 — WozzaRead final polish CRs */
+.read-page .read-chart-heading{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:10px}
+.read-page .read-chart-heading .source-badge{white-space:nowrap;font-size:8px;padding:7px 9px}
+.read-page .read-row.has-watch-toggle{grid-template-columns:46px 58px minmax(0,1fr) 44px}
+.read-page .read-watch-toggle{position:relative;z-index:2}
+.read-book-icon .book-page-flip{transform-box:fill-box;transform-origin:left center;opacity:0}
+.read-tab.read-animate .book-page-flip{animation:wozza-page-flip .65s ease-in-out}
+@keyframes wozza-page-flip{0%{opacity:0;transform:perspective(90px) rotateY(0)}20%{opacity:1}52%{opacity:1;transform:perspective(90px) rotateY(-92deg)}100%{opacity:0;transform:perspective(90px) rotateY(-178deg)}}
+.read-audio-icon .audio-wire{transform-box:fill-box;transform-origin:top center}
+.read-tab.read-animate .audio-wire{animation:wozza-wire-wiggle .65s ease-in-out}
+@keyframes wozza-wire-wiggle{0%,100%{transform:rotate(0) translateX(0)}20%{transform:rotate(5deg) translateX(2px)}45%{transform:rotate(-6deg) translateX(-2px)}70%{transform:rotate(4deg) translateX(1px)}}
+.my-list-page .segmented.three-way{grid-template-columns:repeat(3,1fr)}
+.my-list-page .book-list-icon{width:38px;height:38px}
+.wozza-menu-refresh{appearance:none;width:100%;border:0;border-top:1px solid var(--line);background:rgba(255,255,255,.18);color:var(--navy);padding:11px;font:900 11px "Archivo Black",Impact,sans-serif;cursor:pointer}
+@media(max-width:560px){.read-page .read-row.has-watch-toggle{grid-template-columns:38px 52px minmax(0,1fr) 39px}.read-page .read-chart-heading{gap:6px}.read-page .read-chart-heading .source-badge{font-size:7px;padding:6px 7px}}
+@media(prefers-reduced-motion:reduce){.read-tab.read-animate .book-page-flip,.read-tab.read-animate .audio-wire{animation:none!important}}

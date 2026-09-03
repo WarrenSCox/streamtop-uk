@@ -5,7 +5,7 @@
 <meta name="theme-color" content="#9AB2D4"><meta name="description" content="WozzaRead — the UK overall Top 10 books and audiobooks.">
 <link rel="icon" href="read-icon.png"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css?v=6.0.2"><title>WozzaRead</title><meta name="build" content="6.0.2">
+<link rel="stylesheet" href="styles.css?v=6.1.0"><title>WozzaRead</title><meta name="build" content="6.1.0">
 </head><body class="read-page">
 <header class="topbar">
  <div class="brand-cluster"><div class="brand read-brand"><img src="read-icon.png" alt="" class="brand-icon"><h1>WOZZA<span>READ</span></h1></div>
@@ -20,13 +20,13 @@
  <button type="button" class="wozza-menu-item" data-wozza="list" data-href="my-list.html"><span class="wozza-menu-rank">03</span><img src="my-list-icon.svg" alt=""><span>Watchlist</span></button>
  <button type="button" class="wozza-menu-item" data-wozza="read" data-href="read.html"><span class="wozza-menu-rank">04</span><img src="read-icon.png" alt=""><span>WozzaRead</span></button>
  <button type="button" class="wozza-menu-item" data-wozza="news" data-href="news.html"><span class="wozza-menu-rank">05</span><img src="news-icon.png" alt=""><span>WozzaNews</span></button>
- </div><button type="button" class="wozza-menu-back" aria-label="Close All Wozzas menu">← BACK</button>
+ </div><button type="button" class="wozza-menu-refresh" onclick="(()=>{const o=location.hostname.endsWith('.github.io')?location.hostname.split('.')[0]:'WarrenCox',r=location.pathname.split('/').filter(Boolean)[0]||'streamtop-uk';window.open('https://github.com/'+o+'/'+r+'/actions/workflows/update-rankings.yml','_blank','noopener')})()">↻ REFRESH STATS</button><button type="button" class="wozza-menu-back" aria-label="Close All Wozzas menu">← BACK</button>
 </aside>
 <main>
 <section class="controls read-controls">
  <div class="segmented read-segmented" aria-label="Choose reading chart type">
   <button type="button" class="read-tab active" data-read-type="BOOKS" aria-label="Books" title="Books">
-   <svg class="media-icon read-book-icon" viewBox="0 0 64 64" aria-hidden="true"><path d="M10 13c8-3 15-2 22 3v36c-7-5-14-6-22-3V13Z" fill="currentColor"/><path d="M54 13c-8-3-15-2-22 3v36c7-5 14-6 22-3V13Z" fill="currentColor"/><path d="M32 16v36" fill="none" stroke="#eef0fb" stroke-width="3"/><path d="M15 20c5-1 9 0 13 2M15 27c5-1 9 0 13 2" fill="none" stroke="#eef0fb" stroke-width="2.5" stroke-linecap="round"/></svg>
+   <svg class="media-icon read-book-icon" viewBox="0 0 64 64" aria-hidden="true"><path class="book-left" d="M10 13c8-3 15-2 22 3v36c-7-5-14-6-22-3V13Z" fill="currentColor"/><path class="book-right" d="M54 13c-8-3-15-2-22 3v36c7-5 14-6 22-3V13Z" fill="currentColor"/><path d="M32 16v36" fill="none" stroke="#eef0fb" stroke-width="3"/><path class="book-lines" d="M15 20c5-1 9 0 13 2M15 27c5-1 9 0 13 2" fill="none" stroke="#eef0fb" stroke-width="2.5" stroke-linecap="round"/><path class="book-page-flip" d="M32 16c7-5 14-6 22-3v36c-8-3-15-2-22 3Z" fill="currentColor"/></svg>
   </button>
   <button type="button" class="read-tab" data-read-type="AUDIOBOOKS" aria-label="Audiobooks" title="Audiobooks">
    <svg class="media-icon read-audio-icon" viewBox="0 0 64 64" aria-hidden="true">
@@ -34,12 +34,12 @@
       <path d="M9 17c0-4 3-7 7-7h8c4 0 7 3 7 7v3c0 4-3 7-7 7h-4v5h-5v-6c-4-1-6-4-6-8v-1Zm9-2c-2 0-4 2-4 4v1h12v-3c0-1-1-2-3-2h-5Z"/>
       <path d="M38 12c0-4 3-7 7-7h6c4 0 7 3 7 7v3c0 4-3 7-7 7h-3v5h-5v-6c-3-1-5-4-5-7v-2Zm8-2c-2 0-3 2-3 4v1h10v-3c0-1-1-2-3-2h-4Z"/>
     </g>
-    <path d="M17 31c0 7 4 11 11 15 8 4 12 7 12 12 0 2-.7 4-2 5M46 26c0 8-4 13-11 17" fill="none" stroke="currentColor" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path class="audio-wire" d="M17 31c0 7 4 11 11 15 8 4 12 7 12 12 0 2-.7 4-2 5M46 26c0 8-4 13-11 17" fill="none" stroke="currentColor" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
    </svg>
   </button>
  </div>
 </section>
-<section class="chart-wrap read-chart-wrap"><div class="chart-heading read-chart-heading"><h2 id="readTitle">UK TOP 10 BOOKS</h2></div>
+<section class="chart-wrap read-chart-wrap"><div class="chart-heading read-chart-heading"><h2 id="readTitle">UK TOP 10 BOOKS</h2><a id="readSourceBadge" class="source-badge official" target="_blank" rel="noopener">STATS FROM LOVEREADING</a></div>
 <ol id="readChart" class="chart read-chart"></ol><div id="readError" class="error-box hidden"><strong>Chart unavailable</strong><p>The last verified chart will stay in place until a complete Top 10 can be confirmed.</p></div></section>
-</main><footer><p>App created by Warren · v6.0.2</p></footer><script src="read.js?v=6.0.2" defer></script>
+</main><footer><p>App created by Warren · v6.1.0</p></footer><script src="read.js?v=6.1.0" defer></script>
 </body></html>
