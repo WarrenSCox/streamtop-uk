@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03T18:24:23.209Z",
+  "updated": "2026-09-03T18:35:02.662Z",
   "providers": {
     "SKY": {
       "categories": {
@@ -27,6 +27,14 @@
             "source": "Sky News",
             "categories": "",
             "image": "https://e3.365dm.com/26/02/1920x1080/skynews-milford-haven-school_7156678.jpg?20260207054159"
+          },
+          {
+            "title": "Ex-college lecturer admits causing death of couple in drink-driving crash",
+            "link": "https://news.sky.com/story/ex-fife-college-lecturer-admits-causing-death-of-couple-in-drink-driving-crash-13580765",
+            "published": "Thu, 03 Sep 2026 13:13:00 +0100",
+            "source": "Sky News",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-jatinder-kaur-satwant-singh_7339686.jpg?20260903110838"
           },
           {
             "title": "Schools to shut early 'to ensure pupils' safety' ahead of funeral for A66 crash victim",
@@ -75,14 +83,6 @@
             "source": "Sky News",
             "categories": "",
             "image": "https://e3.365dm.com/26/07/1920x1080/skynews-polanski-greens_7308996.jpg?20260729034659"
-          },
-          {
-            "title": "Theatre team responds amid row between Maureen Lipman and actor who quit",
-            "link": "https://news.sky.com/story/theatre-team-responds-amid-row-between-maureen-lipman-and-actor-who-quit-13580744",
-            "published": "Thu, 03 Sep 2026 10:05:00 +0100",
-            "source": "Sky News",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-maureen-lipman-gerard-mccarthy_7339635.jpg?20260903100946"
           }
         ],
         "WORLD": [
@@ -757,7 +757,7 @@
           {
             "title": "Fox News Media abruptly ousts longtime anchor Maria Bartiromo",
             "link": "https://www.theguardian.com/media/2026/sep/03/maria-bartiromo-fox-news-departure",
-            "published": "Thu, 03 Sep 2026 17:46:30 GMT",
+            "published": "Thu, 03 Sep 2026 18:20:24 GMT",
             "source": "The Guardian",
             "categories": "Fox News Media TV news Business Fox",
             "image": "https://i.guim.co.uk/img/media/be7571d47b428938e47d1eb0f1d32b3be1462716/352_392_4110_3287/master/4110.jpg?width=140&quality=85&auto=format&fit=max&s=3a2954f66528e738578a11d1f168b87e"
@@ -1453,6 +1453,14 @@
         "image": "https://e3.365dm.com/26/02/1920x1080/skynews-milford-haven-school_7156678.jpg?20260207054159"
       },
       {
+        "title": "Ex-college lecturer admits causing death of couple in drink-driving crash",
+        "link": "https://news.sky.com/story/ex-fife-college-lecturer-admits-causing-death-of-couple-in-drink-driving-crash-13580765",
+        "published": "Thu, 03 Sep 2026 13:13:00 +0100",
+        "source": "Sky News",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-jatinder-kaur-satwant-singh_7339686.jpg?20260903110838"
+      },
+      {
         "title": "Schools to shut early 'to ensure pupils' safety' ahead of funeral for A66 crash victim",
         "link": "https://news.sky.com/story/schools-to-shut-early-to-ensure-pupils-safety-ahead-of-funeral-for-a66-crash-victim-13580756",
         "published": "Thu, 03 Sep 2026 10:37:00 +0100",
@@ -1499,14 +1507,6 @@
         "source": "Sky News",
         "categories": "",
         "image": "https://e3.365dm.com/26/07/1920x1080/skynews-polanski-greens_7308996.jpg?20260729034659"
-      },
-      {
-        "title": "Theatre team responds amid row between Maureen Lipman and actor who quit",
-        "link": "https://news.sky.com/story/theatre-team-responds-amid-row-between-maureen-lipman-and-actor-who-quit-13580744",
-        "published": "Thu, 03 Sep 2026 10:05:00 +0100",
-        "source": "Sky News",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-maureen-lipman-gerard-mccarthy_7339635.jpg?20260903100946"
       }
     ],
     "WORLD": [
