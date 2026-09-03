@@ -4,7 +4,7 @@ import crypto from 'node:crypto';
 const BOOKS_URL='https://www.lovereading.co.uk/genres/lrt10/uk-top-10-books';
 const AUDIO_URL='https://www.audible.co.uk/charts/best';
 const headers={
-  'User-Agent':'Mozilla/5.0 (compatible; WozzaRead/6.2.14; +https://github.com/)',
+  'User-Agent':'Mozilla/5.0 (compatible; WozzaRead/6.2.15; +https://github.com/)',
   'Accept':'text/html,application/xhtml+xml'
 };
 
@@ -120,6 +120,50 @@ async function tertiaryCover(row){
   }catch{return ''}
 }
 
+
+async function quaternaryCover(row){
+  // Fourth source: Open Library, still strict title + author matching.
+  try{
+    const q=new URLSearchParams({title:row.title||'',author:row.author||'',limit:'20',fields:'title,author_name,cover_i'});
+    const r=await fetch(`https://openlibrary.org/search.json?${q}`,{headers:{'User-Agent':headers['User-Agent']}});
+    if(!r.ok)return '';
+    const j=await r.json();
+    const hit=(j.docs||[]).find(x=>
+      x.cover_i &&
+      normText(x.title)===normText(row.title) &&
+      row.author && (x.author_name||[]).some(a=>normText(a)===normText(row.author))
+    );
+    return hit?.cover_i?`https://covers.openlibrary.org/b/id/${hit.cover_i}-L.jpg?default=false`:'';
+  }catch{return ''}
+}
+
+function unsafeTitleOnlyVariant(title){
+  const t=normText(title);
+  return /\b(summary|study guide|workbook|analysis|companion|notes|review|collection|boxed set|box set)\b/.test(t);
+}
+async function lastResortTitleOnlyCover(row){
+  // Fifth and final source: exact normalized title only. Intentionally ignores author,
+  // but rejects common derivative/companion variants. If ambiguous, keep the W fallback.
+  try{
+    const q=encodeURIComponent(`intitle:${row.title}`);
+    const r=await fetch(`https://www.googleapis.com/books/v1/volumes?q=${q}&maxResults=20&printType=books`,{headers:{'User-Agent':headers['User-Agent']}});
+    if(!r.ok)return '';
+    const j=await r.json();
+    const wanted=normText(row.title);
+    const hits=(j.items||[]).filter(x=>{
+      const vi=x.volumeInfo||{};
+      const title=normText(vi.title);
+      const image=vi.imageLinks?.thumbnail||vi.imageLinks?.smallThumbnail||'';
+      return image && title===wanted && !unsafeTitleOnlyVariant(vi.title||'');
+    });
+    // A title-only fallback is accepted only when all exact-title hits with covers point
+    // to the same image URL after normalisation; conflicting candidates are ambiguous.
+    const urls=[...new Set(hits.map(x=>String(x.volumeInfo?.imageLinks?.thumbnail||x.volumeInfo?.imageLinks?.smallThumbnail||'').replace(/^http:/,'https:').replace(/[?&]zoom=\d+/g,'')).filter(Boolean))];
+    if(urls.length!==1)return '';
+    return urls[0];
+  }catch{return ''}
+}
+
 async function imageFingerprint(url){
   if(!url)return '';
   try{
@@ -229,14 +273,16 @@ for(const [key,url,parser] of [['BOOKS',BOOKS_URL,booksFromHtml],['AUDIOBOOKS',A
     if(rows.length!==10||rows.some(x=>!x.title)) throw Error(`expected exactly 10 ranked titles, got ${rows.length}`);
     const oldRows=previous?.charts?.[key]||[];
     rows=await Promise.all(rows.map(async row=>{
-      // BOOKS use a deliberately strict cover policy: exact LoveReading product-page
-      // artwork first, then exact title+author Google Books. If neither can prove the
-      // pairing, leave the image empty so the UI uses the W fallback. Do not reuse a
-      // previous book cover and do not use generic/tertiary cover search for books.
-      // This prevents a contaminated image (for example a neighbouring chart title)
-      // from surviving or being reintroduced by a loose image source.
+      // BOOKS keep the strict v6.2.14 safety policy, but get two extra chances before W:
+      // a fourth strict Open Library title+author lookup, then a fifth exact-title-only
+      // Google Books fallback with ambiguity/derivative guards. Previous book covers
+      // are still never reused.
       let image=await primaryCover(row,key);
       if(!image)image=await secondaryCover(row,key);
+      if(key==='BOOKS'){
+        if(!image)image=await quaternaryCover(row);
+        if(!image)image=await lastResortTitleOnlyCover(row);
+      }
 
       if(key!=='BOOKS'){
         if(!image)image=await tertiaryCover(row);
