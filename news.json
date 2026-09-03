@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03T15:09:35.510Z",
+  "updated": "2026-09-03T16:11:39.549Z",
   "providers": {
     "SKY": {
       "categories": {
@@ -13,7 +13,7 @@
             "image": "https://e3.365dm.com/26/08/1920x1080/skynews-andy-burnham-john-healey_7326772.jpg?20260820173917"
           },
           {
-            "title": "Teenager sentenced for stabbing teacher in the head",
+            "title": "Schoolboy who stabbed teacher in the head sentenced",
             "link": "https://news.sky.com/story/pupil-who-stabbed-teacher-in-the-head-in-pembrokeshire-wales-sentenced-13580857",
             "published": "Thu, 03 Sep 2026 14:24:00 +0100",
             "source": "Sky News",
@@ -27,6 +27,14 @@
             "source": "Sky News",
             "categories": "",
             "image": "https://e3.365dm.com/26/09/1920x1080/skynews-jakub-matusiak-jacob-matusiak_7339672.jpg?20260903105420"
+          },
+          {
+            "title": "'Hitchhiking' mosquitoes that can transmit dengue and Zika virus found breeding in UK",
+            "link": "https://news.sky.com/story/hitchhiking-mosquitoes-that-can-transmit-dengue-and-zika-virus-found-breeding-in-uk-13580900",
+            "published": "Thu, 03 Sep 2026 15:49:00 +0100",
+            "source": "Sky News",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-mosquito-insect_7340030.jpg?20260903161551"
           },
           {
             "title": "Current El Nino extreme weather phenomenon will be 'exceptional', say forecasters",
@@ -75,19 +83,11 @@
             "source": "Sky News",
             "categories": "",
             "image": "https://e3.365dm.com/26/09/1920x1080/skynews-jatinder-kaur-satwant-singh_7339686.jpg?20260903110838"
-          },
-          {
-            "title": "Sewage dumped into English waters for more than 43,000 hours over summer",
-            "link": "https://news.sky.com/story/sewage-dumped-into-english-waters-for-more-than-43000-hours-over-summer-13580484",
-            "published": "Thu, 03 Sep 2026 07:20:00 +0100",
-            "source": "Sky News",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-sewage-pollution_7339136.jpg?20260902190101"
           }
         ],
         "WORLD": [
           {
-            "title": "About 80 confirmed dead after migrant boat gets into difficulty off Gran Canaria",
+            "title": "About 80 dead in migrant boat tragedy",
             "link": "https://news.sky.com/story/about-80-confirmed-dead-after-migrant-boat-gets-into-difficulty-off-gran-canaria-13580794",
             "published": "Thu, 03 Sep 2026 12:01:00 +0100",
             "source": "Sky News",
@@ -439,7 +439,7 @@
             "image": "https://e3.365dm.com/26/09/1920x1080/skynews-sunday-mornings_7338664.jpg?20260902122708"
           },
           {
-            "title": "How former gang leader was convicted thanks to his own book",
+            "title": "How former gang leader was convicted of Tupac's murder thanks to his own book",
             "link": "https://news.sky.com/story/how-the-former-gang-leader-who-orchestrated-tupac-shakurs-murder-talked-himself-into-prison-13578651",
             "published": "Mon, 31 Aug 2026 17:17:00 +0100",
             "source": "Sky News",
@@ -453,14 +453,6 @@
             "source": "Sky News",
             "categories": "",
             "image": "https://e3.365dm.com/26/08/1920x1080/skynews-dolly-parton-hollywood_7336685.jpg?20260831161005"
-          },
-          {
-            "title": "Met Gala exhibition honouring John Galliano cancelled after backlash over past antisemitic comments",
-            "link": "https://news.sky.com/story/met-gala-exhibition-honouring-john-galliano-cancelled-after-backlash-over-past-antisemitic-comments-13579552",
-            "published": "Mon, 31 Aug 2026 19:20:00 +0100",
-            "source": "Sky News",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/08/1920x1080/skynews-john-galliano-met-gala_7336908.jpg?20260831205308"
           },
           {
             "title": "'No chance' Meghan's possible return to acting was reason for Sussexes' move - industry insiders",
@@ -493,6 +485,14 @@
             "source": "Sky News",
             "categories": "",
             "image": "https://e3.365dm.com/26/03/1920x1080/skynews-jenni-murray-broadcaster_7198517.jpg?20260320181629"
+          },
+          {
+            "title": "Actor Tim Curry has died",
+            "link": "https://news.sky.com/story/actor-tim-curry-who-starred-in-the-rocky-horror-picture-show-has-died-13577457",
+            "published": "Wed, 26 Aug 2026 16:36:00 +0100",
+            "source": "Sky News",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/08/1920x1080/skynews-tim-curry-actor_7331989.jpg?20260826164855"
           }
         ]
       }
@@ -501,12 +501,20 @@
       "categories": {
         "UK": [
           {
-            "title": "Badenoch condemns Reform UK’s ‘authoritarian’ press bans – UK politics live",
+            "title": "Labour condemns Reform’s plan for £100bn in cuts as ‘half-baked’ and ‘incredibly reckless’ – UK politics live",
             "link": "https://www.theguardian.com/politics/live/2026/sep/03/andy-burnham-emmanuel-macron-zack-polanski-latest-news-updates",
-            "published": "Thu, 03 Sep 2026 14:51:15 GMT",
+            "published": "Thu, 03 Sep 2026 16:03:51 GMT",
             "source": "The Guardian",
-            "categories": "Politics UK news Andy Burnham Labour Emmanuel Macron Kemi Badenoch Conservatives Reform UK Immigration and asylum Migration Defence policy France Zack Polanski Green party London Byelections Diane Abbott Lee Anderson Robert Jenrick Government borrowing",
-            "image": "https://i.guim.co.uk/img/media/1f2a0a3fe32174a75270d3c2a9fb0443ca8f9968/555_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=d7a0c6e00df13897918eeee9413d55c5"
+            "categories": "Politics UK news Andy Burnham Labour Emmanuel Macron Kemi Badenoch Conservatives Reform UK Immigration and asylum Migration Defence policy France Zack Polanski Green party London Byelections Diane Abbott Lee Anderson Robert Jenrick Government borrowing Unison Social care Children Tax and spending European Union",
+            "image": "https://i.guim.co.uk/img/media/c67a5bb1a72f622ad8e4c264c37285065deda1a8/535_0_6140_4912/master/6140.jpg?width=140&quality=85&auto=format&fit=max&s=24c3e5e66d7767f041f5302c5c15697f"
+          },
+          {
+            "title": "Manchester synagogue attack: ministers seek to block MI5 files from inquest",
+            "link": "https://www.theguardian.com/uk-news/2026/sep/03/manchester-synagogue-attack-ministers-seek-block-m15-files-inquest",
+            "published": "Thu, 03 Sep 2026 15:07:16 GMT",
+            "source": "The Guardian",
+            "categories": "UK news England Manchester UK security and counter-terrorism MI5 Home Office Police",
+            "image": "https://i.guim.co.uk/img/media/7a2d7ba0af4f1476b6ed17b1a5f1c46f488b0f3b/982_0_4910_3928/master/4910.jpg?width=140&quality=85&auto=format&fit=max&s=2040fbab211916c83501cea066c47b0e"
           },
           {
             "title": "UK mortgage borrowers brace for rate jump amid global bond sell-off",
@@ -541,7 +549,7 @@
             "image": "https://i.guim.co.uk/img/media/c43c7b76790cb7651e05e30a68893bd439a36f3f/144_0_4688_3751/master/4688.jpg?width=140&quality=85&auto=format&fit=max&s=c284dbef8f6f9a1254a02dd7203c7e18"
           },
           {
-            "title": "Kemi Badenoch: Farage would use state power to target his opponents",
+            "title": "Kemi Badenoch condemns Reform UK’s ‘authoritarian’ press bans",
             "link": "https://www.theguardian.com/politics/2026/sep/03/kemi-badenoch-farage-state-power-reform",
             "published": "Thu, 03 Sep 2026 12:40:00 GMT",
             "source": "The Guardian",
@@ -557,7 +565,7 @@
             "image": "https://i.guim.co.uk/img/media/d69a919265e09184f78cddd51ec6dadcc40cb6e9/342_447_3216_2573/master/3216.jpg?width=140&quality=85&auto=format&fit=max&s=5b88ec4964b5f6f9366ca49520252c3d"
           },
           {
-            "title": "Reform UK gets another £4m from crypto billionaire pardoned by Donald Trump",
+            "title": "Crypto billionaire pardoned by Trump gives Reform UK another £4m",
             "link": "https://www.theguardian.com/politics/2026/sep/03/reform-uk-crypto-billionaire-ben-delo-pardoned-trump",
             "published": "Thu, 03 Sep 2026 12:28:49 GMT",
             "source": "The Guardian",
@@ -565,20 +573,12 @@
             "image": "https://i.guim.co.uk/img/media/091692f78253f08d995456a1665f7c31396b249f/1601_486_5789_4632/master/5789.jpg?width=140&quality=85&auto=format&fit=max&s=bd82236387cca07c9264bcfa12acd24d"
           },
           {
-            "title": "Care workers and others fleeing UK modern slavery win visa reprieve",
-            "link": "https://www.theguardian.com/world/2026/sep/03/care-workers-fleeing-uk-modern-slavery-win-visa-reprieve",
-            "published": "Thu, 03 Sep 2026 11:19:19 GMT",
+            "title": "Sadiq Khan cleared of car tax conviction caused by ‘scam’",
+            "link": "https://www.theguardian.com/politics/2026/sep/03/sadiq-khan-cleared-of-car-tax-conviction-caused-by-scam",
+            "published": "Thu, 03 Sep 2026 11:19:07 GMT",
             "source": "The Guardian",
-            "categories": "Modern slavery Human rights Home Office Immigration and asylum Politics UK news Care workers",
-            "image": "https://i.guim.co.uk/img/media/df5bd73059407de30a5c490ac54685f42e4c0c67/479_12_2905_2325/master/2905.jpg?width=140&quality=85&auto=format&fit=max&s=b784a2597b3db0f40501c6e0700582f7"
-          },
-          {
-            "title": "‘I would rather die than return to France’: the brutal reality of the UK’s one in, one out scheme",
-            "link": "https://www.theguardian.com/uk-news/2026/sep/03/uk-one-in-one-out-scheme-iran-friends-channel-france",
-            "published": "Thu, 03 Sep 2026 09:21:14 GMT",
-            "source": "The Guardian",
-            "categories": "Immigration and asylum Home Office Politics UK news France Europe World news",
-            "image": "https://i.guim.co.uk/img/media/eb5615e409eff6892d5548229cce0472465b558c/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=17c0327f28485858ad915337f2e0f6d9"
+            "categories": "Sadiq Khan London DVLA Politics UK news England",
+            "image": "https://i.guim.co.uk/img/media/205b56a4e1fce5568e8e6ff7f369ea0232ddb3dc/75_70_2518_2014/master/2518.jpg?width=140&quality=85&auto=format&fit=max&s=fc17abc3e2f059e2e1a107282815227b"
           }
         ],
         "WORLD": [
@@ -665,15 +665,15 @@
         ],
         "POLITICS": [
           {
-            "title": "Badenoch condemns Reform UK’s ‘authoritarian’ press bans – UK politics live",
+            "title": "Labour condemns Reform’s plan for £100bn in cuts as ‘half-baked’ and ‘incredibly reckless’ – UK politics live",
             "link": "https://www.theguardian.com/politics/live/2026/sep/03/andy-burnham-emmanuel-macron-zack-polanski-latest-news-updates",
-            "published": "Thu, 03 Sep 2026 14:51:15 GMT",
+            "published": "Thu, 03 Sep 2026 15:51:12 GMT",
             "source": "The Guardian",
-            "categories": "Politics UK news Andy Burnham Labour Emmanuel Macron Kemi Badenoch Conservatives Reform UK Immigration and asylum Migration Defence policy France Zack Polanski Green party London Byelections Diane Abbott Lee Anderson Robert Jenrick Government borrowing",
-            "image": "https://i.guim.co.uk/img/media/1f2a0a3fe32174a75270d3c2a9fb0443ca8f9968/555_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=d7a0c6e00df13897918eeee9413d55c5"
+            "categories": "Politics UK news Andy Burnham Labour Emmanuel Macron Kemi Badenoch Conservatives Reform UK Immigration and asylum Migration Defence policy France Zack Polanski Green party London Byelections Diane Abbott Lee Anderson Robert Jenrick Government borrowing Unison Social care Children Tax and spending European Union",
+            "image": "https://i.guim.co.uk/img/media/c67a5bb1a72f622ad8e4c264c37285065deda1a8/535_0_6140_4912/master/6140.jpg?width=140&quality=85&auto=format&fit=max&s=24c3e5e66d7767f041f5302c5c15697f"
           },
           {
-            "title": "Kemi Badenoch: Farage would use state power to target his opponents",
+            "title": "Kemi Badenoch condemns Reform UK’s ‘authoritarian’ press bans",
             "link": "https://www.theguardian.com/politics/2026/sep/03/kemi-badenoch-farage-state-power-reform",
             "published": "Thu, 03 Sep 2026 12:40:00 GMT",
             "source": "The Guardian",
@@ -681,7 +681,7 @@
             "image": "https://i.guim.co.uk/img/media/3210431c81136f0cd59c662129ef7fe027a3e237/1039_0_6588_5270/master/6588.jpg?width=140&quality=85&auto=format&fit=max&s=ff4e10cb034b9cfb08bae57385d6e4cf"
           },
           {
-            "title": "Reform UK gets another £4m from crypto billionaire pardoned by Donald Trump",
+            "title": "Crypto billionaire pardoned by Trump gives Reform UK another £4m",
             "link": "https://www.theguardian.com/politics/2026/sep/03/reform-uk-crypto-billionaire-ben-delo-pardoned-trump",
             "published": "Thu, 03 Sep 2026 12:28:49 GMT",
             "source": "The Guardian",
@@ -721,6 +721,14 @@
             "image": "https://i.guim.co.uk/img/media/662000f471843bd4742ca2ed295ac184a5c4d7ee/0_138_4280_3424/master/4280.jpg?width=140&quality=85&auto=format&fit=max&s=f5fa8aa203d35b72d31aca7c4a5eda34"
           },
           {
+            "title": "Kemi the Valkyrie spoils for a fight and has the Russians in her sights | John Crace",
+            "link": "https://www.theguardian.com/politics/2026/sep/03/kemi-badenoch-russia-defence-spending-tories-labour-sketch-john-crace",
+            "published": "Thu, 03 Sep 2026 15:08:15 GMT",
+            "source": "The Guardian",
+            "categories": "Kemi Badenoch Defence policy Conservatives Politics John Healey UK news",
+            "image": "https://i.guim.co.uk/img/media/5dacea4826ccb339ffa49eb0e685ea11477a0885/1135_108_4865_3892/master/4865.jpg?width=140&quality=85&auto=format&fit=max&s=980f6d290bda1ddf2b30b5a6a07b6de6"
+          },
+          {
             "title": "I inadvertently misled parliament over a British nuclear scandal. Now I’m calling for justice | Tobias Ellwood",
             "link": "https://www.theguardian.com/commentisfree/2026/sep/02/british-nuclear-tests-compensation-for-veterans",
             "published": "Wed, 02 Sep 2026 21:30:35 GMT",
@@ -735,24 +743,24 @@
             "source": "The Guardian",
             "categories": "Conservatives Kemi Badenoch Politics Andy Burnham Keir Starmer Labour Economics Tax House of Commons Reform UK Margaret Thatcher Liz Truss Mel Stride UK news",
             "image": "https://i.guim.co.uk/img/media/90cf3f19b9fc08e95255e8a11a0904fe1ab5dfd6/0_0_6351_5081/master/6351.jpg?width=140&quality=85&auto=format&fit=max&s=6dddd3b05de7089e8cfd530bc4cf990a"
-          },
-          {
-            "title": "The Guardian view on Israeli settlements: Britain can no longer look away | Editorial",
-            "link": "https://www.theguardian.com/commentisfree/2026/sep/02/the-guardian-view-on-israeli-settlements-britain-can-no-longer-look-away",
-            "published": "Wed, 02 Sep 2026 17:29:38 GMT",
-            "source": "The Guardian",
-            "categories": "Israel West Bank Palestine Middle East and north Africa Ed Miliband Politics UK news World news",
-            "image": "https://i.guim.co.uk/img/media/a70231d013087d29e2a1de62b01d7d6c65cf500a/416_0_4156_3324/master/4156.jpg?width=140&quality=85&auto=format&fit=max&s=e0360a879e574dc873251726bcb2868b"
           }
         ],
         "BUSINESS": [
           {
             "title": "Bond market turmoil eases across Europe; UK service sector growth jumps – business live",
             "link": "https://www.theguardian.com/business/live/2026/sep/03/uk-mortgage-rates-set-to-rise-bond-sell-off-borrowing-costs-latest-news-updates",
-            "published": "Thu, 03 Sep 2026 14:39:24 GMT",
+            "published": "Thu, 03 Sep 2026 15:56:50 GMT",
             "source": "The Guardian",
             "categories": "Business Economics Stock markets Mortgage rates",
             "image": "https://i.guim.co.uk/img/media/dec78de4dde1c7a8e455a1c0ae22063ce7128983/1002_0_4557_3646/master/4557.jpg?width=140&quality=85&auto=format&fit=max&s=5f6ad7bbe7e5b1f180cc5687899361cc"
+          },
+          {
+            "title": "CBS brings back Norah O’Donnell to co-anchor morning show amid ratings challenges",
+            "link": "https://www.theguardian.com/media/2026/sep/03/cbs-norah-odonnell-morning-show",
+            "published": "Thu, 03 Sep 2026 14:57:09 GMT",
+            "source": "The Guardian",
+            "categories": "CBS Media US television industry Business",
+            "image": "https://i.guim.co.uk/img/media/513c75a832929543c2b447435f20dbce57400e91/252_0_2501_2000/master/2501.jpg?width=140&quality=85&auto=format&fit=max&s=2237abc80d22183900a99c51b9104f89"
           },
           {
             "title": "Dutch central bank moves 86 tonnes of gold to UK from US and Canada, citing ‘geopolitical unrest’",
@@ -809,14 +817,6 @@
             "source": "The Guardian",
             "categories": "US news Canada US economy Trump tariffs Donald Trump Trump administration Business Economics Americas US politics International trade",
             "image": "https://i.guim.co.uk/img/media/17ce014c4db5f3bebe24623ab3ea6c719481a4c8/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=806f0699d02caa1891933fd6ee5457dc"
-          },
-          {
-            "title": "‘Revenge of the Rust belt’: Starbucks film-maker on Baristas vs Billionaires",
-            "link": "https://www.theguardian.com/business/2026/aug/31/starbucks-documentary-baristas-billionaires",
-            "published": "Mon, 31 Aug 2026 11:00:24 GMT",
-            "source": "The Guardian",
-            "categories": "Starbucks US unions Susan Sarandon Alec Baldwin Documentary films Film Business Culture US news",
-            "image": "https://i.guim.co.uk/img/media/05d5e661a90dc5599668291e6e5d1bdc0db60f33/0_186_3658_2927/master/3658.jpg?width=140&quality=85&auto=format&fit=max&s=e99227fd3072f3ae9dbbb0215ecbb465"
           },
           {
             "title": "Summer box office 2026: what can we learn from the hits and misses?",
@@ -919,6 +919,22 @@
             "image": "https://i.guim.co.uk/img/media/40b70b8f5b6aa7ba38af77c2ac99e035c0c765db/0_68_5256_3154/master/5256.jpg?width=140&quality=85&auto=format&fit=max&s=e8628ceb5f5f6c6e51c07a56e0a5e345"
           },
           {
+            "title": "Bucking Fastard review – Herzog’s starry twins soap provokes a syncing feeling",
+            "link": "https://www.theguardian.com/film/2026/sep/03/bucking-fastard-review-werner-herzog-rooney-kate-mara-chaplin-sisters",
+            "published": "Thu, 03 Sep 2026 15:00:41 GMT",
+            "source": "The Guardian",
+            "categories": "Film Venice film festival Werner Herzog Rooney Mara Kate Mara Domhnall Gleeson York Ireland Culture Europe Festivals UK news World news",
+            "image": "https://i.guim.co.uk/img/media/53104fe19e0d47cffed48247933dbc592ea18b33/289_0_2524_2019/master/2524.jpg?width=140&quality=85&auto=format&fit=max&s=b6bb4990492e0c0b93343683087fe451"
+          },
+          {
+            "title": "The Bayeux tapestry: a stupefying, thrilling, horrifying masterpiece that shakes the earth",
+            "link": "https://www.theguardian.com/artanddesign/2026/sep/03/the-bayeux-tapestry-british-museum-london",
+            "published": "Thu, 03 Sep 2026 14:51:33 GMT",
+            "source": "The Guardian",
+            "categories": "Art Art and design Culture British Museum Bayeux tapestry",
+            "image": "https://i.guim.co.uk/img/media/5b2607fbcf821a8dbd5807b30a9546f02f13e9f6/190_0_4109_3289/master/4109.jpg?width=140&quality=85&auto=format&fit=max&s=a56ff5fbe1fb0a731c3b616fc5d3400f"
+          },
+          {
             "title": "Adéla: Prima review – Slovakian star smashes the fourth wall to bask in pop’s cynicism and seduction",
             "link": "https://www.theguardian.com/music/2026/sep/03/adela-prima-review-polydor",
             "published": "Thu, 03 Sep 2026 14:30:40 GMT",
@@ -973,22 +989,6 @@
             "source": "The Guardian",
             "categories": "Josh Homme Music Culture Pop and rock Queens of the Stone Age Johnny Depp #MeToo movement",
             "image": "https://i.guim.co.uk/img/media/05bc4653c24fae3a851d5f0bd6012923884e77b4/483_0_4820_3857/master/4820.jpg?width=140&quality=85&auto=format&fit=max&s=cf88d21dcfd5a35deca42fcfe09194c2"
-          },
-          {
-            "title": "‘Ruin and decay bring a chance of rebirth’: Hidetaka Miyazaki on uniting players in a damaged world",
-            "link": "https://www.theguardian.com/games/2026/sep/03/ruin-and-decay-bring-a-chance-of-rebirth-hidetaka-miyazaki-on-uniting-players-in-a-damaged-world",
-            "published": "Thu, 03 Sep 2026 09:00:49 GMT",
-            "source": "The Guardian",
-            "categories": "Games Action games Role playing games Culture",
-            "image": "https://i.guim.co.uk/img/media/4cd43c05da6411031980708d64226e8d284d632b/474_181_1122_899/master/1122.jpg?width=140&quality=85&auto=format&fit=max&s=65c62f92c25204bc616c36c8492d310a"
-          },
-          {
-            "title": "Quidditch, Muggles, magic: new Harry Potter trailer gives full look at TV show",
-            "link": "https://www.theguardian.com/tv-and-radio/2026/sep/02/harry-potter-hbo-tv-show-trailer",
-            "published": "Wed, 02 Sep 2026 16:23:37 GMT",
-            "source": "The Guardian",
-            "categories": "Harry Potter TV series Television & radio Culture Harry Potter Books HBO John Lithgow JK Rowling Television",
-            "image": "https://i.guim.co.uk/img/media/c4f5de8ae476eec4f875c88cb8b714b4cc1be166/394_0_1350_1081/master/1350.jpg?width=140&quality=85&auto=format&fit=max&s=d5a8c4bba5f5eba6a7df4b45ef8925c9"
           }
         ]
       }
@@ -997,11 +997,19 @@
       "categories": {
         "UK": [
           {
+            "title": "Man accused of stealing £137,000 watch says he was threatened with being ‘set on fire’",
+            "link": "https://metro.co.uk/2026/09/03/man-accused-stealing-137-000-watch-says-threatened-set-fire-29528058/",
+            "published": "Thu, 03 Sep 2026 15:25:16 +0000",
+            "source": "Metro",
+            "categories": "News UK Court Crime News",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_309496436-421e.jpg?quality=90&strip=all&w=646"
+          },
+          {
             "title": "Moment boy racer crashes into garden – seconds after seriously injuring 74-year-old man",
             "link": "https://metro.co.uk/2026/09/03/moment-boy-racer-crashes-garden-seconds-seriously-injuring-man-29527837/",
             "published": "Thu, 03 Sep 2026 15:04:19 +0000",
             "source": "Metro",
-            "categories": "News UK Hertfordshire",
+            "categories": "News UK Crash Hertfordshire",
             "image": "https://metro.co.uk/wp-content/uploads/2026/09/111032349-0-image-a-14_1788446549061.jpg?quality=90&strip=all&w=636"
           },
           {
@@ -1067,14 +1075,6 @@
             "source": "Metro",
             "categories": "News World Climate Change Flood Heatwave UK weather Weather",
             "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310517948-0143.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Hidden health risk to children from the hottest summer on record",
-            "link": "https://metro.co.uk/2026/09/03/hidden-health-risk-children-hottest-summer-record-29526227/",
-            "published": "Thu, 03 Sep 2026 12:46:07 +0000",
-            "source": "Metro",
-            "categories": "News UK Children Greg Rutherford Health Advice Health News Heatwave Summer",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/55489090163_6a76a63c1d_o-9a12.jpg?quality=90&strip=all&w=646"
           }
         ],
         "WORLD": [
@@ -1149,14 +1149,6 @@
             "source": "Metro",
             "categories": "News World India Russia Russia-Ukraine war Vladimir Putin",
             "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310162342-1d0a.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Mum who killed 11-month-old son said it was ‘worth it’ to deny ex getting custody",
-            "link": "https://metro.co.uk/2026/09/03/mum-killed-11-month-old-son-said-worth-it-deny-ex-getting-custody-29526214/",
-            "published": "Thu, 03 Sep 2026 13:54:22 +0000",
-            "source": "Metro",
-            "categories": "News US Crime News United States of America",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310509570-218e.jpg?quality=90&strip=all&w=646"
           }
         ],
         "POLITICS": [
@@ -1325,23 +1317,55 @@
         ],
         "TECH": [
           {
+            "title": "Final Fantasy 7 Revelation confirms April release date and story DLC",
+            "link": "https://metro.co.uk/2026/09/03/final-fantasy-7-revelation-confirms-april-release-date-story-dlc-29528488/",
+            "published": "Thu, 03 Sep 2026 15:30:15 +0000",
+            "source": "Metro",
+            "categories": "Entertainment Gaming Final Fantasy Games news Nintendo Switch 2 PC Games PlayStation 5 Xbox Series X",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310544990-691e.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Internet introjection is the worrying phenomenon every parent should know about",
+            "link": "https://metro.co.uk/2026/09/03/internet-introjection-worrying-phenomenon-every-parent-know-29526848/",
+            "published": "Thu, 03 Sep 2026 15:14:16 +0000",
+            "source": "Metro",
+            "categories": "Families Lifestyle Children Parenting Social Media Teenager",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310543638-74c0.jpg?quality=90&strip=all&w=646"
+          },
+          {
             "title": "GTA 6 on PS5 gets an exclusive controller you can buy next week",
             "link": "https://metro.co.uk/2026/09/03/gta-6-ps5-gets-exclusive-controller-can-buy-next-week-29528106/",
             "published": "Thu, 03 Sep 2026 14:32:29 +0000",
             "source": "Metro",
             "categories": "Entertainment Gaming Games news GTA 6 PlayStation 5 Sony",
             "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310538140-dea7.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Londoners can hail a limited Uber Wayve robotaxi after new trial starts",
-            "link": "https://metro.co.uk/2026/09/03/londoners-can-hail-a-limited-uber-wayve-robotaxi-new-trial-starts-29527627/",
-            "published": "Thu, 03 Sep 2026 13:57:28 +0000",
-            "source": "Metro",
-            "categories": "News UK Department for Transport London Transport for London Travel News Uber",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310531765-45a8.jpg?quality=90&strip=all&w=646"
           }
         ],
         "ENTERTAINMENT": [
+          {
+            "title": "Joe Lycett thought he wouldn’t get on with ‘certain people’ on Celebrity Traitors",
+            "link": "https://metro.co.uk/2026/09/03/joe-lycett-thought-wouldnt-get-certain-people-celebrity-traitors-29528471/",
+            "published": "Thu, 03 Sep 2026 15:57:30 +0000",
+            "source": "Metro",
+            "categories": "Entertainment TV BBC Celebrity Traitors Joe Lycett",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_309658894-9aaa.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Orlando Bloom isn’t a teen heartthrob anymore – he’s a ‘bucking fastard’",
+            "link": "https://metro.co.uk/2026/09/03/orlando-bloom-isnt-a-teen-heartthrob-anymore-a-bucking-fastard-29528758/",
+            "published": "Thu, 03 Sep 2026 15:35:39 +0000",
+            "source": "Metro",
+            "categories": "Entertainment Film Orlando Bloom",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310545898-6737.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Dolly Parton’s niece reveals sweet reason singer kept cancer battle private",
+            "link": "https://metro.co.uk/2026/09/03/dolly-partons-niece-reveals-sweet-reason-singer-kept-cancer-battle-private-29526820/",
+            "published": "Thu, 03 Sep 2026 15:14:42 +0000",
+            "source": "Metro",
+            "categories": "Entertainment Showbiz Cancer Celebrity Deaths Dolly Parton US Showbiz news",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/08/SEI_309741578-bf9e.jpg?quality=90&strip=all&w=646"
+          },
           {
             "title": "Disgraced Thick of It actor Chris Langham dies aged 77",
             "link": "https://metro.co.uk/2026/09/03/disgraced-thick-actor-chris-langham-dies-aged-77-29527158/",
@@ -1397,30 +1421,6 @@
             "source": "Metro",
             "categories": "Entertainment Showbiz Perez Hilton US Showbiz news",
             "image": "https://metro.co.uk/wp-content/uploads/2026/08/SEI_307521259-7f18.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Race Across The World winner reveals he no longer talks to family after feud ‘boiled over’",
-            "link": "https://metro.co.uk/2026/09/03/race-across-world-winner-reveals-no-longer-talks-family-feud-boiled-over-29524959/",
-            "published": "Thu, 03 Sep 2026 08:55:38 +0000",
-            "source": "Metro",
-            "categories": "Entertainment TV BBC Race Across The World Reality TV",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310497118-b091.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Stacey Solomon and Joe Swash to leave £1,300,000 Pickle Cottage mansion ‘imminently’",
-            "link": "https://metro.co.uk/2026/09/03/stacey-solomon-joe-swash-leave-1-300-000-pickle-cottage-mansion-imminently-29524521/",
-            "published": "Thu, 03 Sep 2026 08:25:02 +0000",
-            "source": "Metro",
-            "categories": "Entertainment Showbiz Joe Swash Stacey Solomon",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_139734971-8e41.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Jeremy Clarkson backs new Grand Tour despite fans calling it ‘one of TV’s greatest downfalls’",
-            "link": "https://metro.co.uk/2026/09/03/jeremy-clarkson-backs-new-grand-tour-despite-fans-calling-one-tvs-greatest-downfalls-29524428/",
-            "published": "Thu, 03 Sep 2026 08:16:30 +0000",
-            "source": "Metro",
-            "categories": "Entertainment TV Amazon Prime Video Grand Tour Jeremy Clarkson",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310414097-0620.jpg?quality=90&strip=all&w=646"
           }
         ]
       }
@@ -1437,7 +1437,7 @@
         "image": "https://e3.365dm.com/26/08/1920x1080/skynews-andy-burnham-john-healey_7326772.jpg?20260820173917"
       },
       {
-        "title": "Teenager sentenced for stabbing teacher in the head",
+        "title": "Schoolboy who stabbed teacher in the head sentenced",
         "link": "https://news.sky.com/story/pupil-who-stabbed-teacher-in-the-head-in-pembrokeshire-wales-sentenced-13580857",
         "published": "Thu, 03 Sep 2026 14:24:00 +0100",
         "source": "Sky News",
@@ -1451,6 +1451,14 @@
         "source": "Sky News",
         "categories": "",
         "image": "https://e3.365dm.com/26/09/1920x1080/skynews-jakub-matusiak-jacob-matusiak_7339672.jpg?20260903105420"
+      },
+      {
+        "title": "'Hitchhiking' mosquitoes that can transmit dengue and Zika virus found breeding in UK",
+        "link": "https://news.sky.com/story/hitchhiking-mosquitoes-that-can-transmit-dengue-and-zika-virus-found-breeding-in-uk-13580900",
+        "published": "Thu, 03 Sep 2026 15:49:00 +0100",
+        "source": "Sky News",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-mosquito-insect_7340030.jpg?20260903161551"
       },
       {
         "title": "Current El Nino extreme weather phenomenon will be 'exceptional', say forecasters",
@@ -1499,19 +1507,11 @@
         "source": "Sky News",
         "categories": "",
         "image": "https://e3.365dm.com/26/09/1920x1080/skynews-jatinder-kaur-satwant-singh_7339686.jpg?20260903110838"
-      },
-      {
-        "title": "Sewage dumped into English waters for more than 43,000 hours over summer",
-        "link": "https://news.sky.com/story/sewage-dumped-into-english-waters-for-more-than-43000-hours-over-summer-13580484",
-        "published": "Thu, 03 Sep 2026 07:20:00 +0100",
-        "source": "Sky News",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-sewage-pollution_7339136.jpg?20260902190101"
       }
     ],
     "WORLD": [
       {
-        "title": "About 80 confirmed dead after migrant boat gets into difficulty off Gran Canaria",
+        "title": "About 80 dead in migrant boat tragedy",
         "link": "https://news.sky.com/story/about-80-confirmed-dead-after-migrant-boat-gets-into-difficulty-off-gran-canaria-13580794",
         "published": "Thu, 03 Sep 2026 12:01:00 +0100",
         "source": "Sky News",
@@ -1863,7 +1863,7 @@
         "image": "https://e3.365dm.com/26/09/1920x1080/skynews-sunday-mornings_7338664.jpg?20260902122708"
       },
       {
-        "title": "How former gang leader was convicted thanks to his own book",
+        "title": "How former gang leader was convicted of Tupac's murder thanks to his own book",
         "link": "https://news.sky.com/story/how-the-former-gang-leader-who-orchestrated-tupac-shakurs-murder-talked-himself-into-prison-13578651",
         "published": "Mon, 31 Aug 2026 17:17:00 +0100",
         "source": "Sky News",
@@ -1877,14 +1877,6 @@
         "source": "Sky News",
         "categories": "",
         "image": "https://e3.365dm.com/26/08/1920x1080/skynews-dolly-parton-hollywood_7336685.jpg?20260831161005"
-      },
-      {
-        "title": "Met Gala exhibition honouring John Galliano cancelled after backlash over past antisemitic comments",
-        "link": "https://news.sky.com/story/met-gala-exhibition-honouring-john-galliano-cancelled-after-backlash-over-past-antisemitic-comments-13579552",
-        "published": "Mon, 31 Aug 2026 19:20:00 +0100",
-        "source": "Sky News",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/08/1920x1080/skynews-john-galliano-met-gala_7336908.jpg?20260831205308"
       },
       {
         "title": "'No chance' Meghan's possible return to acting was reason for Sussexes' move - industry insiders",
@@ -1917,6 +1909,14 @@
         "source": "Sky News",
         "categories": "",
         "image": "https://e3.365dm.com/26/03/1920x1080/skynews-jenni-murray-broadcaster_7198517.jpg?20260320181629"
+      },
+      {
+        "title": "Actor Tim Curry has died",
+        "link": "https://news.sky.com/story/actor-tim-curry-who-starred-in-the-rocky-horror-picture-show-has-died-13577457",
+        "published": "Wed, 26 Aug 2026 16:36:00 +0100",
+        "source": "Sky News",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/08/1920x1080/skynews-tim-curry-actor_7331989.jpg?20260826164855"
       }
     ]
   }
