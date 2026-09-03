@@ -3,7 +3,7 @@ import fs from 'node:fs/promises';
 const BOOKS_URL='https://www.lovereading.co.uk/genres/lrt10/uk-top-10-books';
 const AUDIO_URL='https://www.audible.co.uk/charts/best';
 const headers={
-  'User-Agent':'Mozilla/5.0 (compatible; WozzaRead/6.1.2; +https://github.com/)',
+  'User-Agent':'Mozilla/5.0 (compatible; WozzaRead/6.1.3; +https://github.com/)',
   'Accept':'text/html,application/xhtml+xml'
 };
 
@@ -108,19 +108,20 @@ async function secondaryCover(row,kind){
   }catch{return ''}
 }
 
-async function enrichImages(rows,kind){
-  return Promise.all(rows.map(async row=>{
-    if(!row.url) return row;
-    try{
-      const page=await html(row.url);
-      let image=productCover(page,row.url,row.title,kind);
-      if(!image) image=await secondaryCover(row,kind);
-      return {...row,image};
-    }catch(e){
-      console.warn(`cover lookup failed for ${row.title}: ${e.message}`);
-      return {...row,image:await secondaryCover(row,kind)};
-    }
-  }));
+async function tertiaryCover(row){
+  try{
+    const q=new URLSearchParams({title:row.title||'',author:row.author||'',limit:'10',fields:'title,author_name,cover_i'});
+    const r=await fetch(`https://openlibrary.org/search.json?${q}`,{headers:{'User-Agent':headers['User-Agent']}});
+    if(!r.ok)return '';
+    const j=await r.json();
+    const hit=(j.docs||[]).find(x=>normText(x.title)===normText(row.title) && x.cover_i && (!row.author||(x.author_name||[]).some(a=>normText(a)===normText(row.author))));
+    return hit?.cover_i?`https://covers.openlibrary.org/b/id/${hit.cover_i}-L.jpg`:'';
+  }catch{return ''}
+}
+async function primaryCover(row,kind){
+  if(!row.url)return row.image||'';
+  try{const page=await html(row.url);return productCover(page,row.url,row.title,kind)||row.image||''}
+  catch(e){console.warn(`primary cover lookup failed for ${row.title}: ${e.message}`);return row.image||''}
 }
 
 function booksFromHtml(src){
@@ -187,14 +188,18 @@ for(const [key,url,parser] of [['BOOKS',BOOKS_URL,booksFromHtml],['AUDIOBOOKS',A
   try{
     let rows=parser(await html(url));
     if(rows.length!==10||rows.some(x=>!x.title)) throw Error(`expected exactly 10 ranked titles, got ${rows.length}`);
-    rows=await enrichImages(rows,key);
-    // Never let a failed cover refresh erase artwork we already verified for the same title/author.
     const oldRows=previous?.charts?.[key]||[];
-    rows=rows.map(row=>{
-      if(row.image) return row;
-      const old=oldRows.find(x=>normText(x.title)===normText(row.title) && (!row.author||!x.author||normText(x.author)===normText(row.author)));
-      return old?.image?{...row,image:old.image}:row;
-    });
+    rows=await Promise.all(rows.map(async row=>{
+      // New verified primary -> existing known-good -> verified secondary -> strict tertiary.
+      let image=await primaryCover(row,key);
+      if(!image){
+        const old=oldRows.find(x=>normText(x.title)===normText(row.title) && (!row.author||!x.author||normText(x.author)===normText(row.author)));
+        image=old?.image||'';
+      }
+      if(!image)image=await secondaryCover(row,key);
+      if(!image)image=await tertiaryCover(row);
+      return {...row,image};
+    }));
     rows=rows.map(({url:_,...x})=>x);
     next.charts[key]=rows;
     changed=true;

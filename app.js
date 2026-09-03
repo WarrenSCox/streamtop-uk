@@ -85,6 +85,13 @@ async function fetchRankings() {
   throw lastError || new Error('Ranking feed could not be loaded');
 }
 
+
+function animateActiveSelector(){
+  const b=document.querySelector('.segmented button.active');
+  if(!b||matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+  b.classList.remove('wozza-tab-animate');void b.offsetWidth;b.classList.add('wozza-tab-animate');
+  setTimeout(()=>b.classList.remove('wozza-tab-animate'),760);
+}
 function syncControls({scroll = true} = {}) {
   const buttons = [...document.querySelectorAll('.service-tab')];
   buttons.forEach(button => button.classList.toggle('active', button.dataset.service === state.service.id));
@@ -142,6 +149,7 @@ function setContentType(type) {
   state.type = type;
   syncControls({scroll:false});
   renderCurrent();
+  animateActiveSelector();
   return true;
 }
 
@@ -487,6 +495,7 @@ document.querySelectorAll('.segmented button').forEach(button => {
     state.type = button.dataset.type;
     syncControls({scroll:false});
     renderCurrent();
+    animateActiveSelector();
   });
 });
 
@@ -556,26 +565,7 @@ initBottomFlickSwitch('my-list.html');
 
 
 
-// v5.3.32 — after four quiet seconds, alternate the two selector icons every four seconds.
-function initIdleGestureHint(){
-  const selector=document.querySelector('.segmented');
-  if(!selector||window.matchMedia('(prefers-reduced-motion: reduce)').matches)return;
-  let timer=null,step=0;
-  const clearClasses=()=>selector.classList.remove('idle-hint-first','idle-hint-second');
-  const stop=()=>{if(timer)clearTimeout(timer);timer=null;clearClasses()};
-  const play=()=>{
-    clearClasses();void selector.offsetWidth;
-    selector.classList.add(step%2===0?'idle-hint-first':'idle-hint-second');
-    step++;
-    timer=setTimeout(play,4000);
-  };
-  const arm=()=>{stop();step=0;timer=setTimeout(play,4000)};
-  ['pointerdown','touchstart','keydown','wheel'].forEach(name=>document.addEventListener(name,arm,{passive:true}));
-  document.addEventListener('visibilitychange',()=>{if(document.hidden)stop();else arm()});
-  arm();
-}
-initIdleGestureHint();
-
+// v6.1.3 — selector icons animate only from user selection/navigation.
 // v5.3.32 — aggressively adopt new PWA releases without an update popup.
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', async () => {

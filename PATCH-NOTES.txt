@@ -1,26 +1,15 @@
-WozzaWatch v6.1.1 — Refresh Button Removal CR
+WozzaWatch v6.1.3 — Interaction + Watchlist restoration CR
 
-- Removed REFRESH STATS from the All Wozzas / extra menu on every page.
-- The previous button only opened GitHub Actions; it did not force a refresh from inside WozzaWatch.
-- No fake/manual refresh control remains in the app.
-- A true in-app forced refresh would require a secure server-side trigger; no GitHub token is exposed client-side.
-- All other v6.1.0 Read Polish CR features remain unchanged.
-
-Previous v6.1.0 notes follow:
-
-WozzaWatch v6.1.0 — Read Polish CR Pack
-
-DONE
-- WozzaRead source badge in the normal chart-heading position:
-  Books = STATS FROM LOVEREADING; Audiobooks = STATS FROM AUDIBLE.
-- Animated Read controls: book page flip; audiobook wire wiggle. Reduced-motion respected.
-- Stronger missing-cover recovery for BOTH Books and Audiobooks:
-  exact primary product artwork first, then strict title-matched Google Books (books) / Apple audiobook artwork (audio), then W fallback.
-- Books can now be added to the existing Watchlist with the googly-eyes control.
-- Watchlist gains a third Books tab and book counts. Book removal does not send books into the film/TV Watched pile.
-- WozzaRead double-tap and swipe toggle Books <-> Audiobooks; links/buttons remain protected.
-- All Wozzas menu gains REFRESH STATS, taking you straight to the repository's manual Update WozzaWatch rankings workflow without exposing a GitHub token.
-
-NOT BUNDLED / SAFETY NOTE
-- HBO 403 resilience is NOT replacing update-data.mjs in this patch because the v6.0.2 patch archive did not contain the current live updater. Bundling an older Library copy would regress the newer Prime/HBO work. Keep the repository's current update-data.mjs unchanged for this upload.
-- Customisable menus deliberately excluded per CR.
+- Restored the original organic Watched eye pile layout and its nervous glance, blink, eye-pop, falling-eyes and pile-bump behaviours.
+- Re-centred the eye pile over WATCHED/count.
+- Restored hold-to-drag Watchlist ranking with live row movement and persisted order.
+- Watchlist double-tap cycles Movies -> TV Shows -> Books -> Movies only; Watched is excluded.
+- Watched selector is locked to one horizontal row.
+- Removed four-second idle selector animations; selector icons animate only when selected/navigated.
+- WozzaRead uses the exact Watchlist book icon and shared page-flip animation.
+- Reworked wired-earbud animation so the buds stay fixed and the wire sways smoothly.
+- WozzaRead source badge sits right of the heading on the same row wherever practical without overlap.
+- Cover chain is now primary verified cover -> existing known-good cover -> secondary verified source -> strict Open Library fallback -> W.
+- Cover fallback applies to Books and Audiobooks.
+- WozzaRead Books and Audiobooks can share the Watchlist Books bucket and archive into Watched.
+- No refresh button added.

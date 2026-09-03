@@ -695,7 +695,7 @@ html,body,body *{-webkit-user-select:none;user-select:none;-webkit-touch-callout
 .my-list-page .book-list-icon{width:38px;height:38px}
 @media(max-width:560px){.read-page .read-row.has-watch-toggle{grid-template-columns:38px 52px minmax(0,1fr) 39px}.read-page .read-chart-heading{gap:6px}.read-page .read-chart-heading .source-badge{font-size:7px;padding:6px 7px}}
 @media(prefers-reduced-motion:reduce){.read-tab.read-animate .book-page-flip,.read-tab.read-animate .audio-wire{animation:none!important}}
-/* v6.1.2 Watchlist/Watched/Read polish */
+/* v6.1.3 Watchlist/Watched/Read polish */
 .provider-line{display:block!important;margin-top:4px!important;line-height:1.15!important}
 .my-list-page .segmented.three-way,.watched-page .segmented.three-way{grid-template-columns:repeat(3,1fr)!important}
 .my-list-page .chart-item.drag-over{box-shadow:inset 0 3px 0 var(--brick)}
@@ -704,3 +704,46 @@ html,body,body *{-webkit-user-select:none;user-select:none;-webkit-touch-callout
 .read-page .read-chart-heading{grid-template-columns:minmax(0,1fr)!important;align-items:start!important}.read-page .read-chart-heading .source-badge{justify-self:start;margin-top:7px;max-width:100%}.read-page .read-chart-heading h2{white-space:normal!important;line-height:1.02!important}
 @media(min-width:700px){.read-page .read-chart-heading{grid-template-columns:minmax(0,1fr) auto!important;align-items:center!important}.read-page .read-chart-heading .source-badge{justify-self:end;margin-top:0}}
 @media(prefers-reduced-motion:reduce){.icon-toggle.wozza-tab-animate .clapper-top,.icon-toggle.wozza-tab-animate .remote-icon,.icon-toggle.wozza-tab-animate .book-list-icon{animation:none!important}}
+
+/* v6.1.3 — interaction-driven selector motion + restored Watchlist soul */
+/* No selector icon animates on an idle timer. */
+.segmented.idle-hint-first .clapper-top,
+.segmented.idle-hint-second button[data-type="SHOW"] .remote-icon,
+.tune-page .segmented.idle-hint-first button[data-type="SINGLE"] img,
+.tune-page .segmented.idle-hint-second button[data-type="ALBUM"] img{animation:none!important}
+
+/* One-line three-way controls on Watchlist + Watched, including mobile. */
+.my-list-page .segmented.three-way,.watched-page .segmented.three-way{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr))!important;width:100%!important}
+.my-list-page .segmented.three-way button,.watched-page .segmented.three-way button{min-width:0!important}
+
+/* Re-centre the original wide organic eye heap above its label. */
+.my-list-page .watched-pile{display:block;position:relative;width:min(244px,82vw);height:104px;margin:20px auto 0!important;left:auto!important;right:auto!important;transform:none!important}
+.my-list-page .watched-pile.hidden{display:none!important}
+.my-list-page .watched-pile-eyes{left:0;right:0;top:0;height:76px;overflow:visible}
+@media(max-width:560px){.my-list-page .watched-pile{width:min(232px,86vw);margin:15px auto 0!important}}
+
+/* Shared book animation: Read uses the exact Watchlist book icon and motion. */
+.book-list-icon .book-page-flip{transform-box:fill-box;transform-origin:right center}
+.icon-toggle.wozza-tab-animate .book-list-icon .book-page-flip,
+.read-tab.read-animate .book-list-icon .book-page-flip{animation:wl-book-page .62s cubic-bezier(.25,.75,.25,1)}
+@keyframes wl-book-page{0%,100%{transform:scaleX(1) skewY(0);opacity:1}45%{transform:scaleX(.08) skewY(-5deg);opacity:.75}55%{transform:scaleX(.08) skewY(5deg);opacity:.75}}
+
+/* Reworked wired-earbud motion: buds stay fixed; only cable makes a small smooth sway. */
+.read-audio-icon .audio-wire{transform-box:view-box;transform-origin:32px 28px;will-change:transform}
+.read-tab.read-animate .audio-wire{animation:wozza-wire-sway .72s cubic-bezier(.36,.07,.19,.97)}
+@keyframes wozza-wire-sway{0%,100%{transform:translateX(0)}22%{transform:translateX(1.5px)}48%{transform:translateX(-1.25px)}72%{transform:translateX(.7px)}}
+
+/* Selection-only animation for WozzaWatch/WozzaTune controls. */
+.icon-toggle.wozza-tab-animate .clapper-top{animation:wl-clap .55s ease}
+.icon-toggle.wozza-tab-animate .remote-icon{animation:wl-remote .55s ease}
+.tune-page .icon-toggle.wozza-tab-animate[data-type="SINGLE"] img{animation:music-note-wiggle .7s ease-in-out}
+.tune-page .icon-toggle.wozza-tab-animate[data-type="ALBUM"] img{animation:vinyl-idle-spin .8s ease-in-out}
+
+/* Read heading: same row wherever practical, with guarded sizing so badge never overlaps. */
+.read-page .read-chart-heading{display:grid!important;grid-template-columns:minmax(0,1fr) auto!important;align-items:center!important;gap:12px!important}
+.read-page .read-chart-heading h2{min-width:0!important;white-space:nowrap!important;font-size:clamp(18px,4.2vw,32px)!important;line-height:1!important}
+.read-page .read-chart-heading .source-badge{justify-self:end!important;margin-top:0!important;max-width:100%!important;white-space:nowrap!important}
+@media(max-width:390px){.read-page .read-chart-heading{gap:7px!important;padding-left:12px!important;padding-right:12px!important}.read-page .read-chart-heading h2{font-size:clamp(16px,5.3vw,21px)!important}.read-page .read-chart-heading .source-badge{font-size:6.5px!important;padding:5px 6px!important}}
+@media(max-width:320px){.read-page .read-chart-heading{grid-template-columns:minmax(0,1fr)!important}.read-page .read-chart-heading .source-badge{justify-self:start!important;margin-top:5px!important}}
+
+@media(prefers-reduced-motion:reduce){.read-tab.read-animate .audio-wire,.read-tab.read-animate .book-list-icon .book-page-flip,.tune-page .icon-toggle.wozza-tab-animate img{animation:none!important}}
