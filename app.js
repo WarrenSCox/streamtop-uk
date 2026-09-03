@@ -313,6 +313,15 @@ function writeWatched(items){localStorage.setItem(WATCHED_KEY,JSON.stringify(ite
 function itemMediaType(item){const raw=String(item?.type||state.type||'MOVIE').toUpperCase();return raw==='SHOW'||raw==='SERIES'||raw==='TV'?'SHOW':'MOVIE'}
 function watchId(item){return `${state.service.id}|${itemMediaType(item)}|${String(item.title||'').trim().toLowerCase()}`}
 function isSaved(item){const id=watchId(item),title=String(item.title||'').trim().toLowerCase();return readWatchList().some(x=>x.id===id||(x.serviceId===state.service.id&&String(x.title||'').trim().toLowerCase()===title))}
+function isWatchedAlready(item){
+  const title=String(item?.title||'').trim().toLowerCase(),type=itemMediaType(item);
+  return readWatched().some(x=>{
+    const xt=String(x?.title||'').trim().toLowerCase();
+    const raw=String(x?.type||'MOVIE').toUpperCase();
+    const xType=raw==='SHOW'||raw==='SERIES'||raw==='TV'?'SHOW':'MOVIE';
+    return xt===title&&xType===type;
+  });
+}
 function archiveWatched(item){const watched=readWatched().filter(x=>x.id!==item.id);watched.unshift({...item,watchedAt:new Date().toISOString()});writeWatched(watched)}
 function youtubeTrailerUrl(title){return `https://www.youtube.com/results?search_query=${encodeURIComponent(`${title||''} trailer`)}`}
 function eyesMarkup(){return '<span class="watch-eyes" aria-hidden="true"><span class="watch-eye"><span class="watch-pupil"></span></span><span class="watch-eye"><span class="watch-pupil"></span></span></span>'}
@@ -381,6 +390,13 @@ function renderTitles(titles) {
     title.textContent = item.title || 'Untitled';
 
     info.append(title);
+    if (isWatchedAlready(item)) {
+      const seen = document.createElement('span');
+      seen.className = 'seen-already';
+      seen.textContent = 'seen already';
+      seen.setAttribute('aria-label', 'You have already watched this');
+      info.append(seen);
+    }
     const watch = document.createElement('button');
     const saved = isSaved(item);
     watch.type = 'button';

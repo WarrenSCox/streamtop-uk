@@ -4,7 +4,7 @@ import crypto from 'node:crypto';
 const BOOKS_URL='https://www.lovereading.co.uk/genres/lrt10/uk-top-10-books';
 const AUDIO_URL='https://www.audible.co.uk/charts/best';
 const headers={
-  'User-Agent':'Mozilla/5.0 (compatible; WozzaRead/6.2.20; +https://github.com/)',
+  'User-Agent':'Mozilla/5.0 (compatible; WozzaRead/6.2.21; +https://github.com/)',
   'Accept':'text/html,application/xhtml+xml'
 };
 
@@ -83,6 +83,48 @@ function metaImage(src,base){
 function normText(s){
   return decode(s).toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
 }
+
+const googleResponseCache=new Map();
+let googleLastRequestAt=0;
+const sleep=ms=>new Promise(resolve=>setTimeout(resolve,ms));
+
+async function googleJson(url,{diag=false}={}){
+  if(googleResponseCache.has(url)) return googleResponseCache.get(url);
+
+  const task=(async()=>{
+    const maxAttempts=4;
+    for(let attempt=0;attempt<maxAttempts;attempt++){
+      const wait=Math.max(0,900-(Date.now()-googleLastRequestAt));
+      if(wait) await sleep(wait);
+      googleLastRequestAt=Date.now();
+
+      const r=await fetch(url,{headers:{
+        'User-Agent':headers['User-Agent'],
+        'Accept':'application/json'
+      }});
+      if(diag) console.log(`[COVER-DIAG] Google request attempt ${attempt+1}/${maxAttempts}: ${url} -> HTTP ${r.status}`);
+
+      if(r.ok) return await r.json();
+
+      if(r.status===429 || r.status>=500){
+        const retryAfter=Number(r.headers.get('retry-after')||0);
+        const backoff=retryAfter>0 ? retryAfter*1000 : Math.min(8000,1000*(2**attempt));
+        console.warn(`Google Books HTTP ${r.status}; retrying after ${backoff}ms`);
+        if(attempt<maxAttempts-1){
+          await sleep(backoff);
+          continue;
+        }
+      }
+      return null;
+    }
+    return null;
+  })();
+
+  googleResponseCache.set(url,task);
+  const result=await task;
+  googleResponseCache.set(url,result);
+  return result;
+}
 function imageUrlFromTag(tag,base){
   let u=attr(tag,'data-src')||attr(tag,'data-lazy-src')||attr(tag,'src');
   const ss=attr(tag,'srcset')||attr(tag,'data-srcset');
@@ -138,10 +180,9 @@ async function googleBooksStrictCover(row){
     for(const query of queries){
       const params=new URLSearchParams({q:query,maxResults:'40',printType:'books'});
       const googleUrl=`https://www.googleapis.com/books/v1/volumes?${params}`;
-      const r=await fetch(googleUrl,{headers:{'User-Agent':headers['User-Agent']}});
-      if(diag) console.log(`[COVER-DIAG] Google Books strict query: ${googleUrl} -> HTTP ${r.status}`);
-      if(!r.ok)continue;
-      const j=await r.json();
+      const j=await googleJson(googleUrl,{diag});
+      if(!j)continue;
+      if(diag) console.log(`[COVER-DIAG] Google Books strict query accepted response: ${googleUrl}`);
       if(diag){
         console.log(`[COVER-DIAG] Google Books returned ${(j.items||[]).length} candidates`);
         for(const x of (j.items||[])){
@@ -240,10 +281,9 @@ async function lastResortTitleOnlyCover(row){
   try{
     const params=new URLSearchParams({q:`intitle:"${row.title}"`,maxResults:'40',printType:'books'});
     const googleUrl=`https://www.googleapis.com/books/v1/volumes?${params}`;
-    const r=await fetch(googleUrl,{headers:{'User-Agent':headers['User-Agent']}});
-    if(diag) console.log(`[COVER-DIAG] Google Books title-only query: ${googleUrl} -> HTTP ${r.status}`);
-    if(!r.ok)return '';
-    const j=await r.json();
+    const j=await googleJson(googleUrl,{diag});
+    if(!j)return '';
+    if(diag) console.log(`[COVER-DIAG] Google Books title-only query accepted response: ${googleUrl}`);
     if(diag) console.log(`[COVER-DIAG] Google title-only returned ${(j.items||[]).length} candidates`);
     const wanted=normText(row.title);
     const hits=(j.items||[]).filter(x=>{
@@ -289,6 +329,23 @@ async function oldCoverIsUnique(oldImage,old,oldRows){
     if(other&&other===fp)return false;
   }
   return true;
+}
+
+
+async function trustedChartCardCover(row,rows){
+  if(!row?.image)return '';
+  const sameUrl=rows.filter(x=>x!==row && x.image && x.image===row.image);
+  if(sameUrl.length)return '';
+
+  const fp=await imageFingerprint(row.image);
+  if(!fp) return row.image; // URL is unique and the card is already tied to this exact product segment.
+
+  for(const other of rows){
+    if(other===row||!other.image)continue;
+    const otherFp=await imageFingerprint(other.image);
+    if(otherFp&&otherFp===fp)return '';
+  }
+  return row.image;
 }
 
 async function primaryCover(row,kind){
@@ -390,26 +447,31 @@ function audibleFromHtml(src){
 
 let previous={charts:{}};
 try{previous=JSON.parse(await fs.readFile('read.json','utf8'))}catch{}
-const next={updated:new Date().toISOString(),charts:{...previous.charts},sources:{BOOKS:BOOKS_URL,AUDIOBOOKS:AUDIO_URL}};
+const next={updated:new Date().toISOString(),charts:{...previous.charts},sources:{BOOKS:BOOKS_URL,AUDIOBOOKS:AUDIO_URL},health:{...(previous.health||{})}};
 let changed=false;
 
 for(const [key,url,parser] of [['BOOKS',BOOKS_URL,booksFromHtml],['AUDIOBOOKS',AUDIO_URL,audibleFromHtml]]){
+  const checkedAt=new Date().toISOString();
   try{
     let rows=parser(await html(url));
     if(rows.length!==10||rows.some(x=>!x.title)) throw Error(`expected exactly 10 ranked titles, got ${rows.length}`);
     const oldRows=previous?.charts?.[key]||[];
-    rows=await Promise.all(rows.map(async row=>{
-      // BOOKS keep the strict safety policy, but get extra chances before W:
-      // a fourth strict Open Library title+author lookup, then a fifth exact-title-only
-      // Google Books fallback with ambiguity/derivative guards. Previous book covers
-      // are still never reused.
+
+    const resolveRow=async row=>{
       const diag = key==='BOOKS' && normText(row.title)==='it s not what you think';
       let image=await primaryCover(row,key);
-      if(diag) console.log(`[COVER-DIAG] SOURCE 1 LoveReading product page: ${image||'NO COVER'}`);
+      if(diag) console.log(`[COVER-DIAG] SOURCE 1 product page: ${image||'NO COVER'}`);
+
+      if(key==='BOOKS' && !image){
+        image=await trustedChartCardCover(row,rows);
+        if(diag) console.log(`[COVER-DIAG] SOURCE 1B LoveReading chart card: ${image||'NO COVER'}`);
+      }
+
       if(!image){
         image=await secondaryCover(row,key);
         if(diag) console.log(`[COVER-DIAG] SOURCE 2 Google Books strict: ${image||'NO COVER'}`);
       }
+
       if(key==='BOOKS'){
         if(!image){
           image=await quaternaryCover(row);
@@ -420,9 +482,7 @@ for(const [key,url,parser] of [['BOOKS',BOOKS_URL,booksFromHtml],['AUDIOBOOKS',A
           if(diag) console.log(`[COVER-DIAG] SOURCE 5 Google Books title-only: ${image||'NO COVER'}`);
         }
         if(diag) console.log(`[COVER-DIAG] FINAL RESULT for "${row.title}" by ${row.author}: ${image||'W FALLBACK'}`);
-      }
-
-      if(key!=='BOOKS'){
+      }else{
         if(!image)image=await tertiaryCover(row);
         if(!image){
           const old=oldRows.find(x=>
@@ -430,19 +490,46 @@ for(const [key,url,parser] of [['BOOKS',BOOKS_URL,booksFromHtml],['AUDIOBOOKS',A
             (!row.author||(x.author&&normText(x.author)===normText(row.author)))
           );
           const oldImage=old?.image||'';
-          // Audiobooks retain the existing conservative previous-cover fallback.
           if(oldImage&&await oldCoverIsUnique(oldImage,old,oldRows)) image=oldImage;
         }
       }
       return {...row,image};
-    }));
+    };
+
+    if(key==='BOOKS'){
+      const resolved=[];
+      for(let i=0;i<rows.length;i++){
+        resolved.push(await resolveRow(rows[i]));
+        if(i<rows.length-1) await sleep(350);
+      }
+      rows=resolved;
+    }else{
+      rows=await Promise.all(rows.map(resolveRow));
+    }
+
     rows=rows.map(({url:_,...x})=>x);
     next.charts[key]=rows;
+    next.health ||= {};
+    next.health[key]={
+      status:'healthy',
+      checkedAt,
+      lastSuccessfulRefresh:checkedAt,
+      reason:''
+    };
     changed=true;
     console.log(`${key}: verified 10 (${rows.filter(x=>x.image).length} covers)`);
   }catch(e){
     console.warn(`${key}: ${e.message}; retaining previous verified chart`);
     if(!next.charts[key]?.length) console.warn(`${key}: no previous chart available`);
+    next.health ||= {};
+    const prevHealth=previous?.health?.[key]||{};
+    next.health[key]={
+      status:next.charts[key]?.length?'stale':'failed',
+      checkedAt,
+      lastSuccessfulRefresh:prevHealth.lastSuccessfulRefresh||previous?.updated||null,
+      reason:e.message
+    };
+    console.log(`::warning title=WozzaRead ${key} stale::${e.message}. Previous verified chart retained.`);
   }
 }
 

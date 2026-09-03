@@ -17,7 +17,19 @@ function toggleSaved(x,button){let list=readWatchList(),id=readId(x),at=list.fin
 function animateTab(type){const b=document.querySelector(`.read-tab[data-read-type="${type}"]`);if(!b)return;b.classList.remove('read-animate');void b.offsetWidth;b.classList.add('read-animate');setTimeout(()=>b.classList.remove('read-animate'),720)}
 function render(){
  const meta=TYPES[active],r=rows();$('#readTitle').textContent=meta.title;document.body.classList.toggle('read-audio-mode',active==='AUDIOBOOKS');document.querySelectorAll('.read-tab').forEach(b=>b.classList.toggle('active',b.dataset.readType===active));
- const badge=$('#readSourceBadge');if(badge){const src=data.sources?.[active]||meta.sourceUrl;badge.href=src;badge.textContent=`STATS FROM ${meta.source.toUpperCase()}`;badge.setAttribute('aria-label',`Stats from ${meta.source} — open source`)}
+ const badge=$('#readSourceBadge');if(badge){
+  const src=data.sources?.[active]||meta.sourceUrl,health=data.health?.[active];
+  badge.href=src;badge.innerHTML='';badge.setAttribute('aria-label',`Stats from ${meta.source} — open source`);
+  const txt=document.createElement('span');txt.className='source-text';txt.textContent=`STATS FROM ${meta.source.toUpperCase()}`;badge.appendChild(txt);
+  if(health?.status==='stale'||health?.status==='failed'){
+   const warn=document.createElement('span');warn.className='stale-alert';warn.textContent='!';
+   const when=health.lastSuccessfulRefresh?new Date(health.lastSuccessfulRefresh).toLocaleString('en-GB',{day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'}):'an earlier update';
+   warn.title=`Latest refresh failed${health.reason?`: ${health.reason}`:''}. Showing the last verified chart from ${when}.`;
+   warn.setAttribute('aria-label',warn.title);
+   warn.addEventListener('click',e=>{e.preventDefault();e.stopPropagation();alert(warn.title)});
+   badge.appendChild(warn);
+  }
+ }
  $('#readChart').innerHTML=r.slice(0,10).map((x,i)=>{const art=x.image?`<a class="read-cover-link" href="${esc(searchUrl(x.title))}" target="_blank" rel="noopener noreferrer" aria-label="Search ${esc(x.title)} on ${active==='BOOKS'?'Amazon UK':'Spotify'}"><img class="poster read-cover" src="${esc(x.image)}" alt="${esc(x.title)} cover"></a>`:`<a class="read-cover-link" href="${esc(searchUrl(x.title))}" target="_blank" rel="noopener noreferrer" aria-label="Search ${esc(x.title)} on ${active==='BOOKS'?'Amazon UK':'Spotify'}"><span class="poster read-cover read-cover-fallback">W</span></a>`;const save=`<button class="watch-toggle read-watch-toggle${active==='AUDIOBOOKS'?' audiobook-ear-toggle':''}${isSaved(x)?' saved':''}" data-read-save="${i}" type="button" aria-pressed="${isSaved(x)}" aria-label="${isSaved(x)?'Remove':'Add'} ${esc(x.title)} ${isSaved(x)?'from':'to'} Watchlist">${active==='AUDIOBOOKS'?earMarkup():eyesMarkup()}</button>`;return `<li class="read-row has-watch-toggle"><span class="rank">${String(i+1).padStart(2,'0')}</span>${art}<span class="read-copy"><strong>${esc(x.title)}</strong><small>${esc(x.author||'')}</small></span>${save}</li>`}).join('');
  document.querySelectorAll('[data-read-save]').forEach(b=>b.addEventListener('click',e=>{e.stopPropagation();const x=r[+b.dataset.readSave];if(x)toggleSaved(x,b)}));$('#readError').classList.toggle('hidden',r.length===10)
 }
