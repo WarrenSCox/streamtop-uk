@@ -1,6 +1,6 @@
 {
   "version": 17,
-  "generatedAt": "2026-09-03T16:34:15.938Z",
+  "generatedAt": "2026-09-03T16:51:16.520Z",
   "country": "GB",
   "strategy": "Official source first; labelled fallback when no compatible official chart is available.",
   "services": {
@@ -604,7 +604,7 @@
           "sourceRank": 1,
           "title": "The Mandalorian and Grogu",
           "year": 2026,
-          "poster": "/poster/346670161/s166/the-mandalorian-and-grogu.webp",
+          "poster": "/poster/336088085/s166/the-mandalorian-and-grogu.webp",
           "url": "https://www.justwatch.com/uk/movie/the-mandalorian-and-grogu",
           "trend": "STABLE",
           "trendDifference": 0,
@@ -930,7 +930,7 @@
           "rank": 8,
           "title": "The Devil Wears Prada 2",
           "year": 2026,
-          "type": "MOVIE",
+          "type": null,
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/019fac2c-f245-7bf4-bd98-9b222eda6a9c/compose?format=webp&width=386&label=top_ranked_8_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-34bc6b99-813f-4d5d-bbe7-f3099b45879b"
         },
@@ -1511,13 +1511,13 @@
         },
         {
           "rank": 3,
-          "sourceRank": 6188,
+          "sourceRank": 6192,
           "title": "Mission: Joy - Finding Happiness in Troubled Times",
           "year": 2022,
           "poster": "/poster/320276543/s166/mission-joy-finding-happiness-in-troubled-times.webp",
           "url": "https://www.justwatch.com/uk/movie/mission-joy-finding-happiness-in-troubled-times",
           "trend": "UP",
-          "trendDifference": 16,
+          "trendDifference": 12,
           "daysInTop10": null,
           "topRank": 413
         },
