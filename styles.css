@@ -789,3 +789,23 @@ html,body,body *{-webkit-user-select:none;user-select:none;-webkit-touch-callout
 .falling-watch-eyes.falling-ear .audio-ear{width:29px;height:38px}
 .watched-ear-mark{width:30px}
 .watched-ear-mark .audio-ear{width:24px;height:33px}
+
+/* v6.2.3 — WozzaRead selector/heading polish. */
+.read-page .read-chart-heading{grid-template-columns:minmax(0,1fr) auto!important;gap:8px!important;overflow:hidden}
+.read-page .read-chart-heading h2{min-width:0!important;max-width:100%!important;white-space:nowrap!important;font-size:clamp(15px,4.4vw,30px)!important;letter-spacing:-.025em!important}
+.read-page .read-chart-heading .source-badge{flex:none!important;justify-self:end!important;white-space:nowrap!important;font-size:clamp(6px,1.65vw,8px)!important;padding:6px 8px!important}
+@media(max-width:390px){.read-page .read-chart-heading{gap:5px!important;padding-left:10px!important;padding-right:10px!important}.read-page .read-chart-heading h2{font-size:clamp(14px,4.75vw,18px)!important}.read-page .read-chart-heading .source-badge{font-size:6px!important;padding:5px 6px!important}}
+@media(max-width:320px){.read-page .read-chart-heading{grid-template-columns:minmax(0,1fr) auto!important}.read-page .read-chart-heading .source-badge{justify-self:end!important;margin-top:0!important}}
+
+/* Exact open-book selector icon; animation is selection-driven only. */
+.read-book-icon{width:48px;height:48px;overflow:visible}
+.read-book-icon .book-page-flip{transform-box:fill-box;transform-origin:right center}
+.read-tab.read-animate .read-book-icon .book-page-flip{animation:wl-book-page .62s cubic-bezier(.25,.75,.25,1)}
+
+/* Audiobook selector uses the approved shared ear asset, navy in the tab. */
+.read-selector-ear{width:43px;height:54px;overflow:visible;color:var(--navy)}
+.read-selector-ear use:first-child{fill:currentColor;stroke:currentColor}
+.read-selector-ear use:last-child{fill:none;stroke:#eef0fb}
+.read-tab.read-animate .read-selector-ear{animation:read-ear-wiggle .62s cubic-bezier(.36,.07,.19,.97)}
+@keyframes read-ear-wiggle{0%,100%{transform:rotate(0deg)}20%{transform:rotate(-8deg)}42%{transform:rotate(6deg)}64%{transform:rotate(-4deg)}82%{transform:rotate(2deg)}}
+@media(prefers-reduced-motion:reduce){.read-tab.read-animate .read-selector-ear{animation:none!important}}

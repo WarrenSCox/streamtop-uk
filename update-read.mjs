@@ -193,7 +193,7 @@ for(const [key,url,parser] of [['BOOKS',BOOKS_URL,booksFromHtml],['AUDIOBOOKS',A
       // New verified primary -> existing known-good -> verified secondary -> strict tertiary.
       let image=await primaryCover(row,key);
       if(!image){
-        const old=oldRows.find(x=>normText(x.title)===normText(row.title) && (!row.author||!x.author||normText(x.author)===normText(row.author)));
+        const old=oldRows.find(x=>normText(x.title)===normText(row.title) && (row.author ? (x.author && normText(x.author)===normText(row.author)) : true));
         image=old?.image||'';
       }
       if(!image)image=await secondaryCover(row,key);
