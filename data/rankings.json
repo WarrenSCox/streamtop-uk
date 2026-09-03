@@ -1,6 +1,6 @@
 {
   "version": 17,
-  "generatedAt": "2026-09-03T21:13:12.007Z",
+  "generatedAt": "2026-09-03T21:20:34.809Z",
   "country": "GB",
   "strategy": "Official source first; labelled fallback when no compatible official chart is available.",
   "services": {
@@ -890,7 +890,7 @@
           "rank": 3,
           "title": "Furious",
           "year": 2026,
-          "type": "SHOW",
+          "type": null,
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/019fa9fd-c0de-7eab-963c-8ec352530398/compose?format=webp&width=386&label=top_ranked_3_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-5d4924b7-1cde-47c3-8852-f30bdd7fe979"
         },
