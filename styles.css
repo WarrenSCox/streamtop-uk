@@ -780,3 +780,12 @@ html,body,body *{-webkit-user-select:none;user-select:none;-webkit-touch-callout
 .audiobook-ear-toggle.saved .audio-ear,.pile-ear .audio-ear,.falling-ear .audio-ear,.watched-ear-mark .audio-ear{color:#F2A51A;opacity:1}
 .audiobook-ear-toggle.saved .audio-ear-shell,.pile-ear .audio-ear-shell,.falling-ear .audio-ear-shell,.watched-ear-mark .audio-ear-shell{fill:#FDD848;stroke:#F2A51A}
 .audiobook-ear-toggle.saved .audio-ear-detail,.pile-ear .audio-ear-detail,.falling-ear .audio-ear-detail,.watched-ear-mark .audio-ear-detail{fill:none;stroke:#F2A51A}
+
+/* v6.2.2 — keep the approved audiobook ear artwork unchanged; only reduce its rendered scale to visually match the googly-eye control. */
+.audiobook-ear-toggle .audio-ear{width:31px;height:40px}
+.pile-ear{width:26px;height:35px}
+.pile-ear .audio-ear{width:24px;height:34px}
+.falling-watch-eyes.falling-ear{width:31px;height:40px}
+.falling-watch-eyes.falling-ear .audio-ear{width:29px;height:38px}
+.watched-ear-mark{width:30px}
+.watched-ear-mark .audio-ear{width:24px;height:33px}
