@@ -1,6 +1,6 @@
 {
   "version": 17,
-  "generatedAt": "2026-09-03T21:31:07.525Z",
+  "generatedAt": "2026-09-03T21:39:00.511Z",
   "country": "GB",
   "strategy": "Official source first; labelled fallback when no compatible official chart is available.",
   "services": {
@@ -544,7 +544,7 @@
           "sourceRank": 44,
           "title": "Legion",
           "year": 2017,
-          "poster": "/poster/147938680/s166/legion.webp",
+          "poster": "/poster/320937706/s166/legion.webp",
           "url": "https://www.justwatch.com/uk/tv-series/legion",
           "trend": "UP",
           "trendDifference": 21,
@@ -865,7 +865,9 @@
           "displayName": "Disney+",
           "url": "https://www.disneyplus.com/en-gb",
           "cadence": "daily",
-          "note": "Disney+ UK Top 10 Today, read directly from the public Disney+ UK homepage."
+          "note": "Fresh Disney data did not update successfully, so the last successful results are being shown.",
+          "stale": true,
+          "staleAsOf": "2026-09-03T21:31:07.525Z"
         }
       },
       "error": null,
@@ -1029,18 +1031,6 @@
         },
         {
           "rank": 7,
-          "title": "Le Mans ’66",
-          "year": 2019,
-          "poster": "/poster/131381363/s166/ford-v-ferrari.webp",
-          "url": "https://tv.apple.com/gb/movie/le-mans-66/umc.cmc.6f6qe9muhuw7g21639iajetn1",
-          "trend": null,
-          "trendDifference": 0,
-          "daysInTop10": null,
-          "topRank": null,
-          "detailsUrl": "https://www.justwatch.com/uk/movie/ford-v-ferrari"
-        },
-        {
-          "rank": 8,
           "title": "The Martian",
           "year": 2015,
           "poster": "/poster/344669530/s166/the-martian.webp",
@@ -1050,6 +1040,18 @@
           "daysInTop10": null,
           "topRank": null,
           "detailsUrl": "https://www.justwatch.com/uk/movie/the-martian"
+        },
+        {
+          "rank": 8,
+          "title": "Le Mans ’66",
+          "year": 2019,
+          "poster": "/poster/131381363/s166/ford-v-ferrari.webp",
+          "url": "https://tv.apple.com/gb/movie/le-mans-66/umc.cmc.6f6qe9muhuw7g21639iajetn1",
+          "trend": null,
+          "trendDifference": 0,
+          "daysInTop10": null,
+          "topRank": null,
+          "detailsUrl": "https://www.justwatch.com/uk/movie/ford-v-ferrari"
         },
         {
           "rank": 9,
@@ -2025,7 +2027,7 @@
           "rank": 2,
           "title": "Steel Magnolias",
           "year": 1989,
-          "poster": "/poster/320954176/s166/steel-magnolias-1989.webp",
+          "poster": "/poster/177783631/s166/steel-magnolias-1989.webp",
           "url": "https://www.justwatch.com/uk/movie/steel-magnolias-1989",
           "trend": null,
           "trendDifference": 0,
@@ -2371,10 +2373,13 @@
           "displayName": "UK Cinema Association",
           "url": "https://www.cinemauk.org.uk/the-industry/facts-and-figures/latest-uk-cinema-statistics/weekend-top-10-box-office/",
           "cadence": "weekly",
-          "note": "Official UK weekend box-office Top 10 published by the UK Cinema Association using Comscore data."
+          "note": "Fresh data did not update successfully, so the last successful results are being shown.",
+          "stale": true,
+          "staleAsOf": "2026-09-03T21:31:07.525Z"
         }
       },
-      "error": null
+      "error": null,
+      "stale": true
     },
     "uscinema": {
       "provider": "US Cinema",
