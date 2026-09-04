@@ -914,14 +914,23 @@ body.watchlist-reordering .my-list-page .chart-wrap,body.watchlist-reordering #m
   align-self:flex-start;
   margin-left:0;
 }
-/* v6.2.29 — make the leading lowercase r in "read it!" unmistakable on mobile. */
-.seen-read-r{
-  display:inline-block;
-  font-family:Arial,Helvetica,sans-serif;
-  font-size:.98em;
-  font-weight:700;
-  letter-spacing:-.02em;
-  transform:rotate(-4deg) translateY(.2px);
-  transform-origin:50% 70%;
-}
 
+/* v6.2.30 — redraw the whole Read annotation as one handwriting treatment.
+   Segoe Print keeps the lowercase r legible without making it look pasted-on. */
+.read-page .seen-read{
+  font-family:"Segoe Print","Bradley Hand","Comic Sans MS",cursive;
+  font-weight:600;
+  letter-spacing:-.025em;
+  transform:rotate(-2deg);
+}
+/* Keep the underline as one connected pen-like swoosh beneath the whole phrase. */
+.read-page .seen-read::before{
+  left:1px;
+  right:-2px;
+  bottom:-4px;
+  height:6px;
+  border-top:2px solid currentColor;
+  border-radius:55% 45% 48% 52%;
+  transform:rotate(-2deg) skewX(-7deg);
+  transform-origin:left center;
+}
