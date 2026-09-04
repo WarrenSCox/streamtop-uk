@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-04T16:24:43.028Z",
+  "updated": "2026-09-04T16:28:01.667Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -12,7 +12,7 @@
         "title": "The Murder at the Vicarage",
         "author": "Agatha Christie",
         "narrator": "Toni Collette , Kit Harington , Jasmine Jobson , Calam Lynch , Eliot Salt , Katy Wix , Lolly Adefope , Billy Postlethwaite , Vicki Pepperdine , Meera Syal , La Voix , Leo Reich , full cast",
-        "image": "https://m.media-amazon.com/images/I/51GzNQrzYrL._SL500_.jpg"
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/7d/6e/f3/7d6ef37d-f405-1e9b-7c81-4a57e14f32c1/9780007528578.jpg/600x600bb.jpg"
       },
       {
         "title": "The Let Them Theory",
@@ -42,7 +42,7 @@
         "title": "The Gate of the Feral Gods",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://m.media-amazon.com/images/I/51rmyTTWPsL._SL500_.jpg"
+        "image": "https://covers.openlibrary.org/b/id/15232581-L.jpg"
       },
       {
         "title": "The Butcher's Masquerade",
@@ -54,7 +54,7 @@
         "title": "The Eye of the Bedlam Bride",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays , Patrick Warburton , Travis Baldree , Annie Ellicott",
-        "image": "https://m.media-amazon.com/images/I/51qfZAq2J4L._SL500_.jpg"
+        "image": "https://covers.openlibrary.org/b/id/15231488-L.jpg"
       },
       {
         "title": "The Wicked and the Warped",
@@ -123,14 +123,14 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-09-04T16:24:43.028Z",
-      "lastSuccessfulRefresh": "2026-09-04T16:24:43.028Z",
+      "checkedAt": "2026-09-04T16:28:01.668Z",
+      "lastSuccessfulRefresh": "2026-09-04T16:28:01.668Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-09-04T16:24:52.322Z",
-      "lastSuccessfulRefresh": "2026-09-04T16:24:52.322Z",
+      "checkedAt": "2026-09-04T16:28:11.575Z",
+      "lastSuccessfulRefresh": "2026-09-04T16:28:11.575Z",
       "reason": ""
     }
   }
