@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-04T11:12:58.593Z",
+  "updated": "2026-09-04T11:26:37.977Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -12,13 +12,13 @@
         "title": "The Murder at the Vicarage",
         "author": "Agatha Christie",
         "narrator": "Toni Collette , Kit Harington , Jasmine Jobson , Calam Lynch , Eliot Salt , Katy Wix , Lolly Adefope , Billy Postlethwaite , Vicki Pepperdine , Meera Syal , La Voix , Leo Reich , full cast",
-        "image": "https://m.media-amazon.com/images/I/51GzNQrzYrL._SL500_.jpg"
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/7d/6e/f3/7d6ef37d-f405-1e9b-7c81-4a57e14f32c1/9780007528578.jpg/600x600bb.jpg"
       },
       {
         "title": "The Let Them Theory",
         "author": "Mel Robbins",
         "narrator": "Mel Robbins",
-        "image": "https://covers.openlibrary.org/b/id/15165806-L.jpg"
+        "image": "https://m.media-amazon.com/images/I/51YOr6ua-PL._SL500_.jpg"
       },
       {
         "title": "Carl's Doomsday Scenario",
@@ -60,7 +60,7 @@
         "title": "The Wicked and the Warped",
         "author": "Robert Rath",
         "narrator": "Richard Reed",
-        "image": "https://covers.openlibrary.org/b/id/15247665-L.jpg"
+        "image": "https://m.media-amazon.com/images/I/51vlFnh90aL._SL500_.jpg"
       }
     ],
     "BOOKS": [
@@ -122,15 +122,15 @@
   },
   "health": {
     "BOOKS": {
-      "status": "healthy",
-      "checkedAt": "2026-09-04T11:12:58.593Z",
+      "status": "stale",
+      "checkedAt": "2026-09-04T11:26:37.977Z",
       "lastSuccessfulRefresh": "2026-09-04T11:12:58.593Z",
-      "reason": ""
+      "reason": "expected exactly 10 ranked titles, got 0"
     },
     "AUDIOBOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-09-04T11:13:08.099Z",
-      "lastSuccessfulRefresh": "2026-09-04T11:13:08.099Z",
+      "checkedAt": "2026-09-04T11:26:38.466Z",
+      "lastSuccessfulRefresh": "2026-09-04T11:26:38.466Z",
       "reason": ""
     }
   }
