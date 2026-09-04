@@ -1,12 +1,12 @@
 {
-  "updated": "2026-09-04T11:26:37.977Z",
+  "updated": "2026-09-04T11:35:56.744Z",
   "charts": {
     "AUDIOBOOKS": [
       {
         "title": "Dungeon Crawler Carl",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://m.media-amazon.com/images/I/51HIZdnqASL._SL500_.jpg"
+        "image": "https://covers.openlibrary.org/b/id/15143022-L.jpg"
       },
       {
         "title": "The Murder at the Vicarage",
@@ -30,7 +30,7 @@
         "title": "Project Hail Mary",
         "author": "Andy Weir",
         "narrator": "Ray Porter",
-        "image": "https://m.media-amazon.com/images/I/51POf8gOyLL._SL500_.jpg"
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2a/1a/fc/2a1afcc9-6179-5fdf-3bea-aec376486895/rm_image.jpg/600x600bb.jpg"
       },
       {
         "title": "The Dungeon Anarchist's Cookbook",
@@ -42,7 +42,7 @@
         "title": "The Gate of the Feral Gods",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://covers.openlibrary.org/b/id/15232581-L.jpg"
+        "image": "https://m.media-amazon.com/images/I/51rmyTTWPsL._SL500_.jpg"
       },
       {
         "title": "The Butcher's Masquerade",
@@ -54,13 +54,13 @@
         "title": "The Eye of the Bedlam Bride",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays , Patrick Warburton , Travis Baldree , Annie Ellicott",
-        "image": "https://m.media-amazon.com/images/I/51qfZAq2J4L._SL500_.jpg"
+        "image": "https://covers.openlibrary.org/b/id/15231488-L.jpg"
       },
       {
         "title": "The Wicked and the Warped",
         "author": "Robert Rath",
         "narrator": "Richard Reed",
-        "image": "https://m.media-amazon.com/images/I/51vlFnh90aL._SL500_.jpg"
+        "image": "https://covers.openlibrary.org/b/id/15247665-L.jpg"
       }
     ],
     "BOOKS": [
@@ -122,15 +122,15 @@
   },
   "health": {
     "BOOKS": {
-      "status": "stale",
-      "checkedAt": "2026-09-04T11:26:37.977Z",
-      "lastSuccessfulRefresh": "2026-09-04T11:12:58.593Z",
-      "reason": "expected exactly 10 ranked titles, got 0"
+      "status": "healthy",
+      "checkedAt": "2026-09-04T11:35:56.744Z",
+      "lastSuccessfulRefresh": "2026-09-04T11:35:56.744Z",
+      "reason": ""
     },
     "AUDIOBOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-09-04T11:26:38.466Z",
-      "lastSuccessfulRefresh": "2026-09-04T11:26:38.466Z",
+      "checkedAt": "2026-09-04T11:36:06.313Z",
+      "lastSuccessfulRefresh": "2026-09-04T11:36:06.313Z",
       "reason": ""
     }
   }
