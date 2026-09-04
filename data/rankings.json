@@ -1,6 +1,6 @@
 {
   "version": 17,
-  "generatedAt": "2026-09-04T15:39:43.427Z",
+  "generatedAt": "2026-09-04T15:47:16.194Z",
   "country": "GB",
   "strategy": "Official source first; labelled fallback when no compatible official chart is available.",
   "services": {
@@ -874,7 +874,7 @@
           "rank": 1,
           "title": "Star Wars: The Mandalorian and Grogu",
           "year": 2026,
-          "type": "MOVIE",
+          "type": null,
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/01a06213-9861-7d5b-a9ba-b56eabc0796c/compose?format=webp&width=386&label=top_ranked_1_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-d830ec57-499e-498c-b6b3-2b85a18a5f51"
         },
@@ -938,7 +938,7 @@
           "rank": 9,
           "title": "Star Wars: The Mandalorian and Grogu Official Podcast",
           "year": 2026,
-          "type": "SHOW",
+          "type": null,
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/01a03f0c-5698-744a-8057-eb1d6c708a19/compose?format=webp&width=386&label=top_ranked_9_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-88350c60-a426-41d3-b6e2-0dec37d24a70"
         },
@@ -1115,18 +1115,6 @@
         },
         {
           "rank": 4,
-          "title": "Slow Horses",
-          "year": 2022,
-          "poster": "/poster/337328350/s166/slow-horses.webp",
-          "url": "https://tv.apple.com/gb/show/slow-horses/umc.cmc.2szz3fdt71tl1ulnbp8utgq5o",
-          "trend": null,
-          "trendDifference": 0,
-          "daysInTop10": null,
-          "topRank": null,
-          "detailsUrl": "https://www.justwatch.com/uk/tv-series/slow-horses"
-        },
-        {
-          "rank": 5,
           "title": "Dark Matter",
           "year": 2024,
           "poster": "/poster/348572628/s166/dark-matter-2024.webp",
@@ -1136,6 +1124,18 @@
           "daysInTop10": null,
           "topRank": null,
           "detailsUrl": "https://www.justwatch.com/uk/tv-series/dark-matter-2024"
+        },
+        {
+          "rank": 5,
+          "title": "Slow Horses",
+          "year": 2022,
+          "poster": "/poster/337328350/s166/slow-horses.webp",
+          "url": "https://tv.apple.com/gb/show/slow-horses/umc.cmc.2szz3fdt71tl1ulnbp8utgq5o",
+          "trend": null,
+          "trendDifference": 0,
+          "daysInTop10": null,
+          "topRank": null,
+          "detailsUrl": "https://www.justwatch.com/uk/tv-series/slow-horses"
         },
         {
           "rank": 6,
