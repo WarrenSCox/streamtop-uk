@@ -951,3 +951,22 @@ body.watchlist-reordering .my-list-page .chart-wrap,body.watchlist-reordering #m
   bottom:-5px;
 }
 
+
+
+/* v6.2.34 — WozzaNews readability polish */
+/* Slightly quieter headlines keep the unified Top 10 feeling compact and scannable. */
+.news-copy strong{
+  font-size:18px;
+  line-height:1.1;
+}
+/* Entertainment is the longest category name, so give only that heading a little extra room for the plane. */
+.news-chart-heading #newsTitle.entertainment-title{
+  font-size:clamp(18px,4.8vw,30px)!important;
+  letter-spacing:-.055em!important;
+}
+@media(max-width:560px){
+  .news-copy strong{font-size:16px!important;line-height:1.12!important}
+  .news-chart-heading #newsTitle.entertainment-title{
+    font-size:clamp(16px,4.6vw,23px)!important;
+  }
+}

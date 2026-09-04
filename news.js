@@ -9,9 +9,11 @@ function tabsRefresh(){[...$("#newsTabs").children].forEach(b=>b.classList.toggl
 function categoryRows(){return data.categories?.[active]||[]}
 function render(){
  const rows=categoryRows();
- $("#newsTitle").textContent="LATEST "+active;
+ const newsTitle=$("#newsTitle");
+ newsTitle.textContent="LATEST "+active;
+ newsTitle.classList.toggle("entertainment-title",active==="ENTERTAINMENT");
  $("#newsChart").innerHTML=rows.slice(0,10).map((x,i)=>{
-  const meta=[x.source,ago(x.published)].filter(Boolean).join(" · ");
+  const meta=ago(x.published);
   return `<li class="news-row"><span class="rank">${String(i+1).padStart(2,"0")}</span><a class="news-image-link" href="${esc(x.link)}" target="_blank" rel="noopener" aria-label="${esc(x.title)}">${x.image?`<img class="poster news-thumb" src="${esc(x.image)}" alt="">`:`<span class="poster news-thumb news-thumb-fallback">W</span>`}</a><a class="news-story" href="${esc(x.link)}" target="_blank" rel="noopener"><span class="news-copy"><strong>${esc(x.title)}</strong><small>${esc(meta)}</small></span></a></li>`;
  }).join("");
  $("#newsError").classList.toggle("hidden",rows.length>0);
