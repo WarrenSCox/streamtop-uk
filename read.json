@@ -1,24 +1,24 @@
 {
-  "updated": "2026-09-04T15:51:46.407Z",
+  "updated": "2026-09-04T16:13:57.856Z",
   "charts": {
     "AUDIOBOOKS": [
       {
         "title": "Dungeon Crawler Carl",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://m.media-amazon.com/images/I/51HIZdnqASL._SL500_.jpg"
+        "image": "https://covers.openlibrary.org/b/id/15143022-L.jpg"
       },
       {
         "title": "The Murder at the Vicarage",
         "author": "Agatha Christie",
         "narrator": "Toni Collette , Kit Harington , Jasmine Jobson , Calam Lynch , Eliot Salt , Katy Wix , Lolly Adefope , Billy Postlethwaite , Vicki Pepperdine , Meera Syal , La Voix , Leo Reich , full cast",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/7d/6e/f3/7d6ef37d-f405-1e9b-7c81-4a57e14f32c1/9780007528578.jpg/600x600bb.jpg"
+        "image": "https://m.media-amazon.com/images/I/51GzNQrzYrL._SL500_.jpg"
       },
       {
         "title": "The Let Them Theory",
         "author": "Mel Robbins",
         "narrator": "Mel Robbins",
-        "image": "https://m.media-amazon.com/images/I/51YOr6ua-PL._SL500_.jpg"
+        "image": "https://covers.openlibrary.org/b/id/15165806-L.jpg"
       },
       {
         "title": "Carl's Doomsday Scenario",
@@ -42,7 +42,7 @@
         "title": "The Gate of the Feral Gods",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://covers.openlibrary.org/b/id/15232581-L.jpg"
+        "image": "https://m.media-amazon.com/images/I/51rmyTTWPsL._SL500_.jpg"
       },
       {
         "title": "The Butcher's Masquerade",
@@ -54,13 +54,13 @@
         "title": "The Eye of the Bedlam Bride",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays , Patrick Warburton , Travis Baldree , Annie Ellicott",
-        "image": "https://covers.openlibrary.org/b/id/15231488-L.jpg"
+        "image": "https://m.media-amazon.com/images/I/51qfZAq2J4L._SL500_.jpg"
       },
       {
         "title": "The Wicked and the Warped",
         "author": "Robert Rath",
         "narrator": "Richard Reed",
-        "image": "https://covers.openlibrary.org/b/id/15247665-L.jpg"
+        "image": "https://m.media-amazon.com/images/I/51vlFnh90aL._SL500_.jpg"
       }
     ],
     "BOOKS": [
@@ -123,15 +123,15 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-09-04T15:51:46.408Z",
-      "lastSuccessfulRefresh": "2026-09-04T15:51:46.408Z",
+      "checkedAt": "2026-09-04T16:13:57.856Z",
+      "lastSuccessfulRefresh": "2026-09-04T16:13:57.856Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
-      "status": "stale",
-      "checkedAt": "2026-09-04T15:51:56.078Z",
-      "lastSuccessfulRefresh": "2026-09-04T15:48:22.014Z",
-      "reason": "503 https://www.audible.co.uk/charts/best"
+      "status": "healthy",
+      "checkedAt": "2026-09-04T16:14:07.282Z",
+      "lastSuccessfulRefresh": "2026-09-04T16:14:07.282Z",
+      "reason": ""
     }
   }
 }
