@@ -1,5 +1,9 @@
 import fs from "node:fs/promises";
 
+const CATEGORIES=["UK","WORLD","POLITICS","BUSINESS","TECH","ENTERTAINMENT"];
+const PROVIDERS=["SKY","GUARDIAN","METRO"];
+const SOURCE_LABELS={SKY:"Sky News",GUARDIAN:"The Guardian",METRO:"Metro"};
+
 async function loadPreviousNews(){
  try{
   return JSON.parse(await fs.readFile("news.json","utf8"));
@@ -97,8 +101,8 @@ function metroCategoryMatches(cat,row){
 }
 
 async function fetchFeed(url){
- const r=await fetch(url,{redirect:"follow",headers:{
-  "User-Agent":"Mozilla/5.0 (compatible; WozzaNews/5.3.41)",
+ const r=await fetch(url,{redirect:"follow",signal:AbortSignal.timeout(15000),headers:{
+  "User-Agent":"Mozilla/5.0 (compatible; WozzaNews/6.2.33)",
   "Accept":"application/rss+xml, application/xml, text/xml;q=0.9, */*;q=0.8"
  }});
  if(!r.ok)throw new Error(`${r.status} ${r.statusText}`);
@@ -106,8 +110,10 @@ async function fetchFeed(url){
  if(!/<rss\b|<feed\b/i.test(xml))throw new Error("Response was not RSS/XML");
  return [...xml.matchAll(/<item\b[\s\S]*?<\/item>/gi)].map(m=>m[0]);
 }
+
 async function buildProvider(name,feeds,previousProvider){
  const categories={};
+ const health={};
  for(const [cat,feedValue] of Object.entries(feeds)){
   const urls=Array.isArray(feedValue)?feedValue:[feedValue];
   let rawItems=[],lastError=null;
@@ -124,24 +130,13 @@ async function buildProvider(name,feeds,previousProvider){
    }
   }
 
-  if(!rawItems.length){
-   const previousRows=previousProvider?.categories?.[cat];
-   if(Array.isArray(previousRows) && previousRows.length){
-    categories[cat]=previousRows;
-    console.warn(`${name} ${cat}: no RSS items received — keeping ${previousRows.length} previous stories`);
-    continue;
-   }
-   console.warn(`${name} ${cat}: no RSS items received and no previous category is available — continuing with an empty category${lastError?` (${lastError.message})`:""}`);
-   categories[cat]=[];
-   continue;
-  }
-
   const seen=new Set();
   let rows=rawItems.map(x=>({
    title:cleanHeadline(tag(x,"title")),
    link:tag(x,"link")||tag(x,"guid"),
    published:tag(x,"pubDate")||tag(x,"dc:date"),
-   source:name==="SKY"?"Sky News":name==="GUARDIAN"?"The Guardian":"Metro",
+   source:SOURCE_LABELS[name],
+   provider:name,
    categories:[...x.matchAll(/<category(?:\s[^>]*)?>([\s\S]*?)<\/category>/gi)].map(m=>cleanHeadline(m[1])).join(" "),
    image:media(x)
   })).filter(x=>{
@@ -152,26 +147,101 @@ async function buildProvider(name,feeds,previousProvider){
    return true;
   });
 
-  if(name==="METRO"){
-   rows=rows.filter(row=>metroCategoryMatches(cat,row));
-  }
+  if(name==="METRO") rows=rows.filter(row=>metroCategoryMatches(cat,row));
+  rows=rows.slice(0,20);
 
-  rows=rows.slice(0,10);
-  if(!rows.length){
-   const previousRows=previousProvider?.categories?.[cat];
-   if(Array.isArray(previousRows) && previousRows.length){
-    categories[cat]=previousRows;
-    console.warn(`${name} ${cat}: RSS returned no correctly classified stories — keeping ${previousRows.length} previous stories`);
-   }else{
-    categories[cat]=[];
-    console.warn(`${name} ${cat}: RSS returned no correctly classified stories and no previous category is available — continuing with an empty category`);
-   }
+  if(rows.length){
+   categories[cat]=rows;
+   health[cat]={ok:true,count:rows.length};
+   console.log(`${name} ${cat}: ${rows.length} live usable stories`);
    continue;
   }
-  categories[cat]=rows;
-  console.log(`${name} ${cat}: ${rows.length} correctly classified usable stories`);
+
+  const previousRows=previousProvider?.categories?.[cat];
+  categories[cat]=Array.isArray(previousRows)?previousRows:[];
+  health[cat]={ok:false,count:0,reason:lastError?.message||"No correctly classified live stories"};
+  console.warn(`${name} ${cat}: no live usable stories${categories[cat].length?` — retained ${categories[cat].length} previous provider stories for diagnostics`:""}`);
  }
- return {categories};
+ return {categories,health};
+}
+
+function publishedMs(row){
+ const n=Date.parse(row?.published||"");
+ return Number.isFinite(n)?n:0;
+}
+function headlineKey(title){
+ return cleanHeadline(title).toLowerCase().replace(/[^a-z0-9]+/g," ").trim();
+}
+function linkKey(link){return String(link||"").toLowerCase().split(/[?#]/)[0]}
+function uniqueRows(rows){
+ const links=new Set(),titles=new Set();
+ return rows.filter(row=>{
+  const link=linkKey(row?.link);
+  const title=headlineKey(row?.title);
+  if(!row?.title||!row?.link)return false;
+  if((link&&links.has(link))||(title&&titles.has(title)))return false;
+  if(link)links.add(link);if(title)titles.add(title);
+  return true;
+ });
+}
+
+// Build one freshness-led Top 10 while keeping a healthy source mix.
+// With 3 live providers the freshest source may contribute 4, the others 3 each.
+// Missing/short providers automatically donate unused slots to the remaining live sources.
+function mixedTop10(cat,providers){
+ const liveNames=PROVIDERS.filter(name=>providers[name]?.health?.[cat]?.ok && providers[name]?.categories?.[cat]?.length);
+ const queues=Object.fromEntries(liveNames.map(name=>[
+  name,
+  uniqueRows(providers[name].categories[cat]).sort((a,b)=>publishedMs(b)-publishedMs(a))
+ ]));
+ if(!liveNames.length)return {rows:[],liveNames};
+
+ const freshest=[...liveNames].sort((a,b)=>publishedMs(queues[b][0])-publishedMs(queues[a][0]));
+ const base=Math.floor(10/liveNames.length);
+ let extra=10-(base*liveNames.length);
+ const quotas=Object.fromEntries(freshest.map(name=>[name,base+(extra-->0?1:0)]));
+ const picked=[],counts=Object.fromEntries(liveNames.map(name=>[name,0]));
+ const usedLinks=new Set(),usedTitles=new Set();
+
+ function canUse(row){
+  const link=linkKey(row?.link);
+  const title=headlineKey(row?.title);
+  return row?.title&&row?.link&&!usedLinks.has(link)&&!usedTitles.has(title);
+ }
+ function add(row,name){
+  const clean={...row,provider:name,source:row.source||SOURCE_LABELS[name]};
+  picked.push(clean);counts[name]++;
+  usedLinks.add(linkKey(clean.link));
+  usedTitles.add(headlineKey(clean.title));
+ }
+
+ // First pass honours soft provider quotas but always chooses the freshest available next story.
+ while(picked.length<10){
+  const options=liveNames
+   .filter(name=>counts[name]<quotas[name])
+   .map(name=>({name,row:queues[name].find(canUse)}))
+   .filter(x=>x.row)
+   .sort((a,b)=>publishedMs(b.row)-publishedMs(a.row));
+  if(!options.length)break;
+  add(options[0].row,options[0].name);
+ }
+
+ // Backfill any unused quota from whichever live provider has the freshest remaining story.
+ while(picked.length<10){
+  const options=liveNames
+   .map(name=>({name,row:queues[name].find(canUse)}))
+   .filter(x=>x.row)
+   .sort((a,b)=>publishedMs(b.row)-publishedMs(a.row));
+  if(!options.length)break;
+  add(options[0].row,options[0].name);
+ }
+
+ return {rows:picked,liveNames};
+}
+
+function previousMixed(cat){
+ const rows=previousNews?.categories?.[cat];
+ return Array.isArray(rows)?rows:[];
 }
 
 const providers={
@@ -180,9 +250,47 @@ const providers={
  METRO:await buildProvider("METRO",metroFeeds,previousNews?.providers?.METRO)
 };
 
+const categories={};
+const health={categories:{}};
+for(const cat of CATEGORIES){
+ const mixed=mixedTop10(cat,providers);
+ let rows=mixed.rows;
+ let retained=0;
+
+ // If the live sources cannot make a full Top 10, preserve verified previous mixed stories
+ // only for the missing slots. A complete live chart never uses stale provider data.
+ if(rows.length<10){
+  const usedLinks=new Set(rows.map(x=>linkKey(x.link)));
+  const usedTitles=new Set(rows.map(x=>headlineKey(x.title)));
+  for(const old of previousMixed(cat)){
+   const link=linkKey(old?.link);
+   const title=headlineKey(old?.title);
+   if(!old?.title||!old?.link||usedLinks.has(link)||usedTitles.has(title))continue;
+   rows.push(old);retained++;
+   usedLinks.add(link);usedTitles.add(title);
+   if(rows.length===10)break;
+  }
+ }
+
+ categories[cat]=rows.slice(0,10);
+ const failedProviders=PROVIDERS.filter(name=>!providers[name]?.health?.[cat]?.ok);
+ health.categories[cat]={
+  status:categories[cat].length===10&&retained===0?"healthy":categories[cat].length?"stale":"failed",
+  liveProviders:mixed.liveNames,
+  failedProviders,
+  retainedPrevious:retained,
+  count:categories[cat].length
+ };
+ console.log(`MIXED ${cat}: ${categories[cat].length}/10 stories from ${mixed.liveNames.join(", ")||"no live providers"}${retained?` + ${retained} retained previous`:""}`);
+ if(categories[cat].length<10||retained){
+  console.warn(`::warning::WozzaNews ${cat} is ${health.categories[cat].status}: ${categories[cat].length}/10 rows, ${retained} retained previous`);
+ }
+}
+
 await fs.writeFile("news.json",JSON.stringify({
  updated:new Date().toISOString(),
- providers,
- // Backwards compatibility for any cached v5.3.38 client:
- categories:providers.SKY.categories
+ categories,
+ health,
+ // Keep provider pools for diagnostics/future resilience, but the app now renders one mixed chart.
+ providers
 },null,2)+"\n");
