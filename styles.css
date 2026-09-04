@@ -934,3 +934,20 @@ body.watchlist-reordering .my-list-page .chart-wrap,body.watchlist-reordering #m
   transform:rotate(-2deg) skewX(-7deg);
   transform-origin:left center;
 }
+
+/* v6.2.31 — Read annotation polish: one handwritten phrase, with a subtly smaller
+   capital R so it reads clearly as an r without looking like a full-size capital. */
+.read-page .seen-read .seen-read-r{
+  display:inline-block;
+  font-size:.78em;
+  font-weight:600;
+  line-height:1;
+  margin-right:-.035em;
+  transform:translateY(.03em) rotate(-1deg);
+  transform-origin:right bottom;
+}
+/* Drop the handwritten underline/swoosh a tiny bit lower. */
+.read-page .seen-read::before{
+  bottom:-5px;
+}
+
