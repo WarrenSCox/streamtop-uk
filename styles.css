@@ -907,3 +907,10 @@ body.watchlist-reordering .my-list-page .chart-wrap,body.watchlist-reordering #m
 .seen-read{
   margin-left:8px;
 }
+
+/* v6.2.28 — WozzaRead history alignment fix */
+/* Keep "read it!" anchored to the same left edge as the book title/author. */
+.read-page .seen-read{
+  align-self:flex-start;
+  margin-left:0;
+}
