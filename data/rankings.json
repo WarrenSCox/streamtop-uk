@@ -1,6 +1,6 @@
 {
   "version": 17,
-  "generatedAt": "2026-09-04T15:47:16.194Z",
+  "generatedAt": "2026-09-04T15:50:32.376Z",
   "country": "GB",
   "strategy": "Official source first; labelled fallback when no compatible official chart is available.",
   "services": {
@@ -874,7 +874,7 @@
           "rank": 1,
           "title": "Star Wars: The Mandalorian and Grogu",
           "year": 2026,
-          "type": null,
+          "type": "MOVIE",
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/01a06213-9861-7d5b-a9ba-b56eabc0796c/compose?format=webp&width=386&label=top_ranked_1_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-d830ec57-499e-498c-b6b3-2b85a18a5f51"
         },
@@ -890,7 +890,7 @@
           "rank": 3,
           "title": "Furious",
           "year": 2026,
-          "type": "SHOW",
+          "type": null,
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/019fa9fd-c0de-7eab-963c-8ec352530398/compose?format=webp&width=386&label=top_ranked_3_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-5d4924b7-1cde-47c3-8852-f30bdd7fe979"
         },
@@ -938,7 +938,7 @@
           "rank": 9,
           "title": "Star Wars: The Mandalorian and Grogu Official Podcast",
           "year": 2026,
-          "type": null,
+          "type": "SHOW",
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/01a03f0c-5698-744a-8057-eb1d6c708a19/compose?format=webp&width=386&label=top_ranked_9_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-88350c60-a426-41d3-b6e2-0dec37d24a70"
         },
@@ -2754,9 +2754,8 @@
           "rank": 2,
           "title": "Dandelion",
           "artist": "Ella Langley",
-          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/26/35/03/26350323-d656-4817-49e6-4d658af8363a/196874332917.jpg/400x400bb.jpg",
-          "detailsUrl": "https://ca.billboard.com/charts/billboard-200",
-          "musicUrl": "https://music.apple.com/us/album/dandelion/1895159736?uo=4"
+          "poster": null,
+          "detailsUrl": "https://ca.billboard.com/charts/billboard-200"
         },
         {
           "rank": 3,
