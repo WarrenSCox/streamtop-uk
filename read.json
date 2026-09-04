@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-04T16:15:24.424Z",
+  "updated": "2026-09-04T16:24:43.028Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -12,7 +12,7 @@
         "title": "The Murder at the Vicarage",
         "author": "Agatha Christie",
         "narrator": "Toni Collette , Kit Harington , Jasmine Jobson , Calam Lynch , Eliot Salt , Katy Wix , Lolly Adefope , Billy Postlethwaite , Vicki Pepperdine , Meera Syal , La Voix , Leo Reich , full cast",
-        "image": "https://covers.openlibrary.org/b/id/12996560-L.jpg"
+        "image": "https://m.media-amazon.com/images/I/51GzNQrzYrL._SL500_.jpg"
       },
       {
         "title": "The Let Them Theory",
@@ -54,13 +54,13 @@
         "title": "The Eye of the Bedlam Bride",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays , Patrick Warburton , Travis Baldree , Annie Ellicott",
-        "image": "https://covers.openlibrary.org/b/id/15231488-L.jpg"
+        "image": "https://m.media-amazon.com/images/I/51qfZAq2J4L._SL500_.jpg"
       },
       {
         "title": "The Wicked and the Warped",
         "author": "Robert Rath",
         "narrator": "Richard Reed",
-        "image": "https://covers.openlibrary.org/b/id/15247665-L.jpg"
+        "image": "https://m.media-amazon.com/images/I/51vlFnh90aL._SL500_.jpg"
       }
     ],
     "BOOKS": [
@@ -123,14 +123,14 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-09-04T16:15:24.424Z",
-      "lastSuccessfulRefresh": "2026-09-04T16:15:24.424Z",
+      "checkedAt": "2026-09-04T16:24:43.028Z",
+      "lastSuccessfulRefresh": "2026-09-04T16:24:43.028Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-09-04T16:15:33.901Z",
-      "lastSuccessfulRefresh": "2026-09-04T16:15:33.901Z",
+      "checkedAt": "2026-09-04T16:24:52.322Z",
+      "lastSuccessfulRefresh": "2026-09-04T16:24:52.322Z",
       "reason": ""
     }
   }
