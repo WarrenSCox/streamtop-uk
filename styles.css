@@ -967,6 +967,6 @@ body.watchlist-reordering .my-list-page .chart-wrap,body.watchlist-reordering #m
 @media(max-width:560px){
   .news-copy strong{font-size:16px!important;line-height:1.12!important}
   .news-chart-heading #newsTitle.entertainment-title{
-    font-size:clamp(16px,4.6vw,23px)!important;
+    font-size:clamp(15px,4.2vw,21px)!important;
   }
 }
