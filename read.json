@@ -1,12 +1,12 @@
 {
-  "updated": "2026-09-04T15:28:38.254Z",
+  "updated": "2026-09-04T15:41:12.385Z",
   "charts": {
     "AUDIOBOOKS": [
       {
         "title": "Dungeon Crawler Carl",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://covers.openlibrary.org/b/id/15143022-L.jpg"
+        "image": "https://m.media-amazon.com/images/I/51HIZdnqASL._SL500_.jpg"
       },
       {
         "title": "The Murder at the Vicarage",
@@ -42,7 +42,7 @@
         "title": "The Gate of the Feral Gods",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://covers.openlibrary.org/b/id/15232581-L.jpg"
+        "image": "https://m.media-amazon.com/images/I/51rmyTTWPsL._SL500_.jpg"
       },
       {
         "title": "The Butcher's Masquerade",
@@ -60,7 +60,7 @@
         "title": "The Wicked and the Warped",
         "author": "Robert Rath",
         "narrator": "Richard Reed",
-        "image": "https://covers.openlibrary.org/b/id/15247665-L.jpg"
+        "image": "https://m.media-amazon.com/images/I/51vlFnh90aL._SL500_.jpg"
       }
     ],
     "BOOKS": [
@@ -123,14 +123,14 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-09-04T15:28:38.254Z",
-      "lastSuccessfulRefresh": "2026-09-04T15:28:38.254Z",
+      "checkedAt": "2026-09-04T15:41:12.385Z",
+      "lastSuccessfulRefresh": "2026-09-04T15:41:12.385Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-09-04T15:28:46.196Z",
-      "lastSuccessfulRefresh": "2026-09-04T15:28:46.196Z",
+      "checkedAt": "2026-09-04T15:41:20.764Z",
+      "lastSuccessfulRefresh": "2026-09-04T15:41:20.764Z",
       "reason": ""
     }
   }
