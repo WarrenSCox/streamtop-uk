@@ -322,6 +322,9 @@ function isWatchedAlready(item){
     return xt===title&&xType===type;
   });
 }
+function annotationVariant(title,count){
+  const text=String(title||'');let hash=0;for(let i=0;i<text.length;i++)hash=((hash<<5)-hash+text.charCodeAt(i))|0;return Math.abs(hash)%count+1;
+}
 function archiveWatched(item){const watched=readWatched().filter(x=>x.id!==item.id);watched.unshift({...item,watchedAt:new Date().toISOString()});writeWatched(watched)}
 function youtubeTrailerUrl(title){return `https://www.youtube.com/results?search_query=${encodeURIComponent(`${title||''} trailer`)}`}
 function eyesMarkup(){return '<span class="watch-eyes" aria-hidden="true"><span class="watch-eye"><span class="watch-pupil"></span></span><span class="watch-eye"><span class="watch-pupil"></span></span></span>'}
@@ -392,8 +395,8 @@ function renderTitles(titles) {
     info.append(title);
     if (isWatchedAlready(item)) {
       const seen = document.createElement('span');
-      seen.className = 'seen-already';
-      seen.textContent = 'seen already';
+      seen.className = `seen-already seen-watched variant-${annotationVariant(item.title,3)}`;
+      seen.textContent = 'watched it!';
       seen.setAttribute('aria-label', 'You have already watched this');
       info.append(seen);
     }
