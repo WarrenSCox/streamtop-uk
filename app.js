@@ -395,7 +395,7 @@ function renderTitles(titles) {
     info.append(title);
     if (isWatchedAlready(item)) {
       const seen = document.createElement('span');
-      seen.className = `seen-already seen-watched variant-${annotationVariant(item.title,3)}`;
+      seen.className = 'seen-already seen-watched';
       seen.textContent = 'watched it!';
       seen.setAttribute('aria-label', 'You have already watched this');
       info.append(seen);
