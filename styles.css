@@ -914,3 +914,14 @@ body.watchlist-reordering .my-list-page .chart-wrap,body.watchlist-reordering #m
   align-self:flex-start;
   margin-left:0;
 }
+/* v6.2.29 — make the leading lowercase r in "read it!" unmistakable on mobile. */
+.seen-read-r{
+  display:inline-block;
+  font-family:Arial,Helvetica,sans-serif;
+  font-size:.98em;
+  font-weight:700;
+  letter-spacing:-.02em;
+  transform:rotate(-4deg) translateY(.2px);
+  transform-origin:50% 70%;
+}
+

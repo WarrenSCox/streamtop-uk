@@ -102,3 +102,31 @@ document.querySelectorAll('.segmented button').forEach(b=>b.onclick=()=>setType(
   target.addEventListener('touchcancel',()=>{tracking=false},{passive:true});
 }
 function initMenu(){const m=$('#wozzaMenu'),bd=$('#wozzaMenuBackdrop'),t=$('.header-copy');const open=()=>{m.classList.add('open');m.setAttribute('aria-hidden','false');bd.hidden=false},close=()=>{m.classList.remove('open');m.setAttribute('aria-hidden','true');bd.hidden=true};t?.addEventListener('click',open);bd?.addEventListener('click',close);$('.wozza-menu-back')?.addEventListener('click',close);$('#wozzaMenuList')?.addEventListener('click',e=>{const b=e.target.closest('[data-href]');if(b)location.href=b.dataset.href})}initMenu();initGestures();render();
+
+// v6.2.29 — complete the main Wozza pull-navigation loop:
+// WozzaWatch → WozzaTune → Watchlist → WozzaWatch.
+function initTopPullSwitch(nextUrl){
+  let startY=0,pulling=false,distance=0;
+  const threshold=92;
+  window.addEventListener('touchstart',e=>{
+    if(e.touches.length!==1||window.scrollY>1||document.body.classList.contains('watchlist-reordering'))return;
+    startY=e.touches[0].clientY;distance=0;pulling=true;
+  },{passive:true});
+  window.addEventListener('touchmove',e=>{
+    if(!pulling||e.touches.length!==1)return;
+    const dy=e.touches[0].clientY-startY;
+    if(dy<=0){distance=0;return;}
+    if(window.scrollY>1){pulling=false;distance=0;return;}
+    distance=dy;
+    e.preventDefault();
+  },{passive:false});
+  const finish=()=>{
+    if(!pulling)return;
+    pulling=false;
+    if(distance>=threshold)location.href=nextUrl;
+    distance=0;
+  };
+  window.addEventListener('touchend',finish,{passive:true});
+  window.addEventListener('touchcancel',()=>{pulling=false;distance=0;},{passive:true});
+}
+initTopPullSwitch('index.html');
