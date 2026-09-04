@@ -885,17 +885,12 @@ body.watchlist-reordering .my-list-page .chart-wrap,body.watchlist-reordering #m
   margin-top:4px;color:rgba(23,33,61,.60);
   font-family:"Comic Sans MS","Bradley Hand",cursive;font-size:11px;font-weight:700;
   letter-spacing:.01em;line-height:1;transform:rotate(-2deg);
-  padding-right:14px;white-space:nowrap;vertical-align:baseline;
+  padding-right:0;white-space:nowrap;vertical-align:baseline;
 }
-/* One shared handwritten treatment: loose scribble underline with a connected flick at the end. */
+/* One shared handwritten treatment: loose scribble underline only. */
 .seen-already::before{
-  content:"";position:absolute;left:1px;right:4px;bottom:-4px;height:5px;
+  content:"";position:absolute;left:1px;right:0;bottom:-4px;height:5px;
   border-top:2px solid currentColor;border-radius:50%;opacity:.55;transform:rotate(-2deg)
-}
-.seen-already::after{
-  content:"";position:absolute;right:0;bottom:-4px;width:8px;height:5px;
-  border-top:2px solid currentColor;border-radius:55% 55% 0 0;opacity:.58;
-  transform:rotate(-15deg) skewX(-12deg)
 }
 .seen-watched{margin-left:8px;margin-top:0}
 .seen-listened{font-size:10.5px}
