@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-04T13:25:37.787Z",
+  "updated": "2026-09-04T15:00:44.491Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -30,7 +30,7 @@
         "title": "Project Hail Mary",
         "author": "Andy Weir",
         "narrator": "Ray Porter",
-        "image": "https://m.media-amazon.com/images/I/51POf8gOyLL._SL500_.jpg"
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2a/1a/fc/2a1afcc9-6179-5fdf-3bea-aec376486895/rm_image.jpg/600x600bb.jpg"
       },
       {
         "title": "The Dungeon Anarchist's Cookbook",
@@ -42,7 +42,7 @@
         "title": "The Gate of the Feral Gods",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://m.media-amazon.com/images/I/51rmyTTWPsL._SL500_.jpg"
+        "image": "https://covers.openlibrary.org/b/id/15232581-L.jpg"
       },
       {
         "title": "The Butcher's Masquerade",
@@ -60,7 +60,7 @@
         "title": "The Wicked and the Warped",
         "author": "Robert Rath",
         "narrator": "Richard Reed",
-        "image": "https://m.media-amazon.com/images/I/51vlFnh90aL._SL500_.jpg"
+        "image": "https://covers.openlibrary.org/b/id/15247665-L.jpg"
       }
     ],
     "BOOKS": [
@@ -123,15 +123,15 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-09-04T13:25:37.788Z",
-      "lastSuccessfulRefresh": "2026-09-04T13:25:37.788Z",
+      "checkedAt": "2026-09-04T15:00:44.491Z",
+      "lastSuccessfulRefresh": "2026-09-04T15:00:44.491Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
-      "status": "stale",
-      "checkedAt": "2026-09-04T13:25:46.782Z",
-      "lastSuccessfulRefresh": "2026-09-04T13:15:36.097Z",
-      "reason": "503 https://www.audible.co.uk/charts/best"
+      "status": "healthy",
+      "checkedAt": "2026-09-04T15:00:53.627Z",
+      "lastSuccessfulRefresh": "2026-09-04T15:00:53.627Z",
+      "reason": ""
     }
   }
 }
