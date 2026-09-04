@@ -1,6 +1,6 @@
 {
   "version": 17,
-  "generatedAt": "2026-09-04T11:40:37.534Z",
+  "generatedAt": "2026-09-04T13:13:55.648Z",
   "country": "GB",
   "strategy": "Official source first; labelled fallback when no compatible official chart is available.",
   "services": {
@@ -922,7 +922,7 @@
           "rank": 7,
           "title": "The Shards",
           "year": 2026,
-          "type": null,
+          "type": "SHOW",
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/019fecc7-ca92-7b04-ad42-98bdb058fa69/compose?format=webp&width=386&label=top_ranked_7_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-e29b9ed7-936f-47e2-8a62-a17f35104f7a"
         },
@@ -1906,7 +1906,7 @@
           "sourceRank": 748,
           "title": "The Sex Lives of College Girls",
           "year": 2021,
-          "poster": "/poster/256459439/s166/the-sex-lives-of-college-girls.webp",
+          "poster": "/poster/301680153/s166/the-sex-lives-of-college-girls.webp",
           "url": "https://www.justwatch.com/uk/tv-series/the-sex-lives-of-college-girls",
           "trend": "DOWN",
           "trendDifference": -55,
@@ -1939,13 +1939,13 @@
         },
         {
           "rank": 7,
-          "sourceRank": 3859,
+          "sourceRank": 3872,
           "title": "Coronation Street",
           "year": 2010,
           "poster": "/poster/320953901/s166/coronation-street.webp",
           "url": "https://www.justwatch.com/uk/tv-series/coronation-street",
-          "trend": "UP",
-          "trendDifference": 3,
+          "trend": "DOWN",
+          "trendDifference": -10,
           "daysInTop10": null,
           "topRank": 75
         },
@@ -2136,13 +2136,13 @@
         },
         {
           "rank": 2,
-          "sourceRank": 594,
+          "sourceRank": 587,
           "title": "Peep Show",
           "year": 2003,
           "poster": "/poster/302353065/s166/peep-show.webp",
           "url": "https://www.justwatch.com/uk/tv-series/peep-show",
           "trend": "UP",
-          "trendDifference": 23,
+          "trendDifference": 31,
           "daysInTop10": 1,
           "topRank": 7
         },

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-04T11:41:26.339Z",
+  "updated": "2026-09-04T13:15:26.334Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -54,7 +54,7 @@
         "title": "The Eye of the Bedlam Bride",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays , Patrick Warburton , Travis Baldree , Annie Ellicott",
-        "image": "https://covers.openlibrary.org/b/id/15231488-L.jpg"
+        "image": "https://m.media-amazon.com/images/I/51qfZAq2J4L._SL500_.jpg"
       },
       {
         "title": "The Wicked and the Warped",
@@ -123,14 +123,14 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-09-04T11:41:26.340Z",
-      "lastSuccessfulRefresh": "2026-09-04T11:41:26.340Z",
+      "checkedAt": "2026-09-04T13:15:26.335Z",
+      "lastSuccessfulRefresh": "2026-09-04T13:15:26.335Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-09-04T11:41:35.249Z",
-      "lastSuccessfulRefresh": "2026-09-04T11:41:35.249Z",
+      "checkedAt": "2026-09-04T13:15:36.097Z",
+      "lastSuccessfulRefresh": "2026-09-04T13:15:36.097Z",
       "reason": ""
     }
   }
