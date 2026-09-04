@@ -1,6 +1,6 @@
 {
   "version": 17,
-  "generatedAt": "2026-09-04T16:12:23.246Z",
+  "generatedAt": "2026-09-04T16:14:29.658Z",
   "country": "GB",
   "strategy": "Official source first; labelled fallback when no compatible official chart is available.",
   "services": {
@@ -906,7 +906,7 @@
           "rank": 5,
           "title": "Yellow Mirror",
           "year": 2026,
-          "type": "MOVIE",
+          "type": null,
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/01a020fe-1a30-77cd-a762-593482b1ed6f/compose?format=webp&width=386&label=top_ranked_5_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-b85428e1-f670-4270-96d3-4d0e186336e6"
         },
@@ -930,7 +930,7 @@
           "rank": 8,
           "title": "LEGO Star Wars: The Mandalorian",
           "year": 2026,
-          "type": null,
+          "type": "MOVIE",
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/01a06088-3dc6-7cd3-a09d-f7747998842d/compose?format=webp&width=386&label=top_ranked_8_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-e1234eda-704c-4729-a47e-e8be088bc61f"
         },
