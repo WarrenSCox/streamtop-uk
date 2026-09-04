@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-04T15:00:44.438Z",
+  "updated": "2026-09-04T15:28:38.203Z",
   "providers": {
     "SKY": {
       "categories": {
@@ -53,6 +53,14 @@
             "image": "https://e3.365dm.com/26/09/1920x1080/skynews-russell-howard-comedian_7340879.jpg?20260904135424"
           },
           {
+            "title": "A misunderstanding at the heart of the seven-year gifting rule... | Money newsletter",
+            "link": "https://news.sky.com/story/money-newsletter-sky-news-personal-finance-13367142",
+            "published": "Tue, 13 May 2025 13:06:00 +0100",
+            "source": "Sky News",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/08/1920x1080/skynews-inheritance-tax-money_7330521.jpg?20260825065628"
+          },
+          {
             "title": "1970s sitcom star Richard O'Sullivan dies",
             "link": "https://news.sky.com/story/1970s-sitcom-star-richard-osullivan-dies-at-82-13581214",
             "published": "Fri, 04 Sep 2026 11:30:00 +0100",
@@ -75,14 +83,6 @@
             "source": "Sky News",
             "categories": "",
             "image": "https://e3.365dm.com/21/04/1920x1080/skynews-ncp-car-park_5337075.jpg?20210410135718"
-          },
-          {
-            "title": "The advice that will change how you think about - and buy - your pillows for good",
-            "link": "https://news.sky.com/story/the-advice-that-will-change-how-you-think-about-and-buy-your-pillows-for-good-13580811",
-            "published": "Thu, 03 Sep 2026 13:01:00 +0100",
-            "source": "Sky News",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-pillow-istock_7339809.jpg?20260903130617"
           }
         ],
         "WORLD": [
@@ -251,6 +251,14 @@
             "image": "https://e3.365dm.com/21/04/1920x1080/skynews-ncp-car-park_5337075.jpg?20210410135718"
           },
           {
+            "title": "A misunderstanding at the heart of the seven-year gifting rule... | Money newsletter",
+            "link": "https://news.sky.com/story/money-newsletter-sky-news-personal-finance-13367142",
+            "published": "Tue, 13 May 2025 13:06:00 +0100",
+            "source": "Sky News",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/08/1920x1080/skynews-inheritance-tax-money_7330521.jpg?20260825065628"
+          },
+          {
             "title": "London-listed Molten Ventures joins race to run Burnham-backed £1bn tech fund",
             "link": "https://news.sky.com/story/london-listed-molten-ventures-joins-race-to-run-burnham-backed-1bn-tech-fund-13581004",
             "published": "Thu, 03 Sep 2026 19:48:00 +0100",
@@ -305,14 +313,6 @@
             "source": "Sky News",
             "categories": "",
             "image": "https://e3.365dm.com/26/08/1920x1080/skynews-ai-score_7333545.jpg?20260828122107"
-          },
-          {
-            "title": "Spire Healthcare buyer squares Circle as £1bn takeover looms",
-            "link": "https://news.sky.com/story/spire-healthcare-buyer-squares-circle-as-1bn-takeover-looms-13580466",
-            "published": "Wed, 02 Sep 2026 17:39:00 +0100",
-            "source": "Sky News",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/02/1920x1080/skynews-parkway-spire_7168064.jpg?20260902174131"
           }
         ],
         "TECH": [
@@ -487,10 +487,18 @@
           {
             "title": "Reform suspends two officials over donations sting as Farage admits their comments ‘don’t look good’ – UK politics live",
             "link": "https://www.theguardian.com/politics/live/2026/sep/04/reform-uk-donations-nigel-farage-james-orr-dan-jukes-channel-4-investigation-conference-jordan-bardella-latest-news-updates",
-            "published": "Fri, 04 Sep 2026 14:43:14 GMT",
+            "published": "Fri, 04 Sep 2026 15:12:22 GMT",
             "source": "The Guardian",
             "categories": "Politics UK news Nigel Farage Reform UK Party funding Labour Lee Anderson Richard Tice Green party Ed Davey National Rally Race",
-            "image": "https://i.guim.co.uk/img/media/195dde1d9fefa37425b9f266aa93554005d6f034/1493_855_3456_2765/master/3456.jpg?width=140&quality=85&auto=format&fit=max&s=7c4c3a145a3bcd28e35931fba757e3e3"
+            "image": "https://i.guim.co.uk/img/media/195dde1d9fefa37425b9f266aa93554005d6f034/1214_905_3342_2674/master/3342.jpg?width=140&quality=85&auto=format&fit=max&s=bd60f3c6291e7279fb67a1e3e12d9cf6"
+          },
+          {
+            "title": "Bath show highlights sibling finds – and England’s first paid female astronomer",
+            "link": "https://www.theguardian.com/science/2026/sep/04/bath-show-astronomers-william-caroline-herschel-art",
+            "published": "Fri, 04 Sep 2026 15:00:10 GMT",
+            "source": "The Guardian",
+            "categories": "Astronomy Science Space Exhibitions Museums England UK news Art and design",
+            "image": "https://i.guim.co.uk/img/media/d1c2f3673391702cbf00b8f5a2ba0a5abd0d23ca/571_400_4326_3461/master/4326.jpg?width=140&quality=85&auto=format&fit=max&s=c60945c2c2f6f20d2846e3f3b2019bd0"
           },
           {
             "title": "Populism poses serious challenge to independent central banks, Bailey says",
@@ -549,29 +557,21 @@
             "image": "https://i.guim.co.uk/img/media/029d93caad33796483515f0d1fa3198bc79e7ee7/281_5_1638_1311/master/1638.jpg?width=140&quality=85&auto=format&fit=max&s=c58dd9e0eec0184df253ed3e3dd0770b"
           },
           {
-            "title": "‘Astronomical’ fuel price surge hits farmers in UK and US",
-            "link": "https://www.theguardian.com/business/2026/sep/04/fuel-price-surge-diesel-farmers-uk-us",
-            "published": "Fri, 04 Sep 2026 09:00:04 GMT",
+            "title": "Jackdaw gasfield set to be approved by ministers this month, sources say",
+            "link": "https://www.theguardian.com/environment/2026/sep/04/jackdaw-gasfield-set-to-be-approved-by-ministers-this-month-sources-say",
+            "published": "Fri, 04 Sep 2026 07:55:07 GMT",
             "source": "The Guardian",
-            "categories": "Oil Farming Business US-Israel war on Iran UK news US news Russia World news Europe",
-            "image": "https://i.guim.co.uk/img/media/4ef2d81d1b7e24db17355a0c098764333a96ffb8/451_0_4500_3600/master/4500.jpg?width=140&quality=85&auto=format&fit=max&s=0f3a4dbda0e24323b3110ce9883c4c98"
-          },
-          {
-            "title": "British army told to halt non-essential training exercises to save money",
-            "link": "https://www.theguardian.com/uk-news/2026/sep/04/british-army-halt-non-essential-training-exercises-save-money",
-            "published": "Fri, 04 Sep 2026 06:44:39 GMT",
-            "source": "The Guardian",
-            "categories": "British army Military Defence policy UK news Politics John Healey Public finance",
-            "image": "https://i.guim.co.uk/img/media/3c7a4bbf1f9bd4fffe968c4025bab14c7db7b59f/256_0_2560_2048/master/2560.jpg?width=140&quality=85&auto=format&fit=max&s=e785f9acb8fa14f0f80f2f1912bb1581"
+            "categories": "Environment policy Gas Oil Oil Gas Business Commodities Energy Environment Fossil fuels Climate crisis Energy industry Labour Politics UK news",
+            "image": "https://i.guim.co.uk/img/media/362c71460eef0f88c8093af29cb66f14d8b50715/968_0_4840_3872/master/4840.jpg?width=140&quality=85&auto=format&fit=max&s=83968b76d9c7495d63cd6a6c6fff58e6"
           }
         ],
         "WORLD": [
           {
             "title": "UN to vote on adopting new world map that shows Africa’s true scale",
             "link": "https://www.theguardian.com/world/2026/sep/04/un-vote-world-map-mercator-equal-earth-africa",
-            "published": "Fri, 04 Sep 2026 02:00:54 GMT",
+            "published": "Fri, 04 Sep 2026 14:45:21 GMT",
             "source": "The Guardian",
-            "categories": "Africa United Nations Maps Togo African Union World news",
+            "categories": "Africa United Nations Togo African Union World news",
             "image": "https://i.guim.co.uk/img/media/71b8b31a0e418f2093686dd8f0ce5c843b3989ca/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=a2a07aad732880348e9b39f966e7b4b2"
           },
           {
@@ -607,7 +607,7 @@
             "image": "https://i.guim.co.uk/img/media/52efe842cca5785b2f13b82605be6d0460ca734c/741_0_5600_4480/master/5600.jpg?width=140&quality=85&auto=format&fit=max&s=ff6e31d932863b2776099b74f66511e7"
           },
           {
-            "title": "Colombian president posts video purporting to show 23 ‘neutralised’ guerrillas in body bags",
+            "title": "Colombia president provokes disgust by posing with bodies of ‘terrorists’",
             "link": "https://www.theguardian.com/world/2026/sep/04/colombia-president-posts-video-guerrillas-body-bags-abelardo-de-la-espriella",
             "published": "Fri, 04 Sep 2026 13:50:43 GMT",
             "source": "The Guardian",
@@ -649,20 +649,20 @@
         ],
         "POLITICS": [
           {
+            "title": "Reform suspends two officials over donations sting as Farage admits their comments ‘don’t look good’ – UK politics live",
+            "link": "https://www.theguardian.com/politics/live/2026/sep/04/reform-uk-donations-nigel-farage-james-orr-dan-jukes-channel-4-investigation-conference-jordan-bardella-latest-news-updates",
+            "published": "Fri, 04 Sep 2026 15:12:22 GMT",
+            "source": "The Guardian",
+            "categories": "Politics UK news Nigel Farage Reform UK Party funding Labour Lee Anderson Richard Tice Green party Ed Davey National Rally Race",
+            "image": "https://i.guim.co.uk/img/media/195dde1d9fefa37425b9f266aa93554005d6f034/1214_905_3342_2674/master/3342.jpg?width=140&quality=85&auto=format&fit=max&s=bd60f3c6291e7279fb67a1e3e12d9cf6"
+          },
+          {
             "title": "What is the latest finance scandal facing Reform UK?",
             "link": "https://www.theguardian.com/politics/2026/sep/04/what-latest-finance-scandal-reform-uk",
             "published": "Fri, 04 Sep 2026 14:44:40 GMT",
             "source": "The Guardian",
             "categories": "Reform UK Nigel Farage Party funding Politics Electoral Commission UK news",
             "image": "https://i.guim.co.uk/img/media/c5ddca669b08a0db84c0d5e1650764b9e1eae361/554_0_6511_5209/master/6511.jpg?width=140&quality=85&auto=format&fit=max&s=3a005e9bf478e83c386c5b488a2cae8f"
-          },
-          {
-            "title": "Reform suspends two officials over donations sting as Farage admits their comments ‘don’t look good’ – UK politics live",
-            "link": "https://www.theguardian.com/politics/live/2026/sep/04/reform-uk-donations-nigel-farage-james-orr-dan-jukes-channel-4-investigation-conference-jordan-bardella-latest-news-updates",
-            "published": "Fri, 04 Sep 2026 14:43:14 GMT",
-            "source": "The Guardian",
-            "categories": "Politics UK news Nigel Farage Reform UK Party funding Labour Lee Anderson Richard Tice Green party Ed Davey National Rally Race",
-            "image": "https://i.guim.co.uk/img/media/195dde1d9fefa37425b9f266aa93554005d6f034/1493_855_3456_2765/master/3456.jpg?width=140&quality=85&auto=format&fit=max&s=7c4c3a145a3bcd28e35931fba757e3e3"
           },
           {
             "title": "Populism poses serious challenge to independent central banks, Bailey says",
@@ -733,7 +733,7 @@
           {
             "title": "US jobs report smashes forecasts; shares in Falklands oil explorers plunge as Argentina threatens sanctions – business live",
             "link": "https://www.theguardian.com/business/live/2026/sep/04/uk-car-sales-rise-food-prices-bank-of-england-us-jobs-repost-latest-news-updates",
-            "published": "Fri, 04 Sep 2026 14:54:57 GMT",
+            "published": "Fri, 04 Sep 2026 15:18:25 GMT",
             "source": "The Guardian",
             "categories": "Business Economics Stock markets FTSE Automotive industry",
             "image": "https://i.guim.co.uk/img/media/6c202f240b628027d7ef93fc2206478c5785ae98/184_0_3585_2868/master/3585.jpg?width=140&quality=85&auto=format&fit=max&s=484e3f04d830e89e2405bdc6df8a6ce1"
@@ -981,6 +981,14 @@
       "categories": {
         "UK": [
           {
+            "title": "Work on Donald Trump’s 250ft ‘Arc de Trump’ could begin in weeks",
+            "link": "https://metro.co.uk/2026/09/04/work-250-foot-arc-de-trump-washington-begin-weeks-29535561/",
+            "published": "Fri, 04 Sep 2026 15:21:49 +0000",
+            "source": "Metro",
+            "categories": "News US Donald Trump Washington DC",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_292713557-af95.jpg?quality=90&strip=all&w=646"
+          },
+          {
             "title": "Mystery wild animal terrorises US suburb amid fears ‘it could have rabies’",
             "link": "https://metro.co.uk/2026/09/04/mystery-wild-animal-terrorises-us-suburb-amid-fears-it-rabies-29534049/",
             "published": "Fri, 04 Sep 2026 14:44:16 +0000",
@@ -989,7 +997,7 @@
             "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310651557-dbd0-e1788530322741.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "More safety measures installed where women are upskirted in London – but is it enough?",
+            "title": "London is fighting back against upskirters – but is enough being done?",
             "link": "https://metro.co.uk/2026/09/04/safety-measures-installed-women-upskirted-london-enough-29529123/",
             "published": "Fri, 04 Sep 2026 14:35:17 +0000",
             "source": "Metro",
@@ -1009,7 +1017,7 @@
             "link": "https://metro.co.uk/2026/09/04/london-pub-says-lost-40-000-forced-move-outdoor-seating-heatwave-29533967/",
             "published": "Fri, 04 Sep 2026 14:04:52 +0000",
             "source": "Metro",
-            "categories": "News",
+            "categories": "News UK Heatwave London Pubs",
             "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310635991-4905.jpg?quality=90&strip=all&w=646"
           },
           {
@@ -1051,14 +1059,6 @@
             "source": "Metro",
             "categories": "News Opinion World Bridget Phillipson Domestic abuse Feminism Labour Party Sexual Violence This is Not Right",
             "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310652094-f500.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Royal Mail worker made more than £1,200,000 from drugs taken from parcels",
-            "link": "https://metro.co.uk/2026/09/04/royal-mail-worker-made-1-200-000-drugs-taken-parcels-29532533/",
-            "published": "Fri, 04 Sep 2026 11:10:08 +0000",
-            "source": "Metro",
-            "categories": "News UK Crime News Drugs Royal Mail Slough Thames Valley Police",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310635209-720b.jpg?quality=90&strip=all&w=646"
           }
         ],
         "WORLD": [
@@ -1327,7 +1327,7 @@
         ],
         "ENTERTAINMENT": [
           {
-            "title": "‘Humiliating’ moment actress Nina Dobrev is confronted by security on Venice red carpet",
+            "title": "Nina Dobrev laughs awkwardly after Venice red carpet security make her move",
             "link": "https://metro.co.uk/2026/09/04/humiliating-moment-actress-nina-dobrev-confronted-security-venice-red-carpet-29535565/",
             "published": "Fri, 04 Sep 2026 15:00:03 +0000",
             "source": "Metro",
@@ -1367,7 +1367,7 @@
             "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_293240907-1e10-e1788525353317.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Steve Irwin’s family mark 20 years since sudden death of legendary Crocodile Hunter",
+            "title": "‘Our superhero’: Steve Irwin’s family mark 20 years since Crocodile Hunter’s death",
             "link": "https://metro.co.uk/2026/09/04/steve-irwins-family-mark-20-years-since-sudden-death-legendary-crocodile-hunter-29534422/",
             "published": "Fri, 04 Sep 2026 11:44:50 +0000",
             "source": "Metro",
@@ -1461,6 +1461,14 @@
         "image": "https://e3.365dm.com/26/09/1920x1080/skynews-russell-howard-comedian_7340879.jpg?20260904135424"
       },
       {
+        "title": "A misunderstanding at the heart of the seven-year gifting rule... | Money newsletter",
+        "link": "https://news.sky.com/story/money-newsletter-sky-news-personal-finance-13367142",
+        "published": "Tue, 13 May 2025 13:06:00 +0100",
+        "source": "Sky News",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/08/1920x1080/skynews-inheritance-tax-money_7330521.jpg?20260825065628"
+      },
+      {
         "title": "1970s sitcom star Richard O'Sullivan dies",
         "link": "https://news.sky.com/story/1970s-sitcom-star-richard-osullivan-dies-at-82-13581214",
         "published": "Fri, 04 Sep 2026 11:30:00 +0100",
@@ -1483,14 +1491,6 @@
         "source": "Sky News",
         "categories": "",
         "image": "https://e3.365dm.com/21/04/1920x1080/skynews-ncp-car-park_5337075.jpg?20210410135718"
-      },
-      {
-        "title": "The advice that will change how you think about - and buy - your pillows for good",
-        "link": "https://news.sky.com/story/the-advice-that-will-change-how-you-think-about-and-buy-your-pillows-for-good-13580811",
-        "published": "Thu, 03 Sep 2026 13:01:00 +0100",
-        "source": "Sky News",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-pillow-istock_7339809.jpg?20260903130617"
       }
     ],
     "WORLD": [
@@ -1659,6 +1659,14 @@
         "image": "https://e3.365dm.com/21/04/1920x1080/skynews-ncp-car-park_5337075.jpg?20210410135718"
       },
       {
+        "title": "A misunderstanding at the heart of the seven-year gifting rule... | Money newsletter",
+        "link": "https://news.sky.com/story/money-newsletter-sky-news-personal-finance-13367142",
+        "published": "Tue, 13 May 2025 13:06:00 +0100",
+        "source": "Sky News",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/08/1920x1080/skynews-inheritance-tax-money_7330521.jpg?20260825065628"
+      },
+      {
         "title": "London-listed Molten Ventures joins race to run Burnham-backed £1bn tech fund",
         "link": "https://news.sky.com/story/london-listed-molten-ventures-joins-race-to-run-burnham-backed-1bn-tech-fund-13581004",
         "published": "Thu, 03 Sep 2026 19:48:00 +0100",
@@ -1713,14 +1721,6 @@
         "source": "Sky News",
         "categories": "",
         "image": "https://e3.365dm.com/26/08/1920x1080/skynews-ai-score_7333545.jpg?20260828122107"
-      },
-      {
-        "title": "Spire Healthcare buyer squares Circle as £1bn takeover looms",
-        "link": "https://news.sky.com/story/spire-healthcare-buyer-squares-circle-as-1bn-takeover-looms-13580466",
-        "published": "Wed, 02 Sep 2026 17:39:00 +0100",
-        "source": "Sky News",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/02/1920x1080/skynews-parkway-spire_7168064.jpg?20260902174131"
       }
     ],
     "TECH": [

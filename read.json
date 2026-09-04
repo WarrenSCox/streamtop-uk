@@ -1,18 +1,18 @@
 {
-  "updated": "2026-09-04T15:00:44.491Z",
+  "updated": "2026-09-04T15:28:38.254Z",
   "charts": {
     "AUDIOBOOKS": [
       {
         "title": "Dungeon Crawler Carl",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://m.media-amazon.com/images/I/51HIZdnqASL._SL500_.jpg"
+        "image": "https://covers.openlibrary.org/b/id/15143022-L.jpg"
       },
       {
         "title": "The Murder at the Vicarage",
         "author": "Agatha Christie",
         "narrator": "Toni Collette , Kit Harington , Jasmine Jobson , Calam Lynch , Eliot Salt , Katy Wix , Lolly Adefope , Billy Postlethwaite , Vicki Pepperdine , Meera Syal , La Voix , Leo Reich , full cast",
-        "image": "https://m.media-amazon.com/images/I/51GzNQrzYrL._SL500_.jpg"
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/7d/6e/f3/7d6ef37d-f405-1e9b-7c81-4a57e14f32c1/9780007528578.jpg/600x600bb.jpg"
       },
       {
         "title": "The Let Them Theory",
@@ -30,7 +30,7 @@
         "title": "Project Hail Mary",
         "author": "Andy Weir",
         "narrator": "Ray Porter",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2a/1a/fc/2a1afcc9-6179-5fdf-3bea-aec376486895/rm_image.jpg/600x600bb.jpg"
+        "image": "https://m.media-amazon.com/images/I/51POf8gOyLL._SL500_.jpg"
       },
       {
         "title": "The Dungeon Anarchist's Cookbook",
@@ -123,14 +123,14 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-09-04T15:00:44.491Z",
-      "lastSuccessfulRefresh": "2026-09-04T15:00:44.491Z",
+      "checkedAt": "2026-09-04T15:28:38.254Z",
+      "lastSuccessfulRefresh": "2026-09-04T15:28:38.254Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-09-04T15:00:53.627Z",
-      "lastSuccessfulRefresh": "2026-09-04T15:00:53.627Z",
+      "checkedAt": "2026-09-04T15:28:46.196Z",
+      "lastSuccessfulRefresh": "2026-09-04T15:28:46.196Z",
       "reason": ""
     }
   }

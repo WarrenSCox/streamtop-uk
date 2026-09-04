@@ -1,6 +1,6 @@
 {
   "version": 17,
-  "generatedAt": "2026-09-04T14:59:19.164Z",
+  "generatedAt": "2026-09-04T15:27:57.937Z",
   "country": "GB",
   "strategy": "Official source first; labelled fallback when no compatible official chart is available.",
   "services": {
@@ -359,13 +359,13 @@
         },
         {
           "rank": 3,
-          "sourceRank": 5,
+          "sourceRank": 6,
           "title": "The Runner",
           "year": 2026,
           "poster": "/poster/347490591/s166/the-runner-2026-1.webp",
           "url": "https://www.justwatch.com/uk/movie/the-runner-2026-1",
           "trend": "DOWN",
-          "trendDifference": -2,
+          "trendDifference": -3,
           "daysInTop10": 3,
           "topRank": 4
         },
@@ -922,7 +922,7 @@
           "rank": 7,
           "title": "The Shards",
           "year": 2026,
-          "type": null,
+          "type": "SHOW",
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/019fecc7-ca92-7b04-ad42-98bdb058fa69/compose?format=webp&width=386&label=top_ranked_7_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-e29b9ed7-936f-47e2-8a62-a17f35104f7a"
         },
@@ -1224,7 +1224,7 @@
           "sourceRank": 3,
           "title": "Practical Magic",
           "year": 1998,
-          "poster": "/poster/320954483/s166/practical-magic.webp",
+          "poster": "/poster/11005490/s166/practical-magic.webp",
           "url": "https://www.justwatch.com/uk/movie/practical-magic",
           "trend": "UP",
           "trendDifference": 1,
@@ -2371,13 +2371,10 @@
           "displayName": "UK Cinema Association",
           "url": "https://www.cinemauk.org.uk/the-industry/facts-and-figures/latest-uk-cinema-statistics/weekend-top-10-box-office/",
           "cadence": "weekly",
-          "note": "Fresh data did not update successfully, so the last successful results are being shown.",
-          "stale": true,
-          "staleAsOf": "2026-09-04T13:13:55.648Z"
+          "note": "Official UK weekend box-office Top 10 published by the UK Cinema Association using Comscore data."
         }
       },
-      "error": null,
-      "stale": true
+      "error": null
     },
     "uscinema": {
       "provider": "US Cinema",
