@@ -392,14 +392,14 @@ function renderTitles(titles) {
     title.className = 'title';
     title.textContent = item.title || 'Untitled';
 
-    info.append(title);
     if (isWatchedAlready(item)) {
       const seen = document.createElement('span');
       seen.className = 'seen-already seen-watched';
       seen.textContent = 'watched it!';
       seen.setAttribute('aria-label', 'You have already watched this');
-      info.append(seen);
+      title.append(seen);
     }
+    info.append(title);
     const watch = document.createElement('button');
     const saved = isSaved(item);
     watch.type = 'button';
