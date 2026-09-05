@@ -84,6 +84,79 @@ function initDrag(){
   list.addEventListener('drop',e=>{if(!drag)return;e.preventDefault();finish(true)});
   list.addEventListener('dragend',()=>{if(drag)finish(true)});
 }
+
+
+// v6.2.36 — Search to add: TV (TVmaze), films (Wikidata) and books (Open Library).
+const SEARCH_LIMIT_PER_TYPE=3;
+let searchTimer=null,searchRun=0,searchResults=[];
+const norm=s=>String(s||'').trim().toLowerCase().replace(/\s+/g,' ');
+function searchItemId(x){return x.id||`search|${x.type}|${norm(x.title)}`}
+function sameWatchItem(a,b){return String(a?.type||'MOVIE').toUpperCase()===String(b?.type||'MOVIE').toUpperCase()&&norm(a?.title)===norm(b?.title)}
+function isSearchSaved(x){return read().some(i=>i.id===searchItemId(x)||sameWatchItem(i,x))}
+function searchTypeLabel(t){return t==='SHOW'?'TV':t==='BOOK'?'BOOK':'FILM'}
+function searchTypePlural(t){return t==='SHOW'?'TV':t==='BOOK'?'Books':'Movies'}
+function searchPosterFallback(t){return `<span class="poster search-poster-fallback">${t==='BOOK'?'W':t==='SHOW'?'TV':'FILM'}</span>`}
+function searchEyesMarkup(){return '<span class="watch-eyes" aria-hidden="true"><span class="watch-eye"><span class="watch-pupil"></span></span><span class="watch-eye"><span class="watch-pupil"></span></span></span>'}
+function updateSearchSavedStates(){
+  document.querySelectorAll('[data-search-save]').forEach(btn=>{
+    const item=searchResults[Number(btn.dataset.searchSave)];if(!item)return;
+    const saved=isSearchSaved(item);btn.classList.toggle('saved',saved);btn.setAttribute('aria-pressed',saved?'true':'false');btn.setAttribute('aria-label',saved?`${item.title} is already in your Watchlist`:`Add ${item.title} to Watchlist`);
+  });
+}
+function addSearchItem(item,button){
+  if(isSearchSaved(item)){
+    const status=$('#watchlistSearchStatus');if(status)status.textContent=`${item.title} is already in your Watchlist.`;return;
+  }
+  const list=read();list.push({id:searchItemId(item),title:item.title||'Untitled',poster:item.poster||'',service:item.service||item.meta||searchTypeLabel(item.type),serviceId:'search',type:item.type,author:item.author||'',addedAt:new Date().toISOString()});write(list);
+  button.classList.add('saved');button.classList.remove('pupil-pop');void button.offsetWidth;button.classList.add('pupil-pop');setTimeout(()=>button.classList.remove('pupil-pop'),700);button.setAttribute('aria-pressed','true');
+  render();updateSearchSavedStates();
+  const status=$('#watchlistSearchStatus');if(status)status.textContent=`Added to ${searchTypePlural(item.type)} ✓`;
+}
+function renderSearchResults(items){
+  searchResults=items;const box=$('#watchlistSearchResults'),status=$('#watchlistSearchStatus');if(!box)return;
+  if(!items.length){box.hidden=true;box.innerHTML='';if(status)status.textContent='No matching TV, films or books found.';return}
+  box.hidden=false;
+  box.innerHTML=items.map((x,i)=>{const saved=isSearchSaved(x),meta=x.meta||searchTypeLabel(x.type);return `<li class="watchlist-search-result" data-search-type="${esc(x.type)}">${x.poster?`<img class="poster search-poster" src="${esc(x.poster)}" alt="" loading="lazy">`:searchPosterFallback(x.type)}<span class="search-result-copy"><strong>${esc(x.title)}</strong><small><b>${searchTypeLabel(x.type)}</b>${meta?` · ${esc(meta)}`:''}</small></span><button class="watch-toggle search-save-toggle${saved?' saved':''}" type="button" data-search-save="${i}" aria-pressed="${saved}" aria-label="${saved?`${esc(x.title)} is already in your Watchlist`:`Add ${esc(x.title)} to Watchlist`}">${searchEyesMarkup()}</button></li>`}).join('');
+  box.querySelectorAll('[data-search-save]').forEach(btn=>btn.addEventListener('click',()=>{const item=searchResults[Number(btn.dataset.searchSave)];if(item)addSearchItem(item,btn)}));
+  if(status)status.textContent=`${items.length} result${items.length===1?'':'s'} found`;
+}
+function yearFrom(value){const m=String(value||'').match(/\b(18|19|20)\d{2}\b/);return m?m[0]:''}
+async function fetchJson(url,timeout=9000){
+  const ctrl=new AbortController(),timer=setTimeout(()=>ctrl.abort(),timeout);try{const r=await fetch(url,{signal:ctrl.signal,headers:{Accept:'application/json'}});if(!r.ok)throw new Error(`HTTP ${r.status}`);return await r.json()}finally{clearTimeout(timer)}
+}
+async function searchTv(q){
+  const data=await fetchJson(`https://api.tvmaze.com/search/shows?q=${encodeURIComponent(q)}`);
+  return (Array.isArray(data)?data:[]).slice(0,SEARCH_LIMIT_PER_TYPE).map(row=>{const show=row.show||{},year=yearFrom(show.premiered);return {id:`search|SHOW|tvmaze-${show.id}`,type:'SHOW',title:show.name||'',poster:show.image?.medium||show.image?.original||'',meta:year||'',service:year?`TV · ${year}`:'TV'}}).filter(x=>x.title);
+}
+function looksLikeFilm(desc){const d=norm(desc);return /\bfilm\b|\bmovie\b/.test(d)&&!/film festival|film company|film studio|film series|film franchise|film character|film soundtrack|film director|film producer|film actor|film actress/.test(d)}
+function commonsImage(filename){return filename?`https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(filename)}?width=180`:''}
+async function searchFilms(q){
+  const base='https://www.wikidata.org/w/api.php';
+  const found=await fetchJson(`${base}?action=wbsearchentities&search=${encodeURIComponent(q)}&language=en&uselang=en&type=item&limit=10&format=json&origin=*`);
+  const films=(found.search||[]).filter(x=>looksLikeFilm(x.description)).slice(0,SEARCH_LIMIT_PER_TYPE);if(!films.length)return[];
+  let entities={};try{const ids=films.map(x=>x.id).join('|'),detail=await fetchJson(`${base}?action=wbgetentities&ids=${encodeURIComponent(ids)}&props=claims&format=json&origin=*`);entities=detail.entities||{}}catch{}
+  return films.map(x=>{const claim=entities[x.id]?.claims?.P18?.[0]?.mainsnak?.datavalue?.value||'',year=yearFrom(x.description);return {id:`search|MOVIE|wikidata-${x.id}`,type:'MOVIE',title:x.label||'',poster:commonsImage(claim),meta:year||'',service:year?`Film · ${year}`:'Film'}}).filter(x=>x.title);
+}
+async function searchBooks(q){
+  const data=await fetchJson(`https://openlibrary.org/search.json?title=${encodeURIComponent(q)}&fields=key,title,author_name,first_publish_year,cover_i&limit=6`);
+  return (data.docs||[]).slice(0,SEARCH_LIMIT_PER_TYPE).map(x=>{const author=Array.isArray(x.author_name)?x.author_name[0]||'':'';return {id:`search|BOOK|openlibrary-${x.key||norm(x.title)}`,type:'BOOK',title:x.title||'',poster:x.cover_i?`https://covers.openlibrary.org/b/id/${x.cover_i}-M.jpg`:'',author,meta:[author,x.first_publish_year].filter(Boolean).join(' · '),service:author||'Book'}}).filter(x=>x.title);
+}
+function rankSearch(items,q){const n=norm(q);return items.sort((a,b)=>{const at=norm(a.title),bt=norm(b.title),score=t=>t===n?0:t.startsWith(n)?1:t.includes(n)?2:3;return score(at)-score(bt)||at.localeCompare(bt)}).slice(0,9)}
+async function runWatchlistSearch(raw){
+  const q=String(raw||'').trim(),box=$('#watchlistSearchResults'),status=$('#watchlistSearchStatus'),spinner=$('#watchlistSearchSpinner'),run=++searchRun;
+  if(q.length<2){searchResults=[];if(box){box.hidden=true;box.innerHTML=''}if(status)status.textContent=q?'Type at least 2 characters.':'';if(spinner)spinner.hidden=true;return}
+  if(status)status.textContent='Searching TV, films and books…';if(spinner)spinner.hidden=false;
+  const settled=await Promise.allSettled([searchTv(q),searchFilms(q),searchBooks(q)]);if(run!==searchRun)return;if(spinner)spinner.hidden=true;
+  const items=rankSearch(settled.flatMap(x=>x.status==='fulfilled'?x.value:[]),q);renderSearchResults(items);
+  if(!items.length&&settled.some(x=>x.status==='rejected')&&status)status.textContent='Search is temporarily unavailable. Try again.';
+}
+function initWatchlistSearch(){
+  const input=$('#watchlistSearch');if(!input)return;
+  input.addEventListener('input',()=>{clearTimeout(searchTimer);searchTimer=setTimeout(()=>runWatchlistSearch(input.value),320)});
+  input.addEventListener('search',()=>{clearTimeout(searchTimer);runWatchlistSearch(input.value)});
+  input.addEventListener('keydown',e=>{if(e.key==='Enter'){e.preventDefault();clearTimeout(searchTimer);runWatchlistSearch(input.value)}});
+}
+
 document.querySelectorAll('.segmented button').forEach(b=>b.onclick=()=>setType(b.dataset.type));function initGestures(){
   const target=$('.chart-wrap');if(!target)return;
   let sx=0,sy=0,tracking=false;
@@ -101,7 +174,7 @@ document.querySelectorAll('.segmented button').forEach(b=>b.onclick=()=>setType(
   },{passive:true});
   target.addEventListener('touchcancel',()=>{tracking=false},{passive:true});
 }
-function initMenu(){const m=$('#wozzaMenu'),bd=$('#wozzaMenuBackdrop'),t=$('.header-copy');const open=()=>{m.classList.add('open');m.setAttribute('aria-hidden','false');bd.hidden=false},close=()=>{m.classList.remove('open');m.setAttribute('aria-hidden','true');bd.hidden=true};t?.addEventListener('click',open);bd?.addEventListener('click',close);$('.wozza-menu-back')?.addEventListener('click',close);$('#wozzaMenuList')?.addEventListener('click',e=>{const b=e.target.closest('[data-href]');if(b)location.href=b.dataset.href})}initMenu();initGestures();render();
+function initMenu(){const m=$('#wozzaMenu'),bd=$('#wozzaMenuBackdrop'),t=$('.header-copy');const open=()=>{m.classList.add('open');m.setAttribute('aria-hidden','false');bd.hidden=false},close=()=>{m.classList.remove('open');m.setAttribute('aria-hidden','true');bd.hidden=true};t?.addEventListener('click',open);bd?.addEventListener('click',close);$('.wozza-menu-back')?.addEventListener('click',close);$('#wozzaMenuList')?.addEventListener('click',e=>{const b=e.target.closest('[data-href]');if(b)location.href=b.dataset.href})}initMenu();initGestures();render();initWatchlistSearch();
 
 // v6.2.29 — complete the main Wozza pull-navigation loop:
 // WozzaWatch → WozzaTune → Watchlist → WozzaWatch.
