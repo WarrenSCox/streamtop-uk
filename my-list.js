@@ -125,7 +125,7 @@ function addSearchItem(item,button){
   const list=read();list.push({id:searchItemId(item),title:item.title||'Untitled',poster:item.poster||'',service:item.service||item.meta||searchTypeLabel(item.type),serviceId:'search',type:item.type,author:item.author||'',addedAt:new Date().toISOString()});write(list);
   button.classList.add('saved');button.classList.remove('pupil-pop');void button.offsetWidth;button.classList.add('pupil-pop');button.setAttribute('aria-pressed','true');
   if(titleRect)fallingSearchTitle({getBoundingClientRect:()=>titleRect},item.title);
-  clearWatchlistSearch();render();
+  clearWatchlistSearch();setType(item.type,true);
 }
 function renderSearchResults(items){
   searchResults=items;const box=$('#watchlistSearchResults'),status=$('#watchlistSearchStatus');if(!box)return;

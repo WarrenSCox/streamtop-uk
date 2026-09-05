@@ -976,7 +976,7 @@ body.watchlist-reordering .my-list-page .chart-wrap,body.watchlist-reordering #m
 .watchlist-search-bar{position:relative;overflow:hidden;min-height:64px;display:grid;grid-template-columns:48px minmax(0,1fr) 28px;align-items:center;gap:8px;padding:4px 10px 4px 8px;border-radius:11px;background:rgba(255,255,255,.26)}
 .watchlist-search-bar>*{position:relative;z-index:1}
 .watchlist-search-bar::after{content:"";position:absolute;z-index:0;top:-35%;bottom:-35%;left:-42%;width:30%;pointer-events:none;background:linear-gradient(100deg,transparent 0%,rgba(255,255,255,.08) 22%,rgba(255,255,255,.78) 50%,rgba(244,119,58,.22) 66%,transparent 100%);transform:skewX(-18deg);animation:none}
-@keyframes watchlist-search-gloss{0%,72%{left:-42%;opacity:0}75%{opacity:1}94%{left:118%;opacity:1}100%{left:118%;opacity:0}}
+@keyframes watchlist-search-gloss{0%,52%{left:-42%;opacity:0}56%{left:-42%;opacity:1}94%{left:118%;opacity:1}100%{left:118%;opacity:0}}
 .watchlist-search-icon{width:36px;height:36px;color:var(--navy);display:block}
 #watchlistSearch{width:100%;min-width:0;border:0;outline:0;background:transparent;color:var(--navy);font:700 17px/1.2 Inter,sans-serif;padding:12px 0;-webkit-user-select:text!important;user-select:text!important;-webkit-touch-callout:default!important}
 #watchlistSearch::placeholder{color:rgba(23,33,61,.38);font-weight:600;opacity:1}
