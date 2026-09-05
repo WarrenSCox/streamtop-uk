@@ -1,6 +1,6 @@
 {
   "version": 17,
-  "generatedAt": "2026-09-05T09:29:06.336Z",
+  "generatedAt": "2026-09-05T09:32:36.363Z",
   "country": "GB",
   "strategy": "Official source first; labelled fallback when no compatible official chart is available.",
   "services": {
@@ -930,7 +930,7 @@
           "rank": 8,
           "title": "Chad Powers",
           "year": 2025,
-          "type": "SHOW",
+          "type": null,
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/01a0659d-57ae-711a-aae0-fad3bc9da376/compose?format=webp&width=386&label=top_ranked_8_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-7117a15d-128c-4c2b-a5b9-98adfa0f4505"
         },
@@ -2468,10 +2468,13 @@
           "displayName": "IMDb",
           "url": "https://www.imdb.com/chart/boxoffice/?ref_=ext_shr_lnk",
           "cadence": "weekly",
-          "note": "US weekend box-office Top 10 from IMDb, reported by Box Office Mojo."
+          "note": "Fresh data did not update successfully, so the last successful results are being shown.",
+          "stale": true,
+          "staleAsOf": "2026-09-05T09:29:06.336Z"
         }
       },
-      "error": null
+      "error": null,
+      "stale": true
     },
     "ukmusic": {
       "provider": "UK Music",
@@ -2745,8 +2748,9 @@
           "rank": 1,
           "title": "THE SIN : BLISS (EP)",
           "artist": "ENHYPEN",
-          "poster": null,
-          "detailsUrl": "https://ca.billboard.com/charts/billboard-200"
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9e/f2/dc/9ef2dc16-eefd-7cad-3d74-adbd0e394991/823375232841_Cover.jpg/400x400bb.jpg",
+          "detailsUrl": "https://ca.billboard.com/charts/billboard-200",
+          "musicUrl": "https://music.apple.com/us/album/the-sin-bliss-ep/6780548049?uo=4"
         },
         {
           "rank": 2,
@@ -2768,8 +2772,9 @@
           "rank": 4,
           "title": "I'm The Problem",
           "artist": "Morgan Wallen",
-          "poster": null,
-          "detailsUrl": "https://ca.billboard.com/charts/billboard-200"
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fa/60/fe/fa60fe4a-4329-a0bb-eb7c-3b6094a4d831/25UMGIM46049.rgb.jpg/400x400bb.jpg",
+          "detailsUrl": "https://ca.billboard.com/charts/billboard-200",
+          "musicUrl": "https://music.apple.com/us/album/im-the-problem/1802103906?uo=4"
         },
         {
           "rank": 5,
@@ -2807,8 +2812,9 @@
           "rank": 9,
           "title": "ICEMAN",
           "artist": "Drake",
-          "poster": null,
-          "detailsUrl": "https://ca.billboard.com/charts/billboard-200"
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7f/39/61/7f396123-be56-bc11-eaab-976441808e58/26UMGIM63622.rgb.jpg/400x400bb.jpg",
+          "detailsUrl": "https://ca.billboard.com/charts/billboard-200",
+          "musicUrl": "https://music.apple.com/us/album/iceman/6769649287?uo=4"
         },
         {
           "rank": 10,
