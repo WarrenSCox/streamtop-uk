@@ -973,7 +973,10 @@ body.watchlist-reordering .my-list-page .chart-wrap,body.watchlist-reordering #m
 
 /* v6.2.36 — Watchlist search-to-add */
 .watchlist-search-card{margin-top:10px;margin-bottom:14px;padding:4px;border:1px solid var(--line);border-radius:15px;background:rgba(255,255,255,.72)}
-.watchlist-search-bar{min-height:64px;display:grid;grid-template-columns:48px minmax(0,1fr) 28px;align-items:center;gap:8px;padding:4px 10px 4px 8px;border-radius:11px;background:rgba(255,255,255,.26)}
+.watchlist-search-bar{position:relative;overflow:hidden;min-height:64px;display:grid;grid-template-columns:48px minmax(0,1fr) 28px;align-items:center;gap:8px;padding:4px 10px 4px 8px;border-radius:11px;background:rgba(255,255,255,.26)}
+.watchlist-search-bar>*{position:relative;z-index:1}
+.watchlist-search-bar::after{content:"";position:absolute;z-index:0;top:-35%;bottom:-35%;left:-42%;width:30%;pointer-events:none;background:linear-gradient(100deg,transparent 0%,rgba(255,255,255,.08) 22%,rgba(255,255,255,.78) 50%,rgba(244,119,58,.22) 66%,transparent 100%);transform:skewX(-18deg);animation:watchlist-search-gloss 4s ease-in-out infinite}
+@keyframes watchlist-search-gloss{0%,72%{left:-42%;opacity:0}75%{opacity:1}94%{left:118%;opacity:1}100%{left:118%;opacity:0}}
 .watchlist-search-icon{width:36px;height:36px;color:var(--navy);display:block}
 #watchlistSearch{width:100%;min-width:0;border:0;outline:0;background:transparent;color:var(--navy);font:700 17px/1.2 Inter,sans-serif;padding:12px 0;-webkit-user-select:text!important;user-select:text!important;-webkit-touch-callout:default!important}
 #watchlistSearch::placeholder{color:rgba(23,33,61,.38);font-weight:600;opacity:1}
@@ -994,3 +997,8 @@ body.watchlist-reordering .my-list-page .chart-wrap,body.watchlist-reordering #m
 .search-save-toggle{justify-self:end}
 @media(max-width:560px){.watchlist-search-bar{grid-template-columns:42px minmax(0,1fr) 24px;min-height:60px}.watchlist-search-icon{width:33px;height:33px}#watchlistSearch{font-size:16px}.watchlist-search-result{grid-template-columns:44px minmax(0,1fr) 39px;padding:8px 9px}.watchlist-search-result .poster{width:44px}.search-result-copy strong{font-size:13px}}
 @media(prefers-reduced-motion:reduce){.watchlist-search-spinner{animation:none}}
+
+/* v6.2.37 — search close-on-add + title drop + four-second gloss */
+.falling-search-title{position:fixed;z-index:80;pointer-events:none;color:var(--navy);font-family:"Archivo Black",Impact,sans-serif;font-size:14px;line-height:1.05;text-align:left;text-shadow:0 2px 0 rgba(255,255,255,.75);animation:search-title-fall .9s cubic-bezier(.22,.72,.28,1) forwards}
+@keyframes search-title-fall{0%{transform:translate(0,0) rotate(0deg) scale(1);opacity:1}45%{transform:translate(calc(var(--title-fall-x)*.45),calc(var(--title-fall-y)*.32)) rotate(4deg) scale(.98);opacity:1}82%{transform:translate(var(--title-fall-x),calc(var(--title-fall-y) + 8px)) rotate(-3deg) scale(.94);opacity:1}100%{transform:translate(var(--title-fall-x),var(--title-fall-y)) rotate(0deg) scale(.9);opacity:0}}
+@media(prefers-reduced-motion:reduce){.watchlist-search-bar::after,.falling-search-title{animation:none!important}.watchlist-search-bar::after{display:none}}

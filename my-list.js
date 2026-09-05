@@ -103,14 +103,29 @@ function updateSearchSavedStates(){
     const saved=isSearchSaved(item);btn.classList.toggle('saved',saved);btn.setAttribute('aria-pressed',saved?'true':'false');btn.setAttribute('aria-label',saved?`${item.title} is already in your Watchlist`:`Add ${item.title} to Watchlist`);
   });
 }
+function clearWatchlistSearch(){
+  clearTimeout(searchTimer);searchRun++;searchResults=[];
+  const input=$('#watchlistSearch'),box=$('#watchlistSearchResults'),status=$('#watchlistSearchStatus'),spinner=$('#watchlistSearchSpinner');
+  if(input)input.value='';if(box){box.hidden=true;box.innerHTML=''}if(status)status.textContent='';if(spinner)spinner.hidden=true;
+}
+function fallingSearchTitle(from,title){
+  const target=$('.chart-wrap');if(!from||!target||matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+  const a=from.getBoundingClientRect(),b=target.getBoundingClientRect(),fly=document.createElement('span');
+  fly.className='falling-search-title';fly.textContent=title||'Added';
+  fly.style.left=`${a.left}px`;fly.style.top=`${a.top}px`;fly.style.width=`${Math.max(120,a.width)}px`;
+  fly.style.setProperty('--title-fall-x',`${Math.max(0,b.left+26)-a.left}px`);
+  fly.style.setProperty('--title-fall-y',`${Math.max(90,b.top+68)-a.top}px`);
+  document.body.appendChild(fly);setTimeout(()=>fly.remove(),920);
+}
 function addSearchItem(item,button){
   if(isSearchSaved(item)){
     const status=$('#watchlistSearchStatus');if(status)status.textContent=`${item.title} is already in your Watchlist.`;return;
   }
+  const titleEl=button.closest('.watchlist-search-result')?.querySelector('.search-result-copy strong'),titleRect=titleEl?.getBoundingClientRect();
   const list=read();list.push({id:searchItemId(item),title:item.title||'Untitled',poster:item.poster||'',service:item.service||item.meta||searchTypeLabel(item.type),serviceId:'search',type:item.type,author:item.author||'',addedAt:new Date().toISOString()});write(list);
-  button.classList.add('saved');button.classList.remove('pupil-pop');void button.offsetWidth;button.classList.add('pupil-pop');setTimeout(()=>button.classList.remove('pupil-pop'),700);button.setAttribute('aria-pressed','true');
-  render();updateSearchSavedStates();
-  const status=$('#watchlistSearchStatus');if(status)status.textContent=`Added to ${searchTypePlural(item.type)} ✓`;
+  button.classList.add('saved');button.classList.remove('pupil-pop');void button.offsetWidth;button.classList.add('pupil-pop');button.setAttribute('aria-pressed','true');
+  if(titleRect)fallingSearchTitle({getBoundingClientRect:()=>titleRect},item.title);
+  clearWatchlistSearch();render();
 }
 function renderSearchResults(items){
   searchResults=items;const box=$('#watchlistSearchResults'),status=$('#watchlistSearchStatus');if(!box)return;
@@ -153,7 +168,7 @@ async function runWatchlistSearch(raw){
 function initWatchlistSearch(){
   const input=$('#watchlistSearch');if(!input)return;
   input.addEventListener('input',()=>{clearTimeout(searchTimer);searchTimer=setTimeout(()=>runWatchlistSearch(input.value),320)});
-  input.addEventListener('search',()=>{clearTimeout(searchTimer);runWatchlistSearch(input.value)});
+  input.addEventListener('search',()=>{clearTimeout(searchTimer);if(!input.value)clearWatchlistSearch();else runWatchlistSearch(input.value)});
   input.addEventListener('keydown',e=>{if(e.key==='Enter'){e.preventDefault();clearTimeout(searchTimer);runWatchlistSearch(input.value)}});
 }
 
