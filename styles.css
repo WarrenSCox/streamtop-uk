@@ -975,7 +975,7 @@ body.watchlist-reordering .my-list-page .chart-wrap,body.watchlist-reordering #m
 .watchlist-search-card{margin-top:10px;margin-bottom:14px;padding:4px;border:1px solid var(--line);border-radius:15px;background:rgba(255,255,255,.72)}
 .watchlist-search-bar{position:relative;overflow:hidden;min-height:64px;display:grid;grid-template-columns:48px minmax(0,1fr) 28px;align-items:center;gap:8px;padding:4px 10px 4px 8px;border-radius:11px;background:rgba(255,255,255,.26)}
 .watchlist-search-bar>*{position:relative;z-index:1}
-.watchlist-search-bar::after{content:"";position:absolute;z-index:0;top:-35%;bottom:-35%;left:-42%;width:30%;pointer-events:none;background:linear-gradient(100deg,transparent 0%,rgba(255,255,255,.08) 22%,rgba(255,255,255,.78) 50%,rgba(244,119,58,.22) 66%,transparent 100%);transform:skewX(-18deg);animation:watchlist-search-gloss 4s ease-in-out infinite}
+.watchlist-search-bar::after{content:"";position:absolute;z-index:0;top:-35%;bottom:-35%;left:-42%;width:30%;pointer-events:none;background:linear-gradient(100deg,transparent 0%,rgba(255,255,255,.08) 22%,rgba(255,255,255,.78) 50%,rgba(244,119,58,.22) 66%,transparent 100%);transform:skewX(-18deg);animation:none}
 @keyframes watchlist-search-gloss{0%,72%{left:-42%;opacity:0}75%{opacity:1}94%{left:118%;opacity:1}100%{left:118%;opacity:0}}
 .watchlist-search-icon{width:36px;height:36px;color:var(--navy);display:block}
 #watchlistSearch{width:100%;min-width:0;border:0;outline:0;background:transparent;color:var(--navy);font:700 17px/1.2 Inter,sans-serif;padding:12px 0;-webkit-user-select:text!important;user-select:text!important;-webkit-touch-callout:default!important}
@@ -1002,3 +1002,10 @@ body.watchlist-reordering .my-list-page .chart-wrap,body.watchlist-reordering #m
 .falling-search-title{position:fixed;z-index:80;pointer-events:none;color:var(--navy);font-family:"Archivo Black",Impact,sans-serif;font-size:14px;line-height:1.05;text-align:left;text-shadow:0 2px 0 rgba(255,255,255,.75);animation:search-title-fall .9s cubic-bezier(.22,.72,.28,1) forwards}
 @keyframes search-title-fall{0%{transform:translate(0,0) rotate(0deg) scale(1);opacity:1}45%{transform:translate(calc(var(--title-fall-x)*.45),calc(var(--title-fall-y)*.32)) rotate(4deg) scale(.98);opacity:1}82%{transform:translate(var(--title-fall-x),calc(var(--title-fall-y) + 8px)) rotate(-3deg) scale(.94);opacity:1}100%{transform:translate(var(--title-fall-x),var(--title-fall-y)) rotate(0deg) scale(.9);opacity:0}}
 @media(prefers-reduced-motion:reduce){.watchlist-search-bar::after,.falling-search-title{animation:none!important}.watchlist-search-bar::after{display:none}}
+
+
+/* v6.2.38 — focus-only search gloss + icon wiggle */
+.watchlist-search-bar:focus-within::after{animation:watchlist-search-gloss 4s ease-in-out infinite}
+.watchlist-search-bar:focus-within .watchlist-search-icon{animation:watchlist-search-icon-wiggle .55s ease-in-out 1}
+@keyframes watchlist-search-icon-wiggle{0%{transform:rotate(0deg) scale(1)}22%{transform:rotate(-10deg) scale(1.04)}46%{transform:rotate(8deg) scale(1.04)}68%{transform:rotate(-5deg) scale(1.02)}84%{transform:rotate(3deg) scale(1.01)}100%{transform:rotate(0deg) scale(1)}}
+@media(prefers-reduced-motion:reduce){.watchlist-search-bar:focus-within::after,.watchlist-search-bar:focus-within .watchlist-search-icon{animation:none!important}}
