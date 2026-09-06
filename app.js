@@ -111,7 +111,7 @@ function syncControls({scroll = true} = {}) {
   const segmented = document.querySelector('.segmented');
   if (segmented) { segmented.classList.toggle('cinema-hidden', Boolean(state.service.cinema)); segmented.classList.toggle('disney-combined', state.service.id === 'disney'); segmented.classList.toggle('youtube-mode', Boolean(state.service.youtube)); }
   const movieButton=document.querySelector('.segmented button[data-type="MOVIE"]');
-  if(movieButton){movieButton.setAttribute('aria-label',state.service.youtube?'Movie trailers':'Movies');movieButton.title=state.service.youtube?'Movie trailers':'Movies';}
+  if(movieButton){movieButton.setAttribute('aria-label',state.service.youtube?'Trailers':'Movies');movieButton.title=state.service.youtube?'Trailers':'Movies';}
   const videoButton=document.querySelector('.segmented button[data-type="VIDEO"]'); if(videoButton)videoButton.hidden=!state.service.youtube;
 }
 
@@ -453,11 +453,11 @@ function renderCurrent() {
   const service=state.service;
   const isYouTube=Boolean(service.youtube);
   const key=isYouTube?(state.type==='VIDEO'?'videos':'trailers'):(state.type==='MOVIE'?'movies':state.type==='SHOW'?'tv':'combined');
-  const typeLabel=isYouTube?(state.type==='VIDEO'?'Videos':'Movie Trailers'):(state.type==='MOVIE'?'Movies':state.type==='SHOW'?'TV':'Combined');
+  const typeLabel=isYouTube?(state.type==='VIDEO'?'Videos':'Trailers'):(state.type==='MOVIE'?'Movies':state.type==='SHOW'?'TV':'Combined');
   const serviceData=isYouTube?state.youtubeData:state.data?.services?.[service.id];
   const source=isYouTube?serviceData?.sources?.[key]:serviceData?.sources?.[key];
   const fallbackUrl=source?.url||(isYouTube?'https://www.youtube.com/':justWatchUrl(service,state.type));
-  els.chartTitle.textContent=isYouTube?`YouTube ${typeLabel}`:(service.cinema?service.name:`${service.name} ${typeLabel}`);
+  els.chartTitle.textContent=isYouTube?typeLabel:(service.cinema?service.name:`${service.name} ${typeLabel}`);
   const isOfficial=source?.kind==='official';
   const fallbackName=source?.displayName||(source?.label||'').replace(/^JustWatch UK$/i,'JustWatch').replace(/^Stats from\s+/i,'')||'Source';
   els.sourceBadge.innerHTML=''; els.sourceBadge.href=source?.url||fallbackUrl;
