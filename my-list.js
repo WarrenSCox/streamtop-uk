@@ -3,7 +3,8 @@ function animateTab(t){const b=document.querySelector(`.segmented button[data-ty
 function setType(t,anim=true){if(!TYPES.includes(t))return;type=t;document.querySelectorAll('.segmented button').forEach(x=>x.classList.toggle('active',x.dataset.type===type));render();if(anim)animateTab(t)}
 function provider(x){return x.author||x.service||''}
 function youtubeTrailerUrl(title){return `https://www.youtube.com/results?search_query=${encodeURIComponent(`${title||''} trailer`)}`}
-function watchlistVisual(x){const visual=x.poster?`<img class="poster" src="${esc(x.poster)}" alt="">`:`<div class="poster poster-placeholder">${type==='BOOK'?'W':''}</div>`;if(type==='MOVIE'||type==='SHOW'){return `<a class="poster-link" href="${esc(youtubeTrailerUrl(x.title))}" target="_blank" rel="noopener" aria-label="${esc(x.title||'Untitled')} — search YouTube for trailer">${visual}</a>`}return visual}
+function amazonBookUrl(title){return `https://www.amazon.co.uk/s?k=${encodeURIComponent(title||'')}`}
+function watchlistVisual(x){const visual=x.poster?`<img class="poster" src="${esc(x.poster)}" alt="">`:`<div class="poster poster-placeholder">${type==='BOOK'?'W':''}</div>`;if(type==='MOVIE'||type==='SHOW'){return `<a class="poster-link" href="${esc(youtubeTrailerUrl(x.title))}" target="_blank" rel="noopener" aria-label="${esc(x.title||'Untitled')} — search YouTube for trailer">${visual}</a>`}if(type==='BOOK'&&x.readKind!=='AUDIOBOOK'){return `<a class="poster-link" href="${esc(amazonBookUrl(x.title))}" target="_blank" rel="noopener" aria-label="${esc(x.title||'Untitled')} — search Amazon UK">${visual}</a>`}return visual}
 const EYE_POS=[
  [7,3,-15,.88],[28,1,10,.96],[51,4,-6,.90],[76,2,14,.98],[101,5,-11,.92],[126,1,8,.95],[153,4,-14,.91],[181,2,12,.97],
  [18,20,11,.94],[43,18,-10,1.02],[69,22,8,.96],[96,18,-6,1.04],[123,23,12,.92],[149,19,-9,1.01],[174,21,7,.95],
@@ -124,10 +125,11 @@ function addSearchItem(item,button){
     const status=$('#watchlistSearchStatus');if(status)status.textContent=`${item.title} is already in your Watchlist.`;return;
   }
   const titleEl=button.closest('.watchlist-search-result')?.querySelector('.search-result-copy strong'),titleRect=titleEl?.getBoundingClientRect();
-  const list=read();list.push({id:searchItemId(item),title:item.title||'Untitled',poster:item.poster||'',service:item.service||item.meta||searchTypeLabel(item.type),serviceId:'search',type:item.type,author:item.author||'',addedAt:new Date().toISOString()});write(list);
+  const list=read();list.push({id:searchItemId(item),title:item.title||'Untitled',poster:item.poster||'',service:item.service||item.meta||searchTypeLabel(item.type),serviceId:'search',type:item.type,author:item.author||'',tvMazeNetwork:item.tvMazeNetwork||'',tvMazeWebChannel:item.tvMazeWebChannel||'',addedAt:new Date().toISOString()});write(list);
   button.classList.add('saved');button.classList.remove('pupil-pop');void button.offsetWidth;button.classList.add('pupil-pop');button.setAttribute('aria-pressed','true');
   if(titleRect)fallingSearchTitle({getBoundingClientRect:()=>titleRect},item.title);
   clearWatchlistSearch();setType(item.type,true);
+  resolveSearchAddedProviders();
 }
 function renderSearchResults(items){
   searchResults=items;const box=$('#watchlistSearchResults'),status=$('#watchlistSearchStatus');if(!box)return;
@@ -141,9 +143,77 @@ function yearFrom(value){const m=String(value||'').match(/\b(18|19|20)\d{2}\b/);
 async function fetchJson(url,timeout=9000){
   const ctrl=new AbortController(),timer=setTimeout(()=>ctrl.abort(),timeout);try{const r=await fetch(url,{signal:ctrl.signal,headers:{Accept:'application/json'}});if(!r.ok)throw new Error(`HTTP ${r.status}`);return await r.json()}finally{clearTimeout(timer)}
 }
+
+const PROVIDER_ORDER=['netflix','prime','disney','apple','max','bbc','itv','channel4','ukcinema','uscinema'];
+const PROVIDER_LABELS={netflix:'Netflix',prime:'Prime',disney:'Disney',apple:'Apple',max:'HBO',bbc:'BBC',itv:'ITV',channel4:'Channel 4',ukcinema:'UK Cinema',uscinema:'US Cinema'};
+let providerRankingsPromise=null;
+function providerFromTvMazeName(value){
+  const n=norm(value);if(!n)return'';
+  if(n.includes('netflix'))return'Netflix';
+  if(n.includes('amazon')||n.includes('prime video')||n==='prime')return'Prime';
+  if(n.includes('disney'))return'Disney';
+  if(n.includes('apple tv'))return'Apple';
+  if(n==='hbo'||n.includes('hbo max')||n==='max'||n.startsWith('max '))return'HBO';
+  if(n.includes('bbc'))return'BBC';
+  if(n.includes('itv'))return'ITV';
+  if(n.includes('channel 4')||n.includes('all 4'))return'Channel 4';
+  return'';
+}
+function providerFromTvMaze(show){return providerFromTvMazeName(show?.webChannel?.name)||providerFromTvMazeName(show?.network?.name)||''}
+function genericSearchProvider(item){
+  if(item?.serviceId!=='search'||!['MOVIE','SHOW'].includes(item?.type))return false;
+  const value=norm(item.service||'');
+  return !value||value==='tv'||value==='film'||value.startsWith('tv ')||value.startsWith('film ');
+}
+function rankingTitles(item){return [item?.title,item?.showTitle].filter(Boolean).map(norm)}
+function providerMatchesFor(item,data){
+  const wanted=norm(item.title),matches=[];
+  if(!wanted||!data?.services)return matches;
+  for(const id of PROVIDER_ORDER){
+    const service=data.services[id];if(!service)continue;
+    const rows=item.type==='SHOW'?[...(service.tv||[]),...(service.combined||[]).filter(x=>x.type==='SHOW')]:[...(service.movies||[]),...(service.combined||[]).filter(x=>x.type==='MOVIE')];
+    if(rows.some(row=>rankingTitles(row).includes(wanted)))matches.push(id);
+  }
+  return matches;
+}
+async function loadProviderRankings(){
+  if(!providerRankingsPromise)providerRankingsPromise=fetchJson(`data/rankings.json?provider-match=${Date.now()}`,9000).catch(err=>{providerRankingsPromise=null;throw err});
+  return providerRankingsPromise;
+}
+async function tvMazeProviderForTitle(title){
+  try{
+    const rows=await fetchJson(`https://api.tvmaze.com/search/shows?q=${encodeURIComponent(title)}`);
+    const wanted=norm(title),exact=(Array.isArray(rows)?rows:[]).find(row=>norm(row?.show?.name)===wanted);
+    if(!exact)return'';
+    return providerFromTvMaze(exact.show);
+  }catch(err){console.warn(`[Wozza provider match] TVMaze fallback unavailable for ${title}:`,err);return''}
+}
+async function resolveSearchAddedProviders(){
+  const pending=read().filter(genericSearchProvider);
+  if(!pending.length)return;
+  console.info('[Wozza provider match] Checking',pending.map(x=>({title:x.title,type:x.type,current:x.service,tvMazeNetwork:x.tvMazeNetwork,tvMazeWebChannel:x.tvMazeWebChannel})));
+  let data=null;try{data=await loadProviderRankings()}catch(err){console.warn('[Wozza provider match] rankings.json unavailable:',err)}
+  let list=read(),changed=false;
+  for(const item of pending){
+    const current=list.find(x=>x.id===item.id);if(!current||!genericSearchProvider(current))continue;
+    const matches=data?providerMatchesFor(current,data):[];
+    if(matches.length){
+      const chosen=matches[0],label=PROVIDER_LABELS[chosen]||data.services?.[chosen]?.provider||chosen;
+      current.service=label;current.providerMatchedFrom='rankings';current.providerMatchedAt=new Date().toISOString();changed=true;
+      console.info(`[Wozza provider match] Matched from current rankings: ${current.title} → ${label}`,{candidates:matches.map(id=>PROVIDER_LABELS[id]||id)});continue;
+    }
+    if(current.type==='SHOW'){
+      let label=providerFromTvMazeName(current.tvMazeWebChannel)||providerFromTvMazeName(current.tvMazeNetwork);
+      if(!label)label=await tvMazeProviderForTitle(current.title);
+      if(label){current.service=label;current.providerMatchedFrom='tvmaze';current.providerMatchedAt=new Date().toISOString();changed=true;console.info(`[Wozza provider match] Matched from TVMaze: ${current.title} → ${label}`);continue}
+    }
+    console.info(`[Wozza provider match] No provider match: ${current.title} (${current.type})`);
+  }
+  if(changed){write(list);render()}
+}
 async function searchTv(q){
   const data=await fetchJson(`https://api.tvmaze.com/search/shows?q=${encodeURIComponent(q)}`);
-  return (Array.isArray(data)?data:[]).slice(0,SEARCH_LIMIT_PER_TYPE).map(row=>{const show=row.show||{},year=yearFrom(show.premiered);return {id:`search|SHOW|tvmaze-${show.id}`,type:'SHOW',title:show.name||'',poster:show.image?.medium||show.image?.original||'',meta:year||'',service:year?`TV · ${year}`:'TV'}}).filter(x=>x.title);
+  return (Array.isArray(data)?data:[]).slice(0,SEARCH_LIMIT_PER_TYPE).map(row=>{const show=row.show||{},year=yearFrom(show.premiered),network=show.network?.name||'',webChannel=show.webChannel?.name||'';return {id:`search|SHOW|tvmaze-${show.id}`,type:'SHOW',title:show.name||'',poster:show.image?.medium||show.image?.original||'',meta:year||'',service:year?`TV · ${year}`:'TV',tvMazeNetwork:network,tvMazeWebChannel:webChannel}}).filter(x=>x.title);
 }
 function looksLikeFilm(desc){const d=norm(desc);return /\bfilm\b|\bmovie\b/.test(d)&&!/film festival|film company|film studio|film series|film franchise|film character|film soundtrack|film director|film producer|film actor|film actress/.test(d)}
 function commonsImage(filename){return filename?`https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(filename)}?width=180`:''}
@@ -191,7 +261,7 @@ document.querySelectorAll('.segmented button').forEach(b=>b.onclick=()=>setType(
   },{passive:true});
   target.addEventListener('touchcancel',()=>{tracking=false},{passive:true});
 }
-function initMenu(){const m=$('#wozzaMenu'),bd=$('#wozzaMenuBackdrop'),t=$('.header-copy');const open=()=>{m.classList.add('open');m.setAttribute('aria-hidden','false');bd.hidden=false},close=()=>{m.classList.remove('open');m.setAttribute('aria-hidden','true');bd.hidden=true};t?.addEventListener('click',open);bd?.addEventListener('click',close);$('.wozza-menu-back')?.addEventListener('click',close);$('#wozzaMenuList')?.addEventListener('click',e=>{const b=e.target.closest('[data-href]');if(b)location.href=b.dataset.href})}initMenu();initGestures();render();initWatchlistSearch();
+function initMenu(){const m=$('#wozzaMenu'),bd=$('#wozzaMenuBackdrop'),t=$('.header-copy');const open=()=>{m.classList.add('open');m.setAttribute('aria-hidden','false');bd.hidden=false},close=()=>{m.classList.remove('open');m.setAttribute('aria-hidden','true');bd.hidden=true};t?.addEventListener('click',open);bd?.addEventListener('click',close);$('.wozza-menu-back')?.addEventListener('click',close);$('#wozzaMenuList')?.addEventListener('click',e=>{const b=e.target.closest('[data-href]');if(b)location.href=b.dataset.href})}initMenu();initGestures();render();initWatchlistSearch();resolveSearchAddedProviders();
 
 // v6.2.29 — complete the main Wozza pull-navigation loop:
 // WozzaWatch → WozzaTune → Watchlist → WozzaWatch.
