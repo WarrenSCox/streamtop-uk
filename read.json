@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T20:22:30.806Z",
+  "updated": "2026-09-06T20:28:51.342Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -12,7 +12,7 @@
         "title": "Dungeon Crawler Carl",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://covers.openlibrary.org/b/id/15143022-L.jpg"
+        "image": "https://m.media-amazon.com/images/I/51HIZdnqASL._SL500_.jpg"
       },
       {
         "title": "The Murder at the Vicarage",
@@ -122,16 +122,16 @@
   },
   "health": {
     "BOOKS": {
-      "status": "stale",
-      "checkedAt": "2026-09-06T20:22:30.807Z",
-      "lastSuccessfulRefresh": "2026-09-06T20:13:19.742Z",
-      "reason": "expected exactly 10 ranked titles, got 0"
+      "status": "healthy",
+      "checkedAt": "2026-09-06T20:28:51.342Z",
+      "lastSuccessfulRefresh": "2026-09-06T20:28:51.342Z",
+      "reason": ""
     },
     "AUDIOBOOKS": {
-      "status": "stale",
-      "checkedAt": "2026-09-06T20:22:31.193Z",
-      "lastSuccessfulRefresh": "2026-09-06T20:12:23.279Z",
-      "reason": "503 https://www.audible.co.uk/charts/best"
+      "status": "healthy",
+      "checkedAt": "2026-09-06T20:28:59.954Z",
+      "lastSuccessfulRefresh": "2026-09-06T20:28:59.954Z",
+      "reason": ""
     }
   }
 }
