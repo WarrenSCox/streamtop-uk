@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T15:33:56.376Z",
+  "updated": "2026-09-06T16:09:44.893Z",
   "categories": {
     "UK": [
       {
@@ -100,7 +100,7 @@
         "published": "Sun, 06 Sep 2026 15:16:43 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
-        "categories": "China Economics Business World news Asia Pacific Banking",
+        "categories": "China Economics Business World news Asia Pacific Banking Insurance industry Stock markets",
         "image": "https://i.guim.co.uk/img/media/a9fb4483c893b5ee6edc075352b001c54decc7a0/305_0_2391_1913/master/2391.jpg?width=140&quality=85&auto=format&fit=max&s=4a334e6f50d2945bd64b1f0487684271"
       },
       {
@@ -129,6 +129,15 @@
         "provider": "GUARDIAN",
         "categories": "Air transport Indonesia Singapore Air pollution Asia Pacific Volcanoes Environment World news",
         "image": "https://i.guim.co.uk/img/media/775131d69ba12fbfa80df770ed180d8d85442f32/40_0_1201_960/master/1201.jpg?width=140&quality=85&auto=format&fit=max&s=f950e5b80ed1be3e1edfd0ef85cb71b7"
+      },
+      {
+        "title": "At least 25 dead after bus plunges into steep ravine on Cape Verde island",
+        "link": "https://news.sky.com/story/at-least-25-dead-after-bus-plunges-into-steep-ravine-on-cape-verde-island-13582377",
+        "published": "Sun, 06 Sep 2026 15:51:00 +0100",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-fogo-capeverde_7343269.jpg?20260906155915"
       },
       {
         "title": "Russia warns Germany is ‘starting a real war’ after blaming Putin for airport attack",
@@ -174,18 +183,18 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/09/1920x1080/skynews-gyirong-port-floods_7342977.jpg?20260906123627"
-      },
-      {
-        "title": "Four killed in Israeli strikes on southern Lebanon",
-        "link": "https://news.sky.com/story/four-killed-in-israeli-strikes-on-southern-lebanon-13582240",
-        "published": "Sun, 06 Sep 2026 11:19:00 +0100",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-lebanon-strikes_7342905.jpg?20260906113603"
       }
     ],
     "POLITICS": [
+      {
+        "title": "Long-term proteges and verifiable reality must be jettisoned for Saving Private Nige | John Crace",
+        "link": "https://www.theguardian.com/politics/2026/sep/06/long-term-allies-and-verifiable-reality-must-make-way-for-saving-private-nige",
+        "published": "Sun, 06 Sep 2026 15:42:10 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Nigel Farage Politics Reform UK UK news",
+        "image": "https://i.guim.co.uk/img/media/f2acae2773c9540130cae73c7a86d5d7b855953c/273_0_2726_2181/master/2726.jpg?width=140&quality=85&auto=format&fit=max&s=a80e6d40775a6c1258071223114fd3ff"
+      },
       {
         "title": "That sound you hear is not the world ending – it’s liberalism being monstered | Waleed Aly",
         "link": "https://www.theguardian.com/commentisfree/2026/sep/07/waleed-aly-time-of-monsters-future-liberalism-essay",
@@ -230,15 +239,6 @@
         "provider": "METRO",
         "categories": "Entertainment TV Clarkson's Farm David Cameron Jeremy Clarkson",
         "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_218364395-2d20.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Zia Yusuf’s post about Camden council leader is ‘straightforward racism’, says minister",
-        "link": "https://www.theguardian.com/politics/2026/sep/06/zia-yusuf-reform-uk-post-camden-council-leader-sagal-abdi-wali",
-        "published": "Sun, 06 Sep 2026 12:15:28 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Reform UK London Labour Politics Race UK news Byelections",
-        "image": "https://i.guim.co.uk/img/media/265fa4b3ff3437d829e4c3b0982c687299c3a847/526_0_4531_3624/master/4531.jpg?width=140&quality=85&auto=format&fit=max&s=17c72633268c597a477e3f65306ca159"
       },
       {
         "title": "'Boohoo... get a life': Jenrick mocks protester after Reform party conference scuffle",
@@ -731,6 +731,15 @@
             "image": "https://e3.365dm.com/26/09/1920x1080/skynews-gyirong-port-floods_7342977.jpg?20260906123627"
           },
           {
+            "title": "At least 25 dead after bus plunges into steep ravine on Cape Verde island",
+            "link": "https://news.sky.com/story/at-least-25-dead-after-bus-plunges-into-steep-ravine-on-cape-verde-island-13582377",
+            "published": "Sun, 06 Sep 2026 15:51:00 +0100",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-fogo-capeverde_7343269.jpg?20260906155915"
+          },
+          {
             "title": "Four killed in Israeli strikes on southern Lebanon",
             "link": "https://news.sky.com/story/four-killed-in-israeli-strikes-on-southern-lebanon-13582240",
             "published": "Sun, 06 Sep 2026 11:19:00 +0100",
@@ -783,24 +792,6 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/09/1920x1080/skynews-mercator-projection_7341226.jpg?20260904194846"
-          },
-          {
-            "title": "Lindsay Clancy trial: What happens next after jury deadlock?",
-            "link": "https://news.sky.com/story/lindsay-clancy-trial-what-happens-next-after-jury-deadlock-13581651",
-            "published": "Sat, 05 Sep 2026 11:39:00 +0100",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/08/1920x1080/skynews-lindsay-clancy-murder_7325682.jpg?20260903150653"
-          },
-          {
-            "title": "Prince William to represent Charles at funeral of Norway's King Harald",
-            "link": "https://news.sky.com/story/prince-william-to-represent-charles-at-funeral-of-king-harald-of-norway-13581691",
-            "published": "Sat, 05 Sep 2026 22:00:00 +0100",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/06/1920x1080/skynews-prince-william-climate-action_7280791.jpg?20260623112437"
           }
         ],
         "POLITICS": [
@@ -1179,7 +1170,7 @@
         },
         "WORLD": {
           "ok": true,
-          "count": 10
+          "count": 9
         },
         "POLITICS": {
           "ok": true,
@@ -1480,7 +1471,7 @@
             "published": "Sun, 06 Sep 2026 15:16:43 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "China Economics Business World news Asia Pacific Banking",
+            "categories": "China Economics Business World news Asia Pacific Banking Insurance industry Stock markets",
             "image": "https://i.guim.co.uk/img/media/a9fb4483c893b5ee6edc075352b001c54decc7a0/305_0_2391_1913/master/2391.jpg?width=140&quality=85&auto=format&fit=max&s=4a334e6f50d2945bd64b1f0487684271"
           },
           {
@@ -1630,6 +1621,15 @@
             "image": "https://i.guim.co.uk/img/media/2d17ecf180ef9dc54e4768f20b35c925564d7bd1/1733_401_6091_4876/master/6091.jpg?width=140&quality=85&auto=format&fit=max&s=f47c7193c6259e8e4499664ff191bb65"
           },
           {
+            "title": "Long-term proteges and verifiable reality must be jettisoned for Saving Private Nige | John Crace",
+            "link": "https://www.theguardian.com/politics/2026/sep/06/long-term-allies-and-verifiable-reality-must-make-way-for-saving-private-nige",
+            "published": "Sun, 06 Sep 2026 15:42:10 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Nigel Farage Politics Reform UK UK news",
+            "image": "https://i.guim.co.uk/img/media/f2acae2773c9540130cae73c7a86d5d7b855953c/273_0_2726_2181/master/2726.jpg?width=140&quality=85&auto=format&fit=max&s=a80e6d40775a6c1258071223114fd3ff"
+          },
+          {
             "title": "That sound you hear is not the world ending – it’s liberalism being monstered | Waleed Aly",
             "link": "https://www.theguardian.com/commentisfree/2026/sep/07/waleed-aly-time-of-monsters-future-liberalism-essay",
             "published": "Sun, 06 Sep 2026 15:00:08 GMT",
@@ -1682,15 +1682,6 @@
             "provider": "GUARDIAN",
             "categories": "Nigel Farage Reform UK Party funding Politics UK news",
             "image": "https://i.guim.co.uk/img/media/9d6e1abb138fca628db89ad798c7df69d930edaf/702_0_6830_5464/master/6830.jpg?width=140&quality=85&auto=format&fit=max&s=d55c2c8fe8605e67994a2463580c64d7"
-          },
-          {
-            "title": "Andy Burnham presents his new government as more leftwing. In reality, it’s barely moved at all | Owen Jones",
-            "link": "https://www.theguardian.com/commentisfree/2026/sep/04/andy-burnham-more-leftwing-keir-starmer",
-            "published": "Fri, 04 Sep 2026 11:57:11 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Andy Burnham Labour Politics UK news",
-            "image": "https://i.guim.co.uk/img/media/c4027f948facaa65d31916aa2474085d484a48c8/1216_0_6187_4949/master/6187.jpg?width=140&quality=85&auto=format&fit=max&s=db25b8fa25d9a4d095912de25e7eb0da"
           },
           {
             "title": "London mayoral contenders limber up for a race that is Sadiq Khan’s to lose",
@@ -3073,7 +3064,7 @@
             "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_181213270-26f3.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Noel Gallagher wipes away tears during Oasis’ emotional 8-minute standing ovation",
+            "title": "Noel Gallagher reveals his and Liam’s sons had ‘never met’ before Oasis reunion",
             "link": "https://metro.co.uk/2026/09/06/noel-gallagher-wipes-away-tears-oasis-emotional-8-minute-standing-ovation-29545958/",
             "published": "Sun, 06 Sep 2026 09:06:38 +0000",
             "source": "Metro",
