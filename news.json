@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T18:58:09.088Z",
+  "updated": "2026-09-06T19:55:30.682Z",
   "categories": {
     "UK": [
       {
@@ -8,7 +8,7 @@
         "published": "Sun, 06 Sep 2026 18:57:22 +0000",
         "source": "Metro",
         "provider": "METRO",
-        "categories": "News",
+        "categories": "News World Miami",
         "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_311096561-b1a4-e1788720992744.jpg?quality=90&strip=all&w=646"
       },
       {
@@ -95,6 +95,24 @@
     ],
     "WORLD": [
       {
+        "title": "Amazon cargo plane overshoots runway at Miami airport",
+        "link": "https://news.sky.com/story/amazon-cargo-plane-overshoots-runway-at-miami-airport-13582555",
+        "published": "Sun, 06 Sep 2026 20:37:00 +0100",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-amazon-miami_7343711.jpg?20260906205128"
+      },
+      {
+        "title": "Woman laid to rest in coffin made from mushrooms in Australian first",
+        "link": "https://www.theguardian.com/australia-news/2026/sep/07/australian-woman-buried-in-mushroom-coffin-blue-mountains",
+        "published": "Sun, 06 Sep 2026 19:00:12 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Australia news New South Wales Environment Consumer affairs Death and dying",
+        "image": "https://i.guim.co.uk/img/media/decca5c97cd9355e54501230b725d5eb392a637a/502_30_5505_4404/master/5505.jpg?width=140&quality=85&auto=format&fit=max&s=a83397e4a7ba3379919781e3c77e8dbc"
+      },
+      {
         "title": "Air passenger held down with duct tape on American Airlines flight after ‘racist meltdown’ revealed",
         "link": "https://metro.co.uk/2026/09/06/air-passenger-held-duct-tape-american-airlines-flight-racist-meltdown-revealed-29548269/",
         "published": "Sun, 06 Sep 2026 17:24:12 +0000",
@@ -140,15 +158,6 @@
         "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_311033102-f60c-e1788704874134.jpg?quality=90&strip=all&w=646"
       },
       {
-        "title": "Shoebridge criticises Labor response after IDF officer’s ‘reprehensible’ comments on deadly Zomi Frankcom strike",
-        "link": "https://www.theguardian.com/australia-news/2026/sep/07/zomi-frankcom-israel-gaza-idf-world-central-kitchen-ntwnfb",
-        "published": "Sun, 06 Sep 2026 15:00:10 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Australian foreign policy Israel-Gaza war Australia news Australian Greens Israel",
-        "image": "https://i.guim.co.uk/img/media/fbf424c515f9b213f9cd8f694dcab6846293659a/0_0_2700_2160/master/2700.jpg?width=140&quality=85&auto=format&fit=max&s=2057fd5b9d385dabcf89dd9b2d0c5cd1"
-      },
-      {
         "title": "At least 25 dead after bus plunges into steep ravine on Cape Verde island",
         "link": "https://news.sky.com/story/at-least-25-dead-after-bus-plunges-into-steep-ravine-on-cape-verde-island-13582377",
         "published": "Sun, 06 Sep 2026 15:51:00 +0100",
@@ -156,15 +165,6 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/09/1920x1080/skynews-fogo-capeverde_7343269.jpg?20260906155915"
-      },
-      {
-        "title": "Russia warns Germany is ‘starting a real war’ after blaming Putin for airport attack",
-        "link": "https://metro.co.uk/2026/09/06/russia-warns-germany-starting-a-real-war-blaming-putin-airport-attack-29547824/",
-        "published": "Sun, 06 Sep 2026 14:22:25 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News World Germany Russia Russia-Ukraine war Vladimir Putin",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_307757716-d7d0.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "FIFA confirms Infantino to stand for re-election as president",
@@ -490,13 +490,13 @@
         "image": "https://metro.co.uk/wp-content/uploads/2026/07/SEI_109718564-9b32.jpg?quality=90&strip=all&w=646"
       },
       {
-        "title": "Wrestler Andy ‘The Butcher’ Williams dies aged 48 after collapsing at end of match",
+        "title": "Wrestler Andy ‘The Butcher’ Williams dies aged 48 after hitting head during match",
         "link": "https://metro.co.uk/2026/09/06/wrestler-andy-the-butcher-williams-dies-aged-48-collapsing-end-match-29547805/",
         "published": "Sun, 06 Sep 2026 14:05:15 +0000",
         "source": "Metro",
         "provider": "METRO",
         "categories": "Entertainment TV Celebrity Deaths US Showbiz news WWE",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_311041940-5a5a-e1788702212362.jpg?quality=90&strip=all&w=646"
+        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_311041940-5a5a-e1788721912657.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "‘Like a tired boxer, battered by applause’: as Andrew Scott’s biopic premieres, Richard Eyre remembers Ian Charleson’s superb, near-death Hamlet",
@@ -740,6 +740,15 @@
             "image": "https://e3.365dm.com/26/09/1920x1080/skynews-fogo-capeverde_7343269.jpg?20260906155915"
           },
           {
+            "title": "Amazon cargo plane overshoots runway at Miami airport",
+            "link": "https://news.sky.com/story/amazon-cargo-plane-overshoots-runway-at-miami-airport-13582555",
+            "published": "Sun, 06 Sep 2026 20:37:00 +0100",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-amazon-miami_7343711.jpg?20260906205128"
+          },
+          {
             "title": "Seven killed in Israeli strikes on southern Lebanon",
             "link": "https://news.sky.com/story/four-killed-in-israeli-strikes-on-southern-lebanon-13582240",
             "published": "Sun, 06 Sep 2026 11:19:00 +0100",
@@ -783,15 +792,6 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/09/1920x1080/skynews-katie-taylor-ireland_7342751.jpg?20260906012452"
-          },
-          {
-            "title": "New world map that shows Africa's true size backed by UN",
-            "link": "https://news.sky.com/story/countries-vote-at-un-to-back-new-world-map-that-shows-africas-true-size-13581494",
-            "published": "Fri, 04 Sep 2026 20:30:00 +0100",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-mercator-projection_7341226.jpg?20260904194846"
           }
         ],
         "POLITICS": [
@@ -1511,6 +1511,15 @@
             "image": "https://i.guim.co.uk/img/media/b258258b4224aca28e3a1d3e6d43221a4a6a36bb/970_15_4875_3903/master/4875.jpg?width=140&quality=85&auto=format&fit=max&s=0f53a2a8562c6f4c22de58d86bd09ddc"
           },
           {
+            "title": "Woman laid to rest in coffin made from mushrooms in Australian first",
+            "link": "https://www.theguardian.com/australia-news/2026/sep/07/australian-woman-buried-in-mushroom-coffin-blue-mountains",
+            "published": "Sun, 06 Sep 2026 19:00:12 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Australia news New South Wales Environment Consumer affairs Death and dying",
+            "image": "https://i.guim.co.uk/img/media/decca5c97cd9355e54501230b725d5eb392a637a/502_30_5505_4404/master/5505.jpg?width=140&quality=85&auto=format&fit=max&s=a83397e4a7ba3379919781e3c77e8dbc"
+          },
+          {
             "title": "Shoebridge criticises Labor response after IDF officer’s ‘reprehensible’ comments on deadly Zomi Frankcom strike",
             "link": "https://www.theguardian.com/australia-news/2026/sep/07/zomi-frankcom-israel-gaza-idf-world-central-kitchen-ntwnfb",
             "published": "Sun, 06 Sep 2026 15:00:10 GMT",
@@ -1545,15 +1554,6 @@
             "provider": "GUARDIAN",
             "categories": "Australia weather New South Wales Queensland Australia news Brisbane Sydney",
             "image": "https://i.guim.co.uk/img/media/91de0d963ecd6bac3da146a26d0c1196b76854e2/30_0_3247_2599/master/3247.jpg?width=140&quality=85&auto=format&fit=max&s=011d9677e1f2604890f90bece11e662b"
-          },
-          {
-            "title": "Up to 6,000 tradies to get free qualifications under Labor scheme – as it happened",
-            "link": "https://www.theguardian.com/australia-news/live/2026/sep/06/australia-news-live-albanese-labor-party-coaltion-liberal-party-nepal-floods-ntwnfb",
-            "published": "Sun, 06 Sep 2026 04:25:37 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Australian politics Australian economy Business Health Australian education Australian immigration and asylum Labor party Coalition Australia news Liberal party Nepal-Tibet flood disaster Victoria New South Wales Australia sport",
-            "image": "https://i.guim.co.uk/img/media/75a1c5446f424c71e43f225adb33cad39eb3c56a/411_0_4111_3289/master/4111.jpg?width=140&quality=85&auto=format&fit=max&s=d8a06b8103e55885a2e67a1e7c7cb563"
           }
         ],
         "POLITICS": [
@@ -2321,7 +2321,7 @@
             "published": "Sun, 06 Sep 2026 18:57:22 +0000",
             "source": "Metro",
             "provider": "METRO",
-            "categories": "News",
+            "categories": "News World Miami",
             "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_311096561-b1a4-e1788720992744.jpg?quality=90&strip=all&w=646"
           },
           {
@@ -2586,15 +2586,6 @@
             "provider": "METRO",
             "categories": "News World Canary Islands Spain",
             "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310483759-bb55.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Iran accuses US of bombing a wedding and wounding more than 68 people",
-            "link": "https://metro.co.uk/2026/09/02/iran-accuses-us-bombing-a-wedding-wounding-68-people-29516960/",
-            "published": "Wed, 02 Sep 2026 11:36:24 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News World Donald Trump Iran Iran war",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310338834-15d6-e1788361718131.jpg?quality=90&strip=all&w=646"
           },
           {
             "title": "Susan Sarandon: ‘Hollywood agencies are telling people not to hire me’",
@@ -2992,13 +2983,13 @@
             "image": "https://metro.co.uk/wp-content/uploads/2026/07/SEI_109718564-9b32.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Wrestler Andy ‘The Butcher’ Williams dies aged 48 after collapsing at end of match",
+            "title": "Wrestler Andy ‘The Butcher’ Williams dies aged 48 after hitting head during match",
             "link": "https://metro.co.uk/2026/09/06/wrestler-andy-the-butcher-williams-dies-aged-48-collapsing-end-match-29547805/",
             "published": "Sun, 06 Sep 2026 14:05:15 +0000",
             "source": "Metro",
             "provider": "METRO",
             "categories": "Entertainment TV Celebrity Deaths US Showbiz news WWE",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_311041940-5a5a-e1788702212362.jpg?quality=90&strip=all&w=646"
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_311041940-5a5a-e1788721912657.jpg?quality=90&strip=all&w=646"
           },
           {
             "title": "Only Sixteen singer Craig Douglas dies aged 85",
@@ -3153,7 +3144,7 @@
         },
         "WORLD": {
           "ok": true,
-          "count": 12
+          "count": 11
         },
         "POLITICS": {
           "ok": true,
