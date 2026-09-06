@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T18:50:33.299Z",
+  "updated": "2026-09-06T18:58:09.142Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -18,7 +18,7 @@
         "title": "The Let Them Theory",
         "author": "Mel Robbins",
         "narrator": "Mel Robbins",
-        "image": "https://m.media-amazon.com/images/I/51YOr6ua-PL._SL500_.jpg"
+        "image": "https://covers.openlibrary.org/b/id/15165806-L.jpg"
       },
       {
         "title": "The Murder at the Vicarage",
@@ -60,7 +60,7 @@
         "title": "The Eye of the Bedlam Bride",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays , Patrick Warburton , Travis Baldree , Annie Ellicott",
-        "image": "https://covers.openlibrary.org/b/id/15231488-L.jpg"
+        "image": "https://m.media-amazon.com/images/I/51qfZAq2J4L._SL500_.jpg"
       }
     ],
     "BOOKS": [
@@ -123,14 +123,14 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-09-06T18:50:33.299Z",
-      "lastSuccessfulRefresh": "2026-09-06T18:50:33.299Z",
+      "checkedAt": "2026-09-06T18:58:09.142Z",
+      "lastSuccessfulRefresh": "2026-09-06T18:58:09.142Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-09-06T18:50:41.683Z",
-      "lastSuccessfulRefresh": "2026-09-06T18:50:41.683Z",
+      "checkedAt": "2026-09-06T18:58:17.370Z",
+      "lastSuccessfulRefresh": "2026-09-06T18:58:17.370Z",
       "reason": ""
     }
   }

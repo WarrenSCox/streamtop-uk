@@ -1,6 +1,6 @@
 {
   "version": 17,
-  "generatedAt": "2026-09-06T18:49:32.418Z",
+  "generatedAt": "2026-09-06T18:57:37.045Z",
   "country": "GB",
   "strategy": "Official source first; labelled fallback when no compatible official chart is available.",
   "services": {
@@ -874,7 +874,7 @@
           "rank": 1,
           "title": "Star Wars: The Mandalorian and Grogu",
           "year": 2026,
-          "type": "MOVIE",
+          "type": null,
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/01a06213-9861-7d5b-a9ba-b56eabc0796c/compose?format=webp&width=386&label=top_ranked_1_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-d830ec57-499e-498c-b6b3-2b85a18a5f51"
         },
@@ -890,7 +890,7 @@
           "rank": 3,
           "title": "Furious",
           "year": 2026,
-          "type": "SHOW",
+          "type": null,
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/019fa9fd-c0de-7eab-963c-8ec352530398/compose?format=webp&width=386&label=top_ranked_3_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-5d4924b7-1cde-47c3-8852-f30bdd7fe979"
         },
@@ -938,7 +938,7 @@
           "rank": 9,
           "title": "Marvel Studios' Avengers: Endgame",
           "year": 2019,
-          "type": "MOVIE",
+          "type": null,
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/6a8390cc-0240-46fc-9c52-5287ca3676eb/compose?format=webp&width=386&label=top_ranked_9_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-b39aa962-be56-4b09-a536-98617031717f"
         },
@@ -2373,7 +2373,7 @@
           "cadence": "weekly",
           "note": "Fresh data did not update successfully, so the last successful results are being shown.",
           "stale": true,
-          "staleAsOf": "2026-09-06T18:46:00.217Z"
+          "staleAsOf": "2026-09-06T18:49:32.418Z"
         }
       },
       "error": null,
@@ -2471,10 +2471,13 @@
           "displayName": "IMDb",
           "url": "https://www.imdb.com/chart/boxoffice/?ref_=ext_shr_lnk",
           "cadence": "weekly",
-          "note": "US weekend box-office Top 10 from IMDb, reported by Box Office Mojo."
+          "note": "Fresh data did not update successfully, so the last successful results are being shown.",
+          "stale": true,
+          "staleAsOf": "2026-09-06T18:49:32.418Z"
         }
       },
-      "error": null
+      "error": null,
+      "stale": true
     },
     "ukmusic": {
       "provider": "UK Music",
@@ -2714,8 +2717,9 @@
           "rank": 7,
           "title": "So Easy (To Fall In Love)",
           "artist": "Olivia Dean",
-          "poster": null,
-          "detailsUrl": "https://ca.billboard.com/charts/hot-100"
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/08/e2/21/08e22164-7c0b-1522-818f-e0e74f62dc49/25UMGIM69703.rgb.jpg/400x400bb.jpg",
+          "detailsUrl": "https://ca.billboard.com/charts/hot-100",
+          "musicUrl": "https://music.apple.com/us/album/so-easy-to-fall-in-love/1817609404?i=1817609507&uo=4"
         },
         {
           "rank": 8,
@@ -2763,15 +2767,17 @@
           "rank": 3,
           "title": "you seem pretty sad for a girl so in love",
           "artist": "Olivia Rodrigo",
-          "poster": null,
-          "detailsUrl": "https://ca.billboard.com/charts/billboard-200"
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/92/51/b9925128-dac6-2cef-5674-d5ebbe1a4e83/26UMGIM75556.rgb.jpg/400x400bb.jpg",
+          "detailsUrl": "https://ca.billboard.com/charts/billboard-200",
+          "musicUrl": "https://music.apple.com/us/album/you-seem-pretty-sad-for-a-girl-so-in-love/6779097512?uo=4"
         },
         {
           "rank": 4,
           "title": "I'm The Problem",
           "artist": "Morgan Wallen",
-          "poster": null,
-          "detailsUrl": "https://ca.billboard.com/charts/billboard-200"
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fa/60/fe/fa60fe4a-4329-a0bb-eb7c-3b6094a4d831/25UMGIM46049.rgb.jpg/400x400bb.jpg",
+          "detailsUrl": "https://ca.billboard.com/charts/billboard-200",
+          "musicUrl": "https://music.apple.com/us/album/im-the-problem/1802103906?uo=4"
         },
         {
           "rank": 5,
@@ -2785,15 +2791,17 @@
           "rank": 6,
           "title": "WILD (EP)",
           "artist": "KATSEYE",
-          "poster": null,
-          "detailsUrl": "https://ca.billboard.com/charts/billboard-200"
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0a/63/b5/0a63b5b0-dff7-1194-79c0-6bc8f5ab2d74/093624821526.jpg/400x400bb.jpg",
+          "detailsUrl": "https://ca.billboard.com/charts/billboard-200",
+          "musicUrl": "https://music.apple.com/us/album/wild/1885046822?uo=4"
         },
         {
           "rank": 7,
           "title": "The Great Divide",
           "artist": "Noah Kahan",
-          "poster": null,
-          "detailsUrl": "https://ca.billboard.com/charts/billboard-200"
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e0/53/5b/e0535bb5-a269-8cc4-e12f-589e26809569/26UMGIM02802.rgb.jpg/400x400bb.jpg",
+          "detailsUrl": "https://ca.billboard.com/charts/billboard-200",
+          "musicUrl": "https://music.apple.com/us/album/the-great-divide/1872241079?uo=4"
         },
         {
           "rank": 8,
@@ -2807,15 +2815,17 @@
           "rank": 9,
           "title": "ICEMAN",
           "artist": "Drake",
-          "poster": null,
-          "detailsUrl": "https://ca.billboard.com/charts/billboard-200"
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7f/39/61/7f396123-be56-bc11-eaab-976441808e58/26UMGIM63622.rgb.jpg/400x400bb.jpg",
+          "detailsUrl": "https://ca.billboard.com/charts/billboard-200",
+          "musicUrl": "https://music.apple.com/us/album/iceman/6769649287?uo=4"
         },
         {
           "rank": 10,
           "title": "petal",
           "artist": "Ariana Grande",
-          "poster": null,
-          "detailsUrl": "https://ca.billboard.com/charts/billboard-200"
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/56/f4/96/56f49612-02dd-83f4-44fe-d2118cc70707/26UMGIM51129.rgb.jpg/400x400bb.jpg",
+          "detailsUrl": "https://ca.billboard.com/charts/billboard-200",
+          "musicUrl": "https://music.apple.com/us/album/petal/1895420874?uo=4"
         }
       ],
       "sources": {
