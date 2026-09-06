@@ -1,18 +1,18 @@
 {
-  "updated": "2026-09-06T08:50:40.998Z",
+  "updated": "2026-09-06T11:05:28.887Z",
   "charts": {
     "AUDIOBOOKS": [
       {
         "title": "A Very Dangerous Pursuit",
         "author": "Ben Miller",
         "narrator": "Ben Miller",
-        "image": "https://m.media-amazon.com/images/I/51VUdl5bZoL._SL500_.jpg"
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/83/91/0f/83910fac-d57f-c347-2fe2-8a68c8b0ad10/9780008747480.jpg/600x600bb.jpg"
       },
       {
         "title": "Dungeon Crawler Carl",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://m.media-amazon.com/images/I/51HIZdnqASL._SL500_.jpg"
+        "image": "https://covers.openlibrary.org/b/id/15143022-L.jpg"
       },
       {
         "title": "The Let Them Theory",
@@ -48,7 +48,7 @@
         "title": "The Gate of the Feral Gods",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://m.media-amazon.com/images/I/51rmyTTWPsL._SL500_.jpg"
+        "image": "https://covers.openlibrary.org/b/id/15232581-L.jpg"
       },
       {
         "title": "The Butcher's Masquerade",
@@ -57,10 +57,10 @@
         "image": "https://covers.openlibrary.org/b/id/15231958-L.jpg"
       },
       {
-        "title": "The Garden Grave",
-        "author": "Joy Ellis",
-        "narrator": "Sam Claflin",
-        "image": "https://m.media-amazon.com/images/I/51u2yPsf2LL._SL500_.jpg"
+        "title": "The Eye of the Bedlam Bride",
+        "author": "Matt Dinniman",
+        "narrator": "Jeff Hays , Patrick Warburton , Travis Baldree , Annie Ellicott",
+        "image": "https://covers.openlibrary.org/b/id/15231488-L.jpg"
       }
     ],
     "BOOKS": [
@@ -123,15 +123,15 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-09-06T08:50:40.998Z",
-      "lastSuccessfulRefresh": "2026-09-06T08:50:40.998Z",
+      "checkedAt": "2026-09-06T11:05:28.887Z",
+      "lastSuccessfulRefresh": "2026-09-06T11:05:28.887Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
-      "status": "stale",
-      "checkedAt": "2026-09-06T08:50:51.356Z",
-      "lastSuccessfulRefresh": "2026-09-06T04:48:41.304Z",
-      "reason": "503 https://www.audible.co.uk/charts/best"
+      "status": "healthy",
+      "checkedAt": "2026-09-06T11:05:37.745Z",
+      "lastSuccessfulRefresh": "2026-09-06T11:05:37.745Z",
+      "reason": ""
     }
   }
 }
