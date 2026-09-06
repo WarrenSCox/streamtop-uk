@@ -8,10 +8,11 @@ const SERVICES = [
   {id:'itv', name:'ITV', slug:'itvx', tone:'green'},
   {id:'channel4', name:'Channel 4', slug:'channel-4', tone:'yellow'},
   {id:'ukcinema', name:'UK Cinema', slug:null, tone:'brick', cinema:true},
-  {id:'uscinema', name:'US Cinema', slug:null, tone:'blue', cinema:true}
+  {id:'uscinema', name:'US Cinema', slug:null, tone:'blue', cinema:true},
+  {id:'youtube', name:'YouTube', slug:null, tone:'brick', youtube:true}
 ];
 
-const state = {service: SERVICES[0], type: 'MOVIE', data: null, installPrompt: null};
+const state = {service: SERVICES[0], type: 'MOVIE', data: null, youtubeData: null, installPrompt: null};
 const els = {
   tabs: document.querySelector('#serviceTabs'),
   chart: document.querySelector('#chart'),
@@ -64,6 +65,13 @@ async function fetchOneRankingFeed(base) {
   return body;
 }
 
+function youtubeDataUrls() {
+  const urls=[]; const gh=location.hostname.match(/^([^.]+)\.github\.io$/i); const repo=location.pathname.split('/').filter(Boolean)[0];
+  if(gh&&repo)urls.push(`https://raw.githubusercontent.com/${gh[1]}/${repo}/main/youtube.json`);
+  urls.push('./youtube.json'); return urls;
+}
+async function fetchYouTubeData(){let lastError;for(const base of youtubeDataUrls()){try{const sep=base.includes('?')?'&':'?';const r=await fetch(`${base}${sep}ww=${Date.now()}`,{cache:'no-store',headers:{Accept:'application/json'}});if(!r.ok)throw new Error(`YouTube feed returned ${r.status}`);const body=await r.json();if(!Array.isArray(body?.trailers)&&!Array.isArray(body?.videos))throw new Error('YouTube feed is incomplete');return body}catch(e){lastError=e}}throw lastError||new Error('YouTube feed unavailable')}
+
 async function fetchRankings() {
   let lastError;
   const urls = dataUrls();
@@ -101,15 +109,18 @@ function syncControls({scroll = true} = {}) {
     button.classList.toggle('active', button.dataset.type === state.type);
   });
   const segmented = document.querySelector('.segmented');
-  if (segmented) { segmented.classList.toggle('cinema-hidden', Boolean(state.service.cinema)); segmented.classList.toggle('disney-combined', state.service.id === 'disney'); }
+  if (segmented) { segmented.classList.toggle('cinema-hidden', Boolean(state.service.cinema)); segmented.classList.toggle('disney-combined', state.service.id === 'disney'); segmented.classList.toggle('youtube-mode', Boolean(state.service.youtube)); }
+  const movieButton=document.querySelector('.segmented button[data-type="MOVIE"]');
+  if(movieButton){movieButton.setAttribute('aria-label',state.service.youtube?'Movie trailers':'Movies');movieButton.title=state.service.youtube?'Movie trailers':'Movies';}
+  const videoButton=document.querySelector('.segmented button[data-type="VIDEO"]'); if(videoButton)videoButton.hidden=!state.service.youtube;
 }
 
 function selectService(index, {scroll = true} = {}) {
   if (index < 0 || index >= SERVICES.length) return false;
   state.service = SERVICES[index];
   if (state.service.id === 'disney') state.type = 'COMBINED';
-  else if (state.type === 'COMBINED') state.type = 'MOVIE';
-  if (state.service.cinema) state.type = 'MOVIE';
+  else if (state.type === 'COMBINED' || state.type === 'VIDEO') state.type = 'MOVIE';
+  if (state.service.cinema || state.service.youtube) state.type = 'MOVIE';
   syncControls({scroll});
   renderCurrent();
   return true;
@@ -136,8 +147,8 @@ function setProviderIndex(index) {
   if (index < 0 || index >= SERVICES.length) return false;
   state.service = SERVICES[index];
   if (state.service.id === 'disney') state.type = 'COMBINED';
-  else if (state.type === 'COMBINED') state.type = 'MOVIE';
-  if (state.service.cinema) state.type = 'MOVIE';
+  else if (state.type === 'COMBINED' || state.type === 'VIDEO') state.type = 'MOVIE';
+  if (state.service.cinema || state.service.youtube) state.type = 'MOVIE';
   syncControls({scroll:true});
   renderCurrent();
   return true;
@@ -145,7 +156,8 @@ function setProviderIndex(index) {
 
 function setContentType(type) {
   if (state.service.cinema) return false;
-  if (!['MOVIE','SHOW','COMBINED'].includes(type) || (type === 'COMBINED' && state.service.id !== 'disney') || state.type === type) return false;
+  if (state.service.youtube) { if (!['MOVIE','VIDEO'].includes(type) || state.type===type) return false; }
+  else if (!['MOVIE','SHOW','COMBINED'].includes(type) || (type === 'COMBINED' && state.service.id !== 'disney') || state.type === type) return false;
   state.type = type;
   syncControls({scroll:false});
   renderCurrent();
@@ -202,7 +214,7 @@ function initProviderSwipe() {
 
   const toggleContentType = () => {
     if (state.service.cinema) return;
-    const nextType = state.type === 'MOVIE' ? 'SHOW' : 'MOVIE';
+    const nextType = state.service.youtube ? (state.type === 'MOVIE' ? 'VIDEO' : 'MOVIE') : (state.type === 'MOVIE' ? 'SHOW' : 'MOVIE');
     const card = document.querySelector('.chart-wrap');
     if (!card || card.dataset.animating === '1') return;
     card.dataset.animating = '1';
@@ -379,13 +391,13 @@ function renderTitles(titles) {
     const info = document.createElement('div');
     info.className = 'item-info';
 
-    const detailsHref = youtubeTrailerUrl(item.title || '');
+    const detailsHref = state.service.youtube && item.url ? item.url : youtubeTrailerUrl(item.title || '');
     const visualLink = document.createElement('a');
     visualLink.className = 'poster-link';
     visualLink.href = detailsHref;
     visualLink.target = '_blank';
     visualLink.rel = 'noopener';
-    visualLink.setAttribute('aria-label', `${item.title || 'Untitled'} — search YouTube for trailer`);
+    visualLink.setAttribute('aria-label', state.service.youtube ? `${item.title || 'Untitled'} — open on YouTube` : `${item.title || 'Untitled'} — search YouTube for trailer`);
     visualLink.append(visual);
 
     const title = document.createElement('div');
@@ -399,17 +411,16 @@ function renderTitles(titles) {
       seen.setAttribute('aria-label', 'You have already watched this');
       title.append(seen);
     }
-    info.append(title);
-    const watch = document.createElement('button');
-    const saved = isSaved(item);
-    watch.type = 'button';
-    watch.className = `watch-toggle${saved ? ' saved' : ''}`;
-    watch.innerHTML = eyesMarkup();
-    watch.setAttribute('aria-pressed', saved ? 'true' : 'false');
-    watch.setAttribute('aria-label', `${saved ? 'Remove' : 'Add'} ${item.title || 'title'} ${saved ? 'from' : 'to'} My List`);
-    watch.addEventListener('click', event => { event.stopPropagation(); toggleSaved(item, watch); });
-    li.classList.add('has-watch-toggle');
-    li.append(rank, visualLink, info, watch);
+    if(state.service.youtube && item.channel){const channel=document.createElement('div');channel.className='youtube-channel';channel.textContent=item.channel;info.append(title,channel);}else info.append(title);
+    if(state.service.youtube){li.classList.add('youtube-chart-item');li.append(rank,visualLink,info);}
+    else{
+      const watch = document.createElement('button');
+      const saved = isSaved(item);
+      watch.type = 'button'; watch.className = `watch-toggle${saved ? ' saved' : ''}`; watch.innerHTML = eyesMarkup();
+      watch.setAttribute('aria-pressed', saved ? 'true' : 'false'); watch.setAttribute('aria-label', `${saved ? 'Remove' : 'Add'} ${item.title || 'title'} ${saved ? 'from' : 'to'} My List`);
+      watch.addEventListener('click', event => { event.stopPropagation(); toggleSaved(item, watch); });
+      li.classList.add('has-watch-toggle'); li.append(rank, visualLink, info, watch);
+    }
     els.chart.appendChild(li);
   });
 }
@@ -439,63 +450,32 @@ function setLoading(on) {
 }
 
 function renderCurrent() {
-  const service = state.service;
-  const key = state.type === 'MOVIE' ? 'movies' : state.type === 'SHOW' ? 'tv' : 'combined';
-  const typeLabel = state.type === 'MOVIE' ? 'Movies' : state.type === 'SHOW' ? 'TV' : 'Combined';
-  const serviceData = state.data?.services?.[service.id];
-  const source = serviceData?.sources?.[key];
-  const fallbackUrl = source?.url || justWatchUrl(service, state.type);
-
-  els.chartTitle.textContent = service.cinema ? service.name : `${service.name} ${typeLabel}`;
-  const isOfficial = source?.kind === 'official';
-  const fallbackName = source?.displayName || (source?.label || '').replace(/^JustWatch UK$/i, 'JustWatch').replace(/^Stats from\s+/i, '') || 'Source';
-  els.sourceBadge.innerHTML = '';
-  els.sourceBadge.href = source?.url || fallbackUrl;
-  els.sourceBadge.setAttribute('aria-label', isOfficial ? 'Official stats — open source' : `Stats from ${fallbackName} — open source`);
-  els.sourceBadge.className = `source-badge ${isOfficial ? 'official' : 'fallback'}`;
-
-  const sourceText = document.createElement('span');
-  sourceText.className = 'source-text';
-  sourceText.textContent = isOfficial ? 'Official Stats' : `Stats from ${fallbackName}`;
-
-  els.sourceBadge.append(sourceText);
-  if (isOfficial) {
-    const verified = document.createElement('span');
-    verified.className = 'verified-tick';
-    verified.setAttribute('aria-hidden', 'true');
-    verified.textContent = '✓';
-    els.sourceBadge.append(verified);
-  }
-  if (source?.stale) {
-    const stale = document.createElement('span');
-    stale.className = 'stale-alert';
-    stale.textContent = '!';
-    stale.title = 'This source did not update successfully, so the last available results are being shown.';
-    stale.setAttribute('aria-label', stale.title);
-    stale.addEventListener('click', (event) => { event.preventDefault(); event.stopPropagation(); alert(stale.title); });
-    els.sourceBadge.append(stale);
-  }
-  els.fallback.href = source?.url || fallbackUrl;
-  els.error.classList.add('hidden');
-  els.chart.innerHTML = '';
-
-  requestAnimationFrame(() => fitSingleLine(els.chartTitle));
-
-  try {
-    const titles = serviceData?.[key];
-    if (serviceData?.error && (!titles || !titles.length)) throw new Error(serviceData.error);
-    renderTitles(titles);
-    els.updated.textContent = formatUpdated(state.data?.generatedAt);
-  } catch (error) {
-    els.errorText.textContent = `${error.message || 'This ranking is not available yet'} You can still open the source directly.`;
-    els.error.classList.remove('hidden');
-  }
+  const service=state.service;
+  const isYouTube=Boolean(service.youtube);
+  const key=isYouTube?(state.type==='VIDEO'?'videos':'trailers'):(state.type==='MOVIE'?'movies':state.type==='SHOW'?'tv':'combined');
+  const typeLabel=isYouTube?(state.type==='VIDEO'?'Videos':'Movie Trailers'):(state.type==='MOVIE'?'Movies':state.type==='SHOW'?'TV':'Combined');
+  const serviceData=isYouTube?state.youtubeData:state.data?.services?.[service.id];
+  const source=isYouTube?serviceData?.sources?.[key]:serviceData?.sources?.[key];
+  const fallbackUrl=source?.url||(isYouTube?'https://www.youtube.com/':justWatchUrl(service,state.type));
+  els.chartTitle.textContent=isYouTube?`YouTube ${typeLabel}`:(service.cinema?service.name:`${service.name} ${typeLabel}`);
+  const isOfficial=source?.kind==='official';
+  const fallbackName=source?.displayName||(source?.label||'').replace(/^JustWatch UK$/i,'JustWatch').replace(/^Stats from\s+/i,'')||'Source';
+  els.sourceBadge.innerHTML=''; els.sourceBadge.href=source?.url||fallbackUrl;
+  els.sourceBadge.setAttribute('aria-label',isOfficial?'Official stats — open source':`Stats from ${fallbackName} — open source`);
+  els.sourceBadge.className=`source-badge ${isOfficial?'official':'fallback'}`;
+  const sourceText=document.createElement('span');sourceText.className='source-text';sourceText.textContent=isOfficial?'Official Stats':`Stats from ${fallbackName}`;els.sourceBadge.append(sourceText);
+  if(isOfficial){const verified=document.createElement('span');verified.className='verified-tick';verified.setAttribute('aria-hidden','true');verified.textContent='✓';els.sourceBadge.append(verified)}
+  if(source?.stale){const stale=document.createElement('span');stale.className='stale-alert';stale.textContent='!';stale.title='This source did not update successfully, so the last available results are being shown.';stale.setAttribute('aria-label',stale.title);stale.addEventListener('click',e=>{e.preventDefault();e.stopPropagation();alert(stale.title)});els.sourceBadge.append(stale)}
+  els.fallback.href=source?.url||fallbackUrl;els.error.classList.add('hidden');els.chart.innerHTML='';requestAnimationFrame(()=>fitSingleLine(els.chartTitle));
+  try{const titles=serviceData?.[key];if(serviceData?.error&&(!titles||!titles.length))throw new Error(serviceData.error);renderTitles(titles);els.updated.textContent=formatUpdated(isYouTube?state.youtubeData?.generatedAt:state.data?.generatedAt)}
+  catch(error){els.errorText.textContent=`${error.message||'This ranking is not available yet'} You can still open the source directly.`;els.error.classList.remove('hidden')}
 }
 
 async function loadData() {
   setLoading(true);
   try {
     state.data = await fetchRankings();
+    try{state.youtubeData=await fetchYouTubeData()}catch(error){console.warn('WozzaWatch YouTube feed:',error)}
     renderCurrent();
   } catch (error) {
     console.error(error);
@@ -510,6 +490,8 @@ async function loadData() {
 document.querySelectorAll('.segmented button').forEach(button => {
   button.addEventListener('click', () => {
     if (state.service.cinema) return;
+    if (state.service.youtube && !['MOVIE','VIDEO'].includes(button.dataset.type)) return;
+    if (!state.service.youtube && button.dataset.type === 'VIDEO') return;
     if (button.dataset.type === 'COMBINED' && state.service.id !== 'disney') return;
     state.type = button.dataset.type;
     syncControls({scroll:false});
