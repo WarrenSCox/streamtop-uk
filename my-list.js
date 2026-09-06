@@ -4,7 +4,8 @@ function setType(t,anim=true){if(!TYPES.includes(t))return;type=t;document.query
 function provider(x){return x.author||x.service||''}
 function youtubeTrailerUrl(title){return `https://www.youtube.com/results?search_query=${encodeURIComponent(`${title||''} trailer`)}`}
 function amazonBookUrl(title){return `https://www.amazon.co.uk/s?k=${encodeURIComponent(title||'')}`}
-function watchlistVisual(x){const visual=x.poster?`<img class="poster" src="${esc(x.poster)}" alt="">`:`<div class="poster poster-placeholder">${type==='BOOK'?'W':''}</div>`;if(type==='MOVIE'||type==='SHOW'){return `<a class="poster-link" href="${esc(youtubeTrailerUrl(x.title))}" target="_blank" rel="noopener" aria-label="${esc(x.title||'Untitled')} — search YouTube for trailer">${visual}</a>`}if(type==='BOOK'&&x.readKind!=='AUDIOBOOK'){return `<a class="poster-link" href="${esc(amazonBookUrl(x.title))}" target="_blank" rel="noopener" aria-label="${esc(x.title||'Untitled')} — search Amazon UK">${visual}</a>`}return visual}
+function spotifySearchUrl(title){return `https://open.spotify.com/search/${encodeURIComponent(title||'')}`}
+function watchlistVisual(x){const visual=x.poster?`<img class="poster" src="${esc(x.poster)}" alt="">`:`<div class="poster poster-placeholder">${type==='BOOK'?'W':''}</div>`;if(type==='MOVIE'||type==='SHOW'){return `<a class="poster-link" href="${esc(youtubeTrailerUrl(x.title))}" target="_blank" rel="noopener" aria-label="${esc(x.title||'Untitled')} — search YouTube for trailer">${visual}</a>`}if(type==='BOOK'&&x.readKind==='AUDIOBOOK'){return `<a class="poster-link" href="${esc(spotifySearchUrl(x.title))}" target="_blank" rel="noopener" aria-label="${esc(x.title||'Untitled')} — search Spotify">${visual}</a>`}if(type==='BOOK'){return `<a class="poster-link" href="${esc(amazonBookUrl(x.title))}" target="_blank" rel="noopener" aria-label="${esc(x.title||'Untitled')} — search Amazon UK">${visual}</a>`}return visual}
 const EYE_POS=[
  [7,3,-15,.88],[28,1,10,.96],[51,4,-6,.90],[76,2,14,.98],[101,5,-11,.92],[126,1,8,.95],[153,4,-14,.91],[181,2,12,.97],
  [18,20,11,.94],[43,18,-10,1.02],[69,22,8,.96],[96,18,-6,1.04],[123,23,12,.92],[149,19,-9,1.01],[174,21,7,.95],
@@ -159,7 +160,7 @@ function providerFromTvMazeName(value){
   if(n.includes('channel 4')||n.includes('all 4'))return'Channel 4';
   return'';
 }
-function providerFromTvMaze(show){return providerFromTvMazeName(show?.webChannel?.name)||providerFromTvMazeName(show?.network?.name)||''}
+function providerFromTvMaze(show){const web=show?.webChannel?.name||'',network=show?.network?.name||'';return providerFromTvMazeName(web)||providerFromTvMazeName(network)||web||network||''}
 function genericSearchProvider(item){
   if(item?.serviceId!=='search'||!['MOVIE','SHOW'].includes(item?.type))return false;
   const value=norm(item.service||'');
@@ -203,7 +204,7 @@ async function resolveSearchAddedProviders(){
       console.info(`[Wozza provider match] Matched from current rankings: ${current.title} → ${label}`,{candidates:matches.map(id=>PROVIDER_LABELS[id]||id)});continue;
     }
     if(current.type==='SHOW'){
-      let label=providerFromTvMazeName(current.tvMazeWebChannel)||providerFromTvMazeName(current.tvMazeNetwork);
+      let label=providerFromTvMazeName(current.tvMazeWebChannel)||providerFromTvMazeName(current.tvMazeNetwork)||current.tvMazeWebChannel||current.tvMazeNetwork||'';
       if(!label)label=await tvMazeProviderForTitle(current.title);
       if(label){current.service=label;current.providerMatchedFrom='tvmaze';current.providerMatchedAt=new Date().toISOString();changed=true;console.info(`[Wozza provider match] Matched from TVMaze: ${current.title} → ${label}`);continue}
     }
