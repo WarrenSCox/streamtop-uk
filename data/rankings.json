@@ -1,6 +1,6 @@
 {
   "version": 17,
-  "generatedAt": "2026-09-06T13:53:19.666Z",
+  "generatedAt": "2026-09-06T14:01:13.089Z",
   "country": "GB",
   "strategy": "Official source first; labelled fallback when no compatible official chart is available.",
   "services": {
@@ -2268,7 +2268,7 @@
           "weekendGross": null,
           "cumulativeGross": null,
           "url": "https://www.cinemauk.org.uk/the-industry/facts-and-figures/latest-uk-cinema-statistics/weekend-top-10-box-office/",
-          "poster": "/poster/346670017/s166/spider-man-brand-new-day.webp",
+          "poster": "/poster/347907260/s166/spider-man-brand-new-day.webp",
           "year": 2026,
           "detailsUrl": "https://www.justwatch.com/uk/movie/spider-man-brand-new-day"
         },
@@ -2298,7 +2298,7 @@
           "weekendGross": null,
           "cumulativeGross": null,
           "url": "https://www.cinemauk.org.uk/the-industry/facts-and-figures/latest-uk-cinema-statistics/weekend-top-10-box-office/",
-          "poster": "/poster/347923780/s166/coyote-vs-acme.webp",
+          "poster": "/poster/348247945/s166/coyote-vs-acme.webp",
           "year": 2026,
           "detailsUrl": "https://www.justwatch.com/uk/movie/coyote-vs-acme"
         },
@@ -2348,7 +2348,7 @@
           "weekendGross": null,
           "cumulativeGross": null,
           "url": "https://www.cinemauk.org.uk/the-industry/facts-and-figures/latest-uk-cinema-statistics/weekend-top-10-box-office/",
-          "poster": "/poster/347820495/s166/one-night-only-2026.webp",
+          "poster": "/poster/347502888/s166/one-night-only-2026.webp",
           "year": 2026,
           "detailsUrl": "https://www.justwatch.com/uk/movie/one-night-only-2026"
         },
@@ -2371,13 +2371,10 @@
           "displayName": "UK Cinema Association",
           "url": "https://www.cinemauk.org.uk/the-industry/facts-and-figures/latest-uk-cinema-statistics/weekend-top-10-box-office/",
           "cadence": "weekly",
-          "note": "Fresh data did not update successfully, so the last successful results are being shown.",
-          "stale": true,
-          "staleAsOf": "2026-09-06T11:04:21.936Z"
+          "note": "Official UK weekend box-office Top 10 published by the UK Cinema Association using Comscore data."
         }
       },
-      "error": null,
-      "stale": true
+      "error": null
     },
     "uscinema": {
       "provider": "US Cinema",
@@ -2471,10 +2468,13 @@
           "displayName": "IMDb",
           "url": "https://www.imdb.com/chart/boxoffice/?ref_=ext_shr_lnk",
           "cadence": "weekly",
-          "note": "US weekend box-office Top 10 from IMDb, reported by Box Office Mojo."
+          "note": "Fresh data did not update successfully, so the last successful results are being shown.",
+          "stale": true,
+          "staleAsOf": "2026-09-06T13:53:19.666Z"
         }
       },
-      "error": null
+      "error": null,
+      "stale": true
     },
     "ukmusic": {
       "provider": "UK Music",
