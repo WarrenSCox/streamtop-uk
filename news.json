@@ -1,7 +1,16 @@
 {
-  "updated": "2026-09-06T18:36:01.531Z",
+  "updated": "2026-09-06T18:46:52.126Z",
   "categories": {
     "UK": [
+      {
+        "title": "Two killed after car ploughs through group of cyclists on country road in Kent",
+        "link": "https://metro.co.uk/2026/09/06/two-killed-car-ploughs-group-cyclists-country-road-kent-29549385/",
+        "published": "Sun, 06 Sep 2026 18:42:29 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News UK Kent",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/09/Screenshot-2026-09-06-194023-4da6.png?w=646"
+      },
       {
         "title": "Family tribute to ‘talented cricketer’ stabbed to death after car crash",
         "link": "https://metro.co.uk/2026/09/06/family-tribute-talented-cricketer-stabbed-death-car-crash-29549114/",
@@ -46,15 +55,6 @@
         "provider": "METRO",
         "categories": "News World China Flood Nepal",
         "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_311033102-f60c-e1788704874134.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Man struck by lightning in a one-in-a-million chance buys lottery ticket next day",
-        "link": "https://metro.co.uk/2026/09/06/man-struck-lightning-a-one-in-a-million-chance-buys-lottery-ticket-next-day-29547806/",
-        "published": "Sun, 06 Sep 2026 14:55:03 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News US New York Weather",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_311045780-5fe5.jpg?quality=90&strip=all&w=480"
       },
       {
         "title": "Black-clad Dover vigilantes will return if police do not act, say campaigners",
@@ -2316,6 +2316,15 @@
       "categories": {
         "UK": [
           {
+            "title": "Two killed after car ploughs through group of cyclists on country road in Kent",
+            "link": "https://metro.co.uk/2026/09/06/two-killed-car-ploughs-group-cyclists-country-road-kent-29549385/",
+            "published": "Sun, 06 Sep 2026 18:42:29 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News UK Kent",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/Screenshot-2026-09-06-194023-4da6.png?w=646"
+          },
+          {
             "title": "Family tribute to ‘talented cricketer’ stabbed to death after car crash",
             "link": "https://metro.co.uk/2026/09/06/family-tribute-talented-cricketer-stabbed-death-car-crash-29549114/",
             "published": "Sun, 06 Sep 2026 18:03:37 +0000",
@@ -2485,15 +2494,6 @@
             "provider": "METRO",
             "categories": "News Politics Nigel Farage Reform UK",
             "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310848839-412a.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "British tourist, 45, drowns after jumping from ferry to swim toward beach",
-            "link": "https://metro.co.uk/2026/09/06/british-tourist-45-drowns-jumping-ferry-swim-toward-beach-29545809/",
-            "published": "Sun, 06 Sep 2026 06:58:48 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News World Catalonia Spain",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_311047723-6a4e.jpg?quality=90&strip=all&w=646"
           }
         ],
         "WORLD": [
@@ -2613,24 +2613,6 @@
             "provider": "METRO",
             "categories": "Football Sport Arsenal Borussia Dortmund Ethan Nwaneri",
             "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310859647-9156.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "This 371-day cruise costs £56,000 — is it cheaper than living in London?",
-            "link": "https://metro.co.uk/2026/09/06/this-371-day-cruise-costs-56-000-cheaper-living-london-29533932/",
-            "published": "Sun, 06 Sep 2026 12:45:03 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Lifestyle Travel Cost of Living Cruise Inspiration Cruise News Europe Travel Italy London Norway Travel Inspiration",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310681807-c965.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Mum ‘invested’ in Lindsay Clancy case accused of killing son, 2",
-            "link": "https://metro.co.uk/2026/09/06/mum-invested-lindsay-clancy-case-accused-killing-son-2-29546889/",
-            "published": "Sun, 06 Sep 2026 12:42:22 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News US Children Crime News United States of America",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310747593-0d4e-e1788693187798.jpg?quality=90&strip=all&w=646"
           }
         ],
         "POLITICS": [
@@ -3109,7 +3091,7 @@
             "image": "https://metro.co.uk/wp-content/uploads/2026/08/SEI_307534178-c554.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "MAFS UK star shares ‘heartbreaking’ update as twins die 9 days after birth",
+            "title": "MAFS UK star ‘struggling to accept reality’ after twin babies die at 9 days old",
             "link": "https://metro.co.uk/2026/09/05/mafs-uk-star-shares-heartbreaking-update-twins-die-9-days-birth-29543604/",
             "published": "Sat, 05 Sep 2026 20:02:45 +0000",
             "source": "Metro",
@@ -3180,7 +3162,7 @@
         },
         "WORLD": {
           "ok": true,
-          "count": 15
+          "count": 13
         },
         "POLITICS": {
           "ok": true,

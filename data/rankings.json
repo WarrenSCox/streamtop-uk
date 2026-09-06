@@ -1,6 +1,6 @@
 {
   "version": 17,
-  "generatedAt": "2026-09-06T18:33:55.953Z",
+  "generatedAt": "2026-09-06T18:46:00.217Z",
   "country": "GB",
   "strategy": "Official source first; labelled fallback when no compatible official chart is available.",
   "services": {
@@ -371,6 +371,18 @@
         },
         {
           "rank": 4,
+          "sourceRank": 10,
+          "title": "The Sheep Detectives",
+          "year": 2026,
+          "poster": "/poster/349989642/s166/three-bags-full-a-sheep-detective-movie.webp",
+          "url": "https://www.justwatch.com/uk/movie/three-bags-full-a-sheep-detective-movie",
+          "trend": "UP",
+          "trendDifference": 7,
+          "daysInTop10": 24,
+          "topRank": 1
+        },
+        {
+          "rank": 5,
           "sourceRank": 14,
           "title": "Marty Supreme",
           "year": 2025,
@@ -382,43 +394,19 @@
           "topRank": 1
         },
         {
-          "rank": 5,
-          "sourceRank": 15,
-          "title": "The Sheep Detectives",
-          "year": 2026,
-          "poster": "/poster/349989642/s166/three-bags-full-a-sheep-detective-movie.webp",
-          "url": "https://www.justwatch.com/uk/movie/three-bags-full-a-sheep-detective-movie",
-          "trend": "UP",
-          "trendDifference": 2,
-          "daysInTop10": 24,
-          "topRank": 1
-        },
-        {
           "rank": 6,
-          "sourceRank": 16,
+          "sourceRank": 21,
           "title": "The Runner",
           "year": 2026,
           "poster": "/poster/347490591/s166/the-runner-2026-1.webp",
           "url": "https://www.justwatch.com/uk/movie/the-runner-2026-1",
           "trend": "DOWN",
-          "trendDifference": -4,
+          "trendDifference": -9,
           "daysInTop10": 2,
           "topRank": 4
         },
         {
           "rank": 7,
-          "sourceRank": 21,
-          "title": "The Housemaid",
-          "year": 2025,
-          "poster": "/poster/340262671/s166/the-housemaid-0.webp",
-          "url": "https://www.justwatch.com/uk/movie/the-housemaid-0",
-          "trend": "UP",
-          "trendDifference": 1,
-          "daysInTop10": 51,
-          "topRank": 1
-        },
-        {
-          "rank": 8,
           "sourceRank": 24,
           "title": "Sugar Baby",
           "year": 2024,
@@ -428,6 +416,18 @@
           "trendDifference": -15,
           "daysInTop10": 1,
           "topRank": 10
+        },
+        {
+          "rank": 8,
+          "sourceRank": 27,
+          "title": "The Housemaid",
+          "year": 2025,
+          "poster": "/poster/340262671/s166/the-housemaid-0.webp",
+          "url": "https://www.justwatch.com/uk/movie/the-housemaid-0",
+          "trend": "DOWN",
+          "trendDifference": -5,
+          "daysInTop10": 51,
+          "topRank": 1
         },
         {
           "rank": 9,
@@ -650,18 +650,6 @@
         {
           "rank": 5,
           "sourceRank": 47,
-          "title": "Weathering with You",
-          "year": 2019,
-          "poster": "/poster/222301506/s166/weathering-with-you.webp",
-          "url": "https://www.justwatch.com/uk/movie/weathering-with-you",
-          "trend": "UP",
-          "trendDifference": 7,
-          "daysInTop10": null,
-          "topRank": 25
-        },
-        {
-          "rank": 6,
-          "sourceRank": 47,
           "title": "Send Help",
           "year": 2026,
           "poster": "/poster/340689435/s166/send-help.webp",
@@ -672,7 +660,7 @@
           "topRank": 1
         },
         {
-          "rank": 7,
+          "rank": 6,
           "sourceRank": 51,
           "title": "The Rocky Horror Picture Show",
           "year": 1975,
@@ -684,7 +672,7 @@
           "topRank": 2
         },
         {
-          "rank": 8,
+          "rank": 7,
           "sourceRank": 52,
           "title": "The Martian",
           "year": 2015,
@@ -696,28 +684,40 @@
           "topRank": 1
         },
         {
+          "rank": 8,
+          "sourceRank": 65,
+          "title": "Weathering with You",
+          "year": 2019,
+          "poster": "/poster/222301506/s166/weathering-with-you.webp",
+          "url": "https://www.justwatch.com/uk/movie/weathering-with-you",
+          "trend": "DOWN",
+          "trendDifference": -11,
+          "daysInTop10": null,
+          "topRank": 25
+        },
+        {
           "rank": 9,
-          "sourceRank": 57,
+          "sourceRank": 69,
           "title": "Ready or Not 2: Here I Come",
           "year": 2026,
           "poster": "/poster/338804546/s166/ready-or-not-here-i-come-2026.webp",
           "url": "https://www.justwatch.com/uk/movie/ready-or-not-here-i-come-2026",
-          "trend": "UP",
-          "trendDifference": 7,
+          "trend": "DOWN",
+          "trendDifference": -5,
           "daysInTop10": 11,
           "topRank": 2
         },
         {
           "rank": 10,
-          "sourceRank": 77,
-          "title": "The Sixth Sense",
-          "year": 1999,
-          "poster": "/poster/307374394/s166/the-sixth-sense.webp",
-          "url": "https://www.justwatch.com/uk/movie/the-sixth-sense",
+          "sourceRank": 75,
+          "title": "Speed",
+          "year": 1994,
+          "poster": "/poster/305264666/s166/speed-1994.webp",
+          "url": "https://www.justwatch.com/uk/movie/speed-1994",
           "trend": "UP",
-          "trendDifference": 143,
+          "trendDifference": 2,
           "daysInTop10": null,
-          "topRank": 13
+          "topRank": 16
         }
       ],
       "tv": [
@@ -1245,42 +1245,30 @@
         },
         {
           "rank": 3,
-          "sourceRank": 13,
+          "sourceRank": 11,
           "title": "Dune",
           "year": 2021,
           "poster": "/poster/320955108/s166/dune-2020.webp",
           "url": "https://www.justwatch.com/uk/movie/dune-2020",
-          "trend": "STABLE",
-          "trendDifference": 0,
+          "trend": "UP",
+          "trendDifference": 2,
           "daysInTop10": 346,
           "topRank": 1
         },
         {
           "rank": 4,
           "sourceRank": 18,
-          "title": "Weapons",
-          "year": 2025,
-          "poster": "/poster/330423135/s166/weapons-2026.webp",
-          "url": "https://www.justwatch.com/uk/movie/weapons-2026",
-          "trend": "UP",
-          "trendDifference": 10,
-          "daysInTop10": 141,
-          "topRank": 1
-        },
-        {
-          "rank": 5,
-          "sourceRank": 19,
           "title": "One Battle After Another",
           "year": 2025,
           "poster": "/poster/336226658/s166/the-battle-of-baktan-cross.webp",
           "url": "https://www.justwatch.com/uk/movie/the-battle-of-baktan-cross",
           "trend": "UP",
-          "trendDifference": 2,
+          "trendDifference": 3,
           "daysInTop10": 195,
           "topRank": 1
         },
         {
-          "rank": 6,
+          "rank": 5,
           "sourceRank": 19,
           "title": "Interstellar",
           "year": 2014,
@@ -1292,52 +1280,64 @@
           "topRank": 1
         },
         {
+          "rank": 6,
+          "sourceRank": 20,
+          "title": "Weapons",
+          "year": 2025,
+          "poster": "/poster/330423135/s166/weapons-2026.webp",
+          "url": "https://www.justwatch.com/uk/movie/weapons-2026",
+          "trend": "UP",
+          "trendDifference": 8,
+          "daysInTop10": 141,
+          "topRank": 1
+        },
+        {
           "rank": 7,
-          "sourceRank": 24,
+          "sourceRank": 22,
           "title": "Sinners",
           "year": 2025,
           "poster": "/poster/320980228/s166/sinners-2025.webp",
           "url": "https://www.justwatch.com/uk/movie/sinners-2025",
           "trend": "UP",
-          "trendDifference": 1,
+          "trendDifference": 3,
           "daysInTop10": 271,
           "topRank": 1
         },
         {
           "rank": 8,
-          "sourceRank": 25,
+          "sourceRank": 28,
           "title": "The Lord of the Rings: The Fellowship of the Ring",
           "year": 2001,
           "poster": "/poster/8731868/s166/the-lord-of-the-rings-the-fellowship-of-the-ring.webp",
           "url": "https://www.justwatch.com/uk/movie/the-lord-of-the-rings-the-fellowship-of-the-ring",
           "trend": "UP",
-          "trendDifference": 11,
+          "trendDifference": 8,
           "daysInTop10": 41,
           "topRank": 3
         },
         {
           "rank": 9,
-          "sourceRank": 37,
-          "title": "Superman",
-          "year": 2025,
-          "poster": "/poster/332665033/s166/superman-2025.webp",
-          "url": "https://www.justwatch.com/uk/movie/superman-2025",
+          "sourceRank": 33,
+          "title": "The Shawshank Redemption",
+          "year": 1994,
+          "poster": "/poster/309786652/s166/the-shawshank-redemption.webp",
+          "url": "https://www.justwatch.com/uk/movie/the-shawshank-redemption",
           "trend": "UP",
-          "trendDifference": 14,
-          "daysInTop10": 43,
-          "topRank": 2
+          "trendDifference": 12,
+          "daysInTop10": 8,
+          "topRank": 4
         },
         {
           "rank": 10,
-          "sourceRank": 39,
-          "title": "Inception",
-          "year": 2010,
-          "poster": "/poster/302449148/s166/inception.webp",
-          "url": "https://www.justwatch.com/uk/movie/inception",
+          "sourceRank": 36,
+          "title": "The Batman",
+          "year": 2022,
+          "poster": "/poster/253599997/s166/the-batman.webp",
+          "url": "https://www.justwatch.com/uk/movie/the-batman",
           "trend": "UP",
-          "trendDifference": 18,
-          "daysInTop10": 19,
-          "topRank": 2
+          "trendDifference": 8,
+          "daysInTop10": 216,
+          "topRank": 1
         }
       ],
       "tv": [
@@ -1939,13 +1939,13 @@
         },
         {
           "rank": 7,
-          "sourceRank": 3884,
+          "sourceRank": 3885,
           "title": "Coronation Street",
           "year": 2010,
           "poster": "/poster/320953901/s166/coronation-street.webp",
           "url": "https://www.justwatch.com/uk/tv-series/coronation-street",
           "trend": "UP",
-          "trendDifference": 5,
+          "trendDifference": 4,
           "daysInTop10": null,
           "topRank": 75
         },
