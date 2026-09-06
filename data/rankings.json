@@ -1,6 +1,6 @@
 {
   "version": 17,
-  "generatedAt": "2026-09-06T11:04:21.936Z",
+  "generatedAt": "2026-09-06T13:53:19.666Z",
   "country": "GB",
   "strategy": "Official source first; labelled fallback when no compatible official chart is available.",
   "services": {
@@ -338,7 +338,7 @@
           "sourceRank": 3,
           "title": "Project Hail Mary",
           "year": 2026,
-          "poster": "/poster/332594610/s166/project-hail-mary.webp",
+          "poster": "/poster/345628912/s166/project-hail-mary.webp",
           "url": "https://www.justwatch.com/uk/movie/project-hail-mary",
           "trend": "STABLE",
           "trendDifference": 0,
@@ -386,7 +386,7 @@
           "sourceRank": 14,
           "title": "The Runner",
           "year": 2026,
-          "poster": "/poster/347490591/s166/the-runner-2026-1.webp",
+          "poster": "/poster/347747910/s166/the-runner-2026-1.webp",
           "url": "https://www.justwatch.com/uk/movie/the-runner-2026-1",
           "trend": "DOWN",
           "trendDifference": -2,
@@ -604,7 +604,7 @@
           "sourceRank": 5,
           "title": "The Mandalorian and Grogu",
           "year": 2026,
-          "poster": "/poster/336088085/s166/the-mandalorian-and-grogu.webp",
+          "poster": "/poster/346670161/s166/the-mandalorian-and-grogu.webp",
           "url": "https://www.justwatch.com/uk/movie/the-mandalorian-and-grogu",
           "trend": "DOWN",
           "trendDifference": -1,
@@ -882,7 +882,7 @@
           "rank": 2,
           "title": "Welcome to the Family: The Murder of Dan Markel",
           "year": 2026,
-          "type": "SHOW",
+          "type": null,
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/01a04a2a-5023-732a-b9c6-5af93b18a409/compose?format=webp&width=386&label=top_ranked_2_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-77fa109a-7f84-4e84-8a1c-f48cee4a5671"
         },
@@ -1272,7 +1272,7 @@
           "sourceRank": 22,
           "title": "One Battle After Another",
           "year": 2025,
-          "poster": "/poster/340576026/s166/the-battle-of-baktan-cross.webp",
+          "poster": "/poster/336226658/s166/the-battle-of-baktan-cross.webp",
           "url": "https://www.justwatch.com/uk/movie/the-battle-of-baktan-cross",
           "trend": "DOWN",
           "trendDifference": -1,
@@ -1308,7 +1308,7 @@
           "sourceRank": 30,
           "title": "The Lord of the Rings: The Fellowship of the Ring",
           "year": 2001,
-          "poster": "/poster/339865827/s166/the-lord-of-the-rings-the-fellowship-of-the-ring.webp",
+          "poster": "/poster/8731868/s166/the-lord-of-the-rings-the-fellowship-of-the-ring.webp",
           "url": "https://www.justwatch.com/uk/movie/the-lord-of-the-rings-the-fellowship-of-the-ring",
           "trend": "UP",
           "trendDifference": 6,
@@ -1332,7 +1332,7 @@
           "sourceRank": 49,
           "title": "The Batman",
           "year": 2022,
-          "poster": "/poster/219348475/s166/the-batman.webp",
+          "poster": "/poster/253599997/s166/the-batman.webp",
           "url": "https://www.justwatch.com/uk/movie/the-batman",
           "trend": "DOWN",
           "trendDifference": -5,
@@ -1634,7 +1634,7 @@
           "sourceRank": 262,
           "title": "Industry",
           "year": 2020,
-          "poster": "/poster/340430998/s166/industry.webp",
+          "poster": "/poster/228420776/s166/industry.webp",
           "url": "https://www.justwatch.com/uk/tv-series/industry",
           "trend": "DOWN",
           "trendDifference": -105,
@@ -1812,7 +1812,7 @@
           "rank": 6,
           "title": "The Batman",
           "year": 2022,
-          "poster": "/poster/219348475/s166/the-batman.webp",
+          "poster": "/poster/253599997/s166/the-batman.webp",
           "url": "https://www.justwatch.com/uk/movie/the-batman",
           "trend": null,
           "trendDifference": 0,
@@ -1823,7 +1823,7 @@
           "rank": 7,
           "title": "The Princess Bride",
           "year": 1987,
-          "poster": "/poster/181716130/s166/the-princess-bride.webp",
+          "poster": "/poster/138442645/s166/the-princess-bride.webp",
           "url": "https://www.justwatch.com/uk/movie/the-princess-bride",
           "trend": null,
           "trendDifference": 0,
@@ -2172,13 +2172,13 @@
         },
         {
           "rank": 5,
-          "sourceRank": 4591,
+          "sourceRank": 4586,
           "title": "Jack Irish",
           "year": 2016,
           "poster": "/poster/206000775/s166/jack-irish.webp",
           "url": "https://www.justwatch.com/uk/tv-series/jack-irish",
           "trend": "UP",
-          "trendDifference": 4,
+          "trendDifference": 7,
           "daysInTop10": 1,
           "topRank": 10
         },
@@ -2373,7 +2373,7 @@
           "cadence": "weekly",
           "note": "Fresh data did not update successfully, so the last successful results are being shown.",
           "stale": true,
-          "staleAsOf": "2026-09-06T04:47:21.465Z"
+          "staleAsOf": "2026-09-06T11:04:21.936Z"
         }
       },
       "error": null,
@@ -2386,7 +2386,7 @@
           "rank": 1,
           "title": "Spider-Man: Brand New Day",
           "url": "https://www.imdb.com/title/tt22084616/?ref_=chtbo_t_1",
-          "poster": "/poster/346670017/s166/spider-man-brand-new-day.webp",
+          "poster": "/poster/347907260/s166/spider-man-brand-new-day.webp",
           "year": 2026,
           "detailsUrl": "https://www.justwatch.com/uk/movie/spider-man-brand-new-day"
         },
@@ -2394,7 +2394,7 @@
           "rank": 2,
           "title": "Coyote vs. Acme",
           "url": "https://www.imdb.com/title/tt1756855/?ref_=chtbo_t_2",
-          "poster": "/poster/347923780/s166/coyote-vs-acme.webp",
+          "poster": "/poster/348247945/s166/coyote-vs-acme.webp",
           "year": 2026,
           "detailsUrl": "https://www.justwatch.com/uk/movie/coyote-vs-acme"
         },
@@ -2426,7 +2426,7 @@
           "rank": 6,
           "title": "Buddy",
           "url": "https://www.imdb.com/title/tt37281055/?ref_=chtbo_t_6",
-          "poster": "/poster/347473694/s166/buddy-2026.webp",
+          "poster": "/poster/340383635/s166/buddy-2026.webp",
           "year": 2026,
           "detailsUrl": "https://www.justwatch.com/uk/movie/buddy-2026"
         },
@@ -2471,13 +2471,10 @@
           "displayName": "IMDb",
           "url": "https://www.imdb.com/chart/boxoffice/?ref_=ext_shr_lnk",
           "cadence": "weekly",
-          "note": "Fresh data did not update successfully, so the last successful results are being shown.",
-          "stale": true,
-          "staleAsOf": "2026-09-06T04:47:21.465Z"
+          "note": "US weekend box-office Top 10 from IMDb, reported by Box Office Mojo."
         }
       },
-      "error": null,
-      "stale": true
+      "error": null
     },
     "ukmusic": {
       "provider": "UK Music",
