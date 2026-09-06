@@ -356,6 +356,13 @@ function toggleSaved(item,button){
 const MOVIE_PLACEHOLDER = '<svg class="placeholder-icon" viewBox="0 0 64 64" aria-hidden="true"><path d="M12 24h40v28H12zM11 13.5 48 7l4 11-37 6.5z" fill="currentColor"/><path d="m18 12 8-1.4-5.3 10.1-8 1.4zm16-2.8 8-1.4-5.3 10.1-8 1.4z" fill="#eef0fb"/><rect x="18" y="32" width="28" height="5" rx="2.5" fill="#eef0fb"/></svg>';
 const TV_PLACEHOLDER = '<svg class="placeholder-icon" viewBox="0 0 64 64" aria-hidden="true"><rect x="21" y="5" width="22" height="54" rx="8" fill="currentColor"/><circle cx="32" cy="17" r="4" fill="#eef0fb"/><circle cx="27" cy="28" r="2.5" fill="#eef0fb"/><circle cx="37" cy="28" r="2.5" fill="#eef0fb"/><circle cx="32" cy="46" r="6" fill="none" stroke="#eef0fb" stroke-width="3"/></svg>';
 
+function youtubeDisplayTitle(value){
+  const raw=String(value||'').trim();
+  if(!state.service.youtube)return raw;
+  const withoutTags=raw.replace(/\s*#[^\s#]+(?:\s+#[^\s#]+)*.*$/u,'').trim();
+  return withoutTags||raw;
+}
+
 function renderTitles(titles) {
   els.chart.innerHTML = '';
   if (!Array.isArray(titles) || !titles.length) throw new Error('No titles were returned for this chart.');
@@ -402,7 +409,7 @@ function renderTitles(titles) {
 
     const title = document.createElement('div');
     title.className = 'title';
-    title.textContent = item.title || 'Untitled';
+    title.textContent = youtubeDisplayTitle(item.title) || 'Untitled';
 
     if (isWatchedAlready(item)) {
       const seen = document.createElement('span');
@@ -458,7 +465,7 @@ function renderCurrent() {
   const source=isYouTube?serviceData?.sources?.[key]:serviceData?.sources?.[key];
   const fallbackUrl=source?.url||(isYouTube?'https://www.youtube.com/':justWatchUrl(service,state.type));
   els.chartTitle.textContent=isYouTube?typeLabel:(service.cinema?service.name:`${service.name} ${typeLabel}`);
-  const isOfficial=source?.kind==='official';
+  const isOfficial=isYouTube?Boolean(source):source?.kind==='official';
   const fallbackName=source?.displayName||(source?.label||'').replace(/^JustWatch UK$/i,'JustWatch').replace(/^Stats from\s+/i,'')||'Source';
   els.sourceBadge.innerHTML=''; els.sourceBadge.href=source?.url||fallbackUrl;
   els.sourceBadge.setAttribute('aria-label',isOfficial?'Official stats — open source':`Stats from ${fallbackName} — open source`);

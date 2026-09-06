@@ -1,8 +1,9 @@
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
 
 const OUT='youtube.json';
-const TRAILERS_URL='https://charts.youtube.com/charts/TrendingTrailers/gb';
+const TRAILERS_URL='https://www.youtube.com/results?search_query=official+movie+trailer';
 const API='https://www.googleapis.com/youtube/v3/videos';
+const SEARCH_API='https://www.googleapis.com/youtube/v3/search';
 const KEY=process.env.YOUTUBE_API_KEY||'';
 const UA='Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/140 Safari/537.36';
 
@@ -24,11 +25,20 @@ function regexVideos(html){
  while((m=re.exec(html))&&out.length<80){const win=html.slice(m.index,Math.min(html.length,m.index+2400));const tm=win.match(/"(?:title|headline)"\s*:\s*\{?[\s\S]{0,400}?"(?:text|simpleText)"\s*:\s*"((?:\\.|[^"\\])+)"/);if(!tm)continue;let title=tm[1];try{title=JSON.parse('"'+title+'"')}catch{}out.push({videoId:m[1],title:clean(title),thumbnail:`https://i.ytimg.com/vi/${m[1]}/hqdefault.jpg`})}return unique(out);
 }
 async function trailers(){
- const html=await (await get(TRAILERS_URL)).text();
- let items=[];for(const marker of ['var ytInitialData =','window["ytInitialData"] =','ytInitialData =','__NEXT_DATA__']){const data=extractJsonAfter(html,marker);if(data)items.push(...walk(data));}
- items=unique(items.length?items:regexVideos(html)).filter(x=>x.title).slice(0,10);
- if(items.length<5)throw new Error(`Only ${items.length} trailer candidates parsed from YouTube Charts`);
- return items.map((x,i)=>({rank:i+1,title:x.title,videoId:x.videoId,poster:x.thumbnail||`https://i.ytimg.com/vi/${x.videoId}/hqdefault.jpg`,url:`https://www.youtube.com/watch?v=${x.videoId}`}));
+ if(!KEY)throw new Error('YOUTUBE_API_KEY GitHub secret is not configured');
+ const publishedAfter=new Date(Date.now()-1000*60*60*24*180).toISOString();
+ const q=new URLSearchParams({part:'snippet',type:'video',regionCode:'GB',relevanceLanguage:'en',order:'viewCount',maxResults:'40',q:'official movie trailer',publishedAfter,key:KEY});
+ const body=await (await get(`${SEARCH_API}?${q}`)).json();
+ const reject=/(reaction|breakdown|explained|review|fan[- ]?made|fan trailer|concept trailer|parody|shorts?\b|ending explained|trailer reaction)/i;
+ const require=/(official\s+(teaser\s+)?trailer|official\s+trailer|trailer\s+#?\d*|teaser\s+trailer)/i;
+ const seen=new Set();
+ const items=(body.items||[]).filter(x=>{
+   const id=x.id?.videoId; const title=clean(x.snippet?.title||'');
+   if(!id||seen.has(id)||reject.test(title)||!require.test(title))return false;
+   seen.add(id);return true;
+ }).slice(0,10);
+ if(items.length<5)throw new Error(`Only ${items.length} genuine trailer candidates returned by YouTube Data API`);
+ return items.map((x,i)=>({rank:i+1,title:clean(x.snippet?.title||'Untitled'),videoId:x.id.videoId,poster:x.snippet?.thumbnails?.high?.url||x.snippet?.thumbnails?.medium?.url||x.snippet?.thumbnails?.default?.url||`https://i.ytimg.com/vi/${x.id.videoId}/hqdefault.jpg`,url:`https://www.youtube.com/watch?v=${x.id.videoId}`,channel:x.snippet?.channelTitle||''}));
 }
 async function mostPopular(category='0'){
  if(!KEY)throw new Error('YOUTUBE_API_KEY GitHub secret is not configured');
@@ -38,7 +48,7 @@ async function mostPopular(category='0'){
 }
 let previous={};try{previous=JSON.parse(await readFile(OUT,'utf8'))}catch{}
 const output={version:1,generatedAt:new Date().toISOString(),country:'GB',trailers:previous.trailers||[],videos:previous.videos||[],sources:{...(previous.sources||{})}};
-try{output.trailers=await trailers();output.sources.trailers={kind:'official',label:'YouTube Charts',url:TRAILERS_URL,note:'Official UK Trending Movie Trailers chart.'};console.log(`YouTube trailers official: ${output.trailers.length}/10`)}catch(e){console.error('YouTube trailers official:',e.message);try{output.trailers=await mostPopular('1');output.sources.trailers={kind:'fallback',label:'YouTube Film & Animation',displayName:'YouTube',url:TRAILERS_URL,note:'Official trailer chart could not be parsed; using YouTube UK Film & Animation mostPopular as fallback.'};console.log(`YouTube trailers fallback: ${output.trailers.length}/10`)}catch(f){console.error('YouTube trailers fallback:',f.message);if(output.trailers.length)output.sources.trailers={...(output.sources.trailers||{}),stale:true}}}
+try{output.trailers=await trailers();output.sources.trailers={kind:'official',label:'YouTube',url:TRAILERS_URL,note:'Current movie trailers sourced directly from the YouTube Data API for the UK, ranked by YouTube view-count search ordering.'};console.log(`YouTube trailers: ${output.trailers.length}/10`)}catch(e){console.error('YouTube trailers:',e.message);if(output.trailers.length)output.sources.trailers={...(output.sources.trailers||{}),kind:'official',label:'YouTube',url:TRAILERS_URL,stale:true}}
 try{output.videos=await mostPopular('0');output.sources.videos={kind:'official',label:'YouTube mostPopular',url:'https://www.youtube.com/',note:'YouTube Data API mostPopular chart for GB; since 2025 this pool is drawn from YouTube trending Music, Movies and Gaming charts.'};console.log(`YouTube videos: ${output.videos.length}/10`)}catch(e){console.error('YouTube videos:',e.message);if(output.videos.length)output.sources.videos={...(output.sources.videos||{}),stale:true}}
 if(!output.trailers.length&&!output.videos.length)throw new Error('No YouTube chart data available; refusing to overwrite with an empty file.');
 await writeFile(OUT,JSON.stringify(output,null,2)+'\n');
