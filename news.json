@@ -1,7 +1,16 @@
 {
-  "updated": "2026-09-06T19:55:30.682Z",
+  "updated": "2026-09-06T20:06:11.673Z",
   "categories": {
     "UK": [
+      {
+        "title": "140 migrants in one small boat intercepted in English Channel, Sky News understands",
+        "link": "https://news.sky.com/story/140-migrants-in-one-small-boat-intercepted-in-english-channel-sky-news-understands-13582562",
+        "published": "Sun, 06 Sep 2026 20:45:00 +0100",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/08/1920x1080/skynews-kent-dover-migrants_7332662.jpg?20260827130620"
+      },
       {
         "title": "Amazon jet in fireball crash after overshooting runway at Miami airport",
         "link": "https://metro.co.uk/2026/09/06/amazon-jet-fireball-crash-overshooting-runway-miami-airport-29549436/",
@@ -28,15 +37,6 @@
         "provider": "METRO",
         "categories": "News UK Crime News Staffordshire",
         "image": "https://metro.co.uk/wp-content/uploads/2026/09/792915435_1388167576840024_5158194324288953785_n-0334.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Air passenger held down with duct tape on American Airlines flight after ‘racist meltdown’ revealed",
-        "link": "https://metro.co.uk/2026/09/06/air-passenger-held-duct-tape-american-airlines-flight-racist-meltdown-revealed-29548269/",
-        "published": "Sun, 06 Sep 2026 17:24:12 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News World",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310814579-6ed9-e1788713390757.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "Jamaican delegates arrive in UK to hand slavery reparations petition to King Charles",
@@ -94,6 +94,24 @@
       }
     ],
     "WORLD": [
+      {
+        "title": "The US now has access to more than half Australia’s military bases – could it drag the country unwillingly into war?",
+        "link": "https://www.theguardian.com/australia-news/ng-interactive/2026/sep/07/us-military-bases-in-australia-map-list-spy-satellite-pine-gap",
+        "published": "Sun, 06 Sep 2026 20:00:14 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Australian military Australian foreign policy US military Australian politics Australia news US news Richard Marles Weapons technology Aukus Christopher Pyne China Asia Pacific World news Donald Trump Trump administration Middle East and north Africa Espionage Surveillance",
+        "image": "https://i.guim.co.uk/img/media/b843b024e07dc609e8afff4975f2a4095ca2eb88/0_0_2000_1600/master/2000.jpg?width=140&quality=85&auto=format&fit=max&s=3a4d4804604f244625dc4873ac275c48"
+      },
+      {
+        "title": "140 migrants in one small boat intercepted in English Channel, Sky News understands",
+        "link": "https://news.sky.com/story/140-migrants-in-one-small-boat-intercepted-in-english-channel-sky-news-understands-13582562",
+        "published": "Sun, 06 Sep 2026 20:45:00 +0100",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/08/1920x1080/skynews-kent-dover-migrants_7332662.jpg?20260827130620"
+      },
       {
         "title": "Amazon cargo plane overshoots runway at Miami airport",
         "link": "https://news.sky.com/story/amazon-cargo-plane-overshoots-runway-at-miami-airport-13582555",
@@ -165,24 +183,6 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/09/1920x1080/skynews-fogo-capeverde_7343269.jpg?20260906155915"
-      },
-      {
-        "title": "FIFA confirms Infantino to stand for re-election as president",
-        "link": "https://news.sky.com/story/fifa-confirms-gianni-infantino-to-stand-for-re-election-as-president-13582281",
-        "published": "Sun, 06 Sep 2026 13:01:00 +0100",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-gianni-infantino-fifa_7343006.jpg?20260906130904"
-      },
-      {
-        "title": "Nepal: China confirms number of dead and missing following floods",
-        "link": "https://news.sky.com/story/nepal-china-confirms-number-of-dead-and-missing-following-floods-13582270",
-        "published": "Sun, 06 Sep 2026 12:36:00 +0100",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-gyirong-port-floods_7342977.jpg?20260906123627"
       }
     ],
     "POLITICS": [
@@ -648,6 +648,15 @@
             "image": "https://e3.365dm.com/25/07/1920x1080/skynews-sewage-rivers_6968697.jpg?20250719173745"
           },
           {
+            "title": "140 migrants in one small boat intercepted in English Channel, Sky News understands",
+            "link": "https://news.sky.com/story/140-migrants-in-one-small-boat-intercepted-in-english-channel-sky-news-understands-13582562",
+            "published": "Sun, 06 Sep 2026 20:45:00 +0100",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/08/1920x1080/skynews-kent-dover-migrants_7332662.jpg?20260827130620"
+          },
+          {
             "title": "Lottery winner inspired by Dolly Parton gives away half of £115m winnings",
             "link": "https://news.sky.com/story/lottery-winner-inspired-by-dolly-parton-gives-away-half-of-115m-winnings-13582279",
             "published": "Sun, 06 Sep 2026 12:57:00 +0100",
@@ -700,15 +709,6 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/09/1920x1080/skynews-kemi-badenoch-conservatives_7341513.jpg?20260905020529"
-          },
-          {
-            "title": "University of Cambridge will review 'decision-making and actions' after death of Jason Arday",
-            "link": "https://news.sky.com/story/jason-arday-university-of-cambridge-will-review-decision-making-after-death-of-professor-13581545",
-            "published": "Fri, 04 Sep 2026 21:53:00 +0100",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/08/1920x1080/skynews-uk-camebridge-university_7322258.png?20260815122315"
           }
         ],
         "WORLD": [
@@ -731,13 +731,13 @@
             "image": "https://e3.365dm.com/26/09/1920x1080/skynews-gyirong-port-floods_7342977.jpg?20260906123627"
           },
           {
-            "title": "At least 25 dead after bus plunges into steep ravine on Cape Verde island",
-            "link": "https://news.sky.com/story/at-least-25-dead-after-bus-plunges-into-steep-ravine-on-cape-verde-island-13582377",
-            "published": "Sun, 06 Sep 2026 15:51:00 +0100",
+            "title": "140 migrants in one small boat intercepted in English Channel, Sky News understands",
+            "link": "https://news.sky.com/story/140-migrants-in-one-small-boat-intercepted-in-english-channel-sky-news-understands-13582562",
+            "published": "Sun, 06 Sep 2026 20:45:00 +0100",
             "source": "Sky News",
             "provider": "SKY",
             "categories": "",
-            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-fogo-capeverde_7343269.jpg?20260906155915"
+            "image": "https://e3.365dm.com/26/08/1920x1080/skynews-kent-dover-migrants_7332662.jpg?20260827130620"
           },
           {
             "title": "Amazon cargo plane overshoots runway at Miami airport",
@@ -747,6 +747,15 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/09/1920x1080/skynews-amazon-miami_7343711.jpg?20260906205128"
+          },
+          {
+            "title": "At least 25 dead after bus plunges into steep ravine on Cape Verde island",
+            "link": "https://news.sky.com/story/at-least-25-dead-after-bus-plunges-into-steep-ravine-on-cape-verde-island-13582377",
+            "published": "Sun, 06 Sep 2026 15:51:00 +0100",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-fogo-capeverde_7343269.jpg?20260906155915"
           },
           {
             "title": "Seven killed in Israeli strikes on southern Lebanon",
@@ -1170,7 +1179,7 @@
         },
         "WORLD": {
           "ok": true,
-          "count": 9
+          "count": 10
         },
         "POLITICS": {
           "ok": true,
@@ -1466,6 +1475,15 @@
             "image": "https://i.guim.co.uk/img/media/28299cd26cb005726bef0fc856481cef483cd627/232_188_2166_1734/master/2166.jpg?width=140&quality=85&auto=format&fit=max&s=62b18adeae7c2ddff9f4669bc84fc2f7"
           },
           {
+            "title": "The US now has access to more than half Australia’s military bases – could it drag the country unwillingly into war?",
+            "link": "https://www.theguardian.com/australia-news/ng-interactive/2026/sep/07/us-military-bases-in-australia-map-list-spy-satellite-pine-gap",
+            "published": "Sun, 06 Sep 2026 20:00:14 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Australian military Australian foreign policy US military Australian politics Australia news US news Richard Marles Weapons technology Aukus Christopher Pyne China Asia Pacific World news Donald Trump Trump administration Middle East and north Africa Espionage Surveillance",
+            "image": "https://i.guim.co.uk/img/media/b843b024e07dc609e8afff4975f2a4095ca2eb88/0_0_2000_1600/master/2000.jpg?width=140&quality=85&auto=format&fit=max&s=3a4d4804604f244625dc4873ac275c48"
+          },
+          {
             "title": "China prepares £40bn stimulus for financial sector amid fears over sluggish growth",
             "link": "https://www.theguardian.com/world/2026/sep/06/china-prepares-40bn-stimulus-for-financial-sector-amid-fears-over-sluggish-growth",
             "published": "Sun, 06 Sep 2026 15:16:43 GMT",
@@ -1500,15 +1518,6 @@
             "provider": "GUARDIAN",
             "categories": "South Korea Donald Trump Asia Pacific US foreign policy Strait of Hormuz US news World news",
             "image": "https://i.guim.co.uk/img/media/9d5c19d1d2fb8cc1a332e36bb6c7886808938047/500_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=b03dbd5cd5b80ec7ebfcd7c0c24f84a9"
-          },
-          {
-            "title": "Yen soars as Bank of Japan tipped to raise interest rates",
-            "link": "https://www.theguardian.com/business/2026/sep/03/yen-soars-bank-of-japan-tipped-to-raise-interest-rates",
-            "published": "Thu, 03 Sep 2026 14:33:58 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Yen Japan Interest rates Business Currencies Economics Asia Pacific World news Dollar",
-            "image": "https://i.guim.co.uk/img/media/b258258b4224aca28e3a1d3e6d43221a4a6a36bb/970_15_4875_3903/master/4875.jpg?width=140&quality=85&auto=format&fit=max&s=0f53a2a8562c6f4c22de58d86bd09ddc"
           },
           {
             "title": "Woman laid to rest in coffin made from mushrooms in Australian first",

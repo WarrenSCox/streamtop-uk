@@ -1,6 +1,6 @@
 {
   "version": 17,
-  "generatedAt": "2026-09-06T19:53:37.706Z",
+  "generatedAt": "2026-09-06T20:05:06.208Z",
   "country": "GB",
   "strategy": "Official source first; labelled fallback when no compatible official chart is available.",
   "services": {
@@ -2829,9 +2829,7 @@
           "displayName": "Billboard",
           "url": "https://ca.billboard.com/charts/hot-100",
           "cadence": "weekly",
-          "note": "Fresh data did not update successfully, so the last successful results are being shown.",
-          "stale": true,
-          "staleAsOf": "2026-09-06T18:57:37.045Z"
+          "note": "Billboard Hot 100 — the weekly US singles chart."
         },
         "albums": {
           "kind": "official",
@@ -2839,13 +2837,10 @@
           "displayName": "Billboard",
           "url": "https://ca.billboard.com/charts/billboard-200",
           "cadence": "weekly",
-          "note": "Fresh data did not update successfully, so the last successful results are being shown.",
-          "stale": true,
-          "staleAsOf": "2026-09-06T18:57:37.045Z"
+          "note": "Billboard 200 — the weekly US albums chart."
         }
       },
-      "error": null,
-      "stale": true
+      "error": null
     }
   }
 }
