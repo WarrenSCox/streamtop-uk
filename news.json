@@ -1,7 +1,16 @@
 {
-  "updated": "2026-09-06T20:30:08.195Z",
+  "updated": "2026-09-06T20:47:17.129Z",
   "categories": {
     "UK": [
+      {
+        "title": "Hundreds of masked men block coach of migrants in Portsmouth",
+        "link": "https://metro.co.uk/2026/09/06/hundreds-masked-men-block-coach-migrants-portsmouth-29549924/",
+        "published": "Sun, 06 Sep 2026 20:43:12 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News UK Hampshire",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_311115802-29c9.jpg?quality=90&strip=all&w=646"
+      },
       {
         "title": "140 migrants in one small boat intercepted in English Channel, Sky News understands",
         "link": "https://news.sky.com/story/140-migrants-in-one-small-boat-intercepted-in-english-channel-sky-news-understands-13582562",
@@ -9,7 +18,7 @@
         "source": "Sky News",
         "provider": "SKY",
         "categories": "",
-        "image": "https://e3.365dm.com/26/08/1920x1080/skynews-kent-dover-migrants_7332662.jpg?20260827130620"
+        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-migrants-portsmouth_7343735.jpg?20260906213348"
       },
       {
         "title": "Amazon jet in fireball crash after overshooting runway at Miami airport",
@@ -82,15 +91,6 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/09/1920x1080/skynews-dover-protest-dover_7341583.jpg?20260905090809"
-      },
-      {
-        "title": "Scottish government told to take sewage 'crisis' seriously after record 100,000 spills",
-        "link": "https://news.sky.com/story/scottish-government-told-to-take-sewage-crisis-seriously-after-record-100000-spills-13581777",
-        "published": "Sun, 06 Sep 2026 00:01:00 +0100",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/25/07/1920x1080/skynews-sewage-rivers_6968697.jpg?20250719173745"
       }
     ],
     "WORLD": [
@@ -110,7 +110,7 @@
         "source": "Sky News",
         "provider": "SKY",
         "categories": "",
-        "image": "https://e3.365dm.com/26/08/1920x1080/skynews-kent-dover-migrants_7332662.jpg?20260827130620"
+        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-migrants-portsmouth_7343735.jpg?20260906213348"
       },
       {
         "title": "Amazon cargo plane overshoots runway at Miami airport - striking multiple vehicles",
@@ -654,7 +654,7 @@
             "source": "Sky News",
             "provider": "SKY",
             "categories": "",
-            "image": "https://e3.365dm.com/26/08/1920x1080/skynews-kent-dover-migrants_7332662.jpg?20260827130620"
+            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-migrants-portsmouth_7343735.jpg?20260906213348"
           },
           {
             "title": "Lottery winner inspired by Dolly Parton gives away half of £115m winnings",
@@ -737,7 +737,7 @@
             "source": "Sky News",
             "provider": "SKY",
             "categories": "",
-            "image": "https://e3.365dm.com/26/08/1920x1080/skynews-kent-dover-migrants_7332662.jpg?20260827130620"
+            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-migrants-portsmouth_7343735.jpg?20260906213348"
           },
           {
             "title": "Amazon cargo plane overshoots runway at Miami airport - striking multiple vehicles",
@@ -2325,6 +2325,15 @@
       "categories": {
         "UK": [
           {
+            "title": "Hundreds of masked men block coach of migrants in Portsmouth",
+            "link": "https://metro.co.uk/2026/09/06/hundreds-masked-men-block-coach-migrants-portsmouth-29549924/",
+            "published": "Sun, 06 Sep 2026 20:43:12 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News UK Hampshire",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_311115802-29c9.jpg?quality=90&strip=all&w=646"
+          },
+          {
             "title": "Amazon jet in fireball crash after overshooting runway at Miami airport",
             "link": "https://metro.co.uk/2026/09/06/amazon-jet-fireball-crash-overshooting-runway-miami-airport-29549436/",
             "published": "Sun, 06 Sep 2026 18:57:22 +0000",
@@ -2494,15 +2503,6 @@
             "provider": "METRO",
             "categories": "News US Court Crime News",
             "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310728912-5ce1.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Is there going to be another heatwave in September? Met Office gives verdict",
-            "link": "https://metro.co.uk/2026/09/06/is-there-going-to-be-another-heatwave-in-september-met-office-gives-verdict-29546161/",
-            "published": "Sun, 06 Sep 2026 07:44:51 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News UK Heatwave Met Office UK weather Weather",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/08/SEI_308815449-90f6.jpg?quality=90&strip=all&w=646"
           }
         ],
         "WORLD": [
