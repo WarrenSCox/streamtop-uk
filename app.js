@@ -338,6 +338,12 @@ function annotationVariant(title,count){
   const text=String(title||'');let hash=0;for(let i=0;i<text.length;i++)hash=((hash<<5)-hash+text.charCodeAt(i))|0;return Math.abs(hash)%count+1;
 }
 function archiveWatched(item){const watched=readWatched().filter(x=>x.id!==item.id);watched.unshift({...item,watchedAt:new Date().toISOString()});writeWatched(watched)}
+function addDirectlyToWatched(item){
+  const id=watchId(item),titleKey=String(item.title||'').trim().toLowerCase();
+  const list=readWatchList().filter(x=>!(x.id===id||(x.serviceId===state.service.id&&String(x.title||'').trim().toLowerCase()===titleKey)));
+  writeWatchList(list);
+  archiveWatched({id,title:item.title||'Untitled',poster:posterUrl(item.poster||''),service:state.service.name,serviceId:state.service.id,type:itemMediaType(item),addedAt:new Date().toISOString()});
+}
 function youtubeTrailerUrl(title){return `https://www.youtube.com/results?search_query=${encodeURIComponent(`${title||''} trailer`)}`}
 function eyesMarkup(){return '<span class="watch-eyes" aria-hidden="true"><span class="watch-eye"><span class="watch-pupil"></span></span><span class="watch-eye"><span class="watch-pupil"></span></span></span>'}
 function toggleSaved(item,button){
@@ -424,8 +430,24 @@ function renderTitles(titles) {
       const watch = document.createElement('button');
       const saved = isSaved(item);
       watch.type = 'button'; watch.className = `watch-toggle${saved ? ' saved' : ''}`; watch.innerHTML = eyesMarkup();
-      watch.setAttribute('aria-pressed', saved ? 'true' : 'false'); watch.setAttribute('aria-label', `${saved ? 'Remove' : 'Add'} ${item.title || 'title'} ${saved ? 'from' : 'to'} My List`);
-      watch.addEventListener('click', event => { event.stopPropagation(); toggleSaved(item, watch); });
+      watch.setAttribute('aria-pressed', saved ? 'true' : 'false'); watch.setAttribute('aria-label', `${saved ? 'Remove' : 'Add'} ${item.title || 'title'} ${saved ? 'from' : 'to'} My List. Hold to add directly to Watched.`);
+      let holdTimer=null,holdTriggered=false;
+      const clearHold=()=>{if(holdTimer){clearTimeout(holdTimer);holdTimer=null;}};
+      const startHold=event=>{
+        if(event.pointerType==='mouse'&&event.button!==0)return;
+        holdTriggered=false;clearHold();
+        holdTimer=setTimeout(()=>{
+          holdTimer=null;holdTriggered=true;addDirectlyToWatched(item);
+          if(navigator.vibrate)navigator.vibrate(35);
+          renderCurrent();
+        },650);
+      };
+      watch.addEventListener('pointerdown',startHold);
+      watch.addEventListener('pointerup',clearHold);
+      watch.addEventListener('pointercancel',clearHold);
+      watch.addEventListener('pointerleave',clearHold);
+      watch.addEventListener('contextmenu',event=>event.preventDefault());
+      watch.addEventListener('click', event => { event.stopPropagation(); if(holdTriggered){holdTriggered=false;return;} toggleSaved(item, watch); });
       li.classList.add('has-watch-toggle'); li.append(rank, visualLink, info, watch);
     }
     els.chart.appendChild(li);
@@ -464,7 +486,7 @@ function renderCurrent() {
   const serviceData=isYouTube?state.youtubeData:state.data?.services?.[service.id];
   const source=isYouTube?serviceData?.sources?.[key]:serviceData?.sources?.[key];
   const fallbackUrl=source?.url||(isYouTube?'https://www.youtube.com/':justWatchUrl(service,state.type));
-  els.chartTitle.textContent=isYouTube?typeLabel:(service.cinema?service.name:`${service.name} ${typeLabel}`);
+  els.chartTitle.textContent=isYouTube?`YouTube ${typeLabel}`:(service.cinema?service.name:`${service.name} ${typeLabel}`);
   const isOfficial=isYouTube?Boolean(source):source?.kind==='official';
   const fallbackName=source?.displayName||(source?.label||'').replace(/^JustWatch UK$/i,'JustWatch').replace(/^Stats from\s+/i,'')||'Source';
   els.sourceBadge.innerHTML=''; els.sourceBadge.href=source?.url||fallbackUrl;
