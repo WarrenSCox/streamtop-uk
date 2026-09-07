@@ -14,15 +14,9 @@ function updateSourceStrip(){
 }
 function categoryRows(){return data.categories?.[active]||[]}
 const STOCK_THUMBS=["stocks-growth.webp","stocks-allocation.webp","stocks-money.webp","stocks-global.webp"];
-function stockFallback(item){
- const key=String(item?.title||"").toLowerCase();
- if(/\\b(currency|currencies|forex|dollar|yen|euro|sterling|exchange rate|fx|global|world|international|central bank|federal reserve|bank of england|inflation|bond yields|treasury yields)\\b/.test(key))return STOCK_THUMBS[3];
- if(/\\b(dividend|income|yield|cash|profit|earnings|revenue|wealth|pension|isa|saving|money)\\b/.test(key))return STOCK_THUMBS[2];
- if(/\\b(portfolio|allocation|diversif|fund|etf|index|indices|asset|sector|holdings)\\b/.test(key))return STOCK_THUMBS[1];
- return STOCK_THUMBS[0];
-}
-function stockImage(item){
- return active==="STOCKS"?(item.image||stockFallback(item)):item.image;
+function stockFallbackByOrder(n){
+ if(n===0)return STOCK_THUMBS[0];
+ return STOCK_THUMBS[1+((n-1)%3)];
 }
 function render(){
  const rows=categoryRows();
@@ -30,10 +24,13 @@ function render(){
  newsTitle.textContent=active==="STOCKS"?"STOCKS":"LATEST "+active;
  updateSourceStrip();
  newsTitle.classList.toggle("entertainment-title",active==="ENTERTAINMENT");
+ let stockFallbackCount=0;
  $("#newsChart").innerHTML=rows.slice(0,10).map((x,i)=>{
+  const fallback=active==="STOCKS"?stockFallbackByOrder(stockFallbackCount):"";
+  if(active==="STOCKS"&&!x.image)stockFallbackCount++;
   const meta=ago(x.published);
   const byline=active==="STOCKS"&&x.source?`<span class="stock-story-source">${esc(x.source)}</span><span aria-hidden="true"> · </span>`:"";
-  return `<li class="news-row"><span class="rank">${String(i+1).padStart(2,"0")}</span><a class="news-image-link" href="${esc(x.link)}" target="_blank" rel="noopener" aria-label="${esc(x.title)}">${stockImage(x)?`<img class="poster news-thumb" src="${esc(stockImage(x))}" alt="" data-stock-fallback="${active==="STOCKS"?esc(stockFallback(x)):""}">`:`<span class="poster news-thumb news-thumb-fallback">W</span>`}</a><a class="news-story" href="${esc(x.link)}" target="_blank" rel="noopener"><span class="news-copy"><strong>${esc(x.title)}</strong><small>${byline}${esc(meta)}</small></span></a></li>`;
+  return `<li class="news-row"><span class="rank">${String(i+1).padStart(2,"0")}</span><a class="news-image-link" href="${esc(x.link)}" target="_blank" rel="noopener" aria-label="${esc(x.title)}">${(x.image||fallback)?`<img class="poster news-thumb" src="${esc(x.image||fallback)}" alt="" data-stock-fallback="${esc(fallback)}">`:`<span class="poster news-thumb news-thumb-fallback">W</span>`}</a><a class="news-story" href="${esc(x.link)}" target="_blank" rel="noopener"><span class="news-copy"><strong>${esc(x.title)}</strong><small>${byline}${esc(meta)}</small></span></a></li>`;
  }).join("");
  $("#newsChart").querySelectorAll("img[data-stock-fallback]").forEach(img=>{
   img.addEventListener("error",()=>{
