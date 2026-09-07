@@ -1,6 +1,6 @@
 {
-  "version": 20,
-  "generatedAt": "2026-09-07T21:10:43.318Z",
+  "version": 21,
+  "generatedAt": "2026-09-07T21:15:14.986Z",
   "country": "GB",
   "strategy": "Official source first; labelled fallback when no compatible official chart is available.",
   "services": {
@@ -890,7 +890,7 @@
           "rank": 3,
           "title": "Furious",
           "year": 2026,
-          "type": null,
+          "type": "SHOW",
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/019fa9fd-c0de-7eab-963c-8ec352530398/compose?format=webp&width=386&label=top_ranked_3_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-5d4924b7-1cde-47c3-8852-f30bdd7fe979"
         },
@@ -906,7 +906,7 @@
           "rank": 5,
           "title": "Yellow Mirror",
           "year": 2026,
-          "type": null,
+          "type": "MOVIE",
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/01a020fe-1a30-77cd-a762-593482b1ed6f/compose?format=webp&width=386&label=top_ranked_5_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-b85428e1-f670-4270-96d3-4d0e186336e6"
         },
@@ -2482,6 +2482,7 @@
           "artist": "ELLA LANGLEY",
           "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a1/ba/64/a1ba6484-f462-1b88-ddff-d4c014d5f265/196874018361.jpg/400x400bb.jpg",
           "detailsUrl": "https://www.officialcharts.com/charts/uk-top-40-singles-chart/",
+          "chartCountry": "GB",
           "posterSource": "release-artwork:apple",
           "musicUrl": "https://music.apple.com/gb/album/choosin-texas/1869436835?i=1869436839&uo=4"
         },
@@ -2491,6 +2492,7 @@
           "artist": "SIENNA SPIRO",
           "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c6/1e/1b/c61e1b6d-e9dd-40ca-916a-223e1dc5a269/26UMGIM51349.rgb.jpg/400x400bb.jpg",
           "detailsUrl": "https://www.officialcharts.com/charts/uk-top-40-singles-chart/",
+          "chartCountry": "GB",
           "posterSource": "release-artwork:apple",
           "musicUrl": "https://music.apple.com/gb/album/great-expectation/6769553652?i=6769553656&uo=4"
         },
@@ -2500,6 +2502,7 @@
           "artist": "HUGEL/",
           "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/96/61/7a/96617ab5-51da-7cfc-97e5-c5a6a893c210/1087654.jpg/400x400bb.jpg",
           "detailsUrl": "https://www.officialcharts.com/charts/uk-top-40-singles-chart/",
+          "chartCountry": "GB",
           "posterSource": "release-artwork:apple",
           "musicUrl": "https://music.apple.com/gb/album/movin-to-the-sun/6769069923?i=6769070199&uo=4"
         },
@@ -2509,6 +2512,7 @@
           "artist": "STELLA LEFTY",
           "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7c/de/5e/7cde5e7a-612d-9714-d34c-1eb234c85ebb/810129961546.jpg/400x400bb.jpg",
           "detailsUrl": "https://www.officialcharts.com/charts/uk-top-40-singles-chart/",
+          "chartCountry": "GB",
           "posterSource": "release-artwork:apple",
           "musicUrl": "https://music.apple.com/gb/album/boston/1884403092?i=1884403093&uo=4"
         },
@@ -2518,6 +2522,7 @@
           "artist": "DOLLY PARTON",
           "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/c5/d6/48/c5d648b3-7977-1953-17fb-c57aed4e4539/dj.ebwqbkfy.jpg/400x400bb.jpg",
           "detailsUrl": "https://www.officialcharts.com/charts/uk-top-40-singles-chart/",
+          "chartCountry": "GB",
           "posterSource": "release-artwork:apple",
           "musicUrl": "https://music.apple.com/gb/album/9-to-5/283305967?i=283305973&uo=4"
         },
@@ -2527,6 +2532,7 @@
           "artist": "DOLLY PARTON",
           "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/c5/d6/48/c5d648b3-7977-1953-17fb-c57aed4e4539/dj.ebwqbkfy.jpg/400x400bb.jpg",
           "detailsUrl": "https://www.officialcharts.com/charts/uk-top-40-singles-chart/",
+          "chartCountry": "GB",
           "posterSource": "release-artwork:apple",
           "musicUrl": "https://music.apple.com/gb/album/jolene/283305967?i=283305977&uo=4"
         },
@@ -2536,6 +2542,7 @@
           "artist": "SAM FENDER & OLIVIA DEAN",
           "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ec/81/1d/ec811d0e-64d9-224c-25df-9d26456874f9/25UMGIM75096.rgb.jpg/400x400bb.jpg",
           "detailsUrl": "https://www.officialcharts.com/charts/uk-top-40-singles-chart/",
+          "chartCountry": "GB",
           "posterSource": "release-artwork:apple",
           "musicUrl": "https://music.apple.com/gb/album/rein-me-in/1820918843?i=1820918844&uo=4"
         },
@@ -2545,6 +2552,7 @@
           "artist": "OLIVIA RODRIGO",
           "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ea/cc/ad/eaccad77-3cb8-ddc2-a2e1-224c409aa26b/26UMGIM64019.rgb.jpg/400x400bb.jpg",
           "detailsUrl": "https://www.officialcharts.com/charts/uk-top-40-singles-chart/",
+          "chartCountry": "GB",
           "posterSource": "release-artwork:apple",
           "musicUrl": "https://music.apple.com/gb/album/the-cure/6771598352?i=6771598356&uo=4"
         },
@@ -2554,6 +2562,7 @@
           "artist": "DOLLY PARTON & KENNY ROGERS",
           "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/ed/26/6b/ed266bb0-b4ae-5c6a-b31a-728bed6c5894/886446002910.jpg/400x400bb.jpg",
           "detailsUrl": "https://www.officialcharts.com/charts/uk-top-40-singles-chart/",
+          "chartCountry": "GB",
           "posterSource": "release-artwork:apple",
           "musicUrl": "https://music.apple.com/gb/album/islands-in-the-stream/1488872382?i=1488872397&uo=4"
         },
@@ -2563,6 +2572,7 @@
           "artist": "OLIVIA DEAN",
           "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/08/e2/21/08e22164-7c0b-1522-818f-e0e74f62dc49/25UMGIM69703.rgb.jpg/400x400bb.jpg",
           "detailsUrl": "https://www.officialcharts.com/charts/uk-top-40-singles-chart/",
+          "chartCountry": "GB",
           "posterSource": "release-artwork:apple",
           "musicUrl": "https://music.apple.com/gb/album/man-i-need/1817609404?i=1817609509&uo=4"
         }
@@ -2581,8 +2591,9 @@
           "rank": 2,
           "title": "GOD BLESS THE BAND",
           "artist": "COURTEENERS",
-          "poster": null,
-          "detailsUrl": "https://www.officialcharts.com/charts/albums-chart/?lang=en"
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/54/12/15/54121553-8a75-5b20-60fe-afbc2b786078/08UMGIM04230.rgb.jpg/400x400bb.jpg",
+          "detailsUrl": "https://www.officialcharts.com/charts/albums-chart/?lang=en",
+          "posterSource": "artist-associated-artwork:apple"
         },
         {
           "rank": 3,
@@ -2590,6 +2601,7 @@
           "artist": "MICHAEL JACKSON",
           "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/3d/9d/38/3d9d3811-71f0-3a0e-1ada-3004e56ff852/827969428726.jpg/400x400bb.jpg",
           "detailsUrl": "https://www.officialcharts.com/charts/albums-chart/?lang=en",
+          "chartCountry": "GB",
           "posterSource": "release-artwork:apple",
           "musicUrl": "https://music.apple.com/gb/album/the-essential-michael-jackson/159292399?uo=4"
         },
@@ -2599,6 +2611,7 @@
           "artist": "OLIVIA RODRIGO",
           "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/92/51/b9925128-dac6-2cef-5674-d5ebbe1a4e83/26UMGIM75556.rgb.jpg/400x400bb.jpg",
           "detailsUrl": "https://www.officialcharts.com/charts/albums-chart/?lang=en",
+          "chartCountry": "GB",
           "posterSource": "release-artwork:apple",
           "musicUrl": "https://music.apple.com/gb/album/you-seem-pretty-sad-for-a-girl-so-in-love/6779097512?uo=4"
         },
@@ -2606,8 +2619,9 @@
           "rank": 5,
           "title": "DIAMONDS & RHINESTONES - GREATEST HITS",
           "artist": "DOLLY PARTON",
-          "poster": null,
-          "detailsUrl": "https://www.officialcharts.com/charts/albums-chart/?lang=en"
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/c5/d6/48/c5d648b3-7977-1953-17fb-c57aed4e4539/dj.ebwqbkfy.jpg/400x400bb.jpg",
+          "detailsUrl": "https://www.officialcharts.com/charts/albums-chart/?lang=en",
+          "posterSource": "artist-associated-artwork:apple"
         },
         {
           "rank": 6,
@@ -2615,6 +2629,7 @@
           "artist": "BANANARAMA",
           "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/33/0f/4c/330f4c31-6b9a-b346-e625-01e8fba322cb/190295715762.jpg/400x400bb.jpg",
           "detailsUrl": "https://www.officialcharts.com/charts/albums-chart/?lang=en",
+          "chartCountry": "GB",
           "posterSource": "release-artwork:apple",
           "musicUrl": "https://music.apple.com/gb/album/true-confessions-collectors-edition/1299157371?uo=4"
         },
@@ -2624,6 +2639,7 @@
           "artist": "SIENNA SPIRO",
           "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c6/1e/1b/c61e1b6d-e9dd-40ca-916a-223e1dc5a269/26UMGIM51349.rgb.jpg/400x400bb.jpg",
           "detailsUrl": "https://www.officialcharts.com/charts/albums-chart/?lang=en",
+          "chartCountry": "GB",
           "posterSource": "release-artwork:apple",
           "musicUrl": "https://music.apple.com/gb/album/visitor/6769553652?uo=4"
         },
@@ -2633,6 +2649,7 @@
           "artist": "OLIVIA DEAN",
           "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/08/e2/21/08e22164-7c0b-1522-818f-e0e74f62dc49/25UMGIM69703.rgb.jpg/400x400bb.jpg",
           "detailsUrl": "https://www.officialcharts.com/charts/albums-chart/?lang=en",
+          "chartCountry": "GB",
           "posterSource": "release-artwork:apple",
           "musicUrl": "https://music.apple.com/gb/album/the-art-of-loving/1817609404?uo=4"
         },
@@ -2642,6 +2659,7 @@
           "artist": "FLEETWOOD MAC",
           "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/63/06/6c/63066c62-e334-f68d-035e-d8b87d196c99/603497855063.jpg/400x400bb.jpg",
           "detailsUrl": "https://www.officialcharts.com/charts/albums-chart/?lang=en",
+          "chartCountry": "GB",
           "posterSource": "release-artwork:apple",
           "musicUrl": "https://music.apple.com/gb/album/50-years-dont-stop/1441329222?uo=4"
         },
@@ -2651,6 +2669,7 @@
           "artist": "WEEKND",
           "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/4b/ab/3c/4bab3c0d-ea9a-ad8e-4229-b1e73cad0283/21UMGIM06668.rgb.jpg/400x400bb.jpg",
           "detailsUrl": "https://www.officialcharts.com/charts/albums-chart/?lang=en",
+          "chartCountry": "GB",
           "posterSource": "release-artwork:apple",
           "musicUrl": "https://music.apple.com/gb/album/the-highlights/1550877895?uo=4"
         }
@@ -2684,6 +2703,7 @@
           "artist": "Ella Langley",
           "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e2/91/4d/e2914d0a-7f1d-f04c-fbf4-c50b38548838/196873638690.jpg/400x400bb.jpg",
           "detailsUrl": "https://ca.billboard.com/charts/hot-100",
+          "chartCountry": "US",
           "posterSource": "release-artwork:apple",
           "musicUrl": "https://music.apple.com/us/album/choosin-texas/1844932149?i=1844932150&uo=4"
         },
@@ -2693,6 +2713,7 @@
           "artist": "Stella Lefty",
           "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7c/de/5e/7cde5e7a-612d-9714-d34c-1eb234c85ebb/810129961546.jpg/400x400bb.jpg",
           "detailsUrl": "https://ca.billboard.com/charts/hot-100",
+          "chartCountry": "US",
           "posterSource": "release-artwork:apple",
           "musicUrl": "https://music.apple.com/us/album/boston/1884403092?i=1884403093&uo=4"
         },
@@ -2702,6 +2723,7 @@
           "artist": "Taylor Swift",
           "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/34/35/6c/34356cb4-bd0b-3bac-b118-1a6d7264dc64/26UMGIM69942.rgb.jpg/400x400bb.jpg",
           "detailsUrl": "https://ca.billboard.com/charts/hot-100",
+          "chartCountry": "US",
           "posterSource": "release-artwork:apple",
           "musicUrl": "https://music.apple.com/us/album/i-knew-it-i-knew-you-from-toy-story-5/6775527442?i=6775527443&uo=4"
         },
@@ -2711,6 +2733,7 @@
           "artist": "Morgan Wallen",
           "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9f/8d/52/9f8d52a0-b6d9-d038-327b-4fe58bedce67/26UMGIM94572.rgb.jpg/400x400bb.jpg",
           "detailsUrl": "https://ca.billboard.com/charts/hot-100",
+          "chartCountry": "US",
           "posterSource": "release-artwork:apple",
           "musicUrl": "https://music.apple.com/us/album/been-by-now/6792676858?i=6792676860&uo=4"
         },
@@ -2720,6 +2743,7 @@
           "artist": "Ariana Grande",
           "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/56/f4/96/56f49612-02dd-83f4-44fe-d2118cc70707/26UMGIM51129.rgb.jpg/400x400bb.jpg",
           "detailsUrl": "https://ca.billboard.com/charts/hot-100",
+          "chartCountry": "US",
           "posterSource": "release-artwork:apple",
           "musicUrl": "https://music.apple.com/us/album/hate-that-i-made-you-love-me/1895420874?i=6763656725&uo=4"
         },
@@ -2729,6 +2753,7 @@
           "artist": "Tame Impala & JENNIE",
           "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/36/be/b4/36beb41f-c644-55cb-9fbb-bf0622a66653/196873644783.jpg/400x400bb.jpg",
           "detailsUrl": "https://ca.billboard.com/charts/hot-100",
+          "chartCountry": "US",
           "posterSource": "release-artwork:apple",
           "musicUrl": "https://music.apple.com/us/album/dracula/1842444456?i=1842444457&uo=4"
         },
@@ -2738,6 +2763,7 @@
           "artist": "Olivia Dean",
           "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/08/e2/21/08e22164-7c0b-1522-818f-e0e74f62dc49/25UMGIM69703.rgb.jpg/400x400bb.jpg",
           "detailsUrl": "https://ca.billboard.com/charts/hot-100",
+          "chartCountry": "US",
           "posterSource": "release-artwork:apple",
           "musicUrl": "https://music.apple.com/us/album/so-easy-to-fall-in-love/1817609404?i=1817609507&uo=4"
         },
@@ -2747,6 +2773,7 @@
           "artist": "Ella Langley & Morgan Wallen",
           "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/26/35/03/26350323-d656-4817-49e6-4d658af8363a/196874332917.jpg/400x400bb.jpg",
           "detailsUrl": "https://ca.billboard.com/charts/hot-100",
+          "chartCountry": "US",
           "posterSource": "release-artwork:apple",
           "musicUrl": "https://music.apple.com/us/album/i-cant-love-you-anymore/1895159736?i=6763094377&uo=4"
         },
@@ -2756,6 +2783,7 @@
           "artist": "Olivia Dean",
           "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/08/e2/21/08e22164-7c0b-1522-818f-e0e74f62dc49/25UMGIM69703.rgb.jpg/400x400bb.jpg",
           "detailsUrl": "https://ca.billboard.com/charts/hot-100",
+          "chartCountry": "US",
           "posterSource": "release-artwork:apple",
           "musicUrl": "https://music.apple.com/us/album/man-i-need/1817609404?i=1817609509&uo=4"
         },
@@ -2765,6 +2793,7 @@
           "artist": "Ella Langley",
           "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a1/ba/64/a1ba6484-f462-1b88-ddff-d4c014d5f265/196874018361.jpg/400x400bb.jpg",
           "detailsUrl": "https://ca.billboard.com/charts/hot-100",
+          "chartCountry": "US",
           "posterSource": "release-artwork:apple",
           "musicUrl": "https://music.apple.com/us/album/be-her/1869436835?i=1869436845&uo=4"
         }
@@ -2776,6 +2805,7 @@
           "artist": "ENHYPEN",
           "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9e/f2/dc/9ef2dc16-eefd-7cad-3d74-adbd0e394991/823375232841_Cover.jpg/400x400bb.jpg",
           "detailsUrl": "https://ca.billboard.com/charts/billboard-200",
+          "chartCountry": "US",
           "posterSource": "release-artwork:apple",
           "musicUrl": "https://music.apple.com/us/album/the-sin-bliss-ep/6780548049?uo=4"
         },
@@ -2785,6 +2815,7 @@
           "artist": "Ella Langley",
           "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/26/35/03/26350323-d656-4817-49e6-4d658af8363a/196874332917.jpg/400x400bb.jpg",
           "detailsUrl": "https://ca.billboard.com/charts/billboard-200",
+          "chartCountry": "US",
           "posterSource": "release-artwork:apple",
           "musicUrl": "https://music.apple.com/us/album/dandelion/1895159736?uo=4"
         },
@@ -2794,6 +2825,7 @@
           "artist": "Olivia Rodrigo",
           "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/92/51/b9925128-dac6-2cef-5674-d5ebbe1a4e83/26UMGIM75556.rgb.jpg/400x400bb.jpg",
           "detailsUrl": "https://ca.billboard.com/charts/billboard-200",
+          "chartCountry": "US",
           "posterSource": "release-artwork:apple",
           "musicUrl": "https://music.apple.com/us/album/you-seem-pretty-sad-for-a-girl-so-in-love/6779097512?uo=4"
         },
@@ -2803,6 +2835,7 @@
           "artist": "Morgan Wallen",
           "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fa/60/fe/fa60fe4a-4329-a0bb-eb7c-3b6094a4d831/25UMGIM46049.rgb.jpg/400x400bb.jpg",
           "detailsUrl": "https://ca.billboard.com/charts/billboard-200",
+          "chartCountry": "US",
           "posterSource": "release-artwork:apple",
           "musicUrl": "https://music.apple.com/us/album/im-the-problem/1802103906?uo=4"
         },
@@ -2812,6 +2845,7 @@
           "artist": "Dolly Parton",
           "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music/37/fa/d1/mzi.ecmonpil.jpg/400x400bb.jpg",
           "detailsUrl": "https://ca.billboard.com/charts/billboard-200",
+          "chartCountry": "US",
           "posterSource": "release-artwork:apple",
           "musicUrl": "https://music.apple.com/us/album/ultimate-dolly-parton/282883573?uo=4"
         },
@@ -2821,6 +2855,7 @@
           "artist": "KATSEYE",
           "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0a/63/b5/0a63b5b0-dff7-1194-79c0-6bc8f5ab2d74/093624821526.jpg/400x400bb.jpg",
           "detailsUrl": "https://ca.billboard.com/charts/billboard-200",
+          "chartCountry": "US",
           "posterSource": "release-artwork:apple",
           "musicUrl": "https://music.apple.com/us/album/wild/1885046822?uo=4"
         },
@@ -2830,6 +2865,7 @@
           "artist": "Noah Kahan",
           "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e0/53/5b/e0535bb5-a269-8cc4-e12f-589e26809569/26UMGIM02802.rgb.jpg/400x400bb.jpg",
           "detailsUrl": "https://ca.billboard.com/charts/billboard-200",
+          "chartCountry": "US",
           "posterSource": "release-artwork:apple",
           "musicUrl": "https://music.apple.com/us/album/the-great-divide/1872241079?uo=4"
         },
@@ -2839,6 +2875,7 @@
           "artist": "Stray Kids",
           "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c0/05/aa/c005aa79-a3a7-6e28-48e2-4c5e72eff603/8809928957357_Cover.jpg/400x400bb.jpg",
           "detailsUrl": "https://ca.billboard.com/charts/billboard-200",
+          "chartCountry": "US",
           "posterSource": "release-artwork:apple",
           "musicUrl": "https://music.apple.com/us/album/this-that/6781751949?uo=4"
         },
@@ -2848,6 +2885,7 @@
           "artist": "Drake",
           "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7f/39/61/7f396123-be56-bc11-eaab-976441808e58/26UMGIM63622.rgb.jpg/400x400bb.jpg",
           "detailsUrl": "https://ca.billboard.com/charts/billboard-200",
+          "chartCountry": "US",
           "posterSource": "release-artwork:apple",
           "musicUrl": "https://music.apple.com/us/album/iceman/6769649287?uo=4"
         },
@@ -2857,6 +2895,7 @@
           "artist": "Ariana Grande",
           "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/56/f4/96/56f49612-02dd-83f4-44fe-d2118cc70707/26UMGIM51129.rgb.jpg/400x400bb.jpg",
           "detailsUrl": "https://ca.billboard.com/charts/billboard-200",
+          "chartCountry": "US",
           "posterSource": "release-artwork:apple",
           "musicUrl": "https://music.apple.com/us/album/petal/1895420874?uo=4"
         }
