@@ -13,7 +13,7 @@ function updateSourceStrip(){
  $("#newsProviderSwitch").innerHTML=stock?`<div class="news-provider-btn" aria-label="The Twelfth Magpie"><span class="stock-logo magpie-logo"><b>TWELFTH</b><small>MAGPIE</small></span></div><div class="news-provider-btn" aria-label="Yahoo Finance UK"><span class="stock-logo yahoo-logo"><b>yahoo!</b><small>finance</small></span></div><div class="news-provider-btn" aria-label="Reuters"><span class="stock-logo reuters-logo"><span class="reuters-mark" aria-hidden="true">◌</span><b>Reuters</b></span></div>`:`<div class="news-provider-btn" aria-label="Sky News"><span class="sky-logo">sky <b>news</b></span></div><div class="news-provider-btn" aria-label="The Guardian"><span class="guardian-logo"><i>G</i><b>The<br>Guardian</b></span></div><div class="news-provider-btn" aria-label="Metro"><span class="metro-logo">METRO</span></div>`;
 }
 function categoryRows(){return data.categories?.[active]||[]}
-const STOCK_THUMBS=["assets/stocks/stocks-growth.webp","assets/stocks/stocks-allocation.webp","assets/stocks/stocks-money.webp","assets/stocks/stocks-global.webp"];
+const STOCK_THUMBS=["stocks-growth.webp","stocks-allocation.webp","stocks-money.webp","stocks-global.webp"];
 function stockFallback(item){
  const key=String(item?.title||"").toLowerCase();
  if(/\\b(currency|currencies|forex|dollar|yen|euro|sterling|exchange rate|fx|global|world|international|central bank|federal reserve|bank of england|inflation|bond yields|treasury yields)\\b/.test(key))return STOCK_THUMBS[3];
