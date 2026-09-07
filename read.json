@@ -1,7 +1,55 @@
 {
-  "updated": "2026-09-07T04:51:59.933Z",
+  "updated": "2026-09-07T05:58:18.235Z",
   "charts": {
     "AUDIOBOOKS": [
+      {
+        "title": "It Could Have Been Her",
+        "author": "Lisa Jewell",
+        "narrator": "Lesley Sharp , James Norton",
+        "image": "https://m.media-amazon.com/images/I/51JZztIPknL._SL500_.jpg"
+      },
+      {
+        "title": "Harry Potter and the Philosopher&rsquo;s Stone (Full-Cast Edition)",
+        "author": "J.K. Rowling",
+        "narrator": "Hugh Laurie , Matthew Macfadyen , Riz Ahmed , Michelle Gomez , Cush Jumbo , Frankie Treadaway , Max Lester , Arabella Stanton , Mark Addy , Indira Varma , Sacha Dhawan , Nina Wadia , Joel Fry , Adeel Akhtar , Tracy Ann Oberman",
+        "image": "https://m.media-amazon.com/images/I/51YVgooSJuL._SL500_.jpg"
+      },
+      {
+        "title": "Dungeon Crawler Carl",
+        "author": "Matt Dinniman",
+        "narrator": "Jeff Hays",
+        "image": "https://m.media-amazon.com/images/I/51HIZdnqASL._SL500_.jpg"
+      },
+      {
+        "title": "We Chase Shadows",
+        "author": "Richard Osman",
+        "narrator": "Nicola Walker",
+        "image": "https://m.media-amazon.com/images/I/41om+XdodkL._SL500_.jpg"
+      },
+      {
+        "title": "Yesteryear",
+        "author": "Caro Claire Burke",
+        "narrator": "Rebecca Lowman",
+        "image": "https://m.media-amazon.com/images/I/51KjTFa+rRL._SL500_.jpg"
+      },
+      {
+        "title": "The Castle",
+        "author": "Jon Ronson",
+        "narrator": "Jon Ronson",
+        "image": "https://m.media-amazon.com/images/I/51bc2CKmnsL._SL500_.jpg"
+      },
+      {
+        "title": "Agrippa",
+        "author": "Robert Harris",
+        "narrator": "Simon Russell Beale , Robert Harris",
+        "image": "https://m.media-amazon.com/images/I/419o3dpkvKL._SL500_.jpg"
+      },
+      {
+        "title": "London Falling",
+        "author": "Patrick Radden Keefe",
+        "narrator": "Patrick Radden Keefe",
+        "image": "https://m.media-amazon.com/images/I/51maOuU++ZL._SL500_.jpg"
+      },
       {
         "title": "A Very Dangerous Pursuit",
         "author": "Ben Miller",
@@ -9,58 +57,10 @@
         "image": "https://m.media-amazon.com/images/I/51VUdl5bZoL._SL500_.jpg"
       },
       {
-        "title": "Dungeon Crawler Carl",
-        "author": "Matt Dinniman",
-        "narrator": "Jeff Hays",
-        "image": "https://covers.openlibrary.org/b/id/15143022-L.jpg"
-      },
-      {
-        "title": "The Murder at the Vicarage",
-        "author": "Agatha Christie",
-        "narrator": "Toni Collette , Kit Harington , Jasmine Jobson , Calam Lynch , Eliot Salt , Katy Wix , Lolly Adefope , Billy Postlethwaite , Vicki Pepperdine , Meera Syal , La Voix , Leo Reich , full cast",
-        "image": "https://m.media-amazon.com/images/I/51GzNQrzYrL._SL500_.jpg"
-      },
-      {
         "title": "The Let Them Theory",
         "author": "Mel Robbins",
         "narrator": "Mel Robbins",
-        "image": "https://covers.openlibrary.org/b/id/15165806-L.jpg"
-      },
-      {
-        "title": "Carl's Doomsday Scenario",
-        "author": "Matt Dinniman",
-        "narrator": "Jeff Hays",
-        "image": "https://covers.openlibrary.org/b/id/11702962-L.jpg"
-      },
-      {
-        "title": "The Garden Grave",
-        "author": "Joy Ellis",
-        "narrator": "Sam Claflin",
-        "image": "https://m.media-amazon.com/images/I/51u2yPsf2LL._SL500_.jpg"
-      },
-      {
-        "title": "Project Hail Mary",
-        "author": "Andy Weir",
-        "narrator": "Ray Porter",
-        "image": "https://m.media-amazon.com/images/I/51POf8gOyLL._SL500_.jpg"
-      },
-      {
-        "title": "The Dungeon Anarchist's Cookbook",
-        "author": "Matt Dinniman",
-        "narrator": "Jeff Hays , The Critical Drinker",
-        "image": "https://covers.openlibrary.org/b/id/15233609-L.jpg"
-      },
-      {
-        "title": "The Gate of the Feral Gods",
-        "author": "Matt Dinniman",
-        "narrator": "Jeff Hays",
-        "image": "https://m.media-amazon.com/images/I/51rmyTTWPsL._SL500_.jpg"
-      },
-      {
-        "title": "The Butcher's Masquerade",
-        "author": "Matt Dinniman",
-        "narrator": "Jeff Hays",
-        "image": "https://covers.openlibrary.org/b/id/15231958-L.jpg"
+        "image": "https://m.media-amazon.com/images/I/51YOr6ua-PL._SL500_.jpg"
       }
     ],
     "BOOKS": [
@@ -122,16 +122,16 @@
   },
   "health": {
     "BOOKS": {
-      "status": "healthy",
-      "checkedAt": "2026-09-07T04:51:59.934Z",
+      "status": "stale",
+      "checkedAt": "2026-09-07T05:58:18.235Z",
       "lastSuccessfulRefresh": "2026-09-07T04:51:59.934Z",
-      "reason": ""
+      "reason": "403 https://www.lovereading.co.uk/genres/lrt10/uk-top-10-books"
     },
     "AUDIOBOOKS": {
-      "status": "stale",
-      "checkedAt": "2026-09-07T04:52:07.618Z",
-      "lastSuccessfulRefresh": "2026-09-07T00:53:24.141Z",
-      "reason": "503 https://www.audible.co.uk/charts/best"
+      "status": "healthy",
+      "checkedAt": "2026-09-07T05:58:18.460Z",
+      "lastSuccessfulRefresh": "2026-09-07T05:58:18.460Z",
+      "reason": ""
     }
   }
 }
