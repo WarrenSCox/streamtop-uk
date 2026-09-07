@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T22:51:28.919Z",
+  "updated": "2026-09-07T00:53:15.265Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -12,7 +12,7 @@
         "title": "Dungeon Crawler Carl",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://m.media-amazon.com/images/I/51HIZdnqASL._SL500_.jpg"
+        "image": "https://covers.openlibrary.org/b/id/15143022-L.jpg"
       },
       {
         "title": "The Murder at the Vicarage",
@@ -24,7 +24,7 @@
         "title": "The Let Them Theory",
         "author": "Mel Robbins",
         "narrator": "Mel Robbins",
-        "image": "https://m.media-amazon.com/images/I/51YOr6ua-PL._SL500_.jpg"
+        "image": "https://covers.openlibrary.org/b/id/15165806-L.jpg"
       },
       {
         "title": "Carl's Doomsday Scenario",
@@ -42,7 +42,7 @@
         "title": "Project Hail Mary",
         "author": "Andy Weir",
         "narrator": "Ray Porter",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2a/1a/fc/2a1afcc9-6179-5fdf-3bea-aec376486895/rm_image.jpg/600x600bb.jpg"
+        "image": "https://m.media-amazon.com/images/I/51POf8gOyLL._SL500_.jpg"
       },
       {
         "title": "The Dungeon Anarchist's Cookbook",
@@ -54,7 +54,7 @@
         "title": "The Gate of the Feral Gods",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://covers.openlibrary.org/b/id/15232581-L.jpg"
+        "image": "https://m.media-amazon.com/images/I/51rmyTTWPsL._SL500_.jpg"
       },
       {
         "title": "The Butcher's Masquerade",
@@ -123,15 +123,15 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-09-06T22:51:28.919Z",
-      "lastSuccessfulRefresh": "2026-09-06T22:51:28.919Z",
+      "checkedAt": "2026-09-07T00:53:15.265Z",
+      "lastSuccessfulRefresh": "2026-09-07T00:53:15.265Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
-      "status": "stale",
-      "checkedAt": "2026-09-06T22:51:37.103Z",
-      "lastSuccessfulRefresh": "2026-09-06T20:30:08.494Z",
-      "reason": "503 https://www.audible.co.uk/charts/best"
+      "status": "healthy",
+      "checkedAt": "2026-09-07T00:53:24.141Z",
+      "lastSuccessfulRefresh": "2026-09-07T00:53:24.141Z",
+      "reason": ""
     }
   }
 }
