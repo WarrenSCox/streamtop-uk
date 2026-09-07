@@ -1083,32 +1083,92 @@ function wikiArtistTitleScore(title='',artist=''){
   const page=normMusic(String(title).replace(/\s*\([^)]*\)\s*$/,''));
   const wanted=normMusic(artist);
   if(!page||!wanted)return 0;
-  if(page===wanted)return 10;
+  if(page===wanted)return 12;
+  if(page===normMusic(`the ${artist}`))return 11;
   if(page.startsWith(wanted+' '))return 7;
+  if(page.endsWith(' '+wanted))return 6;
   return 0;
+}
+function commonsThumb(filename,width=600){
+  if(!filename)return null;
+  return `https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(filename)}?width=${width}`;
+}
+function wikidataArtistScore(entity,artist){
+  const wanted=normMusic(artist);
+  const label=normMusic(entity?.label||'');
+  const aliases=(entity?.aliases||[]).map(normMusic);
+  const description=normMusic(entity?.description||'');
+  let score=0;
+  if(label===wanted)score+=12;
+  else if(label===normMusic(`the ${artist}`))score+=11;
+  else if(aliases.includes(wanted))score+=9;
+  if(/\b(singer|musician|band|musical group|rapper|songwriter|recording artist|rock band|pop group|vocalist)\b/.test(description))score+=4;
+  return score;
 }
 async function lookupArtistPhoto(item){
   const artist=String(item.artist||'').trim();
   if(!artist)return item;
+
   try{
-    const query=`"${artist}" singer musician`;
-    const url='https://en.wikipedia.org/w/api.php?action=query&generator=search'
-      +`&gsrsearch=${encodeURIComponent(query)}&gsrnamespace=0&gsrlimit=6`
+    for(const title of [artist,`The ${artist}`]){
+      const directUrl='https://en.wikipedia.org/w/api.php?action=query'
+        +`&titles=${encodeURIComponent(title)}&redirects=1`
+        +'&prop=pageimages|info&piprop=thumbnail&pithumbsize=600&inprop=url&format=json&formatversion=2&origin=*';
+      const data=JSON.parse(await fetchText(directUrl,{'accept':'application/json'}));
+      const pages=Array.isArray(data?.query?.pages)?data.query.pages:[];
+      const best=pages
+        .map(p=>({p,score:wikiArtistTitleScore(p?.title,artist)}))
+        .filter(x=>x.score>0&&x.p?.thumbnail?.source)
+        .sort((a,b)=>b.score-a.score)[0]?.p;
+      if(best){
+        console.log(`Music artwork fallback: artist photo for "${item.title}" by ${artist} via Wikipedia (${best.title})`);
+        return {...item,poster:best.thumbnail.source,posterSource:'artist-photo:wikipedia',artistPageUrl:best.fullurl||null};
+      }
+    }
+
+    const query=`"${artist}" singer musician band`;
+    const searchUrl='https://en.wikipedia.org/w/api.php?action=query&generator=search'
+      +`&gsrsearch=${encodeURIComponent(query)}&gsrnamespace=0&gsrlimit=8`
       +'&prop=pageimages|info&piprop=thumbnail&pithumbsize=600&inprop=url&format=json&formatversion=2&origin=*';
-    const data=JSON.parse(await fetchText(url,{'accept':'application/json'}));
+    const data=JSON.parse(await fetchText(searchUrl,{'accept':'application/json'}));
     const pages=Array.isArray(data?.query?.pages)?data.query.pages:[];
-    const ranked=pages
+    const best=pages
       .map(p=>({p,score:wikiArtistTitleScore(p?.title,artist)}))
       .filter(x=>x.score>0&&x.p?.thumbnail?.source)
-      .sort((a,b)=>b.score-a.score);
-    const best=ranked[0]?.p;
-    if(!best)return item;
-    console.log(`Music artwork fallback: artist photo for "${item.title}" by ${artist} via Wikipedia (${best.title})`);
-    return {...item,poster:best.thumbnail.source,posterSource:'artist-photo:wikipedia',artistPageUrl:best.fullurl||null};
+      .sort((a,b)=>b.score-a.score)[0]?.p;
+    if(best){
+      console.log(`Music artwork fallback: artist photo for "${item.title}" by ${artist} via Wikipedia search (${best.title})`);
+      return {...item,poster:best.thumbnail.source,posterSource:'artist-photo:wikipedia',artistPageUrl:best.fullurl||null};
+    }
   }catch(e){
-    console.warn(`Music artist image fallback failed for ${artist}: ${e.message}`);
-    return item;
+    console.warn(`Music Wikipedia artist image fallback failed for ${artist}: ${e.message}`);
   }
+
+  try{
+    const searchUrl='https://www.wikidata.org/w/api.php?action=wbsearchentities'
+      +`&search=${encodeURIComponent(artist)}&language=en&uselang=en&type=item&limit=8&format=json&origin=*`;
+    const data=JSON.parse(await fetchText(searchUrl,{'accept':'application/json'}));
+    const candidates=(Array.isArray(data?.search)?data.search:[])
+      .map(x=>({...x,score:wikidataArtistScore(x,artist)}))
+      .filter(x=>x.score>=12)
+      .sort((a,b)=>b.score-a.score);
+
+    for(const candidate of candidates){
+      const entityUrl=`https://www.wikidata.org/wiki/Special:EntityData/${candidate.id}.json`;
+      const entityData=JSON.parse(await fetchText(entityUrl,{'accept':'application/json'}));
+      const entity=entityData?.entities?.[candidate.id];
+      const image=entity?.claims?.P18?.[0]?.mainsnak?.datavalue?.value;
+      if(!image)continue;
+      const poster=commonsThumb(image,600);
+      console.log(`Music artwork fallback: artist photo for "${item.title}" by ${artist} via Wikidata/Commons (${candidate.id})`);
+      return {...item,poster,posterSource:'artist-photo:wikidata',artistPageUrl:`https://www.wikidata.org/wiki/${candidate.id}`};
+    }
+  }catch(e){
+    console.warn(`Music Wikidata artist image fallback failed for ${artist}: ${e.message}`);
+  }
+
+  console.warn(`Music artwork fallback: no artist photo found for "${item.title}" by ${artist}`);
+  return item;
 }
 async function lookupMusicArtwork(item,country='US',kind='SINGLE'){
   // Chart sites often prefix brand-new albums with "New" and Billboard may
@@ -1226,7 +1286,7 @@ async function fetchOfficialMusicChart(url,label){
 }
 
 let previous={}; try{previous=JSON.parse(await readFile('data/rankings.json','utf8'));}catch{}
-const output={version:18,generatedAt:new Date().toISOString(),country:'GB',strategy:'Official source first; labelled fallback when no compatible official chart is available.',services:{}};
+const output={version:19,generatedAt:new Date().toISOString(),country:'GB',strategy:'Official source first; labelled fallback when no compatible official chart is available.',services:{}};
 const packageData=await gql(PACKAGES_QUERY,{country:'GB',platform:'WEB'}); const packages=packageData?.packages||[];
 let netflixOfficial=null; try{netflixOfficial=await fetchOfficialNetflix(); console.log(`Netflix official week ${netflixOfficial.week}`);}catch(err){console.error('Netflix official:',err.message);}
 let appleMoviesOfficial=null; try{appleMoviesOfficial=await fetchOfficialApple(APPLE_MOVIES_URL,'MOVIE'); console.log(`Apple official movies: ${appleMoviesOfficial.length}`);}catch(err){console.error('Apple official movies:',err.message);}
