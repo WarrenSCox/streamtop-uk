@@ -65,18 +65,27 @@ function stockFallbacks(item){
  const generic=[...STOCK_GENERIC.slice(genericStart),...STOCK_GENERIC.slice(0,genericStart)];
  return [...new Set([...ordered,...generic])];
 }
+function stockImageChoice(item,used){
+ const candidates=[item?.image,...stockFallbacks(item),...STOCK_GENERIC].filter(Boolean);
+ const unique=[...new Set(candidates)];
+ const chosen=unique.find(url=>!used.has(url))||unique[0]||"";
+ if(chosen)used.add(chosen);
+ return {chosen,alternates:unique.filter(url=>url!==chosen&&!used.has(url))};
+}
 function render(){
  const rows=categoryRows();
  const newsTitle=$("#newsTitle");
  newsTitle.textContent=active==="STOCKS"?"LATEST STOCKS":"LATEST "+active;
  updateSourceStrip();
  newsTitle.classList.toggle("entertainment-title",active==="ENTERTAINMENT");
+ const usedStockImages=new Set();
  $("#newsChart").innerHTML=rows.slice(0,10).map((x,i)=>{
-  const fallbacks=active==="STOCKS"?stockFallbacks(x):[];
-  const fallback=fallbacks[0]||"";
+  const stockChoice=active==="STOCKS"?stockImageChoice(x,usedStockImages):{chosen:x.image||"",alternates:[]};
+  const fallback=stockChoice.chosen||"";
+  const fallbacks=stockChoice.alternates;
   const meta=ago(x.published);
   const byline="";
-  return `<li class="news-row"><span class="rank">${String(i+1).padStart(2,"0")}</span><a class="news-image-link" href="${esc(x.link)}" target="_blank" rel="noopener" aria-label="${esc(x.title)}">${(x.image||fallback)?`<img class="poster news-thumb" src="${esc(x.image||fallback)}" alt="" data-stock-fallback="${esc(fallback)}" data-stock-fallbacks="${esc(JSON.stringify(fallbacks))}">`:`<span class="poster news-thumb news-thumb-fallback">W</span>`}</a><a class="news-story" href="${esc(x.link)}" target="_blank" rel="noopener"><span class="news-copy"><strong>${esc(x.title)}</strong><small>${byline}${esc(meta)}</small></span></a></li>`;
+  return `<li class="news-row"><span class="rank">${String(i+1).padStart(2,"0")}</span><a class="news-image-link" href="${esc(x.link)}" target="_blank" rel="noopener" aria-label="${esc(x.title)}">${fallback?`<img class="poster news-thumb" src="${esc(fallback)}" alt="" data-stock-fallback="${esc(fallback)}" data-stock-fallbacks="${esc(JSON.stringify(fallbacks))}">`:`<span class="poster news-thumb news-thumb-fallback">W</span>`}</a><a class="news-story" href="${esc(x.link)}" target="_blank" rel="noopener"><span class="news-copy"><strong>${esc(x.title)}</strong><small>${byline}${esc(meta)}</small></span></a></li>`;
  }).join("");
  $("#newsChart").querySelectorAll("img[data-stock-fallback]").forEach(img=>{
   img.addEventListener("error",()=>{
