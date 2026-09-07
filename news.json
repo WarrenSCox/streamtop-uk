@@ -1,9 +1,18 @@
 {
-  "updated": "2026-09-07T20:50:46.346Z",
+  "updated": "2026-09-07T20:55:10.180Z",
   "categories": {
     "UK": [
       {
-        "title": "Portsmouth protest leader calls Nigel Farage his hero and blames ‘lefties’ for smashed police car",
+        "title": "Miliband to toughen UK stance on Israel in 'reset' statement",
+        "link": "https://news.sky.com/story/miliband-to-toughen-uk-stance-on-israel-in-reset-statement-13582950",
+        "published": "Mon, 07 Sep 2026 21:37:00 +0100",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-ed-miliband-commons_7337603.jpg?20260901144848"
+      },
+      {
+        "title": "Portsmouth protest leader calls Nigel Farage his hero and blames ‘lefties’ after police pushed off motorbikes",
         "link": "https://metro.co.uk/2026/09/07/portsmouth-leader-calls-farage-hero-blames-lefties-smashed-police-car-29556952/",
         "published": "Mon, 07 Sep 2026 19:55:37 +0000",
         "source": "Metro",
@@ -64,15 +73,6 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/09/1920x1080/skynews-boris-johnson-carrie_7344485.jpg?20260907190301"
-      },
-      {
-        "title": "Harry and Meghan are still not working royals",
-        "link": "https://metro.co.uk/2026/09/07/harry-meghan-still-not-working-royals-29556057/",
-        "published": "Mon, 07 Sep 2026 17:16:17 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News UK Meghan Markle Duchess of Sussex Prince Harry",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_311217257-cd6c.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "Ex-footballer Joey Barton to stay in custody ahead of assault trial next year",
@@ -187,7 +187,7 @@
     ],
     "POLITICS": [
       {
-        "title": "Portsmouth protest leader calls Nigel Farage his hero and blames ‘lefties’ for smashed police car",
+        "title": "Portsmouth protest leader calls Nigel Farage his hero and blames ‘lefties’ after police pushed off motorbikes",
         "link": "https://metro.co.uk/2026/09/07/portsmouth-leader-calls-farage-hero-blames-lefties-smashed-police-car-29556952/",
         "published": "Mon, 07 Sep 2026 19:55:37 +0000",
         "source": "Metro",
@@ -776,6 +776,15 @@
             "image": "https://e3.365dm.com/26/09/1920x1080/skynews-boris-johnson-carrie_7344485.jpg?20260907190301"
           },
           {
+            "title": "Miliband to toughen UK stance on Israel in 'reset' statement",
+            "link": "https://news.sky.com/story/miliband-to-toughen-uk-stance-on-israel-in-reset-statement-13582950",
+            "published": "Mon, 07 Sep 2026 21:37:00 +0100",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-ed-miliband-commons_7337603.jpg?20260901144848"
+          },
+          {
             "title": "Police injured and vehicles damaged during anti-migrant protest in Portsmouth",
             "link": "https://news.sky.com/story/officers-injured-and-vehicles-damaged-during-anti-migrant-protest-in-portsmouth-as-police-hunt-suspects-13582779",
             "published": "Mon, 07 Sep 2026 12:49:00 +0100",
@@ -837,15 +846,6 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/09/1920x1080/skynews-liam-gallagher-noel-gallagher_7344243.jpg?20260907131510"
-          },
-          {
-            "title": "A misunderstanding at the heart of the seven-year gifting rule... | Money newsletter",
-            "link": "https://news.sky.com/story/money-newsletter-sky-news-personal-finance-13367142",
-            "published": "Tue, 13 May 2025 13:06:00 +0100",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/08/1920x1080/skynews-inheritance-tax-money_7330521.jpg?20260825065628"
           }
         ],
         "WORLD": [
@@ -2444,7 +2444,7 @@
       "categories": {
         "UK": [
           {
-            "title": "Portsmouth protest leader calls Nigel Farage his hero and blames ‘lefties’ for smashed police car",
+            "title": "Portsmouth protest leader calls Nigel Farage his hero and blames ‘lefties’ after police pushed off motorbikes",
             "link": "https://metro.co.uk/2026/09/07/portsmouth-leader-calls-farage-hero-blames-lefties-smashed-police-car-29556952/",
             "published": "Mon, 07 Sep 2026 19:55:37 +0000",
             "source": "Metro",
@@ -2853,7 +2853,7 @@
             "image": "https://metro.co.uk/wp-content/uploads/2026/08/SEI_308911786-d018.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Portsmouth protest leader calls Nigel Farage his hero and blames ‘lefties’ for smashed police car",
+            "title": "Portsmouth protest leader calls Nigel Farage his hero and blames ‘lefties’ after police pushed off motorbikes",
             "link": "https://metro.co.uk/2026/09/07/portsmouth-leader-calls-farage-hero-blames-lefties-smashed-police-car-29556952/",
             "published": "Mon, 07 Sep 2026 19:55:37 +0000",
             "source": "Metro",
@@ -3689,24 +3689,6 @@
             "image": ""
           },
           {
-            "title": "Wall St ends higher as stocks reclaim some shine",
-            "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUmZ3SUhHbXJYY2d1bWZHdjZ4MHIzLWdpTzFRWGdWU0pfZDhpV3ZoWVJnY194WF9PR0UxQjRES2NjOHBIbkpTcW9iY1l0Y05uYS1kd1Fha2lnYXNVS1VyZ0xlWGVPaF9Qamh6R2lLZDF5bDBLUFdaTU1RNmtoMVhhcEFCdWJvZWlxNUpYc2FuSG0zb2hFRW1IUW9OZWVOUFNwbWF3V1ZWS2xoaFQ5ZV9CdFpGVEo?oc=5",
-            "published": "Wed, 02 Sep 2026 22:19:32 GMT",
-            "source": "Reuters",
-            "provider": "REUTERS",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "European shares hit by rising bond yields, energy-driven inflation concerns",
-            "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPME1pdGN2bXZCdHkxUDdIazdHeHpCM0FrbVNIa2lHOVNOWnA5Ulk2UVpUdGhSWGJpNEE4ckFqeXFVZjhTV2FscDhPNG83RWRxMnVEZDF1TDNUT3ZuSnlYR05PbHVTWTlYUFhnNjhmM3hqR1dZcFJsV25FWmh4cXV1ZkN2RjNQMDcxeDJRMVVoRTE3dEJ4LXJubmdHQ1FjUkowbEFPQmc4SE9mYl9jY0hXeGZnNUJoSU1VU0RQVEN1VHdqeFE4WTc1WA?oc=5",
-            "published": "Wed, 02 Sep 2026 16:39:46 GMT",
-            "source": "Reuters",
-            "provider": "REUTERS",
-            "categories": "",
-            "image": ""
-          },
-          {
             "title": "Bond selloff deepens as oil prices and public debt fears jolt markets",
             "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPSkJqeC1yeWhxa0NETU9oT1R3YUdoYm9fNE4zamM3MlhJTUFkZ3gwWDliZmFZRHpXaEFOLW1JMHN4dEhkTTlfY282eG9yWlJZRVpaR281SlMtWkpuLTRXYnQ4dkt0VnlwckFQU0JUR21WM2VBZTRYb3VKM0M0Zlg3aF83SUY0WERMb2dWdWlLQ3U2ZmlON1pJdU5WMTdEVUZoNlowM0ZhZDJNeEdFcUE?oc=5",
             "published": "Wed, 02 Sep 2026 16:07:30 GMT",
@@ -3716,9 +3698,27 @@
             "image": ""
           },
           {
-            "title": "Stocks climb and US yields ease; yen jumps against dollar",
-            "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB0WUhpSzJRLUpQRnRFZFhzQTlMckJ1alJaa1RQaGo0RjdoZ0h3Y0VQd1I0NkxvS3AzWElTTTJFSF9KMEQ1U1lWVlNDZ2lud19wMW85LWpyQWJoNzltaFctdkdtRzMyWVZDam5yZWtxRHlzcUJBR3R4VHNHWQ?oc=5",
-            "published": "Wed, 02 Sep 2026 16:05:20 GMT",
+            "title": "Global bonds extend selloff, oil prices surge on renewed US-Iran strikes",
+            "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUzRjcDczTGxqaGRleWZNeUwtZnpOTjRjNWhmSEt2YkQtY1ZwaDdhZ2RxX0hCWEZZdXpPSmlWZW45ZVBHM2lsMU9XalYtNEl1cGxpWjVhVTR2cDU1ajlNMzRJb3FZaGZ4akprMWhPNmd4cmJFOFI1Q29iWlI0ZnFXNXljcw?oc=5",
+            "published": "Tue, 01 Sep 2026 23:36:26 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "SoftBank-backed SB Energy files for US IPO as AI turbocharges infrastructure demand",
+            "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPOWs5azJGWFlYTnJCV1FTak9LYXZtUkNYOGFaZzhNWkhHSEhLMkJMVVdYX2U1ek9mTmJoRFl0YUxoX2Njc0htbVhjcDU5bklsd0c4c29FeUxIdVFrd2pvak9ENTBHZV9CcXB5YVdudDdJV0IzWlU1c082SEJ4RF9yZFd0MVZHcUFIWGdQbXVSZ1FfSmxKQ1B2NFkxQktIR0kyRnlKNzVzdlNxcXZQOHZHRGhfRFhKLUVvbU9LRWctUWpmUQ?oc=5",
+            "published": "Tue, 01 Sep 2026 21:16:59 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "LSEG plans tokenised UK shares, partners with Kraken-owner Payward",
+            "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdWxrdFBDRWlackVodG56d0oxd25qX0R3NDNTXzJJWURIbzZxejJBYk9DQVd3dEJtcUd4MUZ2QVVpbFJIUi1ETm0za2d5VUtfSkRRSGR2U0F6eHZZblh2b1A5TnVrVVJKZGJ0UnZoRlNBUEgyR1A4S2Fmc0JnRU1hZkI2OWtFekc2VzlEUGtKZDl0NFhYM0pwUmUySk1YaHNOc2Y2X1lmaXNUVno0NFlz?oc=5",
+            "published": "Tue, 01 Sep 2026 11:58:46 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3850,5 +3850,5 @@
       }
     }
   },
-  "stocksUpdated": "2026-09-07T20:50:55.980Z"
+  "stocksUpdated": "2026-09-07T20:55:21.205Z"
 }
