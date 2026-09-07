@@ -1,15 +1,33 @@
 {
-  "updated": "2026-09-07T12:19:23.036Z",
+  "updated": "2026-09-07T12:44:14.131Z",
   "categories": {
     "UK": [
       {
+        "title": "Why are there so many spiders in your home right now?",
+        "link": "https://metro.co.uk/2026/09/07/many-spiders-home-right-now-29552824/",
+        "published": "Mon, 07 Sep 2026 12:28:47 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News UK Animals Spiders",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_311180280-5d77.jpg?quality=90&strip=all&w=646"
+      },
+      {
         "title": "Opposition parties accuse Healey of offering ‘more of the same’ in his first major speech as chancellor – UK politics live",
         "link": "https://www.theguardian.com/politics/live/2026/sep/07/uk-politics-live-john-healey-economy-portsmouth-immigration-protests-latest-news-updates",
-        "published": "Mon, 07 Sep 2026 12:03:10 GMT",
+        "published": "Mon, 07 Sep 2026 12:21:31 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
         "categories": "Politics UK news Labour John Healey Economic policy Immigration and asylum Migration Protest Portsmouth Economics Business Tax and spending",
         "image": "https://i.guim.co.uk/img/media/390a4b04be5292dd5b57554e51ddf5e284be0265/591_0_3498_2799/master/3498.jpg?width=140&quality=85&auto=format&fit=max&s=8003f0869d90c4ec20424089bf573516"
+      },
+      {
+        "title": "Four arrested after baby dies on camping trip in Staffordshire",
+        "link": "https://www.theguardian.com/uk-news/2026/sep/07/four-arrested-baby-girl-dies-camping-trip-staffordshire-woodland",
+        "published": "Mon, 07 Sep 2026 12:15:51 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Staffordshire UK news",
+        "image": "https://i.guim.co.uk/img/media/fc79a78475fb4495a23ca112c521b3a28bcf7c7b/225_130_2495_1996/master/2495.jpg?width=140&quality=85&auto=format&fit=max&s=ccbfbbe8ec01b2819505f6479b37ac19"
       },
       {
         "title": "Man at heart of 9/11 lawsuit ‘went paintballing with al-Qaeda leader’",
@@ -48,15 +66,6 @@
         "image": "https://i.guim.co.uk/img/media/5d8d7b9e94d07d02cf1002e7d4b38ff53594b651/8_292_4058_3245/master/4058.jpg?width=140&quality=85&auto=format&fit=max&s=f1d34f5271faab8aa50a406e0744b513"
       },
       {
-        "title": "Jaguar Land Rover confirms plan to cut 4,000 jobs over two years",
-        "link": "https://www.theguardian.com/business/2026/sep/07/jaguar-land-rover-job-trump-tariffs",
-        "published": "Mon, 07 Sep 2026 11:15:37 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Jaguar Land Rover Automotive industry Business Job losses Manufacturing sector Trump tariffs Tariffs UK news Jonathan Reynolds World news Trade unions",
-        "image": "https://i.guim.co.uk/img/media/4f876e3664001c63f64854ba45a1ea7e118136d5/922_112_2553_2043/master/2553.jpg?width=140&quality=85&auto=format&fit=max&s=8964f04788cddf0e80c3280e74cec754"
-      },
-      {
         "title": "Two men and two women arrested over ‘murder’ of baby who died camping with family",
         "link": "https://metro.co.uk/2026/09/07/two-men-two-women-arrested-murder-baby-who-died-camping-family-29553886/",
         "published": "Mon, 07 Sep 2026 11:11:56 +0000",
@@ -64,15 +73,6 @@
         "provider": "METRO",
         "categories": "News UK Crime News Death",
         "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310874811-d26c.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "What is Patriot Platform, the far-right group that descended on Dover and Portsmouth?",
-        "link": "https://www.theguardian.com/politics/2026/sep/07/patriot-platform-far-right-group-dover-portsmouth",
-        "published": "Mon, 07 Sep 2026 11:02:25 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Far right Immigration and asylum Tommy Robinson Portsmouth England UK news",
-        "image": "https://i.guim.co.uk/img/media/1d3264f3f0b1f662787fd1ed956a1aef214bc47c/882_0_2343_1875/master/2343.jpg?width=140&quality=85&auto=format&fit=max&s=1e2a0698bb433e078de7e5c38c756407"
       },
       {
         "title": "Man bitten by dog on path 'died from complications of leg wound', inquest hears",
@@ -189,10 +189,10 @@
       {
         "title": "Opposition parties accuse Healey of offering ‘more of the same’ in his first major speech as chancellor – UK politics live",
         "link": "https://www.theguardian.com/politics/live/2026/sep/07/uk-politics-live-john-healey-economy-portsmouth-immigration-protests-latest-news-updates",
-        "published": "Mon, 07 Sep 2026 12:03:10 GMT",
+        "published": "Mon, 07 Sep 2026 12:31:29 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
-        "categories": "Politics UK news Labour John Healey Economic policy Immigration and asylum Migration Protest Portsmouth Economics Business Tax and spending",
+        "categories": "Politics UK news Labour John Healey Economic policy Immigration and asylum Migration Protest Portsmouth Economics Business Tax and spending Green party Zack Polanski",
         "image": "https://i.guim.co.uk/img/media/390a4b04be5292dd5b57554e51ddf5e284be0265/591_0_3498_2799/master/3498.jpg?width=140&quality=85&auto=format&fit=max&s=8003f0869d90c4ec20424089bf573516"
       },
       {
@@ -463,6 +463,15 @@
     ],
     "ENTERTAINMENT": [
       {
+        "title": "Top secret documentary about jaw-dropping scandal comes out of nowhere: ‘Best film of the year’",
+        "link": "https://metro.co.uk/2026/09/07/top-secret-documentary-comes-nowhere-hailed-best-film-year-29554377/",
+        "published": "Mon, 07 Sep 2026 12:34:03 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Entertainment Showbiz",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_311191414-9950.jpg?quality=90&strip=all&w=646"
+      },
+      {
         "title": "Stacey Solomon fans are convinced her new house is ‘haunted’ after she gives inside tour",
         "link": "https://metro.co.uk/2026/09/07/stacey-solomon-fans-convinced-new-house-haunted-gives-inside-tour-29553175/",
         "published": "Mon, 07 Sep 2026 10:54:58 +0000",
@@ -488,15 +497,6 @@
         "provider": "METRO",
         "categories": "Entertainment Showbiz Black Sabbath Celebrity Deaths Jack Osbourne Ozzy Osbourne",
         "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_311183984-29db.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Coronation Street confirms who Kit slept with – and it’s a major shock",
-        "link": "https://metro.co.uk/2026/09/07/coronation-street-confirms-kit-slept-a-major-shock-29552653/",
-        "published": "Mon, 07 Sep 2026 10:33:01 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Coronation Street Soaps Bethany Platt Jacob Roberts Kit Green Lucy Fallon",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/07/SEI_306774174-151a.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "‘Like a tired boxer, battered by applause’: as Andrew Scott’s biopic premieres, Richard Eyre remembers Ian Charleson’s superb, near-death Hamlet",
@@ -647,15 +647,6 @@
             "image": "https://e3.365dm.com/26/09/1920x1080/skynews-portsmouth-protesters_7343909.jpg?20260907073042"
           },
           {
-            "title": "'Thuggish' behaviour at anti-migrant protest condemned - as hundreds of demonstrators gather after small boat arrival",
-            "link": "https://news.sky.com/story/140-migrants-in-one-small-boat-intercepted-in-english-channel-sky-news-understands-13582562",
-            "published": "Sun, 06 Sep 2026 20:45:00 +0100",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-police-protesters-portsmouth_7343907.jpg?20260907073021"
-          },
-          {
             "title": "Four murder arrests after baby girl dies while camping with family",
             "link": "https://news.sky.com/story/four-murder-arrests-after-baby-girl-dies-while-camping-with-family-in-staffordshire-13581184",
             "published": "Mon, 07 Sep 2026 08:00:00 +0100",
@@ -717,6 +708,15 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/08/1920x1080/skynews-inheritance-tax-money_7330521.jpg?20260825065628"
+          },
+          {
+            "title": "Scottish government told to take sewage 'crisis' seriously after record 100,000 spills",
+            "link": "https://news.sky.com/story/scottish-government-told-to-take-sewage-crisis-seriously-after-record-100000-spills-13581777",
+            "published": "Sun, 06 Sep 2026 00:01:00 +0100",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/25/07/1920x1080/skynews-sewage-rivers_6968697.jpg?20250719173745"
           }
         ],
         "WORLD": [
@@ -1186,11 +1186,20 @@
           {
             "title": "Opposition parties accuse Healey of offering ‘more of the same’ in his first major speech as chancellor – UK politics live",
             "link": "https://www.theguardian.com/politics/live/2026/sep/07/uk-politics-live-john-healey-economy-portsmouth-immigration-protests-latest-news-updates",
-            "published": "Mon, 07 Sep 2026 12:03:10 GMT",
+            "published": "Mon, 07 Sep 2026 12:21:31 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
             "categories": "Politics UK news Labour John Healey Economic policy Immigration and asylum Migration Protest Portsmouth Economics Business Tax and spending",
             "image": "https://i.guim.co.uk/img/media/390a4b04be5292dd5b57554e51ddf5e284be0265/591_0_3498_2799/master/3498.jpg?width=140&quality=85&auto=format&fit=max&s=8003f0869d90c4ec20424089bf573516"
+          },
+          {
+            "title": "Four arrested after baby dies on camping trip in Staffordshire",
+            "link": "https://www.theguardian.com/uk-news/2026/sep/07/four-arrested-baby-girl-dies-camping-trip-staffordshire-woodland",
+            "published": "Mon, 07 Sep 2026 12:15:51 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Staffordshire UK news",
+            "image": "https://i.guim.co.uk/img/media/fc79a78475fb4495a23ca112c521b3a28bcf7c7b/225_130_2495_1996/master/2495.jpg?width=140&quality=85&auto=format&fit=max&s=ccbfbbe8ec01b2819505f6479b37ac19"
           },
           {
             "title": "UK house prices fall for first time since 2023, led by London and south-east",
@@ -1254,15 +1263,6 @@
             "provider": "GUARDIAN",
             "categories": "Portsmouth Tommy Robinson Immigration and asylum Home Office UK news Politics World news Far right",
             "image": "https://i.guim.co.uk/img/media/72f467ceb30e91ce3b124ceaee03fa04639c7ff9/121_0_3838_3072/master/3838.jpg?width=140&quality=85&auto=format&fit=max&s=7d630e2d786dccbd924cfc71a1d298f8"
-          },
-          {
-            "title": "Ministers propose converting female prison estate into cells for men",
-            "link": "https://www.theguardian.com/society/2026/sep/07/ministers-propose-converting-female-prison-estate-into-cells-for-men",
-            "published": "Mon, 07 Sep 2026 06:00:27 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Prisons and probation Society UK criminal justice Women UK news",
-            "image": "https://i.guim.co.uk/img/media/6f526a9481d66a328fdc68c247cfca0a417901b1/176_0_1702_1361/master/1702.jpg?width=140&quality=85&auto=format&fit=max&s=ebfb40d7f56bb78ab3d3eb1cd5397b07"
           },
           {
             "title": "‘We can win here’: Zack Polanski presses the flesh in Holborn and St Pancras",
@@ -1550,10 +1550,10 @@
           {
             "title": "Opposition parties accuse Healey of offering ‘more of the same’ in his first major speech as chancellor – UK politics live",
             "link": "https://www.theguardian.com/politics/live/2026/sep/07/uk-politics-live-john-healey-economy-portsmouth-immigration-protests-latest-news-updates",
-            "published": "Mon, 07 Sep 2026 12:03:10 GMT",
+            "published": "Mon, 07 Sep 2026 12:31:29 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Politics UK news Labour John Healey Economic policy Immigration and asylum Migration Protest Portsmouth Economics Business Tax and spending",
+            "categories": "Politics UK news Labour John Healey Economic policy Immigration and asylum Migration Protest Portsmouth Economics Business Tax and spending Green party Zack Polanski",
             "image": "https://i.guim.co.uk/img/media/390a4b04be5292dd5b57554e51ddf5e284be0265/591_0_3498_2799/master/3498.jpg?width=140&quality=85&auto=format&fit=max&s=8003f0869d90c4ec20424089bf573516"
           },
           {
@@ -2306,6 +2306,15 @@
       "categories": {
         "UK": [
           {
+            "title": "Why are there so many spiders in your home right now?",
+            "link": "https://metro.co.uk/2026/09/07/many-spiders-home-right-now-29552824/",
+            "published": "Mon, 07 Sep 2026 12:28:47 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News UK Animals Spiders",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_311180280-5d77.jpg?quality=90&strip=all&w=646"
+          },
+          {
             "title": "Man at heart of 9/11 lawsuit ‘went paintballing with al-Qaeda leader’",
             "link": "https://metro.co.uk/2026/09/07/man-heart-9-11-lawsuit-went-paintballing-al-qaeda-leader-29553961/",
             "published": "Mon, 07 Sep 2026 12:01:23 +0000",
@@ -2475,15 +2484,6 @@
             "provider": "METRO",
             "categories": "News World Germany Russia Russia-Ukraine war Vladimir Putin",
             "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_307757716-d7d0.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Woman wins £115,000,000 lottery – and gives half of it away",
-            "link": "https://metro.co.uk/2026/09/06/woman-wins-115-000-000-lottery-gives-half-away-29547501/",
-            "published": "Sun, 06 Sep 2026 13:44:23 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News UK Charity Lottery",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_311003814-3d58.jpg?quality=90&strip=all&w=646"
           }
         ],
         "WORLD": [
@@ -2928,6 +2928,15 @@
         ],
         "ENTERTAINMENT": [
           {
+            "title": "Top secret documentary about jaw-dropping scandal comes out of nowhere: ‘Best film of the year’",
+            "link": "https://metro.co.uk/2026/09/07/top-secret-documentary-comes-nowhere-hailed-best-film-year-29554377/",
+            "published": "Mon, 07 Sep 2026 12:34:03 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment Showbiz",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_311191414-9950.jpg?quality=90&strip=all&w=646"
+          },
+          {
             "title": "Stacey Solomon fans are convinced her new house is ‘haunted’ after she gives inside tour",
             "link": "https://metro.co.uk/2026/09/07/stacey-solomon-fans-convinced-new-house-haunted-gives-inside-tour-29553175/",
             "published": "Mon, 07 Sep 2026 10:54:58 +0000",
@@ -3045,24 +3054,6 @@
             "image": "https://metro.co.uk/wp-content/uploads/2026/07/SEI_109718564-9b32.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Wrestler Andy ‘The Butcher’ Williams dies aged 48 after hitting head during match",
-            "link": "https://metro.co.uk/2026/09/06/wrestler-andy-the-butcher-williams-dies-aged-48-collapsing-end-match-29547805/",
-            "published": "Sun, 06 Sep 2026 14:05:15 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Entertainment TV Celebrity Deaths US Showbiz news WWE",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_311041940-5a5a-e1788721912657.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Only Sixteen singer Craig Douglas dies aged 85",
-            "link": "https://metro.co.uk/2026/09/06/sixteen-singer-craig-douglas-dies-aged-85-29547652/",
-            "published": "Sun, 06 Sep 2026 13:53:51 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Entertainment Music 60s nostalgia British musicians Celebrity Deaths",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310994858-73af.jpg?quality=90&strip=all&w=646"
-          },
-          {
             "title": "Michelle Ryan breaks silence on EastEnders exit and decision to kill Zoe off",
             "link": "https://metro.co.uk/2026/09/07/michelle-ryan-breaks-silence-eastenders-exit-decision-kill-zoe-off-29553336/",
             "published": "Mon, 07 Sep 2026 10:47:10 +0000",
@@ -3114,7 +3105,7 @@
         },
         "ENTERTAINMENT": {
           "ok": true,
-          "count": 18
+          "count": 17
         }
       }
     }
