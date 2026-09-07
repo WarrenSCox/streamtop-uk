@@ -1139,7 +1139,7 @@ async function lookupArtistPhoto(item){
         .sort((a,b)=>b.score-a.score)[0]?.p;
       if(best){
         console.log(`Music artwork fallback: artist photo for "${item.title}" by ${artist} via Wikipedia (${best.title})`);
-        return {...item,poster:best.thumbnail.source,posterSource:'artist-photo:wikipedia',artistPageUrl:best.fullurl||null};
+        const {chartCountry,...clean}=item; return {...clean,poster:best.thumbnail.source,posterSource:'artist-photo:wikipedia',artistPageUrl:best.fullurl||null};
       }
     }
 
@@ -1155,7 +1155,7 @@ async function lookupArtistPhoto(item){
       .sort((a,b)=>b.score-a.score)[0]?.p;
     if(best){
       console.log(`Music artwork fallback: artist photo for "${item.title}" by ${artist} via Wikipedia search (${best.title})`);
-      return {...item,poster:best.thumbnail.source,posterSource:'artist-photo:wikipedia',artistPageUrl:best.fullurl||null};
+      const {chartCountry,...clean}=item; return {...clean,poster:best.thumbnail.source,posterSource:'artist-photo:wikipedia',artistPageUrl:best.fullurl||null};
     }
   }catch(e){
     console.warn(`Music Wikipedia artist image fallback failed for ${artist}: ${e.message}`);
@@ -1178,16 +1178,53 @@ async function lookupArtistPhoto(item){
       if(!image)continue;
       const poster=commonsThumb(image,600);
       console.log(`Music artwork fallback: artist photo for "${item.title}" by ${artist} via Wikidata/Commons (${candidate.id})`);
-      return {...item,poster,posterSource:'artist-photo:wikidata',artistPageUrl:`https://www.wikidata.org/wiki/${candidate.id}`};
+      const {chartCountry,...clean}=item; return {...clean,poster,posterSource:'artist-photo:wikidata',artistPageUrl:`https://www.wikidata.org/wiki/${candidate.id}`};
     }
   }catch(e){
     console.warn(`Music Wikidata artist image fallback failed for ${artist}: ${e.message}`);
   }
 
-  console.warn(`Music artwork fallback: no artist photo found for "${item.title}" by ${artist}`);
+  console.warn(`Music artwork fallback: no artist photo found for "${item.title}" by ${artist}; trying associated Apple artwork`);
+  return await lookupArtistAssociatedArtwork(item,item?.chartCountry||'US');
+}
+async function lookupArtistAssociatedArtwork(item,country='US'){
+  const artist=String(item.artist||'').trim();
+  if(!artist)return item;
+  const wanted=normMusic(artist);
+  try{
+    const terms=[artist,`"${artist}"`];
+    let best=null,bestScore=0;
+    for(const q of terms){
+      const url=`https://itunes.apple.com/search?term=${encodeURIComponent(q)}&country=${country}&media=music&entity=song&limit=30`;
+      const data=JSON.parse(await fetchText(url,{'accept':'application/json'}));
+      for(const row of (Array.isArray(data?.results)?data.results:[])){
+        const ra=normMusic(row?.artistName||'');
+        let score=0;
+        if(ra===wanted)score=10;
+        else if(ra&&wanted&&(ra.includes(wanted)||wanted.includes(ra)))score=7;
+        if(score>bestScore&&(row?.artworkUrl100||row?.artworkUrl60)){
+          best=row; bestScore=score;
+        }
+      }
+      if(bestScore>=10)break;
+    }
+    if(best&&bestScore>=7){
+      const art=best.artworkUrl100||best.artworkUrl60;
+      console.log(`Music artwork fallback: associated Apple artwork for "${item.title}" by ${artist} (${best.collectionName||best.trackName||'artist match'})`);
+      const {chartCountry,...clean}=item;
+      return {...clean,
+        poster:art.replace(/\/100x100bb(?:-\d+)?\./,'/400x400bb.'),
+        posterSource:'artist-associated-artwork:apple'
+      };
+    }
+  }catch(e){
+    console.warn(`Music associated Apple artwork fallback failed for ${artist}: ${e.message}`);
+  }
   return item;
 }
+
 async function lookupMusicArtwork(item,country='US',kind='SINGLE'){
+  item={...item,chartCountry:country};
   // Chart sites often prefix brand-new albums with "New" and Billboard may
   // append format labels such as "(EP)".  Those strings are useful on the
   // chart but make Apple's artwork search miss the release — most noticeably
@@ -1303,7 +1340,7 @@ async function fetchOfficialMusicChart(url,label){
 }
 
 let previous={}; try{previous=JSON.parse(await readFile('data/rankings.json','utf8'));}catch{}
-const output={version:20,generatedAt:new Date().toISOString(),country:'GB',strategy:'Official source first; labelled fallback when no compatible official chart is available.',services:{}};
+const output={version:21,generatedAt:new Date().toISOString(),country:'GB',strategy:'Official source first; labelled fallback when no compatible official chart is available.',services:{}};
 const packageData=await gql(PACKAGES_QUERY,{country:'GB',platform:'WEB'}); const packages=packageData?.packages||[];
 let netflixOfficial=null; try{netflixOfficial=await fetchOfficialNetflix(); console.log(`Netflix official week ${netflixOfficial.week}`);}catch(err){console.error('Netflix official:',err.message);}
 let appleMoviesOfficial=null; try{appleMoviesOfficial=await fetchOfficialApple(APPLE_MOVIES_URL,'MOVIE'); console.log(`Apple official movies: ${appleMoviesOfficial.length}`);}catch(err){console.error('Apple official movies:',err.message);}
