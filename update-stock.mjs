@@ -114,7 +114,7 @@ export function mixStocks(rowsBySource,limit=10){
 }
 
 async function fetchText(url,accept="text/html,application/xhtml+xml,application/rss+xml,application/xml;q=0.9,*/*;q=0.8"){
- const r=await fetch(url,{redirect:"follow",signal:AbortSignal.timeout(15000),headers:{"User-Agent":"Mozilla/5.0 (compatible; WozzaNews/6.2.55)",Accept:accept}});
+ const r=await fetch(url,{redirect:"follow",signal:AbortSignal.timeout(15000),headers:{"User-Agent":"Mozilla/5.0 (compatible; WozzaNews/6.2.56)",Accept:accept}});
  if(!r.ok)throw Error(`${r.status} ${r.statusText}`);
  return {text:await r.text(),url:r.url};
 }
@@ -125,8 +125,62 @@ async function fetchFeed(url){
 export function usefulImage(url){
  const value=String(url||"").trim();
  if(!/^https?:\/\//i.test(value))return false;
- // Google News/feed branding and tiny publisher marks are not article thumbnails.
- return !/(?:news\.google\.com|gstatic\.com\/(?:images\/branding|.*(?:favicon|logo))|googleusercontent\.com\/.*(?:favicon|logo)|\/favicon(?:[./?]|$)|\blogo(?:[._-]|\/))/i.test(value);
+ // Never use Google News / Google product artwork as an article thumbnail.
+ // Some Google News CDN image URLs do not contain the words "logo" or "favicon",
+ // which is why the previous filter still let the multicolour Google News icon through.
+ return !/(?:^|\.)news\.google\.|(?:^|\.)googleusercontent\.com|(?:^|\.)gstatic\.com|(?:^|\.)google\.com\/.*(?:news|branding)|\/favicon(?:[./?]|$)|\blogo(?:[._-]|\/)/i.test(value.replace(/^https?:\/\//i,""));
+}
+function providerHost(provider,hostname){
+ const h=String(hostname||"").toLowerCase().replace(/^www\./,"");
+ if(provider==="MAGPIE")return h==="twelfthmagpie.com"||h.endsWith(".twelfthmagpie.com")||h==="fool.co.uk"||h.endsWith(".fool.co.uk");
+ if(provider==="YAHOO")return h==="finance.yahoo.com"||h==="uk.finance.yahoo.com"||h.endsWith(".finance.yahoo.com");
+ if(provider==="REUTERS")return h==="reuters.com"||h.endsWith(".reuters.com");
+ return false;
+}
+function isProviderUrl(url,provider){try{return providerHost(provider,new URL(url).hostname)}catch{return false}}
+function normalisePageText(text){
+ return decode(String(text||""))
+  .replace(/\\u0026/gi,"&").replace(/\\u003d/gi,"=").replace(/\\u002f/gi,"/")
+  .replace(/\\\//g,"/").replace(/&amp;/gi,"&");
+}
+export function publisherUrlFromPage(text,provider){
+ const body=normalisePageText(text);
+ const candidates=[];
+ for(const m of body.matchAll(/https?:\/\/[^\s"'<>\\]+/gi)){
+  const candidate=m[0].replace(/[),.;]+$/g,"");
+  if(isProviderUrl(candidate,provider))candidates.push(candidate);
+ }
+ // Prefer a real article-like path rather than a publisher homepage/assets URL.
+ return candidates.sort((a,b)=>{
+  const score=u=>{try{const x=new URL(u);return (x.pathname.split("/").filter(Boolean).length*10)+(/\/(?:article|markets|business|investing|news)\//i.test(x.pathname)?25:0)-(/\/(?:assets|static|cdn|image|images)\//i.test(x.pathname)?100:0)}catch{return -999}};
+  return score(b)-score(a);
+ })[0]||"";
+}
+export function bestPageImage(text){
+ const body=normalisePageText(text);
+ const meta=[
+  /<meta\b[^>]*(?:property|name)=["']og:image(?::url)?["'][^>]*content=["']([^"']+)["'][^>]*>/i,
+  /<meta\b[^>]*content=["']([^"']+)["'][^>]*(?:property|name)=["']og:image(?::url)?["'][^>]*>/i,
+  /<meta\b[^>]*(?:property|name)=["']twitter:image(?::src)?["'][^>]*content=["']([^"']+)["'][^>]*>/i,
+  /<meta\b[^>]*content=["']([^"']+)["'][^>]*(?:property|name)=["']twitter:image(?::src)?["'][^>]*>/i
+ ];
+ for(const re of meta){const u=decode(body.match(re)?.[1]||"");if(usefulImage(u))return u}
+ // Publisher pages often expose the hero image in JSON-LD / hydration state instead.
+ const jsonPatterns=[
+  /["']image["']\s*:\s*["'](https?:\\?\/\\?\/[^"']+)["']/i,
+  /["']originalUrl["']\s*:\s*["'](https?:\\?\/\\?\/[^"']+)["']/i,
+  /["']url["']\s*:\s*["'](https?:\\?\/\\?\/[^"']+)["'][^{}]{0,160}["'](?:width|height)["']/i
+ ];
+ for(const re of jsonPatterns){
+  const raw=body.match(re)?.[1]||"";
+  const u=decode(raw.replace(/\\\//g,"/"));if(usefulImage(u))return u;
+ }
+ return "";
+}
+function canonicalFromPage(text){
+ const body=normalisePageText(text);
+ return decode(body.match(/<link\b[^>]*rel=["']canonical["'][^>]*href=["']([^"']+)["'][^>]*>/i)?.[1]
+  ||body.match(/<link\b[^>]*href=["']([^"']+)["'][^>]*rel=["']canonical["'][^>]*>/i)?.[1]||"");
 }
 function yahooThumbnail(item){
  const resolutions=item?.thumbnail?.resolutions||item?.content?.thumbnail?.resolutions||[];
@@ -157,19 +211,31 @@ async function fetchYahooSearch(query){
  return parseYahooSearch(JSON.parse(text));
 }
 async function enrichRow(row){
- // Fill missing thumbnails from the article's OpenGraph image and, where a redirect resolves,
- // keep the publisher's final article URL rather than an aggregator link.
- if(usefulImage(row.image)&&!/news\.google\.com/i.test(row.link))return row;
+ let link=row.link,image=usefulImage(row.image)?row.image:"";
  try{
-  const {text,url}=await fetchText(row.link);
-  const og=text.match(/<meta\b[^>]*(?:property|name)=["'](?:og:image|twitter:image)["'][^>]*content=["']([^"']+)["'][^>]*>/i)?.[1]
-   ||text.match(/<meta\b[^>]*content=["']([^"']+)["'][^>]*(?:property|name)=["'](?:og:image|twitter:image)["'][^>]*>/i)?.[1];
-  const canonical=text.match(/<link\b[^>]*rel=["']canonical["'][^>]*href=["']([^"']+)["'][^>]*>/i)?.[1]
-   ||text.match(/<link\b[^>]*href=["']([^"']+)["'][^>]*rel=["']canonical["'][^>]*>/i)?.[1];
-  const existing=usefulImage(row.image)?row.image:"";
-  const recovered=usefulImage(decode(og||""))?decode(og||""):"";
-  return {...row,link:/^https?:\/\//i.test(canonical||"")?decode(canonical):url,image:existing||recovered};
- }catch{return row}
+  let first=await fetchText(link);
+  let pageText=first.text,finalUrl=first.url||link;
+
+  // Google News RSS article URLs commonly render a Google wrapper instead of redirecting.
+  // Extract the publisher URL from that wrapper and then inspect the actual publisher page.
+  if(!isProviderUrl(finalUrl,row.provider)){
+   const publisherUrl=publisherUrlFromPage(pageText,row.provider);
+   if(publisherUrl){
+    const publisherPage=await fetchText(publisherUrl);
+    pageText=publisherPage.text;finalUrl=publisherPage.url||publisherUrl;
+   }
+  }
+
+  const canonical=canonicalFromPage(pageText);
+  if(isProviderUrl(canonical,row.provider))finalUrl=canonical;
+  const recovered=bestPageImage(pageText);
+  if(recovered)image=recovered;
+  // Never keep a Google News wrapper/logo as either the article link's image or a stale feed image.
+  if(!usefulImage(image))image="";
+  return {...row,link:isProviderUrl(finalUrl,row.provider)?finalUrl:link,image};
+ }catch{
+  return {...row,image:usefulImage(image)?image:""};
+ }
 }
 async function enrichRows(rows){
  const out=[];for(let i=0;i<rows.length;i+=6){out.push(...await Promise.all(rows.slice(i,i+6).map(enrichRow)))}return out;
@@ -197,7 +263,7 @@ export async function updateStocks(){
   let live=unique(rows).filter(x=>ms(x)<=now+300000&&ms(x)>now-7*86400000).sort((a,b)=>ms(b)-ms(a)).slice(0,12).map(x=>({...x,image:usefulImage(x.image)?x.image:""}));
   live=await enrichRows(live);
   const prior=previous.providers?.[name]?.categories?.[STOCK_KEY]||previous.providers?.[name]?.categories?.[LEGACY_KEY]||[];
-  pools[name]=live.length?live:prior.filter(x=>ms(x)>now-7*86400000&&relevant(x));
+  pools[name]=live.length?live:prior.filter(x=>ms(x)>now-7*86400000&&relevant(x)).map(x=>({...x,image:usefulImage(x.image)?x.image:""}));
   health[name]={ok:live.length>0,count:live.length,retainedPrevious:live.length?0:pools[name].length,errors};
   console.log(`STOCKS ${name}: ${live.length} live, ${health[name].retainedPrevious} retained`);
   errors.forEach(e=>console.warn(`STOCKS ${name}: ${e}`));
