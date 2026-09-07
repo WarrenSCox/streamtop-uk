@@ -13,10 +13,56 @@ function updateSourceStrip(){
  $("#newsProviderSwitch").innerHTML=stock?`<div class="news-provider-btn" aria-label="The Twelfth Magpie"><span class="stock-logo magpie-logo"><b>TWELFTH</b><small>MAGPIE</small></span></div><div class="news-provider-btn" aria-label="Yahoo Finance UK"><span class="stock-logo yahoo-logo"><b>yahoo!</b><small>finance</small></span></div><div class="news-provider-btn" aria-label="Reuters"><span class="stock-logo reuters-logo"><span class="reuters-mark" aria-hidden="true">◌</span><b>Reuters</b></span></div>`:`<div class="news-provider-btn" aria-label="Sky News"><span class="sky-logo">sky <b>news</b></span></div><div class="news-provider-btn" aria-label="The Guardian"><span class="guardian-logo"><i>G</i><b>The<br>Guardian</b></span></div><div class="news-provider-btn" aria-label="Metro"><span class="metro-logo">METRO</span></div>`;
 }
 function categoryRows(){return data.categories?.[active]||[]}
-const STOCK_THUMBS=["stocks-growth.webp","stocks-allocation.webp","stocks-money.webp","stocks-global.webp"];
-function stockFallbackByOrder(n){
- if(n===0)return STOCK_THUMBS[0];
- return STOCK_THUMBS[1+((n-1)%3)];
+const STOCK_PHOTOS={
+ ai:[
+  "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=500&h=500&q=82",
+  "https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=500&h=500&q=82"
+ ],
+ markets:[
+  "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=500&h=500&q=82",
+  "https://images.unsplash.com/photo-1535320903710-d993d3d77d29?auto=format&fit=crop&w=500&h=500&q=82"
+ ],
+ money:[
+  "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=500&h=500&q=82",
+  "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?auto=format&fit=crop&w=500&h=500&q=82"
+ ],
+ business:[
+  "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=500&h=500&q=82",
+  "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=500&h=500&q=82"
+ ],
+ office:[
+  "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=500&h=500&q=82",
+  "https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=500&h=500&q=82"
+ ],
+ retail:[
+  "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=500&h=500&q=82",
+  "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=500&h=500&q=82"
+ ]
+};
+const STOCK_GENERIC=[
+ ...STOCK_PHOTOS.markets,...STOCK_PHOTOS.business,...STOCK_PHOTOS.money,...STOCK_PHOTOS.office
+];
+function stableIndex(text,n){
+ let h=0;for(const c of String(text||""))h=((h<<5)-h+c.charCodeAt(0))|0;
+ return Math.abs(h)%n;
+}
+function stockPhotoPool(item){
+ const t=String(item?.title||"").toLowerCase();
+ if(/\b(chatgpt|openai|ai\b|artificial intelligence|tech|technology|chip|semiconductor|software|spacex|tesla)\b/.test(t))return STOCK_PHOTOS.ai;
+ if(/\b(yen|dollar|euro|sterling|pound|currency|currencies|forex|fx|exchange rate|inflation|interest rate|rates|bond|yield|treasury|fed\b|federal reserve|bank of england)\b/.test(t))return STOCK_PHOTOS.money;
+ if(/\b(luxury|retail|shop|shopping|brand|fashion|shell|bp\b|oil|energy|consumer)\b/.test(t))return STOCK_PHOTOS.retail;
+ if(/\b(bank|banking|pank|finance|financial|lender|mortgage|credit)\b/.test(t))return STOCK_PHOTOS.business;
+ if(/\b(job|jobs|employment|payroll|worker|office|company|companies|business)\b/.test(t))return STOCK_PHOTOS.office;
+ if(/\b(stock|stocks|share|shares|ftse|market|markets|index|indices|equity|equities|invest|portfolio|dividend|earnings)\b/.test(t))return STOCK_PHOTOS.markets;
+ return STOCK_GENERIC;
+}
+function stockFallbacks(item){
+ const primary=stockPhotoPool(item);
+ const first=stableIndex(item?.title,primary.length);
+ const ordered=[primary[first],...primary.filter((_,i)=>i!==first)];
+ const genericStart=stableIndex((item?.title||"")+"generic",STOCK_GENERIC.length);
+ const generic=[...STOCK_GENERIC.slice(genericStart),...STOCK_GENERIC.slice(0,genericStart)];
+ return [...new Set([...ordered,...generic])];
 }
 function render(){
  const rows=categoryRows();
@@ -24,18 +70,23 @@ function render(){
  newsTitle.textContent=active==="STOCKS"?"STOCKS":"LATEST "+active;
  updateSourceStrip();
  newsTitle.classList.toggle("entertainment-title",active==="ENTERTAINMENT");
- let stockFallbackCount=0;
  $("#newsChart").innerHTML=rows.slice(0,10).map((x,i)=>{
-  const fallback=active==="STOCKS"?stockFallbackByOrder(stockFallbackCount):"";
-  if(active==="STOCKS"&&!x.image)stockFallbackCount++;
+  const fallbacks=active==="STOCKS"?stockFallbacks(x):[];
+  const fallback=fallbacks[0]||"";
   const meta=ago(x.published);
-  const byline=active==="STOCKS"&&x.source?`<span class="stock-story-source">${esc(x.source)}</span><span aria-hidden="true"> · </span>`:"";
-  return `<li class="news-row"><span class="rank">${String(i+1).padStart(2,"0")}</span><a class="news-image-link" href="${esc(x.link)}" target="_blank" rel="noopener" aria-label="${esc(x.title)}">${(x.image||fallback)?`<img class="poster news-thumb" src="${esc(x.image||fallback)}" alt="" data-stock-fallback="${esc(fallback)}">`:`<span class="poster news-thumb news-thumb-fallback">W</span>`}</a><a class="news-story" href="${esc(x.link)}" target="_blank" rel="noopener"><span class="news-copy"><strong>${esc(x.title)}</strong><small>${byline}${esc(meta)}</small></span></a></li>`;
+  const byline="";
+  return `<li class="news-row"><span class="rank">${String(i+1).padStart(2,"0")}</span><a class="news-image-link" href="${esc(x.link)}" target="_blank" rel="noopener" aria-label="${esc(x.title)}">${(x.image||fallback)?`<img class="poster news-thumb" src="${esc(x.image||fallback)}" alt="" data-stock-fallback="${esc(fallback)}" data-stock-fallbacks="${esc(JSON.stringify(fallbacks))}">`:`<span class="poster news-thumb news-thumb-fallback">W</span>`}</a><a class="news-story" href="${esc(x.link)}" target="_blank" rel="noopener"><span class="news-copy"><strong>${esc(x.title)}</strong><small>${byline}${esc(meta)}</small></span></a></li>`;
  }).join("");
  $("#newsChart").querySelectorAll("img[data-stock-fallback]").forEach(img=>{
   img.addEventListener("error",()=>{
-   const fallback=img.dataset.stockFallback;
-   if(fallback&&img.getAttribute("src")!==fallback){img.src=fallback;return}
+   let list=[];try{list=JSON.parse(img.dataset.stockFallbacks||"[]")}catch{}
+   const current=img.getAttribute("src")||"";
+   const next=list.find(url=>url&&url!==current);
+   if(next){
+    img.dataset.stockFallbacks=JSON.stringify(list.filter(url=>url!==next));
+    img.src=next;
+    return;
+   }
    img.onerror=null;
   });
  });
