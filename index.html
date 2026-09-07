@@ -16,6 +16,75 @@
   <meta name="build" content="5.3.39">
 </head>
 <body>
+<div id="wozzaStartupSplash" class="wozza-startup-splash" aria-hidden="true">
+  <svg class="wozza-startup-tv" viewBox="38 24 436 462" role="presentation">
+    <path d="M160 91l-48-52M352 91l48-52" stroke="#17213d" stroke-width="20" stroke-linecap="round"/>
+    <rect x="67" y="96" width="378" height="326" rx="82" fill="#17213d"/>
+    <rect x="100" y="130" width="268" height="226" rx="45" fill="#F0743E" stroke="#FFF7ED" stroke-width="12"/>
+    <g class="wozza-startup-eyes">
+      <ellipse cx="181" cy="240" rx="50" ry="62" fill="#fff" stroke="#17213d" stroke-width="9"/>
+      <ellipse cx="287" cy="240" rx="50" ry="62" fill="#fff" stroke="#17213d" stroke-width="9"/>
+      <ellipse class="wozza-startup-pupil wozza-startup-pupil-left" cx="181" cy="244" rx="16" ry="21" fill="#17213d"/>
+      <ellipse class="wozza-startup-pupil wozza-startup-pupil-right" cx="287" cy="244" rx="16" ry="21" fill="#17213d"/>
+      <path class="wozza-startup-lid wozza-startup-lid-left" d="M134 225 Q181 187 228 225" fill="#F0743E" stroke="#17213d" stroke-width="9" stroke-linecap="round"/>
+      <path class="wozza-startup-lid wozza-startup-lid-right" d="M240 225 Q287 187 334 225" fill="#F0743E" stroke="#17213d" stroke-width="9" stroke-linecap="round"/>
+    </g>
+    <circle cx="406" cy="177" r="20" fill="#FDD848"/>
+    <circle cx="406" cy="239" r="13" fill="#AAD59E"/>
+    <path d="M392 297h28M392 326h28" stroke="#9AB2D4" stroke-width="11" stroke-linecap="round"/>
+    <path d="M136 420l-24 47M376 420l24 47" stroke="#17213d" stroke-width="25" stroke-linecap="round"/>
+  </svg>
+</div>
+<style>
+.wozza-startup-splash{
+  position:fixed;inset:0;z-index:99999;
+  display:grid;place-items:center;
+  background:#EEF0FB;
+  opacity:1;visibility:visible;
+  transition:opacity .22s ease,visibility .22s ease;
+}
+.wozza-startup-splash.is-done{opacity:0;visibility:hidden;pointer-events:none}
+.wozza-startup-tv{width:min(48vw,210px);height:auto;overflow:visible}
+.wozza-startup-pupil{transform-box:fill-box;transform-origin:center}
+.wozza-startup-pupil-left,.wozza-startup-pupil-right{
+  animation:wozza-nervous-eyes 1.35s cubic-bezier(.45,0,.2,1) both;
+}
+.wozza-startup-lid{
+  transform-box:fill-box;transform-origin:center bottom;
+  animation:wozza-splash-blink 1.35s ease both;
+}
+@keyframes wozza-nervous-eyes{
+  0%,12%{transform:translateX(0)}
+  25%,38%{transform:translateX(-18px)}
+  48%,58%{transform:translateX(0)}
+  70%,84%{transform:translateX(18px)}
+  94%,100%{transform:translateX(0)}
+}
+@keyframes wozza-splash-blink{
+  0%,84%,100%{transform:translateY(-40px);opacity:0}
+  89%,93%{transform:translateY(12px);opacity:1}
+}
+@media(prefers-reduced-motion:reduce){
+ .wozza-startup-pupil-left,.wozza-startup-pupil-right,.wozza-startup-lid{animation:none}
+}
+</style>
+<script>
+(function(){
+  var splash=document.getElementById('wozzaStartupSplash');
+  if(!splash)return;
+  var key='wozzawatch-startup-splash-v1';
+  try{
+    if(sessionStorage.getItem(key)==='1'){splash.remove();return}
+    sessionStorage.setItem(key,'1');
+  }catch(e){}
+  var reduced=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  window.setTimeout(function(){
+    splash.classList.add('is-done');
+    window.setTimeout(function(){splash.remove()},260);
+  },reduced?450:1450);
+})();
+</script>
+
   <header class="topbar">
     <div class="brand-cluster">
       <div class="brand">
