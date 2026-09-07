@@ -68,7 +68,7 @@ function stockFallbacks(item){
 function render(){
  const rows=categoryRows();
  const newsTitle=$("#newsTitle");
- newsTitle.textContent=active==="STOCKS"?"STOCKS":"LATEST "+active;
+ newsTitle.textContent=active==="STOCKS"?"LATEST STOCKS":"LATEST "+active;
  updateSourceStrip();
  newsTitle.classList.toggle("entertainment-title",active==="ENTERTAINMENT");
  $("#newsChart").innerHTML=rows.slice(0,10).map((x,i)=>{

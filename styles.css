@@ -1051,3 +1051,17 @@ body.watchlist-reordering .my-list-page .chart-wrap,body.watchlist-reordering #m
 .news-provider-switch.stock-sources .yahoo-logo b{font-size:24px}.news-provider-switch.stock-sources .yahoo-logo small{font-size:13px}
 .news-provider-switch.stock-sources .reuters-mark{font-size:29px}
 @media(max-width:560px){.magpie-logo b{font-size:14px}.magpie-logo small{font-size:8px}.news-provider-switch.stock-sources .yahoo-logo b{font-size:18px}.news-provider-switch.stock-sources .yahoo-logo small{font-size:10px}}
+
+
+/* v6.2.63 — WozzaTune "heard it!" toggle; deliberately separate from Watchlist. */
+.tune-page .tune-heard-row{grid-template-columns:46px 58px minmax(0,1fr) 42px;padding-right:10px}
+.tune-page .tune-heard-row .item-info{min-width:0}
+.heard-toggle{appearance:none;border:0;background:transparent;color:rgba(23,33,61,.52);width:38px;height:38px;padding:5px;border-radius:50%;display:grid;place-items:center;cursor:pointer;transition:transform .14s ease,color .14s ease,background .14s ease;touch-action:manipulation}
+.heard-toggle svg{width:29px;height:29px;display:block}
+.heard-toggle[aria-pressed="true"]{color:var(--navy);background:rgba(207,197,239,.5)}
+.heard-toggle:active{transform:scale(.9) rotate(-5deg)}
+.heard-toggle:focus-visible{outline:3px solid var(--navy);outline-offset:2px}
+.tune-page .seen-listened{display:block;width:max-content;margin:5px 0 0;font-family:"Segoe Print","Bradley Hand","Comic Sans MS",cursive;font-size:10.5px;font-weight:600;letter-spacing:-.025em;transform:rotate(-2deg)}
+.tune-page .seen-listened::before{left:1px;right:-3px;bottom:-5px;height:6px;border-top:2px solid currentColor;border-radius:55% 45% 48% 52%;transform:rotate(-2deg) skewX(-7deg);transform-origin:left center}
+@media(max-width:560px){.tune-page .tune-heard-row{grid-template-columns:38px 52px minmax(0,1fr) 37px;padding-right:7px}.heard-toggle{width:34px;height:34px;padding:4px}.heard-toggle svg{width:26px;height:26px}}
+@media(prefers-reduced-motion:reduce){.heard-toggle{transition:none}.heard-toggle:active{transform:none}}

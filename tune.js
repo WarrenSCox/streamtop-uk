@@ -8,7 +8,41 @@ async function loadFeed(){let e;for(let a=0;a<2;a++){for(const base of dataUrls(
 function formatUpdated(v){if(!v)return'Waiting for update';const d=new Date(v);return Number.isNaN(d.getTime())?'Ranking cache loaded':`Updated ${new Intl.DateTimeFormat('en-GB',{weekday:'short',day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'}).format(d)}`}
 function fit(el,max=25,min=13){el.style.fontSize=`${max}px`;let n=max;while(el.scrollWidth>el.clientWidth&&n>min){n-=.5;el.style.fontSize=`${n}px`}}
 function sourceFor(){return SOURCES[state.service][state.type]}
-function render(){const key=state.type==='SINGLE'?'singles':'albums',label=state.type==='SINGLE'?'Singles':'Albums',d=state.data?.services?.[state.service],source=d?.sources?.[key];els.chartTitle.textContent=`${SERVICE_LABEL[state.service]} ${label}`;els.sourceBadge.href=source?.url||sourceFor();const official=source?.kind==='official';els.sourceBadge.className=`source-badge ${official?'official':'fallback'}`;els.sourceBadge.innerHTML=official?'<span class="source-text">Official Stats</span><span class="verified-tick" aria-hidden="true">✓</span>':`<span class="source-text">Stats from ${source?.displayName||source?.label||'source'}</span>`;if(source?.stale){const stale=document.createElement('span');stale.className='stale-alert';stale.textContent='!';stale.title='This source did not update successfully, so the last available results are being shown.';stale.onclick=e=>{e.preventDefault();e.stopPropagation();alert(stale.title)};els.sourceBadge.append(stale)}els.fallback.href=source?.url||sourceFor();els.chart.innerHTML='';els.error.classList.add('hidden');requestAnimationFrame(()=>fit(els.chartTitle));const items=d?.[key];if(!Array.isArray(items)||!items.length){els.errorText.textContent='This chart is not available yet. You can still open the source directly.';els.error.classList.remove('hidden');return}items.slice(0,10).forEach((item,i)=>{const li=document.createElement('li');li.className=`chart-item accent-${i%4}`;const rank=document.createElement('div');rank.className='rank';rank.textContent=String(i+1).padStart(2,'0');const img=document.createElement('img');img.className='poster';img.alt='';img.loading='lazy';img.src=item.poster|| (state.type==='SINGLE'?'single-icon.svg':'album-icon.svg');const spotifyUrl=`https://open.spotify.com/search/${encodeURIComponent([item.title,item.artist].filter(Boolean).join(' '))}`;const a=document.createElement('a');a.className='poster-link';a.href=spotifyUrl;a.target='_blank';a.rel='noopener';a.setAttribute('aria-label',`${item.title||'Untitled'} — search Spotify`);a.append(img);const info=document.createElement('div');info.className='item-info';const title=document.createElement('div');title.className='title';title.textContent=item.title||'Untitled';info.append(title);if(item.artist){const artist=document.createElement('div');artist.className='artist';artist.textContent=item.artist;info.append(artist)}li.append(rank,a,info);els.chart.append(li)});els.updated.textContent=formatUpdated(state.data?.generatedAt)}
+const HEARD_KEY='wozzatune-heard-v1';
+function heardId(item){return [state.service,state.type,String(item?.title||'').trim().toLowerCase(),String(item?.artist||'').trim().toLowerCase()].join('|')}
+function readHeard(){try{const x=JSON.parse(localStorage.getItem(HEARD_KEY)||'[]');return Array.isArray(x)?x:[]}catch{return[]}}
+function writeHeard(items){localStorage.setItem(HEARD_KEY,JSON.stringify([...new Set(items)]))}
+function isHeard(item){return readHeard().includes(heardId(item))}
+function toggleHeard(item){const id=heardId(item),items=readHeard(),at=items.indexOf(id);if(at>=0)items.splice(at,1);else items.push(id);writeHeard(items)}
+function earSvg(){return `<svg viewBox="0 0 48 48" aria-hidden="true"><path d="M31.5 38.5c-2.1 2.4-5.1 3.7-8.1 3.3-4.6-.6-7.8-4.6-7.4-9.2.3-3.2 2.2-5 4.2-6.8 1.8-1.6 3.6-3.3 3.6-6.4 0-3.7 2.5-6.4 6-6.4 4.5 0 7.2 3.7 7.2 8.4 0 5.4-2.4 8.2-5.1 10.1-1.8 1.3-3.5 2.3-4.3 4.2" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/><path d="M29.4 19.2c2.2.4 3.4 2.1 3.2 4.3-.2 2.5-1.9 3.8-3.7 4.9-1.8 1.1-3.4 2.2-3.7 4.6" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>`}
+function render(){
+ const key=state.type==='SINGLE'?'singles':'albums',label=state.type==='SINGLE'?'Singles':'Albums',d=state.data?.services?.[state.service],source=d?.sources?.[key];
+ els.chartTitle.textContent=`${SERVICE_LABEL[state.service]} ${label}`;
+ els.sourceBadge.href=source?.url||sourceFor();
+ const official=source?.kind==='official';
+ els.sourceBadge.className=`source-badge ${official?'official':'fallback'}`;
+ els.sourceBadge.innerHTML=official?'<span class="source-text">Official Stats</span><span class="verified-tick" aria-hidden="true">✓</span>':`<span class="source-text">Stats from ${source?.displayName||source?.label||'source'}</span>`;
+ if(source?.stale){const stale=document.createElement('span');stale.className='stale-alert';stale.textContent='!';stale.title='This source did not update successfully, so the last available results are being shown.';stale.onclick=e=>{e.preventDefault();e.stopPropagation();alert(stale.title)};els.sourceBadge.append(stale)}
+ els.fallback.href=source?.url||sourceFor();els.chart.innerHTML='';els.error.classList.add('hidden');requestAnimationFrame(()=>fit(els.chartTitle));
+ const items=d?.[key];
+ if(!Array.isArray(items)||!items.length){els.errorText.textContent='This chart is not available yet. You can still open the source directly.';els.error.classList.remove('hidden');return}
+ items.slice(0,10).forEach((item,i)=>{
+  const li=document.createElement('li');li.className=`chart-item tune-heard-row accent-${i%4}`;
+  const rank=document.createElement('div');rank.className='rank';rank.textContent=String(i+1).padStart(2,'0');
+  const img=document.createElement('img');img.className='poster';img.alt='';img.loading='lazy';img.src=item.poster||(state.type==='SINGLE'?'single-icon.svg':'album-icon.svg');
+  const spotifyUrl=`https://open.spotify.com/search/${encodeURIComponent([item.title,item.artist].filter(Boolean).join(' '))}`;
+  const a=document.createElement('a');a.className='poster-link';a.href=spotifyUrl;a.target='_blank';a.rel='noopener';a.setAttribute('aria-label',`${item.title||'Untitled'} — search Spotify`);a.append(img);
+  const info=document.createElement('div');info.className='item-info';
+  const title=document.createElement('div');title.className='title';title.textContent=item.title||'Untitled';info.append(title);
+  if(item.artist){const artist=document.createElement('div');artist.className='artist';artist.textContent=item.artist;info.append(artist)}
+  const heard=isHeard(item);
+  if(heard){const seen=document.createElement('span');seen.className='seen-already seen-listened';seen.textContent='heard it!';seen.setAttribute('aria-label','You have heard this');info.append(seen)}
+  const ear=document.createElement('button');ear.type='button';ear.className='heard-toggle';ear.innerHTML=earSvg();ear.setAttribute('aria-label',heard?`Undo heard it for ${item.title||'this track'}`:`Mark ${item.title||'this track'} as heard`);ear.setAttribute('aria-pressed',heard?'true':'false');
+  ear.addEventListener('click',e=>{e.preventDefault();e.stopPropagation();toggleHeard(item);render()});
+  li.append(rank,a,info,ear);els.chart.append(li)
+ });
+ els.updated.textContent=formatUpdated(state.data?.generatedAt)
+}
 function setType(t){
   if(!['SINGLE','ALBUM'].includes(t)||t===state.type)return;
   state.type=t;
