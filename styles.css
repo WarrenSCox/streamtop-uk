@@ -1041,3 +1041,13 @@ body.watchlist-reordering .my-list-page .chart-wrap,body.watchlist-reordering #m
  .reuters-logo{gap:2px;font-size:13px}.reuters-mark{font-size:23px}
 }
 @media(max-width:370px){.fool-logo{font-size:10px}.fool-logo b{font-size:18px}.yahoo-logo b{font-size:16px}.reuters-logo{font-size:11px}.reuters-mark{font-size:19px}}
+
+/* v6.2.54 — Stocks source logos: neutral WozzaNews treatment */
+.news-provider-switch.stock-sources .stock-logo,
+.news-provider-switch.stock-sources .stock-logo *,
+.news-provider-switch.stock-sources .reuters-mark{color:var(--navy)!important}
+.magpie-logo{flex-direction:column;font-family:"Archivo Black",Impact,sans-serif;line-height:.82;letter-spacing:-.045em}
+.magpie-logo b{font-size:18px}.magpie-logo small{font-size:11px;font-weight:800;letter-spacing:.08em}
+.news-provider-switch.stock-sources .yahoo-logo b{font-size:24px}.news-provider-switch.stock-sources .yahoo-logo small{font-size:13px}
+.news-provider-switch.stock-sources .reuters-mark{font-size:29px}
+@media(max-width:560px){.magpie-logo b{font-size:14px}.magpie-logo small{font-size:8px}.news-provider-switch.stock-sources .yahoo-logo b{font-size:18px}.news-provider-switch.stock-sources .yahoo-logo small{font-size:10px}}

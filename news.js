@@ -1,4 +1,4 @@
-const CATS=["UK","WORLD","POLITICS","BUSINESS","TECH","ENTERTAINMENT","STOCK_MARKET"];
+const CATS=["UK","WORLD","POLITICS","BUSINESS","TECH","ENTERTAINMENT","STOCKS"];
 const COLORS=["#F5A083","#B9C9E3","#BFE2AF","#FFDD69","#CFC5EF","#F4A083","#B9D9C3"];
 let active="UK", data={categories:{}};
 const $=s=>document.querySelector(s);
@@ -7,21 +7,21 @@ function ago(d){if(!d)return"";let n=(Date.now()-new Date(d))/60000;if(n<60)retu
 function tabs(){let n=$("#newsTabs");CATS.forEach((c,i)=>{let b=document.createElement("button");b.textContent=c;b.style.background=COLORS[i];b.className="service-tab "+(c===active?"active":"");b.onclick=()=>{active=c;tabsRefresh();render()};n.appendChild(b)})}
 function tabsRefresh(){[...$("#newsTabs").children].forEach(b=>b.classList.toggle("active",b.textContent===active));const a=[...$("#newsTabs").children].find(b=>b.textContent===active);a?.scrollIntoView({behavior:"smooth",block:"nearest",inline:"center"});}
 function updateSourceStrip(){
- const stock=active==="STOCK_MARKET";
+ const stock=active==="STOCKS";
  $("#newsProviderSwitch").classList.toggle("stock-sources",stock);
- $("#newsProviderSwitch").setAttribute("aria-label",stock?"News sources: Motley Fool UK, Yahoo Finance UK and Reuters":"News sources: Sky News, The Guardian and Metro");
- $("#newsProviderSwitch").innerHTML=stock?`<div class="news-provider-btn" aria-label="Motley Fool UK"><span class="stock-logo fool-logo">The Motley<br><b>Fool.</b></span></div><div class="news-provider-btn" aria-label="Yahoo Finance UK"><span class="stock-logo yahoo-logo"><b>yahoo!</b><small>finance</small></span></div><div class="news-provider-btn" aria-label="Reuters"><span class="stock-logo reuters-logo"><span class="reuters-mark" aria-hidden="true">◌</span><b>Reuters</b></span></div>`:`<div class="news-provider-btn" aria-label="Sky News"><span class="sky-logo">sky <b>news</b></span></div><div class="news-provider-btn" aria-label="The Guardian"><span class="guardian-logo"><i>G</i><b>The<br>Guardian</b></span></div><div class="news-provider-btn" aria-label="Metro"><span class="metro-logo">METRO</span></div>`;
+ $("#newsProviderSwitch").setAttribute("aria-label",stock?"News sources: The Twelfth Magpie, Yahoo Finance and Reuters":"News sources: Sky News, The Guardian and Metro");
+ $("#newsProviderSwitch").innerHTML=stock?`<div class="news-provider-btn" aria-label="The Twelfth Magpie"><span class="stock-logo magpie-logo"><b>TWELFTH</b><small>MAGPIE</small></span></div><div class="news-provider-btn" aria-label="Yahoo Finance UK"><span class="stock-logo yahoo-logo"><b>yahoo!</b><small>finance</small></span></div><div class="news-provider-btn" aria-label="Reuters"><span class="stock-logo reuters-logo"><span class="reuters-mark" aria-hidden="true">◌</span><b>Reuters</b></span></div>`:`<div class="news-provider-btn" aria-label="Sky News"><span class="sky-logo">sky <b>news</b></span></div><div class="news-provider-btn" aria-label="The Guardian"><span class="guardian-logo"><i>G</i><b>The<br>Guardian</b></span></div><div class="news-provider-btn" aria-label="Metro"><span class="metro-logo">METRO</span></div>`;
 }
 function categoryRows(){return data.categories?.[active]||[]}
 function render(){
  const rows=categoryRows();
  const newsTitle=$("#newsTitle");
- newsTitle.textContent=active==="STOCK_MARKET"?"STOCK MARKET":"LATEST "+active;
+ newsTitle.textContent=active==="STOCKS"?"STOCKS":"LATEST "+active;
  updateSourceStrip();
  newsTitle.classList.toggle("entertainment-title",active==="ENTERTAINMENT");
  $("#newsChart").innerHTML=rows.slice(0,10).map((x,i)=>{
   const meta=ago(x.published);
-  const byline=active==="STOCK_MARKET"&&x.source?`<span class="stock-story-source">${esc(x.source)}</span><span aria-hidden="true"> · </span>`:"";
+  const byline=active==="STOCKS"&&x.source?`<span class="stock-story-source">${esc(x.source)}</span><span aria-hidden="true"> · </span>`:"";
   return `<li class="news-row"><span class="rank">${String(i+1).padStart(2,"0")}</span><a class="news-image-link" href="${esc(x.link)}" target="_blank" rel="noopener" aria-label="${esc(x.title)}">${x.image?`<img class="poster news-thumb" src="${esc(x.image)}" alt="">`:`<span class="poster news-thumb news-thumb-fallback">W</span>`}</a><a class="news-story" href="${esc(x.link)}" target="_blank" rel="noopener"><span class="news-copy"><strong>${esc(x.title)}</strong><small>${byline}${esc(meta)}</small></span></a></li>`;
  }).join("");
  $("#newsError").classList.toggle("hidden",rows.length>0);
