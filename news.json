@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-07T21:17:47.471Z",
+  "updated": "2026-09-07T21:27:05.343Z",
   "categories": {
     "UK": [
       {
@@ -95,6 +95,15 @@
     ],
     "WORLD": [
       {
+        "title": "Australia politics live: John Howard warns about limiting immigration; Barnaby Joyce says super plan to have ‘minute’ inflationary effect",
+        "link": "https://www.theguardian.com/australia-news/live/2026/sep/08/barnaby-joyce-one-nation-superannuation-plan-john-howard-immigration-anthony-albanese-labor-angus-taylor-coalition-pauline-hanson-ntwnfb",
+        "published": "Mon, 07 Sep 2026 21:14:16 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Anthony Albanese Barnaby Joyce One Nation Angus Taylor Coalition Australia news Australian politics John Howard Pauline Hanson Labor party Liberal party",
+        "image": "https://i.guim.co.uk/img/media/d44a56ec1026bfea0b1586793607d16bf01fdbec/455_0_6880_5504/master/6880.jpg?width=140&quality=85&auto=format&fit=max&s=9e8da5e76931d443ed75aed0154508c1"
+      },
+      {
         "title": "Andy Burnham to announce trade ban on Israeli West Bank settlements to fury of Donald Trump",
         "link": "https://metro.co.uk/2026/09/07/andy-burnham-announce-trade-ban-israeli-plans-west-bank-to-fury-donald-trump-29557573/",
         "published": "Mon, 07 Sep 2026 20:47:38 +0000",
@@ -102,15 +111,6 @@
         "provider": "METRO",
         "categories": "News",
         "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310783737-6179.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Australia politics live: John Howard warns about limiting immigration; Barnaby Joyce says super plan to have ‘minute’ inflationary effect",
-        "link": "https://www.theguardian.com/australia-news/live/2026/sep/08/barnaby-joyce-one-nation-superannuation-plan-john-howard-immigration-anthony-albanese-labor-angus-taylor-coalition-pauline-hanson-ntwnfb",
-        "published": "Mon, 07 Sep 2026 20:46:41 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Anthony Albanese Barnaby Joyce One Nation Angus Taylor Coalition Australia news Australian politics John Howard Pauline Hanson Labor party Liberal party",
-        "image": "https://i.guim.co.uk/img/media/d44a56ec1026bfea0b1586793607d16bf01fdbec/455_0_6880_5504/master/6880.jpg?width=140&quality=85&auto=format&fit=max&s=9e8da5e76931d443ed75aed0154508c1"
       },
       {
         "title": "Irish citizenship applicants will have to prove English or Irish language skills",
@@ -149,6 +149,15 @@
         "image": "https://i.guim.co.uk/img/media/796d83b5719d0a5d10d6d673b5cccefdeb3d0353/0_0_3114_2492/master/3114.jpg?width=140&quality=85&auto=format&fit=max&s=362692483411ec972484e03c85555e74"
       },
       {
+        "title": "Record strength El Niño could mean bigger supermarket bills for Australians, experts warn",
+        "link": "https://www.theguardian.com/business/2026/sep/08/record-strength-el-nino-could-mean-bigger-supermarket-bills-for-australians-experts-warn",
+        "published": "Mon, 07 Sep 2026 15:00:24 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Australian economy Australia weather Climate crisis Australia news Environment El Niño southern oscillation Cost of living crisis Retail industry Inflation Petrol prices",
+        "image": "https://i.guim.co.uk/img/media/a8ea95d9d663d7a2bb4886e76b068a9afd859e13/464_0_4640_3712/master/4640.jpg?width=140&quality=85&auto=format&fit=max&s=15a4fba6a8bccc2511f641b1addb7baf"
+      },
+      {
         "title": "Mysterious Canadian island ‘vanishes’ and then reappears 20 miles away",
         "link": "https://metro.co.uk/2026/09/07/mysterious-canadian-island-vanishes-reappears-20-miles-away-29553634/",
         "published": "Mon, 07 Sep 2026 14:25:36 +0000",
@@ -156,15 +165,6 @@
         "provider": "METRO",
         "categories": "News World Canada Weird news",
         "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310203476-4bdb.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Germany’s far-right has biggest election win since WWII",
-        "link": "https://metro.co.uk/2026/09/07/germanys-far-right-biggest-election-win-since-wwii-29555111/",
-        "published": "Mon, 07 Sep 2026 13:51:44 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News World Germany",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_311204966-8dc8.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "Thousands gather for funeral of 'Butcher of Bosnia' Ratko Mladic",
@@ -472,7 +472,7 @@
         "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_311239292-fb8e.jpg?quality=90&strip=all&w=646"
       },
       {
-        "title": "Sir Tom Jones dropped from The Voice UK after 13 years",
+        "title": "Sir Tom Jones ‘dropped’ from The Voice UK after 13 years",
         "link": "https://metro.co.uk/2026/09/07/sir-tom-jones-dropped-voice-uk-13-years-29557568/",
         "published": "Mon, 07 Sep 2026 20:15:50 +0000",
         "source": "Metro",
@@ -1641,7 +1641,7 @@
           {
             "title": "Australia politics live: John Howard warns about limiting immigration; Barnaby Joyce says super plan to have ‘minute’ inflationary effect",
             "link": "https://www.theguardian.com/australia-news/live/2026/sep/08/barnaby-joyce-one-nation-superannuation-plan-john-howard-immigration-anthony-albanese-labor-angus-taylor-coalition-pauline-hanson-ntwnfb",
-            "published": "Mon, 07 Sep 2026 20:46:41 GMT",
+            "published": "Mon, 07 Sep 2026 21:14:16 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
             "categories": "Anthony Albanese Barnaby Joyce One Nation Angus Taylor Coalition Australia news Australian politics John Howard Pauline Hanson Labor party Liberal party",
@@ -3075,7 +3075,7 @@
             "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_311239292-fb8e.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Sir Tom Jones dropped from The Voice UK after 13 years",
+            "title": "Sir Tom Jones ‘dropped’ from The Voice UK after 13 years",
             "link": "https://metro.co.uk/2026/09/07/sir-tom-jones-dropped-voice-uk-13-years-29557568/",
             "published": "Mon, 07 Sep 2026 20:15:50 +0000",
             "source": "Metro",
@@ -3859,5 +3859,5 @@
       }
     }
   },
-  "stocksUpdated": "2026-09-07T21:17:59.750Z"
+  "stocksUpdated": "2026-09-07T21:27:16.652Z"
 }
