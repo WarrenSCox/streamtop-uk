@@ -1117,3 +1117,25 @@ body.watchlist-reordering .my-list-page .chart-wrap,body.watchlist-reordering #m
   .tune-page .seen-listened{font-size:13.5px}
   .tune-page .heard-toggle .audio-ear{width:27px;height:38px}
 }
+
+
+/* v6.2.67 — WozzaTune ear interaction matches the rest of the app:
+   no blue/lilac halo, just the approved ear wiggle on tap. */
+.tune-page .heard-toggle,
+.tune-page .heard-toggle[aria-pressed="true"]{
+  background:transparent!important;
+  box-shadow:none!important;
+}
+.tune-page .heard-toggle:hover,
+.tune-page .heard-toggle:active{
+  background:transparent!important;
+}
+.tune-page .heard-toggle .audio-ear{
+  transform-origin:50% 55%;
+}
+.tune-page .heard-toggle .audio-ear.heard-ear-wiggle{
+  animation:read-ear-wiggle .62s cubic-bezier(.36,.07,.19,.97);
+}
+@media(prefers-reduced-motion:reduce){
+  .tune-page .heard-toggle .audio-ear.heard-ear-wiggle{animation:none!important}
+}

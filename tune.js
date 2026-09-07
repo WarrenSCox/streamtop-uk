@@ -37,8 +37,14 @@ function render(){
   if(item.artist){const artist=document.createElement('div');artist.className='artist';artist.textContent=item.artist;info.append(artist)}
   const heard=isHeard(item);
   if(heard){const seen=document.createElement('span');seen.className='seen-already seen-listened';seen.textContent='heard it!';seen.setAttribute('aria-label','You have heard this');info.append(seen)}
-  const ear=document.createElement('button');ear.type='button';ear.className='heard-toggle';ear.innerHTML=earSvg();ear.setAttribute('aria-label',heard?`Undo heard it for ${item.title||'this track'}`:`Mark ${item.title||'this track'} as heard`);ear.setAttribute('aria-pressed',heard?'true':'false');
-  ear.addEventListener('click',e=>{e.preventDefault();e.stopPropagation();toggleHeard(item);render()});
+  const ear=document.createElement('button');ear.type='button';ear.className='heard-toggle';ear.innerHTML=earSvg();ear.dataset.heardId=heardId(item);ear.setAttribute('aria-label',heard?`Undo heard it for ${item.title||'this track'}`:`Mark ${item.title||'this track'} as heard`);ear.setAttribute('aria-pressed',heard?'true':'false');
+  ear.addEventListener('click',e=>{
+   e.preventDefault();e.stopPropagation();
+   const id=heardId(item);toggleHeard(item);render();
+   const next=[...document.querySelectorAll('.heard-toggle')].find(b=>b.dataset.heardId===id);
+   const icon=next?.querySelector('.audio-ear');
+   if(icon){icon.classList.remove('heard-ear-wiggle');void icon.offsetWidth;icon.classList.add('heard-ear-wiggle');icon.addEventListener('animationend',()=>icon.classList.remove('heard-ear-wiggle'),{once:true})}
+  });
   li.append(rank,a,info,ear);els.chart.append(li)
  });
  els.updated.textContent=formatUpdated(state.data?.generatedAt)
