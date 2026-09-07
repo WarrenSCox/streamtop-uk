@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-07T20:41:11.616Z",
+  "updated": "2026-09-07T20:50:46.346Z",
   "categories": {
     "UK": [
       {
@@ -95,6 +95,24 @@
     ],
     "WORLD": [
       {
+        "title": "Andy Burnham to announce trade ban on Israeli West Bank settlements to fury of Donald Trump",
+        "link": "https://metro.co.uk/2026/09/07/andy-burnham-announce-trade-ban-israeli-plans-west-bank-to-fury-donald-trump-29557573/",
+        "published": "Mon, 07 Sep 2026 20:47:38 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310783737-6179.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Australia politics live: John Howard warns about limiting immigration; Barnaby Joyce says super plan to have ‘minute’ inflationary effect",
+        "link": "https://www.theguardian.com/australia-news/live/2026/sep/08/barnaby-joyce-one-nation-superannuation-plan-john-howard-immigration-anthony-albanese-labor-angus-taylor-coalition-pauline-hanson-ntwnfb",
+        "published": "Mon, 07 Sep 2026 20:44:40 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Anthony Albanese Barnaby Joyce One Nation Angus Taylor Coalition Australia news Australian politics John Howard Pauline Hanson Labor party Liberal party",
+        "image": "https://i.guim.co.uk/img/media/d44a56ec1026bfea0b1586793607d16bf01fdbec/455_0_6880_5504/master/6880.jpg?width=140&quality=85&auto=format&fit=max&s=9e8da5e76931d443ed75aed0154508c1"
+      },
+      {
         "title": "Irish citizenship applicants will have to prove English or Irish language skills",
         "link": "https://news.sky.com/story/irish-citizenship-applicants-will-have-to-prove-english-or-irish-language-skills-13582906",
         "published": "Mon, 07 Sep 2026 18:56:00 +0100",
@@ -131,15 +149,6 @@
         "image": "https://i.guim.co.uk/img/media/796d83b5719d0a5d10d6d673b5cccefdeb3d0353/0_0_3114_2492/master/3114.jpg?width=140&quality=85&auto=format&fit=max&s=362692483411ec972484e03c85555e74"
       },
       {
-        "title": "Record strength El Niño could mean bigger supermarket bills for Australians, experts warn",
-        "link": "https://www.theguardian.com/business/2026/sep/08/record-strength-el-nino-could-mean-bigger-supermarket-bills-for-australians-experts-warn",
-        "published": "Mon, 07 Sep 2026 15:00:24 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Australian economy Australia weather Climate crisis Australia news Environment El Niño southern oscillation Cost of living crisis Retail industry Inflation Petrol prices",
-        "image": "https://i.guim.co.uk/img/media/a8ea95d9d663d7a2bb4886e76b068a9afd859e13/464_0_4640_3712/master/4640.jpg?width=140&quality=85&auto=format&fit=max&s=15a4fba6a8bccc2511f641b1addb7baf"
-      },
-      {
         "title": "Mysterious Canadian island ‘vanishes’ and then reappears 20 miles away",
         "link": "https://metro.co.uk/2026/09/07/mysterious-canadian-island-vanishes-reappears-20-miles-away-29553634/",
         "published": "Mon, 07 Sep 2026 14:25:36 +0000",
@@ -174,15 +183,6 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/09/1920x1080/skynews-greenland-denmark-eu_7344294.jpg?20260907141253"
-      },
-      {
-        "title": "Race driver thanks rival for saving his life with 'incredible act of bravery'",
-        "link": "https://news.sky.com/story/race-driver-ollie-millroy-thanks-rival-loek-hartog-for-saving-his-life-by-pulling-him-from-burning-ferrari-during-china-gt-race-in-shanghai-13582764",
-        "published": "Mon, 07 Sep 2026 12:08:00 +0100",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-ollie-millroy-loek-hartog_7344358.jpg?20260907153857"
       }
     ],
     "POLITICS": [
@@ -1639,6 +1639,15 @@
             "image": "https://i.guim.co.uk/img/media/356053e87dbc439eb0b994c9d15f52080395bb6b/15_0_1970_1575/master/1970.jpg?width=140&quality=85&auto=format&fit=max&s=f6cc499c86a59ac3ba051983b6803d9c"
           },
           {
+            "title": "Australia politics live: John Howard warns about limiting immigration; Barnaby Joyce says super plan to have ‘minute’ inflationary effect",
+            "link": "https://www.theguardian.com/australia-news/live/2026/sep/08/barnaby-joyce-one-nation-superannuation-plan-john-howard-immigration-anthony-albanese-labor-angus-taylor-coalition-pauline-hanson-ntwnfb",
+            "published": "Mon, 07 Sep 2026 20:44:40 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Anthony Albanese Barnaby Joyce One Nation Angus Taylor Coalition Australia news Australian politics John Howard Pauline Hanson Labor party Liberal party",
+            "image": "https://i.guim.co.uk/img/media/d44a56ec1026bfea0b1586793607d16bf01fdbec/455_0_6880_5504/master/6880.jpg?width=140&quality=85&auto=format&fit=max&s=9e8da5e76931d443ed75aed0154508c1"
+          },
+          {
             "title": "Stolen Generations survivors have more health challenges than other First Nations people",
             "link": "https://www.theguardian.com/australia-news/2026/sep/08/stolen-generations-survivors-have-more-health-challenges-than-other-first-nations-people-ntwnfb",
             "published": "Mon, 07 Sep 2026 15:01:21 GMT",
@@ -1673,15 +1682,6 @@
             "provider": "GUARDIAN",
             "categories": "Radiohead Thom Yorke Music Australia news Japan Culture",
             "image": "https://i.guim.co.uk/img/media/320e7a1c744428d60d8c12c2b5ddea94a5b9ab1e/180_0_1639_1312/master/1639.jpg?width=140&quality=85&auto=format&fit=max&s=de91e8c45095c29b7ff3723d913c8863"
-          },
-          {
-            "title": "Australia’s top bureaucrats want to block sharing of clips from parliament on social media to save them from ‘ridicule’",
-            "link": "https://www.theguardian.com/australia-news/2026/sep/07/australias-top-bureaucrats-want-to-block-sharing-of-clips-from-parliament-on-social-media-to-save-them-from-ridicule",
-            "published": "Mon, 07 Sep 2026 09:05:33 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Australian politics Australia news Anthony Albanese Social media",
-            "image": "https://i.guim.co.uk/img/media/b8c72c9483368ea0caf09d082eb4fbcce54da9bd/489_0_4888_3910/master/4888.jpg?width=140&quality=85&auto=format&fit=max&s=4259985b109153d61e83527bbebce27f"
           }
         ],
         "POLITICS": [
@@ -2570,15 +2570,6 @@
             "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_311180280-5d77.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Man at heart of 9/11 lawsuit ‘went paintballing with al-Qaeda leader’",
-            "link": "https://metro.co.uk/2026/09/07/man-heart-9-11-lawsuit-went-paintballing-al-qaeda-leader-29553961/",
-            "published": "Mon, 07 Sep 2026 12:01:23 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News World 9/11 Al Qaeda New York Saudi Arabia Terror",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_311178081-da4e-e1788781063886.jpg?quality=90&strip=all&w=477"
-          },
-          {
             "title": "Piers Morgan claims Arsenal star is furious with Mikel Arteta after being told to leave",
             "link": "https://metro.co.uk/2026/09/07/piers-morgan-claims-arsenal-star-furious-mikel-arteta-told-leave-29557301/",
             "published": "Mon, 07 Sep 2026 19:22:03 +0000",
@@ -2622,6 +2613,15 @@
             "provider": "METRO",
             "categories": "Football Sport Arsenal Chelsea FC Declan Rice Morgan Rogers Premier League",
             "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_311080296-8ee5.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Alan Shearer rules two teams out of Premier League title race after Arsenal beat Chelsea",
+            "link": "https://metro.co.uk/2026/09/07/alan-shearer-rules-two-teams-title-race-arsenal-beat-chelsea-29556113/",
+            "published": "Mon, 07 Sep 2026 15:47:20 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Football Sport Alan Shearer Andoni Iraola Arsenal Chelsea FC Enzo Maresca Liverpool FC Manchester City FC Manchester United Michael Carrick Mikel Arteta Premier League Xabi Alonso",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/alan-shearer-225f.png?w=646"
           }
         ],
         "WORLD": [
@@ -2705,6 +2705,15 @@
             "provider": "METRO",
             "categories": "News World Catalonia Spain",
             "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_311047723-6a4e.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Andy Burnham to announce trade ban on Israeli West Bank settlements to fury of Donald Trump",
+            "link": "https://metro.co.uk/2026/09/07/andy-burnham-announce-trade-ban-israeli-plans-west-bank-to-fury-donald-trump-29557573/",
+            "published": "Mon, 07 Sep 2026 20:47:38 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310783737-6179.jpg?quality=90&strip=all&w=646"
           }
         ],
         "POLITICS": [
@@ -3218,7 +3227,7 @@
         },
         "WORLD": {
           "ok": true,
-          "count": 9
+          "count": 10
         },
         "POLITICS": {
           "ok": true,
@@ -3841,5 +3850,5 @@
       }
     }
   },
-  "stocksUpdated": "2026-09-07T20:41:23.077Z"
+  "stocksUpdated": "2026-09-07T20:50:55.980Z"
 }
