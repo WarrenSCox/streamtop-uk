@@ -1,16 +1,7 @@
 {
-  "updated": "2026-09-07T18:40:56.944Z",
+  "updated": "2026-09-07T18:42:36.872Z",
   "categories": {
     "UK": [
-      {
-        "title": "Ed Miliband to set out ‘reset’ of UK relations with Israel over Palestine",
-        "link": "https://www.theguardian.com/politics/2026/sep/07/ed-miliband-reset-uk-relations-israel-palestine",
-        "published": "Mon, 07 Sep 2026 18:34:37 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Foreign policy Israel Palestine Ed Miliband Labour Middle East and north Africa Politics UK news World news",
-        "image": "https://i.guim.co.uk/img/media/a4f6226b391e4d444522dbf5d467fe78aeeb6baa/317_0_3264_2612/master/3264.jpg?width=140&quality=85&auto=format&fit=max&s=71caaf161ac6826ab11d5ed8ad35ef4e"
-      },
       {
         "title": "Arsenal star hailed as the ‘best in the Premier League’ after Chelsea win",
         "link": "https://metro.co.uk/2026/09/07/arsenal-star-hailed-best-premier-league-chelsea-win-29554664/",
@@ -64,6 +55,15 @@
         "provider": "GUARDIAN",
         "categories": "Green party Zack Polanski Byelections Politics UK news London",
         "image": "https://i.guim.co.uk/img/media/8d01b2226c69708b3c131e68221b991a644712be/657_1899_2667_2134/master/2667.jpg?width=140&quality=85&auto=format&fit=max&s=f064e148cb197e68e61424cccd6b33e7"
+      },
+      {
+        "title": "Four In A Bed’s unbelievable twist hailed as ‘first worthy successor to sad little life Jane’",
+        "link": "https://metro.co.uk/2026/09/07/four-a-beds-unbelievable-twist-hailed-first-worthy-successor-sad-little-life-jane-29556098/",
+        "published": "Mon, 07 Sep 2026 16:28:38 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Entertainment TV",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_311213074-4705.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "Burnham set to meet bosses to reassure over growth agenda",
@@ -553,7 +553,98 @@
         "image": "https://e3.365dm.com/26/09/1920x1080/skynews-richard-o-sullivan_7340682.jpg?20260904110649"
       }
     ],
-    "STOCK_MARKET": []
+    "STOCK_MARKET": [
+      {
+        "title": "I can’t believe ChatGPT’s ‘worst FTSE 100 stock’!",
+        "link": "https://www.twelfthmagpie.com/2026/09/07/i-cant-believe-chatgpts-worst-ftse-100-stock/",
+        "published": "Mon, 07 Sep 2026 17:07:31 +0000",
+        "source": "Motley Fool UK",
+        "provider": "FOOL",
+        "categories": "Investing Articles Value Shares",
+        "image": ""
+      },
+      {
+        "title": "I asked ChatGPT if SpaceX shares could make me a dollar millionaire by 2036. Here’s what it said…",
+        "link": "https://www.twelfthmagpie.com/2026/09/07/i-asked-chatgpt-if-spacex-shares-could-make-me-a-dollar-millionaire-by-2036-heres-what-it-said/",
+        "published": "Mon, 07 Sep 2026 15:15:00 +0000",
+        "source": "Motley Fool UK",
+        "provider": "FOOL",
+        "categories": "Growth Shares Investing Articles",
+        "image": ""
+      },
+      {
+        "title": "Which now offer better value: BP or Shell shares?",
+        "link": "https://www.twelfthmagpie.com/2026/09/07/which-now-offer-better-value-bp-or-shell-shares/",
+        "published": "Mon, 07 Sep 2026 15:11:00 +0000",
+        "source": "Motley Fool UK",
+        "provider": "FOOL",
+        "categories": "Investing Articles Value Shares",
+        "image": ""
+      },
+      {
+        "title": "1 luxury stock to consider buying as the rich get richer",
+        "link": "https://www.twelfthmagpie.com/2026/09/07/1-luxury-stock-to-consider-buying-as-the-rich-get-richer/",
+        "published": "Mon, 07 Sep 2026 14:57:44 +0000",
+        "source": "Motley Fool UK",
+        "provider": "FOOL",
+        "categories": "Investing Articles US Stock",
+        "image": ""
+      },
+      {
+        "title": "£10k invested in this dividend stock could make £1,000 in annual passive income",
+        "link": "https://www.twelfthmagpie.com/2026/09/07/10k-invested-in-this-dividend-stock-could-make-1000-in-annual-passive-income/",
+        "published": "Mon, 07 Sep 2026 14:09:00 +0000",
+        "source": "Motley Fool UK",
+        "provider": "FOOL",
+        "categories": "Dividend Shares Investing Articles",
+        "image": ""
+      },
+      {
+        "title": "Up 25% so far in 2026, can Rolls-Royce shares keep on gaining value?",
+        "link": "https://www.twelfthmagpie.com/2026/09/07/up-25-so-far-in-2026-can-rolls-royce-shares-keep-on-gaining-value/",
+        "published": "Mon, 07 Sep 2026 13:51:07 +0000",
+        "source": "Motley Fool UK",
+        "provider": "FOOL",
+        "categories": "Growth Shares Investing Articles",
+        "image": ""
+      },
+      {
+        "title": "The AI trade is sending UK growth stock CMC Markets stratospheric — is it still a buy?",
+        "link": "https://www.twelfthmagpie.com/2026/09/07/the-ai-trade-is-sending-uk-growth-stock-cmc-markets-stratospheric-is-it-still-a-buy/",
+        "published": "Mon, 07 Sep 2026 12:15:00 +0000",
+        "source": "Motley Fool UK",
+        "provider": "FOOL",
+        "categories": "Growth Shares Investing Articles",
+        "image": ""
+      },
+      {
+        "title": "Could Aviva shares reach 800p again?",
+        "link": "https://www.twelfthmagpie.com/2026/09/07/could-aviva-shares-reach-800p-again/",
+        "published": "Mon, 07 Sep 2026 11:19:50 +0000",
+        "source": "Motley Fool UK",
+        "provider": "FOOL",
+        "categories": "Dividend Shares Investing Articles",
+        "image": ""
+      },
+      {
+        "title": "3 UK shares that could explode higher in the years ahead",
+        "link": "https://www.twelfthmagpie.com/2026/09/07/3-uk-shares-that-could-explode-higher-in-the-years-ahead/",
+        "published": "Mon, 07 Sep 2026 10:42:03 +0000",
+        "source": "Motley Fool UK",
+        "provider": "FOOL",
+        "categories": "Growth Shares Investing Articles",
+        "image": ""
+      },
+      {
+        "title": "This penny stock would have turned £5,000 into £23,881 over the past 25 days!",
+        "link": "https://www.twelfthmagpie.com/2026/09/07/this-penny-stock-would-have-turned-5000-into-23881-over-the-past-25-days/",
+        "published": "Mon, 07 Sep 2026 09:30:00 +0000",
+        "source": "Motley Fool UK",
+        "provider": "FOOL",
+        "categories": "Growth Shares Investing Articles",
+        "image": ""
+      }
+    ]
   },
   "health": {
     "categories": {
@@ -624,8 +715,39 @@
         "count": 10
       },
       "STOCK_MARKET": {
-        "status": "failed",
-        "count": 0
+        "status": "healthy",
+        "count": 10,
+        "liveProviders": [
+          "FOOL",
+          "REUTERS"
+        ],
+        "failedProviders": [
+          "YAHOO"
+        ],
+        "retainedPrevious": 0,
+        "sourceHealth": {
+          "FOOL": {
+            "ok": true,
+            "count": 10,
+            "retainedPrevious": 0,
+            "errors": []
+          },
+          "YAHOO": {
+            "ok": false,
+            "count": 0,
+            "retainedPrevious": 0,
+            "errors": [
+              "https://uk.finance.yahoo.com/rss/: no relevant articles",
+              "https://news.google.com/rss/search?q=site%3Auk.finance.yahoo.com%2Fnews%2F&hl=en-GB&gl=GB&ceid=GB:en: no relevant articles"
+            ]
+          },
+          "REUTERS": {
+            "ok": true,
+            "count": 14,
+            "retainedPrevious": 0,
+            "errors": []
+          }
+        }
       }
     }
   },
@@ -1198,15 +1320,6 @@
       "categories": {
         "UK": [
           {
-            "title": "Ed Miliband to set out ‘reset’ of UK relations with Israel over Palestine",
-            "link": "https://www.theguardian.com/politics/2026/sep/07/ed-miliband-reset-uk-relations-israel-palestine",
-            "published": "Mon, 07 Sep 2026 18:34:37 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Foreign policy Israel Palestine Ed Miliband Labour Middle East and north Africa Politics UK news World news",
-            "image": "https://i.guim.co.uk/img/media/a4f6226b391e4d444522dbf5d467fe78aeeb6baa/317_0_3264_2612/master/3264.jpg?width=140&quality=85&auto=format&fit=max&s=71caaf161ac6826ab11d5ed8ad35ef4e"
-          },
-          {
             "title": "Policing minister makes statement on ‘intimidating and thuggish’ anti-migrant protests – UK politics live",
             "link": "https://www.theguardian.com/politics/live/2026/sep/07/uk-politics-live-john-healey-economy-portsmouth-immigration-protests-latest-news-updates",
             "published": "Mon, 07 Sep 2026 17:52:04 GMT",
@@ -1277,6 +1390,15 @@
             "provider": "GUARDIAN",
             "categories": "Economics Business John Healey Tax and spending Politics Keir Starmer UK news Economic growth (GDP) Budget",
             "image": "https://i.guim.co.uk/img/media/7ac1a1ab26c15c6773452bf3aa4e26253d187642/336_0_3933_3147/master/3933.jpg?width=140&quality=85&auto=format&fit=max&s=0d4c723d9297242f5c963289444373c7"
+          },
+          {
+            "title": "Next overturns equal pay ruling that raised basic wages for shop staff",
+            "link": "https://www.theguardian.com/business/2026/sep/07/next-overturns-equal-pay-ruling-that-raised-basic-wages-for-shop-staff",
+            "published": "Mon, 07 Sep 2026 12:45:59 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Next Employment tribunals Retail industry Business Employment law Law UK news",
+            "image": "https://i.guim.co.uk/img/media/870a9718f6f20f526c2a68c4b17bda629cc41a03/828_330_3853_3085/master/3853.jpg?width=140&quality=85&auto=format&fit=max&s=9a3bd473c740196df8918b7bde65f3d3"
           },
           {
             "title": "Farage still Reform’s best hope as rivals struggle to match appeal to party faithful",
@@ -3086,6 +3208,267 @@
           "count": 15
         }
       }
+    },
+    "FOOL": {
+      "categories": {
+        "STOCK_MARKET": [
+          {
+            "title": "I can’t believe ChatGPT’s ‘worst FTSE 100 stock’!",
+            "link": "https://www.twelfthmagpie.com/2026/09/07/i-cant-believe-chatgpts-worst-ftse-100-stock/",
+            "published": "Mon, 07 Sep 2026 17:07:31 +0000",
+            "source": "Motley Fool UK",
+            "provider": "FOOL",
+            "categories": "Investing Articles Value Shares",
+            "image": ""
+          },
+          {
+            "title": "I asked ChatGPT if SpaceX shares could make me a dollar millionaire by 2036. Here’s what it said…",
+            "link": "https://www.twelfthmagpie.com/2026/09/07/i-asked-chatgpt-if-spacex-shares-could-make-me-a-dollar-millionaire-by-2036-heres-what-it-said/",
+            "published": "Mon, 07 Sep 2026 15:15:00 +0000",
+            "source": "Motley Fool UK",
+            "provider": "FOOL",
+            "categories": "Growth Shares Investing Articles",
+            "image": ""
+          },
+          {
+            "title": "Which now offer better value: BP or Shell shares?",
+            "link": "https://www.twelfthmagpie.com/2026/09/07/which-now-offer-better-value-bp-or-shell-shares/",
+            "published": "Mon, 07 Sep 2026 15:11:00 +0000",
+            "source": "Motley Fool UK",
+            "provider": "FOOL",
+            "categories": "Investing Articles Value Shares",
+            "image": ""
+          },
+          {
+            "title": "1 luxury stock to consider buying as the rich get richer",
+            "link": "https://www.twelfthmagpie.com/2026/09/07/1-luxury-stock-to-consider-buying-as-the-rich-get-richer/",
+            "published": "Mon, 07 Sep 2026 14:57:44 +0000",
+            "source": "Motley Fool UK",
+            "provider": "FOOL",
+            "categories": "Investing Articles US Stock",
+            "image": ""
+          },
+          {
+            "title": "£10k invested in this dividend stock could make £1,000 in annual passive income",
+            "link": "https://www.twelfthmagpie.com/2026/09/07/10k-invested-in-this-dividend-stock-could-make-1000-in-annual-passive-income/",
+            "published": "Mon, 07 Sep 2026 14:09:00 +0000",
+            "source": "Motley Fool UK",
+            "provider": "FOOL",
+            "categories": "Dividend Shares Investing Articles",
+            "image": ""
+          },
+          {
+            "title": "Up 25% so far in 2026, can Rolls-Royce shares keep on gaining value?",
+            "link": "https://www.twelfthmagpie.com/2026/09/07/up-25-so-far-in-2026-can-rolls-royce-shares-keep-on-gaining-value/",
+            "published": "Mon, 07 Sep 2026 13:51:07 +0000",
+            "source": "Motley Fool UK",
+            "provider": "FOOL",
+            "categories": "Growth Shares Investing Articles",
+            "image": ""
+          },
+          {
+            "title": "The AI trade is sending UK growth stock CMC Markets stratospheric — is it still a buy?",
+            "link": "https://www.twelfthmagpie.com/2026/09/07/the-ai-trade-is-sending-uk-growth-stock-cmc-markets-stratospheric-is-it-still-a-buy/",
+            "published": "Mon, 07 Sep 2026 12:15:00 +0000",
+            "source": "Motley Fool UK",
+            "provider": "FOOL",
+            "categories": "Growth Shares Investing Articles",
+            "image": ""
+          },
+          {
+            "title": "Could Aviva shares reach 800p again?",
+            "link": "https://www.twelfthmagpie.com/2026/09/07/could-aviva-shares-reach-800p-again/",
+            "published": "Mon, 07 Sep 2026 11:19:50 +0000",
+            "source": "Motley Fool UK",
+            "provider": "FOOL",
+            "categories": "Dividend Shares Investing Articles",
+            "image": ""
+          },
+          {
+            "title": "3 UK shares that could explode higher in the years ahead",
+            "link": "https://www.twelfthmagpie.com/2026/09/07/3-uk-shares-that-could-explode-higher-in-the-years-ahead/",
+            "published": "Mon, 07 Sep 2026 10:42:03 +0000",
+            "source": "Motley Fool UK",
+            "provider": "FOOL",
+            "categories": "Growth Shares Investing Articles",
+            "image": ""
+          },
+          {
+            "title": "This penny stock would have turned £5,000 into £23,881 over the past 25 days!",
+            "link": "https://www.twelfthmagpie.com/2026/09/07/this-penny-stock-would-have-turned-5000-into-23881-over-the-past-25-days/",
+            "published": "Mon, 07 Sep 2026 09:30:00 +0000",
+            "source": "Motley Fool UK",
+            "provider": "FOOL",
+            "categories": "Growth Shares Investing Articles",
+            "image": ""
+          }
+        ]
+      },
+      "health": {
+        "STOCK_MARKET": {
+          "ok": true,
+          "count": 10,
+          "retainedPrevious": 0,
+          "errors": []
+        }
+      }
+    },
+    "YAHOO": {
+      "categories": {
+        "STOCK_MARKET": []
+      },
+      "health": {
+        "STOCK_MARKET": {
+          "ok": false,
+          "count": 0,
+          "retainedPrevious": 0,
+          "errors": [
+            "https://uk.finance.yahoo.com/rss/: no relevant articles",
+            "https://news.google.com/rss/search?q=site%3Auk.finance.yahoo.com%2Fnews%2F&hl=en-GB&gl=GB&ceid=GB:en: no relevant articles"
+          ]
+        }
+      }
+    },
+    "REUTERS": {
+      "categories": {
+        "STOCK_MARKET": [
+          {
+            "title": "European shares dip as higher oil prices weigh; Novartis slips",
+            "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOaFdCV21sS1A5UlVsWTAta1ozTXV0UWFwc3BjSVFnR1c4ZERIcjUtZnZ1ZjNwckw1RGhySmZPTnV6X1QwbXlBWmhDM0JYMEVUR1BRUjhWY0Q3MmdIM1drZGJvUWpxaDJZcUIyQldsR3lONWRZLUpYX0ppYVByRGdCQkd1TXk4eFZiOGx3cFhuYjZQRVdfRHpsdHN6T08yRU5mN0RsbFl4a21sdXNl?oc=5",
+            "published": "Mon, 07 Sep 2026 09:22:01 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "European shares hit by rising bond yields, energy-driven inflation concerns",
+            "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPME1pdGN2bXZCdHkxUDdIazdHeHpCM0FrbVNIa2lHOVNOWnA5Ulk2UVpUdGhSWGJpNEE4ckFqeXFVZjhTV2FscDhPNG83RWRxMnVEZDF1TDNUT3ZuSnlYR05PbHVTWTlYUFhnNjhmM3hqR1dZcFJsV25FWmh4cXV1ZkN2RjNQMDcxeDJRMVVoRTE3dEJ4LXJubmdHQ1FjUkowbEFPQmc4SE9mYl9jY0hXeGZnNUJoSU1VU0RQVEN1VHdqeFE4WTc1WA?oc=5",
+            "published": "Wed, 02 Sep 2026 16:39:46 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "Europe's STOXX 600 hits one-month low as inflation, rising yields pressure markets",
+            "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNOGlSVGd0MGJiRU5TQ2M4VTMyVXdRX3I1N2w2dDd1dl9EUzlBVFlaNTRVaUMwYktrNFlUY0ZVc1ZPMGJvbzJhMjRVQUQ1S3BmM3pPZDZ0Yk9LVkhLdWhGWDU4XzRFWFluTlZlVGd3MEJ0Ylk5SnY2aTRLeGZtNnhIRFk1WjhseW9jYVg3S3VEMExHVno5ZC1iODJWMTBiS2x5VHdIeXlxT3RLSU5RUEE?oc=5",
+            "published": "Tue, 01 Sep 2026 16:40:55 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "Mapping the Market: Death cross to golden cross for global oil prices",
+            "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNaVlYdnBYakVnQ3lnalUzU2ZVYUctMXV4cGVqbm9sRVhid3g2eElrNFQxeTZISVotOW01RW1OSFZ5em1MRjhrbUNwVjJubERIdWV5Rl9PeGIwVEVlRFRZTmtXUUtUSENzdENRR1JQc0lpZE1WRTFwU1JRcVBSVFhVZ3lXOGJ6WGhDZXhlMHNGMnFreFk?oc=5",
+            "published": "Tue, 01 Sep 2026 10:10:02 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "German inflation accelerates in August, core stabilises",
+            "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOaXBHNkZtNjNmcmRWYWVENlVHQkRmUGkzVFdqZDlNcnZmMFlsaFZ5MDVITUVyX1I3LW5CcWV6MUF0MzFreHlmejJUWXlkaW9yNzVyb0txRF9JNldaU21rRUUxNktYTTNtY0sxSTc5S01EbkxRMF8xaEtXVlVmaENkV0FOV2dEUHF2OXRIZGxLaw?oc=5",
+            "published": "Mon, 31 Aug 2026 13:31:17 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "Gold prices soar to record high fueled by safe-haven demand",
+            "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOakg2T1MxOEJvbmlyT2ktaXJkVU4zNzhTc3Z2a3NNd3Y4VlQwYjE0YUstWURGQlVlaG9ZUjk2OGVLaE51VDdQeEdQSTV5TC0wbXFxb2pLZ3FmMWtaTUxZQXJTTXRSc3VxY0ViUVhuYUpiOS1PRkVvQTU4UGlOblMwQW05Nlh0dDJnTkpTUDl4MUszZVhHQ1BBeTBBZkQ5U2RfSzM1M0NB?oc=5",
+            "published": "Thu, 20 Feb 2025 08:00:00 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "From banks to small-caps, Trump victory drives rally in stocks",
+            "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPS1ROOHlLQnBWM3JoRmNuYWNpU0Z6WDVUQUJpSDRqRmFCZkNFVnJydkh5MG9jU1BVblEzOWQ1bWhkU2RsZVEtZVRDUzlHQ2ZhVDVad20tdG80eEZSeklpUldaalhCVmtwN2lFNzItQlBRRm9uT3FrYURXRVJxd3RrMkhNNFNJMWhiSXRlWEU3ZU53cWtPMnNVYjRJOWtqbEJ0ZkdwQUJvWEtjRjYzSTNTcjhCbmg2dw?oc=5",
+            "published": "Wed, 06 Nov 2024 08:00:00 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "Stocks sink with dollar, Treasuries volatile on recession fears",
+            "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE12LUYyckp3Z1MwYUo4N2pEb1k5TnJhdVVuQWlNZTBwVDJYTDQxb3NYXzhIdDhYV1NLbndmTFduTmJQVzlfTkhranM1U1AwdnVUVFFKakpJbFEzeVBaOGxicEhGTmlXdDBDR0ZaQjhfTjBXbE9leXc?oc=5",
+            "published": "Mon, 05 Aug 2024 07:00:00 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "Amazon, Roomba-parent iRobot abandon $1.4 billion merger deal",
+            "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNMlR3Vno1QWF1dlFUOW9uR3BxcmZSVmJBX3pRbzhCQWNtX1BfdlJTRzNPZnpPS20xbkFRQXhCTXlLbHJ0eG81ejc1R1RKZjVzdWdnRjRhWTE0SzV5UGZuN1ktTDBIT09UNU9tTURLQWxZTUc2TUItZldnNGloa2ZVM1RkazFhaFgwNzNEMUlOS2RyMlZ2T09HeUx0ZTNKZw?oc=5",
+            "published": "Mon, 29 Jan 2024 08:00:00 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "EXCLUSIVE: Amazon in talks to become anchor investor in Arm ahead of IPO",
+            "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQXzRfbUMyT1Z5S1BrdDBsTmxvWW1LYUtBOVE0d2pybGxybUlad2dqeDhJT2FoNmFYdmFrQ2xIU3NsWGNlMFpqVng1T3AxbzVuZmxIdnBzWFUwMUtmTnFiSkUyWHQ2ZDJpV0pmWlVOMHdmZUo1eGpsYy16dlIwQjlmczl2cHdhUnI3UlJrTFBad19KVkYzWGdyNENfc0tmYXZ6clI4dDR4Z0tYS3c?oc=5",
+            "published": "Tue, 08 Aug 2023 07:00:00 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "Musk sued by Twitter investors for stock 'manipulation' during takeover bid",
+            "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNa24yWVhWMVBXVWRkSlpoSkZxUGpCTlBXMi1vMDI1Nkd2d1YtcUxxM0taektRampaRlhMVERQbExXWVo1OEhkTlVBbXhkUVE1SjdmaVlUZE9hSzUxUUZnQm56eTVLYkFDRF9hVThkclVVQTlxR29VQzFUQVE2NDNzWXVrc1RVdWYwSHpXeEM1bThKTHBRRHBuM1FUeUx4VzNvdkVlblVjWk8?oc=5",
+            "published": "Thu, 26 May 2022 07:00:00 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "Global Markets Data | Breaking Stock Market News",
+            "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9BaGlGMldFNDg2R1VpMVJDNVRCS0NhRV9ST3ZmWG1FVlloeEI1NFg4RlZMTC1sVFNJS096aFkxdzZuV3l6VEY5WU5sb2Z5bmd5VlZZRkJ0bGJKWk5NcFZGTQ?oc=5",
+            "published": "Thu, 18 Nov 2021 22:11:18 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "Commodities Market Headlines | Breaking Stock Market News",
+            "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5Sd0tZdFI1bXdoWmtDWnNxYkR0QnFzT0ZYM3EzdmdEUHY0LVpVTk5oZkNRSWg0bGE0SXBYb2VNREd4SDl6SVpWTXZOQTBLdGlhS0daNXFjN1BGcGx3b0tmQWlMZ3lJMUU?oc=5",
+            "published": "Thu, 18 Nov 2021 16:49:35 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "Global Market Headlines | Breaking Stock Market News",
+            "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5ZWXF2SEtaQVRwQ2xTbk1CYWlTbXRfQV93SXNlWVJYWkEyeTVVajM5bU00d0szRW5kdDdVa0ZDY3JJNkZRRmlR?oc=5",
+            "published": "Mon, 06 Jun 2016 02:15:43 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          }
+        ]
+      },
+      "health": {
+        "STOCK_MARKET": {
+          "ok": true,
+          "count": 14,
+          "retainedPrevious": 0,
+          "errors": []
+        }
+      }
     }
-  }
+  },
+  "stockUpdated": "2026-09-07T18:42:43.682Z"
 }
