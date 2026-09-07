@@ -14,13 +14,14 @@ const SOURCES={
   label:"Yahoo Finance",
   feeds:[
    "https://finance.yahoo.com/news/rssindex",
-   "https://feeds.finance.yahoo.com/rss/2.0/headline?s=%5EFTSE,%5EGSPC,%5EDJI,%5EIXIC&region=GB&lang=en-GB",
-   "https://news.google.com/rss/search?q=stocks%20OR%20shares%20OR%20markets%20source%3A%22Yahoo%20Finance%22%20when%3A7d&hl=en-GB&gl=GB&ceid=GB:en"
-  ]
+   "https://feeds.finance.yahoo.com/rss/2.0/headline?s=%5EFTSE,%5EGSPC,%5EDJI,%5EIXIC&region=GB&lang=en-GB"
+  ],
+  searches:["stock market","FTSE 100","UK shares"]
  },
  REUTERS:{
   label:"Reuters",
   feeds:[
+   "https://www.reuters.com/arc/outboundfeeds/v3/all/?outputType=xml",
    "https://news.google.com/rss/search?q=stocks%20OR%20shares%20OR%20markets%20source%3AReuters%20when%3A7d&hl=en-GB&gl=GB&ceid=GB:en"
   ]
  }
@@ -113,7 +114,7 @@ export function mixStocks(rowsBySource,limit=10){
 }
 
 async function fetchText(url,accept="text/html,application/xhtml+xml,application/rss+xml,application/xml;q=0.9,*/*;q=0.8"){
- const r=await fetch(url,{redirect:"follow",signal:AbortSignal.timeout(15000),headers:{"User-Agent":"Mozilla/5.0 (compatible; WozzaNews/6.2.54)",Accept:accept}});
+ const r=await fetch(url,{redirect:"follow",signal:AbortSignal.timeout(15000),headers:{"User-Agent":"Mozilla/5.0 (compatible; WozzaNews/6.2.55)",Accept:accept}});
  if(!r.ok)throw Error(`${r.status} ${r.statusText}`);
  return {text:await r.text(),url:r.url};
 }
@@ -121,17 +122,53 @@ async function fetchFeed(url){
  const {text}=await fetchText(url,"application/rss+xml, application/xml, text/xml;q=0.9, */*;q=0.8");
  if(!/<rss\b|<feed\b/i.test(text))throw Error("Not an RSS feed");return text;
 }
+export function usefulImage(url){
+ const value=String(url||"").trim();
+ if(!/^https?:\/\//i.test(value))return false;
+ // Google News/feed branding and tiny publisher marks are not article thumbnails.
+ return !/(?:news\.google\.com|gstatic\.com\/(?:images\/branding|.*(?:favicon|logo))|googleusercontent\.com\/.*(?:favicon|logo)|\/favicon(?:[./?]|$)|\blogo(?:[._-]|\/))/i.test(value);
+}
+function yahooThumbnail(item){
+ const resolutions=item?.thumbnail?.resolutions||item?.content?.thumbnail?.resolutions||[];
+ const candidates=resolutions.map(x=>x?.url).filter(usefulImage);
+ return candidates.at(-1)||candidates[0]||"";
+}
+function yahooNewsItem(item){
+ const content=item?.content||item||{};
+ const provider=clean(content.provider?.displayName||content.publisher||item?.publisher||"");
+ if(provider&&!/^Yahoo Finance(?: UK)?$/i.test(provider))return null;
+ const publishedRaw=content.pubDate||content.providerPublishTime||item?.providerPublishTime;
+ const published=typeof publishedRaw==="number"?new Date(publishedRaw*1000).toUTCString():publishedRaw;
+ const link=content.canonicalUrl?.url||content.clickThroughUrl?.url||content.link||item?.link||"";
+ const row={
+  title:clean(content.title||item?.title),link,published,
+  source:SOURCES.YAHOO.label,provider:"YAHOO",categories:"stocks markets shares investing",
+  image:yahooThumbnail(item)
+ };
+ return row.title&&/^https?:\/\//i.test(row.link)&&ms(row)&&relevant(row)?row:null;
+}
+export function parseYahooSearch(payload){
+ const items=Array.isArray(payload?.news)?payload.news:[];
+ return unique(items.map(yahooNewsItem).filter(Boolean));
+}
+async function fetchYahooSearch(query){
+ const url=`https://query1.finance.yahoo.com/v1/finance/search?q=${encodeURIComponent(query)}&quotesCount=0&newsCount=20&enableFuzzyQuery=false`;
+ const {text}=await fetchText(url,"application/json,text/plain;q=0.9,*/*;q=0.8");
+ return parseYahooSearch(JSON.parse(text));
+}
 async function enrichRow(row){
  // Fill missing thumbnails from the article's OpenGraph image and, where a redirect resolves,
  // keep the publisher's final article URL rather than an aggregator link.
- if(row.image&&!/news\.google\.com/i.test(row.link))return row;
+ if(usefulImage(row.image)&&!/news\.google\.com/i.test(row.link))return row;
  try{
   const {text,url}=await fetchText(row.link);
   const og=text.match(/<meta\b[^>]*(?:property|name)=["'](?:og:image|twitter:image)["'][^>]*content=["']([^"']+)["'][^>]*>/i)?.[1]
    ||text.match(/<meta\b[^>]*content=["']([^"']+)["'][^>]*(?:property|name)=["'](?:og:image|twitter:image)["'][^>]*>/i)?.[1];
   const canonical=text.match(/<link\b[^>]*rel=["']canonical["'][^>]*href=["']([^"']+)["'][^>]*>/i)?.[1]
    ||text.match(/<link\b[^>]*href=["']([^"']+)["'][^>]*rel=["']canonical["'][^>]*>/i)?.[1];
-  return {...row,link:/^https?:\/\//i.test(canonical||"")?decode(canonical):url,image:row.image||decode(og||"")};
+  const existing=usefulImage(row.image)?row.image:"";
+  const recovered=usefulImage(decode(og||""))?decode(og||""):"";
+  return {...row,link:/^https?:\/\//i.test(canonical||"")?decode(canonical):url,image:existing||recovered};
  }catch{return row}
 }
 async function enrichRows(rows){
@@ -143,12 +180,21 @@ export async function updateStocks(){
  const pools={},health={},now=Date.now();
  for(const [name,config] of Object.entries(SOURCES)){
   let rows=[],errors=[];
-  // Combine successful feeds rather than stopping at the first one; this makes each source more resilient.
+  // Yahoo's public search endpoint includes real article thumbnails; prefer it to RSS/feed branding.
+  if(name==="YAHOO"&&config.searches){
+   for(const query of config.searches){
+    try{rows.push(...await fetchYahooSearch(query))}
+    catch(e){errors.push(`Yahoo search ${query}: ${e.message}`)}
+   }
+  }
+  // Reuters' own outbound XML is preferred. Google News remains a fallback only when Reuters is short.
   for(const url of config.feeds){
+   if(name==="YAHOO"&&rows.length>=6)break;
+   if(name==="REUTERS"&&rows.length>=6)break;
    try{const parsed=parse(await fetchFeed(url),name);rows.push(...parsed);if(!parsed.length)errors.push(`${url}: no relevant articles`)}
    catch(e){errors.push(`${url}: ${e.message}`)}
   }
-  let live=unique(rows).filter(x=>ms(x)<=now+300000&&ms(x)>now-7*86400000).sort((a,b)=>ms(b)-ms(a)).slice(0,12);
+  let live=unique(rows).filter(x=>ms(x)<=now+300000&&ms(x)>now-7*86400000).sort((a,b)=>ms(b)-ms(a)).slice(0,12).map(x=>({...x,image:usefulImage(x.image)?x.image:""}));
   live=await enrichRows(live);
   const prior=previous.providers?.[name]?.categories?.[STOCK_KEY]||previous.providers?.[name]?.categories?.[LEGACY_KEY]||[];
   pools[name]=live.length?live:prior.filter(x=>ms(x)>now-7*86400000&&relevant(x));
