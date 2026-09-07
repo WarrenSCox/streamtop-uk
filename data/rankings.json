@@ -1,6 +1,6 @@
 {
-  "version": 18,
-  "generatedAt": "2026-09-07T20:57:26.759Z",
+  "version": 19,
+  "generatedAt": "2026-09-07T21:02:04.068Z",
   "country": "GB",
   "strategy": "Official source first; labelled fallback when no compatible official chart is available.",
   "services": {
@@ -890,7 +890,7 @@
           "rank": 3,
           "title": "Furious",
           "year": 2026,
-          "type": "SHOW",
+          "type": null,
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/019fa9fd-c0de-7eab-963c-8ec352530398/compose?format=webp&width=386&label=top_ranked_3_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-5d4924b7-1cde-47c3-8852-f30bdd7fe979"
         },
@@ -906,7 +906,7 @@
           "rank": 5,
           "title": "Yellow Mirror",
           "year": 2026,
-          "type": "MOVIE",
+          "type": null,
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/01a020fe-1a30-77cd-a762-593482b1ed6f/compose?format=webp&width=386&label=top_ranked_5_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-b85428e1-f670-4270-96d3-4d0e186336e6"
         },
@@ -2373,7 +2373,7 @@
           "cadence": "weekly",
           "note": "Fresh data did not update successfully, so the last successful results are being shown.",
           "stale": true,
-          "staleAsOf": "2026-09-07T20:55:56.322Z"
+          "staleAsOf": "2026-09-07T20:57:26.759Z"
         }
       },
       "error": null,
@@ -2575,17 +2575,19 @@
           "rank": 1,
           "title": "WILDCHILD",
           "artist": "ALEX WARREN",
-          "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Alex_Warren.png/960px-Alex_Warren.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "poster": "https://commons.wikimedia.org/wiki/Special:FilePath/Image%20Alex%20W%20(cropped).jpg?width=600",
           "detailsUrl": "https://www.officialcharts.com/charts/albums-chart/?lang=en",
-          "posterSource": "artist-photo:wikipedia",
-          "artistPageUrl": "https://en.wikipedia.org/wiki/Alex_Warren"
+          "posterSource": "artist-photo:wikidata",
+          "artistPageUrl": "https://www.wikidata.org/wiki/Q121842162"
         },
         {
           "rank": 2,
           "title": "GOD BLESS THE BAND",
           "artist": "COURTEENERS",
-          "poster": null,
-          "detailsUrl": "https://www.officialcharts.com/charts/albums-chart/?lang=en"
+          "poster": "https://commons.wikimedia.org/wiki/Special:FilePath/Courteeners%20(Brixton%20Academy%202018).png?width=600",
+          "detailsUrl": "https://www.officialcharts.com/charts/albums-chart/?lang=en",
+          "posterSource": "artist-photo:wikidata",
+          "artistPageUrl": "https://www.wikidata.org/wiki/Q1352997"
         },
         {
           "rank": 3,
