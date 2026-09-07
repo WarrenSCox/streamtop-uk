@@ -1,6 +1,6 @@
 {
   "version": 17,
-  "generatedAt": "2026-09-07T19:30:45.116Z",
+  "generatedAt": "2026-09-07T19:36:47.496Z",
   "country": "GB",
   "strategy": "Official source first; labelled fallback when no compatible official chart is available.",
   "services": {
@@ -874,7 +874,7 @@
           "rank": 1,
           "title": "Star Wars: The Mandalorian and Grogu",
           "year": 2026,
-          "type": null,
+          "type": "MOVIE",
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/01a06213-9861-7d5b-a9ba-b56eabc0796c/compose?format=webp&width=386&label=top_ranked_1_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-d830ec57-499e-498c-b6b3-2b85a18a5f51"
         },
@@ -890,7 +890,7 @@
           "rank": 3,
           "title": "Furious",
           "year": 2026,
-          "type": "SHOW",
+          "type": null,
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/019fa9fd-c0de-7eab-963c-8ec352530398/compose?format=webp&width=386&label=top_ranked_3_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-5d4924b7-1cde-47c3-8852-f30bdd7fe979"
         },
@@ -922,7 +922,7 @@
           "rank": 7,
           "title": "LEGO Star Wars: The Mandalorian",
           "year": 2026,
-          "type": null,
+          "type": "MOVIE",
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/01a06088-3dc6-7cd3-a09d-f7747998842d/compose?format=webp&width=386&label=top_ranked_7_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-e1234eda-704c-4729-a47e-e8be088bc61f"
         },
@@ -938,7 +938,7 @@
           "rank": 9,
           "title": "Marvel Studios' The Avengers",
           "year": 2012,
-          "type": "MOVIE",
+          "type": null,
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/f31231d4-500b-42eb-a3a6-ef53aaef969f/compose?format=webp&width=386&label=top_ranked_9_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-d2ab699b-67da-4906-a7a4-5bc542c953cf"
         },
@@ -1571,13 +1571,13 @@
         },
         {
           "rank": 8,
-          "sourceRank": 12581,
+          "sourceRank": 12597,
           "title": "Louis Theroux: The Ultra Zionists",
           "year": 2011,
           "poster": "/poster/313245736/s166/louis-theroux-the-ultra-zionists.webp",
           "url": "https://www.justwatch.com/uk/movie/louis-theroux-the-ultra-zionists",
           "trend": "UP",
-          "trendDifference": 12,
+          "trendDifference": 7,
           "daysInTop10": null,
           "topRank": 13
         },
@@ -2172,13 +2172,13 @@
         },
         {
           "rank": 5,
-          "sourceRank": 4584,
+          "sourceRank": 4586,
           "title": "Jack Irish",
           "year": 2016,
           "poster": "/poster/206000775/s166/jack-irish.webp",
           "url": "https://www.justwatch.com/uk/tv-series/jack-irish",
           "trend": "UP",
-          "trendDifference": 6,
+          "trendDifference": 4,
           "daysInTop10": 1,
           "topRank": 10
         },
@@ -2373,7 +2373,7 @@
           "cadence": "weekly",
           "note": "Fresh data did not update successfully, so the last successful results are being shown.",
           "stale": true,
-          "staleAsOf": "2026-09-07T19:29:14.494Z"
+          "staleAsOf": "2026-09-07T19:30:45.116Z"
         }
       },
       "error": null,
@@ -2756,9 +2756,8 @@
           "rank": 2,
           "title": "Dandelion",
           "artist": "Ella Langley",
-          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/26/35/03/26350323-d656-4817-49e6-4d658af8363a/196874332917.jpg/400x400bb.jpg",
-          "detailsUrl": "https://ca.billboard.com/charts/billboard-200",
-          "musicUrl": "https://music.apple.com/us/album/dandelion/1895159736?uo=4"
+          "poster": null,
+          "detailsUrl": "https://ca.billboard.com/charts/billboard-200"
         },
         {
           "rank": 3,
@@ -2780,9 +2779,8 @@
           "rank": 5,
           "title": "Ultimate Dolly Parton",
           "artist": "Dolly Parton",
-          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music/37/fa/d1/mzi.ecmonpil.jpg/400x400bb.jpg",
-          "detailsUrl": "https://ca.billboard.com/charts/billboard-200",
-          "musicUrl": "https://music.apple.com/us/album/ultimate-dolly-parton/282883573?uo=4"
+          "poster": null,
+          "detailsUrl": "https://ca.billboard.com/charts/billboard-200"
         },
         {
           "rank": 6,
@@ -2796,9 +2794,8 @@
           "rank": 7,
           "title": "The Great Divide",
           "artist": "Noah Kahan",
-          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e0/53/5b/e0535bb5-a269-8cc4-e12f-589e26809569/26UMGIM02802.rgb.jpg/400x400bb.jpg",
-          "detailsUrl": "https://ca.billboard.com/charts/billboard-200",
-          "musicUrl": "https://music.apple.com/us/album/the-great-divide/1872241079?uo=4"
+          "poster": null,
+          "detailsUrl": "https://ca.billboard.com/charts/billboard-200"
         },
         {
           "rank": 8,
@@ -2812,9 +2809,8 @@
           "rank": 9,
           "title": "ICEMAN",
           "artist": "Drake",
-          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7f/39/61/7f396123-be56-bc11-eaab-976441808e58/26UMGIM63622.rgb.jpg/400x400bb.jpg",
-          "detailsUrl": "https://ca.billboard.com/charts/billboard-200",
-          "musicUrl": "https://music.apple.com/us/album/iceman/6769649287?uo=4"
+          "poster": null,
+          "detailsUrl": "https://ca.billboard.com/charts/billboard-200"
         },
         {
           "rank": 10,

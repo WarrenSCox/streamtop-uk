@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-07T19:31:26.709Z",
+  "updated": "2026-09-07T19:37:40.080Z",
   "categories": {
     "UK": [
       {
@@ -95,6 +95,15 @@
     ],
     "WORLD": [
       {
+        "title": "Irish citizenship applicants will have to prove English or Irish language skills",
+        "link": "https://news.sky.com/story/irish-citizenship-applicants-will-have-to-prove-english-or-irish-language-skills-13582906",
+        "published": "Mon, 07 Sep 2026 18:56:00 +0100",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-michael-martin-ireland_7344486.jpg?20260907190459"
+      },
+      {
         "title": "Alleged killers of Australian surfers and American friend go on trial in Mexico",
         "link": "https://www.theguardian.com/world/2026/sep/07/alleged-killers-of-australian-surfers-and-american-friend-go-on-trial-in-mexico",
         "published": "Mon, 07 Sep 2026 17:29:20 GMT",
@@ -129,15 +138,6 @@
         "provider": "GUARDIAN",
         "categories": "Australian economy Australia weather Climate crisis Australia news Environment El Niño southern oscillation Cost of living crisis Retail industry Inflation Petrol prices",
         "image": "https://i.guim.co.uk/img/media/a8ea95d9d663d7a2bb4886e76b068a9afd859e13/464_0_4640_3712/master/4640.jpg?width=140&quality=85&auto=format&fit=max&s=15a4fba6a8bccc2511f641b1addb7baf"
-      },
-      {
-        "title": "Grassroots Labor group urges Albanese government to chart course away from ‘American war machine’",
-        "link": "https://www.theguardian.com/australia-news/2026/sep/08/grassroots-labor-pressure-group-albanese-government-us-military-war-machine",
-        "published": "Mon, 07 Sep 2026 15:00:22 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Australian military Australia news Australian foreign policy Penny Wong US military Australian politics Labor party Aukus",
-        "image": "https://i.guim.co.uk/img/media/fc302a20aacde8550031ac929d7242d5345b8a21/230_0_5594_4474/master/5594.jpg?width=140&quality=85&auto=format&fit=max&s=69d6d7c59947576edaa8dbbfd3eef93d"
       },
       {
         "title": "Mysterious Canadian island ‘vanishes’ and then reappears 20 miles away",
@@ -895,6 +895,15 @@
             "image": "https://e3.365dm.com/25/04/1920x1080/skynews-zhenhao-zou-rapist_6873887.jpg?20250402134859"
           },
           {
+            "title": "Irish citizenship applicants will have to prove English or Irish language skills",
+            "link": "https://news.sky.com/story/irish-citizenship-applicants-will-have-to-prove-english-or-irish-language-skills-13582906",
+            "published": "Mon, 07 Sep 2026 18:56:00 +0100",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-michael-martin-ireland_7344486.jpg?20260907190459"
+          },
+          {
             "title": "Israeli strikes on southern Lebanon kill at least 12 people",
             "link": "https://news.sky.com/story/israeli-strikes-on-southern-lebanese-village-kill-nine-people-13582649",
             "published": "Mon, 07 Sep 2026 08:19:00 +0100",
@@ -929,15 +938,6 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/09/1920x1080/skynews-fogo-capeverde_7343269.jpg?20260906155915"
-          },
-          {
-            "title": "Seven killed in Israeli strikes on southern Lebanon",
-            "link": "https://news.sky.com/story/four-killed-in-israeli-strikes-on-southern-lebanon-13582240",
-            "published": "Sun, 06 Sep 2026 11:19:00 +0100",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-lebanon-strikes_7342905.jpg?20260906113603"
           }
         ],
         "POLITICS": [
@@ -3662,15 +3662,6 @@
             "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
           },
           {
-            "title": "Wall St ends higher as stocks reclaim some shine",
-            "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUmZ3SUhHbXJYY2d1bWZHdjZ4MHIzLWdpTzFRWGdWU0pfZDhpV3ZoWVJnY194WF9PR0UxQjRES2NjOHBIbkpTcW9iY1l0Y05uYS1kd1Fha2lnYXNVS1VyZ0xlWGVPaF9Qamh6R2lLZDF5bDBLUFdaTU1RNmtoMVhhcEFCdWJvZWlxNUpYc2FuSG0zb2hFRW1IUW9OZWVOUFNwbWF3V1ZWS2xoaFQ5ZV9CdFpGVEo",
-            "published": "Wed, 02 Sep 2026 22:19:32 GMT",
-            "source": "Reuters",
-            "provider": "REUTERS",
-            "categories": "",
-            "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-          },
-          {
             "title": "European shares hit by rising bond yields, energy-driven inflation concerns",
             "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPME1pdGN2bXZCdHkxUDdIazdHeHpCM0FrbVNIa2lHOVNOWnA5Ulk2UVpUdGhSWGJpNEE4ckFqeXFVZjhTV2FscDhPNG83RWRxMnVEZDF1TDNUT3ZuSnlYR05PbHVTWTlYUFhnNjhmM3hqR1dZcFJsV25FWmh4cXV1ZkN2RjNQMDcxeDJRMVVoRTE3dEJ4LXJubmdHQ1FjUkowbEFPQmc4SE9mYl9jY0hXeGZnNUJoSU1VU0RQVEN1VHdqeFE4WTc1WA",
             "published": "Wed, 02 Sep 2026 16:39:46 GMT",
@@ -3692,6 +3683,15 @@
             "title": "Stocks climb and US yields ease; yen jumps against dollar",
             "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB0WUhpSzJRLUpQRnRFZFhzQTlMckJ1alJaa1RQaGo0RjdoZ0h3Y0VQd1I0NkxvS3AzWElTTTJFSF9KMEQ1U1lWVlNDZ2lud19wMW85LWpyQWJoNzltaFctdkdtRzMyWVZDam5yZWtxRHlzcUJBR3R4VHNHWQ",
             "published": "Wed, 02 Sep 2026 16:05:20 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+          },
+          {
+            "title": "Global bonds extend selloff, oil prices surge on renewed US-Iran strikes",
+            "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUzRjcDczTGxqaGRleWZNeUwtZnpOTjRjNWhmSEt2YkQtY1ZwaDdhZ2RxX0hCWEZZdXpPSmlWZW45ZVBHM2lsMU9XalYtNEl1cGxpWjVhVTR2cDU1ajlNMzRJb3FZaGZ4akprMWhPNmd4cmJFOFI1Q29iWlI0ZnFXNXljcw",
+            "published": "Tue, 01 Sep 2026 23:36:26 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3823,5 +3823,5 @@
       }
     }
   },
-  "stocksUpdated": "2026-09-07T19:31:36.610Z"
+  "stocksUpdated": "2026-09-07T19:37:50.979Z"
 }
