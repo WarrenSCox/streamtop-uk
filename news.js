@@ -36,7 +36,7 @@ const STOCK_PHOTOS={
  ],
  retail:[
   "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=500&h=500&q=82",
-  "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=500&h=500&q=82"
+  "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=500&h=500&q=82"
  ]
 };
 const STOCK_GENERIC=[
@@ -50,7 +50,8 @@ function stockPhotoPool(item){
  const t=String(item?.title||"").toLowerCase();
  if(/\b(chatgpt|openai|ai\b|artificial intelligence|tech|technology|chip|semiconductor|software|spacex|tesla)\b/.test(t))return STOCK_PHOTOS.ai;
  if(/\b(yen|dollar|euro|sterling|pound|currency|currencies|forex|fx|exchange rate|inflation|interest rate|rates|bond|yield|treasury|fed\b|federal reserve|bank of england)\b/.test(t))return STOCK_PHOTOS.money;
- if(/\b(luxury|retail|shop|shopping|brand|fashion|shell|bp\b|oil|energy|consumer)\b/.test(t))return STOCK_PHOTOS.retail;
+ if(/\b(oil|energy|crude|brent|wti|gas|shell|bp\b|opec)\b/.test(t))return STOCK_PHOTOS.markets;
+ if(/\b(luxury|retail|shop|shopping|brand|fashion|consumer)\b/.test(t))return STOCK_PHOTOS.retail;
  if(/\b(bank|banking|pank|finance|financial|lender|mortgage|credit)\b/.test(t))return STOCK_PHOTOS.business;
  if(/\b(job|jobs|employment|payroll|worker|office|company|companies|business)\b/.test(t))return STOCK_PHOTOS.office;
  if(/\b(stock|stocks|share|shares|ftse|market|markets|index|indices|equity|equities|invest|portfolio|dividend|earnings)\b/.test(t))return STOCK_PHOTOS.markets;
