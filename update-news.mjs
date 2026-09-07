@@ -289,8 +289,8 @@ for(const cat of CATEGORIES){
 
 await fs.writeFile("news.json",JSON.stringify({
  updated:new Date().toISOString(),
- categories,
- health,
+ categories:{...categories,STOCK_MARKET:previousNews?.categories?.STOCK_MARKET||[]},
+ health:{...health,categories:{...health.categories,STOCK_MARKET:previousNews?.health?.categories?.STOCK_MARKET||{status:"failed",count:0}}},
  // Keep provider pools for diagnostics/future resilience, but the app now renders one mixed chart.
- providers
+ providers:{...previousNews?.providers,...providers}
 },null,2)+"\n");

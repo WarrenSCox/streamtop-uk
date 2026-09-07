@@ -1023,3 +1023,21 @@ body.watchlist-reordering .my-list-page .chart-wrap,body.watchlist-reordering #m
 .watchlist-search-bar:focus-within .watchlist-search-icon{animation:watchlist-search-icon-wiggle .55s ease-in-out 1}
 @keyframes watchlist-search-icon-wiggle{0%{transform:rotate(0deg) scale(1)}22%{transform:rotate(-10deg) scale(1.04)}46%{transform:rotate(8deg) scale(1.04)}68%{transform:rotate(-5deg) scale(1.02)}84%{transform:rotate(3deg) scale(1.01)}100%{transform:rotate(0deg) scale(1)}}
 @media(prefers-reduced-motion:reduce){.watchlist-search-bar:focus-within::after,.watchlist-search-bar:focus-within .watchlist-search-icon{animation:none!important}}
+
+/* v6.2.53 — Stock Market source strip */
+.news-provider-switch.stock-sources .news-provider-btn{cursor:default}
+.stock-logo{display:flex;align-items:center;justify-content:center;min-width:0;max-width:100%;color:var(--navy);text-align:center}
+.fool-logo{display:block;font-family:Georgia,serif;font-size:18px;font-weight:700;line-height:1.02;letter-spacing:-.045em}
+.fool-logo b{font-size:29px}
+.yahoo-logo{flex-direction:column;color:#6001d2;font-family:Arial,sans-serif;line-height:1}
+.yahoo-logo b{font-size:24px;letter-spacing:-.065em}
+.yahoo-logo small{font-size:13px;font-weight:700;letter-spacing:-.025em}
+.reuters-logo{gap:5px;font-family:Arial,sans-serif;font-size:19px;letter-spacing:-.045em}
+.reuters-mark{font-size:32px;line-height:1;color:#ff8000}
+.stock-story-source{font-weight:800;color:var(--navy)}
+@media(max-width:560px){
+ .fool-logo{font-size:12px}.fool-logo b{font-size:21px}
+ .yahoo-logo b{font-size:18px}.yahoo-logo small{font-size:10px}
+ .reuters-logo{gap:2px;font-size:13px}.reuters-mark{font-size:23px}
+}
+@media(max-width:370px){.fool-logo{font-size:10px}.fool-logo b{font-size:18px}.yahoo-logo b{font-size:16px}.reuters-logo{font-size:11px}.reuters-mark{font-size:19px}}
