@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-07T17:53:17.645Z",
+  "updated": "2026-09-07T18:40:56.987Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -24,7 +24,7 @@
         "title": "The Let Them Theory",
         "author": "Mel Robbins",
         "narrator": "Mel Robbins",
-        "image": "https://covers.openlibrary.org/b/id/15165806-L.jpg"
+        "image": "https://m.media-amazon.com/images/I/51YOr6ua-PL._SL500_.jpg"
       },
       {
         "title": "The Garden Grave",
@@ -54,7 +54,7 @@
         "title": "The Gate of the Feral Gods",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://covers.openlibrary.org/b/id/15232581-L.jpg"
+        "image": "https://m.media-amazon.com/images/I/51rmyTTWPsL._SL500_.jpg"
       },
       {
         "title": "The Butcher's Masquerade",
@@ -123,15 +123,15 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-09-07T17:53:17.645Z",
-      "lastSuccessfulRefresh": "2026-09-07T17:53:17.645Z",
+      "checkedAt": "2026-09-07T18:40:56.988Z",
+      "lastSuccessfulRefresh": "2026-09-07T18:40:56.988Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
-      "status": "stale",
-      "checkedAt": "2026-09-07T17:53:29.108Z",
-      "lastSuccessfulRefresh": "2026-09-07T12:19:32.351Z",
-      "reason": "503 https://www.audible.co.uk/charts/best"
+      "status": "healthy",
+      "checkedAt": "2026-09-07T18:41:06.205Z",
+      "lastSuccessfulRefresh": "2026-09-07T18:41:06.205Z",
+      "reason": ""
     }
   }
 }
