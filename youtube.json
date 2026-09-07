@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-07T19:45:35.658Z",
+  "generatedAt": "2026-09-07T20:16:03.840Z",
   "country": "GB",
   "trailers": [
     {
@@ -21,6 +21,14 @@
     },
     {
       "rank": 3,
+      "title": "Peddi Official Trailer (Telugu) | Ram Charan | Janhvi Kapoor | A R Rahman | Buchi Babu Sana",
+      "videoId": "sF2dj7ycZvA",
+      "poster": "https://i.ytimg.com/vi/sF2dj7ycZvA/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=sF2dj7ycZvA",
+      "channel": "Vriddhi Cinemas"
+    },
+    {
+      "rank": 4,
       "title": "Cocktail 2 Official Trailer | Shahid Kapoor, Kriti Sanon, Rashmika Mandanna | In Cinemas 19th June",
       "videoId": "XXxUqLHq1xg",
       "poster": "https://i.ytimg.com/vi/XXxUqLHq1xg/hqdefault.jpg",
@@ -28,7 +36,7 @@
       "channel": "Maddock Films"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "Mirzapur The Movie | Official Hindi Trailer |Ali Fazal |  Pankaj Tripathi | Divyenndu | 4th Sept",
       "videoId": "5vMWZhHPlaw",
       "poster": "https://i.ytimg.com/vi/5vMWZhHPlaw/hqdefault.jpg",
@@ -36,7 +44,7 @@
       "channel": "Excel Movies"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "Dune: Part Three | Official Teaser Trailer",
       "videoId": "3_9vCamtuPY",
       "poster": "https://i.ytimg.com/vi/3_9vCamtuPY/hqdefault.jpg",
@@ -44,7 +52,7 @@
       "channel": "Warner Bros."
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "Disclosure Day | Official Trailer",
       "videoId": "SCYT8vb2siQ",
       "poster": "https://i.ytimg.com/vi/SCYT8vb2siQ/hqdefault.jpg",
@@ -52,7 +60,7 @@
       "channel": "Universal Pictures"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "Primetime | Official Trailer HD | A24",
       "videoId": "5fHXyqQOKL8",
       "poster": "https://i.ytimg.com/vi/5fHXyqQOKL8/hqdefault.jpg",
@@ -60,7 +68,7 @@
       "channel": "A24"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "One Night Only | Official Trailer",
       "videoId": "JRG244IfrRE",
       "poster": "https://i.ytimg.com/vi/JRG244IfrRE/hqdefault.jpg",
@@ -68,20 +76,12 @@
       "channel": "Universal Pictures"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Batwara 1947 | Official Trailer | Shabana Azmi | Sunny Deol | Aamir Khan Productions | 14th Aug 2026",
       "videoId": "oRsAMzfvVGk",
       "poster": "https://i.ytimg.com/vi/oRsAMzfvVGk/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=oRsAMzfvVGk",
       "channel": "Aamir Khan Talkies"
-    },
-    {
-      "rank": 10,
-      "title": "RAMAYANA - Official Trailer",
-      "videoId": "1zip1rNaNYs",
-      "poster": "https://i.ytimg.com/vi/1zip1rNaNYs/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=1zip1rNaNYs",
-      "channel": "Sony Pictures Entertainment"
     }
   ],
   "videos": [
@@ -135,11 +135,11 @@
     },
     {
       "rank": 7,
-      "title": "Don't You Worry Child (feat. John Martin) (Radio Edit)",
-      "videoId": "vRqbSgp8w38",
-      "poster": "https://i.ytimg.com/vi/vRqbSgp8w38/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=vRqbSgp8w38",
-      "channel": "Release - Topic"
+      "title": "Gurlez Akhtar : Robinhood | Korala Maan | Kulshan Sandhu | New Punjabi Songs | Latest Punjabi Songs",
+      "videoId": "FJ2NBW-ps38",
+      "poster": "https://i.ytimg.com/vi/FJ2NBW-ps38/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=FJ2NBW-ps38",
+      "channel": "Gurlez Akhtar"
     },
     {
       "rank": 8,
@@ -159,11 +159,11 @@
     },
     {
       "rank": 10,
-      "title": "The Offspring - The Kids Aren't Alright (Japanese Lyric Video / 日本語の歌詞)",
-      "videoId": "_B6Z20gdJEc",
-      "poster": "https://i.ytimg.com/vi/_B6Z20gdJEc/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=_B6Z20gdJEc",
-      "channel": "The Offspring"
+      "title": "Don't You Worry Child (feat. John Martin) (Radio Edit)",
+      "videoId": "vRqbSgp8w38",
+      "poster": "https://i.ytimg.com/vi/vRqbSgp8w38/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=vRqbSgp8w38",
+      "channel": "Release - Topic"
     }
   ],
   "sources": {

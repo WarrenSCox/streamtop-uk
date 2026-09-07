@@ -1,6 +1,6 @@
 {
   "version": 17,
-  "generatedAt": "2026-09-07T19:44:55.371Z",
+  "generatedAt": "2026-09-07T20:15:10.266Z",
   "country": "GB",
   "strategy": "Official source first; labelled fallback when no compatible official chart is available.",
   "services": {
@@ -874,7 +874,7 @@
           "rank": 1,
           "title": "Star Wars: The Mandalorian and Grogu",
           "year": 2026,
-          "type": null,
+          "type": "MOVIE",
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/01a06213-9861-7d5b-a9ba-b56eabc0796c/compose?format=webp&width=386&label=top_ranked_1_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-d830ec57-499e-498c-b6b3-2b85a18a5f51"
         },
@@ -914,7 +914,7 @@
           "rank": 6,
           "title": "Marvel Studios' Avengers: Infinity War",
           "year": 2018,
-          "type": "MOVIE",
+          "type": null,
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/433236b6-470b-461e-bfc5-e48016f077eb/compose?format=webp&width=386&label=top_ranked_6_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-9a136e06-852a-41bf-b71d-fa061cb43225"
         },
@@ -938,7 +938,7 @@
           "rank": 9,
           "title": "Marvel Studios' The Avengers",
           "year": 2012,
-          "type": "MOVIE",
+          "type": null,
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/f31231d4-500b-42eb-a3a6-ef53aaef969f/compose?format=webp&width=386&label=top_ranked_9_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-d2ab699b-67da-4906-a7a4-5bc542c953cf"
         },
@@ -2544,9 +2544,9 @@
           "rank": 9,
           "title": "ISLANDS IN THE STREAM",
           "artist": "DOLLY PARTON & KENNY ROGERS",
-          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/ed/26/6b/ed266bb0-b4ae-5c6a-b31a-728bed6c5894/886446002910.jpg/400x400bb.jpg",
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music/37/fa/d1/mzi.ecmonpil.jpg/400x400bb.jpg",
           "detailsUrl": "https://www.officialcharts.com/charts/uk-top-40-singles-chart/",
-          "musicUrl": "https://music.apple.com/gb/album/islands-in-the-stream/1488872382?i=1488872397&uo=4"
+          "musicUrl": "https://music.apple.com/gb/album/islands-in-the-stream/282883573?i=282883594&uo=4"
         },
         {
           "rank": 10,
