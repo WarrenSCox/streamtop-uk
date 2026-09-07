@@ -1,6 +1,6 @@
 {
   "version": 17,
-  "generatedAt": "2026-09-07T19:29:14.494Z",
+  "generatedAt": "2026-09-07T19:30:45.116Z",
   "country": "GB",
   "strategy": "Official source first; labelled fallback when no compatible official chart is available.",
   "services": {
@@ -922,7 +922,7 @@
           "rank": 7,
           "title": "LEGO Star Wars: The Mandalorian",
           "year": 2026,
-          "type": "MOVIE",
+          "type": null,
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/01a06088-3dc6-7cd3-a09d-f7747998842d/compose?format=webp&width=386&label=top_ranked_7_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-e1234eda-704c-4729-a47e-e8be088bc61f"
         },
@@ -938,7 +938,7 @@
           "rank": 9,
           "title": "Marvel Studios' The Avengers",
           "year": 2012,
-          "type": null,
+          "type": "MOVIE",
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/f31231d4-500b-42eb-a3a6-ef53aaef969f/compose?format=webp&width=386&label=top_ranked_9_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-d2ab699b-67da-4906-a7a4-5bc542c953cf"
         },
@@ -2373,7 +2373,7 @@
           "cadence": "weekly",
           "note": "Fresh data did not update successfully, so the last successful results are being shown.",
           "stale": true,
-          "staleAsOf": "2026-09-07T19:14:24.281Z"
+          "staleAsOf": "2026-09-07T19:29:14.494Z"
         }
       },
       "error": null,
@@ -2547,9 +2547,9 @@
           "rank": 9,
           "title": "ISLANDS IN THE STREAM",
           "artist": "DOLLY PARTON & KENNY ROGERS",
-          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music/37/fa/d1/mzi.ecmonpil.jpg/400x400bb.jpg",
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/ed/26/6b/ed266bb0-b4ae-5c6a-b31a-728bed6c5894/886446002910.jpg/400x400bb.jpg",
           "detailsUrl": "https://www.officialcharts.com/charts/uk-top-40-singles-chart/",
-          "musicUrl": "https://music.apple.com/gb/album/islands-in-the-stream/282883573?i=282883594&uo=4"
+          "musicUrl": "https://music.apple.com/gb/album/islands-in-the-stream/1488872382?i=1488872397&uo=4"
         },
         {
           "rank": 10,
