@@ -1,6 +1,6 @@
 {
   "version": 17,
-  "generatedAt": "2026-09-07T19:12:32.735Z",
+  "generatedAt": "2026-09-07T19:14:24.281Z",
   "country": "GB",
   "strategy": "Official source first; labelled fallback when no compatible official chart is available.",
   "services": {
@@ -882,7 +882,7 @@
           "rank": 2,
           "title": "Welcome to the Family: The Murder of Dan Markel",
           "year": 2026,
-          "type": "SHOW",
+          "type": null,
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/01a04a2a-5023-732a-b9c6-5af93b18a409/compose?format=webp&width=386&label=top_ranked_2_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-77fa109a-7f84-4e84-8a1c-f48cee4a5671"
         },
@@ -906,7 +906,7 @@
           "rank": 5,
           "title": "Yellow Mirror",
           "year": 2026,
-          "type": null,
+          "type": "MOVIE",
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/01a020fe-1a30-77cd-a762-593482b1ed6f/compose?format=webp&width=386&label=top_ranked_5_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-b85428e1-f670-4270-96d3-4d0e186336e6"
         },
@@ -930,7 +930,7 @@
           "rank": 8,
           "title": "Marvel Studios' Avengers: Endgame",
           "year": 2019,
-          "type": null,
+          "type": "MOVIE",
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/6a8390cc-0240-46fc-9c52-5287ca3676eb/compose?format=webp&width=386&label=top_ranked_8_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-b39aa962-be56-4b09-a536-98617031717f"
         },
@@ -946,7 +946,7 @@
           "rank": 10,
           "title": "Adults",
           "year": 2025,
-          "type": "SHOW",
+          "type": null,
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/01a0594b-7386-7572-812d-1c2b3db67b2d/compose?format=webp&width=386&label=top_ranked_10_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-09794373-fbd3-44fb-9f3b-869a2e976094"
         }
@@ -2544,9 +2544,9 @@
           "rank": 9,
           "title": "ISLANDS IN THE STREAM",
           "artist": "DOLLY PARTON & KENNY ROGERS",
-          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music/37/fa/d1/mzi.ecmonpil.jpg/400x400bb.jpg",
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/ed/26/6b/ed266bb0-b4ae-5c6a-b31a-728bed6c5894/886446002910.jpg/400x400bb.jpg",
           "detailsUrl": "https://www.officialcharts.com/charts/uk-top-40-singles-chart/",
-          "musicUrl": "https://music.apple.com/gb/album/islands-in-the-stream/282883573?i=282883594&uo=4"
+          "musicUrl": "https://music.apple.com/gb/album/islands-in-the-stream/1488872382?i=1488872397&uo=4"
         },
         {
           "rank": 10,
@@ -2703,8 +2703,9 @@
           "rank": 6,
           "title": "Dracula",
           "artist": "Tame Impala & JENNIE",
-          "poster": null,
-          "detailsUrl": "https://ca.billboard.com/charts/hot-100"
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/36/be/b4/36beb41f-c644-55cb-9fbb-bf0622a66653/196873644783.jpg/400x400bb.jpg",
+          "detailsUrl": "https://ca.billboard.com/charts/hot-100",
+          "musicUrl": "https://music.apple.com/us/album/dracula/1842444456?i=1842444457&uo=4"
         },
         {
           "rank": 7,
@@ -2718,8 +2719,9 @@
           "rank": 8,
           "title": "I Can't Love You Anymore",
           "artist": "Ella Langley & Morgan Wallen",
-          "poster": null,
-          "detailsUrl": "https://ca.billboard.com/charts/hot-100"
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/26/35/03/26350323-d656-4817-49e6-4d658af8363a/196874332917.jpg/400x400bb.jpg",
+          "detailsUrl": "https://ca.billboard.com/charts/hot-100",
+          "musicUrl": "https://music.apple.com/us/album/i-cant-love-you-anymore/1895159736?i=6763094377&uo=4"
         },
         {
           "rank": 9,
@@ -2733,8 +2735,9 @@
           "rank": 10,
           "title": "Be Her",
           "artist": "Ella Langley",
-          "poster": null,
-          "detailsUrl": "https://ca.billboard.com/charts/hot-100"
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a1/ba/64/a1ba6484-f462-1b88-ddff-d4c014d5f265/196874018361.jpg/400x400bb.jpg",
+          "detailsUrl": "https://ca.billboard.com/charts/hot-100",
+          "musicUrl": "https://music.apple.com/us/album/be-her/1869436835?i=1869436845&uo=4"
         }
       ],
       "albums": [
@@ -2750,8 +2753,9 @@
           "rank": 2,
           "title": "Dandelion",
           "artist": "Ella Langley",
-          "poster": null,
-          "detailsUrl": "https://ca.billboard.com/charts/billboard-200"
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/26/35/03/26350323-d656-4817-49e6-4d658af8363a/196874332917.jpg/400x400bb.jpg",
+          "detailsUrl": "https://ca.billboard.com/charts/billboard-200",
+          "musicUrl": "https://music.apple.com/us/album/dandelion/1895159736?uo=4"
         },
         {
           "rank": 3,
@@ -2781,8 +2785,9 @@
           "rank": 6,
           "title": "WILD (EP)",
           "artist": "KATSEYE",
-          "poster": null,
-          "detailsUrl": "https://ca.billboard.com/charts/billboard-200"
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0a/63/b5/0a63b5b0-dff7-1194-79c0-6bc8f5ab2d74/093624821526.jpg/400x400bb.jpg",
+          "detailsUrl": "https://ca.billboard.com/charts/billboard-200",
+          "musicUrl": "https://music.apple.com/us/album/wild/1885046822?uo=4"
         },
         {
           "rank": 7,
@@ -2796,22 +2801,25 @@
           "rank": 8,
           "title": "This & That",
           "artist": "Stray Kids",
-          "poster": null,
-          "detailsUrl": "https://ca.billboard.com/charts/billboard-200"
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c0/05/aa/c005aa79-a3a7-6e28-48e2-4c5e72eff603/8809928957357_Cover.jpg/400x400bb.jpg",
+          "detailsUrl": "https://ca.billboard.com/charts/billboard-200",
+          "musicUrl": "https://music.apple.com/us/album/this-that/6781751949?uo=4"
         },
         {
           "rank": 9,
           "title": "ICEMAN",
           "artist": "Drake",
-          "poster": null,
-          "detailsUrl": "https://ca.billboard.com/charts/billboard-200"
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7f/39/61/7f396123-be56-bc11-eaab-976441808e58/26UMGIM63622.rgb.jpg/400x400bb.jpg",
+          "detailsUrl": "https://ca.billboard.com/charts/billboard-200",
+          "musicUrl": "https://music.apple.com/us/album/iceman/6769649287?uo=4"
         },
         {
           "rank": 10,
           "title": "petal",
           "artist": "Ariana Grande",
-          "poster": null,
-          "detailsUrl": "https://ca.billboard.com/charts/billboard-200"
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/56/f4/96/56f49612-02dd-83f4-44fe-d2118cc70707/26UMGIM51129.rgb.jpg/400x400bb.jpg",
+          "detailsUrl": "https://ca.billboard.com/charts/billboard-200",
+          "musicUrl": "https://music.apple.com/us/album/petal/1895420874?uo=4"
         }
       ],
       "sources": {
