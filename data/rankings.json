@@ -1,6 +1,6 @@
 {
   "version": 21,
-  "generatedAt": "2026-09-07T21:16:59.815Z",
+  "generatedAt": "2026-09-07T21:34:37.678Z",
   "country": "GB",
   "strategy": "Official source first; labelled fallback when no compatible official chart is available.",
   "services": {
@@ -914,7 +914,7 @@
           "rank": 6,
           "title": "Marvel Studios' Avengers: Infinity War",
           "year": 2018,
-          "type": null,
+          "type": "MOVIE",
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/433236b6-470b-461e-bfc5-e48016f077eb/compose?format=webp&width=386&label=top_ranked_6_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-9a136e06-852a-41bf-b71d-fa061cb43225"
         },
@@ -2184,13 +2184,13 @@
         },
         {
           "rank": 6,
-          "sourceRank": 7448,
+          "sourceRank": 7450,
           "title": "Monster",
           "year": 2017,
           "poster": "/poster/154502392/s166/monster.webp",
           "url": "https://www.justwatch.com/uk/tv-series/monster",
           "trend": "UP",
-          "trendDifference": 4,
+          "trendDifference": 3,
           "daysInTop10": null,
           "topRank": 99
         },
@@ -2373,7 +2373,7 @@
           "cadence": "weekly",
           "note": "Fresh data did not update successfully, so the last successful results are being shown.",
           "stale": true,
-          "staleAsOf": "2026-09-07T21:15:14.986Z"
+          "staleAsOf": "2026-09-07T21:16:59.815Z"
         }
       },
       "error": null,
@@ -2563,11 +2563,11 @@
           "rank": 9,
           "title": "ISLANDS IN THE STREAM",
           "artist": "DOLLY PARTON & KENNY ROGERS",
-          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music/37/fa/d1/mzi.ecmonpil.jpg/400x400bb.jpg",
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/ed/26/6b/ed266bb0-b4ae-5c6a-b31a-728bed6c5894/886446002910.jpg/400x400bb.jpg",
           "detailsUrl": "https://www.officialcharts.com/charts/uk-top-40-singles-chart/",
           "chartCountry": "GB",
           "posterSource": "release-artwork:apple",
-          "musicUrl": "https://music.apple.com/gb/album/islands-in-the-stream/282883573?i=282883594&uo=4"
+          "musicUrl": "https://music.apple.com/gb/album/islands-in-the-stream/1488872382?i=1488872397&uo=4"
         },
         {
           "rank": 10,
