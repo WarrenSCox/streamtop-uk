@@ -1,6 +1,6 @@
 {
   "version": 17,
-  "generatedAt": "2026-09-07T19:42:43.955Z",
+  "generatedAt": "2026-09-07T19:44:55.371Z",
   "country": "GB",
   "strategy": "Official source first; labelled fallback when no compatible official chart is available.",
   "services": {
@@ -874,7 +874,7 @@
           "rank": 1,
           "title": "Star Wars: The Mandalorian and Grogu",
           "year": 2026,
-          "type": "MOVIE",
+          "type": null,
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/01a06213-9861-7d5b-a9ba-b56eabc0796c/compose?format=webp&width=386&label=top_ranked_1_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-d830ec57-499e-498c-b6b3-2b85a18a5f51"
         },
@@ -922,7 +922,7 @@
           "rank": 7,
           "title": "LEGO Star Wars: The Mandalorian",
           "year": 2026,
-          "type": "MOVIE",
+          "type": null,
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/01a06088-3dc6-7cd3-a09d-f7747998842d/compose?format=webp&width=386&label=top_ranked_7_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-e1234eda-704c-4729-a47e-e8be088bc61f"
         },
@@ -946,7 +946,7 @@
           "rank": 10,
           "title": "Adults",
           "year": 2025,
-          "type": null,
+          "type": "SHOW",
           "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/01a0594b-7386-7572-812d-1c2b3db67b2d/compose?format=webp&width=386&label=top_ranked_10_080",
           "detailsUrl": "https://www.disneyplus.com/en-gb/browse/entity-09794373-fbd3-44fb-9f3b-869a2e976094"
         }
@@ -2801,8 +2801,9 @@
           "rank": 8,
           "title": "This & That",
           "artist": "Stray Kids",
-          "poster": null,
-          "detailsUrl": "https://ca.billboard.com/charts/billboard-200"
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c0/05/aa/c005aa79-a3a7-6e28-48e2-4c5e72eff603/8809928957357_Cover.jpg/400x400bb.jpg",
+          "detailsUrl": "https://ca.billboard.com/charts/billboard-200",
+          "musicUrl": "https://music.apple.com/us/album/this-that/6781751949?uo=4"
         },
         {
           "rank": 9,
@@ -2816,8 +2817,9 @@
           "rank": 10,
           "title": "petal",
           "artist": "Ariana Grande",
-          "poster": null,
-          "detailsUrl": "https://ca.billboard.com/charts/billboard-200"
+          "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/56/f4/96/56f49612-02dd-83f4-44fe-d2118cc70707/26UMGIM51129.rgb.jpg/400x400bb.jpg",
+          "detailsUrl": "https://ca.billboard.com/charts/billboard-200",
+          "musicUrl": "https://music.apple.com/us/album/petal/1895420874?uo=4"
         }
       ],
       "sources": {
