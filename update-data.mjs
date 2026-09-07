@@ -1079,6 +1079,37 @@ function parseBillboardMarkdown(md, sourceUrl){
 function normMusic(v=''){
   return cleanMusicText(v).toLowerCase().replace(/&/g,' and ').replace(/[^a-z0-9]+/g,' ').trim();
 }
+function wikiArtistTitleScore(title='',artist=''){
+  const page=normMusic(String(title).replace(/\s*\([^)]*\)\s*$/,''));
+  const wanted=normMusic(artist);
+  if(!page||!wanted)return 0;
+  if(page===wanted)return 10;
+  if(page.startsWith(wanted+' '))return 7;
+  return 0;
+}
+async function lookupArtistPhoto(item){
+  const artist=String(item.artist||'').trim();
+  if(!artist)return item;
+  try{
+    const query=`"${artist}" singer musician`;
+    const url='https://en.wikipedia.org/w/api.php?action=query&generator=search'
+      +`&gsrsearch=${encodeURIComponent(query)}&gsrnamespace=0&gsrlimit=6`
+      +'&prop=pageimages|info&piprop=thumbnail&pithumbsize=600&inprop=url&format=json&formatversion=2&origin=*';
+    const data=JSON.parse(await fetchText(url,{'accept':'application/json'}));
+    const pages=Array.isArray(data?.query?.pages)?data.query.pages:[];
+    const ranked=pages
+      .map(p=>({p,score:wikiArtistTitleScore(p?.title,artist)}))
+      .filter(x=>x.score>0&&x.p?.thumbnail?.source)
+      .sort((a,b)=>b.score-a.score);
+    const best=ranked[0]?.p;
+    if(!best)return item;
+    console.log(`Music artwork fallback: artist photo for "${item.title}" by ${artist} via Wikipedia (${best.title})`);
+    return {...item,poster:best.thumbnail.source,posterSource:'artist-photo:wikipedia',artistPageUrl:best.fullurl||null};
+  }catch(e){
+    console.warn(`Music artist image fallback failed for ${artist}: ${e.message}`);
+    return item;
+  }
+}
 async function lookupMusicArtwork(item,country='US',kind='SINGLE'){
   // Chart sites often prefix brand-new albums with "New" and Billboard may
   // append format labels such as "(EP)".  Those strings are useful on the
@@ -1118,11 +1149,13 @@ async function lookupMusicArtwork(item,country='US',kind='SINGLE'){
       for(const row of rows){ const n=score(row); if(n>bestScore){best=row;bestScore=n;} }
       if(bestScore>=12)break;
     }
-    if(!best||bestScore<6)return item;
+    if(!best||bestScore<6)return await lookupArtistPhoto(item);
     const art=best.artworkUrl100||best.artworkUrl60||null;
-    return {...item,poster:art?art.replace(/\/100x100bb(?:-\d+)?\./,'/400x400bb.'):item.poster,
+    if(!art)return await lookupArtistPhoto(item);
+    return {...item,poster:art.replace(/\/100x100bb(?:-\d+)?\./,'/400x400bb.'),
+      posterSource:'release-artwork:apple',
       musicUrl:kind==='ALBUM'?(best.collectionViewUrl||null):(best.trackViewUrl||best.collectionViewUrl||null)};
-  }catch{return item;}
+  }catch{return await lookupArtistPhoto(item);}
 }
 async function enrichMusicArtwork(items,country,kind){
   const out=[];
@@ -1193,7 +1226,7 @@ async function fetchOfficialMusicChart(url,label){
 }
 
 let previous={}; try{previous=JSON.parse(await readFile('data/rankings.json','utf8'));}catch{}
-const output={version:17,generatedAt:new Date().toISOString(),country:'GB',strategy:'Official source first; labelled fallback when no compatible official chart is available.',services:{}};
+const output={version:18,generatedAt:new Date().toISOString(),country:'GB',strategy:'Official source first; labelled fallback when no compatible official chart is available.',services:{}};
 const packageData=await gql(PACKAGES_QUERY,{country:'GB',platform:'WEB'}); const packages=packageData?.packages||[];
 let netflixOfficial=null; try{netflixOfficial=await fetchOfficialNetflix(); console.log(`Netflix official week ${netflixOfficial.week}`);}catch(err){console.error('Netflix official:',err.message);}
 let appleMoviesOfficial=null; try{appleMoviesOfficial=await fetchOfficialApple(APPLE_MOVIES_URL,'MOVIE'); console.log(`Apple official movies: ${appleMoviesOfficial.length}`);}catch(err){console.error('Apple official movies:',err.message);}
