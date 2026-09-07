@@ -13,6 +13,17 @@ function updateSourceStrip(){
  $("#newsProviderSwitch").innerHTML=stock?`<div class="news-provider-btn" aria-label="The Twelfth Magpie"><span class="stock-logo magpie-logo"><b>TWELFTH</b><small>MAGPIE</small></span></div><div class="news-provider-btn" aria-label="Yahoo Finance UK"><span class="stock-logo yahoo-logo"><b>yahoo!</b><small>finance</small></span></div><div class="news-provider-btn" aria-label="Reuters"><span class="stock-logo reuters-logo"><span class="reuters-mark" aria-hidden="true">◌</span><b>Reuters</b></span></div>`:`<div class="news-provider-btn" aria-label="Sky News"><span class="sky-logo">sky <b>news</b></span></div><div class="news-provider-btn" aria-label="The Guardian"><span class="guardian-logo"><i>G</i><b>The<br>Guardian</b></span></div><div class="news-provider-btn" aria-label="Metro"><span class="metro-logo">METRO</span></div>`;
 }
 function categoryRows(){return data.categories?.[active]||[]}
+const STOCK_THUMBS=["assets/stocks/stocks-growth.webp","assets/stocks/stocks-allocation.webp","assets/stocks/stocks-money.webp","assets/stocks/stocks-global.webp"];
+function stockFallback(item){
+ const key=String(item?.title||"").toLowerCase();
+ if(/\\b(currency|currencies|forex|dollar|yen|euro|sterling|exchange rate|fx|global|world|international|central bank|federal reserve|bank of england|inflation|bond yields|treasury yields)\\b/.test(key))return STOCK_THUMBS[3];
+ if(/\\b(dividend|income|yield|cash|profit|earnings|revenue|wealth|pension|isa|saving|money)\\b/.test(key))return STOCK_THUMBS[2];
+ if(/\\b(portfolio|allocation|diversif|fund|etf|index|indices|asset|sector|holdings)\\b/.test(key))return STOCK_THUMBS[1];
+ return STOCK_THUMBS[0];
+}
+function stockImage(item){
+ return active==="STOCKS"?(item.image||stockFallback(item)):item.image;
+}
 function render(){
  const rows=categoryRows();
  const newsTitle=$("#newsTitle");
@@ -22,8 +33,15 @@ function render(){
  $("#newsChart").innerHTML=rows.slice(0,10).map((x,i)=>{
   const meta=ago(x.published);
   const byline=active==="STOCKS"&&x.source?`<span class="stock-story-source">${esc(x.source)}</span><span aria-hidden="true"> · </span>`:"";
-  return `<li class="news-row"><span class="rank">${String(i+1).padStart(2,"0")}</span><a class="news-image-link" href="${esc(x.link)}" target="_blank" rel="noopener" aria-label="${esc(x.title)}">${x.image?`<img class="poster news-thumb" src="${esc(x.image)}" alt="">`:`<span class="poster news-thumb news-thumb-fallback">W</span>`}</a><a class="news-story" href="${esc(x.link)}" target="_blank" rel="noopener"><span class="news-copy"><strong>${esc(x.title)}</strong><small>${byline}${esc(meta)}</small></span></a></li>`;
+  return `<li class="news-row"><span class="rank">${String(i+1).padStart(2,"0")}</span><a class="news-image-link" href="${esc(x.link)}" target="_blank" rel="noopener" aria-label="${esc(x.title)}">${stockImage(x)?`<img class="poster news-thumb" src="${esc(stockImage(x))}" alt="" data-stock-fallback="${active==="STOCKS"?esc(stockFallback(x)):""}">`:`<span class="poster news-thumb news-thumb-fallback">W</span>`}</a><a class="news-story" href="${esc(x.link)}" target="_blank" rel="noopener"><span class="news-copy"><strong>${esc(x.title)}</strong><small>${byline}${esc(meta)}</small></span></a></li>`;
  }).join("");
+ $("#newsChart").querySelectorAll("img[data-stock-fallback]").forEach(img=>{
+  img.addEventListener("error",()=>{
+   const fallback=img.dataset.stockFallback;
+   if(fallback&&img.getAttribute("src")!==fallback){img.src=fallback;return}
+   img.onerror=null;
+  });
+ });
  $("#newsError").classList.toggle("hidden",rows.length>0);
 }
 async function loadNews(){
