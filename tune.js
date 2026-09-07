@@ -14,7 +14,7 @@ function readHeard(){try{const x=JSON.parse(localStorage.getItem(HEARD_KEY)||'[]
 function writeHeard(items){localStorage.setItem(HEARD_KEY,JSON.stringify([...new Set(items)]))}
 function isHeard(item){return readHeard().includes(heardId(item))}
 function toggleHeard(item){const id=heardId(item),items=readHeard(),at=items.indexOf(id);if(at>=0)items.splice(at,1);else items.push(id);writeHeard(items)}
-function earSvg(){return `<svg viewBox="0 0 48 48" aria-hidden="true"><path d="M31.5 38.5c-2.1 2.4-5.1 3.7-8.1 3.3-4.6-.6-7.8-4.6-7.4-9.2.3-3.2 2.2-5 4.2-6.8 1.8-1.6 3.6-3.3 3.6-6.4 0-3.7 2.5-6.4 6-6.4 4.5 0 7.2 3.7 7.2 8.4 0 5.4-2.4 8.2-5.1 10.1-1.8 1.3-3.5 2.3-4.3 4.2" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/><path d="M29.4 19.2c2.2.4 3.4 2.1 3.2 4.3-.2 2.5-1.9 3.8-3.7 4.9-1.8 1.1-3.4 2.2-3.7 4.6" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>`}
+function earSvg(){return `<svg class="audio-ear" viewBox="0 0 64 88" aria-hidden="true" focusable="false"><use class="audio-ear-shell" href="ear-icon.svg?v=6.2.65#ear-shell"></use><use class="audio-ear-detail" href="ear-icon.svg?v=6.2.65#ear-detail"></use></svg>`}
 function render(){
  const key=state.type==='SINGLE'?'singles':'albums',label=state.type==='SINGLE'?'Singles':'Albums',d=state.data?.services?.[state.service],source=d?.sources?.[key];
  els.chartTitle.textContent=`${SERVICE_LABEL[state.service]} ${label}`;

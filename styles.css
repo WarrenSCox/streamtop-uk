@@ -1065,3 +1065,55 @@ body.watchlist-reordering .my-list-page .chart-wrap,body.watchlist-reordering #m
 .tune-page .seen-listened::before{left:1px;right:-3px;bottom:-5px;height:6px;border-top:2px solid currentColor;border-radius:55% 45% 48% 52%;transform:rotate(-2deg) skewX(-7deg);transform-origin:left center}
 @media(max-width:560px){.tune-page .tune-heard-row{grid-template-columns:38px 52px minmax(0,1fr) 37px;padding-right:7px}.heard-toggle{width:34px;height:34px;padding:4px}.heard-toggle svg{width:26px;height:26px}}
 @media(prefers-reduced-motion:reduce){.heard-toggle{transition:none}.heard-toggle:active{transform:none}}
+
+
+/* v6.2.65 — WozzaTune uses the approved shared audiobook ear asset. */
+.tune-page .heard-toggle .audio-ear{
+  width:29px;
+  height:40px;
+  overflow:visible;
+  color:#17213d;
+  opacity:.34;
+}
+.tune-page .heard-toggle .audio-ear-shell{
+  fill:transparent;
+  stroke:currentColor;
+  stroke-width:4;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+}
+.tune-page .heard-toggle .audio-ear-detail{
+  fill:none;
+  stroke:currentColor;
+  stroke-width:3.4;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+}
+.tune-page .heard-toggle[aria-pressed="true"] .audio-ear{
+  color:#F2A51A;
+  opacity:1;
+}
+.tune-page .heard-toggle[aria-pressed="true"] .audio-ear-shell{
+  fill:#FDD848;
+  stroke:#F2A51A;
+}
+.tune-page .heard-toggle[aria-pressed="true"] .audio-ear-detail{
+  stroke:#F2A51A;
+}
+
+/* Make the handwritten Tune status comfortably readable. */
+.tune-page .seen-listened{
+  font-size:14px;
+  line-height:1.05;
+  margin-top:7px;
+  font-weight:700;
+}
+.tune-page .seen-listened::before{
+  bottom:-6px;
+  height:7px;
+  border-top-width:2.5px;
+}
+@media(max-width:560px){
+  .tune-page .seen-listened{font-size:13.5px}
+  .tune-page .heard-toggle .audio-ear{width:27px;height:38px}
+}
