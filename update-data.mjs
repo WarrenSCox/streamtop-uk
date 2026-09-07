@@ -1085,8 +1085,10 @@ function wikiArtistTitleScore(title='',artist=''){
   if(!page||!wanted)return 0;
   if(page===wanted)return 12;
   if(page===normMusic(`the ${artist}`))return 11;
-  if(page.startsWith(wanted+' '))return 7;
-  if(page.endsWith(' '+wanted))return 6;
+  if(page.startsWith(wanted+' '))return 8;
+  if(page.endsWith(' '+wanted))return 7;
+  const wantedTokens=wanted.split(' ').filter(x=>x.length>2);
+  if(wantedTokens.length&&wantedTokens.every(x=>page.includes(x)))return 6;
   return 0;
 }
 function commonsThumb(filename,width=600){
@@ -1101,7 +1103,7 @@ function wikidataArtistScore(entity,artist){
   let score=0;
   if(label===wanted)score+=12;
   else if(label===normMusic(`the ${artist}`))score+=11;
-  else if(aliases.includes(wanted))score+=9;
+  else if(aliases.includes(wanted))score+=10;
   if(/\b(singer|musician|band|musical group|rapper|songwriter|recording artist|rock band|pop group|vocalist)\b/.test(description))score+=4;
   return score;
 }
@@ -1110,6 +1112,21 @@ async function lookupArtistPhoto(item){
   if(!artist)return item;
 
   try{
+    for(const title of [artist,`The ${artist}`]){
+      try{
+        const summaryUrl=`https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(title.replace(/ /g,'_'))}`;
+        const summary=JSON.parse(await fetchText(summaryUrl,{'accept':'application/json'}));
+        const thumb=summary?.thumbnail?.source||summary?.originalimage?.source||null;
+        const resolvedTitle=summary?.title||title;
+        if(thumb&&wikiArtistTitleScore(resolvedTitle,artist)>=6){
+          console.log(`Music artwork fallback: artist photo for "${item.title}" by ${artist} via Wikipedia summary (${resolvedTitle})`);
+          return {...item,poster:thumb,posterSource:'artist-photo:wikipedia-summary',artistPageUrl:summary?.content_urls?.desktop?.page||null};
+        }
+      }catch(e){
+        console.warn(`Music Wikipedia summary lookup failed for ${artist}: ${e.message}`);
+      }
+    }
+
     for(const title of [artist,`The ${artist}`]){
       const directUrl='https://en.wikipedia.org/w/api.php?action=query'
         +`&titles=${encodeURIComponent(title)}&redirects=1`
@@ -1150,7 +1167,7 @@ async function lookupArtistPhoto(item){
     const data=JSON.parse(await fetchText(searchUrl,{'accept':'application/json'}));
     const candidates=(Array.isArray(data?.search)?data.search:[])
       .map(x=>({...x,score:wikidataArtistScore(x,artist)}))
-      .filter(x=>x.score>=12)
+      .filter(x=>x.score>=9)
       .sort((a,b)=>b.score-a.score);
 
     for(const candidate of candidates){
@@ -1286,7 +1303,7 @@ async function fetchOfficialMusicChart(url,label){
 }
 
 let previous={}; try{previous=JSON.parse(await readFile('data/rankings.json','utf8'));}catch{}
-const output={version:19,generatedAt:new Date().toISOString(),country:'GB',strategy:'Official source first; labelled fallback when no compatible official chart is available.',services:{}};
+const output={version:20,generatedAt:new Date().toISOString(),country:'GB',strategy:'Official source first; labelled fallback when no compatible official chart is available.',services:{}};
 const packageData=await gql(PACKAGES_QUERY,{country:'GB',platform:'WEB'}); const packages=packageData?.packages||[];
 let netflixOfficial=null; try{netflixOfficial=await fetchOfficialNetflix(); console.log(`Netflix official week ${netflixOfficial.week}`);}catch(err){console.error('Netflix official:',err.message);}
 let appleMoviesOfficial=null; try{appleMoviesOfficial=await fetchOfficialApple(APPLE_MOVIES_URL,'MOVIE'); console.log(`Apple official movies: ${appleMoviesOfficial.length}`);}catch(err){console.error('Apple official movies:',err.message);}
