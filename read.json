@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-08T09:01:54.147Z",
+  "updated": "2026-09-08T11:27:42.350Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -21,16 +21,10 @@
         "image": "https://covers.openlibrary.org/b/id/11702962-L.jpg"
       },
       {
-        "title": "A Very Dangerous Pursuit",
-        "author": "Ben Miller",
-        "narrator": "Ben Miller",
-        "image": "https://m.media-amazon.com/images/I/51VUdl5bZoL._SL500_.jpg"
-      },
-      {
         "title": "The Murder at the Vicarage",
         "author": "Agatha Christie",
         "narrator": "Toni Collette , Kit Harington , Jasmine Jobson , Calam Lynch , Eliot Salt , Katy Wix , Lolly Adefope , Billy Postlethwaite , Vicki Pepperdine , Meera Syal , La Voix , Leo Reich , full cast",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/7d/6e/f3/7d6ef37d-f405-1e9b-7c81-4a57e14f32c1/9780007528578.jpg/600x600bb.jpg"
+        "image": "https://m.media-amazon.com/images/I/51GzNQrzYrL._SL500_.jpg"
       },
       {
         "title": "The Dungeon Anarchist's Cookbook",
@@ -42,13 +36,13 @@
         "title": "Project Hail Mary",
         "author": "Andy Weir",
         "narrator": "Ray Porter",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2a/1a/fc/2a1afcc9-6179-5fdf-3bea-aec376486895/rm_image.jpg/600x600bb.jpg"
+        "image": "https://m.media-amazon.com/images/I/51POf8gOyLL._SL500_.jpg"
       },
       {
-        "title": "The Garden Grave",
-        "author": "Joy Ellis",
-        "narrator": "Sam Claflin",
-        "image": "https://m.media-amazon.com/images/I/51u2yPsf2LL._SL500_.jpg"
+        "title": "A Very Dangerous Pursuit",
+        "author": "Ben Miller",
+        "narrator": "Ben Miller",
+        "image": "https://m.media-amazon.com/images/I/51VUdl5bZoL._SL500_.jpg"
       },
       {
         "title": "The Gate of the Feral Gods",
@@ -61,6 +55,12 @@
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
         "image": "https://covers.openlibrary.org/b/id/15231958-L.jpg"
+      },
+      {
+        "title": "The Garden Grave",
+        "author": "Joy Ellis",
+        "narrator": "Sam Claflin",
+        "image": "https://m.media-amazon.com/images/I/51u2yPsf2LL._SL500_.jpg"
       }
     ],
     "BOOKS": [
@@ -122,15 +122,15 @@
   },
   "health": {
     "BOOKS": {
-      "status": "healthy",
-      "checkedAt": "2026-09-08T09:01:54.147Z",
+      "status": "stale",
+      "checkedAt": "2026-09-08T11:27:42.350Z",
       "lastSuccessfulRefresh": "2026-09-08T09:01:54.147Z",
-      "reason": ""
+      "reason": "expected exactly 10 ranked titles, got 0"
     },
     "AUDIOBOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-09-08T09:02:01.798Z",
-      "lastSuccessfulRefresh": "2026-09-08T09:02:01.798Z",
+      "checkedAt": "2026-09-08T11:27:42.860Z",
+      "lastSuccessfulRefresh": "2026-09-08T11:27:42.860Z",
       "reason": ""
     }
   }
