@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-08T04:47:45.642Z",
+  "updated": "2026-09-08T09:01:54.147Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -12,7 +12,7 @@
         "title": "The Let Them Theory",
         "author": "Mel Robbins",
         "narrator": "Mel Robbins",
-        "image": "https://covers.openlibrary.org/b/id/15165806-L.jpg"
+        "image": "https://m.media-amazon.com/images/I/51YOr6ua-PL._SL500_.jpg"
       },
       {
         "title": "Carl's Doomsday Scenario",
@@ -42,7 +42,7 @@
         "title": "Project Hail Mary",
         "author": "Andy Weir",
         "narrator": "Ray Porter",
-        "image": "https://m.media-amazon.com/images/I/51POf8gOyLL._SL500_.jpg"
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2a/1a/fc/2a1afcc9-6179-5fdf-3bea-aec376486895/rm_image.jpg/600x600bb.jpg"
       },
       {
         "title": "The Garden Grave",
@@ -123,14 +123,14 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-09-08T04:47:45.642Z",
-      "lastSuccessfulRefresh": "2026-09-08T04:47:45.642Z",
+      "checkedAt": "2026-09-08T09:01:54.147Z",
+      "lastSuccessfulRefresh": "2026-09-08T09:01:54.147Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-09-08T04:47:53.756Z",
-      "lastSuccessfulRefresh": "2026-09-08T04:47:53.756Z",
+      "checkedAt": "2026-09-08T09:02:01.798Z",
+      "lastSuccessfulRefresh": "2026-09-08T09:02:01.798Z",
       "reason": ""
     }
   }
