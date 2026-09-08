@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-08T04:24:10.982Z",
+  "updated": "2026-09-08T04:47:35.701Z",
   "categories": {
     "UK": [
       {
@@ -97,7 +97,7 @@
       {
         "title": "Australia politics live: Labor unveils ‘my feed, my way’ rules to allow everyone to opt in or out of social media algorithms",
         "link": "https://www.theguardian.com/australia-news/live/2026/sep/08/barnaby-joyce-one-nation-superannuation-plan-john-howard-immigration-anthony-albanese-labor-angus-taylor-coalition-pauline-hanson-ntwnfb",
-        "published": "Tue, 08 Sep 2026 04:07:30 GMT",
+        "published": "Tue, 08 Sep 2026 04:28:01 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
         "categories": "Australian politics Anthony Albanese Barnaby Joyce One Nation Angus Taylor Coalition Australia news John Howard Pauline Hanson Labor party Liberal party",
@@ -120,6 +120,15 @@
         "provider": "GUARDIAN",
         "categories": "Somalia Piracy at sea Africa World news US-Israel war on Iran Turkey Houthis Middle East and north Africa",
         "image": "https://i.guim.co.uk/img/media/8fe8026e236cc5ba1a9f19e4b6faddfdba2da4bb/0_0_1238_990/master/1238.jpg?width=140&quality=85&auto=format&fit=max&s=7844319cdceeff428658a549b50f724b"
+      },
+      {
+        "title": "Donald Trump's big week",
+        "link": "https://news.sky.com/story/donald-trumps-big-week-13583009",
+        "published": "Tue, 08 Sep 2026 05:00:00 +0100",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-trump100-t100-podcast_7344709.jpg?20260908051317"
       },
       {
         "title": "‘Forced out with nowhere to go’: First Nations families face eviction as council sells homes over charity’s unpaid rates",
@@ -174,15 +183,6 @@
         "provider": "METRO",
         "categories": "News World Russia-Ukraine war Vladimir Putin",
         "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310896268-ab88.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Thousands gather for funeral of 'Butcher of Bosnia' Ratko Mladic",
-        "link": "https://news.sky.com/story/thousands-gather-for-funeral-of-butcher-of-bosnia-ratko-mladic-13582813",
-        "published": "Mon, 07 Sep 2026 14:25:00 +0100",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-ratko-mladic-funeral_7344246.jpg?20260907131742"
       }
     ],
     "POLITICS": [
@@ -288,6 +288,15 @@
         "image": "https://e3.365dm.com/26/08/1920x1080/skynews-andy-burnham-sadiq-khan_7331587.jpg?20260826100349"
       },
       {
+        "title": "Trump threatens to halt sale of Canadian Bombardier jets in US - as trade war intensifies",
+        "link": "https://news.sky.com/story/trump-threatens-to-halt-sale-of-canadian-bombardier-jets-in-us-as-trade-war-intensifies-13582998",
+        "published": "Tue, 08 Sep 2026 03:14:00 +0100",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/07/1920x1080/skynews-trump-carney_7302900.jpg?20260721003217"
+      },
+      {
         "title": "Next wins appeal to overturn equal pay ruling",
         "link": "https://news.sky.com/story/next-wins-appeal-to-overturn-landmark-equal-pay-ruling-13582955",
         "published": "Mon, 07 Sep 2026 22:12:00 +0100",
@@ -331,15 +340,6 @@
         "provider": "GUARDIAN",
         "categories": "Technology sector Dating Business Life and style UK news US news Aids and HIV Health World news",
         "image": "https://i.guim.co.uk/img/media/c3ab739c6cb52fe06c96710731f7dfcb732b5989/34_178_2692_2155/master/2692.jpg?width=140&quality=85&auto=format&fit=max&s=072b99af75abd7b784342228d68b42ba"
-      },
-      {
-        "title": "Business lender Portman Finance Group in talks about £300m sale",
-        "link": "https://news.sky.com/story/business-lender-portman-finance-group-in-talks-about-300m-sale-13582744",
-        "published": "Mon, 07 Sep 2026 11:23:00 +0100",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/22/10/1920x1080/skynews-pounds-sterling-notes_5944712.jpg?20221026212435"
       },
       {
         "title": "EU faces 300,000 factory job cuts as China ‘colonises’ supply chains, industry warns",
@@ -886,6 +886,15 @@
             "image": "https://e3.365dm.com/26/09/1920x1080/skynews-greenland-denmark-eu_7344294.jpg?20260907141253"
           },
           {
+            "title": "Donald Trump's big week",
+            "link": "https://news.sky.com/story/donald-trumps-big-week-13583009",
+            "published": "Tue, 08 Sep 2026 05:00:00 +0100",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-trump100-t100-podcast_7344709.jpg?20260908051317"
+          },
+          {
             "title": "Who are the far-right AfD party - and what are their policies?",
             "link": "https://news.sky.com/story/alternative-for-germany-who-are-the-far-right-party-swept-to-victory-in-saxony-anhalt-13582650",
             "published": "Mon, 07 Sep 2026 08:19:00 +0100",
@@ -929,15 +938,6 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/09/1920x1080/skynews-gianni-infantino-fifa_7343006.jpg?20260906130904"
-          },
-          {
-            "title": "Nepal: China confirms number of dead and missing following floods",
-            "link": "https://news.sky.com/story/nepal-china-confirms-number-of-dead-and-missing-following-floods-13582270",
-            "published": "Sun, 06 Sep 2026 12:36:00 +0100",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-gyirong-port-floods_7342977.jpg?20260906123627"
           }
         ],
         "POLITICS": [
@@ -1016,15 +1016,6 @@
         ],
         "BUSINESS": [
           {
-            "title": "Jaguar Land Rover to cut 4,000 jobs",
-            "link": "https://news.sky.com/story/jaguar-land-rover-to-cut-4000-jobs-13582660",
-            "published": "Mon, 07 Sep 2026 09:12:00 +0100",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/25/04/1920x1080/skynews-jaguar-land-rover-jaguar-land-rover_6876730.jpg?20250405140117"
-          },
-          {
             "title": "Retailers vow to create thousands of jobs for young people - as PM looks to tackle NEETs",
             "link": "https://news.sky.com/story/retailers-vow-to-create-thousands-of-jobs-for-young-people-as-pm-looks-to-tackle-neets-13583010",
             "published": "Tue, 08 Sep 2026 05:16:00 +0100",
@@ -1032,6 +1023,24 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/08/1920x1080/skynews-andy-burnham-sadiq-khan_7331587.jpg?20260826100349"
+          },
+          {
+            "title": "Trump threatens to halt sale of Canadian Bombardier jets in US - as trade war intensifies",
+            "link": "https://news.sky.com/story/trump-threatens-to-halt-sale-of-canadian-bombardier-jets-in-us-as-trade-war-intensifies-13582998",
+            "published": "Tue, 08 Sep 2026 03:14:00 +0100",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/07/1920x1080/skynews-trump-carney_7302900.jpg?20260721003217"
+          },
+          {
+            "title": "Jaguar Land Rover to cut 4,000 jobs",
+            "link": "https://news.sky.com/story/jaguar-land-rover-to-cut-4000-jobs-13582660",
+            "published": "Mon, 07 Sep 2026 09:12:00 +0100",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/25/04/1920x1080/skynews-jaguar-land-rover-jaguar-land-rover_6876730.jpg?20250405140117"
           },
           {
             "title": "Next wins appeal to overturn equal pay ruling",
@@ -1095,15 +1104,6 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/06/1920x1080/skynews-england-cricket-joe-root_7275713.jpg?20260617110308"
-          },
-          {
-            "title": "HMRC threatened with legal action over settlement trade",
-            "link": "https://news.sky.com/story/hmrc-threatened-with-legal-action-over-israeli-settlement-trade-13580778",
-            "published": "Thu, 03 Sep 2026 11:24:00 +0100",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-west-bank-settlement_7338772.jpg?20260902134724"
           }
         ],
         "TECH": [
@@ -1641,7 +1641,7 @@
           {
             "title": "Australia politics live: Labor unveils ‘my feed, my way’ rules to allow everyone to opt in or out of social media algorithms",
             "link": "https://www.theguardian.com/australia-news/live/2026/sep/08/barnaby-joyce-one-nation-superannuation-plan-john-howard-immigration-anthony-albanese-labor-angus-taylor-coalition-pauline-hanson-ntwnfb",
-            "published": "Tue, 08 Sep 2026 04:07:30 GMT",
+            "published": "Tue, 08 Sep 2026 04:28:01 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
             "categories": "Australian politics Anthony Albanese Barnaby Joyce One Nation Angus Taylor Coalition Australia news John Howard Pauline Hanson Labor party Liberal party",
@@ -3913,5 +3913,5 @@
       }
     }
   },
-  "stocksUpdated": "2026-09-08T04:24:23.168Z"
+  "stocksUpdated": "2026-09-08T04:47:45.582Z"
 }
