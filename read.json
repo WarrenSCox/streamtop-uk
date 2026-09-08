@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-08T20:11:32.095Z",
+  "updated": "2026-09-08T21:16:07.537Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -12,7 +12,7 @@
         "title": "The Let Them Theory",
         "author": "Mel Robbins",
         "narrator": "Mel Robbins",
-        "image": "https://covers.openlibrary.org/b/id/15165806-L.jpg"
+        "image": "https://m.media-amazon.com/images/I/51YOr6ua-PL._SL500_.jpg"
       },
       {
         "title": "The Garden Grave",
@@ -123,14 +123,14 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-09-08T20:11:32.096Z",
-      "lastSuccessfulRefresh": "2026-09-08T20:11:32.096Z",
+      "checkedAt": "2026-09-08T21:16:07.537Z",
+      "lastSuccessfulRefresh": "2026-09-08T21:16:07.537Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-09-08T20:11:41.124Z",
-      "lastSuccessfulRefresh": "2026-09-08T20:11:41.124Z",
+      "checkedAt": "2026-09-08T21:16:17.104Z",
+      "lastSuccessfulRefresh": "2026-09-08T21:16:17.104Z",
       "reason": ""
     }
   }
