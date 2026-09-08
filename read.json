@@ -1,12 +1,12 @@
 {
-  "updated": "2026-09-08T16:44:13.765Z",
+  "updated": "2026-09-08T17:25:58.540Z",
   "charts": {
     "AUDIOBOOKS": [
       {
         "title": "Dungeon Crawler Carl",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://covers.openlibrary.org/b/id/15143022-L.jpg"
+        "image": "https://m.media-amazon.com/images/I/51HIZdnqASL._SL500_.jpg"
       },
       {
         "title": "The Let Them Theory",
@@ -36,19 +36,19 @@
         "title": "Project Hail Mary",
         "author": "Andy Weir",
         "narrator": "Ray Porter",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2a/1a/fc/2a1afcc9-6179-5fdf-3bea-aec376486895/rm_image.jpg/600x600bb.jpg"
+        "image": "https://m.media-amazon.com/images/I/51POf8gOyLL._SL500_.jpg"
       },
       {
         "title": "A Very Dangerous Pursuit",
         "author": "Ben Miller",
         "narrator": "Ben Miller",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/83/91/0f/83910fac-d57f-c347-2fe2-8a68c8b0ad10/9780008747480.jpg/600x600bb.jpg"
+        "image": "https://m.media-amazon.com/images/I/51VUdl5bZoL._SL500_.jpg"
       },
       {
         "title": "The Gate of the Feral Gods",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://covers.openlibrary.org/b/id/15232581-L.jpg"
+        "image": "https://m.media-amazon.com/images/I/51rmyTTWPsL._SL500_.jpg"
       },
       {
         "title": "The Butcher's Masquerade",
@@ -123,14 +123,14 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-09-08T16:44:13.765Z",
-      "lastSuccessfulRefresh": "2026-09-08T16:44:13.765Z",
+      "checkedAt": "2026-09-08T17:25:58.540Z",
+      "lastSuccessfulRefresh": "2026-09-08T17:25:58.540Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-09-08T16:44:23.391Z",
-      "lastSuccessfulRefresh": "2026-09-08T16:44:23.391Z",
+      "checkedAt": "2026-09-08T17:26:08.414Z",
+      "lastSuccessfulRefresh": "2026-09-08T17:26:08.414Z",
       "reason": ""
     }
   }
