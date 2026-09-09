@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-09T11:49:47.206Z",
+  "updated": "2026-09-09T16:31:52.027Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -48,13 +48,13 @@
         "title": "Project Hail Mary",
         "author": "Andy Weir",
         "narrator": "Ray Porter",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2a/1a/fc/2a1afcc9-6179-5fdf-3bea-aec376486895/rm_image.jpg/600x600bb.jpg"
+        "image": "https://m.media-amazon.com/images/I/51POf8gOyLL._SL500_.jpg"
       },
       {
         "title": "The Gate of the Feral Gods",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://covers.openlibrary.org/b/id/15232581-L.jpg"
+        "image": "https://m.media-amazon.com/images/I/51rmyTTWPsL._SL500_.jpg"
       },
       {
         "title": "The Butcher's Masquerade",
@@ -67,52 +67,52 @@
       {
         "title": "Brain Damage",
         "author": "Freida McFadden",
-        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978146/9781464298547.jpg"
+        "image": "https://storage.googleapis.com/lr-assets/main/covers/1785489701-81o9u3ybfbl._sl1500_-130x200.jpg"
       },
       {
         "title": "Agrippa",
         "author": "Robert Harris",
-        "image": "https://storage.googleapis.com/lr-assets/main/covers/1785489701-81o9u3ybfbl._sl1500_-261x400.jpg"
+        "image": "https://storage.googleapis.com/lr-assets/bds-images/m/978140/9781405971553.jpg"
       },
       {
         "title": "The Correspondent",
         "author": "Virginia Evans",
-        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978140/9781405971553.jpg"
+        "image": "https://storage.googleapis.com/lr-assets/bds-images/m/978000/9780008796853.jpg"
       },
       {
         "title": "To Drown a Witch",
         "author": "Lindsey Olsson",
-        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978000/9780008796853.jpg"
+        "image": "https://storage.googleapis.com/lr-assets/main/covers/cwh/1549633659-watching-you-pbk-125x200.jpg"
       },
       {
         "title": "Watching You",
         "author": "Lisa Jewell",
-        "image": "https://storage.googleapis.com/lr-assets/main/covers/cwh/1549633659-watching-you-pbk-249x400.jpg"
+        "image": "https://storage.googleapis.com/lr-assets/bds-images/m/978139/9781399624046.jpg"
       },
       {
         "title": "The Names",
         "author": "Florence Knapp",
-        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978139/9781399624046.jpg"
+        "image": "https://storage.googleapis.com/lr-assets/bds-images/m/978070/9780702349072.jpg"
       },
       {
         "title": "Sunrise on the Reaping",
         "author": "Suzanne Collins",
-        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978070/9780702349072.jpg"
+        "image": "https://storage.googleapis.com/lr-assets/bds-images/m/978055/9780552178013.jpg"
       },
       {
         "title": "The Secret of Secrets",
         "author": "Dan Brown",
-        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978055/9780552178013.jpg"
+        "image": "https://storage.googleapis.com/lr-assets/bds-images/m/978140/9781405978972.jpg"
       },
       {
         "title": "The Family Friend",
         "author": "Claire Douglas",
-        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978140/9781405978972.jpg"
+        "image": "https://storage.googleapis.com/lr-assets/bds-images/m/978139/9781399634892.jpg"
       },
       {
         "title": "The Cauldron",
         "author": "Simon Sebag Montefiore",
-        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978139/9781399634892.jpg"
+        "image": ""
       }
     ]
   },
@@ -123,14 +123,14 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-09-09T11:49:47.206Z",
-      "lastSuccessfulRefresh": "2026-09-09T11:49:47.206Z",
+      "checkedAt": "2026-09-09T16:31:52.027Z",
+      "lastSuccessfulRefresh": "2026-09-09T16:31:52.027Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-09-09T11:49:55.763Z",
-      "lastSuccessfulRefresh": "2026-09-09T11:49:55.763Z",
+      "checkedAt": "2026-09-09T16:34:33.082Z",
+      "lastSuccessfulRefresh": "2026-09-09T16:34:33.082Z",
       "reason": ""
     }
   }
