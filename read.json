@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-09T11:32:53.349Z",
+  "updated": "2026-09-09T11:49:47.206Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -9,34 +9,34 @@
         "image": "https://m.media-amazon.com/images/I/51HIZdnqASL._SL500_.jpg"
       },
       {
-        "title": "Burn of the Everflame",
-        "author": "Penn Cole",
-        "narrator": "Amanda Dolan , Will M. Watt , Bahni Turpin , Tim Campbell , Katherine Littrell , Kieran Regan , Keval Shah",
-        "image": "https://covers.openlibrary.org/b/id/15228397-L.jpg"
-      },
-      {
-        "title": "The Let Them Theory",
-        "author": "Mel Robbins",
-        "narrator": "Mel Robbins",
-        "image": "https://m.media-amazon.com/images/I/51YOr6ua-PL._SL500_.jpg"
-      },
-      {
-        "title": "Carl's Doomsday Scenario",
-        "author": "Matt Dinniman",
-        "narrator": "Jeff Hays",
-        "image": "https://covers.openlibrary.org/b/id/11702962-L.jpg"
-      },
-      {
         "title": "The Garden Grave",
         "author": "Joy Ellis",
         "narrator": "Sam Claflin",
         "image": "https://m.media-amazon.com/images/I/51u2yPsf2LL._SL500_.jpg"
       },
       {
+        "title": "Burn of the Everflame",
+        "author": "Penn Cole",
+        "narrator": "Amanda Dolan , Will M. Watt , Bahni Turpin , Tim Campbell , Katherine Littrell , Kieran Regan , Keval Shah",
+        "image": "https://m.media-amazon.com/images/I/51dtzYvLoHL._SL500_.jpg"
+      },
+      {
         "title": "The Murder at the Vicarage",
         "author": "Agatha Christie",
         "narrator": "Toni Collette , Kit Harington , Jasmine Jobson , Calam Lynch , Eliot Salt , Katy Wix , Lolly Adefope , Billy Postlethwaite , Vicki Pepperdine , Meera Syal , La Voix , Leo Reich , full cast",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/7d/6e/f3/7d6ef37d-f405-1e9b-7c81-4a57e14f32c1/9780007528578.jpg/600x600bb.jpg"
+      },
+      {
+        "title": "The Let Them Theory",
+        "author": "Mel Robbins",
+        "narrator": "Mel Robbins",
+        "image": "https://covers.openlibrary.org/b/id/15165806-L.jpg"
+      },
+      {
+        "title": "Carl's Doomsday Scenario",
+        "author": "Matt Dinniman",
+        "narrator": "Jeff Hays",
+        "image": "https://covers.openlibrary.org/b/id/11702962-L.jpg"
       },
       {
         "title": "The Dungeon Anarchist's Cookbook",
@@ -54,7 +54,7 @@
         "title": "The Gate of the Feral Gods",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://m.media-amazon.com/images/I/51rmyTTWPsL._SL500_.jpg"
+        "image": "https://covers.openlibrary.org/b/id/15232581-L.jpg"
       },
       {
         "title": "The Butcher's Masquerade",
@@ -123,15 +123,15 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-09-09T11:32:53.349Z",
-      "lastSuccessfulRefresh": "2026-09-09T11:32:53.349Z",
+      "checkedAt": "2026-09-09T11:49:47.206Z",
+      "lastSuccessfulRefresh": "2026-09-09T11:49:47.206Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
-      "status": "stale",
-      "checkedAt": "2026-09-09T11:33:01.842Z",
-      "lastSuccessfulRefresh": "2026-09-09T01:12:17.594Z",
-      "reason": "503 https://www.audible.co.uk/charts/best"
+      "status": "healthy",
+      "checkedAt": "2026-09-09T11:49:55.763Z",
+      "lastSuccessfulRefresh": "2026-09-09T11:49:55.763Z",
+      "reason": ""
     }
   }
 }
