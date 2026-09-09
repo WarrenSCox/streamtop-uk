@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-09T16:45:40.584Z",
+  "updated": "2026-09-09T19:26:46.679Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -67,52 +67,52 @@
       {
         "title": "Brain Damage",
         "author": "Freida McFadden",
-        "image": "https://storage.googleapis.com/lr-assets/main/covers/1785489701-81o9u3ybfbl._sl1500_-130x200.jpg"
+        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978146/9781464298547.jpg"
       },
       {
         "title": "Agrippa",
         "author": "Robert Harris",
-        "image": "https://storage.googleapis.com/lr-assets/bds-images/m/978140/9781405971553.jpg"
+        "image": "https://storage.googleapis.com/lr-assets/main/covers/1785489701-81o9u3ybfbl._sl1500_-261x400.jpg"
       },
       {
         "title": "The Correspondent",
         "author": "Virginia Evans",
-        "image": "https://storage.googleapis.com/lr-assets/bds-images/m/978000/9780008796853.jpg"
+        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978140/9781405971553.jpg"
       },
       {
         "title": "To Drown a Witch",
         "author": "Lindsey Olsson",
-        "image": "https://storage.googleapis.com/lr-assets/main/covers/cwh/1549633659-watching-you-pbk-125x200.jpg"
+        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978000/9780008796853.jpg"
       },
       {
         "title": "Watching You",
         "author": "Lisa Jewell",
-        "image": "https://storage.googleapis.com/lr-assets/bds-images/m/978139/9781399624046.jpg"
+        "image": "https://storage.googleapis.com/lr-assets/main/covers/cwh/1549633659-watching-you-pbk-249x400.jpg"
       },
       {
         "title": "The Names",
         "author": "Florence Knapp",
-        "image": "https://storage.googleapis.com/lr-assets/bds-images/m/978070/9780702349072.jpg"
+        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978139/9781399624046.jpg"
       },
       {
         "title": "Sunrise on the Reaping",
         "author": "Suzanne Collins",
-        "image": "https://storage.googleapis.com/lr-assets/bds-images/m/978055/9780552178013.jpg"
+        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978070/9780702349072.jpg"
       },
       {
         "title": "The Secret of Secrets",
         "author": "Dan Brown",
-        "image": "https://storage.googleapis.com/lr-assets/bds-images/m/978140/9781405978972.jpg"
+        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978055/9780552178013.jpg"
       },
       {
         "title": "The Family Friend",
         "author": "Claire Douglas",
-        "image": "https://storage.googleapis.com/lr-assets/bds-images/m/978139/9781399634892.jpg"
+        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978140/9781405978972.jpg"
       },
       {
         "title": "The Cauldron",
         "author": "Simon Sebag Montefiore",
-        "image": ""
+        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978139/9781399634892.jpg"
       }
     ]
   },
@@ -122,16 +122,16 @@
   },
   "health": {
     "BOOKS": {
-      "status": "stale",
-      "checkedAt": "2026-09-09T16:45:40.584Z",
-      "lastSuccessfulRefresh": "2026-09-09T16:31:52.027Z",
-      "reason": "expected exactly 10 ranked titles, got 0"
+      "status": "healthy",
+      "checkedAt": "2026-09-09T19:26:46.679Z",
+      "lastSuccessfulRefresh": "2026-09-09T19:26:46.679Z",
+      "reason": ""
     },
     "AUDIOBOOKS": {
-      "status": "healthy",
-      "checkedAt": "2026-09-09T16:45:41.135Z",
+      "status": "stale",
+      "checkedAt": "2026-09-09T19:26:55.568Z",
       "lastSuccessfulRefresh": "2026-09-09T16:45:41.135Z",
-      "reason": ""
+      "reason": "503 https://www.audible.co.uk/charts/best"
     }
   }
 }
