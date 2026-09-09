@@ -1,18 +1,12 @@
 {
-  "updated": "2026-09-09T19:26:46.679Z",
+  "updated": "2026-09-09T21:01:11.033Z",
   "charts": {
     "AUDIOBOOKS": [
       {
         "title": "Dungeon Crawler Carl",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://m.media-amazon.com/images/I/51HIZdnqASL._SL500_.jpg"
-      },
-      {
-        "title": "The Garden Grave",
-        "author": "Joy Ellis",
-        "narrator": "Sam Claflin",
-        "image": "https://m.media-amazon.com/images/I/51u2yPsf2LL._SL500_.jpg"
+        "image": "https://covers.openlibrary.org/b/id/15143022-L.jpg"
       },
       {
         "title": "Burn of the Everflame",
@@ -21,10 +15,10 @@
         "image": "https://m.media-amazon.com/images/I/51dtzYvLoHL._SL500_.jpg"
       },
       {
-        "title": "The Murder at the Vicarage",
-        "author": "Agatha Christie",
-        "narrator": "Toni Collette , Kit Harington , Jasmine Jobson , Calam Lynch , Eliot Salt , Katy Wix , Lolly Adefope , Billy Postlethwaite , Vicki Pepperdine , Meera Syal , La Voix , Leo Reich , full cast",
-        "image": "https://m.media-amazon.com/images/I/51GzNQrzYrL._SL500_.jpg"
+        "title": "The Garden Grave",
+        "author": "Joy Ellis",
+        "narrator": "Sam Claflin",
+        "image": "https://m.media-amazon.com/images/I/51u2yPsf2LL._SL500_.jpg"
       },
       {
         "title": "The Let Them Theory",
@@ -37,6 +31,12 @@
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
         "image": "https://covers.openlibrary.org/b/id/11702962-L.jpg"
+      },
+      {
+        "title": "The Murder at the Vicarage",
+        "author": "Agatha Christie",
+        "narrator": "Toni Collette , Kit Harington , Jasmine Jobson , Calam Lynch , Eliot Salt , Katy Wix , Lolly Adefope , Billy Postlethwaite , Vicki Pepperdine , Meera Syal , La Voix , Leo Reich , full cast",
+        "image": "https://m.media-amazon.com/images/I/51GzNQrzYrL._SL500_.jpg"
       },
       {
         "title": "The Dungeon Anarchist's Cookbook",
@@ -123,15 +123,15 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-09-09T19:26:46.679Z",
-      "lastSuccessfulRefresh": "2026-09-09T19:26:46.679Z",
+      "checkedAt": "2026-09-09T21:01:11.033Z",
+      "lastSuccessfulRefresh": "2026-09-09T21:01:11.033Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
-      "status": "stale",
-      "checkedAt": "2026-09-09T19:26:55.568Z",
-      "lastSuccessfulRefresh": "2026-09-09T16:45:41.135Z",
-      "reason": "503 https://www.audible.co.uk/charts/best"
+      "status": "healthy",
+      "checkedAt": "2026-09-09T21:01:19.729Z",
+      "lastSuccessfulRefresh": "2026-09-09T21:01:19.729Z",
+      "reason": ""
     }
   }
 }
