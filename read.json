@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-10T20:57:29.494Z",
+  "updated": "2026-09-10T23:05:41.652Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -70,9 +70,9 @@
         "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978146/9781464298547.jpg"
       },
       {
-        "title": "Agrippa",
-        "author": "Robert Harris",
-        "image": "https://storage.googleapis.com/lr-assets/main/covers/1785489701-81o9u3ybfbl._sl1500_-261x400.jpg"
+        "title": "The Knave and the Moon",
+        "author": "Rachel Gillig",
+        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978035/9780356522999.jpg"
       },
       {
         "title": "The Correspondent",
@@ -80,39 +80,39 @@
         "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978140/9781405971553.jpg"
       },
       {
-        "title": "To Drown a Witch",
-        "author": "Lindsey Olsson",
-        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978000/9780008796853.jpg"
-      },
-      {
         "title": "Watching You",
         "author": "Lisa Jewell",
         "image": "https://storage.googleapis.com/lr-assets/main/covers/cwh/1549633659-watching-you-pbk-249x400.jpg"
       },
       {
-        "title": "The Names",
-        "author": "Florence Knapp",
-        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978139/9781399624046.jpg"
+        "title": "Ottolenghi Simple Too",
+        "author": "Yotam Ottolenghi and 3 more",
+        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978152/9781529109511.jpg"
       },
       {
-        "title": "Sunrise on the Reaping",
-        "author": "Suzanne Collins",
-        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978070/9780702349072.jpg"
+        "title": "Agrippa",
+        "author": "Robert Harris",
+        "image": "https://storage.googleapis.com/lr-assets/main/covers/1785489701-81o9u3ybfbl._sl1500_-261x400.jpg"
+      },
+      {
+        "title": "A Life in Lyrics",
+        "author": "Freddie Mercury and 2 more",
+        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978000/9780008735388.jpg"
+      },
+      {
+        "title": "Queens and Kings",
+        "author": "Lucy Worsley",
+        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978139/9781399748407.jpg"
+      },
+      {
+        "title": "The Finest Hotel in Kabul",
+        "author": "Lyse Doucet",
+        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978180/9781804957943.jpg"
       },
       {
         "title": "The Secret of Secrets",
         "author": "Dan Brown",
         "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978055/9780552178013.jpg"
-      },
-      {
-        "title": "The Family Friend",
-        "author": "Claire Douglas",
-        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978140/9781405978972.jpg"
-      },
-      {
-        "title": "The Cauldron",
-        "author": "Simon Sebag Montefiore",
-        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978139/9781399634892.jpg"
       }
     ]
   },
@@ -123,15 +123,15 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-09-10T20:57:29.494Z",
-      "lastSuccessfulRefresh": "2026-09-10T20:57:29.494Z",
+      "checkedAt": "2026-09-10T23:05:41.652Z",
+      "lastSuccessfulRefresh": "2026-09-10T23:05:41.652Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
-      "status": "healthy",
-      "checkedAt": "2026-09-10T20:57:37.995Z",
+      "status": "stale",
+      "checkedAt": "2026-09-10T23:05:50.265Z",
       "lastSuccessfulRefresh": "2026-09-10T20:57:37.995Z",
-      "reason": ""
+      "reason": "503 https://www.audible.co.uk/charts/best"
     }
   }
 }
