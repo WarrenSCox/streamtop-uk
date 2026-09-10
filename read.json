@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-10T16:31:22.921Z",
+  "updated": "2026-09-10T17:39:14.959Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -18,19 +18,19 @@
         "title": "The Murder at the Vicarage",
         "author": "Agatha Christie",
         "narrator": "Toni Collette , Kit Harington , Jasmine Jobson , Calam Lynch , Eliot Salt , Katy Wix , Lolly Adefope , Billy Postlethwaite , Vicki Pepperdine , Meera Syal , La Voix , Leo Reich , full cast",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5b/ae/45/5bae45e0-6f8e-3e38-d5b1-de54b1adf586/9798240153464.jpg/600x600bb.jpg"
+        "image": "https://m.media-amazon.com/images/I/51GzNQrzYrL._SL500_.jpg"
       },
       {
         "title": "The Let Them Theory",
         "author": "Mel Robbins",
         "narrator": "Mel Robbins",
-        "image": "https://m.media-amazon.com/images/I/51YOr6ua-PL._SL500_.jpg"
+        "image": "https://covers.openlibrary.org/b/id/15165806-L.jpg"
       },
       {
         "title": "Burn of the Everflame",
         "author": "Penn Cole",
         "narrator": "Amanda Dolan , Will M. Watt , Bahni Turpin , Tim Campbell , Katherine Littrell , Kieran Regan , Keval Shah",
-        "image": "https://covers.openlibrary.org/b/id/15228397-L.jpg"
+        "image": "https://m.media-amazon.com/images/I/51dtzYvLoHL._SL500_.jpg"
       },
       {
         "title": "How to Quit Your Day Job... and Become Your Own Boss",
@@ -54,7 +54,7 @@
         "title": "Project Hail Mary",
         "author": "Andy Weir",
         "narrator": "Ray Porter",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2a/1a/fc/2a1afcc9-6179-5fdf-3bea-aec376486895/rm_image.jpg/600x600bb.jpg"
+        "image": "https://m.media-amazon.com/images/I/51POf8gOyLL._SL500_.jpg"
       },
       {
         "title": "The Gate of the Feral Gods",
@@ -123,15 +123,15 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-09-10T16:31:22.921Z",
-      "lastSuccessfulRefresh": "2026-09-10T16:31:22.921Z",
+      "checkedAt": "2026-09-10T17:39:14.959Z",
+      "lastSuccessfulRefresh": "2026-09-10T17:39:14.959Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
-      "status": "stale",
-      "checkedAt": "2026-09-10T16:31:31.239Z",
-      "lastSuccessfulRefresh": "2026-09-10T13:46:45.365Z",
-      "reason": "503 https://www.audible.co.uk/charts/best"
+      "status": "healthy",
+      "checkedAt": "2026-09-10T17:39:23.974Z",
+      "lastSuccessfulRefresh": "2026-09-10T17:39:23.974Z",
+      "reason": ""
     }
   }
 }
