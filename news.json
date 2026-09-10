@@ -1,7 +1,16 @@
 {
-  "updated": "2026-09-10T20:47:30.901Z",
+  "updated": "2026-09-10T20:57:19.804Z",
   "categories": {
     "UK": [
+      {
+        "title": "Owen Hargreaves claims Man Utd star can become ‘best in the world’ after Champions League win",
+        "link": "https://metro.co.uk/2026/09/10/owen-hargreaves-claims-man-utd-star-can-become-best-world-sabah-win-29581797/",
+        "published": "Thu, 10 Sep 2026 20:55:41 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Football Sport Champions League Kobbie Mainoo Manchester United Owen Hargreaves",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_311716763-b6dd.jpg?quality=90&strip=all&w=646"
+      },
       {
         "title": "Esther Rantzen now ‘too physically fragile’ to end her life in Switzerland",
         "link": "https://www.theguardian.com/uk-news/2026/sep/10/esther-rantzen-now-too-physically-fragile-to-end-her-life-in-switzerland",
@@ -64,15 +73,6 @@
         "provider": "GUARDIAN",
         "categories": "London UK news Crime",
         "image": "https://i.guim.co.uk/img/media/2b1165afc1c205ed7ab1eab565837b8a67b95460/944_29_4494_3595/master/4494.jpg?width=140&quality=85&auto=format&fit=max&s=282c90f9a4e9eefa34b5b038a97fa120"
-      },
-      {
-        "title": "Former PE teacher faces lengthy jail term for sexually abusing pupils",
-        "link": "https://www.theguardian.com/uk-news/2026/sep/10/former-pe-teacher-bronwen-james-faces-lengthy-jail-term-sexually-abusing-pupils-wiltshire-hampshire",
-        "published": "Thu, 10 Sep 2026 17:30:13 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "England Wiltshire Hampshire UK news",
-        "image": "https://i.guim.co.uk/img/media/80e615b5be24f00bfcfcc96ae7d7c02bc0480779/0_96_1436_1148/master/1436.jpg?width=140&quality=85&auto=format&fit=max&s=faebb2b963c23d29697de30017f91208"
       },
       {
         "title": "Man jailed for throttling woman for singing during West End show",
@@ -371,21 +371,12 @@
     ],
     "TECH": [
       {
-        "title": "Former AI worker says technology could kill us all – here’s how it would",
-        "link": "https://metro.co.uk/2026/09/10/former-ai-worker-says-technology-kill-us-29578407/",
-        "published": "Thu, 10 Sep 2026 15:10:40 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News Tech Artificial Intelligence",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/09/aibotz01-0f0b.gif?w=646"
-      },
-      {
         "title": "I turned off my algorithm for 24 hours. Is this how social media used to be?",
         "link": "https://www.theguardian.com/media/2026/sep/11/i-turned-off-my-instagram-algorithm-opt-out-social-media-reforms-australia",
         "published": "Thu, 10 Sep 2026 15:00:43 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
-        "categories": "Social media Social media ban Technology Instagram Facebook Australian politics Meta",
+        "categories": "Social media Technology Instagram Facebook Australian politics Meta",
         "image": "https://i.guim.co.uk/img/media/4c2b563e667cc8974ed5cc26b221538708d28d3d/600_0_6827_5464/master/6827.jpg?width=140&quality=85&auto=format&fit=max&s=e59a40f2a17d2bb570b9efc7852d2c4e"
       },
       {
@@ -405,6 +396,24 @@
         "provider": "GUARDIAN",
         "categories": "Elon Musk Documentary films Alex Gibney US news Film World news Culture",
         "image": "https://i.guim.co.uk/img/media/174c016d3ca06c4ac3944fc7db9b7a9b03e77b6a/905_0_4583_3667/master/4583.jpg?width=140&quality=85&auto=format&fit=max&s=76048cec60333777c61f49d6c19bc415"
+      },
+      {
+        "title": "OpenAI not on track to reduce risk of ‘catastrophic’ loss of control, says board member",
+        "link": "https://www.theguardian.com/technology/2026/sep/10/openai-risk-catastrophic-loss-control-board-member-paul-christiano",
+        "published": "Thu, 10 Sep 2026 12:23:21 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "AI (artificial intelligence) OpenAI Anthropic Technology US news UK news Technology sector World news Computing Data and computer security Ethics",
+        "image": "https://i.guim.co.uk/img/media/de993976d5cf433c665692fb79570e93c6c73828/776_42_6116_4896/master/6116.jpg?width=140&quality=85&auto=format&fit=max&s=33c66d62e24d9889af969a7bb684ace1"
+      },
+      {
+        "title": "Pixel 11 Pro review: Google’s best pocket camera goes customisable",
+        "link": "https://www.theguardian.com/technology/2026/sep/10/pixel-11-pro-review-googles-best-pocket-camera-goes-customisable",
+        "published": "Thu, 10 Sep 2026 06:00:19 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Pixel Android Google Mobile phones Alphabet Technology",
+        "image": "https://i.guim.co.uk/img/media/1f7b16f7cb0cb041333ee55966a578d61421c820/1338_340_4309_3447/master/4309.jpg?width=140&quality=85&auto=format&fit=max&s=6944f2d11c5c48eebc88f5659f544997"
       },
       {
         "title": "Apple launches first foldable iPhone",
@@ -434,31 +443,22 @@
         "image": "https://e3.365dm.com/26/09/1920x1080/skynews-dubai-tower-teesport_7346320.jpg?20260909174459"
       },
       {
-        "title": "OpenAI not on track to reduce risk of ‘catastrophic’ loss of control, says board member",
-        "link": "https://www.theguardian.com/technology/2026/sep/10/openai-risk-catastrophic-loss-control-board-member-paul-christiano",
-        "published": "Thu, 10 Sep 2026 12:23:21 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "AI (artificial intelligence) OpenAI Anthropic Technology US news UK news Technology sector World news Computing Data and computer security Ethics",
-        "image": "https://i.guim.co.uk/img/media/de993976d5cf433c665692fb79570e93c6c73828/776_42_6116_4896/master/6116.jpg?width=140&quality=85&auto=format&fit=max&s=33c66d62e24d9889af969a7bb684ace1"
+        "title": "Children's online feeds telling them 'how they should look and behave'",
+        "link": "https://news.sky.com/story/childrens-online-feeds-telling-them-how-they-should-look-and-behave-13583576",
+        "published": "Wed, 09 Sep 2026 14:10:00 +0100",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/08/1920x1080/skynews-social-media-australia_7311695.jpg?20260801085259"
       },
       {
-        "title": "Pixel 11 Pro review: Google’s best pocket camera goes customisable",
-        "link": "https://www.theguardian.com/technology/2026/sep/10/pixel-11-pro-review-googles-best-pocket-camera-goes-customisable",
-        "published": "Thu, 10 Sep 2026 06:00:19 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Pixel Android Google Mobile phones Alphabet Technology",
-        "image": "https://i.guim.co.uk/img/media/1f7b16f7cb0cb041333ee55966a578d61421c820/1338_340_4309_3447/master/4309.jpg?width=140&quality=85&auto=format&fit=max&s=6944f2d11c5c48eebc88f5659f544997"
-      },
-      {
-        "title": "Instagram boss says users will be ‘overwhelmed’ with brand content in algorithm-free world",
-        "link": "https://www.theguardian.com/media/2026/sep/10/instagram-boss-says-users-will-be-overwhelmed-with-brand-content-in-algorithm-free-world",
-        "published": "Thu, 10 Sep 2026 02:10:08 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Social media Australia news Instagram Digital media Australian politics Technology Meta Social networking",
-        "image": "https://i.guim.co.uk/img/media/57bcc184764741c612885e75fb81ba5d750337bc/45_0_2525_2019/master/2525.jpg?width=140&quality=85&auto=format&fit=max&s=d2c1b932bbd0ce41d056dd12fb30e87c"
+        "title": "More than 10% chance AI 'could kill all humans' - as Anthropic reveals another 'cybersecurity' incident",
+        "link": "https://news.sky.com/story/more-than-10-chance-ai-could-kill-all-humans-anthropic-researcher-13583522",
+        "published": "Wed, 09 Sep 2026 11:43:00 +0100",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-anthropic-ai_7345984.jpg?20260909120237"
       }
     ],
     "ENTERTAINMENT": [
@@ -555,13 +555,22 @@
     ],
     "STOCKS": [
       {
-        "title": "PayPal keeping options open amid buyout rumors, CEO says",
-        "link": "https://finance.yahoo.com/markets/stocks/article/paypal-keeping-options-open-amid-buyout-rumors-ceo-says-203725063.html",
-        "published": "Thu, 10 Sep 2026 20:37:25 GMT",
+        "title": "Surging oil prices, higher bond yields weigh on stocks",
+        "link": "https://uk.finance.yahoo.com/news/stocks-sink-oil-rally-fans-024521484.html?.tsrc=rss",
+        "published": "Thu, 10 Sep 2026 20:51:34 +0000",
         "source": "Yahoo Finance",
         "provider": "YAHOO",
-        "categories": "stocks markets shares investing",
-        "image": "https://s.yimg.com/uu/api/res/1.2/DTQIcT2rOEzoKAKdLZFgog--~B/Zmk9ZmlsbDtoPTE0MDtweW9mZj0wO3c9MTQwO2FwcGlkPXl0YWNoeW9u/https://d29szjachogqwa.cloudfront.net/images/2026-09/a1428f49-b622-4a00-abce-233d4715cda8"
+        "categories": "",
+        "image": ""
+      },
+      {
+        "title": "Stock Market Today: Dow Drops 300 Points As Oil, Yields Pop; Nvidia Slides While Apple Gains",
+        "link": "https://uk.finance.yahoo.com/m/9987e23c-83e5-3b7f-bae7-41125f2e9cc4/stock-market-today%3A-dow-drops.html?.tsrc=rss",
+        "published": "Thu, 10 Sep 2026 20:44:30 +0000",
+        "source": "Yahoo Finance",
+        "provider": "YAHOO",
+        "categories": "",
+        "image": ""
       },
       {
         "title": "Nasdaq Announces End-of-Month Open Short Interest Positions in Nasdaq Stocks as of Settlement Date August 31, 2026",
@@ -578,15 +587,6 @@
         "published": "Thu, 10 Sep 2026 20:01:57 GMT",
         "source": "Reuters",
         "provider": "REUTERS",
-        "categories": "",
-        "image": ""
-      },
-      {
-        "title": "Stock Market Today: Dow Drops 350 Points As Oil, Yields Pop; Macy's Extends Losses (Live Coverage)",
-        "link": "https://uk.finance.yahoo.com/m/9987e23c-83e5-3b7f-bae7-41125f2e9cc4/stock-market-today%3A-dow-drops.html?.tsrc=rss",
-        "published": "Thu, 10 Sep 2026 19:44:01 +0000",
-        "source": "Yahoo Finance",
-        "provider": "YAHOO",
         "categories": "",
         "image": ""
       },
@@ -696,10 +696,11 @@
         "status": "healthy",
         "liveProviders": [
           "SKY",
-          "GUARDIAN",
+          "GUARDIAN"
+        ],
+        "failedProviders": [
           "METRO"
         ],
-        "failedProviders": [],
         "retainedPrevious": 0,
         "count": 10
       },
@@ -1003,15 +1004,6 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/09/1920x1080/skynews-zia-yusuf-reform_7342857.jpg?20260906100636"
-          },
-          {
-            "title": "Argentina is a 'weak country' because of its threats over Falkland Islands, Badenoch says",
-            "link": "https://news.sky.com/story/argentina-is-a-weak-country-because-of-its-threats-over-falkland-islands-badenoch-says-13581593",
-            "published": "Sat, 05 Sep 2026 02:00:00 +0100",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-kemi-badenoch-conservatives_7341513.jpg?20260905020529"
           }
         ],
         "BUSINESS": [
@@ -1302,7 +1294,7 @@
         },
         "POLITICS": {
           "ok": true,
-          "count": 8
+          "count": 7
         },
         "BUSINESS": {
           "ok": true,
@@ -2154,7 +2146,7 @@
             "published": "Thu, 10 Sep 2026 15:00:43 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Social media Social media ban Technology Instagram Facebook Australian politics Meta",
+            "categories": "Social media Technology Instagram Facebook Australian politics Meta",
             "image": "https://i.guim.co.uk/img/media/4c2b563e667cc8974ed5cc26b221538708d28d3d/600_0_6827_5464/master/6827.jpg?width=140&quality=85&auto=format&fit=max&s=e59a40f2a17d2bb570b9efc7852d2c4e"
           },
           {
@@ -2568,6 +2560,15 @@
             "provider": "METRO",
             "categories": "News US Crime News",
             "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_311644672-da04.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Owen Hargreaves claims Man Utd star can become ‘best in the world’ after Champions League win",
+            "link": "https://metro.co.uk/2026/09/10/owen-hargreaves-claims-man-utd-star-can-become-best-world-sabah-win-29581797/",
+            "published": "Thu, 10 Sep 2026 20:55:41 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Football Sport Champions League Kobbie Mainoo Manchester United Owen Hargreaves",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_311716763-b6dd.jpg?quality=90&strip=all&w=646"
           },
           {
             "title": "Mauricio Pochettino makes Mikel Arteta claim and Arsenal Premier League prediction",
@@ -3214,7 +3215,7 @@
       "health": {
         "UK": {
           "ok": true,
-          "count": 17
+          "count": 18
         },
         "WORLD": {
           "ok": true,
@@ -3229,8 +3230,9 @@
           "count": 20
         },
         "TECH": {
-          "ok": true,
-          "count": 1
+          "ok": false,
+          "count": 0,
+          "reason": "No correctly classified live stories"
         },
         "ENTERTAINMENT": {
           "ok": true,
@@ -3347,27 +3349,27 @@
         "STOCK_MARKET": [],
         "STOCKS": [
           {
-            "title": "PayPal keeping options open amid buyout rumors, CEO says",
-            "link": "https://finance.yahoo.com/markets/stocks/article/paypal-keeping-options-open-amid-buyout-rumors-ceo-says-203725063.html",
-            "published": "Thu, 10 Sep 2026 20:37:25 GMT",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "stocks markets shares investing",
-            "image": "https://s.yimg.com/uu/api/res/1.2/DTQIcT2rOEzoKAKdLZFgog--~B/Zmk9ZmlsbDtoPTE0MDtweW9mZj0wO3c9MTQwO2FwcGlkPXl0YWNoeW9u/https://d29szjachogqwa.cloudfront.net/images/2026-09/a1428f49-b622-4a00-abce-233d4715cda8"
-          },
-          {
-            "title": "Nasdaq Announces End-of-Month Open Short Interest Positions in Nasdaq Stocks as of Settlement Date August 31, 2026",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-announces-end-month-open-200500818.html?.tsrc=rss",
-            "published": "Thu, 10 Sep 2026 20:05:00 +0000",
+            "title": "Surging oil prices, higher bond yields weigh on stocks",
+            "link": "https://uk.finance.yahoo.com/news/stocks-sink-oil-rally-fans-024521484.html?.tsrc=rss",
+            "published": "Thu, 10 Sep 2026 20:51:34 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
             "image": ""
           },
           {
-            "title": "Stock Market Today: Dow Drops 350 Points As Oil, Yields Pop; Macy's Extends Losses (Live Coverage)",
+            "title": "Stock Market Today: Dow Drops 300 Points As Oil, Yields Pop; Nvidia Slides While Apple Gains",
             "link": "https://uk.finance.yahoo.com/m/9987e23c-83e5-3b7f-bae7-41125f2e9cc4/stock-market-today%3A-dow-drops.html?.tsrc=rss",
-            "published": "Thu, 10 Sep 2026 19:44:01 +0000",
+            "published": "Thu, 10 Sep 2026 20:44:30 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "Nasdaq Announces End-of-Month Open Short Interest Positions in Nasdaq Stocks as of Settlement Date August 31, 2026",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-announces-end-month-open-200500818.html?.tsrc=rss",
+            "published": "Thu, 10 Sep 2026 20:05:00 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
@@ -3832,5 +3834,5 @@
       }
     }
   },
-  "stocksUpdated": "2026-09-10T20:47:40.188Z"
+  "stocksUpdated": "2026-09-10T20:57:29.437Z"
 }
