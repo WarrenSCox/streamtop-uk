@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-10T04:33:12.915Z",
+  "updated": "2026-09-10T04:52:23.128Z",
   "categories": {
     "UK": [
       {
@@ -95,13 +95,13 @@
     ],
     "WORLD": [
       {
-        "title": "Australia politics live: new head of public sector union announced; Labor too slow on DV action, poll says",
+        "title": "Australia politics live: Taylor targets Labor on ‘negative equity’ linked to housing prices; Chalmers says Coalition was ‘doing better under Sussan Ley’",
         "link": "https://www.theguardian.com/australia-news/live/2026/sep/10/anthony-albanese-labor-uk-west-bank-trade-ban-kevin-rudd-diplomacy-one-nation-pauline-hanson-liberal-party-angus-taylor-ntwnfb",
-        "published": "Thu, 10 Sep 2026 04:18:42 GMT",
+        "published": "Thu, 10 Sep 2026 04:33:39 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
         "categories": "Australia news Coalition Labor party One Nation Australian politics",
-        "image": "https://i.guim.co.uk/img/media/aa9f0c5f02ef2a678d0d8f94da0a0bb0d0f81c4a/720_0_5493_4394/master/5493.jpg?width=140&quality=85&auto=format&fit=max&s=e34cbe940c30bba27c0afdb93937a585"
+        "image": "https://i.guim.co.uk/img/media/c43cffc846bb8c24aa10ab69fdf953dd7ffecb0a/394_0_3940_3152/master/3940.jpg?width=140&quality=85&auto=format&fit=max&s=f9841274fe4832ccac3a460c68b37224"
       },
       {
         "title": "Deadly Philippines ferry fire leaves scores of people missing",
@@ -279,6 +279,15 @@
     ],
     "BUSINESS": [
       {
+        "title": "Apple launches first foldable iPhone",
+        "link": "https://news.sky.com/story/apple-launches-first-foldable-iphone-its-most-expensive-to-date-13583745",
+        "published": "Wed, 09 Sep 2026 21:08:00 +0100",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-iphone-duo-apple_7346568.jpg?20260909221330"
+      },
+      {
         "title": "Bond market rebuffs US treasury’s plan to buy back $6bn in government debt",
         "link": "https://www.theguardian.com/business/2026/sep/09/treasury-bond-buyback",
         "published": "Wed, 09 Sep 2026 19:56:30 GMT",
@@ -331,15 +340,6 @@
         "provider": "GUARDIAN",
         "categories": "US unions Business Technology Retail industry US news World news US economy Economics",
         "image": "https://i.guim.co.uk/img/media/84db52e3bd4c7e10da78a8eeaa51b4462b587fda/333_0_3334_2667/master/3334.jpg?width=140&quality=85&auto=format&fit=max&s=7ff8effcb194c105f932eff5874c25bf"
-      },
-      {
-        "title": "US bans Canadian dairy, alcohol and motorcycles as trade war escalates",
-        "link": "https://www.theguardian.com/us-news/2026/sep/08/trump-canada-trade-war-dairy-alcohol",
-        "published": "Tue, 08 Sep 2026 23:59:37 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Trump tariffs US news Canada Donald Trump Trump administration Mark Carney World news US politics International trade Tariffs Business Americas Economics",
-        "image": "https://i.guim.co.uk/img/media/b47b4b64332e5886d782ebf3ea9f5cb14544c5a4/87_0_2999_2400/master/2999.jpg?width=140&quality=85&auto=format&fit=max&s=e27dcfd105ed3ebabcbb9581e1593eb3"
       },
       {
         "title": "I earn £60,000 – so why do I feel poorer than ever?",
@@ -996,6 +996,15 @@
             "image": "https://e3.365dm.com/26/09/1920x1080/skynews-iran-strait-of-hormuz_7345822.jpg?20260909094809"
           },
           {
+            "title": "Apple launches first foldable iPhone",
+            "link": "https://news.sky.com/story/apple-launches-first-foldable-iphone-its-most-expensive-to-date-13583745",
+            "published": "Wed, 09 Sep 2026 21:08:00 +0100",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-iphone-duo-apple_7346568.jpg?20260909221330"
+          },
+          {
             "title": "Channel 4 to cut a quarter of its workforce",
             "link": "https://news.sky.com/story/channel-4-confirms-cut-to-a-quarter-of-its-workforce-under-transformation-plan-13583542",
             "published": "Wed, 09 Sep 2026 12:44:00 +0100",
@@ -1066,15 +1075,6 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/09/1920x1080/skynews-liv-golf-john-rahm_7345604.jpg?20260908234307"
-          },
-          {
-            "title": "The UK's trade ban with Israeli settlements explained",
-            "link": "https://news.sky.com/story/the-uks-trade-ban-with-israeli-settlements-explained-13580355",
-            "published": "Wed, 02 Sep 2026 13:01:00 +0100",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-tel-aviv-israel-settlement_7338764.jpg?20260902134403"
           }
         ],
         "TECH": [
@@ -1610,13 +1610,13 @@
             "image": "https://i.guim.co.uk/img/media/02ab90d34f797f0e25c81421ef84944b67018c7f/760_0_1800_1440/master/1800.jpg?width=140&quality=85&auto=format&fit=max&s=59d8a57744cc4913de65e6089c954604"
           },
           {
-            "title": "Australia politics live: new head of public sector union announced; Labor too slow on DV action, poll says",
+            "title": "Australia politics live: Taylor targets Labor on ‘negative equity’ linked to housing prices; Chalmers says Coalition was ‘doing better under Sussan Ley’",
             "link": "https://www.theguardian.com/australia-news/live/2026/sep/10/anthony-albanese-labor-uk-west-bank-trade-ban-kevin-rudd-diplomacy-one-nation-pauline-hanson-liberal-party-angus-taylor-ntwnfb",
-            "published": "Thu, 10 Sep 2026 04:18:42 GMT",
+            "published": "Thu, 10 Sep 2026 04:33:39 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
             "categories": "Australia news Coalition Labor party One Nation Australian politics",
-            "image": "https://i.guim.co.uk/img/media/aa9f0c5f02ef2a678d0d8f94da0a0bb0d0f81c4a/720_0_5493_4394/master/5493.jpg?width=140&quality=85&auto=format&fit=max&s=e34cbe940c30bba27c0afdb93937a585"
+            "image": "https://i.guim.co.uk/img/media/c43cffc846bb8c24aa10ab69fdf953dd7ffecb0a/394_0_3940_3152/master/3940.jpg?width=140&quality=85&auto=format&fit=max&s=f9841274fe4832ccac3a460c68b37224"
           },
           {
             "title": "Instagram boss says users will be ‘overwhelmed’ with brand content in algorithm-free world",
@@ -3801,5 +3801,5 @@
       }
     }
   },
-  "stocksUpdated": "2026-09-10T04:33:21.545Z"
+  "stocksUpdated": "2026-09-10T04:52:36.746Z"
 }

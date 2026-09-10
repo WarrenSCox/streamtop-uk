@@ -1,24 +1,12 @@
 {
-  "updated": "2026-09-10T04:33:21.600Z",
+  "updated": "2026-09-10T04:52:36.803Z",
   "charts": {
     "AUDIOBOOKS": [
       {
         "title": "Dungeon Crawler Carl",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://m.media-amazon.com/images/I/51HIZdnqASL._SL500_.jpg"
-      },
-      {
-        "title": "Burn of the Everflame",
-        "author": "Penn Cole",
-        "narrator": "Amanda Dolan , Will M. Watt , Bahni Turpin , Tim Campbell , Katherine Littrell , Kieran Regan , Keval Shah",
-        "image": "https://m.media-amazon.com/images/I/51dtzYvLoHL._SL500_.jpg"
-      },
-      {
-        "title": "The Garden Grave",
-        "author": "Joy Ellis",
-        "narrator": "Sam Claflin",
-        "image": "https://m.media-amazon.com/images/I/51u2yPsf2LL._SL500_.jpg"
+        "image": "https://covers.openlibrary.org/b/id/15143022-L.jpg"
       },
       {
         "title": "The Let Them Theory",
@@ -27,22 +15,34 @@
         "image": "https://covers.openlibrary.org/b/id/15165806-L.jpg"
       },
       {
+        "title": "Burn of the Everflame",
+        "author": "Penn Cole",
+        "narrator": "Amanda Dolan , Will M. Watt , Bahni Turpin , Tim Campbell , Katherine Littrell , Kieran Regan , Keval Shah",
+        "image": "https://m.media-amazon.com/images/I/51dtzYvLoHL._SL500_.jpg"
+      },
+      {
         "title": "Carl's Doomsday Scenario",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
         "image": "https://covers.openlibrary.org/b/id/11702962-L.jpg"
       },
       {
-        "title": "The Murder at the Vicarage",
-        "author": "Agatha Christie",
-        "narrator": "Toni Collette , Kit Harington , Jasmine Jobson , Calam Lynch , Eliot Salt , Katy Wix , Lolly Adefope , Billy Postlethwaite , Vicki Pepperdine , Meera Syal , La Voix , Leo Reich , full cast",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/7d/6e/f3/7d6ef37d-f405-1e9b-7c81-4a57e14f32c1/9780007528578.jpg/600x600bb.jpg"
-      },
-      {
         "title": "The Dungeon Anarchist's Cookbook",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays , The Critical Drinker",
         "image": "https://covers.openlibrary.org/b/id/15233609-L.jpg"
+      },
+      {
+        "title": "The Garden Grave",
+        "author": "Joy Ellis",
+        "narrator": "Sam Claflin",
+        "image": "https://m.media-amazon.com/images/I/51u2yPsf2LL._SL500_.jpg"
+      },
+      {
+        "title": "The Murder at the Vicarage",
+        "author": "Agatha Christie",
+        "narrator": "Toni Collette , Kit Harington , Jasmine Jobson , Calam Lynch , Eliot Salt , Katy Wix , Lolly Adefope , Billy Postlethwaite , Vicki Pepperdine , Meera Syal , La Voix , Leo Reich , full cast",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/7d/6e/f3/7d6ef37d-f405-1e9b-7c81-4a57e14f32c1/9780007528578.jpg/600x600bb.jpg"
       },
       {
         "title": "Project Hail Mary",
@@ -54,7 +54,7 @@
         "title": "The Gate of the Feral Gods",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://covers.openlibrary.org/b/id/15232581-L.jpg"
+        "image": "https://m.media-amazon.com/images/I/51rmyTTWPsL._SL500_.jpg"
       },
       {
         "title": "The Butcher's Masquerade",
@@ -123,14 +123,14 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-09-10T04:33:21.600Z",
-      "lastSuccessfulRefresh": "2026-09-10T04:33:21.600Z",
+      "checkedAt": "2026-09-10T04:52:36.803Z",
+      "lastSuccessfulRefresh": "2026-09-10T04:52:36.803Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-09-10T04:33:30.479Z",
-      "lastSuccessfulRefresh": "2026-09-10T04:33:30.479Z",
+      "checkedAt": "2026-09-10T04:52:44.207Z",
+      "lastSuccessfulRefresh": "2026-09-10T04:52:44.207Z",
       "reason": ""
     }
   }
