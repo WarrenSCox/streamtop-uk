@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-11T15:10:12.938Z",
+  "updated": "2026-09-11T16:35:54.208Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -54,7 +54,7 @@
         "title": "Burn of the Everflame",
         "author": "Penn Cole",
         "narrator": "Amanda Dolan , Will M. Watt , Bahni Turpin , Tim Campbell , Katherine Littrell , Kieran Regan , Keval Shah",
-        "image": "https://covers.openlibrary.org/b/id/15228397-L.jpg"
+        "image": "https://m.media-amazon.com/images/I/51dtzYvLoHL._SL500_.jpg"
       },
       {
         "title": "The Gate of the Feral Gods",
@@ -123,15 +123,15 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-09-11T15:10:12.938Z",
-      "lastSuccessfulRefresh": "2026-09-11T15:10:12.938Z",
+      "checkedAt": "2026-09-11T16:35:54.208Z",
+      "lastSuccessfulRefresh": "2026-09-11T16:35:54.208Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
-      "status": "stale",
-      "checkedAt": "2026-09-11T15:10:21.102Z",
-      "lastSuccessfulRefresh": "2026-09-11T11:31:47.269Z",
-      "reason": "503 https://www.audible.co.uk/charts/best"
+      "status": "healthy",
+      "checkedAt": "2026-09-11T16:36:04.527Z",
+      "lastSuccessfulRefresh": "2026-09-11T16:36:04.527Z",
+      "reason": ""
     }
   }
 }
