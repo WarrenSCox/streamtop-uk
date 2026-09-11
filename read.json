@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-11T21:03:25.404Z",
+  "updated": "2026-09-11T21:41:00.804Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -24,7 +24,7 @@
         "title": "The Let Them Theory",
         "author": "Mel Robbins",
         "narrator": "Mel Robbins",
-        "image": "https://m.media-amazon.com/images/I/51YOr6ua-PL._SL500_.jpg"
+        "image": "https://covers.openlibrary.org/b/id/15165806-L.jpg"
       },
       {
         "title": "Carl's Doomsday Scenario",
@@ -54,7 +54,7 @@
         "title": "The Gate of the Feral Gods",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://covers.openlibrary.org/b/id/15232581-L.jpg"
+        "image": "https://m.media-amazon.com/images/I/51rmyTTWPsL._SL500_.jpg"
       },
       {
         "title": "Burn of the Everflame",
@@ -123,14 +123,14 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-09-11T21:03:25.404Z",
-      "lastSuccessfulRefresh": "2026-09-11T21:03:25.404Z",
+      "checkedAt": "2026-09-11T21:41:00.804Z",
+      "lastSuccessfulRefresh": "2026-09-11T21:41:00.804Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-09-11T21:03:34.401Z",
-      "lastSuccessfulRefresh": "2026-09-11T21:03:34.401Z",
+      "checkedAt": "2026-09-11T21:41:08.481Z",
+      "lastSuccessfulRefresh": "2026-09-11T21:41:08.481Z",
       "reason": ""
     }
   }
