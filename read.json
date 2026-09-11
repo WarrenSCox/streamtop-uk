@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-11T11:08:49.817Z",
+  "updated": "2026-09-11T11:31:38.179Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -24,13 +24,13 @@
         "title": "The Let Them Theory",
         "author": "Mel Robbins",
         "narrator": "Mel Robbins",
-        "image": "https://covers.openlibrary.org/b/id/15165806-L.jpg"
+        "image": "https://m.media-amazon.com/images/I/51YOr6ua-PL._SL500_.jpg"
       },
       {
         "title": "The Murder at the Vicarage",
         "author": "Agatha Christie",
         "narrator": "Toni Collette , Kit Harington , Jasmine Jobson , Calam Lynch , Eliot Salt , Katy Wix , Lolly Adefope , Billy Postlethwaite , Vicki Pepperdine , Meera Syal , La Voix , Leo Reich , full cast",
-        "image": "https://m.media-amazon.com/images/I/51GzNQrzYrL._SL500_.jpg"
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/7d/6e/f3/7d6ef37d-f405-1e9b-7c81-4a57e14f32c1/9780007528578.jpg/600x600bb.jpg"
       },
       {
         "title": "How to Quit Your Day Job... and Become Your Own Boss",
@@ -60,7 +60,7 @@
         "title": "The Gate of the Feral Gods",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://covers.openlibrary.org/b/id/15232581-L.jpg"
+        "image": "https://m.media-amazon.com/images/I/51rmyTTWPsL._SL500_.jpg"
       }
     ],
     "BOOKS": [
@@ -123,14 +123,14 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-09-11T11:08:49.818Z",
-      "lastSuccessfulRefresh": "2026-09-11T11:08:49.818Z",
+      "checkedAt": "2026-09-11T11:31:38.180Z",
+      "lastSuccessfulRefresh": "2026-09-11T11:31:38.180Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-09-11T11:08:58.289Z",
-      "lastSuccessfulRefresh": "2026-09-11T11:08:58.289Z",
+      "checkedAt": "2026-09-11T11:31:47.269Z",
+      "lastSuccessfulRefresh": "2026-09-11T11:31:47.269Z",
       "reason": ""
     }
   }
