@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-11T16:35:39.503Z",
+  "generatedAt": "2026-09-11T21:03:06.809Z",
   "country": "GB",
   "trailers": [
     {
@@ -37,6 +37,14 @@
     },
     {
       "rank": 5,
+      "title": "Backrooms | Official Trailer HD | A24",
+      "videoId": "0HjdiohVOik",
+      "poster": "https://i.ytimg.com/vi/0HjdiohVOik/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=0HjdiohVOik",
+      "channel": "A24"
+    },
+    {
+      "rank": 6,
       "title": "Mirzapur The Movie | Official Hindi Trailer |Ali Fazal |  Pankaj Tripathi | Divyenndu | 4th Sept",
       "videoId": "5vMWZhHPlaw",
       "poster": "https://i.ytimg.com/vi/5vMWZhHPlaw/hqdefault.jpg",
@@ -44,7 +52,7 @@
       "channel": "Excel Movies"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "Dune: Part Three | Official Teaser Trailer",
       "videoId": "3_9vCamtuPY",
       "poster": "https://i.ytimg.com/vi/3_9vCamtuPY/hqdefault.jpg",
@@ -52,7 +60,7 @@
       "channel": "Warner Bros."
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "Primetime | Official Trailer HD | A24",
       "videoId": "5fHXyqQOKL8",
       "poster": "https://i.ytimg.com/vi/5fHXyqQOKL8/hqdefault.jpg",
@@ -60,7 +68,7 @@
       "channel": "A24"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "One Night Only | Official Trailer",
       "videoId": "JRG244IfrRE",
       "poster": "https://i.ytimg.com/vi/JRG244IfrRE/hqdefault.jpg",
@@ -68,20 +76,12 @@
       "channel": "Universal Pictures"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Wildwood – Official Teaser Trailer",
       "videoId": "POneS8h1jyU",
       "poster": "https://i.ytimg.com/vi/POneS8h1jyU/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=POneS8h1jyU",
       "channel": "LAIKA Studios"
-    },
-    {
-      "rank": 10,
-      "title": "Batwara 1947 | Official Trailer | Shabana Azmi | Sunny Deol | Aamir Khan Productions | 14th Aug 2026",
-      "videoId": "oRsAMzfvVGk",
-      "poster": "https://i.ytimg.com/vi/oRsAMzfvVGk/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=oRsAMzfvVGk",
-      "channel": "Aamir Khan Talkies"
     }
   ],
   "videos": [
@@ -103,22 +103,46 @@
     },
     {
       "rank": 3,
-      "title": "IF THIS BALLOON HITS THE GROUND WE DIE",
-      "videoId": "Cm6tzsVOR9g",
-      "poster": "https://i.ytimg.com/vi/Cm6tzsVOR9g/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=Cm6tzsVOR9g",
-      "channel": "MoreSidemen"
+      "title": "Searching for a Vault that Doesn't Exist",
+      "videoId": "h68WUZ8b0O0",
+      "poster": "https://i.ytimg.com/vi/h68WUZ8b0O0/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=h68WUZ8b0O0",
+      "channel": "FlameFrags"
     },
     {
       "rank": 4,
-      "title": "Clavish - NRF Freestyle 2 (Official Video)",
-      "videoId": "sc3OsBGHIsg",
-      "poster": "https://i.ytimg.com/vi/sc3OsBGHIsg/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=sc3OsBGHIsg",
-      "channel": "Clavish"
+      "title": "ENHYPEN (엔하이픈) 'Checkmate' Official MV",
+      "videoId": "K5SXamqxoio",
+      "poster": "https://i.ytimg.com/vi/K5SXamqxoio/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=K5SXamqxoio",
+      "channel": "HYBE LABELS"
     },
     {
       "rank": 5,
+      "title": "Overwatch x LE SSERAFIM | Made My Night | Gameplay Trailer",
+      "videoId": "Zu3L4VR0daA",
+      "poster": "https://i.ytimg.com/vi/Zu3L4VR0daA/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=Zu3L4VR0daA",
+      "channel": "PlayOverwatch"
+    },
+    {
+      "rank": 6,
+      "title": "Stranded on ELEMENTAL NINJA Islands! (Minecraft)",
+      "videoId": "i5bSlwUbxyc",
+      "poster": "https://i.ytimg.com/vi/i5bSlwUbxyc/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=i5bSlwUbxyc",
+      "channel": "Cash"
+    },
+    {
+      "rank": 7,
+      "title": "Jhené Aiko - So Good feat. Kendrick Lamar (Official Audio)",
+      "videoId": "QArBw68H-_Q",
+      "poster": "https://i.ytimg.com/vi/QArBw68H-_Q/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=QArBw68H-_Q",
+      "channel": "Jhené Aiko"
+    },
+    {
+      "rank": 8,
       "title": "American Horror Story: 13 | Official Trailer | FX",
       "videoId": "gQf4Vya5PbI",
       "poster": "https://i.ytimg.com/vi/gQf4Vya5PbI/hqdefault.jpg",
@@ -126,36 +150,12 @@
       "channel": "FX Networks"
     },
     {
-      "rank": 6,
-      "title": "I do not recommend: Marvel's Wolverine (Review)",
-      "videoId": "YhUiptupV7A",
-      "poster": "https://i.ytimg.com/vi/YhUiptupV7A/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=YhUiptupV7A",
-      "channel": "Skill Up"
-    },
-    {
-      "rank": 7,
-      "title": "LE SSERAFIM (르세라핌) 'Made My Night' OFFICIAL MV with OVERWATCH",
-      "videoId": "Y1Lah0BM0KQ",
-      "poster": "https://i.ytimg.com/vi/Y1Lah0BM0KQ/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=Y1Lah0BM0KQ",
-      "channel": "HYBE LABELS"
-    },
-    {
-      "rank": 8,
-      "title": "BELOW | Official Trailer | Netflix",
-      "videoId": "U57CNxSgoss",
-      "poster": "https://i.ytimg.com/vi/U57CNxSgoss/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=U57CNxSgoss",
-      "channel": "Netflix"
-    },
-    {
       "rank": 9,
-      "title": "Marvel's Wolverine Review",
-      "videoId": "3EK5uzEpO4w",
-      "poster": "https://i.ytimg.com/vi/3EK5uzEpO4w/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=3EK5uzEpO4w",
-      "channel": "IGN"
+      "title": "1 Amazing Player For Every Age",
+      "videoId": "q9EySMdq3Iw",
+      "poster": "https://i.ytimg.com/vi/q9EySMdq3Iw/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=q9EySMdq3Iw",
+      "channel": "More Chuff"
     },
     {
       "rank": 10,
