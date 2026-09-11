@@ -1,18 +1,18 @@
 {
-  "updated": "2026-09-11T16:35:54.208Z",
+  "updated": "2026-09-11T18:43:48.207Z",
   "charts": {
     "AUDIOBOOKS": [
       {
         "title": "The Infinite Extent",
         "author": "Dennis E. Taylor",
         "narrator": "Ray Porter",
-        "image": "https://covers.openlibrary.org/b/id/15253208-L.jpg"
+        "image": "https://m.media-amazon.com/images/I/51O1HmGSbEL._SL500_.jpg"
       },
       {
         "title": "Dungeon Crawler Carl",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://m.media-amazon.com/images/I/51HIZdnqASL._SL500_.jpg"
+        "image": "https://covers.openlibrary.org/b/id/15143022-L.jpg"
       },
       {
         "title": "The Garden Grave",
@@ -123,14 +123,14 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-09-11T16:35:54.208Z",
-      "lastSuccessfulRefresh": "2026-09-11T16:35:54.208Z",
+      "checkedAt": "2026-09-11T18:43:48.207Z",
+      "lastSuccessfulRefresh": "2026-09-11T18:43:48.207Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-09-11T16:36:04.527Z",
-      "lastSuccessfulRefresh": "2026-09-11T16:36:04.527Z",
+      "checkedAt": "2026-09-11T18:43:56.245Z",
+      "lastSuccessfulRefresh": "2026-09-11T18:43:56.245Z",
       "reason": ""
     }
   }
