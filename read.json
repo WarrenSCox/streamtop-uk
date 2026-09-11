@@ -1,30 +1,18 @@
 {
-  "updated": "2026-09-11T05:50:40.302Z",
+  "updated": "2026-09-11T11:08:49.817Z",
   "charts": {
     "AUDIOBOOKS": [
       {
         "title": "The Infinite Extent",
         "author": "Dennis E. Taylor",
         "narrator": "Ray Porter",
-        "image": "https://m.media-amazon.com/images/I/51O1HmGSbEL._SL500_.jpg"
+        "image": "https://covers.openlibrary.org/b/id/15253208-L.jpg"
       },
       {
         "title": "Dungeon Crawler Carl",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://covers.openlibrary.org/b/id/15143022-L.jpg"
-      },
-      {
-        "title": "The Let Them Theory",
-        "author": "Mel Robbins",
-        "narrator": "Mel Robbins",
-        "image": "https://m.media-amazon.com/images/I/51YOr6ua-PL._SL500_.jpg"
-      },
-      {
-        "title": "Carl's Doomsday Scenario",
-        "author": "Matt Dinniman",
-        "narrator": "Jeff Hays",
-        "image": "https://covers.openlibrary.org/b/id/11702962-L.jpg"
+        "image": "https://m.media-amazon.com/images/I/51HIZdnqASL._SL500_.jpg"
       },
       {
         "title": "The Garden Grave",
@@ -33,16 +21,10 @@
         "image": "https://m.media-amazon.com/images/I/51u2yPsf2LL._SL500_.jpg"
       },
       {
-        "title": "Burn of the Everflame",
-        "author": "Penn Cole",
-        "narrator": "Amanda Dolan , Will M. Watt , Bahni Turpin , Tim Campbell , Katherine Littrell , Kieran Regan , Keval Shah",
-        "image": "https://covers.openlibrary.org/b/id/15228397-L.jpg"
-      },
-      {
-        "title": "The Dungeon Anarchist's Cookbook",
-        "author": "Matt Dinniman",
-        "narrator": "Jeff Hays , The Critical Drinker",
-        "image": "https://covers.openlibrary.org/b/id/15233609-L.jpg"
+        "title": "The Let Them Theory",
+        "author": "Mel Robbins",
+        "narrator": "Mel Robbins",
+        "image": "https://covers.openlibrary.org/b/id/15165806-L.jpg"
       },
       {
         "title": "The Murder at the Vicarage",
@@ -51,16 +33,34 @@
         "image": "https://m.media-amazon.com/images/I/51GzNQrzYrL._SL500_.jpg"
       },
       {
-        "title": "The Gate of the Feral Gods",
-        "author": "Matt Dinniman",
-        "narrator": "Jeff Hays",
-        "image": "https://covers.openlibrary.org/b/id/15232581-L.jpg"
-      },
-      {
         "title": "How to Quit Your Day Job... and Become Your Own Boss",
         "author": "Simon Squibb",
         "narrator": "Simon Squibb",
         "image": "https://m.media-amazon.com/images/I/41YpvidAdGL._SL500_.jpg"
+      },
+      {
+        "title": "Carl's Doomsday Scenario",
+        "author": "Matt Dinniman",
+        "narrator": "Jeff Hays",
+        "image": "https://covers.openlibrary.org/b/id/11702962-L.jpg"
+      },
+      {
+        "title": "The Dungeon Anarchist's Cookbook",
+        "author": "Matt Dinniman",
+        "narrator": "Jeff Hays , The Critical Drinker",
+        "image": "https://covers.openlibrary.org/b/id/15233609-L.jpg"
+      },
+      {
+        "title": "Burn of the Everflame",
+        "author": "Penn Cole",
+        "narrator": "Amanda Dolan , Will M. Watt , Bahni Turpin , Tim Campbell , Katherine Littrell , Kieran Regan , Keval Shah",
+        "image": "https://covers.openlibrary.org/b/id/15228397-L.jpg"
+      },
+      {
+        "title": "The Gate of the Feral Gods",
+        "author": "Matt Dinniman",
+        "narrator": "Jeff Hays",
+        "image": "https://covers.openlibrary.org/b/id/15232581-L.jpg"
       }
     ],
     "BOOKS": [
@@ -123,14 +123,14 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-09-11T05:50:40.302Z",
-      "lastSuccessfulRefresh": "2026-09-11T05:50:40.302Z",
+      "checkedAt": "2026-09-11T11:08:49.818Z",
+      "lastSuccessfulRefresh": "2026-09-11T11:08:49.818Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-09-11T05:50:48.038Z",
-      "lastSuccessfulRefresh": "2026-09-11T05:50:48.038Z",
+      "checkedAt": "2026-09-11T11:08:58.289Z",
+      "lastSuccessfulRefresh": "2026-09-11T11:08:58.289Z",
       "reason": ""
     }
   }
