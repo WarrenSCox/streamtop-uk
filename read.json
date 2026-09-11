@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-11T01:00:10.029Z",
+  "updated": "2026-09-11T04:49:17.338Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -12,19 +12,13 @@
         "title": "Dungeon Crawler Carl",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://m.media-amazon.com/images/I/51HIZdnqASL._SL500_.jpg"
-      },
-      {
-        "title": "The Garden Grave",
-        "author": "Joy Ellis",
-        "narrator": "Sam Claflin",
-        "image": "https://m.media-amazon.com/images/I/51u2yPsf2LL._SL500_.jpg"
+        "image": "https://covers.openlibrary.org/b/id/15143022-L.jpg"
       },
       {
         "title": "The Let Them Theory",
         "author": "Mel Robbins",
         "narrator": "Mel Robbins",
-        "image": "https://m.media-amazon.com/images/I/51YOr6ua-PL._SL500_.jpg"
+        "image": "https://covers.openlibrary.org/b/id/15165806-L.jpg"
       },
       {
         "title": "Carl's Doomsday Scenario",
@@ -33,22 +27,16 @@
         "image": "https://covers.openlibrary.org/b/id/11702962-L.jpg"
       },
       {
+        "title": "The Garden Grave",
+        "author": "Joy Ellis",
+        "narrator": "Sam Claflin",
+        "image": "https://m.media-amazon.com/images/I/51u2yPsf2LL._SL500_.jpg"
+      },
+      {
         "title": "Burn of the Everflame",
         "author": "Penn Cole",
         "narrator": "Amanda Dolan , Will M. Watt , Bahni Turpin , Tim Campbell , Katherine Littrell , Kieran Regan , Keval Shah",
-        "image": "https://m.media-amazon.com/images/I/51dtzYvLoHL._SL500_.jpg"
-      },
-      {
-        "title": "The Murder at the Vicarage",
-        "author": "Agatha Christie",
-        "narrator": "Toni Collette , Kit Harington , Jasmine Jobson , Calam Lynch , Eliot Salt , Katy Wix , Lolly Adefope , Billy Postlethwaite , Vicki Pepperdine , Meera Syal , La Voix , Leo Reich , full cast",
-        "image": "https://m.media-amazon.com/images/I/51GzNQrzYrL._SL500_.jpg"
-      },
-      {
-        "title": "How to Quit Your Day Job... and Become Your Own Boss",
-        "author": "Simon Squibb",
-        "narrator": "Simon Squibb",
-        "image": "https://m.media-amazon.com/images/I/41YpvidAdGL._SL500_.jpg"
+        "image": "https://covers.openlibrary.org/b/id/15228397-L.jpg"
       },
       {
         "title": "The Dungeon Anarchist's Cookbook",
@@ -57,10 +45,22 @@
         "image": "https://covers.openlibrary.org/b/id/15233609-L.jpg"
       },
       {
+        "title": "The Murder at the Vicarage",
+        "author": "Agatha Christie",
+        "narrator": "Toni Collette , Kit Harington , Jasmine Jobson , Calam Lynch , Eliot Salt , Katy Wix , Lolly Adefope , Billy Postlethwaite , Vicki Pepperdine , Meera Syal , La Voix , Leo Reich , full cast",
+        "image": "https://covers.openlibrary.org/b/id/12996560-L.jpg"
+      },
+      {
         "title": "The Gate of the Feral Gods",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
         "image": "https://covers.openlibrary.org/b/id/15232581-L.jpg"
+      },
+      {
+        "title": "How to Quit Your Day Job... and Become Your Own Boss",
+        "author": "Simon Squibb",
+        "narrator": "Simon Squibb",
+        "image": "https://m.media-amazon.com/images/I/41YpvidAdGL._SL500_.jpg"
       }
     ],
     "BOOKS": [
@@ -123,15 +123,15 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-09-11T01:00:10.029Z",
-      "lastSuccessfulRefresh": "2026-09-11T01:00:10.029Z",
+      "checkedAt": "2026-09-11T04:49:17.338Z",
+      "lastSuccessfulRefresh": "2026-09-11T04:49:17.338Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
-      "status": "stale",
-      "checkedAt": "2026-09-11T01:00:19.813Z",
-      "lastSuccessfulRefresh": "2026-09-10T20:57:37.995Z",
-      "reason": "503 https://www.audible.co.uk/charts/best"
+      "status": "healthy",
+      "checkedAt": "2026-09-11T04:49:25.139Z",
+      "lastSuccessfulRefresh": "2026-09-11T04:49:25.139Z",
+      "reason": ""
     }
   }
 }
