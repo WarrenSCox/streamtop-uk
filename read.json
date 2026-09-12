@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-12T09:12:09.722Z",
+  "updated": "2026-09-12T10:55:39.070Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -12,13 +12,7 @@
         "title": "Dungeon Crawler Carl",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://m.media-amazon.com/images/I/51HIZdnqASL._SL500_.jpg"
-      },
-      {
-        "title": "The Garden Grave",
-        "author": "Joy Ellis",
-        "narrator": "Sam Claflin",
-        "image": "https://m.media-amazon.com/images/I/51u2yPsf2LL._SL500_.jpg"
+        "image": "https://covers.openlibrary.org/b/id/15143022-L.jpg"
       },
       {
         "title": "The Let Them Theory",
@@ -33,10 +27,10 @@
         "image": "https://covers.openlibrary.org/b/id/11702962-L.jpg"
       },
       {
-        "title": "The Murder at the Vicarage",
-        "author": "Agatha Christie",
-        "narrator": "Toni Collette , Kit Harington , Jasmine Jobson , Calam Lynch , Eliot Salt , Katy Wix , Lolly Adefope , Billy Postlethwaite , Vicki Pepperdine , Meera Syal , La Voix , Leo Reich , full cast",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/7d/6e/f3/7d6ef37d-f405-1e9b-7c81-4a57e14f32c1/9780007528578.jpg/600x600bb.jpg"
+        "title": "The Garden Grave",
+        "author": "Joy Ellis",
+        "narrator": "Sam Claflin",
+        "image": "https://m.media-amazon.com/images/I/51u2yPsf2LL._SL500_.jpg"
       },
       {
         "title": "The Dungeon Anarchist's Cookbook",
@@ -45,22 +39,28 @@
         "image": "https://covers.openlibrary.org/b/id/15233609-L.jpg"
       },
       {
-        "title": "How to Quit Your Day Job... and Become Your Own Boss",
-        "author": "Simon Squibb",
-        "narrator": "Simon Squibb",
-        "image": "https://m.media-amazon.com/images/I/41YpvidAdGL._SL500_.jpg"
+        "title": "The Murder at the Vicarage",
+        "author": "Agatha Christie",
+        "narrator": "Toni Collette , Kit Harington , Jasmine Jobson , Calam Lynch , Eliot Salt , Katy Wix , Lolly Adefope , Billy Postlethwaite , Vicki Pepperdine , Meera Syal , La Voix , Leo Reich , full cast",
+        "image": "https://m.media-amazon.com/images/I/51GzNQrzYrL._SL500_.jpg"
       },
       {
         "title": "The Gate of the Feral Gods",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://m.media-amazon.com/images/I/51rmyTTWPsL._SL500_.jpg"
+        "image": "https://covers.openlibrary.org/b/id/15232581-L.jpg"
       },
       {
-        "title": "Burn of the Everflame",
-        "author": "Penn Cole",
-        "narrator": "Amanda Dolan , Will M. Watt , Bahni Turpin , Tim Campbell , Katherine Littrell , Kieran Regan , Keval Shah",
-        "image": "https://m.media-amazon.com/images/I/51dtzYvLoHL._SL500_.jpg"
+        "title": "Project Hail Mary",
+        "author": "Andy Weir",
+        "narrator": "Ray Porter",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2a/1a/fc/2a1afcc9-6179-5fdf-3bea-aec376486895/rm_image.jpg/600x600bb.jpg"
+      },
+      {
+        "title": "The Butcher's Masquerade",
+        "author": "Matt Dinniman",
+        "narrator": "Jeff Hays",
+        "image": "https://covers.openlibrary.org/b/id/15231958-L.jpg"
       }
     ],
     "BOOKS": [
@@ -123,15 +123,15 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-09-12T09:12:09.722Z",
-      "lastSuccessfulRefresh": "2026-09-12T09:12:09.722Z",
+      "checkedAt": "2026-09-12T10:55:39.070Z",
+      "lastSuccessfulRefresh": "2026-09-12T10:55:39.070Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
-      "status": "stale",
-      "checkedAt": "2026-09-12T09:12:17.345Z",
-      "lastSuccessfulRefresh": "2026-09-11T21:41:08.481Z",
-      "reason": "503 https://www.audible.co.uk/charts/best"
+      "status": "healthy",
+      "checkedAt": "2026-09-12T10:55:46.885Z",
+      "lastSuccessfulRefresh": "2026-09-12T10:55:46.885Z",
+      "reason": ""
     }
   }
 }
