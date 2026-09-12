@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-12T21:24:04.917Z",
+  "updated": "2026-09-12T23:15:09.009Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -12,19 +12,7 @@
         "title": "Dungeon Crawler Carl",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://covers.openlibrary.org/b/id/15143022-L.jpg"
-      },
-      {
-        "title": "The Let Them Theory",
-        "author": "Mel Robbins",
-        "narrator": "Mel Robbins",
-        "image": "https://covers.openlibrary.org/b/id/15165806-L.jpg"
-      },
-      {
-        "title": "Carl's Doomsday Scenario",
-        "author": "Matt Dinniman",
-        "narrator": "Jeff Hays",
-        "image": "https://covers.openlibrary.org/b/id/11702962-L.jpg"
+        "image": "https://m.media-amazon.com/images/I/51HIZdnqASL._SL500_.jpg"
       },
       {
         "title": "The Garden Grave",
@@ -33,28 +21,40 @@
         "image": "https://m.media-amazon.com/images/I/51u2yPsf2LL._SL500_.jpg"
       },
       {
+        "title": "The Let Them Theory",
+        "author": "Mel Robbins",
+        "narrator": "Mel Robbins",
+        "image": "https://m.media-amazon.com/images/I/51YOr6ua-PL._SL500_.jpg"
+      },
+      {
+        "title": "Carl's Doomsday Scenario",
+        "author": "Matt Dinniman",
+        "narrator": "Jeff Hays",
+        "image": "https://covers.openlibrary.org/b/id/11702962-L.jpg"
+      },
+      {
         "title": "The Dungeon Anarchist's Cookbook",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays , The Critical Drinker",
         "image": "https://covers.openlibrary.org/b/id/15233609-L.jpg"
       },
       {
+        "title": "The Gate of the Feral Gods",
+        "author": "Matt Dinniman",
+        "narrator": "Jeff Hays",
+        "image": "https://m.media-amazon.com/images/I/51rmyTTWPsL._SL500_.jpg"
+      },
+      {
+        "title": "How to Quit Your Day Job... and Become Your Own Boss",
+        "author": "Simon Squibb",
+        "narrator": "Simon Squibb",
+        "image": "https://m.media-amazon.com/images/I/41YpvidAdGL._SL500_.jpg"
+      },
+      {
         "title": "The Murder at the Vicarage",
         "author": "Agatha Christie",
         "narrator": "Toni Collette , Kit Harington , Jasmine Jobson , Calam Lynch , Eliot Salt , Katy Wix , Lolly Adefope , Billy Postlethwaite , Vicki Pepperdine , Meera Syal , La Voix , Leo Reich , full cast",
         "image": "https://m.media-amazon.com/images/I/51GzNQrzYrL._SL500_.jpg"
-      },
-      {
-        "title": "The Gate of the Feral Gods",
-        "author": "Matt Dinniman",
-        "narrator": "Jeff Hays",
-        "image": "https://covers.openlibrary.org/b/id/15232581-L.jpg"
-      },
-      {
-        "title": "Project Hail Mary",
-        "author": "Andy Weir",
-        "narrator": "Ray Porter",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2a/1a/fc/2a1afcc9-6179-5fdf-3bea-aec376486895/rm_image.jpg/600x600bb.jpg"
       },
       {
         "title": "The Butcher's Masquerade",
@@ -123,15 +123,15 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-09-12T21:24:04.917Z",
-      "lastSuccessfulRefresh": "2026-09-12T21:24:04.917Z",
+      "checkedAt": "2026-09-12T23:15:09.009Z",
+      "lastSuccessfulRefresh": "2026-09-12T23:15:09.009Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
-      "status": "stale",
-      "checkedAt": "2026-09-12T21:24:13.745Z",
-      "lastSuccessfulRefresh": "2026-09-12T18:41:19.173Z",
-      "reason": "503 https://www.audible.co.uk/charts/best"
+      "status": "healthy",
+      "checkedAt": "2026-09-12T23:15:18.674Z",
+      "lastSuccessfulRefresh": "2026-09-12T23:15:18.674Z",
+      "reason": ""
     }
   }
 }
