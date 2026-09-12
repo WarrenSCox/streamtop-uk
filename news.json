@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-12T04:43:04.124Z",
+  "updated": "2026-09-12T04:56:33.652Z",
   "categories": {
     "UK": [
       {
@@ -95,6 +95,15 @@
     ],
     "WORLD": [
       {
+        "title": "Alleged drone operator charged with murder after mistaken identity shooting in Sydney",
+        "link": "https://www.theguardian.com/australia-news/2026/sep/12/alleged-drone-operator-charged-murder-mistaken-identity-shooting-western-sydney-ntwnfb",
+        "published": "Sat, 12 Sep 2026 04:37:50 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "New South Wales Australia news",
+        "image": "https://i.guim.co.uk/img/media/aa1a0c58c737ff251151ac120dbe8c86cccc3922/103_0_2440_1953/master/2440.jpg?width=140&quality=85&auto=format&fit=max&s=d8534ac180d8e0904acf3e08fce6e5ef"
+      },
+      {
         "title": "Court case brought by Zionist federation against journalist Mary Kostakidis ended ‘by consent’",
         "link": "https://www.theguardian.com/media/2026/sep/12/journalist-mary-kostakidis-court-case-zionist-federation-australia-discontinued-by-consent-ntwnfb",
         "published": "Sat, 12 Sep 2026 03:21:50 GMT",
@@ -165,15 +174,6 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/09/1920x1080/skynews-rouen-france_7348540.jpg?20260911214049"
-      },
-      {
-        "title": "Buddhist monk arrested in Thailand on suspicion of embezzling $2.8m",
-        "link": "https://www.theguardian.com/world/2026/sep/11/thai-police-arrest-buddhist-abbot-suspicion-embezzling",
-        "published": "Fri, 11 Sep 2026 15:01:36 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Thailand Asia Pacific Religion World news Buddhism",
-        "image": "https://i.guim.co.uk/img/media/ea4f2e5883e687faf4c37af96a4350d8289aa967/0_0_3173_2538/master/3173.jpg?width=140&quality=85&auto=format&fit=max&s=043673d76d1c3069d7088fd43b9a99ee"
       },
       {
         "title": "UK and Nato allies intercept Russian plot to deploy secret weapon to undersea cable",
@@ -1628,6 +1628,15 @@
             "image": "https://i.guim.co.uk/img/media/bbeff90b9d0fe8a0fe2dcce8132ba466aa52fee8/400_107_3369_2697/master/3369.jpg?width=140&quality=85&auto=format&fit=max&s=34aacc2fb93d920af041c1b062a8b772"
           },
           {
+            "title": "Alleged drone operator charged with murder after mistaken identity shooting in Sydney",
+            "link": "https://www.theguardian.com/australia-news/2026/sep/12/alleged-drone-operator-charged-murder-mistaken-identity-shooting-western-sydney-ntwnfb",
+            "published": "Sat, 12 Sep 2026 04:37:50 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "New South Wales Australia news",
+            "image": "https://i.guim.co.uk/img/media/aa1a0c58c737ff251151ac120dbe8c86cccc3922/103_0_2440_1953/master/2440.jpg?width=140&quality=85&auto=format&fit=max&s=d8534ac180d8e0904acf3e08fce6e5ef"
+          },
+          {
             "title": "Court case brought by Zionist federation against journalist Mary Kostakidis ended ‘by consent’",
             "link": "https://www.theguardian.com/media/2026/sep/12/journalist-mary-kostakidis-court-case-zionist-federation-australia-discontinued-by-consent-ntwnfb",
             "published": "Sat, 12 Sep 2026 03:21:50 GMT",
@@ -1662,15 +1671,6 @@
             "provider": "GUARDIAN",
             "categories": "Health Australia news Aged care Labor party Australian politics",
             "image": "https://i.guim.co.uk/img/media/a037fae23523613a1ad45d1ce9cd82300a822bac/878_0_4388_3511/master/4388.jpg?width=140&quality=85&auto=format&fit=max&s=3b1a8f675fe235b211dd5760067a4aea"
-          },
-          {
-            "title": "Labor ditches new packaging laws to cut plastic waste, sparking unprecedented ‘scale and breadth of outrage’",
-            "link": "https://www.theguardian.com/australia-news/2026/sep/12/labor-ditch-new-packaging-laws-breaking-promise-plastic-waste",
-            "published": "Fri, 11 Sep 2026 15:00:08 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Australian politics Australia news Pollution Environment Consumer affairs Anthony Albanese Waste",
-            "image": "https://i.guim.co.uk/img/media/d3cc664724e6376ff66f5f578425e07d3bfbc731/1000_957_5680_4544/master/5680.jpg?width=140&quality=85&auto=format&fit=max&s=1919139e6672d2b7a1bb32c8998c0deb"
           }
         ],
         "POLITICS": [
@@ -3855,5 +3855,5 @@
       }
     }
   },
-  "stocksUpdated": "2026-09-12T04:43:11.284Z"
+  "stocksUpdated": "2026-09-12T04:56:40.408Z"
 }
