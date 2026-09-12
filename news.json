@@ -1,7 +1,34 @@
 {
-  "updated": "2026-09-12T16:14:17.226Z",
+  "updated": "2026-09-12T18:40:57.564Z",
   "categories": {
     "UK": [
+      {
+        "title": "Portsmouth experiences second weekend of anti-immigration protests",
+        "link": "https://www.theguardian.com/politics/2026/sep/12/portsmouth-experiences-second-weekend-of-anti-immigration-protests",
+        "published": "Sat, 12 Sep 2026 17:41:46 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Far right Portsmouth Protest Immigration and asylum Politics UK news Refugees Glasgow",
+        "image": "https://i.guim.co.uk/img/media/ded57656efdc69f4d95ccc4e6d56488a4b3aec95/1591_515_6186_4949/master/6186.jpg?width=140&quality=85&auto=format&fit=max&s=ea1eb60f6290f40be92a039543ff301d"
+      },
+      {
+        "title": "Greek woman, 54, gives birth after using embryo frozen for 22 years",
+        "link": "https://metro.co.uk/2026/09/12/greek-woman-54-gives-birth-using-embryo-frozen-22-years-29593928/",
+        "published": "Sat, 12 Sep 2026 17:29:18 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News World Greece Health News IVF",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/09/comp-1789233832.png?w=646"
+      },
+      {
+        "title": "Husband electrocuted ‘trying to rescue wife from hot tub’ as horrific details emerge",
+        "link": "https://metro.co.uk/2026/09/12/husband-died-trying-rescue-wife-hot-tub-horrific-details-emerge-29593603/",
+        "published": "Sat, 12 Sep 2026 16:57:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News Death Spain",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/09/comp-1789232038.png?w=646"
+      },
       {
         "title": "Donations of £72m make Reform’s prospects both rosier and riskier",
         "link": "https://www.theguardian.com/politics/2026/sep/12/reform-uk-billionaire-donations-analysis",
@@ -17,8 +44,8 @@
         "published": "Sat, 12 Sep 2026 16:05:32 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
-        "categories": "Donald Trump Ireland Northern Irish politics Europe US foreign policy Northern Ireland UK news Politics",
-        "image": "https://i.guim.co.uk/img/media/1d12c01e40952b56ec736ec5da8420b14770fb88/2423_132_1306_1045/master/1306.jpg?width=140&quality=85&auto=format&fit=max&s=173eea7e151486c10ecc6ac17dab3ff9"
+        "categories": "Ireland Donald Trump Northern Irish politics Europe US foreign policy Northern Ireland UK news Politics",
+        "image": "https://i.guim.co.uk/img/media/ee24264b9b786dc796202e9989d4ee0abfe9aeac/260_0_3976_3183/master/3976.jpg?width=140&quality=85&auto=format&fit=max&s=ac26bc77e3c75f3bc64dbb02c89e9faf"
       },
       {
         "title": "Number of UK anti-migrant vigilante groups surges in last 18 months",
@@ -39,40 +66,13 @@
         "image": "https://metro.co.uk/wp-content/uploads/2026/09/AD_65790357-7666.jpg?quality=90&strip=all&w=646"
       },
       {
-        "title": "Christopher Harborne matches £36m Reform donation of Ben Delo",
-        "link": "https://www.theguardian.com/politics/2026/sep/12/christopher-harborne-matches-36m-reform-donation-of-ben-zelo",
-        "published": "Sat, 12 Sep 2026 15:09:05 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Party funding Reform UK Nigel Farage UK news Christopher Harborne Politics Andy Burnham Bridget Phillipson",
-        "image": "https://i.guim.co.uk/img/media/6be562f080c40b5a4762057cff65ae390e3ffad9/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=5b454a88133e2bcccad26195bd2209ff"
-      },
-      {
-        "title": "Anti-migrant demonstrators 'chase down' counter-protesters after Portsmouth march",
+        "title": "Anti-migrant demonstrators clash with counter-protesters during march in Portsmouth",
         "link": "https://news.sky.com/story/anti-migrant-demonstrators-chase-down-counter-protesters-after-portsmouth-march-13584910",
         "published": "Sat, 12 Sep 2026 15:53:00 +0100",
         "source": "Sky News",
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/09/1920x1080/skynews-antimigration-protest_7349277.jpg?20260912160707"
-      },
-      {
-        "title": "Fraudster drained £200,000 from family’s savings and went on year-long holiday",
-        "link": "https://metro.co.uk/2026/09/12/fraudster-emptied-grandads-80-000-savings-went-year-long-holiday-29593184/",
-        "published": "Sat, 12 Sep 2026 14:47:00 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News UK Crime News Wales",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/09/comp-1789224007.png?w=646"
-      },
-      {
-        "title": "Two men handcuffed mid-flight after ‘screaming they wanted to shoot people’",
-        "link": "https://metro.co.uk/2026/09/12/two-men-handcuffed-mid-flight-screaming-wanted-shoot-people-29592931/",
-        "published": "Sat, 12 Sep 2026 14:32:32 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News World Australia Doha Qatar",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312043821-1564.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "Who are Reform UK's two mega-donors?",
@@ -94,6 +94,15 @@
       }
     ],
     "WORLD": [
+      {
+        "title": "Husband electrocuted ‘trying to rescue wife from hot tub’ as horrific details emerge",
+        "link": "https://metro.co.uk/2026/09/12/husband-died-trying-rescue-wife-hot-tub-horrific-details-emerge-29593603/",
+        "published": "Sat, 12 Sep 2026 16:57:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News Death Spain",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/09/comp-1789232038.png?w=646"
+      },
       {
         "title": "Burial of King Oyo takes place in Uganda as news anchor prepares for throne",
         "link": "https://www.theguardian.com/world/2026/sep/12/burial-king-oyo-uganda",
@@ -149,15 +158,6 @@
         "image": "https://metro.co.uk/wp-content/uploads/2026/09/Screenshot-2026-09-12-at-12.36.43-f138.png?w=646"
       },
       {
-        "title": "Death toll from Philippines ferry fire rises to 35, as officials warn toll will grow",
-        "link": "https://www.theguardian.com/world/2026/sep/12/death-toll-from-philippines-ferry-fire-rises-to-35-as-officials-warn-toll-will-grow",
-        "published": "Sat, 12 Sep 2026 04:53:10 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Philippines Asia Pacific",
-        "image": "https://i.guim.co.uk/img/media/a27835cebb9f406a865b3b8e073a3bed081a1781/102_0_1498_1199/master/1498.jpg?width=140&quality=85&auto=format&fit=max&s=d3b83fef57dd82f01dc4ff5fb7dddbef"
-      },
-      {
         "title": "Woman, 54, gives birth after using embryo frozen for 22 years",
         "link": "https://news.sky.com/story/greek-woman-54-gives-birth-after-using-embryo-frozen-for-22-years-13584694",
         "published": "Sat, 12 Sep 2026 04:51:00 +0100",
@@ -187,6 +187,33 @@
     ],
     "POLITICS": [
       {
+        "title": "Portsmouth experiences second weekend of anti-immigration protests",
+        "link": "https://www.theguardian.com/politics/2026/sep/12/portsmouth-experiences-second-weekend-of-anti-immigration-protests",
+        "published": "Sat, 12 Sep 2026 17:41:46 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Far right Portsmouth Protest Immigration and asylum Politics UK news Refugees Glasgow",
+        "image": "https://i.guim.co.uk/img/media/ded57656efdc69f4d95ccc4e6d56488a4b3aec95/1591_515_6186_4949/master/6186.jpg?width=140&quality=85&auto=format&fit=max&s=ea1eb60f6290f40be92a039543ff301d"
+      },
+      {
+        "title": "Donations of £72m make Reform’s prospects both rosier and riskier",
+        "link": "https://www.theguardian.com/politics/2026/sep/12/reform-uk-billionaire-donations-analysis",
+        "published": "Sat, 12 Sep 2026 16:06:59 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Reform UK Nigel Farage Party funding General elections Politics UK news",
+        "image": "https://i.guim.co.uk/img/media/061f13a224d30f4577e345596b379b5528eb35ce/1440_0_7200_5760/master/7200.jpg?width=140&quality=85&auto=format&fit=max&s=c71d6e6b4706bfeb54a5531d3eb43472"
+      },
+      {
+        "title": "Donald Trump says he would ‘love’ to see united Ireland",
+        "link": "https://www.theguardian.com/us-news/2026/sep/12/donald-trump-says-he-would-love-to-see-united-ireland",
+        "published": "Sat, 12 Sep 2026 16:05:32 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Ireland Donald Trump Northern Irish politics Europe US foreign policy Northern Ireland UK news Politics",
+        "image": "https://i.guim.co.uk/img/media/ee24264b9b786dc796202e9989d4ee0abfe9aeac/260_0_3976_3183/master/3976.jpg?width=140&quality=85&auto=format&fit=max&s=ac26bc77e3c75f3bc64dbb02c89e9faf"
+      },
+      {
         "title": "Number of UK anti-migrant vigilante groups surges in last 18 months",
         "link": "https://www.theguardian.com/world/2026/sep/12/number-of-uk-anti-migrant-vigilante-groups-surges-in-last-18-months",
         "published": "Sat, 12 Sep 2026 16:00:38 GMT",
@@ -203,33 +230,6 @@
         "provider": "METRO",
         "categories": "EastEnders Soaps Kitty Castledine Penny Branning Shiv Jalota Vinny Panesar",
         "image": "https://metro.co.uk/wp-content/uploads/2026/08/SEI_307883891-4c85.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Christopher Harborne matches £36m Reform donation of Ben Delo",
-        "link": "https://www.theguardian.com/politics/2026/sep/12/christopher-harborne-matches-36m-reform-donation-of-ben-zelo",
-        "published": "Sat, 12 Sep 2026 15:09:05 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Party funding Reform UK Nigel Farage UK news Christopher Harborne Politics Andy Burnham Bridget Phillipson",
-        "image": "https://i.guim.co.uk/img/media/6be562f080c40b5a4762057cff65ae390e3ffad9/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=5b454a88133e2bcccad26195bd2209ff"
-      },
-      {
-        "title": "Donations of £72m make Reform’s prospects both rosier and riskier",
-        "link": "https://www.theguardian.com/politics/2026/sep/12/reform-uk-billionaire-donations-analysis",
-        "published": "Sat, 12 Sep 2026 14:53:17 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Reform UK Nigel Farage Party funding General elections Politics UK news",
-        "image": "https://i.guim.co.uk/img/media/061f13a224d30f4577e345596b379b5528eb35ce/1440_0_7200_5760/master/7200.jpg?width=140&quality=85&auto=format&fit=max&s=c71d6e6b4706bfeb54a5531d3eb43472"
-      },
-      {
-        "title": "Donald Trump says he would ‘love’ to see united Ireland",
-        "link": "https://www.theguardian.com/us-news/2026/sep/12/donald-trump-says-he-would-love-to-see-united-ireland",
-        "published": "Sat, 12 Sep 2026 13:06:47 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Donald Trump Ireland Northern Irish politics Europe US foreign policy Northern Ireland UK news Politics",
-        "image": "https://i.guim.co.uk/img/media/1d12c01e40952b56ec736ec5da8420b14770fb88/2423_132_1306_1045/master/1306.jpg?width=140&quality=85&auto=format&fit=max&s=173eea7e151486c10ecc6ac17dab3ff9"
       },
       {
         "title": "Second crypto-billionaire donates £36,000,000 to Reform UK within 24 hours",
@@ -376,7 +376,7 @@
         "published": "Sat, 12 Sep 2026 15:46:01 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
-        "categories": "AI (artificial intelligence) Anthropic OpenAI Technology US news World news",
+        "categories": "AI (artificial intelligence) Anthropic OpenAI Technology US news World news Elon Musk Sam Altman Computing",
         "image": "https://i.guim.co.uk/img/media/bb84259074a2c64ebed9b2c958f9985eb618beca/482_0_5532_4425/master/5532.jpg?width=140&quality=85&auto=format&fit=max&s=e15bde6101c730f1330e4d5c6c4de778"
       },
       {
@@ -555,6 +555,24 @@
     ],
     "STOCKS": [
       {
+        "title": "Why I’d choose this boring FTSE 100 share over SpaceX stock any day",
+        "link": "https://www.twelfthmagpie.com/2026/09/12/why-id-choose-this-boring-ftse-100-share-over-spacex-stock-any-day/",
+        "published": "Sat, 12 Sep 2026 16:28:00 +0000",
+        "source": "The Twelfth Magpie",
+        "provider": "MAGPIE",
+        "categories": "Growth Shares Investing Articles",
+        "image": "https://www.twelfthmagpie.com/wp-content/uploads/2024/07/Portfolio-refresh-1200x800.jpg"
+      },
+      {
+        "title": "Dow Jones Futures: Fed Rate Hike Seen As Oil, Yields Pressure Stocks; Apple, Moderna Are New Buys",
+        "link": "https://uk.finance.yahoo.com/m/ff3ebbcf-fe39-3ccd-b655-37522db9df46/dow-jones-futures%3A-fed-rate.html?.tsrc=rss",
+        "published": "Sat, 12 Sep 2026 16:24:45 +0000",
+        "source": "Yahoo Finance",
+        "provider": "YAHOO",
+        "categories": "",
+        "image": ""
+      },
+      {
         "title": "Barclays Increases S&P 500 Forecast as 2026 Earnings Estimates Rise",
         "link": "https://uk.advfn.com/market-news/article/22813/barclays-increases-sp-500-forecast-as-2026-earnings-estimates-rise?.tsrc=rss",
         "published": "Sat, 12 Sep 2026 15:35:00 +0000",
@@ -582,15 +600,6 @@
         "image": "https://www.twelfthmagpie.com/wp-content/uploads/2026/08/AdobeStock_2045858322_Editorial_Use_Only-1200x798.jpeg"
       },
       {
-        "title": "Dow Jones Futures: Fed Rate Hike Seen As Oil, Yields Pressure Stocks; Apple, Moderna Are New Buys",
-        "link": "https://uk.finance.yahoo.com/m/ff3ebbcf-fe39-3ccd-b655-37522db9df46/dow-jones-futures%3A-fed-rate.html?.tsrc=rss",
-        "published": "Sat, 12 Sep 2026 12:48:22 +0000",
-        "source": "Yahoo Finance",
-        "provider": "YAHOO",
-        "categories": "",
-        "image": ""
-      },
-      {
         "title": "The UK stock market isn’t ‘weak’ – it’s just built differently (and that’s good)",
         "link": "https://www.twelfthmagpie.com/2026/09/12/the-uk-stock-market-isnt-weak-its-just-built-differently-and-thats-good/",
         "published": "Sat, 12 Sep 2026 12:45:00 +0000",
@@ -601,12 +610,12 @@
       },
       {
         "title": "Why stocks haven't tanked despite higher bond yields: Chart of the Day",
-        "link": "https://finance.yahoo.com/news/why-stocks-havent-tanked-despite-higher-bond-yields-chart-of-the-day-123346395.html",
-        "published": "2026-09-12T12:33:46Z",
+        "link": "https://finance.yahoo.com/news/why-stocks-havent-tanked-despite-higher-bond-yields-chart-of-the-day-123346395.html?.tsrc=rss",
+        "published": "Sat, 12 Sep 2026 12:33:46 +0000",
         "source": "Yahoo Finance",
         "provider": "YAHOO",
         "categories": "",
-        "image": "https://s.yimg.com/uu/api/res/1.2/HchBm_is5fwVkrHmnghcxQ--~B/aD0zMzkyO3c9NTA4ODthcHBpZD15dGFjaHlvbg--/https://d29szjachogqwa.cloudfront.net/images/2026-05/91bd5574-a8f7-4997-898c-29fb0354bb0e"
+        "image": ""
       },
       {
         "title": "Why’s the stock market riding high when the economy isn’t – and can it last?",
@@ -625,15 +634,6 @@
         "provider": "MAGPIE",
         "categories": "Investing Articles Investing For Beginners",
         "image": "https://www.twelfthmagpie.com/wp-content/uploads/2025/12/2026-7-1200x878.jpg"
-      },
-      {
-        "title": "This 49p penny stock has ‘multibagger’ potential",
-        "link": "https://www.twelfthmagpie.com/2026/09/12/this-49p-penny-stock-has-multibagger-potential/",
-        "published": "Sat, 12 Sep 2026 08:37:00 +0000",
-        "source": "The Twelfth Magpie",
-        "provider": "MAGPIE",
-        "categories": "Investing Articles Micro-Cap Shares",
-        "image": "https://www.twelfthmagpie.com/wp-content/uploads/2021/07/Stacks-of-pennies.jpg"
       },
       {
         "title": "How big an ISA is needed to target a £1,000 monthly passive income?",
@@ -768,7 +768,7 @@
             "image": "https://e3.365dm.com/26/09/1920x1080/skynews-reform-donors_7349239.jpg?20260912154824"
           },
           {
-            "title": "Anti-migrant demonstrators 'chase down' counter-protesters after Portsmouth march",
+            "title": "Anti-migrant demonstrators clash with counter-protesters during march in Portsmouth",
             "link": "https://news.sky.com/story/anti-migrant-demonstrators-chase-down-counter-protesters-after-portsmouth-march-13584910",
             "published": "Sat, 12 Sep 2026 15:53:00 +0100",
             "source": "Sky News",
@@ -1305,13 +1305,22 @@
       "categories": {
         "UK": [
           {
+            "title": "Portsmouth experiences second weekend of anti-immigration protests",
+            "link": "https://www.theguardian.com/politics/2026/sep/12/portsmouth-experiences-second-weekend-of-anti-immigration-protests",
+            "published": "Sat, 12 Sep 2026 17:41:46 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Far right Portsmouth Protest Immigration and asylum Politics UK news Refugees Glasgow",
+            "image": "https://i.guim.co.uk/img/media/ded57656efdc69f4d95ccc4e6d56488a4b3aec95/1591_515_6186_4949/master/6186.jpg?width=140&quality=85&auto=format&fit=max&s=ea1eb60f6290f40be92a039543ff301d"
+          },
+          {
             "title": "Donald Trump says he would ‘love’ to see united Ireland",
             "link": "https://www.theguardian.com/us-news/2026/sep/12/donald-trump-says-he-would-love-to-see-united-ireland",
             "published": "Sat, 12 Sep 2026 16:05:32 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Donald Trump Ireland Northern Irish politics Europe US foreign policy Northern Ireland UK news Politics",
-            "image": "https://i.guim.co.uk/img/media/1d12c01e40952b56ec736ec5da8420b14770fb88/2423_132_1306_1045/master/1306.jpg?width=140&quality=85&auto=format&fit=max&s=173eea7e151486c10ecc6ac17dab3ff9"
+            "categories": "Ireland Donald Trump Northern Irish politics Europe US foreign policy Northern Ireland UK news Politics",
+            "image": "https://i.guim.co.uk/img/media/ee24264b9b786dc796202e9989d4ee0abfe9aeac/260_0_3976_3183/master/3976.jpg?width=140&quality=85&auto=format&fit=max&s=ac26bc77e3c75f3bc64dbb02c89e9faf"
           },
           {
             "title": "Number of UK anti-migrant vigilante groups surges in last 18 months",
@@ -1375,15 +1384,6 @@
             "provider": "GUARDIAN",
             "categories": "Reform UK Party funding The super-rich Politics UK news Cryptocurrencies",
             "image": "https://i.guim.co.uk/img/media/319efaaa8a51b89f1a7c7c8d9f333b4f9a9a3f10/3526_1231_3953_3162/master/3953.jpg?width=140&quality=85&auto=format&fit=max&s=7c6b52523ffdf9d0b1b0a492b7c0d198"
-          },
-          {
-            "title": "AI may be denting computer science graduates’ job prospects, UK data shows",
-            "link": "https://www.theguardian.com/education/2026/sep/12/ai-computer-science-graduates-job-prospects-uk-data",
-            "published": "Sat, 12 Sep 2026 07:00:30 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Students Higher education Computer science and IT Economics AI (artificial intelligence) Employability Graduate careers Universities University guide Education Work & careers UK news",
-            "image": "https://i.guim.co.uk/img/media/fe746a73da419d2c972bac95b3ec2b2833706c92/625_0_7200_5760/master/7200.jpg?width=140&quality=85&auto=format&fit=max&s=256255d508973c19cb21c135565d435c"
           },
           {
             "title": "From black-clad agitators to an appeal for ‘Tommo’s Mum’: an unsettling week with the Patriot Platform",
@@ -1669,6 +1669,24 @@
         ],
         "POLITICS": [
           {
+            "title": "Portsmouth experiences second weekend of anti-immigration protests",
+            "link": "https://www.theguardian.com/politics/2026/sep/12/portsmouth-experiences-second-weekend-of-anti-immigration-protests",
+            "published": "Sat, 12 Sep 2026 17:41:46 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Far right Portsmouth Protest Immigration and asylum Politics UK news Refugees Glasgow",
+            "image": "https://i.guim.co.uk/img/media/ded57656efdc69f4d95ccc4e6d56488a4b3aec95/1591_515_6186_4949/master/6186.jpg?width=140&quality=85&auto=format&fit=max&s=ea1eb60f6290f40be92a039543ff301d"
+          },
+          {
+            "title": "Donald Trump says he would ‘love’ to see united Ireland",
+            "link": "https://www.theguardian.com/us-news/2026/sep/12/donald-trump-says-he-would-love-to-see-united-ireland",
+            "published": "Sat, 12 Sep 2026 16:05:32 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Ireland Donald Trump Northern Irish politics Europe US foreign policy Northern Ireland UK news Politics",
+            "image": "https://i.guim.co.uk/img/media/ee24264b9b786dc796202e9989d4ee0abfe9aeac/260_0_3976_3183/master/3976.jpg?width=140&quality=85&auto=format&fit=max&s=ac26bc77e3c75f3bc64dbb02c89e9faf"
+          },
+          {
             "title": "Number of UK anti-migrant vigilante groups surges in last 18 months",
             "link": "https://www.theguardian.com/world/2026/sep/12/number-of-uk-anti-migrant-vigilante-groups-surges-in-last-18-months",
             "published": "Sat, 12 Sep 2026 16:00:38 GMT",
@@ -1685,15 +1703,6 @@
             "provider": "GUARDIAN",
             "categories": "Party funding Reform UK Nigel Farage UK news Christopher Harborne Politics Andy Burnham Bridget Phillipson",
             "image": "https://i.guim.co.uk/img/media/6be562f080c40b5a4762057cff65ae390e3ffad9/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=5b454a88133e2bcccad26195bd2209ff"
-          },
-          {
-            "title": "Donald Trump says he would ‘love’ to see united Ireland",
-            "link": "https://www.theguardian.com/us-news/2026/sep/12/donald-trump-says-he-would-love-to-see-united-ireland",
-            "published": "Sat, 12 Sep 2026 13:06:47 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Donald Trump Ireland Northern Irish politics Europe US foreign policy Northern Ireland UK news Politics",
-            "image": "https://i.guim.co.uk/img/media/1d12c01e40952b56ec736ec5da8420b14770fb88/2423_132_1306_1045/master/1306.jpg?width=140&quality=85&auto=format&fit=max&s=173eea7e151486c10ecc6ac17dab3ff9"
           },
           {
             "title": "Reform UK given record £36m donation by British crypto billionaire",
@@ -1721,15 +1730,6 @@
             "provider": "GUARDIAN",
             "categories": "AI (artificial intelligence) Andy Burnham Politics Technology UK news OpenAI Anthropic",
             "image": "https://i.guim.co.uk/img/media/d9003420a1509918b6b6115818aaaae607ac0e1a/524_0_2915_2333/master/2915.jpg?width=140&quality=85&auto=format&fit=max&s=465b0af4ff4e84107bd7c769e3028b48"
-          },
-          {
-            "title": "MPs vote against legalising assisted dying in England and Wales",
-            "link": "https://www.theguardian.com/society/2026/sep/11/mps-vote-against-legalising-assisted-dying-in-england-and-wales",
-            "published": "Fri, 11 Sep 2026 16:53:19 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Assisted dying Law England Wales House of Commons Politics UK news Labour Society",
-            "image": "https://i.guim.co.uk/img/media/c2e762f5f9f90c2c04f6b191dbc6f87dab3887db/845_0_6781_5427/master/6781.jpg?width=140&quality=85&auto=format&fit=max&s=1c48dbc26d660f98f04d27d78e1bb549"
           },
           {
             "title": "Call it the Miliband doctrine. Let’s hope the new Israeli settlement boycott is just the start | Steve Bloomfield",
@@ -1797,7 +1797,7 @@
           {
             "title": "Donations of £72m make Reform’s prospects both rosier and riskier",
             "link": "https://www.theguardian.com/politics/2026/sep/12/reform-uk-billionaire-donations-analysis",
-            "published": "Sat, 12 Sep 2026 14:53:17 GMT",
+            "published": "Sat, 12 Sep 2026 16:06:59 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
             "categories": "Reform UK Nigel Farage Party funding General elections Politics UK news",
@@ -2101,7 +2101,7 @@
             "published": "Sat, 12 Sep 2026 15:46:01 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "AI (artificial intelligence) Anthropic OpenAI Technology US news World news",
+            "categories": "AI (artificial intelligence) Anthropic OpenAI Technology US news World news Elon Musk Sam Altman Computing",
             "image": "https://i.guim.co.uk/img/media/bb84259074a2c64ebed9b2c958f9985eb618beca/482_0_5532_4425/master/5532.jpg?width=140&quality=85&auto=format&fit=max&s=e15bde6101c730f1330e4d5c6c4de778"
           },
           {
@@ -2427,6 +2427,24 @@
       "categories": {
         "UK": [
           {
+            "title": "Greek woman, 54, gives birth after using embryo frozen for 22 years",
+            "link": "https://metro.co.uk/2026/09/12/greek-woman-54-gives-birth-using-embryo-frozen-22-years-29593928/",
+            "published": "Sat, 12 Sep 2026 17:29:18 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News World Greece Health News IVF",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/comp-1789233832.png?w=646"
+          },
+          {
+            "title": "Husband electrocuted ‘trying to rescue wife from hot tub’ as horrific details emerge",
+            "link": "https://metro.co.uk/2026/09/12/husband-died-trying-rescue-wife-hot-tub-horrific-details-emerge-29593603/",
+            "published": "Sat, 12 Sep 2026 16:57:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News Death Spain",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/comp-1789232038.png?w=646"
+          },
+          {
             "title": "Chester Zoo ruthlessly mocked for advertising tickets to ‘child predator tour’",
             "link": "https://metro.co.uk/2026/09/12/chester-zoo-ruthlessly-mocked-advertising-tickets-child-predator-tour-29593364/",
             "published": "Sat, 12 Sep 2026 15:43:22 +0000",
@@ -2587,24 +2605,6 @@
             "provider": "METRO",
             "categories": "News US 9/11 Donald Trump Saudi Arabia",
             "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_311889766-3128.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "The British Army’s new secret weapon: Stealth horses",
-            "link": "https://metro.co.uk/2026/09/11/british-armys-new-secret-weapon-stealth-horses-29583970/",
-            "published": "Fri, 11 Sep 2026 15:29:05 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News US British Army Horse",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_311684182-97b2.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Salesman admits encouraging men to drug and rape their partners in sick chatroom",
-            "link": "https://metro.co.uk/2026/09/11/salesman-admits-encouraging-men-drug-rape-partners-sick-chatroom-29587392/",
-            "published": "Fri, 11 Sep 2026 15:14:00 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News UK Crime News This is Not Right",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_311879482-56a1.jpg?quality=90&strip=all&w=646"
           }
         ],
         "WORLD": [
@@ -2679,6 +2679,15 @@
             "provider": "METRO",
             "categories": "News World British Government Falkland Islands Israel Israeli Government",
             "image": "https://metro.co.uk/wp-content/uploads/2026/08/SEI_307514005-73a5.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Husband electrocuted ‘trying to rescue wife from hot tub’ as horrific details emerge",
+            "link": "https://metro.co.uk/2026/09/12/husband-died-trying-rescue-wife-hot-tub-horrific-details-emerge-29593603/",
+            "published": "Sat, 12 Sep 2026 16:57:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News Death Spain",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/comp-1789232038.png?w=646"
           },
           {
             "title": "Micah Richards backs £65m star Chelsea sold to become ‘best in Europe’",
@@ -3148,7 +3157,7 @@
             "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_306141342-c939.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Lady Gaga welcomes first baby with fiancé Michael Polansky",
+            "title": "Lady Gaga and fiancé Michael Polansky ‘both beaming’ after welcoming first baby",
             "link": "https://metro.co.uk/2026/09/12/lady-gaga-welcomes-first-baby-fiance-michael-polansky-29590885/",
             "published": "Sat, 12 Sep 2026 06:45:41 +0000",
             "source": "Metro",
@@ -3255,7 +3264,7 @@
         },
         "WORLD": {
           "ok": true,
-          "count": 9
+          "count": 10
         },
         "POLITICS": {
           "ok": true,
@@ -3385,6 +3394,24 @@
         "STOCK_MARKET": [],
         "STOCKS": [
           {
+            "title": "Why I’d choose this boring FTSE 100 share over SpaceX stock any day",
+            "link": "https://www.twelfthmagpie.com/2026/09/12/why-id-choose-this-boring-ftse-100-share-over-spacex-stock-any-day/?.tsrc=rss",
+            "published": "Sat, 12 Sep 2026 16:28:00 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2024/07/Portfolio-refresh-1200x800.jpg"
+          },
+          {
+            "title": "Dow Jones Futures: Fed Rate Hike Seen As Oil, Yields Pressure Stocks; Apple, Moderna Are New Buys",
+            "link": "https://uk.finance.yahoo.com/m/ff3ebbcf-fe39-3ccd-b655-37522db9df46/dow-jones-futures%3A-fed-rate.html?.tsrc=rss",
+            "published": "Sat, 12 Sep 2026 16:24:45 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
             "title": "Barclays Increases S&P 500 Forecast as 2026 Earnings Estimates Rise",
             "link": "https://uk.advfn.com/market-news/article/22813/barclays-increases-sp-500-forecast-as-2026-earnings-estimates-rise?.tsrc=rss",
             "published": "Sat, 12 Sep 2026 15:35:00 +0000",
@@ -3403,22 +3430,13 @@
             "image": "https://s.yimg.com/uu/api/res/1.2/nHGF1xEiy6oz7UzVa9B2mQ--~B/aD0yMDAwO3c9MzAwMDthcHBpZD15dGFjaHlvbg--/https://d29szjachogqwa.cloudfront.net/images/2026-09/f63bdd55-cb7a-421b-9612-3e0d3aacdb4f"
           },
           {
-            "title": "Dow Jones Futures: Fed Rate Hike Seen As Oil, Yields Pressure Stocks; Apple, Moderna Are New Buys",
-            "link": "https://uk.finance.yahoo.com/m/ff3ebbcf-fe39-3ccd-b655-37522db9df46/dow-jones-futures%3A-fed-rate.html?.tsrc=rss",
-            "published": "Sat, 12 Sep 2026 12:48:22 +0000",
+            "title": "Why stocks haven't tanked despite higher bond yields: Chart of the Day",
+            "link": "https://finance.yahoo.com/news/why-stocks-havent-tanked-despite-higher-bond-yields-chart-of-the-day-123346395.html?.tsrc=rss",
+            "published": "Sat, 12 Sep 2026 12:33:46 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
             "image": ""
-          },
-          {
-            "title": "Why stocks haven't tanked despite higher bond yields: Chart of the Day",
-            "link": "https://finance.yahoo.com/news/why-stocks-havent-tanked-despite-higher-bond-yields-chart-of-the-day-123346395.html",
-            "published": "2026-09-12T12:33:46Z",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": "https://s.yimg.com/uu/api/res/1.2/HchBm_is5fwVkrHmnghcxQ--~B/aD0zMzkyO3c9NTA4ODthcHBpZD15dGFjaHlvbg--/https://d29szjachogqwa.cloudfront.net/images/2026-05/91bd5574-a8f7-4997-898c-29fb0354bb0e"
           },
           {
             "title": "Why’s the stock market riding high when the economy isn’t – and can it last?",
@@ -3477,15 +3495,6 @@
           {
             "title": "Innovative Industrial Properties (IIPR) Laps the Stock Market: Here's Why",
             "link": "https://finance.yahoo.com/markets/stocks/articles/innovative-industrial-properties-iipr-laps-221503479.html?.tsrc=rss",
-            "published": "Fri, 11 Sep 2026 22:15:03 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "Dow Inc. (DOW) Stock Sinks As Market Gains: Here's Why",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/dow-inc-dow-stock-sinks-221503726.html?.tsrc=rss",
             "published": "Fri, 11 Sep 2026 22:15:03 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
@@ -3766,6 +3775,15 @@
       "categories": {
         "STOCKS": [
           {
+            "title": "Why I’d choose this boring FTSE 100 share over SpaceX stock any day",
+            "link": "https://www.twelfthmagpie.com/2026/09/12/why-id-choose-this-boring-ftse-100-share-over-spacex-stock-any-day/",
+            "published": "Sat, 12 Sep 2026 16:28:00 +0000",
+            "source": "The Twelfth Magpie",
+            "provider": "MAGPIE",
+            "categories": "Growth Shares Investing Articles",
+            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2024/07/Portfolio-refresh-1200x800.jpg"
+          },
+          {
             "title": "Up 39% in weeks, can the SpaceX share price keep soaring?",
             "link": "https://www.twelfthmagpie.com/2026/09/12/up-39-in-weeks-can-the-spacex-share-price-keep-soaring/",
             "published": "Sat, 12 Sep 2026 14:58:00 +0000",
@@ -3845,15 +3863,6 @@
             "provider": "MAGPIE",
             "categories": "Investing Articles Value Shares",
             "image": "https://www.twelfthmagpie.com/wp-content/uploads/2024/06/Cardiff-Queens-Street-1200x868.jpg"
-          },
-          {
-            "title": "3 questions to help decide whether you’re ready to start investing",
-            "link": "https://www.twelfthmagpie.com/2026/09/12/3-questions-to-help-decide-whether-youre-ready-to-start-investing/",
-            "published": "Sat, 12 Sep 2026 07:02:00 +0000",
-            "source": "The Twelfth Magpie",
-            "provider": "MAGPIE",
-            "categories": "Investing Articles Investing For Beginners",
-            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2026/06/AdobeStock_999408056-1200x633.jpeg"
           }
         ]
       },
@@ -3869,5 +3878,5 @@
       }
     }
   },
-  "stocksUpdated": "2026-09-12T16:14:29.750Z"
+  "stocksUpdated": "2026-09-12T18:41:09.893Z"
 }
