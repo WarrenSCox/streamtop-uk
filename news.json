@@ -1,7 +1,16 @@
 {
-  "updated": "2026-09-13T16:25:53.260Z",
+  "updated": "2026-09-13T16:56:45.103Z",
   "categories": {
     "UK": [
+      {
+        "title": "First ministers at Celtic summit to affirm right to seek independence from the UK",
+        "link": "https://www.theguardian.com/politics/2026/sep/13/first-ministers-to-affirm-right-to-seek-independence-from-the-uk",
+        "published": "Sun, 13 Sep 2026 16:16:21 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Devolution Scotland Wales Northern Ireland UK news Scottish independence Andy Burnham John Swinney Rhun ap Iorwerth Michelle O'Neill Politics",
+        "image": "https://i.guim.co.uk/img/media/486c89e1706e5b22e40739bc52a87322b1d5aa2b/730_0_6833_5464/master/6833.jpg?width=140&quality=85&auto=format&fit=max&s=b5458bcc554d54f1c8554eb46c5b6540"
+      },
       {
         "title": "Andrew Mountbatten-Windsor ‘secretly let women into palace’, ex-royal officer claims",
         "link": "https://metro.co.uk/2026/09/13/andrew-mountbatten-windsor-secretly-let-women-palace-ex-royal-officer-claims-29598247/",
@@ -57,15 +66,6 @@
         "image": "https://i.guim.co.uk/img/media/55e1861cb07fc4179b42f05da5ad22dc15681d5d/85_0_1010_808/master/1010.jpg?width=140&quality=85&auto=format&fit=max&s=d4ffc14e2242dc117d3005359b4ea223"
       },
       {
-        "title": "US diplomat accused of possessing child abuse images ‘secretly flown out of UK’",
-        "link": "https://metro.co.uk/2026/09/13/us-diplomat-accused-possessing-child-abuse-images-secretly-flown-uk-29597802/",
-        "published": "Sun, 13 Sep 2026 14:30:28 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News Politics Foreign, Commonwealth and Development Office London US Politics",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312239981-d101.jpg?quality=90&strip=all&w=646"
-      },
-      {
         "title": "Police release images of six men after anti-migrant protest in Portsmouth",
         "link": "https://news.sky.com/story/police-release-images-of-six-men-after-anti-migrant-protest-in-portsmouth-13585415",
         "published": "Sun, 13 Sep 2026 15:21:00 +0100",
@@ -75,7 +75,7 @@
         "image": "https://e3.365dm.com/26/09/1920x1080/skynews-migrants-portsmouth_7343735.jpg?20260906213348"
       },
       {
-        "title": "Trump talks up Irish reunification again - saying it would be 'natural to put north and south together'",
+        "title": "Trump talks up Irish reunification again as he brushes off criticism",
         "link": "https://news.sky.com/story/it-would-be-natural-to-put-north-and-south-together-donald-trump-talks-up-irish-reunification-again-after-backlash-13585380",
         "published": "Sun, 13 Sep 2026 14:30:00 +0100",
         "source": "Sky News",
@@ -104,7 +104,7 @@
         "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312268124-b4f9-e1789314055643.jpg?quality=90&strip=all&w=646"
       },
       {
-        "title": "Boris Johnson in Ukraine security scare after train hit by Russian drone - reports",
+        "title": "Boris Johnson in Ukraine security scare after train hit by Russian drone",
         "link": "https://news.sky.com/story/boris-johnson-in-ukraine-security-scare-after-train-hit-by-russian-drone-reports-13585471",
         "published": "Sun, 13 Sep 2026 16:22:00 +0100",
         "source": "Sky News",
@@ -187,6 +187,15 @@
     ],
     "POLITICS": [
       {
+        "title": "The Guardian view on the government’s corporate reforms: entrenching neoliberalism, not ending it | Editorial",
+        "link": "https://www.theguardian.com/commentisfree/2026/sep/13/the-guardian-view-on-the-governments-corporate-reforms-entrenching-neoliberalism-not-ending-it",
+        "published": "Sun, 13 Sep 2026 16:30:07 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Corporate governance Executive pay and bonuses Business Economics Money US politics Andy Burnham Labour Socialism Politics Inequality UK news",
+        "image": "https://i.guim.co.uk/img/media/77063b1f2470b51ff9f338bb9a208253df4c5ac7/40_30_1293_1034/master/1293.jpg?width=140&quality=85&auto=format&fit=max&s=e803fbcd9c0f8a93060ccfccbb5a16f7"
+      },
+      {
         "title": "First ministers at Celtic summit to affirm right to seek independence from the UK",
         "link": "https://www.theguardian.com/politics/2026/sep/13/first-ministers-to-affirm-right-to-seek-independence-from-the-uk",
         "published": "Sun, 13 Sep 2026 16:16:21 GMT",
@@ -214,22 +223,13 @@
         "image": "https://i.guim.co.uk/img/media/97907031eed6683377f6e09ce5ab0984071ccfbd/465_0_2347_1878/master/2347.jpg?width=140&quality=85&auto=format&fit=max&s=40bb6cd6ca8d52d7efbb9c34dacfaf54"
       },
       {
-        "title": "Boris Johnson in Ukraine security scare after train hit by Russian drone - reports",
+        "title": "Boris Johnson in Ukraine security scare after train hit by Russian drone",
         "link": "https://news.sky.com/story/boris-johnson-in-ukraine-security-scare-after-train-hit-by-russian-drone-reports-13585471",
         "published": "Sun, 13 Sep 2026 16:22:00 +0100",
         "source": "Sky News",
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/09/1920x1080/skynews-boris-johnson-former-prime-minister_7350513.jpg?20260913163006"
-      },
-      {
-        "title": "How could Reform UK spend its £72m of new billionaire donations?",
-        "link": "https://www.theguardian.com/politics/2026/sep/13/how-could-reform-uk-spend-its-72m-of-new-billionaire-donations",
-        "published": "Sun, 13 Sep 2026 15:17:38 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Reform UK Party funding Politics UK news",
-        "image": "https://i.guim.co.uk/img/media/019b3ab23bbcb918ccc3b563ddc68e337af1b247/425_0_7200_5760/master/7200.jpg?width=140&quality=85&auto=format&fit=max&s=3aef1a7330ef8442ec259f71b5996462"
       },
       {
         "title": "Reform 'very confident' £72m donations were legal - but Rayner warns of 'backdated' action",
@@ -756,7 +756,7 @@
       "categories": {
         "UK": [
           {
-            "title": "Trump talks up Irish reunification again - saying it would be 'natural to put north and south together'",
+            "title": "Trump talks up Irish reunification again as he brushes off criticism",
             "link": "https://news.sky.com/story/it-would-be-natural-to-put-north-and-south-together-donald-trump-talks-up-irish-reunification-again-after-backlash-13585380",
             "published": "Sun, 13 Sep 2026 14:30:00 +0100",
             "source": "Sky News",
@@ -857,7 +857,7 @@
             "image": "https://e3.365dm.com/26/09/1920x1080/skynews-rescuers-indonesia_7350010.jpg?20260913102915"
           },
           {
-            "title": "Boris Johnson in Ukraine security scare after train hit by Russian drone - reports",
+            "title": "Boris Johnson in Ukraine security scare after train hit by Russian drone",
             "link": "https://news.sky.com/story/boris-johnson-in-ukraine-security-scare-after-train-hit-by-russian-drone-reports-13585471",
             "published": "Sun, 13 Sep 2026 16:22:00 +0100",
             "source": "Sky News",
@@ -958,7 +958,7 @@
             "image": "https://e3.365dm.com/26/09/1920x1080/skynews-nigel-farage-reform-uk_7341996.jpg?20260905154921"
           },
           {
-            "title": "Boris Johnson in Ukraine security scare after train hit by Russian drone - reports",
+            "title": "Boris Johnson in Ukraine security scare after train hit by Russian drone",
             "link": "https://news.sky.com/story/boris-johnson-in-ukraine-security-scare-after-train-hit-by-russian-drone-reports-13585471",
             "published": "Sun, 13 Sep 2026 16:22:00 +0100",
             "source": "Sky News",
@@ -1329,6 +1329,15 @@
       "categories": {
         "UK": [
           {
+            "title": "First ministers at Celtic summit to affirm right to seek independence from the UK",
+            "link": "https://www.theguardian.com/politics/2026/sep/13/first-ministers-to-affirm-right-to-seek-independence-from-the-uk",
+            "published": "Sun, 13 Sep 2026 16:16:21 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Devolution Scotland Wales Northern Ireland UK news Scottish independence Andy Burnham John Swinney Rhun ap Iorwerth Michelle O'Neill Politics",
+            "image": "https://i.guim.co.uk/img/media/486c89e1706e5b22e40739bc52a87322b1d5aa2b/730_0_6833_5464/master/6833.jpg?width=140&quality=85&auto=format&fit=max&s=b5458bcc554d54f1c8554eb46c5b6540"
+          },
+          {
             "title": "Police release images of six men sought after violent disorder in Portsmouth",
             "link": "https://www.theguardian.com/uk-news/2026/sep/13/hampshire-police-release-images-six-men-violent-disorder-portsmouth",
             "published": "Sun, 13 Sep 2026 15:45:29 GMT",
@@ -1374,13 +1383,13 @@
             "image": "https://i.guim.co.uk/img/media/3d914e3d3f1073ed14d9b83e2cc44a98327a4317/0_0_2890_2311/master/2890.jpg?width=140&quality=85&auto=format&fit=max&s=1e5fdd694a222bc47a7e16f18a197b75"
           },
           {
-            "title": "Only slim chance target of building 1.5m homes in England will be met, minister says",
+            "title": "Only slim chance target of 1.5m new homes in England will be met, Angela Rayner says",
             "link": "https://www.theguardian.com/society/2026/sep/13/slim-chance-government-target-building-homes",
             "published": "Sun, 13 Sep 2026 11:23:10 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
             "categories": "Housing Angela Rayner Labour Andy Burnham Social housing UK news Politics Society Planning policy Communities England",
-            "image": "https://i.guim.co.uk/img/media/b2fa224f6632e69f64ab5361fca2a9ef8d6777e7/259_0_3050_2440/master/3050.jpg?width=140&quality=85&auto=format&fit=max&s=ba8477f813118ce9a4fdb287008db857"
+            "image": "https://i.guim.co.uk/img/media/c02b05553d0ad12a616b28dd2fa8b53c453789a3/29_175_3067_2454/master/3067.jpg?width=140&quality=85&auto=format&fit=max&s=777c905d985d427b7c35048c1a20c5d1"
           },
           {
             "title": "George Osborne calls for UK to rejoin EU customs union and boost trade",
@@ -1399,15 +1408,6 @@
             "provider": "GUARDIAN",
             "categories": "Reform UK Party funding Politics Labour UK news Christopher Harborne",
             "image": "https://i.guim.co.uk/img/media/6be562f080c40b5a4762057cff65ae390e3ffad9/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=5b454a88133e2bcccad26195bd2209ff"
-          },
-          {
-            "title": "Carer’s allowance scandal victims could wait until 2054 for justice, charities warn",
-            "link": "https://www.theguardian.com/society/2026/sep/13/carers-allowance-scandal-victims-could-wait-until-2054-for-justice-charities-warn",
-            "published": "Sun, 13 Sep 2026 10:12:47 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Carer's allowance Carers Society UK news Politics State benefits",
-            "image": "https://i.guim.co.uk/img/media/2d5ff3af9e9dfcccfbf71b9b62851e67af782267/0_0_5600_4480/master/5600.jpg?width=140&quality=85&auto=format&fit=max&s=48c6bb2ba6ad2a6ce5da0b297fdf1f13"
           },
           {
             "title": "UK government to offer clearer guidance on student loans after repayment row",
@@ -1747,13 +1747,22 @@
             "image": "https://i.guim.co.uk/img/media/6be562f080c40b5a4762057cff65ae390e3ffad9/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=5b454a88133e2bcccad26195bd2209ff"
           },
           {
-            "title": "Carer’s allowance scandal victims could wait until 2054 for justice, charities warn",
+            "title": "Unpaid carers could die before seeing justice for overpayments scandal, charities warn",
             "link": "https://www.theguardian.com/society/2026/sep/13/carers-allowance-scandal-victims-could-wait-until-2054-for-justice-charities-warn",
             "published": "Sun, 13 Sep 2026 10:12:47 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
             "categories": "Carer's allowance Carers Society UK news Politics State benefits",
             "image": "https://i.guim.co.uk/img/media/2d5ff3af9e9dfcccfbf71b9b62851e67af782267/0_0_5600_4480/master/5600.jpg?width=140&quality=85&auto=format&fit=max&s=48c6bb2ba6ad2a6ce5da0b297fdf1f13"
+          },
+          {
+            "title": "The Guardian view on the government’s corporate reforms: entrenching neoliberalism, not ending it | Editorial",
+            "link": "https://www.theguardian.com/commentisfree/2026/sep/13/the-guardian-view-on-the-governments-corporate-reforms-entrenching-neoliberalism-not-ending-it",
+            "published": "Sun, 13 Sep 2026 16:30:07 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Corporate governance Executive pay and bonuses Business Economics Money US politics Andy Burnham Labour Socialism Politics Inequality UK news",
+            "image": "https://i.guim.co.uk/img/media/77063b1f2470b51ff9f338bb9a208253df4c5ac7/40_30_1293_1034/master/1293.jpg?width=140&quality=85&auto=format&fit=max&s=e803fbcd9c0f8a93060ccfccbb5a16f7"
           },
           {
             "title": "Who better to defend Reform’s latest millions than Honest Bob Jenrick? | John Crace",
@@ -1808,15 +1817,6 @@
             "provider": "GUARDIAN",
             "categories": "Prisons and probation UK criminal justice Society Politics Labour Conservatives",
             "image": "https://i.guim.co.uk/img/media/cedfce918e8b7c4420a0795faa98893594af5bbf/195_0_1895_1515/master/1895.jpg?width=140&quality=85&auto=format&fit=max&s=372052411f2a4c1bbf3a9a5473704bbc"
-          },
-          {
-            "title": "Forgetful Farage shares rose-tinted memories of Reform’s party conference | John Crace",
-            "link": "https://www.theguardian.com/politics/2026/sep/10/forgetful-farage-shares-rose-tinted-memories-of-reforms-party-conference",
-            "published": "Thu, 10 Sep 2026 17:33:08 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Nigel Farage Politics Reform UK UK news",
-            "image": "https://i.guim.co.uk/img/media/f69048d7e450a158ba0f301d8b9f5cf0cdd94c76/587_546_2447_1956/master/2447.jpg?width=140&quality=85&auto=format&fit=max&s=6fa008f9c8fd7fc03755b9ba1d785bc1"
           },
           {
             "title": "How could Reform UK spend its £72m of new billionaire donations?",
@@ -3855,5 +3855,5 @@
       }
     }
   },
-  "stocksUpdated": "2026-09-13T16:26:02.337Z"
+  "stocksUpdated": "2026-09-13T16:56:56.235Z"
 }
