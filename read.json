@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-13T04:56:57.924Z",
+  "updated": "2026-09-13T06:43:51.567Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -15,16 +15,16 @@
         "image": "https://m.media-amazon.com/images/I/51HIZdnqASL._SL500_.jpg"
       },
       {
-        "title": "The Garden Grave",
-        "author": "Joy Ellis",
-        "narrator": "Sam Claflin",
-        "image": "https://m.media-amazon.com/images/I/51u2yPsf2LL._SL500_.jpg"
-      },
-      {
         "title": "The Let Them Theory",
         "author": "Mel Robbins",
         "narrator": "Mel Robbins",
         "image": "https://m.media-amazon.com/images/I/51YOr6ua-PL._SL500_.jpg"
+      },
+      {
+        "title": "The Garden Grave",
+        "author": "Joy Ellis",
+        "narrator": "Sam Claflin",
+        "image": "https://m.media-amazon.com/images/I/51u2yPsf2LL._SL500_.jpg"
       },
       {
         "title": "Carl's Doomsday Scenario",
@@ -45,16 +45,16 @@
         "image": "https://m.media-amazon.com/images/I/51rmyTTWPsL._SL500_.jpg"
       },
       {
-        "title": "How to Quit Your Day Job... and Become Your Own Boss",
-        "author": "Simon Squibb",
-        "narrator": "Simon Squibb",
-        "image": "https://m.media-amazon.com/images/I/41YpvidAdGL._SL500_.jpg"
-      },
-      {
         "title": "The Murder at the Vicarage",
         "author": "Agatha Christie",
         "narrator": "Toni Collette , Kit Harington , Jasmine Jobson , Calam Lynch , Eliot Salt , Katy Wix , Lolly Adefope , Billy Postlethwaite , Vicki Pepperdine , Meera Syal , La Voix , Leo Reich , full cast",
-        "image": "https://m.media-amazon.com/images/I/51GzNQrzYrL._SL500_.jpg"
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/7d/6e/f3/7d6ef37d-f405-1e9b-7c81-4a57e14f32c1/9780007528578.jpg/600x600bb.jpg"
+      },
+      {
+        "title": "Project Hail Mary",
+        "author": "Andy Weir",
+        "narrator": "Ray Porter",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2a/1a/fc/2a1afcc9-6179-5fdf-3bea-aec376486895/rm_image.jpg/600x600bb.jpg"
       },
       {
         "title": "The Butcher's Masquerade",
@@ -123,15 +123,15 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-09-13T04:56:57.925Z",
-      "lastSuccessfulRefresh": "2026-09-13T04:56:57.925Z",
+      "checkedAt": "2026-09-13T06:43:51.567Z",
+      "lastSuccessfulRefresh": "2026-09-13T06:43:51.567Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
-      "status": "stale",
-      "checkedAt": "2026-09-13T04:57:06.469Z",
-      "lastSuccessfulRefresh": "2026-09-13T01:22:37.400Z",
-      "reason": "503 https://www.audible.co.uk/charts/best"
+      "status": "healthy",
+      "checkedAt": "2026-09-13T06:43:59.053Z",
+      "lastSuccessfulRefresh": "2026-09-13T06:43:59.053Z",
+      "reason": ""
     }
   }
 }
