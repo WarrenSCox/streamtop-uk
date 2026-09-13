@@ -1,10 +1,18 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-13T16:25:47.818Z",
+  "generatedAt": "2026-09-13T20:55:51.037Z",
   "country": "GB",
   "trailers": [
     {
       "rank": 1,
+      "title": "STEPDADDY Official Trailer | Astrid Lee & Christy Imperial | VMX",
+      "videoId": "HKeFNJTKuws",
+      "poster": "https://i.ytimg.com/vi/HKeFNJTKuws/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=HKeFNJTKuws",
+      "channel": "VMX"
+    },
+    {
+      "rank": 2,
       "title": "Avengers: Doomsday | Official Trailer | In Theaters December 18",
       "videoId": "irVNGjRFZGk",
       "poster": "https://i.ytimg.com/vi/irVNGjRFZGk/hqdefault.jpg",
@@ -12,7 +20,7 @@
       "channel": "Marvel Entertainment"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "title": "ALPHA Official Trailer | Alia, Sharvari, Anil, Bobby, Shiv Rawail | YRF Spy Universe",
       "videoId": "QRqGwGwo1Y0",
       "poster": "https://i.ytimg.com/vi/QRqGwGwo1Y0/hqdefault.jpg",
@@ -20,7 +28,15 @@
       "channel": "YRF"
     },
     {
-      "rank": 3,
+      "rank": 4,
+      "title": "Wildwood – Official Trailer",
+      "videoId": "dtr5JL1zkiM",
+      "poster": "https://i.ytimg.com/vi/dtr5JL1zkiM/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=dtr5JL1zkiM",
+      "channel": "LAIKA Studios"
+    },
+    {
+      "rank": 5,
       "title": "Peddi Official Trailer (Telugu) | Ram Charan | Janhvi Kapoor | A R Rahman | Buchi Babu Sana",
       "videoId": "sF2dj7ycZvA",
       "poster": "https://i.ytimg.com/vi/sF2dj7ycZvA/hqdefault.jpg",
@@ -28,7 +44,7 @@
       "channel": "Vriddhi Cinemas"
     },
     {
-      "rank": 4,
+      "rank": 6,
       "title": "Cocktail 2 Official Trailer | Shahid Kapoor, Kriti Sanon, Rashmika Mandanna | In Cinemas 19th June",
       "videoId": "XXxUqLHq1xg",
       "poster": "https://i.ytimg.com/vi/XXxUqLHq1xg/hqdefault.jpg",
@@ -36,7 +52,15 @@
       "channel": "Maddock Films"
     },
     {
-      "rank": 5,
+      "rank": 7,
+      "title": "Bhooth Bangla -Official Trailer| Akshay Kumar, Tabu, Paresh, Wamiqa, Priyadarshan |In Cinemas 16 Apr",
+      "videoId": "XW1RkKiRnsg",
+      "poster": "https://i.ytimg.com/vi/XW1RkKiRnsg/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=XW1RkKiRnsg",
+      "channel": "Balaji Motion Pictures"
+    },
+    {
+      "rank": 8,
       "title": "Backrooms | Official Trailer HD | A24",
       "videoId": "0HjdiohVOik",
       "poster": "https://i.ytimg.com/vi/0HjdiohVOik/hqdefault.jpg",
@@ -44,44 +68,20 @@
       "channel": "A24"
     },
     {
-      "rank": 6,
+      "rank": 9,
+      "title": "SPIDER-MAN: BRAND NEW DAY – New Trailer (4K)",
+      "videoId": "62bIsvRcPv0",
+      "poster": "https://i.ytimg.com/vi/62bIsvRcPv0/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=62bIsvRcPv0",
+      "channel": "Sony Pictures Entertainment"
+    },
+    {
+      "rank": 10,
       "title": "Mirzapur The Movie | Official Hindi Trailer |Ali Fazal |  Pankaj Tripathi | Divyenndu | 4th Sept",
       "videoId": "5vMWZhHPlaw",
       "poster": "https://i.ytimg.com/vi/5vMWZhHPlaw/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=5vMWZhHPlaw",
       "channel": "Excel Movies"
-    },
-    {
-      "rank": 7,
-      "title": "Ghamasaan | Official Trailer | Arshad Warsi, Pratik Gandhi | Hindi Zee 5 Original | Watch Now",
-      "videoId": "OEvaXgDTPmU",
-      "poster": "https://i.ytimg.com/vi/OEvaXgDTPmU/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=OEvaXgDTPmU",
-      "channel": "Zee 5"
-    },
-    {
-      "rank": 8,
-      "title": "Primetime | Official Trailer HD | A24",
-      "videoId": "5fHXyqQOKL8",
-      "poster": "https://i.ytimg.com/vi/5fHXyqQOKL8/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=5fHXyqQOKL8",
-      "channel": "A24"
-    },
-    {
-      "rank": 9,
-      "title": "One Night Only | Official Trailer",
-      "videoId": "JRG244IfrRE",
-      "poster": "https://i.ytimg.com/vi/JRG244IfrRE/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=JRG244IfrRE",
-      "channel": "Universal Pictures"
-    },
-    {
-      "rank": 10,
-      "title": "Wildwood – Official Teaser Trailer",
-      "videoId": "POneS8h1jyU",
-      "poster": "https://i.ytimg.com/vi/POneS8h1jyU/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=POneS8h1jyU",
-      "channel": "LAIKA Studios"
     }
   ],
   "videos": [
@@ -103,19 +103,19 @@
     },
     {
       "rank": 3,
-      "title": "I Survived 100 Days on One Block",
-      "videoId": "kJu5VMN3yow",
-      "poster": "https://i.ytimg.com/vi/kJu5VMN3yow/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=kJu5VMN3yow",
-      "channel": "MrBeast Gaming"
+      "title": "I Became a RAINBOW GOD, And NOBODY Knew!",
+      "videoId": "mOsb8yjw6Aw",
+      "poster": "https://i.ytimg.com/vi/mOsb8yjw6Aw/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=mOsb8yjw6Aw",
+      "channel": "Cash"
     },
     {
       "rank": 4,
-      "title": "I Don't Wanna Hear, I Don't Wanna Know (Celtic)",
-      "videoId": "pJ99uDuS1zg",
-      "poster": "https://i.ytimg.com/vi/pJ99uDuS1zg/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=pJ99uDuS1zg",
-      "channel": "Shea Doolin - Topic"
+      "title": "Qdus Yohannes-New Eritrean Traditional Music 2026 | Feruz Tesfalem- Eden Teklit - Soliana Bereke",
+      "videoId": "Ans4uC7BKug",
+      "poster": "https://i.ytimg.com/vi/Ans4uC7BKug/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=Ans4uC7BKug",
+      "channel": "SAEYET TV"
     },
     {
       "rank": 5,
@@ -127,43 +127,35 @@
     },
     {
       "rank": 6,
-      "title": "Most ILLEGAL Team In FIFA's History",
-      "videoId": "u0mMAPrhuI8",
-      "poster": "https://i.ytimg.com/vi/u0mMAPrhuI8/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=u0mMAPrhuI8",
-      "channel": "More Chuff"
+      "title": "Finding IMPOSSIBLE Hiding Spots for my base in Roblox...",
+      "videoId": "G-y9NPH012k",
+      "poster": "https://i.ytimg.com/vi/G-y9NPH012k/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=G-y9NPH012k",
+      "channel": "More Techy"
     },
     {
       "rank": 7,
-      "title": "Lord Verity - Master of Humanity (song)",
-      "videoId": "lhCPiauHI-g",
-      "poster": "https://i.ytimg.com/vi/lhCPiauHI-g/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=lhCPiauHI-g",
-      "channel": "Horror Skunx"
+      "title": "Miguel - damned (Lyrics)",
+      "videoId": "6LMO056ESJU",
+      "poster": "https://i.ytimg.com/vi/6LMO056ESJU/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=6LMO056ESJU",
+      "channel": "sugarTap"
     },
     {
       "rank": 8,
-      "title": "Diablo V Teaser",
-      "videoId": "GxCN_AKYtts",
-      "poster": "https://i.ytimg.com/vi/GxCN_AKYtts/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=GxCN_AKYtts",
-      "channel": "Diablo"
+      "title": "Crystal Lake | Official Trailer | Peacock Original",
+      "videoId": "Rs49eRHFD9c",
+      "poster": "https://i.ytimg.com/vi/Rs49eRHFD9c/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=Rs49eRHFD9c",
+      "channel": "Peacock"
     },
     {
       "rank": 9,
-      "title": "This is NOT The Fall Guys I Remember...",
-      "videoId": "c2-9YLaWXmE",
-      "poster": "https://i.ytimg.com/vi/c2-9YLaWXmE/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=c2-9YLaWXmE",
-      "channel": "SMii7Y"
-    },
-    {
-      "rank": 10,
-      "title": "What Happens When 8 Guitar Greats Play “Johnny B. Goode” Together | Live 1984",
-      "videoId": "BpwwY9WfCX8",
-      "poster": "https://i.ytimg.com/vi/BpwwY9WfCX8/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=BpwwY9WfCX8",
-      "channel": "Live & Loud"
+      "title": "Don't Let Go",
+      "videoId": "FDRUmsvbuoE",
+      "poster": "https://i.ytimg.com/vi/FDRUmsvbuoE/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=FDRUmsvbuoE",
+      "channel": "Zavyre - Topic"
     }
   ],
   "sources": {
