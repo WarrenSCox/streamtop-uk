@@ -1,18 +1,24 @@
 {
-  "updated": "2026-09-14T12:59:50.767Z",
+  "updated": "2026-09-14T13:53:58.367Z",
   "charts": {
     "AUDIOBOOKS": [
       {
         "title": "The Infinite Extent",
         "author": "Dennis E. Taylor",
         "narrator": "Ray Porter",
-        "image": "https://m.media-amazon.com/images/I/51O1HmGSbEL._SL500_.jpg"
+        "image": "https://covers.openlibrary.org/b/id/15253208-L.jpg"
       },
       {
         "title": "Dungeon Crawler Carl",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
         "image": "https://covers.openlibrary.org/b/id/15143022-L.jpg"
+      },
+      {
+        "title": "The Garden Grave",
+        "author": "Joy Ellis",
+        "narrator": "Sam Claflin",
+        "image": "https://m.media-amazon.com/images/I/51u2yPsf2LL._SL500_.jpg"
       },
       {
         "title": "The Let Them Theory",
@@ -27,10 +33,22 @@
         "image": "https://covers.openlibrary.org/b/id/11702962-L.jpg"
       },
       {
-        "title": "The Garden Grave",
-        "author": "Joy Ellis",
-        "narrator": "Sam Claflin",
-        "image": "https://m.media-amazon.com/images/I/51u2yPsf2LL._SL500_.jpg"
+        "title": "The Murder at the Vicarage",
+        "author": "Agatha Christie",
+        "narrator": "Toni Collette , Kit Harington , Jasmine Jobson , Calam Lynch , Eliot Salt , Katy Wix , Lolly Adefope , Billy Postlethwaite , Vicki Pepperdine , Meera Syal , La Voix , Leo Reich , full cast",
+        "image": "https://m.media-amazon.com/images/I/51GzNQrzYrL._SL500_.jpg"
+      },
+      {
+        "title": "How to Quit Your Day Job... and Become Your Own Boss",
+        "author": "Simon Squibb",
+        "narrator": "Simon Squibb",
+        "image": "https://m.media-amazon.com/images/I/41YpvidAdGL._SL500_.jpg"
+      },
+      {
+        "title": "Stephen Fry's Royal Secrets: The Elizabethans",
+        "author": "John Woolf",
+        "narrator": "Stephen Fry",
+        "image": ""
       },
       {
         "title": "The Dungeon Anarchist's Cookbook",
@@ -42,25 +60,7 @@
         "title": "The Gate of the Feral Gods",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://m.media-amazon.com/images/I/51rmyTTWPsL._SL500_.jpg"
-      },
-      {
-        "title": "Dear Debbie",
-        "author": "Freida McFadden",
-        "narrator": "Julia Whelan , January LaVoy , Scott Brick",
-        "image": "https://m.media-amazon.com/images/I/41Uj+OWVSQL._SL500_.jpg"
-      },
-      {
-        "title": "Project Hail Mary",
-        "author": "Andy Weir",
-        "narrator": "Ray Porter",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2a/1a/fc/2a1afcc9-6179-5fdf-3bea-aec376486895/rm_image.jpg/600x600bb.jpg"
-      },
-      {
-        "title": "The Murder at the Vicarage",
-        "author": "Agatha Christie",
-        "narrator": "Toni Collette , Kit Harington , Jasmine Jobson , Calam Lynch , Eliot Salt , Katy Wix , Lolly Adefope , Billy Postlethwaite , Vicki Pepperdine , Meera Syal , La Voix , Leo Reich , full cast",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/7d/6e/f3/7d6ef37d-f405-1e9b-7c81-4a57e14f32c1/9780007528578.jpg/600x600bb.jpg"
+        "image": "https://covers.openlibrary.org/b/id/15232581-L.jpg"
       }
     ],
     "BOOKS": [
@@ -123,15 +123,15 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-09-14T12:59:50.767Z",
-      "lastSuccessfulRefresh": "2026-09-14T12:59:50.767Z",
+      "checkedAt": "2026-09-14T13:53:58.367Z",
+      "lastSuccessfulRefresh": "2026-09-14T13:53:58.367Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
-      "status": "stale",
-      "checkedAt": "2026-09-14T12:59:59.311Z",
-      "lastSuccessfulRefresh": "2026-09-14T05:05:38.361Z",
-      "reason": "503 https://www.audible.co.uk/charts/best"
+      "status": "healthy",
+      "checkedAt": "2026-09-14T13:54:08.399Z",
+      "lastSuccessfulRefresh": "2026-09-14T13:54:08.399Z",
+      "reason": ""
     }
   }
 }
