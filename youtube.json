@@ -1,18 +1,10 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-15T17:06:44.710Z",
+  "generatedAt": "2026-09-15T21:27:53.838Z",
   "country": "GB",
   "trailers": [
     {
       "rank": 1,
-      "title": "STEPDADDY Official Trailer | Astrid Lee & Christy Imperial | VMX",
-      "videoId": "HKeFNJTKuws",
-      "poster": "https://i.ytimg.com/vi/HKeFNJTKuws/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=HKeFNJTKuws",
-      "channel": "VMX"
-    },
-    {
-      "rank": 2,
       "title": "Avengers: Doomsday | Official Trailer | In Theaters December 18",
       "videoId": "irVNGjRFZGk",
       "poster": "https://i.ytimg.com/vi/irVNGjRFZGk/hqdefault.jpg",
@@ -20,7 +12,7 @@
       "channel": "Marvel Entertainment"
     },
     {
-      "rank": 3,
+      "rank": 2,
       "title": "ALPHA Official Trailer | Alia, Sharvari, Anil, Bobby, Shiv Rawail | YRF Spy Universe",
       "videoId": "QRqGwGwo1Y0",
       "poster": "https://i.ytimg.com/vi/QRqGwGwo1Y0/hqdefault.jpg",
@@ -28,15 +20,7 @@
       "channel": "YRF"
     },
     {
-      "rank": 4,
-      "title": "Wildwood – Official Trailer",
-      "videoId": "dtr5JL1zkiM",
-      "poster": "https://i.ytimg.com/vi/dtr5JL1zkiM/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=dtr5JL1zkiM",
-      "channel": "LAIKA Studios"
-    },
-    {
-      "rank": 5,
+      "rank": 3,
       "title": "Peddi Official Trailer (Telugu) | Ram Charan | Janhvi Kapoor | A R Rahman | Buchi Babu Sana",
       "videoId": "sF2dj7ycZvA",
       "poster": "https://i.ytimg.com/vi/sF2dj7ycZvA/hqdefault.jpg",
@@ -44,7 +28,7 @@
       "channel": "Vriddhi Cinemas"
     },
     {
-      "rank": 6,
+      "rank": 4,
       "title": "Cocktail 2 Official Trailer | Shahid Kapoor, Kriti Sanon, Rashmika Mandanna | In Cinemas 19th June",
       "videoId": "XXxUqLHq1xg",
       "poster": "https://i.ytimg.com/vi/XXxUqLHq1xg/hqdefault.jpg",
@@ -52,7 +36,7 @@
       "channel": "Maddock Films"
     },
     {
-      "rank": 7,
+      "rank": 5,
       "title": "Bhooth Bangla -Official Trailer| Akshay Kumar, Tabu, Paresh, Wamiqa, Priyadarshan |In Cinemas 16 Apr",
       "videoId": "XW1RkKiRnsg",
       "poster": "https://i.ytimg.com/vi/XW1RkKiRnsg/hqdefault.jpg",
@@ -60,7 +44,7 @@
       "channel": "Balaji Motion Pictures"
     },
     {
-      "rank": 8,
+      "rank": 6,
       "title": "Backrooms | Official Trailer HD | A24",
       "videoId": "0HjdiohVOik",
       "poster": "https://i.ytimg.com/vi/0HjdiohVOik/hqdefault.jpg",
@@ -68,20 +52,36 @@
       "channel": "A24"
     },
     {
-      "rank": 9,
-      "title": "SPIDER-MAN: BRAND NEW DAY – New Trailer (4K)",
-      "videoId": "62bIsvRcPv0",
-      "poster": "https://i.ytimg.com/vi/62bIsvRcPv0/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=62bIsvRcPv0",
-      "channel": "Sony Pictures Entertainment"
-    },
-    {
-      "rank": 10,
+      "rank": 7,
       "title": "Mirzapur The Movie | Official Hindi Trailer |Ali Fazal |  Pankaj Tripathi | Divyenndu | 4th Sept",
       "videoId": "5vMWZhHPlaw",
       "poster": "https://i.ytimg.com/vi/5vMWZhHPlaw/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=5vMWZhHPlaw",
       "channel": "Excel Movies"
+    },
+    {
+      "rank": 8,
+      "title": "Ghamasaan | Official Trailer | Arshad Warsi, Pratik Gandhi | Hindi Zee 5 Original | Watch Now",
+      "videoId": "OEvaXgDTPmU",
+      "poster": "https://i.ytimg.com/vi/OEvaXgDTPmU/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=OEvaXgDTPmU",
+      "channel": "Zee 5"
+    },
+    {
+      "rank": 9,
+      "title": "Primetime | Official Trailer HD | A24",
+      "videoId": "5fHXyqQOKL8",
+      "poster": "https://i.ytimg.com/vi/5fHXyqQOKL8/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=5fHXyqQOKL8",
+      "channel": "A24"
+    },
+    {
+      "rank": 10,
+      "title": "One Night Only | Official Trailer",
+      "videoId": "JRG244IfrRE",
+      "poster": "https://i.ytimg.com/vi/JRG244IfrRE/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=JRG244IfrRE",
+      "channel": "Universal Pictures"
     }
   ],
   "videos": [
@@ -103,11 +103,11 @@
     },
     {
       "rank": 3,
-      "title": "Daz and Will play how to fish ! ",
-      "videoId": "FDD3COO5st4",
-      "poster": "https://i.ytimg.com/vi/FDD3COO5st4/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=FDD3COO5st4",
-      "channel": "Off The Hook"
+      "title": "Evolving from POOR to MILLIONAIRE Cliff House!",
+      "videoId": "UmjVqAYFm5o",
+      "poster": "https://i.ytimg.com/vi/UmjVqAYFm5o/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=UmjVqAYFm5o",
+      "channel": "TechyCraft"
     },
     {
       "rank": 4,
@@ -119,19 +119,19 @@
     },
     {
       "rank": 5,
-      "title": "Oasis - Live '27 (Official Trailer)",
-      "videoId": "-ztxXwX788Y",
-      "poster": "https://i.ytimg.com/vi/-ztxXwX788Y/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=-ztxXwX788Y",
-      "channel": "Oasis"
+      "title": "The Celebrity Traitors - Series 2 | Official Trailer - BBC",
+      "videoId": "4H1zx-HKQj0",
+      "poster": "https://i.ytimg.com/vi/4H1zx-HKQj0/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=4H1zx-HKQj0",
+      "channel": "BBC Trailers"
     },
     {
       "rank": 6,
-      "title": "Steam Frame Review - This Changes Everything",
-      "videoId": "3PGKMwgjla0",
-      "poster": "https://i.ytimg.com/vi/3PGKMwgjla0/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=3PGKMwgjla0",
-      "channel": "Linus Tech Tips"
+      "title": "The Most Valuable Pig Is Here...",
+      "videoId": "qarNa5DEfP4",
+      "poster": "https://i.ytimg.com/vi/qarNa5DEfP4/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=qarNa5DEfP4",
+      "channel": "Joe Bart Games"
     },
     {
       "rank": 7,
@@ -143,19 +143,19 @@
     },
     {
       "rank": 8,
-      "title": "Transformers: Rise of Unicron - New Official Teaser",
-      "videoId": "pvm5gvobL5w",
-      "poster": "https://i.ytimg.com/vi/pvm5gvobL5w/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=pvm5gvobL5w",
-      "channel": "Transformers: Rise of Unicron"
+      "title": "Oasis - Live '27 (Official Trailer)",
+      "videoId": "-ztxXwX788Y",
+      "poster": "https://i.ytimg.com/vi/-ztxXwX788Y/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=-ztxXwX788Y",
+      "channel": "Oasis"
     },
     {
       "rank": 9,
-      "title": "Hermitcraft 11: Episode 27 - DECKED OUT RETURNS!",
-      "videoId": "UjjRGyre3RY",
-      "poster": "https://i.ytimg.com/vi/UjjRGyre3RY/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=UjjRGyre3RY",
-      "channel": "Grian"
+      "title": "HELLDIVERS 2 – Ironclad Democracy Warbond",
+      "videoId": "6U5E3xGIAxw",
+      "poster": "https://i.ytimg.com/vi/6U5E3xGIAxw/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=6U5E3xGIAxw",
+      "channel": "HELLDIVERS™ 2"
     },
     {
       "rank": 10,
