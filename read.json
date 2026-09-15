@@ -1,19 +1,7 @@
 {
-  "updated": "2026-09-15T01:22:42.502Z",
+  "updated": "2026-09-15T05:01:43.412Z",
   "charts": {
     "AUDIOBOOKS": [
-      {
-        "title": "Dungeon Crawler Carl",
-        "author": "Matt Dinniman",
-        "narrator": "Jeff Hays",
-        "image": "https://m.media-amazon.com/images/I/51HIZdnqASL._SL500_.jpg"
-      },
-      {
-        "title": "The Infinite Extent",
-        "author": "Dennis E. Taylor",
-        "narrator": "Ray Porter",
-        "image": "https://m.media-amazon.com/images/I/51O1HmGSbEL._SL500_.jpg"
-      },
       {
         "title": "A Man with One of Those Faces",
         "author": "Caimh McDonnell",
@@ -21,10 +9,16 @@
         "image": "https://m.media-amazon.com/images/I/410LFCqqtSL._SL500_.jpg"
       },
       {
-        "title": "The Garden Grave",
-        "author": "Joy Ellis",
-        "narrator": "Sam Claflin",
-        "image": "https://m.media-amazon.com/images/I/51u2yPsf2LL._SL500_.jpg"
+        "title": "Dungeon Crawler Carl",
+        "author": "Matt Dinniman",
+        "narrator": "Jeff Hays",
+        "image": "https://covers.openlibrary.org/b/id/15143022-L.jpg"
+      },
+      {
+        "title": "The Infinite Extent",
+        "author": "Dennis E. Taylor",
+        "narrator": "Ray Porter",
+        "image": "https://covers.openlibrary.org/b/id/15253208-L.jpg"
       },
       {
         "title": "The Let Them Theory",
@@ -39,28 +33,34 @@
         "image": "https://covers.openlibrary.org/b/id/11702962-L.jpg"
       },
       {
+        "title": "The Garden Grave",
+        "author": "Joy Ellis",
+        "narrator": "Sam Claflin",
+        "image": "https://m.media-amazon.com/images/I/51u2yPsf2LL._SL500_.jpg"
+      },
+      {
         "title": "The Dungeon Anarchist's Cookbook",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays , The Critical Drinker",
         "image": "https://covers.openlibrary.org/b/id/15233609-L.jpg"
       },
       {
-        "title": "The Murder at the Vicarage",
-        "author": "Agatha Christie",
-        "narrator": "Toni Collette , Kit Harington , Jasmine Jobson , Calam Lynch , Eliot Salt , Katy Wix , Lolly Adefope , Billy Postlethwaite , Vicki Pepperdine , Meera Syal , La Voix , Leo Reich , full cast",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/7d/6e/f3/7d6ef37d-f405-1e9b-7c81-4a57e14f32c1/9780007528578.jpg/600x600bb.jpg"
+        "title": "Dear Debbie",
+        "author": "Freida McFadden",
+        "narrator": "Julia Whelan , January LaVoy , Scott Brick",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a4/c1/43/a4c14308-a374-3f1d-139c-6dfafc33731a/9798349114472.jpg/600x600bb.jpg"
       },
       {
         "title": "The Gate of the Feral Gods",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://covers.openlibrary.org/b/id/15232581-L.jpg"
+        "image": "https://m.media-amazon.com/images/I/51rmyTTWPsL._SL500_.jpg"
       },
       {
-        "title": "Dear Debbie",
-        "author": "Freida McFadden",
-        "narrator": "Julia Whelan , January LaVoy , Scott Brick",
-        "image": "https://m.media-amazon.com/images/I/41Uj+OWVSQL._SL500_.jpg"
+        "title": "Project Hail Mary",
+        "author": "Andy Weir",
+        "narrator": "Ray Porter",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2a/1a/fc/2a1afcc9-6179-5fdf-3bea-aec376486895/rm_image.jpg/600x600bb.jpg"
       }
     ],
     "BOOKS": [
@@ -123,15 +123,15 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-09-15T01:22:42.502Z",
-      "lastSuccessfulRefresh": "2026-09-15T01:22:42.502Z",
+      "checkedAt": "2026-09-15T05:01:43.412Z",
+      "lastSuccessfulRefresh": "2026-09-15T05:01:43.412Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
-      "status": "stale",
-      "checkedAt": "2026-09-15T01:22:51.690Z",
-      "lastSuccessfulRefresh": "2026-09-14T22:43:04.656Z",
-      "reason": "503 https://www.audible.co.uk/charts/best"
+      "status": "healthy",
+      "checkedAt": "2026-09-15T05:01:52.363Z",
+      "lastSuccessfulRefresh": "2026-09-15T05:01:52.363Z",
+      "reason": ""
     }
   }
 }
