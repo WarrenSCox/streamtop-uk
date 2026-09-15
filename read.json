@@ -1,30 +1,30 @@
 {
-  "updated": "2026-09-15T12:37:45.722Z",
+  "updated": "2026-09-15T17:07:08.266Z",
   "charts": {
     "AUDIOBOOKS": [
       {
         "title": "A Man with One of Those Faces",
         "author": "Caimh McDonnell",
         "narrator": "Morgan C. Jones",
-        "image": "https://m.media-amazon.com/images/I/410LFCqqtSL._SL500_.jpg"
+        "image": "https://covers.openlibrary.org/b/id/10326437-L.jpg"
       },
       {
         "title": "Dungeon Crawler Carl",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://m.media-amazon.com/images/I/51HIZdnqASL._SL500_.jpg"
+        "image": "https://covers.openlibrary.org/b/id/15143022-L.jpg"
       },
       {
         "title": "The Infinite Extent",
         "author": "Dennis E. Taylor",
         "narrator": "Ray Porter",
-        "image": "https://m.media-amazon.com/images/I/51O1HmGSbEL._SL500_.jpg"
+        "image": "https://covers.openlibrary.org/b/id/15253208-L.jpg"
       },
       {
         "title": "The Let Them Theory",
         "author": "Mel Robbins",
         "narrator": "Mel Robbins",
-        "image": "https://covers.openlibrary.org/b/id/15165806-L.jpg"
+        "image": "https://m.media-amazon.com/images/I/51YOr6ua-PL._SL500_.jpg"
       },
       {
         "title": "Carl's Doomsday Scenario",
@@ -33,22 +33,16 @@
         "image": "https://covers.openlibrary.org/b/id/11702962-L.jpg"
       },
       {
-        "title": "The Garden Grave",
-        "author": "Joy Ellis",
-        "narrator": "Sam Claflin",
-        "image": "https://m.media-amazon.com/images/I/51u2yPsf2LL._SL500_.jpg"
-      },
-      {
         "title": "The Dungeon Anarchist's Cookbook",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays , The Critical Drinker",
         "image": "https://covers.openlibrary.org/b/id/15233609-L.jpg"
       },
       {
-        "title": "Dear Debbie",
-        "author": "Freida McFadden",
-        "narrator": "Julia Whelan , January LaVoy , Scott Brick",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a4/c1/43/a4c14308-a374-3f1d-139c-6dfafc33731a/9798349114472.jpg/600x600bb.jpg"
+        "title": "The Garden Grave",
+        "author": "Joy Ellis",
+        "narrator": "Sam Claflin",
+        "image": "https://m.media-amazon.com/images/I/51u2yPsf2LL._SL500_.jpg"
       },
       {
         "title": "The Gate of the Feral Gods",
@@ -61,6 +55,12 @@
         "author": "Andy Weir",
         "narrator": "Ray Porter",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2a/1a/fc/2a1afcc9-6179-5fdf-3bea-aec376486895/rm_image.jpg/600x600bb.jpg"
+      },
+      {
+        "title": "Dear Debbie",
+        "author": "Freida McFadden",
+        "narrator": "Julia Whelan , January LaVoy , Scott Brick",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a4/c1/43/a4c14308-a374-3f1d-139c-6dfafc33731a/9798349114472.jpg/600x600bb.jpg"
       }
     ],
     "BOOKS": [
@@ -123,15 +123,15 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-09-15T12:37:45.722Z",
-      "lastSuccessfulRefresh": "2026-09-15T12:37:45.722Z",
+      "checkedAt": "2026-09-15T17:07:08.266Z",
+      "lastSuccessfulRefresh": "2026-09-15T17:07:08.266Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
-      "status": "stale",
-      "checkedAt": "2026-09-15T12:37:54.147Z",
-      "lastSuccessfulRefresh": "2026-09-15T06:37:56.713Z",
-      "reason": "503 https://www.audible.co.uk/charts/best"
+      "status": "healthy",
+      "checkedAt": "2026-09-15T17:07:18.604Z",
+      "lastSuccessfulRefresh": "2026-09-15T17:07:18.604Z",
+      "reason": ""
     }
   }
 }

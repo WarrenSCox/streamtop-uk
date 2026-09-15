@@ -1,10 +1,18 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-15T11:53:15.536Z",
+  "generatedAt": "2026-09-15T17:06:44.710Z",
   "country": "GB",
   "trailers": [
     {
       "rank": 1,
+      "title": "STEPDADDY Official Trailer | Astrid Lee & Christy Imperial | VMX",
+      "videoId": "HKeFNJTKuws",
+      "poster": "https://i.ytimg.com/vi/HKeFNJTKuws/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=HKeFNJTKuws",
+      "channel": "VMX"
+    },
+    {
+      "rank": 2,
       "title": "Avengers: Doomsday | Official Trailer | In Theaters December 18",
       "videoId": "irVNGjRFZGk",
       "poster": "https://i.ytimg.com/vi/irVNGjRFZGk/hqdefault.jpg",
@@ -12,7 +20,7 @@
       "channel": "Marvel Entertainment"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "title": "ALPHA Official Trailer | Alia, Sharvari, Anil, Bobby, Shiv Rawail | YRF Spy Universe",
       "videoId": "QRqGwGwo1Y0",
       "poster": "https://i.ytimg.com/vi/QRqGwGwo1Y0/hqdefault.jpg",
@@ -20,7 +28,15 @@
       "channel": "YRF"
     },
     {
-      "rank": 3,
+      "rank": 4,
+      "title": "Wildwood – Official Trailer",
+      "videoId": "dtr5JL1zkiM",
+      "poster": "https://i.ytimg.com/vi/dtr5JL1zkiM/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=dtr5JL1zkiM",
+      "channel": "LAIKA Studios"
+    },
+    {
+      "rank": 5,
       "title": "Peddi Official Trailer (Telugu) | Ram Charan | Janhvi Kapoor | A R Rahman | Buchi Babu Sana",
       "videoId": "sF2dj7ycZvA",
       "poster": "https://i.ytimg.com/vi/sF2dj7ycZvA/hqdefault.jpg",
@@ -28,7 +44,7 @@
       "channel": "Vriddhi Cinemas"
     },
     {
-      "rank": 4,
+      "rank": 6,
       "title": "Cocktail 2 Official Trailer | Shahid Kapoor, Kriti Sanon, Rashmika Mandanna | In Cinemas 19th June",
       "videoId": "XXxUqLHq1xg",
       "poster": "https://i.ytimg.com/vi/XXxUqLHq1xg/hqdefault.jpg",
@@ -36,7 +52,7 @@
       "channel": "Maddock Films"
     },
     {
-      "rank": 5,
+      "rank": 7,
       "title": "Bhooth Bangla -Official Trailer| Akshay Kumar, Tabu, Paresh, Wamiqa, Priyadarshan |In Cinemas 16 Apr",
       "videoId": "XW1RkKiRnsg",
       "poster": "https://i.ytimg.com/vi/XW1RkKiRnsg/hqdefault.jpg",
@@ -44,7 +60,7 @@
       "channel": "Balaji Motion Pictures"
     },
     {
-      "rank": 6,
+      "rank": 8,
       "title": "Backrooms | Official Trailer HD | A24",
       "videoId": "0HjdiohVOik",
       "poster": "https://i.ytimg.com/vi/0HjdiohVOik/hqdefault.jpg",
@@ -52,36 +68,20 @@
       "channel": "A24"
     },
     {
-      "rank": 7,
+      "rank": 9,
+      "title": "SPIDER-MAN: BRAND NEW DAY – New Trailer (4K)",
+      "videoId": "62bIsvRcPv0",
+      "poster": "https://i.ytimg.com/vi/62bIsvRcPv0/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=62bIsvRcPv0",
+      "channel": "Sony Pictures Entertainment"
+    },
+    {
+      "rank": 10,
       "title": "Mirzapur The Movie | Official Hindi Trailer |Ali Fazal |  Pankaj Tripathi | Divyenndu | 4th Sept",
       "videoId": "5vMWZhHPlaw",
       "poster": "https://i.ytimg.com/vi/5vMWZhHPlaw/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=5vMWZhHPlaw",
       "channel": "Excel Movies"
-    },
-    {
-      "rank": 8,
-      "title": "Ghamasaan | Official Trailer | Arshad Warsi, Pratik Gandhi | Hindi Zee 5 Original | Watch Now",
-      "videoId": "OEvaXgDTPmU",
-      "poster": "https://i.ytimg.com/vi/OEvaXgDTPmU/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=OEvaXgDTPmU",
-      "channel": "Zee 5"
-    },
-    {
-      "rank": 9,
-      "title": "Primetime | Official Trailer HD | A24",
-      "videoId": "5fHXyqQOKL8",
-      "poster": "https://i.ytimg.com/vi/5fHXyqQOKL8/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=5fHXyqQOKL8",
-      "channel": "A24"
-    },
-    {
-      "rank": 10,
-      "title": "One Night Only | Official Trailer",
-      "videoId": "JRG244IfrRE",
-      "poster": "https://i.ytimg.com/vi/JRG244IfrRE/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=JRG244IfrRE",
-      "channel": "Universal Pictures"
     }
   ],
   "videos": [
@@ -95,11 +95,11 @@
     },
     {
       "rank": 2,
-      "title": "Oasis - Live '27 (Official Trailer)",
-      "videoId": "-ztxXwX788Y",
-      "poster": "https://i.ytimg.com/vi/-ztxXwX788Y/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=-ztxXwX788Y",
-      "channel": "Oasis"
+      "title": "Ghosts: The Possession of Button House - Official Trailer",
+      "videoId": "iLKGXt5JHKk",
+      "poster": "https://i.ytimg.com/vi/iLKGXt5JHKk/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=iLKGXt5JHKk",
+      "channel": "LionsgateFilmsUK"
     },
     {
       "rank": 3,
@@ -119,11 +119,11 @@
     },
     {
       "rank": 5,
-      "title": "Ghosts: The Possession of Button House - Official Trailer",
-      "videoId": "iLKGXt5JHKk",
-      "poster": "https://i.ytimg.com/vi/iLKGXt5JHKk/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=iLKGXt5JHKk",
-      "channel": "LionsgateFilmsUK"
+      "title": "Oasis - Live '27 (Official Trailer)",
+      "videoId": "-ztxXwX788Y",
+      "poster": "https://i.ytimg.com/vi/-ztxXwX788Y/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=-ztxXwX788Y",
+      "channel": "Oasis"
     },
     {
       "rank": 6,
@@ -135,11 +135,11 @@
     },
     {
       "rank": 7,
-      "title": "Landon Barker - If I Ever Talk To God (Official Music Video)",
-      "videoId": "pcKNqPP0C9o",
-      "poster": "https://i.ytimg.com/vi/pcKNqPP0C9o/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=pcKNqPP0C9o",
-      "channel": "LandonBarkerVEVO"
+      "title": "Hood Ambience (Official Music Video) Navaan Sandhu | New Punjabi Songs 2026",
+      "videoId": "m8wmgqRIEpE",
+      "poster": "https://i.ytimg.com/vi/m8wmgqRIEpE/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=m8wmgqRIEpE",
+      "channel": "Navaan Sandhu"
     },
     {
       "rank": 8,
@@ -159,11 +159,11 @@
     },
     {
       "rank": 10,
-      "title": "Ramayana: Jai Jai Ram (Song) | Namit M, Nitesh T | Ranbir, Yash | AR Rahman, Shreya, Arijit S, Kumar",
-      "videoId": "yWNPxS0sXnE",
-      "poster": "https://i.ytimg.com/vi/yWNPxS0sXnE/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=yWNPxS0sXnE",
-      "channel": "T-Series"
+      "title": "Jamie Miller - Babydoll (Lyric Video)",
+      "videoId": "LkJ_b_YYUnE",
+      "poster": "https://i.ytimg.com/vi/LkJ_b_YYUnE/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=LkJ_b_YYUnE",
+      "channel": "JamieMillerVEVO"
     }
   ],
   "sources": {
