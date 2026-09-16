@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-16T21:24:32.933Z",
+  "updated": "2026-09-16T22:04:04.524Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -12,7 +12,7 @@
         "title": "The Infinite Extent",
         "author": "Dennis E. Taylor",
         "narrator": "Ray Porter",
-        "image": "https://m.media-amazon.com/images/I/51O1HmGSbEL._SL500_.jpg"
+        "image": "https://covers.openlibrary.org/b/id/15253208-L.jpg"
       },
       {
         "title": "The Garden Grave",
@@ -42,7 +42,7 @@
         "title": "A Man with One of Those Faces",
         "author": "Caimh McDonnell",
         "narrator": "Morgan C. Jones",
-        "image": "https://m.media-amazon.com/images/I/410LFCqqtSL._SL500_.jpg"
+        "image": "https://covers.openlibrary.org/b/id/10326437-L.jpg"
       },
       {
         "title": "Stephen Fry's Royal Secrets: The Elizabethans",
@@ -54,7 +54,7 @@
         "title": "The Gate of the Feral Gods",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://m.media-amazon.com/images/I/51rmyTTWPsL._SL500_.jpg"
+        "image": "https://covers.openlibrary.org/b/id/15232581-L.jpg"
       },
       {
         "title": "The Murder at the Vicarage",
@@ -123,14 +123,14 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-09-16T21:24:32.934Z",
-      "lastSuccessfulRefresh": "2026-09-16T21:24:32.934Z",
+      "checkedAt": "2026-09-16T22:04:04.524Z",
+      "lastSuccessfulRefresh": "2026-09-16T22:04:04.524Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-09-16T21:24:39.969Z",
-      "lastSuccessfulRefresh": "2026-09-16T21:24:39.969Z",
+      "checkedAt": "2026-09-16T22:04:13.855Z",
+      "lastSuccessfulRefresh": "2026-09-16T22:04:13.855Z",
       "reason": ""
     }
   }
