@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-16T14:50:34.188Z",
+  "updated": "2026-09-16T17:07:11.123Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -15,16 +15,10 @@
         "image": "https://covers.openlibrary.org/b/id/15253208-L.jpg"
       },
       {
-        "title": "A Man with One of Those Faces",
-        "author": "Caimh McDonnell",
-        "narrator": "Morgan C. Jones",
-        "image": "https://covers.openlibrary.org/b/id/10326437-L.jpg"
-      },
-      {
         "title": "The Let Them Theory",
         "author": "Mel Robbins",
         "narrator": "Mel Robbins",
-        "image": "https://covers.openlibrary.org/b/id/15165806-L.jpg"
+        "image": "https://m.media-amazon.com/images/I/51YOr6ua-PL._SL500_.jpg"
       },
       {
         "title": "Carl's Doomsday Scenario",
@@ -33,22 +27,28 @@
         "image": "https://covers.openlibrary.org/b/id/11702962-L.jpg"
       },
       {
+        "title": "A Man with One of Those Faces",
+        "author": "Caimh McDonnell",
+        "narrator": "Morgan C. Jones",
+        "image": "https://covers.openlibrary.org/b/id/10326437-L.jpg"
+      },
+      {
         "title": "The Dungeon Anarchist's Cookbook",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays , The Critical Drinker",
         "image": "https://covers.openlibrary.org/b/id/15233609-L.jpg"
       },
       {
-        "title": "The Garden Grave",
-        "author": "Joy Ellis",
-        "narrator": "Sam Claflin",
-        "image": "https://m.media-amazon.com/images/I/51u2yPsf2LL._SL500_.jpg"
-      },
-      {
         "title": "The Gate of the Feral Gods",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
         "image": "https://covers.openlibrary.org/b/id/15232581-L.jpg"
+      },
+      {
+        "title": "The Garden Grave",
+        "author": "Joy Ellis",
+        "narrator": "Sam Claflin",
+        "image": "https://m.media-amazon.com/images/I/51u2yPsf2LL._SL500_.jpg"
       },
       {
         "title": "The Butcher's Masquerade",
@@ -123,15 +123,15 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-09-16T14:50:34.188Z",
-      "lastSuccessfulRefresh": "2026-09-16T14:50:34.188Z",
+      "checkedAt": "2026-09-16T17:07:11.123Z",
+      "lastSuccessfulRefresh": "2026-09-16T17:07:11.123Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
-      "status": "stale",
-      "checkedAt": "2026-09-16T14:50:42.863Z",
-      "lastSuccessfulRefresh": "2026-09-16T09:51:23.735Z",
-      "reason": "503 https://www.audible.co.uk/charts/best"
+      "status": "healthy",
+      "checkedAt": "2026-09-16T17:07:19.733Z",
+      "lastSuccessfulRefresh": "2026-09-16T17:07:19.733Z",
+      "reason": ""
     }
   }
 }
