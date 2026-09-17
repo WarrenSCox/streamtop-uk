@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-17T05:15:31.424Z",
+  "updated": "2026-09-17T10:21:59.984Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -15,10 +15,10 @@
         "image": "https://covers.openlibrary.org/b/id/15253208-L.jpg"
       },
       {
-        "title": "The Garden Grave",
-        "author": "Joy Ellis",
-        "narrator": "Sam Claflin",
-        "image": "https://m.media-amazon.com/images/I/51u2yPsf2LL._SL500_.jpg"
+        "title": "The Let Them Theory",
+        "author": "Mel Robbins",
+        "narrator": "Mel Robbins",
+        "image": "https://covers.openlibrary.org/b/id/15165806-L.jpg"
       },
       {
         "title": "Carl's Doomsday Scenario",
@@ -27,40 +27,40 @@
         "image": "https://covers.openlibrary.org/b/id/11702962-L.jpg"
       },
       {
-        "title": "The Let Them Theory",
-        "author": "Mel Robbins",
-        "narrator": "Mel Robbins",
-        "image": "https://covers.openlibrary.org/b/id/15165806-L.jpg"
-      },
-      {
         "title": "The Dungeon Anarchist's Cookbook",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays , The Critical Drinker",
         "image": "https://covers.openlibrary.org/b/id/15233609-L.jpg"
       },
       {
-        "title": "A Man with One of Those Faces",
-        "author": "Caimh McDonnell",
-        "narrator": "Morgan C. Jones",
-        "image": "https://covers.openlibrary.org/b/id/10326437-L.jpg"
-      },
-      {
-        "title": "Stephen Fry's Royal Secrets: The Elizabethans",
-        "author": "John Woolf",
-        "narrator": "Stephen Fry",
-        "image": ""
+        "title": "The Garden Grave",
+        "author": "Joy Ellis",
+        "narrator": "Sam Claflin",
+        "image": "https://m.media-amazon.com/images/I/51u2yPsf2LL._SL500_.jpg"
       },
       {
         "title": "The Gate of the Feral Gods",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://covers.openlibrary.org/b/id/15232581-L.jpg"
+        "image": "https://m.media-amazon.com/images/I/51rmyTTWPsL._SL500_.jpg"
       },
       {
-        "title": "The Murder at the Vicarage",
-        "author": "Agatha Christie",
-        "narrator": "Toni Collette , Kit Harington , Jasmine Jobson , Calam Lynch , Eliot Salt , Katy Wix , Lolly Adefope , Billy Postlethwaite , Vicki Pepperdine , Meera Syal , La Voix , Leo Reich , full cast",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/7d/6e/f3/7d6ef37d-f405-1e9b-7c81-4a57e14f32c1/9780007528578.jpg/600x600bb.jpg"
+        "title": "The Butcher's Masquerade",
+        "author": "Matt Dinniman",
+        "narrator": "Jeff Hays",
+        "image": "https://covers.openlibrary.org/b/id/15231958-L.jpg"
+      },
+      {
+        "title": "Project Hail Mary",
+        "author": "Andy Weir",
+        "narrator": "Ray Porter",
+        "image": "https://m.media-amazon.com/images/I/51POf8gOyLL._SL500_.jpg"
+      },
+      {
+        "title": "This Inevitable Ruin",
+        "author": "Matt Dinniman",
+        "narrator": "Jeff Hays , Travis Baldree",
+        "image": "https://covers.openlibrary.org/b/id/15142977-L.jpg"
       }
     ],
     "BOOKS": [
@@ -123,15 +123,15 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-09-17T05:15:31.424Z",
-      "lastSuccessfulRefresh": "2026-09-17T05:15:31.424Z",
+      "checkedAt": "2026-09-17T10:21:59.984Z",
+      "lastSuccessfulRefresh": "2026-09-17T10:21:59.984Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
-      "status": "stale",
-      "checkedAt": "2026-09-17T05:15:38.742Z",
-      "lastSuccessfulRefresh": "2026-09-16T22:04:13.855Z",
-      "reason": "503 https://www.audible.co.uk/charts/best"
+      "status": "healthy",
+      "checkedAt": "2026-09-17T10:22:08.154Z",
+      "lastSuccessfulRefresh": "2026-09-17T10:22:08.154Z",
+      "reason": ""
     }
   }
 }

@@ -1,33 +1,78 @@
 {
-  "updated": "2026-09-17T05:15:24.055Z",
+  "updated": "2026-09-17T10:21:50.274Z",
   "categories": {
     "UK": [
       {
-        "title": "King to host AI summit as fears grow internet could be 'swarmed'",
-        "link": "https://news.sky.com/story/king-to-host-ai-summit-as-fears-grow-over-threat-of-technology-13588787",
-        "published": "Thu, 17 Sep 2026 06:00:00 +0100",
+        "title": "Shoppers run for cover after man seen walking busy London street with giant ‘assault rifle’",
+        "link": "https://metro.co.uk/2026/09/17/shoppers-scramble-man-walks-london-street-assault-rifle-29628027/",
+        "published": "Thu, 17 Sep 2026 10:20:24 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News UK Crime News London Metropolitan Police",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312813941-e420.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "King Charles is ‘worried’ Earl Spencer is a ‘ticking time bomb’ ahead of book release",
+        "link": "https://metro.co.uk/2026/09/17/king-charles-worried-earl-spencer-a-ticking-time-bomb-ahead-book-release-29628176/",
+        "published": "Thu, 17 Sep 2026 10:19:37 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News UK Diana, Princess Of Wales King Charles III Royal Family",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312762641-9d94.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Tories challenge chancellor to rule out tax rises in budget as Badenoch labelled ‘embarrassment’ for Bank of England gaffe – UK politics live",
+        "link": "https://www.theguardian.com/politics/live/2026/sep/17/conservatives-badenoch-griffiths-healey-burnham-tax-rises-budget-economy-bank-of-england-latest-uk-politics-news-updates",
+        "published": "Thu, 17 Sep 2026 10:08:01 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Politics UK news Labour Conservatives Kemi Badenoch Budget 2026 Tax Tax and spending Bank of England TUC Energy Climate crisis Environment",
+        "image": "https://i.guim.co.uk/img/media/f49d9e9a8437e74e903d1a39fc4f8fe65f8a42e0/312_0_3107_2487/master/3107.jpg?width=140&quality=85&auto=format&fit=max&s=d21c7b0f0f632e96af9ef4e8dc870464"
+      },
+      {
+        "title": "‘Phenomenal’ response to new ferry plans between UK town and Isle of Man",
+        "link": "https://metro.co.uk/2026/09/17/phenomenal-response-new-ferry-plans-uk-town-isle-man-29562689/",
+        "published": "Thu, 17 Sep 2026 09:57:10 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Lifestyle Travel Cumbria Isle of Man Lake District UK Travel",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/09/PRI_201669317-38f7.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Gabby Agbonlahor makes grim prediction for Michael Carrick as Manchester United manager",
+        "link": "https://metro.co.uk/2026/09/17/gabby-agbonlahor-makes-grim-prediction-michael-carrick-man-utd-manager-29627945/",
+        "published": "Thu, 17 Sep 2026 09:51:26 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Football Sport Gabriel Agbonlahor Manchester United Michael Carrick",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312744649-4aa3.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Thousands of Barclays staff revolt over return-to-office mandate",
+        "link": "https://www.theguardian.com/business/2026/sep/17/barclays-staff-return-to-office-travel-working-from-home",
+        "published": "Thu, 17 Sep 2026 09:31:36 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Barclays Banking Working from home Business UK news",
+        "image": "https://i.guim.co.uk/img/media/9bc32c324f860303f2630f4652b42b4e8d711e80/870_0_4224_3378/master/4224.jpg?width=140&quality=85&auto=format&fit=max&s=5135be4079e321ae72d94f1a406b470c"
+      },
+      {
+        "title": "Trump threatens to stop trading with EU over ‘laughable’ membership offer to Canada",
+        "link": "https://www.theguardian.com/world/2026/sep/17/trump-calls-eu-offer-to-canada-associate-membership-laughable-threatens-tariffs",
+        "published": "Thu, 17 Sep 2026 08:25:32 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Canada European Union Europe Donald Trump Mark Carney US news Andy Burnham UK news World news Ursula von der Leyen International trade",
+        "image": "https://i.guim.co.uk/img/media/3304f9c286be7e64356fc5b03ecad3f435f6291e/650_0_6943_5555/master/6943.jpg?width=140&quality=85&auto=format&fit=max&s=2d804b29ede538481415b12eaa96ff48"
+      },
+      {
+        "title": "Life-extending drug for breast cancer patients now on NHS",
+        "link": "https://news.sky.com/story/life-extending-drug-for-breast-cancer-patients-now-on-nhs-in-england-13588795",
+        "published": "Thu, 17 Sep 2026 04:47:00 +0100",
         "source": "Sky News",
         "provider": "SKY",
         "categories": "",
-        "image": "https://e3.365dm.com/26/05/1920x1080/skynews-king-windsor_7250159.jpg?20260516132810"
-      },
-      {
-        "title": "‘Andy Burnham needs to get justice for my mum shot dead by Iran’",
-        "link": "https://metro.co.uk/2026/09/17/andy-burnham-needs-get-justice-mum-shot-dead-iran-29621856/",
-        "published": "Thu, 17 Sep 2026 05:00:00 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News World Andy Burnham Iran",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/09/comp-1789582195.png?w=646"
-      },
-      {
-        "title": "English Heritage trains new generation of scythers to maintain meadows and craft",
-        "link": "https://www.theguardian.com/uk-news/2026/sep/17/english-heritage-trains-new-generation-of-scythers-to-maintain-meadows-and-craft",
-        "published": "Thu, 17 Sep 2026 04:00:39 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "English Heritage UK news Somerset Rural affairs England Bees Wildlife Insects Environment Heritage",
-        "image": "https://i.guim.co.uk/img/media/35bce8075159ac9d972953e626980f800fce33d1/632_0_5523_4424/master/5523.jpg?width=140&quality=85&auto=format&fit=max&s=59823e4e8d9203f94674c2861e7f8a36"
+        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-nhs-file-pic_7354157.jpg?20260917055556"
       },
       {
         "title": "Chelsea chairman leaves club after selling ownership stake",
@@ -39,69 +84,51 @@
         "image": "https://e3.365dm.com/26/09/1920x1080/skynews-chelsea-fc-todd-boehly_7354144.jpg?20260917000324"
       },
       {
-        "title": "Charles told Earl Spencer ‘we’ll forget Diana soon enough’ just days after death, new book claims",
-        "link": "https://metro.co.uk/2026/09/16/charles-told-earl-spencer-well-forget-diana-soon-enough-just-days-death-new-book-claims-29624464/",
-        "published": "Wed, 16 Sep 2026 20:22:09 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News UK Diana, Princess Of Wales King Charles III Royal Family",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312738435-6711.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "‘Made in Europe’ law threatens UK plans for reset with EU",
-        "link": "https://www.theguardian.com/world/2026/sep/16/made-in-europe-laws-could-derail-uk-eu-reset-plans",
-        "published": "Wed, 16 Sep 2026 19:39:28 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "European Union Business Brexit Andy Burnham Ursula von der Leyen Foreign policy UK news Mark Carney Canada Europe Politics Trade policy",
-        "image": "https://i.guim.co.uk/img/media/fa4dea6ad0a9e303d08729a8c38ddd875c7e66e0/0_242_3544_2835/master/3544.jpg?width=140&quality=85&auto=format&fit=max&s=04ae41ae0cd5aa1464e27004f07d0dc6"
-      },
-      {
-        "title": "Buckingham Palace hits back over claims made in Earl Spencer book",
+        "title": "Palace denies allegations facing King about Harry, William and Diana",
         "link": "https://news.sky.com/story/buckingham-palace-hits-back-over-claims-made-in-earl-spencer-book-13588704",
         "published": "Wed, 16 Sep 2026 20:23:00 +0100",
         "source": "Sky News",
         "provider": "SKY",
         "categories": "",
-        "image": "https://e3.365dm.com/24/03/1920x1080/skynews-earl-spencer-princess-diana_6485463.jpg?20240310095409"
-      },
-      {
-        "title": "English far-right extremist who discussed killing Jews, Muslims and migrants is jailed",
-        "link": "https://www.theguardian.com/uk-news/2026/sep/16/ivan-jennings-stafford-jailed-far-right-terrorism",
-        "published": "Wed, 16 Sep 2026 18:53:15 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Crime Far right Race UK news Immigration and asylum UK security and counter-terrorism North of England Social media Staffordshire",
-        "image": "https://i.guim.co.uk/img/media/6fec82e85afed27425347c5eefce27160d50def6/0_109_1129_903/master/1129.jpg?width=140&quality=85&auto=format&fit=max&s=c9749b9637c87f768a76ea49382b4cae"
-      },
-      {
-        "title": "Body found in search for missing three-year-old Noah Woods",
-        "link": "https://news.sky.com/story/noah-woods-body-found-in-search-for-missing-three-year-old-boy-13588691",
-        "published": "Wed, 16 Sep 2026 19:52:00 +0100",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-noah-merriam-close_7353591.jpg?20260916184356"
-      },
-      {
-        "title": "First picture of British Major killed in road traffic incident in Ukraine",
-        "link": "https://metro.co.uk/2026/09/16/first-picture-british-major-killed-road-traffic-incident-ukraine-29623984/",
-        "published": "Wed, 16 Sep 2026 17:17:43 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News UK Death Ukraine",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312723624-ffc1-e1789578648804.jpg?quality=90&strip=all&w=399"
+        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-diana-dress-revenge_7346770.jpg?20260910073600"
       }
     ],
     "WORLD": [
       {
-        "title": "Australian politics live: Burke warns cutting migration too much would ‘trash economy’ and hoses down accusations of tension with Albanese and Chalmers",
+        "title": "Prominent athlete tells Alan Jones trial he sent shirtless photo before unwanted kiss he wished ‘never happened’",
+        "link": "https://www.theguardian.com/australia-news/2026/sep/17/alan-jones-trial-athlete-sent-shirtless-photo-before-unwanted-kiss-ntwnfb",
+        "published": "Thu, 17 Sep 2026 08:19:03 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Alan Jones trial Alan Jones Australian media Australia news",
+        "image": "https://i.guim.co.uk/img/media/e1494d959a4f666b1f475d079d5237065c402ba1/1195_15_3982_3186/master/3982.jpg?width=140&quality=85&auto=format&fit=max&s=a04e4dffa3480c3c3f0d447749b444a6"
+      },
+      {
+        "title": "Queensland to create outback boot camps for youth offenders – as it happened",
         "link": "https://www.theguardian.com/australia-news/live/2026/sep/17/labor-immigration-policy-tony-burke-anthony-albanese-one-nation-ntwnfb",
-        "published": "Thu, 17 Sep 2026 05:04:50 GMT",
+        "published": "Thu, 17 Sep 2026 08:05:02 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
         "categories": "Australia news Australian politics Australian economy Business Health Australian education Australian immigration and asylum Australian foreign policy Coalition Labor party One Nation",
-        "image": "https://i.guim.co.uk/img/media/5858ac2b433f6a5cf2328f58afd72c572ec5d6bd/562_0_5618_4495/master/5618.jpg?width=140&quality=85&auto=format&fit=max&s=e0ef00d379aac4094e1083dc206fca8a"
+        "image": "https://i.guim.co.uk/img/media/3e5b5cd35dea8f7d51d278aacb4ad946962346ae/1930_168_3664_2930/master/3664.jpg?width=140&quality=85&auto=format&fit=max&s=381ca41c5f76ca2a80f7076df4e6d974"
+      },
+      {
+        "title": "Australia Post worker stole dozens of bank cards to fund ‘debilitating’ gambling addiction",
+        "link": "https://www.theguardian.com/business/2026/sep/17/australia-post-postie-stolen-bank-cards-jail-ntwnfb",
+        "published": "Thu, 17 Sep 2026 06:41:56 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Sydney Australia Post Australia news",
+        "image": "https://i.guim.co.uk/img/media/f034c27ead66c4e73877c5ee47ed52c78944d21a/1807_379_6189_4952/master/6189.jpg?width=140&quality=85&auto=format&fit=max&s=9b890c867f132144fa0551d6a16dbc7c"
+      },
+      {
+        "title": "At least 82 people killed after gold mine collapses in Sudan",
+        "link": "https://news.sky.com/story/gold-mine-collapse-kills-82-people-in-war-torn-sudan-dozens-more-feared-dead-13588822",
+        "published": "Thu, 17 Sep 2026 07:24:00 +0100",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-kordofan-sudan_7354231.jpg?20260917082129"
       },
       {
         "title": "‘Andy Burnham needs to get justice for my mum shot dead by Iran’",
@@ -113,15 +140,6 @@
         "image": "https://metro.co.uk/wp-content/uploads/2026/09/comp-1789582195.png?w=646"
       },
       {
-        "title": "The 3 best destination detours in Europe, according to a travel expert",
-        "link": "https://metro.co.uk/2026/09/17/3-best-destination-detours-europe-according-a-travel-expert-29564015/",
-        "published": "Thu, 17 Sep 2026 05:00:00 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Lifestyle Travel Austria Europe Travel Germany Italy Travel Inspiration",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_242911685-f715.jpg?quality=90&strip=all&w=646"
-      },
-      {
         "title": "‘Like a Disney movie’: Three wild dog brothers make Africa’s longest journey",
         "link": "https://www.theguardian.com/environment/2026/sep/17/wildlife-african-wild-dogs-longest-journey-zambia-conservation-aoe",
         "published": "Thu, 17 Sep 2026 04:00:39 GMT",
@@ -129,33 +147,6 @@
         "provider": "GUARDIAN",
         "categories": "Endangered species Animals Wildlife World news Africa Conservation IUCN red list of endangered species Mammals Environment National parks Zambia",
         "image": "https://i.guim.co.uk/img/media/6e7727a328fa9baa76b7710e763fcc2097bcfbaa/1610_411_2635_2110/master/2635.jpg?width=140&quality=85&auto=format&fit=max&s=630cc8d86fda3829042835c8f98e0cfd"
-      },
-      {
-        "title": "Prominent athlete tells Alan Jones trial he sent shirtless photo before unwanted kiss he wished ‘never happened’",
-        "link": "https://www.theguardian.com/australia-news/2026/sep/17/alan-jones-trial-athlete-sent-shirtless-photo-before-unwanted-kiss-ntwnfb",
-        "published": "Thu, 17 Sep 2026 03:50:08 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Alan Jones trial Alan Jones Australian media Australia news",
-        "image": "https://i.guim.co.uk/img/media/e1494d959a4f666b1f475d079d5237065c402ba1/1195_15_3982_3186/master/3982.jpg?width=140&quality=85&auto=format&fit=max&s=a04e4dffa3480c3c3f0d447749b444a6"
-      },
-      {
-        "title": "Fiji declares national HIV emergency as Pacific nation grapples with surge in cases",
-        "link": "https://www.theguardian.com/world/2026/sep/17/fiji-declares-national-hiv-emergency-infections-surge-health",
-        "published": "Thu, 17 Sep 2026 01:43:49 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Fiji Aids and HIV Pacific islands Drugs trade Drugs Sexual health Epidemics Asia Pacific",
-        "image": "https://i.guim.co.uk/img/media/2fbd472d3604a22f2de69ca6c211cf23694f4847/378_0_2000_1600/master/2000.jpg?width=140&quality=85&auto=format&fit=max&s=b1c9406fae62ed14e037626f88c8c79f"
-      },
-      {
-        "title": "First picture of British Major killed in road traffic incident in Ukraine",
-        "link": "https://metro.co.uk/2026/09/16/first-picture-british-major-killed-road-traffic-incident-ukraine-29623984/",
-        "published": "Wed, 16 Sep 2026 17:17:43 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News UK Death Ukraine",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312723624-ffc1-e1789578648804.jpg?quality=90&strip=all&w=399"
       },
       {
         "title": "Real Madrid defend players' freedom of expression after Mbappe and Vinicius' shirt stance",
@@ -167,6 +158,15 @@
         "image": "https://e3.365dm.com/26/09/1920x1080/skynews-vinicius-junior-kylian-mbappe_7353747.jpg?20260916182002"
       },
       {
+        "title": "Plane cabin collapses on passengers during emergency landing",
+        "link": "https://metro.co.uk/2026/09/16/passengers-scream-horror-planes-cabin-collapses-emergency-landing-29621544/",
+        "published": "Wed, 16 Sep 2026 14:42:35 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News World Flights Iran",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312696459-8130-e1789569151904.jpg?quality=90&strip=all&w=638"
+      },
+      {
         "title": "UK soldier who died in Ukraine was 'one of most talented intelligence officers of his generation'",
         "link": "https://news.sky.com/story/british-soldier-who-died-in-road-crash-in-ukraine-has-been-named-13585867",
         "published": "Wed, 16 Sep 2026 14:10:00 +0100",
@@ -176,16 +176,34 @@
         "image": "https://e3.365dm.com/26/09/1920x1080/skynews-paul-wilks-major_7353888.jpg?20260916185848"
       },
       {
-        "title": "At least 21 killed and dozens trapped after war-damaged Gaza building collapses",
-        "link": "https://news.sky.com/story/at-least-20-killed-and-dozens-trapped-after-war-damaged-building-in-gaza-collapses-13588536",
-        "published": "Wed, 16 Sep 2026 11:18:00 +0100",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-gaza-palestinians_7353536.jpg?20260916110428"
+        "title": "Alleged killer’s chilling joke before shooting three men dead on surfing holiday",
+        "link": "https://metro.co.uk/2026/09/16/alleged-killers-chilling-joke-shooting-three-men-dead-29620092/",
+        "published": "Wed, 16 Sep 2026 13:07:17 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News World Australia Crime News Mexico",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_207962986-b193.jpg?quality=90&strip=all&w=646"
       }
     ],
     "POLITICS": [
+      {
+        "title": "Tories challenge chancellor to rule out tax rises in budget as Badenoch labelled ‘embarrassment’ for Bank of England gaffe – UK politics live",
+        "link": "https://www.theguardian.com/politics/live/2026/sep/17/conservatives-badenoch-griffiths-healey-burnham-tax-rises-budget-economy-bank-of-england-latest-uk-politics-news-updates",
+        "published": "Thu, 17 Sep 2026 10:01:35 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Politics UK news Labour Conservatives Kemi Badenoch Budget 2026 Tax Tax and spending Bank of England TUC Energy Climate crisis Environment",
+        "image": "https://i.guim.co.uk/img/media/f49d9e9a8437e74e903d1a39fc4f8fe65f8a42e0/312_0_3107_2487/master/3107.jpg?width=140&quality=85&auto=format&fit=max&s=d21c7b0f0f632e96af9ef4e8dc870464"
+      },
+      {
+        "title": "Peers call for UK to enact tobacco-style ban on gambling advertising",
+        "link": "https://www.theguardian.com/society/2026/sep/17/peers-call-for-uk-to-enact-tobacco-style-ban-gambling-advertising",
+        "published": "Thu, 17 Sep 2026 06:00:42 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Gambling UK news Society Advertising Andy Burnham Tony Blair Politics Sport betting Media Business",
+        "image": "https://i.guim.co.uk/img/media/e0a9190678e0ad16cb8762592b7eca7652c3546c/300_0_5018_4016/master/5018.jpg?width=140&quality=85&auto=format&fit=max&s=9bca9510dc064cd25b7e420b248c2b24"
+      },
       {
         "title": "‘Made in Europe’ law threatens UK plans for reset with EU",
         "link": "https://www.theguardian.com/world/2026/sep/16/made-in-europe-laws-could-derail-uk-eu-reset-plans",
@@ -205,24 +223,6 @@
         "image": "https://i.guim.co.uk/img/media/7946584c9a1642a391b7e58a49948a6dddea6efb/463_0_2365_1891/master/2365.jpg?width=140&quality=85&auto=format&fit=max&s=62293c0c62e5f01151eea554d286b540"
       },
       {
-        "title": "Planning permission for new Scottish AI datacentres suspended for up to a year",
-        "link": "https://www.theguardian.com/uk-news/2026/sep/16/datacentres-scotland-environmental-assessments-ai-boom",
-        "published": "Wed, 16 Sep 2026 18:28:12 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Datacentres - UK AI (artificial intelligence) UK news Computing Scotland Edinburgh Scottish politics Planning policy Technology policy Infrastructure Scottish National party (SNP) Politics Technology",
-        "image": "https://i.guim.co.uk/img/media/f4c35ffc77668ec92a724e23db360ec4f31b7a93/1126_0_6830_5464/master/6830.jpg?width=140&quality=85&auto=format&fit=max&s=b5e093ca3022632469e3a1ac93e82e0e"
-      },
-      {
-        "title": "Greens just four points behind Labour in urban areas, poll reveals",
-        "link": "https://www.theguardian.com/politics/2026/sep/16/green-party-four-points-behind-labour-urban-constituencies",
-        "published": "Wed, 16 Sep 2026 18:00:15 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Green party Labour Zack Polanski Politics Holborn and St Pancras byelection Immigration and asylum UK news",
-        "image": "https://i.guim.co.uk/img/media/7d38fe0863cd23a6491b3b600f2ec16f213c0cc3/681_0_6830_5464/master/6830.jpg?width=140&quality=85&auto=format&fit=max&s=860300ed844ff085d9db5114a30f6bde"
-      },
-      {
         "title": "Where has Nigel Farage’s frantic fortnight left Reform?",
         "link": "https://metro.co.uk/2026/09/16/nigel-farages-frantic-fortnight-left-reform-29623443/",
         "published": "Wed, 16 Sep 2026 17:00:00 +0000",
@@ -230,6 +230,15 @@
         "provider": "METRO",
         "categories": "News Politics Nigel Farage Reform UK",
         "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310943296-1d91.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "What does a party of ex-PMs reveal?",
+        "link": "https://news.sky.com/story/what-does-a-party-of-former-pms-reveal-13588610",
+        "published": "Wed, 16 Sep 2026 14:34:00 +0100",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/08/1920x1080/skynews-pasaa-sam-and-anne_7332493.png?20260827102415"
       },
       {
         "title": "Andy Burnham back to work after dad’s death but says ‘will be hard for a while’",
@@ -259,15 +268,6 @@
         "image": "https://e3.365dm.com/26/09/1920x1080/skynews-wandsworth-borough_7353278.jpg?20260916021220"
       },
       {
-        "title": "Why ministers paid £2m to influencers",
-        "link": "https://news.sky.com/story/why-ministers-paid-2m-to-influencers-13586155",
-        "published": "Tue, 15 Sep 2026 13:32:00 +0100",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/08/1920x1080/skynews-pasaa-sam-and-anne_7332493.png?20260827102415"
-      },
-      {
         "title": "Bearskin caps worn by King's Guards should be replaced with fake fur alternative, MPs say",
         "link": "https://news.sky.com/story/bearskin-caps-worn-by-kings-guards-should-be-replaced-with-fake-fur-alternative-mps-say-13585993",
         "published": "Mon, 14 Sep 2026 23:46:00 +0100",
@@ -279,7 +279,16 @@
     ],
     "BUSINESS": [
       {
-        "title": "Trump demands interest rates be lowered 'fast' after Fed announces hike",
+        "title": "Payments company Ryft lands £20m funding for expansion push",
+        "link": "https://news.sky.com/story/payments-company-ryft-lands-20m-funding-for-expansion-push-13588827",
+        "published": "Thu, 17 Sep 2026 07:51:00 +0100",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-ryft-founders_7354377.jpg?20260917101742"
+      },
+      {
+        "title": "Trump demands interest rate be lowered 'fast' after Fed announces hike",
         "link": "https://news.sky.com/story/trump-demands-interest-rates-be-lowered-fast-after-fed-announces-first-hike-in-three-years-13588775",
         "published": "Wed, 16 Sep 2026 22:37:00 +0100",
         "source": "Sky News",
@@ -333,15 +342,6 @@
         "image": "https://e3.365dm.com/24/10/1920x1080/skynews-keir-starmer-investment_6715447.jpg?20241014092350"
       },
       {
-        "title": "Flora Food Group owner KKR to kick off €7bn auction",
-        "link": "https://news.sky.com/story/flora-food-group-owner-kkr-to-kick-off-7bn-auction-13588524",
-        "published": "Wed, 16 Sep 2026 10:42:00 +0100",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/17/04/1920x1080/afe65292dfaba6601a373808fc1e175664f4c1ad054fe7e8c84b096bb68d7a67_3924722.jpg?20170406102130"
-      },
-      {
         "title": "I earn £60,000 – so why do I feel poorer than ever?",
         "link": "https://metro.co.uk/2026/09/07/im-a-money-expert-whose-salary-doubled-feel-poorer-29553490/",
         "published": "Mon, 07 Sep 2026 12:15:00 +0000",
@@ -371,67 +371,58 @@
     ],
     "TECH": [
       {
-        "title": "King to host AI summit as fears grow internet could be 'swarmed'",
-        "link": "https://news.sky.com/story/king-to-host-ai-summit-as-fears-grow-over-threat-of-technology-13588787",
-        "published": "Thu, 17 Sep 2026 06:00:00 +0100",
+        "title": "Slow Horses season 6’s execution-style violence takes the thriller to a new extreme",
+        "link": "https://metro.co.uk/2026/09/17/slow-horses-season-6s-execution-style-violence-takes-thriller-a-new-extreme-29628366/",
+        "published": "Thu, 17 Sep 2026 09:43:33 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Entertainment TV Apple TV Gary Oldman Joanna Scanlan Kristin Scott Thomas Olivia Cooke Slow Horses TV reviews",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_311305298-7d7c.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Big AI is trying to own the pathway to work. Universities shouldn’t play along | Ella Hafermalz",
+        "link": "https://www.theguardian.com/technology/2026/sep/17/big-ai-work-universities",
+        "published": "Thu, 17 Sep 2026 09:00:44 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Technology AI (artificial intelligence)",
+        "image": "https://i.guim.co.uk/img/media/6beb43374960e36b064da9ccdceb4cace74c61b6/379_0_4242_3395/master/4242.jpg?width=140&quality=85&auto=format&fit=max&s=084f6e15df7236fd272804645281c192"
+      },
+      {
+        "title": "PS5 games have vanished from Steam in the UK and no one knows why",
+        "link": "https://metro.co.uk/2026/09/17/ps5-games-vanished-steam-uk-no-one-knows-29627628/",
+        "published": "Thu, 17 Sep 2026 08:47:37 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Entertainment Gaming Games news PC Games PlayStation 5 Sony Steam Valve Corporation",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312806215-ddf1.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "OpenAI reveals cases of ‘concerning’ AI behaviour as it announces new disclosure system",
+        "link": "https://www.theguardian.com/technology/2026/sep/17/openai-reports-concerning-ai-behaviour-jailbreak-talking-to-other-agents",
+        "published": "Thu, 17 Sep 2026 06:58:25 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "OpenAI AI (artificial intelligence) Computing Technology Hacking Anthropic Chatbots Ethics Data and computer security World news",
+        "image": "https://i.guim.co.uk/img/media/a43244445ebccb84b7cc3cc445d8312f49385aaf/471_0_2915_2333/master/2915.jpg?width=140&quality=85&auto=format&fit=max&s=a25a50bddde7016dc4299558d8cbecd9"
+      },
+      {
+        "title": "Life-extending drug for breast cancer patients now on NHS",
+        "link": "https://news.sky.com/story/life-extending-drug-for-breast-cancer-patients-now-on-nhs-in-england-13588795",
+        "published": "Thu, 17 Sep 2026 04:47:00 +0100",
         "source": "Sky News",
         "provider": "SKY",
         "categories": "",
-        "image": "https://e3.365dm.com/26/05/1920x1080/skynews-king-windsor_7250159.jpg?20260516132810"
+        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-nhs-file-pic_7354157.jpg?20260917055556"
       },
       {
-        "title": "Games Inbox: Is the new Resident Evil the best video game movie ever?",
-        "link": "https://metro.co.uk/2026/09/17/games-inbox-new-resident-evil-best-video-game-movie-ever-29625000/",
-        "published": "Thu, 17 Sep 2026 00:10:00 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Entertainment Gaming Capcom Game Pass Games Inbox Nintendo PlayStation 6 Resident Evil The Legend of Zelda Xbox",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/07/110209697-0-image-a-20_1784818639784.jpg?quality=90&strip=all&w=636"
-      },
-      {
-        "title": "Sniper Dan review – a shooting gallery for pacifists",
-        "link": "https://metro.co.uk/2026/09/17/sniper-dan-review-a-shooting-gallery-pacifists-29623328/",
-        "published": "Thu, 17 Sep 2026 00:00:00 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Entertainment Gaming Games news Games reviews Grand Theft Auto Indie Games Nintendo Switch 2 Nintendo Switch Games PC Games PlayStation 5 Xbox Series X",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312716844-0f4f.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Daily horoscope September 16, 2026: Today’s predictions for your star sign",
-        "link": "https://metro.co.uk/2026/09/17/daily-horoscope-september-17-2026-predictions-star-sign-29624818/",
-        "published": "Wed, 16 Sep 2026 23:01:00 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Horoscopes Lifestyle Aquarius Aries Astrology Cancer (star sign) Capricorn Gemini Leo Libra Pisces Sagittarius Scorpio Taurus Virgo",
-        "image": "https://metro.co.uk/wp-content/uploads/2023/04/new-horoscope-2023-02-a5db.gif?w=646"
-      },
-      {
-        "title": "House speaker calls early recess before midterms amid AI regulation frenzy",
-        "link": "https://www.theguardian.com/us-news/2026/sep/16/mike-johnson-cancels-house-vote-hegseth",
-        "published": "Wed, 16 Sep 2026 17:10:42 GMT",
+        "title": "Planning permission for new Scottish AI datacentres suspended for up to a year",
+        "link": "https://www.theguardian.com/uk-news/2026/sep/16/datacentres-scotland-environmental-assessments-ai-boom",
+        "published": "Wed, 16 Sep 2026 18:28:12 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
-        "categories": "House of Representatives Mike Johnson Pete Hegseth Republicans US-Israel war on Iran AI (artificial intelligence) US Congress US politics US news",
-        "image": "https://i.guim.co.uk/img/media/cb5731324e1ba2cb93c9867cfb3153e1559a69a2/776_498_3946_3157/master/3946.jpg?width=140&quality=85&auto=format&fit=max&s=6dea900c817bacf1496d21c378fe5259"
-      },
-      {
-        "title": "‘Godfather of AI’ says tech regulation is nearing Covid-style pivot moment",
-        "link": "https://www.theguardian.com/technology/2026/sep/16/ai-tech-regulation-government-action-yoshua-bengio",
-        "published": "Wed, 16 Sep 2026 15:00:23 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "AI (artificial intelligence) Computing Technology UK news",
-        "image": "https://i.guim.co.uk/img/media/b4261d7b8dd8d6c71cd2325bbb24b1f8a7a83d36/379_84_2522_2017/master/2522.jpg?width=140&quality=85&auto=format&fit=max&s=74e890e316ab98125f2af673c84b0c60"
-      },
-      {
-        "title": "Amazon to launch Ring ‘neighbourhood watch’ app in UK amid US privacy fears",
-        "link": "https://www.theguardian.com/technology/2026/sep/16/amazon-ring-neighbours-app-uk-doorbell-privacy-safety",
-        "published": "Wed, 16 Sep 2026 14:00:21 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Amazon Technology Apps Technology sector Business Consumer affairs Money UK news",
-        "image": "https://i.guim.co.uk/img/media/430b9a8b2f6330beab39c5e583b9064bc0a0e6cb/0_105_2000_1600/master/2000.jpg?width=140&quality=85&auto=format&fit=max&s=da183508c99d864ec3687962c65eb370"
+        "categories": "Datacentres - UK AI (artificial intelligence) UK news Computing Scotland Edinburgh Scottish politics Planning policy Technology policy Infrastructure Scottish National party (SNP) Politics Technology",
+        "image": "https://i.guim.co.uk/img/media/f4c35ffc77668ec92a724e23db360ec4f31b7a93/1126_0_6830_5464/master/6830.jpg?width=140&quality=85&auto=format&fit=max&s=b5e093ca3022632469e3a1ac93e82e0e"
       },
       {
         "title": "No need for new laws on AI, says Nvidia boss",
@@ -452,60 +443,78 @@
         "image": "https://e3.365dm.com/26/09/1920x1080/skynews-earth-space-satellite_7352035.jpg?20260915102743"
       },
       {
-        "title": "'One in five' Britons using AI to get their news, watchdog says",
-        "link": "https://news.sky.com/story/one-in-five-britons-using-ai-to-get-their-news-says-ofcom-13585860",
-        "published": "Mon, 14 Sep 2026 15:44:00 +0100",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-chatgpt-chat-gpt-ai_7351518.jpg?20260914155951"
+        "title": "House speaker calls early recess before midterms amid AI regulation frenzy",
+        "link": "https://www.theguardian.com/us-news/2026/sep/16/mike-johnson-cancels-house-vote-hegseth",
+        "published": "Wed, 16 Sep 2026 17:10:42 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "House of Representatives Mike Johnson Pete Hegseth Republicans US-Israel war on Iran AI (artificial intelligence) US Congress US politics US news",
+        "image": "https://i.guim.co.uk/img/media/cb5731324e1ba2cb93c9867cfb3153e1559a69a2/776_498_3946_3157/master/3946.jpg?width=140&quality=85&auto=format&fit=max&s=6dea900c817bacf1496d21c378fe5259"
+      },
+      {
+        "title": "‘Godfather of AI’ says tech regulation is nearing Covid-style pivot moment",
+        "link": "https://www.theguardian.com/technology/2026/sep/16/ai-tech-regulation-government-action-yoshua-bengio",
+        "published": "Wed, 16 Sep 2026 15:00:23 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "AI (artificial intelligence) Computing Technology UK news",
+        "image": "https://i.guim.co.uk/img/media/b4261d7b8dd8d6c71cd2325bbb24b1f8a7a83d36/379_84_2522_2017/master/2522.jpg?width=140&quality=85&auto=format&fit=max&s=74e890e316ab98125f2af673c84b0c60"
       }
     ],
     "ENTERTAINMENT": [
       {
-        "title": "Macklemore announces $1m donation after row over Ed Sheeran tour",
+        "title": "Katie Price’s ex Lee Andrews left businessman penniless ‘after conning him out of $200,000’",
+        "link": "https://metro.co.uk/2026/09/17/katie-prices-ex-lee-andrews-left-businessman-penniless-after-conning-200-000-29627206/",
+        "published": "Thu, 17 Sep 2026 10:18:41 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Entertainment Showbiz Katie Price Lee Andrews",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/07/SEI_303821334-98c7-e1784306349466.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Slow Horses season 6’s execution-style violence takes the thriller to a new extreme",
+        "link": "https://metro.co.uk/2026/09/17/slow-horses-season-6s-execution-style-violence-takes-thriller-a-new-extreme-29628366/",
+        "published": "Thu, 17 Sep 2026 09:43:33 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Entertainment TV Apple TV Gary Oldman Joanna Scanlan Kristin Scott Thomas Olivia Cooke Slow Horses TV reviews",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_311305298-7d7c.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "EastEnders solves major flashforward mystery after nine months",
+        "link": "https://metro.co.uk/2026/09/17/eastenders-solves-major-flashforward-mystery-nine-months-29627147/",
+        "published": "Thu, 17 Sep 2026 09:43:12 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "EastEnders Soaps Jack Branning Penny Branning Suki Panesar-Unwin Vinny Panesar",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_311194247-86d8.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Paloma Faith calls out Ed Sheeran over Macklemore response: ‘It really upset me’",
+        "link": "https://metro.co.uk/2026/09/17/paloma-faith-calls-ed-sheeran-macklemore-response-it-really-upset-me-29627723/",
+        "published": "Thu, 17 Sep 2026 09:41:38 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Entertainment Showbiz Channel 4 Ed Sheeran Krishnan Guru-Murthy Paloma Faith",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312807060-5b2f.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Macklemore announces $1m donation after Sheeran row - as stadium owner responds",
         "link": "https://news.sky.com/story/macklemore-pledges-1m-from-ed-sheeran-tour-to-palestinian-aid-groups-13588794",
         "published": "Thu, 17 Sep 2026 03:02:00 +0100",
         "source": "Sky News",
         "provider": "SKY",
         "categories": "",
-        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-macklemore-concert_7351657.jpg?20260914195750"
+        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-macklemore-ed-sheeran_7354224.jpg?20260917080531"
       },
       {
-        "title": "Games Inbox: Is the new Resident Evil the best video game movie ever?",
-        "link": "https://metro.co.uk/2026/09/17/games-inbox-new-resident-evil-best-video-game-movie-ever-29625000/",
-        "published": "Thu, 17 Sep 2026 00:10:00 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Entertainment Gaming Capcom Game Pass Games Inbox Nintendo PlayStation 6 Resident Evil The Legend of Zelda Xbox",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/07/110209697-0-image-a-20_1784818639784.jpg?quality=90&strip=all&w=636"
-      },
-      {
-        "title": "Macklemore pledges his $1m Ed Sheeran tour salary to Palestine",
+        "title": "Macklemore pledges his $1m Ed Sheeran tour salary to Palestine aid",
         "link": "https://www.theguardian.com/music/2026/sep/16/macklemore-ed-sheeran-tour-salary-palestine",
         "published": "Wed, 16 Sep 2026 21:26:53 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
         "categories": "Macklemore Israel-Gaza war Palestine Ed Sheeran Music Culture US news",
         "image": "https://i.guim.co.uk/img/media/c774c5f2d2cb2399ee186608f9d5144211b26850/973_942_3820_3056/master/3820.jpg?width=140&quality=85&auto=format&fit=max&s=97869324dcd5f6a3e59b7948b3da1a7b"
-      },
-      {
-        "title": "Jennifer Garner’s stark reaction to being cast as ex Ben Affleck’s wife",
-        "link": "https://metro.co.uk/2026/09/16/jennifer-garners-stark-reaction-cast-ex-ben-afflecks-wife-29624557/",
-        "published": "Wed, 16 Sep 2026 20:39:23 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Entertainment Film Ben Affleck Jennifer Garner US Showbiz news",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_218573132-20f4-e1789588494494.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Macklemore donates $1,000,000 earnings from Ed Sheeran tour to Palestinian support groups",
-        "link": "https://metro.co.uk/2026/09/16/macklemore-donates-1-000-000-earnings-ed-sheeran-tour-palestinian-support-groups-29624800/",
-        "published": "Wed, 16 Sep 2026 20:37:28 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Entertainment Showbiz Ed Sheeran US music",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310098758-6c9a-e1789161725148.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "Charli xcx Music, Fashion, Film tour review – an electrifying and deafening pop evolution",
@@ -541,72 +550,81 @@
         "source": "Sky News",
         "provider": "SKY",
         "categories": "",
-        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-ed-sheeran-macklemore_7352399.jpg?20260915171404"
-      },
-      {
-        "title": "The 'Sultan of Sequins' dies: Cher and Elton John lead tributes to legendary costume and fashion designer",
-        "link": "https://news.sky.com/story/cher-sabrina-carpenter-miley-cyrus-and-elton-john-lead-tributes-to-legendary-costume-and-fashion-designer-bob-mackie-13586065",
-        "published": "Tue, 15 Sep 2026 09:42:00 +0100",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-sabrina-carpenter-cher_7352033.jpg?20260915102946"
+        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-ed-sheeran-macklemore_7352423.jpg?20260915175456"
       }
     ],
     "STOCKS": [
       {
+        "title": "Is the eye-popping 7.3% yield on Legal & General shares really sustainable?",
+        "link": "https://www.twelfthmagpie.com/2026/09/17/is-the-eye-popping-7-3-yield-on-legal-general-shares-really-sustainable/",
+        "published": "Thu, 17 Sep 2026 09:58:00 +0000",
+        "source": "The Twelfth Magpie",
+        "provider": "MAGPIE",
+        "categories": "Dividend Shares Investing Articles",
+        "image": "https://www.twelfthmagpie.com/wp-content/uploads/2022/06/Perturbed.jpg"
+      },
+      {
         "title": "Dow Jones Futures Rise After Hawkish Fed, Warsh Hit Stocks, Trump Fumes; AMD, Bloom Energy Eye Buy Points",
         "link": "https://uk.finance.yahoo.com/m/d657761c-bf99-3091-88b4-e770125e96a8/dow-jones-futures-rise-after.html?.tsrc=rss",
-        "published": "Thu, 17 Sep 2026 03:04:13 +0000",
+        "published": "Thu, 17 Sep 2026 09:55:43 +0000",
         "source": "Yahoo Finance",
         "provider": "YAHOO",
         "categories": "",
         "image": ""
       },
       {
-        "title": "TXO Partners LP (TXO) Declines More Than Market: Some Information for Investors",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/txo-partners-lp-txo-declines-221504118.html?.tsrc=rss",
-        "published": "Wed, 16 Sep 2026 22:15:04 +0000",
-        "source": "Yahoo Finance",
-        "provider": "YAHOO",
+        "title": "Europe's low gas stocks pile on the economic and political pressure",
+        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPT3ZaaXBVeVNMSm9TdlAzaWhnMDdTRTZIdENoSHBiVW1QQUx3eGxlOFk5cWJtcl91VVBud284a2N4OVM5dXJmMWZlb2NfLXdvMkswNVFmR0lmX3NzaUEzdmp1aWYtVjAxangtdGoxM2dXUUFZcm96NnMyVW0xOVY0NTB1aDVMbUdSTDlpVG9jSDhtcGZMUC02cTNVNGRhWnlmNktCR3dCZ0F4eE0?oc=5",
+        "published": "Thu, 17 Sep 2026 09:53:52 GMT",
+        "source": "Reuters",
+        "provider": "REUTERS",
         "categories": "",
         "image": ""
       },
       {
-        "title": "D.R. Horton (DHI) Falls More Steeply Than Broader Market: What Investors Need to Know",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/d-r-horton-dhi-falls-221502207.html?.tsrc=rss",
-        "published": "Wed, 16 Sep 2026 22:15:02 +0000",
-        "source": "Yahoo Finance",
-        "provider": "YAHOO",
-        "categories": "",
-        "image": ""
-      },
-      {
-        "title": "DaVita HealthCare (DVA) Advances While Market Declines: Some Information for Investors",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/davita-healthcare-dva-advances-while-220006573.html?.tsrc=rss",
-        "published": "Wed, 16 Sep 2026 22:00:06 +0000",
-        "source": "Yahoo Finance",
-        "provider": "YAHOO",
-        "categories": "",
-        "image": ""
-      },
-      {
-        "title": "Forget Lloyds shares! This FTSE bank is up 60% in the past year",
-        "link": "https://www.twelfthmagpie.com/2026/09/16/forget-lloyds-shares-this-ftse-bank-is-up-60-in-the-past-year/",
-        "published": "Wed, 16 Sep 2026 15:46:00 +0000",
+        "title": "Down 59%, is Pets at Home stock a FTSE 250 bargain?",
+        "link": "https://www.twelfthmagpie.com/2026/09/17/down-59-is-pets-at-home-stock-a-ftse-250-bargain/",
+        "published": "Thu, 17 Sep 2026 09:37:52 +0000",
         "source": "The Twelfth Magpie",
         "provider": "MAGPIE",
-        "categories": "Investing Articles Investing For Beginners",
-        "image": "https://www.twelfthmagpie.com/wp-content/uploads/2023/03/Bullish-1200x675.jpg"
+        "categories": "Dividend Shares Investing Articles",
+        "image": "https://www.twelfthmagpie.com/wp-content/uploads/2026/07/AdobeStock_250329925-1200x800.jpeg"
       },
       {
-        "title": "Prediction: by September 2027, the SpaceX share price could surge 66%",
-        "link": "https://www.twelfthmagpie.com/2026/09/16/prediction-by-september-2027-the-spacex-share-price-could-surge-66/",
-        "published": "Wed, 16 Sep 2026 15:06:00 +0000",
+        "title": "Near a 19-year-high, is there still value in Aviva shares?",
+        "link": "https://www.twelfthmagpie.com/2026/09/17/near-a-19-year-high-is-there-still-value-in-aviva-shares/",
+        "published": "Thu, 17 Sep 2026 09:35:33 +0000",
         "source": "The Twelfth Magpie",
         "provider": "MAGPIE",
-        "categories": "Investing Articles US Stock",
-        "image": "https://www.twelfthmagpie.com/wp-content/uploads/2024/06/Spaceship-1200x764.jpg"
+        "categories": "Dividend Shares Investing Articles",
+        "image": "https://www.twelfthmagpie.com/wp-content/uploads/2023/10/Aviva-meeting-room-1200x675.jpg"
+      },
+      {
+        "title": "Stock Futures Surge as Wall Street Buys the Dip Following Fed Selloff",
+        "link": "https://uk.finance.yahoo.com/m/682efcbe-ab54-38a6-929e-d00654e40b90/stock-futures-surge-as-wall.html?.tsrc=rss",
+        "published": "Thu, 17 Sep 2026 09:31:50 +0000",
+        "source": "Yahoo Finance",
+        "provider": "YAHOO",
+        "categories": "",
+        "image": ""
+      },
+      {
+        "title": "Wall Street Futures Gain as Fed Signals Possible Further Rate Hikes and BoE Decision Approaches: Dow Jones, S&P, Nasdaq",
+        "link": "https://uk.advfn.com/market-news/article/23117/wall-street-futures-gain-as-fed-signals-possible-further-rate-hikes-and-boe-decision-approaches-dow-jones-sp-nasdaq?.tsrc=rss",
+        "published": "Thu, 17 Sep 2026 09:09:24 +0000",
+        "source": "Yahoo Finance",
+        "provider": "YAHOO",
+        "categories": "",
+        "image": "https://uk.advfn-editors.com/wp-content/uploads/2026/05/wall-street-flag-NEW-SIZE.png"
+      },
+      {
+        "title": "As Lloyds shares stumble, is that dividend yield safe?",
+        "link": "https://www.twelfthmagpie.com/2026/09/17/as-lloyds-shares-stumble-is-that-dividend-yield-safe/",
+        "published": "Thu, 17 Sep 2026 07:41:00 +0000",
+        "source": "The Twelfth Magpie",
+        "provider": "MAGPIE",
+        "categories": "Dividend Shares Investing Articles",
+        "image": "https://www.twelfthmagpie.com/wp-content/uploads/2025/12/2026-4-1200x800.jpg"
       },
       {
         "title": "India's NSE allots shares worth $703 million to anchor investors; LIC top bidder",
@@ -618,27 +636,9 @@
         "image": ""
       },
       {
-        "title": "UK stocks: a low-effort way to build wealth?",
-        "link": "https://www.twelfthmagpie.com/2026/09/16/uk-stocks-a-low-effort-way-to-build-wealth/",
-        "published": "Wed, 16 Sep 2026 13:26:58 +0000",
-        "source": "The Twelfth Magpie",
-        "provider": "MAGPIE",
-        "categories": "Investing Articles Value Shares",
-        "image": "https://www.twelfthmagpie.com/wp-content/uploads/2024/07/Westminster-Bridge-1200x800.jpg"
-      },
-      {
         "title": "Dangote profits from Europe fuel crunch as IPO tests investor appetite",
         "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNbERvenJsbkxzUzVzeXZnZ3Zic1hnQ0JEMFhvQ3JNd3hfOXBmVFA1WTJadS00NzZyekZxV0h3QlZHN0d4R0hPU0ZSWTgwVFNzV09NeC1xeFRrSXFFN3lBZ3RjbU1WU0VXZS1hM1R2dThTWkMxQnpDQVBVbVFNc3hYWXp4b2c3SEEzWG9xR1BzdE9fQ3lLUEVweUZqX0J5S0ZPVHFIVl84Y0pVRGFHSDBIemFtMjA?oc=5",
         "published": "Tue, 15 Sep 2026 14:16:43 GMT",
-        "source": "Reuters",
-        "provider": "REUTERS",
-        "categories": "",
-        "image": ""
-      },
-      {
-        "title": "Stocks wobble but no sign of panic as yields surge",
-        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPS2RZa2F0OUhoZzVSRFpnTkhtd2RyYW5XZ0NFbmIzTloxbmhITmdFdGFYWEIxbHQ5SE8taHJtSExodHBDcUZHWWNKVU0ybTV2bXVJZXNCNmx2bFM1XzkydUY1aExvYTVGb1BxQjJ5U0FSZ2QtV3dxOGF1RXU4Z3g0Z0J0bFdVX3hsS29zeVMyNU1YR3c0WmRSbw?oc=5",
-        "published": "Tue, 15 Sep 2026 09:52:00 GMT",
         "source": "Reuters",
         "provider": "REUTERS",
         "categories": "",
@@ -735,7 +735,7 @@
           },
           "YAHOO": {
             "ok": true,
-            "count": 5,
+            "count": 12,
             "retainedPrevious": 0,
             "errors": [
               "https://finance.yahoo.com/news/rssindex: no relevant articles"
@@ -758,13 +758,13 @@
       "categories": {
         "UK": [
           {
-            "title": "Buckingham Palace hits back over claims made in Earl Spencer book",
+            "title": "Palace denies allegations facing King about Harry, William and Diana",
             "link": "https://news.sky.com/story/buckingham-palace-hits-back-over-claims-made-in-earl-spencer-book-13588704",
             "published": "Wed, 16 Sep 2026 20:23:00 +0100",
             "source": "Sky News",
             "provider": "SKY",
             "categories": "",
-            "image": "https://e3.365dm.com/24/03/1920x1080/skynews-earl-spencer-princess-diana_6485463.jpg?20240310095409"
+            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-diana-dress-revenge_7346770.jpg?20260910073600"
           },
           {
             "title": "Body found in search for missing three-year-old Noah Woods",
@@ -776,15 +776,6 @@
             "image": "https://e3.365dm.com/26/09/1920x1080/skynews-noah-merriam-close_7353591.jpg?20260916184356"
           },
           {
-            "title": "King to host AI summit as fears grow internet could be 'swarmed'",
-            "link": "https://news.sky.com/story/king-to-host-ai-summit-as-fears-grow-over-threat-of-technology-13588787",
-            "published": "Thu, 17 Sep 2026 06:00:00 +0100",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/05/1920x1080/skynews-king-windsor_7250159.jpg?20260516132810"
-          },
-          {
             "title": "Chelsea chairman leaves club after selling ownership stake",
             "link": "https://news.sky.com/story/chelsea-chairman-todd-boehly-to-leave-role-after-selling-ownership-stake-13588792",
             "published": "Wed, 16 Sep 2026 23:45:00 +0100",
@@ -792,6 +783,15 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/09/1920x1080/skynews-chelsea-fc-todd-boehly_7354144.jpg?20260917000324"
+          },
+          {
+            "title": "Life-extending drug for breast cancer patients now on NHS",
+            "link": "https://news.sky.com/story/life-extending-drug-for-breast-cancer-patients-now-on-nhs-in-england-13588795",
+            "published": "Thu, 17 Sep 2026 04:47:00 +0100",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-nhs-file-pic_7354157.jpg?20260917055556"
           },
           {
             "title": "UK soldier who died in Ukraine was 'one of most talented intelligence officers of his generation'",
@@ -859,6 +859,15 @@
             "image": "https://e3.365dm.com/26/09/1920x1080/skynews-paul-wilks-major_7353888.jpg?20260916185848"
           },
           {
+            "title": "At least 82 people killed after gold mine collapses in Sudan",
+            "link": "https://news.sky.com/story/gold-mine-collapse-kills-82-people-in-war-torn-sudan-dozens-more-feared-dead-13588822",
+            "published": "Thu, 17 Sep 2026 07:24:00 +0100",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-kordofan-sudan_7354231.jpg?20260917082129"
+          },
+          {
             "title": "EU offers Canada chance to become first 'associate member' in wake of Trump's trade war",
             "link": "https://news.sky.com/story/eu-offers-canada-chance-to-become-first-associate-member-in-wake-of-trumps-trade-war-13585798",
             "published": "Mon, 14 Sep 2026 12:07:00 +0100",
@@ -895,15 +904,6 @@
             "image": "https://e3.365dm.com/26/09/1920x1080/skynews-vinicius-junior-kylian-mbappe_7353747.jpg?20260916182002"
           },
           {
-            "title": "US travel bans for South African officials alleged to be behind anti-white discrimination",
-            "link": "https://news.sky.com/story/us-travel-bans-for-south-african-officials-alleged-to-be-behind-anti-white-discrimination-13588523",
-            "published": "Wed, 16 Sep 2026 10:36:00 +0100",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/07/1920x1080/skynews-asean-marco-rubio_7304069.jpg?20260722113645"
-          },
-          {
             "title": "At least 21 killed and dozens trapped after war-damaged Gaza building collapses",
             "link": "https://news.sky.com/story/at-least-20-killed-and-dozens-trapped-after-war-damaged-building-in-gaza-collapses-13588536",
             "published": "Wed, 16 Sep 2026 11:18:00 +0100",
@@ -913,16 +913,25 @@
             "image": "https://e3.365dm.com/26/09/1920x1080/skynews-gaza-palestinians_7353536.jpg?20260916110428"
           },
           {
-            "title": "Suspected sabotage to trains during Dutch rush hour",
-            "link": "https://news.sky.com/story/suspected-sabotage-to-trains-during-dutch-rush-hour-after-pipes-left-on-track-13586084",
-            "published": "Tue, 15 Sep 2026 10:14:00 +0100",
+            "title": "US travel bans for South African officials alleged to be behind anti-white discrimination",
+            "link": "https://news.sky.com/story/us-travel-bans-for-south-african-officials-alleged-to-be-behind-anti-white-discrimination-13588523",
+            "published": "Wed, 16 Sep 2026 10:36:00 +0100",
             "source": "Sky News",
             "provider": "SKY",
             "categories": "",
-            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-zwolle-dutch-netherlands_7352115.jpg?20260915120344"
+            "image": "https://e3.365dm.com/26/07/1920x1080/skynews-asean-marco-rubio_7304069.jpg?20260722113645"
           }
         ],
         "POLITICS": [
+          {
+            "title": "What does a party of ex-PMs reveal?",
+            "link": "https://news.sky.com/story/what-does-a-party-of-former-pms-reveal-13588610",
+            "published": "Wed, 16 Sep 2026 14:34:00 +0100",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/08/1920x1080/skynews-pasaa-sam-and-anne_7332493.png?20260827102415"
+          },
           {
             "title": "London borough announces record 94% council tax rise",
             "link": "https://news.sky.com/story/wandsworth-council-announces-record-council-tax-increase-13587409",
@@ -931,15 +940,6 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/09/1920x1080/skynews-wandsworth-borough_7353278.jpg?20260916021220"
-          },
-          {
-            "title": "Why ministers paid £2m to influencers",
-            "link": "https://news.sky.com/story/why-ministers-paid-2m-to-influencers-13586155",
-            "published": "Tue, 15 Sep 2026 13:32:00 +0100",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/08/1920x1080/skynews-pasaa-sam-and-anne_7332493.png?20260827102415"
           },
           {
             "title": "Bearskin caps worn by King's Guards should be replaced with fake fur alternative, MPs say",
@@ -962,7 +962,16 @@
         ],
         "BUSINESS": [
           {
-            "title": "Trump demands interest rates be lowered 'fast' after Fed announces hike",
+            "title": "Payments company Ryft lands £20m funding for expansion push",
+            "link": "https://news.sky.com/story/payments-company-ryft-lands-20m-funding-for-expansion-push-13588827",
+            "published": "Thu, 17 Sep 2026 07:51:00 +0100",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-ryft-founders_7354377.jpg?20260917101742"
+          },
+          {
+            "title": "Trump demands interest rate be lowered 'fast' after Fed announces hike",
             "link": "https://news.sky.com/story/trump-demands-interest-rates-be-lowered-fast-after-fed-announces-first-hike-in-three-years-13588775",
             "published": "Wed, 16 Sep 2026 22:37:00 +0100",
             "source": "Sky News",
@@ -1041,26 +1050,17 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/05/1920x1080/skynews-istock-stock-file-generic_7249166.jpg?20260515054202"
-          },
-          {
-            "title": "Shoppers hunting value as grocery price inflation ticks up",
-            "link": "https://news.sky.com/story/shoppers-hunting-value-as-grocery-price-inflation-ticks-up-13586019",
-            "published": "Tue, 15 Sep 2026 07:11:00 +0100",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/24/07/1920x1080/skynews-trolley-supermarket_6628587.jpg?20240716225425"
           }
         ],
         "TECH": [
           {
-            "title": "King to host AI summit as fears grow internet could be 'swarmed'",
-            "link": "https://news.sky.com/story/king-to-host-ai-summit-as-fears-grow-over-threat-of-technology-13588787",
-            "published": "Thu, 17 Sep 2026 06:00:00 +0100",
+            "title": "Life-extending drug for breast cancer patients now on NHS",
+            "link": "https://news.sky.com/story/life-extending-drug-for-breast-cancer-patients-now-on-nhs-in-england-13588795",
+            "published": "Thu, 17 Sep 2026 04:47:00 +0100",
             "source": "Sky News",
             "provider": "SKY",
             "categories": "",
-            "image": "https://e3.365dm.com/26/05/1920x1080/skynews-king-windsor_7250159.jpg?20260516132810"
+            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-nhs-file-pic_7354157.jpg?20260917055556"
           },
           {
             "title": "No need for new laws on AI, says Nvidia boss",
@@ -1128,13 +1128,13 @@
         ],
         "ENTERTAINMENT": [
           {
-            "title": "Macklemore announces $1m donation after row over Ed Sheeran tour",
+            "title": "Macklemore announces $1m donation after Sheeran row - as stadium owner responds",
             "link": "https://news.sky.com/story/macklemore-pledges-1m-from-ed-sheeran-tour-to-palestinian-aid-groups-13588794",
             "published": "Thu, 17 Sep 2026 03:02:00 +0100",
             "source": "Sky News",
             "provider": "SKY",
             "categories": "",
-            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-macklemore-concert_7351657.jpg?20260914195750"
+            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-macklemore-ed-sheeran_7354224.jpg?20260917080531"
           },
           {
             "title": "Ed Sheeran's opening acts and backing band quit tour over Palestine row",
@@ -1143,7 +1143,7 @@
             "source": "Sky News",
             "provider": "SKY",
             "categories": "",
-            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-ed-sheeran-macklemore_7352399.jpg?20260915171404"
+            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-ed-sheeran-macklemore_7352423.jpg?20260915175456"
           },
           {
             "title": "Prosecutors in Rob Reiner murder case won't seek death penalty",
@@ -1250,6 +1250,69 @@
       "categories": {
         "UK": [
           {
+            "title": "Tories challenge chancellor to rule out tax rises in budget as Badenoch labelled ‘embarrassment’ for Bank of England gaffe – UK politics live",
+            "link": "https://www.theguardian.com/politics/live/2026/sep/17/conservatives-badenoch-griffiths-healey-burnham-tax-rises-budget-economy-bank-of-england-latest-uk-politics-news-updates",
+            "published": "Thu, 17 Sep 2026 10:08:01 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Politics UK news Labour Conservatives Kemi Badenoch Budget 2026 Tax Tax and spending Bank of England TUC Energy Climate crisis Environment",
+            "image": "https://i.guim.co.uk/img/media/f49d9e9a8437e74e903d1a39fc4f8fe65f8a42e0/312_0_3107_2487/master/3107.jpg?width=140&quality=85&auto=format&fit=max&s=d21c7b0f0f632e96af9ef4e8dc870464"
+          },
+          {
+            "title": "Thousands of Barclays staff revolt over return-to-office mandate",
+            "link": "https://www.theguardian.com/business/2026/sep/17/barclays-staff-return-to-office-travel-working-from-home",
+            "published": "Thu, 17 Sep 2026 09:31:36 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Barclays Banking Working from home Business UK news",
+            "image": "https://i.guim.co.uk/img/media/9bc32c324f860303f2630f4652b42b4e8d711e80/870_0_4224_3378/master/4224.jpg?width=140&quality=85&auto=format&fit=max&s=5135be4079e321ae72d94f1a406b470c"
+          },
+          {
+            "title": "Trump threatens to stop trading with EU over ‘laughable’ membership offer to Canada",
+            "link": "https://www.theguardian.com/world/2026/sep/17/trump-calls-eu-offer-to-canada-associate-membership-laughable-threatens-tariffs",
+            "published": "Thu, 17 Sep 2026 08:25:32 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Canada European Union Europe Donald Trump Mark Carney US news Andy Burnham UK news World news Ursula von der Leyen International trade",
+            "image": "https://i.guim.co.uk/img/media/3304f9c286be7e64356fc5b03ecad3f435f6291e/650_0_6943_5555/master/6943.jpg?width=140&quality=85&auto=format&fit=max&s=2d804b29ede538481415b12eaa96ff48"
+          },
+          {
+            "title": "Next forecasts bigger profits after hot weather lifts sales",
+            "link": "https://www.theguardian.com/business/2026/sep/17/next-forecast-profits-sales-prices",
+            "published": "Thu, 17 Sep 2026 07:42:19 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Next Retail industry Business UK news Consumer spending",
+            "image": "https://i.guim.co.uk/img/media/783e8775f03d3afbdfe7a6ba2d8abef6f3784815/644_446_3558_2846/master/3558.jpg?width=140&quality=85&auto=format&fit=max&s=546e8a7eb0655e3df9b325f5412d2c35"
+          },
+          {
+            "title": "Peers call for UK to enact tobacco-style ban on gambling advertising",
+            "link": "https://www.theguardian.com/society/2026/sep/17/peers-call-for-uk-to-enact-tobacco-style-ban-gambling-advertising",
+            "published": "Thu, 17 Sep 2026 06:00:42 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Gambling UK news Society Advertising Andy Burnham Tony Blair Politics Sport betting Media Business",
+            "image": "https://i.guim.co.uk/img/media/e0a9190678e0ad16cb8762592b7eca7652c3546c/1012_445_3961_3169/master/3961.jpg?width=140&quality=85&auto=format&fit=max&s=c54baf4f3588defb68601f6da7946929"
+          },
+          {
+            "title": "Access-to-nature crisis ‘on par with that of Victorian Britain’s filthy air’",
+            "link": "https://www.theguardian.com/environment/2026/sep/17/nature-access-inequalities-wildlife-trusts-green-blue-space-england",
+            "published": "Thu, 17 Sep 2026 06:00:41 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Access to green space Inequality Environment England UK news Mental health Society Rivers Urban wildlife",
+            "image": "https://i.guim.co.uk/img/media/871179867c498a66d330d0a250761721d299c4a1/280_0_6139_4912/master/6139.jpg?width=140&quality=85&auto=format&fit=max&s=1c500d90e3c7aa73c8ca6dd7cab30e3a"
+          },
+          {
+            "title": "Women in England with incurable breast cancer to get life-extending drug on NHS",
+            "link": "https://www.theguardian.com/society/2026/sep/17/women-england-incurable-breast-cancer-life-extending-drug-enhertu-nhs",
+            "published": "Thu, 17 Sep 2026 05:00:40 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Breast cancer Cancer NHS England National Institute for Health and Care Excellence Pharmaceuticals industry Women's health Health UK news",
+            "image": "https://i.guim.co.uk/img/media/73aed319161b368ee87cf859e133c5edc3b453a1/902_54_4875_3902/master/4875.jpg?width=140&quality=85&auto=format&fit=max&s=8bab2818bf76b97af7dcc922753ded49"
+          },
+          {
             "title": "English Heritage trains new generation of scythers to maintain meadows and craft",
             "link": "https://www.theguardian.com/uk-news/2026/sep/17/english-heritage-trains-new-generation-of-scythers-to-maintain-meadows-and-craft",
             "published": "Thu, 17 Sep 2026 04:00:39 GMT",
@@ -1268,15 +1331,6 @@
             "image": "https://i.guim.co.uk/img/media/fa4dea6ad0a9e303d08729a8c38ddd875c7e66e0/0_242_3544_2835/master/3544.jpg?width=140&quality=85&auto=format&fit=max&s=04ae41ae0cd5aa1464e27004f07d0dc6"
           },
           {
-            "title": "English far-right extremist who discussed killing Jews, Muslims and migrants is jailed",
-            "link": "https://www.theguardian.com/uk-news/2026/sep/16/ivan-jennings-stafford-jailed-far-right-terrorism",
-            "published": "Wed, 16 Sep 2026 18:53:15 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Crime Far right Race UK news Immigration and asylum UK security and counter-terrorism North of England Social media Staffordshire",
-            "image": "https://i.guim.co.uk/img/media/6fec82e85afed27425347c5eefce27160d50def6/0_109_1129_903/master/1129.jpg?width=140&quality=85&auto=format&fit=max&s=c9749b9637c87f768a76ea49382b4cae"
-          },
-          {
             "title": "Nato leader warns of ‘most dangerous and complex security environment in a generation’",
             "link": "https://www.theguardian.com/world/2026/sep/16/nato-leader-warns-of-most-dangerous-and-complex-security-environment-in-a-generation",
             "published": "Wed, 16 Sep 2026 18:46:30 GMT",
@@ -1284,15 +1338,6 @@
             "provider": "GUARDIAN",
             "categories": "World news UK news Nato Andy Burnham Mark Rutte Politics",
             "image": "https://i.guim.co.uk/img/media/7946584c9a1642a391b7e58a49948a6dddea6efb/463_0_2365_1891/master/2365.jpg?width=140&quality=85&auto=format&fit=max&s=62293c0c62e5f01151eea554d286b540"
-          },
-          {
-            "title": "Prisoners to ‘double up’ in one-person prefab cells, leaked documents show",
-            "link": "https://www.theguardian.com/society/2026/sep/16/leaked-emails-reveal-plans-to-double-up-prisoners-in-one-person-prefab-cells",
-            "published": "Wed, 16 Sep 2026 18:41:00 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Prisons and probation England Wales UK criminal justice UK news",
-            "image": "https://i.guim.co.uk/img/media/d5445882f00f025fa2b04b1b478c1a1297ee965c/583_0_2917_2333/master/2917.jpg?width=140&quality=85&auto=format&fit=max&s=cde34c305f595ed7250a73e0597ca058"
           },
           {
             "title": "Planning permission for new Scottish AI datacentres suspended for up to a year",
@@ -1313,22 +1358,13 @@
             "image": "https://i.guim.co.uk/img/media/7d38fe0863cd23a6491b3b600f2ec16f213c0cc3/681_0_6830_5464/master/6830.jpg?width=140&quality=85&auto=format&fit=max&s=860300ed844ff085d9db5114a30f6bde"
           },
           {
-            "title": "Suspect in ‘Putney pusher’ case found dead at his west London home",
-            "link": "https://www.theguardian.com/uk-news/2026/sep/16/suspect-in-putney-pusher-case-found-dead-at-his-west-london-home",
-            "published": "Wed, 16 Sep 2026 17:53:26 GMT",
+            "title": "Don’t back down on pledge to put water firms under public control, Burnham told",
+            "link": "https://www.theguardian.com/business/2026/sep/16/mayors-and-other-local-leaders-could-be-given-powers-to-oversee-water-firms",
+            "published": "Wed, 16 Sep 2026 17:43:31 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "UK news London",
-            "image": "https://i.guim.co.uk/img/media/ace8d34a02d532850e404de4ab0c8ca6fdf2246e/0_0_1200_960/master/1200.jpg?width=140&quality=85&auto=format&fit=max&s=eacc02a34a5f903438ad28b36cfbdc34"
-          },
-          {
-            "title": "Body found in search for three-year-old Noah Woods",
-            "link": "https://www.theguardian.com/uk-news/2026/sep/16/body-found-search-boy-missing-suffolk-playground-noah-woods",
-            "published": "Wed, 16 Sep 2026 17:51:10 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Suffolk UK news England",
-            "image": "https://i.guim.co.uk/img/media/3ca6df605ae5eb2118ead272fcd5a13a9ad32c0e/0_450_1385_1108/master/1385.jpg?width=140&quality=85&auto=format&fit=max&s=4252f88e81d8e80680e483d5a223e08a"
+            "categories": "Water industry Utilities Business Local government Mayoral elections Politics UK news Water Andy Burnham",
+            "image": "https://i.guim.co.uk/img/media/e693034b932e894545c053f7cdc25ee6f7056e76/53_0_2835_2268/master/2835.jpg?width=140&quality=85&auto=format&fit=max&s=7971b0e851865d66b0e47390b57ec002"
           },
           {
             "title": "Union claims victory as ministers agree to fully fund pay rise for teachers in England",
@@ -1338,42 +1374,6 @@
             "provider": "GUARDIAN",
             "categories": "Schools Trade unions Education Public sector pay Industrial action England Politics Public services policy Society UK news School funding Education policy",
             "image": "https://i.guim.co.uk/img/media/85aac2387882f9da78e012c3a70388532b91d2c4/893_0_4467_3574/master/4467.jpg?width=140&quality=85&auto=format&fit=max&s=f76ea45977d52e0bbebaef279804e8bf"
-          },
-          {
-            "title": "UK politics: Burnham says budget will be ‘challenging’ and denies he is just ‘tax and spend socialist’ – as it happened",
-            "link": "https://www.theguardian.com/politics/live/2026/sep/16/lisa-nandy-x-andy-burnham-labour-reform-uk-politics-latest-news-updates",
-            "published": "Wed, 16 Sep 2026 16:45:11 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Politics UK news Labour Andy Burnham Lisa Nandy Internet Technology X RNLI Budget 2026 Andy Haldane Tax and spending Wes Streeting Benefits Welfare Disability Wales Welsh politics Reform UK Plaid Cymru Simon Case Constitutional reform",
-            "image": "https://i.guim.co.uk/img/media/2ea035cb6bb39253a71bd78fcd279d1328c19192/305_0_3747_3000/master/3747.jpg?width=140&quality=85&auto=format&fit=max&s=975ad5b06e324b15cde38066a11dee5e"
-          },
-          {
-            "title": "Labour holds No 10 drinks party for donors amid growing calls for donations cap",
-            "link": "https://www.theguardian.com/politics/2026/sep/16/no10-donor-reception-labour-donations-cap",
-            "published": "Wed, 16 Sep 2026 16:16:10 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Labour Party funding Politics UK news Trade unions",
-            "image": "https://i.guim.co.uk/img/media/334bb248f70e60cabab66c7caa8151072abb3914/995_335_3500_2801/master/3500.jpg?width=140&quality=85&auto=format&fit=max&s=0ddb0c139a60d1c6aa084d3f4b6fef4c"
-          },
-          {
-            "title": "Burnham warns of ‘difficult decisions’ in budget as inflation rises to 3.1%",
-            "link": "https://www.theguardian.com/business/2026/sep/16/uk-inflation-rises-pressure-on-households-bank-of-england-interest-rates",
-            "published": "Wed, 16 Sep 2026 15:17:49 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Inflation Economics Business Interest rates Bank of England UK cost of living crisis US-Israel war on Iran Office for National Statistics UK news Andy Burnham Energy industry John Healey Politics Budget 2026",
-            "image": "https://i.guim.co.uk/img/media/f659e05e828243ccbca3bdf1e285a7031d51341e/475_240_1843_1474/master/1843.jpg?width=140&quality=85&auto=format&fit=max&s=6a31ad09df79c76fa9a700582e76bca6"
-          },
-          {
-            "title": "At least five Reform councillors joined Facebook group linked to far-right Patriot Platform",
-            "link": "https://www.theguardian.com/politics/2026/sep/16/reform-councillors-patriot-platform-facebook-group",
-            "published": "Wed, 16 Sep 2026 14:49:25 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Reform UK Politics UK news Far right West Midlands North of England Kent England Immigration and asylum",
-            "image": "https://i.guim.co.uk/img/media/1d3264f3f0b1f662787fd1ed956a1aef214bc47c/1388_55_1945_1556/master/1945.jpg?width=140&quality=85&auto=format&fit=max&s=0e06b26b60c8b77092ad810f12115e0a"
           },
           {
             "title": "Thirlwall inquiry has left biggest questions around the Letby case unanswered",
@@ -1567,22 +1567,31 @@
             "image": "https://i.guim.co.uk/img/media/ea479832d2069e25f69795a496151f9e1e08798a/415_0_2444_1956/master/2444.jpg?width=140&quality=85&auto=format&fit=max&s=4da4435177950f759465ac2f121bfbe2"
           },
           {
-            "title": "Australian politics live: Burke warns cutting migration too much would ‘trash economy’ and hoses down accusations of tension with Albanese and Chalmers",
-            "link": "https://www.theguardian.com/australia-news/live/2026/sep/17/labor-immigration-policy-tony-burke-anthony-albanese-one-nation-ntwnfb",
-            "published": "Thu, 17 Sep 2026 05:04:50 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Australia news Australian politics Australian economy Business Health Australian education Australian immigration and asylum Australian foreign policy Coalition Labor party One Nation",
-            "image": "https://i.guim.co.uk/img/media/5858ac2b433f6a5cf2328f58afd72c572ec5d6bd/562_0_5618_4495/master/5618.jpg?width=140&quality=85&auto=format&fit=max&s=e0ef00d379aac4094e1083dc206fca8a"
-          },
-          {
             "title": "Prominent athlete tells Alan Jones trial he sent shirtless photo before unwanted kiss he wished ‘never happened’",
             "link": "https://www.theguardian.com/australia-news/2026/sep/17/alan-jones-trial-athlete-sent-shirtless-photo-before-unwanted-kiss-ntwnfb",
-            "published": "Thu, 17 Sep 2026 03:50:08 GMT",
+            "published": "Thu, 17 Sep 2026 08:19:03 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
             "categories": "Alan Jones trial Alan Jones Australian media Australia news",
             "image": "https://i.guim.co.uk/img/media/e1494d959a4f666b1f475d079d5237065c402ba1/1195_15_3982_3186/master/3982.jpg?width=140&quality=85&auto=format&fit=max&s=a04e4dffa3480c3c3f0d447749b444a6"
+          },
+          {
+            "title": "Queensland to create outback boot camps for youth offenders – as it happened",
+            "link": "https://www.theguardian.com/australia-news/live/2026/sep/17/labor-immigration-policy-tony-burke-anthony-albanese-one-nation-ntwnfb",
+            "published": "Thu, 17 Sep 2026 08:05:02 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Australia news Australian politics Australian economy Business Health Australian education Australian immigration and asylum Australian foreign policy Coalition Labor party One Nation",
+            "image": "https://i.guim.co.uk/img/media/3e5b5cd35dea8f7d51d278aacb4ad946962346ae/1930_168_3664_2930/master/3664.jpg?width=140&quality=85&auto=format&fit=max&s=381ca41c5f76ca2a80f7076df4e6d974"
+          },
+          {
+            "title": "Australia Post worker stole dozens of bank cards to fund ‘debilitating’ gambling addiction",
+            "link": "https://www.theguardian.com/business/2026/sep/17/australia-post-postie-stolen-bank-cards-jail-ntwnfb",
+            "published": "Thu, 17 Sep 2026 06:41:56 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Sydney Australia Post Australia news",
+            "image": "https://i.guim.co.uk/img/media/f034c27ead66c4e73877c5ee47ed52c78944d21a/1807_379_6189_4952/master/6189.jpg?width=140&quality=85&auto=format&fit=max&s=9b890c867f132144fa0551d6a16dbc7c"
           },
           {
             "title": "‘The bloody cap has been scrapped’: Jacqui Lambie celebrates Labor backdown on veterans’ health services cap",
@@ -1601,18 +1610,27 @@
             "provider": "GUARDIAN",
             "categories": "New South Wales Australia news Sydney",
             "image": "https://i.guim.co.uk/img/media/2d9651d32b52640667d5a6a485e68119c8c421b6/126_0_3780_3024/master/3780.jpg?width=140&quality=85&auto=format&fit=max&s=a7fa2e0d01854c396ca00d580dd1766f"
-          },
-          {
-            "title": "IMF urges Australian government to cut spending as another interest rate hike looms",
-            "link": "https://www.theguardian.com/australia-news/2026/sep/17/imf-downgrades-australian-economic-forecast-amid-fears-of-interest-rate-hike",
-            "published": "Thu, 17 Sep 2026 00:20:26 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Australian economy Australia news Economics Business Jim Chalmers Australian politics International Monetary Fund (IMF) Interest rates",
-            "image": "https://i.guim.co.uk/img/media/236b0e52ce3b3a99e821d64a9b70e8f8dbf0a9c3/1447_254_6558_5247/master/6558.jpg?width=140&quality=85&auto=format&fit=max&s=d4dd788984858c9255eeee079ea071dc"
           }
         ],
         "POLITICS": [
+          {
+            "title": "Tories challenge chancellor to rule out tax rises in budget as Badenoch labelled ‘embarrassment’ for Bank of England gaffe – UK politics live",
+            "link": "https://www.theguardian.com/politics/live/2026/sep/17/conservatives-badenoch-griffiths-healey-burnham-tax-rises-budget-economy-bank-of-england-latest-uk-politics-news-updates",
+            "published": "Thu, 17 Sep 2026 10:01:35 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Politics UK news Labour Conservatives Kemi Badenoch Budget 2026 Tax Tax and spending Bank of England TUC Energy Climate crisis Environment",
+            "image": "https://i.guim.co.uk/img/media/f49d9e9a8437e74e903d1a39fc4f8fe65f8a42e0/312_0_3107_2487/master/3107.jpg?width=140&quality=85&auto=format&fit=max&s=d21c7b0f0f632e96af9ef4e8dc870464"
+          },
+          {
+            "title": "Peers call for UK to enact tobacco-style ban on gambling advertising",
+            "link": "https://www.theguardian.com/society/2026/sep/17/peers-call-for-uk-to-enact-tobacco-style-ban-gambling-advertising",
+            "published": "Thu, 17 Sep 2026 06:00:42 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Gambling UK news Society Advertising Andy Burnham Tony Blair Politics Sport betting Media Business",
+            "image": "https://i.guim.co.uk/img/media/e0a9190678e0ad16cb8762592b7eca7652c3546c/300_0_5018_4016/master/5018.jpg?width=140&quality=85&auto=format&fit=max&s=9bca9510dc064cd25b7e420b248c2b24"
+          },
           {
             "title": "‘Made in Europe’ law threatens UK plans for reset with EU",
             "link": "https://www.theguardian.com/world/2026/sep/16/made-in-europe-laws-could-derail-uk-eu-reset-plans",
@@ -1657,24 +1675,6 @@
             "provider": "GUARDIAN",
             "categories": "Water industry Utilities Business Local government Mayoral elections Politics UK news Water Andy Burnham",
             "image": "https://i.guim.co.uk/img/media/e693034b932e894545c053f7cdc25ee6f7056e76/53_0_2835_2268/master/2835.jpg?width=140&quality=85&auto=format&fit=max&s=7971b0e851865d66b0e47390b57ec002"
-          },
-          {
-            "title": "Union claims victory as ministers agree to fully fund pay rise for teachers in England",
-            "link": "https://www.theguardian.com/education/2026/sep/16/teachers-pay-rise-england-funding-national-education-union",
-            "published": "Wed, 16 Sep 2026 16:55:55 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Schools Trade unions Education Public sector pay Industrial action England Politics Public services policy Society UK news School funding Education policy",
-            "image": "https://i.guim.co.uk/img/media/85aac2387882f9da78e012c3a70388532b91d2c4/893_0_4467_3574/master/4467.jpg?width=140&quality=85&auto=format&fit=max&s=f76ea45977d52e0bbebaef279804e8bf"
-          },
-          {
-            "title": "UK politics: Burnham says budget will be ‘challenging’ and denies he is just ‘tax and spend socialist’ – as it happened",
-            "link": "https://www.theguardian.com/politics/live/2026/sep/16/lisa-nandy-x-andy-burnham-labour-reform-uk-politics-latest-news-updates",
-            "published": "Wed, 16 Sep 2026 16:45:11 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Politics UK news Labour Andy Burnham Lisa Nandy Internet Technology X RNLI Budget 2026 Andy Haldane Tax and spending Wes Streeting Benefits Welfare Disability Wales Welsh politics Reform UK Plaid Cymru Simon Case Constitutional reform",
-            "image": "https://i.guim.co.uk/img/media/2ea035cb6bb39253a71bd78fcd279d1328c19192/305_0_3747_3000/master/3747.jpg?width=140&quality=85&auto=format&fit=max&s=975ad5b06e324b15cde38066a11dee5e"
           },
           {
             "title": "No matter how deranged and delusional your podcast is, Liz Truss can go further | John Crace",
@@ -1978,6 +1978,33 @@
         ],
         "TECH": [
           {
+            "title": "OpenAI reveals cases of ‘concerning’ AI behaviour as it announces new disclosure system",
+            "link": "https://www.theguardian.com/technology/2026/sep/17/openai-reports-concerning-ai-behaviour-jailbreak-talking-to-other-agents",
+            "published": "Thu, 17 Sep 2026 06:58:25 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "OpenAI AI (artificial intelligence) Computing Technology Hacking Anthropic Chatbots Ethics Data and computer security World news",
+            "image": "https://i.guim.co.uk/img/media/a43244445ebccb84b7cc3cc445d8312f49385aaf/471_0_2915_2333/master/2915.jpg?width=140&quality=85&auto=format&fit=max&s=a25a50bddde7016dc4299558d8cbecd9"
+          },
+          {
+            "title": "Planning permission for new Scottish AI datacentres suspended for up to a year",
+            "link": "https://www.theguardian.com/uk-news/2026/sep/16/datacentres-scotland-environmental-assessments-ai-boom",
+            "published": "Wed, 16 Sep 2026 18:28:12 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Datacentres - UK AI (artificial intelligence) UK news Computing Scotland Edinburgh Scottish politics Planning policy Technology policy Infrastructure Scottish National party (SNP) Politics Technology",
+            "image": "https://i.guim.co.uk/img/media/f4c35ffc77668ec92a724e23db360ec4f31b7a93/1126_0_6830_5464/master/6830.jpg?width=140&quality=85&auto=format&fit=max&s=b5e093ca3022632469e3a1ac93e82e0e"
+          },
+          {
+            "title": "Big AI is trying to own the pathway to work. Universities shouldn’t play along | Ella Hafermalz",
+            "link": "https://www.theguardian.com/technology/2026/sep/17/big-ai-work-universities",
+            "published": "Thu, 17 Sep 2026 09:00:44 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Technology AI (artificial intelligence)",
+            "image": "https://i.guim.co.uk/img/media/6beb43374960e36b064da9ccdceb4cace74c61b6/379_0_4242_3395/master/4242.jpg?width=140&quality=85&auto=format&fit=max&s=084f6e15df7236fd272804645281c192"
+          },
+          {
             "title": "‘Godfather of AI’ says tech regulation is nearing Covid-style pivot moment",
             "link": "https://www.theguardian.com/technology/2026/sep/16/ai-tech-regulation-government-action-yoshua-bengio",
             "published": "Wed, 16 Sep 2026 15:00:23 GMT",
@@ -2012,33 +2039,6 @@
             "provider": "GUARDIAN",
             "categories": "AI (artificial intelligence) Technology Donald Trump OpenAI Anthropic Sam Altman Elon Musk Grok AI US Congress Republicans US politics China",
             "image": "https://i.guim.co.uk/img/media/dc78004d494fd54b683c1575f0828645d8e13701/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=0aeacc1d1898229d41c3c1c741ebbb1d"
-          },
-          {
-            "title": "‘In this new car, I feel patronised’: which driver assistance systems actually improve safety?",
-            "link": "https://www.theguardian.com/lifeandstyle/2026/sep/16/smart-cars-autonomous-braking-which-driver-assistance-systems-actually-improve-safety",
-            "published": "Tue, 15 Sep 2026 15:00:54 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Motoring Australian lifestyle Road safety Automotive industry Road transport Technology",
-            "image": "https://i.guim.co.uk/img/media/c0324aa5ac6debdd86b35901633d55e99ac307b1/1173_0_12500_10000/master/12500.jpg?width=140&quality=85&auto=format&fit=max&s=1e79c140982ad28ab65529f05f34028e"
-          },
-          {
-            "title": "‘I created my mom and talk to her’: AI ghosts and deathslop are changing the way we mourn",
-            "link": "https://www.theguardian.com/technology/2026/sep/15/ai-grief-bot-death-isolation",
-            "published": "Tue, 15 Sep 2026 12:30:43 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "AI (artificial intelligence) Death and dying Society OpenAI Technology Internet",
-            "image": "https://i.guim.co.uk/img/media/8875d66b138275dc460050fc37de8fc69fb67e79/1_0_2999_2400/master/2999.jpg?width=140&quality=85&auto=format&fit=max&s=19f84cbdb7aa715be76580a1dbbf7f1d"
-          },
-          {
-            "title": "Why a decade of doomsday warnings failed to slow the AI race",
-            "link": "https://www.theguardian.com/technology/2026/sep/15/ai-doomsday-warnings",
-            "published": "Tue, 15 Sep 2026 08:00:30 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Technology AI (artificial intelligence) Google Sam Altman Stephen Hawking Chatbots Anthropic Computing",
-            "image": "https://i.guim.co.uk/img/media/3ab9e5f6d86542a882303bb7ce012c8564b5213b/405_0_3624_2900/master/3624.jpg?width=140&quality=85&auto=format&fit=max&s=9617dd9236371482f114c191378d527f"
           },
           {
             "title": "House speaker calls early recess before midterms amid AI regulation frenzy",
@@ -2077,6 +2077,24 @@
             "image": "https://i.guim.co.uk/img/media/648eff33e39f20b7ce6ac83750c98957b0aa2efb/779_582_3773_3020/master/3773.jpg?width=140&quality=85&auto=format&fit=max&s=49e6d24988f66e43d2d90cecd5f77c0f"
           },
           {
+            "title": "‘In this new car, I feel patronised’: which driver assistance systems actually improve safety?",
+            "link": "https://www.theguardian.com/lifeandstyle/2026/sep/16/smart-cars-autonomous-braking-which-driver-assistance-systems-actually-improve-safety",
+            "published": "Tue, 15 Sep 2026 15:00:54 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Motoring Australian lifestyle Road safety Automotive industry Road transport Technology",
+            "image": "https://i.guim.co.uk/img/media/c0324aa5ac6debdd86b35901633d55e99ac307b1/1173_0_12500_10000/master/12500.jpg?width=140&quality=85&auto=format&fit=max&s=1e79c140982ad28ab65529f05f34028e"
+          },
+          {
+            "title": "‘I created my mom and talk to her’: AI ghosts and deathslop are changing the way we mourn",
+            "link": "https://www.theguardian.com/technology/2026/sep/15/ai-grief-bot-death-isolation",
+            "published": "Tue, 15 Sep 2026 12:30:43 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "AI (artificial intelligence) Death and dying Society OpenAI Technology Internet",
+            "image": "https://i.guim.co.uk/img/media/8875d66b138275dc460050fc37de8fc69fb67e79/1_0_2999_2400/master/2999.jpg?width=140&quality=85&auto=format&fit=max&s=19f84cbdb7aa715be76580a1dbbf7f1d"
+          },
+          {
             "title": "The best iPhones: which Apple smartphone is right for you, according to our expert",
             "link": "https://www.theguardian.com/technology/article/2025/feb/13/best-apple-iphone",
             "published": "Tue, 15 Sep 2026 09:48:35 GMT",
@@ -2095,24 +2113,6 @@
             "image": "https://i.guim.co.uk/img/media/bbaefb00ccde05f10588731b397a2f587352739d/0_806_3648_2916/master/3648.jpg?width=140&quality=85&auto=format&fit=max&s=bdd20a16e4a74318a6398879c6f4396f"
           },
           {
-            "title": "Can you futureproof your career by choosing an AI-resistant degree?",
-            "link": "https://www.theguardian.com/education/2026/sep/14/futureproof-your-career-by-choosing-an-ai-resistant-degree",
-            "published": "Mon, 14 Sep 2026 05:00:26 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Higher education AI (artificial intelligence) Employability Work & careers Universities Students Young people Education Society Technology Careers Money",
-            "image": "https://i.guim.co.uk/img/media/0496a0e3e2045d89e0a5515ec67b060731cdd552/1218_0_6142_4912/master/6142.jpg?width=140&quality=85&auto=format&fit=max&s=c67b8db2ee890eac2f045f8de696a61c"
-          },
-          {
-            "title": "AI CEOs say they need to slow the pace of development. But will they?",
-            "link": "https://www.theguardian.com/technology/2026/sep/14/ai-ceo-safety-slowdown",
-            "published": "Mon, 14 Sep 2026 05:00:26 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "AI (artificial intelligence) Technology Computing Anthropic OpenAI Sam Altman Elon Musk",
-            "image": "https://i.guim.co.uk/img/media/bb84259074a2c64ebed9b2c958f9985eb618beca/482_0_5532_4425/master/5532.jpg?width=140&quality=85&auto=format&fit=max&s=e15bde6101c730f1330e4d5c6c4de778"
-          },
-          {
             "title": "Allowing AI firms to collude to ‘pace the frontier’ is a dangerous proposition",
             "link": "https://www.theguardian.com/technology/2026/sep/16/ai-companies-collude-antitrust-laws",
             "published": "Wed, 16 Sep 2026 11:00:18 GMT",
@@ -2120,6 +2120,15 @@
             "provider": "GUARDIAN",
             "categories": "AI (artificial intelligence) OpenAI Anthropic Sam Altman Elon Musk Technology Business",
             "image": "https://i.guim.co.uk/img/media/946b0e05dd0e1b4c6e798b7dd5ff3846fd4f4783/620_0_6195_4958/master/6195.jpg?width=140&quality=85&auto=format&fit=max&s=629d70c0a688149dd4415a236aed24e5"
+          },
+          {
+            "title": "Why a decade of doomsday warnings failed to slow the AI race",
+            "link": "https://www.theguardian.com/technology/2026/sep/15/ai-doomsday-warnings",
+            "published": "Tue, 15 Sep 2026 08:00:30 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Technology AI (artificial intelligence) Google Sam Altman Stephen Hawking Chatbots Anthropic Computing",
+            "image": "https://i.guim.co.uk/img/media/3ab9e5f6d86542a882303bb7ce012c8564b5213b/405_0_3624_2900/master/3624.jpg?width=140&quality=85&auto=format&fit=max&s=9617dd9236371482f114c191378d527f"
           },
           {
             "title": "I worked at Google DeepMind. You should listen to the warnings about AI | Alex Turner",
@@ -2140,15 +2149,6 @@
             "image": "https://i.guim.co.uk/img/media/a4fc80e643187b6b66f98b0e0f64193afdc28f1e/428_0_3331_2667/master/3331.jpg?width=140&quality=85&auto=format&fit=max&s=8300d6891ca5edf4642eeaeeeca4e1bb"
           },
           {
-            "title": "Social media users could opt out of the algorithm if Australian government has its way – but that’s a big if",
-            "link": "https://www.theguardian.com/technology/2026/sep/08/social-media-algorithm-opt-out-australia",
-            "published": "Tue, 08 Sep 2026 06:23:42 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Instagram Meta Facebook Australia news Australian politics News Corporation Social networking Technology",
-            "image": "https://i.guim.co.uk/img/media/67e9ede5a7b9b9595b896014b10300d6c74da510/423_0_3928_3142/master/3928.jpg?width=140&quality=85&auto=format&fit=max&s=d65ff0c13f40fd9bf0be65c51ec42a08"
-          },
-          {
             "title": "Small but mighty! Remembering the GameCube, Nintendo’s purple bundle of joy",
             "link": "https://www.theguardian.com/games/2026/sep/16/small-but-mighty-remembering-nintendos-purple-cube-of-joy",
             "published": "Wed, 16 Sep 2026 14:00:21 GMT",
@@ -2160,7 +2160,7 @@
         ],
         "ENTERTAINMENT": [
           {
-            "title": "Macklemore pledges his $1m Ed Sheeran tour salary to Palestine",
+            "title": "Macklemore pledges his $1m Ed Sheeran tour salary to Palestine aid",
             "link": "https://www.theguardian.com/music/2026/sep/16/macklemore-ed-sheeran-tour-salary-palestine",
             "published": "Wed, 16 Sep 2026 21:26:53 GMT",
             "source": "The Guardian",
@@ -2372,6 +2372,96 @@
       "categories": {
         "UK": [
           {
+            "title": "Shoppers run for cover after man seen walking busy London street with giant ‘assault rifle’",
+            "link": "https://metro.co.uk/2026/09/17/shoppers-scramble-man-walks-london-street-assault-rifle-29628027/",
+            "published": "Thu, 17 Sep 2026 10:20:24 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News UK Crime News London Metropolitan Police",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312813941-e420.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "King Charles is ‘worried’ Earl Spencer is a ‘ticking time bomb’ ahead of book release",
+            "link": "https://metro.co.uk/2026/09/17/king-charles-worried-earl-spencer-a-ticking-time-bomb-ahead-book-release-29628176/",
+            "published": "Thu, 17 Sep 2026 10:19:37 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News UK Diana, Princess Of Wales King Charles III Royal Family",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312762641-9d94.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Nasa finds ‘once-in-a-lifetime’ moon crater bigger than the Roman Colosseum",
+            "link": "https://metro.co.uk/2026/09/17/nasa-finds-once-in-a-lifetime-moon-crater-bigger-roman-colosseum-29628043/",
+            "published": "Thu, 17 Sep 2026 09:19:16 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News US Nasa Space The Moon",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312730467-aeb7.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Royals to break cover after Earl Spencer’s explosive Princess Diana book claims",
+            "link": "https://metro.co.uk/2026/09/17/royals-break-cover-earl-spencers-explosive-diana-book-claims-29627390/",
+            "published": "Thu, 17 Sep 2026 08:55:21 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News UK Catherine, Princess of Wales Diana, Princess Of Wales King Charles III Meghan Markle Duchess of Sussex Prince Harry Prince William, Prince of Wales Royal Family",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312582810-ea95-e1789634273927.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Urgent search for missing boy, 10, last seen two days ago",
+            "link": "https://metro.co.uk/2026/09/17/urgent-search-missing-boy-10-last-seen-two-days-ago-29627685/",
+            "published": "Thu, 17 Sep 2026 08:51:54 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News UK Hertfordshire Missing",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312806303-b68b.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Man duct-taped on flight after mid-air outburst ‘can’t remember what happened’",
+            "link": "https://metro.co.uk/2026/09/17/man-duct-taped-flight-mid-air-outburst-cant-remember-happened-29626953/",
+            "published": "Thu, 17 Sep 2026 08:37:23 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News World Crime News Dallas Flights",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310814579-6ed9-e1788713390757.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Floral tributes left at playground after body found in search for Noah Woods",
+            "link": "https://metro.co.uk/2026/09/17/floral-tributes-left-playground-body-found-search-noah-woods-29626871/",
+            "published": "Thu, 17 Sep 2026 08:07:26 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News UK Missing Suffolk",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312673367-3c50-e1789629671364.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "We’ll lose to Russia without more drones and warships, navy chief warns",
+            "link": "https://metro.co.uk/2026/09/17/lose-russia-without-drones-warships-navy-chief-warns-29627099/",
+            "published": "Thu, 17 Sep 2026 07:30:52 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News Andy Burnham NATO Vladimir Putin",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_293113864-ac81.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Two British people among three dead after plane crash in Swiss Alps",
+            "link": "https://metro.co.uk/2026/09/17/two-british-people-among-three-dead-plane-crash-swiss-alps-29626648/",
+            "published": "Thu, 17 Sep 2026 06:40:10 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News Switzerland",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312715043-eaa7.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Major rail line to London Euston hit with delays and cancellations lasting all day",
+            "link": "https://metro.co.uk/2026/09/17/major-rail-line-london-euston-hit-delays-cancellations-lasting-day-29626747/",
+            "published": "Thu, 17 Sep 2026 06:36:57 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News UK London Network Rail Rail Travel News",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_307545302-72dc.jpg?quality=90&strip=all&w=646"
+          },
+          {
             "title": "‘Andy Burnham needs to get justice for my mum shot dead by Iran’",
             "link": "https://metro.co.uk/2026/09/17/andy-burnham-needs-get-justice-mum-shot-dead-iran-29621856/",
             "published": "Thu, 17 Sep 2026 05:00:00 +0000",
@@ -2381,7 +2471,7 @@
             "image": "https://metro.co.uk/wp-content/uploads/2026/09/comp-1789582195.png?w=646"
           },
           {
-            "title": "Charles told Earl Spencer ‘we’ll forget Diana soon enough’ just days after death, new book claims",
+            "title": "Palace strongly hits back at Diana’s brother’s bombshell Charles claims in new book",
             "link": "https://metro.co.uk/2026/09/16/charles-told-earl-spencer-well-forget-diana-soon-enough-just-days-death-new-book-claims-29624464/",
             "published": "Wed, 16 Sep 2026 20:22:09 +0000",
             "source": "Metro",
@@ -2435,121 +2525,31 @@
             "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312696459-8130-e1789569151904.jpg?quality=90&strip=all&w=638"
           },
           {
-            "title": "Holidaymakers ‘run into sea’ as they watch resort go up in flames",
-            "link": "https://metro.co.uk/2026/09/16/holidaymakers-run-sea-watch-resort-go-flames-29621730/",
-            "published": "Wed, 16 Sep 2026 13:40:33 +0000",
+            "title": "‘Phenomenal’ response to new ferry plans between UK town and Isle of Man",
+            "link": "https://metro.co.uk/2026/09/17/phenomenal-response-new-ferry-plans-uk-town-isle-man-29562689/",
+            "published": "Thu, 17 Sep 2026 09:57:10 +0000",
             "source": "Metro",
             "provider": "METRO",
-            "categories": "News World Croatia Fire Hotels TUI",
-            "image": ""
+            "categories": "Lifestyle Travel Cumbria Isle of Man Lake District UK Travel",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/PRI_201669317-38f7.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Gang who left Heathrow passengers vomiting blood after tear gas attack jailed",
-            "link": "https://metro.co.uk/2026/09/16/gang-left-heathrow-passengers-vomiting-blood-tear-gas-attack-jailed-29621885/",
-            "published": "Wed, 16 Sep 2026 13:26:31 +0000",
+            "title": "Gabby Agbonlahor makes grim prediction for Michael Carrick as Manchester United manager",
+            "link": "https://metro.co.uk/2026/09/17/gabby-agbonlahor-makes-grim-prediction-michael-carrick-man-utd-manager-29627945/",
+            "published": "Thu, 17 Sep 2026 09:51:26 +0000",
             "source": "Metro",
             "provider": "METRO",
-            "categories": "News UK Crime News Heathrow Airport London",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEC_312704136-1def.jpg?quality=90&strip=all&w=646"
+            "categories": "Football Sport Gabriel Agbonlahor Manchester United Michael Carrick",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312744649-4aa3.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Alleged killer’s chilling joke before shooting three men dead on surfing holiday",
-            "link": "https://metro.co.uk/2026/09/16/alleged-killers-chilling-joke-shooting-three-men-dead-29620092/",
-            "published": "Wed, 16 Sep 2026 13:07:17 +0000",
+            "title": "Former Arsenal star failed with move for Max Dowman",
+            "link": "https://metro.co.uk/2026/09/17/former-arsenal-star-failed-move-max-dowman-29627547/",
+            "published": "Thu, 17 Sep 2026 09:03:31 +0000",
             "source": "Metro",
             "provider": "METRO",
-            "categories": "News World Australia Crime News Mexico",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_207962986-b193.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Lindsay Clancy judge seals juror names indefinitely due to ‘real and present risk’",
-            "link": "https://metro.co.uk/2026/09/16/lindsay-clancy-judge-seals-juror-names-indefinitely-due-real-present-risk-29620472/",
-            "published": "Wed, 16 Sep 2026 13:06:38 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News US Murder True Crime",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/08/SEI_308281524-8961-e1786710081455.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Putney Pusher suspect found dead after being released under investigation",
-            "link": "https://metro.co.uk/2026/09/16/putney-pusher-suspect-found-dead-released-investigation-29621944/",
-            "published": "Wed, 16 Sep 2026 12:59:12 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News UK Crime News London Metropolitan Police",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312686006-9579-e1789563828433.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Woman ‘stabbed’ partner and left his body to decompose for nine days",
-            "link": "https://metro.co.uk/2026/09/16/woman-stabbed-partner-death-left-body-decompose-nine-days-29621194/",
-            "published": "Wed, 16 Sep 2026 12:29:26 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News UK Crime News Death",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312383860-0526.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Dead seabird found with almost 900 pieces of plastic waste in its body",
-            "link": "https://metro.co.uk/2026/09/16/dead-seabird-found-almost-900-pieces-plastic-waste-body-29619528/",
-            "published": "Wed, 16 Sep 2026 12:13:21 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News World Australia Natural History Museum Plastic",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/coverimages56021013-437d.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Disgraced famous policeman who asked for suspect sex video jailed for four years",
-            "link": "https://metro.co.uk/2026/09/16/disgraced-famous-policeman-asked-suspect-sex-video-jailed-29621442/",
-            "published": "Wed, 16 Sep 2026 12:01:25 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News UK Crime News",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312694673-26c3.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Missing teen found alive at former teacher’s home 263 days after disappearing",
-            "link": "https://metro.co.uk/2026/09/16/missing-teen-found-alive-ohio-263-days-vanishing-29611950/",
-            "published": "Wed, 16 Sep 2026 11:36:25 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News US Crime News Missing United States of America",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/missing-teen.png?w=646"
-          },
-          {
-            "title": "Scientists find 27 strange new objects hovering on the edge of our Solar System",
-            "link": "https://metro.co.uk/2026/09/16/scientists-find-27-strange-new-objects-hovering-edge-solar-system-29619515/",
-            "published": "Wed, 16 Sep 2026 11:36:06 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News Weird James Webb Space Telescope Nasa Space",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/coverimages56022160-5418.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Parents ‘devastated’ after Southport attack victims targeted in data breach",
-            "link": "https://metro.co.uk/2026/09/16/parents-devastated-southport-attack-victims-targeted-data-breach-29620760/",
-            "published": "Wed, 16 Sep 2026 11:06:03 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News UK Crime News Ministry of Justice Southport",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_216022238-cfa2.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Masked men in Nottingham defy face covering ban by taking to streets",
-            "link": "https://metro.co.uk/2026/09/16/masked-men-nottingham-defy-face-covering-ban-taking-streets-29619665/",
-            "published": "Wed, 16 Sep 2026 10:44:45 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News UK Crime News Nottinghamshire",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312578934-ead5.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Ukrainian grandmother outsmarts Russian drone with ease",
-            "link": "https://metro.co.uk/2026/09/16/ukrainian-grandmother-outsmarts-russian-drone-ease-29620443/",
-            "published": "Wed, 16 Sep 2026 10:31:36 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News World Russia Russia-Ukraine war Ukraine Vladimir Putin",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312684772-963f.jpg?quality=90&strip=all&w=646"
+            "categories": "Football Sport Arsenal Arsenal transfer news Jack Wilshere Luton Town Max Dowman Mikel Arteta Transfer News and Rumours",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312623509-e74e.jpg?quality=90&strip=all&w=646"
           }
         ],
         "WORLD": [
@@ -2651,51 +2651,6 @@
             "provider": "METRO",
             "categories": "News Tech World Guinness World Records Italy Motoring",
             "image": "https://metro.co.uk/wp-content/uploads/2026/09/coverimages56019051-e217.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Donald Trump says he’s the ‘Hoax Buster’ and dismisses AI fears",
-            "link": "https://metro.co.uk/2026/09/15/donald-trump-says-hoax-buster-dismisses-fears-ai-29609995/",
-            "published": "Tue, 15 Sep 2026 06:50:52 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News World Artificial Intelligence Donald Trump United States of America",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312376230-1da3.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Donald Trump Jr’s wedding was ‘funded by Putin-linked Russian oligarch’",
-            "link": "https://metro.co.uk/2026/09/15/donald-trump-jrs-wedding-funded-putin-linked-russian-oligarch-29605847/",
-            "published": "Tue, 15 Sep 2026 05:36:05 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News World Donald Trump donald trump jr Russia The Bahamas Vladimir Putin",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_242556025-ce53.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Nato fighter jets destroy mystery drone in Lithuania",
-            "link": "https://metro.co.uk/2026/09/15/nato-fighter-jets-destroy-mystery-drone-lithuania-29609833/",
-            "published": "Tue, 15 Sep 2026 05:24:40 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News World Belarus Lithuania NATO Russia",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_270149465-6521.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "The 3 best destination detours in Europe, according to a travel expert",
-            "link": "https://metro.co.uk/2026/09/17/3-best-destination-detours-europe-according-a-travel-expert-29564015/",
-            "published": "Thu, 17 Sep 2026 05:00:00 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Lifestyle Travel Austria Europe Travel Germany Italy Travel Inspiration",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_242911685-f715.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "First picture of British Major killed in road traffic incident in Ukraine",
-            "link": "https://metro.co.uk/2026/09/16/first-picture-british-major-killed-road-traffic-incident-ukraine-29623984/",
-            "published": "Wed, 16 Sep 2026 17:17:43 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News UK Death Ukraine",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312723624-ffc1-e1789578648804.jpg?quality=90&strip=all&w=399"
           }
         ],
         "POLITICS": [
@@ -3019,53 +2974,62 @@
         ],
         "TECH": [
           {
-            "title": "Games Inbox: Is the new Resident Evil the best video game movie ever?",
-            "link": "https://metro.co.uk/2026/09/17/games-inbox-new-resident-evil-best-video-game-movie-ever-29625000/",
-            "published": "Thu, 17 Sep 2026 00:10:00 +0000",
+            "title": "Slow Horses season 6’s execution-style violence takes the thriller to a new extreme",
+            "link": "https://metro.co.uk/2026/09/17/slow-horses-season-6s-execution-style-violence-takes-thriller-a-new-extreme-29628366/",
+            "published": "Thu, 17 Sep 2026 09:43:33 +0000",
             "source": "Metro",
             "provider": "METRO",
-            "categories": "Entertainment Gaming Capcom Game Pass Games Inbox Nintendo PlayStation 6 Resident Evil The Legend of Zelda Xbox",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/07/110209697-0-image-a-20_1784818639784.jpg?quality=90&strip=all&w=636"
+            "categories": "Entertainment TV Apple TV Gary Oldman Joanna Scanlan Kristin Scott Thomas Olivia Cooke Slow Horses TV reviews",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_311305298-7d7c.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Sniper Dan review – a shooting gallery for pacifists",
-            "link": "https://metro.co.uk/2026/09/17/sniper-dan-review-a-shooting-gallery-pacifists-29623328/",
-            "published": "Thu, 17 Sep 2026 00:00:00 +0000",
+            "title": "PS5 games have vanished from Steam in the UK and no one knows why",
+            "link": "https://metro.co.uk/2026/09/17/ps5-games-vanished-steam-uk-no-one-knows-29627628/",
+            "published": "Thu, 17 Sep 2026 08:47:37 +0000",
             "source": "Metro",
             "provider": "METRO",
-            "categories": "Entertainment Gaming Games news Games reviews Grand Theft Auto Indie Games Nintendo Switch 2 Nintendo Switch Games PC Games PlayStation 5 Xbox Series X",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312716844-0f4f.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Daily horoscope September 16, 2026: Today’s predictions for your star sign",
-            "link": "https://metro.co.uk/2026/09/17/daily-horoscope-september-17-2026-predictions-star-sign-29624818/",
-            "published": "Wed, 16 Sep 2026 23:01:00 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Horoscopes Lifestyle Aquarius Aries Astrology Cancer (star sign) Capricorn Gemini Leo Libra Pisces Sagittarius Scorpio Taurus Virgo",
-            "image": "https://metro.co.uk/wp-content/uploads/2023/04/new-horoscope-2023-02-a5db.gif?w=646"
-          },
-          {
-            "title": "Studio behind one of the worst rated games of the generation set to close",
-            "link": "https://metro.co.uk/2026/09/16/studio-behind-one-worst-rated-games-generation-set-close-29623836/",
-            "published": "Wed, 16 Sep 2026 17:18:35 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Entertainment Gaming Games news Rockstar Games",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312724375-9694.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "PS6 and next gen Xbox getting ready for 2027 launch according to AMD leaker",
-            "link": "https://metro.co.uk/2026/09/16/ps6-next-gen-xbox-getting-ready-2027-launch-according-amd-leaker-29623280/",
-            "published": "Wed, 16 Sep 2026 16:01:15 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Entertainment Gaming Games news Xbox Xbox Series X",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312716736-7eb3.jpg?quality=90&strip=all&w=646"
+            "categories": "Entertainment Gaming Games news PC Games PlayStation 5 Sony Steam Valve Corporation",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312806215-ddf1.jpg?quality=90&strip=all&w=646"
           }
         ],
         "ENTERTAINMENT": [
           {
+            "title": "Katie Price’s ex Lee Andrews left businessman penniless ‘after conning him out of $200,000’",
+            "link": "https://metro.co.uk/2026/09/17/katie-prices-ex-lee-andrews-left-businessman-penniless-after-conning-200-000-29627206/",
+            "published": "Thu, 17 Sep 2026 10:18:41 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment Showbiz Katie Price Lee Andrews",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/07/SEI_303821334-98c7-e1784306349466.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Slow Horses season 6’s execution-style violence takes the thriller to a new extreme",
+            "link": "https://metro.co.uk/2026/09/17/slow-horses-season-6s-execution-style-violence-takes-thriller-a-new-extreme-29628366/",
+            "published": "Thu, 17 Sep 2026 09:43:33 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment TV Apple TV Gary Oldman Joanna Scanlan Kristin Scott Thomas Olivia Cooke Slow Horses TV reviews",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_311305298-7d7c.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Paloma Faith calls out Ed Sheeran over Macklemore response: ‘It really upset me’",
+            "link": "https://metro.co.uk/2026/09/17/paloma-faith-calls-ed-sheeran-macklemore-response-it-really-upset-me-29627723/",
+            "published": "Thu, 17 Sep 2026 09:41:38 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment Showbiz Channel 4 Ed Sheeran Krishnan Guru-Murthy Paloma Faith",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312807060-5b2f.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Inbetweeners star accidentally leaks movie plot detail during Cameo video",
+            "link": "https://metro.co.uk/2026/09/17/inbetweeners-star-accidentally-leaks-movie-plot-detail-cameo-video-29627028/",
+            "published": "Thu, 17 Sep 2026 08:34:04 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment TV Channel 4 James Buckley Netflix The Inbetweeners",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/AD_5534393-2cca.jpg?quality=90&strip=all&w=646"
+          },
+          {
             "title": "Games Inbox: Is the new Resident Evil the best video game movie ever?",
             "link": "https://metro.co.uk/2026/09/17/games-inbox-new-resident-evil-best-video-game-movie-ever-29625000/",
             "published": "Thu, 17 Sep 2026 00:10:00 +0000",
@@ -3075,7 +3039,7 @@
             "image": "https://metro.co.uk/wp-content/uploads/2026/07/110209697-0-image-a-20_1784818639784.jpg?quality=90&strip=all&w=636"
           },
           {
-            "title": "Jennifer Garner’s stark reaction to being cast as ex Ben Affleck’s wife",
+            "title": "Jennifer Garner quit Netflix film after being cast as ex Ben Affleck’s wife",
             "link": "https://metro.co.uk/2026/09/16/jennifer-garners-stark-reaction-cast-ex-ben-afflecks-wife-29624557/",
             "published": "Wed, 16 Sep 2026 20:39:23 +0000",
             "source": "Metro",
@@ -3084,13 +3048,13 @@
             "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_218573132-20f4-e1789588494494.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Macklemore donates $1,000,000 earnings from Ed Sheeran tour to Palestinian support groups",
+            "title": "Ed Sheeran and stadium owner respond after Macklemore’s challenge to match $1,000,000 Palestinian donation",
             "link": "https://metro.co.uk/2026/09/16/macklemore-donates-1-000-000-earnings-ed-sheeran-tour-palestinian-support-groups-29624800/",
             "published": "Wed, 16 Sep 2026 20:37:28 +0000",
             "source": "Metro",
             "provider": "METRO",
             "categories": "Entertainment Showbiz Ed Sheeran US music",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310098758-6c9a-e1789161725148.jpg?quality=90&strip=all&w=646"
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/comp-1789628832.png?w=646"
           },
           {
             "title": "Strictly’s Shirley Ballas cosies up to ‘new boyfriend’ 30 years her junior",
@@ -3102,7 +3066,7 @@
             "image": "https://metro.co.uk/wp-content/uploads/2026/09/comp-1789585670.png?w=646"
           },
           {
-            "title": "Joanne McNally swipes at Celebrity Traitors season 2 trailer: ‘I did do it, didn’t I?’",
+            "title": "Celebrity Traitors season 2 star Joanne McNally takes swipe at new trailer",
             "link": "https://metro.co.uk/2026/09/16/joanne-mcnally-swipes-celebrity-traitors-season-2-trailer-i-didnt-29624006/",
             "published": "Wed, 16 Sep 2026 18:09:13 +0000",
             "source": "Metro",
@@ -3129,7 +3093,7 @@
             "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312719285-1caa-e1789575803622.jpg?quality=90&strip=all&w=576"
           },
           {
-            "title": "Netflix’s latest reality show is an exercise in cruelty",
+            "title": "New Netflix series inspired by cruel 1971 prison experiment is a step too far",
             "link": "https://metro.co.uk/2026/09/16/netflixs-latest-reality-show-exercise-cruelty-29623246/",
             "published": "Wed, 16 Sep 2026 16:16:47 +0000",
             "source": "Metro",
@@ -3174,76 +3138,22 @@
             "image": "https://metro.co.uk/wp-content/uploads/2026/09/1789564376061_9746830551197880.jpg?quality=90&strip=all&w=636"
           },
           {
-            "title": "Jade Thirlwall reveals rare condition after growing ‘sick’ of weight comments",
-            "link": "https://metro.co.uk/2026/09/16/jade-thirlwall-reveals-rare-condition-growing-sick-weight-comments-29621901/",
-            "published": "Wed, 16 Sep 2026 13:03:26 +0000",
+            "title": "EastEnders solves major flashforward mystery after nine months",
+            "link": "https://metro.co.uk/2026/09/17/eastenders-solves-major-flashforward-mystery-nine-months-29627147/",
+            "published": "Thu, 17 Sep 2026 09:43:12 +0000",
             "source": "Metro",
             "provider": "METRO",
-            "categories": "Entertainment Showbiz",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_275207068-da92-e1789563704549.jpg?quality=90&strip=all&w=646"
+            "categories": "EastEnders Soaps Jack Branning Penny Branning Suki Panesar-Unwin Vinny Panesar",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_311194247-86d8.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Playwright and author Bonnie Greer dies aged 77 after a ‘brief illness’",
-            "link": "https://metro.co.uk/2026/09/16/playwright-author-bonnie-greer-dies-aged-77-a-brief-illness-29621848/",
-            "published": "Wed, 16 Sep 2026 12:57:05 +0000",
+            "title": "Emmerdale confirms unexpected Charity prison outcome as reeling Sarah makes an announcement",
+            "link": "https://metro.co.uk/2026/09/17/emmerdale-confirms-unexpected-charity-prison-outcome-29627397/",
+            "published": "Thu, 17 Sep 2026 09:39:33 +0000",
             "source": "Metro",
             "provider": "METRO",
-            "categories": "Entertainment Showbiz Celebrity Deaths Theatre",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312698914-7345.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Cheryl performing Fight For This Love at a gay club has restored our faith in humanity",
-            "link": "https://metro.co.uk/2026/09/16/cheryl-performing-fight-this-love-a-gay-club-restored-faith-humanity-29621289/",
-            "published": "Wed, 16 Sep 2026 12:30:21 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Entertainment Showbiz Cheryl Kelly Rowland",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312692897-3de1.jpg?quality=90&strip=all&w=576"
-          },
-          {
-            "title": "70 Up hailed ‘one of the greatest TV films of all time’ as finale airs after 62 years",
-            "link": "https://metro.co.uk/2026/09/16/70-hailed-one-greatest-tv-films-time-finale-airs-62-years-29620736/",
-            "published": "Wed, 16 Sep 2026 12:23:21 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Entertainment TV Documentaries ITV ITVX",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312679142-a13e.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Zack Snyder insists he isn’t a fascist after making the ‘gayest movie ever’",
-            "link": "https://metro.co.uk/2026/09/16/zack-snyder-insists-isnt-a-fascist-making-gayest-movie-ever-29620867/",
-            "published": "Wed, 16 Sep 2026 12:23:00 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Entertainment Film Zack Snyder",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312356906-ee08.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "How Zoe died confirmed and new Penny twist as EastEnders spoilers reveal what’s next",
-            "link": "https://metro.co.uk/2026/09/16/zoe-died-confirmed-new-penny-twist-eastenders-spoilers-reveal-next-29621674/",
-            "published": "Wed, 16 Sep 2026 18:26:49 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "EastEnders Soaps Jessie Wallace Kat Slater Kitty Castledine Michelle Ryan Penny Branning Zoe Slater",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312700999-2730.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Emmerdale’s Ross and Corrie’s Tracy finally meet in deleted scene that never made it to air",
-            "link": "https://metro.co.uk/2026/09/16/emmerdales-ross-corries-tracy-finally-meet-deleted-scene-29622853/",
-            "published": "Wed, 16 Sep 2026 16:46:09 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Coronation Street Emmerdale Soaps Corriedale ITV Kate Ford Michael Parr Ross Barton Tracy Barlow",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEC_312722063-a9b3.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Cineworld members warn ‘dumb decision’ will cause brawling in the aisles",
-            "link": "https://metro.co.uk/2026/09/16/cineworld-members-warn-dumb-decision-will-cause-brawling-aisles-29621185/",
-            "published": "Wed, 16 Sep 2026 15:51:21 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Lifestyle Family Friendship Movies Trends",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312693178-4944.jpg?quality=90&strip=all&w=646"
+            "categories": "Emmerdale Soaps Charity Dingle Emma Atkins Katie Hill Sarah Sugden",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312329533-24c7.jpg?quality=90&strip=all&w=646"
           }
         ]
       },
@@ -3254,7 +3164,7 @@
         },
         "WORLD": {
           "ok": true,
-          "count": 16
+          "count": 11
         },
         "POLITICS": {
           "ok": true,
@@ -3266,11 +3176,11 @@
         },
         "TECH": {
           "ok": true,
-          "count": 5
+          "count": 2
         },
         "ENTERTAINMENT": {
           "ok": true,
-          "count": 20
+          "count": 18
         }
       }
     },
@@ -3385,47 +3295,110 @@
           {
             "title": "Dow Jones Futures Rise After Hawkish Fed, Warsh Hit Stocks, Trump Fumes; AMD, Bloom Energy Eye Buy Points",
             "link": "https://uk.finance.yahoo.com/m/d657761c-bf99-3091-88b4-e770125e96a8/dow-jones-futures-rise-after.html?.tsrc=rss",
-            "published": "Thu, 17 Sep 2026 03:04:13 +0000",
+            "published": "Thu, 17 Sep 2026 09:55:43 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
             "image": ""
           },
           {
-            "title": "TXO Partners LP (TXO) Declines More Than Market: Some Information for Investors",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/txo-partners-lp-txo-declines-221504118.html?.tsrc=rss",
-            "published": "Wed, 16 Sep 2026 22:15:04 +0000",
+            "title": "Stock Futures Surge as Wall Street Buys the Dip Following Fed Selloff",
+            "link": "https://uk.finance.yahoo.com/m/682efcbe-ab54-38a6-929e-d00654e40b90/stock-futures-surge-as-wall.html?.tsrc=rss",
+            "published": "Thu, 17 Sep 2026 09:31:50 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
             "image": ""
           },
           {
-            "title": "D.R. Horton (DHI) Falls More Steeply Than Broader Market: What Investors Need to Know",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/d-r-horton-dhi-falls-221502207.html?.tsrc=rss",
-            "published": "Wed, 16 Sep 2026 22:15:02 +0000",
+            "title": "Wall Street Futures Gain as Fed Signals Possible Further Rate Hikes and BoE Decision Approaches: Dow Jones, S&P, Nasdaq",
+            "link": "https://uk.advfn.com/market-news/article/23117/wall-street-futures-gain-as-fed-signals-possible-further-rate-hikes-and-boe-decision-approaches-dow-jones-sp-nasdaq?.tsrc=rss",
+            "published": "Thu, 17 Sep 2026 09:09:24 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": "https://uk.advfn-editors.com/wp-content/uploads/2026/05/wall-street-flag-NEW-SIZE.png"
+          },
+          {
+            "title": "Market Open: Next Interim Dividend, Galliford Try Profit Growth",
+            "link": "https://uk.advfn.com/market-news/article/23100/market-open-next-interim-dividend-galliford-try-profit-growth?.tsrc=rss",
+            "published": "Thu, 17 Sep 2026 08:57:08 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": "https://uk.advfn-editors.com/wp-content/uploads/2026/05/UK-Market-Open-UP-NEW-SIZE.png"
+          },
+          {
+            "title": "1 Bank Stock Worth Your Attention and 2 We Turn Down",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/1-bank-stock-worth-attention-085017399.html?.tsrc=rss",
+            "published": "Thu, 17 Sep 2026 08:50:17 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
             "image": ""
           },
           {
-            "title": "DaVita HealthCare (DVA) Advances While Market Declines: Some Information for Investors",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/davita-healthcare-dva-advances-while-220006573.html?.tsrc=rss",
-            "published": "Wed, 16 Sep 2026 22:00:06 +0000",
+            "title": "FTSE 100 Rises 0.71% Following Fed Rate Increase Ahead of Bank of England Decision",
+            "link": "https://uk.advfn.com/market-news/article/23110/ftse-100-rises-0-71-following-fed-rate-increase-ahead-of-bank-of-england-decision?.tsrc=rss",
+            "published": "Thu, 17 Sep 2026 08:43:35 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": "https://uk.advfn-editors.com/wp-content/uploads/2026/05/ftse-man-folded-arms-NEW-SIZE.png"
+          },
+          {
+            "title": "Stock market today: Dow, S&P 500, Nasdaq rise as Fed rate hike pacifies markets' inflation worries",
+            "link": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-september-17-dow-sp-500-nasdaq-081248626.html?.tsrc=rss",
+            "published": "Thu, 17 Sep 2026 08:12:48 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
             "image": ""
           },
           {
-            "title": "Teradyne (TER) Advances While Market Declines: Some Information for Investors",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/teradyne-ter-advances-while-market-220006726.html?.tsrc=rss",
-            "published": "Wed, 16 Sep 2026 22:00:06 +0000",
+            "title": "3 Insurance Stocks We Think Twice About",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/3-insurance-stocks-think-twice-080217713.html?.tsrc=rss",
+            "published": "Thu, 17 Sep 2026 08:02:17 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
             "image": ""
+          },
+          {
+            "title": "Best Value Stocks to Buy for September 17th",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/best-value-stocks-buy-september-075700141.html?.tsrc=rss",
+            "published": "Thu, 17 Sep 2026 07:57:00 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "1 Industrials Stock to Consider Right Now and 2 We Question",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/1-industrials-stock-consider-now-075204252.html?.tsrc=rss",
+            "published": "Thu, 17 Sep 2026 07:52:04 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "1 Industrials Stock for Long-Term Investors and 2 That Underwhelm",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/1-industrials-stock-long-term-074404134.html?.tsrc=rss",
+            "published": "Thu, 17 Sep 2026 07:44:04 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "As Lloyds shares stumble, is that dividend yield safe?",
+            "link": "https://www.twelfthmagpie.com/2026/09/17/as-lloyds-shares-stumble-is-that-dividend-yield-safe/?.tsrc=rss",
+            "published": "Thu, 17 Sep 2026 07:41:00 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2025/12/2026-4-1200x800.jpg"
           }
         ]
       },
@@ -3441,7 +3414,7 @@
         },
         "STOCKS": {
           "ok": true,
-          "count": 5,
+          "count": 12,
           "retainedPrevious": 0,
           "errors": [
             "https://finance.yahoo.com/news/rssindex: no relevant articles"
@@ -3581,6 +3554,15 @@
         ],
         "STOCKS": [
           {
+            "title": "Europe's low gas stocks pile on the economic and political pressure",
+            "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPT3ZaaXBVeVNMSm9TdlAzaWhnMDdTRTZIdENoSHBiVW1QQUx3eGxlOFk5cWJtcl91VVBud284a2N4OVM5dXJmMWZlb2NfLXdvMkswNVFmR0lmX3NzaUEzdmp1aWYtVjAxangtdGoxM2dXUUFZcm96NnMyVW0xOVY0NTB1aDVMbUdSTDlpVG9jSDhtcGZMUC02cTNVNGRhWnlmNktCR3dCZ0F4eE0?oc=5",
+            "published": "Thu, 17 Sep 2026 09:53:52 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
             "title": "India's NSE allots shares worth $703 million to anchor investors; LIC top bidder",
             "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQcUJlLXM1OURURUNuVEtCTzR2X3V6Mmd2N3FLT3cxZ2xHSkN0b2xuUzN4REdMbEhSMERCYXNwSVhLU3VDNlJmaVY1dU4tOXBNRUs4c1U5X1pJcHVROEQ4THFDT3BqaVEyTFowcDJHNFlBbktPRFk3S2V5ckxVWW9VZkY5NGF2VVE3cDRBb2hMUV9PejZfLXliR0VFdEZ0QV9kdDd5dG0tTzRVNWowVTN1MFNEZ0lmOTJVNGNQM3VjMDNSMVRv?oc=5",
             "published": "Wed, 16 Sep 2026 14:28:00 GMT",
@@ -3602,15 +3584,6 @@
             "title": "Stocks wobble but no sign of panic as yields surge",
             "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPS2RZa2F0OUhoZzVSRFpnTkhtd2RyYW5XZ0NFbmIzTloxbmhITmdFdGFYWEIxbHQ5SE8taHJtSExodHBDcUZHWWNKVU0ybTV2bXVJZXNCNmx2bFM1XzkydUY1aExvYTVGb1BxQjJ5U0FSZ2QtV3dxOGF1RXU4Z3g0Z0J0bFdVX3hsS29zeVMyNU1YR3c0WmRSbw?oc=5",
             "published": "Tue, 15 Sep 2026 09:52:00 GMT",
-            "source": "Reuters",
-            "provider": "REUTERS",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "Investors nervous about AI spending slowdown after industry warnings",
-            "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOSzVYeGFhZVhKUVVIZjBFWEF4ck1qZ2p2cUxaYmNMTzkycW9TUXJsbUFXOV80RF9Kb1BQamFzejg0enZFaHRlRGdUaGgzeUpUUGpsbW1BNnNJVWFOanVmZFJDMjBQYWYtT0hPSG5MUUlTYlZweWN5VDFyWndKWl9WNVBLWFFHUVl6dkJhem5EdGduY1ZpcjhuVjd6NDF1TXN5T1REdUZrYUhrajQ1aXdvd2EzcUNMTFBidmVJR0FtLTRWZw?oc=5",
-            "published": "Tue, 15 Sep 2026 05:03:00 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3671,18 +3644,18 @@
             "image": ""
           },
           {
-            "title": "Indian shares slide to three-month low in broad-based sell-off on Mideast worries",
-            "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQcV9paWE2NzJNbkNRNUdicjF3UjUwSURuaUJ5TzRObXdfX2pKUEZ5NlZQQ1RSSW5GdFlNWUNHMzBSZlkxUzVRWEowU2NZRXMzTW8zeDNrZWQ3YmtBNERoXy1RZ3RLa0xwMjl4SDJyWXNQUXktY2h4aTQtRkpObkhQcm9uVVgzc1V2MUpYaDNvVGU4LU1IUm13WEk3eEJ6VDdfeUdKZ3FpQmMwdw?oc=5",
-            "published": "Fri, 11 Sep 2026 02:23:00 GMT",
+            "title": "Wall Street dips after US wholesale inflation data, oil climbs",
+            "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9ydjJlYXlTVHhNV0k4Z3ZMb19VVFdUR2taM2lOVHhOUTN6enJSZVVhODdiSm04TnhTNGFJMDVOUjN4eVhsdGZtcFQ2RVloaFNFZzh4TkpvaUtfQTRFUXFkRmctMjFiRHFnWFE2VlBvQm4yZk5NMmdUZkNOdw?oc=5",
+            "published": "Thu, 10 Sep 2026 21:38:06 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
             "image": ""
           },
           {
-            "title": "Wall Street dips after US wholesale inflation data, oil climbs",
-            "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9ydjJlYXlTVHhNV0k4Z3ZMb19VVFdUR2taM2lOVHhOUTN6enJSZVVhODdiSm04TnhTNGFJMDVOUjN4eVhsdGZtcFQ2RVloaFNFZzh4TkpvaUtfQTRFUXFkRmctMjFiRHFnWFE2VlBvQm4yZk5NMmdUZkNOdw?oc=5",
-            "published": "Thu, 10 Sep 2026 21:38:06 GMT",
+            "title": "Washington nonprofit Better Markets sues Federal Reserve over capital rule overhaul",
+            "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQb3hQU3Y4VWFmRkpaUll6bmx3MzFKYlFzS0x6VjNsc1ZjdjZCUDhaYVdxdXRFSUd5bGFScjdZWHJLaGx6ZDdROUd1SnpzbE5NaWxpa3d6OGJqX000QThqOGVxUXZrdnE2djFJSHp6Z1YzTVlIUzNHcjliMmVfU0Ixb21jNmRudUwxeWItZTlSUDhpaTRNbmRMbndpZWVEOW1TSWdvR2ZxYXZVQXc0SFllLWI3UlM0Z2k0XzcxRWpFR0E3UUo1bjczRXNR?oc=5",
+            "published": "Thu, 10 Sep 2026 19:20:55 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3710,6 +3683,51 @@
     "MAGPIE": {
       "categories": {
         "STOCKS": [
+          {
+            "title": "Is the eye-popping 7.3% yield on Legal & General shares really sustainable?",
+            "link": "https://www.twelfthmagpie.com/2026/09/17/is-the-eye-popping-7-3-yield-on-legal-general-shares-really-sustainable/",
+            "published": "Thu, 17 Sep 2026 09:58:00 +0000",
+            "source": "The Twelfth Magpie",
+            "provider": "MAGPIE",
+            "categories": "Dividend Shares Investing Articles",
+            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2022/06/Perturbed.jpg"
+          },
+          {
+            "title": "Down 59%, is Pets at Home stock a FTSE 250 bargain?",
+            "link": "https://www.twelfthmagpie.com/2026/09/17/down-59-is-pets-at-home-stock-a-ftse-250-bargain/",
+            "published": "Thu, 17 Sep 2026 09:37:52 +0000",
+            "source": "The Twelfth Magpie",
+            "provider": "MAGPIE",
+            "categories": "Dividend Shares Investing Articles",
+            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2026/07/AdobeStock_250329925-1200x800.jpeg"
+          },
+          {
+            "title": "Near a 19-year-high, is there still value in Aviva shares?",
+            "link": "https://www.twelfthmagpie.com/2026/09/17/near-a-19-year-high-is-there-still-value-in-aviva-shares/",
+            "published": "Thu, 17 Sep 2026 09:35:33 +0000",
+            "source": "The Twelfth Magpie",
+            "provider": "MAGPIE",
+            "categories": "Dividend Shares Investing Articles",
+            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2023/10/Aviva-meeting-room-1200x675.jpg"
+          },
+          {
+            "title": "As Lloyds shares stumble, is that dividend yield safe?",
+            "link": "https://www.twelfthmagpie.com/2026/09/17/as-lloyds-shares-stumble-is-that-dividend-yield-safe/",
+            "published": "Thu, 17 Sep 2026 07:41:00 +0000",
+            "source": "The Twelfth Magpie",
+            "provider": "MAGPIE",
+            "categories": "Dividend Shares Investing Articles",
+            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2025/12/2026-4-1200x800.jpg"
+          },
+          {
+            "title": "This under-the-radar 49p UK stock offers a 7.2% dividend yield",
+            "link": "https://www.twelfthmagpie.com/2026/09/17/this-under-the-radar-49p-uk-stock-offers-a-7-2-dividend-yield/",
+            "published": "Thu, 17 Sep 2026 06:31:00 +0000",
+            "source": "The Twelfth Magpie",
+            "provider": "MAGPIE",
+            "categories": "Dividend Shares Investing Articles",
+            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2025/01/Dividend-Yield-1200x675.jpg"
+          },
           {
             "title": "Forget Lloyds shares! This FTSE bank is up 60% in the past year",
             "link": "https://www.twelfthmagpie.com/2026/09/16/forget-lloyds-shares-this-ftse-bank-is-up-60-in-the-past-year/",
@@ -3754,51 +3772,6 @@
             "provider": "MAGPIE",
             "categories": "Dividend Shares Investing Articles",
             "image": "https://www.twelfthmagpie.com/wp-content/uploads/2026/07/AdobeStock_250329925-1200x800.jpeg"
-          },
-          {
-            "title": "Inflation hits a 5-month high! Here are the UK shares that could benefit",
-            "link": "https://www.twelfthmagpie.com/2026/09/16/inflation-hits-a-5-month-high-here-are-the-uk-shares-that-could-benefit/",
-            "published": "Wed, 16 Sep 2026 10:20:43 +0000",
-            "source": "The Twelfth Magpie",
-            "provider": "MAGPIE",
-            "categories": "Investing Articles Investing For Beginners",
-            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2021/10/Inflation.jpg"
-          },
-          {
-            "title": "Check out the intriguing Tesco share price and dividend forecast for September 2027",
-            "link": "https://www.twelfthmagpie.com/2026/09/16/check-out-the-intriguing-tesco-share-price-and-dividend-forecast-for-september-2027/",
-            "published": "Wed, 16 Sep 2026 10:17:28 +0000",
-            "source": "The Twelfth Magpie",
-            "provider": "MAGPIE",
-            "categories": "Growth Shares Investing Articles",
-            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2025/12/2026-3-1200x675.jpg"
-          },
-          {
-            "title": "For every £100 invested in this ETF, £8.46 goes into Legal & General and Lloyds shares",
-            "link": "https://www.twelfthmagpie.com/2026/09/16/for-every-100-invested-in-this-etf-8-46-goes-into-legal-general-and-lloyds-shares/",
-            "published": "Wed, 16 Sep 2026 10:06:08 +0000",
-            "source": "The Twelfth Magpie",
-            "provider": "MAGPIE",
-            "categories": "Dividend Shares Investing Articles",
-            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2022/03/Passive-income-concept.jpg"
-          },
-          {
-            "title": "These 2 penny stocks yield over 10%! But are either worth considering?",
-            "link": "https://www.twelfthmagpie.com/2026/09/16/these-2-penny-stocks-yield-over-10-but-are-either-worth-considering/",
-            "published": "Wed, 16 Sep 2026 09:44:55 +0000",
-            "source": "The Twelfth Magpie",
-            "provider": "MAGPIE",
-            "categories": "Investing Articles Micro-Cap Shares",
-            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2023/04/Risk-vs-reward-1200x675.jpg"
-          },
-          {
-            "title": "I asked ChatGPT whether Lloyds or Aviva was the best dividend stock",
-            "link": "https://www.twelfthmagpie.com/2026/09/16/i-asked-chatgpt-whether-lloyds-or-aviva-was-the-best-dividend-stock/",
-            "published": "Wed, 16 Sep 2026 08:07:27 +0000",
-            "source": "The Twelfth Magpie",
-            "provider": "MAGPIE",
-            "categories": "Dividend Shares Investing Articles",
-            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2026/06/AdobeStock_215654421-1200x800.jpeg"
           }
         ]
       },
@@ -3814,5 +3787,5 @@
       }
     }
   },
-  "stocksUpdated": "2026-09-17T05:15:31.372Z"
+  "stocksUpdated": "2026-09-17T10:21:59.923Z"
 }
