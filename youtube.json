@@ -1,10 +1,18 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-18T04:52:09.480Z",
+  "generatedAt": "2026-09-18T11:25:36.599Z",
   "country": "GB",
   "trailers": [
     {
       "rank": 1,
+      "title": "STEPDADDY Official Trailer | Astrid Lee & Christy Imperial | VMX",
+      "videoId": "HKeFNJTKuws",
+      "poster": "https://i.ytimg.com/vi/HKeFNJTKuws/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=HKeFNJTKuws",
+      "channel": "VMX"
+    },
+    {
+      "rank": 2,
       "title": "Avengers: Doomsday | Official Trailer | In Theaters December 18",
       "videoId": "irVNGjRFZGk",
       "poster": "https://i.ytimg.com/vi/irVNGjRFZGk/hqdefault.jpg",
@@ -12,7 +20,7 @@
       "channel": "Marvel Entertainment"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "title": "ALPHA Official Trailer | Alia, Sharvari, Anil, Bobby, Shiv Rawail | YRF Spy Universe",
       "videoId": "QRqGwGwo1Y0",
       "poster": "https://i.ytimg.com/vi/QRqGwGwo1Y0/hqdefault.jpg",
@@ -20,7 +28,7 @@
       "channel": "YRF"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "Cocktail 2 Official Trailer | Shahid Kapoor, Kriti Sanon, Rashmika Mandanna | In Cinemas 19th June",
       "videoId": "XXxUqLHq1xg",
       "poster": "https://i.ytimg.com/vi/XXxUqLHq1xg/hqdefault.jpg",
@@ -28,7 +36,15 @@
       "channel": "Maddock Films"
     },
     {
-      "rank": 4,
+      "rank": 5,
+      "title": "Backrooms | Official Trailer HD | A24",
+      "videoId": "0HjdiohVOik",
+      "poster": "https://i.ytimg.com/vi/0HjdiohVOik/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=0HjdiohVOik",
+      "channel": "A24"
+    },
+    {
+      "rank": 6,
       "title": "Mirzapur The Movie | Official Hindi Trailer |Ali Fazal |  Pankaj Tripathi | Divyenndu | 4th Sept",
       "videoId": "5vMWZhHPlaw",
       "poster": "https://i.ytimg.com/vi/5vMWZhHPlaw/hqdefault.jpg",
@@ -36,7 +52,7 @@
       "channel": "Excel Movies"
     },
     {
-      "rank": 5,
+      "rank": 7,
       "title": "Ghamasaan | Official Trailer | Arshad Warsi, Pratik Gandhi | Hindi Zee 5 Original | Watch Now",
       "videoId": "OEvaXgDTPmU",
       "poster": "https://i.ytimg.com/vi/OEvaXgDTPmU/hqdefault.jpg",
@@ -44,7 +60,7 @@
       "channel": "Zee 5"
     },
     {
-      "rank": 6,
+      "rank": 8,
       "title": "Primetime | Official Trailer HD | A24",
       "videoId": "5fHXyqQOKL8",
       "poster": "https://i.ytimg.com/vi/5fHXyqQOKL8/hqdefault.jpg",
@@ -52,7 +68,7 @@
       "channel": "A24"
     },
     {
-      "rank": 7,
+      "rank": 9,
       "title": "One Night Only | Official Trailer",
       "videoId": "JRG244IfrRE",
       "poster": "https://i.ytimg.com/vi/JRG244IfrRE/hqdefault.jpg",
@@ -60,110 +76,94 @@
       "channel": "Universal Pictures"
     },
     {
-      "rank": 8,
-      "title": "RAMAYANA - Official Trailer",
-      "videoId": "1zip1rNaNYs",
-      "poster": "https://i.ytimg.com/vi/1zip1rNaNYs/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=1zip1rNaNYs",
-      "channel": "Sony Pictures Entertainment"
-    },
-    {
-      "rank": 9,
-      "title": "Dune: Part Three | Official Trailer",
-      "videoId": "NdvqHc56lE0",
-      "poster": "https://i.ytimg.com/vi/NdvqHc56lE0/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=NdvqHc56lE0",
-      "channel": "Warner Bros."
-    },
-    {
       "rank": 10,
-      "title": "Waiting Hai - Official Trailer | Divyenndu Sharma, Bhuvan Arora, Harshita Gaur | Prime Video",
-      "videoId": "0o1BC2Cavxc",
-      "poster": "https://i.ytimg.com/vi/0o1BC2Cavxc/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=0o1BC2Cavxc",
-      "channel": "MX Player by Prime Video"
+      "title": "Batwara 1947 | Official Trailer | Shabana Azmi | Sunny Deol | Aamir Khan Productions | 14th Aug 2026",
+      "videoId": "oRsAMzfvVGk",
+      "poster": "https://i.ytimg.com/vi/oRsAMzfvVGk/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=oRsAMzfvVGk",
+      "channel": "Aamir Khan Talkies"
     }
   ],
   "videos": [
     {
       "rank": 1,
-      "title": "Architects - \"Machine\"",
-      "videoId": "z5e-Fud8Nxs",
-      "poster": "https://i.ytimg.com/vi/z5e-Fud8Nxs/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=z5e-Fud8Nxs",
-      "channel": "Architects"
+      "title": "Troye Sivan - Party (Official Music Video)",
+      "videoId": "Yvl4QSAyWR4",
+      "poster": "https://i.ytimg.com/vi/Yvl4QSAyWR4/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=Yvl4QSAyWR4",
+      "channel": "TroyeSivanVEVO"
     },
     {
       "rank": 2,
-      "title": "The Hunger Games: Sunrise on the Reaping (2026) Official Trailer 2 - Joseph Zada",
-      "videoId": "lYXtL5TreOE",
-      "poster": "https://i.ytimg.com/vi/lYXtL5TreOE/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=lYXtL5TreOE",
-      "channel": "Lionsgate Movies"
+      "title": "Lanterns | Midseason Trailer | HBO Max",
+      "videoId": "-05WmSAmLK4",
+      "poster": "https://i.ytimg.com/vi/-05WmSAmLK4/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=-05WmSAmLK4",
+      "channel": "HBO Max"
     },
     {
       "rank": 3,
-      "title": "Good Luck on This Meccha Chameleon Map",
-      "videoId": "_2hPnNeJjEE",
-      "poster": "https://i.ytimg.com/vi/_2hPnNeJjEE/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=_2hPnNeJjEE",
-      "channel": "SMii7Y"
+      "title": "POOR vs RICH Block Battle! (Minecraft)",
+      "videoId": "DpSGngkq6nA",
+      "poster": "https://i.ytimg.com/vi/DpSGngkq6nA/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=DpSGngkq6nA",
+      "channel": "Cash"
     },
     {
       "rank": 4,
-      "title": "Trizz - Crocodile Tears (Official Music Video)",
-      "videoId": "YrB-1SeDxE8",
-      "poster": "https://i.ytimg.com/vi/YrB-1SeDxE8/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=YrB-1SeDxE8",
-      "channel": "Trizz #Birmingham "
+      "title": "ROSÉ - new trick (OFFICIAL MUSIC VIDEO)",
+      "videoId": "Lufa9QAFFeY",
+      "poster": "https://i.ytimg.com/vi/Lufa9QAFFeY/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=Lufa9QAFFeY",
+      "channel": "ROSÉ"
     },
     {
       "rank": 5,
-      "title": "Helluva Boss Season 3 Part 1 - Official Trailer | Prime Video",
-      "videoId": "WylSo1LhWfY",
-      "poster": "https://i.ytimg.com/vi/WylSo1LhWfY/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=WylSo1LhWfY",
-      "channel": "Prime Video"
+      "title": "Call of Duty: Modern Warfare 4 | Campaign Trailer",
+      "videoId": "yLFRQaQT0qM",
+      "poster": "https://i.ytimg.com/vi/yLFRQaQT0qM/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=yLFRQaQT0qM",
+      "channel": "Call of Duty"
     },
     {
       "rank": 6,
-      "title": "ROBLOX EVIL HOMER!",
-      "videoId": "ZUswzhFSt1I",
-      "poster": "https://i.ytimg.com/vi/ZUswzhFSt1I/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=ZUswzhFSt1I",
-      "channel": "Foltyn"
+      "title": "How To Start FC 27 Ultimate Team!",
+      "videoId": "TpzK-GOSXTY",
+      "poster": "https://i.ytimg.com/vi/TpzK-GOSXTY/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=TpzK-GOSXTY",
+      "channel": "NepentheZ"
     },
     {
       "rank": 7,
-      "title": "Nobody's Bay Bay",
-      "videoId": "Ys-ycxChrzE",
-      "poster": "https://i.ytimg.com/vi/Ys-ycxChrzE/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=Ys-ycxChrzE",
-      "channel": "Helluva Boss - Topic"
+      "title": "Freya Skye - bad taste",
+      "videoId": "cpssBqNhNrk",
+      "poster": "https://i.ytimg.com/vi/cpssBqNhNrk/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=cpssBqNhNrk",
+      "channel": "FreyaSkyeVEVO"
     },
     {
       "rank": 8,
-      "title": "The Hunger Games: Sunrise on the Reaping Cast REACTS to New Trailer + Message for Jennifer Lawrence",
-      "videoId": "6IsMsWONUDY",
-      "poster": "https://i.ytimg.com/vi/6IsMsWONUDY/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=6IsMsWONUDY",
-      "channel": "Entertainment Tonight"
+      "title": "TYSON | Official Trailer | Netflix",
+      "videoId": "o1S5LsYhfEg",
+      "poster": "https://i.ytimg.com/vi/o1S5LsYhfEg/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=o1S5LsYhfEg",
+      "channel": "Netflix"
     },
     {
       "rank": 9,
-      "title": "This Family Is Crazy!",
-      "videoId": "cBlO_MElMO4",
-      "poster": "https://i.ytimg.com/vi/cBlO_MElMO4/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=cBlO_MElMO4",
-      "channel": "Daz Games"
+      "title": "Wolverine",
+      "videoId": "YEIZUhyEQ5c",
+      "poster": "https://i.ytimg.com/vi/YEIZUhyEQ5c/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=YEIZUhyEQ5c",
+      "channel": "videogamedunkey"
     },
     {
       "rank": 10,
-      "title": "Trivium - Dead Inside Of Me (Official Video)",
-      "videoId": "I5qZI_v8eGs",
-      "poster": "https://i.ytimg.com/vi/I5qZI_v8eGs/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=I5qZI_v8eGs",
-      "channel": "Trivium"
+      "title": "Digga, Malie Donn - Badder Than Dem (Music Video)",
+      "videoId": "WpXCnBju8gI",
+      "poster": "https://i.ytimg.com/vi/WpXCnBju8gI/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=WpXCnBju8gI",
+      "channel": "Digga "
     }
   ],
   "sources": {

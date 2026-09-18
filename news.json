@@ -1,7 +1,25 @@
 {
-  "updated": "2026-09-18T11:04:45.291Z",
+  "updated": "2026-09-18T11:25:38.528Z",
   "categories": {
     "UK": [
+      {
+        "title": "Disabled people in UK need right to travel abroad, say MPs, after ‘ridiculous’ restrictions",
+        "link": "https://www.theguardian.com/world/2026/sep/18/disabled-people-uk-need-right-travel-abroad-ridiculous-restrictions",
+        "published": "Fri, 18 Sep 2026 11:00:17 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Disability UK news NHS Health Society Social care Health policy",
+        "image": "https://i.guim.co.uk/img/media/a51639da5b2d742fee8347efb04314a371591e44/716_0_5773_4620/master/5773.jpg?width=140&quality=85&auto=format&fit=max&s=4527d92fd10bc7e83b9bd5a29563c219"
+      },
+      {
+        "title": "Drivers ignoring roadwork closures to skip queues ‘wilfully putting lives at risk’",
+        "link": "https://www.theguardian.com/world/2026/sep/18/drivers-roadwork-closures-skip-queues-national-highways-england",
+        "published": "Fri, 18 Sep 2026 11:00:15 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Road safety Motoring Business Road transport UK news Transport England",
+        "image": "https://i.guim.co.uk/img/media/ccf52514ab9c82d7dd546e10d30514ce209d2362/59_0_2300_1840/master/2300.jpg?width=140&quality=85&auto=format&fit=max&s=74920447a810d020f1417b055476f585"
+      },
       {
         "title": "I’ve found 7 stylish table lamps under £50 that instantly make a room feel more luxurious",
         "link": "https://metro.co.uk/2026/09/18/found-7-stylish-table-lamps-50-instantly-make-a-room-feel-luxurious-29621495/",
@@ -26,17 +44,8 @@
         "published": "Fri, 18 Sep 2026 10:58:07 +0000",
         "source": "Metro",
         "provider": "METRO",
-        "categories": "News UK Essex Tesco",
+        "categories": "News UK Crash Essex Essex Police Tesco",
         "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_291800924-6609.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Council workers lose bid to stop press naming them at Sara Sharif inquest",
-        "link": "https://metro.co.uk/2026/09/18/council-workers-lose-bid-stop-press-naming-sara-sharif-inquest-29633482/",
-        "published": "Fri, 18 Sep 2026 10:55:52 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News UK Crime News Inquest",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_238050916-e68a.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "Burnham hosts Ireland’s taoiseach as he bids for UK exemptions from EU’s ‘Made in Europe’ plan – UK politics live",
@@ -64,15 +73,6 @@
         "provider": "GUARDIAN",
         "categories": "Retail industry Consumer spending Economic growth (GDP) Business Economics England Scotland Wales Office for National Statistics Online shopping UK news",
         "image": "https://i.guim.co.uk/img/media/aff9803da86a14af4834f9719faa63ae12304e49/500_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=5d63832586ac751c4177e2ac3650e5f2"
-      },
-      {
-        "title": "Twenty women had breasts removed unnecessarily during NHS cancer care",
-        "link": "https://www.theguardian.com/society/2026/sep/18/women-breasts-removed-unnecessarily-cancer-treatment-county-durham-darlington-nhs-trust",
-        "published": "Fri, 18 Sep 2026 08:04:05 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "NHS Breast cancer UK news Society Health North of England",
-        "image": "https://i.guim.co.uk/img/media/d7ebb7b9602c71385fc680fbd8842be33ddcd784/159_0_4080_3264/master/4080.jpg?width=140&quality=85&auto=format&fit=max&s=eb82eb13e90c7cb478f9860e1a267b8a"
       },
       {
         "title": "20 women had unnecessary mastectomies, says NHS trust",
@@ -192,7 +192,7 @@
         "published": "Fri, 18 Sep 2026 10:51:20 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
-        "categories": "Kemi Badenoch UK news Politics Sport Bruce Springsteen Cocktails Alcohol",
+        "categories": "Kemi Badenoch UK news Politics Sport Bruce Springsteen Cocktails Alcohol Conservative conference Conservatives",
         "image": "https://i.guim.co.uk/img/media/fabb04c058236b8de9d9a9025d67e918bf8b8ce7/3_79_3692_2953/master/3692.jpg?width=140&quality=85&auto=format&fit=max&s=e38f3cb037d02a43e2df7e280665af7c"
       },
       {
@@ -371,6 +371,24 @@
     ],
     "TECH": [
       {
+        "title": "New Soulslike game lowers its price so it can compete with GTA 6 and Zelda",
+        "link": "https://metro.co.uk/2026/09/18/new-soulslike-game-lowers-price-can-compete-gta-6-zelda-29633612/",
+        "published": "Fri, 18 Sep 2026 11:16:03 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Entertainment Gaming Games news GTA 6 PC Games PlayStation 5 The Legend of Zelda Xbox Series X",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312946856-7441.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Is Trump’s AI obsession walking the world into disaster? | Politics Weekly America",
+        "link": "https://www.theguardian.com/politics/video/2026/sep/18/is-trumps-ai-obsession-walking-the-world-into-disaster-politics-weekly-america",
+        "published": "Fri, 18 Sep 2026 11:00:17 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "AI (artificial intelligence) Donald Trump US politics Technology US news World news",
+        "image": "https://i.guim.co.uk/img/media/6637d137c39482268637005636e40ef69021b080/285_0_1350_1080/master/1350.jpg?width=140&quality=85&auto=format&fit=max&s=91c062ab169f4641a4a2e8dc9119a684"
+      },
+      {
         "title": "GTA 5 was going to get Liberty City DLC as leak reveals early version of GTA 6",
         "link": "https://metro.co.uk/2026/09/18/gta-5-going-get-liberty-city-dlc-leak-reveals-early-version-gta-6-29633065/",
         "published": "Fri, 18 Sep 2026 09:52:36 +0000",
@@ -396,15 +414,6 @@
         "provider": "GUARDIAN",
         "categories": "Consumer affairs AI (artificial intelligence) Australia news Business Australian law Australian fashion",
         "image": "https://i.guim.co.uk/img/media/f792a8ee2b382758d94e16c10914ed5ffc4405fe/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=e03fefb1e28e9bd413e1d65c3f9df3cc"
-      },
-      {
-        "title": "Could AI really end humanity? Post your questions for our tech reporters now",
-        "link": "https://www.theguardian.com/community/live/2026/sep/18/could-ai-really-end-humanity-technology-qanda",
-        "published": "Fri, 18 Sep 2026 07:14:11 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "AI (artificial intelligence) Technology OpenAI Google Anthropic Elon Musk Grok AI",
-        "image": "https://i.guim.co.uk/img/media/45cdb6f3028083230359386d33a5e3eb46f57e94/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=d520a0f65bc404fbe0dfac4a3716e772"
       },
       {
         "title": "New species of wild cat identified in Bolivia - first for more than 100 years",
@@ -434,6 +443,15 @@
         "image": "https://e3.365dm.com/26/09/1920x1080/skynews-crater-moon_7354316.jpg?20260917092925"
       },
       {
+        "title": "Could AI really end humanity? Post your questions for our tech reporters now",
+        "link": "https://www.theguardian.com/community/live/2026/sep/18/could-ai-really-end-humanity-technology-qanda",
+        "published": "Fri, 18 Sep 2026 07:14:11 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "AI (artificial intelligence) Technology OpenAI Google Anthropic Elon Musk Grok AI",
+        "image": "https://i.guim.co.uk/img/media/45cdb6f3028083230359386d33a5e3eb46f57e94/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=d520a0f65bc404fbe0dfac4a3716e772"
+      },
+      {
         "title": "Former Labour deputy leader Tom Watson joins Palantir",
         "link": "https://www.theguardian.com/politics/2026/sep/18/former-labour-deputy-leader-tom-watson-joins-palantir",
         "published": "Fri, 18 Sep 2026 06:00:11 GMT",
@@ -441,27 +459,18 @@
         "provider": "GUARDIAN",
         "categories": "Tom Watson Palantir Politics Technology UK news",
         "image": "https://i.guim.co.uk/img/media/4eeeb008fa1bfcf7714a89458b0a5c560c3edc99/176_0_2660_2128/master/2660.jpg?width=140&quality=85&auto=format&fit=max&s=8cf345bf66e1a6343d7abf66879df82f"
-      },
-      {
-        "title": "Is Trump’s AI obsession walking the world into disaster? – podcast",
-        "link": "https://www.theguardian.com/politics/audio/2026/sep/18/is-trumps-ai-obsession-walking-the-world-into-disaster-podcast",
-        "published": "Fri, 18 Sep 2026 04:00:08 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "AI (artificial intelligence) Donald Trump Technology US news US politics World news Computing",
-        "image": "https://i.guim.co.uk/img/media/f61f03adb43dbaa65520c5df9a732a8ef4c60824/43_0_4379_3504/master/4379.jpg?width=140&quality=85&auto=format&fit=max&s=706e10364c9b94f76db198166a6f4c99"
-      },
-      {
-        "title": "Meta ordered to remove UK deepfakes as oversight board criticises ‘inadequate’ safeguards",
-        "link": "https://www.theguardian.com/technology/2026/sep/17/meta-ordered-remove-deepfakes-oversight-board-inadequate-safeguards",
-        "published": "Thu, 17 Sep 2026 14:43:34 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Meta Social media Digital media Facebook Technology Deepfake UK news AI (artificial intelligence)",
-        "image": "https://i.guim.co.uk/img/media/4fd6d7a1e134059d456b5f57c5a274fe87d7708d/542_0_5417_4335/master/5417.jpg?width=140&quality=85&auto=format&fit=max&s=04523bbe91eb53df6183ee56df64209f"
       }
     ],
     "ENTERTAINMENT": [
+      {
+        "title": "Glastonbury boss gives blunt response to Oasis 2027 headline rumours",
+        "link": "https://metro.co.uk/2026/09/18/glastonbury-boss-gives-blunt-response-oasis-2027-headline-rumours-29633767/",
+        "published": "Fri, 18 Sep 2026 11:24:45 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Entertainment Music",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312949042-6fe0.jpg?quality=90&strip=all&w=646"
+      },
       {
         "title": "Strictly Come Dancing’s Will Best reveals baby news ahead of BBC show debut",
         "link": "https://metro.co.uk/2026/09/18/strictly-come-dancings-will-best-reveals-baby-news-ahead-bbc-show-debut-29633074/",
@@ -488,15 +497,6 @@
         "provider": "METRO",
         "categories": "Coronation Street Soaps Jason Grimshaw Ryan Thomas Sarah Platt Soaps Showbiz Tina O'Brien",
         "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_253818858-c468-e1789719397837.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Razorlight reveal how they ‘rebuilt total breakdown of trust’ after epic fallout",
-        "link": "https://metro.co.uk/2026/09/18/razorlight-reveal-rebuilt-total-breakdown-trust-epic-fallout-29623312/",
-        "published": "Fri, 18 Sep 2026 07:00:00 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Entertainment Music British musicians Exclusive Music Tours",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312837033-6075.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "Monster: The Lizzie Borden Story review – it’s like Ryan Murphy’s new series was written by adolescent boys",
@@ -557,34 +557,34 @@
       {
         "title": "Dow Jones Futures Rise After Bullish S&P 500, Nasdaq Rebound; Moderna, AMD, SpaceX Flash Buy Signals",
         "link": "https://uk.finance.yahoo.com/m/1921e6e5-7c6c-3cc6-ae73-750d397323c3/dow-jones-futures-rise-after.html?.tsrc=rss",
-        "published": "Fri, 18 Sep 2026 10:56:02 +0000",
+        "published": "Fri, 18 Sep 2026 11:01:23 +0000",
         "source": "Yahoo Finance",
         "provider": "YAHOO",
         "categories": "",
         "image": ""
+      },
+      {
+        "title": "Ocular Therapeutix™ Reports Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
+        "link": "https://finance.yahoo.com/healthcare/articles/ocular-therapeutix-reports-inducement-grants-110000913.html?.tsrc=rss",
+        "published": "Fri, 18 Sep 2026 11:00:00 +0000",
+        "source": "Yahoo Finance",
+        "provider": "YAHOO",
+        "categories": "",
+        "image": ""
+      },
+      {
+        "title": "Market Overview: UK shares open little changed as Fed reassurance lifts Europe",
+        "link": "https://uk.advfn.com/market-news/article/23149/market-overview-uk-shares-open-little-changed-as-fed-reassurance-lifts-europe?.tsrc=rss",
+        "published": "Fri, 18 Sep 2026 10:46:10 +0000",
+        "source": "Yahoo Finance",
+        "provider": "YAHOO",
+        "categories": "",
+        "image": "https://uk.advfn-editors.com/wp-content/uploads/2026/05/UK-Market-Open-FLAT-NEW-SIZE.jpg"
       },
       {
         "title": "1 Industrials Stock with Exciting Potential and 2 That Underwhelm",
         "link": "https://finance.yahoo.com/markets/stocks/articles/1-industrials-stock-exciting-potential-104040398.html?.tsrc=rss",
         "published": "Fri, 18 Sep 2026 10:40:40 +0000",
-        "source": "Yahoo Finance",
-        "provider": "YAHOO",
-        "categories": "",
-        "image": ""
-      },
-      {
-        "title": "Revolut weighs dual listing in New York and London for its long-awaited IPO",
-        "link": "https://www.euronews.com/2026/09/18/revolut-weighs-dual-listing-in-new-york-and-london-for-its-long-awaited-ipo?.tsrc=rss",
-        "published": "Fri, 18 Sep 2026 10:25:01 +0000",
-        "source": "Yahoo Finance",
-        "provider": "YAHOO",
-        "categories": "",
-        "image": "https://images.euronews.com/articles/stories/09/91/85/99/1200x675_cmsv2_cb5ccd11-7080-593f-81f4-dc5324ea3fb0-9918599.jpg"
-      },
-      {
-        "title": "3 Software Stocks That Fall Short",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/3-software-stocks-fall-short-100840480.html?.tsrc=rss",
-        "published": "Fri, 18 Sep 2026 10:08:40 +0000",
         "source": "Yahoo Finance",
         "provider": "YAHOO",
         "categories": "",
@@ -1250,6 +1250,24 @@
       "categories": {
         "UK": [
           {
+            "title": "Disabled people in UK need right to travel abroad, say MPs, after ‘ridiculous’ restrictions",
+            "link": "https://www.theguardian.com/world/2026/sep/18/disabled-people-uk-need-right-travel-abroad-ridiculous-restrictions",
+            "published": "Fri, 18 Sep 2026 11:00:17 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Disability UK news NHS Health Society Social care Health policy",
+            "image": "https://i.guim.co.uk/img/media/a51639da5b2d742fee8347efb04314a371591e44/716_0_5773_4620/master/5773.jpg?width=140&quality=85&auto=format&fit=max&s=4527d92fd10bc7e83b9bd5a29563c219"
+          },
+          {
+            "title": "Drivers ignoring roadwork closures to skip queues ‘wilfully putting lives at risk’",
+            "link": "https://www.theguardian.com/world/2026/sep/18/drivers-roadwork-closures-skip-queues-national-highways-england",
+            "published": "Fri, 18 Sep 2026 11:00:15 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Road safety Motoring Business Road transport UK news Transport England",
+            "image": "https://i.guim.co.uk/img/media/ccf52514ab9c82d7dd546e10d30514ce209d2362/59_0_2300_1840/master/2300.jpg?width=140&quality=85&auto=format&fit=max&s=74920447a810d020f1417b055476f585"
+          },
+          {
             "title": "Burnham hosts Ireland’s taoiseach as he bids for UK exemptions from EU’s ‘Made in Europe’ plan – UK politics live",
             "link": "https://www.theguardian.com/politics/live/2026/sep/18/andy-burnham-ireland-john-healey-eu-made-in-europe-plan-uk-politics-latest-updates-news",
             "published": "Fri, 18 Sep 2026 10:46:46 GMT",
@@ -1295,6 +1313,15 @@
             "image": "https://i.guim.co.uk/img/media/4eeeb008fa1bfcf7714a89458b0a5c560c3edc99/176_0_2660_2128/master/2660.jpg?width=140&quality=85&auto=format&fit=max&s=8cf345bf66e1a6343d7abf66879df82f"
           },
           {
+            "title": "Global leaders urged to join initiative to fight extreme inequality",
+            "link": "https://www.theguardian.com/inequality/2026/sep/18/global-leaders-urged-to-join-initiative-to-fight-extreme-inequality",
+            "published": "Fri, 18 Sep 2026 06:00:11 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Income inequality Global economy Inequality Economics Business Economic policy United Nations Poverty World news UK news",
+            "image": "https://i.guim.co.uk/img/media/e962bf2cde6b95a690e12930286e88b929c54ca5/440_0_3336_2670/master/3336.jpg?width=140&quality=85&auto=format&fit=max&s=4ef8afb68a310d29ee59136b561f111d"
+          },
+          {
             "title": "MPs urge ministers to break off Thames Water talks with US hedge funds",
             "link": "https://www.theguardian.com/environment/2026/sep/18/mps-urge-ministers-thames-water-talks-hedge-funds-special-administration-regime",
             "published": "Fri, 18 Sep 2026 05:00:09 GMT",
@@ -1302,33 +1329,6 @@
             "provider": "GUARDIAN",
             "categories": "Water Thames Water Water industry Utilities Pollution Environment UK news Business Nationalisation Hedge funds",
             "image": "https://i.guim.co.uk/img/media/742ec66771552c121143ed192211850d50bfafac/1288_0_6440_5152/master/6440.jpg?width=140&quality=85&auto=format&fit=max&s=005b30356d4105c2e5eb9a6df960eb1d"
-          },
-          {
-            "title": "Find a credible plan for British Steel, ministers told as ‘startling’ costs soar",
-            "link": "https://www.theguardian.com/business/2026/sep/18/british-steel-mps-labour-spending-watchdog-pac",
-            "published": "Thu, 17 Sep 2026 23:01:01 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "British Steel Steel industry Business Politics UK news",
-            "image": "https://i.guim.co.uk/img/media/06366e0469321e3e125281e6b85b3a0a0e87eed4/1764_660_3236_2588/master/3236.jpg?width=140&quality=85&auto=format&fit=max&s=34a2af0efbf485026feb2fd99a311220"
-          },
-          {
-            "title": "Addison Lee founder owes £20.5m in tax after UK tribunal ruling",
-            "link": "https://www.theguardian.com/politics/2026/sep/17/addison-lee-founder-owes-tax-after-uk-tribunal-ruling",
-            "published": "Thu, 17 Sep 2026 21:04:24 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "HMRC UK news Ireland Business Self-assessment tax England",
-            "image": "https://i.guim.co.uk/img/media/d672a9739c2002fef50c09846eb37752d2a30d13/142_0_3457_2765/master/3457.jpg?width=140&quality=85&auto=format&fit=max&s=d0004eb0b8ee4e0189c619c40f72c5a2"
-          },
-          {
-            "title": "Suspect in ‘Putney pusher’ case told family that investigation was ‘murdering him’",
-            "link": "https://www.theguardian.com/uk-news/2026/sep/17/nicholas-brandram-suspect-putney-pusher-case-family-sisters",
-            "published": "Thu, 17 Sep 2026 20:33:37 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "London Metropolitan police Police UK news",
-            "image": "https://i.guim.co.uk/img/media/fcc73a7405db371d260f9c81fa743cd553edc11b/0_42_731_584/master/731.jpg?width=140&quality=85&auto=format&fit=max&s=167eb541b517c55dd2ee2613f56d986d"
           },
           {
             "title": "‘A man threatened to shoot me’: the abuse pushing UK councillors out of politics",
@@ -1349,6 +1349,15 @@
             "image": "https://i.guim.co.uk/img/media/3618a9e3d7453c48955bc8ceb4d9631c2cc3ce59/455_0_6833_5464/master/6833.jpg?width=140&quality=85&auto=format&fit=max&s=2ec04c706e6121ff57eb289f3fca765a"
           },
           {
+            "title": "Nato head: Britain must show ‘credible path’ of annual defence budget increases",
+            "link": "https://www.theguardian.com/world/2026/sep/17/nato-head-britain-must-show-credible-path-of-annual-defence-budget-increases",
+            "published": "Thu, 17 Sep 2026 19:29:44 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Nato Politics Mark Rutte Andy Burnham Ed Miliband Wes Streeting UK news World news",
+            "image": "https://i.guim.co.uk/img/media/a57ab9d2d223b448c7a786cea4716a01fd234f15/58_0_1349_1080/master/1349.jpg?width=140&quality=85&auto=format&fit=max&s=eef6da6cc2a7c80c5f89759676a28335"
+          },
+          {
             "title": "Greens urge Zack Polanski to take stance on proposed policy declaring ‘Zionism is racism’",
             "link": "https://www.theguardian.com/politics/2026/sep/17/greens-push-zack-polanski-to-take-stance-on-proposed-policy-declaring-zionism-is-racism",
             "published": "Thu, 17 Sep 2026 17:06:14 GMT",
@@ -1365,15 +1374,6 @@
             "provider": "GUARDIAN",
             "categories": "Politics UK news Labour Conservatives Kemi Badenoch Budget 2026 Tax Tax and spending Bank of England TUC Energy Climate crisis Environment Sadiq Khan Zack Polanski Byelections Local government Housing Homelessness Disability Benefits Welfare Institute for Fiscal Studies Economics",
             "image": "https://i.guim.co.uk/img/media/56d3df0a2245dbb5a3364f62599237e169d48524/171_0_2325_1860/master/2325.jpg?width=140&quality=85&auto=format&fit=max&s=6165ff65343d49dd572fa26d79336b90"
-          },
-          {
-            "title": "Former student of suspended Reform official ‘reopens case’ against University of Cambridge",
-            "link": "https://www.theguardian.com/education/2026/sep/17/james-orr-reform-cambridge-university-student",
-            "published": "Thu, 17 Sep 2026 12:27:17 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "University of Cambridge Bullying Higher education Education Reform UK Politics UK news Society",
-            "image": "https://i.guim.co.uk/img/media/8ed95bc854b2253bb88d8ef3e8d7707e22cf6176/0_212_5745_4595/master/5745.jpg?width=140&quality=85&auto=format&fit=max&s=da2ae511184653f4f84b312d32cd97cf"
           },
           {
             "title": "Burnham’s talk of ‘breathing space’ at odds with reality of future Bank rate rises",
@@ -1682,7 +1682,7 @@
             "published": "Fri, 18 Sep 2026 10:51:20 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Kemi Badenoch UK news Politics Sport Bruce Springsteen Cocktails Alcohol",
+            "categories": "Kemi Badenoch UK news Politics Sport Bruce Springsteen Cocktails Alcohol Conservative conference Conservatives",
             "image": "https://i.guim.co.uk/img/media/fabb04c058236b8de9d9a9025d67e918bf8b8ce7/3_79_3692_2953/master/3692.jpg?width=140&quality=85&auto=format&fit=max&s=e38f3cb037d02a43e2df7e280665af7c"
           },
           {
@@ -2041,6 +2041,15 @@
             "image": "https://i.guim.co.uk/img/media/c5dcbdbfb717d62cfb53c3ff0c7e202eb985e3a2/0_0_3000_2400/master/3000.jpg?width=140&quality=85&auto=format&fit=max&s=32e44e8cebf3c0105f90d6e185798821"
           },
           {
+            "title": "Is Trump’s AI obsession walking the world into disaster? | Politics Weekly America",
+            "link": "https://www.theguardian.com/politics/video/2026/sep/18/is-trumps-ai-obsession-walking-the-world-into-disaster-politics-weekly-america",
+            "published": "Fri, 18 Sep 2026 11:00:17 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "AI (artificial intelligence) Donald Trump US politics Technology US news World news",
+            "image": "https://i.guim.co.uk/img/media/6637d137c39482268637005636e40ef69021b080/285_0_1350_1080/master/1350.jpg?width=140&quality=85&auto=format&fit=max&s=91c062ab169f4641a4a2e8dc9119a684"
+          },
+          {
             "title": "Andrew Hastie says AI advised him to reply ‘congratulations!’ to man who planned to end life with assisted dying",
             "link": "https://www.theguardian.com/technology/2026/sep/18/andrew-hastie-says-ai-advised-him-to-reply-congratulations-to-man-who-planned-to-end-life-with-assisted-dying",
             "published": "Fri, 18 Sep 2026 09:05:43 GMT",
@@ -2066,15 +2075,6 @@
             "provider": "GUARDIAN",
             "categories": "AI (artificial intelligence) Donald Trump Technology US news US politics World news Computing",
             "image": "https://i.guim.co.uk/img/media/f61f03adb43dbaa65520c5df9a732a8ef4c60824/43_0_4379_3504/master/4379.jpg?width=140&quality=85&auto=format&fit=max&s=706e10364c9b94f76db198166a6f4c99"
-          },
-          {
-            "title": "House speaker calls early recess before midterms amid AI regulation frenzy",
-            "link": "https://www.theguardian.com/us-news/2026/sep/16/mike-johnson-cancels-house-vote-hegseth",
-            "published": "Wed, 16 Sep 2026 17:10:42 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "House of Representatives Mike Johnson Pete Hegseth Republicans US-Israel war on Iran AI (artificial intelligence) US Congress US politics US news",
-            "image": "https://i.guim.co.uk/img/media/cb5731324e1ba2cb93c9867cfb3153e1559a69a2/776_498_3946_3157/master/3946.jpg?width=140&quality=85&auto=format&fit=max&s=6dea900c817bacf1496d21c378fe5259"
           },
           {
             "title": "Feeling overwhelmed by the AI doom loop? Here’s the essential reading list to make sense of it all",
@@ -2386,7 +2386,7 @@
             "published": "Fri, 18 Sep 2026 10:58:07 +0000",
             "source": "Metro",
             "provider": "METRO",
-            "categories": "News UK Essex Tesco",
+            "categories": "News UK Crash Essex Essex Police Tesco",
             "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_291800924-6609.jpg?quality=90&strip=all&w=646"
           },
           {
@@ -2992,6 +2992,15 @@
         ],
         "TECH": [
           {
+            "title": "New Soulslike game lowers its price so it can compete with GTA 6 and Zelda",
+            "link": "https://metro.co.uk/2026/09/18/new-soulslike-game-lowers-price-can-compete-gta-6-zelda-29633612/",
+            "published": "Fri, 18 Sep 2026 11:16:03 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment Gaming Games news GTA 6 PC Games PlayStation 5 The Legend of Zelda Xbox Series X",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312946856-7441.jpg?quality=90&strip=all&w=646"
+          },
+          {
             "title": "GTA 5 was going to get Liberty City DLC as leak reveals early version of GTA 6",
             "link": "https://metro.co.uk/2026/09/18/gta-5-going-get-liberty-city-dlc-leak-reveals-early-version-gta-6-29633065/",
             "published": "Fri, 18 Sep 2026 09:52:36 +0000",
@@ -3002,6 +3011,15 @@
           }
         ],
         "ENTERTAINMENT": [
+          {
+            "title": "Glastonbury boss gives blunt response to Oasis 2027 headline rumours",
+            "link": "https://metro.co.uk/2026/09/18/glastonbury-boss-gives-blunt-response-oasis-2027-headline-rumours-29633767/",
+            "published": "Fri, 18 Sep 2026 11:24:45 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment Music",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312949042-6fe0.jpg?quality=90&strip=all&w=646"
+          },
           {
             "title": "Strictly Come Dancing’s Will Best reveals baby news ahead of BBC show debut",
             "link": "https://metro.co.uk/2026/09/18/strictly-come-dancings-will-best-reveals-baby-news-ahead-bbc-show-debut-29633074/",
@@ -3158,11 +3176,11 @@
         },
         "TECH": {
           "ok": true,
-          "count": 1
+          "count": 2
         },
         "ENTERTAINMENT": {
           "ok": true,
-          "count": 15
+          "count": 16
         }
       }
     },
@@ -3277,11 +3295,29 @@
           {
             "title": "Dow Jones Futures Rise After Bullish S&P 500, Nasdaq Rebound; Moderna, AMD, SpaceX Flash Buy Signals",
             "link": "https://uk.finance.yahoo.com/m/1921e6e5-7c6c-3cc6-ae73-750d397323c3/dow-jones-futures-rise-after.html?.tsrc=rss",
-            "published": "Fri, 18 Sep 2026 10:56:02 +0000",
+            "published": "Fri, 18 Sep 2026 11:01:23 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
             "image": ""
+          },
+          {
+            "title": "Ocular Therapeutix™ Reports Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
+            "link": "https://finance.yahoo.com/healthcare/articles/ocular-therapeutix-reports-inducement-grants-110000913.html?.tsrc=rss",
+            "published": "Fri, 18 Sep 2026 11:00:00 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "Market Overview: UK shares open little changed as Fed reassurance lifts Europe",
+            "link": "https://uk.advfn.com/market-news/article/23149/market-overview-uk-shares-open-little-changed-as-fed-reassurance-lifts-europe?.tsrc=rss",
+            "published": "Fri, 18 Sep 2026 10:46:10 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": "https://uk.advfn-editors.com/wp-content/uploads/2026/05/UK-Market-Open-FLAT-NEW-SIZE.jpg"
           },
           {
             "title": "1 Industrials Stock with Exciting Potential and 2 That Underwhelm",
@@ -3302,9 +3338,27 @@
             "image": "https://images.euronews.com/articles/stories/09/91/85/99/1200x675_cmsv2_cb5ccd11-7080-593f-81f4-dc5324ea3fb0-9918599.jpg"
           },
           {
+            "title": "Goldman’s Snider Says Fears of US Earnings Bubble Are Misplaced",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/goldman-snider-says-fears-us-101444082.html?.tsrc=rss",
+            "published": "Fri, 18 Sep 2026 10:14:44 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
             "title": "3 Software Stocks That Fall Short",
             "link": "https://finance.yahoo.com/markets/stocks/articles/3-software-stocks-fall-short-100840480.html?.tsrc=rss",
             "published": "Fri, 18 Sep 2026 10:08:40 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "SpaceX Stock Is on a Good Run While Retail Investors Are Selling. What Gives?",
+            "link": "https://uk.finance.yahoo.com/m/121eb4ee-76aa-33eb-a65c-372cb3216aad/spacex-stock-is-on-a-good-run.html?.tsrc=rss",
+            "published": "Fri, 18 Sep 2026 09:30:00 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
@@ -3341,42 +3395,6 @@
             "title": "Our Oracle Stock Pick Is Down, But Stabilizing. Buy More.",
             "link": "https://uk.finance.yahoo.com/m/3aa3ed09-6522-39e8-b809-c64a5522cafd/our-oracle-stock-pick-is.html?.tsrc=rss",
             "published": "Fri, 18 Sep 2026 08:13:00 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "3 Industrials Stocks We’re Skeptical Of",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/3-industrials-stocks-skeptical-080920253.html?.tsrc=rss",
-            "published": "Fri, 18 Sep 2026 08:09:20 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "Stock market today: Dow, S&P 500, Nasdaq futures rise as oil prices slip",
-            "link": "https://finance.yahoo.com/markets/live/stock-market-today-friday-september-18-dow-sp-500-nasdaq-080504071.html?.tsrc=rss",
-            "published": "Fri, 18 Sep 2026 08:05:04 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "1 Industrials Stock with Promising Prospects and 2 Facing Headwinds",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/1-industrials-stock-promising-prospects-080120329.html?.tsrc=rss",
-            "published": "Fri, 18 Sep 2026 08:01:20 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "FTSE 100 today: Stocks slip on Hormuz crisis despite retail sales beat",
-            "link": "https://uk.finance.yahoo.com/news/ftse-100-today-stocks-slip-074810933.html?.tsrc=rss",
-            "published": "Fri, 18 Sep 2026 07:48:10 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
@@ -3599,6 +3617,15 @@
             "image": ""
           },
           {
+            "title": "Stocks fall as oil and bond yields rise",
+            "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOXzFkaEptQk9Gc2REWUZ3MHpYU1ZjbFpqSVp2cFV6b21TMU9pSUNnRWlqajdrYnAwN2FZTzRvNzJvUVlSTkYzcWxDMFlVZ1Ftb2V6OVhURC1haHFyS0NLcnRZUHhpSFRCb3VuQUt4SFFGTHJnVEg4eW0wSHgxcVlmR0JoRQ?oc=5",
+            "published": "Mon, 14 Sep 2026 23:33:41 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
             "title": "Global AI stocks fall as industry chiefs call for slowing development",
             "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQSTRDc1JSdWVDTmE5WmI2MEFCWGgxWUdvcGRNNlNjNXNiMmlaRGhLYmpOUGhFbGNQQzI0cks4Wjk3a0JFaE4wdUVDdFJUangyS1ZOWFRZOUU3VmdjblNOb29feDFwRkRQNDR6WGw5Z0xxMUhTeEhqNGxYanNuSHBDcjRhRVRSYjhQTHBTTXBjZnF3MnA5NnR1TkNLWFZLNXJrd19VRUNaMTg1ZzlKbTB1RnV0VVM2cG84aTdEWGZ3bHRVY2M?oc=5",
             "published": "Mon, 14 Sep 2026 18:56:37 GMT",
@@ -3611,15 +3638,6 @@
             "title": "Breakingviews - COMMENTARY: Digital stocks are more deliberate than disruptive",
             "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZXJIR0VHQnRYdldSeEkxWkVGbDhNRUpfQnVPVnV2SDAwYkxhMDdsTjVxUnFhdG8zSW0zNzYyeHVULXEwb05Id0JDM0NHcWRSQjBuYUlZY1lkVXNFTDFFZURXWDhiN2NaNUdSVXJrRnJ4cjB1a3dRaTR5Q3BNSi1jOS1UaXNzZFVLRzc1VXVwd2JfbGJ3bjd1M0NSUVVDMU94aFFQSlp6V1hrQXljNG9fbg?oc=5",
             "published": "Mon, 14 Sep 2026 09:18:22 GMT",
-            "source": "Reuters",
-            "provider": "REUTERS",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "EXCLUSIVE: IPO for humanoid robot maker Boston Dynamics unlikely in 2027, executive says",
-            "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPUG9xNjNSb3NaNnQtX1dBNzV0WmJFTFdCRS1uLXkzQUt3OTJFTmxzWUZ0c2l2RFUxZGU1R1lKcHgydDBURVozRmlZTU41aXZvVTBuQmFfM2RUSFJFVmRnY2w4Qm1fWEFUdnpoVVFCd3o5RFRncjhaNGN3NHNVaHNqUFhFMnBJanJHM1lCSHlmTzN3dFJqT2RKY3N0TG9keUo3al94SEJCSGlnT3drTjU0UF85Rkt3YU14U21TTXZqcURKY09XUF9V?oc=5",
-            "published": "Mon, 14 Sep 2026 07:13:27 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3760,5 +3778,5 @@
       }
     }
   },
-  "stocksUpdated": "2026-09-18T11:04:50.876Z"
+  "stocksUpdated": "2026-09-18T11:25:43.778Z"
 }
