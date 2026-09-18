@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-17T22:24:24.711Z",
+  "updated": "2026-09-18T00:44:20.308Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -65,14 +65,24 @@
     ],
     "BOOKS": [
       {
+        "title": "We Chase Shadows",
+        "author": "Richard Osman",
+        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978024/9780241745892.jpg"
+      },
+      {
+        "title": "Big Bad Wolf",
+        "author": "Laurie Gilmore",
+        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978000/9780008831783.jpg"
+      },
+      {
+        "title": "Immortal Rose",
+        "author": "Alexandra Bracken",
+        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978191/9781911769002.jpg"
+      },
+      {
         "title": "Brain Damage",
         "author": "Freida McFadden",
         "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978146/9781464298547.jpg"
-      },
-      {
-        "title": "The Knave and the Moon",
-        "author": "Rachel Gillig",
-        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978035/9780356522999.jpg"
       },
       {
         "title": "The Correspondent",
@@ -80,9 +90,19 @@
         "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978140/9781405971553.jpg"
       },
       {
-        "title": "Watching You",
-        "author": "Lisa Jewell",
-        "image": "https://storage.googleapis.com/lr-assets/main/covers/cwh/1549633659-watching-you-pbk-249x400.jpg"
+        "title": "Make Me Well",
+        "author": "Xand van Tulleken",
+        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978152/9781529961034.jpg"
+      },
+      {
+        "title": "Berwick",
+        "author": "LJ Ross",
+        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978180/9781804960691.jpg"
+      },
+      {
+        "title": "20 Minute Meals",
+        "author": "Jamie Oliver",
+        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978024/9780241657850.jpg"
       },
       {
         "title": "Ottolenghi Simple Too",
@@ -90,29 +110,9 @@
         "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978152/9781529109511.jpg"
       },
       {
-        "title": "Agrippa",
-        "author": "Robert Harris",
-        "image": "https://storage.googleapis.com/lr-assets/main/covers/1785489701-81o9u3ybfbl._sl1500_-261x400.jpg"
-      },
-      {
-        "title": "A Life in Lyrics",
-        "author": "Freddie Mercury and 2 more",
-        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978000/9780008735388.jpg"
-      },
-      {
-        "title": "Queens and Kings",
-        "author": "Lucy Worsley",
-        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978139/9781399748407.jpg"
-      },
-      {
-        "title": "The Finest Hotel in Kabul",
-        "author": "Lyse Doucet",
-        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978180/9781804957943.jpg"
-      },
-      {
-        "title": "The Secret of Secrets",
-        "author": "Dan Brown",
-        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978055/9780552178013.jpg"
+        "title": "The History of Mankind in Its Entirety (Abridged)",
+        "author": "Fin Taylor",
+        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978191/9781911754091.jpg"
       }
     ]
   },
@@ -123,15 +123,15 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-09-17T22:24:24.711Z",
-      "lastSuccessfulRefresh": "2026-09-17T22:24:24.711Z",
+      "checkedAt": "2026-09-18T00:44:20.308Z",
+      "lastSuccessfulRefresh": "2026-09-18T00:44:20.308Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
-      "status": "healthy",
-      "checkedAt": "2026-09-17T22:24:33.138Z",
+      "status": "stale",
+      "checkedAt": "2026-09-18T00:44:28.481Z",
       "lastSuccessfulRefresh": "2026-09-17T22:24:33.138Z",
-      "reason": ""
+      "reason": "503 https://www.audible.co.uk/charts/best"
     }
   }
 }
