@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-18T05:49:09.780Z",
+  "updated": "2026-09-18T11:04:50.926Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -9,16 +9,16 @@
         "image": "https://covers.openlibrary.org/b/id/15143022-L.jpg"
       },
       {
-        "title": "The Infinite Extent",
-        "author": "Dennis E. Taylor",
-        "narrator": "Ray Porter",
-        "image": "https://covers.openlibrary.org/b/id/15253208-L.jpg"
-      },
-      {
         "title": "The Garden Grave",
         "author": "Joy Ellis",
         "narrator": "Sam Claflin",
         "image": "https://m.media-amazon.com/images/I/51u2yPsf2LL._SL500_.jpg"
+      },
+      {
+        "title": "The Infinite Extent",
+        "author": "Dennis E. Taylor",
+        "narrator": "Ray Porter",
+        "image": "https://m.media-amazon.com/images/I/51O1HmGSbEL._SL500_.jpg"
       },
       {
         "title": "The Let Them Theory",
@@ -33,10 +33,22 @@
         "image": "https://covers.openlibrary.org/b/id/11702962-L.jpg"
       },
       {
+        "title": "Stephen Fry's Royal Secrets: The Elizabethans",
+        "author": "John Woolf",
+        "narrator": "Stephen Fry",
+        "image": ""
+      },
+      {
         "title": "The Dungeon Anarchist's Cookbook",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays , The Critical Drinker",
         "image": "https://covers.openlibrary.org/b/id/15233609-L.jpg"
+      },
+      {
+        "title": "The Safe Room",
+        "author": "Sarah A. Denzil",
+        "narrator": "Gemma Whelan , Maimie McCoy",
+        "image": ""
       },
       {
         "title": "The Gate of the Feral Gods",
@@ -45,22 +57,10 @@
         "image": "https://covers.openlibrary.org/b/id/15232581-L.jpg"
       },
       {
-        "title": "Stephen Fry's Royal Secrets: The Elizabethans",
-        "author": "John Woolf",
-        "narrator": "Stephen Fry",
-        "image": ""
-      },
-      {
         "title": "How to Quit Your Day Job... and Become Your Own Boss",
         "author": "Simon Squibb",
         "narrator": "Simon Squibb",
-        "image": ""
-      },
-      {
-        "title": "The Butcher's Masquerade",
-        "author": "Matt Dinniman",
-        "narrator": "Jeff Hays",
-        "image": "https://covers.openlibrary.org/b/id/15231958-L.jpg"
+        "image": "https://m.media-amazon.com/images/I/41YpvidAdGL._SL500_.jpg"
       }
     ],
     "BOOKS": [
@@ -123,15 +123,15 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-09-18T05:49:09.780Z",
-      "lastSuccessfulRefresh": "2026-09-18T05:49:09.780Z",
+      "checkedAt": "2026-09-18T11:04:50.926Z",
+      "lastSuccessfulRefresh": "2026-09-18T11:04:50.926Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
-      "status": "stale",
-      "checkedAt": "2026-09-18T05:49:17.640Z",
-      "lastSuccessfulRefresh": "2026-09-17T22:24:33.138Z",
-      "reason": "503 https://www.audible.co.uk/charts/best"
+      "status": "healthy",
+      "checkedAt": "2026-09-18T11:04:58.345Z",
+      "lastSuccessfulRefresh": "2026-09-18T11:04:58.345Z",
+      "reason": ""
     }
   }
 }
