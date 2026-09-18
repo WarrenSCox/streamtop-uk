@@ -1,7 +1,16 @@
 {
-  "updated": "2026-09-18T20:59:34.524Z",
+  "updated": "2026-09-18T21:11:19.015Z",
   "categories": {
     "UK": [
+      {
+        "title": "‘We live next to a giant rollercoaster that towers over our homes’",
+        "link": "https://metro.co.uk/2026/09/18/we-live-next-a-giant-rollercoaster-towers-homes-29635449/",
+        "published": "Fri, 18 Sep 2026 20:59:36 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News UK Nottinghamshire",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/09/comp-1789764274.png?w=646"
+      },
       {
         "title": "How long is Joao Pedro out for? Injured Chelsea star misses Brentford game",
         "link": "https://metro.co.uk/2026/09/18/long-joao-pedro-injured-chelsea-star-misses-brentford-game-29635436/",
@@ -46,15 +55,6 @@
         "provider": "GUARDIAN",
         "categories": "Police Cloud computing Microsoft Computing Internet Technology UK news Data protection Data and computer security Privacy Cybercrime",
         "image": "https://i.guim.co.uk/img/media/cac874b0d63d48e39cf43ea5a61612e0817abaf2/1_0_4998_4000/master/4998.jpg?width=140&quality=85&auto=format&fit=max&s=c490e0edab20299627db9b3dc5c42f39"
-      },
-      {
-        "title": "My date could only orgasm while clutching onto me – it was a turn off",
-        "link": "https://metro.co.uk/2026/09/18/date-orgasm-clutching-onto-a-turn-off-29629355/",
-        "published": "Fri, 18 Sep 2026 17:00:00 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Lifestyle Sex Dating First Person Real Life Sex tips Sexism",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312819500-7d84.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "Polanski request to postpone Greens’ conference to focus on byelection refused by party",
@@ -737,9 +737,7 @@
             "ok": true,
             "count": 12,
             "retainedPrevious": 0,
-            "errors": [
-              "https://finance.yahoo.com/news/rssindex: no relevant articles"
-            ]
+            "errors": []
           },
           "REUTERS": {
             "ok": true,
@@ -2354,6 +2352,15 @@
       "categories": {
         "UK": [
           {
+            "title": "‘We live next to a giant rollercoaster that towers over our homes’",
+            "link": "https://metro.co.uk/2026/09/18/we-live-next-a-giant-rollercoaster-towers-homes-29635449/",
+            "published": "Fri, 18 Sep 2026 20:59:36 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News UK Nottinghamshire",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/comp-1789764274.png?w=646"
+          },
+          {
             "title": "Putin mocked for his PC skills when voting in elections",
             "link": "https://metro.co.uk/2026/09/18/putin-mocked-pc-skills-voting-elections-29635384/",
             "published": "Fri, 18 Sep 2026 18:41:34 +0000",
@@ -2523,15 +2530,6 @@
             "provider": "METRO",
             "categories": "Lifestyle Shopping Christmas Christmas gifts Marks & Spencer Metro newspaper",
             "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312961213-1d33.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "JJ Gabriel snubbed by England youth teams amid Man Utd transfer saga",
-            "link": "https://metro.co.uk/2026/09/18/jj-gabriel-snubbed-england-youth-teams-amid-man-utd-transfer-saga-29634941/",
-            "published": "Fri, 18 Sep 2026 15:52:05 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Football Sport England men's football team Manchester United",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/GettyImages-2291884469-c09a.jpg?quality=90&strip=all&w=646"
           }
         ],
         "WORLD": [
@@ -3154,15 +3152,6 @@
             "provider": "METRO",
             "categories": "Emmerdale Soaps Joe Tate Ned Porteous Patsy Kensit Sadie King",
             "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312981953-2927.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Coronation Street stars pay tribute to ‘brilliant’ Stephanie Cole after death aged 84",
-            "link": "https://metro.co.uk/2026/09/18/coronation-street-star-stephanie-cole-dies-aged-84-29634811/",
-            "published": "Fri, 18 Sep 2026 14:37:07 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Coronation Street Soaps Celebrity Deaths Soaps Showbiz",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312972867-2ff4.jpg?quality=90&strip=all&w=646"
           }
         ]
       },
@@ -3189,7 +3178,7 @@
         },
         "ENTERTAINMENT": {
           "ok": true,
-          "count": 18
+          "count": 17
         }
       }
     },
@@ -3425,9 +3414,7 @@
           "ok": true,
           "count": 12,
           "retainedPrevious": 0,
-          "errors": [
-            "https://finance.yahoo.com/news/rssindex: no relevant articles"
-          ]
+          "errors": []
         }
       }
     },
@@ -3769,5 +3756,5 @@
       }
     }
   },
-  "stocksUpdated": "2026-09-18T20:59:40.138Z"
+  "stocksUpdated": "2026-09-18T21:11:25.000Z"
 }
