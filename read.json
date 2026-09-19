@@ -1,12 +1,12 @@
 {
-  "updated": "2026-09-19T14:44:05.457Z",
+  "updated": "2026-09-19T15:57:52.485Z",
   "charts": {
     "AUDIOBOOKS": [
       {
         "title": "Dungeon Crawler Carl",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://m.media-amazon.com/images/I/51HIZdnqASL._SL500_.jpg"
+        "image": "https://covers.openlibrary.org/b/id/15143022-L.jpg"
       },
       {
         "title": "The Garden Grave",
@@ -18,7 +18,7 @@
         "title": "The Infinite Extent",
         "author": "Dennis E. Taylor",
         "narrator": "Ray Porter",
-        "image": "https://m.media-amazon.com/images/I/51O1HmGSbEL._SL500_.jpg"
+        "image": "https://covers.openlibrary.org/b/id/15253208-L.jpg"
       },
       {
         "title": "The Safe Room",
@@ -54,7 +54,7 @@
         "title": "The Gate of the Feral Gods",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://m.media-amazon.com/images/I/51rmyTTWPsL._SL500_.jpg"
+        "image": "https://covers.openlibrary.org/b/id/15232581-L.jpg"
       },
       {
         "title": "The Stolen Twin",
@@ -123,15 +123,15 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-09-19T14:44:05.457Z",
-      "lastSuccessfulRefresh": "2026-09-19T14:44:05.457Z",
+      "checkedAt": "2026-09-19T15:57:52.485Z",
+      "lastSuccessfulRefresh": "2026-09-19T15:57:52.485Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
-      "status": "stale",
-      "checkedAt": "2026-09-19T14:44:14.258Z",
-      "lastSuccessfulRefresh": "2026-09-19T11:26:45.049Z",
-      "reason": "503 https://www.audible.co.uk/charts/best"
+      "status": "healthy",
+      "checkedAt": "2026-09-19T15:58:00.240Z",
+      "lastSuccessfulRefresh": "2026-09-19T15:58:00.240Z",
+      "reason": ""
     }
   }
 }
