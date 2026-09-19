@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-19T01:30:55.993Z",
+  "updated": "2026-09-19T04:45:09.936Z",
   "categories": {
     "UK": [
       {
@@ -9,7 +9,7 @@
         "source": "Sky News",
         "provider": "SKY",
         "categories": "",
-        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-eddavey-libdem_7355910.jpg?20260919013201"
+        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-stop-jackdaw-protest_7355911.jpg?20260919023838"
       },
       {
         "title": "The Lib Dems - still delivering or should they change course?",
@@ -119,7 +119,7 @@
         "source": "Sky News",
         "provider": "SKY",
         "categories": "",
-        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-trump-whitehouse_7355884.jpg?20260918230534"
+        "image": "https://e3.365dm.com/26/01/1920x1080/skynews-trump-greenland_7127625.jpg?20260106015144"
       },
       {
         "title": "Putin mocked for his PC skills when voting in elections",
@@ -167,7 +167,7 @@
         "image": "https://metro.co.uk/wp-content/uploads/2026/09/bear.png?w=646"
       },
       {
-        "title": "At least 16 killed in car bomb at mosque near police compound in Pakistan",
+        "title": "At least 31 killed in car bomb at mosque near police compound in Pakistan",
         "link": "https://news.sky.com/story/at-least-16-killed-in-car-bomb-at-mosque-near-police-compound-in-pakistan-13589294",
         "published": "Fri, 18 Sep 2026 13:32:00 +0100",
         "source": "Sky News",
@@ -193,7 +193,7 @@
         "source": "Sky News",
         "provider": "SKY",
         "categories": "",
-        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-eddavey-libdem_7355910.jpg?20260919013201"
+        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-stop-jackdaw-protest_7355911.jpg?20260919023838"
       },
       {
         "title": "The Lib Dems - still delivering or should they change course?",
@@ -555,18 +555,18 @@
     ],
     "STOCKS": [
       {
-        "title": "iHeartMedia, Charter, Sonos, Compass, and The Real Brokerage Stocks Trade Down, What You Need To Know",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/iheartmedia-charter-sonos-compass-real-000840400.html?.tsrc=rss",
-        "published": "Sat, 19 Sep 2026 00:08:40 +0000",
+        "title": "Dow Jones Futures: Nasdaq, S&P 500 Hold; Robinhood, Sandisk, AMD, Moderna Surge Into Buy Areas",
+        "link": "https://uk.finance.yahoo.com/m/832159c8-6dc5-38e6-b838-d7db7090ca09/dow-jones-futures%3A-nasdaq%2C.html?.tsrc=rss",
+        "published": "Sat, 19 Sep 2026 01:36:29 +0000",
         "source": "Yahoo Finance",
         "provider": "YAHOO",
         "categories": "",
         "image": ""
       },
       {
-        "title": "Dow Jones Futures: Market Still Choppy; Robinhood, Sandisk, AMD, Moderna Surge Into Buy Areas",
-        "link": "https://uk.finance.yahoo.com/m/832159c8-6dc5-38e6-b838-d7db7090ca09/dow-jones-futures%3A-market.html?.tsrc=rss",
-        "published": "Fri, 18 Sep 2026 22:40:21 +0000",
+        "title": "iHeartMedia, Charter, Sonos, Compass, and The Real Brokerage Stocks Trade Down, What You Need To Know",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/iheartmedia-charter-sonos-compass-real-000840400.html?.tsrc=rss",
+        "published": "Sat, 19 Sep 2026 00:08:40 +0000",
         "source": "Yahoo Finance",
         "provider": "YAHOO",
         "categories": "",
@@ -737,13 +737,11 @@
             "ok": true,
             "count": 12,
             "retainedPrevious": 0,
-            "errors": [
-              "https://finance.yahoo.com/news/rssindex: no relevant articles"
-            ]
+            "errors": []
           },
           "REUTERS": {
             "ok": true,
-            "count": 9,
+            "count": 11,
             "retainedPrevious": 0,
             "errors": [
               "https://www.reuters.com/arc/outboundfeeds/v3/all/?outputType=xml: 404 Not Found"
@@ -767,13 +765,13 @@
             "image": "https://e3.365dm.com/26/09/1920x1080/skynews-william-harry-charles_7355816.jpg?20260918214950"
           },
           {
-            "title": "'Millisecond' software error caused air traffic outage that grounded thousands of flights",
-            "link": "https://news.sky.com/story/millisecond-software-error-caused-air-traffic-outage-that-grounded-thousands-of-flights-13589298",
-            "published": "Fri, 18 Sep 2026 13:39:00 +0100",
+            "title": "The Lib Dems - still delivering or should they change course?",
+            "link": "https://news.sky.com/story/the-liberal-democrats-holding-firm-or-missing-out-13589307",
+            "published": "Sat, 19 Sep 2026 00:01:00 +0100",
             "source": "Sky News",
             "provider": "SKY",
             "categories": "",
-            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-heathrow-nats_7355527.jpg?20260918163653"
+            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-sir-ed-davey-local-elections_7355489.jpg?20260918151942"
           },
           {
             "title": "Sir Ed Davey says Jackdaw gas field 'makes sense' as decision looms for government",
@@ -782,25 +780,7 @@
             "source": "Sky News",
             "provider": "SKY",
             "categories": "",
-            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-eddavey-libdem_7355910.jpg?20260919013201"
-          },
-          {
-            "title": "Football club removes clothing range launched close to 9/11 anniversary",
-            "link": "https://news.sky.com/story/oxford-united-apologise-for-launching-united-93-shirts-close-to-911-anniversary-13589392",
-            "published": "Fri, 18 Sep 2026 16:56:00 +0100",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-oxford-united-united-93_7355512.jpg?20260918155119"
-          },
-          {
-            "title": "The Lib Dems - still delivering or should they change course?",
-            "link": "https://news.sky.com/story/the-liberal-democrats-holding-firm-or-missing-out-13589307",
-            "published": "Sat, 19 Sep 2026 00:01:00 +0100",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-sir-ed-davey-local-elections_7355489.jpg?20260918151942"
+            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-stop-jackdaw-protest_7355911.jpg?20260919023838"
           },
           {
             "title": "Former actor arrested in Spain over £13.6m con of would-be models",
@@ -812,6 +792,24 @@
             "image": "https://e3.365dm.com/26/09/1920x1080/skynews-philip-foster-foster_7355868.jpg?20260918224819"
           },
           {
+            "title": "Football club removes clothing range launched close to 9/11 anniversary",
+            "link": "https://news.sky.com/story/oxford-united-apologise-for-launching-united-93-shirts-close-to-911-anniversary-13589392",
+            "published": "Fri, 18 Sep 2026 16:56:00 +0100",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-oxford-united-united-93_7355512.jpg?20260918155119"
+          },
+          {
+            "title": "'Millisecond' software error caused air traffic outage that grounded thousands of flights",
+            "link": "https://news.sky.com/story/millisecond-software-error-caused-air-traffic-outage-that-grounded-thousands-of-flights-13589298",
+            "published": "Fri, 18 Sep 2026 13:39:00 +0100",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-heathrow-nats_7355527.jpg?20260918163653"
+          },
+          {
             "title": "Motor industry demands PM's help in switching to defence supply",
             "link": "https://news.sky.com/story/motor-industry-demand-andy-burnhams-help-in-switching-to-defence-supply-13589369",
             "published": "Fri, 18 Sep 2026 16:08:00 +0100",
@@ -819,15 +817,6 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/09/1920x1080/skynews-army-defence_7355523.jpg?20260918162816"
-          },
-          {
-            "title": "Coronation Street and Waiting For God actress Stephanie Cole dies",
-            "link": "https://news.sky.com/story/coronation-street-and-tenko-actress-stephanie-cole-has-died-13589313",
-            "published": "Fri, 18 Sep 2026 14:00:00 +0100",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-stephanie-cole-cole_7355510.jpg?20260918154921"
           }
         ],
         "WORLD": [
@@ -838,16 +827,16 @@
             "source": "Sky News",
             "provider": "SKY",
             "categories": "",
-            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-trump-whitehouse_7355884.jpg?20260918230534"
+            "image": "https://e3.365dm.com/26/01/1920x1080/skynews-trump-greenland_7127625.jpg?20260106015144"
           },
           {
-            "title": "British woman rescued after shoot-out between Malawi police and kidnappers left two dead",
-            "link": "https://news.sky.com/story/british-woman-kidnapped-in-malawi-rescued-and-reunited-with-family-13589169",
-            "published": "Fri, 18 Sep 2026 06:08:00 +0100",
+            "title": "At least 31 killed in car bomb at mosque near police compound in Pakistan",
+            "link": "https://news.sky.com/story/at-least-16-killed-in-car-bomb-at-mosque-near-police-compound-in-pakistan-13589294",
+            "published": "Fri, 18 Sep 2026 13:32:00 +0100",
             "source": "Sky News",
             "provider": "SKY",
             "categories": "",
-            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-nusrat-osman-malawi_7353335.jpg?20260916074049"
+            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-pakistan-attack-kohat_7355439.jpg?20260918140644"
           },
           {
             "title": "Gianni Infantino told to give $10m to each of the world's 211 FAs",
@@ -859,6 +848,15 @@
             "image": "https://e3.365dm.com/26/09/1920x1080/skynews-gianni-infantino-infantino_7355543.jpg?20260918170058"
           },
           {
+            "title": "British woman rescued after shoot-out between Malawi police and kidnappers left two dead",
+            "link": "https://news.sky.com/story/british-woman-kidnapped-in-malawi-rescued-and-reunited-with-family-13589169",
+            "published": "Fri, 18 Sep 2026 06:08:00 +0100",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-nusrat-osman-malawi_7353335.jpg?20260916074049"
+          },
+          {
             "title": "Man dies in fifth fatal shark attack this year in Australia",
             "link": "https://news.sky.com/story/man-dies-in-fifth-fatal-shark-attack-this-year-in-australia-13589236",
             "published": "Fri, 18 Sep 2026 11:26:00 +0100",
@@ -866,15 +864,6 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/09/1920x1080/skynews-sorrento-beach-perth_7355154.jpg?20260918124454"
-          },
-          {
-            "title": "At least 16 killed in car bomb at mosque near police compound in Pakistan",
-            "link": "https://news.sky.com/story/at-least-16-killed-in-car-bomb-at-mosque-near-police-compound-in-pakistan-13589294",
-            "published": "Fri, 18 Sep 2026 13:32:00 +0100",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-pakistan-attack-kohat_7355439.jpg?20260918140644"
           },
           {
             "title": "New species of wild cat identified in Bolivia - first for more than 100 years",
@@ -939,7 +928,7 @@
             "source": "Sky News",
             "provider": "SKY",
             "categories": "",
-            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-eddavey-libdem_7355910.jpg?20260919013201"
+            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-stop-jackdaw-protest_7355911.jpg?20260919023838"
           },
           {
             "title": "Is the government doing anything to stop AI killing us all?",
@@ -1231,7 +1220,7 @@
       "health": {
         "UK": {
           "ok": true,
-          "count": 8
+          "count": 7
         },
         "WORLD": {
           "ok": true,
@@ -3365,18 +3354,18 @@
         "STOCK_MARKET": [],
         "STOCKS": [
           {
-            "title": "iHeartMedia, Charter, Sonos, Compass, and The Real Brokerage Stocks Trade Down, What You Need To Know",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/iheartmedia-charter-sonos-compass-real-000840400.html?.tsrc=rss",
-            "published": "Sat, 19 Sep 2026 00:08:40 +0000",
+            "title": "Dow Jones Futures: Nasdaq, S&P 500 Hold; Robinhood, Sandisk, AMD, Moderna Surge Into Buy Areas",
+            "link": "https://uk.finance.yahoo.com/m/832159c8-6dc5-38e6-b838-d7db7090ca09/dow-jones-futures%3A-nasdaq%2C.html?.tsrc=rss",
+            "published": "Sat, 19 Sep 2026 01:36:29 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
             "image": ""
           },
           {
-            "title": "Dow Jones Futures: Market Still Choppy; Robinhood, Sandisk, AMD, Moderna Surge Into Buy Areas",
-            "link": "https://uk.finance.yahoo.com/m/832159c8-6dc5-38e6-b838-d7db7090ca09/dow-jones-futures%3A-market.html?.tsrc=rss",
-            "published": "Fri, 18 Sep 2026 22:40:21 +0000",
+            "title": "iHeartMedia, Charter, Sonos, Compass, and The Real Brokerage Stocks Trade Down, What You Need To Know",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/iheartmedia-charter-sonos-compass-real-000840400.html?.tsrc=rss",
+            "published": "Sat, 19 Sep 2026 00:08:40 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
@@ -3488,9 +3477,7 @@
           "ok": true,
           "count": 12,
           "retainedPrevious": 0,
-          "errors": [
-            "https://finance.yahoo.com/news/rssindex: no relevant articles"
-          ]
+          "errors": []
         }
       }
     },
@@ -3653,9 +3640,27 @@
             "image": ""
           },
           {
+            "title": "Global LNG prices could spike this winter on low European gas stocks",
+            "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZlBLVEVHNm5rV2prUDBZUjZ6eWpXeDRwMWNsUGI3MUVTVjJmbmdub0QyWG5GWHAzcEstWmVXbFk0Y2tudXZ0WnBSYkNDYlVsSHFrRzQ3TmltMGNnODBHaWFEelBjQzh4Rmxac3MyZjFOdnZPLW1XbGk0V0lmb2pYdDM1V2xkaHZ4b1pnd3ZfdkNkYUMxbzNaaGc3bEM3Y1dLR2hFVkYzOTNxSEtKNlJOV2p1bHdnZnZ0?oc=5",
+            "published": "Thu, 17 Sep 2026 05:51:00 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
             "title": "World stocks rebound, Treasury yields retreat after Fed, BoE decisions",
             "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQUnBManB6Nl9tbnMzaXhPbHh4RmJVX0xWNmdaeENoNW50NGxxanVfMHFMaWVENklmQ09OSzdDVnFtSFhiXzJ0YTE5RVgzSHYtekRVZHU2QXE0LVNWeS1nalgyNldtV3l1X3FUc3NudktmOWZJVVZORXFNbWloZzlOZkdRWQ?oc=5",
             "published": "Thu, 17 Sep 2026 02:05:00 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "Holtec Nuclear shelves US IPO as AI trade hits turbulence",
+            "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZFo4eWh5Nm5DY2lvX3k1cFZpbkw2QU9WNVdTalg5b3B5VUJQWlhvWk5qeVFuVjNvMlFES2JIMlh1VWlMWHpXcWZuQ000WjFBU3JhOVJmYUcybDAyaVBSeTZPbGxONENmeTBFQmg5NVhEYjZpbkRzaXByY2ZzZ0hZQkZqdTQtd3RBbFh1b09kYV9YTUQwa3hTM1lYQjZOZERWQm9VelBn?oc=5",
+            "published": "Wed, 16 Sep 2026 22:27:00 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3717,7 +3722,7 @@
         },
         "STOCKS": {
           "ok": true,
-          "count": 9,
+          "count": 11,
           "retainedPrevious": 0,
           "errors": [
             "https://www.reuters.com/arc/outboundfeeds/v3/all/?outputType=xml: 404 Not Found"
@@ -3832,5 +3837,5 @@
       }
     }
   },
-  "stocksUpdated": "2026-09-19T01:31:01.639Z"
+  "stocksUpdated": "2026-09-19T04:45:16.468Z"
 }
