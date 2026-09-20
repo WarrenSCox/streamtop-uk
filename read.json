@@ -1,18 +1,18 @@
 {
-  "updated": "2026-09-20T20:43:57.518Z",
+  "updated": "2026-09-20T20:55:06.797Z",
   "charts": {
     "AUDIOBOOKS": [
-      {
-        "title": "Father Brown: The Complete Series 1 and 2",
-        "author": "G. K. Chesterton",
-        "narrator": "Andrew Sachs , full cast",
-        "image": "https://m.media-amazon.com/images/I/51Dmr5aKGXS._SL500_.jpg"
-      },
       {
         "title": "Dungeon Crawler Carl",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
         "image": "https://covers.openlibrary.org/b/id/15143022-L.jpg"
+      },
+      {
+        "title": "Father Brown: The Complete Series 1 and 2",
+        "author": "G. K. Chesterton",
+        "narrator": "Andrew Sachs , full cast",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/8f/17/5b/8f175b3b-de4b-47d5-4ad7-2d75c889d8bf/9781529142747.jpg/600x600bb.jpg"
       },
       {
         "title": "The Garden Grave",
@@ -21,28 +21,28 @@
         "image": "https://m.media-amazon.com/images/I/51u2yPsf2LL._SL500_.jpg"
       },
       {
-        "title": "The Safe Room",
-        "author": "Sarah A. Denzil",
-        "narrator": "Gemma Whelan , Maimie McCoy",
-        "image": "https://m.media-amazon.com/images/I/41E2JISfmgL._SL500_.jpg"
-      },
-      {
         "title": "The Infinite Extent",
         "author": "Dennis E. Taylor",
         "narrator": "Ray Porter",
         "image": "https://covers.openlibrary.org/b/id/15253208-L.jpg"
       },
       {
-        "title": "Carl's Doomsday Scenario",
-        "author": "Matt Dinniman",
-        "narrator": "Jeff Hays",
-        "image": "https://covers.openlibrary.org/b/id/11702962-L.jpg"
-      },
-      {
         "title": "The Let Them Theory",
         "author": "Mel Robbins",
         "narrator": "Mel Robbins",
         "image": "https://covers.openlibrary.org/b/id/15165806-L.jpg"
+      },
+      {
+        "title": "The Safe Room",
+        "author": "Sarah A. Denzil",
+        "narrator": "Gemma Whelan , Maimie McCoy",
+        "image": "https://m.media-amazon.com/images/I/41E2JISfmgL._SL500_.jpg"
+      },
+      {
+        "title": "Carl's Doomsday Scenario",
+        "author": "Matt Dinniman",
+        "narrator": "Jeff Hays",
+        "image": "https://covers.openlibrary.org/b/id/11702962-L.jpg"
       },
       {
         "title": "Stephen Fry's Royal Secrets: The Elizabethans",
@@ -123,15 +123,15 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-09-20T20:43:57.519Z",
-      "lastSuccessfulRefresh": "2026-09-20T20:43:57.519Z",
+      "checkedAt": "2026-09-20T20:55:06.798Z",
+      "lastSuccessfulRefresh": "2026-09-20T20:55:06.798Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
-      "status": "stale",
-      "checkedAt": "2026-09-20T20:44:06.823Z",
-      "lastSuccessfulRefresh": "2026-09-20T16:14:58.035Z",
-      "reason": "503 https://www.audible.co.uk/charts/best"
+      "status": "healthy",
+      "checkedAt": "2026-09-20T20:55:16.082Z",
+      "lastSuccessfulRefresh": "2026-09-20T20:55:16.082Z",
+      "reason": ""
     }
   }
 }
