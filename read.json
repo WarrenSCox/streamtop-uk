@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-20T05:20:06.370Z",
+  "updated": "2026-09-20T10:03:45.699Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -12,19 +12,19 @@
         "title": "Dungeon Crawler Carl",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://covers.openlibrary.org/b/id/15143022-L.jpg"
+        "image": "https://m.media-amazon.com/images/I/51HIZdnqASL._SL500_.jpg"
       },
       {
         "title": "The Infinite Extent",
         "author": "Dennis E. Taylor",
         "narrator": "Ray Porter",
-        "image": "https://m.media-amazon.com/images/I/51O1HmGSbEL._SL500_.jpg"
+        "image": "https://covers.openlibrary.org/b/id/15253208-L.jpg"
       },
       {
         "title": "The Let Them Theory",
         "author": "Mel Robbins",
         "narrator": "Mel Robbins",
-        "image": "https://m.media-amazon.com/images/I/51YOr6ua-PL._SL500_.jpg"
+        "image": "https://covers.openlibrary.org/b/id/15165806-L.jpg"
       },
       {
         "title": "Carl's Doomsday Scenario",
@@ -123,14 +123,14 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-09-20T05:20:06.370Z",
-      "lastSuccessfulRefresh": "2026-09-20T05:20:06.370Z",
+      "checkedAt": "2026-09-20T10:03:45.699Z",
+      "lastSuccessfulRefresh": "2026-09-20T10:03:45.699Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-09-20T05:20:15.162Z",
-      "lastSuccessfulRefresh": "2026-09-20T05:20:15.162Z",
+      "checkedAt": "2026-09-20T10:03:53.500Z",
+      "lastSuccessfulRefresh": "2026-09-20T10:03:53.500Z",
       "reason": ""
     }
   }
