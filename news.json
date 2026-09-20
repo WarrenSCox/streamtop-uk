@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-20T05:00:47.076Z",
+  "updated": "2026-09-20T05:19:56.399Z",
   "categories": {
     "UK": [
       {
@@ -95,13 +95,22 @@
     ],
     "WORLD": [
       {
-        "title": "Australia news live: One child dead, two children and woman in critical condition after Blue Mountains stabbing",
+        "title": "One child dead and two children and woman in critical condition after Blue Mountains stabbing",
+        "link": "https://www.theguardian.com/australia-news/2026/sep/20/blue-mountains-stabbing-nsw-police-one-child-dead-and-two-children-and-woman-in-critical-condition-ntwnfb",
+        "published": "Sun, 20 Sep 2026 05:05:02 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "New South Wales Australia news",
+        "image": "https://i.guim.co.uk/img/media/cbdc01ce9110cd9f599a42733b1ed0401374a168/326_0_6723_5378/master/6723.jpg?width=140&quality=85&auto=format&fit=max&s=d49353b61828ca4db5d8decad9337dd2"
+      },
+      {
+        "title": "Australia news live: Australia’s 40-year outlook ‘confronting’, Chalmers says; Melbourne finishes second-last at world tram driving championships",
         "link": "https://www.theguardian.com/australia-news/live/2026/sep/20/australia-news-live-labor-coalition-fuel-petrol-prices-anthony-albanese-pauline-hanson-one-nation-immigration-angus-taylor-police-ntwnfb",
-        "published": "Sun, 20 Sep 2026 04:51:59 GMT",
+        "published": "Sun, 20 Sep 2026 04:58:04 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
         "categories": "Australian politics Australia news Australian economy Business Health Australian education Australian immigration and asylum Australian foreign policy Angus Taylor Petrol prices",
-        "image": "https://i.guim.co.uk/img/media/1ceb0a72c9379ac44245748d403ceaf88c4d95ac/204_0_2040_1632/master/2040.jpg?width=140&quality=85&auto=format&fit=max&s=261f23693fa138010a6bd2695808cd12"
+        "image": "https://i.guim.co.uk/img/media/688df0bf5ed39191fbabec57919e60e5035cfdb3/500_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=48f2f83d9c982c77e4ca09883a21f356"
       },
       {
         "title": "More Australians to live into their 90s as life expectancy forecast to rise over coming decades",
@@ -138,15 +147,6 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/09/1920x1080/skynews-riyadh-houthis_7356777.jpg?20260920053251"
-      },
-      {
-        "title": "As tobacconist firebombings intensify in Melbourne, nearby stores are being denied insurance",
-        "link": "https://www.theguardian.com/australia-news/2026/sep/20/tobacco-shops-attacks-melbourne-ntwnfb",
-        "published": "Sat, 19 Sep 2026 20:00:57 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Business Insurance (Australia) Australia news Tobacco industry Melbourne",
-        "image": "https://i.guim.co.uk/img/media/a289589fb3b26a9d70097606a90a2d0f0466ebad/0_0_6006_4805/master/6006.jpg?width=140&quality=85&auto=format&fit=max&s=f60f38d6486fcac12c4e1327d75f499f"
       },
       {
         "title": "Funeral for hot tub couple shown touching mementos from their lives",
@@ -279,6 +279,15 @@
     ],
     "BUSINESS": [
       {
+        "title": "London’s HSBC tower is transforming into ‘Swiss Cheese’ building complete with holes",
+        "link": "https://metro.co.uk/2026/09/20/londons-hsbc-tower-turned-swiss-cheese-complete-holes-29620356/",
+        "published": "Sun, 20 Sep 2026 05:00:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News UK Business Canary Wharf HSBC London",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/09/AN_49346026-1d26.jpg?quality=90&strip=all&w=646"
+      },
+      {
         "title": "Kevin Warsh may be the adult in the room. But can he calm the US economy?",
         "link": "https://www.theguardian.com/business/2026/sep/19/kevin-warsh-interest-rate-hike",
         "published": "Sat, 19 Sep 2026 11:00:45 GMT",
@@ -313,15 +322,6 @@
         "provider": "GUARDIAN",
         "categories": "Air transport Airline industry Business Travel Travel & leisure Transport UK news Europe World news Heidi Alexander",
         "image": "https://i.guim.co.uk/img/media/87fbb8a84446d79dd1a9f01154ab7ff9503c99e7/1772_974_2136_1709/master/2136.jpg?width=140&quality=85&auto=format&fit=max&s=4a01978dac00fa206ac05d4b4516d779"
-      },
-      {
-        "title": "Warren Buffett steps down as chair of Berkshire Hathaway after over 50 years",
-        "link": "https://www.theguardian.com/business/2026/sep/18/warren-buffett-steps-down-berkshire-hathaway",
-        "published": "Fri, 18 Sep 2026 14:48:56 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Warren Buffett Business Berkshire",
-        "image": "https://i.guim.co.uk/img/media/acae4dd53fd581382ab153a512978fcca7cd739e/315_0_3160_2529/master/3160.jpg?width=140&quality=85&auto=format&fit=max&s=6ec4fc0215caf8d95263d42243e39bee"
       },
       {
         "title": "Sovereign AI fund in talks to back drug discovery start-up Potential Sciences",
@@ -1603,13 +1603,22 @@
             "image": "https://i.guim.co.uk/img/media/a3ef319427f648a610ac8bd82dc19864ce196f19/175_0_1063_850/master/1063.jpg?width=140&quality=85&auto=format&fit=max&s=3fc5937cdd4058a4d95cd846b8b0fcad"
           },
           {
-            "title": "Australia news live: One child dead, two children and woman in critical condition after Blue Mountains stabbing",
+            "title": "One child dead and two children and woman in critical condition after Blue Mountains stabbing",
+            "link": "https://www.theguardian.com/australia-news/2026/sep/20/blue-mountains-stabbing-nsw-police-one-child-dead-and-two-children-and-woman-in-critical-condition-ntwnfb",
+            "published": "Sun, 20 Sep 2026 05:05:02 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "New South Wales Australia news",
+            "image": "https://i.guim.co.uk/img/media/cbdc01ce9110cd9f599a42733b1ed0401374a168/326_0_6723_5378/master/6723.jpg?width=140&quality=85&auto=format&fit=max&s=d49353b61828ca4db5d8decad9337dd2"
+          },
+          {
+            "title": "Australia news live: Australia’s 40-year outlook ‘confronting’, Chalmers says; Melbourne finishes second-last at world tram driving championships",
             "link": "https://www.theguardian.com/australia-news/live/2026/sep/20/australia-news-live-labor-coalition-fuel-petrol-prices-anthony-albanese-pauline-hanson-one-nation-immigration-angus-taylor-police-ntwnfb",
-            "published": "Sun, 20 Sep 2026 04:51:59 GMT",
+            "published": "Sun, 20 Sep 2026 04:58:04 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
             "categories": "Australian politics Australia news Australian economy Business Health Australian education Australian immigration and asylum Australian foreign policy Angus Taylor Petrol prices",
-            "image": "https://i.guim.co.uk/img/media/1ceb0a72c9379ac44245748d403ceaf88c4d95ac/204_0_2040_1632/master/2040.jpg?width=140&quality=85&auto=format&fit=max&s=261f23693fa138010a6bd2695808cd12"
+            "image": "https://i.guim.co.uk/img/media/688df0bf5ed39191fbabec57919e60e5035cfdb3/500_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=48f2f83d9c982c77e4ca09883a21f356"
           },
           {
             "title": "More Australians to live into their 90s as life expectancy forecast to rise over coming decades",
@@ -1637,15 +1646,6 @@
             "provider": "GUARDIAN",
             "categories": "Business Insurance (Australia) Australia news Tobacco industry Melbourne",
             "image": "https://i.guim.co.uk/img/media/a289589fb3b26a9d70097606a90a2d0f0466ebad/0_0_6006_4805/master/6006.jpg?width=140&quality=85&auto=format&fit=max&s=f60f38d6486fcac12c4e1327d75f499f"
-          },
-          {
-            "title": "Victorian Labor vows to close loopholes that allow domestic violence perpetrators to ‘slip through the cracks and walk free’",
-            "link": "https://www.theguardian.com/australia-news/2026/sep/20/victorian-labor-promises-new-offences-to-close-domestic-and-family-violence-loopholes-ntwnfb",
-            "published": "Sat, 19 Sep 2026 19:00:54 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Victorian politics Victoria Ben Carroll Australia news Melbourne Labor party Domestic violence",
-            "image": "https://i.guim.co.uk/img/media/a7c58e17b74f2161e1519d48832a5e3923225435/79_0_6880_5504/master/6880.jpg?width=140&quality=85&auto=format&fit=max&s=2eb5b2783a224f5f1c25d490fa8c2d2a"
           }
         ],
         "POLITICS": [
@@ -2864,6 +2864,15 @@
         ],
         "BUSINESS": [
           {
+            "title": "London’s HSBC tower is transforming into ‘Swiss Cheese’ building complete with holes",
+            "link": "https://metro.co.uk/2026/09/20/londons-hsbc-tower-turned-swiss-cheese-complete-holes-29620356/",
+            "published": "Sun, 20 Sep 2026 05:00:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News UK Business Canary Wharf HSBC London",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/AN_49346026-1d26.jpg?quality=90&strip=all&w=646"
+          },
+          {
             "title": "I earn £60,000 – so why do I feel poorer than ever?",
             "link": "https://metro.co.uk/2026/09/07/im-a-money-expert-whose-salary-doubled-feel-poorer-29553490/",
             "published": "Mon, 07 Sep 2026 12:15:00 +0000",
@@ -3033,15 +3042,6 @@
             "provider": "METRO",
             "categories": "News UK Business High Street",
             "image": "https://metro.co.uk/wp-content/uploads/2026/04/SEI_294905597-d664.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "All the UK travel firms collapsing and facing liquidation in 2026",
-            "link": "https://metro.co.uk/2026/04/16/uk-travel-firms-collapsing-facing-liquidation-2026-27997717/",
-            "published": "Thu, 16 Apr 2026 10:43:57 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Lifestyle Travel Business Europe Travel Store Closures Travel Advice Travel News",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/04/GettyImages-2177586029.jpg?quality=90&strip=all&w=646"
           }
         ],
         "TECH": [
@@ -3886,5 +3886,5 @@
       }
     }
   },
-  "stocksUpdated": "2026-09-20T05:00:57.463Z"
+  "stocksUpdated": "2026-09-20T05:20:06.314Z"
 }
