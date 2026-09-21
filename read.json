@@ -1,12 +1,24 @@
 {
-  "updated": "2026-09-21T22:03:27.944Z",
+  "updated": "2026-09-21T22:47:08.585Z",
   "charts": {
     "AUDIOBOOKS": [
       {
         "title": "Dungeon Crawler Carl",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://m.media-amazon.com/images/I/51HIZdnqASL._SL500_.jpg"
+        "image": "https://covers.openlibrary.org/b/id/15143022-L.jpg"
+      },
+      {
+        "title": "The Let Them Theory",
+        "author": "Mel Robbins",
+        "narrator": "Mel Robbins",
+        "image": "https://covers.openlibrary.org/b/id/15165806-L.jpg"
+      },
+      {
+        "title": "The Infinite Extent",
+        "author": "Dennis E. Taylor",
+        "narrator": "Ray Porter",
+        "image": "https://covers.openlibrary.org/b/id/15253208-L.jpg"
       },
       {
         "title": "The Garden Grave",
@@ -15,33 +27,15 @@
         "image": "https://m.media-amazon.com/images/I/51u2yPsf2LL._SL500_.jpg"
       },
       {
-        "title": "The Safe Room",
-        "author": "Sarah A. Denzil",
-        "narrator": "Gemma Whelan , Maimie McCoy",
-        "image": ""
-      },
-      {
-        "title": "The Let Them Theory",
-        "author": "Mel Robbins",
-        "narrator": "Mel Robbins",
-        "image": "https://m.media-amazon.com/images/I/51YOr6ua-PL._SL500_.jpg"
-      },
-      {
-        "title": "The Infinite Extent",
-        "author": "Dennis E. Taylor",
-        "narrator": "Ray Porter",
-        "image": "https://m.media-amazon.com/images/I/51O1HmGSbEL._SL500_.jpg"
-      },
-      {
         "title": "Carl's Doomsday Scenario",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
         "image": "https://covers.openlibrary.org/b/id/11702962-L.jpg"
       },
       {
-        "title": "Stephen Fry's Royal Secrets: The Elizabethans",
-        "author": "John Woolf",
-        "narrator": "Stephen Fry",
+        "title": "The Safe Room",
+        "author": "Sarah A. Denzil",
+        "narrator": "Gemma Whelan , Maimie McCoy",
         "image": ""
       },
       {
@@ -51,16 +45,22 @@
         "image": "https://covers.openlibrary.org/b/id/15233609-L.jpg"
       },
       {
-        "title": "Father Brown: The Complete Series 1 and 2",
-        "author": "G. K. Chesterton",
-        "narrator": "Andrew Sachs , full cast",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/8f/17/5b/8f175b3b-de4b-47d5-4ad7-2d75c889d8bf/9781529142747.jpg/600x600bb.jpg"
+        "title": "Stephen Fry's Royal Secrets: The Elizabethans",
+        "author": "John Woolf",
+        "narrator": "Stephen Fry",
+        "image": ""
       },
       {
         "title": "The Gate of the Feral Gods",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
         "image": "https://covers.openlibrary.org/b/id/15232581-L.jpg"
+      },
+      {
+        "title": "The Butcher's Masquerade",
+        "author": "Matt Dinniman",
+        "narrator": "Jeff Hays",
+        "image": "https://covers.openlibrary.org/b/id/15231958-L.jpg"
       }
     ],
     "BOOKS": [
@@ -123,15 +123,15 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-09-21T22:03:27.944Z",
-      "lastSuccessfulRefresh": "2026-09-21T22:03:27.944Z",
+      "checkedAt": "2026-09-21T22:47:08.585Z",
+      "lastSuccessfulRefresh": "2026-09-21T22:47:08.585Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
-      "status": "stale",
-      "checkedAt": "2026-09-21T22:03:37.054Z",
-      "lastSuccessfulRefresh": "2026-09-21T12:59:08.749Z",
-      "reason": "503 https://www.audible.co.uk/charts/best"
+      "status": "healthy",
+      "checkedAt": "2026-09-21T22:47:17.414Z",
+      "lastSuccessfulRefresh": "2026-09-21T22:47:17.414Z",
+      "reason": ""
     }
   }
 }
