@@ -1,7 +1,25 @@
 {
-  "updated": "2026-09-20T23:10:20.900Z",
+  "updated": "2026-09-21T01:33:11.930Z",
   "categories": {
     "UK": [
+      {
+        "title": "Why our nation's beloved cup of tea may be under threat",
+        "link": "https://news.sky.com/story/why-our-nations-beloved-cup-of-tea-may-be-under-threat-13590044",
+        "published": "Mon, 21 Sep 2026 00:01:00 +0100",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/24/05/1920x1080/skynews-tea-cup-of-tea_6547046.jpg?20260920134118"
+      },
+      {
+        "title": "'Urgent action' needed to help thousands of patients waiting for organ transplants",
+        "link": "https://news.sky.com/story/urgent-action-needed-to-help-thousands-of-patients-waiting-for-organ-transplants-13590294",
+        "published": "Sun, 20 Sep 2026 23:57:00 +0100",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-surgery-nhs_7357550.jpg?20260921000654"
+      },
       {
         "title": "Prince William and Harry ‘will not be surprised’ by Diana revelations",
         "link": "https://metro.co.uk/2026/09/20/prince-william-harry-will-not-surprised-diana-revelations-29638146/",
@@ -66,15 +84,6 @@
         "image": "https://e3.365dm.com/26/09/1920x1080/skynews-rape-abuse-trauma-anonymous_7357442.jpg?20260920200629"
       },
       {
-        "title": "Fearless bystander takes on knifeman terrorising takeaway with fire extinguisher",
-        "link": "https://metro.co.uk/2026/09/20/bystander-uses-fire-extinguisher-confront-knife-wielding-thug-29637505/",
-        "published": "Sun, 20 Sep 2026 16:31:06 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News UK Video Birmingham Crime News Knife crime West Midlands Police",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/09/1789910349823_349084537402281.jpg?quality=90&strip=all&w=636"
-      },
-      {
         "title": "Second murder arrest after remains of missing woman found following wildfire",
         "link": "https://news.sky.com/story/second-murder-arrest-after-remains-of-missing-woman-found-following-wildfire-13589933",
         "published": "Sun, 20 Sep 2026 17:02:00 +0100",
@@ -82,44 +91,44 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/09/1920x1080/skynews-joanne-sheen-southampton_7354679.jpg?20260917145316"
-      },
-      {
-        "title": "Struggling Mirror publisher Reach lures turnaround veteran Whiley to board",
-        "link": "https://news.sky.com/story/struggling-mirror-publisher-reach-lures-turnaround-veteran-whiley-to-board-13590030",
-        "published": "Sun, 20 Sep 2026 11:53:00 +0100",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-sunday-mirror-sunday-express_7356883.jpg?20260920115634"
       }
     ],
     "WORLD": [
       {
-        "title": "Australia news live: Taylor says fuel price policy would be funded by tobacco excise cut; Albanese to put AI concerns to Trump",
+        "title": "Australia news live: Minns says NSW cannot become ‘numb’ to domestic violence; Tehan defends Coalition plan to reduce First Nations content in schools",
         "link": "https://www.theguardian.com/australia-news/live/2026/sep/21/anthony-albanese-new-york-jim-chalmers-intergenerational-report-coalition-one-nation-ntwnfb",
-        "published": "Sun, 20 Sep 2026 22:52:19 GMT",
+        "published": "Mon, 21 Sep 2026 01:19:39 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
         "categories": "Anthony Albanese Australia news Coalition Australian politics Australian economy Business Australian immigration and asylum",
-        "image": "https://i.guim.co.uk/img/media/2d33fe5e7686718c752fd693ef0fddf11dae5181/352_0_4363_3491/master/4363.jpg?width=140&quality=85&auto=format&fit=max&s=45ddab2a2af567723a5107219f69c1fc"
+        "image": "https://i.guim.co.uk/img/media/4c8abaf9295c57f8444d11b697064d4afad2e189/1571_0_7857_6286/master/7857.jpg?width=140&quality=85&auto=format&fit=max&s=91309273389a8e72dd72f14e2a59748d"
       },
       {
-        "title": "Albanese launches bid for UN security council seat and names former Murdoch aide to top diplomatic post",
-        "link": "https://www.theguardian.com/australia-news/2026/sep/21/anthony-albanese-un-security-council-bid-siobhan-mckenna-news-corp-consul-general-ntwnfb",
-        "published": "Sun, 20 Sep 2026 21:45:37 GMT",
+        "title": "Macron and Carney announce closer France-Canada ties amid Trump tensions",
+        "link": "https://www.theguardian.com/world/2026/sep/21/france-canada-relations-eu-europe-macron-carney",
+        "published": "Mon, 21 Sep 2026 01:09:23 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
-        "categories": "Anthony Albanese Australia news United Nations Australian foreign policy",
-        "image": "https://i.guim.co.uk/img/media/24e3e7388851cf2ac03c9b08d5542eca8ea054fd/205_0_4399_3521/master/4399.jpg?width=140&quality=85&auto=format&fit=max&s=7bb044f36f056d94014d7d0359e771eb"
+        "categories": "Canada France Trump administration Trump tariffs Mark Carney Emmanuel Macron European Union International trade Europe Americas",
+        "image": "https://i.guim.co.uk/img/media/e17b0612a5744746012a384b1cea80afef14af1b/394_0_4938_3951/master/4938.jpg?width=140&quality=85&auto=format&fit=max&s=0c15df24dbba8dee534a90375fb86614"
       },
       {
-        "title": "More than a dozen arrested in connection with 2021 assassination of Haitian president",
-        "link": "https://www.theguardian.com/world/2026/sep/20/more-than-a-dozen-arrested-in-connection-with-assassination-of-haitian-president",
-        "published": "Sun, 20 Sep 2026 20:17:44 GMT",
+        "title": "More than 800,000 bees stolen across far north Queensland in ‘sophisticated’ operation",
+        "link": "https://www.theguardian.com/australia-news/2026/sep/21/more-than-800000-bees-stolen-across-far-north-queensland-in-sophisticated-operation",
+        "published": "Mon, 21 Sep 2026 00:00:29 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
-        "categories": "Haiti Americas World news Caribbean",
-        "image": "https://i.guim.co.uk/img/media/c07b6557450672c341c5f2c93ab73eae917227e3/232_0_2914_2333/master/2914.jpg?width=140&quality=85&auto=format&fit=max&s=c8ea92c13ca743ac8f8ee4bf4d170e73"
+        "categories": "Queensland Bees Australia news Insects Farming Crime - Australia Environment",
+        "image": "https://i.guim.co.uk/img/media/a26c7a2d68a9bf7fd503349fef586b239758bf7f/191_0_2206_1765/master/2206.jpg?width=140&quality=85&auto=format&fit=max&s=ff7aa7bf594ff34757bf9cb9b88d0391"
+      },
+      {
+        "title": "Police allege mother behind Blue Mountains stabbing attack on three children that left one dead",
+        "link": "https://www.theguardian.com/australia-news/2026/sep/21/police-mother-children-stabbing-attack-ntwnfb",
+        "published": "Sun, 20 Sep 2026 23:43:41 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Blue Mountains Australia news Australian police and policing New South Wales",
+        "image": "https://i.guim.co.uk/img/media/5d5c55abc04c8baa1a4df361336ba73b12310025/0_0_2500_2000/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=4070d0e07e08ee007831940eb2763512"
       },
       {
         "title": "Fulham boss Alvaro Arbeloa aims explosive accusation at referee in Man Utd draw",
@@ -147,15 +156,6 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/09/1920x1080/skynews-merz-friedrich-merz_7357273.jpg?20260920174842"
-      },
-      {
-        "title": "One Nation-linked company built $56,000 shed on private property of Pauline Hanson’s right-hand man",
-        "link": "https://www.theguardian.com/australia-news/2026/sep/21/the-populist-one-nation-james-ashby-shed-pauline-hanson-gina-rinehart-ntwnfb",
-        "published": "Sun, 20 Sep 2026 15:00:20 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "James Ashby One Nation Pauline Hanson Australia news Australian politics Queensland Business Australian political donations",
-        "image": "https://i.guim.co.uk/img/media/c29aa0c171de4e32c033ab447f07ef9b68b43870/14_0_1385_1108/master/1385.jpg?width=140&quality=85&auto=format&fit=max&s=b5477de711a81122ebfbe3bb94dd9c89"
       },
       {
         "title": "Ten lions found dead in suspected poisoning",
@@ -371,6 +371,24 @@
     ],
     "TECH": [
       {
+        "title": "Games Inbox: Will GTA 6 have a co-op mode?",
+        "link": "https://metro.co.uk/2026/09/21/games-inbox-will-gta-6-a-co-op-mode-29638246/",
+        "published": "Mon, 21 Sep 2026 00:00:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Entertainment Gaming Fortnite Games Inbox GTA 5 GTA 6 PlayStation 5 Resident Evil Rockstar Games Sony The Legend of Zelda",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310228775-1452.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Why our nation's beloved cup of tea may be under threat",
+        "link": "https://news.sky.com/story/why-our-nations-beloved-cup-of-tea-may-be-under-threat-13590044",
+        "published": "Mon, 21 Sep 2026 00:01:00 +0100",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/24/05/1920x1080/skynews-tea-cup-of-tea_6547046.jpg?20260920134118"
+      },
+      {
         "title": "Daily horoscope September 21, 2026: Today’s predictions for your star sign",
         "link": "https://metro.co.uk/2026/09/21/daily-horoscope-september-21-2026-predictions-star-sign-29634778/",
         "published": "Sun, 20 Sep 2026 23:01:00 +0000",
@@ -378,15 +396,6 @@
         "provider": "METRO",
         "categories": "Horoscopes Lifestyle Aquarius Aries Astrology Cancer (star sign) Capricorn Gemini Leo Libra Pisces Sagittarius Scorpio Taurus Virgo",
         "image": "https://metro.co.uk/wp-content/uploads/2023/04/new-horoscope-2023-02-a5db.gif?w=646"
-      },
-      {
-        "title": "Nasa releases panoramic images revealing what a day on Mars looks like",
-        "link": "https://metro.co.uk/2026/09/20/nasa-releases-panoramic-images-showing-a-day-mars-looks-like-29637512/",
-        "published": "Sun, 20 Sep 2026 13:34:40 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News Tech Weird Mars Nasa Space",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_313287356-f58c.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "Reαd carefully: how to spot – and avoid – a homoglyph attack",
@@ -432,15 +441,6 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/09/1920x1080/skynews-gemini-google_7355932.jpg?20260919085443"
-      },
-      {
-        "title": "New species of wild cat identified in Bolivia - first for more than 100 years",
-        "link": "https://news.sky.com/story/new-species-of-wild-cat-identified-in-bolivia-first-for-more-than-100-years-13589190",
-        "published": "Fri, 18 Sep 2026 08:00:00 +0100",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-leopardus-tilcayo-cat_7355074.jpg?20260918071037"
       },
       {
         "title": "‘Just cut the wires’: why UK conspiracy theorists are destroying traffic scanners",
@@ -557,7 +557,7 @@
       {
         "title": "Dow Jones Futures Rise; Can The Market Take Flight? Robinhood, Sandisk, AMD, Moderna Surge Into Buy Areas",
         "link": "https://uk.finance.yahoo.com/m/832159c8-6dc5-38e6-b838-d7db7090ca09/dow-jones-futures-rise%3B-can.html?.tsrc=rss",
-        "published": "Sun, 20 Sep 2026 22:47:12 +0000",
+        "published": "Mon, 21 Sep 2026 01:11:00 +0000",
         "source": "Yahoo Finance",
         "provider": "YAHOO",
         "categories": "",
@@ -776,6 +776,24 @@
             "image": "https://e3.365dm.com/26/09/1920x1080/skynews-rape-abuse-trauma-anonymous_7357442.jpg?20260920200629"
           },
           {
+            "title": "'Urgent action' needed to help thousands of patients waiting for organ transplants",
+            "link": "https://news.sky.com/story/urgent-action-needed-to-help-thousands-of-patients-waiting-for-organ-transplants-13590294",
+            "published": "Sun, 20 Sep 2026 23:57:00 +0100",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-surgery-nhs_7357550.jpg?20260921000654"
+          },
+          {
+            "title": "Why our nation's beloved cup of tea may be under threat",
+            "link": "https://news.sky.com/story/why-our-nations-beloved-cup-of-tea-may-be-under-threat-13590044",
+            "published": "Mon, 21 Sep 2026 00:01:00 +0100",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/24/05/1920x1080/skynews-tea-cup-of-tea_6547046.jpg?20260920134118"
+          },
+          {
             "title": "Second murder arrest after remains of missing woman found following wildfire",
             "link": "https://news.sky.com/story/second-murder-arrest-after-remains-of-missing-woman-found-following-wildfire-13589933",
             "published": "Sun, 20 Sep 2026 17:02:00 +0100",
@@ -828,24 +846,6 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/09/1920x1080/skynews-sunday-mirror-sunday-express_7356883.jpg?20260920115634"
-          },
-          {
-            "title": "'I'm so, so sorry': Ed Sheeran speaks to crowd after Macklemore-Palestine row",
-            "link": "https://news.sky.com/story/ed-sheeran-breaks-silence-at-first-concert-after-macklemore-palestine-row-13589979",
-            "published": "Sun, 20 Sep 2026 02:01:00 +0100",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-ed-sheeran-first-concert-on-tour_7356783.jpg?20260920034125"
-          },
-          {
-            "title": "Girl, 13, missing for eight days found by police",
-            "link": "https://news.sky.com/story/girl-13-missing-for-eight-days-found-safe-and-well-by-police-in-manchester-city-centre-13589675",
-            "published": "Sat, 19 Sep 2026 22:00:00 +0100",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-lillia-missing_7354879.jpg?20260919164310"
           }
         ],
         "WORLD": [
@@ -1099,6 +1099,15 @@
         ],
         "TECH": [
           {
+            "title": "Why our nation's beloved cup of tea may be under threat",
+            "link": "https://news.sky.com/story/why-our-nations-beloved-cup-of-tea-may-be-under-threat-13590044",
+            "published": "Mon, 21 Sep 2026 00:01:00 +0100",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/24/05/1920x1080/skynews-tea-cup-of-tea_6547046.jpg?20260920134118"
+          },
+          {
             "title": "Trump to create AI force - as lawsuit claims firms illegally agreed to slow development",
             "link": "https://news.sky.com/story/trump-to-create-ai-force-as-lawsuit-claims-firms-illegally-agreed-to-slow-development-13589927",
             "published": "Sat, 19 Sep 2026 19:29:00 +0100",
@@ -1274,7 +1283,7 @@
         },
         "TECH": {
           "ok": true,
-          "count": 7
+          "count": 8
         },
         "ENTERTAINMENT": {
           "ok": true,
@@ -1513,6 +1522,15 @@
             "image": "https://i.guim.co.uk/img/media/448282dbea402f46aeff4583e0117f9b5ece2ec6/172_0_1350_1080/master/1350.jpg?width=140&quality=85&auto=format&fit=max&s=80c8fd6c3ccd8230f52ae641b5733703"
           },
           {
+            "title": "Macron and Carney announce closer France-Canada ties amid Trump tensions",
+            "link": "https://www.theguardian.com/world/2026/sep/21/france-canada-relations-eu-europe-macron-carney",
+            "published": "Mon, 21 Sep 2026 01:09:23 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Canada France Trump administration Trump tariffs Mark Carney Emmanuel Macron European Union International trade Europe Americas",
+            "image": "https://i.guim.co.uk/img/media/e17b0612a5744746012a384b1cea80afef14af1b/394_0_4938_3951/master/4938.jpg?width=140&quality=85&auto=format&fit=max&s=0c15df24dbba8dee534a90375fb86614"
+          },
+          {
             "title": "More than a dozen arrested in connection with 2021 assassination of Haitian president",
             "link": "https://www.theguardian.com/world/2026/sep/20/more-than-a-dozen-arrested-in-connection-with-assassination-of-haitian-president",
             "published": "Sun, 20 Sep 2026 20:17:44 GMT",
@@ -1547,15 +1565,6 @@
             "provider": "GUARDIAN",
             "categories": "Bolivia Wildlife Endangered species IUCN red list of endangered species Peru Biodiversity Conservation Environment Science Animals Zoology Americas World news",
             "image": "https://i.guim.co.uk/img/media/3434cb2b735cf3a888007c59b6864fb6b3284902/224_0_4917_3934/master/4917.jpg?width=140&quality=85&auto=format&fit=max&s=a9667626cfb3440f05beee7c6cf7ef15"
-          },
-          {
-            "title": "All smiles in Strasbourg but uncertainty clouds Canada’s EU membership plan",
-            "link": "https://www.theguardian.com/world/2026/sep/17/smiles-strasbourg-uncertainty-canada-eu-membership-plan-mark-carney",
-            "published": "Thu, 17 Sep 2026 15:46:15 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "European Union Canada Mark Carney Ursula von der Leyen International trade Europe Americas Friedrich Merz Business Economics World news",
-            "image": "https://i.guim.co.uk/img/media/2c6a99dd24de1f33112dc6a099c0855096e25752/485_0_4482_3585/master/4482.jpg?width=140&quality=85&auto=format&fit=max&s=d6ecda9cc8ddd894244bd8a38ea27a5d"
           },
           {
             "title": "Why China is pushing back on US warnings over rapid AI development",
@@ -1603,13 +1612,31 @@
             "image": "https://i.guim.co.uk/img/media/8d6e3c560c3b65c564e854088a72a2646843b9b7/1275_222_6202_4964/master/6202.jpg?width=140&quality=85&auto=format&fit=max&s=b29391e2fb8a629d0569b5709671a3cb"
           },
           {
-            "title": "Australia news live: Taylor says fuel price policy would be funded by tobacco excise cut; Albanese to put AI concerns to Trump",
+            "title": "Australia news live: Minns says NSW cannot become ‘numb’ to domestic violence; Tehan defends Coalition plan to reduce First Nations content in schools",
             "link": "https://www.theguardian.com/australia-news/live/2026/sep/21/anthony-albanese-new-york-jim-chalmers-intergenerational-report-coalition-one-nation-ntwnfb",
-            "published": "Sun, 20 Sep 2026 22:52:19 GMT",
+            "published": "Mon, 21 Sep 2026 01:19:39 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
             "categories": "Anthony Albanese Australia news Coalition Australian politics Australian economy Business Australian immigration and asylum",
-            "image": "https://i.guim.co.uk/img/media/2d33fe5e7686718c752fd693ef0fddf11dae5181/352_0_4363_3491/master/4363.jpg?width=140&quality=85&auto=format&fit=max&s=45ddab2a2af567723a5107219f69c1fc"
+            "image": "https://i.guim.co.uk/img/media/4c8abaf9295c57f8444d11b697064d4afad2e189/1571_0_7857_6286/master/7857.jpg?width=140&quality=85&auto=format&fit=max&s=91309273389a8e72dd72f14e2a59748d"
+          },
+          {
+            "title": "More than 800,000 bees stolen across far north Queensland in ‘sophisticated’ operation",
+            "link": "https://www.theguardian.com/australia-news/2026/sep/21/more-than-800000-bees-stolen-across-far-north-queensland-in-sophisticated-operation",
+            "published": "Mon, 21 Sep 2026 00:00:29 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Queensland Bees Australia news Insects Farming Crime - Australia Environment",
+            "image": "https://i.guim.co.uk/img/media/a26c7a2d68a9bf7fd503349fef586b239758bf7f/191_0_2206_1765/master/2206.jpg?width=140&quality=85&auto=format&fit=max&s=ff7aa7bf594ff34757bf9cb9b88d0391"
+          },
+          {
+            "title": "Police allege mother behind Blue Mountains stabbing attack on three children that left one dead",
+            "link": "https://www.theguardian.com/australia-news/2026/sep/21/police-mother-children-stabbing-attack-ntwnfb",
+            "published": "Sun, 20 Sep 2026 23:43:41 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Blue Mountains Australia news Australian police and policing New South Wales",
+            "image": "https://i.guim.co.uk/img/media/5d5c55abc04c8baa1a4df361336ba73b12310025/0_0_2500_2000/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=4070d0e07e08ee007831940eb2763512"
           },
           {
             "title": "Albanese launches bid for UN security council seat and names former Murdoch aide to top diplomatic post",
@@ -1628,24 +1655,6 @@
             "provider": "GUARDIAN",
             "categories": "James Ashby One Nation Pauline Hanson Australia news Australian politics Queensland Business Australian political donations",
             "image": "https://i.guim.co.uk/img/media/c29aa0c171de4e32c033ab447f07ef9b68b43870/14_0_1385_1108/master/1385.jpg?width=140&quality=85&auto=format&fit=max&s=b5477de711a81122ebfbe3bb94dd9c89"
-          },
-          {
-            "title": "The gunzels’ grand final: Melbourne Tramaroos’ campaign derails at European TramDriver Championship",
-            "link": "https://www.theguardian.com/australia-news/2026/sep/20/the-gunzels-grand-final-melbourne-tramaroos-campaign-derails-at-european-tramdriver-championship",
-            "published": "Sun, 20 Sep 2026 08:16:39 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Melbourne Transport Australia news",
-            "image": "https://i.guim.co.uk/img/media/688df0bf5ed39191fbabec57919e60e5035cfdb3/500_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=48f2f83d9c982c77e4ca09883a21f356"
-          },
-          {
-            "title": "One child dead and two children in critical condition after Blue Mountains stabbing",
-            "link": "https://www.theguardian.com/australia-news/2026/sep/20/blue-mountains-stabbing-nsw-police-one-child-dead-and-two-children-and-woman-in-critical-condition-ntwnfb",
-            "published": "Sun, 20 Sep 2026 07:30:42 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "New South Wales Australia news Blue Mountains",
-            "image": "https://i.guim.co.uk/img/media/5d5c55abc04c8baa1a4df361336ba73b12310025/0_156_2305_1844/master/2305.jpg?width=140&quality=85&auto=format&fit=max&s=757141c8e01ddacb402dd10585f58af9"
           }
         ],
         "POLITICS": [
@@ -3055,6 +3064,15 @@
         ],
         "TECH": [
           {
+            "title": "Games Inbox: Will GTA 6 have a co-op mode?",
+            "link": "https://metro.co.uk/2026/09/21/games-inbox-will-gta-6-a-co-op-mode-29638246/",
+            "published": "Mon, 21 Sep 2026 00:00:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment Gaming Fortnite Games Inbox GTA 5 GTA 6 PlayStation 5 Resident Evil Rockstar Games Sony The Legend of Zelda",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310228775-1452.jpg?quality=90&strip=all&w=646"
+          },
+          {
             "title": "Daily horoscope September 21, 2026: Today’s predictions for your star sign",
             "link": "https://metro.co.uk/2026/09/21/daily-horoscope-september-21-2026-predictions-star-sign-29634778/",
             "published": "Sun, 20 Sep 2026 23:01:00 +0000",
@@ -3062,15 +3080,6 @@
             "provider": "METRO",
             "categories": "Horoscopes Lifestyle Aquarius Aries Astrology Cancer (star sign) Capricorn Gemini Leo Libra Pisces Sagittarius Scorpio Taurus Virgo",
             "image": "https://metro.co.uk/wp-content/uploads/2023/04/new-horoscope-2023-02-a5db.gif?w=646"
-          },
-          {
-            "title": "Nasa releases panoramic images revealing what a day on Mars looks like",
-            "link": "https://metro.co.uk/2026/09/20/nasa-releases-panoramic-images-showing-a-day-mars-looks-like-29637512/",
-            "published": "Sun, 20 Sep 2026 13:34:40 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News Tech Weird Mars Nasa Space",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_313287356-f58c.jpg?quality=90&strip=all&w=646"
           }
         ],
         "ENTERTAINMENT": [
@@ -3394,7 +3403,7 @@
           {
             "title": "Dow Jones Futures Rise; Can The Market Take Flight? Robinhood, Sandisk, AMD, Moderna Surge Into Buy Areas",
             "link": "https://uk.finance.yahoo.com/m/832159c8-6dc5-38e6-b838-d7db7090ca09/dow-jones-futures-rise%3B-can.html?.tsrc=rss",
-            "published": "Sun, 20 Sep 2026 22:47:12 +0000",
+            "published": "Mon, 21 Sep 2026 01:11:00 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
@@ -3680,6 +3689,15 @@
             "image": ""
           },
           {
+            "title": "US securities regulator rolls out five-year exemption for tokenized stock trading",
+            "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOMGJTTHZsX1M4S3BWWjZkQXZZOWs4aU13T0VXRVB4QTVYdGF3QWRYMUh2LVJzYjhObm9YV3pkdFZnRmRya05xQ09VWm9od1U5OTBTRXZJTjZsc0tEV2hfUUVJSS1xMWF0STluTGZuTVdVQ3IxaTRuXzNMS3FOT216bFduaGVGQnlleG1XNkQxTU14aTNsTHlHWHlEbVlVTkFacTJtLTFJUnJQNXJyOTdZcWxLTFlIWlJBRzZJ?oc=5",
+            "published": "Thu, 17 Sep 2026 16:59:52 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
             "title": "World stocks rebound, Treasury yields retreat after Fed, BoE decisions",
             "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQUnBManB6Nl9tbnMzaXhPbHh4RmJVX0xWNmdaeENoNW50NGxxanVfMHFMaWVENklmQ09OSzdDVnFtSFhiXzJ0YTE5RVgzSHYtekRVZHU2QXE0LVNWeS1nalgyNldtV3l1X3FUc3NudktmOWZJVVZORXFNbWloZzlOZkdRWQ?oc=5",
             "published": "Thu, 17 Sep 2026 13:30:25 GMT",
@@ -3689,18 +3707,9 @@
             "image": ""
           },
           {
-            "title": "Europe's low gas stocks pile on the economic and political pressure",
-            "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPT3ZaaXBVeVNMSm9TdlAzaWhnMDdTRTZIdENoSHBiVW1QQUx3eGxlOFk5cWJtcl91VVBud284a2N4OVM5dXJmMWZlb2NfLXdvMkswNVFmR0lmX3NzaUEzdmp1aWYtVjAxangtdGoxM2dXUUFZcm96NnMyVW0xOVY0NTB1aDVMbUdSTDlpVG9jSDhtcGZMUC02cTNVNGRhWnlmNktCR3dCZ0F4eE0?oc=5",
-            "published": "Thu, 17 Sep 2026 10:36:05 GMT",
-            "source": "Reuters",
-            "provider": "REUTERS",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "India rice output faces biggest drop in two decades, stocks cushion exports",
-            "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZENVQmY1eVNPd2hpVjdLWGNmQTFPdjYxNC1hbnM4cjJQS1pGVWlYeFhKSjNJMWh3NlpPQUp5ZEpmUmZoYnZPNGNfZDVVZ3pmaUx0enNXajZLaHdKTFdEQU8xbHdXSGluMy05b09rNHpXS01IUE1JWEg5UHBKTHdOemY4eVZnaTh0YkQ5WVE5UEJfbjJMSVZYUWtDWHBldURqVVlQZDhzLU9mRDhQRGxyZWp1cDBweE8zUk1v?oc=5",
-            "published": "Thu, 17 Sep 2026 08:01:00 GMT",
+            "title": "Global LNG prices could spike this winter on low European gas stocks",
+            "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZlBLVEVHNm5rV2prUDBZUjZ6eWpXeDRwMWNsUGI3MUVTVjJmbmdub0QyWG5GWHAzcEstWmVXbFk0Y2tudXZ0WnBSYkNDYlVsSHFrRzQ3TmltMGNnODBHaWFEelBjQzh4Rmxac3MyZjFOdnZPLW1XbGk0V0lmb2pYdDM1V2xkaHZ4b1pnd3ZfdkNkYUMxbzNaaGc3bEM3Y1dLR2hFVkYzOTNxSEtKNlJOV2p1bHdnZnZ0?oc=5",
+            "published": "Thu, 17 Sep 2026 05:51:00 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3886,5 +3895,5 @@
       }
     }
   },
-  "stocksUpdated": "2026-09-20T23:10:29.525Z"
+  "stocksUpdated": "2026-09-21T01:33:19.761Z"
 }
