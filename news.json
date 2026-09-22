@@ -1,7 +1,25 @@
 {
-  "updated": "2026-09-22T05:07:26.299Z",
+  "updated": "2026-09-22T06:44:56.351Z",
   "categories": {
     "UK": [
+      {
+        "title": "UK borrows £18bn in August, putting pressure on Healey before budget",
+        "link": "https://www.theguardian.com/business/2026/sep/22/uk-government-borrowing-john-healey-budget-bond-markets",
+        "published": "Tue, 22 Sep 2026 06:25:40 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Budget deficit Bonds Economics Budget Business Economic policy Politics John Healey Budget 2026 UK news",
+        "image": "https://i.guim.co.uk/img/media/040038c8899a7aba8593f60af39e6376db7d2fc3/375_0_3731_2984/master/3731.jpg?width=140&quality=85&auto=format&fit=max&s=23fe6dc50b81c739bd2882b76070b65a"
+      },
+      {
+        "title": "Nearly 4m records of enslaved people in 20 former British colonies now searchable online",
+        "link": "https://www.theguardian.com/news/2026/sep/22/nearly-4m-records-of-enslaved-people-in-20-former-british-colonies-now-searchable-online",
+        "published": "Tue, 22 Sep 2026 05:00:36 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "National Archives British empire Slavery Genealogy Colonialism Caribbean UK news Social history",
+        "image": "https://i.guim.co.uk/img/media/ac7563daeb71b2bb1e17e3e69bac39ae20fb813b/0_1560_5780_4625/master/5780.jpg?width=140&quality=85&auto=format&fit=max&s=d5b16cfad54c1edd07f80ae01f7f725b"
+      },
       {
         "title": "Hope for UK mothers accused of child abduction after fleeing domestic violence",
         "link": "https://www.theguardian.com/society/2026/sep/22/uk-mothers-domestic-abuse-child-abduction",
@@ -37,24 +55,6 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/04/1920x1080/skynews-somerset-traffic-easter_7212271.jpg?20260406143941"
-      },
-      {
-        "title": "Young people’s Pip claims for ADHD and autism ‘rising fastest in affluent areas’",
-        "link": "https://www.theguardian.com/society/2026/sep/22/england-affluent-areas-young-people-adhd-autism-pip-claims",
-        "published": "Mon, 21 Sep 2026 23:01:28 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Society Neurodiversity Attention deficit hyperactivity disorder NHS Autism Welfare Health Politics England UK news Benefits Private healthcare",
-        "image": "https://i.guim.co.uk/img/media/6c7796db29848443195be6b429eb1ed4d6b778e9/604_0_6042_4836/master/6042.jpg?width=140&quality=85&auto=format&fit=max&s=5ff3ba02fe02a1d590219e6272baca01"
-      },
-      {
-        "title": "Martha’s rule to be expanded to every A&E in England",
-        "link": "https://www.theguardian.com/society/2026/sep/22/marthas-rule-expanded-nhs-england",
-        "published": "Mon, 21 Sep 2026 23:01:28 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "NHS England UK news Health",
-        "image": "https://i.guim.co.uk/img/media/642696c76ea7e1778a18347b9c91e73e4af85fb9/0_252_1629_1303/master/1629.jpg?width=140&quality=85&auto=format&fit=max&s=0508187592165f4278252219c3768521"
       },
       {
         "title": "Southport killer ‘threw boiling liquid at prison guard and hid sharpened stones’",
@@ -95,40 +95,40 @@
     ],
     "WORLD": [
       {
+        "title": "Australia news live: RBA governor says migration boosting economy not adding to inflation but ‘where it bites is housing market’",
+        "link": "https://www.theguardian.com/australia-news/live/2026/sep/22/anthony-albanese-new-york-united-nations-intergenerational-report-coalition-one-nation-ntwnfb",
+        "published": "Tue, 22 Sep 2026 06:34:28 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Australia news Australian politics Australian economy Business Health Australian education Australian immigration and asylum Australian foreign policy Labor party Coalition Liberal party One Nation Pauline Hanson Angus Taylor",
+        "image": "https://i.guim.co.uk/img/media/cd7df84cfdbf0cfe06fd588def18c440c68e960d/640_0_6377_5105/master/6377.jpg?width=140&quality=85&auto=format&fit=max&s=faeb2a14b3333a8cf32ec63145f342de"
+      },
+      {
+        "title": "‘Negligent’ to talk about long term risks to Australia without examining cost of climate crisis, experts say",
+        "link": "https://www.theguardian.com/australia-news/2026/sep/22/intergenerational-report-underplays-effect-climate-crisis-on-australia-future-2066",
+        "published": "Tue, 22 Sep 2026 06:32:37 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Australia news Climate crisis Environment Australian economy",
+        "image": "https://i.guim.co.uk/img/media/4e03d2aa4420b37c18d04a94bad41ab3b1cc15e3/169_0_2500_2000/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=7b289aaf70527a588840c941236bbf79"
+      },
+      {
+        "title": "Police investigate possible organised crime links after boy, 11, shot in the face in Sydney",
+        "link": "https://www.theguardian.com/australia-news/2026/sep/22/boy-11-shot-face-sydney-man-charged-gun-laws-buyback-ntwnfb",
+        "published": "Tue, 22 Sep 2026 04:57:31 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Gun control New South Wales Australia news New South Wales politics Sydney Chris Minns Labor party Liberal party",
+        "image": "https://i.guim.co.uk/img/media/54ae2cf5a6e5712f68fb968ad6f65b0e6e7f0839/3603_2087_3594_2875/master/3594.jpg?width=140&quality=85&auto=format&fit=max&s=c4206586bb6628a75eb975ab08766a8b"
+      },
+      {
         "title": "Private investigator surveilled Liberal minister and supplied Jean Nassif with recording devices, Icac hears",
         "link": "https://www.theguardian.com/australia-news/2026/sep/22/private-investigator-secretly-recorded-mp-david-elliott-jean-nassif-icac-ntwnfb",
         "published": "Tue, 22 Sep 2026 04:53:26 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
-        "categories": "Australia news Independent Commission Against Corruption New South Wales New South Wales politics",
+        "categories": "Independent Commission Against Corruption Australia news New South Wales New South Wales politics Liberal party",
         "image": "https://i.guim.co.uk/img/media/a2354e053c63d0b1c5602959eadebd92d979e722/0_0_2416_1932/master/2416.jpg?width=140&quality=85&auto=format&fit=max&s=eb406518045710f3135e897380ad662a"
-      },
-      {
-        "title": "Australia news live: police investigating possible organised crime links after 11-year-old boy shot in Sydney apartment",
-        "link": "https://www.theguardian.com/australia-news/live/2026/sep/22/anthony-albanese-new-york-united-nations-intergenerational-report-coalition-one-nation-ntwnfb",
-        "published": "Tue, 22 Sep 2026 04:50:41 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Australia news Australian politics Australian economy Business Health Australian education Australian immigration and asylum Australian foreign policy Labor party Coalition Liberal party One Nation Pauline Hanson Angus Taylor",
-        "image": "https://i.guim.co.uk/img/media/1ceb0a72c9379ac44245748d403ceaf88c4d95ac/204_0_2040_1632/master/2040.jpg?width=140&quality=85&auto=format&fit=max&s=261f23693fa138010a6bd2695808cd12"
-      },
-      {
-        "title": "At least two people killed in Japan as typhoon Dujuan triggers heavy rain, landslides",
-        "link": "https://www.theguardian.com/world/2026/sep/22/typhoon-dujuan-japan-latest-weather-millions-told-to-evacuate-tokyo",
-        "published": "Tue, 22 Sep 2026 04:48:59 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Japan Extreme weather Asia Pacific",
-        "image": "https://i.guim.co.uk/img/media/2677ceb1cc927a808c0dc8d48d9d324e226ec454/332_0_3305_2645/master/3305.jpg?width=140&quality=85&auto=format&fit=max&s=8ae47c0edb12dd9e01cbfb0416367ae1"
-      },
-      {
-        "title": "‘I understood what women have been going through’: fourth alleged victim testifies at Alan Jones trial",
-        "link": "https://www.theguardian.com/australia-news/2026/sep/22/fourth-alleged-victim-testifies-at-alan-jones-trial-ntwnfb",
-        "published": "Tue, 22 Sep 2026 04:29:33 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Alan Jones trial Alan Jones Australia news Australian media",
-        "image": "https://i.guim.co.uk/img/media/2c92780dac87f6f8a1e6c5ef284e161d7d8786aa/360_127_2277_1821/master/2277.jpg?width=140&quality=85&auto=format&fit=max&s=f6a06a030ca0e6a9dfd21ce7aba11620"
       },
       {
         "title": "Jodie snares David on Coronation Street as Shona utterly spirals",
@@ -187,6 +187,15 @@
     ],
     "POLITICS": [
       {
+        "title": "UK borrows £18bn in August, putting pressure on Healey before budget",
+        "link": "https://www.theguardian.com/business/2026/sep/22/uk-government-borrowing-john-healey-budget-bond-markets",
+        "published": "Tue, 22 Sep 2026 06:25:40 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Budget deficit Bonds Economics Budget Business Economic policy Politics John Healey Budget 2026 UK news",
+        "image": "https://i.guim.co.uk/img/media/040038c8899a7aba8593f60af39e6376db7d2fc3/375_0_3731_2984/master/3731.jpg?width=140&quality=85&auto=format&fit=max&s=23fe6dc50b81c739bd2882b76070b65a"
+      },
+      {
         "title": "Britain needs cash and everyone knows we should break the pensions triple lock. Where is the courage? | Gaby Hinsliff",
         "link": "https://www.theguardian.com/commentisfree/2026/sep/22/britain-pensions-triple-lock-andy-burnham",
         "published": "Tue, 22 Sep 2026 05:00:35 GMT",
@@ -212,15 +221,6 @@
         "provider": "GUARDIAN",
         "categories": "Liberal Democrat conference Liberal Democrats AI (artificial intelligence) Ed Davey Politics Technology UK news Computing",
         "image": "https://i.guim.co.uk/img/media/8b34809ab945c631baf069850af883b4c987dc05/433_0_3753_3003/master/3753.jpg?width=140&quality=85&auto=format&fit=max&s=120fd967a5800d8cbe4f74993b34fce0"
-      },
-      {
-        "title": "Lib Dems reject ‘discriminatory and unworkable’ EHRC guidance on transgender people",
-        "link": "https://www.theguardian.com/politics/2026/sep/21/lib-dems-reject-ruling-transgender-people-brighton-conference",
-        "published": "Mon, 21 Sep 2026 18:58:51 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Liberal Democrat conference Liberal Democrats Politics Transgender UK news Society Equality and Human Rights Commission (EHRC) LGBTQ+ rights Gender",
-        "image": "https://i.guim.co.uk/img/media/15e277ba3e7f26ca94b87aaa33cf1d71eec1c8f2/500_0_3750_3000/master/3750.jpg?width=140&quality=85&auto=format&fit=max&s=cfa473e92248e02c56f73c5ed2679162"
       },
       {
         "title": "Rape and sexual offences to be dealt with in specialist courts",
@@ -279,13 +279,40 @@
     ],
     "BUSINESS": [
       {
-        "title": "Plan for editorial oversight board at CNN and CBS News draws skepticism: ‘Utter garbage’",
-        "link": "https://www.theguardian.com/media/2026/sep/21/cnn-cbs-news-editorial-board-skepticsm",
-        "published": "Mon, 21 Sep 2026 20:05:50 GMT",
+        "title": "UK government borrowing jumps over forecast to £18.3bn in August, in ‘dismal picture’ ahead of the budget – business live",
+        "link": "https://www.theguardian.com/business/live/2026/sep/22/uk-government-borrowing-august-fiscal-straightjacket-john-healey-bonds-latest-news-updates",
+        "published": "Tue, 22 Sep 2026 06:35:53 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
-        "categories": "CNN CBS Paramount+ Warner Bros TV news Media Business US news",
-        "image": "https://i.guim.co.uk/img/media/1d5574adcd3cea81acccbd1d41c466d0bb1ac672/755_0_3781_3027/master/3781.jpg?width=140&quality=85&auto=format&fit=max&s=05b09378956a29190c9f17b71f30e425"
+        "categories": "Business Economics Stock markets Public finance",
+        "image": "https://i.guim.co.uk/img/media/4b583dc819f5ec7ab9617c413172a05c53fab2bb/317_0_6827_5464/master/6827.jpg?width=140&quality=85&auto=format&fit=max&s=c0a838f75b8b06b19fb094ea5f13337a"
+      },
+      {
+        "title": "Britain needs cash and everyone knows we should break the pensions triple lock. Where is the courage? | Gaby Hinsliff",
+        "link": "https://www.theguardian.com/commentisfree/2026/sep/22/britain-pensions-triple-lock-andy-burnham",
+        "published": "Tue, 22 Sep 2026 05:00:35 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Pensions Family finances Andy Burnham John Healey Labour Money Politics UK news State pensions Welfare Older people Generational inequality Tax and spending",
+        "image": "https://i.guim.co.uk/img/media/f873254d7ba080ea98e741b1b1bdc02d32fa9545/0_1_5000_3998/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=4518bf06031bcb8c086c89ef8768c16f"
+      },
+      {
+        "title": "Trump seeks ‘massive’ Belarus fertiliser deal amid Canada trade war",
+        "link": "https://www.theguardian.com/world/2026/sep/22/trump-seeks-massive-belarus-fertiliser-deal-amid-canada-trade-war",
+        "published": "Tue, 22 Sep 2026 04:00:55 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Belarus Trump administration Europe US politics Canada Trump tariffs US foreign policy",
+        "image": "https://i.guim.co.uk/img/media/00ec2c231c1ff9196462a7ad6c4f931209db2815/281_0_4583_3668/master/4583.jpg?width=140&quality=85&auto=format&fit=max&s=b33bab9ee9341982ff7df8d09db3e85e"
+      },
+      {
+        "title": "Black Tesla employees accuse company of fostering racial discrimination in major trial",
+        "link": "https://www.theguardian.com/technology/2026/sep/21/black-employees-accuse-tesla-fostering-discrimination",
+        "published": "Mon, 21 Sep 2026 23:20:34 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Technology Tesla Elon Musk California US news West Coast Discrimination at work Race",
+        "image": "https://i.guim.co.uk/img/media/77babae0a544c93dd1accdbba7a706ddedcc6cd4/456_0_7280_5820/master/7280.jpg?width=140&quality=85&auto=format&fit=max&s=e5aca33e2a2ed2fb11b699c15933647b"
       },
       {
         "title": "TalkTalk dials up effort to salvage future as Octopus deal stalls",
@@ -304,33 +331,6 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/06/1920x1080/skynews-warner-bros-paramount_7286686.jpg?20260630154430"
-      },
-      {
-        "title": "CNN, MS Now and Politico sue Trump after being blocked from White House",
-        "link": "https://www.theguardian.com/us-news/2026/sep/21/white-house-news-organization-ban-lawsuit",
-        "published": "Mon, 21 Sep 2026 14:42:12 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Donald Trump Trump administration US politics US news Media CNN MS Now US press and publishing Media law Press freedom Law (US) Newspapers Newspapers & magazines World news",
-        "image": "https://i.guim.co.uk/img/media/95d4bf7b287de26e3b42926fb296871627741d8a/571_0_3332_2666/master/3332.jpg?width=140&quality=85&auto=format&fit=max&s=aef0e0493343cfc459d13206e7a60200"
-      },
-      {
-        "title": "Converse apologizes and pulls ad that critics said evoked racist imagery",
-        "link": "https://www.theguardian.com/us-news/2026/sep/21/converse-ad-apology-racist-imagery",
-        "published": "Mon, 21 Sep 2026 12:03:16 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Advertising Nike Race Business Fashion Social media Marketing & PR US news",
-        "image": "https://i.guim.co.uk/img/media/fa14a7eea2446ec2b806483c70a25828e26a331f/408_0_1821_1457/master/1821.jpg?width=140&quality=85&auto=format&fit=max&s=6e70423eb7c18e51145bc053ced39af3"
-      },
-      {
-        "title": "Starbucks baristas reel from surges in health insurance costs: ‘I’m considering a second job’",
-        "link": "https://www.theguardian.com/business/2026/sep/21/starbucks-baristas-health-insurance-surge",
-        "published": "Mon, 21 Sep 2026 11:00:23 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Starbucks US unions US news Food & drink industry US work & careers Business Health insurance",
-        "image": "https://i.guim.co.uk/img/media/abefb34c5800283ceaf3f035296ffd81c9863e6a/333_0_3333_2668/master/3333.jpg?width=140&quality=85&auto=format&fit=max&s=056b38d8013467a9c06f6977efb80a6b"
       },
       {
         "title": "Converse apologises and removes ad after backlash",
@@ -463,6 +463,42 @@
     ],
     "ENTERTAINMENT": [
       {
+        "title": "Big Brother house in lockdown after fans ‘throw tennis balls’ over security fence",
+        "link": "https://metro.co.uk/2026/09/22/big-brother-house-lockdown-fans-throw-tennis-balls-fence-29642345/",
+        "published": "Tue, 22 Sep 2026 06:37:56 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Entertainment TV Big Brother ITV Jedward",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_313019711-61fa.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Land of the free? Suspects, souvenirs and sex scandals in New York – in pictures",
+        "link": "https://www.theguardian.com/artanddesign/gallery/2026/sep/22/william-meyers-new-york-in-pictures",
+        "published": "Tue, 22 Sep 2026 06:00:36 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Photography Art and design Culture Art and design books New York",
+        "image": "https://i.guim.co.uk/img/media/95a838cf0a7826842ca896d32187acb2aaf93812/291_50_3138_2511/master/3138.jpg?width=140&quality=85&auto=format&fit=max&s=76202f68065f358c752397bfd45b545c"
+      },
+      {
+        "title": "TV tonight: Nigella enters the Bake Off tent – and causes quite a stir",
+        "link": "https://www.theguardian.com/tv-and-radio/2026/sep/22/tv-tonight-nigella-enters-the-bake-off-tent-and-causes-quite-a-stir",
+        "published": "Tue, 22 Sep 2026 05:20:35 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Television Television & radio Culture The Great British Bake Off",
+        "image": "https://i.guim.co.uk/img/media/33c327b4f588a1992825d801d1f21325c9a510bf/319_84_4375_3500/master/4375.jpg?width=140&quality=85&auto=format&fit=max&s=338cefb4d059df0c0e236d2786090762"
+      },
+      {
+        "title": "‘Good music is good music, and most music is not!’ As he hits 90, master minimalist Steve Reich looks back",
+        "link": "https://www.theguardian.com/music/2026/sep/22/steve-reich-turns-90-interview",
+        "published": "Tue, 22 Sep 2026 04:00:35 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Steve Reich Classical music Culture Music",
+        "image": "https://i.guim.co.uk/img/media/c7c070bc68827da80a52c2bc1321ee9c59ca9ae4/462_124_4374_3497/master/4374.jpg?width=140&quality=85&auto=format&fit=max&s=429d37151620dfaff3520f56bd654c20"
+      },
+      {
         "title": "Strictly star confirmed to be joining Gladiators as part of major cast shake-up",
         "link": "https://metro.co.uk/2026/09/22/strictly-star-confirmed-joining-gladiators-part-major-cast-shake-up-29642065/",
         "published": "Mon, 21 Sep 2026 23:01:00 +0000",
@@ -472,22 +508,13 @@
         "image": "https://metro.co.uk/wp-content/uploads/2026/09/comp-1790020417.png?w=646"
       },
       {
-        "title": "Jodie snares David on Coronation Street as Shona utterly spirals",
-        "link": "https://metro.co.uk/2026/09/21/coronation-streets-jodie-snares-david-shona-utterly-spirals-29626243/",
+        "title": "Mercedes and Sienna risk Warren’s wrath in surprise Hollyoaks union",
+        "link": "https://metro.co.uk/2026/09/21/mercedes-sienna-risk-warrens-wrath-surprise-hollyoaks-union-29640797/",
         "published": "Mon, 21 Sep 2026 22:59:00 +0000",
         "source": "Metro",
         "provider": "METRO",
-        "categories": "Coronation Street Soaps David Platt Jack P. Shepherd Jodie Ramsey Julia Goulding Olivia Frances-Brown Shona Platt",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEC_312798108-a6a3.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Tim pulls in detective Lisa as murder dilemma rocks him on Coronation Street",
-        "link": "https://metro.co.uk/2026/09/21/coronation-streets-tim-recruits-lisa-murder-dilemma-rocks-29625206/",
-        "published": "Mon, 21 Sep 2026 22:59:00 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Coronation Street Soaps DS Lisa Connor-Swain Joe Duttine Sally Dynevor Sally Metcalfe Tim Metcalfe Vicky Myers",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEC_312797395-ae6c.jpg?quality=90&strip=all&w=646"
+        "categories": "Hollyoaks Soaps Anna Passey Jamie Lomas Jennifer Metcalfe Mercedes McQueen Sienna Blake Warren Fox",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_313438273-68a2.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "Eve issues serious warning to Suki as she wages war on her own daughter in EastEnders",
@@ -497,33 +524,6 @@
         "provider": "METRO",
         "categories": "EastEnders Soaps Balvinder Sopal Eve Panesar-Unwin Heather Peace Suki Panesar-Unwin",
         "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_313418460-040c.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Chad Gilbert, New Found Glory’s founding guitarist, dies aged 45",
-        "link": "https://www.theguardian.com/us-news/2026/sep/21/chad-gilbert-new-found-glory-dead",
-        "published": "Mon, 21 Sep 2026 16:13:48 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "US news Music Culture Pop and rock World news Florida",
-        "image": "https://i.guim.co.uk/img/media/70b832d1973d9805c1dae23ca6dd503ce369fe2f/4_0_3681_2945/master/3681.jpg?width=140&quality=85&auto=format&fit=max&s=159f8507b3fe25dd7e6b0eecd5b18c1f"
-      },
-      {
-        "title": "John Oliver on UnitedHealth Group: ‘Algorithmically driven, ruthless arbiters of who lives and who dies’",
-        "link": "https://www.theguardian.com/tv-and-radio/2026/sep/21/john-oliver-united-healthcare",
-        "published": "Mon, 21 Sep 2026 15:43:33 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "John Oliver TV comedy Comedy Culture Television Television & radio",
-        "image": "https://i.guim.co.uk/img/media/b568cfb6f825092259c6fde58953b16b2379a380/461_111_1994_1595/master/1994.jpg?width=140&quality=85&auto=format&fit=max&s=a1ba4b61e6ab3a972c4da8651e0ced79"
-      },
-      {
-        "title": "Sense and Sensibility review – Daisy Edgar-Jones leads sober-minded next-gen do-over of Austen romcom",
-        "link": "https://www.theguardian.com/film/2026/sep/21/sense-and-sensibility-review-romcom-austen-daisy-edgar-jones",
-        "published": "Mon, 21 Sep 2026 15:00:35 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Film Film adaptations Jane Austen Romance films Drama films Daisy Edgar-Jones George MacKay Fiona Shaw Books Culture Stage Period and historical films",
-        "image": "https://i.guim.co.uk/img/media/1eed5e9a0f3dee04f67119b9ba0af661f051ba8f/424_0_2700_2160/master/2700.jpg?width=140&quality=85&auto=format&fit=max&s=70d49e07473c60b2a3bb7553e89da025"
       },
       {
         "title": "Paramount clears hurdle to $110bn Warner Bros merger after settlement",
@@ -555,16 +555,25 @@
     ],
     "STOCKS": [
       {
+        "title": "Meet the 90p penny stock that’s turned £3,000 into £35,000 over the last year (and is tipped to keep rising)",
+        "link": "https://www.twelfthmagpie.com/2026/09/22/meet-the-90p-penny-stock-thats-turned-3000-into-35000-over-the-last-year-and-is-tipped-to-keep-rising/",
+        "published": "Tue, 22 Sep 2026 06:23:00 +0000",
+        "source": "The Twelfth Magpie",
+        "provider": "MAGPIE",
+        "categories": "Investing Articles Micro-Cap Shares",
+        "image": "https://www.twelfthmagpie.com/wp-content/uploads/2022/10/Petrochemical-engineer.jpg"
+      },
+      {
         "title": "New Zealand central bank chief sees risks to economy, inflation",
         "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPcmFxSVdCV3F1TGRkZldVcVVRYUx2MVJWbUtUZUE0ZXlreU9WRjNnTEZrUGxEVzZWUVNTSlFoM05EVEJJQ2IyMGFXSUN1WHhHcmZwTlhwcVNUVVhMMGZfZ0JqV1U1Y0ZqV1pnVk43ak5QYTY5c2ZLUUVKYzNkdjhpS0pjTUlTdlFub0pMUXB3NUM2QXVuQzhkTURaQWRWMVpyOTBySXgyUkdpLUEwN2tocUhWVmQ?oc=5",
-        "published": "Tue, 22 Sep 2026 02:41:00 GMT",
+        "published": "Tue, 22 Sep 2026 03:22:55 GMT",
         "source": "Reuters",
         "provider": "REUTERS",
         "categories": "",
         "image": ""
       },
       {
-        "title": "Indian shares open higher on easing oil prices, bond yields",
+        "title": "Indian shares edge higher on easing oil prices, bond yields; IT caps gains",
         "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQXlPVWFzejJKbzBBSVA5ZFhMbUdTZ0VVS1RZVXBpMlJRZC1Lak9aNmdldDEwdVZ1RGlPMjlUUFdFSGdocFlTbVpjLTFLcXJsN2VqTFhVZ1d0YmYwLTBUNG9tUHVmWEs2Q1E3em4za29OcHo3MFk2Q0twV3M5WFB4Q2ppeW9LVnd3SzJ2SHhLN1N6MTI4YVU0dDBuS0htU3R5SW9maHVnR2NDUFlManVqYTRidGZiYzVv?oc=5",
         "published": "Tue, 22 Sep 2026 02:27:00 GMT",
         "source": "Reuters",
@@ -634,15 +643,6 @@
         "provider": "MAGPIE",
         "categories": "Growth Shares Investing Articles",
         "image": "https://www.twelfthmagpie.com/wp-content/uploads/2023/10/Rolls-Royce-Engine-1200x675.jpg"
-      },
-      {
-        "title": "Vietnam joins FTSE Russell emerging market benchmark",
-        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPalJiSUdYcGJXanE0VjhNWFhPejJQQlNOVlc1akp0Qm9sZHg1TW5WMkdHX1BzRURaeHhsT0N4Vmg4Yy02b2ctWjFOY3p0eWRBODFROGk2d2JGejB4V3Q1VlcxbkRrT0FUcndwV0xZLWJJR0h0VTZoYUl6d2NKQzQ0LVVpQkNhNUwydnVrWVE4NElZUlRjR3QzdUdIVVFPRjVTaEk0N1VKd2pXbUE?oc=5",
-        "published": "Mon, 21 Sep 2026 02:35:18 GMT",
-        "source": "Reuters",
-        "provider": "REUTERS",
-        "categories": "",
-        "image": ""
       }
     ]
   },
@@ -810,15 +810,6 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/24/05/1920x1080/skynews-tea-cup-of-tea_6547046.jpg?20260920134118"
-          },
-          {
-            "title": "TalkTalk dials up effort to salvage future as Octopus deal stalls",
-            "link": "https://news.sky.com/story/talktalk-dials-up-effort-to-salvage-future-as-octopus-deal-stalls-13590483",
-            "published": "Mon, 21 Sep 2026 16:50:00 +0100",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-talktalk-sign_7355226.jpg?20260918104536"
           }
         ],
         "WORLD": [
@@ -967,15 +958,6 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/04/1920x1080/skynews-electoral-podcasts_7215215.png?20260409155754"
-          },
-          {
-            "title": "Musk's X 'disgusting' for shunning meeting, says minister - as she vows more laws governing internet",
-            "link": "https://news.sky.com/story/musks-x-disgusting-for-shunning-meeting-says-minister-as-she-vows-more-laws-governing-internet-13588995",
-            "published": "Thu, 17 Sep 2026 14:11:00 +0100",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-lisa-nandy-electroal-dysfunction_7354487.jpg?20260917115123"
           }
         ],
         "BUSINESS": [
@@ -1240,7 +1222,7 @@
       "health": {
         "UK": {
           "ok": true,
-          "count": 7
+          "count": 6
         },
         "WORLD": {
           "ok": true,
@@ -1248,7 +1230,7 @@
         },
         "POLITICS": {
           "ok": true,
-          "count": 7
+          "count": 6
         },
         "BUSINESS": {
           "ok": true,
@@ -1267,6 +1249,24 @@
     "GUARDIAN": {
       "categories": {
         "UK": [
+          {
+            "title": "UK borrows £18bn in August, putting pressure on Healey before budget",
+            "link": "https://www.theguardian.com/business/2026/sep/22/uk-government-borrowing-john-healey-budget-bond-markets",
+            "published": "Tue, 22 Sep 2026 06:25:40 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Budget deficit Bonds Economics Budget Business Economic policy Politics John Healey Budget 2026 UK news",
+            "image": "https://i.guim.co.uk/img/media/040038c8899a7aba8593f60af39e6376db7d2fc3/375_0_3731_2984/master/3731.jpg?width=140&quality=85&auto=format&fit=max&s=23fe6dc50b81c739bd2882b76070b65a"
+          },
+          {
+            "title": "Nearly 4m records of enslaved people in 20 former British colonies now searchable online",
+            "link": "https://www.theguardian.com/news/2026/sep/22/nearly-4m-records-of-enslaved-people-in-20-former-british-colonies-now-searchable-online",
+            "published": "Tue, 22 Sep 2026 05:00:36 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "National Archives British empire Slavery Genealogy Colonialism Caribbean UK news Social history",
+            "image": "https://i.guim.co.uk/img/media/ac7563daeb71b2bb1e17e3e69bac39ae20fb813b/0_1560_5780_4625/master/5780.jpg?width=140&quality=85&auto=format&fit=max&s=d5b16cfad54c1edd07f80ae01f7f725b"
+          },
           {
             "title": "Hope for UK mothers accused of child abduction after fleeing domestic violence",
             "link": "https://www.theguardian.com/society/2026/sep/22/uk-mothers-domestic-abuse-child-abduction",
@@ -1329,24 +1329,6 @@
             "provider": "GUARDIAN",
             "categories": "Transport UK news Air transport World news Airline industry Business Scotland North of England Northern Ireland",
             "image": "https://i.guim.co.uk/img/media/b552efebe4d905c26ed47c363a5baa96397757cf/366_0_3384_2710/master/3384.jpg?width=140&quality=85&auto=format&fit=max&s=3b8982cf9dbd288429508a27630cd1e0"
-          },
-          {
-            "title": "Lib Dems reject ‘discriminatory and unworkable’ EHRC guidance on transgender people",
-            "link": "https://www.theguardian.com/politics/2026/sep/21/lib-dems-reject-ruling-transgender-people-brighton-conference",
-            "published": "Mon, 21 Sep 2026 18:58:51 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Liberal Democrat conference Liberal Democrats Politics Transgender UK news Society Equality and Human Rights Commission (EHRC) LGBTQ+ rights Gender",
-            "image": "https://i.guim.co.uk/img/media/15e277ba3e7f26ca94b87aaa33cf1d71eec1c8f2/500_0_3750_3000/master/3750.jpg?width=140&quality=85&auto=format&fit=max&s=cfa473e92248e02c56f73c5ed2679162"
-          },
-          {
-            "title": "Inquest into British aid workers killed in Gaza may call on Israeli and UK military chiefs",
-            "link": "https://www.theguardian.com/world/2026/sep/21/inquest-british-aid-workers-killed-gaza-call-on-israeli-uk-military-chiefs",
-            "published": "Mon, 21 Sep 2026 18:49:55 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Gaza Military Palestine UK news World news Israel",
-            "image": "https://i.guim.co.uk/img/media/b05f469d691ecbc4367b1d83536ebc90a2265481/0_0_5906_4724/master/5906.jpg?width=140&quality=85&auto=format&fit=max&s=956c81a2071eb58a3f860427e619dfa0"
           },
           {
             "title": "Helen Jenner unveiled as Reform UK’s new leader in Wales after arrest of Dan Thomas",
@@ -1540,7 +1522,7 @@
             "image": "https://i.guim.co.uk/img/media/e17b0612a5744746012a384b1cea80afef14af1b/394_0_4938_3951/master/4938.jpg?width=140&quality=85&auto=format&fit=max&s=0c15df24dbba8dee534a90375fb86614"
           },
           {
-            "title": "At least two people killed in Japan as typhoon Dujuan triggers heavy rain, landslides",
+            "title": "At least four people killed in Japan as typhoon Dujuan triggers heavy rain, landslides",
             "link": "https://www.theguardian.com/world/2026/sep/22/typhoon-dujuan-japan-latest-weather-millions-told-to-evacuate-tokyo",
             "published": "Tue, 22 Sep 2026 04:48:59 GMT",
             "source": "The Guardian",
@@ -1585,22 +1567,40 @@
             "image": "https://i.guim.co.uk/img/media/4a81e50c7e8eaf2830cce6b1d0eed222efe22a19/375_0_4080_3264/master/4080.jpg?width=140&quality=85&auto=format&fit=max&s=afbae07cd276e65facde9043a1bbe14c"
           },
           {
+            "title": "Australia news live: RBA governor says migration boosting economy not adding to inflation but ‘where it bites is housing market’",
+            "link": "https://www.theguardian.com/australia-news/live/2026/sep/22/anthony-albanese-new-york-united-nations-intergenerational-report-coalition-one-nation-ntwnfb",
+            "published": "Tue, 22 Sep 2026 06:34:28 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Australia news Australian politics Australian economy Business Health Australian education Australian immigration and asylum Australian foreign policy Labor party Coalition Liberal party One Nation Pauline Hanson Angus Taylor",
+            "image": "https://i.guim.co.uk/img/media/cd7df84cfdbf0cfe06fd588def18c440c68e960d/640_0_6377_5105/master/6377.jpg?width=140&quality=85&auto=format&fit=max&s=faeb2a14b3333a8cf32ec63145f342de"
+          },
+          {
+            "title": "‘Negligent’ to talk about long term risks to Australia without examining cost of climate crisis, experts say",
+            "link": "https://www.theguardian.com/australia-news/2026/sep/22/intergenerational-report-underplays-effect-climate-crisis-on-australia-future-2066",
+            "published": "Tue, 22 Sep 2026 06:32:37 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Australia news Climate crisis Environment Australian economy",
+            "image": "https://i.guim.co.uk/img/media/4e03d2aa4420b37c18d04a94bad41ab3b1cc15e3/169_0_2500_2000/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=7b289aaf70527a588840c941236bbf79"
+          },
+          {
+            "title": "Police investigate possible organised crime links after boy, 11, shot in the face in Sydney",
+            "link": "https://www.theguardian.com/australia-news/2026/sep/22/boy-11-shot-face-sydney-man-charged-gun-laws-buyback-ntwnfb",
+            "published": "Tue, 22 Sep 2026 04:57:31 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Gun control New South Wales Australia news New South Wales politics Sydney Chris Minns Labor party Liberal party",
+            "image": "https://i.guim.co.uk/img/media/54ae2cf5a6e5712f68fb968ad6f65b0e6e7f0839/3603_2087_3594_2875/master/3594.jpg?width=140&quality=85&auto=format&fit=max&s=c4206586bb6628a75eb975ab08766a8b"
+          },
+          {
             "title": "Private investigator surveilled Liberal minister and supplied Jean Nassif with recording devices, Icac hears",
             "link": "https://www.theguardian.com/australia-news/2026/sep/22/private-investigator-secretly-recorded-mp-david-elliott-jean-nassif-icac-ntwnfb",
             "published": "Tue, 22 Sep 2026 04:53:26 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Australia news Independent Commission Against Corruption New South Wales New South Wales politics",
+            "categories": "Independent Commission Against Corruption Australia news New South Wales New South Wales politics Liberal party",
             "image": "https://i.guim.co.uk/img/media/a2354e053c63d0b1c5602959eadebd92d979e722/0_0_2416_1932/master/2416.jpg?width=140&quality=85&auto=format&fit=max&s=eb406518045710f3135e897380ad662a"
-          },
-          {
-            "title": "Australia news live: police investigating possible organised crime links after 11-year-old boy shot in Sydney apartment",
-            "link": "https://www.theguardian.com/australia-news/live/2026/sep/22/anthony-albanese-new-york-united-nations-intergenerational-report-coalition-one-nation-ntwnfb",
-            "published": "Tue, 22 Sep 2026 04:50:41 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Australia news Australian politics Australian economy Business Health Australian education Australian immigration and asylum Australian foreign policy Labor party Coalition Liberal party One Nation Pauline Hanson Angus Taylor",
-            "image": "https://i.guim.co.uk/img/media/1ceb0a72c9379ac44245748d403ceaf88c4d95ac/204_0_2040_1632/master/2040.jpg?width=140&quality=85&auto=format&fit=max&s=261f23693fa138010a6bd2695808cd12"
           },
           {
             "title": "‘I understood what women have been going through’: fourth alleged victim testifies at Alan Jones trial",
@@ -1610,27 +1610,18 @@
             "provider": "GUARDIAN",
             "categories": "Alan Jones trial Alan Jones Australia news Australian media",
             "image": "https://i.guim.co.uk/img/media/2c92780dac87f6f8a1e6c5ef284e161d7d8786aa/360_127_2277_1821/master/2277.jpg?width=140&quality=85&auto=format&fit=max&s=f6a06a030ca0e6a9dfd21ce7aba11620"
-          },
-          {
-            "title": "Intergenerational report underplays effect of climate crisis on Australia’s future, experts say",
-            "link": "https://www.theguardian.com/australia-news/2026/sep/22/intergenerational-report-underplays-effect-climate-crisis-on-australia-future-2066",
-            "published": "Tue, 22 Sep 2026 04:00:57 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Australia news Climate crisis Environment Australian economy",
-            "image": "https://i.guim.co.uk/img/media/a68abb764595f75dbcc713b577c9ce6a655bcf8c/0_0_3790_3032/master/3790.jpg?width=140&quality=85&auto=format&fit=max&s=ab075c99b437fce8232d0c1840b7141d"
-          },
-          {
-            "title": "Political fight over gun buyback after boy, 11, shot in the face and neck in Sydney apartment",
-            "link": "https://www.theguardian.com/australia-news/2026/sep/22/boy-11-shot-face-sydney-man-charged-gun-laws-buyback-ntwnfb",
-            "published": "Tue, 22 Sep 2026 02:05:02 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Gun control New South Wales Australia news New South Wales politics Sydney Chris Minns Labor party Liberal party",
-            "image": "https://i.guim.co.uk/img/media/97696f63e0f174aeacaedaa623b233070e10669a/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=c5b3b8bc230bbaa087bbb7bfe4c9690a"
           }
         ],
         "POLITICS": [
+          {
+            "title": "UK borrows £18bn in August, putting pressure on Healey before budget",
+            "link": "https://www.theguardian.com/business/2026/sep/22/uk-government-borrowing-john-healey-budget-bond-markets",
+            "published": "Tue, 22 Sep 2026 06:25:40 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Budget deficit Bonds Economics Budget Business Economic policy Politics John Healey Budget 2026 UK news",
+            "image": "https://i.guim.co.uk/img/media/040038c8899a7aba8593f60af39e6376db7d2fc3/375_0_3731_2984/master/3731.jpg?width=140&quality=85&auto=format&fit=max&s=23fe6dc50b81c739bd2882b76070b65a"
+          },
           {
             "title": "Young people’s Pip claims for ADHD and autism ‘rising fastest in affluent areas’",
             "link": "https://www.theguardian.com/society/2026/sep/22/england-affluent-areas-young-people-adhd-autism-pip-claims",
@@ -1684,15 +1675,6 @@
             "provider": "GUARDIAN",
             "categories": "Politics Andy Burnham Donald Trump UK news Foreign policy US news US foreign policy World news",
             "image": "https://i.guim.co.uk/img/media/e0f396214eee36167d6dc43043c9013803feb65b/1_0_4998_4000/master/4998.jpg?width=140&quality=85&auto=format&fit=max&s=a9012fc2ccc9861cd5baf89f1a212d04"
-          },
-          {
-            "title": "‘I have to keep reliving it’: infected blood claimants being asked to prove eligibility",
-            "link": "https://www.theguardian.com/uk-news/2026/sep/21/infected-blood-victims-and-relatives-struggle-to-claim-compensation",
-            "published": "Mon, 21 Sep 2026 11:48:35 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Contaminated blood scandal Hepatitis C Health policy UK news Health Politics Public services policy Society",
-            "image": "https://i.guim.co.uk/img/media/f9cdfae03b6e7d6af608f5cf2feea9e8a9e8b3fa/0_0_6397_5118/master/6397.jpg?width=140&quality=85&auto=format&fit=max&s=8544e414575ae242ff28973514755198"
           },
           {
             "title": "Britain needs cash and everyone knows we should break the pensions triple lock. Where is the courage? | Gaby Hinsliff",
@@ -1814,121 +1796,157 @@
         ],
         "BUSINESS": [
           {
-            "title": "Plan for editorial oversight board at CNN and CBS News draws skepticism: ‘Utter garbage’",
-            "link": "https://www.theguardian.com/media/2026/sep/21/cnn-cbs-news-editorial-board-skepticsm",
-            "published": "Mon, 21 Sep 2026 20:05:50 GMT",
+            "title": "UK government borrowing jumps over forecast to £18.3bn in August, in ‘dismal picture’ ahead of the budget – business live",
+            "link": "https://www.theguardian.com/business/live/2026/sep/22/uk-government-borrowing-august-fiscal-straightjacket-john-healey-bonds-latest-news-updates",
+            "published": "Tue, 22 Sep 2026 06:35:53 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "CNN CBS Paramount+ Warner Bros TV news Media Business US news",
-            "image": "https://i.guim.co.uk/img/media/1d5574adcd3cea81acccbd1d41c466d0bb1ac672/755_0_3781_3027/master/3781.jpg?width=140&quality=85&auto=format&fit=max&s=05b09378956a29190c9f17b71f30e425"
+            "categories": "Business Economics Stock markets Public finance",
+            "image": "https://i.guim.co.uk/img/media/4b583dc819f5ec7ab9617c413172a05c53fab2bb/317_0_6827_5464/master/6827.jpg?width=140&quality=85&auto=format&fit=max&s=c0a838f75b8b06b19fb094ea5f13337a"
           },
           {
-            "title": "CNN, MS Now and Politico sue Trump after being blocked from White House",
-            "link": "https://www.theguardian.com/us-news/2026/sep/21/white-house-news-organization-ban-lawsuit",
-            "published": "Mon, 21 Sep 2026 14:42:12 GMT",
+            "title": "Airlines urge action after UK flights delayed and cancelled again",
+            "link": "https://www.theguardian.com/world/2026/sep/21/uk-airports-air-traffic-control-flights-cancelled-delays-nats-prestwick",
+            "published": "Mon, 21 Sep 2026 20:45:05 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Donald Trump Trump administration US politics US news Media CNN MS Now US press and publishing Media law Press freedom Law (US) Newspapers Newspapers & magazines World news",
-            "image": "https://i.guim.co.uk/img/media/95d4bf7b287de26e3b42926fb296871627741d8a/571_0_3332_2666/master/3332.jpg?width=140&quality=85&auto=format&fit=max&s=aef0e0493343cfc459d13206e7a60200"
+            "categories": "Transport UK news Air transport World news Airline industry Business Scotland North of England Northern Ireland",
+            "image": "https://i.guim.co.uk/img/media/b552efebe4d905c26ed47c363a5baa96397757cf/366_0_3384_2710/master/3384.jpg?width=140&quality=85&auto=format&fit=max&s=3b8982cf9dbd288429508a27630cd1e0"
           },
           {
-            "title": "Starbucks baristas reel from surges in health insurance costs: ‘I’m considering a second job’",
-            "link": "https://www.theguardian.com/business/2026/sep/21/starbucks-baristas-health-insurance-surge",
-            "published": "Mon, 21 Sep 2026 11:00:23 GMT",
+            "title": "Halt super-intelligent AI with non-proliferation treaty, Ed Davey to say",
+            "link": "https://www.theguardian.com/politics/2026/sep/21/halt-super-intelligent-ai-ed-davey-lib-dem-conference",
+            "published": "Mon, 21 Sep 2026 21:30:26 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Starbucks US unions US news Food & drink industry US work & careers Business Health insurance",
-            "image": "https://i.guim.co.uk/img/media/abefb34c5800283ceaf3f035296ffd81c9863e6a/333_0_3333_2668/master/3333.jpg?width=140&quality=85&auto=format&fit=max&s=056b38d8013467a9c06f6977efb80a6b"
+            "categories": "Liberal Democrat conference Liberal Democrats AI (artificial intelligence) Ed Davey Politics Technology UK news Computing",
+            "image": "https://i.guim.co.uk/img/media/8b34809ab945c631baf069850af883b4c987dc05/433_0_3753_3003/master/3753.jpg?width=140&quality=85&auto=format&fit=max&s=120fd967a5800d8cbe4f74993b34fce0"
           },
           {
-            "title": "Converse apologizes and pulls ad that critics said evoked racist imagery",
-            "link": "https://www.theguardian.com/us-news/2026/sep/21/converse-ad-apology-racist-imagery",
-            "published": "Mon, 21 Sep 2026 12:03:16 GMT",
+            "title": "‘Half my day’s pay goes to filling up my car now’: diesel crisis ripples across Britain",
+            "link": "https://www.theguardian.com/money/2026/sep/21/diesel-global-supply-shortage-record-prices-iran-war-energy-crisis-brent-crude",
+            "published": "Mon, 21 Sep 2026 16:29:25 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Advertising Nike Race Business Fashion Social media Marketing & PR US news",
-            "image": "https://i.guim.co.uk/img/media/fa14a7eea2446ec2b806483c70a25828e26a331f/408_0_1821_1457/master/1821.jpg?width=140&quality=85&auto=format&fit=max&s=6e70423eb7c18e51145bc053ced39af3"
+            "categories": "Petrol prices Oil Business Commodities Money Motoring UK news UK cost of living crisis US-Israel war on Iran Consumer affairs",
+            "image": "https://i.guim.co.uk/img/media/8fb921c95827b99ef319181039b3c773115cab1e/216_0_4784_3827/master/4784.jpg?width=140&quality=85&auto=format&fit=max&s=7824274df45ba7f97cddbd239030d54a"
           },
           {
-            "title": "Kevin Warsh may be the adult in the room. But can he calm the US economy?",
-            "link": "https://www.theguardian.com/business/2026/sep/19/kevin-warsh-interest-rate-hike",
-            "published": "Sat, 19 Sep 2026 11:00:45 GMT",
+            "title": "Trump seeks ‘massive’ Belarus fertiliser deal amid Canada trade war",
+            "link": "https://www.theguardian.com/world/2026/sep/22/trump-seeks-massive-belarus-fertiliser-deal-amid-canada-trade-war",
+            "published": "Tue, 22 Sep 2026 04:00:55 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Federal Reserve US economy Business Donald Trump US politics US news Trump administration",
-            "image": "https://i.guim.co.uk/img/media/9034a8b840c58443fd1a74486d27a853d430cd90/22_0_4170_3336/master/4170.jpg?width=140&quality=85&auto=format&fit=max&s=0976fdfc0b92b5821499e37e02ff0a1d"
+            "categories": "Belarus Trump administration Europe US politics Canada Trump tariffs US foreign policy",
+            "image": "https://i.guim.co.uk/img/media/00ec2c231c1ff9196462a7ad6c4f931209db2815/281_0_4583_3668/master/4583.jpg?width=140&quality=85&auto=format&fit=max&s=b33bab9ee9341982ff7df8d09db3e85e"
           },
           {
-            "title": "Warren Buffett steps down as chair of Berkshire Hathaway after over 50 years",
-            "link": "https://www.theguardian.com/business/2026/sep/18/warren-buffett-steps-down-berkshire-hathaway",
-            "published": "Fri, 18 Sep 2026 14:48:56 GMT",
+            "title": "Black Tesla employees accuse company of fostering racial discrimination in major trial",
+            "link": "https://www.theguardian.com/technology/2026/sep/21/black-employees-accuse-tesla-fostering-discrimination",
+            "published": "Mon, 21 Sep 2026 23:20:34 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Warren Buffett Business Berkshire",
-            "image": "https://i.guim.co.uk/img/media/acae4dd53fd581382ab153a512978fcca7cd739e/315_0_3160_2529/master/3160.jpg?width=140&quality=85&auto=format&fit=max&s=6ec4fc0215caf8d95263d42243e39bee"
+            "categories": "Technology Tesla Elon Musk California US news West Coast Discrimination at work Race",
+            "image": "https://i.guim.co.uk/img/media/77babae0a544c93dd1accdbba7a706ddedcc6cd4/456_0_7280_5820/master/7280.jpg?width=140&quality=85&auto=format&fit=max&s=e5aca33e2a2ed2fb11b699c15933647b"
           },
           {
-            "title": "Trump bans CNN, MS Now and Politico from White House",
-            "link": "https://www.theguardian.com/us-news/2026/sep/18/trump-bans-cnn-msnow-politico-white-house",
-            "published": "Fri, 18 Sep 2026 23:04:30 GMT",
+            "title": "‘It’s unrecognisable’: How being a tax haven has changed Jersey",
+            "link": "https://www.theguardian.com/uk-news/2026/sep/21/its-unrecognisable-how-being-a-tax-haven-has-changed-jersey",
+            "published": "Mon, 21 Sep 2026 04:00:35 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Donald Trump Trump administration US news US politics US press and publishing MS Now Media CNN Newspapers & magazines World news US television industry",
-            "image": "https://i.guim.co.uk/img/media/6df9eb7ead741761a077b9c16136d27d3c3e557c/720_0_7200_5760/master/7200.jpg?width=140&quality=85&auto=format&fit=max&s=8f07a019254beba2672bc1b736936cfd"
+            "categories": "Jersey Tax havens The super-rich Channel Islands Europe UK news World news",
+            "image": "https://i.guim.co.uk/img/media/95ae190ebcb2641f2a04e40401d06b02b6ffa4fc/570_371_4111_3289/master/4111.jpg?width=140&quality=85&auto=format&fit=max&s=60b556cb1b3194c56f261a38c4f2acbd"
           },
           {
-            "title": "Workers in New York seek to create first AutoZone union as company resists",
-            "link": "https://www.theguardian.com/us-news/2026/sep/18/autozone-new-york-union",
-            "published": "Fri, 18 Sep 2026 11:00:17 GMT",
+            "title": "Paramount settles lawsuits with 12 US states, clearing way for Warner merger",
+            "link": "https://www.theguardian.com/business/2026/sep/21/paramount-settles-lawsuits-warner-bros-merger",
+            "published": "Mon, 21 Sep 2026 16:52:49 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "US unions Automotive industry Business US news",
-            "image": "https://i.guim.co.uk/img/media/a946433270b291789ba9e059caea5439db773c66/403_0_3332_2666/master/3332.jpg?width=140&quality=85&auto=format&fit=max&s=b087d30544b3f9576dfb0cff33f57592"
+            "categories": "Business Paramount+ Warner Bros California Law (US) US news Massachusetts New York Connecticut Minnesota Media business Television & radio Culture World news West Coast CBS CNN US television industry TV news Media",
+            "image": "https://i.guim.co.uk/img/media/9b9986361f494bbf8406860532ad3663db42de0d/0_0_1500_1200/master/1500.jpg?width=140&quality=85&auto=format&fit=max&s=9151bc3f52181b8a5b3a0f0f32429c76"
           },
           {
-            "title": "Trump and Rubio allies are vying for control of Cuba’s assets if regime falls",
-            "link": "https://www.theguardian.com/us-news/2026/sep/17/trump-marco-rubio-cuba",
-            "published": "Thu, 17 Sep 2026 11:00:48 GMT",
+            "title": "Stop relying on AI chatbots for customer care, UK banks and energy firms told",
+            "link": "https://www.theguardian.com/technology/2026/sep/21/stop-relying-on-chatbots-for-customer-care-uk-service-providers-urged",
+            "published": "Mon, 21 Sep 2026 16:35:31 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Trump administration Cuba Marco Rubio Business US news World news US politics US foreign policy Donald Trump",
-            "image": "https://i.guim.co.uk/img/media/ed6393748491c430e54fa03b6f014c581910ee71/18_0_3793_3034/master/3793.jpg?width=140&quality=85&auto=format&fit=max&s=48fe99a3d9a970b421f975a19ca59a8d"
+            "categories": "Chatbots Utilities Banking Technology Mobile phones Internet, phones & broadband Consumer affairs AI (artificial intelligence)",
+            "image": "https://i.guim.co.uk/img/media/052b2447feb6c3258cfe4c4f883125d7116c6c47/250_0_2500_2000/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=3b9849aeacee0d526dbd5e5ddc0f92f2"
           },
           {
-            "title": "‘Do you have to be dead?’: US coalminers plead for benefits as black-lung disease cases surge",
-            "link": "https://www.theguardian.com/us-news/2026/sep/20/us-coalminers-black-lung-disease",
-            "published": "Sun, 20 Sep 2026 11:00:16 GMT",
+            "title": "All the signs say another financial crisis is coming. Here’s why we need to prepare for it now | Larry Elliott",
+            "link": "https://www.theguardian.com/commentisfree/2026/sep/21/financial-crisis-ai-oil-market-2008-crash-disruption",
+            "published": "Mon, 21 Sep 2026 07:00:38 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "US unions Coal Mining Business West Virginia US news Trump administration World news US politics Environment Energy Fossil fuels",
-            "image": "https://i.guim.co.uk/img/media/6da0e9d26a309dd4b06ed63723273e25ac20be14/702_0_6840_5471/master/6840.jpg?width=140&quality=85&auto=format&fit=max&s=298b3c47d8f8db4ae65e57025dbfd1c4"
+            "categories": "Market turmoil Global economy World news Economics Financial crisis Stock markets Bonds Business",
+            "image": "https://i.guim.co.uk/img/media/7e79272f4155fd92a17d0fe8f94df1c67584b28b/1141_0_1897_1518/master/1897.jpg?width=140&quality=85&auto=format&fit=max&s=dc47b53747c6e6916512533724ca1a61"
           },
           {
-            "title": "Are global stock markets heading for a crash?",
-            "link": "https://www.theguardian.com/business/ng-interactive/2026/sep/20/stock-market-crash-government-bond-yields",
-            "published": "Sun, 20 Sep 2026 05:00:07 GMT",
+            "title": "Britain needs cash and everyone knows we should break the pensions triple lock. Where is the courage? | Gaby Hinsliff",
+            "link": "https://www.theguardian.com/commentisfree/2026/sep/22/britain-pensions-triple-lock-andy-burnham",
+            "published": "Tue, 22 Sep 2026 05:00:35 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Stock markets Market turmoil Business Economics Global economy US markets Bonds Interest rates UK news US news World news",
-            "image": "https://i.guim.co.uk/img/media/9f86b7cc961ff0e1ef0c93916d30d0777739c3aa/571_246_4145_3317/master/4145.jpg?width=140&quality=85&auto=format&fit=max&s=557e8a1c100b7b138ec4802adecbc889"
+            "categories": "Pensions Family finances Andy Burnham John Healey Labour Money Politics UK news State pensions Welfare Older people Generational inequality Tax and spending",
+            "image": "https://i.guim.co.uk/img/media/f873254d7ba080ea98e741b1b1bdc02d32fa9545/0_1_5000_3998/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=4518bf06031bcb8c086c89ef8768c16f"
           },
           {
-            "title": "US wheat farmers navigate uncertainty amid drought and geopolitical chaos",
-            "link": "https://www.theguardian.com/business/2026/sep/18/wheat-farmers-drought-geopolitics",
-            "published": "Fri, 18 Sep 2026 11:00:17 GMT",
+            "title": "AI slowdown calls justified but collapse of bubble may be more immediate threat | Heather Stewart",
+            "link": "https://www.theguardian.com/business/2026/sep/20/ai-slowdown-calls-collapse-of-bubble-datacentre-tech-firms",
+            "published": "Sun, 20 Sep 2026 10:38:51 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "US economy Farming El Niño southern oscillation Cereals and grains Drought Climate crisis Economics Environment Kansas US news Ukraine Russia Europe World news",
-            "image": "https://i.guim.co.uk/img/media/8682bfd875e828a0900020dfd23df66d501f7f9c/499_0_5001_4000/master/5001.jpg?width=140&quality=85&auto=format&fit=max&s=057cdee4845b02b14fcf403d876bc277"
+            "categories": "AI (artificial intelligence) Technology sector Business Datacentres Technology World news Chatbots Google Amazon Microsoft Meta Oracle US news Stock markets",
+            "image": "https://i.guim.co.uk/img/media/b89c1804e73658b641f6a1b3d888f3260524675e/313_0_4311_3450/master/4311.jpg?width=140&quality=85&auto=format&fit=max&s=75e92338367b3e860b85767dba7243f4"
           },
           {
-            "title": "Google fined more than €400m by Irish regulator over its use of location data",
-            "link": "https://www.theguardian.com/technology/2026/sep/21/google-is-fined-more-than-400m-by-irish-regulator-over-its-use-of-location-data",
-            "published": "Mon, 21 Sep 2026 10:57:26 GMT",
+            "title": "Businesses in England: tell us about your experience of taking on apprentices",
+            "link": "https://www.theguardian.com/education/2026/aug/05/businesses-in-england-tell-us-your-experience-of-taking-on-apprentices",
+            "published": "Mon, 21 Sep 2026 10:51:58 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Google European Union Smartphones Alphabet Mobile phones Technology Europe World news UK news Business",
-            "image": "https://i.guim.co.uk/img/media/c723e9373ad5541713e841d1668422eec041a93f/613_33_3290_2633/master/3290.jpg?width=140&quality=85&auto=format&fit=max&s=b06899de17eae96a9e4195a47dd1eb51"
+            "categories": "Apprenticeships Business",
+            "image": "https://i.guim.co.uk/img/media/21c560ec61563d5c4e2359704f540e4834493f2e/526_0_5711_4571/master/5711.jpg?width=140&quality=85&auto=format&fit=max&s=add2b1b449d58013901784dfa312caae"
+          },
+          {
+            "title": "Can Trump and Xi cooperate to guide humanity through the AI revolution? Humanity might depend on it | Alan Finkel",
+            "link": "https://www.theguardian.com/commentisfree/2026/sep/21/can-trump-and-xi-cooperate-to-guide-humanity-through-the-ai-revolution-humanity-might-depend-on-it",
+            "published": "Sun, 20 Sep 2026 22:00:26 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "AI (artificial intelligence) Sam Altman OpenAI Anthropic Computing Donald Trump Xi Jinping",
+            "image": "https://i.guim.co.uk/img/media/b95961888853edd0e0b05c5fb70cd7d1564b943e/389_0_3932_3145/master/3932.jpg?width=140&quality=85&auto=format&fit=max&s=d178b9ed4f69954a6dcb04e2abd22449"
+          },
+          {
+            "title": "Why China is pushing back on US warnings over rapid AI development",
+            "link": "https://www.theguardian.com/world/2026/sep/20/why-china-is-pushing-back-on-us-warnings-over-rapid-ai-development",
+            "published": "Sun, 20 Sep 2026 06:00:09 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "China World news AI (artificial intelligence) Computing Asia Pacific Technology Anthropic US news",
+            "image": "https://i.guim.co.uk/img/media/eed769a799be66f4834320b43e40a5f5b9900b16/1058_662_4066_3253/master/4066.jpg?width=140&quality=85&auto=format&fit=max&s=638a301fd4ce6caff1af798da51cb839"
+          },
+          {
+            "title": "As White House shields the AI gold rush, Trump family and other allies strike it rich – with few guardrails",
+            "link": "https://www.theguardian.com/us-news/2026/sep/20/trump-ai-policy-financial-interest",
+            "published": "Sun, 20 Sep 2026 10:00:13 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Donald Trump AI (artificial intelligence) US news",
+            "image": "https://i.guim.co.uk/img/media/f9a7967fb988adda878fb805da809b762da3ae74/467_0_4665_3732/master/4665.jpg?width=140&quality=85&auto=format&fit=max&s=aa721b7f9b46aa2a494ff6e330b1467c"
+          },
+          {
+            "title": "Bernie Sanders is right about the four-day workweek – but wrong about how to get there",
+            "link": "https://www.theguardian.com/business/2026/sep/20/four-day-workweek",
+            "published": "Sun, 20 Sep 2026 14:00:17 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "US small business Employment law US work & careers Bernie Sanders Business Technology US news",
+            "image": "https://i.guim.co.uk/img/media/4ea1471f8cd33afde0ed7d62b2aee8ac55f05dfd/1689_908_5694_4556/master/5694.jpg?width=140&quality=85&auto=format&fit=max&s=ffcdbc117e8924f49234b6a96ddf97b5"
           },
           {
             "title": "China’s stranglehold on rare earths must be ended, says hopeful supplier to EU",
@@ -1940,58 +1958,22 @@
             "image": "https://i.guim.co.uk/img/media/c12b92282e3d33a73c300fc65c7842f74ff58cd8/134_0_1000_800/master/1000.jpg?width=140&quality=85&auto=format&fit=max&s=5869333bc91a02ac3c3347e825a46b0a"
           },
           {
-            "title": "Brazil’s wind farms have been a huge success. So why isn’t everybody reaping the benefits?",
-            "link": "https://www.theguardian.com/global-development/2026/sep/19/brazils-wind-farms-have-been-a-huge-success-so-why-isnt-everybody-reaping-the-benefits",
-            "published": "Sat, 19 Sep 2026 12:00:46 GMT",
+            "title": "Only 160 apprenticeship starts in eight months on Labour’s flagship scheme",
+            "link": "https://www.theguardian.com/education/2026/sep/21/apprenticeship-starts-labour-scheme-skills-revolution",
+            "published": "Mon, 21 Sep 2026 04:00:36 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Global development Wind power Brazil Renewable energy Energy Environment Energy industry Access to energy Americas Business World news Green economy",
-            "image": "https://i.guim.co.uk/img/media/ddc526b4f9bc4285932033096bb6211bd9c0afd4/915_991_2874_2300/master/2874.jpg?width=140&quality=85&auto=format&fit=max&s=c07822adce9f1ec2239f51f5dcb4a632"
+            "categories": "Apprenticeships Youth unemployment Business Labour Unemployment UK news Young people Society Employability Vocational education Education policy",
+            "image": "https://i.guim.co.uk/img/media/3c2463353a633778731be993b87857641663654b/375_363_587_469/master/587.jpg?width=140&quality=85&auto=format&fit=max&s=a66d1675f109f87b9700d5c4fc50fab4"
           },
           {
-            "title": "Flight chaos for hundreds of thousands was caused in ‘millisecond’ by software error",
-            "link": "https://www.theguardian.com/world/2026/sep/18/flight-chaos-affecting-hundreds-of-thousands-caused-in-millisecond-by-software-error-uk",
-            "published": "Fri, 18 Sep 2026 15:45:18 GMT",
+            "title": "UK startup snares $20m to recreate gigs with ‘hyper-realistic’ digital avatars",
+            "link": "https://www.theguardian.com/business/2026/sep/20/uk-startup-15m-investment-concerts-digital-versions-musicians",
+            "published": "Sun, 20 Sep 2026 13:00:16 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Air transport Airline industry Business Travel Travel & leisure Transport UK news Europe World news Heidi Alexander",
-            "image": "https://i.guim.co.uk/img/media/87fbb8a84446d79dd1a9f01154ab7ff9503c99e7/1772_974_2136_1709/master/2136.jpg?width=140&quality=85&auto=format&fit=max&s=4a01978dac00fa206ac05d4b4516d779"
-          },
-          {
-            "title": "When her ‘soul cat’ died, she was bereft. Now she designs memorial jewelry to help others with pet loss",
-            "link": "https://www.theguardian.com/business/2026/apr/24/pet-memorial-jewelry-small-business",
-            "published": "Fri, 24 Apr 2026 15:00:19 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Pets Small business Business Cats Animals Life and style",
-            "image": "https://i.guim.co.uk/img/media/e4f6dbcc608c174f48176f60ae2b654825d41ae6/1861_0_5565_4453/master/5565.jpg?width=140&quality=85&auto=format&fit=max&s=7d14aa16fbac54477c13c373551fa0d7"
-          },
-          {
-            "title": "Financial bullying can ruin a marriage: first-person stories",
-            "link": "https://www.theguardian.com/money/us-money-blog/2014/aug/14/relationships-finances-bullying-abuse-dependent-equality",
-            "published": "Thu, 14 Aug 2014 11:00:02 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "US personal finance Relationships Marriage Inequality Bullying",
-            "image": "https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2014/8/11/1407775970091/35614646-3560-440e-99c3-7e064e53eac8-2060x1236.jpeg?width=140&quality=85&auto=format&fit=max&s=7f5a95db55fecaf83cb9d468ccb2fa7e"
-          },
-          {
-            "title": "CEOs earn 614 times more than workers at US’s 100 lowest-paying corporations",
-            "link": "https://www.theguardian.com/us-news/2026/aug/27/ceo-worker-pay-ratio-us-analysis",
-            "published": "Thu, 27 Aug 2026 11:00:13 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "US income inequality Business US news",
-            "image": "https://i.guim.co.uk/img/media/82063c12448e028a39170760ff99039a92eae59b/243_0_2425_1941/master/2425.jpg?width=140&quality=85&auto=format&fit=max&s=ad19fd388ef87649181d5c2581caa759"
-          },
-          {
-            "title": "‘I ain’t goin nowhere’: Gullah Geechee people fight off developers with a historic referendum",
-            "link": "https://www.theguardian.com/news/2026/jan/22/gullah-geechee-georgia-development-referendum",
-            "published": "Thu, 22 Jan 2026 17:00:50 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Gullah Geechee Georgia Gentrification Race Slavery Housing Communities Money Society US news",
-            "image": "https://i.guim.co.uk/img/media/d4ea2418baae414bfb1a8b511360eb1876fea1ec/0_1300_5704_4564/master/5704.jpg?width=140&quality=85&auto=format&fit=max&s=e940be015854b1dee62d29922e9df568"
+            "categories": "Music industry Digital music and audio Media Technology KT Tunstall Business Music Culture AI (artificial intelligence) Andrew Lloyd Webber UK news",
+            "image": "https://i.guim.co.uk/img/media/af3ebb42e889135dd0ab4cd76f606d4bd8f86d33/232_0_1176_941/master/1176.jpg?width=140&quality=85&auto=format&fit=max&s=7e486bcca1346c093ef761d23d02ce30"
           }
         ],
         "TECH": [
@@ -2167,24 +2149,33 @@
             "image": "https://i.guim.co.uk/img/media/3ab9e5f6d86542a882303bb7ce012c8564b5213b/405_0_3624_2900/master/3624.jpg?width=140&quality=85&auto=format&fit=max&s=9617dd9236371482f114c191378d527f"
           },
           {
-            "title": "Silent Hill: Townfall review – shame and suffering on the Scottish coast",
-            "link": "https://www.theguardian.com/games/2026/sep/21/silent-hill-townfall-review-screen-burn",
-            "published": "Mon, 21 Sep 2026 12:00:23 GMT",
+            "title": "Pixel 11 Pro Fold review: the foldable with the best triple camera",
+            "link": "https://www.theguardian.com/technology/2026/sep/14/pixel-11-pro-fold-review-the-foldable-with-the-best-triple-camera",
+            "published": "Mon, 14 Sep 2026 06:00:24 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Games Culture Silent Hill",
-            "image": "https://i.guim.co.uk/img/media/6a407a3dce63ff4b494042d57fa9728698b26451/266_0_1405_1125/master/1405.jpg?width=140&quality=85&auto=format&fit=max&s=a60fc825d55f57457d215c08de067ddd"
+            "categories": "Smartphones Google Mobile phones Android Pixel Technology Alphabet",
+            "image": "https://i.guim.co.uk/img/media/465c638d2a524d24640b81b56960b158ce2eba32/811_172_5328_4263/master/5328.jpg?width=140&quality=85&auto=format&fit=max&s=191f56d2799f84bac5b98b509312d193"
           }
         ],
         "ENTERTAINMENT": [
           {
-            "title": "John Oliver on UnitedHealth Group: ‘Algorithmically driven, ruthless arbiters of who lives and who dies’",
-            "link": "https://www.theguardian.com/tv-and-radio/2026/sep/21/john-oliver-united-healthcare",
-            "published": "Mon, 21 Sep 2026 15:43:33 GMT",
+            "title": "‘Good music is good music, and most music is not!’ As he hits 90, master minimalist Steve Reich looks back",
+            "link": "https://www.theguardian.com/music/2026/sep/22/steve-reich-turns-90-interview",
+            "published": "Tue, 22 Sep 2026 04:00:35 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "John Oliver TV comedy Comedy Culture Television Television & radio",
-            "image": "https://i.guim.co.uk/img/media/b568cfb6f825092259c6fde58953b16b2379a380/461_111_1994_1595/master/1994.jpg?width=140&quality=85&auto=format&fit=max&s=a1ba4b61e6ab3a972c4da8651e0ced79"
+            "categories": "Steve Reich Classical music Culture Music",
+            "image": "https://i.guim.co.uk/img/media/c7c070bc68827da80a52c2bc1321ee9c59ca9ae4/462_124_4374_3497/master/4374.jpg?width=140&quality=85&auto=format&fit=max&s=429d37151620dfaff3520f56bd654c20"
+          },
+          {
+            "title": "‘Being in Madness kept some of them out of jail’: how the baggy-trousered nutty boys made a guerrilla cinema classic",
+            "link": "https://www.theguardian.com/music/2026/sep/21/madness-take-it-or-leave-it-baggy-trousers-nutty-boys",
+            "published": "Mon, 21 Sep 2026 13:55:06 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Madness Music Culture Ska Pop and rock Film",
+            "image": "https://i.guim.co.uk/img/media/b0edf55fd3ca96159000d0e46100e22f85df77aa/460_0_4562_3649/master/4562.jpg?width=140&quality=85&auto=format&fit=max&s=8da04d59aa5aa5ee2fe4ebf3fc2515df"
           },
           {
             "title": "Sense and Sensibility review – Daisy Edgar-Jones leads sober-minded next-gen do-over of Austen romcom",
@@ -2196,58 +2187,31 @@
             "image": "https://i.guim.co.uk/img/media/1eed5e9a0f3dee04f67119b9ba0af661f051ba8f/424_0_2700_2160/master/2700.jpg?width=140&quality=85&auto=format&fit=max&s=70d49e07473c60b2a3bb7553e89da025"
           },
           {
-            "title": "From the ridicule of Trump to the rise of Jack Welch: how the 1980s shaped and changed America",
-            "link": "https://www.theguardian.com/books/2026/sep/21/trump-1980s-book-jonathan-kaufman",
-            "published": "Mon, 21 Sep 2026 10:00:22 GMT",
+            "title": "Sylvia Plath Stole My Boyfriend: the 95-year-old who has turned her romance with Ted Hughes into a play",
+            "link": "https://www.theguardian.com/stage/2026/sep/21/liz-hicklin-sylvia-plath-stole-my-boyfriend-ted-hughes-play-melbourne",
+            "published": "Mon, 21 Sep 2026 15:00:36 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Books Culture History books Donald Trump",
-            "image": "https://i.guim.co.uk/img/media/1bac7667539ff96dc70a624778e0d1963f4305af/191_0_4428_3543/master/4428.jpg?width=140&quality=85&auto=format&fit=max&s=d64192983480c885ac81e09474688a48"
+            "categories": "Australian theatre Comedy Culture Stage Ted Hughes Theatre Sylvia Plath",
+            "image": "https://i.guim.co.uk/img/media/327aafbca98a290448970933c224bdfe213b5777/1634_598_1302_1042/master/1302.jpg?width=140&quality=85&auto=format&fit=max&s=7b352e0b59f222f1a595947189e0e9ba"
           },
           {
-            "title": "‘My whole identity was wrapped up in Ally McBeal’ – Calista Flockhart on her smash hit 90s comedy rollercoaster",
-            "link": "https://www.theguardian.com/culture/2026/sep/21/how-we-made-ally-mcbeal-calista-flockhart",
-            "published": "Mon, 21 Sep 2026 12:12:30 GMT",
+            "title": "‘Brown men are fearless, funny and sexy’: Salman Toor on clubbing, queerness and New York’s Muslim moment",
+            "link": "https://www.theguardian.com/artanddesign/2026/sep/21/salman-toor-artist-interview-clubbing-queerness-new-york-muslim-moment",
+            "published": "Mon, 21 Sep 2026 04:00:34 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Television Culture Television & radio Drama TV comedy Al Green Music",
-            "image": "https://i.guim.co.uk/img/media/0c7087f6e0c1136bf2078e67a967865a7566b5be/0_352_2105_1683/master/2105.jpg?width=140&quality=85&auto=format&fit=max&s=5089a2253090fa41c26853cc9a9d7319"
+            "categories": "Art Art and design Culture New York US news World news Zohran Mamdani Painting Exhibitions Race & religion",
+            "image": "https://i.guim.co.uk/img/media/ebfc7b24d30b0888edc542204fc6f5d0e6c51279/550_0_7450_5961/master/7450.jpg?width=140&quality=85&auto=format&fit=max&s=f2eb800510921202e2677f3ad39c0852"
           },
           {
-            "title": "Silent Hill: Townfall review – shame and suffering on the Scottish coast",
-            "link": "https://www.theguardian.com/games/2026/sep/21/silent-hill-townfall-review-screen-burn",
-            "published": "Mon, 21 Sep 2026 12:00:23 GMT",
+            "title": "‘Love and respect’ or ‘a cash grab’? The furious battle over the final album by the Fall",
+            "link": "https://www.theguardian.com/music/2026/sep/21/love-and-respect-or-a-cash-grab-the-furious-battle-over-the-final-album-by-the-fall",
+            "published": "Mon, 21 Sep 2026 12:30:58 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Games Culture Silent Hill",
-            "image": "https://i.guim.co.uk/img/media/6a407a3dce63ff4b494042d57fa9728698b26451/266_0_1405_1125/master/1405.jpg?width=140&quality=85&auto=format&fit=max&s=a60fc825d55f57457d215c08de067ddd"
-          },
-          {
-            "title": "‘Still feel a jolt of joy’: why Dirty Dancing is my feelgood movie",
-            "link": "https://www.theguardian.com/film/2026/sep/21/dirty-dancing-feelgood-movie",
-            "published": "Mon, 21 Sep 2026 09:00:20 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Dirty Dancing Film Patrick Swayze Romance films Drama films Culture",
-            "image": "https://i.guim.co.uk/img/media/01f054f1e5949eba44438f8028124ae64600f89e/129_0_1919_1536/master/1919.jpg?width=140&quality=85&auto=format&fit=max&s=cdde61bd99bd2579b8e186d097544b81"
-          },
-          {
-            "title": "How much is being close to your favorite artist worth? Superfans are reshaping the concert industry",
-            "link": "https://www.theguardian.com/culture/2026/sep/21/superfans-driving-concert-industry",
-            "published": "Mon, 21 Sep 2026 11:00:23 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Culture Music Harry Styles Ticket prices Music industry Pop and rock BTS K-pop Kesha",
-            "image": "https://i.guim.co.uk/img/media/2cf6fa2b2d31587f309663ad4406cb76e3a2688a/367_0_3666_2932/master/3666.jpg?width=140&quality=85&auto=format&fit=max&s=c942907375904507b14b020b617a1e1c"
-          },
-          {
-            "title": "Celebrity, sex and motherhood misery: the 10 best books by Rachel Cusk … ranked!",
-            "link": "https://www.theguardian.com/culture/2026/sep/21/books-story-ranked",
-            "published": "Mon, 21 Sep 2026 11:00:22 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Books Culture Rachel Cusk Fiction",
-            "image": "https://i.guim.co.uk/img/media/95975b0c015d84baace71abc748446b58f227edd/164_106_5158_4126/master/5158.jpg?width=140&quality=85&auto=format&fit=max&s=179611a7e4c7ab98db9eb543b510f25a"
+            "categories": "Music Mark E Smith The Fall Indie Pop and rock Culture Music industry",
+            "image": "https://i.guim.co.uk/img/media/e0073821908b2afcf9a81078975964c293827140/1058_244_2485_1988/master/2485.jpg?width=140&quality=85&auto=format&fit=max&s=2d19db45befb53be488d91337d87c80c"
           },
           {
             "title": "Heart of the action: why organ couriers are cinema’s new heroes",
@@ -2259,6 +2223,51 @@
             "image": "https://i.guim.co.uk/img/media/95b6d4be459953daf2ed99921d25047e31586216/231_0_2500_2000/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=6ae63189cca2a9626f8607ba13dae1b7"
           },
           {
+            "title": "Celebrity, sex and motherhood misery: the 10 best books by Rachel Cusk … ranked!",
+            "link": "https://www.theguardian.com/culture/2026/sep/21/books-story-ranked",
+            "published": "Mon, 21 Sep 2026 11:00:22 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Books Culture Rachel Cusk Fiction",
+            "image": "https://i.guim.co.uk/img/media/95975b0c015d84baace71abc748446b58f227edd/164_106_5158_4126/master/5158.jpg?width=140&quality=85&auto=format&fit=max&s=179611a7e4c7ab98db9eb543b510f25a"
+          },
+          {
+            "title": "Presley Gerber, son of Cindy Crawford and Rande Gerber, dies aged 27",
+            "link": "https://www.theguardian.com/lifeandstyle/2026/sep/21/presley-gerber-son-of-cindy-crawford-dead-aged-27",
+            "published": "Mon, 21 Sep 2026 04:53:28 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Celebrity Culture Fashion Mental health Depression",
+            "image": "https://i.guim.co.uk/img/media/3f0f41257a718f2fb5e9a1b46445969aae39327d/0_238_3728_2982/master/3728.jpg?width=140&quality=85&auto=format&fit=max&s=8ebac607bfc0f8489d7252adf33f55e4"
+          },
+          {
+            "title": "Dominic West backs ‘top shagger’ Byron in poetry battle with Bob Geldof",
+            "link": "https://www.theguardian.com/culture/2026/sep/20/dominic-west-backs-top-shagger-byron-in-poetry-battle-with-bob-geldof",
+            "published": "Sun, 20 Sep 2026 10:00:14 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Dominic West George Gordon Byron Poetry Books Culture Bob Geldof WB Yeats",
+            "image": "https://i.guim.co.uk/img/media/6e13ea13ac65e4d4d1a5a251a6745f99606dda74/1501_292_5316_4253/master/5316.jpg?width=140&quality=85&auto=format&fit=max&s=c54e83560bb6d0521bd8004f23760b2e"
+          },
+          {
+            "title": "Ed Sheeran says situation in Gaza ‘unjustifiable’ in first show since tour plunged into turmoil",
+            "link": "https://www.theguardian.com/music/2026/sep/20/ed-sheeran-gaza-catastrophic-and-unjustifiable-first-show-tour-loop-philadelphia-us",
+            "published": "Sun, 20 Sep 2026 11:16:29 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Ed Sheeran Macklemore Music Gaza Israel-Gaza war Protest Palestine World news",
+            "image": "https://i.guim.co.uk/img/media/31be277a36b7a3b81e3d9310ed7365fb196541d2/324_0_3224_2581/master/3224.jpg?width=140&quality=85&auto=format&fit=max&s=5d5220706454e8de391862ba1a126be2"
+          },
+          {
+            "title": "John Farnham tribute: Céline Dion, Chris Martin and Hugh Jackman honour ‘living legend’ at livestreamed concert",
+            "link": "https://www.theguardian.com/music/2026/sep/21/john-farnham-living-legend-concert-melbourne-celine-dion-chris-martin-hugh-jackman-tribute",
+            "published": "Mon, 21 Sep 2026 02:01:01 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "John Farnham Australian music Culture Music Céline Dion Melbourne Cancer Pop and rock Health Australia news",
+            "image": "https://i.guim.co.uk/img/media/336e3f4ad9681cadd376accac073715b90611a8a/293_0_2951_2361/master/2951.jpg?width=140&quality=85&auto=format&fit=max&s=6c753cbf557636ed451b66fdf699d536"
+          },
+          {
             "title": "La Bola Negra wins Toronto film festival people’s choice award",
             "link": "https://www.theguardian.com/film/2026/sep/20/la-bola-negra-toronto-film-festival",
             "published": "Sun, 20 Sep 2026 16:22:49 GMT",
@@ -2268,94 +2277,67 @@
             "image": "https://i.guim.co.uk/img/media/86a19171220c29393bf89beb123f1335bf2f53ca/792_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=6618c5fd279d358bf42fb4b9584b8a0a"
           },
           {
-            "title": "‘I feel betrayed’: inside Ed Sheeran’s controversial return to the stage",
-            "link": "https://www.theguardian.com/music/2026/sep/20/ed-sheeran-return-to-stage-philadelphia-tour",
-            "published": "Sun, 20 Sep 2026 15:12:36 GMT",
+            "title": "Henry Herford obituary",
+            "link": "https://www.theguardian.com/music/2026/sep/20/henry-herford-obituary",
+            "published": "Sun, 20 Sep 2026 14:23:16 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Ed Sheeran Palestine Music Culture Pop and rock Israel-Gaza war Philadelphia Macklemore US news World news Pennsylvania",
-            "image": "https://i.guim.co.uk/img/media/a85c3d36a55311ed12b74ea194b95ffc7f5923a0/670_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=966d928fdec174944b10068d85fe7d16"
+            "categories": "Classical music Opera Scottish Opera Glyndebourne Music",
+            "image": "https://i.guim.co.uk/img/media/dd2f865c25c68b4216c72c235f32f13c88b0e5dc/0_195_850_680/master/850.jpg?width=140&quality=85&auto=format&fit=max&s=dadaf448480676e424fcf6d3c9047790"
           },
           {
-            "title": "I was asked to write a new Miss Marple, so I sent her to the Alps",
-            "link": "https://www.theguardian.com/books/2026/sep/20/i-was-asked-to-write-a-new-miss-marple-so-i-sent-her-to-the-alps",
-            "published": "Sun, 20 Sep 2026 11:00:15 GMT",
+            "title": "Land of the free? Suspects, souvenirs and sex scandals in New York – in pictures",
+            "link": "https://www.theguardian.com/artanddesign/gallery/2026/sep/22/william-meyers-new-york-in-pictures",
+            "published": "Tue, 22 Sep 2026 06:00:36 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Agatha Christie Books Culture Fiction Crime fiction",
-            "image": "https://i.guim.co.uk/img/media/7139b4b2789d516562c8c5ee92a4c376a07886be/83_400_719_575/master/719.jpg?width=140&quality=85&auto=format&fit=max&s=ad657c5454b1b63fc1019226e6a64e43"
+            "categories": "Photography Art and design Culture Art and design books New York",
+            "image": "https://i.guim.co.uk/img/media/95a838cf0a7826842ca896d32187acb2aaf93812/291_50_3138_2511/master/3138.jpg?width=140&quality=85&auto=format&fit=max&s=76202f68065f358c752397bfd45b545c"
           },
           {
-            "title": "From Lizzie Borden to Myra Hindley, why are we still so fascinated with female killers? | Rebecca Rideal",
-            "link": "https://www.theguardian.com/commentisfree/2026/sep/20/lizzie-borden-myra-hindley-fascinated-female-killers",
-            "published": "Sun, 20 Sep 2026 09:00:12 GMT",
+            "title": "Lederhosen, sauerkraut and tapping the first barrel: Oktoberfest 2026 opens – in pictures",
+            "link": "https://www.theguardian.com/culture/gallery/2026/sep/19/oktoberfest-2026-day-one-munich-beer-in-pictures",
+            "published": "Sat, 19 Sep 2026 13:29:32 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "TV crime drama Netflix True crime (Podcasts) Television & radio Women UK news Drama Culture",
-            "image": "https://i.guim.co.uk/img/media/ecf8bcebfe7159c2137fe178232c0bdc178244ae/746_0_2331_1866/master/2331.jpg?width=140&quality=85&auto=format&fit=max&s=d210e527a930a9a20cc266e908999679"
+            "categories": "Festivals Beer Photography Culture World news Germany Europe",
+            "image": "https://i.guim.co.uk/img/media/bebe8a806c1318c6d04983b7350a578833bba093/153_0_3894_3116/master/3894.jpg?width=140&quality=85&auto=format&fit=max&s=0403b61235f8113eee35ebdd61873ff7"
           },
           {
-            "title": "Chad Gilbert, New Found Glory’s founding guitarist, dies aged 45",
-            "link": "https://www.theguardian.com/us-news/2026/sep/21/chad-gilbert-new-found-glory-dead",
-            "published": "Mon, 21 Sep 2026 16:13:48 GMT",
+            "title": "‘Eating is my superpower’: Nigella turns up the heat on Bake Off",
+            "link": "https://www.theguardian.com/tv-and-radio/2026/sep/18/nigella-lawson-turns-up-the-heat-on-bake-off",
+            "published": "Fri, 18 Sep 2026 12:00:17 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "US news Music Culture Pop and rock World news Florida",
-            "image": "https://i.guim.co.uk/img/media/70b832d1973d9805c1dae23ca6dd503ce369fe2f/4_0_3681_2945/master/3681.jpg?width=140&quality=85&auto=format&fit=max&s=159f8507b3fe25dd7e6b0eecd5b18c1f"
+            "categories": "The Great British Bake Off Television Reality TV Culture Nigella Lawson Paul Hollywood Alison Hammond Noel Fielding Food TV Television & radio Entertainment TV",
+            "image": "https://i.guim.co.uk/img/media/fe893d2cb09b1d70e10e547bb30dace99751ef44/0_944_3579_2863/master/3579.jpg?width=140&quality=85&auto=format&fit=max&s=f6043c03168bf7491cb1313ba01e5c80"
           },
           {
-            "title": "‘It’s been work to not go crazy’: Way Dynamic, the Australian folk-pop musician with fans including Elton John",
-            "link": "https://www.theguardian.com/music/ng-interactive/2026/sep/21/way-dynamic-interview-australian-folk-pop-musician-dylan-young-masive-shoe",
-            "published": "Sun, 20 Sep 2026 15:00:19 GMT",
+            "title": "Jay-Z in 8 review – the rapper’s interminable interview show should have been a podcast",
+            "link": "https://www.theguardian.com/tv-and-radio/2026/sep/19/jay-z-in-8-review-rick-rubin-mubi",
+            "published": "Sat, 19 Sep 2026 04:00:36 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Australian music Music Folk music Pop and rock Culture Melbourne Victoria Australia news",
-            "image": "https://i.guim.co.uk/img/media/8eb3e72923d5344ee695d90245a1288847a39fe2/105_0_1250_1000/master/1250.jpg?width=140&quality=85&auto=format&fit=max&s=72cd3bf6936c6db0228a7bbd0d4d72c1"
+            "categories": "Television & radio Culture Jay-Z Rick Rubin Music TV Hip-hop",
+            "image": "https://i.guim.co.uk/img/media/1862c6a1c61fb5ea420de68b73e097a5d2764e5f/369_44_1232_986/master/1232.png?width=140&quality=85&auto=format&fit=max&s=8711f2b4e84a18d04ad02f49a3171038"
           },
           {
-            "title": "‘Resident Evil movies? I’ve never seen one’: Weapons director Zach Cregger on resurrecting the beloved zombie franchise",
-            "link": "https://www.theguardian.com/film/2026/sep/20/zach-cregger-director-interview-resident-movie-evil-weapons-barbarian",
-            "published": "Sun, 20 Sep 2026 09:00:12 GMT",
+            "title": "The Guide #261: There is so much good telly this autumn you may never go outside again",
+            "link": "https://www.theguardian.com/culture/2026/sep/19/tv-this-autumn-hbo-the-war-the-paper",
+            "published": "Sat, 19 Sep 2026 06:00:40 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Horror films Resident Evil Film Culture",
-            "image": "https://i.guim.co.uk/img/media/343bc2c556eb8bc6407d9ad6e0bab21b6151f565/232_0_7200_5760/master/7200.jpg?width=140&quality=85&auto=format&fit=max&s=4bf1d6bce52fff5831f37d6f1500eb3b"
+            "categories": "Culture",
+            "image": "https://i.guim.co.uk/img/media/786a04621706e7345ca1226e0d283cc8e1b8b26f/882_0_6510_5211/master/6510.jpg?width=140&quality=85&auto=format&fit=max&s=1841e8166001ff7d2961108f1df03b6d"
           },
           {
-            "title": "Taryn Simon on her most ambitious exhibition yet: ‘It’s built almost like a novel’",
-            "link": "https://www.theguardian.com/artanddesign/2026/sep/20/taryn-simon-guggenheim-exhibition",
-            "published": "Sun, 20 Sep 2026 09:00:11 GMT",
+            "title": "TV tonight: Nigella enters the Bake Off tent – and causes quite a stir",
+            "link": "https://www.theguardian.com/tv-and-radio/2026/sep/22/tv-tonight-nigella-enters-the-bake-off-tent-and-causes-quite-a-stir",
+            "published": "Tue, 22 Sep 2026 05:20:35 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Taryn Simon Art Art and design Culture Exhibitions",
-            "image": "https://i.guim.co.uk/img/media/1682260f9a34c9ae3726e0c3e5e50ba9bf2e19cb/38_0_2324_1858/master/2324.jpg?width=140&quality=85&auto=format&fit=max&s=9a6901db1d61f19e03a7787d688e9991"
-          },
-          {
-            "title": "‘Who do they dream of becoming?’ Teenage girls in America – in pictures",
-            "link": "https://www.theguardian.com/artanddesign/gallery/2026/sep/16/teenage-girls-in-america-eva-verbeeck-in-pictures",
-            "published": "Wed, 16 Sep 2026 06:00:11 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Photography Art and design Books Culture Art and design books Young people",
-            "image": "https://i.guim.co.uk/img/media/2f86f1aa99214a012e037a8f850eddcb547534d1/371_702_2969_2375/master/2969.jpg?width=140&quality=85&auto=format&fit=max&s=7e71599c293e5e9ae5d0fc17fd75d708"
-          },
-          {
-            "title": "No Land to Stand On by Mahmoud Khalil review – a searing account of political imprisonment",
-            "link": "https://www.theguardian.com/books/2026/sep/18/no-land-to-stand-on-by-mahmoud-khalil-review-a-searing-account-of-political-imprisonment",
-            "published": "Fri, 18 Sep 2026 06:00:12 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Autobiography and memoir Mahmoud Khalil Books Politics books Culture",
-            "image": "https://i.guim.co.uk/img/media/b9eb3b3254a4d95a6b178c8b4720f54cd31c99e9/1079_0_6573_5258/master/6573.jpg?width=140&quality=85&auto=format&fit=max&s=c0853124b69b4f98120359febcbd0704"
-          },
-          {
-            "title": "Best of the Best review – college comedy formula gets a Bollywood makeover",
-            "link": "https://www.theguardian.com/film/2026/sep/18/best-of-the-best-review-college-comedy-formula-gets-a-bollywood-makeover",
-            "published": "Fri, 18 Sep 2026 06:00:10 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Film Comedy films Bollywood Dance Musicals Comedy Culture Stage",
-            "image": "https://i.guim.co.uk/img/media/c7e742d86855992096c4b511d8ced6abc30ea935/386_0_3000_2400/master/3000.jpg?width=140&quality=85&auto=format&fit=max&s=f101a048131b98e7dc06889f352b0b1d"
+            "categories": "Television Television & radio Culture The Great British Bake Off",
+            "image": "https://i.guim.co.uk/img/media/33c327b4f588a1992825d801d1f21325c9a510bf/319_84_4375_3500/master/4375.jpg?width=140&quality=85&auto=format&fit=max&s=338cefb4d059df0c0e236d2786090762"
           }
         ]
       },
@@ -3048,6 +3030,15 @@
         ],
         "ENTERTAINMENT": [
           {
+            "title": "Big Brother house in lockdown after fans ‘throw tennis balls’ over security fence",
+            "link": "https://metro.co.uk/2026/09/22/big-brother-house-lockdown-fans-throw-tennis-balls-fence-29642345/",
+            "published": "Tue, 22 Sep 2026 06:37:56 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment TV Big Brother ITV Jedward",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_313019711-61fa.jpg?quality=90&strip=all&w=646"
+          },
+          {
             "title": "Strictly star confirmed to be joining Gladiators as part of major cast shake-up",
             "link": "https://metro.co.uk/2026/09/22/strictly-star-confirmed-joining-gladiators-part-major-cast-shake-up-29642065/",
             "published": "Mon, 21 Sep 2026 23:01:00 +0000",
@@ -3183,6 +3174,24 @@
             "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_313401373-6e0d.jpg?quality=90&strip=all&w=646"
           },
           {
+            "title": "Mercedes and Sienna risk Warren’s wrath in surprise Hollyoaks union",
+            "link": "https://metro.co.uk/2026/09/21/mercedes-sienna-risk-warrens-wrath-surprise-hollyoaks-union-29640797/",
+            "published": "Mon, 21 Sep 2026 22:59:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Hollyoaks Soaps Anna Passey Jamie Lomas Jennifer Metcalfe Mercedes McQueen Sienna Blake Warren Fox",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_313438273-68a2.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Eve issues serious warning to Suki as she wages war on her own daughter in EastEnders",
+            "link": "https://metro.co.uk/2026/09/21/eastenders-eve-issues-warning-suki-wages-war-daughter-29629070/",
+            "published": "Mon, 21 Sep 2026 22:59:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "EastEnders Soaps Balvinder Sopal Eve Panesar-Unwin Heather Peace Suki Panesar-Unwin",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_313418460-040c.jpg?quality=90&strip=all&w=646"
+          },
+          {
             "title": "Jodie snares David on Coronation Street as Shona utterly spirals",
             "link": "https://metro.co.uk/2026/09/21/coronation-streets-jodie-snares-david-shona-utterly-spirals-29626243/",
             "published": "Mon, 21 Sep 2026 22:59:00 +0000",
@@ -3199,33 +3208,6 @@
             "provider": "METRO",
             "categories": "Coronation Street Soaps DS Lisa Connor-Swain Joe Duttine Sally Dynevor Sally Metcalfe Tim Metcalfe Vicky Myers",
             "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEC_312797395-ae6c.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Eve issues serious warning to Suki as she wages war on her own daughter in EastEnders",
-            "link": "https://metro.co.uk/2026/09/21/eastenders-eve-issues-warning-suki-wages-war-daughter-29629070/",
-            "published": "Mon, 21 Sep 2026 22:59:00 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "EastEnders Soaps Balvinder Sopal Eve Panesar-Unwin Heather Peace Suki Panesar-Unwin",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_313418460-040c.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Emmerdale ‘monster’ Kim left ‘bereaved’ after triple loss – and now she’s alone",
-            "link": "https://metro.co.uk/2026/09/21/emmerdale-monster-kim-left-bereaved-triple-loss-now-alone-29641091/",
-            "published": "Mon, 21 Sep 2026 22:59:00 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Emmerdale Soaps Andrew Scarborough Chelsea Edge Claire King DS Thea Ramsden Graham Foster Joe Tate Kim Tate Ned Porteous",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312682456-7482.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "EastEnders’ Denise contemplates devastating decision which would trigger tragic end",
-            "link": "https://metro.co.uk/2026/09/21/eastenders-denise-contemplates-decision-trigger-tragic-end-29640172/",
-            "published": "Mon, 21 Sep 2026 22:59:00 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "EastEnders Soaps Denise Fox Diane Parish",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_313418343-f6fa.jpg?quality=90&strip=all&w=646"
           }
         ]
       },
@@ -3628,14 +3610,14 @@
           {
             "title": "New Zealand central bank chief sees risks to economy, inflation",
             "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPcmFxSVdCV3F1TGRkZldVcVVRYUx2MVJWbUtUZUE0ZXlreU9WRjNnTEZrUGxEVzZWUVNTSlFoM05EVEJJQ2IyMGFXSUN1WHhHcmZwTlhwcVNUVVhMMGZfZ0JqV1U1Y0ZqV1pnVk43ak5QYTY5c2ZLUUVKYzNkdjhpS0pjTUlTdlFub0pMUXB3NUM2QXVuQzhkTURaQWRWMVpyOTBySXgyUkdpLUEwN2tocUhWVmQ?oc=5",
-            "published": "Tue, 22 Sep 2026 02:41:00 GMT",
+            "published": "Tue, 22 Sep 2026 03:22:55 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
             "image": ""
           },
           {
-            "title": "Indian shares open higher on easing oil prices, bond yields",
+            "title": "Indian shares edge higher on easing oil prices, bond yields; IT caps gains",
             "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQXlPVWFzejJKbzBBSVA5ZFhMbUdTZ0VVS1RZVXBpMlJRZC1Lak9aNmdldDEwdVZ1RGlPMjlUUFdFSGdocFlTbVpjLTFLcXJsN2VqTFhVZ1d0YmYwLTBUNG9tUHVmWEs2Q1E3em4za29OcHo3MFk2Q0twV3M5WFB4Q2ppeW9LVnd3SzJ2SHhLN1N6MTI4YVU0dDBuS0htU3R5SW9maHVnR2NDUFlManVqYTRidGZiYzVv?oc=5",
             "published": "Tue, 22 Sep 2026 02:27:00 GMT",
             "source": "Reuters",
@@ -3725,9 +3707,9 @@
             "image": ""
           },
           {
-            "title": "Fed builds credibility, but hawkish turn leaves investors edgy",
-            "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOaThwN2F1X05PRkVFbFlZemJaa1duZ3hRSExodWktM3phV3pZMF84LV9nbHRtYnZpRm9Zam9EQk0tSmFKQmhYcUx1NXUxbVNIY2dteXlOcUdpamMtMG1JZFNLU2E2YjNzaElsQUlBQWpscXlQZmFfajdESU5KdDBxR3YwQzNwUktUM2lrbWN6N2laR0J4MXZfRi1DV28yMXExZDV4VFdhcDRGRnlx?oc=5",
-            "published": "Thu, 17 Sep 2026 12:50:38 GMT",
+            "title": "VIEW Stocks pull back after Fed raises rates, points to another hike this year",
+            "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPcHE5d2RsZk5YWi1pLWw0M0tWX0pGZl81OEcwZVJtUlJsbTVoUnpQWUxJYjZGSjhvMmlDd0JrcVVFQjJ0aFRJRkh1cTFteld2Y0lSeXhyMFllMU5vSGthbExhbzc5MVNSRTFHOS1JWVcwZ09jSllmTDJoeHBEUEFJanI2aEZqQm1PbXZJZHpwRHpRU2FoMG9EMmVoVmxiZ0h1YV8xTk12QjRMVm1LQ1Zfcm1qUGhUWkFH?oc=5",
+            "published": "Wed, 16 Sep 2026 20:10:10 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3755,6 +3737,15 @@
     "MAGPIE": {
       "categories": {
         "STOCKS": [
+          {
+            "title": "Meet the 90p penny stock that’s turned £3,000 into £35,000 over the last year (and is tipped to keep rising)",
+            "link": "https://www.twelfthmagpie.com/2026/09/22/meet-the-90p-penny-stock-thats-turned-3000-into-35000-over-the-last-year-and-is-tipped-to-keep-rising/",
+            "published": "Tue, 22 Sep 2026 06:23:00 +0000",
+            "source": "The Twelfth Magpie",
+            "provider": "MAGPIE",
+            "categories": "Investing Articles Micro-Cap Shares",
+            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2022/10/Petrochemical-engineer.jpg"
+          },
           {
             "title": "At 35, how much would you need to invest every month to target a £12,547 passive income at 65?",
             "link": "https://www.twelfthmagpie.com/2026/09/21/at-35-how-much-would-you-need-to-invest-every-month-to-target-a-12547-passive-income-at-65/",
@@ -3835,15 +3826,6 @@
             "provider": "MAGPIE",
             "categories": "Growth Shares Investing Articles",
             "image": "https://www.twelfthmagpie.com/wp-content/uploads/2026/06/AdobeStock_215654421-1200x800.jpeg"
-          },
-          {
-            "title": "Already 7.3%, the yield on the FTSE 100’s number-1 dividend stock is tipped to climb higher still!",
-            "link": "https://www.twelfthmagpie.com/2026/09/21/already-7-3-the-yield-on-the-ftse-100s-number-1-dividend-stock-is-tipped-to-climb-higher-still/",
-            "published": "Mon, 21 Sep 2026 09:00:00 +0000",
-            "source": "The Twelfth Magpie",
-            "provider": "MAGPIE",
-            "categories": "Dividend Shares Investing Articles",
-            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2026/06/AdobeStock_163906572-1200x688.jpeg"
           }
         ]
       },
@@ -3859,5 +3841,5 @@
       }
     }
   },
-  "stocksUpdated": "2026-09-22T05:07:31.862Z"
+  "stocksUpdated": "2026-09-22T06:45:02.063Z"
 }
