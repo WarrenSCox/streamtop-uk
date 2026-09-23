@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-23T13:34:48.868Z",
+  "updated": "2026-09-23T17:12:09.415Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -123,13 +123,13 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-09-23T13:34:48.868Z",
-      "lastSuccessfulRefresh": "2026-09-23T13:34:48.868Z",
+      "checkedAt": "2026-09-23T17:12:09.415Z",
+      "lastSuccessfulRefresh": "2026-09-23T17:12:09.415Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
       "status": "stale",
-      "checkedAt": "2026-09-23T13:34:56.156Z",
+      "checkedAt": "2026-09-23T17:12:18.384Z",
       "lastSuccessfulRefresh": "2026-09-21T22:47:17.414Z",
       "reason": "expected exactly 10 ranked titles, got 0"
     }
