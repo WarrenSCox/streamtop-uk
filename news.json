@@ -1,7 +1,16 @@
 {
-  "updated": "2026-09-22T23:13:34.770Z",
+  "updated": "2026-09-23T01:43:51.150Z",
   "categories": {
     "UK": [
+      {
+        "title": "Far-right activist Daniel Thomas slashes dinghy in Channel with blade while rescue worker onboard",
+        "link": "https://www.theguardian.com/world/2026/sep/22/far-right-activist-daniel-thomas-slashes-dinghy-with-blade-while-rescue-worker-onboard",
+        "published": "Wed, 23 Sep 2026 00:42:02 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "The far right Far right Immigration and asylum UK news RNLI Hampshire Politics England",
+        "image": "https://i.guim.co.uk/img/media/40ea61df9051882dbabec2760daa50c7c60df1aa/0_99_2360_1888/master/2360.jpg?width=140&quality=85&auto=format&fit=max&s=888db52b1860258c718735e37b37023f"
+      },
       {
         "title": "Pay rent, eat or keep warm? Growing numbers face hard choices as housing benefit gap grows",
         "link": "https://www.theguardian.com/business/2026/sep/23/pay-rent-eat-or-keep-warm-growing-numbers-face-hard-choices-as-housing-benefit-gap-grows",
@@ -19,15 +28,6 @@
         "provider": "GUARDIAN",
         "categories": "Devolution Mayoral elections Tax and spending Andy Burnham Labour Local politics Politics England UK news",
         "image": "https://i.guim.co.uk/img/media/ba119700ce352a0bd0fd64235bce54ca38be8db7/1440_10_3555_2846/master/3555.jpg?width=140&quality=85&auto=format&fit=max&s=bcd3d827909929f8511c9c8a30889244"
-      },
-      {
-        "title": "Far-right activist Daniel Thomas slashes dinghy in Channel with blade while rescue worker onboard",
-        "link": "https://www.theguardian.com/world/2026/sep/22/far-right-activist-daniel-thomas-slashes-dinghy-with-blade-while-rescue-worker-onboard",
-        "published": "Tue, 22 Sep 2026 22:30:54 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "The far right Far right Immigration and asylum UK news RNLI Hampshire Politics",
-        "image": "https://i.guim.co.uk/img/media/40ea61df9051882dbabec2760daa50c7c60df1aa/0_99_2360_1888/master/2360.jpg?width=140&quality=85&auto=format&fit=max&s=888db52b1860258c718735e37b37023f"
       },
       {
         "title": "Children as young as 13 being referred to UK hospital suffering from ‘ketamine bladder’",
@@ -95,22 +95,40 @@
     ],
     "WORLD": [
       {
-        "title": "Australia news live: Joyce says One Nation talking to Coalition about power-sharing agreement; fog causes Sydney airport delays",
+        "title": "Australia news live: Albanese defends social media crackdown against White House criticism; Wilson and Joyce trade barbs",
         "link": "https://www.theguardian.com/australia-news/live/2026/sep/23/anthony-albanese-un-assembly-ai-social-media-labor-coalition-abc-four-corners-ntwnfb",
-        "published": "Tue, 22 Sep 2026 23:04:35 GMT",
+        "published": "Wed, 23 Sep 2026 01:38:17 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
         "categories": "Australia news Australian politics Australian economy Business Health Australian education Australian immigration and asylum Australian foreign policy Australian media",
-        "image": "https://i.guim.co.uk/img/media/b27d88d2bb798b3440cdf21332bd90c0b135fdd6/688_0_6880_5504/master/6880.jpg?width=140&quality=85&auto=format&fit=max&s=9118175169295aa58b2b36084de43456"
+        "image": "https://i.guim.co.uk/img/media/53a41d1d36c72d03e96c9663344c272eb54abfdb/1493_1633_4839_3871/master/4839.jpg?width=140&quality=85&auto=format&fit=max&s=4413aeba153c17e5ca255ab020bc3ebd"
       },
       {
-        "title": "Taylor distances himself from Bragg’s proposal to let homebuyers use super as collateral for mortgages",
-        "link": "https://www.theguardian.com/australia-news/2026/sep/22/angus-taylor-andrew-bragg-first-home-buyers-use-super-offset",
-        "published": "Tue, 22 Sep 2026 22:11:39 GMT",
+        "title": "Jamaica hails King’s decision to refer slavery reparations petition to privy council as ‘really big deal’",
+        "link": "https://www.theguardian.com/world/2026/sep/23/jamaica-king-charles-to-refer-slavery-reparations-petition-to-privy-council",
+        "published": "Wed, 23 Sep 2026 01:15:26 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
-        "categories": "Liberal party Angus Taylor Superannuation Housing Australian politics Australia news",
-        "image": "https://i.guim.co.uk/img/media/4504ac2dde06c5fcd610b416e7a53d814a6ae839/16_457_4793_3836/master/4793.jpg?width=140&quality=85&auto=format&fit=max&s=df10c748cc42492bc10c81457546c818"
+        "categories": "Jamaica Reparations and reparative justice Slavery Americas Caribbean Colonialism",
+        "image": "https://i.guim.co.uk/img/media/1c2dbacb3799105d4e0f77d6315b1d0ae1ca5ae8/1351_102_5986_4789/master/5986.jpg?width=140&quality=85&auto=format&fit=max&s=44649772a980135bf1bd83fcc619a4cb"
+      },
+      {
+        "title": "Qantas announces 18-hour direct flights from Sydney to New York with onboard ‘wellbeing zones’",
+        "link": "https://www.theguardian.com/business/2026/sep/23/qantas-direct-flights-from-sydney-to-new-york",
+        "published": "Wed, 23 Sep 2026 01:02:04 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Qantas Australia news Airline industry Sydney Travel",
+        "image": "https://i.guim.co.uk/img/media/d4d5569ce078b6e274c7527aee43a6430e9b07e8/0_0_4558_3646/master/4558.jpg?width=140&quality=85&auto=format&fit=max&s=8518568cabe06774c787513cc9fa48ce"
+      },
+      {
+        "title": "Review urged after blood-spattered shirt ads ran alongside domestic violence news in Australia",
+        "link": "https://www.theguardian.com/media/2026/sep/23/domestic-violence-news-articles-advertising-error-bloodstained-shirt-halloween-costume-ads-ntwnfb",
+        "published": "Wed, 23 Sep 2026 00:00:09 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Australian media Domestic violence Australia news Google Advertising Media",
+        "image": "https://i.guim.co.uk/img/media/ca663684e2b4b8a69499840fc45ee2607463ffcb/51_0_2500_2000/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=81e4294f01f2b831d46b507657fae62c"
       },
       {
         "title": "Doctors warn of 'exponential' rise in e-scooter and scrambler bike injuries",
@@ -129,24 +147,6 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/09/1920x1080/skynews-sri-lanka-colombo-easter_7358968.jpg?20260922212758"
-      },
-      {
-        "title": "Hurricane Polo, rapidly intensifying from strong El Niño patterns, rages off coast of Mexico",
-        "link": "https://www.theguardian.com/world/2026/sep/22/hurricane-polo-mexico",
-        "published": "Tue, 22 Sep 2026 19:09:29 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Hurricanes El Niño southern oscillation Extreme weather Mexico Americas",
-        "image": "https://i.guim.co.uk/img/media/599d2cbd889aa5ae4e5c0d46970d12751bd96053/462_235_1375_1100/master/1375.jpg?width=140&quality=85&auto=format&fit=max&s=ecd2832e4e85bfccd147d91f0a8407ed"
-      },
-      {
-        "title": "Cost of raising two children in Australia has risen 134% in two decades, study says",
-        "link": "https://www.theguardian.com/australia-news/2026/sep/23/cost-of-raising-two-children-in-australia-has-risen-134-in-two-decades-study-says",
-        "published": "Tue, 22 Sep 2026 19:00:03 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Childcare Australia Australian politics Australia news Cost-of-living crisis Parents and parenting",
-        "image": "https://i.guim.co.uk/img/media/54a6390419207d61bd14505b111e99319e182071/0_0_5322_4258/master/5322.jpg?width=140&quality=85&auto=format&fit=max&s=179b9ea2e67e8de8084b3d5267bf1c2c"
       },
       {
         "title": "Doctor was 'supervisor' of killings during Rwanda genocide, court hears",
@@ -187,6 +187,15 @@
     ],
     "POLITICS": [
       {
+        "title": "Far-right activist Daniel Thomas slashes dinghy in Channel with blade while rescue worker onboard",
+        "link": "https://www.theguardian.com/world/2026/sep/22/far-right-activist-daniel-thomas-slashes-dinghy-with-blade-while-rescue-worker-onboard",
+        "published": "Wed, 23 Sep 2026 00:42:02 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "The far right Far right Immigration and asylum UK news RNLI Hampshire Politics England",
+        "image": "https://i.guim.co.uk/img/media/40ea61df9051882dbabec2760daa50c7c60df1aa/0_99_2360_1888/master/2360.jpg?width=140&quality=85&auto=format&fit=max&s=888db52b1860258c718735e37b37023f"
+      },
+      {
         "title": "England’s mayors should face greater scrutiny as powers expand, thinktank says",
         "link": "https://www.theguardian.com/politics/2026/sep/23/england-mayors-greater-scrutiny-powers-expand-thinktank",
         "published": "Tue, 22 Sep 2026 23:01:07 GMT",
@@ -194,15 +203,6 @@
         "provider": "GUARDIAN",
         "categories": "Devolution Mayoral elections Tax and spending Andy Burnham Labour Local politics Politics England UK news",
         "image": "https://i.guim.co.uk/img/media/ba119700ce352a0bd0fd64235bce54ca38be8db7/1440_10_3555_2846/master/3555.jpg?width=140&quality=85&auto=format&fit=max&s=bcd3d827909929f8511c9c8a30889244"
-      },
-      {
-        "title": "Far-right activist Daniel Thomas slashes dinghy in Channel with blade while rescue worker onboard",
-        "link": "https://www.theguardian.com/world/2026/sep/22/far-right-activist-daniel-thomas-slashes-dinghy-with-blade-while-rescue-worker-onboard",
-        "published": "Tue, 22 Sep 2026 22:30:54 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "The far right Far right Immigration and asylum UK news RNLI Hampshire Politics",
-        "image": "https://i.guim.co.uk/img/media/40ea61df9051882dbabec2760daa50c7c60df1aa/0_99_2360_1888/master/2360.jpg?width=140&quality=85&auto=format&fit=max&s=888db52b1860258c718735e37b37023f"
       },
       {
         "title": "Todd’s new romance ‘confirmed’ after abuse story in Coronation Street",
@@ -279,6 +279,15 @@
     ],
     "BUSINESS": [
       {
+        "title": "Patrick Clancy interview on 60 Minutes fails to provide big ratings boost for CBS",
+        "link": "https://www.theguardian.com/us-news/2026/sep/22/60-minutes-patrick-clancy-cbs",
+        "published": "Tue, 22 Sep 2026 21:29:36 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "US news CBS TV ratings US television industry Media Bari Weiss Business",
+        "image": "https://i.guim.co.uk/img/media/ab1bbc029e0284bd5fe85ad5ceaa6752f6322e48/287_0_900_720/master/900.jpg?width=140&quality=85&auto=format&fit=max&s=e20c2d5b72c55744aff6b31cae2a65bf"
+      },
+      {
         "title": "Trump made over 1,000 July stock trades worth up to $270m, filings reveal",
         "link": "https://www.theguardian.com/us-news/2026/sep/22/trump-stock-trades-july-filing",
         "published": "Tue, 22 Sep 2026 20:13:35 GMT",
@@ -333,15 +342,6 @@
         "image": "https://i.guim.co.uk/img/media/8e482f0db7c72148b29a33d4261daad28a938ca0/340_0_3407_2725/master/3407.jpg?width=140&quality=85&auto=format&fit=max&s=bbe235c6be07a9ab4934ed0ce3828efd"
       },
       {
-        "title": "Plan for editorial oversight board at CNN and CBS News draws skepticism: ‘Utter garbage’",
-        "link": "https://www.theguardian.com/media/2026/sep/21/cnn-cbs-news-editorial-board-skepticsm",
-        "published": "Mon, 21 Sep 2026 20:05:50 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "CNN CBS Paramount+ Warner Bros TV news Media Business US news",
-        "image": "https://i.guim.co.uk/img/media/1d5574adcd3cea81acccbd1d41c466d0bb1ac672/755_0_3781_3027/master/3781.jpg?width=140&quality=85&auto=format&fit=max&s=05b09378956a29190c9f17b71f30e425"
-      },
-      {
         "title": "London’s HSBC tower is transforming into ‘Swiss Cheese’ building complete with holes",
         "link": "https://metro.co.uk/2026/09/20/londons-hsbc-tower-turned-swiss-cheese-complete-holes-29620356/",
         "published": "Sun, 20 Sep 2026 05:00:00 +0000",
@@ -370,6 +370,24 @@
       }
     ],
     "TECH": [
+      {
+        "title": "Games Inbox: Are you still an Xbox fan?",
+        "link": "https://metro.co.uk/2026/09/23/games-inbox-still-xbox-fan-29645654/",
+        "published": "Wed, 23 Sep 2026 00:10:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Entertainment Gaming Activision Capcom Destiny 2 Games Inbox Microsoft Nintendo PlayStation 5 Sony The Legend of Zelda Wolverine Xbox",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/07/SEI_306764611-550e.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Does Microsoft really want to save Xbox or have they already given up?",
+        "link": "https://metro.co.uk/2026/09/23/microsoft-really-want-save-xbox-already-given-29645614/",
+        "published": "Wed, 23 Sep 2026 00:00:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Entertainment Gaming Activision Bethesda Call of Duty Elder Scrolls Games news Gears Of War Halo Hideo Kojima Microsoft Xbox Xbox Series X",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_313591702-62dd.jpg?quality=90&strip=all&w=646"
+      },
       {
         "title": "Daily horoscope September 23, 2026: Today’s predictions for your star sign",
         "link": "https://metro.co.uk/2026/09/23/daily-horoscope-september-23-2026-predictions-star-sign-29641549/",
@@ -416,24 +434,6 @@
         "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_313544148-4676.jpg?quality=90&strip=all&w=646"
       },
       {
-        "title": "Hellblade developer Ninja Theory and Arkane Studios face closure in Xbox cuts",
-        "link": "https://metro.co.uk/2026/09/22/hellblade-developer-ninja-theory-arkane-studios-face-closure-xbox-cuts-29644948/",
-        "published": "Tue, 22 Sep 2026 15:48:50 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Entertainment Gaming Games news Microsoft Xbox",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_313545450-a3a4.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Donald Trump trying to rename AI – ‘Super Intelligence’ after bad ‘it’s going to kill us all’ rep",
-        "link": "https://metro.co.uk/2026/09/22/donald-trump-renaming-ai-super-intelligence-its-going-kill-us-all-fear-29645026/",
-        "published": "Tue, 22 Sep 2026 15:41:42 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News US Artificial Intelligence Donald Trump",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/07/SEI_261268509-ed3a.jpg?quality=90&strip=all&w=646"
-      },
-      {
         "title": "Scientists reveal why Kent meningitis outbreak was so deadly",
         "link": "https://news.sky.com/story/scientists-reveal-why-kent-meningitis-b-outbreak-was-so-deadly-13590579",
         "published": "Tue, 22 Sep 2026 07:18:00 +0100",
@@ -463,13 +463,13 @@
     ],
     "ENTERTAINMENT": [
       {
-        "title": "Sam drops a shocking bombshell in Coronation Street that leaves Nick utterly stunned",
-        "link": "https://metro.co.uk/2026/09/22/coronation-streets-sam-drops-a-bombshell-leaves-nick-utterly-stunned-29629647/",
-        "published": "Tue, 22 Sep 2026 21:00:00 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Coronation Street Soaps Ben Price Jude Riordan Nick Tilsley Sam Blakeman",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312682732-3e1f.jpg?quality=90&strip=all&w=646"
+        "title": "‘Our job was not to attack’: how do you make a documentary about America’s culture wars?",
+        "link": "https://www.theguardian.com/tv-and-radio/2026/sep/22/bucks-county-usa-documentary-culture-wars",
+        "published": "Wed, 23 Sep 2026 00:41:40 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Documentary US television Television Culture Factual TV Television & radio Politics TV PBS",
+        "image": "https://i.guim.co.uk/img/media/e369913999c5b8a6f771b3bb2ef32a3dd10fc512/335_0_1349_1080/master/1349.jpg?width=140&quality=85&auto=format&fit=max&s=aa4ce553fb67b27f9c7c882d901245d8"
       },
       {
         "title": "Gabby’s illness diagnosed after terrifying blood discovery in Emmerdale",
@@ -481,6 +481,15 @@
         "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312682382-478f.jpg?quality=90&strip=all&w=646"
       },
       {
+        "title": "Sam drops a shocking bombshell in Coronation Street that leaves Nick utterly stunned",
+        "link": "https://metro.co.uk/2026/09/22/coronation-streets-sam-drops-a-bombshell-leaves-nick-utterly-stunned-29629647/",
+        "published": "Tue, 22 Sep 2026 21:00:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Coronation Street Soaps Ben Price Jude Riordan Nick Tilsley Sam Blakeman",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312682732-3e1f.jpg?quality=90&strip=all&w=646"
+      },
+      {
         "title": "Emmerdale star promises ‘recipe for weirdness’ this Christmas",
         "link": "https://metro.co.uk/2026/09/22/emmerdale-star-promises-recipe-weirdness-this-christmas-29645037/",
         "published": "Tue, 22 Sep 2026 20:00:00 +0000",
@@ -488,15 +497,6 @@
         "provider": "METRO",
         "categories": "Emmerdale Soaps Bradley Johnson Bradley Riches Chris Coghill Kev Barton Lewis Barton Vinny Dingle",
         "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_313454335-f29b.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Todd’s new romance ‘confirmed’ after abuse story in Coronation Street",
-        "link": "https://metro.co.uk/2026/09/22/todds-new-coronation-street-romance-confirmed-abuse-story-29642866/",
-        "published": "Tue, 22 Sep 2026 19:55:00 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Coronation Street Soaps Gareth Pierce James Bailey Jason Callender Todd Grimshaw",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/08/SEI_308895915-75da.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "Choosin’ Texas unseats All I Want for Christmas as longest-running No 1 song on Billboard Hot 100",
@@ -557,7 +557,7 @@
       {
         "title": "Dow Jones Futures: Nasdaq Hits New High; Sandisk, Micron Trigger Buy Signals",
         "link": "https://uk.finance.yahoo.com/m/280f5dd6-365f-3a6a-91c9-2a9551e64657/dow-jones-futures%3A-nasdaq.html?.tsrc=rss",
-        "published": "Tue, 22 Sep 2026 22:53:19 +0000",
+        "published": "Wed, 23 Sep 2026 01:37:31 +0000",
         "source": "Yahoo Finance",
         "provider": "YAHOO",
         "categories": "",
@@ -620,7 +620,7 @@
       {
         "title": "As Trump and Xi meet, investors play both sides of AI divide",
         "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNQW45WkNOV0lEcDRQOFUxcGJRanlYNURFV2ZuNVg1MUk2dk4wMEhmMUp4VVd3NjBWN1RuOHY4c0QtQ3hxcWVITnpOblZJWl9KSTBWUUVDQUgycjdlRk9lMUhvVDAxN25hVHZXM09HOGZYdE1qdDRUX19DeVpwWXlwV2JNcmdpRDROMGVlNm95NFEyaEpTN1FDYk1CazdaOXNXWkZIekRMN2lCOUN5ZXFZ?oc=5",
-        "published": "Tue, 22 Sep 2026 10:56:12 GMT",
+        "published": "Tue, 22 Sep 2026 08:56:00 GMT",
         "source": "Reuters",
         "provider": "REUTERS",
         "categories": "",
@@ -1113,15 +1113,6 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/09/1920x1080/skynews-eu-vonderleyen_7346831.jpg?20260910085945"
-          },
-          {
-            "title": "Asteroid the size of six-storey building crashed into moon in 'once-in-a-lifetime' moment",
-            "link": "https://news.sky.com/story/asteroid-the-size-of-six-storey-building-crashed-into-moon-in-once-in-a-lifetime-moment-says-nasa-13588849",
-            "published": "Thu, 17 Sep 2026 09:10:00 +0100",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-crater-moon_7354316.jpg?20260917092925"
           }
         ],
         "ENTERTAINMENT": [
@@ -1236,7 +1227,7 @@
         },
         "TECH": {
           "ok": true,
-          "count": 8
+          "count": 7
         },
         "ENTERTAINMENT": {
           "ok": true,
@@ -1247,6 +1238,15 @@
     "GUARDIAN": {
       "categories": {
         "UK": [
+          {
+            "title": "Far-right activist Daniel Thomas slashes dinghy in Channel with blade while rescue worker onboard",
+            "link": "https://www.theguardian.com/world/2026/sep/22/far-right-activist-daniel-thomas-slashes-dinghy-with-blade-while-rescue-worker-onboard",
+            "published": "Wed, 23 Sep 2026 00:42:02 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "The far right Far right Immigration and asylum UK news RNLI Hampshire Politics England",
+            "image": "https://i.guim.co.uk/img/media/40ea61df9051882dbabec2760daa50c7c60df1aa/0_99_2360_1888/master/2360.jpg?width=140&quality=85&auto=format&fit=max&s=888db52b1860258c718735e37b37023f"
+          },
           {
             "title": "Pay rent, eat or keep warm? Growing numbers face hard choices as housing benefit gap grows",
             "link": "https://www.theguardian.com/business/2026/sep/23/pay-rent-eat-or-keep-warm-growing-numbers-face-hard-choices-as-housing-benefit-gap-grows",
@@ -1264,15 +1264,6 @@
             "provider": "GUARDIAN",
             "categories": "Devolution Mayoral elections Tax and spending Andy Burnham Labour Local politics Politics England UK news",
             "image": "https://i.guim.co.uk/img/media/ba119700ce352a0bd0fd64235bce54ca38be8db7/1440_10_3555_2846/master/3555.jpg?width=140&quality=85&auto=format&fit=max&s=bcd3d827909929f8511c9c8a30889244"
-          },
-          {
-            "title": "Far-right activist Daniel Thomas slashes dinghy in Channel with blade while rescue worker onboard",
-            "link": "https://www.theguardian.com/world/2026/sep/22/far-right-activist-daniel-thomas-slashes-dinghy-with-blade-while-rescue-worker-onboard",
-            "published": "Tue, 22 Sep 2026 22:30:54 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "The far right Far right Immigration and asylum UK news RNLI Hampshire Politics",
-            "image": "https://i.guim.co.uk/img/media/40ea61df9051882dbabec2760daa50c7c60df1aa/0_99_2360_1888/master/2360.jpg?width=140&quality=85&auto=format&fit=max&s=888db52b1860258c718735e37b37023f"
           },
           {
             "title": "Children as young as 13 being referred to UK hospital suffering from ‘ketamine bladder’",
@@ -1475,6 +1466,15 @@
             "image": "https://i.guim.co.uk/img/media/ef213b9c8bdcfe26c44aecf9ce3022053056e171/0_91_1200_960/master/1200.jpg?width=140&quality=85&auto=format&fit=max&s=6459fa9adbb857441ced1c4243d12827"
           },
           {
+            "title": "Jamaica hails King’s decision to refer slavery reparations petition to privy council as ‘really big deal’",
+            "link": "https://www.theguardian.com/world/2026/sep/23/jamaica-king-charles-to-refer-slavery-reparations-petition-to-privy-council",
+            "published": "Wed, 23 Sep 2026 01:15:26 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Jamaica Reparations and reparative justice Slavery Americas Caribbean Colonialism",
+            "image": "https://i.guim.co.uk/img/media/1c2dbacb3799105d4e0f77d6315b1d0ae1ca5ae8/1351_102_5986_4789/master/5986.jpg?width=140&quality=85&auto=format&fit=max&s=44649772a980135bf1bd83fcc619a4cb"
+          },
+          {
             "title": "Hurricane Polo, rapidly intensifying from strong El Niño patterns, rages off coast of Mexico",
             "link": "https://www.theguardian.com/world/2026/sep/22/hurricane-polo-mexico",
             "published": "Tue, 22 Sep 2026 19:09:29 GMT",
@@ -1509,15 +1509,6 @@
             "provider": "GUARDIAN",
             "categories": "Colombia Wildfires Americas World news El Niño southern oscillation Ecuador",
             "image": "https://i.guim.co.uk/img/media/3281e9a82dbd317e84a01d38e562cd7163a53e78/0_0_3018_2415/master/3018.jpg?width=140&quality=85&auto=format&fit=max&s=773148e6132a267490e1885cbe8c4cd9"
-          },
-          {
-            "title": "US strikes on alleged drug boats may constitute ‘crimes against humanity’, UN expert says",
-            "link": "https://www.theguardian.com/world/2026/sep/21/us-boat-strikes-crime-against-humanity",
-            "published": "Mon, 21 Sep 2026 15:54:43 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "United Nations Trump administration US news US politics Caribbean Drugs US military Americas World news",
-            "image": "https://i.guim.co.uk/img/media/20237296add74a00f9d294b6609b91ecd9c04a07/459_0_4582_3666/master/4582.jpg?width=140&quality=85&auto=format&fit=max&s=0cd3932044d0d6d41588dc4799d0c3ce"
           },
           {
             "title": "Six-year-old Chinese girl ‘sets new women’s Rubik’s Cube world record’",
@@ -1565,13 +1556,31 @@
             "image": "https://i.guim.co.uk/img/media/eed769a799be66f4834320b43e40a5f5b9900b16/1058_662_4066_3253/master/4066.jpg?width=140&quality=85&auto=format&fit=max&s=638a301fd4ce6caff1af798da51cb839"
           },
           {
-            "title": "Australia news live: Joyce says One Nation talking to Coalition about power-sharing agreement; fog causes Sydney airport delays",
+            "title": "Australia news live: Albanese defends social media crackdown against White House criticism; Wilson and Joyce trade barbs",
             "link": "https://www.theguardian.com/australia-news/live/2026/sep/23/anthony-albanese-un-assembly-ai-social-media-labor-coalition-abc-four-corners-ntwnfb",
-            "published": "Tue, 22 Sep 2026 23:04:35 GMT",
+            "published": "Wed, 23 Sep 2026 01:38:17 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
             "categories": "Australia news Australian politics Australian economy Business Health Australian education Australian immigration and asylum Australian foreign policy Australian media",
-            "image": "https://i.guim.co.uk/img/media/b27d88d2bb798b3440cdf21332bd90c0b135fdd6/688_0_6880_5504/master/6880.jpg?width=140&quality=85&auto=format&fit=max&s=9118175169295aa58b2b36084de43456"
+            "image": "https://i.guim.co.uk/img/media/53a41d1d36c72d03e96c9663344c272eb54abfdb/1493_1633_4839_3871/master/4839.jpg?width=140&quality=85&auto=format&fit=max&s=4413aeba153c17e5ca255ab020bc3ebd"
+          },
+          {
+            "title": "Qantas announces 18-hour direct flights from Sydney to New York with onboard ‘wellbeing zones’",
+            "link": "https://www.theguardian.com/business/2026/sep/23/qantas-direct-flights-from-sydney-to-new-york",
+            "published": "Wed, 23 Sep 2026 01:02:04 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Qantas Australia news Airline industry Sydney Travel",
+            "image": "https://i.guim.co.uk/img/media/d4d5569ce078b6e274c7527aee43a6430e9b07e8/0_0_4558_3646/master/4558.jpg?width=140&quality=85&auto=format&fit=max&s=8518568cabe06774c787513cc9fa48ce"
+          },
+          {
+            "title": "Review urged after blood-spattered shirt ads ran alongside domestic violence news in Australia",
+            "link": "https://www.theguardian.com/media/2026/sep/23/domestic-violence-news-articles-advertising-error-bloodstained-shirt-halloween-costume-ads-ntwnfb",
+            "published": "Wed, 23 Sep 2026 00:00:09 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Australian media Domestic violence Australia news Google Advertising Media",
+            "image": "https://i.guim.co.uk/img/media/ca663684e2b4b8a69499840fc45ee2607463ffcb/51_0_2500_2000/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=81e4294f01f2b831d46b507657fae62c"
           },
           {
             "title": "Taylor distances himself from Bragg’s proposal to let homebuyers use super as collateral for mortgages",
@@ -1590,27 +1599,18 @@
             "provider": "GUARDIAN",
             "categories": "Childcare Australia Australian politics Australia news Cost-of-living crisis Parents and parenting",
             "image": "https://i.guim.co.uk/img/media/54a6390419207d61bd14505b111e99319e182071/0_0_5322_4258/master/5322.jpg?width=140&quality=85&auto=format&fit=max&s=179b9ea2e67e8de8084b3d5267bf1c2c"
-          },
-          {
-            "title": "Gums, ginkgos and a golden wych elm: which will win Victoria’s tree of the year?",
-            "link": "https://www.theguardian.com/australia-news/2026/sep/23/gums-gingkos-and-a-golden-wych-elm-voting-for-victorias-tree-of-the-year",
-            "published": "Tue, 22 Sep 2026 17:54:40 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Victoria Trees and forests Australia news Environment",
-            "image": "https://i.guim.co.uk/img/media/56fd5972da71e25bc7784d0abc49977c8d4576df/125_0_3749_3000/master/3749.jpg?width=140&quality=85&auto=format&fit=max&s=1e53b52af2cb64fd5b4f6c94e6fe19ac"
-          },
-          {
-            "title": "Alex Antic’s rise in SA Liberals has coincided with a collapse in the party’s vote. Is there further to fall?",
-            "link": "https://www.theguardian.com/australia-news/2026/sep/23/right-wing-senator-alex-antic-sweeps-to-victory-as-next-sa-liberals-president-ntwnfb",
-            "published": "Tue, 22 Sep 2026 15:00:03 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Liberal party South Australia Australian politics South Australian politics Adelaide Australia news",
-            "image": "https://i.guim.co.uk/img/media/3da30566f829db982291f1224ada8854458366ad/697_51_5049_4040/master/5049.jpg?width=140&quality=85&auto=format&fit=max&s=c9d3492c7a656f604667b8b3a9ee4eee"
           }
         ],
         "POLITICS": [
+          {
+            "title": "Far-right activist Daniel Thomas slashes dinghy in Channel with blade while rescue worker onboard",
+            "link": "https://www.theguardian.com/world/2026/sep/22/far-right-activist-daniel-thomas-slashes-dinghy-with-blade-while-rescue-worker-onboard",
+            "published": "Wed, 23 Sep 2026 00:42:02 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "The far right Far right Immigration and asylum UK news RNLI Hampshire Politics England",
+            "image": "https://i.guim.co.uk/img/media/40ea61df9051882dbabec2760daa50c7c60df1aa/0_99_2360_1888/master/2360.jpg?width=140&quality=85&auto=format&fit=max&s=888db52b1860258c718735e37b37023f"
+          },
           {
             "title": "England’s mayors should face greater scrutiny as powers expand, thinktank says",
             "link": "https://www.theguardian.com/politics/2026/sep/23/england-mayors-greater-scrutiny-powers-expand-thinktank",
@@ -1619,15 +1619,6 @@
             "provider": "GUARDIAN",
             "categories": "Devolution Mayoral elections Tax and spending Andy Burnham Labour Local politics Politics England UK news",
             "image": "https://i.guim.co.uk/img/media/ba119700ce352a0bd0fd64235bce54ca38be8db7/1440_10_3555_2846/master/3555.jpg?width=140&quality=85&auto=format&fit=max&s=bcd3d827909929f8511c9c8a30889244"
-          },
-          {
-            "title": "Far-right activist Daniel Thomas slashes dinghy in Channel with blade while rescue worker onboard",
-            "link": "https://www.theguardian.com/world/2026/sep/22/far-right-activist-daniel-thomas-slashes-dinghy-with-blade-while-rescue-worker-onboard",
-            "published": "Tue, 22 Sep 2026 22:30:54 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "The far right Far right Immigration and asylum UK news RNLI Hampshire Politics",
-            "image": "https://i.guim.co.uk/img/media/40ea61df9051882dbabec2760daa50c7c60df1aa/0_99_2360_1888/master/2360.jpg?width=140&quality=85&auto=format&fit=max&s=888db52b1860258c718735e37b37023f"
           },
           {
             "title": "Trump praises relations with Burnham despite tensions over AI and Iran",
@@ -1803,6 +1794,15 @@
             "image": "https://i.guim.co.uk/img/media/9b64630cc98199352666ee89c6872ec50ca1f4da/833_82_2938_2350/master/2938.jpg?width=140&quality=85&auto=format&fit=max&s=b7a0ca8537a61f6a6dd383e29b2abb87"
           },
           {
+            "title": "Patrick Clancy interview on 60 Minutes fails to provide big ratings boost for CBS",
+            "link": "https://www.theguardian.com/us-news/2026/sep/22/60-minutes-patrick-clancy-cbs",
+            "published": "Tue, 22 Sep 2026 21:29:36 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "US news CBS TV ratings US television industry Media Bari Weiss Business",
+            "image": "https://i.guim.co.uk/img/media/ab1bbc029e0284bd5fe85ad5ceaa6752f6322e48/287_0_900_720/master/900.jpg?width=140&quality=85&auto=format&fit=max&s=e20c2d5b72c55744aff6b31cae2a65bf"
+          },
+          {
             "title": "Trump says he backs diesel export ban to curb soaring energy costs",
             "link": "https://www.theguardian.com/us-news/2026/sep/22/trump-diesel-export-ban",
             "published": "Tue, 22 Sep 2026 19:48:39 GMT",
@@ -1864,15 +1864,6 @@
             "provider": "GUARDIAN",
             "categories": "Federal Reserve US economy Business Donald Trump US politics US news Trump administration",
             "image": "https://i.guim.co.uk/img/media/9034a8b840c58443fd1a74486d27a853d430cd90/22_0_4170_3336/master/4170.jpg?width=140&quality=85&auto=format&fit=max&s=0976fdfc0b92b5821499e37e02ff0a1d"
-          },
-          {
-            "title": "Warren Buffett steps down as chair of Berkshire Hathaway after over 50 years",
-            "link": "https://www.theguardian.com/business/2026/sep/18/warren-buffett-steps-down-berkshire-hathaway",
-            "published": "Fri, 18 Sep 2026 14:48:56 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Warren Buffett Business Berkshire",
-            "image": "https://i.guim.co.uk/img/media/acae4dd53fd581382ab153a512978fcca7cd739e/315_0_3160_2529/master/3160.jpg?width=140&quality=85&auto=format&fit=max&s=6ec4fc0215caf8d95263d42243e39bee"
           },
           {
             "title": "‘Do you have to be dead?’: US coalminers plead for benefits as black-lung disease cases surge",
@@ -2232,7 +2223,7 @@
           {
             "title": "‘Our job was not to attack’: how do you make a documentary about America’s culture wars?",
             "link": "https://www.theguardian.com/tv-and-radio/2026/sep/22/bucks-county-usa-documentary-culture-wars",
-            "published": "Tue, 22 Sep 2026 10:00:53 GMT",
+            "published": "Wed, 23 Sep 2026 00:41:40 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
             "categories": "Documentary US television Television Culture Factual TV Television & radio Politics TV PBS",
@@ -2990,6 +2981,24 @@
         ],
         "TECH": [
           {
+            "title": "Games Inbox: Are you still an Xbox fan?",
+            "link": "https://metro.co.uk/2026/09/23/games-inbox-still-xbox-fan-29645654/",
+            "published": "Wed, 23 Sep 2026 00:10:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment Gaming Activision Capcom Destiny 2 Games Inbox Microsoft Nintendo PlayStation 5 Sony The Legend of Zelda Wolverine Xbox",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/07/SEI_306764611-550e.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Does Microsoft really want to save Xbox or have they already given up?",
+            "link": "https://metro.co.uk/2026/09/23/microsoft-really-want-save-xbox-already-given-29645614/",
+            "published": "Wed, 23 Sep 2026 00:00:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment Gaming Activision Bethesda Call of Duty Elder Scrolls Games news Gears Of War Halo Hideo Kojima Microsoft Xbox Xbox Series X",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_313591702-62dd.jpg?quality=90&strip=all&w=646"
+          },
+          {
             "title": "Daily horoscope September 23, 2026: Today’s predictions for your star sign",
             "link": "https://metro.co.uk/2026/09/23/daily-horoscope-september-23-2026-predictions-star-sign-29641549/",
             "published": "Tue, 22 Sep 2026 23:01:00 +0000",
@@ -3145,15 +3154,6 @@
             "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_313512248-ef1b.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Sam drops a shocking bombshell in Coronation Street that leaves Nick utterly stunned",
-            "link": "https://metro.co.uk/2026/09/22/coronation-streets-sam-drops-a-bombshell-leaves-nick-utterly-stunned-29629647/",
-            "published": "Tue, 22 Sep 2026 21:00:00 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Coronation Street Soaps Ben Price Jude Riordan Nick Tilsley Sam Blakeman",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312682732-3e1f.jpg?quality=90&strip=all&w=646"
-          },
-          {
             "title": "Gabby’s illness diagnosed after terrifying blood discovery in Emmerdale",
             "link": "https://metro.co.uk/2026/09/22/gabbys-illness-diagnosed-emmerdale-terrifying-blood-discovery-29633470/",
             "published": "Tue, 22 Sep 2026 21:00:00 +0000",
@@ -3161,6 +3161,15 @@
             "provider": "METRO",
             "categories": "Emmerdale Soaps Gabby Thomas Manpreet Sharma Rebecca Sarker Rosie Bentham",
             "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312682382-478f.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Sam drops a shocking bombshell in Coronation Street that leaves Nick utterly stunned",
+            "link": "https://metro.co.uk/2026/09/22/coronation-streets-sam-drops-a-bombshell-leaves-nick-utterly-stunned-29629647/",
+            "published": "Tue, 22 Sep 2026 21:00:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Coronation Street Soaps Ben Price Jude Riordan Nick Tilsley Sam Blakeman",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312682732-3e1f.jpg?quality=90&strip=all&w=646"
           },
           {
             "title": "Emmerdale star promises ‘recipe for weirdness’ this Christmas",
@@ -3228,7 +3237,7 @@
         },
         "TECH": {
           "ok": true,
-          "count": 4
+          "count": 6
         },
         "ENTERTAINMENT": {
           "ok": true,
@@ -3347,7 +3356,7 @@
           {
             "title": "Dow Jones Futures: Nasdaq Hits New High; Sandisk, Micron Trigger Buy Signals",
             "link": "https://uk.finance.yahoo.com/m/280f5dd6-365f-3a6a-91c9-2a9551e64657/dow-jones-futures%3A-nasdaq.html?.tsrc=rss",
-            "published": "Tue, 22 Sep 2026 22:53:19 +0000",
+            "published": "Wed, 23 Sep 2026 01:37:31 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
@@ -3606,7 +3615,7 @@
           {
             "title": "As Trump and Xi meet, investors play both sides of AI divide",
             "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNQW45WkNOV0lEcDRQOFUxcGJRanlYNURFV2ZuNVg1MUk2dk4wMEhmMUp4VVd3NjBWN1RuOHY4c0QtQ3hxcWVITnpOblZJWl9KSTBWUUVDQUgycjdlRk9lMUhvVDAxN25hVHZXM09HOGZYdE1qdDRUX19DeVpwWXlwV2JNcmdpRDROMGVlNm95NFEyaEpTN1FDYk1CazdaOXNXWkZIekRMN2lCOUN5ZXFZ?oc=5",
-            "published": "Tue, 22 Sep 2026 10:56:12 GMT",
+            "published": "Tue, 22 Sep 2026 08:56:00 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3640,18 +3649,18 @@
             "image": ""
           },
           {
-            "title": "Vietnam joins FTSE Russell emerging market benchmark",
-            "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPalJiSUdYcGJXanE0VjhNWFhPejJQQlNOVlc1akp0Qm9sZHg1TW5WMkdHX1BzRURaeHhsT0N4Vmg4Yy02b2ctWjFOY3p0eWRBODFROGk2d2JGejB4V3Q1VlcxbkRrT0FUcndwV0xZLWJJR0h0VTZoYUl6d2NKQzQ0LVVpQkNhNUwydnVrWVE4NElZUlRjR3QzdUdIVVFPRjVTaEk0N1VKd2pXbUE?oc=5",
-            "published": "Mon, 21 Sep 2026 00:54:00 GMT",
+            "title": "Nasdaq hits record high as chipmakers fuel stock gains",
+            "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQUUdXdXVKYkpsa2JoQmRNeVpVWWhwb1pIVmUwcUl0QVRFVEFjRDJtREJPbXJWaXVEc0NQSWZZUlhwTl80T3h4eGM1dE9oaXRsWlVueWx0MWt3YXlWbV9PYkZDWVVPb1ZveThvalZfWnBvQ2J5Sjg1UkNOQmU5eDdWN0FvVQ?oc=5",
+            "published": "Mon, 21 Sep 2026 17:57:37 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
             "image": ""
           },
           {
-            "title": "Nasdaq hits record high as chipmakers fuel stock gains",
-            "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQUUdXdXVKYkpsa2JoQmRNeVpVWWhwb1pIVmUwcUl0QVRFVEFjRDJtREJPbXJWaXVEc0NQSWZZUlhwTl80T3h4eGM1dE9oaXRsWlVueWx0MWt3YXlWbV9PYkZDWVVPb1ZveThvalZfWnBvQ2J5Sjg1UkNOQmU5eDdWN0FvVQ?oc=5",
-            "published": "Mon, 21 Sep 2026 00:39:00 GMT",
+            "title": "Vietnam joins FTSE Russell emerging market benchmark",
+            "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPalJiSUdYcGJXanE0VjhNWFhPejJQQlNOVlc1akp0Qm9sZHg1TW5WMkdHX1BzRURaeHhsT0N4Vmg4Yy02b2ctWjFOY3p0eWRBODFROGk2d2JGejB4V3Q1VlcxbkRrT0FUcndwV0xZLWJJR0h0VTZoYUl6d2NKQzQ0LVVpQkNhNUwydnVrWVE4NElZUlRjR3QzdUdIVVFPRjVTaEk0N1VKd2pXbUE?oc=5",
+            "published": "Mon, 21 Sep 2026 00:54:00 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3837,5 +3846,5 @@
       }
     }
   },
-  "stocksUpdated": "2026-09-22T23:13:41.050Z"
+  "stocksUpdated": "2026-09-23T01:43:55.962Z"
 }
