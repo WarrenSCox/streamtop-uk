@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-24T22:14:48.689Z",
+  "updated": "2026-09-25T00:44:52.696Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -75,19 +75,14 @@
         "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978024/9780241745892.jpg"
       },
       {
-        "title": "Big Bad Wolf",
-        "author": "Laurie Gilmore",
-        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978000/9780008831783.jpg"
+        "title": "Protocols",
+        "author": "Andrew Huberman",
+        "image": "https://storage.googleapis.com/lr-assets/main/covers/1790264488-9781529921281-260x400.jpg"
       },
       {
-        "title": "Immortal Rose",
-        "author": "Alexandra Bracken",
-        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978191/9781911769002.jpg"
-      },
-      {
-        "title": "Brain Damage",
-        "author": "Freida McFadden",
-        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978146/9781464298547.jpg"
+        "title": "Hawk & Sparrow",
+        "author": "Ayana Gray",
+        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978103/9781035075157.jpg"
       },
       {
         "title": "The Correspondent",
@@ -95,9 +90,14 @@
         "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978140/9781405971553.jpg"
       },
       {
-        "title": "Make Me Well",
-        "author": "Xand van Tulleken",
-        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978152/9781529961034.jpg"
+        "title": "Brain Damage",
+        "author": "Freida McFadden",
+        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978146/9781464298547.jpg"
+      },
+      {
+        "title": "All the Wrong Moves",
+        "author": "Anthony Scaramucci",
+        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978184/9781847929235.jpg"
       },
       {
         "title": "Berwick",
@@ -105,14 +105,14 @@
         "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978180/9781804960691.jpg"
       },
       {
-        "title": "20 Minute Meals",
-        "author": "Jamie Oliver",
-        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978024/9780241657850.jpg"
+        "title": "Grim Tidings",
+        "author": "B. K. Borison",
+        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978000/9780008760519.jpg"
       },
       {
-        "title": "Ottolenghi Simple Too",
-        "author": "Yotam Ottolenghi and 3 more",
-        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978152/9781529109511.jpg"
+        "title": "Fury Bound",
+        "author": "Sable Sorensen",
+        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978191/9781911751359.jpg"
       }
     ]
   },
@@ -123,13 +123,13 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-09-24T22:14:48.689Z",
-      "lastSuccessfulRefresh": "2026-09-24T22:14:48.689Z",
+      "checkedAt": "2026-09-25T00:44:52.696Z",
+      "lastSuccessfulRefresh": "2026-09-25T00:44:52.696Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
       "status": "stale",
-      "checkedAt": "2026-09-24T22:14:56.688Z",
+      "checkedAt": "2026-09-25T00:45:00.089Z",
       "lastSuccessfulRefresh": "2026-09-21T22:47:17.414Z",
       "reason": "503 https://www.audible.co.uk/charts/best"
     }
