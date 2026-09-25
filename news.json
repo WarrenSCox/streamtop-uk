@@ -1,7 +1,16 @@
 {
-  "updated": "2026-09-25T17:03:41.361Z",
+  "updated": "2026-09-25T17:18:53.276Z",
   "categories": {
     "UK": [
+      {
+        "title": "No general election before 2029, Andy Burnham says",
+        "link": "https://www.theguardian.com/politics/2026/sep/25/no-snap-election-before-2029-andy-burnham-says",
+        "published": "Fri, 25 Sep 2026 17:06:39 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Andy Burnham General elections Labour Politics UK news",
+        "image": "https://i.guim.co.uk/img/media/90b2ce65aea4a6d6facbd5c37783acbea8e41151/1418_146_1000_801/master/1000.jpg?width=140&quality=85&auto=format&fit=max&s=40f208fda85881a9ac42d18e571189df"
+      },
       {
         "title": "Holland & Barrett shoppers can save up to 50% on skincare, supplements and wellness buys",
         "link": "https://metro.co.uk/2026/09/25/supplements-skincare-holland-barrett-offers-worth-shopping-29653282/",
@@ -19,6 +28,15 @@
         "provider": "METRO",
         "categories": "Lifestyle Sex Friendship Nicole Kidman Opinion Relationships Romance Sandra Bullock",
         "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_313829954-9e80-e1790257504851.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "NHS England chief says staff suspected of snooping on patients’ records should be suspended immediately",
+        "link": "https://www.theguardian.com/society/2026/sep/25/nhs-england-staff-patient-records-suspended",
+        "published": "Fri, 25 Sep 2026 16:45:48 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "NHS Health Data protection Hospitals Technology Society England UK news",
+        "image": "https://i.guim.co.uk/img/media/b1ca43905c6b5a67eb30c2633c98f7c15a4d48df/527_0_3470_2778/master/3470.jpg?width=140&quality=85&auto=format&fit=max&s=9a370b952270bd824960af90d8dada9c"
       },
       {
         "title": "Family pays tribute after schoolgirl, 16, killed in north London crash named",
@@ -46,24 +64,6 @@
         "provider": "GUARDIAN",
         "categories": "Ed Miliband Labour Politics UK news",
         "image": "https://i.guim.co.uk/img/media/7662e3abcc40d2fc4c564a7c92e0fc62189debc4/0_1_5000_3998/master/5000.png?width=140&quality=85&auto=format&fit=max&s=1f0642d767df9ff05676e8b8c6fba9d6"
-      },
-      {
-        "title": "Cyclist, 24, dies in hit-and-run crash in west London",
-        "link": "https://metro.co.uk/2026/09/25/cyclist-24-dies-hit-and-run-crash-west-london-29654296/",
-        "published": "Fri, 25 Sep 2026 16:19:48 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News UK Crash Cycling London",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_313993250-07b8-e1790351208442.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "No general election before 2029, Andy Burnham says",
-        "link": "https://www.theguardian.com/politics/2026/sep/25/no-snap-election-before-2029-andy-burnham-says",
-        "published": "Fri, 25 Sep 2026 16:00:03 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Andy Burnham General elections Labour Politics UK news",
-        "image": "https://i.guim.co.uk/img/media/90b2ce65aea4a6d6facbd5c37783acbea8e41151/1418_146_1000_801/master/1000.jpg?width=140&quality=85&auto=format&fit=max&s=40f208fda85881a9ac42d18e571189df"
       },
       {
         "title": "Three of UK's 'largest mobile phone smuggling network' jailed",
@@ -371,6 +371,24 @@
     ],
     "TECH": [
       {
+        "title": "Trump told Xi Jinping that China helping Iran is ‘unacceptable’, official says – live",
+        "link": "https://www.theguardian.com/us-news/live/2026/sep/25/trump-xi-summit-national-archives-media-politics-live",
+        "published": "Fri, 25 Sep 2026 17:15:06 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Donald Trump Trump administration Xi Jinping US foreign policy AI (artificial intelligence) US Congress",
+        "image": "https://i.guim.co.uk/img/media/70c7aeeec6b5d74e419adfcc2cc6d5a9ceed831a/544_0_4900_3922/master/4900.jpg?width=140&quality=85&auto=format&fit=max&s=fef3235577002dac800f22c1d5b6123c"
+      },
+      {
+        "title": "Pope Leo warns AI could lead to losing 'humanity amid a paradise of machines' in Paris – video",
+        "link": "https://www.theguardian.com/world/video/2026/sep/25/pope-leo-ai-warning-paris",
+        "published": "Fri, 25 Sep 2026 16:49:55 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Pope Leo XIV The papacy AI (artificial intelligence) Catholicism Technology France World news",
+        "image": "https://i.guim.co.uk/img/media/bda0afa989fbdccf5e1501fceef9d84965bd6fff/0_0_1379_1103/master/1379.jpg?width=140&quality=85&auto=format&fit=max&s=46ef0860af309094e8883f42df8af420"
+      },
+      {
         "title": "Grab The Witcher 3 for cheap right now to get the remaster free next week",
         "link": "https://metro.co.uk/2026/09/25/grab-witcher-3-cheap-right-now-get-remaster-free-next-week-29654346/",
         "published": "Fri, 25 Sep 2026 16:21:39 +0000",
@@ -380,13 +398,13 @@
         "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_314015064-f578.jpg?quality=90&strip=all&w=646"
       },
       {
-        "title": "Trump told Xi Jinping that China helping Iran is ‘unacceptable’, official says – live",
-        "link": "https://www.theguardian.com/us-news/live/2026/sep/25/trump-xi-summit-national-archives-media-politics-live",
-        "published": "Fri, 25 Sep 2026 16:08:40 GMT",
+        "title": "Novelist accused of using AI to write book removed from French prize list",
+        "link": "https://www.theguardian.com/books/2026/sep/25/thelyson-orelien-goncourt-prize-france",
+        "published": "Fri, 25 Sep 2026 16:14:32 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
-        "categories": "Donald Trump Trump administration Xi Jinping US foreign policy AI (artificial intelligence) US Congress",
-        "image": "https://i.guim.co.uk/img/media/70c7aeeec6b5d74e419adfcc2cc6d5a9ceed831a/544_0_4900_3922/master/4900.jpg?width=140&quality=85&auto=format&fit=max&s=fef3235577002dac800f22c1d5b6123c"
+        "categories": "Prix Goncourt Awards and prizes Books Plagiarism Fiction Culture France AI (artificial intelligence) Europe",
+        "image": "https://i.guim.co.uk/img/media/805a53985eeaa5d325b415cdf6ae98f6c248b5b3/624_0_6240_4994/master/6240.jpg?width=140&quality=85&auto=format&fit=max&s=1fdf100b2167842b6ad6758568e180c7"
       },
       {
         "title": "Pope Leo warns of AI threat to humanity at start of three-day France visit",
@@ -407,15 +425,6 @@
         "image": "https://metro.co.uk/wp-content/uploads/2026/09/coverimages56051931-231b.jpg?quality=90&strip=all&w=646"
       },
       {
-        "title": "OpenAI hack on Australian government reveals anxiety at heart of global artificial intelligence dilemma",
-        "link": "https://www.theguardian.com/technology/2026/sep/26/openai-hack-australian-government-anxiety-global-dilemma-artificial-intelligence",
-        "published": "Fri, 25 Sep 2026 15:12:38 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "AI (artificial intelligence) Technology Australia news Australian politics Anthony Albanese Medicare Australia OpenAI Xi Jinping Donald Trump Trump administration China US news",
-        "image": "https://i.guim.co.uk/img/media/591b29c15ba606604fba069a81f2b12fb4d0bb4f/1208_0_6633_5307/master/6633.jpg?width=140&quality=85&auto=format&fit=max&s=94eb8a5328fd5e84a7c7275fa32edd5e"
-      },
-      {
         "title": "Sony shows hint of remorse as it quizzes developers on killing PlayStation discs",
         "link": "https://metro.co.uk/2026/09/25/sony-shows-hint-remorse-quizzes-developers-killing-playstation-discs-29653958/",
         "published": "Fri, 25 Sep 2026 14:49:54 +0000",
@@ -423,15 +432,6 @@
         "provider": "METRO",
         "categories": "Entertainment Gaming Games news PlayStation 5 Sony",
         "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310242598-ae33.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Paedophile who used AI to undress children was allowed to return home overlooking playground",
-        "link": "https://metro.co.uk/2026/09/25/paedophile-used-ai-undress-children-bailed-home-overlooking-playgroud-29653749/",
-        "published": "Fri, 25 Sep 2026 14:21:27 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News UK Artificial Intelligence Crime News London",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEC_313998763-8bb8.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "Cyber attack at police force in Wales",
@@ -462,6 +462,15 @@
       }
     ],
     "ENTERTAINMENT": [
+      {
+        "title": "Liam Gallagher tells fans to ‘stop moaning’ about Oasis ticket prices",
+        "link": "https://metro.co.uk/2026/09/25/liam-gallagher-tells-fans-stop-moaning-oasis-ticket-prices-29654456/",
+        "published": "Fri, 25 Sep 2026 17:17:36 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Entertainment Music Liam Gallagher Music Tours Noel Gallagher Oasis",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_311002318-b665.jpg?quality=90&strip=all&w=646"
+      },
       {
         "title": "I’ve seen Celebrity Traitors series two’s first episode – I have two warnings",
         "link": "https://metro.co.uk/2026/09/25/seen-celebrity-traitors-series-twos-first-episode-two-warnings-29654497/",
@@ -517,15 +526,6 @@
         "image": "https://e3.365dm.com/26/09/1920x1080/skynews-ed-sheeran-ed-sheeran_7361232.png?20260925155510"
       },
       {
-        "title": "Ed Sheeran cancels tour shows hours before start in ‘difficult decision’",
-        "link": "https://metro.co.uk/2026/09/25/ed-sheeran-cancels-tour-shows-hours-start-difficult-decision-29654019/",
-        "published": "Fri, 25 Sep 2026 14:42:22 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Entertainment Music Ed Sheeran US Showbiz news",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_313117428-60b7.jpg?quality=90&strip=all&w=646"
-      },
-      {
         "title": "Ace Combat 8: Wings of Theve review – brilliant aerial combat game fulfils the Top Gun fantasy",
         "link": "https://www.theguardian.com/games/2026/sep/25/ace-combat-8-wings-of-theve-review",
         "published": "Fri, 25 Sep 2026 14:00:08 GMT",
@@ -535,8 +535,8 @@
         "image": "https://i.guim.co.uk/img/media/efccbb26a1b9ad7e041713be022857d4da72723c/250_0_1798_1440/master/1798.jpg?width=140&quality=85&auto=format&fit=max&s=2ca0dc6411036114d56215cba80cbdd2"
       },
       {
-        "title": "Ed Sheeran concerts cancelled due to 'severe weather warnings'",
-        "link": "https://news.sky.com/story/ed-sheeran-concerts-cancelled-due-to-severe-weather-warnings-13590812",
+        "title": "Ed Sheeran Gillette Stadium concerts cancelled due to storm warnings following Macklemore scandal",
+        "link": "https://news.sky.com/story/ed-sheeran-gillette-stadium-concerts-cancelled-due-to-storm-warnings-following-macklemore-scandal-13590812",
         "published": "Fri, 25 Sep 2026 00:01:00 +0100",
         "source": "Sky News",
         "provider": "SKY",
@@ -556,7 +556,7 @@
     "STOCKS": [
       {
         "title": "FTSE 100 edges up as oil fall offsets bond worry",
-        "link": "https://uk.finance.yahoo.com/news/ftse-100-edges-oil-fall-162219663.html?.tsrc=rss",
+        "link": "https://uk.finance.yahoo.com/news/ftse-100-edges-oil-fall-162219549.html?.tsrc=rss",
         "published": "Fri, 25 Sep 2026 16:22:19 +0000",
         "source": "Yahoo Finance",
         "provider": "YAHOO",
@@ -620,7 +620,7 @@
       {
         "title": "Brookfield-backed Avaada Electro starts roadshows for $793 million India IPO, sources say",
         "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPTE5jRHNTOVFCZmNXQm1NWXpEUWV6dGpldVlmNUM3Wk54SWZuTGxmN01WUWtfZFpTSnFPdHVWWDdIU0d3OU1XV0ZuVlZLbUtvWlR2VU5VNmo2VmppUEVZdXlLODQ2UXliODF5MVlCWklES0VJT3JRNzliUU5ZVVJIWV9BX0tZd2RodjFOeElDZWZaRkoxWXBtUk1jeVJXLU44TFU0Q2VRcUo2Yjd4REx1aVJheVNEN2lVazdlbUpNZzRnUzNaMDRqcFZJNA?oc=5",
-        "published": "Fri, 25 Sep 2026 06:45:43 GMT",
+        "published": "Fri, 25 Sep 2026 06:44:00 GMT",
         "source": "Reuters",
         "provider": "REUTERS",
         "categories": "",
@@ -1173,8 +1173,8 @@
         ],
         "ENTERTAINMENT": [
           {
-            "title": "Ed Sheeran concerts cancelled due to 'severe weather warnings'",
-            "link": "https://news.sky.com/story/ed-sheeran-concerts-cancelled-due-to-severe-weather-warnings-13590812",
+            "title": "Ed Sheeran Gillette Stadium concerts cancelled due to storm warnings following Macklemore scandal",
+            "link": "https://news.sky.com/story/ed-sheeran-gillette-stadium-concerts-cancelled-due-to-storm-warnings-following-macklemore-scandal-13590812",
             "published": "Fri, 25 Sep 2026 00:01:00 +0100",
             "source": "Sky News",
             "provider": "SKY",
@@ -1295,6 +1295,24 @@
       "categories": {
         "UK": [
           {
+            "title": "No general election before 2029, Andy Burnham says",
+            "link": "https://www.theguardian.com/politics/2026/sep/25/no-snap-election-before-2029-andy-burnham-says",
+            "published": "Fri, 25 Sep 2026 17:06:39 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Andy Burnham General elections Labour Politics UK news",
+            "image": "https://i.guim.co.uk/img/media/90b2ce65aea4a6d6facbd5c37783acbea8e41151/1418_146_1000_801/master/1000.jpg?width=140&quality=85&auto=format&fit=max&s=40f208fda85881a9ac42d18e571189df"
+          },
+          {
+            "title": "NHS England chief says staff suspected of snooping on patients’ records should be suspended immediately",
+            "link": "https://www.theguardian.com/society/2026/sep/25/nhs-england-staff-patient-records-suspended",
+            "published": "Fri, 25 Sep 2026 16:45:48 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "NHS Health Data protection Hospitals Technology Society England UK news",
+            "image": "https://i.guim.co.uk/img/media/b1ca43905c6b5a67eb30c2633c98f7c15a4d48df/527_0_3470_2778/master/3470.jpg?width=140&quality=85&auto=format&fit=max&s=9a370b952270bd824960af90d8dada9c"
+          },
+          {
             "title": "Healey appoints Labour manifesto writer, adding to election speculation",
             "link": "https://www.theguardian.com/politics/2026/sep/25/labour-appoints-manifesto-writer-ravinder-athwal-treasury",
             "published": "Fri, 25 Sep 2026 16:34:13 GMT",
@@ -1302,15 +1320,6 @@
             "provider": "GUARDIAN",
             "categories": "Labour John Healey Politics Budget 2026 Economic policy UK news Budget Business Economics",
             "image": "https://i.guim.co.uk/img/media/6b683b2fc67e992b40238fe7b14f8c21cac5bd12/463_92_1968_1575/master/1968.jpg?width=140&quality=85&auto=format&fit=max&s=c07fd9190891ad8f2894c67fa3218186"
-          },
-          {
-            "title": "No general election before 2029, Andy Burnham says",
-            "link": "https://www.theguardian.com/politics/2026/sep/25/no-snap-election-before-2029-andy-burnham-says",
-            "published": "Fri, 25 Sep 2026 16:00:03 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Andy Burnham General elections Labour Politics UK news",
-            "image": "https://i.guim.co.uk/img/media/90b2ce65aea4a6d6facbd5c37783acbea8e41151/1418_146_1000_801/master/1000.jpg?width=140&quality=85&auto=format&fit=max&s=40f208fda85881a9ac42d18e571189df"
           },
           {
             "title": "Labour rejects Declassified journalists from party conference for third year – as it happened",
@@ -1365,15 +1374,6 @@
             "provider": "GUARDIAN",
             "categories": "Islamophobia Home Office Hate crime Birmingham Communities Islam Religion Society Politics England Wales UK news UK security and counter-terrorism Police Crime",
             "image": "https://i.guim.co.uk/img/media/65304492cc0bc4d10f1e056dd1fbd8a824638893/758_0_6830_5464/master/6830.jpg?width=140&quality=85&auto=format&fit=max&s=b1a604aac0c538ff478354db4d75cdec"
-          },
-          {
-            "title": "Noah Woods died after leaving playground through gap in fence, inquest told",
-            "link": "https://www.theguardian.com/uk-news/2026/sep/25/noah-woods-died-leaving-playground-gap-fence-inquest",
-            "published": "Fri, 25 Sep 2026 13:49:46 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Suffolk UK news England",
-            "image": "https://i.guim.co.uk/img/media/88c1de09840d2ae7c9c192dab0872de4c95cd989/24_438_1322_1057/master/1322.jpg?width=140&quality=85&auto=format&fit=max&s=7333f2bde1b66c07fd85e031961aff74"
           },
           {
             "title": "Why Ed Miliband has embraced his ‘awkward dad’ image in viral TikTok video",
@@ -2088,11 +2088,29 @@
           {
             "title": "Trump told Xi Jinping that China helping Iran is ‘unacceptable’, official says – live",
             "link": "https://www.theguardian.com/us-news/live/2026/sep/25/trump-xi-summit-national-archives-media-politics-live",
-            "published": "Fri, 25 Sep 2026 16:08:40 GMT",
+            "published": "Fri, 25 Sep 2026 17:15:06 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
             "categories": "Donald Trump Trump administration Xi Jinping US foreign policy AI (artificial intelligence) US Congress",
             "image": "https://i.guim.co.uk/img/media/70c7aeeec6b5d74e419adfcc2cc6d5a9ceed831a/544_0_4900_3922/master/4900.jpg?width=140&quality=85&auto=format&fit=max&s=fef3235577002dac800f22c1d5b6123c"
+          },
+          {
+            "title": "Pope Leo warns AI could lead to losing 'humanity amid a paradise of machines' in Paris – video",
+            "link": "https://www.theguardian.com/world/video/2026/sep/25/pope-leo-ai-warning-paris",
+            "published": "Fri, 25 Sep 2026 16:49:55 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Pope Leo XIV The papacy AI (artificial intelligence) Catholicism Technology France World news",
+            "image": "https://i.guim.co.uk/img/media/bda0afa989fbdccf5e1501fceef9d84965bd6fff/0_0_1379_1103/master/1379.jpg?width=140&quality=85&auto=format&fit=max&s=46ef0860af309094e8883f42df8af420"
+          },
+          {
+            "title": "Novelist accused of using AI to write book removed from French prize list",
+            "link": "https://www.theguardian.com/books/2026/sep/25/thelyson-orelien-goncourt-prize-france",
+            "published": "Fri, 25 Sep 2026 16:14:32 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Prix Goncourt Awards and prizes Books Plagiarism Fiction Culture France AI (artificial intelligence) Europe",
+            "image": "https://i.guim.co.uk/img/media/805a53985eeaa5d325b415cdf6ae98f6c248b5b3/624_0_6240_4994/master/6240.jpg?width=140&quality=85&auto=format&fit=max&s=1fdf100b2167842b6ad6758568e180c7"
           },
           {
             "title": "Pope Leo warns of AI threat to humanity at start of three-day France visit",
@@ -2102,24 +2120,6 @@
             "provider": "GUARDIAN",
             "categories": "Pope Leo XIV France Europe World news AI (artificial intelligence) Technology The papacy Catholicism Unesco",
             "image": "https://i.guim.co.uk/img/media/bda0afa989fbdccf5e1501fceef9d84965bd6fff/16_0_1379_1103/master/1379.jpg?width=140&quality=85&auto=format&fit=max&s=4ca1a5352f5e47303462cbba9ba0de1f"
-          },
-          {
-            "title": "OpenAI hack on Australian government reveals anxiety at heart of global artificial intelligence dilemma",
-            "link": "https://www.theguardian.com/technology/2026/sep/26/openai-hack-australian-government-anxiety-global-dilemma-artificial-intelligence",
-            "published": "Fri, 25 Sep 2026 15:12:38 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "AI (artificial intelligence) Technology Australia news Australian politics Anthony Albanese Medicare Australia OpenAI Xi Jinping Donald Trump Trump administration China US news",
-            "image": "https://i.guim.co.uk/img/media/591b29c15ba606604fba069a81f2b12fb4d0bb4f/1208_0_6633_5307/master/6633.jpg?width=140&quality=85&auto=format&fit=max&s=94eb8a5328fd5e84a7c7275fa32edd5e"
-          },
-          {
-            "title": "NSW crackdown on ‘AI-doctored’ real estate listings hits mural-covered wall",
-            "link": "https://www.theguardian.com/australia-news/2026/sep/26/nsw-crackdown-on-ai-doctored-real-estate-listings-hits-mural-covered-wall",
-            "published": "Fri, 25 Sep 2026 15:00:10 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Housing New South Wales Australia news Real estate New South Wales politics AI (artificial intelligence)",
-            "image": "https://i.guim.co.uk/img/media/5ead3e4f327456e3dfc971ac5b40affb74b418ad/425_198_1384_1108/master/1384.jpg?width=140&quality=85&auto=format&fit=max&s=880642d3cc0248cc9e5e679d68a429c1"
           },
           {
             "title": "Price hikes, ads and lower quality: has ‘streamflation’ ruined the TV experience?",
@@ -3030,6 +3030,15 @@
         ],
         "ENTERTAINMENT": [
           {
+            "title": "Liam Gallagher tells fans to ‘stop moaning’ about Oasis ticket prices",
+            "link": "https://metro.co.uk/2026/09/25/liam-gallagher-tells-fans-stop-moaning-oasis-ticket-prices-29654456/",
+            "published": "Fri, 25 Sep 2026 17:17:36 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment Music Liam Gallagher Music Tours Noel Gallagher Oasis",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_311002318-b665.jpg?quality=90&strip=all&w=646"
+          },
+          {
             "title": "I’ve seen Celebrity Traitors series two’s first episode – I have two warnings",
             "link": "https://metro.co.uk/2026/09/25/seen-celebrity-traitors-series-twos-first-episode-two-warnings-29654497/",
             "published": "Fri, 25 Sep 2026 16:31:11 +0000",
@@ -3163,15 +3172,6 @@
             "provider": "METRO",
             "categories": "Entertainment Showbiz Maya Jama Stormzy",
             "image": "https://metro.co.uk/wp-content/uploads/2026/09/comp-1790329718.png?w=646"
-          },
-          {
-            "title": "Ed Sheeran’s cousin leaves Piers Morgan speechless after blistering interview",
-            "link": "https://metro.co.uk/2026/09/25/ed-sheerans-cousin-leaves-piers-morgan-speechless-blistering-interview-29652402/",
-            "published": "Fri, 25 Sep 2026 09:28:07 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Entertainment Showbiz Ed Sheeran Piers Morgan",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/111464057-0-image-m-2_1790325554581.jpg?quality=90&strip=all&w=636"
           },
           {
             "title": "Man rammed a tractor into home ‘after graves of relatives desecrated’",
@@ -3321,7 +3321,7 @@
         "STOCKS": [
           {
             "title": "FTSE 100 edges up as oil fall offsets bond worry",
-            "link": "https://uk.finance.yahoo.com/news/ftse-100-edges-oil-fall-162219663.html?.tsrc=rss",
+            "link": "https://uk.finance.yahoo.com/news/ftse-100-edges-oil-fall-162219549.html?.tsrc=rss",
             "published": "Fri, 25 Sep 2026 16:22:19 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
@@ -3583,7 +3583,7 @@
           {
             "title": "Brookfield-backed Avaada Electro starts roadshows for $793 million India IPO, sources say",
             "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPTE5jRHNTOVFCZmNXQm1NWXpEUWV6dGpldVlmNUM3Wk54SWZuTGxmN01WUWtfZFpTSnFPdHVWWDdIU0d3OU1XV0ZuVlZLbUtvWlR2VU5VNmo2VmppUEVZdXlLODQ2UXliODF5MVlCWklES0VJT3JRNzliUU5ZVVJIWV9BX0tZd2RodjFOeElDZWZaRkoxWXBtUk1jeVJXLU44TFU0Q2VRcUo2Yjd4REx1aVJheVNEN2lVazdlbUpNZzRnUzNaMDRqcFZJNA?oc=5",
-            "published": "Fri, 25 Sep 2026 06:45:43 GMT",
+            "published": "Fri, 25 Sep 2026 06:44:00 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3617,6 +3617,15 @@
             "image": ""
           },
           {
+            "title": "Indian shares post worst day in 10 weeks on oil spike, proposed insurance curbs",
+            "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPRFR1dnlza0cxUU5PbXRVYmRRT19oaHZFS3NmTDZUdHhDUVpIaTJDVDFHYThvSXE3RzNWenBDSUlDUDVCdE51VkpDaXppUEl2M1htMGxsMkxPV3ZaS2d3YVhYVTlFUEphWm45cWVuYTZLYmJ2V0xwT2dtMFkwQXZ5bjVWOVh2UHczVnZUSFQ5NFBrUkJaQTJwRXFoSlY5ajhXaHJXOVd3enFaclR4QUpXODFjMWxjVVE?oc=5",
+            "published": "Thu, 24 Sep 2026 02:39:00 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
             "title": "US stocks fall as 10-year Treasury yield hits highest since 2007",
             "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPSzB2Vlh0Nm9MZUlDRnA2S1pIMUJXWmZtdlZEVUdFRDV2WEJ1U3pLQnJKUFNBU3YyZGxXZ0trVk1tdm9lVFp0aEh5N0VpVUdOZDNWYjRzOTdUVW84bEYwYnZHNEQ1X213dHl5OGlpQWNSUEFkdXRpRC1rUTRDaDRBMFh2Zw?oc=5",
             "published": "Wed, 23 Sep 2026 19:58:39 GMT",
@@ -3638,15 +3647,6 @@
             "title": "Nasdaq reaches record high close, AI stocks rally",
             "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOOUI2bTZ5ZFhnZUozYjg5LXM1WHhuT24xUS0zYmRRZkViWVBreE05ZTNMWFBDSGhHTXUyQ3ZyMWhsUFdxSUlxUXVUUXVHWGRVelg3Z2RuVXo3bndwaXJfRXhEUEFERFNSUVZoaDNERnFxdnhuNkxLdVhnNDRpRGhxYndETzVJdVNnZXJESmpMNmw5QVFQODFGY2w2NzVCcFl0bXBSNjRaTQ?oc=5",
             "published": "Tue, 22 Sep 2026 22:25:27 GMT",
-            "source": "Reuters",
-            "provider": "REUTERS",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "Financial stocks fall with AI and flattening yield curve in focus",
-            "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPejZNajQteTk5RElWNTZRWHR4YV8tdF90N19DelgxWHI0X0RSTFgtRm9GVVQ2bWIzaWJ4SEFwdi1DUmZ6cXQ3dm5rYVRZdjJQaGRxMDRsZ0IyZ19mVDdHN0VlUXdObko1Y2R1Qkx1ekNDYXNnY05oN3lsUnVwYjRobXFXU2hrUEx6T3BES3Vad25fTDk5cHBjWjVFQTE4VWZCWHlkMS1TRkltc281QUVWRw?oc=5",
-            "published": "Tue, 22 Sep 2026 20:52:00 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3680,9 +3680,9 @@
             "image": ""
           },
           {
-            "title": "Gold rises to one-week high, heads for weekly gain on easing oil prices",
-            "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQaEtrczJxeXh5VlUxY1VWWF9xVVdYX0xwZjU4UGlCU19tTV91TzlFdzVyeXJWS0JmNjBVVHo2VVVSa1FwN1RWODJXbko1MkxmQnlwVEZ6eHV5cV9RRno1VHl3Si1OZU51bEgtSV9SeUNOaERzMjdmQ0wwelFVR3lPTWhXV3VlamQwU09XZkFsTlRTb0cyQ0VaaThBWWxIRUwtOFAw?oc=5",
-            "published": "Fri, 18 Sep 2026 18:30:12 GMT",
+            "title": "Saudi, Gulf stocks fall after Houthis claim Riyadh attacks",
+            "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZnFXQ1lvNTg5TnJvazhfY3VXa0hrVms4RW1mdVBpR0k4QXZkempjX0h4Y2JIaGNvSm04YVJkTHRDTWpESVFDakhJMExiNGZSSktLcVFsM3VlM3ZibDQwVlE3czF4OEdLdXdnU0FPaUN1aHFLVWN3cW9uVHRTTDdDU1BNaUNMd3NQMlY5VGZPYzA5ODlMQi1rcWVDXzhFZHJWUF9tQjJqUUtzQW1yc0tYNw?oc=5",
+            "published": "Sun, 20 Sep 2026 12:59:36 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3814,5 +3814,5 @@
       }
     }
   },
-  "stocksUpdated": "2026-09-25T17:03:50.500Z"
+  "stocksUpdated": "2026-09-25T17:19:02.355Z"
 }
