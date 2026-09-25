@@ -1,7 +1,25 @@
 {
-  "updated": "2026-09-25T20:24:07.341Z",
+  "updated": "2026-09-25T21:40:52.507Z",
   "categories": {
     "UK": [
+      {
+        "title": "Rodri breaks silence over Manchester City guilty verdict",
+        "link": "https://metro.co.uk/2026/09/25/rodri-breaks-silence-man-city-guilty-verdict-possible-punishment-29654829/",
+        "published": "Fri, 25 Sep 2026 20:34:09 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Football Sport Arsenal Liverpool FC Manchester City FC Manchester United Pep Guardiola Premier League Rodri",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_314045184-ca03.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Flight to London evacuated after ‘bomb threat’ at airport",
+        "link": "https://metro.co.uk/2026/09/25/flight-london-evacuated-bomb-threat-tenerife-airport-29654730/",
+        "published": "Fri, 25 Sep 2026 20:24:44 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News Flights Jet2 Stansted Airport",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_314039596-7942.jpg?quality=90&strip=all&w=646"
+      },
       {
         "title": "Tyson Fury reveals next fight after Anthony Joshua clash in December",
         "link": "https://metro.co.uk/2026/09/25/tyson-fury-reveals-next-fight-anthony-joshua-clash-december-29654767/",
@@ -19,24 +37,6 @@
         "provider": "METRO",
         "categories": "News UK Crime News Essex",
         "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_313980367-a771.jpg?quality=90&strip=all&w=406"
-      },
-      {
-        "title": "London motorway closed after crash causing 60-minute delays",
-        "link": "https://metro.co.uk/2026/09/25/london-motorway-closed-crash-causing-60-minute-delays-29654764/",
-        "published": "Fri, 25 Sep 2026 19:47:33 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News UK Crash London National Highways",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_314044037-a3ad.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Erling Haaland U-turn made after Manchester City found guilty of Premier League charges",
-        "link": "https://metro.co.uk/2026/09/25/erling-haaland-u-turn-made-man-city-found-guilty-premier-league-charges-29654669/",
-        "published": "Fri, 25 Sep 2026 18:43:47 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Football Sport Arsenal Erling Haaland Liverpool FC Manchester City FC Manchester United Norway Premier League",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_313892505-12bb.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "Overcrowding and racism at Manston asylum centre linked to government decisions, inquiry hears",
@@ -94,6 +94,15 @@
       }
     ],
     "WORLD": [
+      {
+        "title": "Iran says it has given US 'concrete' seven-day plan to reopen Strait of Hormuz",
+        "link": "https://news.sky.com/story/iran-says-it-has-given-us-concrete-seven-day-plan-to-reopen-strait-of-hormuz-13591945",
+        "published": "Fri, 25 Sep 2026 21:36:00 +0100",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-oman-strait-of-hormuz_7359212.jpg?20260923100437"
+      },
       {
         "title": "Foot fetish voyeur caught with thousands of illicit images of schoolgirls’ feet",
         "link": "https://metro.co.uk/2026/09/25/foot-fetish-voyeur-caught-thousands-illicit-images-schoolgirls-feet-29654625/",
@@ -174,15 +183,6 @@
         "provider": "METRO",
         "categories": "News World France Italy NATO Russia Spain Vladimir Putin",
         "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_313797572-2347.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Poland warns people to ready ‘evacuation backpacks’ over rising Russia threat",
-        "link": "https://metro.co.uk/2026/09/24/poland-warns-people-ready-evacuation-backpacks-rising-russia-threat-29649267/",
-        "published": "Thu, 24 Sep 2026 08:34:39 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News World NATO Poland Vladimir Putin",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_313795052-ac80.jpg?quality=90&strip=all&w=646"
       }
     ],
     "POLITICS": [
@@ -373,7 +373,7 @@
       {
         "title": "Trump confirms future meetings with Xi Jinping in China and Florida as Chinese president departs DC – live",
         "link": "https://www.theguardian.com/us-news/live/2026/sep/25/trump-xi-summit-national-archives-media-politics-live",
-        "published": "Fri, 25 Sep 2026 19:56:53 GMT",
+        "published": "Fri, 25 Sep 2026 20:54:55 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
         "categories": "Donald Trump Trump administration Xi Jinping US foreign policy AI (artificial intelligence) US Congress",
@@ -555,45 +555,36 @@
     ],
     "STOCKS": [
       {
+        "title": "PTC Therapeutics Reports Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
+        "link": "https://finance.yahoo.com/healthcare/articles/ptc-therapeutics-reports-inducement-grants-203000661.html?.tsrc=rss",
+        "published": "Fri, 25 Sep 2026 20:30:00 +0000",
+        "source": "Yahoo Finance",
+        "provider": "YAHOO",
+        "categories": "",
+        "image": ""
+      },
+      {
+        "title": "Stock Market Today: Dow Surges 450 Points On U.S.-Iran Peace Hopes; Micron Rises",
+        "link": "https://uk.finance.yahoo.com/m/225d690f-7913-3ffb-a43f-d4610f997f55/stock-market-today%3A-dow.html?.tsrc=rss",
+        "published": "Fri, 25 Sep 2026 20:21:11 +0000",
+        "source": "Yahoo Finance",
+        "provider": "YAHOO",
+        "categories": "",
+        "image": ""
+      },
+      {
+        "title": "Stocks End Volatile Week With Solid Gains",
+        "link": "https://uk.finance.yahoo.com/m/055d2755-3fa3-3978-88ef-67d4fcaa4dc1/stocks-end-volatile-week-with.html?.tsrc=rss",
+        "published": "Fri, 25 Sep 2026 20:02:40 +0000",
+        "source": "Yahoo Finance",
+        "provider": "YAHOO",
+        "categories": "",
+        "image": ""
+      },
+      {
         "title": "HUB Cyber Security Announces Receipt of Nasdaq Notification Regarding Market Value of Listed Securities Requirement",
         "link": "https://finance.yahoo.com/markets/stocks/articles/hub-cyber-security-announces-receipt-200000955.html?.tsrc=rss",
         "published": "Fri, 25 Sep 2026 20:00:00 +0000",
-        "source": "Yahoo Finance",
-        "provider": "YAHOO",
-        "categories": "",
-        "image": ""
-      },
-      {
-        "title": "Stock Market Today: Dow Gains 400 Points On U.S-Iran Peace Hopes; Micron Rises (Live Coverage)",
-        "link": "https://uk.finance.yahoo.com/m/225d690f-7913-3ffb-a43f-d4610f997f55/stock-market-today%3A-dow-gains.html?.tsrc=rss",
-        "published": "Fri, 25 Sep 2026 19:37:41 +0000",
-        "source": "Yahoo Finance",
-        "provider": "YAHOO",
-        "categories": "",
-        "image": ""
-      },
-      {
-        "title": "Small-Cap Stocks Are Struggling. The Case for Going Even Smaller.",
-        "link": "https://uk.finance.yahoo.com/m/de7b83a3-09f2-3fac-9d3d-fe18e58e3cf5/small-cap-stocks-are.html?.tsrc=rss",
-        "published": "Fri, 25 Sep 2026 19:30:00 +0000",
-        "source": "Yahoo Finance",
-        "provider": "YAHOO",
-        "categories": "",
-        "image": ""
-      },
-      {
-        "title": "3 Reasons RCL is Risky and 1 Stock to Buy Instead",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-rcl-risky-1-191237615.html?.tsrc=rss",
-        "published": "Fri, 25 Sep 2026 19:12:37 +0000",
-        "source": "Yahoo Finance",
-        "provider": "YAHOO",
-        "categories": "",
-        "image": ""
-      },
-      {
-        "title": "3 Reasons MHK is Risky and 1 Stock to Buy Instead",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-mhk-risky-1-190437929.html?.tsrc=rss",
-        "published": "Fri, 25 Sep 2026 19:04:37 +0000",
         "source": "Yahoo Finance",
         "provider": "YAHOO",
         "categories": "",
@@ -607,6 +598,15 @@
         "provider": "MAGPIE",
         "categories": "Growth Shares Investing Articles",
         "image": "https://www.twelfthmagpie.com/wp-content/uploads/2024/02/Wealthy-and-successful-1200x675.jpg"
+      },
+      {
+        "title": "EXCLUSIVE: SK Hynix's Solidigm weighs IPO that could value the unit at up to $150 billion, sources say",
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONVZiMlVqNDFIWFN0ZWQtUHRjY0dMRzBDTlJrQ0l2dkhaeHJJWWdfWVpBRG54NFh4ZTZ5emlWSm0wYzBMT2ZhX2Znb1UzSFN2SkY2NGxReW51OHN3VkR4ZVRxQkhuN2lWYVVNSGVvcjVzOVd6XzQ4MFEtcnBxaVFmT1NxU1l6VU96bExMTWNtWVZMTFhlTHRGd2tNRUhEZ0ZWcVVENmdTcnNzZjUtMmpJOV9fZU5lS2o0WGttWQ?oc=5",
+        "published": "Fri, 25 Sep 2026 16:51:14 GMT",
+        "source": "Reuters",
+        "provider": "REUTERS",
+        "categories": "",
+        "image": ""
       },
       {
         "title": "I’ve held Roll-Royce shares for 3 years. Should investors consider them today?",
@@ -627,22 +627,22 @@
         "image": "https://www.twelfthmagpie.com/wp-content/uploads/2024/07/Portfolio-refresh-1200x800.jpg"
       },
       {
-        "title": "I think these could be the must-have passive income stocks of 2040",
-        "link": "https://www.twelfthmagpie.com/2026/09/25/i-think-these-could-be-the-must-have-passive-income-stocks-of-2040/",
-        "published": "Fri, 25 Sep 2026 09:30:04 +0000",
-        "source": "The Twelfth Magpie",
-        "provider": "MAGPIE",
-        "categories": "Investing Articles US Stock",
-        "image": "https://www.twelfthmagpie.com/wp-content/uploads/2026/06/AdobeStock_163906572-1200x688.jpeg"
+        "title": "Brookfield-backed Avaada Electro starts roadshows for $793 million India IPO, sources say",
+        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPTE5jRHNTOVFCZmNXQm1NWXpEUWV6dGpldVlmNUM3Wk54SWZuTGxmN01WUWtfZFpTSnFPdHVWWDdIU0d3OU1XV0ZuVlZLbUtvWlR2VU5VNmo2VmppUEVZdXlLODQ2UXliODF5MVlCWklES0VJT3JRNzliUU5ZVVJIWV9BX0tZd2RodjFOeElDZWZaRkoxWXBtUk1jeVJXLU44TFU0Q2VRcUo2Yjd4REx1aVJheVNEN2lVazdlbUpNZzRnUzNaMDRqcFZJNA?oc=5",
+        "published": "Fri, 25 Sep 2026 06:45:43 GMT",
+        "source": "Reuters",
+        "provider": "REUTERS",
+        "categories": "",
+        "image": ""
       },
       {
-        "title": "Prediction: 3 ETFs I think can DOUBLE again over the next 5 years (or less)!",
-        "link": "https://www.twelfthmagpie.com/2026/09/25/3-etfs-that-could-double-again-over-the-next-5-years/",
-        "published": "Fri, 25 Sep 2026 09:26:06 +0000",
-        "source": "The Twelfth Magpie",
-        "provider": "MAGPIE",
-        "categories": "Investing Articles Investing For Beginners",
-        "image": "https://www.twelfthmagpie.com/wp-content/uploads/2023/04/ETFs-1200x675.jpg"
+        "title": "India shares log longest weekly losing run since 2020 as oil prices bite",
+        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRDlIOXFjNzhyRGVteU5DNTJCdVlRNUZEY3VObFdZNDI1MDU2SUo0NEM1N1JDTHpDMTk0YU9OM2V1eXRla1VaanBsTTlUM1lWR3VYU0g1eG5pM21hNzFWQTdabWphemRRMlc1U09MdWxVRVNLUWxjd3pIODVuY2UtcFE0dEhPTUM2MU1pbHNOQ1NnOUQtME1TTDJjSzJzOGljZTRmN0NBZ2Q0S1VodGZaSXFxZU1VTGNnanc3a0o0anM?oc=5",
+        "published": "Fri, 25 Sep 2026 02:18:00 GMT",
+        "source": "Reuters",
+        "provider": "REUTERS",
+        "categories": "",
+        "image": ""
       }
     ]
   },
@@ -719,11 +719,10 @@
         "count": 10,
         "liveProviders": [
           "MAGPIE",
-          "YAHOO"
-        ],
-        "failedProviders": [
+          "YAHOO",
           "REUTERS"
         ],
+        "failedProviders": [],
         "retainedPrevious": 0,
         "sourceHealth": {
           "MAGPIE": {
@@ -731,7 +730,7 @@
             "count": 10,
             "retainedPrevious": 0,
             "errors": [
-              "https://news.google.com/rss/search?q=stocks%20OR%20shares%20OR%20FTSE%20source%3A%22The%20Twelfth%20Magpie%22%20when%3A7d&hl=en-GB&gl=GB&ceid=GB:en: 503 Service Unavailable"
+              "https://news.google.com/rss/search?q=stocks%20OR%20shares%20OR%20FTSE%20source%3A%22The%20Twelfth%20Magpie%22%20when%3A7d&hl=en-GB&gl=GB&ceid=GB:en: no relevant articles"
             ]
           },
           "YAHOO": {
@@ -743,12 +742,11 @@
             ]
           },
           "REUTERS": {
-            "ok": false,
-            "count": 0,
-            "retainedPrevious": 12,
+            "ok": true,
+            "count": 12,
+            "retainedPrevious": 0,
             "errors": [
-              "https://www.reuters.com/arc/outboundfeeds/v3/all/?outputType=xml: 404 Not Found",
-              "https://news.google.com/rss/search?q=stocks%20OR%20shares%20OR%20markets%20source%3AReuters%20when%3A7d&hl=en-GB&gl=GB&ceid=GB:en: 503 Service Unavailable"
+              "https://www.reuters.com/arc/outboundfeeds/v3/all/?outputType=xml: 404 Not Found"
             ]
           }
         }
@@ -851,6 +849,15 @@
           }
         ],
         "WORLD": [
+          {
+            "title": "Iran says it has given US 'concrete' seven-day plan to reopen Strait of Hormuz",
+            "link": "https://news.sky.com/story/iran-says-it-has-given-us-concrete-seven-day-plan-to-reopen-strait-of-hormuz-13591945",
+            "published": "Fri, 25 Sep 2026 21:36:00 +0100",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-oman-strait-of-hormuz_7359212.jpg?20260923100437"
+          },
           {
             "title": "Man shot during Trump assassination attempt dies",
             "link": "https://news.sky.com/story/man-shot-during-trump-assassination-attempt-in-butler-pennsylvania-dies-13591687",
@@ -1273,7 +1280,7 @@
         },
         "WORLD": {
           "ok": true,
-          "count": 8
+          "count": 9
         },
         "POLITICS": {
           "ok": true,
@@ -2090,7 +2097,7 @@
           {
             "title": "Trump confirms future meetings with Xi Jinping in China and Florida as Chinese president departs DC – live",
             "link": "https://www.theguardian.com/us-news/live/2026/sep/25/trump-xi-summit-national-archives-media-politics-live",
-            "published": "Fri, 25 Sep 2026 19:56:53 GMT",
+            "published": "Fri, 25 Sep 2026 20:54:55 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
             "categories": "Donald Trump Trump administration Xi Jinping US foreign policy AI (artificial intelligence) US Congress",
@@ -2419,6 +2426,15 @@
       "categories": {
         "UK": [
           {
+            "title": "Flight to London evacuated after ‘bomb threat’ at airport",
+            "link": "https://metro.co.uk/2026/09/25/flight-london-evacuated-bomb-threat-tenerife-airport-29654730/",
+            "published": "Fri, 25 Sep 2026 20:24:44 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News Flights Jet2 Stansted Airport",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_314039596-7942.jpg?quality=90&strip=all&w=646"
+          },
+          {
             "title": "Foot fetish voyeur caught with thousands of illicit images of schoolgirls’ feet",
             "link": "https://metro.co.uk/2026/09/25/foot-fetish-voyeur-caught-thousands-illicit-images-schoolgirls-feet-29654625/",
             "published": "Fri, 25 Sep 2026 19:50:25 +0000",
@@ -2554,6 +2570,15 @@
             "image": "https://metro.co.uk/wp-content/uploads/2026/09/coverimages56046164-5b55-e1790326930816.jpg?quality=90&strip=all&w=646"
           },
           {
+            "title": "Rodri breaks silence over Manchester City guilty verdict",
+            "link": "https://metro.co.uk/2026/09/25/rodri-breaks-silence-man-city-guilty-verdict-possible-punishment-29654829/",
+            "published": "Fri, 25 Sep 2026 20:34:09 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Football Sport Arsenal Liverpool FC Manchester City FC Manchester United Pep Guardiola Premier League Rodri",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_314045184-ca03.jpg?quality=90&strip=all&w=646"
+          },
+          {
             "title": "Tyson Fury reveals next fight after Anthony Joshua clash in December",
             "link": "https://metro.co.uk/2026/09/25/tyson-fury-reveals-next-fight-anthony-joshua-clash-december-29654767/",
             "published": "Fri, 25 Sep 2026 19:55:04 +0000",
@@ -2579,24 +2604,6 @@
             "provider": "METRO",
             "categories": "Food Lifestyle Foodie The Great British Bake Off Trends",
             "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_314024695-8479.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Holland & Barrett shoppers can save up to 50% on skincare, supplements and wellness buys",
-            "link": "https://metro.co.uk/2026/09/25/supplements-skincare-holland-barrett-offers-worth-shopping-29653282/",
-            "published": "Fri, 25 Sep 2026 17:00:00 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Lifestyle Shopping Deals Health Advice Metro newspaper",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_314003597-648a.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "I had to interrupt sex to watch Practical Magic with my terrified boyfriend",
-            "link": "https://metro.co.uk/2026/09/25/interrupt-sex-watch-practical-magic-terrified-boyfriend-29650712/",
-            "published": "Fri, 25 Sep 2026 17:00:00 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Lifestyle Sex Friendship Nicole Kidman Opinion Relationships Romance Sandra Bullock",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_313829954-9e80-e1790257504851.jpg?quality=90&strip=all&w=646"
           }
         ],
         "WORLD": [
@@ -3349,6 +3356,33 @@
         "STOCK_MARKET": [],
         "STOCKS": [
           {
+            "title": "PTC Therapeutics Reports Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
+            "link": "https://finance.yahoo.com/healthcare/articles/ptc-therapeutics-reports-inducement-grants-203000661.html?.tsrc=rss",
+            "published": "Fri, 25 Sep 2026 20:30:00 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "Stock Market Today: Dow Surges 450 Points On U.S.-Iran Peace Hopes; Micron Rises",
+            "link": "https://uk.finance.yahoo.com/m/225d690f-7913-3ffb-a43f-d4610f997f55/stock-market-today%3A-dow.html?.tsrc=rss",
+            "published": "Fri, 25 Sep 2026 20:21:11 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "Stocks End Volatile Week With Solid Gains",
+            "link": "https://uk.finance.yahoo.com/m/055d2755-3fa3-3978-88ef-67d4fcaa4dc1/stocks-end-volatile-week-with.html?.tsrc=rss",
+            "published": "Fri, 25 Sep 2026 20:02:40 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
             "title": "HUB Cyber Security Announces Receipt of Nasdaq Notification Regarding Market Value of Listed Securities Requirement",
             "link": "https://finance.yahoo.com/markets/stocks/articles/hub-cyber-security-announces-receipt-200000955.html?.tsrc=rss",
             "published": "Fri, 25 Sep 2026 20:00:00 +0000",
@@ -3358,9 +3392,9 @@
             "image": ""
           },
           {
-            "title": "Stock Market Today: Dow Gains 400 Points On U.S-Iran Peace Hopes; Micron Rises (Live Coverage)",
-            "link": "https://uk.finance.yahoo.com/m/225d690f-7913-3ffb-a43f-d4610f997f55/stock-market-today%3A-dow-gains.html?.tsrc=rss",
-            "published": "Fri, 25 Sep 2026 19:37:41 +0000",
+            "title": "How Meta’s Muse Saved the Market—While Savaging These Stocks",
+            "link": "https://uk.finance.yahoo.com/m/895d7a4d-fcea-3113-bc24-edcffda5358b/how-meta%E2%80%99s-muse-saved-the.html?.tsrc=rss",
+            "published": "Fri, 25 Sep 2026 19:58:00 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
@@ -3424,33 +3458,6 @@
             "title": "Rubico Announces Record Date of Monday, September 28 and Ex-Dividend Date of Tuesday, October 6 for Previously-Announced 0.50 Common Shares Per Common Share Stock Dividend",
             "link": "https://finance.yahoo.com/markets/stocks/articles/rubico-announces-record-date-monday-175900166.html?.tsrc=rss",
             "published": "Fri, 25 Sep 2026 17:59:00 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "GOWell Technology Limited and Inflection Point Acquisition Corp. V Announce Closing of Business Combination",
-            "link": "https://finance.yahoo.com/energy/articles/gowell-technology-limited-inflection-point-173000154.html?.tsrc=rss",
-            "published": "Fri, 25 Sep 2026 17:30:00 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "2 Reasons to Avoid QCRH and 1 Stock to Buy Instead",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/2-reasons-avoid-qcrh-1-172837043.html?.tsrc=rss",
-            "published": "Fri, 25 Sep 2026 17:28:37 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "The Cheapest Stocks in the S&P 500: Are They a Bargain or a Trap?",
-            "link": "https://uk.finance.yahoo.com/m/b868f1c9-2e82-3e94-9519-13e82564e5a2/the-cheapest-stocks-in-the.html?.tsrc=rss",
-            "published": "Fri, 25 Sep 2026 17:27:00 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
@@ -3610,9 +3617,18 @@
         ],
         "STOCKS": [
           {
+            "title": "EXCLUSIVE: SK Hynix's Solidigm weighs IPO that could value the unit at up to $150 billion, sources say",
+            "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONVZiMlVqNDFIWFN0ZWQtUHRjY0dMRzBDTlJrQ0l2dkhaeHJJWWdfWVpBRG54NFh4ZTZ5emlWSm0wYzBMT2ZhX2Znb1UzSFN2SkY2NGxReW51OHN3VkR4ZVRxQkhuN2lWYVVNSGVvcjVzOVd6XzQ4MFEtcnBxaVFmT1NxU1l6VU96bExMTWNtWVZMTFhlTHRGd2tNRUhEZ0ZWcVVENmdTcnNzZjUtMmpJOV9fZU5lS2o0WGttWQ?oc=5",
+            "published": "Fri, 25 Sep 2026 16:51:14 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
             "title": "Brookfield-backed Avaada Electro starts roadshows for $793 million India IPO, sources say",
             "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPTE5jRHNTOVFCZmNXQm1NWXpEUWV6dGpldVlmNUM3Wk54SWZuTGxmN01WUWtfZFpTSnFPdHVWWDdIU0d3OU1XV0ZuVlZLbUtvWlR2VU5VNmo2VmppUEVZdXlLODQ2UXliODF5MVlCWklES0VJT3JRNzliUU5ZVVJIWV9BX0tZd2RodjFOeElDZWZaRkoxWXBtUk1jeVJXLU44TFU0Q2VRcUo2Yjd4REx1aVJheVNEN2lVazdlbUpNZzRnUzNaMDRqcFZJNA?oc=5",
-            "published": "Fri, 25 Sep 2026 06:44:00 GMT",
+            "published": "Fri, 25 Sep 2026 06:45:43 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3622,6 +3638,15 @@
             "title": "India shares log longest weekly losing run since 2020 as oil prices bite",
             "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRDlIOXFjNzhyRGVteU5DNTJCdVlRNUZEY3VObFdZNDI1MDU2SUo0NEM1N1JDTHpDMTk0YU9OM2V1eXRla1VaanBsTTlUM1lWR3VYU0g1eG5pM21hNzFWQTdabWphemRRMlc1U09MdWxVRVNLUWxjd3pIODVuY2UtcFE0dEhPTUM2MU1pbHNOQ1NnOUQtME1TTDJjSzJzOGljZTRmN0NBZ2Q0S1VodGZaSXFxZU1VTGNnanc3a0o0anM?oc=5",
             "published": "Fri, 25 Sep 2026 02:18:00 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "Oil prices slide about 2% as US, Iran explore path out of war",
+            "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQV3EzX3oydnQxRk5Ld1BKbk82ek14ZVdyLVpTdldjdEpqeDJfTVZ2Q0F1TnhvaWlhR1p0Z3hScDV0S2Z1UFR5OXhKSWk3NmtqTzd0SkJfa2RLRFpOOUlEcE5mR1d4Z21Td2FCQVZqNHV1eDloQkplT1NHaHhyTDlqOG5DYlFFdnRERThxNU0yX29LcTRyal9pMHQ4ZzNoU0VKZkdHN2hFYjhCZUpZZ3d2am11SDJYYVBiN0JxWVBtczNRYkh1?oc=5",
+            "published": "Fri, 25 Sep 2026 01:11:00 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3666,7 +3691,16 @@
           {
             "title": "Dollar jumps to near two-month high on Fed outlook, inflation concern",
             "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZ09vVklTVy1TeFR1N3AzZE9MUHJnb0dWeTVVUXJOS1N1dE1lT0ZSX1BSZ3RnMzVoVTdXTHhldmxGZkhCYkVTaHRMLWFrU2FUQVJhbzZHWld6TnZ5OFdXTGNDWXNUbTl1NE9qSmV5a3ZiQ0FUa3laZUdZVjRZZmNwazFoNDlKVHlkdEVQdzVLM01pb3M0S0x2VkFqN0dJRzhOLVZkenlmQzNxTVRVVm9reFRUN1psM1ZkbW1ycUhYU0VMM28?oc=5",
-            "published": "Wed, 23 Sep 2026 19:58:39 GMT",
+            "published": "Wed, 23 Sep 2026 19:49:06 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "Indian shares fall as IT drags; oil slides ahead of potential US-Iran talks",
+            "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQXlPVWFzejJKbzBBSVA5ZFhMbUdTZ0VVS1RZVXBpMlJRZC1Lak9aNmdldDEwdVZ1RGlPMjlUUFdFSGdocFlTbVpjLTFLcXJsN2VqTFhVZ1d0YmYwLTBUNG9tUHVmWEs2Q1E3em4za29OcHo3MFk2Q0twV3M5WFB4Q2ppeW9LVnd3SzJ2SHhLN1N6MTI4YVU0dDBuS0htU3R5SW9maHVnR2NDUFlManVqYTRidGZiYzVv?oc=5",
+            "published": "Wed, 23 Sep 2026 07:57:25 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3682,36 +3716,9 @@
             "image": ""
           },
           {
-            "title": "Nasdaq notches record-high close, AI optimism reignites and Treasury yields retreat",
-            "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbUY0bG1IQkExN3pxSFZoX1VGN0hTNkluZ1hFd1F6VzZwdWtPRExzOXRnS0prRjV1M0I3U2tfUnhZcmJSQkV6STFKbUo2YXB6S1RhNUkycUFJUXg3UXA0WW9CWkRYaVVVUGRqRmRtUERCU1I4M3ZMYXhETmY1Q3FZQU9Ob1MtMzRONFc3NVFrNzVpcTQySVRzd1dENmcxdw?oc=5",
-            "published": "Mon, 21 Sep 2026 23:12:31 GMT",
-            "source": "Reuters",
-            "provider": "REUTERS",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "Nasdaq hits record high as chipmakers fuel stock gains",
-            "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQUUdXdXVKYkpsa2JoQmRNeVpVWWhwb1pIVmUwcUl0QVRFVEFjRDJtREJPbXJWaXVEc0NQSWZZUlhwTl80T3h4eGM1dE9oaXRsWlVueWx0MWt3YXlWbV9PYkZDWVVPb1ZveThvalZfWnBvQ2J5Sjg1UkNOQmU5eDdWN0FvVQ?oc=5",
-            "published": "Mon, 21 Sep 2026 17:57:37 GMT",
-            "source": "Reuters",
-            "provider": "REUTERS",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "Vietnam joins FTSE Russell emerging market benchmark",
-            "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPalJiSUdYcGJXanE0VjhNWFhPejJQQlNOVlc1akp0Qm9sZHg1TW5WMkdHX1BzRURaeHhsT0N4Vmg4Yy02b2ctWjFOY3p0eWRBODFROGk2d2JGejB4V3Q1VlcxbkRrT0FUcndwV0xZLWJJR0h0VTZoYUl6d2NKQzQ0LVVpQkNhNUwydnVrWVE4NElZUlRjR3QzdUdIVVFPRjVTaEk0N1VKd2pXbUE?oc=5",
-            "published": "Mon, 21 Sep 2026 00:54:00 GMT",
-            "source": "Reuters",
-            "provider": "REUTERS",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "Saudi, Gulf stocks fall after Houthis claim Riyadh attacks",
-            "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZnFXQ1lvNTg5TnJvazhfY3VXa0hrVms4RW1mdVBpR0k4QXZkempjX0h4Y2JIaGNvSm04YVJkTHRDTWpESVFDakhJMExiNGZSSktLcVFsM3VlM3ZibDQwVlE3czF4OEdLdXdnU0FPaUN1aHFLVWN3cW9uVHRTTDdDU1BNaUNMd3NQMlY5VGZPYzA5ODlMQi1rcWVDXzhFZHJWUF9tQjJqUUtzQW1yc0tYNw?oc=5",
-            "published": "Sun, 20 Sep 2026 12:59:36 GMT",
+            "title": "Financial stocks fall with AI and flattening yield curve in focus",
+            "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPejZNajQteTk5RElWNTZRWHR4YV8tdF90N19DelgxWHI0X0RSTFgtRm9GVVQ2bWIzaWJ4SEFwdi1DUmZ6cXQ3dm5rYVRZdjJQaGRxMDRsZ0IyZ19mVDdHN0VlUXdObko1Y2R1Qkx1ekNDYXNnY05oN3lsUnVwYjRobXFXU2hrUEx6T3BES3Vad25fTDk5cHBjWjVFQTE4VWZCWHlkMS1TRkltc281QUVWRw?oc=5",
+            "published": "Tue, 22 Sep 2026 20:52:00 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3727,12 +3734,11 @@
           "errors": []
         },
         "STOCKS": {
-          "ok": false,
-          "count": 0,
-          "retainedPrevious": 12,
+          "ok": true,
+          "count": 12,
+          "retainedPrevious": 0,
           "errors": [
-            "https://www.reuters.com/arc/outboundfeeds/v3/all/?outputType=xml: 404 Not Found",
-            "https://news.google.com/rss/search?q=stocks%20OR%20shares%20OR%20markets%20source%3AReuters%20when%3A7d&hl=en-GB&gl=GB&ceid=GB:en: 503 Service Unavailable"
+            "https://www.reuters.com/arc/outboundfeeds/v3/all/?outputType=xml: 404 Not Found"
           ]
         }
       }
@@ -3838,11 +3844,11 @@
           "count": 10,
           "retainedPrevious": 0,
           "errors": [
-            "https://news.google.com/rss/search?q=stocks%20OR%20shares%20OR%20FTSE%20source%3A%22The%20Twelfth%20Magpie%22%20when%3A7d&hl=en-GB&gl=GB&ceid=GB:en: 503 Service Unavailable"
+            "https://news.google.com/rss/search?q=stocks%20OR%20shares%20OR%20FTSE%20source%3A%22The%20Twelfth%20Magpie%22%20when%3A7d&hl=en-GB&gl=GB&ceid=GB:en: no relevant articles"
           ]
         }
       }
     }
   },
-  "stocksUpdated": "2026-09-25T20:24:26.978Z"
+  "stocksUpdated": "2026-09-25T21:40:59.204Z"
 }
