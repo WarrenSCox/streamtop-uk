@@ -1,7 +1,34 @@
 {
-  "updated": "2026-09-25T21:40:52.507Z",
+  "updated": "2026-09-25T23:29:01.864Z",
   "categories": {
     "UK": [
+      {
+        "title": "At least 13 killed after plane crashes in emergency landing near homes",
+        "link": "https://metro.co.uk/2026/09/25/least-13-killed-plane-crashes-emergency-landing-near-homes-29654843/",
+        "published": "Fri, 25 Sep 2026 22:02:02 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News World Crash Flights",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_314065741-75b2.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "10 men jailed for 130 years after setting a mother and girl, 13, on fire",
+        "link": "https://metro.co.uk/2026/09/25/10-men-jailed-130-years-setting-a-mother-girl-13-fire-29654837/",
+        "published": "Fri, 25 Sep 2026 21:53:35 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News UK Crime News Staffordshire",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/09/image-154f.png?w=481"
+      },
+      {
+        "title": "UK player wins £111,000,000 EuroMillions jackpot",
+        "link": "https://metro.co.uk/2026/09/25/uk-player-wins-111-000-000-euromillions-jackpot-29654867/",
+        "published": "Fri, 25 Sep 2026 21:47:17 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News UK EuroMillions",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_123681753-d351.jpg?quality=90&strip=all&w=646"
+      },
       {
         "title": "Rodri breaks silence over Manchester City guilty verdict",
         "link": "https://metro.co.uk/2026/09/25/rodri-breaks-silence-man-city-guilty-verdict-possible-punishment-29654829/",
@@ -10,33 +37,6 @@
         "provider": "METRO",
         "categories": "Football Sport Arsenal Liverpool FC Manchester City FC Manchester United Pep Guardiola Premier League Rodri",
         "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_314045184-ca03.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Flight to London evacuated after ‘bomb threat’ at airport",
-        "link": "https://metro.co.uk/2026/09/25/flight-london-evacuated-bomb-threat-tenerife-airport-29654730/",
-        "published": "Fri, 25 Sep 2026 20:24:44 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News Flights Jet2 Stansted Airport",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_314039596-7942.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Tyson Fury reveals next fight after Anthony Joshua clash in December",
-        "link": "https://metro.co.uk/2026/09/25/tyson-fury-reveals-next-fight-anthony-joshua-clash-december-29654767/",
-        "published": "Fri, 25 Sep 2026 19:55:04 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Boxing Sport Anthony Joshua Eddie Hearn Oleksandr Usyk Tyson Fury",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/09/Tyson-Fury-a9eb.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Foot fetish voyeur caught with thousands of illicit images of schoolgirls’ feet",
-        "link": "https://metro.co.uk/2026/09/25/foot-fetish-voyeur-caught-thousands-illicit-images-schoolgirls-feet-29654625/",
-        "published": "Fri, 25 Sep 2026 19:50:25 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News UK Crime News Essex",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_313980367-a771.jpg?quality=90&strip=all&w=406"
       },
       {
         "title": "Overcrowding and racism at Manston asylum centre linked to government decisions, inquiry hears",
@@ -95,6 +95,24 @@
     ],
     "WORLD": [
       {
+        "title": "Jodie sobs amid big Christina shock as new Coronation Street spoiler videos reveal what’s next",
+        "link": "https://metro.co.uk/2026/09/25/new-coronation-street-spoiler-videos-jodie-sobs-amid-big-christina-shock-29653482/",
+        "published": "Fri, 25 Sep 2026 22:59:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Coronation Street Soaps Amy Robbins Christina Boyd Jodie Ramsey Jude Riordan Olivia Frances-Brown Sam Blakeman",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_313970161-8cd0.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Michigan CEO loses job after posting AI-made image of her family in ‘Lake America’ sweaters",
+        "link": "https://www.theguardian.com/us-news/2026/sep/25/michigan-ceo-loses-job-lake-america-photo",
+        "published": "Fri, 25 Sep 2026 22:21:15 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Michigan US politics US news Donald Trump Canada Americas World news",
+        "image": "https://i.guim.co.uk/img/media/e44905997f5cadb38f09f93a87fc8f2f8d371861/74_0_4006_3207/master/4006.jpg?width=140&quality=85&auto=format&fit=max&s=b6a2b12afea94fdfae2d6bbc2e3d77ac"
+      },
+      {
         "title": "Iran says it has given US 'concrete' seven-day plan to reopen Strait of Hormuz",
         "link": "https://news.sky.com/story/iran-says-it-has-given-us-concrete-seven-day-plan-to-reopen-strait-of-hormuz-13591945",
         "published": "Fri, 25 Sep 2026 21:36:00 +0100",
@@ -131,15 +149,6 @@
         "image": "https://i.guim.co.uk/img/media/591b29c15ba606604fba069a81f2b12fb4d0bb4f/1208_0_6633_5307/master/6633.jpg?width=140&quality=85&auto=format&fit=max&s=94eb8a5328fd5e84a7c7275fa32edd5e"
       },
       {
-        "title": "‘Robust little’ vessel begins treacherous 22,000km journey around Antarctica in the name of climate science",
-        "link": "https://www.theguardian.com/environment/2026/sep/26/saildrone-unmanned-hurricane-proof-ship-antarctica-climate-hobart",
-        "published": "Fri, 25 Sep 2026 15:00:11 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Climate crisis Environment Australia news Antarctica",
-        "image": "https://i.guim.co.uk/img/media/48058fa72e0165f663864dc596b32a55a904c0c3/455_1450_8422_6738/master/8422.jpg?width=140&quality=85&auto=format&fit=max&s=507ab39b4e48e21607f1c470e8032ac0"
-      },
-      {
         "title": "Pope greets Paris crowds in popemobile as he warns of AI risks",
         "link": "https://news.sky.com/story/pope-greets-paris-crowds-in-popemobile-as-he-warns-of-ai-risks-13591817",
         "published": "Fri, 25 Sep 2026 14:46:00 +0100",
@@ -156,15 +165,6 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/09/1920x1080/skynews-james-copenhaver-assassination_7360963.jpg?20260925104613"
-      },
-      {
-        "title": "Powerful explosion in Athens destroys building near Acropolis",
-        "link": "https://news.sky.com/story/powerful-explosion-in-athens-destroys-building-near-acropolis-13591684",
-        "published": "Fri, 25 Sep 2026 09:11:00 +0100",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-explosion-athens-greece_7360871.jpg?20260925081740"
       },
       {
         "title": "All the nations that walked out of Netanyahu’s UN speech",
@@ -186,6 +186,15 @@
       }
     ],
     "POLITICS": [
+      {
+        "title": "Ian’s EastEnders prison story is finally picked up again as he gets a visitor",
+        "link": "https://metro.co.uk/2026/09/25/ians-eastenders-prison-story-finally-picked-gets-a-visitor-29648792/",
+        "published": "Fri, 25 Sep 2026 22:59:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "EastEnders Soaps Adam Woodyatt Ian Beale Peter Beale Thomas Law",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/08/SEI_307267304-c544.jpg?quality=90&strip=all&w=646"
+      },
       {
         "title": "Martin Rowson on Donald Trump's meeting with Xi Jinping – cartoon",
         "link": "https://www.theguardian.com/commentisfree/picture/2026/sep/25/martin-rowson-donald-trump-meeting-xi-jinping-cartoon",
@@ -212,15 +221,6 @@
         "provider": "GUARDIAN",
         "categories": "Labour John Healey Politics Budget 2026 Economic policy UK news Budget Business Economics",
         "image": "https://i.guim.co.uk/img/media/6b683b2fc67e992b40238fe7b14f8c21cac5bd12/463_92_1968_1575/master/1968.jpg?width=140&quality=85&auto=format&fit=max&s=c07fd9190891ad8f2894c67fa3218186"
-      },
-      {
-        "title": "Why Ed Miliband has embraced his ‘awkward dad’ image in viral TikTok video",
-        "link": "https://www.theguardian.com/politics/2026/sep/25/why-ed-miliband-has-embraced-his-awkward-dad-image-in-viral-tiktok-video",
-        "published": "Fri, 25 Sep 2026 16:22:55 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Ed Miliband Labour Politics UK news",
-        "image": "https://i.guim.co.uk/img/media/7662e3abcc40d2fc4c564a7c92e0fc62189debc4/0_1_5000_3998/master/5000.png?width=140&quality=85&auto=format&fit=max&s=1f0642d767df9ff05676e8b8c6fba9d6"
       },
       {
         "title": "Andy Burnham rules out plunging country into early general election",
@@ -371,22 +371,40 @@
     ],
     "TECH": [
       {
-        "title": "Trump confirms future meetings with Xi Jinping in China and Florida as Chinese president departs DC – live",
+        "title": "Daily horoscope September 26, 2026: Today’s predictions for your star sign",
+        "link": "https://metro.co.uk/2026/09/26/daily-horoscope-september-26-2026-predictions-star-sign-29653747/",
+        "published": "Fri, 25 Sep 2026 23:01:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Horoscopes Lifestyle Aquarius Aries Astrology Cancer (star sign) Capricorn Gemini Leo Libra Pisces Sagittarius Scorpio Taurus Virgo",
+        "image": "https://metro.co.uk/wp-content/uploads/2023/04/new-horoscope-2023-02-a5db.gif?w=646"
+      },
+      {
+        "title": "US supreme court rejects Republican-drawn midterm map in Missouri for third time – live",
         "link": "https://www.theguardian.com/us-news/live/2026/sep/25/trump-xi-summit-national-archives-media-politics-live",
-        "published": "Fri, 25 Sep 2026 20:54:55 GMT",
+        "published": "Fri, 25 Sep 2026 22:59:56 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
         "categories": "Donald Trump Trump administration Xi Jinping US foreign policy AI (artificial intelligence) US Congress",
-        "image": "https://i.guim.co.uk/img/media/70c7aeeec6b5d74e419adfcc2cc6d5a9ceed831a/544_0_4900_3922/master/4900.jpg?width=140&quality=85&auto=format&fit=max&s=fef3235577002dac800f22c1d5b6123c"
+        "image": "https://i.guim.co.uk/img/media/f56c9386312fca928956dfa8ac27216bea06f2e5/593_0_6882_5504/master/6882.jpg?width=140&quality=85&auto=format&fit=max&s=0e3bc67779670b4e9e7a98cb88100688"
       },
       {
-        "title": "Pope Leo warns AI could lead to losing 'humanity amid a paradise of machines' in Paris – video",
-        "link": "https://www.theguardian.com/world/video/2026/sep/25/pope-leo-ai-warning-paris",
-        "published": "Fri, 25 Sep 2026 16:49:55 GMT",
+        "title": "OpenAI says agents leaked 53 images from ChatGPT users in latest example of rogue activity",
+        "link": "https://www.theguardian.com/technology/2026/sep/25/openai-agents-leaked-53-images-chatgpt",
+        "published": "Fri, 25 Sep 2026 22:55:19 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
-        "categories": "Pope Leo XIV The papacy AI (artificial intelligence) Catholicism Technology France World news",
-        "image": "https://i.guim.co.uk/img/media/bda0afa989fbdccf5e1501fceef9d84965bd6fff/0_0_1379_1103/master/1379.jpg?width=140&quality=85&auto=format&fit=max&s=46ef0860af309094e8883f42df8af420"
+        "categories": "OpenAI AI (artificial intelligence) Hacking ChatGPT Technology US news Privacy",
+        "image": "https://i.guim.co.uk/img/media/01a09c7a797fe840f3618b3ad42adebb2b1c2108/647_0_4164_3333/master/4164.jpg?width=140&quality=85&auto=format&fit=max&s=07ff40b054daa2b832585d2ec242c4b5"
+      },
+      {
+        "title": "Trump and Chinese president Xi end summit without major agreement on AI",
+        "link": "https://www.theguardian.com/technology/2026/sep/25/trump-xi-ai-arms-race",
+        "published": "Fri, 25 Sep 2026 22:11:52 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "AI (artificial intelligence) Donald Trump Xi Jinping US news US foreign policy China World news",
+        "image": "https://i.guim.co.uk/img/media/dd96a7ac2aebddf0eba5644f06e8e33e6f1eb6ac/261_0_2596_2078/master/2596.jpg?width=140&quality=85&auto=format&fit=max&s=f21cd88a0544f7e038b78351798fa781"
       },
       {
         "title": "Grab The Witcher 3 for cheap right now to get the remaster free next week",
@@ -396,33 +414,6 @@
         "provider": "METRO",
         "categories": "Entertainment Gaming Games news Nintendo Switch Nintendo Switch 2 PlayStation 4 PlayStation 5 The Witcher Xbox One Xbox Series X",
         "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_314015064-f578.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Novelist accused of using AI to write book removed from French prize list",
-        "link": "https://www.theguardian.com/books/2026/sep/25/thelyson-orelien-goncourt-prize-france",
-        "published": "Fri, 25 Sep 2026 16:14:32 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Prix Goncourt Awards and prizes Books Plagiarism Fiction Culture France AI (artificial intelligence) Europe",
-        "image": "https://i.guim.co.uk/img/media/805a53985eeaa5d325b415cdf6ae98f6c248b5b3/624_0_6240_4994/master/6240.jpg?width=140&quality=85&auto=format&fit=max&s=1fdf100b2167842b6ad6758568e180c7"
-      },
-      {
-        "title": "Pope Leo warns of AI threat to humanity at start of three-day France visit",
-        "link": "https://www.theguardian.com/world/2026/sep/25/pope-leo-ai-threat-to-humanity-three-day-france-visit",
-        "published": "Fri, 25 Sep 2026 16:01:10 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Pope Leo XIV France Europe World news AI (artificial intelligence) Technology The papacy Catholicism Unesco",
-        "image": "https://i.guim.co.uk/img/media/bda0afa989fbdccf5e1501fceef9d84965bd6fff/16_0_1379_1103/master/1379.jpg?width=140&quality=85&auto=format&fit=max&s=4ca1a5352f5e47303462cbba9ba0de1f"
-      },
-      {
-        "title": "Woman who complained about Auschwitz café told ‘it’s not a theme park’ after international backlash",
-        "link": "https://metro.co.uk/2026/09/25/woman-complained-auschwitz-cafe-told-its-not-a-theme-park-amid-international-backlash-29652566/",
-        "published": "Fri, 25 Sep 2026 15:28:28 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News UK World Auschwitz Holocaust TikTok",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/09/coverimages56051931-231b.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "Cyber attack at police force in Wales",
@@ -452,7 +443,16 @@
         "image": "https://e3.365dm.com/26/09/1920x1080/skynews-bp-etap-oil-oil-platform_7360207.jpg?20260924131559"
       },
       {
-        "title": "It’s going to take more than an email to a public inbox to protect Australians from potential AI doom",
+        "title": "Pope Leo warns AI could lead to losing 'humanity amid a paradise of machines' in Paris – video",
+        "link": "https://www.theguardian.com/world/video/2026/sep/25/pope-leo-ai-warning-paris",
+        "published": "Fri, 25 Sep 2026 16:49:55 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Pope Leo XIV The papacy AI (artificial intelligence) Catholicism Technology France World news",
+        "image": "https://i.guim.co.uk/img/media/bda0afa989fbdccf5e1501fceef9d84965bd6fff/0_0_1379_1103/master/1379.jpg?width=140&quality=85&auto=format&fit=max&s=46ef0860af309094e8883f42df8af420"
+      },
+      {
+        "title": "It’s going to take more than an email to a public inbox to protect Australians from potential AI doom | Tom McIlroy",
         "link": "https://www.theguardian.com/technology/2026/sep/25/australia-medicare-openai-hack-safeguarding-un-leaders",
         "published": "Fri, 25 Sep 2026 14:58:32 GMT",
         "source": "The Guardian",
@@ -463,13 +463,40 @@
     ],
     "ENTERTAINMENT": [
       {
-        "title": "Heartbreak rocks EastEnders as ailing Denise collapses",
-        "link": "https://metro.co.uk/2026/09/25/heartbreak-rocks-eastenders-ailing-denise-collapses-29648640/",
-        "published": "Fri, 25 Sep 2026 20:00:00 +0000",
+        "title": "A deal is struck with Cindy that allows scandal for Lauren in EastEnders",
+        "link": "https://metro.co.uk/2026/09/25/eastenders-deal-struck-cindy-allows-scandal-lauren-29649581/",
+        "published": "Fri, 25 Sep 2026 22:59:00 +0000",
         "source": "Metro",
         "provider": "METRO",
-        "categories": "EastEnders Soaps Denise Fox Diane Parish",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_313418432-bfbe-e1790353373810.jpg?quality=90&strip=all&w=646"
+        "categories": "EastEnders Soaps Cindy Beale Jacqueline Jossa Lauren Branning Mark Fowler Jr Michelle Collins Stephen Aaron-Sipple",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/07/SEI_305873502-2613.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Sadie makes a colossal mistake in Emmerdale that could ruin everything for her and Robert",
+        "link": "https://metro.co.uk/2026/09/25/emmerdales-sadie-makes-a-colossal-mistake-ruin-everything-29633051/",
+        "published": "Fri, 25 Sep 2026 22:59:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Emmerdale Soaps Patsy Kensit Robert Sugden Ryan Hawley Sadie King",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312682380-c62d.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Ian’s EastEnders prison story is finally picked up again as he gets a visitor",
+        "link": "https://metro.co.uk/2026/09/25/ians-eastenders-prison-story-finally-picked-gets-a-visitor-29648792/",
+        "published": "Fri, 25 Sep 2026 22:59:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "EastEnders Soaps Adam Woodyatt Ian Beale Peter Beale Thomas Law",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/08/SEI_307267304-c544.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Jay-Z accuser says that her rape allegations were false in court filing",
+        "link": "https://news.sky.com/story/woman-who-accused-jay-z-of-rape-says-allegations-were-false-in-court-filing-13591936",
+        "published": "Fri, 25 Sep 2026 21:17:00 +0100",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/24/12/1920x1080/skynews-jay-z-shawn-carter_6771092.jpg?20241209012720"
       },
       {
         "title": "Steven Bartlett throws out the rulebook with game-changing offer for ‘perfect’ Dragons’ Den contestant",
@@ -479,24 +506,6 @@
         "provider": "METRO",
         "categories": "Entertainment TV Dragons' Den Steven Bartlett",
         "image": "https://metro.co.uk/wp-content/uploads/2026/09/Screenshot-2026-09-25-at-20.04.14-8f8e.png?w=646"
-      },
-      {
-        "title": "Sadie ‘caught out’ by Nicola as new Emmerdale spoilers reveal what happens next",
-        "link": "https://metro.co.uk/2026/09/25/sadie-caught-out-nicola-new-emmerdale-spoilers-reveal-happens-next-29654069/",
-        "published": "Fri, 25 Sep 2026 18:45:00 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Emmerdale Soaps Jimmy King Nick Miles Nicola King Nicola Wheeler Patsy Kensit Sadie King",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_314010936-4c85.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Liam Gallagher tells fans to ‘stop moaning’ about Oasis ticket prices",
-        "link": "https://metro.co.uk/2026/09/25/liam-gallagher-tells-fans-stop-moaning-oasis-ticket-prices-29654456/",
-        "published": "Fri, 25 Sep 2026 17:17:36 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Entertainment Music Liam Gallagher Music Tours Noel Gallagher Oasis",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_311002318-b665.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "Jimmy Kimmel: ‘The only thing more unwelcome in the Oval Office than CNN is a salad’",
@@ -542,51 +551,51 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/09/1920x1080/skynews-ed-sheeran-macklemore_7352399.jpg?20260917073340"
-      },
-      {
-        "title": "Macklemore announces Free Palestine Tour after Ed Sheeran controversy",
-        "link": "https://news.sky.com/story/macklemore-announces-free-palestine-tour-after-ed-sheeran-controversy-13591502",
-        "published": "Thu, 24 Sep 2026 16:48:00 +0100",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-macklemore-palestine_7360498.jpg?20260924171214"
       }
     ],
     "STOCKS": [
       {
-        "title": "PTC Therapeutics Reports Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
-        "link": "https://finance.yahoo.com/healthcare/articles/ptc-therapeutics-reports-inducement-grants-203000661.html?.tsrc=rss",
-        "published": "Fri, 25 Sep 2026 20:30:00 +0000",
+        "title": "Small-Cap Stocks Are Struggling. The Case for Going Even Smaller.",
+        "link": "https://uk.finance.yahoo.com/m/de7b83a3-09f2-3fac-9d3d-fe18e58e3cf5/small-cap-stocks-are.html?.tsrc=rss",
+        "published": "Fri, 25 Sep 2026 21:32:00 +0000",
         "source": "Yahoo Finance",
         "provider": "YAHOO",
         "categories": "",
         "image": ""
       },
       {
-        "title": "Stock Market Today: Dow Surges 450 Points On U.S.-Iran Peace Hopes; Micron Rises",
-        "link": "https://uk.finance.yahoo.com/m/225d690f-7913-3ffb-a43f-d4610f997f55/stock-market-today%3A-dow.html?.tsrc=rss",
-        "published": "Fri, 25 Sep 2026 20:21:11 +0000",
+        "title": "Pacific Biosciences of California (PACB) Beats Stock Market Upswing: What Investors Need to Know",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/pacific-biosciences-california-pacb-beats-211503793.html?.tsrc=rss",
+        "published": "Fri, 25 Sep 2026 21:15:03 +0000",
         "source": "Yahoo Finance",
         "provider": "YAHOO",
         "categories": "",
         "image": ""
       },
       {
-        "title": "Stocks End Volatile Week With Solid Gains",
-        "link": "https://uk.finance.yahoo.com/m/055d2755-3fa3-3978-88ef-67d4fcaa4dc1/stocks-end-volatile-week-with.html?.tsrc=rss",
-        "published": "Fri, 25 Sep 2026 20:02:40 +0000",
+        "title": "Equinix (EQIX) Stock Dips While Market Gains: Key Facts",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/equinix-eqix-stock-dips-while-211502221.html?.tsrc=rss",
+        "published": "Fri, 25 Sep 2026 21:15:02 +0000",
         "source": "Yahoo Finance",
         "provider": "YAHOO",
         "categories": "",
         "image": ""
       },
       {
-        "title": "HUB Cyber Security Announces Receipt of Nasdaq Notification Regarding Market Value of Listed Securities Requirement",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/hub-cyber-security-announces-receipt-200000955.html?.tsrc=rss",
-        "published": "Fri, 25 Sep 2026 20:00:00 +0000",
+        "title": "Copart, Inc. (CPRT) Stock Drops Despite Market Gains: Important Facts to Note",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/copart-inc-cprt-stock-drops-211502725.html?.tsrc=rss",
+        "published": "Fri, 25 Sep 2026 21:15:02 +0000",
         "source": "Yahoo Finance",
         "provider": "YAHOO",
+        "categories": "",
+        "image": ""
+      },
+      {
+        "title": "Oil prices slide about 2% as US, Iran explore path out of war",
+        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQV3EzX3oydnQxRk5Ld1BKbk82ek14ZVdyLVpTdldjdEpqeDJfTVZ2Q0F1TnhvaWlhR1p0Z3hScDV0S2Z1UFR5OXhKSWk3NmtqTzd0SkJfa2RLRFpOOUlEcE5mR1d4Z21Td2FCQVZqNHV1eDloQkplT1NHaHhyTDlqOG5DYlFFdnRERThxNU0yX29LcTRyal9pMHQ4ZzNoU0VKZkdHN2hFYjhCZUpZZ3d2am11SDJYYVBiN0JxWVBtczNRYkh1?oc=5",
+        "published": "Fri, 25 Sep 2026 19:28:52 GMT",
+        "source": "Reuters",
+        "provider": "REUTERS",
         "categories": "",
         "image": ""
       },
@@ -627,18 +636,9 @@
         "image": "https://www.twelfthmagpie.com/wp-content/uploads/2024/07/Portfolio-refresh-1200x800.jpg"
       },
       {
-        "title": "Brookfield-backed Avaada Electro starts roadshows for $793 million India IPO, sources say",
-        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPTE5jRHNTOVFCZmNXQm1NWXpEUWV6dGpldVlmNUM3Wk54SWZuTGxmN01WUWtfZFpTSnFPdHVWWDdIU0d3OU1XV0ZuVlZLbUtvWlR2VU5VNmo2VmppUEVZdXlLODQ2UXliODF5MVlCWklES0VJT3JRNzliUU5ZVVJIWV9BX0tZd2RodjFOeElDZWZaRkoxWXBtUk1jeVJXLU44TFU0Q2VRcUo2Yjd4REx1aVJheVNEN2lVazdlbUpNZzRnUzNaMDRqcFZJNA?oc=5",
-        "published": "Fri, 25 Sep 2026 06:45:43 GMT",
-        "source": "Reuters",
-        "provider": "REUTERS",
-        "categories": "",
-        "image": ""
-      },
-      {
         "title": "India shares log longest weekly losing run since 2020 as oil prices bite",
         "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRDlIOXFjNzhyRGVteU5DNTJCdVlRNUZEY3VObFdZNDI1MDU2SUo0NEM1N1JDTHpDMTk0YU9OM2V1eXRla1VaanBsTTlUM1lWR3VYU0g1eG5pM21hNzFWQTdabWphemRRMlc1U09MdWxVRVNLUWxjd3pIODVuY2UtcFE0dEhPTUM2MU1pbHNOQ1NnOUQtME1TTDJjSzJzOGljZTRmN0NBZ2Q0S1VodGZaSXFxZU1VTGNnanc3a0o0anM?oc=5",
-        "published": "Fri, 25 Sep 2026 02:18:00 GMT",
+        "published": "Fri, 25 Sep 2026 10:22:16 GMT",
         "source": "Reuters",
         "provider": "REUTERS",
         "categories": "",
@@ -1182,6 +1182,15 @@
         ],
         "ENTERTAINMENT": [
           {
+            "title": "Jay-Z accuser says that her rape allegations were false in court filing",
+            "link": "https://news.sky.com/story/woman-who-accused-jay-z-of-rape-says-allegations-were-false-in-court-filing-13591936",
+            "published": "Fri, 25 Sep 2026 21:17:00 +0100",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/24/12/1920x1080/skynews-jay-z-shawn-carter_6771092.jpg?20241209012720"
+          },
+          {
             "title": "Ed Sheeran concerts cancelled",
             "link": "https://news.sky.com/story/ed-sheeran-gillette-stadium-concerts-cancelled-due-to-storm-warnings-following-macklemore-scandal-13590812",
             "published": "Fri, 25 Sep 2026 00:01:00 +0100",
@@ -1261,15 +1270,6 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/09/1920x1080/skynews-ed-sheeran-first-concert-on-tour_7356783.jpg?20260920034125"
-          },
-          {
-            "title": "Converse apologises and removes ad after backlash",
-            "link": "https://news.sky.com/story/converse-apologises-and-removes-ad-over-image-critics-said-evoked-racist-imagery-13590324",
-            "published": "Mon, 21 Sep 2026 07:33:00 +0100",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-converse-ad-chuck-70-x_7357603.jpg?20260921071839"
           }
         ]
       },
@@ -1531,6 +1531,15 @@
             "image": "https://i.guim.co.uk/img/media/8a1111af32b508c7aedf458e07ae1af37f330f83/1_0_4998_4000/master/4998.jpg?width=140&quality=85&auto=format&fit=max&s=866fd4e05f8eb0b360470a5fbaa0e559"
           },
           {
+            "title": "Michigan CEO loses job after posting AI-made image of her family in ‘Lake America’ sweaters",
+            "link": "https://www.theguardian.com/us-news/2026/sep/25/michigan-ceo-loses-job-lake-america-photo",
+            "published": "Fri, 25 Sep 2026 22:21:15 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Michigan US politics US news Donald Trump Canada Americas World news",
+            "image": "https://i.guim.co.uk/img/media/e44905997f5cadb38f09f93a87fc8f2f8d371861/74_0_4006_3207/master/4006.jpg?width=140&quality=85&auto=format&fit=max&s=b6a2b12afea94fdfae2d6bbc2e3d77ac"
+          },
+          {
             "title": "Alberta’s self-image as world’s only rat-free region shattered by discovery of rat",
             "link": "https://www.theguardian.com/world/2026/sep/25/alberta-canada-rat-patrol",
             "published": "Fri, 25 Sep 2026 16:34:05 GMT",
@@ -1565,15 +1574,6 @@
             "provider": "GUARDIAN",
             "categories": "Brazil Trump administration Marco Rubio Luiz Inácio Lula da Silva Jair Bolsonaro Donald Trump Trump tariffs US foreign policy Americas US news World news",
             "image": "https://i.guim.co.uk/img/media/2779e44ca5921dffb66b2bb584108ea775e013d4/571_0_4585_3667/master/4585.jpg?width=140&quality=85&auto=format&fit=max&s=7bf7fe09ea9d1212cb22da22ba858b6b"
-          },
-          {
-            "title": "Milei threatens at UN that Argentina will take ‘matters into our own hands’ on Falklands",
-            "link": "https://www.theguardian.com/uk-news/2026/sep/23/argentina-president-attacks-un-over-inaction-on-falkland-islands-sovereignty",
-            "published": "Wed, 23 Sep 2026 18:50:43 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Falkland Islands Americas UK news World news Javier Milei Argentina United Nations Foreign policy Politics",
-            "image": "https://i.guim.co.uk/img/media/005d4917372c725d7757a080af31f902d028df90/688_0_6880_5504/master/6880.jpg?width=140&quality=85&auto=format&fit=max&s=25cd855f28e157a4fb2fb9eb3659d699"
           },
           {
             "title": "Pomp over progress in Xi’s US summit with Trump is a win for China",
@@ -2095,13 +2095,31 @@
             "image": "https://i.guim.co.uk/img/media/c6ec941fee06ab9419f77679db3e173895811b18/0_470_2400_1919/master/2400.jpg?width=140&quality=85&auto=format&fit=max&s=a04155302aa5d1484fb8428642de188d"
           },
           {
-            "title": "Trump confirms future meetings with Xi Jinping in China and Florida as Chinese president departs DC – live",
+            "title": "US supreme court rejects Republican-drawn midterm map in Missouri for third time – live",
             "link": "https://www.theguardian.com/us-news/live/2026/sep/25/trump-xi-summit-national-archives-media-politics-live",
-            "published": "Fri, 25 Sep 2026 20:54:55 GMT",
+            "published": "Fri, 25 Sep 2026 22:59:56 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
             "categories": "Donald Trump Trump administration Xi Jinping US foreign policy AI (artificial intelligence) US Congress",
-            "image": "https://i.guim.co.uk/img/media/70c7aeeec6b5d74e419adfcc2cc6d5a9ceed831a/544_0_4900_3922/master/4900.jpg?width=140&quality=85&auto=format&fit=max&s=fef3235577002dac800f22c1d5b6123c"
+            "image": "https://i.guim.co.uk/img/media/f56c9386312fca928956dfa8ac27216bea06f2e5/593_0_6882_5504/master/6882.jpg?width=140&quality=85&auto=format&fit=max&s=0e3bc67779670b4e9e7a98cb88100688"
+          },
+          {
+            "title": "OpenAI says agents leaked 53 images from ChatGPT users in latest example of rogue activity",
+            "link": "https://www.theguardian.com/technology/2026/sep/25/openai-agents-leaked-53-images-chatgpt",
+            "published": "Fri, 25 Sep 2026 22:55:19 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "OpenAI AI (artificial intelligence) Hacking ChatGPT Technology US news Privacy",
+            "image": "https://i.guim.co.uk/img/media/01a09c7a797fe840f3618b3ad42adebb2b1c2108/647_0_4164_3333/master/4164.jpg?width=140&quality=85&auto=format&fit=max&s=07ff40b054daa2b832585d2ec242c4b5"
+          },
+          {
+            "title": "Trump and Chinese president Xi end summit without major agreement on AI",
+            "link": "https://www.theguardian.com/technology/2026/sep/25/trump-xi-ai-arms-race",
+            "published": "Fri, 25 Sep 2026 22:11:52 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "AI (artificial intelligence) Donald Trump Xi Jinping US news US foreign policy China World news",
+            "image": "https://i.guim.co.uk/img/media/dd96a7ac2aebddf0eba5644f06e8e33e6f1eb6ac/261_0_2596_2078/master/2596.jpg?width=140&quality=85&auto=format&fit=max&s=f21cd88a0544f7e038b78351798fa781"
           },
           {
             "title": "Pope Leo warns AI could lead to losing 'humanity amid a paradise of machines' in Paris – video",
@@ -2111,24 +2129,6 @@
             "provider": "GUARDIAN",
             "categories": "Pope Leo XIV The papacy AI (artificial intelligence) Catholicism Technology France World news",
             "image": "https://i.guim.co.uk/img/media/bda0afa989fbdccf5e1501fceef9d84965bd6fff/0_0_1379_1103/master/1379.jpg?width=140&quality=85&auto=format&fit=max&s=46ef0860af309094e8883f42df8af420"
-          },
-          {
-            "title": "Novelist accused of using AI to write book removed from French prize list",
-            "link": "https://www.theguardian.com/books/2026/sep/25/thelyson-orelien-goncourt-prize-france",
-            "published": "Fri, 25 Sep 2026 16:14:32 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Prix Goncourt Awards and prizes Books Plagiarism Fiction Culture France AI (artificial intelligence) Europe",
-            "image": "https://i.guim.co.uk/img/media/805a53985eeaa5d325b415cdf6ae98f6c248b5b3/624_0_6240_4994/master/6240.jpg?width=140&quality=85&auto=format&fit=max&s=1fdf100b2167842b6ad6758568e180c7"
-          },
-          {
-            "title": "Pope Leo warns of AI threat to humanity at start of three-day France visit",
-            "link": "https://www.theguardian.com/world/2026/sep/25/pope-leo-ai-threat-to-humanity-three-day-france-visit",
-            "published": "Fri, 25 Sep 2026 16:01:10 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Pope Leo XIV France Europe World news AI (artificial intelligence) Technology The papacy Catholicism Unesco",
-            "image": "https://i.guim.co.uk/img/media/bda0afa989fbdccf5e1501fceef9d84965bd6fff/16_0_1379_1103/master/1379.jpg?width=140&quality=85&auto=format&fit=max&s=4ca1a5352f5e47303462cbba9ba0de1f"
           },
           {
             "title": "Price hikes, ads and lower quality: has ‘streamflation’ ruined the TV experience?",
@@ -2167,7 +2167,7 @@
             "image": "https://i.guim.co.uk/img/media/ffd8b81bb89825ac3c9c9f556c5c615c03157e40/99_1102_3623_2899/master/3623.jpg?width=140&quality=85&auto=format&fit=max&s=7fcb5a0ba75fd467a177db6aef429d1e"
           },
           {
-            "title": "It’s going to take more than an email to a public inbox to protect Australians from potential AI doom",
+            "title": "It’s going to take more than an email to a public inbox to protect Australians from potential AI doom | Tom McIlroy",
             "link": "https://www.theguardian.com/technology/2026/sep/25/australia-medicare-openai-hack-safeguarding-un-leaders",
             "published": "Fri, 25 Sep 2026 14:58:32 GMT",
             "source": "The Guardian",
@@ -2426,6 +2426,33 @@
       "categories": {
         "UK": [
           {
+            "title": "At least 13 killed after plane crashes in emergency landing near homes",
+            "link": "https://metro.co.uk/2026/09/25/least-13-killed-plane-crashes-emergency-landing-near-homes-29654843/",
+            "published": "Fri, 25 Sep 2026 22:02:02 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News World Crash Flights",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_314065741-75b2.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "10 men jailed for 130 years after setting a mother and girl, 13, on fire",
+            "link": "https://metro.co.uk/2026/09/25/10-men-jailed-130-years-setting-a-mother-girl-13-fire-29654837/",
+            "published": "Fri, 25 Sep 2026 21:53:35 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News UK Crime News Staffordshire",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/image-154f.png?w=481"
+          },
+          {
+            "title": "UK player wins £111,000,000 EuroMillions jackpot",
+            "link": "https://metro.co.uk/2026/09/25/uk-player-wins-111-000-000-euromillions-jackpot-29654867/",
+            "published": "Fri, 25 Sep 2026 21:47:17 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News UK EuroMillions",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_123681753-d351.jpg?quality=90&strip=all&w=646"
+          },
+          {
             "title": "Flight to London evacuated after ‘bomb threat’ at airport",
             "link": "https://metro.co.uk/2026/09/25/flight-london-evacuated-bomb-threat-tenerife-airport-29654730/",
             "published": "Fri, 25 Sep 2026 20:24:44 +0000",
@@ -2577,33 +2604,6 @@
             "provider": "METRO",
             "categories": "Football Sport Arsenal Liverpool FC Manchester City FC Manchester United Pep Guardiola Premier League Rodri",
             "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_314045184-ca03.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Tyson Fury reveals next fight after Anthony Joshua clash in December",
-            "link": "https://metro.co.uk/2026/09/25/tyson-fury-reveals-next-fight-anthony-joshua-clash-december-29654767/",
-            "published": "Fri, 25 Sep 2026 19:55:04 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Boxing Sport Anthony Joshua Eddie Hearn Oleksandr Usyk Tyson Fury",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/Tyson-Fury-a9eb.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Erling Haaland U-turn made after Manchester City found guilty of Premier League charges",
-            "link": "https://metro.co.uk/2026/09/25/erling-haaland-u-turn-made-man-city-found-guilty-premier-league-charges-29654669/",
-            "published": "Fri, 25 Sep 2026 18:43:47 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Football Sport Arsenal Erling Haaland Liverpool FC Manchester City FC Manchester United Norway Premier League",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_313892505-12bb.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "The everyday snack that makes Gen Z think you’re old",
-            "link": "https://metro.co.uk/2026/09/25/everyday-snack-makes-gen-z-think-old-29654539/",
-            "published": "Fri, 25 Sep 2026 17:49:45 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Food Lifestyle Foodie The Great British Bake Off Trends",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_314024695-8479.jpg?quality=90&strip=all&w=646"
           }
         ],
         "WORLD": [
@@ -2689,13 +2689,13 @@
             "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_313349259-4ed2.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "The moving and unusual mementos left to couple who died in hot tub accident",
-            "link": "https://metro.co.uk/2026/09/19/funeral-hot-tub-couple-shown-touching-mementos-lives-29635949/",
-            "published": "Sat, 19 Sep 2026 10:42:39 +0000",
+            "title": "Jodie sobs amid big Christina shock as new Coronation Street spoiler videos reveal what’s next",
+            "link": "https://metro.co.uk/2026/09/25/new-coronation-street-spoiler-videos-jodie-sobs-amid-big-christina-shock-29653482/",
+            "published": "Fri, 25 Sep 2026 22:59:00 +0000",
             "source": "Metro",
             "provider": "METRO",
-            "categories": "News World Republic of Ireland Spain",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310829397-bda2.jpg?quality=90&strip=all&w=646"
+            "categories": "Coronation Street Soaps Amy Robbins Christina Boyd Jodie Ramsey Jude Riordan Olivia Frances-Brown Sam Blakeman",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_313970161-8cd0.jpg?quality=90&strip=all&w=646"
           },
           {
             "title": "Foot fetish voyeur caught with thousands of illicit images of schoolgirls’ feet",
@@ -2842,6 +2842,15 @@
             "provider": "METRO",
             "categories": "News Politics Metropolitan Police Nigel Farage Reform UK",
             "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310943631-62b1.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Ian’s EastEnders prison story is finally picked up again as he gets a visitor",
+            "link": "https://metro.co.uk/2026/09/25/ians-eastenders-prison-story-finally-picked-gets-a-visitor-29648792/",
+            "published": "Fri, 25 Sep 2026 22:59:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "EastEnders Soaps Adam Woodyatt Ian Beale Peter Beale Thomas Law",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/08/SEI_307267304-c544.jpg?quality=90&strip=all&w=646"
           }
         ],
         "BUSINESS": [
@@ -3028,6 +3037,15 @@
         ],
         "TECH": [
           {
+            "title": "Daily horoscope September 26, 2026: Today’s predictions for your star sign",
+            "link": "https://metro.co.uk/2026/09/26/daily-horoscope-september-26-2026-predictions-star-sign-29653747/",
+            "published": "Fri, 25 Sep 2026 23:01:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Horoscopes Lifestyle Aquarius Aries Astrology Cancer (star sign) Capricorn Gemini Leo Libra Pisces Sagittarius Scorpio Taurus Virgo",
+            "image": "https://metro.co.uk/wp-content/uploads/2023/04/new-horoscope-2023-02-a5db.gif?w=646"
+          },
+          {
             "title": "Grab The Witcher 3 for cheap right now to get the remaster free next week",
             "link": "https://metro.co.uk/2026/09/25/grab-witcher-3-cheap-right-now-get-remaster-free-next-week-29654346/",
             "published": "Fri, 25 Sep 2026 16:21:39 +0000",
@@ -3035,15 +3053,6 @@
             "provider": "METRO",
             "categories": "Entertainment Gaming Games news Nintendo Switch Nintendo Switch 2 PlayStation 4 PlayStation 5 The Witcher Xbox One Xbox Series X",
             "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_314015064-f578.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Woman who complained about Auschwitz café told ‘it’s not a theme park’ after international backlash",
-            "link": "https://metro.co.uk/2026/09/25/woman-complained-auschwitz-cafe-told-its-not-a-theme-park-amid-international-backlash-29652566/",
-            "published": "Fri, 25 Sep 2026 15:28:28 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News UK World Auschwitz Holocaust TikTok",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/coverimages56051931-231b.jpg?quality=90&strip=all&w=646"
           }
         ],
         "ENTERTAINMENT": [
@@ -3201,22 +3210,31 @@
             "image": "https://metro.co.uk/wp-content/uploads/2026/09/comp-1790329718.png?w=646"
           },
           {
-            "title": "Heartbreak rocks EastEnders as ailing Denise collapses",
-            "link": "https://metro.co.uk/2026/09/25/heartbreak-rocks-eastenders-ailing-denise-collapses-29648640/",
-            "published": "Fri, 25 Sep 2026 20:00:00 +0000",
+            "title": "A deal is struck with Cindy that allows scandal for Lauren in EastEnders",
+            "link": "https://metro.co.uk/2026/09/25/eastenders-deal-struck-cindy-allows-scandal-lauren-29649581/",
+            "published": "Fri, 25 Sep 2026 22:59:00 +0000",
             "source": "Metro",
             "provider": "METRO",
-            "categories": "EastEnders Soaps Denise Fox Diane Parish",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_313418432-bfbe-e1790353373810.jpg?quality=90&strip=all&w=646"
+            "categories": "EastEnders Soaps Cindy Beale Jacqueline Jossa Lauren Branning Mark Fowler Jr Michelle Collins Stephen Aaron-Sipple",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/07/SEI_305873502-2613.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Sadie ‘caught out’ by Nicola as new Emmerdale spoilers reveal what happens next",
-            "link": "https://metro.co.uk/2026/09/25/sadie-caught-out-nicola-new-emmerdale-spoilers-reveal-happens-next-29654069/",
-            "published": "Fri, 25 Sep 2026 18:45:00 +0000",
+            "title": "Sadie makes a colossal mistake in Emmerdale that could ruin everything for her and Robert",
+            "link": "https://metro.co.uk/2026/09/25/emmerdales-sadie-makes-a-colossal-mistake-ruin-everything-29633051/",
+            "published": "Fri, 25 Sep 2026 22:59:00 +0000",
             "source": "Metro",
             "provider": "METRO",
-            "categories": "Emmerdale Soaps Jimmy King Nick Miles Nicola King Nicola Wheeler Patsy Kensit Sadie King",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_314010936-4c85.jpg?quality=90&strip=all&w=646"
+            "categories": "Emmerdale Soaps Patsy Kensit Robert Sugden Ryan Hawley Sadie King",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312682380-c62d.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Ian’s EastEnders prison story is finally picked up again as he gets a visitor",
+            "link": "https://metro.co.uk/2026/09/25/ians-eastenders-prison-story-finally-picked-gets-a-visitor-29648792/",
+            "published": "Fri, 25 Sep 2026 22:59:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "EastEnders Soaps Adam Woodyatt Ian Beale Peter Beale Thomas Law",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/08/SEI_307267304-c544.jpg?quality=90&strip=all&w=646"
           }
         ]
       },
@@ -3231,7 +3249,7 @@
         },
         "POLITICS": {
           "ok": true,
-          "count": 15
+          "count": 16
         },
         "BUSINESS": {
           "ok": true,
@@ -3243,7 +3261,7 @@
         },
         "ENTERTAINMENT": {
           "ok": true,
-          "count": 19
+          "count": 20
         }
       }
     },
@@ -3356,108 +3374,108 @@
         "STOCK_MARKET": [],
         "STOCKS": [
           {
-            "title": "PTC Therapeutics Reports Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
-            "link": "https://finance.yahoo.com/healthcare/articles/ptc-therapeutics-reports-inducement-grants-203000661.html?.tsrc=rss",
-            "published": "Fri, 25 Sep 2026 20:30:00 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "Stock Market Today: Dow Surges 450 Points On U.S.-Iran Peace Hopes; Micron Rises",
-            "link": "https://uk.finance.yahoo.com/m/225d690f-7913-3ffb-a43f-d4610f997f55/stock-market-today%3A-dow.html?.tsrc=rss",
-            "published": "Fri, 25 Sep 2026 20:21:11 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "Stocks End Volatile Week With Solid Gains",
-            "link": "https://uk.finance.yahoo.com/m/055d2755-3fa3-3978-88ef-67d4fcaa4dc1/stocks-end-volatile-week-with.html?.tsrc=rss",
-            "published": "Fri, 25 Sep 2026 20:02:40 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "HUB Cyber Security Announces Receipt of Nasdaq Notification Regarding Market Value of Listed Securities Requirement",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/hub-cyber-security-announces-receipt-200000955.html?.tsrc=rss",
-            "published": "Fri, 25 Sep 2026 20:00:00 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "How Meta’s Muse Saved the Market—While Savaging These Stocks",
-            "link": "https://uk.finance.yahoo.com/m/895d7a4d-fcea-3113-bc24-edcffda5358b/how-meta%E2%80%99s-muse-saved-the.html?.tsrc=rss",
-            "published": "Fri, 25 Sep 2026 19:58:00 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
-          },
-          {
             "title": "Small-Cap Stocks Are Struggling. The Case for Going Even Smaller.",
             "link": "https://uk.finance.yahoo.com/m/de7b83a3-09f2-3fac-9d3d-fe18e58e3cf5/small-cap-stocks-are.html?.tsrc=rss",
-            "published": "Fri, 25 Sep 2026 19:30:00 +0000",
+            "published": "Fri, 25 Sep 2026 21:32:00 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
             "image": ""
           },
           {
-            "title": "3 Reasons RCL is Risky and 1 Stock to Buy Instead",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-rcl-risky-1-191237615.html?.tsrc=rss",
-            "published": "Fri, 25 Sep 2026 19:12:37 +0000",
+            "title": "Pacific Biosciences of California (PACB) Beats Stock Market Upswing: What Investors Need to Know",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/pacific-biosciences-california-pacb-beats-211503793.html?.tsrc=rss",
+            "published": "Fri, 25 Sep 2026 21:15:03 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
             "image": ""
           },
           {
-            "title": "3 Reasons MHK is Risky and 1 Stock to Buy Instead",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-mhk-risky-1-190437929.html?.tsrc=rss",
-            "published": "Fri, 25 Sep 2026 19:04:37 +0000",
+            "title": "Equinix (EQIX) Stock Dips While Market Gains: Key Facts",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/equinix-eqix-stock-dips-while-211502221.html?.tsrc=rss",
+            "published": "Fri, 25 Sep 2026 21:15:02 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
             "image": ""
           },
           {
-            "title": "S&P 500 and Nasdaq Less Than 1% Off Highs",
-            "link": "https://uk.finance.yahoo.com/m/8dd73a4c-bfa1-3fc5-871a-bd13f85807e6/s%26p-500-and-nasdaq-less-than.html?.tsrc=rss",
-            "published": "Fri, 25 Sep 2026 18:50:22 +0000",
+            "title": "Copart, Inc. (CPRT) Stock Drops Despite Market Gains: Important Facts to Note",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/copart-inc-cprt-stock-drops-211502725.html?.tsrc=rss",
+            "published": "Fri, 25 Sep 2026 21:15:02 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
             "image": ""
           },
           {
-            "title": "3 Reasons to Sell CECO and 1 Stock to Buy Instead",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-sell-ceco-1-184837921.html?.tsrc=rss",
-            "published": "Fri, 25 Sep 2026 18:48:37 +0000",
+            "title": "Pagaya Technologies Ltd. (PGY) Stock Dips While Market Gains: Key Facts",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/pagaya-technologies-ltd-pgy-stock-211502241.html?.tsrc=rss",
+            "published": "Fri, 25 Sep 2026 21:15:02 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
             "image": ""
           },
           {
-            "title": "Nike Slumps After Downgrade. Why the Stock Is in Trouble.",
-            "link": "https://uk.finance.yahoo.com/m/69753b45-6330-3fb6-b017-7aabaf4bb6a8/nike-slumps-after-downgrade..html?.tsrc=rss",
-            "published": "Fri, 25 Sep 2026 18:46:00 +0000",
+            "title": "Why Griffon (GFF) Outpaced the Stock Market Today",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/why-griffon-gff-outpaced-stock-211502769.html?.tsrc=rss",
+            "published": "Fri, 25 Sep 2026 21:15:02 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
             "image": ""
           },
           {
-            "title": "Rubico Announces Record Date of Monday, September 28 and Ex-Dividend Date of Tuesday, October 6 for Previously-Announced 0.50 Common Shares Per Common Share Stock Dividend",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/rubico-announces-record-date-monday-175900166.html?.tsrc=rss",
-            "published": "Fri, 25 Sep 2026 17:59:00 +0000",
+            "title": "Dynatrace (DT) Stock Slides as Market Rises: Facts to Know Before You Trade",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/dynatrace-dt-stock-slides-market-211502526.html?.tsrc=rss",
+            "published": "Fri, 25 Sep 2026 21:15:02 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "Western Union (WU) Beats Stock Market Upswing: What Investors Need to Know",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/western-union-wu-beats-stock-210005302.html?.tsrc=rss",
+            "published": "Fri, 25 Sep 2026 21:00:05 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "Norwegian Cruise Line (NCLH) Beats Stock Market Upswing: What Investors Need to Know",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/norwegian-cruise-line-nclh-beats-210004086.html?.tsrc=rss",
+            "published": "Fri, 25 Sep 2026 21:00:04 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "Cardinal Health (CAH) Stock Slides as Market Rises: Facts to Know Before You Trade",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/cardinal-health-cah-stock-slides-210003118.html?.tsrc=rss",
+            "published": "Fri, 25 Sep 2026 21:00:03 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "Itron (ITRI) Stock Sinks As Market Gains: Here's Why",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/itron-itri-stock-sinks-market-210003301.html?.tsrc=rss",
+            "published": "Fri, 25 Sep 2026 21:00:03 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "Dutch Bros (BROS) Stock Sinks As Market Gains: What You Should Know",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/dutch-bros-bros-stock-sinks-210003042.html?.tsrc=rss",
+            "published": "Fri, 25 Sep 2026 21:00:03 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
@@ -3617,6 +3635,15 @@
         ],
         "STOCKS": [
           {
+            "title": "Oil prices slide about 2% as US, Iran explore path out of war",
+            "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQV3EzX3oydnQxRk5Ld1BKbk82ek14ZVdyLVpTdldjdEpqeDJfTVZ2Q0F1TnhvaWlhR1p0Z3hScDV0S2Z1UFR5OXhKSWk3NmtqTzd0SkJfa2RLRFpOOUlEcE5mR1d4Z21Td2FCQVZqNHV1eDloQkplT1NHaHhyTDlqOG5DYlFFdnRERThxNU0yX29LcTRyal9pMHQ4ZzNoU0VKZkdHN2hFYjhCZUpZZ3d2am11SDJYYVBiN0JxWVBtczNRYkh1?oc=5",
+            "published": "Fri, 25 Sep 2026 19:28:52 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
             "title": "EXCLUSIVE: SK Hynix's Solidigm weighs IPO that could value the unit at up to $150 billion, sources say",
             "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONVZiMlVqNDFIWFN0ZWQtUHRjY0dMRzBDTlJrQ0l2dkhaeHJJWWdfWVpBRG54NFh4ZTZ5emlWSm0wYzBMT2ZhX2Znb1UzSFN2SkY2NGxReW51OHN3VkR4ZVRxQkhuN2lWYVVNSGVvcjVzOVd6XzQ4MFEtcnBxaVFmT1NxU1l6VU96bExMTWNtWVZMTFhlTHRGd2tNRUhEZ0ZWcVVENmdTcnNzZjUtMmpJOV9fZU5lS2o0WGttWQ?oc=5",
             "published": "Fri, 25 Sep 2026 16:51:14 GMT",
@@ -3626,27 +3653,18 @@
             "image": ""
           },
           {
+            "title": "India shares log longest weekly losing run since 2020 as oil prices bite",
+            "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRDlIOXFjNzhyRGVteU5DNTJCdVlRNUZEY3VObFdZNDI1MDU2SUo0NEM1N1JDTHpDMTk0YU9OM2V1eXRla1VaanBsTTlUM1lWR3VYU0g1eG5pM21hNzFWQTdabWphemRRMlc1U09MdWxVRVNLUWxjd3pIODVuY2UtcFE0dEhPTUM2MU1pbHNOQ1NnOUQtME1TTDJjSzJzOGljZTRmN0NBZ2Q0S1VodGZaSXFxZU1VTGNnanc3a0o0anM?oc=5",
+            "published": "Fri, 25 Sep 2026 10:22:16 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
             "title": "Brookfield-backed Avaada Electro starts roadshows for $793 million India IPO, sources say",
             "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPTE5jRHNTOVFCZmNXQm1NWXpEUWV6dGpldVlmNUM3Wk54SWZuTGxmN01WUWtfZFpTSnFPdHVWWDdIU0d3OU1XV0ZuVlZLbUtvWlR2VU5VNmo2VmppUEVZdXlLODQ2UXliODF5MVlCWklES0VJT3JRNzliUU5ZVVJIWV9BX0tZd2RodjFOeElDZWZaRkoxWXBtUk1jeVJXLU44TFU0Q2VRcUo2Yjd4REx1aVJheVNEN2lVazdlbUpNZzRnUzNaMDRqcFZJNA?oc=5",
             "published": "Fri, 25 Sep 2026 06:45:43 GMT",
-            "source": "Reuters",
-            "provider": "REUTERS",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "India shares log longest weekly losing run since 2020 as oil prices bite",
-            "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRDlIOXFjNzhyRGVteU5DNTJCdVlRNUZEY3VObFdZNDI1MDU2SUo0NEM1N1JDTHpDMTk0YU9OM2V1eXRla1VaanBsTTlUM1lWR3VYU0g1eG5pM21hNzFWQTdabWphemRRMlc1U09MdWxVRVNLUWxjd3pIODVuY2UtcFE0dEhPTUM2MU1pbHNOQ1NnOUQtME1TTDJjSzJzOGljZTRmN0NBZ2Q0S1VodGZaSXFxZU1VTGNnanc3a0o0anM?oc=5",
-            "published": "Fri, 25 Sep 2026 02:18:00 GMT",
-            "source": "Reuters",
-            "provider": "REUTERS",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "Oil prices slide about 2% as US, Iran explore path out of war",
-            "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQV3EzX3oydnQxRk5Ld1BKbk82ek14ZVdyLVpTdldjdEpqeDJfTVZ2Q0F1TnhvaWlhR1p0Z3hScDV0S2Z1UFR5OXhKSWk3NmtqTzd0SkJfa2RLRFpOOUlEcE5mR1d4Z21Td2FCQVZqNHV1eDloQkplT1NHaHhyTDlqOG5DYlFFdnRERThxNU0yX29LcTRyal9pMHQ4ZzNoU0VKZkdHN2hFYjhCZUpZZ3d2am11SDJYYVBiN0JxWVBtczNRYkh1?oc=5",
-            "published": "Fri, 25 Sep 2026 01:11:00 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3850,5 +3868,5 @@
       }
     }
   },
-  "stocksUpdated": "2026-09-25T21:40:59.204Z"
+  "stocksUpdated": "2026-09-25T23:29:08.743Z"
 }
