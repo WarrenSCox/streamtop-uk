@@ -1,12 +1,30 @@
 {
-  "updated": "2026-09-26T11:33:18.352Z",
+  "updated": "2026-09-26T12:24:00.819Z",
   "charts": {
     "AUDIOBOOKS": [
+      {
+        "title": "The Safe Room",
+        "author": "Sarah A. Denzil",
+        "narrator": "Gemma Whelan , Maimie McCoy",
+        "image": "https://m.media-amazon.com/images/I/41E2JISfmgL._SL500_.jpg"
+      },
       {
         "title": "Dungeon Crawler Carl",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://m.media-amazon.com/images/I/51HIZdnqASL._SL500_.jpg"
+        "image": "https://covers.openlibrary.org/b/id/15143022-L.jpg"
+      },
+      {
+        "title": "The Garden Grave",
+        "author": "Joy Ellis",
+        "narrator": "Sam Claflin",
+        "image": ""
+      },
+      {
+        "title": "The Let Them Theory",
+        "author": "Mel Robbins",
+        "narrator": "Mel Robbins",
+        "image": "https://covers.openlibrary.org/b/id/15165806-L.jpg"
       },
       {
         "title": "Carl's Doomsday Scenario",
@@ -15,22 +33,16 @@
         "image": "https://covers.openlibrary.org/b/id/11702962-L.jpg"
       },
       {
-        "title": "The Let Them Theory",
-        "author": "Mel Robbins",
-        "narrator": "Mel Robbins",
-        "image": "https://m.media-amazon.com/images/I/51YOr6ua-PL._SL500_.jpg"
-      },
-      {
-        "title": "The Safe Room",
-        "author": "Sarah A. Denzil",
-        "narrator": "Gemma Whelan , Maimie McCoy",
-        "image": "https://m.media-amazon.com/images/I/41E2JISfmgL._SL500_.jpg"
+        "title": "Stephen Fry's Royal Secrets: The Elizabethans",
+        "author": "John Woolf",
+        "narrator": "Stephen Fry",
+        "image": ""
       },
       {
         "title": "Verity",
         "author": "Colleen Hoover",
         "narrator": "Vanessa Johansson , Amy Landon",
-        "image": "https://m.media-amazon.com/images/I/41xU31AS-BL._SL500_.jpg"
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/40/ef/da/40efda88-49f4-a5ec-814c-6703689e539b/9791036624001.jpg/600x600bb.jpg"
       },
       {
         "title": "The Dungeon Anarchist's Cookbook",
@@ -49,18 +61,6 @@
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
         "image": "https://covers.openlibrary.org/b/id/15232581-L.jpg"
-      },
-      {
-        "title": "Threshing Day (Wing and Claw Collection)",
-        "author": "Rebecca Yarros",
-        "narrator": "",
-        "image": ""
-      },
-      {
-        "title": "The Butcher's Masquerade",
-        "author": "Matt Dinniman",
-        "narrator": "Jeff Hays",
-        "image": "https://covers.openlibrary.org/b/id/15231958-L.jpg"
       }
     ],
     "BOOKS": [
@@ -123,15 +123,15 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-09-26T11:33:18.352Z",
-      "lastSuccessfulRefresh": "2026-09-26T11:33:18.352Z",
+      "checkedAt": "2026-09-26T12:24:00.819Z",
+      "lastSuccessfulRefresh": "2026-09-26T12:24:00.819Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
-      "status": "stale",
-      "checkedAt": "2026-09-26T11:33:25.863Z",
-      "lastSuccessfulRefresh": "2026-09-26T05:08:43.341Z",
-      "reason": "503 https://www.audible.co.uk/charts/best"
+      "status": "healthy",
+      "checkedAt": "2026-09-26T12:24:08.645Z",
+      "lastSuccessfulRefresh": "2026-09-26T12:24:08.645Z",
+      "reason": ""
     }
   }
 }
