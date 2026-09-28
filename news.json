@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-28T23:21:55.518Z",
+  "updated": "2026-09-28T23:54:52.283Z",
   "categories": {
     "UK": [
       {
@@ -19,6 +19,15 @@
         "provider": "GUARDIAN",
         "categories": "UK news",
         "image": "https://i.guim.co.uk/img/media/05f44af803afa7387b36223fe0b5748b9ed7631e/171_0_1101_881/master/1101.jpg?width=140&quality=85&auto=format&fit=max&s=8a697077f15316ceee03c4803235091e"
+      },
+      {
+        "title": "'Remarkable' temperatures expected in parts of UK today",
+        "link": "https://news.sky.com/story/remarkable-temperatures-expected-in-parts-of-uk-as-temperatures-set-to-hit-27c-13593069",
+        "published": "Mon, 28 Sep 2026 23:02:00 +0100",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-heatwave-weather-uk_7340472.jpg?20260904011040"
       },
       {
         "title": "Young woman killed when her Fiat 500 ploughed into tree",
@@ -82,22 +91,13 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/09/1920x1080/skynews-sandie-peggie-jennifer-melle_7363479.jpg?20260928171818"
-      },
-      {
-        "title": "James Bulger killer Jon Venables to be given private parole hearing",
-        "link": "https://news.sky.com/story/james-bulger-killer-jon-venables-to-be-given-private-parole-hearing-13592962",
-        "published": "Mon, 28 Sep 2026 16:16:00 +0100",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/23/09/1920x1080/skynews-jon-venables-james-bulger_6291892.jpg?20240202163216"
       }
     ],
     "WORLD": [
       {
-        "title": "Australia news live: Chalmers says taxes lower than under Howard as rate decision due; deaths of NSW men under investigation",
+        "title": "Australia news live: Chalmers says Australians shouldn’t ‘carry the can’ of overseas decisions as cash rate decision due",
         "link": "https://www.theguardian.com/australia-news/live/2026/sep/29/treasurer-jim-chalmers-reserve-bank-cash-rate-decision-coalition-one-nation-ntwnfb",
-        "published": "Mon, 28 Sep 2026 22:59:08 GMT",
+        "published": "Mon, 28 Sep 2026 23:30:14 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
         "categories": "Australia news Australian politics Australian economy Business Health Australian education Australian immigration and asylum Australian foreign policy",
@@ -371,6 +371,15 @@
     ],
     "TECH": [
       {
+        "title": "Meta’s AI agent Muse gives out user’s home address without permission, sending buyer to his house",
+        "link": "https://www.theguardian.com/technology/2026/sep/28/metas-ai-agent-muse-home-address",
+        "published": "Mon, 28 Sep 2026 23:31:42 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Technology Meta AI (artificial intelligence) Virtual assistant Chatbots",
+        "image": "https://i.guim.co.uk/img/media/a9bae6c7cb1d2826925b462c9ba772f70992534e/543_0_5428_4342/master/5428.jpg?width=140&quality=85&auto=format&fit=max&s=d399c79301cf57d1808ca30602987629"
+      },
+      {
         "title": "OpenAI scraps release of new model over safety concerns in internal testing",
         "link": "https://www.theguardian.com/technology/2026/sep/28/openai-new-model-astra-release-scrapped",
         "published": "Mon, 28 Sep 2026 23:02:28 GMT",
@@ -416,15 +425,6 @@
         "image": "https://i.guim.co.uk/img/media/aec7cba8735b2ae3c20055f3561db31f83275566/0_0_4714_3771/master/4714.jpg?width=140&quality=85&auto=format&fit=max&s=5ff5b31e1cac0ac6371f9e5bd6ffdb46"
       },
       {
-        "title": "Teachers at Euan Blair firm report ‘horrendous stress’ after AI used to rate their work",
-        "link": "https://www.theguardian.com/technology/2026/sep/28/teachers-euan-blair-firm-report-horrendous-stress-ai-used-to-rate-their-work",
-        "published": "Mon, 28 Sep 2026 11:57:57 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "AI (artificial intelligence) Computing Technology UK news Teaching Education Teachers' workload Privacy Surveillance Tony Blair",
-        "image": "https://i.guim.co.uk/img/media/f25dae988909db9bba50f245cf9da60048dcd975/0_638_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=b31b863f57d805457720463993ca32e8"
-      },
-      {
         "title": "Bill Gates warns AI global framework talks harder than Cold War-era nuclear negotiations",
         "link": "https://news.sky.com/story/bill-gates-warns-ai-global-framework-talks-harder-than-cold-war-era-nuclear-negotiations-13592595",
         "published": "Mon, 28 Sep 2026 01:38:00 +0100",
@@ -443,6 +443,15 @@
         "image": "https://e3.365dm.com/26/09/1920x1080/skynews-infected-blood-memorial_7361539.jpg?20260926091825"
       },
       {
+        "title": "Teachers at Euan Blair firm report ‘horrendous stress’ after AI used to rate their work",
+        "link": "https://www.theguardian.com/technology/2026/sep/28/teachers-euan-blair-firm-report-horrendous-stress-ai-used-to-rate-their-work",
+        "published": "Mon, 28 Sep 2026 11:57:57 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "AI (artificial intelligence) Computing Technology UK news Teaching Education Teachers' workload Privacy Surveillance Tony Blair",
+        "image": "https://i.guim.co.uk/img/media/f25dae988909db9bba50f245cf9da60048dcd975/0_638_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=b31b863f57d805457720463993ca32e8"
+      },
+      {
         "title": "AI leaders have known about the extinction threat for decades | Judith Levine",
         "link": "https://www.theguardian.com/commentisfree/2026/sep/28/ai-extinction-threats",
         "published": "Mon, 28 Sep 2026 10:00:31 GMT",
@@ -450,15 +459,6 @@
         "provider": "GUARDIAN",
         "categories": "AI (artificial intelligence) US news Technology Computing",
         "image": "https://i.guim.co.uk/img/media/f218b98bfa5d8379b8a7e41021e78b35a38fc02d/0_0_6880_5504/master/6880.jpg?width=140&quality=85&auto=format&fit=max&s=eca18adfa45bcbf2baba49dffc2e38ed"
-      },
-      {
-        "title": "Anthropic will not appear at Senate inquiry into AI and datacentres amid fallout from OpenAI hack",
-        "link": "https://www.theguardian.com/australia-news/2026/sep/28/anthropic-will-not-appear-at-senate-inquiry-into-ai-and-datacentres-amid-fallout-from-openai-hack-ntwnfb",
-        "published": "Mon, 28 Sep 2026 08:00:26 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "AI (artificial intelligence) Australian politics Australia news Technology Anthropic OpenAI Anthony Albanese Katy Gallagher (Australian politician)",
-        "image": "https://i.guim.co.uk/img/media/94b6b9331fe3393d2dba8ae844852e1cdb601e8b/212_80_1546_1237/master/1546.jpg?width=140&quality=85&auto=format&fit=max&s=5bbc31792a10e57e2b3b522fc2875888"
       }
     ],
     "ENTERTAINMENT": [
@@ -776,6 +776,15 @@
             "image": "https://e3.365dm.com/26/09/1920x1080/skynews-ferran-soriano-manchester-city_7363517.jpg?20260928182640"
           },
           {
+            "title": "'Remarkable' temperatures expected in parts of UK today",
+            "link": "https://news.sky.com/story/remarkable-temperatures-expected-in-parts-of-uk-as-temperatures-set-to-hit-27c-13593069",
+            "published": "Mon, 28 Sep 2026 23:02:00 +0100",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-heatwave-weather-uk_7340472.jpg?20260904011040"
+          },
+          {
             "title": "Woman found dead in bin bag had no teeth and several medical conditions, police say",
             "link": "https://news.sky.com/story/woman-found-dead-in-bin-bag-had-no-teeth-and-several-medical-conditions-police-say-13592960",
             "published": "Mon, 28 Sep 2026 16:15:00 +0100",
@@ -837,15 +846,6 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/09/1920x1080/skynews-france-calais-migrants_7363291.jpg?20260928131249"
-          },
-          {
-            "title": "New advert aimed at men as violence against women and girls branded 'national emergency'",
-            "link": "https://news.sky.com/story/new-that-guy-advert-from-police-scotland-as-violence-against-women-and-girls-branded-national-emergency-13592687",
-            "published": "Mon, 28 Sep 2026 10:25:00 +0100",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-arguing-couple_7363135.jpg?20260928104801"
           }
         ],
         "WORLD": [
@@ -1594,9 +1594,9 @@
             "image": "https://i.guim.co.uk/img/media/67d305784dfd315cace78bf9474fb8c26a114654/911_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=f189cedad7a0b35f55cc016262c904dc"
           },
           {
-            "title": "Australia news live: Chalmers says taxes lower than under Howard as rate decision due; deaths of NSW men under investigation",
+            "title": "Australia news live: Chalmers says Australians shouldn’t ‘carry the can’ of overseas decisions as cash rate decision due",
             "link": "https://www.theguardian.com/australia-news/live/2026/sep/29/treasurer-jim-chalmers-reserve-bank-cash-rate-decision-coalition-one-nation-ntwnfb",
-            "published": "Mon, 28 Sep 2026 22:59:08 GMT",
+            "published": "Mon, 28 Sep 2026 23:30:14 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
             "categories": "Australia news Australian politics Australian economy Business Health Australian education Australian immigration and asylum Australian foreign policy",
@@ -2068,6 +2068,15 @@
             "image": "https://i.guim.co.uk/img/media/0cc1aee437ad0fbad78dd256638cf9fd49f7e319/264_206_4492_3593/master/4492.jpg?width=140&quality=85&auto=format&fit=max&s=f02487b901c321efbdbf103ed27c69e1"
           },
           {
+            "title": "Meta’s AI agent Muse gives out user’s home address without permission, sending buyer to his house",
+            "link": "https://www.theguardian.com/technology/2026/sep/28/metas-ai-agent-muse-home-address",
+            "published": "Mon, 28 Sep 2026 23:31:42 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Technology Meta AI (artificial intelligence) Virtual assistant Chatbots",
+            "image": "https://i.guim.co.uk/img/media/a9bae6c7cb1d2826925b462c9ba772f70992534e/543_0_5428_4342/master/5428.jpg?width=140&quality=85&auto=format&fit=max&s=d399c79301cf57d1808ca30602987629"
+          },
+          {
             "title": "OpenAI scraps release of new model over safety concerns in internal testing",
             "link": "https://www.theguardian.com/technology/2026/sep/28/openai-new-model-astra-release-scrapped",
             "published": "Mon, 28 Sep 2026 23:02:28 GMT",
@@ -2093,15 +2102,6 @@
             "provider": "GUARDIAN",
             "categories": "AI (artificial intelligence) Australian politics Australia news Technology Anthropic OpenAI Anthony Albanese Katy Gallagher (Australian politician)",
             "image": "https://i.guim.co.uk/img/media/94b6b9331fe3393d2dba8ae844852e1cdb601e8b/212_80_1546_1237/master/1546.jpg?width=140&quality=85&auto=format&fit=max&s=5bbc31792a10e57e2b3b522fc2875888"
-          },
-          {
-            "title": "One Nation senator pays back more than $3,300 in taxi expenses; Cleary tells fans ‘I’ll be back’ – as it happened",
-            "link": "https://www.theguardian.com/australia-news/live/2026/sep/28/labor-anthony-albanese-openai-ai-hacks-coalition-one-nation-medicare-budget-ntwnfb",
-            "published": "Mon, 28 Sep 2026 07:04:08 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Australia news Australian politics Australian economy Business Health Australian education Australian immigration and asylum Australian foreign policy Migration Australian universities AI (artificial intelligence)",
-            "image": "https://i.guim.co.uk/img/media/0a4a03eb7719b9c2818b228bff54f077ee5bde5b/990_103_2610_2088/master/2610.jpg?width=140&quality=85&auto=format&fit=max&s=d4b30bf89b5809f854b4b9b26d529db5"
           },
           {
             "title": "‘Mum, where did my Robux go?’ The Roblox scam targeting children",
@@ -3635,15 +3635,6 @@
             "image": ""
           },
           {
-            "title": "Fed rate hike cycles have a history of denting US stock prices",
-            "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPRmR3cTBOOVhRdHBUaGJ0Z0lBY09RNlFCRm9nSkl3bVpTM3lzN3pMTTlZVVJvdnFyT3FzQXZUZ0NLWXUzbGtLQnRFaFlWNmVNUHJnbHcwbjEwbDBvTG1sQkIzdUN4a3d4RW5VcjlKeVhRSUh4TTJXdW92NkE2eDNVTGJOdlBnZHEyQVpVWnIyMk9EQnBEd1l5SjNnREtobGw5bkRGVw?oc=5",
-            "published": "Thu, 24 Sep 2026 10:21:02 GMT",
-            "source": "Reuters",
-            "provider": "REUTERS",
-            "categories": "",
-            "image": ""
-          },
-          {
             "title": "Indian shares post worst day in 10 weeks on oil spike, proposed insurance curbs",
             "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPRFR1dnlza0cxUU5PbXRVYmRRT19oaHZFS3NmTDZUdHhDUVpIaTJDVDFHYThvSXE3RzNWenBDSUlDUDVCdE51VkpDaXppUEl2M1htMGxsMkxPV3ZaS2d3YVhYVTlFUEphWm45cWVuYTZLYmJ2V0xwT2dtMFkwQXZ5bjVWOVh2UHczVnZUSFQ5NFBrUkJaQTJwRXFoSlY5ajhXaHJXOVd3enFaclR4QUpXODFjMWxjVVE?oc=5",
             "published": "Thu, 24 Sep 2026 02:46:21 GMT",
@@ -3692,6 +3683,15 @@
             "title": "Nasdaq reaches record high close, AI stocks rally",
             "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOOUI2bTZ5ZFhnZUozYjg5LXM1WHhuT24xUS0zYmRRZkViWVBreE05ZTNMWFBDSGhHTXUyQ3ZyMWhsUFdxSUlxUXVUUXVHWGRVelg3Z2RuVXo3bndwaXJfRXhEUEFERFNSUVZoaDNERnFxdnhuNkxLdVhnNDRpRGhxYndETzVJdVNnZXJESmpMNmw5QVFQODFGY2w2NzVCcFl0bXBSNjRaTQ?oc=5",
             "published": "Tue, 22 Sep 2026 22:25:27 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "Financial stocks fall with AI and flattening yield curve in focus",
+            "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPejZNajQteTk5RElWNTZRWHR4YV8tdF90N19DelgxWHI0X0RSTFgtRm9GVVQ2bWIzaWJ4SEFwdi1DUmZ6cXQ3dm5rYVRZdjJQaGRxMDRsZ0IyZ19mVDdHN0VlUXdObko1Y2R1Qkx1ekNDYXNnY05oN3lsUnVwYjRobXFXU2hrUEx6T3BES3Vad25fTDk5cHBjWjVFQTE4VWZCWHlkMS1TRkltc281QUVWRw?oc=5",
+            "published": "Tue, 22 Sep 2026 20:52:00 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3823,5 +3823,5 @@
       }
     }
   },
-  "stocksUpdated": "2026-09-28T23:22:00.941Z"
+  "stocksUpdated": "2026-09-28T23:54:59.821Z"
 }

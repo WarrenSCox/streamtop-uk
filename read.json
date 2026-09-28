@@ -1,36 +1,12 @@
 {
-  "updated": "2026-09-28T23:22:01.004Z",
+  "updated": "2026-09-28T23:55:00.085Z",
   "charts": {
     "AUDIOBOOKS": [
-      {
-        "title": "The End Of Mr. Y",
-        "author": "Scarlett Thomas",
-        "narrator": "Kristin Atherton",
-        "image": "https://m.media-amazon.com/images/I/51czh9R-OjL._SL500_.jpg"
-      },
       {
         "title": "Dungeon Crawler Carl",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
         "image": "https://m.media-amazon.com/images/I/51HIZdnqASL._SL500_.jpg"
-      },
-      {
-        "title": "The Safe Room",
-        "author": "Sarah A. Denzil",
-        "narrator": "Gemma Whelan , Maimie McCoy",
-        "image": "https://m.media-amazon.com/images/I/41E2JISfmgL._SL500_.jpg"
-      },
-      {
-        "title": "The Let Them Theory",
-        "author": "Mel Robbins",
-        "narrator": "Mel Robbins",
-        "image": "https://covers.openlibrary.org/b/id/15165806-L.jpg"
-      },
-      {
-        "title": "The Garden Grave",
-        "author": "Joy Ellis",
-        "narrator": "Sam Claflin",
-        "image": "https://m.media-amazon.com/images/I/51u2yPsf2LL._SL500_.jpg"
       },
       {
         "title": "Verity",
@@ -39,10 +15,34 @@
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/40/ef/da/40efda88-49f4-a5ec-814c-6703689e539b/9791036624001.jpg/600x600bb.jpg"
       },
       {
+        "title": "The End Of Mr. Y",
+        "author": "Scarlett Thomas",
+        "narrator": "Kristin Atherton",
+        "image": "https://m.media-amazon.com/images/I/51czh9R-OjL._SL500_.jpg"
+      },
+      {
+        "title": "The Let Them Theory",
+        "author": "Mel Robbins",
+        "narrator": "Mel Robbins",
+        "image": "https://m.media-amazon.com/images/I/51YOr6ua-PL._SL500_.jpg"
+      },
+      {
+        "title": "The Safe Room",
+        "author": "Sarah A. Denzil",
+        "narrator": "Gemma Whelan , Maimie McCoy",
+        "image": "https://m.media-amazon.com/images/I/41E2JISfmgL._SL500_.jpg"
+      },
+      {
         "title": "Carl's Doomsday Scenario",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
         "image": "https://covers.openlibrary.org/b/id/11702962-L.jpg"
+      },
+      {
+        "title": "Threshing Day (Wing and Claw Collection)",
+        "author": "Rebecca Yarros",
+        "narrator": "Justis Bolding , Jake Bordeaux , Chase Brown , Frankie Corzo , Giordan Diaz , Teddy Hamilton , Laura Knight Keating , Zion Jang , Nick Mills , Robb Moriera , James Aaron Oh , Anthony Palmini , John Skelley , Jasmin Walker",
+        "image": "https://m.media-amazon.com/images/I/51-D1SQFzQL._SL500_.jpg"
       },
       {
         "title": "The Dungeon Anarchist's Cookbook",
@@ -54,13 +54,13 @@
         "title": "Project Hail Mary",
         "author": "Andy Weir",
         "narrator": "Ray Porter",
-        "image": "https://m.media-amazon.com/images/I/51POf8gOyLL._SL500_.jpg"
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2a/1a/fc/2a1afcc9-6179-5fdf-3bea-aec376486895/rm_image.jpg/600x600bb.jpg"
       },
       {
-        "title": "Threshing Day (Wing and Claw Collection)",
-        "author": "Rebecca Yarros",
-        "narrator": "",
-        "image": "https://m.media-amazon.com/images/I/51-D1SQFzQL._SL500_.jpg"
+        "title": "The Gate of the Feral Gods",
+        "author": "Matt Dinniman",
+        "narrator": "Jeff Hays",
+        "image": "https://covers.openlibrary.org/b/id/15258911-L.jpg"
       }
     ],
     "BOOKS": [
@@ -123,15 +123,15 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-09-28T23:22:01.004Z",
-      "lastSuccessfulRefresh": "2026-09-28T23:22:01.004Z",
+      "checkedAt": "2026-09-28T23:55:00.085Z",
+      "lastSuccessfulRefresh": "2026-09-28T23:55:00.085Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
-      "status": "stale",
-      "checkedAt": "2026-09-28T23:22:08.920Z",
-      "lastSuccessfulRefresh": "2026-09-28T14:08:09.367Z",
-      "reason": "503 https://www.audible.co.uk/charts/best"
+      "status": "healthy",
+      "checkedAt": "2026-09-28T23:55:09.915Z",
+      "lastSuccessfulRefresh": "2026-09-28T23:55:09.915Z",
+      "reason": ""
     }
   }
 }
