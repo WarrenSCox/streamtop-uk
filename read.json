@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-29T13:02:45.514Z",
+  "updated": "2026-09-29T16:59:28.470Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -12,7 +12,7 @@
         "title": "Dungeon Crawler Carl",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://m.media-amazon.com/images/I/51HIZdnqASL._SL500_.jpg"
+        "image": "https://covers.openlibrary.org/b/id/15143022-L.jpg"
       },
       {
         "title": "The Safe Room",
@@ -30,7 +30,7 @@
         "title": "The Let Them Theory",
         "author": "Mel Robbins",
         "narrator": "Mel Robbins",
-        "image": "https://m.media-amazon.com/images/I/51YOr6ua-PL._SL500_.jpg"
+        "image": "https://covers.openlibrary.org/b/id/15165806-L.jpg"
       },
       {
         "title": "The Garden Grave",
@@ -54,13 +54,13 @@
         "title": "Project Hail Mary",
         "author": "Andy Weir",
         "narrator": "Ray Porter",
-        "image": "https://m.media-amazon.com/images/I/51POf8gOyLL._SL500_.jpg"
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2a/1a/fc/2a1afcc9-6179-5fdf-3bea-aec376486895/rm_image.jpg/600x600bb.jpg"
       },
       {
         "title": "The End Of Mr. Y",
         "author": "Scarlett Thomas",
         "narrator": "Kristin Atherton",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/08/bf/ce/08bfcecf-33ce-5b2e-c07b-5d04cfccb351/9781786899743.jpg/600x600bb.jpg"
+        "image": "https://m.media-amazon.com/images/I/51czh9R-OjL._SL500_.jpg"
       }
     ],
     "BOOKS": [
@@ -123,15 +123,15 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-09-29T13:02:45.514Z",
-      "lastSuccessfulRefresh": "2026-09-29T13:02:45.514Z",
+      "checkedAt": "2026-09-29T16:59:28.470Z",
+      "lastSuccessfulRefresh": "2026-09-29T16:59:28.470Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
-      "status": "stale",
-      "checkedAt": "2026-09-29T13:02:53.143Z",
-      "lastSuccessfulRefresh": "2026-09-29T11:33:05.689Z",
-      "reason": "503 https://www.audible.co.uk/charts/best"
+      "status": "healthy",
+      "checkedAt": "2026-09-29T16:59:37.543Z",
+      "lastSuccessfulRefresh": "2026-09-29T16:59:37.543Z",
+      "reason": ""
     }
   }
 }
