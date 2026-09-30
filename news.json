@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-30T22:22:55.535Z",
+  "updated": "2026-09-30T22:32:21.313Z",
   "categories": {
     "UK": [
       {
@@ -97,7 +97,7 @@
       {
         "title": "Australia news live: ATO finds one-quarter of big firms pay zero tax; credit and debit surcharges scrapped",
         "link": "https://www.theguardian.com/australia-news/live/2026/oct/01/labor-anthony-albanese-ato-ndis-thriving-kids-coalition-greens-leader-david-shoebridge-ntwnfb",
-        "published": "Wed, 30 Sep 2026 22:09:47 GMT",
+        "published": "Wed, 30 Sep 2026 22:23:50 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
         "categories": "Australia news Australian politics Australian economy Business Health Australian education Australian immigration and asylum Australian foreign policy",
@@ -555,36 +555,36 @@
     ],
     "STOCKS": [
       {
-        "title": "Moderna, Cerebras, Jabil, HPE, Cal-Maine, Mattel, and More Stocks That Explain Today’s Market",
-        "link": "https://uk.finance.yahoo.com/m/9bef82b0-bc35-31b4-a05e-cfa3a8677db4/moderna%2C-cerebras%2C-jabil%2C.html?.tsrc=rss",
-        "published": "Wed, 30 Sep 2026 21:09:00 +0000",
+        "title": "AppFolio (APPF) Advances While Market Declines: Some Information for Investors",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/appfolio-appf-advances-while-market-211505545.html?.tsrc=rss",
+        "published": "Wed, 30 Sep 2026 21:15:05 +0000",
         "source": "Yahoo Finance",
         "provider": "YAHOO",
         "categories": "",
         "image": ""
       },
       {
-        "title": "Toast (TOST) Falls More Steeply Than Broader Market: What Investors Need to Know",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/toast-tost-falls-more-steeply-210006578.html?.tsrc=rss",
-        "published": "Wed, 30 Sep 2026 21:00:06 +0000",
+        "title": "American Tower (AMT) Declines More Than Market: Some Information for Investors",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/american-tower-amt-declines-more-211503181.html?.tsrc=rss",
+        "published": "Wed, 30 Sep 2026 21:15:03 +0000",
         "source": "Yahoo Finance",
         "provider": "YAHOO",
         "categories": "",
         "image": ""
       },
       {
-        "title": "Sweetgreen, Inc. (SG) Advances While Market Declines: Some Information for Investors",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/sweetgreen-inc-sg-advances-while-210006730.html?.tsrc=rss",
-        "published": "Wed, 30 Sep 2026 21:00:06 +0000",
+        "title": "Rithm (RITM) Declines More Than Market: Some Information for Investors",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/rithm-ritm-declines-more-market-211502595.html?.tsrc=rss",
+        "published": "Wed, 30 Sep 2026 21:15:02 +0000",
         "source": "Yahoo Finance",
         "provider": "YAHOO",
         "categories": "",
         "image": ""
       },
       {
-        "title": "Cloudflare (NET) Falls More Steeply Than Broader Market: What Investors Need to Know",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/cloudflare-net-falls-more-steeply-210005467.html?.tsrc=rss",
-        "published": "Wed, 30 Sep 2026 21:00:05 +0000",
+        "title": "Intrusion Inc. (INTZ) Falls More Steeply Than Broader Market: What Investors Need to Know",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/intrusion-inc-intz-falls-more-211502180.html?.tsrc=rss",
+        "published": "Wed, 30 Sep 2026 21:15:02 +0000",
         "source": "Yahoo Finance",
         "provider": "YAHOO",
         "categories": "",
@@ -735,7 +735,7 @@
           },
           "YAHOO": {
             "ok": true,
-            "count": 10,
+            "count": 5,
             "retainedPrevious": 0,
             "errors": [
               "https://finance.yahoo.com/news/rssindex: no relevant articles"
@@ -1515,7 +1515,7 @@
           {
             "title": "Australia news live: ATO finds one-quarter of big firms pay zero tax; credit and debit surcharges scrapped",
             "link": "https://www.theguardian.com/australia-news/live/2026/oct/01/labor-anthony-albanese-ato-ndis-thriving-kids-coalition-greens-leader-david-shoebridge-ntwnfb",
-            "published": "Wed, 30 Sep 2026 22:09:47 GMT",
+            "published": "Wed, 30 Sep 2026 22:23:50 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
             "categories": "Australia news Australian politics Australian economy Business Health Australian education Australian immigration and asylum Australian foreign policy",
@@ -3329,90 +3329,45 @@
         "STOCK_MARKET": [],
         "STOCKS": [
           {
+            "title": "AppFolio (APPF) Advances While Market Declines: Some Information for Investors",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/appfolio-appf-advances-while-market-211505545.html?.tsrc=rss",
+            "published": "Wed, 30 Sep 2026 21:15:05 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "American Tower (AMT) Declines More Than Market: Some Information for Investors",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/american-tower-amt-declines-more-211503181.html?.tsrc=rss",
+            "published": "Wed, 30 Sep 2026 21:15:03 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "Rithm (RITM) Declines More Than Market: Some Information for Investors",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/rithm-ritm-declines-more-market-211502595.html?.tsrc=rss",
+            "published": "Wed, 30 Sep 2026 21:15:02 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "Intrusion Inc. (INTZ) Falls More Steeply Than Broader Market: What Investors Need to Know",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/intrusion-inc-intz-falls-more-211502180.html?.tsrc=rss",
+            "published": "Wed, 30 Sep 2026 21:15:02 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
             "title": "Moderna, Cerebras, Jabil, HPE, Cal-Maine, Mattel, and More Stocks That Explain Today’s Market",
             "link": "https://uk.finance.yahoo.com/m/9bef82b0-bc35-31b4-a05e-cfa3a8677db4/moderna%2C-cerebras%2C-jabil%2C.html?.tsrc=rss",
             "published": "Wed, 30 Sep 2026 21:09:00 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "Toast (TOST) Falls More Steeply Than Broader Market: What Investors Need to Know",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/toast-tost-falls-more-steeply-210006578.html?.tsrc=rss",
-            "published": "Wed, 30 Sep 2026 21:00:06 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "Sweetgreen, Inc. (SG) Advances While Market Declines: Some Information for Investors",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/sweetgreen-inc-sg-advances-while-210006730.html?.tsrc=rss",
-            "published": "Wed, 30 Sep 2026 21:00:06 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "Cloudflare (NET) Falls More Steeply Than Broader Market: What Investors Need to Know",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/cloudflare-net-falls-more-steeply-210005467.html?.tsrc=rss",
-            "published": "Wed, 30 Sep 2026 21:00:05 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "Gilead Sciences (GILD) Declines More Than Market: Some Information for Investors",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/gilead-sciences-gild-declines-more-210004893.html?.tsrc=rss",
-            "published": "Wed, 30 Sep 2026 21:00:04 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "HCI Group (HCI) Falls More Steeply Than Broader Market: What Investors Need to Know",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/hci-group-hci-falls-more-210004706.html?.tsrc=rss",
-            "published": "Wed, 30 Sep 2026 21:00:04 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "Alaska Air Group (ALK) Falls More Steeply Than Broader Market: What Investors Need to Know",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/alaska-air-group-alk-falls-210003640.html?.tsrc=rss",
-            "published": "Wed, 30 Sep 2026 21:00:03 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "Why today's headwinds could set up a major stock rally in coming months",
-            "link": "https://finance.yahoo.com/video/why-todays-headwinds-could-set-210000474.html?.tsrc=rss",
-            "published": "Wed, 30 Sep 2026 21:00:00 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "Inflection Point Acquisition Corp. VIII Announces the Separate Trading of its Class A Ordinary Shares and Warrants, Commencing on or about October 5, 2026",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/inflection-point-acquisition-corp-viii-210000620.html?.tsrc=rss",
-            "published": "Wed, 30 Sep 2026 21:00:00 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "Stock Market Today: Dow Knocked Down, Nasdaq Pares Gain; Micron Holds Firm After Earnings Soar",
-            "link": "https://uk.finance.yahoo.com/m/6f982775-a9dc-3e50-86f2-0a4313c1c6ce/stock-market-today%3A-dow.html?.tsrc=rss",
-            "published": "Wed, 30 Sep 2026 20:54:22 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
@@ -3432,7 +3387,7 @@
         },
         "STOCKS": {
           "ok": true,
-          "count": 10,
+          "count": 5,
           "retainedPrevious": 0,
           "errors": [
             "https://finance.yahoo.com/news/rssindex: no relevant articles"
@@ -3805,5 +3760,5 @@
       }
     }
   },
-  "stocksUpdated": "2026-09-30T22:23:02.957Z"
+  "stocksUpdated": "2026-09-30T22:32:27.205Z"
 }
