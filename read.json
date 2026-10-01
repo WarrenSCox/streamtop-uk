@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-30T22:32:27.416Z",
+  "updated": "2026-10-01T01:29:28.241Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -65,9 +65,24 @@
     ],
     "BOOKS": [
       {
-        "title": "We Chase Shadows",
-        "author": "Richard Osman. The",
-        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978024/9780241745892.jpg"
+        "title": "Swan Song",
+        "author": "Charles Spencer Spencer. The",
+        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978024/9780241825594.jpg"
+      },
+      {
+        "title": "Swan Song",
+        "author": "Charles Spencer Spencer",
+        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978024/9780241825594.jpg"
+      },
+      {
+        "title": "The Mirror of Infinite Endings",
+        "author": "Stephanie Garber",
+        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978139/9781399641760.jpg"
+      },
+      {
+        "title": "The Sweetest Fiend",
+        "author": "Raven Kennedy",
+        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978024/9780241767405.jpg"
       },
       {
         "title": "We Chase Shadows",
@@ -75,14 +90,14 @@
         "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978024/9780241745892.jpg"
       },
       {
-        "title": "Protocols",
-        "author": "Andrew Huberman",
-        "image": "https://storage.googleapis.com/lr-assets/main/covers/1790264488-9781529921281-260x400.jpg"
+        "title": "The Ultimate Chinese Takeaway Bible",
+        "author": "Chin Taylor and 2 more",
+        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978139/9781399643528.jpg"
       },
       {
-        "title": "Hawk & Sparrow",
-        "author": "Ayana Gray",
-        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978103/9781035075157.jpg"
+        "title": "Murder at the Grand Alpine Hotel",
+        "author": "Lucy Foley and 1 more",
+        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978000/9780008694821.jpg"
       },
       {
         "title": "The Correspondent",
@@ -90,29 +105,14 @@
         "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978140/9781405971553.jpg"
       },
       {
-        "title": "Brain Damage",
-        "author": "Freida McFadden",
-        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978146/9781464298547.jpg"
+        "title": "Pinch of Nom Meal Prep",
+        "author": "Kate Allinson and 1 more",
+        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978103/9781035053261.jpg"
       },
       {
-        "title": "All the Wrong Moves",
-        "author": "Anthony Scaramucci",
-        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978184/9781847929235.jpg"
-      },
-      {
-        "title": "Berwick",
-        "author": "LJ Ross",
-        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978180/9781804960691.jpg"
-      },
-      {
-        "title": "Grim Tidings",
-        "author": "B. K. Borison",
-        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978000/9780008760519.jpg"
-      },
-      {
-        "title": "Fury Bound",
-        "author": "Sable Sorensen",
-        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978191/9781911751359.jpg"
+        "title": "Letters to Our Sons",
+        "author": "Stephen Graham and 1 more",
+        "image": "https://storage.googleapis.com/lr-assets/main/covers/1785490148-81s8rvkf8kl._sl1500_-261x400.jpg"
       }
     ]
   },
@@ -123,13 +123,13 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-09-30T22:32:27.416Z",
-      "lastSuccessfulRefresh": "2026-09-30T22:32:27.416Z",
+      "checkedAt": "2026-10-01T01:29:28.242Z",
+      "lastSuccessfulRefresh": "2026-10-01T01:29:28.242Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
       "status": "stale",
-      "checkedAt": "2026-09-30T22:32:34.889Z",
+      "checkedAt": "2026-10-01T01:29:37.396Z",
       "lastSuccessfulRefresh": "2026-09-30T22:23:12.103Z",
       "reason": "503 https://www.audible.co.uk/charts/best"
     }
