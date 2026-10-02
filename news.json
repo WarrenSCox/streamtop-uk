@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-02T05:49:22.452Z",
+  "updated": "2026-10-02T06:05:40.502Z",
   "categories": {
     "UK": [
       {
@@ -95,16 +95,34 @@
     ],
     "WORLD": [
       {
-        "title": "Australia news live: Shoebridge says members to ‘have a say’ in next Greens leader after Faruqi criticism; more rain for Victoria",
+        "title": "Lily forced to flee Coronation Street as Jodie twists the knife in cruel plot",
+        "link": "https://metro.co.uk/2026/10/02/lily-forced-flee-coronation-street-jodie-twists-knife-29654948/",
+        "published": "Fri, 02 Oct 2026 06:00:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Coronation Street Soaps David Platt Jack P. Shepherd Jodie Ramsey Julia Goulding Olivia Frances-Brown Shona Platt",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_314469379-c9c9.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "The 5 best European islands to visit in October with flights from £75",
+        "link": "https://metro.co.uk/2026/10/02/5-best-european-islands-visit-october-flights-75-29669251/",
+        "published": "Fri, 02 Oct 2026 06:00:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Lifestyle Travel Beach Destinations Europe Travel Greece Italy Madeira Republic of Ireland Travel Inspiration",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/08/GettyImages-2112175218-99d9.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Australia news live: Union leader says PM ‘vastly underpaid’; Shoebridge pledges members will ‘have a say’ in next leader",
         "link": "https://www.theguardian.com/australia-news/live/2026/oct/02/labor-anthony-albanese-online-gaming-esafety-coalition-angus-taylor-greens-david-shoebridge-ntwnfb",
-        "published": "Fri, 02 Oct 2026 05:39:50 GMT",
+        "published": "Fri, 02 Oct 2026 05:48:13 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
         "categories": "Australia news Australian politics Australian economy Business Health Australian education Australian immigration and asylum Australian foreign policy Games Social media ban Australian Greens Coalition Labor party",
-        "image": "https://i.guim.co.uk/img/media/716318f8b37a213654c5fcf129ea4d34f1f8b091/590_0_2952_2362/master/2952.jpg?width=140&quality=85&auto=format&fit=max&s=b507e8806db00db513ab6cf0b7dc3a35"
+        "image": "https://i.guim.co.uk/img/media/5f3322506ea6b4d55c3eef468d9501ad2098aeca/1238_0_6880_5504/master/6880.jpg?width=140&quality=85&auto=format&fit=max&s=1ad63c810aa2182c44083a379c37fd6a"
       },
       {
-        "title": "‘They believed these women might be alone’: men charged with assault and choking after Sydney home invasions",
+        "title": "‘Excessively violent’: three men charged with assault and choking after Sydney home invasions",
         "link": "https://www.theguardian.com/australia-news/2026/oct/02/sydney-home-invasions-arncliffe-bankstown-ntwnfb",
         "published": "Fri, 02 Oct 2026 04:18:07 GMT",
         "source": "The Guardian",
@@ -129,15 +147,6 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/10/1920x1080/skynews-nasa-spacex_7366178.jpg?20261002044857"
-      },
-      {
-        "title": "Beau Lamarre-Condon trial: victim’s family cries as double murder trial hears triple-zero call",
-        "link": "https://www.theguardian.com/australia-news/2026/oct/02/beau-lamarre-condon-asked-police-investigator-about-of-lilie-james-day-before-shootings-court-hears",
-        "published": "Fri, 02 Oct 2026 02:04:17 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "New South Wales Australia news",
-        "image": "https://i.guim.co.uk/img/media/95ab728c5c5d8c75c81c7278ea929fc440188ee0/185_0_3099_2480/master/3099.jpg?width=140&quality=85&auto=format&fit=max&s=84f757b6f2b8ff54b34b74321180e940"
       },
       {
         "title": "‘Professor Doomsday’ warns Putin will push nuclear button if West sends troops to Ukraine",
@@ -174,15 +183,6 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/10/1920x1080/skynews-bear-russia_7365966.jpg?20261001183043"
-      },
-      {
-        "title": "Putin increases military spending by 27% to record £150,000,000,000 next year",
-        "link": "https://metro.co.uk/2026/10/01/putin-increases-military-spending-27-record-150-000-000-000-next-year-29671803/",
-        "published": "Thu, 01 Oct 2026 15:29:00 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News World NATO Russia Russia-Ukraine war Ukraine Vladimir Putin",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_296356377-ee16.jpg?quality=90&strip=all&w=646"
       }
     ],
     "POLITICS": [
@@ -250,13 +250,13 @@
         "image": "https://e3.365dm.com/24/05/1920x1080/skynews-wales-port-talbot-tata-steel_6570313.jpg?20240531110648"
       },
       {
-        "title": "Talks between council and union 'break down again' amid fire and rehire plans",
-        "link": "https://news.sky.com/story/talks-between-glasgow-city-council-and-unison-break-down-again-amid-fire-and-rehire-plans-13593869",
-        "published": "Thu, 01 Oct 2026 08:32:00 +0100",
+        "title": "The Green Party: Has the Polanski bubble burst?",
+        "link": "https://news.sky.com/story/the-green-party-has-the-polanski-bubble-burst-13593885",
+        "published": "Thu, 01 Oct 2026 08:57:00 +0100",
         "source": "Sky News",
         "provider": "SKY",
         "categories": "",
-        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-glasgow-city-chambers_7360681.jpg?20261001083957"
+        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-zack-polanski-green-party_7347870.jpg?20260911112722"
       },
       {
         "title": "So that’s what Burnhamism is all about",
@@ -371,6 +371,15 @@
     ],
     "TECH": [
       {
+        "title": "Never Fully Dressed launches AI tool that lets you try on clothes without buying them",
+        "link": "https://metro.co.uk/2026/10/02/never-fully-dressed-launches-ai-tool-lets-try-clothes-without-buying-29668967/",
+        "published": "Fri, 02 Oct 2026 06:00:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Lifestyle Shopping Fashion High Street Metro newspaper",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEC_314816053-0bdf.jpg?quality=90&strip=all&w=646"
+      },
+      {
         "title": "SpaceX flight led by first black female commander sets US speed record",
         "link": "https://news.sky.com/story/spacex-flight-led-by-first-black-female-commander-sets-us-speed-record-13594191",
         "published": "Fri, 02 Oct 2026 05:00:00 +0100",
@@ -450,15 +459,6 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/10/1920x1080/skynews-cx-tech-ltd-data-centre_7365602.png?20261001104653"
-      },
-      {
-        "title": "'Devastating year' as Swiss glaciers shed 5% of ice amid record-breaking heatwaves",
-        "link": "https://news.sky.com/story/devastating-year-as-swiss-glaciers-shed-5-of-ice-amid-record-breaking-heatwaves-13593873",
-        "published": "Thu, 01 Oct 2026 08:39:00 +0100",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/10/1920x1080/skynews-glacier-switzerland_7365552.jpg?20261001100457"
       }
     ],
     "ENTERTAINMENT": [
@@ -785,6 +785,15 @@
             "image": "https://e3.365dm.com/26/10/1920x1080/skynews-andy-burnham-electoral-dysfunction_7365806.jpg?20261001141402"
           },
           {
+            "title": "The Green Party: Has the Polanski bubble burst?",
+            "link": "https://news.sky.com/story/the-green-party-has-the-polanski-bubble-burst-13593885",
+            "published": "Thu, 01 Oct 2026 08:57:00 +0100",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-zack-polanski-green-party_7347870.jpg?20260911112722"
+          },
+          {
             "title": "Burglar who killed pensioner with headbutt jailed",
             "link": "https://news.sky.com/story/burglar-who-killed-pensioner-whose-house-he-was-raiding-jailed-for-18-years-13593867",
             "published": "Thu, 01 Oct 2026 17:28:00 +0100",
@@ -837,15 +846,6 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/04/1920x1080/skynews-laurence-billam-exeter_7232917.png?20260428094951"
-          },
-          {
-            "title": "Seventeen people rescued after fishing boat runs aground",
-            "link": "https://news.sky.com/story/seventeen-people-rescued-after-fishing-boat-runs-aground-13594028",
-            "published": "Thu, 01 Oct 2026 14:47:00 +0100",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/10/1920x1080/skynews-rnli-lifeboat_7365853.jpg?20261001151335"
           }
         ],
         "WORLD": [
@@ -922,6 +922,15 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/04/1920x1080/skynews-electoral-podcasts_7215215.png?20260409155754"
+          },
+          {
+            "title": "The Green Party: Has the Polanski bubble burst?",
+            "link": "https://news.sky.com/story/the-green-party-has-the-polanski-bubble-burst-13593885",
+            "published": "Thu, 01 Oct 2026 08:57:00 +0100",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-zack-polanski-green-party_7347870.jpg?20260911112722"
           },
           {
             "title": "Talks between council and union 'break down again' amid fire and rehire plans",
@@ -1239,7 +1248,7 @@
         },
         "POLITICS": {
           "ok": true,
-          "count": 7
+          "count": 8
         },
         "BUSINESS": {
           "ok": true,
@@ -1576,16 +1585,16 @@
             "image": "https://i.guim.co.uk/img/media/0e1841eede76860d01739f1ecad4e092dd2275ab/780_147_3980_3186/master/3980.jpg?width=140&quality=85&auto=format&fit=max&s=b53fd10884fa06d57cba533634d1e6cb"
           },
           {
-            "title": "Australia news live: Shoebridge says members to ‘have a say’ in next Greens leader after Faruqi criticism; more rain for Victoria",
+            "title": "Australia news live: Union leader says PM ‘vastly underpaid’; Shoebridge pledges members will ‘have a say’ in next leader",
             "link": "https://www.theguardian.com/australia-news/live/2026/oct/02/labor-anthony-albanese-online-gaming-esafety-coalition-angus-taylor-greens-david-shoebridge-ntwnfb",
-            "published": "Fri, 02 Oct 2026 05:39:50 GMT",
+            "published": "Fri, 02 Oct 2026 05:48:13 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
             "categories": "Australia news Australian politics Australian economy Business Health Australian education Australian immigration and asylum Australian foreign policy Games Social media ban Australian Greens Coalition Labor party",
-            "image": "https://i.guim.co.uk/img/media/716318f8b37a213654c5fcf129ea4d34f1f8b091/590_0_2952_2362/master/2952.jpg?width=140&quality=85&auto=format&fit=max&s=b507e8806db00db513ab6cf0b7dc3a35"
+            "image": "https://i.guim.co.uk/img/media/5f3322506ea6b4d55c3eef468d9501ad2098aeca/1238_0_6880_5504/master/6880.jpg?width=140&quality=85&auto=format&fit=max&s=1ad63c810aa2182c44083a379c37fd6a"
           },
           {
-            "title": "‘They believed these women might be alone’: men charged with assault and choking after Sydney home invasions",
+            "title": "‘Excessively violent’: three men charged with assault and choking after Sydney home invasions",
             "link": "https://www.theguardian.com/australia-news/2026/oct/02/sydney-home-invasions-arncliffe-bankstown-ntwnfb",
             "published": "Fri, 02 Oct 2026 04:18:07 GMT",
             "source": "The Guardian",
@@ -2671,6 +2680,24 @@
             "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_314135386-9ef5.jpg?quality=90&strip=all&w=646"
           },
           {
+            "title": "Lily forced to flee Coronation Street as Jodie twists the knife in cruel plot",
+            "link": "https://metro.co.uk/2026/10/02/lily-forced-flee-coronation-street-jodie-twists-knife-29654948/",
+            "published": "Fri, 02 Oct 2026 06:00:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Coronation Street Soaps David Platt Jack P. Shepherd Jodie Ramsey Julia Goulding Olivia Frances-Brown Shona Platt",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_314469379-c9c9.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "The 5 best European islands to visit in October with flights from £75",
+            "link": "https://metro.co.uk/2026/10/02/5-best-european-islands-visit-october-flights-75-29669251/",
+            "published": "Fri, 02 Oct 2026 06:00:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Lifestyle Travel Beach Destinations Europe Travel Greece Italy Madeira Republic of Ireland Travel Inspiration",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/08/GettyImages-2112175218-99d9.jpg?quality=90&strip=all&w=646"
+          },
+          {
             "title": "Woman, 75, who ‘intentionally’ ran over puppy arrested",
             "link": "https://metro.co.uk/2026/10/01/woman-75-intentionally-ran-puppy-arrested-29672478/",
             "published": "Thu, 01 Oct 2026 20:18:44 +0000",
@@ -3046,6 +3073,15 @@
         ],
         "TECH": [
           {
+            "title": "Never Fully Dressed launches AI tool that lets you try on clothes without buying them",
+            "link": "https://metro.co.uk/2026/10/02/never-fully-dressed-launches-ai-tool-lets-try-clothes-without-buying-29668967/",
+            "published": "Fri, 02 Oct 2026 06:00:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Lifestyle Shopping Fashion High Street Metro newspaper",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEC_314816053-0bdf.jpg?quality=90&strip=all&w=646"
+          },
+          {
             "title": "Games Inbox: What Amiga games deserve a remake?",
             "link": "https://metro.co.uk/2026/10/02/games-inbox-amiga-games-deserve-a-remake-29672549/",
             "published": "Fri, 02 Oct 2026 00:10:00 +0000",
@@ -3263,7 +3299,7 @@
         },
         "WORLD": {
           "ok": true,
-          "count": 13
+          "count": 15
         },
         "POLITICS": {
           "ok": true,
@@ -3275,7 +3311,7 @@
         },
         "TECH": {
           "ok": true,
-          "count": 3
+          "count": 4
         },
         "ENTERTAINMENT": {
           "ok": true,
@@ -3886,5 +3922,5 @@
       }
     }
   },
-  "stocksUpdated": "2026-10-02T05:49:27.444Z"
+  "stocksUpdated": "2026-10-02T06:05:45.401Z"
 }
