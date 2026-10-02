@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-02T22:06:18.466Z",
+  "updated": "2026-10-02T22:20:39.154Z",
   "categories": {
     "UK": [
       {
@@ -591,11 +591,11 @@
         "image": ""
       },
       {
-        "title": "Lam Research (LRCX) Outpaces Stock Market Gains: What You Should Know",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/lam-research-lrcx-outpaces-stock-205005421.html?.tsrc=rss",
-        "published": "Fri, 02 Oct 2026 20:50:05 +0000",
-        "source": "Yahoo Finance",
-        "provider": "YAHOO",
+        "title": "EXCLUSIVE: G7 countries agree on release of diesel and oil stocks after US pressure",
+        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZnMyRFpEcDhNOHlnU2NJT3F1R2M5QkEzMjJPaGRUYlZ1S2RYYmNMZ1pERlZINEtxMkJDTktfMThYeHZ0U2FDZjVoQ3l3eHViLVkyajQ0S1RfSDJ4QS1xTEgxNVlaZzJSSkVjLTJYM04tX3ZHUEVSY0VHdjJHUU45RHBRajVxQzA3emVQNXpvRG9XRVVVZUtSdUtveUN2WUp6RzhBeVQwQ0JzVk8zWWYzS1FCVUtTZ3UtNTllVzJrbTJyUC00?oc=5",
+        "published": "Fri, 02 Oct 2026 20:42:24 GMT",
+        "source": "Reuters",
+        "provider": "REUTERS",
         "categories": "",
         "image": ""
       },
@@ -627,22 +627,22 @@
         "image": "https://www.twelfthmagpie.com/wp-content/uploads/2025/06/buy-sell-stocks-red-green-1601x972-1822400-1200x729.jpg"
       },
       {
-        "title": "If I invest £3,000 in Lloyds shares, how much passive income will I get in 2027?",
-        "link": "https://www.twelfthmagpie.com/2026/10/02/if-i-invest-3000-in-lloyds-shares-how-much-passive-income-will-i-get-in-2027/",
-        "published": "Fri, 02 Oct 2026 15:04:25 +0000",
-        "source": "The Twelfth Magpie",
-        "provider": "MAGPIE",
-        "categories": "Dividend Shares Investing Articles",
-        "image": "https://www.twelfthmagpie.com/wp-content/uploads/2025/12/2026-5-1200x800.jpg"
+        "title": "Mattel attracts takeover interest from Authentic Brands Group, source says",
+        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPR0RjN3NNRUptZEdRTXljT1RObmt6QWpjLWs5SnRvMkpzMXBKaWxiMGlxZ2VkTng2c0dRX1ZHZHZBUDBwWC03NFFORWRpeHZaazViOTEwYlAxLW4zMlA0cmRsQXFEQ3ZuWUhHQ1VQZG5PaWRNc2xnc1Y0WW1PNGxuNFhrbmh4T3hZS1dHR0NxbmhjWW5vbERsNnh1Z2VqdFltOFR6N2xodXhiSXdPM21sZDVGdVk4R3VvWk1MRDM0NlE5eXFxdTlwaUNNV0g?oc=5",
+        "published": "Thu, 01 Oct 2026 21:51:30 GMT",
+        "source": "Reuters",
+        "provider": "REUTERS",
+        "categories": "",
+        "image": ""
       },
       {
-        "title": "After a strong Q3 update, here are the latest forecasts for Greggs’ shares",
-        "link": "https://www.twelfthmagpie.com/2026/10/02/after-a-strong-q3-update-here-are-the-latest-forecasts-for-greggs-shares/",
-        "published": "Fri, 02 Oct 2026 14:10:00 +0000",
-        "source": "The Twelfth Magpie",
-        "provider": "MAGPIE",
-        "categories": "Growth Shares Investing Articles",
-        "image": "https://www.twelfthmagpie.com/wp-content/uploads/2026/07/AdobeStock_981476672_Editorial_Use_Only-1200x800.jpeg"
+        "title": "Synopsys shares jump on robust growth outlook, OpenAI and AWS deals",
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNcGlqQnBISDJ0MDlRNllWZFpLMlpwc0FXU0xwZkhBUDg1QndSWUY0NzNtQ3ZQa0pyQ2ktSEdjMzhDN0t4b2hpakcxZ2RJdXdzMGZwcGkwSE1CU013c1E1eTl3YlBwczl2eWc4T3k1S2J6Z0s2QTh5Ml9qTHlhbjh6dDhNVHFaZU9ValYySmFlb3hwRjhGVzFDdWszX3RkLVNnQmIyWmtVTQ?oc=5",
+        "published": "Thu, 01 Oct 2026 16:22:09 GMT",
+        "source": "Reuters",
+        "provider": "REUTERS",
+        "categories": "",
+        "image": ""
       }
     ]
   },
@@ -719,11 +719,10 @@
         "count": 10,
         "liveProviders": [
           "MAGPIE",
-          "YAHOO"
-        ],
-        "failedProviders": [
+          "YAHOO",
           "REUTERS"
         ],
+        "failedProviders": [],
         "retainedPrevious": 0,
         "sourceHealth": {
           "MAGPIE": {
@@ -743,12 +742,11 @@
             ]
           },
           "REUTERS": {
-            "ok": false,
-            "count": 0,
-            "retainedPrevious": 12,
+            "ok": true,
+            "count": 12,
+            "retainedPrevious": 0,
             "errors": [
-              "https://www.reuters.com/arc/outboundfeeds/v3/all/?outputType=xml: 404 Not Found",
-              "https://news.google.com/rss/search?q=stocks%20OR%20shares%20OR%20markets%20source%3AReuters%20when%3A7d&hl=en-GB&gl=GB&ceid=GB:en: no relevant articles"
+              "https://www.reuters.com/arc/outboundfeeds/v3/all/?outputType=xml: 404 Not Found"
             ]
           }
         }
@@ -3693,16 +3691,7 @@
           {
             "title": "EXCLUSIVE: G7 countries agree on release of diesel and oil stocks after US pressure",
             "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZnMyRFpEcDhNOHlnU2NJT3F1R2M5QkEzMjJPaGRUYlZ1S2RYYmNMZ1pERlZINEtxMkJDTktfMThYeHZ0U2FDZjVoQ3l3eHViLVkyajQ0S1RfSDJ4QS1xTEgxNVlaZzJSSkVjLTJYM04tX3ZHUEVSY0VHdjJHUU45RHBRajVxQzA3emVQNXpvRG9XRVVVZUtSdUtveUN2WUp6RzhBeVQwQ0JzVk8zWWYzS1FCVUtTZ3UtNTllVzJrbTJyUC00?oc=5",
-            "published": "Fri, 02 Oct 2026 16:56:32 GMT",
-            "source": "Reuters",
-            "provider": "REUTERS",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "Oil prices drop as Europe agrees to release diesel reserves",
-            "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTERINTZjYjV0dGhsWUtmMjRmNXVHN2tjaG5ZVkpldGxTRHJxOWc5N0Jtd0dhTEZLdUVpM2Z4T1J5SFYxZ2NTMm83Q1ZSXzgxUDA2Z2hXbFRKRTY1cWRWajR2SldNQ2xqTktJNDAxamcyb3V0YVZyZnh6aktvcHpUNzRobzNocWQ1ZFREbVN5OUR2MHJ3MHVQU1RveHYzYkhZZnAzc3YtNTk?oc=5",
-            "published": "Fri, 02 Oct 2026 01:10:00 GMT",
+            "published": "Fri, 02 Oct 2026 20:42:24 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3790,6 +3779,15 @@
             "image": ""
           },
           {
+            "title": "COMMENTARY: Trading Day: Stocks still in bonds' grip",
+            "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNV29vbG0yUWdGb0kyUHphcGM1cXpNbXFLUnRGRmhoTFJoNExkSlExQTJQYnMxeXZ2MHhKUU5xeExVRFB1Q2s4d1ZfTldKWEJ2THE4bWwzaTQ3V1B3U2FUXzFQOG9tdUR1Q2FZUGEyZ1JBTG9pdzlYbHByUmx5MVhPd3lORGJjVlI3SzJvbzBpNG90NEJMVDBMVEhVTEdMNWVpUDR6ZW1R?oc=5",
+            "published": "Tue, 29 Sep 2026 23:23:28 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
             "title": "Robinhood to allow 24-hour weekend trading of US stocks as industry shifts to wider access",
             "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQOEdVVjZrQUYxODVCRnlNM21CNEQyOVVnUHRiTG83dDZ1MEwwbHFXRlJqR293dTc3WFdMRTBlR3oyTjZKaGMyaHdGM3ZfSTRCcm1jS1ZTSWdQdnJpZ0VwNDRlNEFpcFgzOEZiVDVrUzV2dWdIU1VsQ0E4UW4xdnZwdEhreXNMT3NYVEZGOXc5cXZEWTd6TTdJemRpdUdsX0JqdFVSQ0tRVDVuTHpDdUo4UXlTSkVDaVpIcEpzY3h4ODdnRmFXLUk2aWdTbw?oc=5",
             "published": "Tue, 29 Sep 2026 23:01:00 GMT",
@@ -3808,12 +3806,11 @@
           "errors": []
         },
         "STOCKS": {
-          "ok": false,
-          "count": 0,
-          "retainedPrevious": 12,
+          "ok": true,
+          "count": 12,
+          "retainedPrevious": 0,
           "errors": [
-            "https://www.reuters.com/arc/outboundfeeds/v3/all/?outputType=xml: 404 Not Found",
-            "https://news.google.com/rss/search?q=stocks%20OR%20shares%20OR%20markets%20source%3AReuters%20when%3A7d&hl=en-GB&gl=GB&ceid=GB:en: no relevant articles"
+            "https://www.reuters.com/arc/outboundfeeds/v3/all/?outputType=xml: 404 Not Found"
           ]
         }
       }
@@ -3925,5 +3922,5 @@
       }
     }
   },
-  "stocksUpdated": "2026-10-02T22:06:23.038Z"
+  "stocksUpdated": "2026-10-02T22:20:45.118Z"
 }

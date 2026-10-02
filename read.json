@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-02T22:06:23.102Z",
+  "updated": "2026-10-02T22:20:45.179Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -12,31 +12,25 @@
         "title": "Bram Stoker's Dracula",
         "author": "Bram Stoker",
         "narrator": "Jonathan Bailey , Ella Purnell , Aimee Lou Wood , Louis Partridge , David Jonsson , Johnny Flynn , Lesley Manville , Maggie Gyllenhaal",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/03/85/a8/0385a8b0-667d-baed-8423-132574f5a40f/9781785752292.png/600x600bb.jpg"
+        "image": "https://covers.openlibrary.org/b/id/10510100-L.jpg"
       },
       {
         "title": "Verity",
         "author": "Colleen Hoover",
         "narrator": "Vanessa Johansson , Amy Landon",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/40/ef/da/40efda88-49f4-a5ec-814c-6703689e539b/9791036624001.jpg/600x600bb.jpg"
+        "image": "https://m.media-amazon.com/images/I/41xU31AS-BL._SL500_.jpg"
+      },
+      {
+        "title": "Dungeon Crawler Carl",
+        "author": "Matt Dinniman",
+        "narrator": "Jeff Hays",
+        "image": "https://m.media-amazon.com/images/I/51HIZdnqASL._SL500_.jpg"
       },
       {
         "title": "The Safe Room",
         "author": "Sarah A. Denzil",
         "narrator": "Gemma Whelan , Maimie McCoy",
         "image": "https://m.media-amazon.com/images/I/41E2JISfmgL._SL500_.jpg"
-      },
-      {
-        "title": "Dungeon Crawler Carl",
-        "author": "Matt Dinniman",
-        "narrator": "Jeff Hays",
-        "image": "https://covers.openlibrary.org/b/id/15143022-L.jpg"
-      },
-      {
-        "title": "Threshing Day [Dramatized Adaptation]",
-        "author": "Rebecca Yarros",
-        "narrator": "Full Cast , Gabriel Michael , Torian Brackett , Taylor Coan , Robb Moreira , Henry W. Kramer , Rayner Gabriel , Jessica Schly , James J. Johnson , Casie Platt , Danny Gavigan , Rob McFadyen , Renee Dorian , Belsheber Junior Rusape , GM Hakim",
-        "image": "https://m.media-amazon.com/images/I/51yEO5vfs9L._SL500_.jpg"
       },
       {
         "title": "Carl's Doomsday Scenario",
@@ -51,16 +45,22 @@
         "image": "https://covers.openlibrary.org/b/id/15165806-L.jpg"
       },
       {
-        "title": "The Garden Grave",
-        "author": "Joy Ellis",
-        "narrator": "Sam Claflin",
-        "image": ""
+        "title": "Threshing Day [Dramatized Adaptation]",
+        "author": "Rebecca Yarros",
+        "narrator": "Full Cast , Gabriel Michael , Torian Brackett , Taylor Coan , Robb Moreira , Henry W. Kramer , Rayner Gabriel , Jessica Schly , James J. Johnson , Casie Platt , Danny Gavigan , Rob McFadyen , Renee Dorian , Belsheber Junior Rusape , GM Hakim",
+        "image": "https://m.media-amazon.com/images/I/51yEO5vfs9L._SL500_.jpg"
       },
       {
         "title": "The Dungeon Anarchist's Cookbook",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays , The Critical Drinker",
         "image": "https://covers.openlibrary.org/b/id/15258910-L.jpg"
+      },
+      {
+        "title": "The Garden Grave",
+        "author": "Joy Ellis",
+        "narrator": "Sam Claflin",
+        "image": ""
       }
     ],
     "BOOKS": [
@@ -123,15 +123,15 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-10-02T22:06:23.103Z",
-      "lastSuccessfulRefresh": "2026-10-02T22:06:23.103Z",
+      "checkedAt": "2026-10-02T22:20:45.179Z",
+      "lastSuccessfulRefresh": "2026-10-02T22:20:45.179Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
-      "status": "stale",
-      "checkedAt": "2026-10-02T22:06:30.653Z",
-      "lastSuccessfulRefresh": "2026-10-02T18:00:30.450Z",
-      "reason": "503 https://www.audible.co.uk/charts/best"
+      "status": "healthy",
+      "checkedAt": "2026-10-02T22:20:53.647Z",
+      "lastSuccessfulRefresh": "2026-10-02T22:20:53.647Z",
+      "reason": ""
     }
   }
 }
