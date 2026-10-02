@@ -1,7 +1,16 @@
 {
-  "updated": "2026-10-01T22:46:25.799Z",
+  "updated": "2026-10-02T00:07:34.043Z",
   "categories": {
     "UK": [
+      {
+        "title": "Falling glass and ‘decapitated’ plants: the race to protect Edinburgh botanic garden’s plants",
+        "link": "https://www.theguardian.com/uk-news/2026/oct/02/falling-glass-and-decapitated-plants-the-race-to-protect-edinburgh-botanic-gardens-plants",
+        "published": "Thu, 01 Oct 2026 23:01:03 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Edinburgh Scotland UK news Plants Gardens Conservation Biodiversity",
+        "image": "https://i.guim.co.uk/img/media/335c9465293442a8118116b1f99ac89a2ce3a91c/736_0_6830_5464/master/6830.jpg?width=140&quality=85&auto=format&fit=max&s=1bf0abc5ad1457f42da5665cf3de071e"
+      },
       {
         "title": "UK airlines to be banned from charging parents to sit with children",
         "link": "https://www.theguardian.com/business/2026/oct/01/uk-airlines-to-be-banned-from-charging-parents-to-sit-with-children",
@@ -57,15 +66,6 @@
         "image": "https://i.guim.co.uk/img/media/c043db33bd007fcda446ae0409f10b6d5d177cc4/0_0_6439_5152/master/6439.jpg?width=140&quality=85&auto=format&fit=max&s=ea6956cc7b0806310b6e0872cfdc6751"
       },
       {
-        "title": "Labour figures uneasy about Healey’s ‘underpowered’ approach to budget",
-        "link": "https://www.theguardian.com/politics/2026/oct/01/labour-unease-healey-budget",
-        "published": "Thu, 01 Oct 2026 18:33:40 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "John Healey Budget 2026 Budget Labour Politics UK news Energy bills Household bills Global economy Economic policy Tax and spending Government borrowing",
-        "image": "https://i.guim.co.uk/img/media/497140ece85bc35f4082907611e6cc167bdc048d/674_0_4522_3618/master/4522.jpg?width=140&quality=85&auto=format&fit=max&s=f19ee8601205193188a852cc46400dea"
-      },
-      {
         "title": "Counter terror police arrest UK-Iranian national over RAF Fairford investigation",
         "link": "https://news.sky.com/story/dual-uk-iranian-national-arrested-over-raf-fairford-incident-counter-terror-police-say-13594090",
         "published": "Thu, 01 Oct 2026 17:35:00 +0100",
@@ -95,13 +95,13 @@
     ],
     "WORLD": [
       {
-        "title": "Australia news live: Julie Inman-Grant says ‘time for new leadership’ at eSafety; Ayres defends ‘cooperation’ with OpenAI after hack",
+        "title": "Australia news live: Labor to make it harder for international students to change courses; Inman-Grant says time for new eSafety leadership",
         "link": "https://www.theguardian.com/australia-news/live/2026/oct/02/labor-anthony-albanese-online-gaming-esafety-coalition-angus-taylor-greens-david-shoebridge-ntwnfb",
-        "published": "Thu, 01 Oct 2026 22:32:12 GMT",
+        "published": "Thu, 01 Oct 2026 23:53:06 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
         "categories": "Australia news Australian politics Australian economy Business Health Australian education Australian immigration and asylum Australian foreign policy Games Social media ban Australian Greens Coalition Labor party",
-        "image": "https://i.guim.co.uk/img/media/79f89b98fbc11628984185156d2f05a140405218/314_0_3144_2516/master/3144.jpg?width=140&quality=85&auto=format&fit=max&s=93c40ed273e0fd3bdc71dc99fa1b81ac"
+        "image": "https://i.guim.co.uk/img/media/97b0d3fdc9df7a291b3bfb1192c44c8a589b6f03/1018_0_5068_4057/master/5068.jpg?width=140&quality=85&auto=format&fit=max&s=90eac2657fb4a1a90678d0b519afabe4"
       },
       {
         "title": "‘Professor Doomsday’ warns Putin will push nuclear button if West sends troops to Ukraine",
@@ -371,6 +371,24 @@
     ],
     "TECH": [
       {
+        "title": "Ace Combat 8: Wings Of Theve review – highway to the danger zone",
+        "link": "https://metro.co.uk/2026/10/02/ace-combat-8-wings-theve-review-highway-danger-zone-29672517/",
+        "published": "Fri, 02 Oct 2026 00:00:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Entertainment Gaming Games news Games reviews PC Games PlayStation 5 Xbox Series X",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_314909514-d33f.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Daily horoscope October 2, 2026: Today’s predictions for your star sign",
+        "link": "https://metro.co.uk/2026/10/02/daily-horoscope-october-2-2026-predictions-star-sign-29669869/",
+        "published": "Thu, 01 Oct 2026 23:01:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Horoscopes Lifestyle Aquarius Aries Astrology Cancer (star sign) Capricorn Gemini Leo Libra Pisces Sagittarius Scorpio Taurus Virgo",
+        "image": "https://metro.co.uk/wp-content/uploads/2023/04/new-horoscope-2023-02-a5db.gif?w=646"
+      },
+      {
         "title": "California issues investigative subpoena to OpenAI over rogue agents’ hacking",
         "link": "https://www.theguardian.com/us-news/2026/oct/01/california-opens-investigation-openai-hack",
         "published": "Thu, 01 Oct 2026 19:01:55 GMT",
@@ -389,15 +407,6 @@
         "image": "https://i.guim.co.uk/img/media/fc4f1adc6ddc32b6f538a74922af3ccdbb7d7c03/305_0_5001_4000/master/5001.jpg?width=140&quality=85&auto=format&fit=max&s=98b142c1f5f026ecd15c2735b4e6add1"
       },
       {
-        "title": "Gears Of War: E-Day review – the original third person shooter embraces co-op",
-        "link": "https://metro.co.uk/2026/10/01/gears-war-e-day-review-original-third-person-shooter-embraces-co-op-29671666/",
-        "published": "Thu, 01 Oct 2026 16:00:00 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Entertainment Gaming Games news Games reviews Gears Of War Microsoft PC Games Xbox Xbox Series X",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_314860733-b947.jpg?quality=90&strip=all&w=646"
-      },
-      {
         "title": "Anthropic pushes for opt-out model for Australian content as ABC warns of ‘cannibalisation’ of news",
         "link": "https://www.theguardian.com/technology/2026/oct/02/anthropic-ai-opt-out-australia-copyright-abc-cannibalisation-of-news",
         "published": "Thu, 01 Oct 2026 15:00:53 GMT",
@@ -405,15 +414,6 @@
         "provider": "GUARDIAN",
         "categories": "AI (artificial intelligence) Anthropic Australia news OpenAI Technology Australian politics Anthony Albanese",
         "image": "https://i.guim.co.uk/img/media/31efcec88394baea455a820212d18a058f1a038e/241_0_4313_3453/master/4313.jpg?width=140&quality=85&auto=format&fit=max&s=c132cc3d34a8a2d43729b2a326b92725"
-      },
-      {
-        "title": "Gears of War: E-Day review – an alien invasion shouldn’t be this boring",
-        "link": "https://www.theguardian.com/games/2026/sep/30/gears-of-war-e-day-review-xbox-pc",
-        "published": "Thu, 01 Oct 2026 13:09:12 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Games Culture Action games Shooting games PC",
-        "image": "https://i.guim.co.uk/img/media/706d703828c3323af61b4044429b92816e9a4d0e/279_0_2698_2160/master/2698.jpg?width=140&quality=85&auto=format&fit=max&s=52918d0310fbf1937d2fc729c6b6a08b"
       },
       {
         "title": "Space firm granted licence to launch rockets from UK",
@@ -443,6 +443,15 @@
         "image": "https://e3.365dm.com/26/10/1920x1080/skynews-glacier-switzerland_7365552.jpg?20261001100457"
       },
       {
+        "title": "Gears of War: E-Day review – an alien invasion shouldn’t be this boring",
+        "link": "https://www.theguardian.com/games/2026/sep/30/gears-of-war-e-day-review-xbox-pc",
+        "published": "Thu, 01 Oct 2026 13:09:12 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Games Culture Action games Shooting games PC",
+        "image": "https://i.guim.co.uk/img/media/706d703828c3323af61b4044429b92816e9a4d0e/279_0_2698_2160/master/2698.jpg?width=140&quality=85&auto=format&fit=max&s=52918d0310fbf1937d2fc729c6b6a08b"
+      },
+      {
         "title": "Tech in cars can be used to snoop on you, Dutch spy chiefs warn",
         "link": "https://www.theguardian.com/technology/2026/oct/01/cars-smart-features-spy-gps-chinese-imports",
         "published": "Thu, 01 Oct 2026 10:49:24 GMT",
@@ -450,18 +459,18 @@
         "provider": "GUARDIAN",
         "categories": "Motoring Technology Automotive industry Business Motoring Espionage Money UK news Netherlands Europe World news",
         "image": "https://i.guim.co.uk/img/media/938586c5c4e34a02d8b527189005f688010cd578/307_306_3368_2694/master/3368.jpg?width=140&quality=85&auto=format&fit=max&s=8bfbb7bfaaa9f8990a4859e40003715b"
-      },
-      {
-        "title": "AI chatbots remove hijabs from images of Muslim women when prompted",
-        "link": "https://www.theguardian.com/technology/2026/oct/01/ai-chatbots-hijabs-muslim-women",
-        "published": "Thu, 01 Oct 2026 10:00:34 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "AI (artificial intelligence) Chatbots ChatGPT OpenAI Islamophobia Islam Computing Technology US news",
-        "image": "https://i.guim.co.uk/img/media/976016b244ec75038c7b4d519a0cbce1e2e70696/0_103_3400_2720/master/3400.jpg?width=140&quality=85&auto=format&fit=max&s=a247cfc363b6adeb0b7a64d6d1432f3a"
       }
     ],
     "ENTERTAINMENT": [
+      {
+        "title": "Sienna and Tony’s shock passion explodes in Hollyoaks as Leela declares her love",
+        "link": "https://metro.co.uk/2026/10/01/sienna-tonys-shock-passion-explodes-hollyoaks-leela-declares-love-29655459/",
+        "published": "Thu, 01 Oct 2026 22:59:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Hollyoaks Soaps Anna Passey Kirsty-Leigh Porter Leela Dexter Nick Pickard Sienna Blake Tony Hutchinson",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_314127662-82b9.jpg?quality=90&strip=all&w=646"
+      },
       {
         "title": "Celebrity Traitors fans ‘suss first star murdered in season 2’ after crushing cliffhanger",
         "link": "https://metro.co.uk/2026/10/01/celebrity-traitors-fans-suss-first-star-murdered-season-2-crushing-cliffhanger-29672488/",
@@ -488,15 +497,6 @@
         "provider": "METRO",
         "categories": "Entertainment TV Amol Rajan BBC Bella Ramsey Celebrity Traitors Claudia Winkleman James Acaster James Blunt Jerry Hall Joanne McNally Joe Lycett Julie Hesmondhalgh King Kenny Leigh-Anne Pinnock Maya Jama Myha'la Professor Hannah Fry Richard E Grant Rob Beckett Romesh Ranganathan Ross Kemp Sebastian Croft Sharon Rooney The Traitors TV reviews",
         "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_314825328-5615-e1790857172599.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Celebrity Traitors fans spot secret clue where star spoiled their identity: ‘Guilty as hell’",
-        "link": "https://metro.co.uk/2026/10/01/celebrity-traitors-fans-convinced-one-star-made-huge-blunder-guilty-hell-29672443/",
-        "published": "Thu, 01 Oct 2026 19:40:40 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Entertainment TV Celebrity Traitors Claudia Winkleman Maya Jama Richard E Grant The Traitors",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_314829758-19b7.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "You Can See Everything review – Nathan Fielder’s Elizabeth Holmes doc is a modern masterpiece of deceit",
@@ -555,20 +555,20 @@
     ],
     "STOCKS": [
       {
+        "title": "Dow Jones Futures: Stocks Rise Off Support As Yields Skid, Micron In Buy Area; Tesla, Jobs Report Due",
+        "link": "https://uk.finance.yahoo.com/m/f6c899dd-7f15-3879-b266-51980008982d/dow-jones-futures%3A-stocks.html?.tsrc=rss",
+        "published": "Thu, 01 Oct 2026 23:54:58 +0000",
+        "source": "Yahoo Finance",
+        "provider": "YAHOO",
+        "categories": "",
+        "image": ""
+      },
+      {
         "title": "EXCLUSIVE: US tells France and Germany to release diesel stocks or face US export ban, sources say",
         "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNOGxXWEZnTW1hNUtCOXY4NTJTWHQ0ZkZoUEZsYkt3c3lQTVU1NDFVbHJnSkNJbXRTdzZCSlBWY2tsc0stTk5CSGk1Ymhpb0NwaG1WUEg5Ni1pVlFxQnRMc093VGllN0c5ektIdWYyN191ZW5ZX1lrUjhVODk2TUpsRXFQT3hQdGhVUzdjdklkSENrWm8yWmgwVkE1bEd6TTB2RHBsUHpZVExmTUhkbjhINTVrZ3ZpQnNsQW9wc0FBMWk4XzF0WEI1aXZBQQ?oc=5",
         "published": "Thu, 01 Oct 2026 22:20:13 GMT",
         "source": "Reuters",
         "provider": "REUTERS",
-        "categories": "",
-        "image": ""
-      },
-      {
-        "title": "Dow Jones Futures: Stocks Rise Off Support As Yields Tumble, Micron, Meta In Focus; Tesla, Jobs Report Due",
-        "link": "https://uk.finance.yahoo.com/m/f6c899dd-7f15-3879-b266-51980008982d/dow-jones-futures%3A-stocks.html?.tsrc=rss",
-        "published": "Thu, 01 Oct 2026 22:17:13 +0000",
-        "source": "Yahoo Finance",
-        "provider": "YAHOO",
         "categories": "",
         "image": ""
       },
@@ -593,6 +593,15 @@
       {
         "title": "Zoetis (ZTS) Stock Sinks As Market Gains: Here's Why",
         "link": "https://finance.yahoo.com/markets/stocks/articles/zoetis-zts-stock-sinks-market-211505094.html?.tsrc=rss",
+        "published": "Thu, 01 Oct 2026 21:15:05 +0000",
+        "source": "Yahoo Finance",
+        "provider": "YAHOO",
+        "categories": "",
+        "image": ""
+      },
+      {
+        "title": "VICI Properties Inc. (VICI) Stock Declines While Market Improves: Some Information for Investors",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/vici-properties-inc-vici-stock-211505398.html?.tsrc=rss",
         "published": "Thu, 01 Oct 2026 21:15:05 +0000",
         "source": "Yahoo Finance",
         "provider": "YAHOO",
@@ -630,15 +639,6 @@
         "title": "EU's emergency diesel stocks are mainly in Germany and France",
         "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQMXEwbVZ0dGxwSkt5YlM4eE9uWGV0MTZScDhaV01PU2h6UG8wOF9XOEtYODdJZFM3U2NVdUhCQ09OUlB2YmJjZ2M0Y2Y0YmVPTzhYcTd1UGxPMEtSbVZlMnhiVHExUkZvOFpWcXc2dGNEYTlmS2R2Q0FwVUYxTnNEd1ZWbzY1OXQybktURkVQUE81dnRXQWtxR3VrM3pCZW5QSVRSWFprbzI?oc=5",
         "published": "Thu, 01 Oct 2026 11:33:43 GMT",
-        "source": "Reuters",
-        "provider": "REUTERS",
-        "categories": "",
-        "image": ""
-      },
-      {
-        "title": "Chinese refiners suspend October fuel exports to bolster stocks, sources say",
-        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOM1hVSHNzaElkOXlpSnE5VW5DTEx5a2Z4WWt3NDFHVTd6TEhKQ3JHeFJhZDBsZXBkYy1MV29ZNjdPTGtHNlpwUEVLNEpBMUowZEItTjBraElOaGQ1U3U4NUxvWnNNM0JWeUlMVllMZkF1aHNKanVkVElwcmctX003R2dja0RsTkNXcEtZaVk5WmYzWW5KWEZpODdwUWxWOWdYYTBqVUF4SUg4ZVduWV9YdFN1RlNyZVExTWV1SGlpTE5nZnpxS3d3SmNIWVE?oc=5",
-        "published": "Thu, 01 Oct 2026 04:57:00 GMT",
         "source": "Reuters",
         "provider": "REUTERS",
         "categories": "",
@@ -1241,6 +1241,15 @@
       "categories": {
         "UK": [
           {
+            "title": "Falling glass and ‘decapitated’ plants: the race to protect Edinburgh botanic garden’s plants",
+            "link": "https://www.theguardian.com/uk-news/2026/oct/02/falling-glass-and-decapitated-plants-the-race-to-protect-edinburgh-botanic-gardens-plants",
+            "published": "Thu, 01 Oct 2026 23:01:03 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Edinburgh Scotland UK news Plants Gardens Conservation Biodiversity",
+            "image": "https://i.guim.co.uk/img/media/335c9465293442a8118116b1f99ac89a2ce3a91c/736_0_6830_5464/master/6830.jpg?width=140&quality=85&auto=format&fit=max&s=1bf0abc5ad1457f42da5665cf3de071e"
+          },
+          {
             "title": "UK airlines to be banned from charging parents to sit with children",
             "link": "https://www.theguardian.com/business/2026/oct/01/uk-airlines-to-be-banned-from-charging-parents-to-sit-with-children",
             "published": "Thu, 01 Oct 2026 21:41:19 GMT",
@@ -1313,15 +1322,6 @@
             "image": "https://i.guim.co.uk/img/media/29cc6d53585ab02eae5fe05b36bd4f12caf31fea/242_0_2202_1763/master/2202.jpg?width=140&quality=85&auto=format&fit=max&s=0d80fffebd513f104e3b544f0a3450f5"
           },
           {
-            "title": "Burnham’s reopening of Brexit debate is ‘biggest boost in my career’, says Farage",
-            "link": "https://www.theguardian.com/politics/2026/oct/01/burnhams-reopening-of-brexit-debate-is-biggest-boost-in-my-career-says-farage",
-            "published": "Thu, 01 Oct 2026 15:47:43 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Nigel Farage Brexit European Union Andy Burnham Politics Labour Foreign policy Reform UK UK news Party funding",
-            "image": "https://i.guim.co.uk/img/media/ad9efb5962e2151dd7cd55b2d9b72c528288ea38/417_0_2665_2132/master/2665.jpg?width=140&quality=85&auto=format&fit=max&s=29d66313f44cbc32f643937885e1cff0"
-          },
-          {
             "title": "How success of Manchester City helped put Andy Burnham in power",
             "link": "https://www.theguardian.com/politics/2026/oct/01/success-manchester-city-helped-put-andy-burnham-in-power",
             "published": "Thu, 01 Oct 2026 18:53:05 GMT",
@@ -1340,6 +1340,15 @@
             "image": "https://i.guim.co.uk/img/media/e09e7f43e6ed16986fac88b8df1f6a92a760e4e8/415_485_2419_1935/master/2419.jpg?width=140&quality=85&auto=format&fit=max&s=d516fa67681f81fa6d1d942d1bd92ee8"
           },
           {
+            "title": "British Sikh activist released from Delhi jail after nine-year detention",
+            "link": "https://www.theguardian.com/world/2026/oct/01/british-sikh-activist-jagtar-singh-johal-released-delhi-jail-india",
+            "published": "Thu, 01 Oct 2026 13:10:51 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "India Foreign, Commonwealth and Development Office Foreign policy World news UK news Politics South and central Asia",
+            "image": "https://i.guim.co.uk/img/media/c37935cdd973a91bc814a14689d8302b29d087d6/0_304_591_473/master/591.jpg?width=140&quality=85&auto=format&fit=max&s=23114af4f1295dcf184e51b7de36a647"
+          },
+          {
             "title": "Prisoners thank Andy Burnham as they leave jail in first wave of early releases",
             "link": "https://www.theguardian.com/society/2026/oct/01/prisoners-thank-andy-burnham-leave-jail-early-releases",
             "published": "Thu, 01 Oct 2026 11:55:52 GMT",
@@ -1356,15 +1365,6 @@
             "provider": "GUARDIAN",
             "categories": "Green party Zack Polanski Palestine Politics UK news Activism",
             "image": "https://i.guim.co.uk/img/media/7a0918d5ccc1f0d9bd7496a8ab3b8568fff93982/493_238_3505_2804/master/3505.jpg?width=140&quality=85&auto=format&fit=max&s=9963baef9c75cf8ca440e40d78a545e1"
-          },
-          {
-            "title": "Healey urged to offer energy support in budget as bills rise 4%",
-            "link": "https://www.theguardian.com/money/2026/oct/01/john-healey-uk-energy-bills-rise-support-budget-great-britain",
-            "published": "Thu, 01 Oct 2026 05:00:29 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Energy bills Energy industry Business UK news John Healey Politics Money Household bills Consumer affairs Budget US-Israel war on Iran UK cost of living crisis",
-            "image": "https://i.guim.co.uk/img/media/ad1a8a7bb5228098e9bd28cb13b27e04c6dbcbb8/662_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=5083bfe74790874ca4d70723bbeb7416"
           },
           {
             "title": "Why is the UK-France ‘one in, one out’ migration deal being scrapped?",
@@ -1558,13 +1558,13 @@
             "image": "https://i.guim.co.uk/img/media/0e1841eede76860d01739f1ecad4e092dd2275ab/780_147_3980_3186/master/3980.jpg?width=140&quality=85&auto=format&fit=max&s=b53fd10884fa06d57cba533634d1e6cb"
           },
           {
-            "title": "Australia news live: Julie Inman-Grant says ‘time for new leadership’ at eSafety; Ayres defends ‘cooperation’ with OpenAI after hack",
+            "title": "Australia news live: Labor to make it harder for international students to change courses; Inman-Grant says time for new eSafety leadership",
             "link": "https://www.theguardian.com/australia-news/live/2026/oct/02/labor-anthony-albanese-online-gaming-esafety-coalition-angus-taylor-greens-david-shoebridge-ntwnfb",
-            "published": "Thu, 01 Oct 2026 22:32:12 GMT",
+            "published": "Thu, 01 Oct 2026 23:53:06 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
             "categories": "Australia news Australian politics Australian economy Business Health Australian education Australian immigration and asylum Australian foreign policy Games Social media ban Australian Greens Coalition Labor party",
-            "image": "https://i.guim.co.uk/img/media/79f89b98fbc11628984185156d2f05a140405218/314_0_3144_2516/master/3144.jpg?width=140&quality=85&auto=format&fit=max&s=93c40ed273e0fd3bdc71dc99fa1b81ac"
+            "image": "https://i.guim.co.uk/img/media/97b0d3fdc9df7a291b3bfb1192c44c8a589b6f03/1018_0_5068_4057/master/5068.jpg?width=140&quality=85&auto=format&fit=max&s=90eac2657fb4a1a90678d0b519afabe4"
           },
           {
             "title": "Underlying causes of recurrent bacterial vaginosis identified by Australian scientists",
@@ -2313,7 +2313,7 @@
             "image": "https://i.guim.co.uk/img/media/aeaa0822c014ddf68ec9eae505f69275d6424ff4/1856_733_3117_2493/master/3117.jpg?width=140&quality=85&auto=format&fit=max&s=4187e83ddcb8f92c40a67ef13d2fb5c8"
           },
           {
-            "title": "East of Eden review – Florence Pugh’s soapy Steinbeck adaptation is brilliant, compelling TV",
+            "title": "East of Eden review – Florence Pugh in soapy Steinbeck adaptation is brilliant, compelling TV",
             "link": "https://www.theguardian.com/tv-and-radio/2026/oct/01/east-of-eden-review-florence-pugh-john-steinbeck",
             "published": "Thu, 01 Oct 2026 07:01:30 GMT",
             "source": "The Guardian",
@@ -3037,13 +3037,22 @@
         ],
         "TECH": [
           {
-            "title": "Gears Of War: E-Day review – the original third person shooter embraces co-op",
-            "link": "https://metro.co.uk/2026/10/01/gears-war-e-day-review-original-third-person-shooter-embraces-co-op-29671666/",
-            "published": "Thu, 01 Oct 2026 16:00:00 +0000",
+            "title": "Ace Combat 8: Wings Of Theve review – highway to the danger zone",
+            "link": "https://metro.co.uk/2026/10/02/ace-combat-8-wings-theve-review-highway-danger-zone-29672517/",
+            "published": "Fri, 02 Oct 2026 00:00:00 +0000",
             "source": "Metro",
             "provider": "METRO",
-            "categories": "Entertainment Gaming Games news Games reviews Gears Of War Microsoft PC Games Xbox Xbox Series X",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_314860733-b947.jpg?quality=90&strip=all&w=646"
+            "categories": "Entertainment Gaming Games news Games reviews PC Games PlayStation 5 Xbox Series X",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_314909514-d33f.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Daily horoscope October 2, 2026: Today’s predictions for your star sign",
+            "link": "https://metro.co.uk/2026/10/02/daily-horoscope-october-2-2026-predictions-star-sign-29669869/",
+            "published": "Thu, 01 Oct 2026 23:01:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Horoscopes Lifestyle Aquarius Aries Astrology Cancer (star sign) Capricorn Gemini Leo Libra Pisces Sagittarius Scorpio Taurus Virgo",
+            "image": "https://metro.co.uk/wp-content/uploads/2023/04/new-horoscope-2023-02-a5db.gif?w=646"
           }
         ],
         "ENTERTAINMENT": [
@@ -3219,13 +3228,13 @@
             "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312566385-ae86.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Poignant moment Dame Esther Rantzen honoured Nicholas Winton remembered after her death",
-            "link": "https://metro.co.uk/2026/10/01/poignant-moment-dame-esther-rantzen-honoured-nicholas-winton-remembered-death-29668894/",
-            "published": "Thu, 01 Oct 2026 08:57:26 +0000",
+            "title": "Sienna and Tony’s shock passion explodes in Hollyoaks as Leela declares her love",
+            "link": "https://metro.co.uk/2026/10/01/sienna-tonys-shock-passion-explodes-hollyoaks-leela-declares-love-29655459/",
+            "published": "Thu, 01 Oct 2026 22:59:00 +0000",
             "source": "Metro",
             "provider": "METRO",
-            "categories": "Entertainment TV BBC Celebrity Deaths Esther Rantzen",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/comp-1790844457.png?w=646"
+            "categories": "Hollyoaks Soaps Anna Passey Kirsty-Leigh Porter Leela Dexter Nick Pickard Sienna Blake Tony Hutchinson",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_314127662-82b9.jpg?quality=90&strip=all&w=646"
           }
         ]
       },
@@ -3248,7 +3257,7 @@
         },
         "TECH": {
           "ok": true,
-          "count": 1
+          "count": 2
         },
         "ENTERTAINMENT": {
           "ok": true,
@@ -3365,9 +3374,9 @@
         "STOCK_MARKET": [],
         "STOCKS": [
           {
-            "title": "Dow Jones Futures: Stocks Rise Off Support As Yields Tumble, Micron, Meta In Focus; Tesla, Jobs Report Due",
+            "title": "Dow Jones Futures: Stocks Rise Off Support As Yields Skid, Micron In Buy Area; Tesla, Jobs Report Due",
             "link": "https://uk.finance.yahoo.com/m/f6c899dd-7f15-3879-b266-51980008982d/dow-jones-futures%3A-stocks.html?.tsrc=rss",
-            "published": "Thu, 01 Oct 2026 22:17:13 +0000",
+            "published": "Thu, 01 Oct 2026 23:54:58 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
@@ -3859,5 +3868,5 @@
       }
     }
   },
-  "stocksUpdated": "2026-10-01T22:46:30.824Z"
+  "stocksUpdated": "2026-10-02T00:07:40.254Z"
 }

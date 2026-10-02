@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-01T22:46:30.885Z",
+  "updated": "2026-10-02T00:07:40.309Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -12,13 +12,13 @@
         "title": "Dungeon Crawler Carl",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://covers.openlibrary.org/b/id/15143022-L.jpg"
+        "image": "https://m.media-amazon.com/images/I/51HIZdnqASL._SL500_.jpg"
       },
       {
         "title": "Verity",
         "author": "Colleen Hoover",
         "narrator": "Vanessa Johansson , Amy Landon",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/40/ef/da/40efda88-49f4-a5ec-814c-6703689e539b/9791036624001.jpg/600x600bb.jpg"
+        "image": "https://m.media-amazon.com/images/I/41xU31AS-BL._SL500_.jpg"
       },
       {
         "title": "The Safe Room",
@@ -42,7 +42,7 @@
         "title": "The Let Them Theory",
         "author": "Mel Robbins",
         "narrator": "Mel Robbins",
-        "image": "https://covers.openlibrary.org/b/id/15165806-L.jpg"
+        "image": "https://m.media-amazon.com/images/I/51YOr6ua-PL._SL500_.jpg"
       },
       {
         "title": "The Dungeon Anarchist's Cookbook",
@@ -60,7 +60,7 @@
         "title": "The Gate of the Feral Gods",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://covers.openlibrary.org/b/id/15258911-L.jpg"
+        "image": "https://m.media-amazon.com/images/I/51rmyTTWPsL._SL500_.jpg"
       }
     ],
     "BOOKS": [
@@ -123,15 +123,15 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-10-01T22:46:30.885Z",
-      "lastSuccessfulRefresh": "2026-10-01T22:46:30.885Z",
+      "checkedAt": "2026-10-02T00:07:40.309Z",
+      "lastSuccessfulRefresh": "2026-10-02T00:07:40.309Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
-      "status": "stale",
-      "checkedAt": "2026-10-01T22:46:38.343Z",
-      "lastSuccessfulRefresh": "2026-10-01T20:28:11.016Z",
-      "reason": "503 https://www.audible.co.uk/charts/best"
+      "status": "healthy",
+      "checkedAt": "2026-10-02T00:07:49.413Z",
+      "lastSuccessfulRefresh": "2026-10-02T00:07:49.413Z",
+      "reason": ""
     }
   }
 }
