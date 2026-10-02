@@ -1,7 +1,25 @@
 {
-  "updated": "2026-10-02T12:24:48.811Z",
+  "updated": "2026-10-02T12:47:54.740Z",
   "categories": {
     "UK": [
+      {
+        "title": "Family of teen killed when car drove into River Wear pay tribute to their ‘beautiful girl’",
+        "link": "https://metro.co.uk/2026/10/02/family-teen-killed-car-drove-river-wear-pay-tribute-beautiful-girl-29674174/",
+        "published": "Fri, 02 Oct 2026 12:40:24 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News UK Crash Death",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_314999733-96c1.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Polanski says Greens ‘have turned hope into electoral wins’ ahead of conference speech – UK politics live",
+        "link": "https://www.theguardian.com/politics/live/2026/oct/02/zack-polanski-green-party-conference-speech-kemi-badenoch-andy-burnham-general-election-latest-news-updates",
+        "published": "Fri, 02 Oct 2026 12:29:08 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Politics UK news Kemi Badenoch Andy Burnham Green party Zack Polanski",
+        "image": "https://i.guim.co.uk/img/media/749fa820e83c07c0b87c3ad327e34b792f6b3cbd/515_0_3708_2967/master/3708.jpg?width=140&quality=85&auto=format&fit=max&s=007c6a9c09dc235b9c2ca081b6a44acf"
+      },
       {
         "title": "Dad of teen killed in A66 wrong way crash ‘attacked man at son’s funeral’",
         "link": "https://metro.co.uk/2026/10/02/dad-teen-killed-a66-wrong-way-crash-attacked-man-sons-funeral-29673217/",
@@ -10,15 +28,6 @@
         "provider": "METRO",
         "categories": "News Court",
         "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_314970352-fc7f-e1790942449575.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Polanski says Greens ‘have turned hope into electoral wins’ ahead of conference speech – UK politics live",
-        "link": "https://www.theguardian.com/politics/live/2026/oct/02/zack-polanski-green-party-conference-speech-kemi-badenoch-andy-burnham-general-election-latest-news-updates",
-        "published": "Fri, 02 Oct 2026 12:08:26 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Politics UK news Kemi Badenoch Andy Burnham Green party Zack Polanski",
-        "image": "https://i.guim.co.uk/img/media/749fa820e83c07c0b87c3ad327e34b792f6b3cbd/515_0_3708_2967/master/3708.jpg?width=140&quality=85&auto=format&fit=max&s=007c6a9c09dc235b9c2ca081b6a44acf"
       },
       {
         "title": "Gordon Ramsay’s UK restaurants stay in red despite sales topping £100m",
@@ -57,13 +66,13 @@
         "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_314854680-7f0b.jpg?quality=90&strip=all&w=646"
       },
       {
-        "title": "Suella Braverman refuses to explain what makes someone English",
-        "link": "https://metro.co.uk/2026/10/02/suella-braverman-refuses-explain-makes-someone-english-29673013/",
-        "published": "Fri, 02 Oct 2026 10:07:28 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News UK BBC Fiona Bruce Suella Braverman",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_314963275-8fe4.jpg?quality=90&strip=all&w=646"
+        "title": "Man, 87, faces no further action over double cowshed murder",
+        "link": "https://news.sky.com/story/man-87-faces-no-further-action-over-double-cowshed-murder-of-harry-and-megan-tooze-in-1993-13594334",
+        "published": "Fri, 02 Oct 2026 11:23:00 +0100",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/10/1920x1080/skynews-tooze-wales-murder_7366482.jpg?20261002115019"
       },
       {
         "title": "Crypto heist gang attacked man and threatened to kill his pregnant wife",
@@ -82,15 +91,6 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/09/1920x1080/skynews-ed-davey-liberal-democrat_7358612.jpg?20260922150509"
-      },
-      {
-        "title": "Burnham gives Labour post-landslide euphoria absent under Starmer, says peer",
-        "link": "https://news.sky.com/story/andy-burnham-gives-labour-post-landslide-euphoria-absent-under-sir-keir-starmer-says-peer-13594027",
-        "published": "Fri, 02 Oct 2026 05:00:00 +0100",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/10/1920x1080/skynews-andy-burnham-electoral-dysfunction_7365806.jpg?20261001141402"
       }
     ],
     "WORLD": [
@@ -189,7 +189,7 @@
       {
         "title": "Polanski says Greens ‘have turned hope into electoral wins’ ahead of conference speech – UK politics live",
         "link": "https://www.theguardian.com/politics/live/2026/oct/02/zack-polanski-green-party-conference-speech-kemi-badenoch-andy-burnham-general-election-latest-news-updates",
-        "published": "Fri, 02 Oct 2026 11:41:56 GMT",
+        "published": "Fri, 02 Oct 2026 12:29:08 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
         "categories": "Politics UK news Kemi Badenoch Andy Burnham Green party Zack Polanski",
@@ -386,7 +386,7 @@
         "source": "The Guardian",
         "provider": "GUARDIAN",
         "categories": "Apps Business Dating Technology UK news Digital media Online dating",
-        "image": "https://i.guim.co.uk/img/media/28cb47ee053fabd22670219d7f8a3c58db834772/1689_71_5031_4025/master/5031.jpg?width=140&quality=85&auto=format&fit=max&s=3f27817b891626262e6a968b47a19b93"
+        "image": "https://i.guim.co.uk/img/media/0bdadc994601bb6f52990889eb66a5a7084c622f/414_0_4364_3493/master/4364.jpg?width=140&quality=85&auto=format&fit=max&s=4725857f1e35bb8882c2245c7ad837cc"
       },
       {
         "title": "Ape Escape return teased by insider as hopes raised for new Astro Bot game",
@@ -463,6 +463,15 @@
     ],
     "ENTERTAINMENT": [
       {
+        "title": "Florence Pugh’s harrowing Netflix drama might be best TV to binge this October",
+        "link": "https://metro.co.uk/2026/10/02/florence-pughs-harrowing-netflix-drama-might-best-tv-binge-this-october-29672955/",
+        "published": "Fri, 02 Oct 2026 12:30:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Entertainment TV Amazon Prime Video David Oyelowo Dominic Cooper Dominic West Florence Pugh Hayley Atwell Last One Laughing Netflix Romola Garai Sienna Miller Sky",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_310637395-82c9.jpg?quality=90&strip=all&w=646"
+      },
+      {
         "title": "Who is Celebrity Traitors star Sebastian Croft who had forgotten Game of Thrones role?",
         "link": "https://metro.co.uk/2026/10/02/celebrity-traitors-star-sebastian-croft-forgotten-game-thrones-role-29673096/",
         "published": "Fri, 02 Oct 2026 12:00:54 +0000",
@@ -470,6 +479,15 @@
         "provider": "METRO",
         "categories": "Entertainment TV Celebrity Traitors Game Of Thrones Heartstopper Sebastian Croft",
         "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_314898277-fd59.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Freddie Mercury's handwritten lyrics sell at auction for £277,000",
+        "link": "https://news.sky.com/story/freddie-mercurys-handwritten-lyrics-sell-at-auction-for-277000-13594345",
+        "published": "Fri, 02 Oct 2026 11:50:00 +0100",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/10/1920x1080/skynews-freddie-mercury-queen_7366607.jpg?20261002133227"
       },
       {
         "title": "Ray J, 45, rushed to hospital during livestream after claiming he had ‘months to live’",
@@ -488,15 +506,6 @@
         "provider": "METRO",
         "categories": "Emmerdale Soaps Beth Cordingly Caleb Miligan Ruby Miligan William Ash",
         "image": "https://metro.co.uk/wp-content/uploads/2026/10/huge-new-story-confirmed-for-caleb-and-ruby-and-we-should-be-worried.png?w=646"
-      },
-      {
-        "title": "Influencer with 9m followers has never read a book — but don’t judge her",
-        "link": "https://metro.co.uk/2026/10/02/influencer-9m-followers-never-read-a-book-a-snob-judge-29669552/",
-        "published": "Fri, 02 Oct 2026 09:48:24 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Lifestyle Education Harry Potter Netflix TikTok",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_311940185-cb48.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "You Can See Everything review – Nathan Fielder’s Elizabeth Holmes doc is a modern masterpiece of deceit",
@@ -542,18 +551,45 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/09/1920x1080/skynews-oasis-liam-gallagher_7351555.jpg?20260914170354"
-      },
-      {
-        "title": "BBC licence fee cost should be cut and expanded beyond TV, MPs recommend",
-        "link": "https://news.sky.com/story/bbc-should-cut-licence-fee-cost-and-expand-it-beyond-tv-mps-recommend-13593616",
-        "published": "Thu, 01 Oct 2026 01:00:00 +0100",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/07/1920x1080/skynews-bbc-broadcasting-house_7304409.jpg?20260722171937"
       }
     ],
     "STOCKS": [
+      {
+        "title": "Jobs Report: Soft Hiring Sends Treasury Yields Sliding; Futures Rally (Live Coverage)",
+        "link": "https://uk.finance.yahoo.com/m/3e182634-ed94-3343-806f-8c347a8e5466/jobs-report%3A-soft-hiring.html?.tsrc=rss",
+        "published": "Fri, 02 Oct 2026 12:37:30 +0000",
+        "source": "Yahoo Finance",
+        "provider": "YAHOO",
+        "categories": "",
+        "image": ""
+      },
+      {
+        "title": "3 predictions for the £14.88 Rolls-Royce share price by 2031",
+        "link": "https://www.twelfthmagpie.com/2026/10/02/3-predictions-for-the-14-88-rolls-royce-share-price-by-2031/",
+        "published": "Fri, 02 Oct 2026 12:30:46 +0000",
+        "source": "The Twelfth Magpie",
+        "provider": "MAGPIE",
+        "categories": "Growth Shares Investing Articles",
+        "image": "https://www.twelfthmagpie.com/wp-content/uploads/2022/09/3.jpg"
+      },
+      {
+        "title": "Cycurion Regains Compliance with Nasdaq Bid Price Requirement",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/cycurion-regains-compliance-nasdaq-bid-123000667.html?.tsrc=rss",
+        "published": "Fri, 02 Oct 2026 12:30:00 +0000",
+        "source": "Yahoo Finance",
+        "provider": "YAHOO",
+        "categories": "",
+        "image": ""
+      },
+      {
+        "title": "Meet the UK dividend stock that’s 15 times more ‘popular’ than SpaceX",
+        "link": "https://www.twelfthmagpie.com/2026/10/02/meet-the-uk-dividend-stock-thats-15-times-more-popular-than-spacex/",
+        "published": "Fri, 02 Oct 2026 12:25:37 +0000",
+        "source": "The Twelfth Magpie",
+        "provider": "MAGPIE",
+        "categories": "Dividend Shares Investing Articles",
+        "image": "https://www.twelfthmagpie.com/wp-content/uploads/2024/08/GB-crowd-1200x800.jpg"
+      },
       {
         "title": "Stock Market Today: Dow Rises Ahead Of Jobs Report; Nike Plunges On Earnings (Live Coverage)",
         "link": "https://uk.finance.yahoo.com/m/94ae67df-681f-315f-b45f-941eaadbc7c6/stock-market-today%3A-dow-rises.html?.tsrc=rss",
@@ -567,24 +603,6 @@
         "title": "1 Internet Stock with Competitive Advantages and 2 We Find Risky",
         "link": "https://finance.yahoo.com/markets/stocks/articles/1-internet-stock-competitive-advantages-120603017.html?.tsrc=rss",
         "published": "Fri, 02 Oct 2026 12:06:03 +0000",
-        "source": "Yahoo Finance",
-        "provider": "YAHOO",
-        "categories": "",
-        "image": ""
-      },
-      {
-        "title": "Thunder Bridge Capital Partners V, Ltd. Announces Separate Trading of its Class A Ordinary Shares and Warrants, Commencing October 5, 2026",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/thunder-bridge-capital-partners-v-120000980.html?.tsrc=rss",
-        "published": "Fri, 02 Oct 2026 12:00:00 +0000",
-        "source": "Yahoo Finance",
-        "provider": "YAHOO",
-        "categories": "",
-        "image": ""
-      },
-      {
-        "title": "3 Industrials Stocks Walking a Fine Line",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/3-industrials-stocks-walking-fine-115803880.html?.tsrc=rss",
-        "published": "Fri, 02 Oct 2026 11:58:03 +0000",
         "source": "Yahoo Finance",
         "provider": "YAHOO",
         "categories": "",
@@ -607,24 +625,6 @@
         "provider": "REUTERS",
         "categories": "",
         "image": ""
-      },
-      {
-        "title": "This FTSE 250 stock could be set to surge on the Help to Buy reboot",
-        "link": "https://www.twelfthmagpie.com/2026/10/02/this-ftse-250-stock-could-be-set-to-surge-on-the-help-to-buy-reboot/",
-        "published": "Fri, 02 Oct 2026 10:27:52 +0000",
-        "source": "The Twelfth Magpie",
-        "provider": "MAGPIE",
-        "categories": "Investing Articles Investing For Beginners",
-        "image": "https://www.twelfthmagpie.com/wp-content/uploads/2023/03/Budget-1200x675.jpg"
-      },
-      {
-        "title": "Is the 7.67% yield on Legal & General shares too good to be true?",
-        "link": "https://www.twelfthmagpie.com/2026/10/02/is-the-7-67-yield-on-legal-general-shares-too-good-to-be-true/",
-        "published": "Fri, 02 Oct 2026 09:00:00 +0000",
-        "source": "The Twelfth Magpie",
-        "provider": "MAGPIE",
-        "categories": "Dividend Shares Investing Articles",
-        "image": "https://www.twelfthmagpie.com/wp-content/uploads/2023/04/Businesswoman-1200x675.jpg"
       },
       {
         "title": "Oil price drops more than 2% on talks over diesel, crude stock releases",
@@ -776,6 +776,15 @@
             "image": "https://e3.365dm.com/26/10/1920x1080/skynews-solihull-robbery-cryptocurrency_7366311.jpg?20261002085049"
           },
           {
+            "title": "Man, 87, faces no further action over double cowshed murder",
+            "link": "https://news.sky.com/story/man-87-faces-no-further-action-over-double-cowshed-murder-of-harry-and-megan-tooze-in-1993-13594334",
+            "published": "Fri, 02 Oct 2026 11:23:00 +0100",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/10/1920x1080/skynews-tooze-wales-murder_7366482.jpg?20261002115019"
+          },
+          {
             "title": "Lib Dem triple lock revolt deepens as leak to Sky News seized on by disgruntled MPs",
             "link": "https://news.sky.com/story/lib-dem-triple-lock-revolt-deepens-as-internal-document-seen-by-sky-news-seized-on-by-disgruntled-mps-13594253",
             "published": "Fri, 02 Oct 2026 08:41:00 +0100",
@@ -810,15 +819,6 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/09/1920x1080/skynews-garvaghy-road-orange-order_7363466.jpg?20260928163216"
-          },
-          {
-            "title": "Burglar who killed pensioner with headbutt jailed",
-            "link": "https://news.sky.com/story/burglar-who-killed-pensioner-whose-house-he-was-raiding-jailed-for-18-years-13593867",
-            "published": "Thu, 01 Oct 2026 17:28:00 +0100",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/25/10/1920x1080/skynews-john-burke-ashley-malcolm_7064559.jpg?20251028100047"
           }
         ],
         "WORLD": [
@@ -884,6 +884,15 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/09/1920x1080/skynews-gianni-infantino-fifa-boss_7360508.jpg?20260924173049"
+          },
+          {
+            "title": "'Devastating year' as Swiss glaciers shed 5% of ice amid record-breaking heatwaves",
+            "link": "https://news.sky.com/story/devastating-year-as-swiss-glaciers-shed-5-of-ice-amid-record-breaking-heatwaves-13593873",
+            "published": "Thu, 01 Oct 2026 08:39:00 +0100",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/10/1920x1080/skynews-glacier-switzerland_7365552.jpg?20261001100457"
           }
         ],
         "POLITICS": [
@@ -1146,6 +1155,15 @@
         ],
         "ENTERTAINMENT": [
           {
+            "title": "Freddie Mercury's handwritten lyrics sell at auction for £277,000",
+            "link": "https://news.sky.com/story/freddie-mercurys-handwritten-lyrics-sell-at-auction-for-277000-13594345",
+            "published": "Fri, 02 Oct 2026 11:50:00 +0100",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/10/1920x1080/skynews-freddie-mercury-queen_7366607.jpg?20261002133227"
+          },
+          {
             "title": "Broadcaster and campaigner Dame Esther Rantzen dies",
             "link": "https://news.sky.com/story/broadcaster-and-campaigner-dame-esther-rantzen-dies-13593676",
             "published": "Wed, 30 Sep 2026 16:04:00 +0100",
@@ -1180,15 +1198,6 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/07/1920x1080/skynews-bbc-broadcasting-house_7304409.jpg?20260722171937"
-          },
-          {
-            "title": "'That's all folks': Liam Gallagher responds to Oasis tour tickets selling out",
-            "link": "https://news.sky.com/story/thats-all-folks-liam-gallagher-comments-on-oasis-2027-tour-tickets-selling-out-13592587",
-            "published": "Sun, 27 Sep 2026 23:40:00 +0100",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-oasis-band_7362889.jpg?20260928000944"
           },
           {
             "title": "National museums in England to remain free for overseas visitors",
@@ -1244,7 +1253,7 @@
         },
         "WORLD": {
           "ok": true,
-          "count": 7
+          "count": 8
         },
         "POLITICS": {
           "ok": true,
@@ -1270,7 +1279,7 @@
           {
             "title": "Polanski says Greens ‘have turned hope into electoral wins’ ahead of conference speech – UK politics live",
             "link": "https://www.theguardian.com/politics/live/2026/oct/02/zack-polanski-green-party-conference-speech-kemi-badenoch-andy-burnham-general-election-latest-news-updates",
-            "published": "Fri, 02 Oct 2026 12:08:26 GMT",
+            "published": "Fri, 02 Oct 2026 12:29:08 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
             "categories": "Politics UK news Kemi Badenoch Andy Burnham Green party Zack Polanski",
@@ -1319,7 +1328,7 @@
             "source": "The Guardian",
             "provider": "GUARDIAN",
             "categories": "Apps Business Dating Technology UK news Digital media Online dating",
-            "image": "https://i.guim.co.uk/img/media/28cb47ee053fabd22670219d7f8a3c58db834772/1689_71_5031_4025/master/5031.jpg?width=140&quality=85&auto=format&fit=max&s=3f27817b891626262e6a968b47a19b93"
+            "image": "https://i.guim.co.uk/img/media/0bdadc994601bb6f52990889eb66a5a7084c622f/414_0_4364_3493/master/4364.jpg?width=140&quality=85&auto=format&fit=max&s=4725857f1e35bb8882c2245c7ad837cc"
           },
           {
             "title": "Drumcree talks break up without agreement on fifth day of standoff",
@@ -1634,7 +1643,7 @@
           {
             "title": "Polanski says Greens ‘have turned hope into electoral wins’ ahead of conference speech – UK politics live",
             "link": "https://www.theguardian.com/politics/live/2026/oct/02/zack-polanski-green-party-conference-speech-kemi-badenoch-andy-burnham-general-election-latest-news-updates",
-            "published": "Fri, 02 Oct 2026 11:41:56 GMT",
+            "published": "Fri, 02 Oct 2026 12:29:08 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
             "categories": "Politics UK news Kemi Badenoch Andy Burnham Green party Zack Polanski",
@@ -2011,7 +2020,7 @@
             "source": "The Guardian",
             "provider": "GUARDIAN",
             "categories": "Apps Business Dating Technology UK news Digital media Online dating",
-            "image": "https://i.guim.co.uk/img/media/28cb47ee053fabd22670219d7f8a3c58db834772/1689_71_5031_4025/master/5031.jpg?width=140&quality=85&auto=format&fit=max&s=3f27817b891626262e6a968b47a19b93"
+            "image": "https://i.guim.co.uk/img/media/0bdadc994601bb6f52990889eb66a5a7084c622f/414_0_4364_3493/master/4364.jpg?width=140&quality=85&auto=format&fit=max&s=4725857f1e35bb8882c2245c7ad837cc"
           },
           {
             "title": "Google rolls out new Gemini AI model but restricts access over safety concerns",
@@ -2390,6 +2399,15 @@
       "categories": {
         "UK": [
           {
+            "title": "Family of teen killed when car drove into River Wear pay tribute to their ‘beautiful girl’",
+            "link": "https://metro.co.uk/2026/10/02/family-teen-killed-car-drove-river-wear-pay-tribute-beautiful-girl-29674174/",
+            "published": "Fri, 02 Oct 2026 12:40:24 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News UK Crash Death",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_314999733-96c1.jpg?quality=90&strip=all&w=646"
+          },
+          {
             "title": "Dad of teen killed in A66 wrong way crash ‘attacked man at son’s funeral’",
             "link": "https://metro.co.uk/2026/10/02/dad-teen-killed-a66-wrong-way-crash-attacked-man-sons-funeral-29673217/",
             "published": "Fri, 02 Oct 2026 12:20:34 +0000",
@@ -2559,15 +2577,6 @@
             "provider": "METRO",
             "categories": "News UK Crime News Prisons",
             "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_314867190-7680-e1790872190654.jpg?quality=90&strip=all&w=592"
-          },
-          {
-            "title": "RNLI save family stuck in 4×4 about to be washed away on causeway",
-            "link": "https://metro.co.uk/2026/10/01/rnli-save-family-stuck-4x4-washed-away-causeway-29671985/",
-            "published": "Thu, 01 Oct 2026 16:20:06 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News UK Charity Humberside",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_314865402-cb33.jpg?quality=90&strip=all&w=646"
           }
         ],
         "WORLD": [
@@ -3075,6 +3084,15 @@
         ],
         "ENTERTAINMENT": [
           {
+            "title": "Florence Pugh’s harrowing Netflix drama might be best TV to binge this October",
+            "link": "https://metro.co.uk/2026/10/02/florence-pughs-harrowing-netflix-drama-might-best-tv-binge-this-october-29672955/",
+            "published": "Fri, 02 Oct 2026 12:30:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment TV Amazon Prime Video David Oyelowo Dominic Cooper Dominic West Florence Pugh Hayley Atwell Last One Laughing Netflix Romola Garai Sienna Miller Sky",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_310637395-82c9.jpg?quality=90&strip=all&w=646"
+          },
+          {
             "title": "Who is Celebrity Traitors star Sebastian Croft who had forgotten Game of Thrones role?",
             "link": "https://metro.co.uk/2026/10/02/celebrity-traitors-star-sebastian-croft-forgotten-game-thrones-role-29673096/",
             "published": "Fri, 02 Oct 2026 12:00:54 +0000",
@@ -3217,15 +3235,6 @@
             "provider": "METRO",
             "categories": "Entertainment Showbiz Comedy Exclusive Joanne McNally",
             "image": "https://metro.co.uk/wp-content/uploads/2026/02/SEI_283158567-7554-e1770025016173.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Kanye West’s Russian concerts axed after concerns over ‘Hitler glorification’",
-            "link": "https://metro.co.uk/2026/10/01/kanye-wests-russian-concerts-axed-concerns-hitler-glorification-29671814/",
-            "published": "Thu, 01 Oct 2026 15:26:53 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Entertainment Music Kanye West Russia",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_42680881-f0a0.jpg?quality=90&strip=all&w=646"
           },
           {
             "title": "Huge new Emmerdale story confirmed for Caleb and Ruby and we should be worried",
@@ -3392,6 +3401,24 @@
         "STOCK_MARKET": [],
         "STOCKS": [
           {
+            "title": "Jobs Report: Soft Hiring Sends Treasury Yields Sliding; Futures Rally (Live Coverage)",
+            "link": "https://uk.finance.yahoo.com/m/3e182634-ed94-3343-806f-8c347a8e5466/jobs-report%3A-soft-hiring.html?.tsrc=rss",
+            "published": "Fri, 02 Oct 2026 12:37:30 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "Cycurion Regains Compliance with Nasdaq Bid Price Requirement",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/cycurion-regains-compliance-nasdaq-bid-123000667.html?.tsrc=rss",
+            "published": "Fri, 02 Oct 2026 12:30:00 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
             "title": "Stock Market Today: Dow Rises Ahead Of Jobs Report; Nike Plunges On Earnings (Live Coverage)",
             "link": "https://uk.finance.yahoo.com/m/94ae67df-681f-315f-b45f-941eaadbc7c6/stock-market-today%3A-dow-rises.html?.tsrc=rss",
             "published": "Fri, 02 Oct 2026 12:07:16 +0000",
@@ -3437,15 +3464,6 @@
             "image": ""
           },
           {
-            "title": "How Today's Jobs Report Will Move S&P 500, 10-Year Treasury Yield, Fed Rate Hike Odds (Live Coverage)",
-            "link": "https://uk.finance.yahoo.com/m/3e182634-ed94-3343-806f-8c347a8e5466/how-today%27s-jobs-report-will.html?.tsrc=rss",
-            "published": "Fri, 02 Oct 2026 11:48:56 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
-          },
-          {
             "title": "Alibaba Stock Falls. Treasury Yields Aren’t Just a U.S. Problem",
             "link": "https://uk.finance.yahoo.com/m/0e96b122-cebd-3d2b-a169-cc452ca229f6/alibaba-stock-falls.-treasury.html?.tsrc=rss",
             "published": "Fri, 02 Oct 2026 11:42:00 +0000",
@@ -3485,15 +3503,6 @@
             "title": "3 Healthcare Stocks That Concern Us",
             "link": "https://finance.yahoo.com/healthcare/articles/3-healthcare-stocks-concern-us-110203833.html?.tsrc=rss",
             "published": "Fri, 02 Oct 2026 11:02:03 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "ARES CAPITAL CORPORATION SCHEDULES EARNINGS RELEASE FOR THE THIRD QUARTER ENDED SEPTEMBER 30, 2026",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/ares-capital-corporation-schedules-earnings-110000414.html?.tsrc=rss",
-            "published": "Fri, 02 Oct 2026 11:00:00 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
@@ -3783,6 +3792,24 @@
       "categories": {
         "STOCKS": [
           {
+            "title": "3 predictions for the £14.88 Rolls-Royce share price by 2031",
+            "link": "https://www.twelfthmagpie.com/2026/10/02/3-predictions-for-the-14-88-rolls-royce-share-price-by-2031/",
+            "published": "Fri, 02 Oct 2026 12:30:46 +0000",
+            "source": "The Twelfth Magpie",
+            "provider": "MAGPIE",
+            "categories": "Growth Shares Investing Articles",
+            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2022/09/3.jpg"
+          },
+          {
+            "title": "Meet the UK dividend stock that’s 15 times more ‘popular’ than SpaceX",
+            "link": "https://www.twelfthmagpie.com/2026/10/02/meet-the-uk-dividend-stock-thats-15-times-more-popular-than-spacex/",
+            "published": "Fri, 02 Oct 2026 12:25:37 +0000",
+            "source": "The Twelfth Magpie",
+            "provider": "MAGPIE",
+            "categories": "Dividend Shares Investing Articles",
+            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2024/08/GB-crowd-1200x800.jpg"
+          },
+          {
             "title": "FTSE 100 stock IG Group just fell 22%! Should I buy the dip?",
             "link": "https://www.twelfthmagpie.com/2026/10/02/ftse-100-stock-ig-group-just-fell-22-should-i-buy-the-dip/",
             "published": "Fri, 02 Oct 2026 11:13:32 +0000",
@@ -3835,24 +3862,6 @@
             "provider": "MAGPIE",
             "categories": "Investing Articles Value Shares",
             "image": "https://www.twelfthmagpie.com/wp-content/uploads/2024/07/Full-purse-1200x800.jpg"
-          },
-          {
-            "title": "What will Q4 bring for UK stocks?",
-            "link": "https://www.twelfthmagpie.com/2026/10/02/what-will-q4-bring-for-uk-stocks/",
-            "published": "Fri, 02 Oct 2026 06:56:00 +0000",
-            "source": "The Twelfth Magpie",
-            "provider": "MAGPIE",
-            "categories": "Investing Articles Value Shares",
-            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2021/10/Extension-planning.jpg"
-          },
-          {
-            "title": "Down 45% from its highs, this S&P 500 stock’s on my radar in October",
-            "link": "https://www.twelfthmagpie.com/2026/10/02/down-45-from-its-highs-this-sp-500-stock-is-on-my-radar-in-october/",
-            "published": "Fri, 02 Oct 2026 06:46:00 +0000",
-            "source": "The Twelfth Magpie",
-            "provider": "MAGPIE",
-            "categories": "Investing Articles US Stock",
-            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2024/07/Autumn-1200x869.jpg"
           }
         ]
       },
@@ -3868,5 +3877,5 @@
       }
     }
   },
-  "stocksUpdated": "2026-10-02T12:24:58.758Z"
+  "stocksUpdated": "2026-10-02T12:48:02.319Z"
 }
