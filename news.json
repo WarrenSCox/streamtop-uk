@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-03T16:29:00.071Z",
+  "updated": "2026-10-03T16:38:49.486Z",
   "categories": {
     "UK": [
       {
@@ -8,7 +8,7 @@
         "published": "Sat, 03 Oct 2026 16:26:18 +0000",
         "source": "Metro",
         "provider": "METRO",
-        "categories": "News UK",
+        "categories": "News UK Crime News London Metropolitan Police Murder",
         "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315152165-611f.jpg?quality=90&strip=all&w=646"
       },
       {
@@ -837,15 +837,6 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/10/1920x1080/skynews-tommy-robinson-court_7366495.jpg?20261002121023"
-          },
-          {
-            "title": "Ex-priest who ran rave-inspired 'cult' group found guilty of rape and indecent assault",
-            "link": "https://news.sky.com/story/ex-priest-who-ran-rave-inspired-cult-group-found-guilty-of-rape-and-indecent-assault-13594232",
-            "published": "Fri, 02 Oct 2026 07:36:00 +0100",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/25/08/1920x1080/skynews-chris-brain-priest_6997062.jpg?20250821183621"
           }
         ],
         "WORLD": [
@@ -1276,7 +1267,7 @@
       "health": {
         "UK": {
           "ok": true,
-          "count": 10
+          "count": 9
         },
         "WORLD": {
           "ok": true,
@@ -2422,7 +2413,7 @@
             "published": "Sat, 03 Oct 2026 16:26:18 +0000",
             "source": "Metro",
             "provider": "METRO",
-            "categories": "News UK",
+            "categories": "News UK Crime News London Metropolitan Police Murder",
             "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315152165-611f.jpg?quality=90&strip=all&w=646"
           },
           {
@@ -3949,5 +3940,5 @@
       }
     }
   },
-  "stocksUpdated": "2026-10-03T16:29:09.166Z"
+  "stocksUpdated": "2026-10-03T16:39:00.710Z"
 }
