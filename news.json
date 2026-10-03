@@ -1,7 +1,34 @@
 {
-  "updated": "2026-10-03T16:38:49.486Z",
+  "updated": "2026-10-03T19:47:50.485Z",
   "categories": {
     "UK": [
+      {
+        "title": "Child rushed to A&E after being stabbed with syringe that came in ‘squishy’ toy",
+        "link": "https://metro.co.uk/2026/10/03/child-rushed-a-e-stabbed-squishy-toy-syringe-29676410/",
+        "published": "Sat, 03 Oct 2026 18:16:52 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/squish-f755.jpg?quality=90&strip=all&w=606"
+      },
+      {
+        "title": "Prison chief to resign as probe launched into Christa Pike botched execution scandal",
+        "link": "https://metro.co.uk/2026/10/03/tennessee-prison-boss-resign-christa-pike-execution-scandal-29676415/",
+        "published": "Sat, 03 Oct 2026 16:59:03 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI314735312-22f1.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Man shot dead in 'senseless act of violence' as people gathered for memorial service",
+        "link": "https://news.sky.com/story/man-shot-dead-in-senseless-act-of-violence-as-people-gathered-for-west-london-memorial-service-13594784",
+        "published": "Sat, 03 Oct 2026 17:33:00 +0100",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/04/1920x1080/skynews-metropolitan-police_7210230.jpg?20260403145748"
+      },
       {
         "title": "Man, 40, shot dead in front of 50 people, including children, at memorial service",
         "link": "https://metro.co.uk/2026/10/03/man-40-shot-dead-front-50-people-including-children-memorial-service-29676403/",
@@ -19,24 +46,6 @@
         "provider": "METRO",
         "categories": "News",
         "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315123468-2c33.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Medical evacuation plane carrying 6 people goes missing en route to Boston from Bermuda",
-        "link": "https://metro.co.uk/2026/10/03/medical-evacuation-plane-carrying-6-people-goes-missing-en-route-boston-bermuda-29676324/",
-        "published": "Sat, 03 Oct 2026 15:16:55 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News US Bermuda Boston Flights",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315138276-9ccd-e1791040312862.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "UK-Iranian RAF Fairford terror suspect bailed as Westminster addresses searched",
-        "link": "https://metro.co.uk/2026/10/03/raf-fairford-terror-suspect-bailed-westminster-addresses-searched-29676278/",
-        "published": "Sat, 03 Oct 2026 15:12:30 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News UK Andy Burnham Donald Trump Iran war Terror",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_314536847-cab8.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "Tories plan to extend cuts beyond £47bn previously pledged, leak reveals",
@@ -82,18 +91,18 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/10/1920x1080/skynews-mubarak-guardiola_7367061.jpg?20261003093239"
-      },
-      {
-        "title": "Supermarket giant Tesco weighs shock takeover bid for Majestic Wine",
-        "link": "https://news.sky.com/story/supermarket-giant-tesco-weighs-shock-takeover-bid-for-majestic-wine-13594582",
-        "published": "Sat, 03 Oct 2026 08:20:00 +0100",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/03/1920x1080/skynews-majestic-wine-london_7198881.jpg?20260321075327"
       }
     ],
     "WORLD": [
+      {
+        "title": "US Coast Guard searches for missing air ambulance off coast of Massachusetts",
+        "link": "https://www.theguardian.com/us-news/2026/oct/03/us-coast-guard-missing-air-ambulance-massachusetts",
+        "published": "Sat, 03 Oct 2026 17:03:54 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Massachusetts Bermuda Boston Plane crashes Air transport US news Americas World news",
+        "image": "https://i.guim.co.uk/img/media/c72e4c08a553f2f02138a8eb41356396a9108d22/408_0_2436_1949/master/2436.jpg?width=140&quality=85&auto=format&fit=max&s=28557931dc407585b90b2be0d0444e6b"
+      },
       {
         "title": "UK-Iranian RAF Fairford terror suspect bailed as Westminster addresses searched",
         "link": "https://metro.co.uk/2026/10/03/raf-fairford-terror-suspect-bailed-westminster-addresses-searched-29676278/",
@@ -111,6 +120,15 @@
         "provider": "METRO",
         "categories": "News World Emmanuel Macron Fire France Riots",
         "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315099999-de44.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Ireland's football media call ends in chaos",
+        "link": "https://news.sky.com/story/irelands-nations-league-media-call-ends-in-chaos-after-question-by-israeli-journalist-about-flydubai-13594700",
+        "published": "Sat, 03 Oct 2026 15:18:00 +0100",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-ireland-football-nations-league_7362831.jpg?20260927222624"
       },
       {
         "title": "Ireland press conference cut short after Israeli questions about Flydubai attack and racism",
@@ -131,22 +149,13 @@
         "image": "https://e3.365dm.com/26/10/1920x1080/skynews-spain-housing-protest_7367262.jpg?20261003145210"
       },
       {
-        "title": "Girl, 5, in critical condition after car ploughs into crowd of rugby fans",
-        "link": "https://metro.co.uk/2026/10/03/girl-5-critical-condition-car-ploughs-crowd-rugby-fans-29676108/",
-        "published": "Sat, 03 Oct 2026 13:36:35 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News World Australia Crime News Sydney",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315132074-a389.jpg?quality=90&strip=all&w=640"
-      },
-      {
-        "title": "At least 17 people killed in Kenya road crash",
-        "link": "https://news.sky.com/story/at-least-17-people-killed-in-kenya-road-crash-13594661",
-        "published": "Sat, 03 Oct 2026 12:23:00 +0100",
+        "title": "Tennessee prisons chief resigns after failed execution of Christa Pike",
+        "link": "https://news.sky.com/story/prisons-chief-resigns-after-failed-execution-of-christa-pike-in-tennessee-13594688",
+        "published": "Sat, 03 Oct 2026 14:37:00 +0100",
         "source": "Sky News",
         "provider": "SKY",
         "categories": "",
-        "image": "https://e3.365dm.com/26/10/1920x1080/skynews-kenya-africa_7367269.jpg?20261003150646"
+        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-christa-pike-death-row_7364600.jpg?20261002080203"
       },
       {
         "title": "Five-year-old girl in critical condition after car hits crowd in Newcastle",
@@ -174,15 +183,6 @@
         "provider": "GUARDIAN",
         "categories": "Brazil Luiz Inácio Lula da Silva World news Americas Jair Bolsonaro",
         "image": "https://i.guim.co.uk/img/media/3b8cb6ae5c679bf69f33c5529917b47a2ca1b513/759_0_4583_3667/master/4583.jpg?width=140&quality=85&auto=format&fit=max&s=235c41e816d317f0d6a8d4ad770d7b7a"
-      },
-      {
-        "title": "North Korea fires ballistic missile after Seoul demands apology",
-        "link": "https://news.sky.com/story/north-korea-fires-ballistic-missile-after-seoul-demands-apology-over-border-mine-blasts-13594567",
-        "published": "Sat, 03 Oct 2026 07:14:00 +0100",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/10/1920x1080/skynews-missile-north-korea_7366985.jpg?20261003073527"
       }
     ],
     "POLITICS": [
@@ -463,6 +463,24 @@
     ],
     "ENTERTAINMENT": [
       {
+        "title": "Strictly Come Dancing fans fear for Emma Willis after Josh Widdicombe plea ignored",
+        "link": "https://metro.co.uk/2026/10/03/strictly-come-dancing-fans-fear-emma-willis-josh-widdicombe-plea-ignored-29676465/",
+        "published": "Sat, 03 Oct 2026 18:47:01 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Entertainment TV Emma Willis Josh Widdicombe Strictly Come Dancing",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315166282-ed67.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Terrifying moment out-of-control car swerves into TV presenter and cameraman",
+        "link": "https://metro.co.uk/2026/10/03/terrifying-moment-out-of-control-car-swerves-tv-presenter-cameraman-29676369/",
+        "published": "Sat, 03 Oct 2026 17:59:04 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Entertainment TV Mexico",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315085343-8342-e1791049529661.jpg?quality=90&strip=all&w=646"
+      },
+      {
         "title": "Emma Willis’s husband defends star as ‘perfect’ Strictly host after BBC viewer criticism",
         "link": "https://metro.co.uk/2026/10/03/emma-williss-husband-defends-star-perfect-strictly-host-bbc-viewer-criticism-29676285/",
         "published": "Sat, 03 Oct 2026 15:48:32 +0000",
@@ -479,24 +497,6 @@
         "provider": "METRO",
         "categories": "Entertainment TV Celebrity Traitors James Blunt",
         "image": "https://metro.co.uk/wp-content/uploads/2026/10/comp-1791039654.png?w=646"
-      },
-      {
-        "title": "Karen Carney: ‘I won Strictly – it took me 6 months to recover’",
-        "link": "https://metro.co.uk/2026/10/03/karen-carney-i-won-strictly-took-6-months-recover-29669818/",
-        "published": "Sat, 03 Oct 2026 15:00:00 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Entertainment TV Carlos Gu Claudia Winkleman Emma Willis England Women's football team Exclusive Johannes Radebe Josh Widdicombe Strictly Come Dancing Tess Daly",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_312965646-4cfa.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Celebrity Traitors fans convinced end credits just ‘confirmed’ a massive spoiler",
-        "link": "https://metro.co.uk/2026/10/03/celebrity-traitors-fans-convinced-end-credits-just-confirmed-a-massive-spoiler-29676249/",
-        "published": "Sat, 03 Oct 2026 14:56:36 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Entertainment TV BBC Celebrity Traitors Richard E Grant",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315045628-ff51-e1791038571649.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "Cameron Winter at Carnegie Hall review – Paul Thomas Anderson’s sumptuous recording is an immediate classic",
@@ -555,6 +555,15 @@
     ],
     "STOCKS": [
       {
+        "title": "After an 8.4% dip, is it time to sell Lloyds shares — or buy more?",
+        "link": "https://www.twelfthmagpie.com/2026/10/03/after-an-8-4-dip-is-it-time-to-sell-lloyds-shares-or-buy-more/",
+        "published": "Sat, 03 Oct 2026 17:00:00 +0000",
+        "source": "The Twelfth Magpie",
+        "provider": "MAGPIE",
+        "categories": "Dividend Shares Investing Articles",
+        "image": "https://www.twelfthmagpie.com/wp-content/uploads/2022/06/Getty-thinking-questions-uncertain-guess-future.jpg"
+      },
+      {
         "title": "Will Rolls-Royce shares have a monster 2027?",
         "link": "https://www.twelfthmagpie.com/2026/10/03/will-rolls-royce-shares-have-a-monster-2027/",
         "published": "Sat, 03 Oct 2026 16:16:03 +0000",
@@ -607,15 +616,6 @@
         "provider": "MAGPIE",
         "categories": "Growth Shares Investing Articles",
         "image": "https://www.twelfthmagpie.com/wp-content/uploads/2024/12/2025-And-Beyond-1200x675.jpg"
-      },
-      {
-        "title": "Here’s how much passive income you could earn in the next decade by investing £3, £10 or £50 a day",
-        "link": "https://www.twelfthmagpie.com/2026/10/03/heres-how-much-passive-income-you-could-earn-in-the-next-decade-by-investing-3-10-or-50-a-day/",
-        "published": "Sat, 03 Oct 2026 08:34:00 +0000",
-        "source": "The Twelfth Magpie",
-        "provider": "MAGPIE",
-        "categories": "Dividend Shares Investing Articles",
-        "image": "https://www.twelfthmagpie.com/wp-content/uploads/2021/10/Pound-Coin-Stack.jpg"
       },
       {
         "title": "Equities close higher as softer jobs data quiets rate-hike expectations",
@@ -767,6 +767,15 @@
             "image": "https://e3.365dm.com/26/10/1920x1080/skynews-raf-fairford-gloucestershire_7367167.jpg?20261003113555"
           },
           {
+            "title": "Man shot dead in 'senseless act of violence' as people gathered for memorial service",
+            "link": "https://news.sky.com/story/man-shot-dead-in-senseless-act-of-violence-as-people-gathered-for-west-london-memorial-service-13594784",
+            "published": "Sat, 03 Oct 2026 17:33:00 +0100",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/04/1920x1080/skynews-metropolitan-police_7210230.jpg?20260403145748"
+          },
+          {
             "title": "Ann Widdecombe murder suspect charged with preparing terror acts including against Nigel Farage",
             "link": "https://news.sky.com/story/man-charged-with-preparing-terrorist-acts-against-nigel-farage-13594244",
             "published": "Fri, 02 Oct 2026 07:56:00 +0100",
@@ -828,18 +837,18 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/01/1920x1080/skynews-kevin-rees-ulez_7148503.jpg?20260128132436"
-          },
-          {
-            "title": "Tommy Robinson appears in court over alleged harassment of two journalists",
-            "link": "https://news.sky.com/story/tommy-robinson-appears-in-court-over-alleged-harassment-of-two-journalists-13594364",
-            "published": "Fri, 02 Oct 2026 12:23:00 +0100",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/10/1920x1080/skynews-tommy-robinson-court_7366495.jpg?20261002121023"
           }
         ],
         "WORLD": [
+          {
+            "title": "Tennessee prisons chief resigns after failed execution of Christa Pike",
+            "link": "https://news.sky.com/story/prisons-chief-resigns-after-failed-execution-of-christa-pike-in-tennessee-13594688",
+            "published": "Sat, 03 Oct 2026 14:37:00 +0100",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-christa-pike-death-row_7364600.jpg?20261002080203"
+          },
           {
             "title": "Tens of thousands protest against Spain's housing crisis",
             "link": "https://news.sky.com/story/tens-of-thousands-protest-against-spains-housing-crisis-following-eviction-of-87-year-old-woman-13594689",
@@ -848,6 +857,15 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/10/1920x1080/skynews-spain-housing-protest_7367262.jpg?20261003145210"
+          },
+          {
+            "title": "Ireland's football media call ends in chaos",
+            "link": "https://news.sky.com/story/irelands-nations-league-media-call-ends-in-chaos-after-question-by-israeli-journalist-about-flydubai-13594700",
+            "published": "Sat, 03 Oct 2026 15:18:00 +0100",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-ireland-football-nations-league_7362831.jpg?20260927222624"
           },
           {
             "title": "At least 17 people killed in Kenya road crash",
@@ -893,24 +911,6 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/10/1920x1080/skynews-narendra-modi-smit-machchhar_7366288.png?20261002081625"
-          },
-          {
-            "title": "Tear gas and fires on French streets as student protests turn violent",
-            "link": "https://news.sky.com/story/tear-gas-and-fires-on-french-streets-as-student-protests-turn-violent-13594370",
-            "published": "Fri, 02 Oct 2026 12:40:00 +0100",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/10/1920x1080/skynews-students-toulouse-france_7366430.jpg?20261002110308"
-          },
-          {
-            "title": "Remains of 10 infants discovered at former mother and baby home in Ireland",
-            "link": "https://news.sky.com/story/remains-of-10-infants-discovered-at-former-mother-and-baby-home-in-ireland-13594416",
-            "published": "Fri, 02 Oct 2026 14:38:00 +0100",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/10/1920x1080/skynews-galway-excavation_7366660.png?20261002145235"
           }
         ],
         "POLITICS": [
@@ -1522,6 +1522,15 @@
             "image": "https://i.guim.co.uk/img/media/3c9052fcf07ee901977375d6acb1fcaa1a4b9e02/423_0_4886_3911/master/4886.jpg?width=140&quality=85&auto=format&fit=max&s=d7b8cc5fa5cfb47ccbb564c4a9904202"
           },
           {
+            "title": "US Coast Guard searches for missing air ambulance off coast of Massachusetts",
+            "link": "https://www.theguardian.com/us-news/2026/oct/03/us-coast-guard-missing-air-ambulance-massachusetts",
+            "published": "Sat, 03 Oct 2026 17:03:54 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Massachusetts Bermuda Boston Plane crashes Air transport US news Americas World news",
+            "image": "https://i.guim.co.uk/img/media/c72e4c08a553f2f02138a8eb41356396a9108d22/408_0_2436_1949/master/2436.jpg?width=140&quality=85&auto=format&fit=max&s=28557931dc407585b90b2be0d0444e6b"
+          },
+          {
             "title": "Brazil’s neck-and-neck election offers test for growing pro-Trump Latin American bloc",
             "link": "https://www.theguardian.com/world/2026/oct/03/brazil-election-lula-bolsonaro-trump",
             "published": "Sat, 03 Oct 2026 07:00:35 GMT",
@@ -1556,15 +1565,6 @@
             "provider": "GUARDIAN",
             "categories": "Brazil Americas World news Jair Bolsonaro Religion Catholicism Evangelical Christianity Christianity",
             "image": "https://i.guim.co.uk/img/media/7a8377a8239c58331e80d9ae5164c51f212291f1/0_248_1952_1561/master/1952.jpg?width=140&quality=85&auto=format&fit=max&s=7d44aa5beb1bd33c9afb852f2c58c57f"
-          },
-          {
-            "title": "The Bolsonaros…they’re back! Brazil heads to the polls – podcast",
-            "link": "https://www.theguardian.com/news/audio/2026/oct/02/the-bolsonarostheyre-back-brazil-heads-to-the-polls-podcast",
-            "published": "Fri, 02 Oct 2026 02:00:07 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Brazil Jair Bolsonaro Luiz Inácio Lula da Silva Americas World news",
-            "image": "https://i.guim.co.uk/img/media/9240643cca052179ce2af25984e27c59dc8c01ec/784_0_4680_3744/master/4680.jpg?width=140&quality=85&auto=format&fit=max&s=907fd636611b6d5a1326eca0203a6346"
           },
           {
             "title": "North Korea launches ballistic missile after Seoul demands apology over wounded soldiers",
@@ -2408,6 +2408,24 @@
       "categories": {
         "UK": [
           {
+            "title": "Child rushed to A&E after being stabbed with syringe that came in ‘squishy’ toy",
+            "link": "https://metro.co.uk/2026/10/03/child-rushed-a-e-stabbed-squishy-toy-syringe-29676410/",
+            "published": "Sat, 03 Oct 2026 18:16:52 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/squish-f755.jpg?quality=90&strip=all&w=606"
+          },
+          {
+            "title": "Prison chief to resign as probe launched into Christa Pike botched execution scandal",
+            "link": "https://metro.co.uk/2026/10/03/tennessee-prison-boss-resign-christa-pike-execution-scandal-29676415/",
+            "published": "Sat, 03 Oct 2026 16:59:03 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI314735312-22f1.jpg?quality=90&strip=all&w=646"
+          },
+          {
             "title": "Man, 40, shot dead in front of 50 people, including children, at memorial service",
             "link": "https://metro.co.uk/2026/10/03/man-40-shot-dead-front-50-people-including-children-memorial-service-29676403/",
             "published": "Sat, 03 Oct 2026 16:26:18 +0000",
@@ -2543,7 +2561,7 @@
             "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_311655441-e4fb.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "FlyDubai co-pilot who ‘stabbed captain and tried to hijack plane’ studied at UK university",
+            "title": "FlyDubai co-pilot who ‘attacked captain with axe and tried to hijack plane’ studied at UK university",
             "link": "https://metro.co.uk/2026/10/03/flydubai-co-pilot-stabbed-captain-tried-hijack-plane-studied-uk-university-29675640/",
             "published": "Sat, 03 Oct 2026 07:38:36 +0000",
             "source": "Metro",
@@ -2568,24 +2586,6 @@
             "provider": "METRO",
             "categories": "News UK Crime News London",
             "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_263042765-f47e.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Russia accidentally shoots down its own £11,000,000 helicopter",
-            "link": "https://metro.co.uk/2026/10/02/russia-accidentally-shoots-11-000-000-helicopter-29675522/",
-            "published": "Fri, 02 Oct 2026 20:12:16 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News World Russia Russia-Ukraine war Vladimir Putin",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315016414-7756.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Christa Pike unconscious and placed on ventilator after two failed execution attempts",
-            "link": "https://metro.co.uk/2026/10/02/christa-pike-unconscious-placed-ventilator-two-failed-execution-attempts-29675510/",
-            "published": "Fri, 02 Oct 2026 19:47:38 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News US Crime News United States of America",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_314607329-6b2c.jpg?quality=90&strip=all&w=646"
           }
         ],
         "WORLD": [
@@ -2626,7 +2626,7 @@
             "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315116825-3368.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "FlyDubai co-pilot who ‘stabbed captain and tried to hijack plane’ studied at UK university",
+            "title": "FlyDubai co-pilot who ‘attacked captain with axe and tried to hijack plane’ studied at UK university",
             "link": "https://metro.co.uk/2026/10/03/flydubai-co-pilot-stabbed-captain-tried-hijack-plane-studied-uk-university-29675640/",
             "published": "Sat, 03 Oct 2026 07:38:36 +0000",
             "source": "Metro",
@@ -2750,15 +2750,6 @@
             "provider": "METRO",
             "categories": "Football Sport Football Association of Ireland Israel Republic of Ireland",
             "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_314349164-0450.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "‘American Covid’ strain warning after cases surge in England",
-            "link": "https://metro.co.uk/2026/10/03/american-covid-strain-warning-cases-surge-england-29675827/",
-            "published": "Sat, 03 Oct 2026 13:13:13 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News UK Coronavirus Covid vaccine Health News",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/07/SEI115099792-4aad.jpg?quality=90&strip=all&w=646"
           }
         ],
         "POLITICS": [
@@ -3138,6 +3129,24 @@
         ],
         "ENTERTAINMENT": [
           {
+            "title": "Strictly Come Dancing fans fear for Emma Willis after Josh Widdicombe plea ignored",
+            "link": "https://metro.co.uk/2026/10/03/strictly-come-dancing-fans-fear-emma-willis-josh-widdicombe-plea-ignored-29676465/",
+            "published": "Sat, 03 Oct 2026 18:47:01 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment TV Emma Willis Josh Widdicombe Strictly Come Dancing",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315166282-ed67.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Terrifying moment out-of-control car swerves into TV presenter and cameraman",
+            "link": "https://metro.co.uk/2026/10/03/terrifying-moment-out-of-control-car-swerves-tv-presenter-cameraman-29676369/",
+            "published": "Sat, 03 Oct 2026 17:59:04 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment TV Mexico",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315085343-8342-e1791049529661.jpg?quality=90&strip=all&w=646"
+          },
+          {
             "title": "Emma Willis’s husband defends star as ‘perfect’ Strictly host after BBC viewer criticism",
             "link": "https://metro.co.uk/2026/10/03/emma-williss-husband-defends-star-perfect-strictly-host-bbc-viewer-criticism-29676285/",
             "published": "Sat, 03 Oct 2026 15:48:32 +0000",
@@ -3298,24 +3307,6 @@
             "provider": "METRO",
             "categories": "Entertainment Film Robert Pattinson US Showbiz news",
             "image": "https://metro.co.uk/wp-content/uploads/2026/09/comp-1788628083.png?w=646"
-          },
-          {
-            "title": "Geri Horner’s rarely seen daughter Bluebell, 20, plays surprise secret gig",
-            "link": "https://metro.co.uk/2026/10/02/geri-horners-rarely-seen-daughter-bluebell-20-plays-surprise-secret-gig-29675004/",
-            "published": "Fri, 02 Oct 2026 17:07:30 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Entertainment Showbiz Christian Horner Geri Halliwell Spice Girls",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315024454-591a.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Gypsy Rose Blanchard slams ‘relentless cruelty’ in statement after partner Ken Urker’s death",
-            "link": "https://metro.co.uk/2026/10/02/gypsy-rose-blanchard-slams-relentless-cruelty-towards-ken-urker-partners-death-29675169/",
-            "published": "Fri, 02 Oct 2026 16:18:51 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Entertainment Showbiz US Showbiz news",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_314931351-bd41.jpg?quality=90&strip=all&w=646"
           }
         ]
       },
@@ -3326,7 +3317,7 @@
         },
         "WORLD": {
           "ok": true,
-          "count": 19
+          "count": 18
         },
         "POLITICS": {
           "ok": true,
@@ -3455,6 +3446,15 @@
         "STOCK_MARKET": [],
         "STOCKS": [
           {
+            "title": "Will Rolls-Royce shares have a monster 2027?",
+            "link": "https://www.twelfthmagpie.com/2026/10/03/will-rolls-royce-shares-have-a-monster-2027/?.tsrc=rss",
+            "published": "Sat, 03 Oct 2026 16:16:03 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2024/07/British-fans-1200x800.jpg"
+          },
+          {
             "title": "Bond Volatility Could Determine How S&P 500 Breadth Gap Closes, Morgan Stanley Says",
             "link": "https://uk.advfn.com/market-news/article/23896/bond-volatility-could-determine-how-sp-500-breadth-gap-closes-morgan-stanley-says?.tsrc=rss",
             "published": "Sat, 03 Oct 2026 14:43:34 +0000",
@@ -3548,15 +3548,6 @@
             "title": "Seagate Stock and Western Digital Tumble. Investors Worry the Hard-Drive Shortage Will Ease.",
             "link": "https://uk.finance.yahoo.com/m/8dee252a-1e36-36ea-9881-2076cd48528d/seagate-stock-and-western.html?.tsrc=rss",
             "published": "Fri, 02 Oct 2026 22:11:00 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "Why Equinix (EQIX) Outpaced the Stock Market Today",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/why-equinix-eqix-outpaced-stock-211502399.html?.tsrc=rss",
-            "published": "Fri, 02 Oct 2026 21:15:02 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
@@ -3846,6 +3837,15 @@
       "categories": {
         "STOCKS": [
           {
+            "title": "After an 8.4% dip, is it time to sell Lloyds shares — or buy more?",
+            "link": "https://www.twelfthmagpie.com/2026/10/03/after-an-8-4-dip-is-it-time-to-sell-lloyds-shares-or-buy-more/",
+            "published": "Sat, 03 Oct 2026 17:00:00 +0000",
+            "source": "The Twelfth Magpie",
+            "provider": "MAGPIE",
+            "categories": "Dividend Shares Investing Articles",
+            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2022/06/Getty-thinking-questions-uncertain-guess-future.jpg"
+          },
+          {
             "title": "Will Rolls-Royce shares have a monster 2027?",
             "link": "https://www.twelfthmagpie.com/2026/10/03/will-rolls-royce-shares-have-a-monster-2027/",
             "published": "Sat, 03 Oct 2026 16:16:03 +0000",
@@ -3916,15 +3916,6 @@
             "provider": "MAGPIE",
             "categories": "Investing Articles Value Shares",
             "image": "https://www.twelfthmagpie.com/wp-content/uploads/2026/07/AdobeStock_981476672_Editorial_Use_Only-1200x800.jpeg"
-          },
-          {
-            "title": "With a 7.44% dividend yield, MONY Group shares could be a top passive income play",
-            "link": "https://www.twelfthmagpie.com/2026/10/03/with-a-7-44-dividend-yield-mony-group-shares-could-be-a-top-passive-income-play/",
-            "published": "Sat, 03 Oct 2026 07:30:00 +0000",
-            "source": "The Twelfth Magpie",
-            "provider": "MAGPIE",
-            "categories": "Dividend Shares Investing Articles",
-            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2026/07/AdobeStock_250329925-1200x800.jpeg"
           }
         ]
       },
@@ -3940,5 +3931,5 @@
       }
     }
   },
-  "stocksUpdated": "2026-10-03T16:39:00.710Z"
+  "stocksUpdated": "2026-10-03T19:48:01.221Z"
 }
