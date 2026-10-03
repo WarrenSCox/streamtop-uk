@@ -1,7 +1,25 @@
 {
-  "updated": "2026-10-03T01:08:13.362Z",
+  "updated": "2026-10-03T05:25:57.805Z",
   "categories": {
     "UK": [
+      {
+        "title": "Half want to rejoin EU and backing it could drive up Labour vote, megapoll finds",
+        "link": "https://www.theguardian.com/world/2026/oct/03/half-want-to-rejoin-eu-and-backing-it-could-drive-up-labour-vote-megapoll-finds",
+        "published": "Sat, 03 Oct 2026 05:00:52 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "European Union Labour Brexit Politics Foreign policy Europe UK news Andy Burnham",
+        "image": "https://i.guim.co.uk/img/media/4dbc8fb2d4422331ec4389b62becb2d99cb02c84/891_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=b7fa79c73066e8e33d2f699fceea651a"
+      },
+      {
+        "title": "Worst ever outbreak of bluetongue hits British farms",
+        "link": "https://www.theguardian.com/environment/2026/oct/03/bluetongue-hits-british-farmers",
+        "published": "Sat, 03 Oct 2026 05:00:52 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Farming Farm animals UK news Rural affairs Climate crisis Animals Environment Science",
+        "image": "https://i.guim.co.uk/img/media/41213452bc20c00e60dc99cb783786c35a7e275d/1396_349_4364_3491/master/4364.jpg?width=140&quality=85&auto=format&fit=max&s=3d09c5e99226ca4d5f7bfed2f866ed3c"
+      },
       {
         "title": "Ticks carrying life-threatening virus living longer in UK, expert warns",
         "link": "https://news.sky.com/story/ticks-carrying-life-threatening-virus-living-longer-in-uk-due-to-heatwaves-expert-warns-13594337",
@@ -57,15 +75,6 @@
         "image": "https://i.guim.co.uk/img/media/628d18170ee7fcc9635367d72d12f9b6d7b3cf38/76_0_1274_1020/master/1274.jpg?width=140&quality=85&auto=format&fit=max&s=c81772c1118808e624ebc99644cedb0d"
       },
       {
-        "title": "King Charles III to acknowledge ‘darkest days’ of Britain’s colonial rule during Caribbean tour",
-        "link": "https://www.theguardian.com/uk-news/2026/oct/02/king-charles-darkest-days-britain-colonial-rule-caribbean-tour",
-        "published": "Fri, 02 Oct 2026 19:02:56 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Monarchy Slavery Colonialism Caribbean UK news King Charles III Queen Camilla Commonwealth of Nations World news Bahamas Guyana Antigua and Barbuda Queen Elizabeth II",
-        "image": "https://i.guim.co.uk/img/media/43669bed2e961978a6795c27541a8d129fea838c/582_0_3215_2573/master/3215.jpg?width=140&quality=85&auto=format&fit=max&s=08e3d4fd98002671dbbb4eb0fe1a2357"
-      },
-      {
         "title": "TPG joins race for Monzo stake after end of £10bn bid talks",
         "link": "https://news.sky.com/story/tpg-joins-race-for-monzo-stake-after-end-of-10bn-bid-talks-13594501",
         "published": "Fri, 02 Oct 2026 19:26:00 +0100",
@@ -82,26 +91,35 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/08/1920x1080/skynews-brydon-carse-ecb-cricket_7330179.jpg?20260824165032"
-      },
-      {
-        "title": "City steps up opposition to Healey bank tax raid in budget",
-        "link": "https://news.sky.com/story/city-steps-up-opposition-to-healey-bank-tax-raid-in-budget-13594449",
-        "published": "Fri, 02 Oct 2026 16:25:00 +0100",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/08/1920x1080/skynews-john-healey-kiln_7333419.jpg?20261002172500"
       }
     ],
     "WORLD": [
       {
-        "title": "Several people injured after vehicle hits crowd at Knights grand final farewell in Newcastle",
+        "title": "Ten injured as car hits crowd in Australia in 'horrible incident'",
+        "link": "https://news.sky.com/story/horrible-incident-at-least-nine-injured-as-car-hits-crowd-in-australia-13594555",
+        "published": "Sat, 03 Oct 2026 04:34:00 +0100",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/10/1920x1080/skynews-car-drives-into-crowd_7366943.jpg?20261003045540"
+      },
+      {
+        "title": "Five-year-old girl and man, 67, in critical condition after car hits crowd in Newcastle",
         "link": "https://www.theguardian.com/australia-news/2026/oct/03/several-people-injured-after-vehicle-hits-crowd-at-knights-grand-final-farewell-in-newcastle",
-        "published": "Sat, 03 Oct 2026 00:51:35 GMT",
+        "published": "Sat, 03 Oct 2026 03:13:04 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
         "categories": "Newcastle and the Hunter Australia news Newcastle Knights New South Wales",
-        "image": "https://i.guim.co.uk/img/media/6f1f8874c30b64b0ef6bfea1fb2235d94cee41b2/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=a7a68e91b873d04771d97b01b69054b1"
+        "image": "https://i.guim.co.uk/img/media/847d6c668d1e96423405d9f945e85d3137f6a8ae/269_0_2462_1970/master/2462.jpg?width=140&quality=85&auto=format&fit=max&s=65fe1429f1736c97a3290569208814a0"
+      },
+      {
+        "title": "Bangkok at breaking point as floods turn streets into stagnant lakes",
+        "link": "https://www.theguardian.com/world/2026/oct/03/bangkok-thailand-floods-breaking-point-stagnant-lakes",
+        "published": "Sat, 03 Oct 2026 02:00:46 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Extreme weather World news Thailand Asia Pacific Flooding Environment El Niño southern oscillation Climate crisis",
+        "image": "https://i.guim.co.uk/img/media/28d65843d5c98581f9f88c0d389449839bd10c02/453_0_4506_3605/master/4506.jpg?width=140&quality=85&auto=format&fit=max&s=6b14e58d75e1a36e96ac8619c7e0fda5"
       },
       {
         "title": "Magnitude 4.8 earthquake hits Victoria with tremors felt across Melbourne",
@@ -120,15 +138,6 @@
         "provider": "METRO",
         "categories": "Coronation Street Soaps Harriet Bibby Jacob Roberts Jodie Ramsey Julia Goulding Kit Green Olivia Frances-Brown Shona Platt Summer Spellman",
         "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315014431-7d31.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Brazil’s Lula says only he can stop rise of fascism under Bolsonaro’s son",
-        "link": "https://www.theguardian.com/world/2026/oct/02/brazil-lula-stop-fascism-bolsonaro-son",
-        "published": "Fri, 02 Oct 2026 21:12:29 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Luiz Inácio Lula da Silva Brazil Americas World news The far right Activism Jair Bolsonaro",
-        "image": "https://i.guim.co.uk/img/media/6eb89359121bcb9743fbabae45db54665701003f/319_0_4296_3438/master/4296.jpg?width=140&quality=85&auto=format&fit=max&s=37e51bd91b215ca4df0e7bb3825c1a8c"
       },
       {
         "title": "Russia accidentally shoots down its own £11,000,000 helicopter",
@@ -158,15 +167,6 @@
         "image": "https://e3.365dm.com/26/10/1920x1080/skynews-nepal-tibet-floods_7366815.jpg?20261002184242"
       },
       {
-        "title": "US Coast Guard says it intercepted ship carrying fuel to Cuba",
-        "link": "https://www.theguardian.com/world/2026/oct/02/us-coast-guard-says-it-has-intercepted-ship-carrying-fuel-to-cuba",
-        "published": "Fri, 02 Oct 2026 15:13:23 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Cuba US foreign policy US news Caribbean Americas World news",
-        "image": "https://i.guim.co.uk/img/media/8decb894ae83b63e0d30ed259536918b34ef7ce1/3473_2437_2385_1909/master/2385.jpg?width=140&quality=85&auto=format&fit=max&s=6544cd2cf8e9d5e551bff195541688fc"
-      },
-      {
         "title": "Remains of 10 infants discovered at former mother and baby home in Ireland",
         "link": "https://news.sky.com/story/remains-of-10-infants-discovered-at-former-mother-and-baby-home-in-ireland-13594416",
         "published": "Fri, 02 Oct 2026 14:38:00 +0100",
@@ -187,6 +187,24 @@
     ],
     "POLITICS": [
       {
+        "title": "Half want to rejoin EU and backing it could drive up Labour vote, megapoll finds",
+        "link": "https://www.theguardian.com/world/2026/oct/03/half-want-to-rejoin-eu-and-backing-it-could-drive-up-labour-vote-megapoll-finds",
+        "published": "Sat, 03 Oct 2026 05:00:52 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "European Union Labour Brexit Politics Foreign policy Europe UK news Andy Burnham",
+        "image": "https://i.guim.co.uk/img/media/4dbc8fb2d4422331ec4389b62becb2d99cb02c84/891_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=b7fa79c73066e8e33d2f699fceea651a"
+      },
+      {
+        "title": "I’m not buying into the ‘Keminaissance’. If the Tories lowered the bar any further, they’d be Reform UK | Frances Ryan",
+        "link": "https://www.theguardian.com/commentisfree/2026/oct/03/keminassisance-badenoch-policies-ploy-reform-uk-nasty-party",
+        "published": "Sat, 03 Oct 2026 05:00:52 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Kemi Badenoch Conservatives Politics UK news Conservative conference Far right Welfare",
+        "image": "https://i.guim.co.uk/img/media/d65ad9f9be8473f294ff17adf1ecf000957b0a9a/581_0_6827_5464/master/6827.jpg?width=140&quality=85&auto=format&fit=max&s=7c14a87b362d8be182de40c011b8fa04"
+      },
+      {
         "title": "At Brighton, Polanski raised his arms in triumph. It felt more like a wave goodbye | John Crace",
         "link": "https://www.theguardian.com/politics/2026/oct/02/zack-polanski-brighton-byelection-wave-goodbye",
         "published": "Fri, 02 Oct 2026 17:20:35 GMT",
@@ -203,24 +221,6 @@
         "provider": "GUARDIAN",
         "categories": "Conservative conference Conservatives Politics Kemi Badenoch Reform UK Nigel Farage Restore Britain Labour Andy Burnham Keir Starmer UK news",
         "image": "https://i.guim.co.uk/img/media/9490006982dd3db809dc027f01f79f5996f6ba4a/500_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=e18dc271025c43d1f598950d553ec177"
-      },
-      {
-        "title": "The Green party’s anti-Zionism motion is yet another attempt to tell Jews how we should think | Jonathan Freedland",
-        "link": "https://www.theguardian.com/commentisfree/2026/oct/02/green-party-anti-zionism-motion-attempt-tell-jews-how-to-think",
-        "published": "Fri, 02 Oct 2026 16:40:45 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Green party Zack Polanski Politics Antisemitism UK news Judaism Israel Religion",
-        "image": "https://i.guim.co.uk/img/media/c1b9b1fc98876354ac893c1fd86baf787ba9b9bf/619_0_7911_6328/master/7911.jpg?width=140&quality=85&auto=format&fit=max&s=cae9d3498578e61ed27a8504bc10f1fc"
-      },
-      {
-        "title": "Burnham to pass law scrapping pension triple lock before next election",
-        "link": "https://www.theguardian.com/politics/2026/oct/02/burnham-law-pension-triple-lock",
-        "published": "Fri, 02 Oct 2026 16:39:11 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Andy Burnham Labour Pensions State pensions Social care Money Politics UK news Society",
-        "image": "https://i.guim.co.uk/img/media/7fdc3db7a8e07642cda96437d92cf4c17126ae9b/1171_0_6990_5592/master/6990.jpg?width=140&quality=85&auto=format&fit=max&s=1706b704e74ee697af950a3b078a8b0e"
       },
       {
         "title": "City steps up opposition to Healey bank tax raid in budget",
@@ -241,7 +241,7 @@
         "image": "https://e3.365dm.com/26/09/1920x1080/skynews-ed-davey-liberal-democrat_7358612.jpg?20260922150509"
       },
       {
-        "title": "Ann Widdecombe murder suspect charged with preparing terror acts including against Farage",
+        "title": "Ann Widdecombe murder suspect charged with preparing terror acts including against Nigel Farage",
         "link": "https://news.sky.com/story/man-charged-with-preparing-terrorist-acts-against-nigel-farage-13594244",
         "published": "Fri, 02 Oct 2026 07:56:00 +0100",
         "source": "Sky News",
@@ -371,6 +371,24 @@
     ],
     "TECH": [
       {
+        "title": "‘Elon is my prophet’: how Musk’s Doge team took a wrecking ball to Washington",
+        "link": "https://www.theguardian.com/us-news/2026/oct/03/elon-is-my-prophet-how-musks-doge-team-took-a-wrecking-ball-to-washington",
+        "published": "Sat, 03 Oct 2026 05:00:50 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Trump administration Elon Musk Law ICE (US Immigration and Customs Enforcement) US politics Data protection Technology US social security Privacy",
+        "image": "https://i.guim.co.uk/img/media/d3a33be0b8b167d2027ac38686e662b8a8c7e7df/0_1018_6758_5407/master/6758.jpg?width=140&quality=85&auto=format&fit=max&s=25332e948cab71249c4ea85e391d8bc1"
+      },
+      {
+        "title": "Resident Evil 5 should never be remade but Resident Evil 6 is fine – Reader’s Feature",
+        "link": "https://metro.co.uk/2026/10/03/resident-evil-5-never-remade-resident-evil-6-fine-readers-feature-29675463/",
+        "published": "Sat, 03 Oct 2026 05:00:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Entertainment Gaming Capcom Reader's Feature Resident Evil",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315039578-bbfb.jpg?quality=90&strip=all&w=646"
+      },
+      {
         "title": "I believe 2027 is going to be an amazing year for Nintendo – Reader’s Feature",
         "link": "https://metro.co.uk/2026/10/03/believe-2027-going-amazing-year-nintendo-readers-feature-29675440/",
         "published": "Sat, 03 Oct 2026 00:00:00 +0000",
@@ -416,15 +434,6 @@
         "image": "https://i.guim.co.uk/img/media/99923f4b9bfb620979e6e17438032458fa5c7c82/548_0_7200_5760/master/7200.jpg?width=140&quality=85&auto=format&fit=max&s=9b505fdb86a077f381519c07007ac4c8"
       },
       {
-        "title": "GTA 6 fans cancel £350 collector’s edition because influencer gifts are better",
-        "link": "https://metro.co.uk/2026/10/02/gta-6-fans-cancel-350-collectors-edition-influencer-gifts-better-29675276/",
-        "published": "Fri, 02 Oct 2026 17:01:07 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Entertainment Gaming Games news GTA 6 Rockstar Games",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_313850824-fb1d.jpg?quality=90&strip=all&w=646"
-      },
-      {
         "title": "SpaceX flight led by first black female commander sets US speed record",
         "link": "https://news.sky.com/story/spacex-flight-led-by-first-black-female-commander-sets-us-speed-record-13594191",
         "published": "Fri, 02 Oct 2026 05:00:00 +0100",
@@ -450,15 +459,6 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/10/1920x1080/skynews-cx-tech-ltd-data-centre_7365602.png?20261001104653"
-      },
-      {
-        "title": "OpenAI’s Medicare attack has exposed Australia’s ‘tech debt’. Fixing it could bring a big bill for taxpayers",
-        "link": "https://www.theguardian.com/australia-news/2026/oct/03/openais-medicare-attack-has-exposed-australias-tech-debt-fixing-it-could-bring-a-big-bill-for-taxpayers",
-        "published": "Fri, 02 Oct 2026 15:00:13 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Australia news Cybercrime AI (artificial intelligence) OpenAI Computing Hacking",
-        "image": "https://i.guim.co.uk/img/media/961de574f870d32e3b4daa471716efcb42a6d0c5/904_0_5223_4179/master/5223.jpg?width=140&quality=85&auto=format&fit=max&s=9c0bf56b1ba320a54cb3c6714ef15ca0"
       }
     ],
     "ENTERTAINMENT": [
@@ -591,6 +591,15 @@
         "image": ""
       },
       {
+        "title": "$5 billion Firmus IPO divides investors after valuation triples in two months",
+        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPUWFEamJaVWxsTk1DbjFBN1Y1Z1Znb3ZGUG9nRmVjYlFRX29qVGxRc2l3WUlPb3IxbzFnTlRpVjRZQjlUcEF5SG5aeXNWWnVaWEtCVVRDY29wUkFpNHE2bmV3cFRJdThxcFVvYjhjRDVzRm4yMDBkamNqeHNMaUNqejNVb2VJVVE2MzRYX1dMTmkwOU81OHZwbllEOEtUNmh6eGpBbVZyRENVQ21UaFhyLTRyNy1pQ1NlZHc?oc=5",
+        "published": "Fri, 02 Oct 2026 18:29:40 GMT",
+        "source": "Reuters",
+        "provider": "REUTERS",
+        "categories": "",
+        "image": ""
+      },
+      {
         "title": "ChatGPT’s ‘best-rated’ FTSE 100 stock gave me a surprise!",
         "link": "https://www.twelfthmagpie.com/2026/10/02/chatgpts-best-rated-ftse-100-stock-gave-me-a-surprise/",
         "published": "Fri, 02 Oct 2026 17:07:41 +0000",
@@ -618,27 +627,18 @@
         "image": "https://www.twelfthmagpie.com/wp-content/uploads/2025/06/buy-sell-stocks-red-green-1601x972-1822400-1200x729.jpg"
       },
       {
+        "title": "Indian benchmark shares post longest weekly losing run in 25 years",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOa2lpSGdlN0dhOTM3eUw3MlQtN183dHZydW95WXVWM2MyTEFaeTlvRUllR29aLWJxT3dvdVNmNlpzTGVldkpIMFNScVVhVEJ5TTU5TDhoVTZZWlpXbENCUHlKMWx3MmJ4bWkyU1E1OGF6Sk9YakxYcHRyM0tWdnlrX0NpQktmLU90VkRRVG5FQXdPZ3c3dFV0N0xndUdrTl9lY0xKZUJsNmY4LS1BYndDNENRZC0?oc=5",
+        "published": "Fri, 02 Oct 2026 04:33:13 GMT",
+        "source": "Reuters",
+        "provider": "REUTERS",
+        "categories": "",
+        "image": ""
+      },
+      {
         "title": "GCash parent Mynt prices $845 million IPO, set to bolster Philippine share market",
         "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNSWEyc2NCR0ZBb2RvakxnRlppak9RdGlKQVZETXIxZ1I3b3Q0aTJrX0QzNm5FY0JiLTV4djB3b0xlUWFJOVBqbEFNRlpoLVdEWUkwYmwzeXhXU0xqWTJMLV9Wb0FORFJYR1ZwYTNlZW5lVE5jLURaS0Z2YWRXZEg3Uk15eC1RUXhGS0FoeXZEcDN2UTBnUHBDTDZpZnl0aDRTS1d5TlpEMVp5LWZZbGFTazFGMmxkTUhKcU1BOXhBeEt2aHdxbXp6ZG5Baw?oc=5",
         "published": "Fri, 02 Oct 2026 01:35:00 GMT",
-        "source": "Reuters",
-        "provider": "REUTERS",
-        "categories": "",
-        "image": ""
-      },
-      {
-        "title": "Mattel attracts takeover interest from Authentic Brands Group, source says",
-        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPR0RjN3NNRUptZEdRTXljT1RObmt6QWpjLWs5SnRvMkpzMXBKaWxiMGlxZ2VkTng2c0dRX1ZHZHZBUDBwWC03NFFORWRpeHZaazViOTEwYlAxLW4zMlA0cmRsQXFEQ3ZuWUhHQ1VQZG5PaWRNc2xnc1Y0WW1PNGxuNFhrbmh4T3hZS1dHR0NxbmhjWW5vbERsNnh1Z2VqdFltOFR6N2xodXhiSXdPM21sZDVGdVk4R3VvWk1MRDM0NlE5eXFxdTlwaUNNV0g?oc=5",
-        "published": "Thu, 01 Oct 2026 21:51:30 GMT",
-        "source": "Reuters",
-        "provider": "REUTERS",
-        "categories": "",
-        "image": ""
-      },
-      {
-        "title": "Synopsys shares jump on robust growth outlook, OpenAI and AWS deals",
-        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNcGlqQnBISDJ0MDlRNllWZFpLMlpwc0FXU0xwZkhBUDg1QndSWUY0NzNtQ3ZQa0pyQ2ktSEdjMzhDN0t4b2hpakcxZ2RJdXdzMGZwcGkwSE1CU013c1E1eTl3YlBwczl2eWc4T3k1S2J6Z0s2QTh5Ml9qTHlhbjh6dDhNVHFaZU9ValYySmFlb3hwRjhGVzFDdWszX3RkLVNnQmIyWmtVTQ?oc=5",
-        "published": "Thu, 01 Oct 2026 16:22:09 GMT",
         "source": "Reuters",
         "provider": "REUTERS",
         "categories": "",
@@ -758,6 +758,15 @@
       "categories": {
         "UK": [
           {
+            "title": "Ann Widdecombe murder suspect charged with preparing terror acts including against Nigel Farage",
+            "link": "https://news.sky.com/story/man-charged-with-preparing-terrorist-acts-against-nigel-farage-13594244",
+            "published": "Fri, 02 Oct 2026 07:56:00 +0100",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-reform-nigel-farage_7357873.jpg?20260921123036"
+          },
+          {
             "title": "Two Iranian men charged over suspected terror plot targeting Jewish people in Manchester ahead of Yom Kippur",
             "link": "https://news.sky.com/story/two-iranian-men-charged-over-suspected-terror-plot-targeting-jewish-people-in-manchester-ahead-of-yom-kippur-13593409",
             "published": "Fri, 02 Oct 2026 15:36:00 +0100",
@@ -774,15 +783,6 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/10/1920x1080/skynews-tick-animal_7366471.jpg?20261002114416"
-          },
-          {
-            "title": "Ann Widdecombe murder suspect charged with preparing terror acts including against Farage",
-            "link": "https://news.sky.com/story/man-charged-with-preparing-terrorist-acts-against-nigel-farage-13594244",
-            "published": "Fri, 02 Oct 2026 07:56:00 +0100",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-reform-nigel-farage_7357873.jpg?20260921123036"
           },
           {
             "title": "England cricketer Brydon Carse charged by regulator following arrest on night out",
@@ -841,13 +841,13 @@
         ],
         "WORLD": [
           {
-            "title": "Hero captain describes fight to open cockpit door while being attacked by co-pilot",
-            "link": "https://news.sky.com/story/flydubai-captain-says-he-fought-to-open-cockpit-door-while-still-being-attacked-13594247",
-            "published": "Fri, 02 Oct 2026 08:14:00 +0100",
+            "title": "Ten injured as car hits crowd in Australia in 'horrible incident'",
+            "link": "https://news.sky.com/story/horrible-incident-at-least-nine-injured-as-car-hits-crowd-in-australia-13594555",
+            "published": "Sat, 03 Oct 2026 04:34:00 +0100",
             "source": "Sky News",
             "provider": "SKY",
             "categories": "",
-            "image": "https://e3.365dm.com/26/10/1920x1080/skynews-narendra-modi-smit-machchhar_7366288.png?20261002081625"
+            "image": "https://e3.365dm.com/26/10/1920x1080/skynews-car-drives-into-crowd_7366943.jpg?20261003045540"
           },
           {
             "title": "Nepal plans to drain four dangerous glacial lakes after deadly flood",
@@ -857,6 +857,15 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/10/1920x1080/skynews-nepal-tibet-floods_7366815.jpg?20261002184242"
+          },
+          {
+            "title": "Hero captain describes fight to open cockpit door while being attacked by co-pilot",
+            "link": "https://news.sky.com/story/flydubai-captain-says-he-fought-to-open-cockpit-door-while-still-being-attacked-13594247",
+            "published": "Fri, 02 Oct 2026 08:14:00 +0100",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/10/1920x1080/skynews-narendra-modi-smit-machchhar_7366288.png?20261002081625"
           },
           {
             "title": "Tear gas and fires on French streets as student protests turn violent",
@@ -902,20 +911,11 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/10/1920x1080/skynews-nasa-spacex_7366178.jpg?20261002044857"
-          },
-          {
-            "title": "Russia moves to control bear population after 22 people killed",
-            "link": "https://news.sky.com/story/russia-moves-to-control-bear-population-after-22-people-killed-in-attacks-13594068",
-            "published": "Thu, 01 Oct 2026 17:01:00 +0100",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/10/1920x1080/skynews-bear-russia_7365966.jpg?20261001183043"
           }
         ],
         "POLITICS": [
           {
-            "title": "Ann Widdecombe murder suspect charged with preparing terror acts including against Farage",
+            "title": "Ann Widdecombe murder suspect charged with preparing terror acts including against Nigel Farage",
             "link": "https://news.sky.com/story/man-charged-with-preparing-terrorist-acts-against-nigel-farage-13594244",
             "published": "Fri, 02 Oct 2026 07:56:00 +0100",
             "source": "Sky News",
@@ -1304,6 +1304,24 @@
       "categories": {
         "UK": [
           {
+            "title": "Half want to rejoin EU and backing it could drive up Labour vote, megapoll finds",
+            "link": "https://www.theguardian.com/world/2026/oct/03/half-want-to-rejoin-eu-and-backing-it-could-drive-up-labour-vote-megapoll-finds",
+            "published": "Sat, 03 Oct 2026 05:00:52 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "European Union Labour Brexit Politics Foreign policy Europe UK news Andy Burnham",
+            "image": "https://i.guim.co.uk/img/media/4dbc8fb2d4422331ec4389b62becb2d99cb02c84/891_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=b7fa79c73066e8e33d2f699fceea651a"
+          },
+          {
+            "title": "Worst ever outbreak of bluetongue hits British farms",
+            "link": "https://www.theguardian.com/environment/2026/oct/03/bluetongue-hits-british-farmers",
+            "published": "Sat, 03 Oct 2026 05:00:52 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Farming Farm animals UK news Rural affairs Climate crisis Animals Environment Science",
+            "image": "https://i.guim.co.uk/img/media/41213452bc20c00e60dc99cb783786c35a7e275d/1396_349_4364_3491/master/4364.jpg?width=140&quality=85&auto=format&fit=max&s=3d09c5e99226ca4d5f7bfed2f866ed3c"
+          },
+          {
             "title": "Two Iranian men charged over alleged terror plot targeting Manchester’s Jewish community",
             "link": "https://www.theguardian.com/uk-news/2026/oct/02/charged-alleged-terror-plot-manchester-jewish-community",
             "published": "Fri, 02 Oct 2026 22:52:01 GMT",
@@ -1367,15 +1385,6 @@
             "image": "https://i.guim.co.uk/img/media/531e0d6542762213d6a262471196c5a6b02d4163/1301_371_6737_5389/master/6737.jpg?width=140&quality=85&auto=format&fit=max&s=990578f7b9edde302c8a7d0f35e6b55a"
           },
           {
-            "title": "Bosses of three firms that supply trains to UK railways made £3.5m last year",
-            "link": "https://www.theguardian.com/business/2026/oct/02/bosses-firms-trains-uk-35m-pounds-last-year",
-            "published": "Fri, 02 Oct 2026 15:54:18 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Rail industry Business Rail transport UK news Transport Labour Politics",
-            "image": "https://i.guim.co.uk/img/media/210ce4b681e9c98869e77db09c230fca96b5a73d/238_0_3750_3000/master/3750.jpg?width=140&quality=85&auto=format&fit=max&s=b82bc3044bc520adc5f154035a4d9a40"
-          },
-          {
             "title": "Welsh first minister calls on Burnham to deliver ‘new deal’ on devolution",
             "link": "https://www.theguardian.com/politics/2026/oct/02/welsh-first-minister-rhun-ap-iorwerth-andy-burnham-devolution-wales-plaid-cymru",
             "published": "Fri, 02 Oct 2026 15:06:47 GMT",
@@ -1383,6 +1392,15 @@
             "provider": "GUARDIAN",
             "categories": "Rhun ap Iorwerth Devolution Plaid Cymru Welsh government Andy Burnham Welsh politics Labour Politics Wales UK news",
             "image": "https://i.guim.co.uk/img/media/317151c46d7530b6857e9420de2bea4b72c5818e/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=0be0b9eb7f4545d2e2bda29ded9390ce"
+          },
+          {
+            "title": "Zack Polanski calls for three-year cap on rent price increases in Green party conference speech – as it happened",
+            "link": "https://www.theguardian.com/politics/live/2026/oct/02/zack-polanski-green-party-conference-speech-kemi-badenoch-andy-burnham-general-election-latest-news-updates",
+            "published": "Fri, 02 Oct 2026 14:55:00 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Politics UK news Kemi Badenoch Andy Burnham Green party Zack Polanski",
+            "image": "https://i.guim.co.uk/img/media/111c7e05b11cf4113e9841d85dce10c49d4c13cc/303_0_7911_6328/master/7911.jpg?width=140&quality=85&auto=format&fit=max&s=a756eb33609b5b12ec7a778d59f6d0cc"
           },
           {
             "title": "Drumcree talks break up without agreement on fifth day of standoff",
@@ -1410,24 +1428,6 @@
             "provider": "GUARDIAN",
             "categories": "Mohamed Al Fayed Harrods Sex trafficking Rape and sexual assault Metropolitan police Home Office Society Violence against women and girls UK news Politics",
             "image": "https://i.guim.co.uk/img/media/251d18031ab0d0421d08acd351e3990cf41a4bcd/10_0_2775_2220/master/2775.jpg?width=140&quality=85&auto=format&fit=max&s=2c242f19c59aba2e48ef1ae7b0970c5f"
-          },
-          {
-            "title": "UK airlines to be banned from charging parents to sit with children",
-            "link": "https://www.theguardian.com/business/2026/oct/01/uk-airlines-to-be-banned-from-charging-parents-to-sit-with-children",
-            "published": "Thu, 01 Oct 2026 21:41:19 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Airline industry Business Andy Burnham Politics UK news Booking fees Air transport Transport Travel Consumer affairs Children Family",
-            "image": "https://i.guim.co.uk/img/media/074293f11ffb36ff8b78cdb2c52fa28c0722bd33/709_0_5600_4480/master/5600.jpg?width=140&quality=85&auto=format&fit=max&s=3c00bdbe01a9b216e21d17a405abe597"
-          },
-          {
-            "title": "How success of Manchester City helped put Andy Burnham in power",
-            "link": "https://www.theguardian.com/politics/2026/oct/01/success-manchester-city-helped-put-andy-burnham-in-power",
-            "published": "Thu, 01 Oct 2026 18:53:05 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Andy Burnham Manchester City Politics UK news Football Gentrification Greater Manchester Sheikh Mansour Local politics City mayors Premier League Manchester Financial fair play Finances Land ownership Mayoral elections Local government The super-rich",
-            "image": "https://i.guim.co.uk/img/media/5b68776fcac2fe47004f94d146159b4869daf3d3/420_0_4200_3360/master/4200.jpg?width=140&quality=85&auto=format&fit=max&s=79b88a02f33f1bee8b48d3b0e1417e21"
           },
           {
             "title": "Would a gambling tax rise in the budget really shut shops and cost jobs?",
@@ -1576,6 +1576,15 @@
             "image": "https://i.guim.co.uk/img/media/1ee7c4708c6ff1dbbdcbad5d5bbc74b0a1ed128a/0_0_3000_2400/master/3000.jpg?width=140&quality=85&auto=format&fit=max&s=0f536d62e286cd1284978b5d4d61bf5f"
           },
           {
+            "title": "Bangkok at breaking point as floods turn streets into stagnant lakes",
+            "link": "https://www.theguardian.com/world/2026/oct/03/bangkok-thailand-floods-breaking-point-stagnant-lakes",
+            "published": "Sat, 03 Oct 2026 02:00:46 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Extreme weather World news Thailand Asia Pacific Flooding Environment El Niño southern oscillation Climate crisis",
+            "image": "https://i.guim.co.uk/img/media/28d65843d5c98581f9f88c0d389449839bd10c02/453_0_4506_3605/master/4506.jpg?width=140&quality=85&auto=format&fit=max&s=6b14e58d75e1a36e96ac8619c7e0fda5"
+          },
+          {
             "title": "Daredevil Jaan Roose completes slackline walk high above central Seoul",
             "link": "https://www.theguardian.com/world/2026/oct/01/jaan-roose-seoul-slackline-walk-south-korea",
             "published": "Thu, 01 Oct 2026 06:04:17 GMT",
@@ -1612,22 +1621,13 @@
             "image": "https://i.guim.co.uk/img/media/6c9559e6c1a3badb7e83f824e28884bb11f226a7/255_333_4304_3443/master/4304.jpg?width=140&quality=85&auto=format&fit=max&s=48dba1a23ddb8a6b56e5ea23951f90f1"
           },
           {
-            "title": "South Korea calls for apology from North Korea after mine injures three soldiers",
-            "link": "https://www.theguardian.com/world/2026/sep/30/south-korea-apology-north-korea-mine-injures-soldiers",
-            "published": "Wed, 30 Sep 2026 07:53:24 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "South Korea Asia Pacific North Korea World news Lee Jae Myung Kim Jong-un",
-            "image": "https://i.guim.co.uk/img/media/0e1841eede76860d01739f1ecad4e092dd2275ab/780_147_3980_3186/master/3980.jpg?width=140&quality=85&auto=format&fit=max&s=b53fd10884fa06d57cba533634d1e6cb"
-          },
-          {
-            "title": "Several people injured after vehicle hits crowd at Knights grand final farewell in Newcastle",
+            "title": "Five-year-old girl and man, 67, in critical condition after car hits crowd in Newcastle",
             "link": "https://www.theguardian.com/australia-news/2026/oct/03/several-people-injured-after-vehicle-hits-crowd-at-knights-grand-final-farewell-in-newcastle",
-            "published": "Sat, 03 Oct 2026 00:51:35 GMT",
+            "published": "Sat, 03 Oct 2026 03:13:04 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
             "categories": "Newcastle and the Hunter Australia news Newcastle Knights New South Wales",
-            "image": "https://i.guim.co.uk/img/media/6f1f8874c30b64b0ef6bfea1fb2235d94cee41b2/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=a7a68e91b873d04771d97b01b69054b1"
+            "image": "https://i.guim.co.uk/img/media/847d6c668d1e96423405d9f945e85d3137f6a8ae/269_0_2462_1970/master/2462.jpg?width=140&quality=85&auto=format&fit=max&s=65fe1429f1736c97a3290569208814a0"
           },
           {
             "title": "Magnitude 4.8 earthquake hits Victoria with tremors felt across Melbourne",
@@ -1667,6 +1667,15 @@
           }
         ],
         "POLITICS": [
+          {
+            "title": "Half want to rejoin EU and backing it could drive up Labour vote, megapoll finds",
+            "link": "https://www.theguardian.com/world/2026/oct/03/half-want-to-rejoin-eu-and-backing-it-could-drive-up-labour-vote-megapoll-finds",
+            "published": "Sat, 03 Oct 2026 05:00:52 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "European Union Labour Brexit Politics Foreign policy Europe UK news Andy Burnham",
+            "image": "https://i.guim.co.uk/img/media/4dbc8fb2d4422331ec4389b62becb2d99cb02c84/891_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=b7fa79c73066e8e33d2f699fceea651a"
+          },
           {
             "title": "Burnham to pass law scrapping pension triple lock before next election",
             "link": "https://www.theguardian.com/politics/2026/oct/02/burnham-law-pension-triple-lock",
@@ -1722,13 +1731,13 @@
             "image": "https://i.guim.co.uk/img/media/111c7e05b11cf4113e9841d85dce10c49d4c13cc/303_0_7911_6328/master/7911.jpg?width=140&quality=85&auto=format&fit=max&s=a756eb33609b5b12ec7a778d59f6d0cc"
           },
           {
-            "title": "Drumcree talks break up without agreement on fifth day of standoff",
-            "link": "https://www.theguardian.com/uk-news/2026/oct/02/drumcree-talks-no-agreement-northern-ireland",
-            "published": "Fri, 02 Oct 2026 09:16:02 GMT",
+            "title": "I’m not buying into the ‘Keminaissance’. If the Tories lowered the bar any further, they’d be Reform UK | Frances Ryan",
+            "link": "https://www.theguardian.com/commentisfree/2026/oct/03/keminassisance-badenoch-policies-ploy-reform-uk-nasty-party",
+            "published": "Sat, 03 Oct 2026 05:00:52 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Northern Ireland Northern Irish politics Ireland Chris Bryant Politics UK news",
-            "image": "https://i.guim.co.uk/img/media/3926ff1534842954a7f8d7a24d82c39c5351dc48/494_0_4560_3648/master/4560.jpg?width=140&quality=85&auto=format&fit=max&s=d096689e6e3fd4a8a5aad04ef7109de6"
+            "categories": "Kemi Badenoch Conservatives Politics UK news Conservative conference Far right Welfare",
+            "image": "https://i.guim.co.uk/img/media/d65ad9f9be8473f294ff17adf1ecf000957b0a9a/581_0_6827_5464/master/6827.jpg?width=140&quality=85&auto=format&fit=max&s=7c14a87b362d8be182de40c011b8fa04"
           },
           {
             "title": "At Brighton, Polanski raised his arms in triumph. It felt more like a wave goodbye | John Crace",
@@ -1783,15 +1792,6 @@
             "provider": "GUARDIAN",
             "categories": "Reform UK Nigel Farage Politics UK news",
             "image": "https://i.guim.co.uk/img/media/e35233c474b06f36103818f4c2d10e06672b1fcb/362_0_3617_2893/master/3617.jpg?width=140&quality=85&auto=format&fit=max&s=59c288ca8618ecaff43ba221eda86835"
-          },
-          {
-            "title": "Flipping public opinion on the triple lock was Burnham magic – he’ll need more of it to see his social care plans through | Polly Toynbee",
-            "link": "https://www.theguardian.com/commentisfree/2026/oct/01/andy-burnham-public-opinion-triple-lock-social-care",
-            "published": "Thu, 01 Oct 2026 17:29:14 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Social care Older people NHS Labour Society Health Politics UK news Andy Burnham",
-            "image": "https://i.guim.co.uk/img/media/3eeae209d2b89cffd0bfecc862d9acff6fdb3774/659_0_6518_5214/master/6518.jpg?width=140&quality=85&auto=format&fit=max&s=e1de6e28cf75503b5d4b22f2105442c7"
           },
           {
             "title": "How success of Manchester City helped put Andy Burnham in power",
@@ -2131,6 +2131,15 @@
             "image": "https://i.guim.co.uk/img/media/554dc557e80595b3853a61976cba14fb5ab9a93d/356_0_4288_3431/master/4288.jpg?width=140&quality=85&auto=format&fit=max&s=6353a3061ada5df89cc5116d457b293e"
           },
           {
+            "title": "‘Elon is my prophet’: how Musk’s Doge team took a wrecking ball to Washington",
+            "link": "https://www.theguardian.com/us-news/2026/oct/03/elon-is-my-prophet-how-musks-doge-team-took-a-wrecking-ball-to-washington",
+            "published": "Sat, 03 Oct 2026 05:00:50 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Trump administration Elon Musk Law ICE (US Immigration and Customs Enforcement) US politics Data protection Technology US social security Privacy",
+            "image": "https://i.guim.co.uk/img/media/d3a33be0b8b167d2027ac38686e662b8a8c7e7df/0_1018_6758_5407/master/6758.jpg?width=140&quality=85&auto=format&fit=max&s=25332e948cab71249c4ea85e391d8bc1"
+          },
+          {
             "title": "‘Just like my big brothers’: boy with cerebral palsy passes GCSEs with eye-tracking technology",
             "link": "https://www.theguardian.com/education/2026/oct/02/patrick-mccabe-success-cheshire-reveals-limits-send-tech",
             "published": "Fri, 02 Oct 2026 17:18:06 GMT",
@@ -2156,15 +2165,6 @@
             "provider": "GUARDIAN",
             "categories": "Sex Life and style Gadgets Technology Health & wellbeing",
             "image": "https://i.guim.co.uk/img/media/95bd2e94a271b972e5a39b741c3b9bf51ec239be/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=bcf33c8f7bf5752554e0a15b4a320484"
-          },
-          {
-            "title": "‘If you can’t hold it, you don’t own it’: why media fans want to escape algorithms with CDs, DVDs and vinyl",
-            "link": "https://www.theguardian.com/media/2026/oct/02/physical-media-fans-streaming-algorithms-cds-dvds-vinyl",
-            "published": "Fri, 02 Oct 2026 08:00:14 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Media Music streaming TV streaming Spotify Digital music and audio Music Film Television Technology Internet Culture",
-            "image": "https://i.guim.co.uk/img/media/03273be0ebbd56d8c423c5ea1508c74032bd291c/844_0_5664_4530/master/5664.jpg?width=140&quality=85&auto=format&fit=max&s=0fbe439c8cd8e715dcaa98f4e058c66e"
           },
           {
             "title": "How American political campaigns are using AI – and what they’re spending on the tools",
@@ -3100,6 +3100,15 @@
         ],
         "TECH": [
           {
+            "title": "Resident Evil 5 should never be remade but Resident Evil 6 is fine – Reader’s Feature",
+            "link": "https://metro.co.uk/2026/10/03/resident-evil-5-never-remade-resident-evil-6-fine-readers-feature-29675463/",
+            "published": "Sat, 03 Oct 2026 05:00:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment Gaming Capcom Reader's Feature Resident Evil",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315039578-bbfb.jpg?quality=90&strip=all&w=646"
+          },
+          {
             "title": "I believe 2027 is going to be an amazing year for Nintendo – Reader’s Feature",
             "link": "https://metro.co.uk/2026/10/03/believe-2027-going-amazing-year-nintendo-readers-feature-29675440/",
             "published": "Sat, 03 Oct 2026 00:00:00 +0000",
@@ -3273,15 +3282,6 @@
             "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_276741117-97e6.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Ross Kemp being so paranoid on Celebrity Traitors will blow up in his face",
-            "link": "https://metro.co.uk/2026/10/02/ross-kemp-paranoid-celebrity-traitors-will-blow-face-29672748/",
-            "published": "Fri, 02 Oct 2026 08:33:36 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Entertainment TV BBC Celebrity Traitors Ross Kemp TV reviews",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_314897490-247f.jpg?quality=90&strip=all&w=646"
-          },
-          {
             "title": "David’s staggering decision as Coronation Street reveals three spoiler videos",
             "link": "https://metro.co.uk/2026/10/02/davids-staggering-decision-coronation-street-reveals-three-spoiler-videos-29674621/",
             "published": "Fri, 02 Oct 2026 22:59:00 +0000",
@@ -3307,6 +3307,15 @@
             "provider": "METRO",
             "categories": "Coronation Street Soaps Amy Robbins Christina Boyd Sally Dynevor Sally Metcalfe",
             "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312682540-db5f.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "EastEnders Ian lands a surprising ally as he struggles to adjust back to life in Walford",
+            "link": "https://metro.co.uk/2026/10/02/eastenders-ian-lands-surprising-ally-struggles-adjust-life-walford-29670506/",
+            "published": "Fri, 02 Oct 2026 19:00:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "EastEnders Soaps Adam Woodyatt Ian Beale",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_314423442-4dbb.jpg?quality=90&strip=all&w=646"
           }
         ]
       },
@@ -3329,7 +3338,7 @@
         },
         "TECH": {
           "ok": true,
-          "count": 3
+          "count": 4
         },
         "ENTERTAINMENT": {
           "ok": true,
@@ -3716,6 +3725,24 @@
             "image": ""
           },
           {
+            "title": "$5 billion Firmus IPO divides investors after valuation triples in two months",
+            "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPUWFEamJaVWxsTk1DbjFBN1Y1Z1Znb3ZGUG9nRmVjYlFRX29qVGxRc2l3WUlPb3IxbzFnTlRpVjRZQjlUcEF5SG5aeXNWWnVaWEtCVVRDY29wUkFpNHE2bmV3cFRJdThxcFVvYjhjRDVzRm4yMDBkamNqeHNMaUNqejNVb2VJVVE2MzRYX1dMTmkwOU81OHZwbllEOEtUNmh6eGpBbVZyRENVQ21UaFhyLTRyNy1pQ1NlZHc?oc=5",
+            "published": "Fri, 02 Oct 2026 18:29:40 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "Indian benchmark shares post longest weekly losing run in 25 years",
+            "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOa2lpSGdlN0dhOTM3eUw3MlQtN183dHZydW95WXVWM2MyTEFaeTlvRUllR29aLWJxT3dvdVNmNlpzTGVldkpIMFNScVVhVEJ5TTU5TDhoVTZZWlpXbENCUHlKMWx3MmJ4bWkyU1E1OGF6Sk9YakxYcHRyM0tWdnlrX0NpQktmLU90VkRRVG5FQXdPZ3c3dFV0N0xndUdrTl9lY0xKZUJsNmY4LS1BYndDNENRZC0?oc=5",
+            "published": "Fri, 02 Oct 2026 04:33:13 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
             "title": "GCash parent Mynt prices $845 million IPO, set to bolster Philippine share market",
             "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNSWEyc2NCR0ZBb2RvakxnRlppak9RdGlKQVZETXIxZ1I3b3Q0aTJrX0QzNm5FY0JiLTV4djB3b0xlUWFJOVBqbEFNRlpoLVdEWUkwYmwzeXhXU0xqWTJMLV9Wb0FORFJYR1ZwYTNlZW5lVE5jLURaS0Z2YWRXZEg3Uk15eC1RUXhGS0FoeXZEcDN2UTBnUHBDTDZpZnl0aDRTS1d5TlpEMVp5LWZZbGFTazFGMmxkTUhKcU1BOXhBeEt2aHdxbXp6ZG5Baw?oc=5",
             "published": "Fri, 02 Oct 2026 01:35:00 GMT",
@@ -3728,6 +3755,15 @@
             "title": "Mattel attracts takeover interest from Authentic Brands Group, source says",
             "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPR0RjN3NNRUptZEdRTXljT1RObmt6QWpjLWs5SnRvMkpzMXBKaWxiMGlxZ2VkTng2c0dRX1ZHZHZBUDBwWC03NFFORWRpeHZaazViOTEwYlAxLW4zMlA0cmRsQXFEQ3ZuWUhHQ1VQZG5PaWRNc2xnc1Y0WW1PNGxuNFhrbmh4T3hZS1dHR0NxbmhjWW5vbERsNnh1Z2VqdFltOFR6N2xodXhiSXdPM21sZDVGdVk4R3VvWk1MRDM0NlE5eXFxdTlwaUNNV0g?oc=5",
             "published": "Thu, 01 Oct 2026 21:51:30 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "Yields fall after US 10-year hits highest since 2002; US stocks inch up",
+            "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOM0FxZzFRTU1MWEFLa2QydlpyQ01TTDJoTjZKTmxxekpnam9PZUswZEtEN1RiSkVMYThjZ0Y1SE42VkZETGdIVm1Nd3J3YVlndnJTTGtWamozS1otaVlPaWwyZE92c21mN0lkbnhURWY5OWxzSXBiWlVvOGRMM21KM1Y2MA?oc=5",
+            "published": "Thu, 01 Oct 2026 21:01:46 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3752,18 +3788,18 @@
             "image": ""
           },
           {
-            "title": "Indian benchmark shares post longest weekly losing run in 25 years",
-            "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOa2lpSGdlN0dhOTM3eUw3MlQtN183dHZydW95WXVWM2MyTEFaeTlvRUllR29aLWJxT3dvdVNmNlpzTGVldkpIMFNScVVhVEJ5TTU5TDhoVTZZWlpXbENCUHlKMWx3MmJ4bWkyU1E1OGF6Sk9YakxYcHRyM0tWdnlrX0NpQktmLU90VkRRVG5FQXdPZ3c3dFV0N0xndUdrTl9lY0xKZUJsNmY4LS1BYndDNENRZC0?oc=5",
-            "published": "Thu, 01 Oct 2026 11:13:47 GMT",
+            "title": "EXCLUSIVE: US tells France and Germany to release diesel stocks or face US export ban, sources say",
+            "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNOGxXWEZnTW1hNUtCOXY4NTJTWHQ0ZkZoUEZsYkt3c3lQTVU1NDFVbHJnSkNJbXRTdzZCSlBWY2tsc0stTk5CSGk1Ymhpb0NwaG1WUEg5Ni1pVlFxQnRMc093VGllN0c5ektIdWYyN191ZW5ZX1lrUjhVODk2TUpsRXFQT3hQdGhVUzdjdklkSENrWm8yWmgwVkE1bEd6TTB2RHBsUHpZVExmTUhkbjhINTVrZ3ZpQnNsQW9wc0FBMWk4XzF0WEI1aXZBQQ?oc=5",
+            "published": "Thu, 01 Oct 2026 07:51:00 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
             "image": ""
           },
           {
-            "title": "EXCLUSIVE: US tells France and Germany to release diesel stocks or face US export ban, sources say",
-            "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNOGxXWEZnTW1hNUtCOXY4NTJTWHQ0ZkZoUEZsYkt3c3lQTVU1NDFVbHJnSkNJbXRTdzZCSlBWY2tsc0stTk5CSGk1Ymhpb0NwaG1WUEg5Ni1pVlFxQnRMc093VGllN0c5ektIdWYyN191ZW5ZX1lrUjhVODk2TUpsRXFQT3hQdGhVUzdjdklkSENrWm8yWmgwVkE1bEd6TTB2RHBsUHpZVExmTUhkbjhINTVrZ3ZpQnNsQW9wc0FBMWk4XzF0WEI1aXZBQQ?oc=5",
-            "published": "Thu, 01 Oct 2026 07:51:00 GMT",
+            "title": "Robinhood to allow 24-hour weekend trading of US stocks as industry shifts to wider access",
+            "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQOEdVVjZrQUYxODVCRnlNM21CNEQyOVVnUHRiTG83dDZ1MEwwbHFXRlJqR293dTc3WFdMRTBlR3oyTjZKaGMyaHdGM3ZfSTRCcm1jS1ZTSWdQdnJpZ0VwNDRlNEFpcFgzOEZiVDVrUzV2dWdIU1VsQ0E4UW4xdnZwdEhreXNMT3NYVEZGOXc5cXZEWTd6TTdJemRpdUdsX0JqdFVSQ0tRVDVuTHpDdUo4UXlTSkVDaVpIcEpzY3h4ODdnRmFXLUk2aWdTbw?oc=5",
+            "published": "Thu, 01 Oct 2026 07:00:00 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3782,33 +3818,6 @@
             "title": "GCash owner Mynt prices Philippine IPO at 6.6 pesos per share, sources say",
             "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPLWNlVXVnQjNZYXItcm4wNW1TTFVnM2MydjRBVElTOTNVSDVSZ25DbnRYdEd3b0tMMm9QbXdPbzZrZVFLTWxnT2Z3eHJHX0p2Ujh5UW9vVHhXaVVDNDBOZk9qekhtclEtdlFodGUyZ00tN3E0YjM3SC1hRHllTHRxbi1YMk1GTXVtUV8tNFo3djlhem1SbzU5UU1nTjloMkpaZndvZzhORF92MnZlNVE3ZzVKTGw3R2pab0JBQk5jaWY1UQ?oc=5",
             "published": "Thu, 01 Oct 2026 02:23:00 GMT",
-            "source": "Reuters",
-            "provider": "REUTERS",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "Yields fall after US 10-year hits highest since 2002; US stocks inch up",
-            "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOM0FxZzFRTU1MWEFLa2QydlpyQ01TTDJoTjZKTmxxekpnam9PZUswZEtEN1RiSkVMYThjZ0Y1SE42VkZETGdIVm1Nd3J3YVlndnJTTGtWamozS1otaVlPaWwyZE92c21mN0lkbnhURWY5OWxzSXBiWlVvOGRMM21KM1Y2MA?oc=5",
-            "published": "Thu, 01 Oct 2026 01:56:00 GMT",
-            "source": "Reuters",
-            "provider": "REUTERS",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "Bonds post worst month in years; stocks decline for September and oil gains",
-            "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQTkhETkh2bThQM2VXdlJQZHdqOHVHRTFNX2dRMVZVMGhhMzczY0xIYkRfdmVldzNlVFdEbWZTVC1aYW1fekVfOW9Db28yd0czQVk5MURaaWVfNjdTVFVGeE1Dcy16dk9vQmNZb3c2bklRd3l0cTNwQXBqemxxbWxwS3RaYw?oc=5",
-            "published": "Wed, 30 Sep 2026 20:57:35 GMT",
-            "source": "Reuters",
-            "provider": "REUTERS",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "COMMENTARY: Trading Day: Stocks still in bonds' grip",
-            "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNV29vbG0yUWdGb0kyUHphcGM1cXpNbXFLUnRGRmhoTFJoNExkSlExQTJQYnMxeXZ2MHhKUU5xeExVRFB1Q2s4d1ZfTldKWEJ2THE4bWwzaTQ3V1B3U2FUXzFQOG9tdUR1Q2FZUGEyZ1JBTG9pdzlYbHByUmx5MVhPd3lORGJjVlI3SzJvbzBpNG90NEJMVDBMVEhVTEdMNWVpUDR6ZW1R?oc=5",
-            "published": "Tue, 29 Sep 2026 23:23:28 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3940,5 +3949,5 @@
       }
     }
   },
-  "stocksUpdated": "2026-10-03T01:08:19.479Z"
+  "stocksUpdated": "2026-10-03T05:26:02.150Z"
 }
