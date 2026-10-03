@@ -1,7 +1,16 @@
 {
-  "updated": "2026-10-03T19:47:50.485Z",
+  "updated": "2026-10-03T21:24:55.639Z",
   "categories": {
     "UK": [
+      {
+        "title": "Tories plan to expand free childcare to high earners to end ‘cliff edge’",
+        "link": "https://www.theguardian.com/politics/2026/oct/03/tories-plan-to-expand-free-childcare-to-high-earners-to-end-cliff-edge",
+        "published": "Sat, 03 Oct 2026 21:00:09 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Conservatives Politics UK news",
+        "image": "https://i.guim.co.uk/img/media/ed587f6092edf2a4fa97f80e983e599fb60d2200/593_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=6523715f51fffc68b651f3673d9bf529"
+      },
       {
         "title": "Child rushed to A&E after being stabbed with syringe that came in ‘squishy’ toy",
         "link": "https://metro.co.uk/2026/10/03/child-rushed-a-e-stabbed-squishy-toy-syringe-29676410/",
@@ -37,15 +46,6 @@
         "provider": "METRO",
         "categories": "News UK Crime News London Metropolitan Police Murder",
         "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315152165-611f.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Dozens of missing children rescued in ‘incredible’ three-day operation",
-        "link": "https://metro.co.uk/2026/10/03/dozens-missing-children-rescued-incredible-three-day-operation-29676363/",
-        "published": "Sat, 03 Oct 2026 16:19:56 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315123468-2c33.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "Tories plan to extend cuts beyond £47bn previously pledged, leak reveals",
@@ -131,15 +131,6 @@
         "image": "https://e3.365dm.com/26/09/1920x1080/skynews-ireland-football-nations-league_7362831.jpg?20260927222624"
       },
       {
-        "title": "Ireland press conference cut short after Israeli questions about Flydubai attack and racism",
-        "link": "https://metro.co.uk/2026/10/03/ireland-press-conference-cut-short-israeli-questions-flydubai-attack-racism-29676160/",
-        "published": "Sat, 03 Oct 2026 14:02:45 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Football Sport Football Association of Ireland Israel Republic of Ireland",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_314349164-0450.jpg?quality=90&strip=all&w=646"
-      },
-      {
         "title": "Tens of thousands protest against Spain's housing crisis",
         "link": "https://news.sky.com/story/tens-of-thousands-protest-against-spains-housing-crisis-following-eviction-of-87-year-old-woman-13594689",
         "published": "Sat, 03 Oct 2026 14:42:00 +0100",
@@ -156,6 +147,15 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/09/1920x1080/skynews-christa-pike-death-row_7364600.jpg?20261002080203"
+      },
+      {
+        "title": "Girl, 5, in critical condition after car ploughs into crowd of rugby fans",
+        "link": "https://metro.co.uk/2026/10/03/girl-5-critical-condition-car-ploughs-crowd-rugby-fans-29676108/",
+        "published": "Sat, 03 Oct 2026 13:36:35 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News World Australia Crime News Sydney",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315132074-a389.jpg?quality=90&strip=all&w=640"
       },
       {
         "title": "Five-year-old girl in critical condition after car hits crowd in Newcastle",
@@ -187,6 +187,15 @@
     ],
     "POLITICS": [
       {
+        "title": "Tories plan to expand free childcare to high earners to end ‘cliff edge’",
+        "link": "https://www.theguardian.com/politics/2026/oct/03/tories-plan-to-expand-free-childcare-to-high-earners-to-end-cliff-edge",
+        "published": "Sat, 03 Oct 2026 21:00:09 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Conservatives Politics UK news",
+        "image": "https://i.guim.co.uk/img/media/ed587f6092edf2a4fa97f80e983e599fb60d2200/593_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=6523715f51fffc68b651f3673d9bf529"
+      },
+      {
         "title": "Burnham must remember: more regulation is not the best way to improve public services | Phillip Inman",
         "link": "https://www.theguardian.com/business/2026/oct/03/andy-burnham-regulation-public-services-nhs",
         "published": "Sat, 03 Oct 2026 15:00:02 GMT",
@@ -212,15 +221,6 @@
         "provider": "GUARDIAN",
         "categories": "Politics UK news Green party Nigel Farage Reform UK Conservatives Zack Polanski",
         "image": "https://i.guim.co.uk/img/media/14c9462aeb1a893e42d9aa58433ef48749ae645e/974_711_4121_3297/master/4121.jpg?width=140&quality=85&auto=format&fit=max&s=c8ca090c3f4ec413edcbc8851af42f1c"
-      },
-      {
-        "title": "Badenoch returns to Conservative conference much stronger than a year ago",
-        "link": "https://www.theguardian.com/politics/2026/oct/03/badenoch-returns-to-conservative-conference-much-stronger-than-a-year-ago",
-        "published": "Sat, 03 Oct 2026 13:00:01 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Kemi Badenoch Politics UK news Conservatives Conservative leadership Conservative conference Opinion polls",
-        "image": "https://i.guim.co.uk/img/media/de92e7699b3b63761656c56b135d1467b6eedd16/559_0_4163_3329/master/4163.jpg?width=140&quality=85&auto=format&fit=max&s=168743fd5ae35be92f458c10f782adee"
       },
       {
         "title": "City steps up opposition to Healey bank tax raid in budget",
@@ -371,6 +371,15 @@
     ],
     "TECH": [
       {
+        "title": "OpenAI safety leader quits, warning AI company’s culture is ‘broken’",
+        "link": "https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken",
+        "published": "Sat, 03 Oct 2026 19:41:21 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "OpenAI Technology AI (artificial intelligence) Computing Data and computer security Ethics World news",
+        "image": "https://i.guim.co.uk/img/media/77b3a6702fa4e94c36e292a72e438fa40eb19184/625_0_6261_5010/master/6261.jpg?width=140&quality=85&auto=format&fit=max&s=c17f6e9f87c87ad9b50cb368a894daf4"
+      },
+      {
         "title": "California’s new laws target workers’ biggest fear of AI taking their jobs",
         "link": "https://www.theguardian.com/technology/2026/oct/03/california-ai-laws-worker-protection",
         "published": "Sat, 03 Oct 2026 14:00:00 GMT",
@@ -378,15 +387,6 @@
         "provider": "GUARDIAN",
         "categories": "AI (artificial intelligence) Technology Gavin Newsom California Workers' rights US news West Coast",
         "image": "https://i.guim.co.uk/img/media/a7ae6b6345db6bcbca850fbce1224501d4714e2d/556_0_5556_4445/master/5556.jpg?width=140&quality=85&auto=format&fit=max&s=0e1f21ca629b1606cd7a3c18e70fadb9"
-      },
-      {
-        "title": "The 13 most autumnal films to watch for your cosy nights in and where to stream them",
-        "link": "https://metro.co.uk/2026/10/03/13-autumnal-films-watch-cosy-nights-stream-29659696/",
-        "published": "Sat, 03 Oct 2026 14:00:00 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Entertainment Film 00s nostalgia 80s nostalgia 90s nostalgia Amazon Prime Video Apple TV Disney Plus Netflix Sky Twilight",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_314452352-047b.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "OpenAI says its review into hacks, including on Australian government sites, is costing $500,000 a day",
@@ -443,25 +443,52 @@
         "image": "https://e3.365dm.com/26/10/1920x1080/skynews-cx-tech-ltd-data-centre_7365602.png?20261001104653"
       },
       {
-        "title": "US arrests California man for allegedly smuggling $300m worth of computer servers to China",
-        "link": "https://www.theguardian.com/us-news/2026/oct/02/arrest-smuggled-computer-servers-china",
-        "published": "Fri, 02 Oct 2026 18:46:29 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "California Technology AI (artificial intelligence) China International trade US crime Law (US) US news",
-        "image": "https://i.guim.co.uk/img/media/b150fbf305d621454311041d7c8c8c7d201d7d70/500_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=dafbe2e6e35771a70bb5deec81cfabd2"
+        "title": "'Devastating year' as Swiss glaciers shed 5% of ice amid record-breaking heatwaves",
+        "link": "https://news.sky.com/story/devastating-year-as-swiss-glaciers-shed-5-of-ice-amid-record-breaking-heatwaves-13593873",
+        "published": "Thu, 01 Oct 2026 08:39:00 +0100",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/10/1920x1080/skynews-glacier-switzerland_7365552.jpg?20261001100457"
       },
       {
-        "title": "‘Just like my big brothers’: boy with cerebral palsy passes GCSEs with eye-tracking technology",
-        "link": "https://www.theguardian.com/education/2026/oct/02/patrick-mccabe-success-cheshire-reveals-limits-send-tech",
-        "published": "Fri, 02 Oct 2026 17:18:06 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Special educational needs Education Disability UK news England Cheshire Schools Technology Labour",
-        "image": "https://i.guim.co.uk/img/media/99923f4b9bfb620979e6e17438032458fa5c7c82/548_0_7200_5760/master/7200.jpg?width=140&quality=85&auto=format&fit=max&s=9b505fdb86a077f381519c07007ac4c8"
+        "title": "Data centre would have 'horrendous' impact, protesters warn",
+        "link": "https://news.sky.com/story/hunterston-data-centre-would-have-horrendous-impact-in-north-ayrshire-protesters-warn-13593621",
+        "published": "Wed, 30 Sep 2026 12:19:00 +0100",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-hunterston-data-centre_7364875.jpg?20260930122656"
       }
     ],
     "ENTERTAINMENT": [
+      {
+        "title": "Chad Lowe’s eldest daughter shares heartbreaking tribute after death of sister Fiona, 13",
+        "link": "https://metro.co.uk/2026/10/03/chad-lowes-eldest-daughter-shares-heartbreaking-tribute-death-sister-fiona-13-29676551/",
+        "published": "Sat, 03 Oct 2026 20:27:24 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Entertainment Showbiz Celebrity Deaths Rob Lowe US Showbiz news",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/comp-1791059001.png?w=646"
+      },
+      {
+        "title": "Strictly Come Dancing viewers call out ‘rude’ interaction between judge and Josh Widdicombe",
+        "link": "https://metro.co.uk/2026/10/03/strictly-come-dancing-viewers-call-rude-interaction-judge-josh-widdicombe-29676498/",
+        "published": "Sat, 03 Oct 2026 20:07:24 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Entertainment TV Josh Widdicombe Motsi Mabuse Strictly Come Dancing",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/comp-1791055519.png?w=646"
+      },
+      {
+        "title": "Big Brother couple welcome first baby a year after meeting on show",
+        "link": "https://metro.co.uk/2026/10/03/big-brother-couple-welcome-first-baby-a-year-meeting-show-29676502/",
+        "published": "Sat, 03 Oct 2026 19:48:01 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Entertainment TV Big Brother",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/comp-1791056741.png?w=646"
+      },
       {
         "title": "Strictly Come Dancing fans fear for Emma Willis after Josh Widdicombe plea ignored",
         "link": "https://metro.co.uk/2026/10/03/strictly-come-dancing-fans-fear-emma-willis-josh-widdicombe-plea-ignored-29676465/",
@@ -472,58 +499,31 @@
         "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315166282-ed67.jpg?quality=90&strip=all&w=646"
       },
       {
-        "title": "Terrifying moment out-of-control car swerves into TV presenter and cameraman",
-        "link": "https://metro.co.uk/2026/10/03/terrifying-moment-out-of-control-car-swerves-tv-presenter-cameraman-29676369/",
-        "published": "Sat, 03 Oct 2026 17:59:04 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Entertainment TV Mexico",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315085343-8342-e1791049529661.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Emma Willis’s husband defends star as ‘perfect’ Strictly host after BBC viewer criticism",
-        "link": "https://metro.co.uk/2026/10/03/emma-williss-husband-defends-star-perfect-strictly-host-bbc-viewer-criticism-29676285/",
-        "published": "Sat, 03 Oct 2026 15:48:32 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Entertainment TV BBC Emma Willis Matt Willis Strictly Come Dancing",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_218737280-2db3.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Celebrity Traitors fans floored after discovering James Blunt ‘prevented World War 3’",
-        "link": "https://metro.co.uk/2026/10/03/celebrity-traitors-fans-floored-james-blunt-prevented-world-war-3-29676182/",
-        "published": "Sat, 03 Oct 2026 15:31:48 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Entertainment TV Celebrity Traitors James Blunt",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/comp-1791039654.png?w=646"
-      },
-      {
-        "title": "Cameron Winter at Carnegie Hall review – Paul Thomas Anderson’s sumptuous recording is an immediate classic",
-        "link": "https://www.theguardian.com/film/2026/oct/02/cameron-winter-carnegie-hall-review-paul-thomas-anderson",
-        "published": "Fri, 02 Oct 2026 20:13:24 GMT",
+        "title": "‘Brave from the beginning’: 20 years of Friday Night Lights – the sports drama that dared to be different",
+        "link": "https://www.theguardian.com/tv-and-radio/2026/oct/03/friday-night-lights-us-sports-drama-20-years",
+        "published": "Sat, 03 Oct 2026 11:00:56 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
-        "categories": "New York film festival 2026 Film Paul Thomas Anderson Music Culture Geese Pop and rock",
-        "image": "https://i.guim.co.uk/img/media/fc35e7ac00f46f6d45adbe548cd52f776827c578/195_0_1913_1530/master/1913.jpg?width=140&quality=85&auto=format&fit=max&s=acb5325e646fd6c3021512869db4a28b"
+        "categories": "Television Television & radio Culture Jesse Plemons Michael B Jordan Connie Britton",
+        "image": "https://i.guim.co.uk/img/media/12238f65a31ab1c3227f1d1d011b6ebc7a5a732f/0_133_4833_3867/master/4833.jpg?width=140&quality=85&auto=format&fit=max&s=a6368d7286260ec8c3f06e9c6689475e"
       },
       {
-        "title": "Olivia Dean accused of plagiarism on her I’ve Seen It track",
-        "link": "https://www.theguardian.com/music/2026/oct/02/olivia-dean-ive-seen-it-plagiarism",
-        "published": "Fri, 02 Oct 2026 17:25:35 GMT",
+        "title": "‘An extraordinary hour’: the explosive play re-staging the biggest TV clash of the Aids era",
+        "link": "https://www.theguardian.com/stage/2026/oct/03/kramer-fauci-aids-play-brookyn-new-york",
+        "published": "Sat, 03 Oct 2026 09:00:55 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
-        "categories": "Olivia Dean Bill Withers Music US news Culture",
-        "image": "https://i.guim.co.uk/img/media/02c0451c335d95f661822ce5b858b5d41154bf7e/634_299_3283_2626/master/3283.jpg?width=140&quality=85&auto=format&fit=max&s=f50c0ec61f156380188c4d2495454c0a"
+        "categories": "Off-Broadway Stage US theater Theatre New York LGBTQ+ rights Aids and HIV Culture Anthony Fauci World news US news",
+        "image": "https://i.guim.co.uk/img/media/79cae7146f0c94fc21b35c605d80bab68ef7c293/456_0_4563_3652/master/4563.jpg?width=140&quality=85&auto=format&fit=max&s=4ed20b4d73f32b6cb58c58a3491a4851"
       },
       {
-        "title": "Barking beautiful: the 2026 Dog Photography awards – in pictures",
-        "link": "https://www.theguardian.com/artanddesign/gallery/2026/oct/03/barking-beautiful-the-2026-dog-photography-awards-in-pictures",
-        "published": "Fri, 02 Oct 2026 15:00:10 GMT",
+        "title": "‘I thought, if I’m going to die, I’m going to write a book first’: Pachinko author Min Jin Lee",
+        "link": "https://www.theguardian.com/books/2026/oct/03/i-thought-if-im-going-to-die-im-going-to-write-a-book-first-pachinko-author-min-jin-lee",
+        "published": "Sat, 03 Oct 2026 08:00:53 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
-        "categories": "Photography Art and design Culture Dogs Animals Pets World news",
-        "image": "https://i.guim.co.uk/img/media/3603e1c1b847ec18ff16a0e003434de28b8b1d21/0_216_1723_1377/master/1723.jpg?width=140&quality=85&auto=format&fit=max&s=8647811c024bb2f708413f12149f9714"
+        "categories": "Fiction Books Culture South Korea",
+        "image": "https://i.guim.co.uk/img/media/5ac283de485f76b706af9ce760b4f9bfb4ae501e/629_940_2988_2390/master/2988.jpg?width=140&quality=85&auto=format&fit=max&s=77eab90290793881bea0933dbf42f1d2"
       },
       {
         "title": "Freddie Mercury's handwritten lyrics sell at auction for £277,000",
@@ -636,9 +636,9 @@
         "image": ""
       },
       {
-        "title": "G7 countries agree on release of diesel and oil stocks after US pressure",
-        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZnMyRFpEcDhNOHlnU2NJT3F1R2M5QkEzMjJPaGRUYlZ1S2RYYmNMZ1pERlZINEtxMkJDTktfMThYeHZ0U2FDZjVoQ3l3eHViLVkyajQ0S1RfSDJ4QS1xTEgxNVlaZzJSSkVjLTJYM04tX3ZHUEVSY0VHdjJHUU45RHBRajVxQzA3emVQNXpvRG9XRVVVZUtSdUtveUN2WUp6RzhBeVQwQ0JzVk8zWWYzS1FCVUtTZ3UtNTllVzJrbTJyUC00?oc=5",
-        "published": "Fri, 02 Oct 2026 08:21:00 GMT",
+        "title": "Five French market hot spots on investors' radars",
+        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQY3A0ejNSdFdrQVRaTTlYRXRJQ0xfVVJvemN4MFdaRC1yenB6a05RVF8yTVhvci1GWEZTcTZBVlk4d1dkelpyUWZLNHBfbTdrMmdudU5WNy1KZmFFVDlqb19mbGR4b2tscV80TTJOTjdUYnJ0cXJSYlNpZjliQ3NYYVBVZDZOY1FOU0VpbWRLYXNyU0p3RjB2eXlMS0xCZWM?oc=5",
+        "published": "Fri, 02 Oct 2026 14:49:53 GMT",
         "source": "Reuters",
         "provider": "REUTERS",
         "categories": "",
@@ -696,10 +696,11 @@
         "status": "healthy",
         "liveProviders": [
           "SKY",
-          "GUARDIAN",
+          "GUARDIAN"
+        ],
+        "failedProviders": [
           "METRO"
         ],
-        "failedProviders": [],
         "retainedPrevious": 0,
         "count": 10
       },
@@ -1295,6 +1296,15 @@
       "categories": {
         "UK": [
           {
+            "title": "Tories plan to expand free childcare to high earners to end ‘cliff edge’",
+            "link": "https://www.theguardian.com/politics/2026/oct/03/tories-plan-to-expand-free-childcare-to-high-earners-to-end-cliff-edge",
+            "published": "Sat, 03 Oct 2026 21:00:09 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Conservatives Politics UK news",
+            "image": "https://i.guim.co.uk/img/media/ed587f6092edf2a4fa97f80e983e599fb60d2200/593_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=6523715f51fffc68b651f3673d9bf529"
+          },
+          {
             "title": "Tories plan to extend cuts beyond £47bn previously pledged, leak reveals",
             "link": "https://www.theguardian.com/politics/2026/oct/03/conservatives-extend-cuts-andrew-griffith-leaked-comments",
             "published": "Sat, 03 Oct 2026 15:00:01 GMT",
@@ -1367,15 +1377,6 @@
             "image": "https://i.guim.co.uk/img/media/259f9d4ca52c567d9b6f1afd244f15e8c5317bf9/373_367_2946_2356/master/2946.jpg?width=140&quality=85&auto=format&fit=max&s=31c78815a7d886db0c67a36cffd3cfce"
           },
           {
-            "title": "London Labour council warns it may raise council tax by 150%",
-            "link": "https://www.theguardian.com/society/2026/oct/03/london-labour-council-tax-hammersmith-fulham",
-            "published": "Sat, 03 Oct 2026 06:00:53 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Local government London Council tax Politics England Money Public services policy UK news",
-            "image": "https://i.guim.co.uk/img/media/ecba2c443a254e5a2cd9a0552863dd12df61981c/332_0_3038_2431/master/3038.jpg?width=140&quality=85&auto=format&fit=max&s=193fb1badb196fbc25aaab12284a631c"
-          },
-          {
             "title": "‘He feels more relatable’: Burnham’s conference speech wins praise from drifting Labour voters",
             "link": "https://www.theguardian.com/politics/2026/oct/03/andy-burnham-conference-speech-wins-praise-from-drifting-labour-voters",
             "published": "Sat, 03 Oct 2026 12:00:58 GMT",
@@ -1394,6 +1395,15 @@
             "image": "https://i.guim.co.uk/img/media/dacd5e25319507b1fbda4ac224802e2ddcf57b25/136_0_3180_2545/master/3180.jpg?width=140&quality=85&auto=format&fit=max&s=f505c18f45835e91aa9ec73f901b014a"
           },
           {
+            "title": "Half of UK wants to rejoin EU and backing it could drive up Labour vote, megapoll finds",
+            "link": "https://www.theguardian.com/world/2026/oct/03/half-want-to-rejoin-eu-and-backing-it-could-drive-up-labour-vote-megapoll-finds",
+            "published": "Sat, 03 Oct 2026 05:00:52 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "European Union Labour Brexit Politics Foreign policy Europe UK news Andy Burnham",
+            "image": "https://i.guim.co.uk/img/media/4dbc8fb2d4422331ec4389b62becb2d99cb02c84/891_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=b7fa79c73066e8e33d2f699fceea651a"
+          },
+          {
             "title": "Burnham plans to pass law scrapping pension triple lock before next election",
             "link": "https://www.theguardian.com/politics/2026/oct/02/burnham-law-pension-triple-lock",
             "published": "Fri, 02 Oct 2026 16:39:11 GMT",
@@ -1410,15 +1420,6 @@
             "provider": "GUARDIAN",
             "categories": "Schools Ofsted Lucy Powell Education policy Teachers' workload Politics Education England UK news",
             "image": "https://i.guim.co.uk/img/media/9bb30b2c5f557f09cdf438c3469ffcba199c4be0/507_0_6565_5252/master/6565.jpg?width=140&quality=85&auto=format&fit=max&s=306611f28dccd98d02e58bbcbde00dc4"
-          },
-          {
-            "title": "Polanski says he does not need to win ‘50/50’ byelection to stay Green leader",
-            "link": "https://www.theguardian.com/politics/2026/oct/02/polanski-green-leader-authority-byelection-holborn-pancras",
-            "published": "Fri, 02 Oct 2026 15:56:09 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Green party Zack Polanski Holborn and St Pancras byelection London politics London Byelections Politics England UK news",
-            "image": "https://i.guim.co.uk/img/media/531e0d6542762213d6a262471196c5a6b02d4163/1301_371_6737_5389/master/6737.jpg?width=140&quality=85&auto=format&fit=max&s=990578f7b9edde302c8a7d0f35e6b55a"
           },
           {
             "title": "Badenoch returns to Conservative conference much stronger than a year ago",
@@ -1659,6 +1660,15 @@
         ],
         "POLITICS": [
           {
+            "title": "Tories plan to expand free childcare to high earners to end ‘cliff edge’",
+            "link": "https://www.theguardian.com/politics/2026/oct/03/tories-plan-to-expand-free-childcare-to-high-earners-to-end-cliff-edge",
+            "published": "Sat, 03 Oct 2026 21:00:09 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Conservatives Politics UK news",
+            "image": "https://i.guim.co.uk/img/media/ed587f6092edf2a4fa97f80e983e599fb60d2200/593_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=6523715f51fffc68b651f3673d9bf529"
+          },
+          {
             "title": "Tories plan to extend cuts beyond £47bn previously pledged, leak reveals",
             "link": "https://www.theguardian.com/politics/2026/oct/03/conservatives-extend-cuts-andrew-griffith-leaked-comments",
             "published": "Sat, 03 Oct 2026 15:00:01 GMT",
@@ -1711,15 +1721,6 @@
             "provider": "GUARDIAN",
             "categories": "Israel Green party Zack Polanski Palestine Antisemitism Middle East and north Africa Politics UK news World news",
             "image": "https://i.guim.co.uk/img/media/3ce981f24c940ba7db34d7625220c86381f35cab/591_0_7420_5937/master/7420.jpg?width=140&quality=85&auto=format&fit=max&s=fd59dddcc8ec852f6abc4f99e66b8936"
-          },
-          {
-            "title": "Half of UK wants to rejoin EU and backing it could drive up Labour vote, megapoll finds",
-            "link": "https://www.theguardian.com/world/2026/oct/03/half-want-to-rejoin-eu-and-backing-it-could-drive-up-labour-vote-megapoll-finds",
-            "published": "Sat, 03 Oct 2026 05:00:52 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "European Union Labour Brexit Politics Foreign policy Europe UK news Andy Burnham",
-            "image": "https://i.guim.co.uk/img/media/4dbc8fb2d4422331ec4389b62becb2d99cb02c84/891_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=b7fa79c73066e8e33d2f699fceea651a"
           },
           {
             "title": "Burnham must remember: more regulation is not the best way to improve public services | Phillip Inman",
@@ -2077,6 +2078,15 @@
             "image": "https://i.guim.co.uk/img/media/14fb9f38472e5b9c4a736c05c45a305ad892dc81/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=c740c3d087708d0007b461ffc71724ec"
           },
           {
+            "title": "OpenAI safety leader quits, warning AI company’s culture is ‘broken’",
+            "link": "https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken",
+            "published": "Sat, 03 Oct 2026 19:41:21 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "OpenAI Technology AI (artificial intelligence) Computing Data and computer security Ethics World news",
+            "image": "https://i.guim.co.uk/img/media/77b3a6702fa4e94c36e292a72e438fa40eb19184/625_0_6261_5010/master/6261.jpg?width=140&quality=85&auto=format&fit=max&s=c17f6e9f87c87ad9b50cb368a894daf4"
+          },
+          {
             "title": "OpenAI says its review into hacks, including on Australian government sites, is costing $500,000 a day",
             "link": "https://www.theguardian.com/technology/2026/oct/03/openai-review-hacks-australian-government-sites-costing-500000-a-day",
             "published": "Sat, 03 Oct 2026 05:39:22 GMT",
@@ -2102,15 +2112,6 @@
             "provider": "GUARDIAN",
             "categories": "California Technology AI (artificial intelligence) China International trade US crime Law (US) US news",
             "image": "https://i.guim.co.uk/img/media/b150fbf305d621454311041d7c8c8c7d201d7d70/500_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=dafbe2e6e35771a70bb5deec81cfabd2"
-          },
-          {
-            "title": "OpenAI’s Medicare attack has exposed Australia’s ‘tech debt’. Fixing it could bring a big bill for taxpayers",
-            "link": "https://www.theguardian.com/australia-news/2026/oct/03/openais-medicare-attack-has-exposed-australias-tech-debt-fixing-it-could-bring-a-big-bill-for-taxpayers",
-            "published": "Fri, 02 Oct 2026 15:00:13 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Australia news Cybercrime AI (artificial intelligence) OpenAI Computing Hacking",
-            "image": "https://i.guim.co.uk/img/media/961de574f870d32e3b4daa471716efcb42a6d0c5/904_0_5223_4179/master/5223.jpg?width=140&quality=85&auto=format&fit=max&s=9c0bf56b1ba320a54cb3c6714ef15ca0"
           },
           {
             "title": "‘Elon is my prophet’: how Musk’s Doge team took a wrecking ball to Washington",
@@ -2195,6 +2196,42 @@
           }
         ],
         "ENTERTAINMENT": [
+          {
+            "title": "‘Brave from the beginning’: 20 years of Friday Night Lights – the sports drama that dared to be different",
+            "link": "https://www.theguardian.com/tv-and-radio/2026/oct/03/friday-night-lights-us-sports-drama-20-years",
+            "published": "Sat, 03 Oct 2026 11:00:56 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Television Television & radio Culture Jesse Plemons Michael B Jordan Connie Britton",
+            "image": "https://i.guim.co.uk/img/media/12238f65a31ab1c3227f1d1d011b6ebc7a5a732f/0_133_4833_3867/master/4833.jpg?width=140&quality=85&auto=format&fit=max&s=a6368d7286260ec8c3f06e9c6689475e"
+          },
+          {
+            "title": "‘An extraordinary hour’: the explosive play re-staging the biggest TV clash of the Aids era",
+            "link": "https://www.theguardian.com/stage/2026/oct/03/kramer-fauci-aids-play-brookyn-new-york",
+            "published": "Sat, 03 Oct 2026 09:00:55 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Off-Broadway Stage US theater Theatre New York LGBTQ+ rights Aids and HIV Culture Anthony Fauci World news US news",
+            "image": "https://i.guim.co.uk/img/media/79cae7146f0c94fc21b35c605d80bab68ef7c293/456_0_4563_3652/master/4563.jpg?width=140&quality=85&auto=format&fit=max&s=4ed20b4d73f32b6cb58c58a3491a4851"
+          },
+          {
+            "title": "‘I thought, if I’m going to die, I’m going to write a book first’: Pachinko author Min Jin Lee",
+            "link": "https://www.theguardian.com/books/2026/oct/03/i-thought-if-im-going-to-die-im-going-to-write-a-book-first-pachinko-author-min-jin-lee",
+            "published": "Sat, 03 Oct 2026 08:00:53 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Fiction Books Culture South Korea",
+            "image": "https://i.guim.co.uk/img/media/5ac283de485f76b706af9ce760b4f9bfb4ae501e/629_940_2988_2390/master/2988.jpg?width=140&quality=85&auto=format&fit=max&s=77eab90290793881bea0933dbf42f1d2"
+          },
+          {
+            "title": "Behemoth! review - Pedro Pascal classical music drama hits all the wrong notes",
+            "link": "https://www.theguardian.com/film/2026/oct/02/behemoth-pedro-pascal-movie-review",
+            "published": "Sat, 03 Oct 2026 00:00:43 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "New York film festival 2026 Pedro Pascal Culture Film Drama films Music Classical music",
+            "image": "https://i.guim.co.uk/img/media/014c236189818575333afe0e049fed262ac3b021/0_42_2000_1599/master/2000.jpg?width=140&quality=85&auto=format&fit=max&s=19fd64b48fb7df71c80a44a9ae755d33"
+          },
           {
             "title": "Cameron Winter at Carnegie Hall review – Paul Thomas Anderson’s sumptuous recording is an immediate classic",
             "link": "https://www.theguardian.com/film/2026/oct/02/cameron-winter-carnegie-hall-review-paul-thomas-anderson",
@@ -2286,33 +2323,6 @@
             "image": "https://i.guim.co.uk/img/media/4435d07cb46f3713657f80dc59cc5b1c59e3f666/162_0_4101_3280/master/4101.jpg?width=140&quality=85&auto=format&fit=max&s=a4323537466e50bba4b86df727e11c81"
           },
           {
-            "title": "NAZA film-makers say they spoke to more than 100 sources about Israeli actions in Gaza",
-            "link": "https://www.theguardian.com/film/2026/oct/01/makers-naza-film-spoke-more-than-100-sources-israeli-actions-gaza",
-            "published": "Thu, 01 Oct 2026 17:45:09 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "NAZA Gaza Film Palestine Israel Documentary films Israel-Gaza war Culture Middle East and north Africa World news",
-            "image": "https://i.guim.co.uk/img/media/3fa7c1678f5a6282da9f66019bda1865327570a9/253_73_2515_2012/master/2515.jpg?width=140&quality=85&auto=format&fit=max&s=c1f889fb50412b98f8a39eb409809ea0"
-          },
-          {
-            "title": "‘I will see you in the parking lot after this’: when book clubs get dramatic",
-            "link": "https://www.theguardian.com/wellness/ng-interactive/2026/oct/01/when-book-clubs-get-dramatic",
-            "published": "Thu, 01 Oct 2026 11:30:49 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Well actually Books Communities Society Culture Life and style",
-            "image": "https://i.guim.co.uk/img/media/10ad051a22e1cb99e2e4942f29d351761d9eac6b/0_0_3000_2400/master/3000.jpg?width=140&quality=85&auto=format&fit=max&s=4a4724c05596806649d2385e1bc22f33"
-          },
-          {
-            "title": "Rick Ross arrested on domestic battery and strangulation charges",
-            "link": "https://www.theguardian.com/music/2026/oct/01/rick-ross-arrest-miami-battery-strangulation",
-            "published": "Thu, 01 Oct 2026 14:34:42 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Hip-hop Rap Music US crime Miami Culture Florida US news",
-            "image": "https://i.guim.co.uk/img/media/efd91e8887708a3923dcb80ff8f3db56950c67a5/0_200_3616_2890/master/3616.jpg?width=140&quality=85&auto=format&fit=max&s=4cc0f8f5cf5ad32650e2d4bd2fbdd004"
-          },
-          {
             "title": "‘It’s a deep soul connection’: Erasure on how 40 years of friendship got them through grief – and why Vince Clarke has quit touring",
             "link": "https://www.theguardian.com/music/2026/oct/02/erasure-vince-clarke-andy-bell-interview",
             "published": "Fri, 02 Oct 2026 04:00:10 GMT",
@@ -2340,22 +2350,13 @@
             "image": "https://i.guim.co.uk/img/media/674ec5212519f2918f21959050ccc8d38f493e3d/1273_1162_4684_3747/master/4684.jpg?width=140&quality=85&auto=format&fit=max&s=1f91a434005312460db5776af76443a7"
           },
           {
-            "title": "‘Shane was rascality personified’: the Pogues on their late frontman, anti-Irish prejudice and the feud over Fairytale of New York",
-            "link": "https://www.theguardian.com/music/2026/oct/01/the-pogues-shane-macgowan-anti-irish-prejudice-fairytale-of-new-york",
-            "published": "Thu, 01 Oct 2026 12:41:12 GMT",
+            "title": "Comedy wildlife photography award finalists 2026 – in pictures",
+            "link": "https://www.theguardian.com/artanddesign/gallery/2026/oct/03/comedy-wildlife-photography-awards-2026-in-pictures",
+            "published": "Sat, 03 Oct 2026 05:00:49 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "The Pogues Music Pop and rock Folk music Culture Shane MacGowan Punk",
-            "image": "https://i.guim.co.uk/img/media/897f8344b6a3901803c9e0f32a33f097e99a67da/0_602_3488_2788/master/3488.jpg?width=140&quality=85&auto=format&fit=max&s=44ce9cf4910f5e52b34a7a4514a02ff9"
-          },
-          {
-            "title": "Barking beautiful: the 2026 Dog Photography awards – in pictures",
-            "link": "https://www.theguardian.com/artanddesign/gallery/2026/oct/03/barking-beautiful-the-2026-dog-photography-awards-in-pictures",
-            "published": "Fri, 02 Oct 2026 15:00:10 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Photography Art and design Culture Dogs Animals Pets World news",
-            "image": "https://i.guim.co.uk/img/media/3603e1c1b847ec18ff16a0e003434de28b8b1d21/0_216_1723_1377/master/1723.jpg?width=140&quality=85&auto=format&fit=max&s=8647811c024bb2f708413f12149f9714"
+            "categories": "Photography Animals Wildlife Environment Comedy Culture World news",
+            "image": "https://i.guim.co.uk/img/media/bb12d2f4ffbb5fb99d74094540c5e114a047bbc5/534_290_2590_2072/master/2590.jpg?width=140&quality=85&auto=format&fit=max&s=09cbb19086102e7384f8bf52bd7485b7"
           },
           {
             "title": "Greg Freeman: All Set the Bone review – ambitious alt-country double album spreads its talents a touch thin",
@@ -2741,15 +2742,6 @@
             "provider": "METRO",
             "categories": "News UK Andy Burnham Donald Trump Iran war Terror",
             "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_314536847-cab8.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Ireland press conference cut short after Israeli questions about Flydubai attack and racism",
-            "link": "https://metro.co.uk/2026/10/03/ireland-press-conference-cut-short-israeli-questions-flydubai-attack-racism-29676160/",
-            "published": "Sat, 03 Oct 2026 14:02:45 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Football Sport Football Association of Ireland Israel Republic of Ireland",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_314349164-0450.jpg?quality=90&strip=all&w=646"
           }
         ],
         "POLITICS": [
@@ -3129,6 +3121,33 @@
         ],
         "ENTERTAINMENT": [
           {
+            "title": "Chad Lowe’s eldest daughter shares heartbreaking tribute after death of sister Fiona, 13",
+            "link": "https://metro.co.uk/2026/10/03/chad-lowes-eldest-daughter-shares-heartbreaking-tribute-death-sister-fiona-13-29676551/",
+            "published": "Sat, 03 Oct 2026 20:27:24 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment Showbiz Celebrity Deaths Rob Lowe US Showbiz news",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/comp-1791059001.png?w=646"
+          },
+          {
+            "title": "Strictly Come Dancing viewers call out ‘rude’ interaction between judge and Josh Widdicombe",
+            "link": "https://metro.co.uk/2026/10/03/strictly-come-dancing-viewers-call-rude-interaction-judge-josh-widdicombe-29676498/",
+            "published": "Sat, 03 Oct 2026 20:07:24 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment TV Josh Widdicombe Motsi Mabuse Strictly Come Dancing",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/comp-1791055519.png?w=646"
+          },
+          {
+            "title": "Big Brother couple welcome first baby a year after meeting on show",
+            "link": "https://metro.co.uk/2026/10/03/big-brother-couple-welcome-first-baby-a-year-meeting-show-29676502/",
+            "published": "Sat, 03 Oct 2026 19:48:01 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment TV Big Brother",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/comp-1791056741.png?w=646"
+          },
+          {
             "title": "Strictly Come Dancing fans fear for Emma Willis after Josh Widdicombe plea ignored",
             "link": "https://metro.co.uk/2026/10/03/strictly-come-dancing-fans-fear-emma-willis-josh-widdicombe-plea-ignored-29676465/",
             "published": "Sat, 03 Oct 2026 18:47:01 +0000",
@@ -3280,33 +3299,6 @@
             "provider": "METRO",
             "categories": "Entertainment TV BBC Celebrity Traitors Opinion Professor Hannah Fry",
             "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315042517-fe70.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Celebrity Traitors star Maya Jama reacts after fans rip her fashion to shreds",
-            "link": "https://metro.co.uk/2026/10/02/celebrity-traitors-star-maya-jama-reacts-fans-compare-furry-big-bird-29675466/",
-            "published": "Fri, 02 Oct 2026 19:34:43 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Entertainment TV",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315039502-217f.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "David Beckham quietly signals hope for reconciliation as Brooklyn snubs family event",
-            "link": "https://metro.co.uk/2026/10/02/david-beckham-quietly-drops-clue-reconciliation-brooklyn-29675051/",
-            "published": "Fri, 02 Oct 2026 18:15:28 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Entertainment Showbiz Brooklyn Beckham David Beckham Nicola Peltz Victoria Beckham",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/comp-1790962547.png?w=646"
-          },
-          {
-            "title": "To Catch a Predator host slams ‘unflattering’ portrayal in Robert Pattinson’s Primetime",
-            "link": "https://metro.co.uk/2026/10/02/catch-a-predator-host-slams-unflattering-portrayal-robert-pattinsons-primetime-29675368/",
-            "published": "Fri, 02 Oct 2026 18:07:55 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Entertainment Film Robert Pattinson US Showbiz news",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/comp-1788628083.png?w=646"
           }
         ]
       },
@@ -3317,7 +3309,7 @@
         },
         "WORLD": {
           "ok": true,
-          "count": 18
+          "count": 17
         },
         "POLITICS": {
           "ok": true,
@@ -3328,8 +3320,9 @@
           "count": 20
         },
         "TECH": {
-          "ok": true,
-          "count": 1
+          "ok": false,
+          "count": 0,
+          "reason": "No correctly classified live stories"
         },
         "ENTERTAINMENT": {
           "ok": true,
@@ -3725,6 +3718,24 @@
             "image": ""
           },
           {
+            "title": "Five French market hot spots on investors' radars",
+            "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQY3A0ejNSdFdrQVRaTTlYRXRJQ0xfVVJvemN4MFdaRC1yenB6a05RVF8yTVhvci1GWEZTcTZBVlk4d1dkelpyUWZLNHBfbTdrMmdudU5WNy1KZmFFVDlqb19mbGR4b2tscV80TTJOTjdUYnJ0cXJSYlNpZjliQ3NYYVBVZDZOY1FOU0VpbWRLYXNyU0p3RjB2eXlMS0xCZWM?oc=5",
+            "published": "Fri, 02 Oct 2026 14:49:53 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "EXCLUSIVE: US tells France and Germany to release diesel stocks or face US export ban, sources say",
+            "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNOGxXWEZnTW1hNUtCOXY4NTJTWHQ0ZkZoUEZsYkt3c3lQTVU1NDFVbHJnSkNJbXRTdzZCSlBWY2tsc0stTk5CSGk1Ymhpb0NwaG1WUEg5Ni1pVlFxQnRMc093VGllN0c5ektIdWYyN191ZW5ZX1lrUjhVODk2TUpsRXFQT3hQdGhVUzdjdklkSENrWm8yWmgwVkE1bEd6TTB2RHBsUHpZVExmTUhkbjhINTVrZ3ZpQnNsQW9wc0FBMWk4XzF0WEI1aXZBQQ?oc=5",
+            "published": "Fri, 02 Oct 2026 08:51:36 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
             "title": "G7 countries agree on release of diesel and oil stocks after US pressure",
             "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZnMyRFpEcDhNOHlnU2NJT3F1R2M5QkEzMjJPaGRUYlZ1S2RYYmNMZ1pERlZINEtxMkJDTktfMThYeHZ0U2FDZjVoQ3l3eHViLVkyajQ0S1RfSDJ4QS1xTEgxNVlaZzJSSkVjLTJYM04tX3ZHUEVSY0VHdjJHUU45RHBRajVxQzA3emVQNXpvRG9XRVVVZUtSdUtveUN2WUp6RzhBeVQwQ0JzVk8zWWYzS1FCVUtTZ3UtNTllVzJrbTJyUC00?oc=5",
             "published": "Fri, 02 Oct 2026 08:21:00 GMT",
@@ -3770,27 +3781,9 @@
             "image": ""
           },
           {
-            "title": "Synopsys shares jump on robust growth outlook, OpenAI and AWS deals",
-            "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNcGlqQnBISDJ0MDlRNllWZFpLMlpwc0FXU0xwZkhBUDg1QndSWUY0NzNtQ3ZQa0pyQ2ktSEdjMzhDN0t4b2hpakcxZ2RJdXdzMGZwcGkwSE1CU013c1E1eTl3YlBwczl2eWc4T3k1S2J6Z0s2QTh5Ml9qTHlhbjh6dDhNVHFaZU9ValYySmFlb3hwRjhGVzFDdWszX3RkLVNnQmIyWmtVTQ?oc=5",
-            "published": "Thu, 01 Oct 2026 16:22:09 GMT",
-            "source": "Reuters",
-            "provider": "REUTERS",
-            "categories": "",
-            "image": ""
-          },
-          {
             "title": "EU's emergency diesel stocks are mainly in Germany and France",
             "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQMXEwbVZ0dGxwSkt5YlM4eE9uWGV0MTZScDhaV01PU2h6UG8wOF9XOEtYODdJZFM3U2NVdUhCQ09OUlB2YmJjZ2M0Y2Y0YmVPTzhYcTd1UGxPMEtSbVZlMnhiVHExUkZvOFpWcXc2dGNEYTlmS2R2Q0FwVUYxTnNEd1ZWbzY1OXQybktURkVQUE81dnRXQWtxR3VrM3pCZW5QSVRSWFprbzI?oc=5",
             "published": "Thu, 01 Oct 2026 11:33:43 GMT",
-            "source": "Reuters",
-            "provider": "REUTERS",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "EXCLUSIVE: US tells France and Germany to release diesel stocks or face US export ban, sources say",
-            "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNOGxXWEZnTW1hNUtCOXY4NTJTWHQ0ZkZoUEZsYkt3c3lQTVU1NDFVbHJnSkNJbXRTdzZCSlBWY2tsc0stTk5CSGk1Ymhpb0NwaG1WUEg5Ni1pVlFxQnRMc093VGllN0c5ektIdWYyN191ZW5ZX1lrUjhVODk2TUpsRXFQT3hQdGhVUzdjdklkSENrWm8yWmgwVkE1bEd6TTB2RHBsUHpZVExmTUhkbjhINTVrZ3ZpQnNsQW9wc0FBMWk4XzF0WEI1aXZBQQ?oc=5",
-            "published": "Thu, 01 Oct 2026 07:51:00 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3931,5 +3924,5 @@
       }
     }
   },
-  "stocksUpdated": "2026-10-03T19:48:01.221Z"
+  "stocksUpdated": "2026-10-03T21:25:04.339Z"
 }
