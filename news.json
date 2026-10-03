@@ -1,9 +1,18 @@
 {
-  "updated": "2026-10-03T21:24:55.639Z",
+  "updated": "2026-10-03T22:49:21.586Z",
   "categories": {
     "UK": [
       {
-        "title": "Tories plan to expand free childcare to high earners to end ‘cliff edge’",
+        "title": "Man shot dead at London memorial service in ‘senseless act of violence’",
+        "link": "https://www.theguardian.com/uk-news/2026/oct/03/met-launches-inquiry-after-man-shot-dead-at-london-memorial-service",
+        "published": "Sat, 03 Oct 2026 22:04:08 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "London UK news Crime Police Gun crime",
+        "image": "https://i.guim.co.uk/img/media/0825e1df6e579bcd62388a6eb4ca748ee9b26fb4/472_0_2916_2333/master/2916.jpg?width=140&quality=85&auto=format&fit=max&s=fd1bcf3216f6bc7a3e65ef570cc961b1"
+      },
+      {
+        "title": "Tories would expand free childcare to high earners, Badenoch says",
         "link": "https://www.theguardian.com/politics/2026/oct/03/tories-plan-to-expand-free-childcare-to-high-earners-to-end-cliff-edge",
         "published": "Sat, 03 Oct 2026 21:00:09 GMT",
         "source": "The Guardian",
@@ -66,15 +75,6 @@
         "image": "https://i.guim.co.uk/img/media/596d821ccff4efb790655d489adb7b1127d59cc3/300_59_3230_2584/master/3230.jpg?width=140&quality=85&auto=format&fit=max&s=5e9438f717af397e0717f2413bdb27f4"
       },
       {
-        "title": "Greens would nationalise Thames and SE Water without paying compensation, says deputy leader – as it happened",
-        "link": "https://www.theguardian.com/politics/live/2026/oct/03/green-party-conference-zack-polanski-uk-politics-latest-news-updates-labour-conservatives-reform",
-        "published": "Sat, 03 Oct 2026 13:16:31 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Politics UK news Green party Nigel Farage Reform UK Conservatives Zack Polanski",
-        "image": "https://i.guim.co.uk/img/media/14c9462aeb1a893e42d9aa58433ef48749ae645e/974_711_4121_3297/master/4121.jpg?width=140&quality=85&auto=format&fit=max&s=c8ca090c3f4ec413edcbc8851af42f1c"
-      },
-      {
         "title": "UK-Iranian national arrested in RAF Fairford investigation released on bail",
         "link": "https://news.sky.com/story/uk-iranian-national-arrested-in-raf-fairford-investigation-released-on-bail-13594647",
         "published": "Sat, 03 Oct 2026 11:08:00 +0100",
@@ -94,6 +94,15 @@
       }
     ],
     "WORLD": [
+      {
+        "title": "Five-year-old girl in a coma and P-plater charged after car hits crowd of NRL fans in Newcastle",
+        "link": "https://www.theguardian.com/australia-news/2026/oct/03/several-people-injured-after-vehicle-hits-crowd-at-knights-grand-final-farewell-in-newcastle",
+        "published": "Sat, 03 Oct 2026 22:32:34 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Newcastle and the Hunter Australia news Newcastle Knights New South Wales NRL",
+        "image": "https://i.guim.co.uk/img/media/847d6c668d1e96423405d9f945e85d3137f6a8ae/269_0_2462_1970/master/2462.jpg?width=140&quality=85&auto=format&fit=max&s=65fe1429f1736c97a3290569208814a0"
+      },
       {
         "title": "US Coast Guard searches for missing air ambulance off coast of Massachusetts",
         "link": "https://www.theguardian.com/us-news/2026/oct/03/us-coast-guard-missing-air-ambulance-massachusetts",
@@ -158,15 +167,6 @@
         "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315132074-a389.jpg?quality=90&strip=all&w=640"
       },
       {
-        "title": "Five-year-old girl in critical condition after car hits crowd in Newcastle",
-        "link": "https://www.theguardian.com/australia-news/2026/oct/03/several-people-injured-after-vehicle-hits-crowd-at-knights-grand-final-farewell-in-newcastle",
-        "published": "Sat, 03 Oct 2026 10:12:43 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Newcastle and the Hunter Australia news Newcastle Knights New South Wales NRL",
-        "image": "https://i.guim.co.uk/img/media/847d6c668d1e96423405d9f945e85d3137f6a8ae/269_0_2462_1970/master/2462.jpg?width=140&quality=85&auto=format&fit=max&s=65fe1429f1736c97a3290569208814a0"
-      },
-      {
         "title": "Libyan unity talks upended as warlord’s son linked to drone attacks on fuel facilities",
         "link": "https://www.theguardian.com/world/2026/oct/03/libyan-unity-talks-warlord-son-linked-drone-attack-khalifa-haftar",
         "published": "Sat, 03 Oct 2026 09:00:56 GMT",
@@ -187,7 +187,7 @@
     ],
     "POLITICS": [
       {
-        "title": "Tories plan to expand free childcare to high earners to end ‘cliff edge’",
+        "title": "Tories would expand free childcare to high earners, Badenoch says",
         "link": "https://www.theguardian.com/politics/2026/oct/03/tories-plan-to-expand-free-childcare-to-high-earners-to-end-cliff-edge",
         "published": "Sat, 03 Oct 2026 21:00:09 GMT",
         "source": "The Guardian",
@@ -600,6 +600,15 @@
         "image": ""
       },
       {
+        "title": "Micron, Snowflake Lead Techs Near Buy Points. Two Consumer Plays Also Are Stocks To Watch.",
+        "link": "https://uk.finance.yahoo.com/m/5f063bc5-34a9-328a-8a05-d2a0656c5806/micron%2C-snowflake-lead-techs.html?.tsrc=rss",
+        "published": "Sat, 03 Oct 2026 12:00:02 +0000",
+        "source": "Yahoo Finance",
+        "provider": "YAHOO",
+        "categories": "",
+        "image": ""
+      },
+      {
         "title": "Want to earn passive income from an ISA? 5 FTSE shares yielding 6.6%+ to consider this October",
         "link": "https://www.twelfthmagpie.com/2026/10/03/want-to-earn-passive-income-from-an-isa-5-ftse-shares-yielding-6-6-to-consider-this-october/",
         "published": "Sat, 03 Oct 2026 09:30:00 +0000",
@@ -618,31 +627,22 @@
         "image": "https://www.twelfthmagpie.com/wp-content/uploads/2024/12/2025-And-Beyond-1200x675.jpg"
       },
       {
-        "title": "Equities close higher as softer jobs data quiets rate-hike expectations",
-        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPeTVxVTNLX2pUZEc1U0xtNWdyYWRjY0NjSVcweXJNYk9PTDVKVnJaTzFNTUdnNW5LVEFxaHlELU9fVW9neE93Q0VDanlUbkJPcUhMaXNmNUJQX3pXd0JvcU1VSHh5Z1NEZnQzWGFsclpXZ08zRTVmY2ZaV1J4a2JBU3lPTEVNTUNBSVdVcWRydUlJOEY5ZU13NERhMFE3YUstSzB2RE5JV1gtZw?oc=5",
-        "published": "Fri, 02 Oct 2026 22:44:50 GMT",
-        "source": "Reuters",
-        "provider": "REUTERS",
-        "categories": "",
-        "image": ""
+        "title": "Here’s how much passive income you could earn in the next decade by investing £3, £10 or £50 a day",
+        "link": "https://www.twelfthmagpie.com/2026/10/03/heres-how-much-passive-income-you-could-earn-in-the-next-decade-by-investing-3-10-or-50-a-day/",
+        "published": "Sat, 03 Oct 2026 08:34:00 +0000",
+        "source": "The Twelfth Magpie",
+        "provider": "MAGPIE",
+        "categories": "Dividend Shares Investing Articles",
+        "image": "https://www.twelfthmagpie.com/wp-content/uploads/2021/10/Pound-Coin-Stack.jpg"
       },
       {
-        "title": "$5 billion Firmus IPO divides investors after valuation triples in two months",
-        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPUWFEamJaVWxsTk1DbjFBN1Y1Z1Znb3ZGUG9nRmVjYlFRX29qVGxRc2l3WUlPb3IxbzFnTlRpVjRZQjlUcEF5SG5aeXNWWnVaWEtCVVRDY29wUkFpNHE2bmV3cFRJdThxcFVvYjhjRDVzRm4yMDBkamNqeHNMaUNqejNVb2VJVVE2MzRYX1dMTmkwOU81OHZwbllEOEtUNmh6eGpBbVZyRENVQ21UaFhyLTRyNy1pQ1NlZHc?oc=5",
-        "published": "Fri, 02 Oct 2026 18:29:40 GMT",
-        "source": "Reuters",
-        "provider": "REUTERS",
+        "title": "These 2 FTSE 100 dividend stocks yield 7%+ but which is the safer pick today?",
+        "link": "https://www.twelfthmagpie.com/2026/10/03/these-2-ftse-100-dividend-stocks-yield-7-but-which-is-the-safer-pick-today/?.tsrc=rss",
+        "published": "Sat, 03 Oct 2026 07:46:09 +0000",
+        "source": "Yahoo Finance",
+        "provider": "YAHOO",
         "categories": "",
-        "image": ""
-      },
-      {
-        "title": "Five French market hot spots on investors' radars",
-        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQY3A0ejNSdFdrQVRaTTlYRXRJQ0xfVVJvemN4MFdaRC1yenB6a05RVF8yTVhvci1GWEZTcTZBVlk4d1dkelpyUWZLNHBfbTdrMmdudU5WNy1KZmFFVDlqb19mbGR4b2tscV80TTJOTjdUYnJ0cXJSYlNpZjliQ3NYYVBVZDZOY1FOU0VpbWRLYXNyU0p3RjB2eXlMS0xCZWM?oc=5",
-        "published": "Fri, 02 Oct 2026 14:49:53 GMT",
-        "source": "Reuters",
-        "provider": "REUTERS",
-        "categories": "",
-        "image": ""
+        "image": "https://www.twelfthmagpie.com/wp-content/uploads/2025/01/Dividend-Yield-1200x675.jpg"
       }
     ]
   },
@@ -720,10 +720,11 @@
         "count": 10,
         "liveProviders": [
           "MAGPIE",
-          "YAHOO",
+          "YAHOO"
+        ],
+        "failedProviders": [
           "REUTERS"
         ],
-        "failedProviders": [],
         "retainedPrevious": 0,
         "sourceHealth": {
           "MAGPIE": {
@@ -731,7 +732,7 @@
             "count": 9,
             "retainedPrevious": 0,
             "errors": [
-              "https://news.google.com/rss/search?q=stocks%20OR%20shares%20OR%20FTSE%20source%3A%22The%20Twelfth%20Magpie%22%20when%3A7d&hl=en-GB&gl=GB&ceid=GB:en: no relevant articles"
+              "https://news.google.com/rss/search?q=stocks%20OR%20shares%20OR%20FTSE%20source%3A%22The%20Twelfth%20Magpie%22%20when%3A7d&hl=en-GB&gl=GB&ceid=GB:en: 503 Service Unavailable"
             ]
           },
           "YAHOO": {
@@ -743,11 +744,12 @@
             ]
           },
           "REUTERS": {
-            "ok": true,
-            "count": 12,
-            "retainedPrevious": 0,
+            "ok": false,
+            "count": 0,
+            "retainedPrevious": 12,
             "errors": [
-              "https://www.reuters.com/arc/outboundfeeds/v3/all/?outputType=xml: 404 Not Found"
+              "https://www.reuters.com/arc/outboundfeeds/v3/all/?outputType=xml: 404 Not Found",
+              "https://news.google.com/rss/search?q=stocks%20OR%20shares%20OR%20markets%20source%3AReuters%20when%3A7d&hl=en-GB&gl=GB&ceid=GB:en: 503 Service Unavailable"
             ]
           }
         }
@@ -1296,7 +1298,16 @@
       "categories": {
         "UK": [
           {
-            "title": "Tories plan to expand free childcare to high earners to end ‘cliff edge’",
+            "title": "Man shot dead at London memorial service in ‘senseless act of violence’",
+            "link": "https://www.theguardian.com/uk-news/2026/oct/03/met-launches-inquiry-after-man-shot-dead-at-london-memorial-service",
+            "published": "Sat, 03 Oct 2026 22:04:08 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "London UK news Crime Police Gun crime",
+            "image": "https://i.guim.co.uk/img/media/0825e1df6e579bcd62388a6eb4ca748ee9b26fb4/472_0_2916_2333/master/2916.jpg?width=140&quality=85&auto=format&fit=max&s=fd1bcf3216f6bc7a3e65ef570cc961b1"
+          },
+          {
+            "title": "Tories would expand free childcare to high earners, Badenoch says",
             "link": "https://www.theguardian.com/politics/2026/oct/03/tories-plan-to-expand-free-childcare-to-high-earners-to-end-cliff-edge",
             "published": "Sat, 03 Oct 2026 21:00:09 GMT",
             "source": "The Guardian",
@@ -1368,15 +1379,6 @@
             "image": "https://i.guim.co.uk/img/media/04d91288899aef83284a2d8c6190e495ca6f97b1/883_0_5033_4024/master/5033.jpg?width=140&quality=85&auto=format&fit=max&s=fd8887b6b682b92b213c9b3002e2db7e"
           },
           {
-            "title": "BT accused of ‘bullying’ customers by pausing broadband in digital landline push",
-            "link": "https://www.theguardian.com/business/2026/oct/03/bt-customers-broadband-digital-landline-switch-internet",
-            "published": "Sat, 03 Oct 2026 07:00:52 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "BT Telecommunications industry Business Older people Broadband Money Broadband Internet Technology UK news Consumer affairs",
-            "image": "https://i.guim.co.uk/img/media/259f9d4ca52c567d9b6f1afd244f15e8c5317bf9/373_367_2946_2356/master/2946.jpg?width=140&quality=85&auto=format&fit=max&s=31c78815a7d886db0c67a36cffd3cfce"
-          },
-          {
             "title": "‘He feels more relatable’: Burnham’s conference speech wins praise from drifting Labour voters",
             "link": "https://www.theguardian.com/politics/2026/oct/03/andy-burnham-conference-speech-wins-praise-from-drifting-labour-voters",
             "published": "Sat, 03 Oct 2026 12:00:58 GMT",
@@ -1384,6 +1386,15 @@
             "provider": "GUARDIAN",
             "categories": "Andy Burnham Labour conference Labour Politics UK news Labour conference 2026 Labour party leadership Brexit Social care State pensions Economic policy",
             "image": "https://i.guim.co.uk/img/media/1c09c458070d86875797f22a6ac3594b3f14e042/1076_101_5743_4596/master/5743.jpg?width=140&quality=85&auto=format&fit=max&s=6fde221abf81fe2768d065d4122a1327"
+          },
+          {
+            "title": "London Labour council warns it may raise council tax by 150%",
+            "link": "https://www.theguardian.com/society/2026/oct/03/london-labour-council-tax-hammersmith-fulham",
+            "published": "Sat, 03 Oct 2026 06:00:53 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Local government London Council tax Politics England Money Public services policy UK news",
+            "image": "https://i.guim.co.uk/img/media/ecba2c443a254e5a2cd9a0552863dd12df61981c/332_0_3038_2431/master/3038.jpg?width=140&quality=85&auto=format&fit=max&s=193fb1badb196fbc25aaab12284a631c"
           },
           {
             "title": "‘People are deserting it’: why are London mansions struggling to sell?",
@@ -1411,15 +1422,6 @@
             "provider": "GUARDIAN",
             "categories": "Andy Burnham Labour Pensions State pensions Social care Money Politics UK news Society",
             "image": "https://i.guim.co.uk/img/media/7fdc3db7a8e07642cda96437d92cf4c17126ae9b/1171_0_6990_5592/master/6990.jpg?width=140&quality=85&auto=format&fit=max&s=1706b704e74ee697af950a3b078a8b0e"
-          },
-          {
-            "title": "England school inspections to be overhauled again after barrage of complaints",
-            "link": "https://www.theguardian.com/education/2026/oct/02/school-inspections-england-ofsted-overhaul-complaints",
-            "published": "Fri, 02 Oct 2026 16:00:11 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Schools Ofsted Lucy Powell Education policy Teachers' workload Politics Education England UK news",
-            "image": "https://i.guim.co.uk/img/media/9bb30b2c5f557f09cdf438c3469ffcba199c4be0/507_0_6565_5252/master/6565.jpg?width=140&quality=85&auto=format&fit=max&s=306611f28dccd98d02e58bbcbde00dc4"
           },
           {
             "title": "Badenoch returns to Conservative conference much stronger than a year ago",
@@ -1613,9 +1615,9 @@
             "image": "https://i.guim.co.uk/img/media/7ce1cdc2fc28979a647765972ecf7471ecf599a7/318_0_4380_3506/master/4380.jpg?width=140&quality=85&auto=format&fit=max&s=12e4b330a870c2b7ce01aaa620de171d"
           },
           {
-            "title": "Five-year-old girl in critical condition after car hits crowd in Newcastle",
+            "title": "Five-year-old girl in a coma and P-plater charged after car hits crowd of NRL fans in Newcastle",
             "link": "https://www.theguardian.com/australia-news/2026/oct/03/several-people-injured-after-vehicle-hits-crowd-at-knights-grand-final-farewell-in-newcastle",
-            "published": "Sat, 03 Oct 2026 10:12:43 GMT",
+            "published": "Sat, 03 Oct 2026 22:32:34 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
             "categories": "Newcastle and the Hunter Australia news Newcastle Knights New South Wales NRL",
@@ -1660,7 +1662,7 @@
         ],
         "POLITICS": [
           {
-            "title": "Tories plan to expand free childcare to high earners to end ‘cliff edge’",
+            "title": "Tories would expand free childcare to high earners, Badenoch says",
             "link": "https://www.theguardian.com/politics/2026/oct/03/tories-plan-to-expand-free-childcare-to-high-earners-to-end-cliff-edge",
             "published": "Sat, 03 Oct 2026 21:00:09 GMT",
             "source": "The Guardian",
@@ -3207,7 +3209,7 @@
             "published": "Sat, 03 Oct 2026 14:39:50 +0000",
             "source": "Metro",
             "provider": "METRO",
-            "categories": "Entertainment Celebrity Traitors Radio Richard E Grant",
+            "categories": "Entertainment TV Celebrity Traitors Radio Richard E Grant",
             "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315137820-bf2e.jpg?quality=90&strip=all&w=576"
           },
           {
@@ -3817,11 +3819,12 @@
           "errors": []
         },
         "STOCKS": {
-          "ok": true,
-          "count": 12,
-          "retainedPrevious": 0,
+          "ok": false,
+          "count": 0,
+          "retainedPrevious": 12,
           "errors": [
-            "https://www.reuters.com/arc/outboundfeeds/v3/all/?outputType=xml: 404 Not Found"
+            "https://www.reuters.com/arc/outboundfeeds/v3/all/?outputType=xml: 404 Not Found",
+            "https://news.google.com/rss/search?q=stocks%20OR%20shares%20OR%20markets%20source%3AReuters%20when%3A7d&hl=en-GB&gl=GB&ceid=GB:en: 503 Service Unavailable"
           ]
         }
       }
@@ -3918,11 +3921,11 @@
           "count": 9,
           "retainedPrevious": 0,
           "errors": [
-            "https://news.google.com/rss/search?q=stocks%20OR%20shares%20OR%20FTSE%20source%3A%22The%20Twelfth%20Magpie%22%20when%3A7d&hl=en-GB&gl=GB&ceid=GB:en: no relevant articles"
+            "https://news.google.com/rss/search?q=stocks%20OR%20shares%20OR%20FTSE%20source%3A%22The%20Twelfth%20Magpie%22%20when%3A7d&hl=en-GB&gl=GB&ceid=GB:en: 503 Service Unavailable"
           ]
         }
       }
     }
   },
-  "stocksUpdated": "2026-10-03T21:25:04.339Z"
+  "stocksUpdated": "2026-10-03T22:49:49.463Z"
 }
