@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-04T21:54:29.755Z",
+  "updated": "2026-10-05T00:47:01.205Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -39,16 +39,16 @@
         "image": "https://covers.openlibrary.org/b/id/11702962-L.jpg"
       },
       {
-        "title": "The Let Them Theory",
-        "author": "Mel Robbins",
-        "narrator": "Mel Robbins",
-        "image": "https://m.media-amazon.com/images/I/51YOr6ua-PL._SL500_.jpg"
-      },
-      {
         "title": "The Dungeon Anarchist's Cookbook",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays , The Critical Drinker",
         "image": "https://covers.openlibrary.org/b/id/15258910-L.jpg"
+      },
+      {
+        "title": "The Let Them Theory",
+        "author": "Mel Robbins",
+        "narrator": "Mel Robbins",
+        "image": "https://covers.openlibrary.org/b/id/15165806-L.jpg"
       },
       {
         "title": "The Gate of the Feral Gods",
@@ -57,10 +57,10 @@
         "image": "https://m.media-amazon.com/images/I/51rmyTTWPsL._SL500_.jpg"
       },
       {
-        "title": "Threshing Day [Dramatized Adaptation]",
-        "author": "Rebecca Yarros",
-        "narrator": "Full Cast , Gabriel Michael , Torian Brackett , Taylor Coan , Robb Moreira , Henry W. Kramer , Rayner Gabriel , Jessica Schly , James J. Johnson , Casie Platt , Danny Gavigan , Rob McFadyen , Renee Dorian , Belsheber Junior Rusape , GM Hakim",
-        "image": "https://m.media-amazon.com/images/I/51yEO5vfs9L._SL500_.jpg"
+        "title": "The Butcher's Masquerade",
+        "author": "Matt Dinniman",
+        "narrator": "Jeff Hays",
+        "image": "https://covers.openlibrary.org/b/id/15258912-L.jpg"
       }
     ],
     "BOOKS": [
@@ -123,14 +123,14 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-10-04T21:54:29.755Z",
-      "lastSuccessfulRefresh": "2026-10-04T21:54:29.755Z",
+      "checkedAt": "2026-10-05T00:47:01.205Z",
+      "lastSuccessfulRefresh": "2026-10-05T00:47:01.205Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-10-04T21:54:38.691Z",
-      "lastSuccessfulRefresh": "2026-10-04T21:54:38.691Z",
+      "checkedAt": "2026-10-05T00:47:09.796Z",
+      "lastSuccessfulRefresh": "2026-10-05T00:47:09.796Z",
       "reason": ""
     }
   }
