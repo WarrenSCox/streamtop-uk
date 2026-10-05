@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-05T05:51:15.676Z",
+  "updated": "2026-10-05T06:52:56.375Z",
   "categories": {
     "UK": [
       {
@@ -8,8 +8,17 @@
         "published": "Mon, 05 Oct 2026 05:33:53 +0000",
         "source": "Metro",
         "provider": "METRO",
-        "categories": "News UK Gloucestershire",
+        "categories": "News UK Gloucestershire RAF and Red Arrows United States of America",
         "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_314435613-cfc0.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Anti-migrant protesters gather at seaside town as dinghy crosses Channel to UK",
+        "link": "https://news.sky.com/story/anti-migrant-protesters-gather-at-seaside-town-as-dinghy-crosses-channel-to-uk-13595218",
+        "published": "Mon, 05 Oct 2026 06:32:00 +0100",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/10/1920x1080/skynews-migrants-gosport_7368446.jpg?20261005064006"
       },
       {
         "title": "BBC morale dented by gradual ‘bloodletting’ after weeks of job cuts",
@@ -49,7 +58,7 @@
       },
       {
         "title": "US removes all Air Force bombers from RAF Fairford",
-        "link": "https://news.sky.com/story/us-removes-all-air-force-bombers-from-raf-fairford-13595162",
+        "link": "https://news.sky.com/story/us-removes-all-air-force-bombers-from-raf-fairford-after-suspected-terror-plot-13595162",
         "published": "Sun, 04 Oct 2026 22:00:00 +0100",
         "source": "Sky News",
         "provider": "SKY",
@@ -64,15 +73,6 @@
         "provider": "METRO",
         "categories": "News UK Crime News Norfolk",
         "image": "https://metro.co.uk/wp-content/uploads/2026/10/Screenshot-2026-10-04-213003-73e5-e1791146878856.png?w=646"
-      },
-      {
-        "title": "Man arrested after woman in her 40s found dead in Norfolk",
-        "link": "https://news.sky.com/story/man-arrested-after-woman-in-her-40s-found-dead-in-norfolk-13595144",
-        "published": "Sun, 04 Oct 2026 21:01:00 +0100",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/05/1920x1080/skynews-norfolk-constabulary_7255816.jpg?20261004211510"
       },
       {
         "title": "Kitten found outside Tube station needs new home after being rescued by commuter",
@@ -95,6 +95,42 @@
     ],
     "WORLD": [
       {
+        "title": "Australia experiences second hottest September on record as El Niño and climate crisis combine",
+        "link": "https://www.theguardian.com/australia-news/2026/oct/05/australia-weather-el-nino-climate-crisisseptember-record",
+        "published": "Mon, 05 Oct 2026 06:20:46 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Australia weather Australia news Climate crisis Environment",
+        "image": "https://i.guim.co.uk/img/media/c277981ce69cfccf9c708a2c32f65f79896f9cd7/688_0_6880_5504/master/6880.jpg?width=140&quality=85&auto=format&fit=max&s=7d137a3806c6842a4a97c334acd65255"
+      },
+      {
+        "title": "Singer and Canadian Idol judge Sass Jordan dies aged 63",
+        "link": "https://metro.co.uk/2026/10/05/singer-canadian-idol-judge-sass-jordan-dies-aged-63-29678549/",
+        "published": "Mon, 05 Oct 2026 06:14:02 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Entertainment Music Canada Celebrity Deaths",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315374216-b99c.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "I’m from Dublin — here’s where I take my friends when they visit",
+        "link": "https://metro.co.uk/2026/10/05/im-dublin-take-friends-visit-29673209/",
+        "published": "Mon, 05 Oct 2026 06:00:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Lifestyle Travel A Local's Guide Dublin Europe Travel Republic of Ireland Travel Inspiration",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_314983018-9151.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Alleged flydubai attacker left Australia without finishing engineering course, university says",
+        "link": "https://www.theguardian.com/world/2026/oct/05/australia-university-engineering-flydubai-co-pilot-rmit-ntwnfb",
+        "published": "Mon, 05 Oct 2026 05:52:17 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Flydubai plane incident Australia news Melbourne Australian security and counter-terrorism Oman Israel Middle East and north Africa",
+        "image": "https://i.guim.co.uk/img/media/80c0c83c70acd38b03989ce8767831913796c8f7/500_0_2501_2001/master/2501.jpg?width=140&quality=85&auto=format&fit=max&s=7e36661d36bc9ef2efd7e41e2b2a93f7"
+      },
+      {
         "title": "California woman arrested and accused of spying on Taiwan president’s son for China",
         "link": "https://www.theguardian.com/world/2026/oct/05/california-woman-arrested-and-accused-of-spying-on-taiwan-presidents-son-for-china",
         "published": "Mon, 05 Oct 2026 05:39:03 GMT",
@@ -104,6 +140,15 @@
         "image": "https://i.guim.co.uk/img/media/c9e8dd6383d8b970db482cd4e076e1c12a67b343/0_467_949_758/master/949.jpg?width=140&quality=85&auto=format&fit=max&s=a1c0524602a273cc58221d797a62ca3c"
       },
       {
+        "title": "US removes fighter jets from RAF Fairford after alleged terror plot",
+        "link": "https://metro.co.uk/2026/10/05/us-removes-fighter-jets-raf-fairford-alleged-terror-plot-29678529/",
+        "published": "Mon, 05 Oct 2026 05:33:53 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News UK Gloucestershire RAF and Red Arrows United States of America",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_314435613-cfc0.jpg?quality=90&strip=all&w=646"
+      },
+      {
         "title": "Authorities issue shark warning over whale that swam 11km upstream in Clarence River and later died",
         "link": "https://www.theguardian.com/environment/2026/oct/05/nsw-shark-warning-whale-death-clarence-river",
         "published": "Mon, 05 Oct 2026 05:02:07 GMT",
@@ -111,33 +156,6 @@
         "provider": "GUARDIAN",
         "categories": "Australia news Whales Cetaceans Marine life New South Wales Environment Wildlife",
         "image": "https://i.guim.co.uk/img/media/1a37b576f764a2aecee6a4092e63f372866836f5/246_0_2461_1970/master/2461.jpg?width=140&quality=85&auto=format&fit=max&s=318bd59ff8b2bbf2978aaf1111124826"
-      },
-      {
-        "title": "I discovered Italy’s ‘golden’ city that’s just like Florence without the crowds",
-        "link": "https://metro.co.uk/2026/10/05/discovered-italys-golden-city-just-like-florence-without-crowds-29653207/",
-        "published": "Mon, 05 Oct 2026 05:00:00 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Lifestyle Europe Travel Italy Travel Inspiration Travel Reviews",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/09/GettyImages-821291076-f5e1-e1790864158187.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Former Bachelor star Sam Wood charged with domestic violence",
-        "link": "https://www.theguardian.com/australia-news/2026/oct/05/sam-wood-charged-domestic-violence-ntwnfb",
-        "published": "Mon, 05 Oct 2026 04:06:47 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Queensland Victoria Australia news",
-        "image": "https://i.guim.co.uk/img/media/1d82fb024ed7d912bb4fc5f2d3293dc1ca863ebc/0_0_1333_1065/master/1333.jpg?width=140&quality=85&auto=format&fit=max&s=8a763c9c758960a86a5c958e048f1254"
-      },
-      {
-        "title": "Skull fractures suggest servants of Egypt’s ancient kings were sacrificed",
-        "link": "https://www.theguardian.com/science/2026/oct/05/skull-fractures-suggest-servants-of-egypts-ancient-kings-were-sacrificed",
-        "published": "Mon, 05 Oct 2026 04:00:48 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Archaeology Egypt Science World news Middle East and north Africa Africa Forensic science",
-        "image": "https://i.guim.co.uk/img/media/f54f34b47d0deeea19f81320d80840dd69b6d283/0_29_3549_2841/master/3549.jpg?width=140&quality=85&auto=format&fit=max&s=8cb25fa9b80de9cade238955a241ac8f"
       },
       {
         "title": "Bolsonaro and Lula to compete in Brazilian presidential run-off after tight vote",
@@ -165,24 +183,6 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/10/1920x1080/skynews-pakistan-imran-khan_7368185.jpg?20261004183721"
-      },
-      {
-        "title": "Moment missile strikes bridge with Russia ‘trying to slice Kyiv in two’",
-        "link": "https://metro.co.uk/2026/10/04/moment-missile-strikes-bridge-russia-trying-slice-kyiv-two-29678122/",
-        "published": "Sun, 04 Oct 2026 16:16:36 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News World Germany Kyiv Russia-Ukraine war Vladimir Putin Volodymyr Zelensky",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315289946-92b9-e1791130394447.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Mum on Flydubai flight didn’t know ‘which child to hug first’ as plane plummeted",
-        "link": "https://metro.co.uk/2026/10/04/mum-flydubai-flight-didnt-know-which-child-hug-first-plane-plummeted-29677250/",
-        "published": "Sun, 04 Oct 2026 12:23:54 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News World Israel United Arab Emirates",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315175805-df34-e1791113867328.jpg?quality=90&strip=all&w=646"
       }
     ],
     "POLITICS": [
@@ -315,15 +315,6 @@
         "image": "https://i.guim.co.uk/img/media/80a7d613b1bc97dd58f046db0668a8d9498ef346/0_0_4841_3872/master/4841.jpg?width=140&quality=85&auto=format&fit=max&s=0ea1d833f1fc8912b81dbd4cfc47d6af"
       },
       {
-        "title": "Ares demands BT payment as TalkTalk teeters on brink of administration",
-        "link": "https://news.sky.com/story/ares-demands-bt-payment-as-talktalk-teeters-on-brink-of-administration-13594901",
-        "published": "Sun, 04 Oct 2026 08:03:00 +0100",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-talktalk-sign_7355226.jpg?20260918104536"
-      },
-      {
         "title": "Supermarket giant Tesco weighs shock takeover bid for Majestic Wine",
         "link": "https://news.sky.com/story/supermarket-giant-tesco-weighs-shock-takeover-bid-for-majestic-wine-13594582",
         "published": "Sat, 03 Oct 2026 08:20:00 +0100",
@@ -340,6 +331,15 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/10/1920x1080/skynews-coventry-city-jay-dasilva_7366825.jpg?20261002190301"
+      },
+      {
+        "title": "City steps up opposition to Healey bank tax raid in budget",
+        "link": "https://news.sky.com/story/city-steps-up-opposition-to-healey-bank-tax-raid-in-budget-13594449",
+        "published": "Fri, 02 Oct 2026 16:25:00 +0100",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/08/1920x1080/skynews-john-healey-kiln_7333419.jpg?20261002172500"
       },
       {
         "title": "London’s HSBC tower is transforming into ‘Swiss Cheese’ building complete with holes",
@@ -463,6 +463,15 @@
     ],
     "ENTERTAINMENT": [
       {
+        "title": "Singer and Canadian Idol judge Sass Jordan dies aged 63",
+        "link": "https://metro.co.uk/2026/10/05/singer-canadian-idol-judge-sass-jordan-dies-aged-63-29678549/",
+        "published": "Mon, 05 Oct 2026 06:14:02 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Entertainment Music Canada Celebrity Deaths",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315374216-b99c.jpg?quality=90&strip=all&w=646"
+      },
+      {
         "title": "Casino Royale at 20: How Daniel Craig’s casting left James Bond fans shaken and stirred",
         "link": "https://metro.co.uk/2026/10/05/casino-royale-20-daniel-craigs-casting-left-james-bond-fans-shaken-stirred-29668787/",
         "published": "Mon, 05 Oct 2026 04:00:00 +0000",
@@ -488,15 +497,6 @@
         "provider": "METRO",
         "categories": "Entertainment TV New York Saturday Night Live US TV news",
         "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315275101-8de2.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "AJ Pritchard sparks backlash with new TV job as viewers say ‘he’s really bad’",
-        "link": "https://metro.co.uk/2026/10/04/aj-pritchard-sparks-backlash-new-tv-job-viewers-say-hes-really-bad-29677983/",
-        "published": "Sun, 04 Oct 2026 16:22:49 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Entertainment TV AJ Pritchard GB News Strictly Come Dancing",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315299661-4395.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "‘Brave from the beginning’: 20 years of Friday Night Lights – the sports drama that dared to be different",
@@ -555,36 +555,63 @@
     ],
     "STOCKS": [
       {
-        "title": "Could this cash-rich stock save me from a stock market crash?",
-        "link": "https://www.twelfthmagpie.com/2026/10/05/could-this-cash-rich-stock-save-me-from-a-stock-market-crash/",
-        "published": "Mon, 05 Oct 2026 05:30:00 +0000",
+        "title": "A once-in-a-decade second income opportunity for October?",
+        "link": "https://www.twelfthmagpie.com/2026/10/05/a-once-in-a-decade-second-income-opportunity-for-october/",
+        "published": "Mon, 05 Oct 2026 06:46:00 +0000",
         "source": "The Twelfth Magpie",
         "provider": "MAGPIE",
         "categories": "Investing Articles US Stock",
-        "image": "https://www.twelfthmagpie.com/wp-content/uploads/2026/06/AdobeStock_215654421-1200x800.jpeg"
+        "image": "https://www.twelfthmagpie.com/wp-content/uploads/2024/02/REITs-1200x800.jpg"
       },
       {
-        "title": "Aktsiaselts Infortar own share acquisition transactions",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/aktsiaselts-infortar-own-share-acquisition-050000392.html?.tsrc=rss",
-        "published": "Mon, 05 Oct 2026 05:00:00 +0000",
+        "title": "By October 2027, Diageo’s turnaround could push its shares to…",
+        "link": "https://www.twelfthmagpie.com/2026/10/05/by-october-2027-diageos-turnaround-could-push-its-shares-to/",
+        "published": "Mon, 05 Oct 2026 06:41:00 +0000",
+        "source": "The Twelfth Magpie",
+        "provider": "MAGPIE",
+        "categories": "Investing Articles Investing For Beginners",
+        "image": "https://www.twelfthmagpie.com/wp-content/uploads/2024/07/Publican-1200x800.jpg"
+      },
+      {
+        "title": "Here’s an intriguing 12-month forecast for Greggs shares…",
+        "link": "https://www.twelfthmagpie.com/2026/10/05/heres-an-intriguing-12-month-forecast-for-greggs-shares/",
+        "published": "Mon, 05 Oct 2026 06:31:00 +0000",
+        "source": "The Twelfth Magpie",
+        "provider": "MAGPIE",
+        "categories": "Investing Articles Investing For Beginners",
+        "image": "https://www.twelfthmagpie.com/wp-content/uploads/2026/07/AdobeStock_981476672_Editorial_Use_Only-1200x800.jpeg"
+      },
+      {
+        "title": "With a jaw-dropping P/E of 4,613, is it madness to hold on to this S&P 500 stock?!",
+        "link": "https://www.twelfthmagpie.com/2026/10/05/with-a-jaw-dropping-p-e-of-4613-is-it-madness-to-hold-on-to-this-sp-500-stock/",
+        "published": "Mon, 05 Oct 2026 06:21:00 +0000",
+        "source": "The Twelfth Magpie",
+        "provider": "MAGPIE",
+        "categories": "Investing Articles US Stock",
+        "image": "https://www.twelfthmagpie.com/wp-content/uploads/2026/07/AdobeStock_250329925-1200x800.jpeg"
+      },
+      {
+        "title": "MARKETS LIVE: FTSE 100 set for stronger start after Wall Street rally",
+        "link": "https://www.proactiveinvestors.com/companies/news/1099555/markets-live-ftse-100-set-for-stronger-start-after-wall-street-rally-1099555.html?.tsrc=rss",
+        "published": "Mon, 05 Oct 2026 06:03:00 +0000",
         "source": "Yahoo Finance",
         "provider": "YAHOO",
         "categories": "",
-        "image": ""
+        "image": "https://cdn.proactiveinvestors.com/eyJidWNrZXQiOiJwYS1jZG4iLCJrZXkiOiJ1cGxvYWRcL05ld3NcL0ltYWdlXC8yMDI2XzEwXC9zaHV0dGVyc3RvY2stMjQzNDEwMzA1LmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0Ijo2MzAsImZpdCI6ImNvdmVyIn19fQ=="
       },
       {
-        "title": "U.S. stock futures tick higher as soft jobs data eases Fed hike bets",
-        "link": "https://uk.finance.yahoo.com/news/u-stock-futures-tick-higher-005010194.html?.tsrc=rss",
-        "published": "Mon, 05 Oct 2026 00:50:10 +0000",
+        "title": "Down 32% in 6 months, is this FTSE 100 stock a bargain?",
+        "link": "https://www.twelfthmagpie.com/2026/10/05/down-32-in-6-months-is-this-ftse-100-stock-a-bargain/?.tsrc=rss",
+        "published": "Mon, 05 Oct 2026 06:01:00 +0000",
         "source": "Yahoo Finance",
         "provider": "YAHOO",
         "categories": "",
-        "image": ""
+        "image": "https://www.twelfthmagpie.com/wp-content/uploads/2024/07/British-pound-data-1200x633.jpg"
       },
       {
-        "title": "Archer-Daniels Stock is Trading at 15 Times Forward Earnings. Is that Cheap?",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/archer-daniels-stock-trading-15-230524130.html?.tsrc=rss",
-        "published": "Sun, 04 Oct 2026 23:05:24 +0000",
+        "title": "October Is a Bad Month for Stocks—but Not for the Reason You Think It Is",
+        "link": "https://uk.finance.yahoo.com/m/65d5f4ed-47c6-3cbe-a0cd-f35a62be6890/october-is-a-bad-month-for.html?.tsrc=rss",
+        "published": "Mon, 05 Oct 2026 06:00:00 +0000",
         "source": "Yahoo Finance",
         "provider": "YAHOO",
         "categories": "",
@@ -600,45 +627,18 @@
         "image": ""
       },
       {
-        "title": "Forget Rolls-Royce and SpaceX! This forgotten FTSE 100 stock is forecast to rocket 53% in the next year",
-        "link": "https://www.twelfthmagpie.com/2026/10/04/forget-rolls-royce-and-spacex-this-forgotten-ftse-100-stock-is-forecast-to-rocket-53-in-the-next-year/",
-        "published": "Sun, 04 Oct 2026 15:57:48 +0000",
-        "source": "The Twelfth Magpie",
-        "provider": "MAGPIE",
-        "categories": "Growth Shares Investing Articles",
-        "image": "https://www.twelfthmagpie.com/wp-content/uploads/2024/07/Portfolio-refresh-1200x800.jpg"
-      },
-      {
-        "title": "Investors are pulling money from UK shares. I’m considering the opposite for my Stocks and Shares ISA",
-        "link": "https://www.twelfthmagpie.com/2026/10/04/investors-are-pulling-money-from-uk-shares-im-considering-the-opposite-for-my-stocks-and-shares-isa/",
-        "published": "Sun, 04 Oct 2026 15:13:00 +0000",
-        "source": "The Twelfth Magpie",
-        "provider": "MAGPIE",
-        "categories": "Investing Articles Retirement Articles",
-        "image": "https://www.twelfthmagpie.com/wp-content/uploads/2026/06/AdobeStock_426978614-1200x800.jpeg"
-      },
-      {
-        "title": "Down 10% in a month with a P/E of just 8.5! But this broker says Barclays shares are heading for 620p",
-        "link": "https://www.twelfthmagpie.com/2026/10/04/down-10-in-a-month-with-a-p-e-of-just-8-5-but-this-broker-says-barclays-shares-are-heading-for-620p/",
-        "published": "Sun, 04 Oct 2026 14:02:51 +0000",
-        "source": "The Twelfth Magpie",
-        "provider": "MAGPIE",
-        "categories": "Investing Articles Value Shares",
-        "image": "https://www.twelfthmagpie.com/wp-content/uploads/2022/10/Stock-analysis.jpg"
-      },
-      {
-        "title": "G7 countries agree on release of diesel and oil stocks after US pressure",
-        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZnMyRFpEcDhNOHlnU2NJT3F1R2M5QkEzMjJPaGRUYlZ1S2RYYmNMZ1pERlZINEtxMkJDTktfMThYeHZ0U2FDZjVoQ3l3eHViLVkyajQ0S1RfSDJ4QS1xTEgxNVlaZzJSSkVjLTJYM04tX3ZHUEVSY0VHdjJHUU45RHBRajVxQzA3emVQNXpvRG9XRVVVZUtSdUtveUN2WUp6RzhBeVQwQ0JzVk8zWWYzS1FCVUtTZ3UtNTllVzJrbTJyUC00?oc=5",
-        "published": "Sun, 04 Oct 2026 08:22:52 GMT",
+        "title": "Trump shares Republican senator's phone number in feud over time switch",
+        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOOG5fMmFCNGZWV1djeWt5OXluem9lNTh6bjdxcV9lcFV5RklqdDFpQjVReUF0MWxTY3FubzNKQnJPNmlyZHhmWUlsT2J2enRJTWpacG1NQUxNdUJ3TmZXbTBrR2FfMkk1bHZDRVdRc2pEUWx0cEdOVkR4a1FhbFRGb29Zd1pROHMxekx0Um1QbF8zUU9vc1lyM096eXVtanpYS2RGOFhIaFdUU01PcDJEcU93?oc=5",
+        "published": "Sat, 03 Oct 2026 17:25:00 GMT",
         "source": "Reuters",
         "provider": "REUTERS",
         "categories": "",
         "image": ""
       },
       {
-        "title": "Trump shares Republican senator's phone number in feud over time switch",
-        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOOG5fMmFCNGZWV1djeWt5OXluem9lNTh6bjdxcV9lcFV5RklqdDFpQjVReUF0MWxTY3FubzNKQnJPNmlyZHhmWUlsT2J2enRJTWpacG1NQUxNdUJ3TmZXbTBrR2FfMkk1bHZDRVdRc2pEUWx0cEdOVkR4a1FhbFRGb29Zd1pROHMxekx0Um1QbF8zUU9vc1lyM096eXVtanpYS2RGOFhIaFdUU01PcDJEcU93?oc=5",
-        "published": "Sat, 03 Oct 2026 17:25:00 GMT",
+        "title": "Equities close higher as softer jobs data quiets rate-hike expectations",
+        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPeTVxVTNLX2pUZEc1U0xtNWdyYWRjY0NjSVcweXJNYk9PTDVKVnJaTzFNTUdnNW5LVEFxaHlELU9fVW9neE93Q0VDanlUbkJPcUhMaXNmNUJQX3pXd0JvcU1VSHh5Z1NEZnQzWGFsclpXZ08zRTVmY2ZaV1J4a2JBU3lPTEVNTUNBSVdVcWRydUlJOEY5ZU13NERhMFE3YUstSzB2RE5JV1gtZw?oc=5",
+        "published": "Fri, 02 Oct 2026 22:44:50 GMT",
         "source": "Reuters",
         "provider": "REUTERS",
         "categories": "",
@@ -759,7 +759,7 @@
         "UK": [
           {
             "title": "US removes all Air Force bombers from RAF Fairford",
-            "link": "https://news.sky.com/story/us-removes-all-air-force-bombers-from-raf-fairford-13595162",
+            "link": "https://news.sky.com/story/us-removes-all-air-force-bombers-from-raf-fairford-after-suspected-terror-plot-13595162",
             "published": "Sun, 04 Oct 2026 22:00:00 +0100",
             "source": "Sky News",
             "provider": "SKY",
@@ -774,6 +774,15 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/10/1920x1080/skynews-bowel-cancer-health_7367706.jpg?20261004084624"
+          },
+          {
+            "title": "Anti-migrant protesters gather at seaside town as dinghy crosses Channel to UK",
+            "link": "https://news.sky.com/story/anti-migrant-protesters-gather-at-seaside-town-as-dinghy-crosses-channel-to-uk-13595218",
+            "published": "Mon, 05 Oct 2026 06:32:00 +0100",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/10/1920x1080/skynews-migrants-gosport_7368446.jpg?20261005064006"
           },
           {
             "title": "Man arrested after woman in her 40s found dead in Norfolk",
@@ -828,15 +837,6 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/09/1920x1080/skynews-reform-nigel-farage_7357873.jpg?20260921123036"
-          },
-          {
-            "title": "Two Iranian men 'targeted Jewish museum and Heaton Park synagogue in bomb plot'",
-            "link": "https://news.sky.com/story/two-iranian-men-targeted-manchester-jewish-museum-and-heaton-park-synagogue-in-bomb-plot-13594604",
-            "published": "Fri, 02 Oct 2026 15:36:00 +0100",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/10/1920x1080/skynews-salam-ahmadyan-rahman-salehi_7367181.jpg?20261003121652"
           }
         ],
         "WORLD": [
@@ -998,15 +998,6 @@
             "image": "https://e3.365dm.com/26/01/1920x1080/skynews-talktalk-london-logo_7143546.jpg?20260123125808"
           },
           {
-            "title": "Ares demands BT payment as TalkTalk teeters on brink of administration",
-            "link": "https://news.sky.com/story/ares-demands-bt-payment-as-talktalk-teeters-on-brink-of-administration-13594901",
-            "published": "Sun, 04 Oct 2026 08:03:00 +0100",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-talktalk-sign_7355226.jpg?20260918104536"
-          },
-          {
             "title": "Supermarket giant Tesco weighs shock takeover bid for Majestic Wine",
             "link": "https://news.sky.com/story/supermarket-giant-tesco-weighs-shock-takeover-bid-for-majestic-wine-13594582",
             "published": "Sat, 03 Oct 2026 08:20:00 +0100",
@@ -1077,6 +1068,15 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/10/1920x1080/skynews-cx-tech-ltd-data-centre_7365602.png?20261001104653"
+          },
+          {
+            "title": "TalkTalk bidder Epiris seeks £300m BT waiver to dial up rescue",
+            "link": "https://news.sky.com/story/talktalk-bidder-epiris-seeks-300m-bt-waiver-to-dial-up-rescue-13594078",
+            "published": "Thu, 01 Oct 2026 17:09:00 +0100",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/24/07/1920x1080/skynews-talktalk-talk_6639687.jpg?20240726105456"
           }
         ],
         "TECH": [
@@ -1603,6 +1603,24 @@
             "image": "https://i.guim.co.uk/img/media/28d65843d5c98581f9f88c0d389449839bd10c02/453_0_4506_3605/master/4506.jpg?width=140&quality=85&auto=format&fit=max&s=6b14e58d75e1a36e96ac8619c7e0fda5"
           },
           {
+            "title": "Australia experiences second hottest September on record as El Niño and climate crisis combine",
+            "link": "https://www.theguardian.com/australia-news/2026/oct/05/australia-weather-el-nino-climate-crisisseptember-record",
+            "published": "Mon, 05 Oct 2026 06:20:46 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Australia weather Australia news Climate crisis Environment",
+            "image": "https://i.guim.co.uk/img/media/c277981ce69cfccf9c708a2c32f65f79896f9cd7/688_0_6880_5504/master/6880.jpg?width=140&quality=85&auto=format&fit=max&s=7d137a3806c6842a4a97c334acd65255"
+          },
+          {
+            "title": "Alleged flydubai attacker left Australia without finishing engineering course, university says",
+            "link": "https://www.theguardian.com/world/2026/oct/05/australia-university-engineering-flydubai-co-pilot-rmit-ntwnfb",
+            "published": "Mon, 05 Oct 2026 05:52:17 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Flydubai plane incident Australia news Melbourne Australian security and counter-terrorism Oman Israel Middle East and north Africa",
+            "image": "https://i.guim.co.uk/img/media/80c0c83c70acd38b03989ce8767831913796c8f7/500_0_2501_2001/master/2501.jpg?width=140&quality=85&auto=format&fit=max&s=7e36661d36bc9ef2efd7e41e2b2a93f7"
+          },
+          {
             "title": "Authorities issue shark warning over whale that swam 11km upstream in Clarence River and later died",
             "link": "https://www.theguardian.com/environment/2026/oct/05/nsw-shark-warning-whale-death-clarence-river",
             "published": "Mon, 05 Oct 2026 05:02:07 GMT",
@@ -1628,24 +1646,6 @@
             "provider": "GUARDIAN",
             "categories": "One Nation Gina Rinehart Australian politics Pauline Hanson Barnaby Joyce Australia news Business Brisbane Queensland",
             "image": "https://i.guim.co.uk/img/media/e1dd982edafec176400184c38bc694f0d29521f9/0_1_1980_1585/master/1980.jpg?width=140&quality=85&auto=format&fit=max&s=ab42cbab4345dfb3bb0fc09d9e536c1d"
-          },
-          {
-            "title": "Man shot dead after crashing car and allegedly pointing gun at NSW police",
-            "link": "https://www.theguardian.com/australia-news/2026/oct/05/man-shot-dead-nsw-police-yass-ntwnfb",
-            "published": "Mon, 05 Oct 2026 01:31:24 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "New South Wales Australia news Australian police and policing Rural and regional Australia",
-            "image": "https://i.guim.co.uk/img/media/1ceb0a72c9379ac44245748d403ceaf88c4d95ac/408_0_2040_1632/master/2040.jpg?width=140&quality=85&auto=format&fit=max&s=8235ca56a6a0eb496cb36fb411840b50"
-          },
-          {
-            "title": "No bail for P-plater over Newcastle crash that left five-year-old in induced coma and injured nine other NRL fans",
-            "link": "https://www.theguardian.com/australia-news/2026/oct/04/no-bail-for-p-plater-over-newcastle-crash-that-left-five-year-old-in-induced-coma-and-injured-nine-other-nrl-fans-ntwnfb",
-            "published": "Sun, 04 Oct 2026 19:56:03 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Newcastle and the Hunter New South Wales Australia news Newcastle Knights NRL",
-            "image": "https://i.guim.co.uk/img/media/47c5269bb3d568b93dab18bcadffd97b3fe7f42c/685_0_2102_1682/master/2102.jpg?width=140&quality=85&auto=format&fit=max&s=29f96050ce24cb01a80de5a5f96cc5eb"
           }
         ],
         "POLITICS": [
@@ -2404,7 +2404,7 @@
             "published": "Mon, 05 Oct 2026 05:33:53 +0000",
             "source": "Metro",
             "provider": "METRO",
-            "categories": "News UK Gloucestershire",
+            "categories": "News UK Gloucestershire RAF and Red Arrows United States of America",
             "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_314435613-cfc0.jpg?quality=90&strip=all&w=646"
           },
           {
@@ -2734,13 +2734,31 @@
             "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_314811390-9943-e1790841461369.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "I discovered Italy’s ‘golden’ city that’s just like Florence without the crowds",
-            "link": "https://metro.co.uk/2026/10/05/discovered-italys-golden-city-just-like-florence-without-crowds-29653207/",
-            "published": "Mon, 05 Oct 2026 05:00:00 +0000",
+            "title": "Singer and Canadian Idol judge Sass Jordan dies aged 63",
+            "link": "https://metro.co.uk/2026/10/05/singer-canadian-idol-judge-sass-jordan-dies-aged-63-29678549/",
+            "published": "Mon, 05 Oct 2026 06:14:02 +0000",
             "source": "Metro",
             "provider": "METRO",
-            "categories": "Lifestyle Europe Travel Italy Travel Inspiration Travel Reviews",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/GettyImages-821291076-f5e1-e1790864158187.jpg?quality=90&strip=all&w=646"
+            "categories": "Entertainment Music Canada Celebrity Deaths",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315374216-b99c.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "I’m from Dublin — here’s where I take my friends when they visit",
+            "link": "https://metro.co.uk/2026/10/05/im-dublin-take-friends-visit-29673209/",
+            "published": "Mon, 05 Oct 2026 06:00:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Lifestyle Travel A Local's Guide Dublin Europe Travel Republic of Ireland Travel Inspiration",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_314983018-9151.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "US removes fighter jets from RAF Fairford after alleged terror plot",
+            "link": "https://metro.co.uk/2026/10/05/us-removes-fighter-jets-raf-fairford-alleged-terror-plot-29678529/",
+            "published": "Mon, 05 Oct 2026 05:33:53 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News UK Gloucestershire RAF and Red Arrows United States of America",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_314435613-cfc0.jpg?quality=90&strip=all&w=646"
           }
         ],
         "POLITICS": [
@@ -3138,6 +3156,15 @@
         ],
         "ENTERTAINMENT": [
           {
+            "title": "Singer and Canadian Idol judge Sass Jordan dies aged 63",
+            "link": "https://metro.co.uk/2026/10/05/singer-canadian-idol-judge-sass-jordan-dies-aged-63-29678549/",
+            "published": "Mon, 05 Oct 2026 06:14:02 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment Music Canada Celebrity Deaths",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315374216-b99c.jpg?quality=90&strip=all&w=646"
+          },
+          {
             "title": "Casino Royale at 20: How Daniel Craig’s casting left James Bond fans shaken and stirred",
             "link": "https://metro.co.uk/2026/10/05/casino-royale-20-daniel-craigs-casting-left-james-bond-fans-shaken-stirred-29668787/",
             "published": "Mon, 05 Oct 2026 04:00:00 +0000",
@@ -3307,15 +3334,6 @@
             "provider": "METRO",
             "categories": "Entertainment TV Josh Widdicombe Motsi Mabuse Strictly Come Dancing",
             "image": "https://metro.co.uk/wp-content/uploads/2026/10/comp-1791055519.png?w=646"
-          },
-          {
-            "title": "Big Brother couple welcome first baby a year after meeting on show",
-            "link": "https://metro.co.uk/2026/10/03/big-brother-couple-welcome-first-baby-a-year-meeting-show-29676502/",
-            "published": "Sat, 03 Oct 2026 19:48:01 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Entertainment TV Big Brother",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/comp-1791056741.png?w=646"
           }
         ]
       },
@@ -3326,7 +3344,7 @@
         },
         "WORLD": {
           "ok": true,
-          "count": 18
+          "count": 20
         },
         "POLITICS": {
           "ok": true,
@@ -3455,6 +3473,42 @@
         "STOCK_MARKET": [],
         "STOCKS": [
           {
+            "title": "MARKETS LIVE: FTSE 100 set for stronger start after Wall Street rally",
+            "link": "https://www.proactiveinvestors.com/companies/news/1099555/markets-live-ftse-100-set-for-stronger-start-after-wall-street-rally-1099555.html?.tsrc=rss",
+            "published": "Mon, 05 Oct 2026 06:03:00 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": "https://cdn.proactiveinvestors.com/eyJidWNrZXQiOiJwYS1jZG4iLCJrZXkiOiJ1cGxvYWRcL05ld3NcL0ltYWdlXC8yMDI2XzEwXC9zaHV0dGVyc3RvY2stMjQzNDEwMzA1LmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0Ijo2MzAsImZpdCI6ImNvdmVyIn19fQ=="
+          },
+          {
+            "title": "Down 32% in 6 months, is this FTSE 100 stock a bargain?",
+            "link": "https://www.twelfthmagpie.com/2026/10/05/down-32-in-6-months-is-this-ftse-100-stock-a-bargain/?.tsrc=rss",
+            "published": "Mon, 05 Oct 2026 06:01:00 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2024/07/British-pound-data-1200x633.jpg"
+          },
+          {
+            "title": "October Is a Bad Month for Stocks—but Not for the Reason You Think It Is",
+            "link": "https://uk.finance.yahoo.com/m/65d5f4ed-47c6-3cbe-a0cd-f35a62be6890/october-is-a-bad-month-for.html?.tsrc=rss",
+            "published": "Mon, 05 Oct 2026 06:00:00 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "Could this cash-rich stock save me from a stock market crash?",
+            "link": "https://www.twelfthmagpie.com/2026/10/05/could-this-cash-rich-stock-save-me-from-a-stock-market-crash/?.tsrc=rss",
+            "published": "Mon, 05 Oct 2026 05:30:00 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2026/06/AdobeStock_215654421-1200x800.jpeg"
+          },
+          {
             "title": "Aktsiaselts Infortar own share acquisition transactions",
             "link": "https://finance.yahoo.com/markets/stocks/articles/aktsiaselts-infortar-own-share-acquisition-050000392.html?.tsrc=rss",
             "published": "Mon, 05 Oct 2026 05:00:00 +0000",
@@ -3525,42 +3579,6 @@
             "provider": "YAHOO",
             "categories": "",
             "image": "https://www.twelfthmagpie.com/wp-content/uploads/2021/10/London-Stock-Exchange.jpg"
-          },
-          {
-            "title": "FTSE 100 down 4.5%! Could this market dip provide fresh passive income opportunities?",
-            "link": "https://www.twelfthmagpie.com/2026/10/04/ftse-100-down-4-5-could-this-market-dip-provide-fresh-passive-income-opportunities/?.tsrc=rss",
-            "published": "Sun, 04 Oct 2026 06:55:00 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2023/04/Camping-1200x675.jpg"
-          },
-          {
-            "title": "This under-the-radar 119p UK stock offers a 7.1% dividend yield",
-            "link": "https://www.twelfthmagpie.com/2026/10/04/this-under-the-radar-119p-uk-stock-offers-a-7-1-dividend-yield/?.tsrc=rss",
-            "published": "Sun, 04 Oct 2026 06:21:00 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2026/06/AdobeStock_215654421-1200x800.jpeg"
-          },
-          {
-            "title": "I asked ChatGPT to build me the perfect passive income portfolio. It said…",
-            "link": "https://www.twelfthmagpie.com/2026/10/04/i-asked-chatgpt-to-build-me-the-perfect-passive-income-isa-portfolio-it-said/?.tsrc=rss",
-            "published": "Sun, 04 Oct 2026 05:01:00 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2022/08/woman-with-airpods-in-er.jpg"
-          },
-          {
-            "title": "Will Rolls-Royce shares have a monster 2027?",
-            "link": "https://www.twelfthmagpie.com/2026/10/03/will-rolls-royce-shares-have-a-monster-2027/?.tsrc=rss",
-            "published": "Sat, 03 Oct 2026 16:16:03 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2024/07/British-fans-1200x800.jpg"
           }
         ]
       },
@@ -3725,15 +3743,6 @@
             "image": ""
           },
           {
-            "title": "G7 countries agree on release of diesel and oil stocks after US pressure",
-            "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZnMyRFpEcDhNOHlnU2NJT3F1R2M5QkEzMjJPaGRUYlZ1S2RYYmNMZ1pERlZINEtxMkJDTktfMThYeHZ0U2FDZjVoQ3l3eHViLVkyajQ0S1RfSDJ4QS1xTEgxNVlaZzJSSkVjLTJYM04tX3ZHUEVSY0VHdjJHUU45RHBRajVxQzA3emVQNXpvRG9XRVVVZUtSdUtveUN2WUp6RzhBeVQwQ0JzVk8zWWYzS1FCVUtTZ3UtNTllVzJrbTJyUC00?oc=5",
-            "published": "Sun, 04 Oct 2026 08:22:52 GMT",
-            "source": "Reuters",
-            "provider": "REUTERS",
-            "categories": "",
-            "image": ""
-          },
-          {
             "title": "Trump shares Republican senator's phone number in feud over time switch",
             "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOOG5fMmFCNGZWV1djeWt5OXluem9lNTh6bjdxcV9lcFV5RklqdDFpQjVReUF0MWxTY3FubzNKQnJPNmlyZHhmWUlsT2J2enRJTWpacG1NQUxNdUJ3TmZXbTBrR2FfMkk1bHZDRVdRc2pEUWx0cEdOVkR4a1FhbFRGb29Zd1pROHMxekx0Um1QbF8zUU9vc1lyM096eXVtanpYS2RGOFhIaFdUU01PcDJEcU93?oc=5",
             "published": "Sat, 03 Oct 2026 17:25:00 GMT",
@@ -3746,6 +3755,15 @@
             "title": "Equities close higher as softer jobs data quiets rate-hike expectations",
             "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPeTVxVTNLX2pUZEc1U0xtNWdyYWRjY0NjSVcweXJNYk9PTDVKVnJaTzFNTUdnNW5LVEFxaHlELU9fVW9neE93Q0VDanlUbkJPcUhMaXNmNUJQX3pXd0JvcU1VSHh5Z1NEZnQzWGFsclpXZ08zRTVmY2ZaV1J4a2JBU3lPTEVNTUNBSVdVcWRydUlJOEY5ZU13NERhMFE3YUstSzB2RE5JV1gtZw?oc=5",
             "published": "Fri, 02 Oct 2026 22:44:50 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "G7 countries agree on release of diesel and oil stocks after US pressure",
+            "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZnMyRFpEcDhNOHlnU2NJT3F1R2M5QkEzMjJPaGRUYlZ1S2RYYmNMZ1pERlZINEtxMkJDTktfMThYeHZ0U2FDZjVoQ3l3eHViLVkyajQ0S1RfSDJ4QS1xTEgxNVlaZzJSSkVjLTJYM04tX3ZHUEVSY0VHdjJHUU45RHBRajVxQzA3emVQNXpvRG9XRVVVZUtSdUtveUN2WUp6RzhBeVQwQ0JzVk8zWWYzS1FCVUtTZ3UtNTllVzJrbTJyUC00?oc=5",
+            "published": "Fri, 02 Oct 2026 18:17:58 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3846,6 +3864,78 @@
       "categories": {
         "STOCKS": [
           {
+            "title": "A once-in-a-decade second income opportunity for October?",
+            "link": "https://www.twelfthmagpie.com/2026/10/05/a-once-in-a-decade-second-income-opportunity-for-october/",
+            "published": "Mon, 05 Oct 2026 06:46:00 +0000",
+            "source": "The Twelfth Magpie",
+            "provider": "MAGPIE",
+            "categories": "Investing Articles US Stock",
+            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2024/02/REITs-1200x800.jpg"
+          },
+          {
+            "title": "By October 2027, Diageo’s turnaround could push its shares to…",
+            "link": "https://www.twelfthmagpie.com/2026/10/05/by-october-2027-diageos-turnaround-could-push-its-shares-to/",
+            "published": "Mon, 05 Oct 2026 06:41:00 +0000",
+            "source": "The Twelfth Magpie",
+            "provider": "MAGPIE",
+            "categories": "Investing Articles Investing For Beginners",
+            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2024/07/Publican-1200x800.jpg"
+          },
+          {
+            "title": "Here’s an intriguing 12-month forecast for Greggs shares…",
+            "link": "https://www.twelfthmagpie.com/2026/10/05/heres-an-intriguing-12-month-forecast-for-greggs-shares/",
+            "published": "Mon, 05 Oct 2026 06:31:00 +0000",
+            "source": "The Twelfth Magpie",
+            "provider": "MAGPIE",
+            "categories": "Investing Articles Investing For Beginners",
+            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2026/07/AdobeStock_981476672_Editorial_Use_Only-1200x800.jpeg"
+          },
+          {
+            "title": "With a jaw-dropping P/E of 4,613, is it madness to hold on to this S&P 500 stock?!",
+            "link": "https://www.twelfthmagpie.com/2026/10/05/with-a-jaw-dropping-p-e-of-4613-is-it-madness-to-hold-on-to-this-sp-500-stock/",
+            "published": "Mon, 05 Oct 2026 06:21:00 +0000",
+            "source": "The Twelfth Magpie",
+            "provider": "MAGPIE",
+            "categories": "Investing Articles US Stock",
+            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2026/07/AdobeStock_250329925-1200x800.jpeg"
+          },
+          {
+            "title": "These 2 FTSE 250 dividend stocks yield 6.5%, but which offers better value today?",
+            "link": "https://www.twelfthmagpie.com/2026/10/05/these-2-ftse-250-dividend-stocks-yield-6-5-but-which-offers-better-value-today/",
+            "published": "Mon, 05 Oct 2026 06:11:00 +0000",
+            "source": "The Twelfth Magpie",
+            "provider": "MAGPIE",
+            "categories": "Dividend Shares Investing Articles",
+            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2026/07/AdobeStock_602591470-1200x800.jpeg"
+          },
+          {
+            "title": "Down 32% in 6 months, is this FTSE 100 stock a bargain?",
+            "link": "https://www.twelfthmagpie.com/2026/10/05/down-32-in-6-months-is-this-ftse-100-stock-a-bargain/",
+            "published": "Mon, 05 Oct 2026 06:01:00 +0000",
+            "source": "The Twelfth Magpie",
+            "provider": "MAGPIE",
+            "categories": "Investing Articles Investing For Beginners",
+            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2024/07/British-pound-data-1200x633.jpg"
+          },
+          {
+            "title": "Here’s the latest Rolls-Royce share price forecast for 2027",
+            "link": "https://www.twelfthmagpie.com/2026/10/05/heres-the-latest-rolls-royce-share-price-forecast-for-2027/",
+            "published": "Mon, 05 Oct 2026 06:00:00 +0000",
+            "source": "The Twelfth Magpie",
+            "provider": "MAGPIE",
+            "categories": "Growth Shares Investing Articles",
+            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2025/01/Gradual-Increase-1200x675.jpg"
+          },
+          {
+            "title": "Down 13% in 2 months! What’s going on with Lloyds’ share price?",
+            "link": "https://www.twelfthmagpie.com/2026/10/05/down-13-in-2-months-whats-going-on-with-lloyds-share-price/",
+            "published": "Mon, 05 Oct 2026 05:54:00 +0000",
+            "source": "The Twelfth Magpie",
+            "provider": "MAGPIE",
+            "categories": "Investing Articles Value Shares",
+            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2024/07/British-pound-data-1200x633.jpg"
+          },
+          {
             "title": "Could this cash-rich stock save me from a stock market crash?",
             "link": "https://www.twelfthmagpie.com/2026/10/05/could-this-cash-rich-stock-save-me-from-a-stock-market-crash/",
             "published": "Mon, 05 Oct 2026 05:30:00 +0000",
@@ -3862,78 +3952,6 @@
             "provider": "MAGPIE",
             "categories": "Growth Shares Investing Articles",
             "image": "https://www.twelfthmagpie.com/wp-content/uploads/2024/07/Portfolio-refresh-1200x800.jpg"
-          },
-          {
-            "title": "Investors are pulling money from UK shares. I’m considering the opposite for my Stocks and Shares ISA",
-            "link": "https://www.twelfthmagpie.com/2026/10/04/investors-are-pulling-money-from-uk-shares-im-considering-the-opposite-for-my-stocks-and-shares-isa/",
-            "published": "Sun, 04 Oct 2026 15:13:00 +0000",
-            "source": "The Twelfth Magpie",
-            "provider": "MAGPIE",
-            "categories": "Investing Articles Retirement Articles",
-            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2026/06/AdobeStock_426978614-1200x800.jpeg"
-          },
-          {
-            "title": "Down 10% in a month with a P/E of just 8.5! But this broker says Barclays shares are heading for 620p",
-            "link": "https://www.twelfthmagpie.com/2026/10/04/down-10-in-a-month-with-a-p-e-of-just-8-5-but-this-broker-says-barclays-shares-are-heading-for-620p/",
-            "published": "Sun, 04 Oct 2026 14:02:51 +0000",
-            "source": "The Twelfth Magpie",
-            "provider": "MAGPIE",
-            "categories": "Investing Articles Value Shares",
-            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2022/10/Stock-analysis.jpg"
-          },
-          {
-            "title": "Greggs shares are up 10% on a profit upgrade. Should I Buy, Sell, or Hold?",
-            "link": "https://www.twelfthmagpie.com/2026/10/04/greggs-shares-are-up-10-on-a-profit-upgrade-should-i-buy-sell-or-hold/",
-            "published": "Sun, 04 Oct 2026 12:27:00 +0000",
-            "source": "The Twelfth Magpie",
-            "provider": "MAGPIE",
-            "categories": "Dividend Shares Investing Articles",
-            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2024/07/Balancing-act-1200x800.jpg"
-          },
-          {
-            "title": "Want to start investing for a grandchild? Here’s how £100 a month could ultimately turn into £621,000!",
-            "link": "https://www.twelfthmagpie.com/2026/10/04/want-to-start-investing-for-a-grandchild-heres-how-100-a-month-could-ultimately-turn-into-621k/",
-            "published": "Sun, 04 Oct 2026 11:08:00 +0000",
-            "source": "The Twelfth Magpie",
-            "provider": "MAGPIE",
-            "categories": "Investing Articles Investing For Beginners",
-            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2024/08/Tomatoes-1200x800.jpg"
-          },
-          {
-            "title": "How much would someone need in the stock market to live off passive income?",
-            "link": "https://www.twelfthmagpie.com/2026/10/04/how-much-would-someone-need-in-the-stock-market-to-live-off-passive-income/",
-            "published": "Sun, 04 Oct 2026 09:52:52 +0000",
-            "source": "The Twelfth Magpie",
-            "provider": "MAGPIE",
-            "categories": "Dividend Shares Investing Articles",
-            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2022/10/ATM-withdrawal.jpg"
-          },
-          {
-            "title": "Here’s how someone can aim for a million with just a few shares!",
-            "link": "https://www.twelfthmagpie.com/2026/10/04/heres-how-someone-can-aim-for-a-million-with-just-a-few-shares/",
-            "published": "Sun, 04 Oct 2026 09:07:18 +0000",
-            "source": "The Twelfth Magpie",
-            "provider": "MAGPIE",
-            "categories": "Investing Articles Value Shares",
-            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2021/10/Arrival.jpg"
-          },
-          {
-            "title": "How the Rolls-Royce share price could keep rising for the next 10 years",
-            "link": "https://www.twelfthmagpie.com/2026/10/04/how-the-rolls-royce-share-price-could-keep-rising-for-the-next-10-years/",
-            "published": "Sun, 04 Oct 2026 08:47:00 +0000",
-            "source": "The Twelfth Magpie",
-            "provider": "MAGPIE",
-            "categories": "Growth Shares Investing Articles",
-            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2023/10/Rolls-Royce-Engine-1200x675.jpg"
-          },
-          {
-            "title": "Can the Rolls-Royce share price survive $100 oil?",
-            "link": "https://www.twelfthmagpie.com/2026/10/04/can-the-rolls-royce-share-price-survive-100-oil/",
-            "published": "Sun, 04 Oct 2026 08:22:00 +0000",
-            "source": "The Twelfth Magpie",
-            "provider": "MAGPIE",
-            "categories": "Growth Shares Investing Articles",
-            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2022/10/Oil-rig-supervisor.jpg"
           }
         ]
       },
@@ -3949,5 +3967,5 @@
       }
     }
   },
-  "stocksUpdated": "2026-10-05T05:51:27.193Z"
+  "stocksUpdated": "2026-10-05T06:53:07.320Z"
 }
