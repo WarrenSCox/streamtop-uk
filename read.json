@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06T06:30:30.108Z",
+  "updated": "2026-10-06T09:20:30.640Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -24,7 +24,7 @@
         "title": "Dungeon Crawler Carl",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://covers.openlibrary.org/b/id/15143022-L.jpg"
+        "image": "https://m.media-amazon.com/images/I/51HIZdnqASL._SL500_.jpg"
       },
       {
         "title": "A Murder of Crows",
@@ -36,7 +36,7 @@
         "title": "The Let Them Theory",
         "author": "Mel Robbins",
         "narrator": "Mel Robbins",
-        "image": "https://covers.openlibrary.org/b/id/15165806-L.jpg"
+        "image": "https://m.media-amazon.com/images/I/51YOr6ua-PL._SL500_.jpg"
       },
       {
         "title": "Carl's Doomsday Scenario",
@@ -54,7 +54,7 @@
         "title": "The Gate of the Feral Gods",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://covers.openlibrary.org/b/id/15258911-L.jpg"
+        "image": "https://m.media-amazon.com/images/I/51rmyTTWPsL._SL500_.jpg"
       },
       {
         "title": "The Safe Room",
@@ -123,14 +123,14 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-10-06T06:30:30.108Z",
-      "lastSuccessfulRefresh": "2026-10-06T06:30:30.108Z",
+      "checkedAt": "2026-10-06T09:20:30.640Z",
+      "lastSuccessfulRefresh": "2026-10-06T09:20:30.640Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-10-06T06:30:37.910Z",
-      "lastSuccessfulRefresh": "2026-10-06T06:30:37.910Z",
+      "checkedAt": "2026-10-06T09:20:40.326Z",
+      "lastSuccessfulRefresh": "2026-10-06T09:20:40.326Z",
       "reason": ""
     }
   }
