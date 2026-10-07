@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-07T07:08:17.902Z",
+  "updated": "2026-10-07T13:35:20.640Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -39,10 +39,16 @@
         "image": "https://covers.openlibrary.org/b/id/15143022-L.jpg"
       },
       {
+        "title": "The Safe Room",
+        "author": "Sarah A. Denzil",
+        "narrator": "Gemma Whelan , Maimie McCoy",
+        "image": "https://m.media-amazon.com/images/I/41E2JISfmgL._SL500_.jpg"
+      },
+      {
         "title": "The Let Them Theory",
         "author": "Mel Robbins",
         "narrator": "Mel Robbins",
-        "image": "https://covers.openlibrary.org/b/id/15165806-L.jpg"
+        "image": "https://m.media-amazon.com/images/I/51YOr6ua-PL._SL500_.jpg"
       },
       {
         "title": "Carl's Doomsday Scenario",
@@ -55,20 +61,9 @@
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays , The Critical Drinker",
         "image": "https://covers.openlibrary.org/b/id/15262048-L.jpg"
-      },
-      {
-        "title": "The Gate of the Feral Gods",
-        "author": "Matt Dinniman",
-        "narrator": "Jeff Hays",
-        "image": "https://covers.openlibrary.org/b/id/15258911-L.jpg"
       }
     ],
     "BOOKS": [
-      {
-        "title": "Swan Song",
-        "author": "Charles Spencer Spencer. The",
-        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978024/9780241825594.jpg"
-      },
       {
         "title": "Swan Song",
         "author": "Charles Spencer Spencer",
@@ -113,6 +108,11 @@
         "title": "Letters to Our Sons",
         "author": "Stephen Graham and 1 more",
         "image": "https://storage.googleapis.com/lr-assets/main/covers/1785490148-81s8rvkf8kl._sl1500_-261x400.jpg"
+      },
+      {
+        "title": "Journey Across Japan",
+        "author": "Chris Broad",
+        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978085/9780857508294.jpg"
       }
     ]
   },
@@ -123,14 +123,14 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-10-07T07:08:17.903Z",
-      "lastSuccessfulRefresh": "2026-10-07T07:08:17.903Z",
+      "checkedAt": "2026-10-07T13:35:20.640Z",
+      "lastSuccessfulRefresh": "2026-10-07T13:35:20.640Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-10-07T07:08:25.959Z",
-      "lastSuccessfulRefresh": "2026-10-07T07:08:25.959Z",
+      "checkedAt": "2026-10-07T13:35:29.486Z",
+      "lastSuccessfulRefresh": "2026-10-07T13:35:29.486Z",
       "reason": ""
     }
   }

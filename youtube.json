@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-07T06:09:28.816Z",
+  "generatedAt": "2026-10-07T13:35:02.721Z",
   "country": "GB",
   "trailers": [
     {
@@ -171,13 +171,15 @@
       "kind": "official",
       "label": "YouTube",
       "url": "https://www.youtube.com/results?search_query=official+movie+trailer",
-      "note": "Current movie trailers sourced directly from the YouTube Data API for the UK, ranked by YouTube view-count search ordering."
+      "note": "Current movie trailers sourced directly from the YouTube Data API for the UK, ranked by YouTube view-count search ordering.",
+      "stale": true
     },
     "videos": {
       "kind": "official",
       "label": "YouTube mostPopular",
       "url": "https://www.youtube.com/",
-      "note": "YouTube Data API mostPopular chart for GB; since 2025 this pool is drawn from YouTube trending Music, Movies and Gaming charts."
+      "note": "YouTube Data API mostPopular chart for GB; since 2025 this pool is drawn from YouTube trending Music, Movies and Gaming charts.",
+      "stale": true
     }
   }
 }
