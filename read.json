@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08T19:50:01.276Z",
+  "updated": "2026-10-08T23:27:28.253Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -9,16 +9,16 @@
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/03/85/a8/0385a8b0-667d-baed-8423-132574f5a40f/9781785752292.png/600x600bb.jpg"
       },
       {
+        "title": "The Witch",
+        "author": "Freida McFadden",
+        "narrator": "Saskia Maarleveld , Marin Ireland",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/21/e2/a3/21e2a31c-2e04-6d99-0af9-180a08fa96a2/9798349169328.jpg/600x600bb.jpg"
+      },
+      {
         "title": "Threshing Day (Wing and Claw Collection)",
         "author": "Rebecca Yarros",
         "narrator": "Justis Bolding , Jake Bordeaux , Chase Brown , Frankie Corzo , Giordan Diaz , Teddy Hamilton , Laura Knight Keating , Zion Jang , Nick Mills , Robb Moriera , James Aaron Oh , Anthony Palmini , John Skelley , Jasmin Walker",
         "image": "https://m.media-amazon.com/images/I/51+hQRgOR2L._SL500_.jpg"
-      },
-      {
-        "title": "The Witch",
-        "author": "Freida McFadden",
-        "narrator": "Saskia Maarleveld , Marin Ireland",
-        "image": "https://m.media-amazon.com/images/I/41vExa8IbhL._SL500_.jpg"
       },
       {
         "title": "He Who Fights with Monsters 13: A LitRPG Adventure",
@@ -30,7 +30,7 @@
         "title": "Verity",
         "author": "Colleen Hoover",
         "narrator": "Vanessa Johansson , Amy Landon",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/40/ef/da/40efda88-49f4-a5ec-814c-6703689e539b/9791036624001.jpg/600x600bb.jpg"
+        "image": "https://m.media-amazon.com/images/I/41xU31AS-BL._SL500_.jpg"
       },
       {
         "title": "Dungeon Crawler Carl",
@@ -42,7 +42,7 @@
         "title": "A Death Most Monumental",
         "author": "JD Kirk",
         "narrator": "Angus King",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/57/dd/34/57dd3493-5b34-11d8-0095-dcc03ef8ae6b/9780466360894.png/600x600bb.jpg"
+        "image": "https://m.media-amazon.com/images/I/51C2dw1QZiL._SL500_.jpg"
       },
       {
         "title": "Carl's Doomsday Scenario",
@@ -51,33 +51,28 @@
         "image": "https://covers.openlibrary.org/b/id/11702962-L.jpg"
       },
       {
+        "title": "The Safe Room",
+        "author": "Sarah A. Denzil",
+        "narrator": "Gemma Whelan , Maimie McCoy",
+        "image": ""
+      },
+      {
         "title": "The Dungeon Anarchist's Cookbook",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays , The Critical Drinker",
         "image": "https://covers.openlibrary.org/b/id/15262048-L.jpg"
-      },
-      {
-        "title": "The Let Them Theory",
-        "author": "Mel Robbins",
-        "narrator": "Mel Robbins",
-        "image": "https://covers.openlibrary.org/b/id/15165806-L.jpg"
       }
     ],
     "BOOKS": [
       {
+        "title": "Threshing Day (Limited Deluxe Edition)",
+        "author": "Rebecca Yarros",
+        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978034/9780349450612.jpg"
+      },
+      {
         "title": "Swan Song",
         "author": "Charles Spencer Spencer",
         "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978024/9780241825594.jpg"
-      },
-      {
-        "title": "The Mirror of Infinite Endings",
-        "author": "Stephanie Garber",
-        "image": "http://www.bibdsl.co.uk/bds-images/l/978125/9781250478856.jpg"
-      },
-      {
-        "title": "The Sweetest Fiend",
-        "author": "Raven Kennedy",
-        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978024/9780241767405.jpg"
       },
       {
         "title": "We Chase Shadows",
@@ -85,14 +80,14 @@
         "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978024/9780241745892.jpg"
       },
       {
-        "title": "The Ultimate Chinese Takeaway Bible",
-        "author": "Chin Taylor and 2 more",
-        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978139/9781399643528.jpg"
+        "title": "The Steps",
+        "author": "Sylvester Stallone",
+        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978139/9781399629454.jpg"
       },
       {
-        "title": "Murder at the Grand Alpine Hotel",
-        "author": "Lucy Foley and 1 more",
-        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978000/9780008694821.jpg"
+        "title": "Caller Unknown",
+        "author": "Gillian McAllister",
+        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978140/9781405957250.jpg"
       },
       {
         "title": "The Correspondent",
@@ -100,19 +95,24 @@
         "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978140/9781405971553.jpg"
       },
       {
-        "title": "Pinch of Nom Meal Prep",
-        "author": "Kate Allinson and 1 more",
-        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978103/9781035053261.jpg"
+        "title": "Escape Me",
+        "author": "Tahereh Mafi",
+        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978000/9780008718213.jpg"
       },
       {
-        "title": "Letters to Our Sons",
-        "author": "Stephen Graham and 1 more",
-        "image": "https://storage.googleapis.com/lr-assets/main/covers/1785490148-81s8rvkf8kl._sl1500_-261x400.jpg"
+        "title": "Dungeon Crawler Carl",
+        "author": "Matt Dinniman",
+        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978024/9780241816264.jpg"
       },
       {
-        "title": "Journey Across Japan",
-        "author": "Chris Broad",
-        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978085/9780857508294.jpg"
+        "title": "Spooky Cutie",
+        "author": "Coco Wyo",
+        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978024/9780241808986.jpg"
+      },
+      {
+        "title": "Verity",
+        "author": "Colleen Hoover",
+        "image": "http://www.bibdsl.co.uk/bds-images/l/978140/9781408735923.jpg"
       }
     ]
   },
@@ -123,15 +123,15 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-10-08T19:50:01.276Z",
-      "lastSuccessfulRefresh": "2026-10-08T19:50:01.276Z",
+      "checkedAt": "2026-10-08T23:27:28.253Z",
+      "lastSuccessfulRefresh": "2026-10-08T23:27:28.253Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
-      "status": "stale",
-      "checkedAt": "2026-10-08T19:50:10.648Z",
-      "lastSuccessfulRefresh": "2026-10-08T00:22:47.034Z",
-      "reason": "503 https://www.audible.co.uk/charts/best"
+      "status": "healthy",
+      "checkedAt": "2026-10-08T23:27:37.392Z",
+      "lastSuccessfulRefresh": "2026-10-08T23:27:37.392Z",
+      "reason": ""
     }
   }
 }
