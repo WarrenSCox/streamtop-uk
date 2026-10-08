@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08T00:22:38.202Z",
+  "updated": "2026-10-08T06:15:42.239Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -72,7 +72,7 @@
       {
         "title": "The Mirror of Infinite Endings",
         "author": "Stephanie Garber",
-        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978139/9781399641760.jpg"
+        "image": "http://www.bibdsl.co.uk/bds-images/l/978125/9781250478856.jpg"
       },
       {
         "title": "The Sweetest Fiend",
@@ -123,15 +123,15 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-10-08T00:22:38.202Z",
-      "lastSuccessfulRefresh": "2026-10-08T00:22:38.202Z",
+      "checkedAt": "2026-10-08T06:15:42.239Z",
+      "lastSuccessfulRefresh": "2026-10-08T06:15:42.239Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
-      "status": "healthy",
-      "checkedAt": "2026-10-08T00:22:47.034Z",
+      "status": "stale",
+      "checkedAt": "2026-10-08T06:15:49.882Z",
       "lastSuccessfulRefresh": "2026-10-08T00:22:47.034Z",
-      "reason": ""
+      "reason": "503 https://www.audible.co.uk/charts/best"
     }
   }
 }
