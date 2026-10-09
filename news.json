@@ -1,7 +1,34 @@
 {
-  "updated": "2026-10-09T18:25:09.190Z",
+  "updated": "2026-10-09T19:27:24.946Z",
   "categories": {
     "UK": [
+      {
+        "title": "From Monsoon to Selfridges and Ruggable – here’s everything our shopping expert wants to buy this weekend",
+        "link": "https://metro.co.uk/2026/10/09/monsoon-selfridges-everything-a-shopping-expert-wants-buy-29694484/",
+        "published": "Fri, 09 Oct 2026 19:00:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Lifestyle Shopping Beauty Products Fashion Hair and Beauty High Street Metro newspaper",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315901537-93f3.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Man called Hitler Mussolini wins local election",
+        "link": "https://metro.co.uk/2026/10/09/man-called-hitler-mussolini-wins-local-election-29696566/",
+        "published": "Fri, 09 Oct 2026 18:56:31 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News Peru",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315873761-dc4b-e1791570770799.jpg?quality=90&strip=all&w=336"
+      },
+      {
+        "title": "Dad-of-two killed after being tortured and set on fire over missing cigarettes",
+        "link": "https://metro.co.uk/2026/10/09/dad-of-two-killed-tortured-set-fire-missing-cigarettes-29696720/",
+        "published": "Fri, 09 Oct 2026 18:32:08 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News UK Crime News Death",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_308071125-610f.jpg?quality=90&strip=all&w=646"
+      },
       {
         "title": "Scarlett Moffatt welcomes second baby with fiancé and reveals quirky name",
         "link": "https://metro.co.uk/2026/10/09/scarlett-moffatt-welcomes-second-baby-fiance-reveals-quirky-name-29696754/",
@@ -39,33 +66,6 @@
         "image": "https://i.guim.co.uk/img/media/b5f4395f4dbd5e5e21bd0907d33eb6f34ccc1dcd/93_0_4875_3899/master/4875.jpg?width=140&quality=85&auto=format&fit=max&s=d3ed6f10a04941ea9c8deec11425a82d"
       },
       {
-        "title": "Someone in London has won £5,800,000 on the lottery and doesn’t know it",
-        "link": "https://metro.co.uk/2026/10/09/someone-london-won-5-800-000-lottery-doesnt-know-29696637/",
-        "published": "Fri, 09 Oct 2026 17:15:53 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News UK London Lottery Lotto",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_306981482-8131.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "I slept with my ex 10 years later — then he blocked me",
-        "link": "https://metro.co.uk/2026/10/09/hadnt-seen-10-years-blocked-29691388/",
-        "published": "Fri, 09 Oct 2026 17:00:00 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Lifestyle Sex Dating First Person Real Life Relationships Universities",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315858084-3b91.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "‘Doesn’t get the credit’ – Myles Lewis-Skelly names ‘most underrated’ Arsenal teammate",
-        "link": "https://metro.co.uk/2026/10/09/myles-lewis-skelly-names-most-underrated-arsenal-teammate-doesnt-get-credit-29694403/",
-        "published": "Fri, 09 Oct 2026 15:43:46 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Sport",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_309069742-6464.jpg?quality=90&strip=all&w=646"
-      },
-      {
         "title": "Two Latvian men bailed after arrest at RAF base",
         "link": "https://news.sky.com/story/two-latvian-men-bailed-after-arrest-at-raf-base-13596993",
         "published": "Fri, 09 Oct 2026 16:40:00 +0100",
@@ -94,6 +94,15 @@
       }
     ],
     "WORLD": [
+      {
+        "title": "Powerful 7.6-magnitude earthquake hits Panama and triggers tsunami warnings",
+        "link": "https://www.theguardian.com/world/2026/oct/09/panama-earthquake",
+        "published": "Fri, 09 Oct 2026 18:29:26 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Panama Costa Rica Ecuador Peru Nicaragua Guatemala El Salvador Mexico Earthquakes Tsunamis Americas World news",
+        "image": "https://i.guim.co.uk/img/media/5b858ee6a18e7e29d7cc7d82f3bed35bcce0b25a/428_0_3121_2496/master/3121.jpg?width=140&quality=85&auto=format&fit=max&s=4a51102da69b57f0db8c2ca73ecf3e6a"
+      },
       {
         "title": "ICJ judge Navi Pillay wins Nobel peace prize for promoting international law",
         "link": "https://www.theguardian.com/world/2026/oct/09/navanethem-navi-pillay-wins-nobel-peace-prize",
@@ -174,15 +183,6 @@
         "provider": "METRO",
         "categories": "News World Italy Sicily Tornado Weather",
         "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315874608-d2a6.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Isaias strengthens to become first Atlantic hurricane of 2026 season",
-        "link": "https://www.theguardian.com/environment/2026/oct/09/isaias-strengthens-first-atlantic-hurricane-2026",
-        "published": "Fri, 09 Oct 2026 09:59:06 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Hurricane Isaias Hurricanes Environment US weather Texas Louisiana Mississippi Alabama Florida Zimbabwe Australia news Australia weather New South Wales Flooding US news World news Africa Extreme weather",
-        "image": "https://i.guim.co.uk/img/media/8a68346734b6125aa8be112f9a09965d7b197558/58_0_2500_2000/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=99048aa4fce3b6c2bdf7562778d83ccd"
       }
     ],
     "POLITICS": [
@@ -463,6 +463,15 @@
     ],
     "ENTERTAINMENT": [
       {
+        "title": "Nicola’s unexpected saviour and Sadie’s shock new ally as Emmerdale spoilers reveal what happens next",
+        "link": "https://metro.co.uk/2026/10/09/nicolas-unexpected-hero-sadies-new-ally-emmerdale-spoilers-confirm-happens-next-29694483/",
+        "published": "Fri, 09 Oct 2026 18:45:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Emmerdale Soaps Nicola King Nicola Wheeler Patsy Kensit Sadie King",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315873358-f1a7.jpg?quality=90&strip=all&w=646"
+      },
+      {
         "title": "Earth, Wind & Fire star John Paris’ family reveals ‘frightening’ reason for two-month hospitalisation",
         "link": "https://metro.co.uk/2026/10/09/earth-wind-fire-star-john-paris-family-reveals-frightening-reason-two-month-hospitalisation-29696710/",
         "published": "Fri, 09 Oct 2026 17:36:03 +0000",
@@ -517,15 +526,6 @@
         "image": "https://i.guim.co.uk/img/media/b1113d46802ee423638a7a5d7b023d238f2fdd78/1169_0_7200_5760/master/7200.jpg?width=140&quality=85&auto=format&fit=max&s=4f5c399e2168a83e4cb99448dc9236f3"
       },
       {
-        "title": "TV star covered in blood after being robbed at gunpoint in horrifying footage",
-        "link": "https://metro.co.uk/2026/10/09/tv-star-covered-blood-robbed-gunpoint-horrifying-footage-29696087/",
-        "published": "Fri, 09 Oct 2026 15:39:58 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Entertainment TV Crime News US TV news",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315889655-94bf-e1791559027972.jpg?quality=90&strip=all&w=303"
-      },
-      {
         "title": "Oscar-winning star of On The Waterfront and North By Northwest dies aged 102",
         "link": "https://news.sky.com/story/oscar-winning-star-of-on-the-waterfront-and-north-by-northwest-dies-age-102-13596076",
         "published": "Wed, 07 Oct 2026 11:23:00 +0100",
@@ -555,36 +555,36 @@
     ],
     "STOCKS": [
       {
-        "title": "S&P 500 Dividend Yield Hits Historic Lows: 5 Dividend ETFs to Consider",
-        "link": "https://uk.finance.yahoo.com/m/a3dfb58b-6565-3216-a21d-b68f247f83f4/s%26p-500-dividend-yield-hits.html?.tsrc=rss",
-        "published": "Fri, 09 Oct 2026 18:14:00 +0000",
+        "title": "3 Reasons to Avoid NBHC and 1 Stock to Buy Instead",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-avoid-nbhc-1-190710696.html?.tsrc=rss",
+        "published": "Fri, 09 Oct 2026 19:07:10 +0000",
         "source": "Yahoo Finance",
         "provider": "YAHOO",
         "categories": "",
         "image": ""
       },
       {
-        "title": "3 Reasons to Avoid GIII and 1 Stock to Buy Instead",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-avoid-giii-1-175510387.html?.tsrc=rss",
-        "published": "Fri, 09 Oct 2026 17:55:10 +0000",
+        "title": "3 Reasons to Sell TFSL and 1 Stock to Buy Instead",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-sell-tfsl-1-185110617.html?.tsrc=rss",
+        "published": "Fri, 09 Oct 2026 18:51:10 +0000",
         "source": "Yahoo Finance",
         "provider": "YAHOO",
         "categories": "",
         "image": ""
       },
       {
-        "title": "3 Reasons JLL is Risky and 1 Stock to Buy Instead",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-jll-risky-1-174710437.html?.tsrc=rss",
-        "published": "Fri, 09 Oct 2026 17:47:10 +0000",
+        "title": "Everforth (EFOR): Buy, Sell, or Hold Post Q2 Earnings?",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/everforth-efor-buy-sell-hold-184310269.html?.tsrc=rss",
+        "published": "Fri, 09 Oct 2026 18:43:10 +0000",
         "source": "Yahoo Finance",
         "provider": "YAHOO",
         "categories": "",
         "image": ""
       },
       {
-        "title": "How Investors May Respond To Berkshire Hathaway (BRK.A) Leadership Shift, Index Tilt, and Regulatory Scrutiny",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/investors-may-respond-berkshire-hathaway-171619675.html?.tsrc=rss",
-        "published": "Fri, 09 Oct 2026 17:16:19 +0000",
+        "title": "3 Reasons PPLI is Risky and 1 Stock to Buy Instead",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-ppli-risky-1-183510226.html?.tsrc=rss",
+        "published": "Fri, 09 Oct 2026 18:35:10 +0000",
         "source": "Yahoo Finance",
         "provider": "YAHOO",
         "categories": "",
@@ -609,15 +609,6 @@
         "image": "https://www.twelfthmagpie.com/wp-content/uploads/2024/07/Airport-terminal-1200x800.jpg"
       },
       {
-        "title": "US, European telecom stocks slide as SpaceX spectrum deal rattles sector",
-        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOOUk2RnFEbjJ3U1VMdUdwTXNrT3VNT0FpcjBDMFVLVHVzSHVlLVJjZE8tRC15Y1I0aWN5ZzJJQlJZaldBVmJ0cy1FLUVZNGVVc0k2bzg5dDlQTFlabzFrSHgtQ0dMNXg2N21BSzhsZEhyTTRTUjlBa2JhSWh5RVU1UWs4bnlhZ3M5Z3RCMTBLSXVieTBwckZNTWR0MUhkYUk1NUp6STFSaGhZb3FFTE5hVlRodXVOdE9faFlDZklPdGRlaERDR2c?oc=5",
-        "published": "Fri, 09 Oct 2026 15:01:34 GMT",
-        "source": "Reuters",
-        "provider": "REUTERS",
-        "categories": "",
-        "image": ""
-      },
-      {
         "title": "Why is the FTSE 100 tanking while the S&P 500’s hitting new all-time highs?",
         "link": "https://www.twelfthmagpie.com/2026/10/09/why-is-the-ftse-100-tanking-while-the-sp-500-is-hitting-new-all-time-highs/",
         "published": "Fri, 09 Oct 2026 14:31:00 +0000",
@@ -639,6 +630,15 @@
         "title": "COMMENTARY: Battle for Mideast oil market share has already begun",
         "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPT1RyVmNydDh5ZVFSUExTVnBMZElEeHF1QUVDWTh6SmV6R0wxOV9yZno1clF4dW5fUlFzcnJIWE9ZMG1qM0MtZVRtVC1yNHJEZEJDVmhCZFBOU2RxNUxfdURsVXV2TktONlJ5OEd4NEJxaGZLcmp3X1RNcFllX3k0NzdoU05qVGVBa0hqb2RDNE1vZHBVQ1liTjU4c2J3R215UGR1Nnc0eFlsaW1rVW1lUlYzTFZLZlRvcXc?oc=5",
         "published": "Thu, 08 Oct 2026 06:00:00 GMT",
+        "source": "Reuters",
+        "provider": "REUTERS",
+        "categories": "",
+        "image": ""
+      },
+      {
+        "title": "World shares, euro slide as high oil prices, fiscal worries linger",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZW5YUkkzdjhfTWJXY25aWkVLeExISGkybXo1YmFoS256Qk5DclZaVVc4ODRnejkzYlBYOTBVWWp5YTVHRDVyMmtBUDVZWHlFclVhYUtIU2d0Tm1GWmRzMnhQNlg4aVVfWEZjb21nQ0tTUzc0WjQ5bEhmWVJuNzFwX25Bdw?oc=5",
+        "published": "Wed, 07 Oct 2026 16:34:59 GMT",
         "source": "Reuters",
         "provider": "REUTERS",
         "categories": "",
@@ -911,15 +911,6 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/10/1920x1080/skynews-plague-yersinia-pestis_7368625.jpg?20261005110731"
-          },
-          {
-            "title": "One dead in Poland's second school attack in two days",
-            "link": "https://news.sky.com/story/one-dead-and-two-children-injured-in-polands-second-school-attack-in-two-days-13596420",
-            "published": "Thu, 08 Oct 2026 10:16:00 +0100",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/10/1920x1080/skynews-poland-police-polish-police_7370472.jpg?20261007123950"
           }
         ],
         "POLITICS": [
@@ -1244,7 +1235,7 @@
         },
         "WORLD": {
           "ok": true,
-          "count": 9
+          "count": 8
         },
         "POLITICS": {
           "ok": true,
@@ -1495,6 +1486,15 @@
             "image": "https://i.guim.co.uk/img/media/f7c272706a6817166fefebedc2838a834bf21ffd/647_0_2835_2268/master/2835.jpg?width=140&quality=85&auto=format&fit=max&s=d6b6513cc3e2a4d642983422ab695203"
           },
           {
+            "title": "Powerful 7.6-magnitude earthquake hits Panama and triggers tsunami warnings",
+            "link": "https://www.theguardian.com/world/2026/oct/09/panama-earthquake",
+            "published": "Fri, 09 Oct 2026 18:29:26 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Panama Costa Rica Ecuador Peru Nicaragua Guatemala El Salvador Mexico Earthquakes Tsunamis Americas World news",
+            "image": "https://i.guim.co.uk/img/media/5b858ee6a18e7e29d7cc7d82f3bed35bcce0b25a/428_0_3121_2496/master/3121.jpg?width=140&quality=85&auto=format&fit=max&s=4a51102da69b57f0db8c2ca73ecf3e6a"
+          },
+          {
             "title": "How a plant selfie in Colombian jungle led to ‘jaw dropping’ giant waterlily find",
             "link": "https://www.theguardian.com/environment/2026/oct/09/plant-selfie-jaw-dropping-giant-waterlily-discovery-colombia",
             "published": "Fri, 09 Oct 2026 04:00:37 GMT",
@@ -1529,15 +1529,6 @@
             "provider": "GUARDIAN",
             "categories": "Nobel prize in literature Anne Carson Fiction Poetry Awards and prizes Books Culture Canada Americas World news",
             "image": "https://i.guim.co.uk/img/media/28919243198de2c3b218a2e12c6383ad4ac09ddb/971_354_3933_3146/master/3933.jpg?width=140&quality=85&auto=format&fit=max&s=296efae37396af1312949a08e5a3c9a7"
-          },
-          {
-            "title": "Flávio Bolsonaro’s advance in Brazil’s election is grim jolt for climate campaigners",
-            "link": "https://www.theguardian.com/world/2026/oct/07/flavio-bolsonaro-advance-brazil-election-jolt-climate-campaigners",
-            "published": "Wed, 07 Oct 2026 19:23:30 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Brazil Jair Bolsonaro Americas Environment World news Deforestation Luiz Inácio Lula da Silva Conservation Trees and forests Indigenous peoples Flávio Bolsonaro Amazon rainforest The far right Climate crisis Land rights",
-            "image": "https://i.guim.co.uk/img/media/93a8f2545cebb38eee1bb023ec41061632d8df9d/695_0_5133_4107/master/5133.jpg?width=140&quality=85&auto=format&fit=max&s=f06437548f23bea18952bf18dbb24710"
           },
           {
             "title": "Cop31 host urges wealthy countries to spend ‘much more’ on climate than defence",
@@ -2372,6 +2363,24 @@
       "categories": {
         "UK": [
           {
+            "title": "Man called Hitler Mussolini wins local election",
+            "link": "https://metro.co.uk/2026/10/09/man-called-hitler-mussolini-wins-local-election-29696566/",
+            "published": "Fri, 09 Oct 2026 18:56:31 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News Peru",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315873761-dc4b-e1791570770799.jpg?quality=90&strip=all&w=336"
+          },
+          {
+            "title": "Dad-of-two killed after being tortured and set on fire over missing cigarettes",
+            "link": "https://metro.co.uk/2026/10/09/dad-of-two-killed-tortured-set-fire-missing-cigarettes-29696720/",
+            "published": "Fri, 09 Oct 2026 18:32:08 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News UK Crime News Death",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_308071125-610f.jpg?quality=90&strip=all&w=646"
+          },
+          {
             "title": "Someone in London has won £5,800,000 on the lottery and doesn’t know it",
             "link": "https://metro.co.uk/2026/10/09/someone-london-won-5-800-000-lottery-doesnt-know-29696637/",
             "published": "Fri, 09 Oct 2026 17:15:53 +0000",
@@ -2507,6 +2516,15 @@
             "image": "https://metro.co.uk/wp-content/uploads/2026/10/comp-1791535586.png?w=646"
           },
           {
+            "title": "From Monsoon to Selfridges and Ruggable – here’s everything our shopping expert wants to buy this weekend",
+            "link": "https://metro.co.uk/2026/10/09/monsoon-selfridges-everything-a-shopping-expert-wants-buy-29694484/",
+            "published": "Fri, 09 Oct 2026 19:00:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Lifestyle Shopping Beauty Products Fashion Hair and Beauty High Street Metro newspaper",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315901537-93f3.jpg?quality=90&strip=all&w=646"
+          },
+          {
             "title": "Scarlett Moffatt welcomes second baby with fiancé and reveals quirky name",
             "link": "https://metro.co.uk/2026/10/09/scarlett-moffatt-welcomes-second-baby-fiance-reveals-quirky-name-29696754/",
             "published": "Fri, 09 Oct 2026 18:03:42 +0000",
@@ -2523,33 +2541,6 @@
             "provider": "METRO",
             "categories": "Lifestyle Sex Dating First Person Real Life Relationships Universities",
             "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315858084-3b91.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "‘Doesn’t get the credit’ – Myles Lewis-Skelly names ‘most underrated’ Arsenal teammate",
-            "link": "https://metro.co.uk/2026/10/09/myles-lewis-skelly-names-most-underrated-arsenal-teammate-doesnt-get-credit-29694403/",
-            "published": "Fri, 09 Oct 2026 15:43:46 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Sport",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_309069742-6464.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "America live-streaming Nidal Hasan’s execution isn’t justice",
-            "link": "https://metro.co.uk/2026/10/09/america-live-streaming-nidal-hasans-execution-isnt-justice-29695888/",
-            "published": "Fri, 09 Oct 2026 15:32:02 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Opinion US Columnists Death Donald Trump Murder United States of America",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315904122-ea40.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Ninja launches new Belgian waffle maker that promises perfect waffles every time",
-            "link": "https://metro.co.uk/2026/10/09/ninjas-vertical-waffle-maker-means-no-flipping-spills-uneven-batter-29693135/",
-            "published": "Fri, 09 Oct 2026 15:00:00 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Lifestyle Shopping Metro newspaper",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315855212-590f.jpg?quality=90&strip=all&w=646"
           }
         ],
         "WORLD": [
@@ -3255,6 +3246,15 @@
             "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315054154-9182.jpg?quality=90&strip=all&w=646"
           },
           {
+            "title": "Nicola’s unexpected saviour and Sadie’s shock new ally as Emmerdale spoilers reveal what happens next",
+            "link": "https://metro.co.uk/2026/10/09/nicolas-unexpected-hero-sadies-new-ally-emmerdale-spoilers-confirm-happens-next-29694483/",
+            "published": "Fri, 09 Oct 2026 18:45:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Emmerdale Soaps Nicola King Nicola Wheeler Patsy Kensit Sadie King",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315873358-f1a7.jpg?quality=90&strip=all&w=646"
+          },
+          {
             "title": "Why did Jimmy leave Emmerdale and how did he die? Nick Miles exit explained",
             "link": "https://metro.co.uk/2026/10/09/jimmy-leave-emmerdale-die-nick-miles-exit-explained-29695278/",
             "published": "Fri, 09 Oct 2026 16:00:00 +0000",
@@ -3288,7 +3288,7 @@
         },
         "ENTERTAINMENT": {
           "ok": true,
-          "count": 19
+          "count": 20
         }
       }
     },
@@ -3401,9 +3401,63 @@
         "STOCK_MARKET": [],
         "STOCKS": [
           {
+            "title": "3 Reasons to Avoid NBHC and 1 Stock to Buy Instead",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-avoid-nbhc-1-190710696.html?.tsrc=rss",
+            "published": "Fri, 09 Oct 2026 19:07:10 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "3 Reasons to Sell TFSL and 1 Stock to Buy Instead",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-sell-tfsl-1-185110617.html?.tsrc=rss",
+            "published": "Fri, 09 Oct 2026 18:51:10 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "Everforth (EFOR): Buy, Sell, or Hold Post Q2 Earnings?",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/everforth-efor-buy-sell-hold-184310269.html?.tsrc=rss",
+            "published": "Fri, 09 Oct 2026 18:43:10 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "3 Reasons PPLI is Risky and 1 Stock to Buy Instead",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-ppli-risky-1-183510226.html?.tsrc=rss",
+            "published": "Fri, 09 Oct 2026 18:35:10 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "Jabil (JBL): 3 Reasons We Love This Stock",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/jabil-jbl-3-reasons-love-182710276.html?.tsrc=rss",
+            "published": "Fri, 09 Oct 2026 18:27:10 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
             "title": "S&P 500 Dividend Yield Hits Historic Lows: 5 Dividend ETFs to Consider",
             "link": "https://uk.finance.yahoo.com/m/a3dfb58b-6565-3216-a21d-b68f247f83f4/s%26p-500-dividend-yield-hits.html?.tsrc=rss",
             "published": "Fri, 09 Oct 2026 18:14:00 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "October Market Outlook: 3 Sectors to Buy Based on Earnings Quality",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/october-market-outlook-3-sectors-180000664.html?.tsrc=rss",
+            "published": "Fri, 09 Oct 2026 18:00:00 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
@@ -3449,60 +3503,6 @@
             "title": "3 Reasons to Avoid AMRC and 1 Stock to Buy Instead",
             "link": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-avoid-amrc-1-165110638.html?.tsrc=rss",
             "published": "Fri, 09 Oct 2026 16:51:10 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "Chemed (CHE): Buy, Sell, or Hold Post Q2 Earnings?",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/chemed-che-buy-sell-hold-164310698.html?.tsrc=rss",
-            "published": "Fri, 09 Oct 2026 16:43:10 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "Hurricane Isaias Is Moving These Power Stocks as It Barrels Toward Gulf Coast",
-            "link": "https://uk.finance.yahoo.com/m/e10aab41-7933-350d-b36e-9200926211e1/hurricane-isaias-is-moving.html?.tsrc=rss",
-            "published": "Fri, 09 Oct 2026 16:37:00 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "Stocks rebound but SpaceX fears spark telecommunications falls",
-            "link": "https://uk.finance.yahoo.com/news/stocks-rebound-spacex-fears-spark-163131178.html?.tsrc=rss",
-            "published": "Fri, 09 Oct 2026 16:31:31 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "The AI SaaSpocalypse was supposed to crush software stocks — but this happened instead",
-            "link": "https://finance.yahoo.com/markets/article/the-ai-saaspocalypse-was-supposed-to-crush-software-stocks--but-this-happened-instead-163021702.html?.tsrc=rss",
-            "published": "Fri, 09 Oct 2026 16:30:21 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "Webull Shares Got Slammed This Week. Why This Analyst Says It’s Time to Buy.",
-            "link": "https://uk.finance.yahoo.com/m/275dcecf-1682-36bb-bb82-5bdea85df196/webull-shares-got-slammed.html?.tsrc=rss",
-            "published": "Fri, 09 Oct 2026 16:25:00 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "AutoZone (AZO): Buy, Sell, or Hold Post Q3 Earnings?",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/autozone-azo-buy-sell-hold-161910319.html?.tsrc=rss",
-            "published": "Fri, 09 Oct 2026 16:19:10 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
@@ -3662,15 +3662,6 @@
         ],
         "STOCKS": [
           {
-            "title": "US, European telecom stocks slide as SpaceX spectrum deal rattles sector",
-            "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOOUk2RnFEbjJ3U1VMdUdwTXNrT3VNT0FpcjBDMFVLVHVzSHVlLVJjZE8tRC15Y1I0aWN5ZzJJQlJZaldBVmJ0cy1FLUVZNGVVc0k2bzg5dDlQTFlabzFrSHgtQ0dMNXg2N21BSzhsZEhyTTRTUjlBa2JhSWh5RVU1UWs4bnlhZ3M5Z3RCMTBLSXVieTBwckZNTWR0MUhkYUk1NUp6STFSaGhZb3FFTE5hVlRodXVOdE9faFlDZklPdGRlaERDR2c?oc=5",
-            "published": "Fri, 09 Oct 2026 15:01:34 GMT",
-            "source": "Reuters",
-            "provider": "REUTERS",
-            "categories": "",
-            "image": ""
-          },
-          {
             "title": "India's Jio Platforms targets $106 billion valuation in IPO, sources say",
             "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPLVBtV2xpdERRYnpuYTFjdGl4empoX2I5VVN5ZERGWW96V0FDRGRFNkVzR2lRUnhKbG1ta291NTM2YndMTnFHbDFMVHo2S3FkZEtITFhMUkcyV2hRLUhNeF9nQjY5M0tfcnZNcTZlS09PNlloQjlNNjdjYzQwVXA5a0p6MFJUaEtIMVFPNU5DbmpVbmhqcFg3MlJENFBQakZjWENxUVJhcGE1S3djdjhCcHFqTUV4RHlTVkNMd3hR?oc=5",
             "published": "Fri, 09 Oct 2026 14:11:35 GMT",
@@ -3764,6 +3755,15 @@
             "title": "Hong Kong stocks edge up as AI shares offset property weakness",
             "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPaGcxRk1heFZUWmhpSGsyQnQzMkNCUElkcE16YWFXbmpfSlNPZUotTmFucVJjV1huTTktYWh3ZjhBUnJFU3AtWl9Kdkl4ZGhhVGxkYm5MMlBkVnpJLVBLZWZtU1Jhc3UyVS0xc184QUNacV95N2ctcmpRbUExSEJpTVFUZkYxSEhXSFFIU0MwZXFqa3VOM3Y1X3VtVmJjeUREZlVVeXFXczU5Tk04cjNSQTBOc3VqbnZR?oc=5",
             "published": "Mon, 05 Oct 2026 14:36:27 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "India seen kicking off rate hike cycle as inflation broadens, peers turn hawkish",
+            "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQN2ZLWG5udy12czJna0lwTVJkMDRYRktHekNjMmFyTlN3OXI2SVBFNXMyc2VTTUJ5SDU3QzUzOWVVamVYTjBmc3E4UUtCMHhMM18wTVJFak8xMG1fMUJfaDlBbVAycXMtd0xjbFB5YTltMUNKQ1BjY0pnR0lab2ZteHFTaVlqOHpBSmstZVpxWjdlS1F3UG1RTHI3ZEtvNmZG?oc=5",
+            "published": "Mon, 05 Oct 2026 00:35:00 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3895,5 +3895,5 @@
       }
     }
   },
-  "stocksUpdated": "2026-10-09T18:25:14.754Z"
+  "stocksUpdated": "2026-10-09T19:27:30.613Z"
 }
