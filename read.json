@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-09T06:18:47.307Z",
+  "updated": "2026-10-09T06:36:51.709Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -30,7 +30,7 @@
         "title": "Verity",
         "author": "Colleen Hoover",
         "narrator": "Vanessa Johansson , Amy Landon",
-        "image": "https://m.media-amazon.com/images/I/41xU31AS-BL._SL500_.jpg"
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/40/ef/da/40efda88-49f4-a5ec-814c-6703689e539b/9791036624001.jpg/600x600bb.jpg"
       },
       {
         "title": "Dungeon Crawler Carl",
@@ -39,28 +39,28 @@
         "image": "https://covers.openlibrary.org/b/id/15143022-L.jpg"
       },
       {
-        "title": "A Death Most Monumental",
-        "author": "JD Kirk",
-        "narrator": "Angus King",
-        "image": "https://m.media-amazon.com/images/I/51C2dw1QZiL._SL500_.jpg"
-      },
-      {
         "title": "Carl's Doomsday Scenario",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
         "image": "https://covers.openlibrary.org/b/id/11702962-L.jpg"
       },
       {
-        "title": "The Safe Room",
-        "author": "Sarah A. Denzil",
-        "narrator": "Gemma Whelan , Maimie McCoy",
-        "image": ""
+        "title": "The Let Them Theory",
+        "author": "Mel Robbins",
+        "narrator": "Mel Robbins",
+        "image": "https://m.media-amazon.com/images/I/51YOr6ua-PL._SL500_.jpg"
       },
       {
         "title": "The Dungeon Anarchist's Cookbook",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays , The Critical Drinker",
         "image": "https://covers.openlibrary.org/b/id/15262048-L.jpg"
+      },
+      {
+        "title": "The Gate of the Feral Gods",
+        "author": "Matt Dinniman",
+        "narrator": "Jeff Hays",
+        "image": "https://covers.openlibrary.org/b/id/15258911-L.jpg"
       }
     ],
     "BOOKS": [
@@ -123,15 +123,15 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-10-09T06:18:47.307Z",
-      "lastSuccessfulRefresh": "2026-10-09T06:18:47.307Z",
+      "checkedAt": "2026-10-09T06:36:51.709Z",
+      "lastSuccessfulRefresh": "2026-10-09T06:36:51.709Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
-      "status": "stale",
-      "checkedAt": "2026-10-09T06:18:54.771Z",
-      "lastSuccessfulRefresh": "2026-10-08T23:27:37.392Z",
-      "reason": "503 https://www.audible.co.uk/charts/best"
+      "status": "healthy",
+      "checkedAt": "2026-10-09T06:36:59.257Z",
+      "lastSuccessfulRefresh": "2026-10-09T06:36:59.257Z",
+      "reason": ""
     }
   }
 }
