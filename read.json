@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-10T06:01:38.040Z",
+  "updated": "2026-10-10T09:43:07.075Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -54,7 +54,7 @@
         "title": "The Let Them Theory",
         "author": "Mel Robbins",
         "narrator": "Mel Robbins",
-        "image": "https://covers.openlibrary.org/b/id/15165806-L.jpg"
+        "image": "https://m.media-amazon.com/images/I/51YOr6ua-PL._SL500_.jpg"
       },
       {
         "title": "The Gate of the Feral Gods",
@@ -123,14 +123,14 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-10-10T06:01:38.040Z",
-      "lastSuccessfulRefresh": "2026-10-10T06:01:38.040Z",
+      "checkedAt": "2026-10-10T09:43:07.075Z",
+      "lastSuccessfulRefresh": "2026-10-10T09:43:07.075Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-10-10T06:01:46.960Z",
-      "lastSuccessfulRefresh": "2026-10-10T06:01:46.960Z",
+      "checkedAt": "2026-10-10T09:43:15.992Z",
+      "lastSuccessfulRefresh": "2026-10-10T09:43:15.992Z",
       "reason": ""
     }
   }
