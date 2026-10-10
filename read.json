@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-10T02:40:07.985Z",
+  "updated": "2026-10-10T06:01:38.040Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -12,7 +12,7 @@
         "title": "The Witch",
         "author": "Freida McFadden",
         "narrator": "Saskia Maarleveld , Marin Ireland",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/21/e2/a3/21e2a31c-2e04-6d99-0af9-180a08fa96a2/9798349169328.jpg/600x600bb.jpg"
+        "image": "https://m.media-amazon.com/images/I/41vExa8IbhL._SL500_.jpg"
       },
       {
         "title": "Threshing Day (Wing and Claw Collection)",
@@ -24,7 +24,7 @@
         "title": "Verity",
         "author": "Colleen Hoover",
         "narrator": "Vanessa Johansson , Amy Landon",
-        "image": "https://m.media-amazon.com/images/I/41xU31AS-BL._SL500_.jpg"
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/40/ef/da/40efda88-49f4-a5ec-814c-6703689e539b/9791036624001.jpg/600x600bb.jpg"
       },
       {
         "title": "He Who Fights with Monsters 13: A LitRPG Adventure",
@@ -36,7 +36,7 @@
         "title": "Dungeon Crawler Carl",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://covers.openlibrary.org/b/id/15143022-L.jpg"
+        "image": "https://m.media-amazon.com/images/I/51HIZdnqASL._SL500_.jpg"
       },
       {
         "title": "Carl's Doomsday Scenario",
@@ -123,14 +123,14 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-10-10T02:40:07.986Z",
-      "lastSuccessfulRefresh": "2026-10-10T02:40:07.986Z",
+      "checkedAt": "2026-10-10T06:01:38.040Z",
+      "lastSuccessfulRefresh": "2026-10-10T06:01:38.040Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-10-10T02:40:17.146Z",
-      "lastSuccessfulRefresh": "2026-10-10T02:40:17.146Z",
+      "checkedAt": "2026-10-10T06:01:46.960Z",
+      "lastSuccessfulRefresh": "2026-10-10T06:01:46.960Z",
       "reason": ""
     }
   }

@@ -1,7 +1,34 @@
 {
-  "updated": "2026-10-10T02:39:58.424Z",
+  "updated": "2026-10-10T06:01:31.750Z",
   "categories": {
     "UK": [
+      {
+        "title": "The best cocktail glasses and bar accessories to elevate your home entertaining",
+        "link": "https://metro.co.uk/2026/10/10/oliver-bonas-m-s-best-cocktail-glasses-shop-now-29663903/",
+        "published": "Sat, 10 Oct 2026 06:00:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Lifestyle Shopping Alcohol High Street Home renovations Metro newspaper",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEC_314562981-2fca.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Create new pre-apprenticeship scheme to close youth unemployment gap, says Milburn",
+        "link": "https://www.theguardian.com/education/2026/oct/10/pre-apprenticeship-scheme-landmark-alan-milburn-youth-jobs-crisis-report",
+        "published": "Sat, 10 Oct 2026 05:00:47 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Apprenticeships Business Vocational education Young people Society Education policy Education Further education Politics UK news Youth unemployment Unemployment Manufacturing sector",
+        "image": "https://i.guim.co.uk/img/media/6ba9839b5213ce0aa8891298391d1bfaf44453ca/77_0_4639_3710/master/4639.jpg?width=140&quality=85&auto=format&fit=max&s=018cb1da9426350f2091c42186174d3e"
+      },
+      {
+        "title": "Full list of all London Underground closures this weekend as multiple lines affected",
+        "link": "https://metro.co.uk/2026/10/10/full-list-london-underground-closures-this-weekend-29687500/",
+        "published": "Sat, 10 Oct 2026 05:00:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News UK London London Overground London Underground Night Tube Transport for London",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_265098819-152d.jpg?quality=90&strip=all&w=646"
+      },
       {
         "title": "Headteachers threaten strike ballots after losing confidence in Ofsted",
         "link": "https://www.theguardian.com/education/2026/oct/10/ofsted-strikes-head-teachers-confidence",
@@ -12,7 +39,7 @@
         "image": "https://i.guim.co.uk/img/media/17052718b449f24288dd7cdbaa8dd313d377cc62/853_0_5425_4338/master/5425.jpg?width=140&quality=85&auto=format&fit=max&s=8e330737925ec29abeb67608fd9df592"
       },
       {
-        "title": "Boy and father in critical condition after attack in own home by masked men",
+        "title": "Boy and father in critical condition after 'violent attack' by masked men in their home",
         "link": "https://news.sky.com/story/boy-and-father-in-critical-condition-after-attack-in-own-home-by-masked-men-in-thurnby-13597095",
         "published": "Fri, 09 Oct 2026 23:34:00 +0100",
         "source": "Sky News",
@@ -48,33 +75,6 @@
         "image": "https://metro.co.uk/wp-content/uploads/2026/08/SEI_308000527-db5d.jpg?quality=90&strip=all&w=646"
       },
       {
-        "title": "Woman jailed after faking doctor’s note about cancer treatment and making up evidence of sex assaults",
-        "link": "https://metro.co.uk/2026/10/09/woman-jailed-faking-doctors-note-cancer-treatment-making-evidence-sex-assaults-29696811/",
-        "published": "Fri, 09 Oct 2026 19:31:50 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News UK Crime News",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_289946758-450b-e1791574036922.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Parties prepare for byelection in Farage seat amid speculation over £5m gift inquiry",
-        "link": "https://www.theguardian.com/politics/2026/oct/09/nigel-farage-byelection-clacton-seat-speculation-5m-gift-inquiry",
-        "published": "Fri, 09 Oct 2026 17:52:17 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Nigel Farage Reform UK Politics UK news Conservatives House of Commons",
-        "image": "https://i.guim.co.uk/img/media/319ede727f93aa0da1da84beb0fda39afdd49ebf/660_468_3839_3072/master/3839.jpg?width=140&quality=85&auto=format&fit=max&s=00d52160c65d089193138863642dc53c"
-      },
-      {
-        "title": "Two Latvians arrested at RAF base in Cambridgeshire released on bail",
-        "link": "https://www.theguardian.com/uk-news/2026/oct/09/two-latvians-arrested-at-raf-molesworth-base-in-cambridgeshire-released-on-bail",
-        "published": "Fri, 09 Oct 2026 17:46:16 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "UK news England",
-        "image": "https://i.guim.co.uk/img/media/3ab483e2bc599fa865b47db22ca6f7f2c726c40f/422_0_4945_3956/master/4945.jpg?width=140&quality=85&auto=format&fit=max&s=454bf6d9cb865a6e7e1d3ae6f9ead244"
-      },
-      {
         "title": "Two Latvian men bailed after arrest at RAF base",
         "link": "https://news.sky.com/story/two-latvian-men-bailed-after-arrest-at-raf-base-13596993",
         "published": "Fri, 09 Oct 2026 16:40:00 +0100",
@@ -94,6 +94,15 @@
       }
     ],
     "WORLD": [
+      {
+        "title": "‘Like a drill going into my eye’: why the mystery over Havana syndrome refuses to die",
+        "link": "https://www.theguardian.com/us-news/ng-interactive/2026/oct/10/havana-syndrome-mystery-cia-russia",
+        "published": "Sat, 10 Oct 2026 05:00:48 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "CIA Espionage Cuba US foreign policy Russia US news Caribbean Americas World news Europe",
+        "image": "https://i.guim.co.uk/img/media/dd86a3791de0721c9fae3aeb6def7ef9609df8bd/1_0_4998_4000/master/4998.jpg?width=140&quality=85&auto=format&fit=max&s=dcbac9d21302f6a21158f1ade6bee80d"
+      },
       {
         "title": "Three men found guilty of murders of Australian surfer brothers and US friend in Mexico",
         "link": "https://www.theguardian.com/world/2026/oct/10/jake-callum-robinson-australian-surfers-carter-rhoad-mexico-murder-guilty-verdict-ntwnfb",
@@ -131,22 +140,13 @@
         "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315895443-daae.jpg?quality=90&strip=all&w=646"
       },
       {
-        "title": "Three found guilty of killing Australian brothers and American friend on surf trip",
+        "title": "Three men found guilty of killing Australian brothers and their American friend",
         "link": "https://news.sky.com/story/three-found-guilty-of-killing-australian-brothers-and-american-friend-on-mexico-surf-trip-13597092",
         "published": "Fri, 09 Oct 2026 23:20:00 +0100",
         "source": "Sky News",
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/10/1920x1080/skynews-jake-callum-robinson_7372589.jpg?20261010002747"
-      },
-      {
-        "title": "Controversial vaccine trial touted by RFK Jr gets go-ahead in Guinea-Bissau",
-        "link": "https://www.theguardian.com/society/2026/oct/09/vaccine-trial-guinea-bissau-rfk-jr",
-        "published": "Fri, 09 Oct 2026 21:36:18 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Vaccines and immunisation Guinea-Bissau Africa Health Robert F Kennedy Jr Denmark",
-        "image": "https://i.guim.co.uk/img/media/9b0dd26cb04cecfa9d30fecef7979eaede8617d7/512_0_4251_3400/master/4251.jpg?width=140&quality=85&auto=format&fit=max&s=e8ea85f8f687ec21d09686ea62619ec1"
       },
       {
         "title": "Jodie hatches sinister new plot in Coronation Street after surviving shooting",
@@ -167,15 +167,6 @@
         "image": "https://metro.co.uk/wp-content/uploads/2026/08/SEI_308000527-db5d.jpg?quality=90&strip=all&w=646"
       },
       {
-        "title": "Trump strikes deal with Putin for diesel - as Zelenskyy blasts 'weak decision'",
-        "link": "https://news.sky.com/story/trump-says-russia-will-immediately-supply-300000-tons-of-diesel-with-millions-more-to-follow-13597040",
-        "published": "Fri, 09 Oct 2026 20:02:00 +0100",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/10/1920x1080/skynews-trump-zelenskyy_7372587.jpg?20261010001311"
-      },
-      {
         "title": "Flydubai hijacker planned to crash aircraft in 9/11-inspired attack, UAE says",
         "link": "https://news.sky.com/story/flydubai-co-pilot-planned-to-crash-aircraft-into-ben-gurion-airport-uae-says-13597009",
         "published": "Fri, 09 Oct 2026 17:30:00 +0100",
@@ -183,9 +174,36 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/10/1920x1080/skynews-hamam-al-hammami-flydubai_7367101.jpg?20261003101834"
+      },
+      {
+        "title": "Gang of masked men stole £4.2m worth of red wine from Italy",
+        "link": "https://news.sky.com/story/a-gang-of-masked-men-stole-42m-worth-of-red-wine-from-marchesi-antinori-italys-largest-family-run-producer-13596841",
+        "published": "Fri, 09 Oct 2026 12:18:00 +0100",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/10/1920x1080/skynews-florence-italy-marchesi-antinori-winery_7372067.jpg?20261009121833"
       }
     ],
     "POLITICS": [
+      {
+        "title": "‘Would I sit down with Tommy Robinson? It’s not a definite no’: lessons from people who fought the far right in the 70s, 80s and beyond",
+        "link": "https://www.theguardian.com/politics/2026/oct/10/lessons-from-people-who-fought-the-far-right-in-the-70s-80s-and-beyond",
+        "published": "Sat, 10 Oct 2026 05:00:49 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Far right Activism The far right Politics Tommy Robinson BNP Nick Griffin Rupert Lowe",
+        "image": "https://i.guim.co.uk/img/media/0b0e70479a6c56c185ecd4b60a9e549830d59556/683_0_6827_5464/master/6827.jpg?width=140&quality=85&auto=format&fit=max&s=b1549700fb8eb98e94a671f6908d8d6e"
+      },
+      {
+        "title": "Create new pre-apprenticeship scheme to close youth unemployment gap, says Milburn",
+        "link": "https://www.theguardian.com/education/2026/oct/10/pre-apprenticeship-scheme-landmark-alan-milburn-youth-jobs-crisis-report",
+        "published": "Sat, 10 Oct 2026 05:00:47 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Apprenticeships Business Vocational education Young people Society Education policy Education Further education Politics UK news Youth unemployment Unemployment Manufacturing sector",
+        "image": "https://i.guim.co.uk/img/media/6ba9839b5213ce0aa8891298391d1bfaf44453ca/77_0_4639_3710/master/4639.jpg?width=140&quality=85&auto=format&fit=max&s=018cb1da9426350f2091c42186174d3e"
+      },
       {
         "title": "Northern Ireland secretary Chris Bryant bans Drumcree parade",
         "link": "https://www.theguardian.com/uk-news/2026/oct/09/northern-ireland-secretary-chris-bryant-bans-drumcree-parade",
@@ -203,33 +221,6 @@
         "provider": "GUARDIAN",
         "categories": "Nigel Farage Reform UK Politics UK news Conservatives House of Commons",
         "image": "https://i.guim.co.uk/img/media/319ede727f93aa0da1da84beb0fda39afdd49ebf/660_468_3839_3072/master/3839.jpg?width=140&quality=85&auto=format&fit=max&s=00d52160c65d089193138863642dc53c"
-      },
-      {
-        "title": "Labour hails byelection win as return of leftwing voters after Starmer era",
-        "link": "https://www.theguardian.com/politics/2026/oct/09/labour-byelection-winning-back-voters-on-left-greens",
-        "published": "Fri, 09 Oct 2026 17:08:19 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Holborn and St Pancras byelection Labour Green party UK news Politics",
-        "image": "https://i.guim.co.uk/img/media/0f915728502fbf213d1b28e291589d53f416fd35/500_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=5af0e353bd54384d0c61fb1cb4f02452"
-      },
-      {
-        "title": "Andy Burnham is lucky – Polanski, Farage and Badenoch all seem determined to help him | Jonathan Freedland",
-        "link": "https://www.theguardian.com/commentisfree/2026/oct/09/andy-burnham-zack-polanski-nigel-farage-kemi-badenoch",
-        "published": "Fri, 09 Oct 2026 17:05:50 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Andy Burnham Zack Polanski UK news Green party Labour Politics Byelections Holborn and St Pancras byelection",
-        "image": "https://i.guim.co.uk/img/media/71ddc51d754e29cb71bbadae35f7c700bbd8d278/181_679_5978_4782/master/5978.jpg?width=140&quality=85&auto=format&fit=max&s=c77126daca56627e90226aeb0086a3e5"
-      },
-      {
-        "title": "Widdecombe murder 'politically and ideologically motivated'",
-        "link": "https://news.sky.com/story/ann-widdecombe-murder-politically-and-ideologically-motivated-court-hears-13596754",
-        "published": "Fri, 09 Oct 2026 14:36:00 +0100",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/07/1920x1080/skynews-ann-widdecombe-suspect_7303721.jpg?20261002194315"
       },
       {
         "title": "Polanski's gamble fails - as the Burnham honeymoon rolls on",
@@ -275,6 +266,15 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/07/1920x1080/skynews-ann-widdecombe-suspect_7303721.jpg?20261002194315"
+      },
+      {
+        "title": "Reform UK inquiry clears own advisers over donations sting",
+        "link": "https://news.sky.com/story/reform-uk-internal-inquiry-clears-own-advisers-over-donations-sting-13596069",
+        "published": "Wed, 07 Oct 2026 11:32:00 +0100",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/05/1920x1080/skynews-union-jack-blazer-reform_7242081.jpg?20260508053542"
       }
     ],
     "BUSINESS": [
@@ -555,6 +555,15 @@
     ],
     "STOCKS": [
       {
+        "title": "If the market crashes, this is the 7%-yielder I’d rather own than Lloyds shares",
+        "link": "https://www.twelfthmagpie.com/2026/10/10/if-the-market-crashes-this-is-the-7-yielder-id-rather-own-than-lloyds-shares/",
+        "published": "Sat, 10 Oct 2026 04:32:00 +0000",
+        "source": "The Twelfth Magpie",
+        "provider": "MAGPIE",
+        "categories": "Dividend Shares Investing Articles",
+        "image": "https://www.twelfthmagpie.com/wp-content/uploads/2021/10/Notes-And-Coins.jpg"
+      },
+      {
         "title": "Twilio (TWLO) Stock Trades Up, Here Is Why",
         "link": "https://finance.yahoo.com/markets/stocks/articles/twilio-twlo-stock-trades-why-012310235.html?.tsrc=rss",
         "published": "Sat, 10 Oct 2026 01:23:10 +0000",
@@ -578,24 +587,6 @@
         "published": "Sat, 10 Oct 2026 00:03:10 +0000",
         "source": "Yahoo Finance",
         "provider": "YAHOO",
-        "categories": "",
-        "image": ""
-      },
-      {
-        "title": "BC-Select Stock Indices",
-        "link": "https://finance.yahoo.com/markets/world-indices/articles/bc-select-stock-indices-213013062.html?.tsrc=rss",
-        "published": "Fri, 09 Oct 2026 21:30:13 +0000",
-        "source": "Yahoo Finance",
-        "provider": "YAHOO",
-        "categories": "",
-        "image": ""
-      },
-      {
-        "title": "US, European telecom stocks slide as SpaceX spectrum deal rattles sector",
-        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOOUk2RnFEbjJ3U1VMdUdwTXNrT3VNT0FpcjBDMFVLVHVzSHVlLVJjZE8tRC15Y1I0aWN5ZzJJQlJZaldBVmJ0cy1FLUVZNGVVc0k2bzg5dDlQTFlabzFrSHgtQ0dMNXg2N21BSzhsZEhyTTRTUjlBa2JhSWh5RVU1UWs4bnlhZ3M5Z3RCMTBLSXVieTBwckZNTWR0MUhkYUk1NUp6STFSaGhZb3FFTE5hVlRodXVOdE9faFlDZklPdGRlaERDR2c?oc=5",
-        "published": "Fri, 09 Oct 2026 17:45:38 GMT",
-        "source": "Reuters",
-        "provider": "REUTERS",
         "categories": "",
         "image": ""
       },
@@ -630,6 +621,15 @@
         "title": "India's Jio Platforms targets $106 billion valuation in IPO, sources say",
         "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPLVBtV2xpdERRYnpuYTFjdGl4empoX2I5VVN5ZERGWW96V0FDRGRFNkVzR2lRUnhKbG1ta291NTM2YndMTnFHbDFMVHo2S3FkZEtITFhMUkcyV2hRLUhNeF9nQjY5M0tfcnZNcTZlS09PNlloQjlNNjdjYzQwVXA5a0p6MFJUaEtIMVFPNU5DbmpVbmhqcFg3MlJENFBQakZjWENxUVJhcGE1S3djdjhCcHFqTUV4RHlTVkNMd3hR?oc=5",
         "published": "Fri, 09 Oct 2026 14:11:35 GMT",
+        "source": "Reuters",
+        "provider": "REUTERS",
+        "categories": "",
+        "image": ""
+      },
+      {
+        "title": "US, European telecom stocks slide as SpaceX spectrum deal rattles sector",
+        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOOUk2RnFEbjJ3U1VMdUdwTXNrT3VNT0FpcjBDMFVLVHVzSHVlLVJjZE8tRC15Y1I0aWN5ZzJJQlJZaldBVmJ0cy1FLUVZNGVVc0k2bzg5dDlQTFlabzFrSHgtQ0dMNXg2N21BSzhsZEhyTTRTUjlBa2JhSWh5RVU1UWs4bnlhZ3M5Z3RCMTBLSXVieTBwckZNTWR0MUhkYUk1NUp6STFSaGhZb3FFTE5hVlRodXVOdE9faFlDZklPdGRlaERDR2c?oc=5",
+        "published": "Fri, 09 Oct 2026 08:58:00 GMT",
         "source": "Reuters",
         "provider": "REUTERS",
         "categories": "",
@@ -758,22 +758,13 @@
       "categories": {
         "UK": [
           {
-            "title": "Boy and father in critical condition after attack in own home by masked men",
+            "title": "Boy and father in critical condition after 'violent attack' by masked men in their home",
             "link": "https://news.sky.com/story/boy-and-father-in-critical-condition-after-attack-in-own-home-by-masked-men-in-thurnby-13597095",
             "published": "Fri, 09 Oct 2026 23:34:00 +0100",
             "source": "Sky News",
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/10/1920x1080/skynews-thurnby-leicestershire_7372579.jpg?20261009232733"
-          },
-          {
-            "title": "Widdecombe murder 'politically and ideologically motivated'",
-            "link": "https://news.sky.com/story/ann-widdecombe-murder-politically-and-ideologically-motivated-court-hears-13596754",
-            "published": "Fri, 09 Oct 2026 14:36:00 +0100",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/07/1920x1080/skynews-ann-widdecombe-suspect_7303721.jpg?20261002194315"
           },
           {
             "title": "Northern Ireland secretary says he will ban Drumcree parade",
@@ -832,16 +823,7 @@
         ],
         "WORLD": [
           {
-            "title": "Trump strikes deal with Putin for diesel - as Zelenskyy blasts 'weak decision'",
-            "link": "https://news.sky.com/story/trump-says-russia-will-immediately-supply-300000-tons-of-diesel-with-millions-more-to-follow-13597040",
-            "published": "Fri, 09 Oct 2026 20:02:00 +0100",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/10/1920x1080/skynews-trump-zelenskyy_7372587.jpg?20261010001311"
-          },
-          {
-            "title": "Three found guilty of killing Australian brothers and American friend on surf trip",
+            "title": "Three men found guilty of killing Australian brothers and their American friend",
             "link": "https://news.sky.com/story/three-found-guilty-of-killing-australian-brothers-and-american-friend-on-mexico-surf-trip-13597092",
             "published": "Fri, 09 Oct 2026 23:20:00 +0100",
             "source": "Sky News",
@@ -902,18 +884,18 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/10/1920x1080/skynews-teddy-young-royal-navy_7371247.jpg?20261008130154"
-          }
-        ],
-        "POLITICS": [
+          },
           {
-            "title": "Widdecombe murder 'politically and ideologically motivated'",
-            "link": "https://news.sky.com/story/ann-widdecombe-murder-politically-and-ideologically-motivated-court-hears-13596754",
-            "published": "Fri, 09 Oct 2026 14:36:00 +0100",
+            "title": "Lithuania PM confident of 'huge' NATO response if Russia attacks",
+            "link": "https://news.sky.com/story/lithuania-pm-confident-of-huge-nato-response-if-russia-attacks-13596524",
+            "published": "Thu, 08 Oct 2026 14:42:00 +0100",
             "source": "Sky News",
             "provider": "SKY",
             "categories": "",
-            "image": "https://e3.365dm.com/26/07/1920x1080/skynews-ann-widdecombe-suspect_7303721.jpg?20261002194315"
-          },
+            "image": "https://e3.365dm.com/26/10/1920x1080/skynews-mindaugas-sinkevicius_7371410.jpg?20261008154143"
+          }
+        ],
+        "POLITICS": [
           {
             "title": "Polanski's gamble fails - as the Burnham honeymoon rolls on",
             "link": "https://news.sky.com/story/polanskis-gamble-fails-as-the-burnham-honeymoon-rolls-on-13596686",
@@ -1222,7 +1204,7 @@
       "health": {
         "UK": {
           "ok": true,
-          "count": 8
+          "count": 7
         },
         "WORLD": {
           "ok": true,
@@ -1230,7 +1212,7 @@
         },
         "POLITICS": {
           "ok": true,
-          "count": 4
+          "count": 3
         },
         "BUSINESS": {
           "ok": true,
@@ -1249,6 +1231,15 @@
     "GUARDIAN": {
       "categories": {
         "UK": [
+          {
+            "title": "Create new pre-apprenticeship scheme to close youth unemployment gap, says Milburn",
+            "link": "https://www.theguardian.com/education/2026/oct/10/pre-apprenticeship-scheme-landmark-alan-milburn-youth-jobs-crisis-report",
+            "published": "Sat, 10 Oct 2026 05:00:47 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Apprenticeships Business Vocational education Young people Society Education policy Education Further education Politics UK news Youth unemployment Unemployment Manufacturing sector",
+            "image": "https://i.guim.co.uk/img/media/6ba9839b5213ce0aa8891298391d1bfaf44453ca/77_0_4639_3710/master/4639.jpg?width=140&quality=85&auto=format&fit=max&s=018cb1da9426350f2091c42186174d3e"
+          },
           {
             "title": "Headteachers threaten strike ballots after losing confidence in Ofsted",
             "link": "https://www.theguardian.com/education/2026/oct/10/ofsted-strikes-head-teachers-confidence",
@@ -1322,15 +1313,6 @@
             "image": "https://i.guim.co.uk/img/media/6b86aa96924f2339bc61288e71a986b40497de52/334_438_2347_1878/master/2347.jpg?width=140&quality=85&auto=format&fit=max&s=81b72ec4bd751937091784e42d5e49f9"
           },
           {
-            "title": "Christian Bittar has conviction for rigging interest rates quashed",
-            "link": "https://www.theguardian.com/business/2026/oct/09/christian-bittar-conviction-rigging-interest-rates-quashed-euribor",
-            "published": "Fri, 09 Oct 2026 15:59:38 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Libor Banking UK news Business",
-            "image": "https://i.guim.co.uk/img/media/049a8a8ea3b4a44d50a1ebea9f5eff145bb14925/288_99_2959_2367/master/2959.jpg?width=140&quality=85&auto=format&fit=max&s=1974a76660343eb1f0e9ef0a7974e451"
-          },
-          {
             "title": "Does Polanski have to go? Greens at the crossroads after Holborn and St Pancras",
             "link": "https://www.theguardian.com/politics/2026/oct/09/zack-polanski-future-as-green-party-leader-holborn-st-pancras-byelection-defeat",
             "published": "Fri, 09 Oct 2026 16:32:30 GMT",
@@ -1349,6 +1331,15 @@
             "image": "https://i.guim.co.uk/img/media/36c8ba0f5cd978ec45c10101b6ef150d6984da93/0_0_2242_1793/master/2242.jpg?width=140&quality=85&auto=format&fit=max&s=a8594fec4dc93ede02fb1b912059885b"
           },
           {
+            "title": "UK politics: Green MP Siân Berry says opponents of Zionism motion were ‘persuaded’ not to fight it because of byelection – as it happened",
+            "link": "https://www.theguardian.com/politics/live/2026/oct/09/holborn-st-pancras-byelection-result-zack-polanski-sagal-abdi-wali-uk-labour-green-party-uk-politics-latest-news",
+            "published": "Fri, 09 Oct 2026 15:25:07 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Politics UK news Zack Polanski Green party Labour London Byelections Israel Antisemitism Caroline Lucas Palestine Religion Judaism Reform UK Conservatives Robert Jenrick Tax and spending Siân Berry Jonathan Bartley Holborn and St Pancras byelection",
+            "image": "https://i.guim.co.uk/img/media/a4f79d442c52bb43d80b4b350d94b67f59bdd68b/414_0_4135_3308/master/4135.jpg?width=140&quality=85&auto=format&fit=max&s=d882a0fd90d44b184666779cb1317a78"
+          },
+          {
             "title": "Robert Jenrick launches scathing broadside against ‘Kensington Kemi’",
             "link": "https://www.theguardian.com/politics/2026/oct/09/robert-jenrick-launches-scathing-broadside-against-kensington-kemi",
             "published": "Fri, 09 Oct 2026 13:21:14 GMT",
@@ -1365,15 +1356,6 @@
             "provider": "GUARDIAN",
             "categories": "Banking Financial sector John Healey Rishi Sunak Politics Tax and spending UK news Money TUC Trade unions Tax Budget 2026 Budget Business",
             "image": "https://i.guim.co.uk/img/media/13de89d324040efdbe3c273c40116649f6e3f2fd/0_47_3038_2431/master/3038.jpg?width=140&quality=85&auto=format&fit=max&s=693d28dcc59e59e8dc646007cf8ed11b"
-          },
-          {
-            "title": "Chair of Jewish Greens calls for Zack Polanski to resign after byelection loss",
-            "link": "https://www.theguardian.com/politics/2026/oct/09/leader-of-jewish-greens-calls-for-zack-polanski-to-resign",
-            "published": "Fri, 09 Oct 2026 13:13:15 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Zack Polanski Green party Politics UK news Holborn and St Pancras byelection London England Wales",
-            "image": "https://i.guim.co.uk/img/media/27a0d2537fdc8bf038da35c42230c95c5cc2cb3c/374_0_5749_4599/master/5749.jpg?width=140&quality=85&auto=format&fit=max&s=b9cb85b6f4f8ce223c0fb78249219acd"
           },
           {
             "title": "Holborn and St Pancras byelection loss will disappoint Greens – but there may also be relief",
@@ -1477,6 +1459,15 @@
             "image": "https://i.guim.co.uk/img/media/44734eef89578d79f13141440454c9abeccc49c1/398_0_2263_1812/master/2263.jpg?width=140&quality=85&auto=format&fit=max&s=005c85225cce3ac8004bb44fa50e7820"
           },
           {
+            "title": "‘Like a drill going into my eye’: why the mystery over Havana syndrome refuses to die",
+            "link": "https://www.theguardian.com/us-news/ng-interactive/2026/oct/10/havana-syndrome-mystery-cia-russia",
+            "published": "Sat, 10 Oct 2026 05:00:48 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "CIA Espionage Cuba US foreign policy Russia US news Caribbean Americas World news Europe",
+            "image": "https://i.guim.co.uk/img/media/dd86a3791de0721c9fae3aeb6def7ef9609df8bd/1_0_4998_4000/master/4998.jpg?width=140&quality=85&auto=format&fit=max&s=dcbac9d21302f6a21158f1ade6bee80d"
+          },
+          {
             "title": "Three men found guilty of murders of Australian surfer brothers and US friend in Mexico",
             "link": "https://www.theguardian.com/world/2026/oct/10/jake-callum-robinson-australian-surfers-carter-rhoad-mexico-murder-guilty-verdict-ntwnfb",
             "published": "Sat, 10 Oct 2026 00:50:52 GMT",
@@ -1511,15 +1502,6 @@
             "provider": "GUARDIAN",
             "categories": "Mexico Australia news Americas",
             "image": "https://i.guim.co.uk/img/media/803a6b4b97e168ef99e8d8f6d05ed5c149c09e7f/246_0_2463_1970/master/2463.jpg?width=140&quality=85&auto=format&fit=max&s=3af8f82f816ebd3d11dcdcccd67070d8"
-          },
-          {
-            "title": "Nicolás Maduro and his wife indicted for alleged torture of US citizens",
-            "link": "https://www.theguardian.com/world/2026/oct/08/cilia-flores-nicolas-maduro-new-york-court",
-            "published": "Thu, 08 Oct 2026 18:04:16 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Nicolás Maduro Venezuela Law (US) Trump administration Oil US attack on Venezuela US justice system US politics New York US news Americas World news",
-            "image": "https://i.guim.co.uk/img/media/70b1767069c0df5b2fa1c5751b7b2cb91f75fe37/139_0_2813_2250/master/2813.jpg?width=140&quality=85&auto=format&fit=max&s=8b41a2a9c969f2b18a24f0ef722086d5"
           },
           {
             "title": "Cop31 host urges wealthy countries to spend ‘much more’ on climate than defence",
@@ -1614,6 +1596,15 @@
         ],
         "POLITICS": [
           {
+            "title": "Create new pre-apprenticeship scheme to close youth unemployment gap, says Milburn",
+            "link": "https://www.theguardian.com/education/2026/oct/10/pre-apprenticeship-scheme-landmark-alan-milburn-youth-jobs-crisis-report",
+            "published": "Sat, 10 Oct 2026 05:00:47 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Apprenticeships Business Vocational education Young people Society Education policy Education Further education Politics UK news Youth unemployment Unemployment Manufacturing sector",
+            "image": "https://i.guim.co.uk/img/media/6ba9839b5213ce0aa8891298391d1bfaf44453ca/77_0_4639_3710/master/4639.jpg?width=140&quality=85&auto=format&fit=max&s=018cb1da9426350f2091c42186174d3e"
+          },
+          {
             "title": "Northern Ireland secretary Chris Bryant bans Drumcree parade",
             "link": "https://www.theguardian.com/uk-news/2026/oct/09/northern-ireland-secretary-chris-bryant-bans-drumcree-parade",
             "published": "Fri, 09 Oct 2026 20:58:00 GMT",
@@ -1666,15 +1657,6 @@
             "provider": "GUARDIAN",
             "categories": "Politics UK news Zack Polanski Green party Labour London Byelections Israel Antisemitism Caroline Lucas Palestine Religion Judaism Reform UK Conservatives Robert Jenrick Tax and spending Siân Berry Jonathan Bartley Holborn and St Pancras byelection",
             "image": "https://i.guim.co.uk/img/media/a4f79d442c52bb43d80b4b350d94b67f59bdd68b/414_0_4135_3308/master/4135.jpg?width=140&quality=85&auto=format&fit=max&s=d882a0fd90d44b184666779cb1317a78"
-          },
-          {
-            "title": "Robert Jenrick launches scathing broadside against ‘Kensington Kemi’",
-            "link": "https://www.theguardian.com/politics/2026/oct/09/robert-jenrick-launches-scathing-broadside-against-kensington-kemi",
-            "published": "Fri, 09 Oct 2026 13:21:14 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Robert Jenrick Reform UK Kemi Badenoch Conservatives Politics UK news",
-            "image": "https://i.guim.co.uk/img/media/7f8f28f1e13675c3c76dcea0938217c92f0bb288/511_0_5058_4048/master/5058.jpg?width=140&quality=85&auto=format&fit=max&s=91bf817a25d4c173c3ff9068fbec934a"
           },
           {
             "title": "Andy Burnham is lucky – Polanski, Farage and Badenoch all seem determined to help him | Jonathan Freedland",
@@ -1740,6 +1722,15 @@
             "image": "https://i.guim.co.uk/img/media/f81aa9599e1a7dbe69197a55798777243d5d0a8c/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=d273882986eb99fbfbc8c0cb1ca71498"
           },
           {
+            "title": "‘Would I sit down with Tommy Robinson? It’s not a definite no’: lessons from people who fought the far right in the 70s, 80s and beyond",
+            "link": "https://www.theguardian.com/politics/2026/oct/10/lessons-from-people-who-fought-the-far-right-in-the-70s-80s-and-beyond",
+            "published": "Sat, 10 Oct 2026 05:00:49 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Far right Activism The far right Politics Tommy Robinson BNP Nick Griffin Rupert Lowe",
+            "image": "https://i.guim.co.uk/img/media/0b0e70479a6c56c185ecd4b60a9e549830d59556/683_0_6827_5464/master/6827.jpg?width=140&quality=85&auto=format&fit=max&s=b1549700fb8eb98e94a671f6908d8d6e"
+          },
+          {
             "title": "Does Polanski have to go? Greens at the crossroads after Holborn and St Pancras",
             "link": "https://www.theguardian.com/politics/2026/oct/09/zack-polanski-future-as-green-party-leader-holborn-st-pancras-byelection-defeat",
             "published": "Fri, 09 Oct 2026 16:32:30 GMT",
@@ -1765,15 +1756,6 @@
             "provider": "GUARDIAN",
             "categories": "Politics UK news Labour conference Conservative conference Labour conference 2026 Conservative conference 2026 Conservatives Kemi Badenoch Labour Andy Burnham Reform UK Nigel Farage Ed Davey Liberal Democrat conference Liberal Democrats",
             "image": "https://i.guim.co.uk/img/media/cc84532c93d8f637252bc4eb775137e2b72f1cf5/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=156f70037561200f8fcd0bbc4618cbc3"
-          },
-          {
-            "title": "Holborn and St Pancras byelection loss will disappoint Greens – but there may also be relief",
-            "link": "https://www.theguardian.com/politics/2026/oct/09/holborn-st-pancras-byelection-greens-zack-polanski",
-            "published": "Fri, 09 Oct 2026 06:40:54 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Holborn and St Pancras byelection Byelections Labour Andy Burnham Zack Polanski Green party UK news London Politics Local politics",
-            "image": "https://i.guim.co.uk/img/media/20e2c14d68e6bf585662e8d7c1daf9faa1bf5f63/1035_0_5647_4518/master/5647.jpg?width=140&quality=85&auto=format&fit=max&s=8c44cb7169fb317518ece4f86e2f87f2"
           },
           {
             "title": "Martin Rowson on Zack Polanski losing the Holborn and St Pancras byelection – cartoon",
@@ -2363,6 +2345,15 @@
       "categories": {
         "UK": [
           {
+            "title": "Full list of all London Underground closures this weekend as multiple lines affected",
+            "link": "https://metro.co.uk/2026/10/10/full-list-london-underground-closures-this-weekend-29687500/",
+            "published": "Sat, 10 Oct 2026 05:00:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News UK London London Overground London Underground Night Tube Transport for London",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_265098819-152d.jpg?quality=90&strip=all&w=646"
+          },
+          {
             "title": "First picture of woman killed in ‘seaside axe attack’ as man charged with murder",
             "link": "https://metro.co.uk/2026/10/09/first-picture-woman-killed-seaside-axe-attack-man-charged-murder-29696842/",
             "published": "Fri, 09 Oct 2026 20:50:09 +0000",
@@ -2498,13 +2489,13 @@
             "image": "https://metro.co.uk/wp-content/uploads/2026/10/slide.png?w=646"
           },
           {
-            "title": "Boy, 15, and man fighting for lives after being stabbed at home by masked raiders",
-            "link": "https://metro.co.uk/2026/10/09/boy-15-man-fighting-lives-stabbed-masked-men-raiding-home-29694896/",
-            "published": "Fri, 09 Oct 2026 10:31:08 +0000",
+            "title": "The best cocktail glasses and bar accessories to elevate your home entertaining",
+            "link": "https://metro.co.uk/2026/10/10/oliver-bonas-m-s-best-cocktail-glasses-shop-now-29663903/",
+            "published": "Sat, 10 Oct 2026 06:00:00 +0000",
             "source": "Metro",
             "provider": "METRO",
-            "categories": "News UK Crime News Leicestershire",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315867945-184a.jpg?quality=90&strip=all&w=646"
+            "categories": "Lifestyle Shopping Alcohol High Street Home renovations Metro newspaper",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEC_314562981-2fca.jpg?quality=90&strip=all&w=646"
           },
           {
             "title": "From Monsoon to Selfridges and Ruggable – here’s everything our shopping expert wants to buy this weekend",
@@ -3295,7 +3286,7 @@
       "health": {
         "UK": {
           "ok": true,
-          "count": 19
+          "count": 20
         },
         "WORLD": {
           "ok": true,
@@ -3689,18 +3680,18 @@
         ],
         "STOCKS": [
           {
-            "title": "US, European telecom stocks slide as SpaceX spectrum deal rattles sector",
-            "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOOUk2RnFEbjJ3U1VMdUdwTXNrT3VNT0FpcjBDMFVLVHVzSHVlLVJjZE8tRC15Y1I0aWN5ZzJJQlJZaldBVmJ0cy1FLUVZNGVVc0k2bzg5dDlQTFlabzFrSHgtQ0dMNXg2N21BSzhsZEhyTTRTUjlBa2JhSWh5RVU1UWs4bnlhZ3M5Z3RCMTBLSXVieTBwckZNTWR0MUhkYUk1NUp6STFSaGhZb3FFTE5hVlRodXVOdE9faFlDZklPdGRlaERDR2c?oc=5",
-            "published": "Fri, 09 Oct 2026 17:45:38 GMT",
+            "title": "India's Jio Platforms targets $106 billion valuation in IPO, sources say",
+            "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPLVBtV2xpdERRYnpuYTFjdGl4empoX2I5VVN5ZERGWW96V0FDRGRFNkVzR2lRUnhKbG1ta291NTM2YndMTnFHbDFMVHo2S3FkZEtITFhMUkcyV2hRLUhNeF9nQjY5M0tfcnZNcTZlS09PNlloQjlNNjdjYzQwVXA5a0p6MFJUaEtIMVFPNU5DbmpVbmhqcFg3MlJENFBQakZjWENxUVJhcGE1S3djdjhCcHFqTUV4RHlTVkNMd3hR?oc=5",
+            "published": "Fri, 09 Oct 2026 14:11:35 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
             "image": ""
           },
           {
-            "title": "India's Jio Platforms targets $106 billion valuation in IPO, sources say",
-            "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPLVBtV2xpdERRYnpuYTFjdGl4empoX2I5VVN5ZERGWW96V0FDRGRFNkVzR2lRUnhKbG1ta291NTM2YndMTnFHbDFMVHo2S3FkZEtITFhMUkcyV2hRLUhNeF9nQjY5M0tfcnZNcTZlS09PNlloQjlNNjdjYzQwVXA5a0p6MFJUaEtIMVFPNU5DbmpVbmhqcFg3MlJENFBQakZjWENxUVJhcGE1S3djdjhCcHFqTUV4RHlTVkNMd3hR?oc=5",
-            "published": "Fri, 09 Oct 2026 14:11:35 GMT",
+            "title": "US, European telecom stocks slide as SpaceX spectrum deal rattles sector",
+            "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOOUk2RnFEbjJ3U1VMdUdwTXNrT3VNT0FpcjBDMFVLVHVzSHVlLVJjZE8tRC15Y1I0aWN5ZzJJQlJZaldBVmJ0cy1FLUVZNGVVc0k2bzg5dDlQTFlabzFrSHgtQ0dMNXg2N21BSzhsZEhyTTRTUjlBa2JhSWh5RVU1UWs4bnlhZ3M5Z3RCMTBLSXVieTBwckZNTWR0MUhkYUk1NUp6STFSaGhZb3FFTE5hVlRodXVOdE9faFlDZklPdGRlaERDR2c?oc=5",
+            "published": "Fri, 09 Oct 2026 08:58:00 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3727,7 +3718,7 @@
           {
             "title": "COMMENTARY: Battle for Mideast oil market share has already begun",
             "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPT1RyVmNydDh5ZVFSUExTVnBMZElEeHF1QUVDWTh6SmV6R0wxOV9yZno1clF4dW5fUlFzcnJIWE9ZMG1qM0MtZVRtVC1yNHJEZEJDVmhCZFBOU2RxNUxfdURsVXV2TktONlJ5OEd4NEJxaGZLcmp3X1RNcFllX3k0NzdoU05qVGVBa0hqb2RDNE1vZHBVQ1liTjU4c2J3R215UGR1Nnc0eFlsaW1rVW1lUlYzTFZLZlRvcXc?oc=5",
-            "published": "Thu, 08 Oct 2026 06:00:00 GMT",
+            "published": "Thu, 08 Oct 2026 07:02:02 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3819,6 +3810,15 @@
       "categories": {
         "STOCKS": [
           {
+            "title": "If the market crashes, this is the 7%-yielder I’d rather own than Lloyds shares",
+            "link": "https://www.twelfthmagpie.com/2026/10/10/if-the-market-crashes-this-is-the-7-yielder-id-rather-own-than-lloyds-shares/",
+            "published": "Sat, 10 Oct 2026 04:32:00 +0000",
+            "source": "The Twelfth Magpie",
+            "provider": "MAGPIE",
+            "categories": "Dividend Shares Investing Articles",
+            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2021/10/Notes-And-Coins.jpg"
+          },
+          {
             "title": "AI stocks: is Anthropic a Stocks and Shares ISA must-have?",
             "link": "https://www.twelfthmagpie.com/2026/10/09/ai-stocks-is-anthropic-a-stocks-and-shares-isa-must-have/",
             "published": "Fri, 09 Oct 2026 17:07:47 +0000",
@@ -3898,15 +3898,6 @@
             "provider": "MAGPIE",
             "categories": "Dividend Shares Investing Articles",
             "image": "https://www.twelfthmagpie.com/wp-content/uploads/2023/06/AI-1200x675.jpg"
-          },
-          {
-            "title": "Should I bank my meaty Rolls-Royce profits and buy BAE Systems shares instead?",
-            "link": "https://www.twelfthmagpie.com/2026/10/08/should-i-bank-my-meaty-rolls-royce-profits-and-buy-bae-systems-shares-instead/",
-            "published": "Thu, 08 Oct 2026 19:04:00 +0000",
-            "source": "The Twelfth Magpie",
-            "provider": "MAGPIE",
-            "categories": "Growth Shares Investing Articles",
-            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2025/12/2026-2-1200x675.jpg"
           }
         ]
       },
@@ -3922,5 +3913,5 @@
       }
     }
   },
-  "stocksUpdated": "2026-10-10T02:40:07.934Z"
+  "stocksUpdated": "2026-10-10T06:01:37.986Z"
 }
