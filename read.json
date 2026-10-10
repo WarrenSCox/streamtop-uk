@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-10T15:50:09.083Z",
+  "updated": "2026-10-10T19:59:50.122Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -24,7 +24,7 @@
         "title": "Verity",
         "author": "Colleen Hoover",
         "narrator": "Vanessa Johansson , Amy Landon",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/40/ef/da/40efda88-49f4-a5ec-814c-6703689e539b/9791036624001.jpg/600x600bb.jpg"
+        "image": "https://m.media-amazon.com/images/I/41xU31AS-BL._SL500_.jpg"
       },
       {
         "title": "Dungeon Crawler Carl",
@@ -42,7 +42,7 @@
         "title": "The Safe Room",
         "author": "Sarah A. Denzil",
         "narrator": "Gemma Whelan , Maimie McCoy",
-        "image": ""
+        "image": "https://m.media-amazon.com/images/I/41E2JISfmgL._SL500_.jpg"
       },
       {
         "title": "You Will Remember Nothing",
@@ -123,14 +123,14 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-10-10T15:50:09.083Z",
-      "lastSuccessfulRefresh": "2026-10-10T15:50:09.083Z",
+      "checkedAt": "2026-10-10T19:59:50.122Z",
+      "lastSuccessfulRefresh": "2026-10-10T19:59:50.122Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-10-10T15:50:17.524Z",
-      "lastSuccessfulRefresh": "2026-10-10T15:50:17.524Z",
+      "checkedAt": "2026-10-10T19:59:59.185Z",
+      "lastSuccessfulRefresh": "2026-10-10T19:59:59.185Z",
       "reason": ""
     }
   }
