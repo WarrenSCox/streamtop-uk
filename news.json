@@ -1,7 +1,16 @@
 {
-  "updated": "2026-10-10T21:52:05.783Z",
+  "updated": "2026-10-10T23:27:04.655Z",
   "categories": {
     "UK": [
+      {
+        "title": "Skies across the UK illuminated by the northern lights",
+        "link": "https://www.theguardian.com/science/2026/oct/10/skies-across-the-uk-illuminated-by-the-northern-lights",
+        "published": "Sat, 10 Oct 2026 22:30:34 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Northern lights The sun Space UK news",
+        "image": "https://i.guim.co.uk/img/media/22444253c3b660a5f83f8e75b532961bae116db1/0_0_2675_2141/master/2675.jpg?width=140&quality=85&auto=format&fit=max&s=f3e9cb06bbe1555bb11f726e34fcf714"
+      },
       {
         "title": "Boy saved from bear attack after mobile phone exploded as he was mauled by predator",
         "link": "https://metro.co.uk/2026/10/10/teen-survives-bear-attack-phone-explodes-29698010/",
@@ -46,15 +55,6 @@
         "provider": "GUARDIAN",
         "categories": "Israel-Gaza war UK news London Protest Freedom of speech Israel Palestine Gaza World news Middle East and north Africa West Bank",
         "image": "https://i.guim.co.uk/img/media/e5a2f40ef00aec94530693a8d9665f6adf36c14c/763_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=4d4ea45720dcf9baac0da795c06c9f62"
-      },
-      {
-        "title": "Seconds to spare: Video shows man narrowly escaping Russian drone strike near Kyiv",
-        "link": "https://metro.co.uk/2026/10/10/man-escapes-russian-drone-strike-seconds-kyiv-29697939/",
-        "published": "Sat, 10 Oct 2026 16:19:09 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News World Drone strike Russia Russia-Ukraine war Ukraine",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/1791629884048_834455339921729_9b7f1e.jpg?quality=90&strip=all&w=636"
       },
       {
         "title": "Camden council was warned about paedophile nursery worker years before arrest",
@@ -104,12 +104,12 @@
         "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_313675273-c1c5.jpg?quality=90&strip=all&w=646"
       },
       {
-        "title": "Hanson seems more and more like the de facto opposition leader. At CPAC, Angus Taylor warmed the seat for her",
+        "title": "Pauline Hanson seems more and more like the de facto opposition leader. At CPAC, Angus Taylor warmed the seat for her",
         "link": "https://www.theguardian.com/australia-news/2026/oct/11/cpac-conference-pauline-hanson-angus-taylor-one-nation-liberals-cooperation-ntwnfb",
         "published": "Sat, 10 Oct 2026 19:00:09 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
-        "categories": "Australian politics Pauline Hanson Angus Taylor One Nation Liberal party Australia news",
+        "categories": "Australian politics Pauline Hanson Angus Taylor One Nation Liberal party Australia news Coalition National party Queensland",
         "image": "https://i.guim.co.uk/img/media/900eda7e04bdab2d04ee65b672a788a8b3995522/286_0_2859_2287/master/2859.jpg?width=140&quality=85&auto=format&fit=max&s=bf002dfaf99d8128fd01f03dcb6377dd"
       },
       {
@@ -127,7 +127,7 @@
         "published": "Sat, 10 Oct 2026 19:00:05 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
-        "categories": "Australian universities Australia news Australian education Australian politics",
+        "categories": "Australian universities Australia news Australian education Australian politics Australian immigration and asylum",
         "image": "https://i.guim.co.uk/img/media/4bb05cf254a0d001887cc470a954f6597ff2f951/873_0_4363_3491/master/4363.jpg?width=140&quality=85&auto=format&fit=max&s=772a9ef42f8ec80e7818eb45ab59ed2e"
       },
       {
@@ -371,6 +371,24 @@
     ],
     "TECH": [
       {
+        "title": "Nuclear war and malicious use of AI threaten end of humanity by 2100, says Lancet assessment",
+        "link": "https://www.theguardian.com/global-development/2026/oct/11/nuclear-war-and-malicious-use-of-ai-threaten-end-of-humanity-by-2100-says-lancet-assessment",
+        "published": "Sat, 10 Oct 2026 23:01:09 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Global health Global development AI (artificial intelligence) Nuclear weapons Climate crisis World news",
+        "image": "https://i.guim.co.uk/img/media/f50120ad5ffe55e5024a1ec6dc2e727ce8f4f95d/269_0_3928_3142/master/3928.jpg?width=140&quality=85&auto=format&fit=max&s=609145e51390ceb1f77dfc6c89916d36"
+      },
+      {
+        "title": "Daily horoscope October 11 2026: Today’s predictions for your star sign",
+        "link": "https://metro.co.uk/2026/10/11/daily-horoscope-october-11-2026-predictions-star-sign-29696638/",
+        "published": "Sat, 10 Oct 2026 23:01:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Horoscopes Lifestyle Aquarius Aries Astrology Cancer (star sign) Capricorn Gemini Leo Libra Pisces Sagittarius Scorpio Taurus Virgo",
+        "image": "https://metro.co.uk/wp-content/uploads/2023/04/new-horoscope-2023-02-a5db.gif?w=646"
+      },
+      {
         "title": "UK must not be beholden to foreign AI, says head of Alan Turing Institute",
         "link": "https://www.theguardian.com/technology/2026/oct/10/uk-foreign-ai-head-alan-turing-institute-george-williamson",
         "published": "Sat, 10 Oct 2026 10:00:55 GMT",
@@ -416,15 +434,6 @@
         "image": "https://i.guim.co.uk/img/media/534ffa8f09399e34aa739f1c1ce1520e46a80dad/57_0_4555_3646/master/4555.jpg?width=140&quality=85&auto=format&fit=max&s=c1edfb47cbb13ec16d97cfcdde10b567"
       },
       {
-        "title": "The Filter is two! 31 things we loved this year, from cloud-like duvets to the perfect running shoe",
-        "link": "https://www.theguardian.com/thefilter/2026/oct/09/the-filter-uk-turns-two-favourite-products-tried-tested",
-        "published": "Fri, 09 Oct 2026 14:00:31 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Life and style Homes Interiors Gadgets Food Women's hair Beauty Health & wellbeing Fashion Gardens Running Pizza Men's shoes Women's dresses Ice-cream and sorbet Men's tops Coffee Men's fashion Technology",
-        "image": "https://i.guim.co.uk/img/media/7dc6d1cdb7e5bd373301f56a6fd4e13a4cea569b/2_0_1996_1597/master/1996.jpg?width=140&quality=85&auto=format&fit=max&s=d1bb572640510fe2f99a943973963552"
-      },
-      {
         "title": "'Snowflake' firm in ASOS hack message issues response",
         "link": "https://news.sky.com/story/snowflake-firm-in-asos-hacking-message-issues-response-13596833",
         "published": "Fri, 09 Oct 2026 14:01:00 +0100",
@@ -434,6 +443,15 @@
         "image": "https://e3.365dm.com/26/10/1920x1080/skynews-asos-file_7369449.jpg?20261006101437"
       },
       {
+        "title": "The Filter is two! 31 things we loved this year, from cloud-like duvets to the perfect running shoe",
+        "link": "https://www.theguardian.com/thefilter/2026/oct/09/the-filter-uk-turns-two-favourite-products-tried-tested",
+        "published": "Fri, 09 Oct 2026 14:00:31 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Life and style Homes Interiors Gadgets Food Women's hair Beauty Health & wellbeing Fashion Gardens Running Pizza Men's shoes Women's dresses Ice-cream and sorbet Men's tops Coffee Men's fashion Technology",
+        "image": "https://i.guim.co.uk/img/media/7dc6d1cdb7e5bd373301f56a6fd4e13a4cea569b/2_0_1996_1597/master/1996.jpg?width=140&quality=85&auto=format&fit=max&s=d1bb572640510fe2f99a943973963552"
+      },
+      {
         "title": "‘This is not an anti-tech town’: backlash to datacenter in city once home to IBM",
         "link": "https://www.theguardian.com/us-news/2026/oct/09/datacenter-backlash-ibm-east-fishkill-new-york",
         "published": "Fri, 09 Oct 2026 13:00:28 GMT",
@@ -441,24 +459,6 @@
         "provider": "GUARDIAN",
         "categories": "Datacenters – US Datacentres Technology US news World news New York",
         "image": "https://i.guim.co.uk/img/media/b5feed698def6ab736780b864f672abf0d08e952/248_294_1549_1239/master/1549.jpg?width=140&quality=85&auto=format&fit=max&s=1516ee985afb803b2a884738100b0b00"
-      },
-      {
-        "title": "OpenAI sparks 'mathpocalypse' as it publishes solutions to 372 outstanding problems",
-        "link": "https://news.sky.com/story/openai-sparks-mathpocalypse-as-it-publishes-full-or-partial-solutions-to-372-outstanding-problems-13596633",
-        "published": "Thu, 08 Oct 2026 19:00:00 +0100",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/06/1920x1080/skynews-openai-sam-altman_7263347.jpg?20260602033234"
-      },
-      {
-        "title": "Hurricane Isaias heading for US mainland - breaking 120-year record",
-        "link": "https://news.sky.com/story/isaias-heading-for-us-mainland-the-first-atlantic-hurricane-this-year-13596508",
-        "published": "Thu, 08 Oct 2026 14:02:00 +0100",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/10/1920x1080/skynews-hurricane-isaias-gulf-of-mexico_7371315.jpg?20261008140149"
       }
     ],
     "ENTERTAINMENT": [
@@ -636,9 +636,9 @@
         "image": ""
       },
       {
-        "title": "Indian shares rise, end longest weekly losing streak in 25 years",
-        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSUlMb1g5cjVaX2pyT0FWTUJ1N2xGTXV0OVN2WkFRQ2R2RS1Fdkc4cmloUC1yNzRlR2pYcW1KOVNjTW1kbmVZbWRhal9WS0dwcU9IeUVvcmRXcTlNZ3V2d0pFYUZndExqNXpNdWltSEhSUjBYRGdmcFpjWVpHT0VUQ3FIV0Q0SUxVdG9mT2lMZzY5bWVhcE92TkR2aEVmajNPVWN1SjZidFlsX1hjM0xVQzJTdHQ?oc=5",
-        "published": "Fri, 09 Oct 2026 10:33:06 GMT",
+        "title": "India's Jio Platforms targets $106 billion valuation in IPO, sources say",
+        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPLVBtV2xpdERRYnpuYTFjdGl4empoX2I5VVN5ZERGWW96V0FDRGRFNkVzR2lRUnhKbG1ta291NTM2YndMTnFHbDFMVHo2S3FkZEtITFhMUkcyV2hRLUhNeF9nQjY5M0tfcnZNcTZlS09PNlloQjlNNjdjYzQwVXA5a0p6MFJUaEtIMVFPNU5DbmpVbmhqcFg3MlJENFBQakZjWENxUVJhcGE1S3djdjhCcHFqTUV4RHlTVkNMd3hR?oc=5",
+        "published": "Fri, 09 Oct 2026 14:11:35 GMT",
         "source": "Reuters",
         "provider": "REUTERS",
         "categories": "",
@@ -696,11 +696,10 @@
         "status": "healthy",
         "liveProviders": [
           "SKY",
-          "GUARDIAN"
-        ],
-        "failedProviders": [
+          "GUARDIAN",
           "METRO"
         ],
+        "failedProviders": [],
         "retainedPrevious": 0,
         "count": 10
       },
@@ -829,20 +828,11 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/10/1920x1080/skynews-michelle-oneill-northern-ireland_7372334.jpg?20261009163919"
-          },
-          {
-            "title": "Two Latvian men bailed after arrest at RAF base",
-            "link": "https://news.sky.com/story/two-latvian-men-bailed-after-arrest-at-raf-base-13596993",
-            "published": "Fri, 09 Oct 2026 16:40:00 +0100",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/10/1920x1080/skynews-cambridgeshire-nato_7371517.jpg?20261008173907"
           }
         ],
         "WORLD": [
           {
-            "title": "UK nationals told to avoid Saudi Arabia airport after missile strikes 'leave many wounded'",
+            "title": "At least 12 killed and hundreds injured in Saudi Arabia airport 'missile attack'",
             "link": "https://news.sky.com/story/uk-nationals-told-to-avoid-saudi-arabia-airport-after-missile-strikes-leave-many-wounded-13563284",
             "published": "Tue, 14 Jul 2026 10:05:00 +0100",
             "source": "Sky News",
@@ -885,15 +875,6 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/10/1920x1080/skynews-navi-pillay-human-rights_7371876.jpg?20261009100818"
-          },
-          {
-            "title": "Three killed in Houthi-claimed strikes on Saudi Arabian airport",
-            "link": "https://news.sky.com/story/three-killed-in-houthi-claimed-strikes-on-riyadh-airport-saudi-authorities-say-13596835",
-            "published": "Fri, 09 Oct 2026 12:07:00 +0100",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/10/1920x1080/skynews-riyadh-saudiarabia_7371549.jpg?20261008184039"
           },
           {
             "title": "Gang of masked men stole £4.2m worth of red wine from Italy",
@@ -1223,11 +1204,11 @@
       "health": {
         "UK": {
           "ok": true,
-          "count": 9
+          "count": 8
         },
         "WORLD": {
           "ok": true,
-          "count": 8
+          "count": 7
         },
         "POLITICS": {
           "ok": true,
@@ -1250,6 +1231,15 @@
     "GUARDIAN": {
       "categories": {
         "UK": [
+          {
+            "title": "Skies across the UK illuminated by the northern lights",
+            "link": "https://www.theguardian.com/science/2026/oct/10/skies-across-the-uk-illuminated-by-the-northern-lights",
+            "published": "Sat, 10 Oct 2026 22:30:34 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Northern lights The sun Space UK news",
+            "image": "https://i.guim.co.uk/img/media/22444253c3b660a5f83f8e75b532961bae116db1/0_0_2675_2141/master/2675.jpg?width=140&quality=85&auto=format&fit=max&s=f3e9cb06bbe1555bb11f726e34fcf714"
+          },
           {
             "title": "Man dies after jumping into tiger enclosure at Yorkshire zoo",
             "link": "https://www.theguardian.com/world/2026/oct/10/man-suffers-serious-injury-after-jumping-into-zoo-tiger-enclosure",
@@ -1323,13 +1313,13 @@
             "image": "https://i.guim.co.uk/img/media/9ea424dbf07304d22c342e95943d49c1042c65de/0_0_1020_816/master/1020.jpg?width=140&quality=85&auto=format&fit=max&s=a56488c7d9b398b124c732a35fe31b6e"
           },
           {
-            "title": "‘If voters aren’t better off by the next election, we’re screwed’: Labour insiders voice fears over budget",
-            "link": "https://www.theguardian.com/uk-news/2026/oct/10/labour-fears-budget-burnham-healey",
-            "published": "Sat, 10 Oct 2026 06:00:51 GMT",
+            "title": "UK accused of giving people of Gaza false hope over new refugee safe route",
+            "link": "https://www.theguardian.com/uk-news/2026/oct/10/uk-gaza-refugee-resettlement-scheme-palestinians-home-office",
+            "published": "Sat, 10 Oct 2026 06:00:50 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Budget Andy Burnham Economic policy Budget 2026 UK cost of living crisis Tax and spending Social care Labour Public finance State pensions John Healey Politics UK news",
-            "image": "https://i.guim.co.uk/img/media/5db02fb2b803b721a93444ed5b66b92a97b8af50/349_0_2901_2321/master/2901.jpg?width=140&quality=85&auto=format&fit=max&s=fb671a0c5edd42f2e9662c6379333963"
+            "categories": "Immigration and asylum Gaza Shabana Mahmood Refugees Home Office Palestine Migration Politics UK news Labour",
+            "image": "https://i.guim.co.uk/img/media/3aa7f42620809db20db93cdae47ec1311958cf5d/248_0_2503_2003/master/2503.jpg?width=140&quality=85&auto=format&fit=max&s=920fd66c292c3cdfb38d74c29f3181ba"
           },
           {
             "title": "Create new pre-apprenticeship scheme to close youth unemployment gap, says Milburn",
@@ -1366,15 +1356,6 @@
             "provider": "GUARDIAN",
             "categories": "Holborn and St Pancras byelection Labour Green party UK news Politics",
             "image": "https://i.guim.co.uk/img/media/0f915728502fbf213d1b28e291589d53f416fd35/500_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=5af0e353bd54384d0c61fb1cb4f02452"
-          },
-          {
-            "title": "Ed Davey faces growing revolt against leadership as senior Lib Dem MP quits",
-            "link": "https://www.theguardian.com/politics/2026/oct/09/ed-davey-faces-growing-revolt-against-leadership-as-senior-lib-dem-mp-quits",
-            "published": "Fri, 09 Oct 2026 16:46:29 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Ed Davey Politics Liberal Democrats UK news",
-            "image": "https://i.guim.co.uk/img/media/10e3cfbc34afc36d17344c15f1f9651d8933ddbb/425_0_4247_3397/master/4247.jpg?width=140&quality=85&auto=format&fit=max&s=8e11b4aea5b7a001de10eb11608431cb"
           },
           {
             "title": "Holborn and St Pancras byelection loss will disappoint Greens – but there may also be relief",
@@ -1568,12 +1549,12 @@
             "image": "https://i.guim.co.uk/img/media/948f13cd6b39af9e5eb3dd21aaba7ecf82a99ea6/317_0_3168_2534/master/3168.jpg?width=140&quality=85&auto=format&fit=max&s=ea15d701692e0dd7a657b468762d4207"
           },
           {
-            "title": "Hanson seems more and more like the de facto opposition leader. At CPAC, Angus Taylor warmed the seat for her",
+            "title": "Pauline Hanson seems more and more like the de facto opposition leader. At CPAC, Angus Taylor warmed the seat for her",
             "link": "https://www.theguardian.com/australia-news/2026/oct/11/cpac-conference-pauline-hanson-angus-taylor-one-nation-liberals-cooperation-ntwnfb",
             "published": "Sat, 10 Oct 2026 19:00:09 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Australian politics Pauline Hanson Angus Taylor One Nation Liberal party Australia news",
+            "categories": "Australian politics Pauline Hanson Angus Taylor One Nation Liberal party Australia news Coalition National party Queensland",
             "image": "https://i.guim.co.uk/img/media/900eda7e04bdab2d04ee65b672a788a8b3995522/286_0_2859_2287/master/2859.jpg?width=140&quality=85&auto=format&fit=max&s=bf002dfaf99d8128fd01f03dcb6377dd"
           },
           {
@@ -1591,7 +1572,7 @@
             "published": "Sat, 10 Oct 2026 19:00:05 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Australian universities Australia news Australian education Australian politics",
+            "categories": "Australian universities Australia news Australian education Australian politics Australian immigration and asylum",
             "image": "https://i.guim.co.uk/img/media/4bb05cf254a0d001887cc470a954f6597ff2f951/873_0_4363_3491/master/4363.jpg?width=140&quality=85&auto=format&fit=max&s=772a9ef42f8ec80e7818eb45ab59ed2e"
           },
           {
@@ -2033,6 +2014,15 @@
             "image": "https://i.guim.co.uk/img/media/b5feed698def6ab736780b864f672abf0d08e952/248_294_1549_1239/master/1549.jpg?width=140&quality=85&auto=format&fit=max&s=1516ee985afb803b2a884738100b0b00"
           },
           {
+            "title": "Nuclear war and malicious use of AI threaten end of humanity by 2100, says Lancet assessment",
+            "link": "https://www.theguardian.com/global-development/2026/oct/11/nuclear-war-and-malicious-use-of-ai-threaten-end-of-humanity-by-2100-says-lancet-assessment",
+            "published": "Sat, 10 Oct 2026 23:01:09 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Global health Global development AI (artificial intelligence) Nuclear weapons Climate crisis World news",
+            "image": "https://i.guim.co.uk/img/media/f50120ad5ffe55e5024a1ec6dc2e727ce8f4f95d/269_0_3928_3142/master/3928.jpg?width=140&quality=85&auto=format&fit=max&s=609145e51390ceb1f77dfc6c89916d36"
+          },
+          {
             "title": "Recruitment boss accused of being behind ‘doxxing’ campaign against RNLI and anti-racism activists",
             "link": "https://www.theguardian.com/uk-news/2026/oct/10/recruitment-boss-accused-of-being-behind-doxxing-campaign-against-rnli-and-anti-racism-activists",
             "published": "Sat, 10 Oct 2026 07:00:50 GMT",
@@ -2058,15 +2048,6 @@
             "provider": "GUARDIAN",
             "categories": "Datacentres - Australia Australia news Business AI (artificial intelligence)",
             "image": "https://i.guim.co.uk/img/media/3f78853d8984360756d6b468ab297674afc855c8/331_0_1253_1002/master/1253.jpg?width=140&quality=85&auto=format&fit=max&s=2462c6a1aee562c9eb6c922481345713"
-          },
-          {
-            "title": "OpenAI used AI to help write email warning Australian government AI had hacked its websites",
-            "link": "https://www.theguardian.com/australia-news/2026/oct/08/openai-used-ai-to-help-write-email-warning-australian-government-ai-had-hacked-its-websites",
-            "published": "Thu, 08 Oct 2026 02:05:33 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "OpenAI Australia news Medicare Australia AI (artificial intelligence) Australian politics Hacking",
-            "image": "https://i.guim.co.uk/img/media/f7b7610deee5298cd737b0ca57b710d183a27320/187_0_4240_3392/master/4240.jpg?width=140&quality=85&auto=format&fit=max&s=50815842a160dd830d367cfa50990eb1"
           },
           {
             "title": "The Filter is two! 31 things we loved this year, from cloud-like duvets to the perfect running shoe",
@@ -3074,13 +3055,13 @@
         ],
         "TECH": [
           {
-            "title": "Toby Carvery responds to meat-weighing claims as fans threaten boycott",
-            "link": "https://metro.co.uk/2026/10/10/toby-carvery-responds-meat-weighing-claims-fans-threaten-boycott-29697029/",
-            "published": "Sat, 10 Oct 2026 11:03:04 +0000",
+            "title": "Daily horoscope October 11 2026: Today’s predictions for your star sign",
+            "link": "https://metro.co.uk/2026/10/11/daily-horoscope-october-11-2026-predictions-star-sign-29696638/",
+            "published": "Sat, 10 Oct 2026 23:01:00 +0000",
             "source": "Metro",
             "provider": "METRO",
-            "categories": "Food Lifestyle Foodie Pubs Restaurants Social Media",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/GettyImages-1501206080-eeb6.jpg?quality=90&strip=all&w=646"
+            "categories": "Horoscopes Lifestyle Aquarius Aries Astrology Cancer (star sign) Capricorn Gemini Leo Libra Pisces Sagittarius Scorpio Taurus Virgo",
+            "image": "https://metro.co.uk/wp-content/uploads/2023/04/new-horoscope-2023-02-a5db.gif?w=646"
           }
         ],
         "ENTERTAINMENT": [
@@ -3284,9 +3265,8 @@
           "count": 19
         },
         "TECH": {
-          "ok": false,
-          "count": 0,
-          "reason": "No correctly classified live stories"
+          "ok": true,
+          "count": 1
         },
         "ENTERTAINMENT": {
           "ok": true,
@@ -3682,6 +3662,15 @@
             "image": ""
           },
           {
+            "title": "India's Jio Platforms targets $106 billion valuation in IPO, sources say",
+            "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPLVBtV2xpdERRYnpuYTFjdGl4empoX2I5VVN5ZERGWW96V0FDRGRFNkVzR2lRUnhKbG1ta291NTM2YndMTnFHbDFMVHo2S3FkZEtITFhMUkcyV2hRLUhNeF9nQjY5M0tfcnZNcTZlS09PNlloQjlNNjdjYzQwVXA5a0p6MFJUaEtIMVFPNU5DbmpVbmhqcFg3MlJENFBQakZjWENxUVJhcGE1S3djdjhCcHFqTUV4RHlTVkNMd3hR?oc=5",
+            "published": "Fri, 09 Oct 2026 14:11:35 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
             "title": "Indian shares rise, end longest weekly losing streak in 25 years",
             "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSUlMb1g5cjVaX2pyT0FWTUJ1N2xGTXV0OVN2WkFRQ2R2RS1Fdkc4cmloUC1yNzRlR2pYcW1KOVNjTW1kbmVZbWRhal9WS0dwcU9IeUVvcmRXcTlNZ3V2d0pFYUZndExqNXpNdWltSEhSUjBYRGdmcFpjWVpHT0VUQ3FIV0Q0SUxVdG9mT2lMZzY5bWVhcE92TkR2aEVmajNPVWN1SjZidFlsX1hjM0xVQzJTdHQ?oc=5",
             "published": "Fri, 09 Oct 2026 10:33:06 GMT",
@@ -3745,27 +3734,18 @@
             "image": ""
           },
           {
+            "title": "Investors pick new darlings and duds as selloff rocks Europe's bond market",
+            "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZUwxWllNS1pOd3QyU1N1SXNKRExZYWU2U2V2SXdRZkIxNTJ5NEFjNlRPMmlScW9sQUFMdzl3STlMN09oRzNqc0tPNGJVWnJ3b2hUa3NNWFN6MFRjSHJQODFZTFh4a1BMczhIU3JqY0xwUGlDRHEtUWxYbFJuXy1MbTk4ZGtHcFNnQjZ4V2d6UFc3VDNFTmtOOVlVTUhLeGRjOG1GbUp3VjFpUVBBSDdUOA?oc=5",
+            "published": "Wed, 07 Oct 2026 15:32:49 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
             "title": "Hedge funds deliver mixed September results on AI swings",
             "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUZkZi1QLXNOR283SlRkU0ZYV3FJdUQxNDEyTmpmdEZuT2lmOHRwZXQxM0I1RWNZYTlZYnM3RnN2cHVNbDJwUGNqZHQ2M1JwT21QREpGNFE3Vy1CWEJDOGZabElfcU1mSmZvcnNjNTFxVERheFBDSXliQWxMaEJfZDcyem1ZT0hhdG1obDlGUy1BMjdEbDViOHQ5ZTVhY0dxQzY1YjRrSQ?oc=5",
             "published": "Wed, 07 Oct 2026 07:00:00 GMT",
-            "source": "Reuters",
-            "provider": "REUTERS",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "Wall Street shares notch records as oil prices stabilize, bond yields retreat",
-            "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZlMwQU1nbHRaZ2dnOUVOM1c1LXBxNXhWUTNzS1ROWDZyODk1NldRTHB2ODNKbnI0am5tUUcwMU9YekUxMWtLOFVGMFczTU12cHpCclQ1cnhDRzBMVGRBWTYwRjZPVUZidVFlT1FMZGdUcnR6MENjNXVMUXRzTlVzdVJkSQ?oc=5",
-            "published": "Tue, 06 Oct 2026 20:31:45 GMT",
-            "source": "Reuters",
-            "provider": "REUTERS",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "IEA to decide on details of diesel stocks release next week, sources say, as market confusion grows",
-            "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQTnlGM3VncWRWVWNmYlVqWFdPWUp0cVZhdTFaNEJiSF9zcjl1dWJQS2RtR1JQWThzakhia3VXWWZLenJWMThoaENIenZ4VFN3bjlqZlBZUnRXX0FPZGFVemJ4UHVEYWRBWnBZaURncVdkS2lOQmJGamF3aFFrclpHMGVqTGV2ZmhSWUNuZnhmcnd3ZGl5dnp5YzVsQzN0d3VBV3lfYjROczB3bUNOTHNwNkhVc0RGVzJFakE0ZVp1QUtwek0?oc=5",
-            "published": "Tue, 06 Oct 2026 15:01:43 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3888,5 +3868,5 @@
       }
     }
   },
-  "stocksUpdated": "2026-10-10T21:52:13.703Z"
+  "stocksUpdated": "2026-10-10T23:27:12.893Z"
 }
