@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-10T12:42:11.813Z",
+  "updated": "2026-10-10T15:50:09.083Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -27,16 +27,28 @@
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/40/ef/da/40efda88-49f4-a5ec-814c-6703689e539b/9791036624001.jpg/600x600bb.jpg"
       },
       {
+        "title": "Dungeon Crawler Carl",
+        "author": "Matt Dinniman",
+        "narrator": "Jeff Hays",
+        "image": "https://m.media-amazon.com/images/I/51HIZdnqASL._SL500_.jpg"
+      },
+      {
         "title": "He Who Fights with Monsters 13: A LitRPG Adventure",
         "author": "Shirtaloon",
         "narrator": "Heath Miller",
         "image": "https://m.media-amazon.com/images/I/51XVeo9KqOL._SL500_.jpg"
       },
       {
-        "title": "Dungeon Crawler Carl",
-        "author": "Matt Dinniman",
-        "narrator": "Jeff Hays",
-        "image": "https://m.media-amazon.com/images/I/51HIZdnqASL._SL500_.jpg"
+        "title": "The Safe Room",
+        "author": "Sarah A. Denzil",
+        "narrator": "Gemma Whelan , Maimie McCoy",
+        "image": ""
+      },
+      {
+        "title": "You Will Remember Nothing",
+        "author": "Liv Parkinson",
+        "narrator": "Raffey Cassidy , Tom Alexander , Nico Mirallegro",
+        "image": ""
       },
       {
         "title": "Carl's Doomsday Scenario",
@@ -49,18 +61,6 @@
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays , The Critical Drinker",
         "image": "https://covers.openlibrary.org/b/id/15262048-L.jpg"
-      },
-      {
-        "title": "The Let Them Theory",
-        "author": "Mel Robbins",
-        "narrator": "Mel Robbins",
-        "image": "https://m.media-amazon.com/images/I/51YOr6ua-PL._SL500_.jpg"
-      },
-      {
-        "title": "The Gate of the Feral Gods",
-        "author": "Matt Dinniman",
-        "narrator": "Jeff Hays",
-        "image": "https://m.media-amazon.com/images/I/51rmyTTWPsL._SL500_.jpg"
       }
     ],
     "BOOKS": [
@@ -123,15 +123,15 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-10-10T12:42:11.813Z",
-      "lastSuccessfulRefresh": "2026-10-10T12:42:11.813Z",
+      "checkedAt": "2026-10-10T15:50:09.083Z",
+      "lastSuccessfulRefresh": "2026-10-10T15:50:09.083Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
-      "status": "stale",
-      "checkedAt": "2026-10-10T12:42:19.639Z",
-      "lastSuccessfulRefresh": "2026-10-10T09:43:15.992Z",
-      "reason": "503 https://www.audible.co.uk/charts/best"
+      "status": "healthy",
+      "checkedAt": "2026-10-10T15:50:17.524Z",
+      "lastSuccessfulRefresh": "2026-10-10T15:50:17.524Z",
+      "reason": ""
     }
   }
 }
