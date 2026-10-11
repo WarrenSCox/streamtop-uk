@@ -1,7 +1,16 @@
 {
-  "updated": "2026-10-10T23:27:04.655Z",
+  "updated": "2026-10-11T02:07:50.424Z",
   "categories": {
     "UK": [
+      {
+        "title": "UK floods taskforce told to start looking at drought",
+        "link": "https://news.sky.com/story/uk-floods-taskforce-told-to-start-looking-at-drought-13597252",
+        "published": "Sun, 11 Oct 2026 00:01:00 +0100",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/10/1920x1080/skynews-flooding-storm-chandra_7373555.jpg?20261010190405"
+      },
       {
         "title": "Skies across the UK illuminated by the northern lights",
         "link": "https://www.theguardian.com/science/2026/oct/10/skies-across-the-uk-illuminated-by-the-northern-lights",
@@ -57,15 +66,6 @@
         "image": "https://i.guim.co.uk/img/media/e5a2f40ef00aec94530693a8d9665f6adf36c14c/763_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=4d4ea45720dcf9baac0da795c06c9f62"
       },
       {
-        "title": "Camden council was warned about paedophile nursery worker years before arrest",
-        "link": "https://www.theguardian.com/society/2026/oct/10/vincent-chan-paedophile-nursery-worker-camden-council-warning-years-before-arrest",
-        "published": "Sat, 10 Oct 2026 15:00:01 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Children Early years education Crime Education UK news London Society",
-        "image": "https://i.guim.co.uk/img/media/961439dcf4404cfe5293918f0d1e0ad1e52ee952/0_308_2000_1600/master/2000.jpg?width=140&quality=85&auto=format&fit=max&s=5faf6d5ce736240a70c80b4abc00335f"
-      },
-      {
         "title": "Four people arrested on suspicion of murder after teenager dies",
         "link": "https://news.sky.com/story/four-people-arrested-on-suspicion-of-murder-after-teenager-dies-13597313",
         "published": "Sat, 10 Oct 2026 15:18:00 +0100",
@@ -118,7 +118,7 @@
         "published": "Sat, 10 Oct 2026 19:00:07 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
-        "categories": "Childcare Australia Australia news Australian politics Anthony Albanese Labor party",
+        "categories": "Childcare Australia Australia news Australian politics Anthony Albanese Labor party Cost-of-living crisis Australian economy Welfare Inequality Business",
         "image": "https://i.guim.co.uk/img/media/edccf892d2d308fc139f4e9c68e1d065d5f697ce/47_0_1912_1530/master/1912.jpg?width=140&quality=85&auto=format&fit=max&s=127665b914c552f8a5c89cec76b26e9d"
       },
       {
@@ -371,6 +371,24 @@
     ],
     "TECH": [
       {
+        "title": "Why is Star Wars suddenly so good at video games? – Reader’s Feature",
+        "link": "https://metro.co.uk/2026/10/11/star-wars-suddenly-good-video-games-readers-feature-29696902/",
+        "published": "Sun, 11 Oct 2026 01:00:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Entertainment Gaming Games news Reader's Feature Star Wars",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/08/SEI_307985549-49b9.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "If Sony change their PlayStation disc policy people will like them again – Reader’s Feature",
+        "link": "https://metro.co.uk/2026/10/11/sony-change-playstation-disc-policy-people-will-like-readers-feature-29696916/",
+        "published": "Sun, 11 Oct 2026 00:00:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Entertainment Gaming PlayStation 5 PlayStation 6 Reader's Feature Sony Wolverine",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310242516-33e8.jpg?quality=90&strip=all&w=646"
+      },
+      {
         "title": "Nuclear war and malicious use of AI threaten end of humanity by 2100, says Lancet assessment",
         "link": "https://www.theguardian.com/global-development/2026/oct/11/nuclear-war-and-malicious-use-of-ai-threaten-end-of-humanity-by-2100-says-lancet-assessment",
         "published": "Sat, 10 Oct 2026 23:01:09 GMT",
@@ -378,6 +396,15 @@
         "provider": "GUARDIAN",
         "categories": "Global health Global development AI (artificial intelligence) Nuclear weapons Climate crisis World news",
         "image": "https://i.guim.co.uk/img/media/f50120ad5ffe55e5024a1ec6dc2e727ce8f4f95d/269_0_3928_3142/master/3928.jpg?width=140&quality=85&auto=format&fit=max&s=609145e51390ceb1f77dfc6c89916d36"
+      },
+      {
+        "title": "UK floods taskforce told to start looking at drought",
+        "link": "https://news.sky.com/story/uk-floods-taskforce-told-to-start-looking-at-drought-13597252",
+        "published": "Sun, 11 Oct 2026 00:01:00 +0100",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/10/1920x1080/skynews-flooding-storm-chandra_7373555.jpg?20261010190405"
       },
       {
         "title": "Daily horoscope October 11 2026: Today’s predictions for your star sign",
@@ -432,33 +459,6 @@
         "provider": "GUARDIAN",
         "categories": "Surveillance AI (artificial intelligence) Technology Business US news",
         "image": "https://i.guim.co.uk/img/media/534ffa8f09399e34aa739f1c1ce1520e46a80dad/57_0_4555_3646/master/4555.jpg?width=140&quality=85&auto=format&fit=max&s=c1edfb47cbb13ec16d97cfcdde10b567"
-      },
-      {
-        "title": "'Snowflake' firm in ASOS hack message issues response",
-        "link": "https://news.sky.com/story/snowflake-firm-in-asos-hacking-message-issues-response-13596833",
-        "published": "Fri, 09 Oct 2026 14:01:00 +0100",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/10/1920x1080/skynews-asos-file_7369449.jpg?20261006101437"
-      },
-      {
-        "title": "The Filter is two! 31 things we loved this year, from cloud-like duvets to the perfect running shoe",
-        "link": "https://www.theguardian.com/thefilter/2026/oct/09/the-filter-uk-turns-two-favourite-products-tried-tested",
-        "published": "Fri, 09 Oct 2026 14:00:31 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Life and style Homes Interiors Gadgets Food Women's hair Beauty Health & wellbeing Fashion Gardens Running Pizza Men's shoes Women's dresses Ice-cream and sorbet Men's tops Coffee Men's fashion Technology",
-        "image": "https://i.guim.co.uk/img/media/7dc6d1cdb7e5bd373301f56a6fd4e13a4cea569b/2_0_1996_1597/master/1996.jpg?width=140&quality=85&auto=format&fit=max&s=d1bb572640510fe2f99a943973963552"
-      },
-      {
-        "title": "‘This is not an anti-tech town’: backlash to datacenter in city once home to IBM",
-        "link": "https://www.theguardian.com/us-news/2026/oct/09/datacenter-backlash-ibm-east-fishkill-new-york",
-        "published": "Fri, 09 Oct 2026 13:00:28 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Datacenters – US Datacentres Technology US news World news New York",
-        "image": "https://i.guim.co.uk/img/media/b5feed698def6ab736780b864f672abf0d08e952/248_294_1549_1239/master/1549.jpg?width=140&quality=85&auto=format&fit=max&s=1516ee985afb803b2a884738100b0b00"
       }
     ],
     "ENTERTAINMENT": [
@@ -627,18 +627,18 @@
         "image": ""
       },
       {
-        "title": "Oil prices settle higher as more production shut ahead of hurricane",
-        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONW0wejJNQmpGTE9heFBmZG8wTWE5a010VFNMSDBqcThNXzBFTjZkbWF3NnpxSWxoVkRJSEhMcDk4VDh5OVp3bzlZNzdiS0pNTnd6aGkwQVZsU0JiOU9wb0k1ckN1V2ZUVl9sTFRuZnVhLXFlaDUwZGIxT2VxNW1RZUwyNlJ3c2ZxRkdONll5RVdtTnlfcDllN0pnLWE4VU1FblRvbHdkTkIwbHNk?oc=5",
-        "published": "Fri, 09 Oct 2026 20:19:51 GMT",
+        "title": "India's Jio Platforms targets $106 billion valuation in IPO, sources say",
+        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPLVBtV2xpdERRYnpuYTFjdGl4empoX2I5VVN5ZERGWW96V0FDRGRFNkVzR2lRUnhKbG1ta291NTM2YndMTnFHbDFMVHo2S3FkZEtITFhMUkcyV2hRLUhNeF9nQjY5M0tfcnZNcTZlS09PNlloQjlNNjdjYzQwVXA5a0p6MFJUaEtIMVFPNU5DbmpVbmhqcFg3MlJENFBQakZjWENxUVJhcGE1S3djdjhCcHFqTUV4RHlTVkNMd3hR?oc=5",
+        "published": "Fri, 09 Oct 2026 14:11:35 GMT",
         "source": "Reuters",
         "provider": "REUTERS",
         "categories": "",
         "image": ""
       },
       {
-        "title": "India's Jio Platforms targets $106 billion valuation in IPO, sources say",
-        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPLVBtV2xpdERRYnpuYTFjdGl4empoX2I5VVN5ZERGWW96V0FDRGRFNkVzR2lRUnhKbG1ta291NTM2YndMTnFHbDFMVHo2S3FkZEtITFhMUkcyV2hRLUhNeF9nQjY5M0tfcnZNcTZlS09PNlloQjlNNjdjYzQwVXA5a0p6MFJUaEtIMVFPNU5DbmpVbmhqcFg3MlJENFBQakZjWENxUVJhcGE1S3djdjhCcHFqTUV4RHlTVkNMd3hR?oc=5",
-        "published": "Fri, 09 Oct 2026 14:11:35 GMT",
+        "title": "AI-centered US stock bull market nears four-year anniversary",
+        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZThNNTgyNW8tMm1YNzBUMG1FRDdMVm9PNktJLUYtek04SHhGX1ZyY0tIM3RVbk50Yk5iSlROdUhjZV9DaWpIRHVrREVkN3dxVUlUUkRXYkhFREJaVVJLRGw1RS1GVTkwcVUweWlPd2xVSkNmY3RJYWZFdGxqYWVRZ2JiSzJOZTVWb3dvMndyRThaZ0NWN2tBMGQzNmtvaGxZSkVOd19rbzNGcjVEQlVhM0xTaGJXV1U?oc=5",
+        "published": "Fri, 09 Oct 2026 10:02:00 GMT",
         "source": "Reuters",
         "provider": "REUTERS",
         "categories": "",
@@ -767,6 +767,15 @@
             "image": "https://e3.365dm.com/26/10/1920x1080/skynews-yorkshire-wildlife-park_7373160.jpg?20261010160247"
           },
           {
+            "title": "UK floods taskforce told to start looking at drought",
+            "link": "https://news.sky.com/story/uk-floods-taskforce-told-to-start-looking-at-drought-13597252",
+            "published": "Sun, 11 Oct 2026 00:01:00 +0100",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/10/1920x1080/skynews-flooding-storm-chandra_7373555.jpg?20261010190405"
+          },
+          {
             "title": "'A horror scene': Boy and father in critical condition after masked men carry out attack in home",
             "link": "https://news.sky.com/story/boy-and-father-in-critical-condition-after-attack-in-own-home-by-masked-men-in-thurnby-13597095",
             "published": "Fri, 09 Oct 2026 23:34:00 +0100",
@@ -819,27 +828,9 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/09/1920x1080/skynews-garvaghy-road-orange-order_7363466.jpg?20260928163216"
-          },
-          {
-            "title": "Michelle O'Neill invited for police interview over Garvaghy Road protest",
-            "link": "https://news.sky.com/story/michelle-oneill-invited-for-police-interview-over-garvaghy-road-protest-13596985",
-            "published": "Fri, 09 Oct 2026 16:19:00 +0100",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/10/1920x1080/skynews-michelle-oneill-northern-ireland_7372334.jpg?20261009163919"
           }
         ],
         "WORLD": [
-          {
-            "title": "At least 12 killed and hundreds injured in Saudi Arabia airport 'missile attack'",
-            "link": "https://news.sky.com/story/uk-nationals-told-to-avoid-saudi-arabia-airport-after-missile-strikes-leave-many-wounded-13563284",
-            "published": "Tue, 14 Jul 2026 10:05:00 +0100",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/10/1920x1080/skynews-riyadh-saudi-arabia_7373514.jpg?20261010183214"
-          },
           {
             "title": "Founder of India's 'Cockroach' movement among hundreds detained amid mass protest",
             "link": "https://news.sky.com/story/indias-cockroach-movement-founder-detained-along-with-scores-of-protesters-13597121",
@@ -866,6 +857,15 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/10/1920x1080/skynews-hamam-al-hammami-flydubai_7367101.jpg?20261003101834"
+          },
+          {
+            "title": "At least 12 killed and hundreds injured in Saudi Arabia airport 'missile attack'",
+            "link": "https://news.sky.com/story/uk-nationals-told-to-avoid-saudi-arabia-airport-after-missile-strikes-leave-many-wounded-13563284",
+            "published": "Tue, 14 Jul 2026 10:05:00 +0100",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/10/1920x1080/skynews-riyadh-saudi-arabia_7373514.jpg?20261010183214"
           },
           {
             "title": "And the Nobel Peace Prize goes to...",
@@ -1018,6 +1018,15 @@
         ],
         "TECH": [
           {
+            "title": "UK floods taskforce told to start looking at drought",
+            "link": "https://news.sky.com/story/uk-floods-taskforce-told-to-start-looking-at-drought-13597252",
+            "published": "Sun, 11 Oct 2026 00:01:00 +0100",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/10/1920x1080/skynews-flooding-storm-chandra_7373555.jpg?20261010190405"
+          },
+          {
             "title": "Volunteer police force chief sacked after using work phone to capture sexual images",
             "link": "https://news.sky.com/story/head-of-metropolitan-polices-volunteer-force-sacked-after-ai-finds-he-captured-sexual-images-on-work-phone-13597161",
             "published": "Sat, 10 Oct 2026 10:24:00 +0100",
@@ -1097,15 +1106,6 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/10/1920x1080/skynews-sea-sewage_7370700.jpg?20261007161621"
-          },
-          {
-            "title": "'Pioneering' surgery means young cancer patient may have children",
-            "link": "https://news.sky.com/story/pioneering-surgery-means-young-cancer-patient-may-have-children-13596173",
-            "published": "Thu, 08 Oct 2026 04:22:00 +0100",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/10/1920x1080/skynews-surgery-operation-medical_7370647.jpg?20261007153433"
           }
         ],
         "ENTERTAINMENT": [
@@ -1563,7 +1563,7 @@
             "published": "Sat, 10 Oct 2026 19:00:07 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Childcare Australia Australia news Australian politics Anthony Albanese Labor party",
+            "categories": "Childcare Australia Australia news Australian politics Anthony Albanese Labor party Cost-of-living crisis Australian economy Welfare Inequality Business",
             "image": "https://i.guim.co.uk/img/media/edccf892d2d308fc139f4e9c68e1d065d5f697ce/47_0_1912_1530/master/1912.jpg?width=140&quality=85&auto=format&fit=max&s=127665b914c552f8a5c89cec76b26e9d"
           },
           {
@@ -3055,6 +3055,24 @@
         ],
         "TECH": [
           {
+            "title": "Why is Star Wars suddenly so good at video games? – Reader’s Feature",
+            "link": "https://metro.co.uk/2026/10/11/star-wars-suddenly-good-video-games-readers-feature-29696902/",
+            "published": "Sun, 11 Oct 2026 01:00:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment Gaming Games news Reader's Feature Star Wars",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/08/SEI_307985549-49b9.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "If Sony change their PlayStation disc policy people will like them again – Reader’s Feature",
+            "link": "https://metro.co.uk/2026/10/11/sony-change-playstation-disc-policy-people-will-like-readers-feature-29696916/",
+            "published": "Sun, 11 Oct 2026 00:00:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment Gaming PlayStation 5 PlayStation 6 Reader's Feature Sony Wolverine",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310242516-33e8.jpg?quality=90&strip=all&w=646"
+          },
+          {
             "title": "Daily horoscope October 11 2026: Today’s predictions for your star sign",
             "link": "https://metro.co.uk/2026/10/11/daily-horoscope-october-11-2026-predictions-star-sign-29696638/",
             "published": "Sat, 10 Oct 2026 23:01:00 +0000",
@@ -3266,7 +3284,7 @@
         },
         "TECH": {
           "ok": true,
-          "count": 1
+          "count": 3
         },
         "ENTERTAINMENT": {
           "ok": true,
@@ -3653,27 +3671,9 @@
             "image": ""
           },
           {
-            "title": "Oil prices settle higher as more production shut ahead of hurricane",
-            "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONW0wejJNQmpGTE9heFBmZG8wTWE5a010VFNMSDBqcThNXzBFTjZkbWF3NnpxSWxoVkRJSEhMcDk4VDh5OVp3bzlZNzdiS0pNTnd6aGkwQVZsU0JiOU9wb0k1ckN1V2ZUVl9sTFRuZnVhLXFlaDUwZGIxT2VxNW1RZUwyNlJ3c2ZxRkdONll5RVdtTnlfcDllN0pnLWE4VU1FblRvbHdkTkIwbHNk?oc=5",
-            "published": "Fri, 09 Oct 2026 20:19:51 GMT",
-            "source": "Reuters",
-            "provider": "REUTERS",
-            "categories": "",
-            "image": ""
-          },
-          {
             "title": "India's Jio Platforms targets $106 billion valuation in IPO, sources say",
             "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPLVBtV2xpdERRYnpuYTFjdGl4empoX2I5VVN5ZERGWW96V0FDRGRFNkVzR2lRUnhKbG1ta291NTM2YndMTnFHbDFMVHo2S3FkZEtITFhMUkcyV2hRLUhNeF9nQjY5M0tfcnZNcTZlS09PNlloQjlNNjdjYzQwVXA5a0p6MFJUaEtIMVFPNU5DbmpVbmhqcFg3MlJENFBQakZjWENxUVJhcGE1S3djdjhCcHFqTUV4RHlTVkNMd3hR?oc=5",
             "published": "Fri, 09 Oct 2026 14:11:35 GMT",
-            "source": "Reuters",
-            "provider": "REUTERS",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "Indian shares rise, end longest weekly losing streak in 25 years",
-            "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSUlMb1g5cjVaX2pyT0FWTUJ1N2xGTXV0OVN2WkFRQ2R2RS1Fdkc4cmloUC1yNzRlR2pYcW1KOVNjTW1kbmVZbWRhal9WS0dwcU9IeUVvcmRXcTlNZ3V2d0pFYUZndExqNXpNdWltSEhSUjBYRGdmcFpjWVpHT0VUQ3FIV0Q0SUxVdG9mT2lMZzY5bWVhcE92TkR2aEVmajNPVWN1SjZidFlsX1hjM0xVQzJTdHQ?oc=5",
-            "published": "Fri, 09 Oct 2026 10:33:06 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3707,9 +3707,18 @@
             "image": ""
           },
           {
+            "title": "Oil prices settle higher as more production shut ahead of hurricane",
+            "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONW0wejJNQmpGTE9heFBmZG8wTWE5a010VFNMSDBqcThNXzBFTjZkbWF3NnpxSWxoVkRJSEhMcDk4VDh5OVp3bzlZNzdiS0pNTnd6aGkwQVZsU0JiOU9wb0k1ckN1V2ZUVl9sTFRuZnVhLXFlaDUwZGIxT2VxNW1RZUwyNlJ3c2ZxRkdONll5RVdtTnlfcDllN0pnLWE4VU1FblRvbHdkTkIwbHNk?oc=5",
+            "published": "Fri, 09 Oct 2026 02:28:00 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
             "title": "SpaceX takes aim at US wireless carriers with spectrum acquisition",
             "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxORlFFTHdGeXpOZ3BQRk1pSC1uV1RCVTRqdjlqLWc1RVNSTG01OTlJNkhOdmRJVDI1SHd3NHQ2WEd2czY1N2JrdXc2LUtwazF2ME1SbVhoSHpBZmpPYU5PdkRGNENXWFlDbnc0SUo2VnoxbHhFYk1xdmdFVEZxcTUwUDBhcElkcDRmSzk3bTA3M3ZBZUlMYzVCZzJUSUR3ZUFDemZpMUtsWWhzYzIxVEp2OFhmalVDUHc4Y3JnRA?oc=5",
-            "published": "Fri, 09 Oct 2026 06:00:04 GMT",
+            "published": "Thu, 08 Oct 2026 20:19:00 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3746,6 +3755,15 @@
             "title": "Hedge funds deliver mixed September results on AI swings",
             "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUZkZi1QLXNOR283SlRkU0ZYV3FJdUQxNDEyTmpmdEZuT2lmOHRwZXQxM0I1RWNZYTlZYnM3RnN2cHVNbDJwUGNqZHQ2M1JwT21QREpGNFE3Vy1CWEJDOGZabElfcU1mSmZvcnNjNTFxVERheFBDSXliQWxMaEJfZDcyem1ZT0hhdG1obDlGUy1BMjdEbDViOHQ5ZTVhY0dxQzY1YjRrSQ?oc=5",
             "published": "Wed, 07 Oct 2026 07:00:00 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "Wall Street shares notch records as oil prices stabilize, bond yields retreat",
+            "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZlMwQU1nbHRaZ2dnOUVOM1c1LXBxNXhWUTNzS1ROWDZyODk1NldRTHB2ODNKbnI0am5tUUcwMU9YekUxMWtLOFVGMFczTU12cHpCclQ1cnhDRzBMVGRBWTYwRjZPVUZidVFlT1FMZGdUcnR6MENjNXVMUXRzTlVzdVJkSQ?oc=5",
+            "published": "Tue, 06 Oct 2026 20:31:45 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3868,5 +3886,5 @@
       }
     }
   },
-  "stocksUpdated": "2026-10-10T23:27:12.893Z"
+  "stocksUpdated": "2026-10-11T02:07:58.970Z"
 }
