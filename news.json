@@ -1,24 +1,69 @@
 {
-  "updated": "2026-10-11T09:15:08.649Z",
+  "updated": "2026-10-11T13:03:05.939Z",
   "categories": {
     "UK": [
       {
-        "title": "Surgeon faces deportation as Home Office revokes refugee status for Syrians",
-        "link": "https://www.theguardian.com/politics/2026/oct/11/surgeon-faces-deportation-syria-uk-home-office-revokes-refugee-status-syrians",
-        "published": "Sun, 11 Oct 2026 09:00:22 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Home Office Immigration and asylum Refugees Syria UK news Politics London",
-        "image": "https://i.guim.co.uk/img/media/593f4301a5523f348578c72b5a2413b71924e00a/600_0_4583_3667/master/4583.jpg?width=140&quality=85&auto=format&fit=max&s=d71e4a699440500a701a249c64c021e7"
+        "title": "Reservoir dries up revealing impressive prehistoric villages",
+        "link": "https://metro.co.uk/2026/10/11/reservoir-dries-revealing-impressive-prehistoric-villages-29698774/",
+        "published": "Sun, 11 Oct 2026 12:10:16 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News UK Devon Heatwave History",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316165847-3729.jpg?quality=90&strip=all&w=646"
       },
       {
-        "title": "After RAF Fairford incident, how big a threat to the UK is Iran?",
-        "link": "https://www.theguardian.com/uk-news/2026/oct/11/after-raf-fairford-how-big-threat-uk-iran",
-        "published": "Sun, 11 Oct 2026 09:00:21 GMT",
+        "title": "People smugglers are still profiting from small boats. Can the UK fix the crisis?",
+        "link": "https://www.theguardian.com/uk-news/2026/oct/11/people-smugglers-profit-small-boats-can-uk-fix-crisis",
+        "published": "Sun, 11 Oct 2026 12:00:27 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
-        "categories": "UK security and counter-terrorism Defence policy Iran US military UK news Politics US news World news",
-        "image": "https://i.guim.co.uk/img/media/a1300a7434278bbdac6f10899814a6b68460510d/414_0_5263_4210/master/5263.jpg?width=140&quality=85&auto=format&fit=max&s=3266481118cfe56b6a3eb3a32d528b70"
+        "categories": "Immigration and asylum Home Office Politics UK news France Migration Refugees Europe World news",
+        "image": "https://i.guim.co.uk/img/media/6b54c071a496f64a5281f0f4e9baf8965f4c0adf/180_0_2740_2192/master/2740.jpg?width=140&quality=85&auto=format&fit=max&s=74fcf0c3275b5cb4f67e8207742a01fd"
+      },
+      {
+        "title": "First picture of tiger who killed man in enclosure as zoo reveals its fate",
+        "link": "https://metro.co.uk/2026/10/11/wildlife-park-reveals-tigers-fate-statement-man-killed-enclosure-29698801/",
+        "published": "Sun, 11 Oct 2026 11:52:13 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News UK Animals Doncaster Yorkshire",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316080095-818a.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Northern Lights sighted all over UK and you could see them again tonight",
+        "link": "https://metro.co.uk/2026/10/11/northern-lights-sighted-across-uk-see-tonight-29698703/",
+        "published": "Sun, 11 Oct 2026 11:22:03 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News UK Devon England Hampshire Kent Met Office Northern Lights Scotland Swindon UK weather Weather",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316167515-9b86.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Burnham faces questions over push to scrap photo ID voting requirement",
+        "link": "https://www.theguardian.com/politics/2026/oct/11/andy-burnham-faces-questions-electoral-system-changes-photo-id-voting",
+        "published": "Sun, 11 Oct 2026 11:16:05 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Electoral reform Labour Andy Burnham House of Lords Electoral Commission Party funding General elections Politics UK news",
+        "image": "https://i.guim.co.uk/img/media/ab71e304b00e9526f74e773d0bb171bb7640ce98/1215_60_3944_3157/master/3944.jpg?width=140&quality=85&auto=format&fit=max&s=3df8c6b9428574140c0964c210a9c5ca"
+      },
+      {
+        "title": "Greatest threats to human survival revealed as two could wipe us out by next century",
+        "link": "https://metro.co.uk/2026/10/11/greatest-threats-human-survival-revealed-two-wipe-us-next-century-29698450/",
+        "published": "Sun, 11 Oct 2026 10:20:07 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News World Death Health News",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEC_316172602-3930.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Britain stands behind Zelenskyy, says Streeting after Trump’s call for new leader in Ukraine",
+        "link": "https://www.theguardian.com/politics/2026/oct/11/britain-stands-behind-zelenskyy-streeting-trump-ukraine",
+        "published": "Sun, 11 Oct 2026 10:03:16 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Foreign policy Wes Streeting Ukraine Volodymyr Zelenskyy Trump administration Russia Europe World news Politics UK news",
+        "image": "https://i.guim.co.uk/img/media/7894c3c5dd3783a05e4469021dabf9d36574628c/987_278_3745_2996/master/3745.jpg?width=140&quality=85&auto=format&fit=max&s=101d22b4505578b2e5c0f6affbb580ec"
       },
       {
         "title": "Numbers up for Buzz Bingo as owner explores sale",
@@ -28,51 +73,6 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/10/1920x1080/skynews-buzz-bingo-website_7373799.jpg?20261011081320"
-      },
-      {
-        "title": "Urgent warning issued after Salmonella found in eggs imported from Ukraine",
-        "link": "https://metro.co.uk/2026/10/11/urgent-warning-issued-salmonella-found-imported-eggs-29698297/",
-        "published": "Sun, 11 Oct 2026 07:18:48 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News UK Egg Food recalls Health News",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_310527610-351c.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "‘Gaza is a moral tear in the universe’: Naomi Klein and Astra Taylor | Radical Thinking with Aditya Chakrabortty – podcast",
-        "link": "https://www.theguardian.com/news/audio/2026/oct/11/gaza-is-a-moral-tear-in-the-universe-naomi-klein-and-astra-taylor-radical-thinking-with-aditya-chakrabortty-podcast",
-        "published": "Sun, 11 Oct 2026 07:00:20 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Politics Trump administration Donald Trump Climate crisis AI (artificial intelligence) Elon Musk Gaza US politics UK news US news World news",
-        "image": "https://i.guim.co.uk/img/media/94b5d3f21f443f54277cfa6a35ec6c17b937751b/365_0_2698_2160/master/2698.jpg?width=140&quality=85&auto=format&fit=max&s=6b8077ecfb7c35326a1f405acbced0dc"
-      },
-      {
-        "title": "Man killed in tiger enclosure ‘grabbed by throat’ seconds after ‘scaling fence’",
-        "link": "https://metro.co.uk/2026/10/11/tiger-grabbed-man-throat-seconds-jumped-enclosure-29698275/",
-        "published": "Sun, 11 Oct 2026 06:57:47 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News UK Tiger Yorkshire",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316071736-3c15.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "‘We need less point scoring’: What party conference season taught us about UK climate action",
-        "link": "https://www.theguardian.com/politics/2026/oct/11/party-conference-season-uk-climate-action-tories-greens-labour",
-        "published": "Sun, 11 Oct 2026 06:00:18 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Politics Conservatives Green party Labour Kemi Badenoch Zack Polanski Andy Burnham Heat pumps Construction industry Housing Solar power Household bills Society Renewable energy UK news Environment Consumer affairs Business Energy Money Environment policy Conservative conference 2026 Labour conference 2026 Climate crisis Green building Energy bills",
-        "image": "https://i.guim.co.uk/img/media/d7c170a72e586c258e9e01b283090d1bd75ff28f/882_0_6195_4956/master/6195.jpg?width=140&quality=85&auto=format&fit=max&s=0e6b7a467199207dafc808b869c29901"
-      },
-      {
-        "title": "‘I was on the phone with my son as he was hit by a car’",
-        "link": "https://metro.co.uk/2026/10/11/i-phone-son-hit-a-car-29698073/",
-        "published": "Sun, 11 Oct 2026 05:00:00 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News UK Crime News London",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315903567-95ee.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "UK floods taskforce told to start looking at drought",
@@ -95,13 +95,58 @@
     ],
     "WORLD": [
       {
-        "title": "Flash flooding destroys homes in Nepal",
-        "link": "https://news.sky.com/story/residents-evacuated-after-flash-flooding-destroys-homes-in-nepal-13597674",
-        "published": "Sun, 11 Oct 2026 08:46:00 +0100",
+        "title": "Pope Leo to undergo surgery in coming days after nodule discovered on his lung",
+        "link": "https://news.sky.com/story/pope-leo-to-undergo-surgery-in-coming-days-after-nodule-discovered-on-his-lung-13597712",
+        "published": "Sun, 11 Oct 2026 11:25:00 +0100",
         "source": "Sky News",
         "provider": "SKY",
         "categories": "",
-        "image": "https://e3.365dm.com/26/10/1920x1080/skynews-residents-evacuated_7373824.jpg?20261011090415"
+        "image": "https://e3.365dm.com/26/10/1920x1080/skynews-pope-leo_7373928.jpg?20261011115441"
+      },
+      {
+        "title": "Trump threatens to join air strikes after Riyadh airport attack kills 12 and injures 300",
+        "link": "https://metro.co.uk/2026/10/11/riyadh-airport-attack-kills-12-injures-300-trump-threatens-strikes-29698520/",
+        "published": "Sun, 11 Oct 2026 10:19:23 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News World Iran war Middle East Saudi Arabia Yemen",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316118974-f8c2.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Four dead after Hurricane Isaias crashes into US - as Mexico braces itself for Category 4 storm",
+        "link": "https://news.sky.com/story/four-dead-as-hurricane-isaias-crashes-into-us-as-mexico-braces-itself-for-major-storm-13597710",
+        "published": "Sun, 11 Oct 2026 11:13:00 +0100",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/10/1920x1080/skynews-hurricane-isaias-florida_7373907.jpg?20261011112840"
+      },
+      {
+        "title": "109 dead, more than 116 missing, after ship capsizes off coast of Djibouti, UN agency says",
+        "link": "https://news.sky.com/story/109-dead-after-ship-sinks-off-coast-of-djibouti-un-agency-says-13597707",
+        "published": "Sun, 11 Oct 2026 11:08:00 +0100",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/10/1920x1080/skynews-bab-el-mandeb-yemen_7373917.jpg?20261011113957"
+      },
+      {
+        "title": "Trump chants ‘we will kill everyone’ and ‘praise be to Allah’ in bizarre speech",
+        "link": "https://metro.co.uk/2026/10/11/trump-chants-we-will-kill-everyone-praise-allah-bizarre-speech-29698465/",
+        "published": "Sun, 11 Oct 2026 09:16:42 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News US Donald Trump Iran United States of America",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316153827-ed15.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "'If we don't do it, nobody else will': Inside Ukraine's wartime postal service",
+        "link": "https://news.sky.com/story/inside-ukraines-wartime-postal-service-which-risks-everything-to-take-supplies-to-frontline-towns-13597690",
+        "published": "Sun, 11 Oct 2026 09:37:00 +0100",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/10/1920x1080/skynews-ukraine-post-office_7373873.jpg?20261011095927"
       },
       {
         "title": "Missing Australian hiker Jordan Yap last seen on remote trail found dead in Peru",
@@ -111,15 +156,6 @@
         "provider": "GUARDIAN",
         "categories": "Melbourne Australia news Peru Americas",
         "image": "https://i.guim.co.uk/img/media/6936df5e66710ad5dd3c7f1b9743a4de357c3725/138_0_1773_1418/master/1773.jpg?width=140&quality=85&auto=format&fit=max&s=5b6434d8a3d91eba8c2eac9a737efd7b"
-      },
-      {
-        "title": "Urgent warning issued after Salmonella found in eggs imported from Ukraine",
-        "link": "https://metro.co.uk/2026/10/11/urgent-warning-issued-salmonella-found-imported-eggs-29698297/",
-        "published": "Sun, 11 Oct 2026 07:18:48 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News UK Egg Food recalls Health News",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_310527610-351c.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "‘It was a terrible thing’: Panama declares state of emergency as quake aftershocks rattle communities",
@@ -140,15 +176,6 @@
         "image": "https://i.guim.co.uk/img/media/bb6c00b74cc2b4bd2e462c6838bf5e85e8bc0092/515_0_2608_2086/master/2608.jpg?width=140&quality=85&auto=format&fit=max&s=fc8bd15046affc4dd695a5f99c838d40"
       },
       {
-        "title": "Fresh Jodie mystery triggered in Coronation Street as Shona gets a sinister shock",
-        "link": "https://metro.co.uk/2026/10/11/coronation-street-jodie-mystery-triggered-shona-gets-a-sinister-shock-29695110/",
-        "published": "Sun, 11 Oct 2026 06:30:00 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Coronation Street Soaps David Platt Jack P. Shepherd Jodie Ramsey Julia Goulding Olivia Frances-Brown Shona Platt",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_311203487-dfe9.jpg?quality=90&strip=all&w=646"
-      },
-      {
         "title": "Boy saved from bear attack after mobile phone exploded as he was mauled by predator",
         "link": "https://metro.co.uk/2026/10/10/teen-survives-bear-attack-phone-explodes-29698010/",
         "published": "Sat, 10 Oct 2026 19:54:07 +0000",
@@ -156,53 +183,44 @@
         "provider": "METRO",
         "categories": "News World Animals Russia",
         "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_313675273-c1c5.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Founder of India's 'Cockroach' movement among hundreds detained amid mass protest",
-        "link": "https://news.sky.com/story/indias-cockroach-movement-founder-detained-along-with-scores-of-protesters-13597121",
-        "published": "Sat, 10 Oct 2026 07:57:00 +0100",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/10/1920x1080/skynews-india-demonstation_7372655.jpg?20261010081526"
-      },
-      {
-        "title": "Three men found guilty of killing Australian brothers and their American friend",
-        "link": "https://news.sky.com/story/three-found-guilty-of-killing-australian-brothers-and-american-friend-on-mexico-surf-trip-13597092",
-        "published": "Fri, 09 Oct 2026 23:20:00 +0100",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/10/1920x1080/skynews-jake-callum-robinson_7372589.jpg?20261010002747"
-      },
-      {
-        "title": "Flydubai hijacker planned to crash aircraft in 9/11-inspired attack, UAE says",
-        "link": "https://news.sky.com/story/flydubai-co-pilot-planned-to-crash-aircraft-into-ben-gurion-airport-uae-says-13597009",
-        "published": "Fri, 09 Oct 2026 17:30:00 +0100",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/10/1920x1080/skynews-hamam-al-hammami-flydubai_7367101.jpg?20261003101834"
       }
     ],
     "POLITICS": [
       {
-        "title": "‘Gaza is a moral tear in the universe’: Naomi Klein and Astra Taylor | Radical Thinking with Aditya Chakrabortty – podcast",
-        "link": "https://www.theguardian.com/news/audio/2026/oct/11/gaza-is-a-moral-tear-in-the-universe-naomi-klein-and-astra-taylor-radical-thinking-with-aditya-chakrabortty-podcast",
-        "published": "Sun, 11 Oct 2026 07:00:20 GMT",
+        "title": "People smugglers are still profiting from small boats. Can the UK fix the crisis?",
+        "link": "https://www.theguardian.com/uk-news/2026/oct/11/people-smugglers-profit-small-boats-can-uk-fix-crisis",
+        "published": "Sun, 11 Oct 2026 12:00:27 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
-        "categories": "Politics Trump administration Donald Trump Climate crisis AI (artificial intelligence) Elon Musk Gaza US politics UK news US news World news",
-        "image": "https://i.guim.co.uk/img/media/94b5d3f21f443f54277cfa6a35ec6c17b937751b/365_0_2698_2160/master/2698.jpg?width=140&quality=85&auto=format&fit=max&s=6b8077ecfb7c35326a1f405acbced0dc"
+        "categories": "Immigration and asylum Home Office Politics UK news France Migration Refugees Europe World news",
+        "image": "https://i.guim.co.uk/img/media/6b54c071a496f64a5281f0f4e9baf8965f4c0adf/180_0_2740_2192/master/2740.jpg?width=140&quality=85&auto=format&fit=max&s=74fcf0c3275b5cb4f67e8207742a01fd"
       },
       {
-        "title": "‘We need less point scoring’: What party conference season taught us about UK climate action",
-        "link": "https://www.theguardian.com/politics/2026/oct/11/party-conference-season-uk-climate-action-tories-greens-labour",
-        "published": "Sun, 11 Oct 2026 06:00:18 GMT",
+        "title": "Burnham faces questions over push to scrap photo ID voting requirement",
+        "link": "https://www.theguardian.com/politics/2026/oct/11/andy-burnham-faces-questions-electoral-system-changes-photo-id-voting",
+        "published": "Sun, 11 Oct 2026 11:16:05 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
-        "categories": "Politics Conservatives Green party Labour Kemi Badenoch Zack Polanski Andy Burnham Heat pumps Construction industry Housing Solar power Household bills Society Renewable energy UK news Environment Consumer affairs Business Energy Money Environment policy Conservative conference 2026 Labour conference 2026 Climate crisis Green building Energy bills",
-        "image": "https://i.guim.co.uk/img/media/d7c170a72e586c258e9e01b283090d1bd75ff28f/882_0_6195_4956/master/6195.jpg?width=140&quality=85&auto=format&fit=max&s=0e6b7a467199207dafc808b869c29901"
+        "categories": "Electoral reform Labour Andy Burnham House of Lords Electoral Commission Party funding General elections Politics UK news",
+        "image": "https://i.guim.co.uk/img/media/ab71e304b00e9526f74e773d0bb171bb7640ce98/1215_60_3944_3157/master/3944.jpg?width=140&quality=85&auto=format&fit=max&s=3df8c6b9428574140c0964c210a9c5ca"
+      },
+      {
+        "title": "Labour has got the message – developing nations suffer most from bond market turmoil | Heather Stewart",
+        "link": "https://www.theguardian.com/business/2026/oct/11/labour-bond-market-turmoil-developing-nations-andy-burnham-brown-blair",
+        "published": "Sun, 11 Oct 2026 10:11:19 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Debt relief Global economy Economics G20 International Monetary Fund (IMF) World Bank Bonds Emerging markets Economic policy Labour Politics UK news World news Business",
+        "image": "https://i.guim.co.uk/img/media/da3a2e966c63537aa017958bf563b83cbeed6911/201_0_4096_3280/master/4096.jpg?width=140&quality=85&auto=format&fit=max&s=b1036d42ce35edbe2d9eabc95afc7ac9"
+      },
+      {
+        "title": "Britain stands behind Zelenskyy, says Streeting after Trump’s call for new leader in Ukraine",
+        "link": "https://www.theguardian.com/politics/2026/oct/11/britain-stands-behind-zelenskyy-streeting-trump-ukraine",
+        "published": "Sun, 11 Oct 2026 10:03:16 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Foreign policy Wes Streeting Ukraine Volodymyr Zelenskyy Trump administration Russia Europe World news Politics UK news",
+        "image": "https://i.guim.co.uk/img/media/7894c3c5dd3783a05e4469021dabf9d36574628c/987_278_3745_2996/master/3745.jpg?width=140&quality=85&auto=format&fit=max&s=101d22b4505578b2e5c0f6affbb580ec"
       },
       {
         "title": "MPs bag nearly £500k in freebies from UAE and Manchester City as campaigners raise ‘conflict of interest’ concern",
@@ -212,24 +230,6 @@
         "provider": "METRO",
         "categories": "News Politics Andy Burnham Conservative Party Labour Party Manchester City FC",
         "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_314969240-eb67.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Greens must avoid ‘capture by extremists and racists’, says party MP",
-        "link": "https://www.theguardian.com/politics/2026/oct/10/greens-must-avoid-capture-by-extremists-and-racists-ellie-chowns-zionism-racism",
-        "published": "Sat, 10 Oct 2026 11:46:03 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Green party Zack Polanski Politics UK news Judaism",
-        "image": "https://i.guim.co.uk/img/media/aa45a9e2289da29f8f64114b03c06771113a50e7/1725_409_3595_2876/master/3595.jpg?width=140&quality=85&auto=format&fit=max&s=a7b22086e7b3fbc6a4fd7ed6ce830ed9"
-      },
-      {
-        "title": "UK must not be beholden to foreign AI, says head of Alan Turing Institute",
-        "link": "https://www.theguardian.com/technology/2026/oct/10/uk-foreign-ai-head-alan-turing-institute-george-williamson",
-        "published": "Sat, 10 Oct 2026 10:00:55 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "AI (artificial intelligence) UK news Defence policy UK security and counter-terrorism Politics Technology Computing",
-        "image": "https://i.guim.co.uk/img/media/86f6ce436080552a980f816a4c5ba14072a37b86/545_213_5198_4158/master/5198.jpg?width=140&quality=85&auto=format&fit=max&s=d3dfce885f900e948ce678c839cdbbf8"
       },
       {
         "title": "Polanski's gamble fails - as the Burnham honeymoon rolls on",
@@ -279,13 +279,13 @@
     ],
     "BUSINESS": [
       {
-        "title": "British duo stranded in Botswana hike 70km in Birkenstocks surrounded by lions",
-        "link": "https://metro.co.uk/2026/10/11/british-duo-stranded-botswana-hike-70km-birkenstocks-surrounded-lions-29698401/",
-        "published": "Sun, 11 Oct 2026 08:33:05 +0000",
+        "title": "Cathay Pacific Business Class review: ‘The most unusual in-flight meal I’ve ever had’",
+        "link": "https://metro.co.uk/2026/10/11/cathay-pacific-business-class-review-the-unusual-in-flight-meal-ever-had-29691797/",
+        "published": "Sun, 11 Oct 2026 11:00:00 +0000",
         "source": "Metro",
         "provider": "METRO",
-        "categories": "News World Animals Botswana",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316165732-ed1e.jpg?quality=90&strip=all&w=646"
+        "categories": "Lifestyle Travel Airline Reviews Flights Travel Inspiration Travel Reviews",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/GettyImages-2231825269-8acc.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "Numbers up for Buzz Bingo as owner explores sale",
@@ -371,13 +371,31 @@
     ],
     "TECH": [
       {
-        "title": "Met police chief fired after accessing ‘intimate’ photos of women on work phone",
-        "link": "https://metro.co.uk/2026/10/11/met-police-chief-fired-using-work-phone-access-intimate-pictures-women-29698258/",
-        "published": "Sun, 11 Oct 2026 07:18:07 +0000",
+        "title": "Texting ‘Sorry just seen this’ is actually rude, according to etiquette experts",
+        "link": "https://metro.co.uk/2026/10/11/texting-sorry-just-seen-this-actually-rude-according-etiquette-experts-29694702/",
+        "published": "Sun, 11 Oct 2026 11:00:00 +0000",
         "source": "Metro",
         "provider": "METRO",
-        "categories": "News UK Artificial Intelligence Crime News London Metropolitan Police",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316161707-c75f.jpg?quality=90&strip=all&w=646"
+        "categories": "Lifestyle Modern Etiquette Social Media",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/GettyImages-2198912604-1-3439.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Fixated on AI, the world has forgotten what is staring it in the face: nuclear annihilation | Simon Tisdall",
+        "link": "https://www.theguardian.com/commentisfree/2026/oct/11/ai-annihilation-advanced-nuclear-weapons",
+        "published": "Sun, 11 Oct 2026 09:00:22 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Nuclear weapons AI (artificial intelligence) World news Technology Donald Trump US news Iran US foreign policy Middle East and north Africa",
+        "image": "https://i.guim.co.uk/img/media/603ece70d9015d3f39bcf155098c10c864112098/192_528_1858_1487/master/1858.jpg?width=140&quality=85&auto=format&fit=max&s=d07bf9a67f3cf7241663c6ada77c859f"
+      },
+      {
+        "title": "AI and nuclear war threaten human extinction by 2100, report warns",
+        "link": "https://news.sky.com/story/ai-and-nuclear-war-threaten-human-extinction-by-2100-report-warns-13597676",
+        "published": "Sun, 11 Oct 2026 08:54:00 +0100",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/08/1920x1080/skynews-artificial-intelligence_7333218.jpg?20260911120951"
       },
       {
         "title": "‘You have a meeting’: the calendar phishing scam growing exponentially",
@@ -387,33 +405,6 @@
         "provider": "GUARDIAN",
         "categories": "Scams Consumer affairs Money Cybercrime Data and computer security Internet safety Google Technology UK news US news",
         "image": "https://i.guim.co.uk/img/media/26d72cb1f65c0c4f02670bd2e39f1d87f06eb73e/849_0_5555_4444/master/5555.jpg?width=140&quality=85&auto=format&fit=max&s=43f46be4401615d1fef852ad7a8d4581"
-      },
-      {
-        "title": "Your star sign’s weekly tarot horoscope reading for October 12 to October 18",
-        "link": "https://metro.co.uk/2026/10/11/weekly-tarot-horoscope-reading-october-12-october-18-2026-29697908/",
-        "published": "Sun, 11 Oct 2026 03:00:00 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Horoscopes Lifestyle Aquarius Aries Astrology Cancer (star sign) Capricorn Gemini Leo Libra Pisces Sagittarius Scorpio Tarot Taurus Virgo",
-        "image": "https://metro.co.uk/wp-content/uploads/2022/04/SEI_96594073.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Why is Star Wars suddenly so good at video games? – Reader’s Feature",
-        "link": "https://metro.co.uk/2026/10/11/star-wars-suddenly-good-video-games-readers-feature-29696902/",
-        "published": "Sun, 11 Oct 2026 01:00:00 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Entertainment Gaming Games news Reader's Feature Star Wars",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/08/SEI_307985549-49b9.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "If Sony change their PlayStation disc policy people will like them again – Reader’s Feature",
-        "link": "https://metro.co.uk/2026/10/11/sony-change-playstation-disc-policy-people-will-like-readers-feature-29696916/",
-        "published": "Sun, 11 Oct 2026 00:00:00 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Entertainment Gaming PlayStation 5 PlayStation 6 Reader's Feature Sony Wolverine",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310242516-33e8.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "Nuclear war and malicious use of AI threaten end of humanity by 2100, says Lancet assessment",
@@ -434,6 +425,15 @@
         "image": "https://e3.365dm.com/26/10/1920x1080/skynews-flooding-storm-chandra_7373555.jpg?20261010190405"
       },
       {
+        "title": "Volunteer police force chief sacked after using work phone to capture sexual images",
+        "link": "https://news.sky.com/story/head-of-metropolitan-polices-volunteer-force-sacked-after-ai-finds-he-captured-sexual-images-on-work-phone-13597161",
+        "published": "Sat, 10 Oct 2026 10:24:00 +0100",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/10/1920x1080/skynews-james-deller-special-constabulary_7372855.jpg?20261010122337"
+      },
+      {
         "title": "Parents fear YouTubers are bringing ‘brain rot’ to Netflix. But are kids wising up to ‘slop’?",
         "link": "https://www.theguardian.com/tv-and-radio/2026/oct/11/parents-fear-youtubers-are-bringing-brain-rot-to-netflix-but-are-kids-wising-up-to-slop",
         "published": "Sat, 10 Oct 2026 19:00:06 GMT",
@@ -443,13 +443,13 @@
         "image": "https://i.guim.co.uk/img/media/bfa4ec89d972ddd11fb12e18622373ef31038bc6/385_0_5498_4398/master/5498.jpg?width=140&quality=85&auto=format&fit=max&s=65f0798664eb3c60c5fc746c9135654d"
       },
       {
-        "title": "Volunteer police force chief sacked after using work phone to capture sexual images",
-        "link": "https://news.sky.com/story/head-of-metropolitan-polices-volunteer-force-sacked-after-ai-finds-he-captured-sexual-images-on-work-phone-13597161",
-        "published": "Sat, 10 Oct 2026 10:24:00 +0100",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/10/1920x1080/skynews-james-deller-special-constabulary_7372855.jpg?20261010122337"
+        "title": "UK must not be beholden to foreign AI, says head of Alan Turing Institute",
+        "link": "https://www.theguardian.com/technology/2026/oct/10/uk-foreign-ai-head-alan-turing-institute-george-williamson",
+        "published": "Sat, 10 Oct 2026 10:00:55 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "AI (artificial intelligence) UK news Defence policy UK security and counter-terrorism Politics Technology Computing",
+        "image": "https://i.guim.co.uk/img/media/86f6ce436080552a980f816a4c5ba14072a37b86/545_213_5198_4158/master/5198.jpg?width=140&quality=85&auto=format&fit=max&s=d3dfce885f900e948ce678c839cdbbf8"
       },
       {
         "title": "AI sent police fake tip about unsolved murder",
@@ -463,40 +463,40 @@
     ],
     "ENTERTAINMENT": [
       {
-        "title": "Kelsey Parker: ‘I feared negativity caused my baby’s death – so I kept my next pregnancy secret’",
-        "link": "https://metro.co.uk/2026/10/11/kelsey-parker-i-feared-negativity-caused-babys-death-kept-next-pregnancy-secret-29691256/",
-        "published": "Sun, 11 Oct 2026 08:00:00 +0000",
+        "title": "Strictly Come Dancing’s Bethany Antonia’s trans ally T-shirt edited out of show by BBC",
+        "link": "https://metro.co.uk/2026/10/11/strictly-come-dancings-bethany-antonias-trans-ally-t-shirt-edited-show-bbc-29698569/",
+        "published": "Sun, 11 Oct 2026 13:01:57 +0000",
         "source": "Metro",
         "provider": "METRO",
-        "categories": "Entertainment Showbiz Baby Exclusive grief Kelsey Parker Real Life Tom Parker",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_314301623-397d-e1791463015294.jpg?quality=90&strip=all&w=646"
+        "categories": "Entertainment TV BBC Bethany Antonia LGBTQ+ Nancy Xu Strictly Come Dancing",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEC_316192280-d092.jpg?quality=90&strip=all&w=646"
       },
       {
-        "title": "Celebrity Traitors in chaos after ‘finalists are leaked by star’s friend’",
-        "link": "https://metro.co.uk/2026/10/11/celebrity-traitors-chaos-finalists-leaked-stars-friend-29698307/",
-        "published": "Sun, 11 Oct 2026 07:25:02 +0000",
+        "title": "Strictly’s Shirley Ballas’ scoring of rumoured dancer boyfriend ‘didn’t breach rules’ at competition",
+        "link": "https://metro.co.uk/2026/10/11/shirley-ballas-didnt-breach-rules-giving-rumoured-boyfriend-high-scores-competition-29698349/",
+        "published": "Sun, 11 Oct 2026 10:35:45 +0000",
         "source": "Metro",
         "provider": "METRO",
-        "categories": "Entertainment TV BBC Celebrity Traitors",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_314721494-b439-e1790857503318.jpg?quality=90&strip=all&w=646"
+        "categories": "Entertainment TV Shirley Ballas Strictly Come Dancing",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312989471-f88e.jpg?quality=90&strip=all&w=646"
       },
       {
-        "title": "Grace Campbell: ‘I had sex just outside the Vatican’",
-        "link": "https://metro.co.uk/2026/10/11/grace-campbell-i-sex-just-outside-vatican-29694946/",
-        "published": "Sun, 11 Oct 2026 06:00:00 +0000",
+        "title": "Fans have been calling this Strictly star ‘unlikeable’ – I couldn’t disagree more",
+        "link": "https://metro.co.uk/2026/10/11/fans-calling-this-strictly-star-unlikeable-couldnt-disagree-29698423/",
+        "published": "Sun, 11 Oct 2026 09:48:21 +0000",
         "source": "Metro",
         "provider": "METRO",
-        "categories": "Entertainment Showbiz Comedians Comedy",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315895159-c8eb-e1791551607697.jpg?quality=90&strip=all&w=559"
+        "categories": "Entertainment TV BBC Carlos Gu Columnists Jaime Winstone Opinion Strictly Come Dancing",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_313469142-e3c2.jpg?quality=90&strip=all&w=646"
       },
       {
-        "title": "Strictly’s Amy Dowden praised for ‘iconic’ sassy response to Brendan Cole’s criticism",
-        "link": "https://metro.co.uk/2026/10/10/strictlys-amy-dowden-praised-iconic-response-brendan-coles-criticism-29698146/",
-        "published": "Sat, 10 Oct 2026 20:42:42 +0000",
+        "title": "Jeremy Clarkson: ‘Ranulph Fiennes should not be in a care home’",
+        "link": "https://metro.co.uk/2026/10/11/jeremy-clarkson-ranulph-fiennes-not-a-care-home-29698523/",
+        "published": "Sun, 11 Oct 2026 09:25:43 +0000",
         "source": "Metro",
         "provider": "METRO",
-        "categories": "Entertainment TV Amy Dowden Brendan Cole Chris Appleton Strictly Come Dancing",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/comp-1791664433.png?w=646"
+        "categories": "Entertainment TV Jeremy Clarkson Sir Ranulph Fiennes",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/comp-1791709518.png?w=646"
       },
       {
         "title": "Stark warning – does new footage in Avengers: Endgame reveal the truth about Doctor Doom?",
@@ -555,6 +555,33 @@
     ],
     "STOCKS": [
       {
+        "title": "These 2 FTSE 100 dividend stocks yield 6.6% after recent dips – but which is better value?",
+        "link": "https://www.twelfthmagpie.com/2026/10/11/these-2-ftse-100-dividend-stocks-yield-6-6-after-recent-dips-but-which-is-better-value/",
+        "published": "Sun, 11 Oct 2026 12:47:40 +0000",
+        "source": "The Twelfth Magpie",
+        "provider": "MAGPIE",
+        "categories": "Dividend Shares Investing Articles",
+        "image": "https://www.twelfthmagpie.com/wp-content/uploads/2024/02/Heart-hands-1200x800.jpg"
+      },
+      {
+        "title": "Dow Jones Futures Loom; ASML, Nvidia Chipmaker Taiwan Semi To Kick Off AI Earnings",
+        "link": "https://uk.finance.yahoo.com/m/0d7a86f7-63d8-35ac-9402-ed0f2ca814ac/dow-jones-futures-loom%3B-asml%2C.html?.tsrc=rss",
+        "published": "Sun, 11 Oct 2026 11:56:38 +0000",
+        "source": "Yahoo Finance",
+        "provider": "YAHOO",
+        "categories": "",
+        "image": ""
+      },
+      {
+        "title": "This old Warren Buffett lesson looks like a very useful one in today’s market!",
+        "link": "https://www.twelfthmagpie.com/2026/10/11/this-old-warren-buffett-lesson-looks-like-a-very-useful-one-in-todays-market/",
+        "published": "Sun, 11 Oct 2026 09:23:14 +0000",
+        "source": "The Twelfth Magpie",
+        "provider": "MAGPIE",
+        "categories": "Growth Shares Investing Articles",
+        "image": "https://www.twelfthmagpie.com/wp-content/uploads/2021/11/Buffett.jpg"
+      },
+      {
         "title": "Here’s how much a £5-a-day passive income plan could produce a decade from now",
         "link": "https://www.twelfthmagpie.com/2026/10/11/heres-how-much-a-5-a-day-passive-income-plan-could-produce-a-decade-from-now/",
         "published": "Sun, 11 Oct 2026 09:01:00 +0000",
@@ -574,21 +601,21 @@
       },
       {
         "title": "These 2 FTSE 100 dividend stocks yield 3.9% and 4.2%. Here’s why I prefer the 3.9% one!",
-        "link": "https://www.twelfthmagpie.com/2026/10/11/these-2-ftse-100-dividend-stocks-yield-3-9-and-4-2-heres-why-i-prefer-the-3-9-one/",
+        "link": "https://www.twelfthmagpie.com/2026/10/11/these-2-ftse-100-dividend-stocks-yield-3-9-and-4-2-heres-why-i-prefer-the-3-9-one/?.tsrc=rss",
         "published": "Sun, 11 Oct 2026 08:02:00 +0000",
-        "source": "The Twelfth Magpie",
-        "provider": "MAGPIE",
-        "categories": "Dividend Shares Investing Articles",
+        "source": "Yahoo Finance",
+        "provider": "YAHOO",
+        "categories": "",
         "image": "https://www.twelfthmagpie.com/wp-content/uploads/2024/07/Co-workers-in-a-coffee-shop-1200x800.jpg"
       },
       {
-        "title": "If the stock market crashes, history says buying this passive income share could be a smart move",
-        "link": "https://www.twelfthmagpie.com/2026/10/11/if-the-stock-market-crashes-history-says-buying-this-passive-income-share-could-be-a-smart-move/",
-        "published": "Sun, 11 Oct 2026 08:00:00 +0000",
-        "source": "The Twelfth Magpie",
-        "provider": "MAGPIE",
-        "categories": "Dividend Shares Investing Articles",
-        "image": "https://www.twelfthmagpie.com/wp-content/uploads/2023/10/National-Grid-engineers-1200x675.jpg"
+        "title": "Saudi stocks slide after attack on Riyadh airport",
+        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOOEliNzFKYlR3T0NNakk4TWxXWGJ0UlJfQ0JLdFVIRnlESENoRW4zdjNSWW02UjFJOFozRmlZdVZ2ZlFaOTFSdEc5RGd6QWVVaFFMNi1QRTdMSVg2dFQxaHROcjhjbnI4ekhnZUZVbXlmYVBQaDZ3TG1pcFQ5RnFaVXpfYUxWRG1acC1mYnR6d3ZtdXpxbTBBUFJkcU9ock1wbXc?oc=5",
+        "published": "Sun, 11 Oct 2026 07:51:43 GMT",
+        "source": "Reuters",
+        "provider": "REUTERS",
+        "categories": "",
+        "image": ""
       },
       {
         "title": "Could $200 oil send BP shares to the moon?",
@@ -598,24 +625,6 @@
         "provider": "YAHOO",
         "categories": "",
         "image": "https://www.twelfthmagpie.com/wp-content/uploads/2021/10/London-skyline.jpg"
-      },
-      {
-        "title": "After an 8% fall, this stock now offers 2X the FTSE 100’s dividend yield",
-        "link": "https://www.twelfthmagpie.com/2026/10/11/after-a-8-fall-this-stock-now-offers-2x-the-ftse-100s-dividend-yield/?.tsrc=rss",
-        "published": "Sun, 11 Oct 2026 07:33:00 +0000",
-        "source": "Yahoo Finance",
-        "provider": "YAHOO",
-        "categories": "",
-        "image": "https://www.twelfthmagpie.com/wp-content/uploads/2026/06/AdobeStock_559686390-1200x800.jpeg"
-      },
-      {
-        "title": "£100 buys 58 shares in this 7.3%-yielding income stock!",
-        "link": "https://www.twelfthmagpie.com/2026/10/11/100-buys-58-shares-in-this-7-3-yielding-income-stock/?.tsrc=rss",
-        "published": "Sun, 11 Oct 2026 06:51:00 +0000",
-        "source": "Yahoo Finance",
-        "provider": "YAHOO",
-        "categories": "",
-        "image": "https://www.twelfthmagpie.com/wp-content/uploads/2022/10/Investor-research.jpg"
       },
       {
         "title": "Wall Street posts weekly gains with earnings, inflation data on tap",
@@ -630,15 +639,6 @@
         "title": "Oil prices settle higher as more production shut ahead of hurricane",
         "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONW0wejJNQmpGTE9heFBmZG8wTWE5a010VFNMSDBqcThNXzBFTjZkbWF3NnpxSWxoVkRJSEhMcDk4VDh5OVp3bzlZNzdiS0pNTnd6aGkwQVZsU0JiOU9wb0k1ckN1V2ZUVl9sTFRuZnVhLXFlaDUwZGIxT2VxNW1RZUwyNlJ3c2ZxRkdONll5RVdtTnlfcDllN0pnLWE4VU1FblRvbHdkTkIwbHNk?oc=5",
         "published": "Fri, 09 Oct 2026 20:19:51 GMT",
-        "source": "Reuters",
-        "provider": "REUTERS",
-        "categories": "",
-        "image": ""
-      },
-      {
-        "title": "AI-centered US stock bull market nears four-year anniversary",
-        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZThNNTgyNW8tMm1YNzBUMG1FRDdMVm9PNktJLUYtek04SHhGX1ZyY0tIM3RVbk50Yk5iSlROdUhjZV9DaWpIRHVrREVkN3dxVUlUUkRXYkhFREJaVVJLRGw1RS1GVTkwcVUweWlPd2xVSkNmY3RJYWZFdGxqYWVRZ2JiSzJOZTVWb3dvMndyRThaZ0NWN2tBMGQzNmtvaGxZSkVOd19rbzNGcjVEQlVhM0xTaGJXV1U?oc=5",
-        "published": "Fri, 09 Oct 2026 10:02:00 GMT",
         "source": "Reuters",
         "provider": "REUTERS",
         "categories": "",
@@ -841,13 +841,58 @@
         ],
         "WORLD": [
           {
-            "title": "Flash flooding destroys homes in Nepal",
+            "title": "109 dead, more than 116 missing, after ship capsizes off coast of Djibouti, UN agency says",
+            "link": "https://news.sky.com/story/109-dead-after-ship-sinks-off-coast-of-djibouti-un-agency-says-13597707",
+            "published": "Sun, 11 Oct 2026 11:08:00 +0100",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/10/1920x1080/skynews-bab-el-mandeb-yemen_7373917.jpg?20261011113957"
+          },
+          {
+            "title": "Pope Leo to undergo surgery in coming days after nodule discovered on his lung",
+            "link": "https://news.sky.com/story/pope-leo-to-undergo-surgery-in-coming-days-after-nodule-discovered-on-his-lung-13597712",
+            "published": "Sun, 11 Oct 2026 11:25:00 +0100",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/10/1920x1080/skynews-pope-leo_7373928.jpg?20261011115441"
+          },
+          {
+            "title": "'If we don't do it, nobody else will': Inside Ukraine's wartime postal service",
+            "link": "https://news.sky.com/story/inside-ukraines-wartime-postal-service-which-risks-everything-to-take-supplies-to-frontline-towns-13597690",
+            "published": "Sun, 11 Oct 2026 09:37:00 +0100",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/10/1920x1080/skynews-ukraine-post-office_7373873.jpg?20261011095927"
+          },
+          {
+            "title": "Four dead after Hurricane Isaias crashes into US - as Mexico braces itself for Category 4 storm",
+            "link": "https://news.sky.com/story/four-dead-as-hurricane-isaias-crashes-into-us-as-mexico-braces-itself-for-major-storm-13597710",
+            "published": "Sun, 11 Oct 2026 11:13:00 +0100",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/10/1920x1080/skynews-hurricane-isaias-florida_7373907.jpg?20261011112840"
+          },
+          {
+            "title": "Flash flooding triggered by landslide destroys homes in Nepal",
             "link": "https://news.sky.com/story/residents-evacuated-after-flash-flooding-destroys-homes-in-nepal-13597674",
             "published": "Sun, 11 Oct 2026 08:46:00 +0100",
             "source": "Sky News",
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/10/1920x1080/skynews-residents-evacuated_7373824.jpg?20261011090415"
+          },
+          {
+            "title": "AI and nuclear war threaten human extinction by 2100, report warns",
+            "link": "https://news.sky.com/story/ai-and-nuclear-war-threaten-human-extinction-by-2100-report-warns-13597676",
+            "published": "Sun, 11 Oct 2026 08:54:00 +0100",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/08/1920x1080/skynews-artificial-intelligence_7333218.jpg?20260911120951"
           },
           {
             "title": "Founder of India's 'Cockroach' movement among hundreds detained amid mass protest",
@@ -884,24 +929,6 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/10/1920x1080/skynews-riyadh-saudi-arabia_7373514.jpg?20261010183214"
-          },
-          {
-            "title": "And the Nobel Peace Prize goes to...",
-            "link": "https://news.sky.com/story/former-un-human-rights-chief-navi-pillay-wins-the-nobel-peace-prize-13596724",
-            "published": "Fri, 09 Oct 2026 10:01:00 +0100",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/10/1920x1080/skynews-navi-pillay-human-rights_7371876.jpg?20261009100818"
-          },
-          {
-            "title": "Gang of masked men stole £4.2m worth of red wine from Italy",
-            "link": "https://news.sky.com/story/a-gang-of-masked-men-stole-42m-worth-of-red-wine-from-marchesi-antinori-italys-largest-family-run-producer-13596841",
-            "published": "Fri, 09 Oct 2026 12:18:00 +0100",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/10/1920x1080/skynews-florence-italy-marchesi-antinori-winery_7372067.jpg?20261009121833"
           }
         ],
         "POLITICS": [
@@ -1027,6 +1054,15 @@
         ],
         "TECH": [
           {
+            "title": "AI and nuclear war threaten human extinction by 2100, report warns",
+            "link": "https://news.sky.com/story/ai-and-nuclear-war-threaten-human-extinction-by-2100-report-warns-13597676",
+            "published": "Sun, 11 Oct 2026 08:54:00 +0100",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/08/1920x1080/skynews-artificial-intelligence_7333218.jpg?20260911120951"
+          },
+          {
             "title": "UK floods taskforce told to start looking at drought",
             "link": "https://news.sky.com/story/uk-floods-taskforce-told-to-start-looking-at-drought-13597252",
             "published": "Sun, 11 Oct 2026 00:01:00 +0100",
@@ -1106,15 +1142,6 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/10/1920x1080/skynews-penguins-chinstrap-penguins_7370980.jpg?20261008045246"
-          },
-          {
-            "title": "Water companies failed to report more than 50,000 sewage spills in time, charity claims",
-            "link": "https://news.sky.com/story/englands-water-companies-failed-to-report-more-than-50000-sewage-spills-in-time-charity-claims-13596212",
-            "published": "Thu, 08 Oct 2026 11:49:00 +0100",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/10/1920x1080/skynews-sea-sewage_7370700.jpg?20261007161621"
           }
         ],
         "ENTERTAINMENT": [
@@ -1217,7 +1244,7 @@
         },
         "WORLD": {
           "ok": true,
-          "count": 7
+          "count": 10
         },
         "POLITICS": {
           "ok": true,
@@ -1240,6 +1267,33 @@
     "GUARDIAN": {
       "categories": {
         "UK": [
+          {
+            "title": "Burnham faces questions over push to scrap photo ID voting requirement",
+            "link": "https://www.theguardian.com/politics/2026/oct/11/andy-burnham-faces-questions-electoral-system-changes-photo-id-voting",
+            "published": "Sun, 11 Oct 2026 11:16:05 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Electoral reform Labour Andy Burnham House of Lords Electoral Commission Party funding General elections Politics UK news",
+            "image": "https://i.guim.co.uk/img/media/ab71e304b00e9526f74e773d0bb171bb7640ce98/1215_60_3944_3157/master/3944.jpg?width=140&quality=85&auto=format&fit=max&s=3df8c6b9428574140c0964c210a9c5ca"
+          },
+          {
+            "title": "Britain stands behind Zelenskyy, says Streeting after Trump’s call for new leader in Ukraine",
+            "link": "https://www.theguardian.com/politics/2026/oct/11/britain-stands-behind-zelenskyy-streeting-trump-ukraine",
+            "published": "Sun, 11 Oct 2026 10:03:16 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Foreign policy Wes Streeting Ukraine Volodymyr Zelenskyy Trump administration Russia Europe World news Politics UK news",
+            "image": "https://i.guim.co.uk/img/media/7894c3c5dd3783a05e4469021dabf9d36574628c/987_278_3745_2996/master/3745.jpg?width=140&quality=85&auto=format&fit=max&s=101d22b4505578b2e5c0f6affbb580ec"
+          },
+          {
+            "title": "‘She was swaying, zoning out’: UK pets poisoned in record numbers by illicit drugs",
+            "link": "https://www.theguardian.com/society/2026/oct/11/record-number-uk-pets-dogs-ingesting-drugs-parks-streets",
+            "published": "Sun, 11 Oct 2026 09:30:22 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Drugs UK news Animal welfare Pets Dogs Society",
+            "image": "https://i.guim.co.uk/img/media/0c6a720725e0ec955a84547229b6735f8424f5ae/0_552_3024_2419/master/3024.jpg?width=140&quality=85&auto=format&fit=max&s=40f5a6534382908c70e15f6274e19bcc"
+          },
           {
             "title": "Surgeon faces deportation as Home Office revokes refugee status for Syrians",
             "link": "https://www.theguardian.com/politics/2026/oct/11/surgeon-faces-deportation-syria-uk-home-office-revokes-refugee-status-syrians",
@@ -1295,22 +1349,13 @@
             "image": "https://i.guim.co.uk/img/media/e5a2f40ef00aec94530693a8d9665f6adf36c14c/763_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=4d4ea45720dcf9baac0da795c06c9f62"
           },
           {
-            "title": "Camden council was warned about paedophile nursery worker years before arrest",
-            "link": "https://www.theguardian.com/society/2026/oct/10/vincent-chan-paedophile-nursery-worker-camden-council-warning-years-before-arrest",
-            "published": "Sat, 10 Oct 2026 15:00:01 GMT",
+            "title": "People smugglers are still profiting from small boats. Can the UK fix the crisis?",
+            "link": "https://www.theguardian.com/uk-news/2026/oct/11/people-smugglers-profit-small-boats-can-uk-fix-crisis",
+            "published": "Sun, 11 Oct 2026 12:00:27 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Children Early years education Crime Education UK news London Society",
-            "image": "https://i.guim.co.uk/img/media/961439dcf4404cfe5293918f0d1e0ad1e52ee952/0_308_2000_1600/master/2000.jpg?width=140&quality=85&auto=format&fit=max&s=5faf6d5ce736240a70c80b4abc00335f"
-          },
-          {
-            "title": "Study explores links between 19th-century Manchester workers and enslaved Africans in Caribbean",
-            "link": "https://www.theguardian.com/news/2026/oct/10/study-explores-links-between-19th-century-manchester-workers-and-enslaved-africans-in-caribbean",
-            "published": "Sat, 10 Oct 2026 12:00:56 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Peterloo massacre Manchester Slavery Colonialism UK news",
-            "image": "https://i.guim.co.uk/img/media/d0658895b1b18d6958ae2dddfa7cd046328ee50e/480_0_4800_3840/master/4800.jpg?width=140&quality=85&auto=format&fit=max&s=6b3c9aedfa16612b770bd99bc1670ad2"
+            "categories": "Immigration and asylum Home Office Politics UK news France Migration Refugees Europe World news",
+            "image": "https://i.guim.co.uk/img/media/6b54c071a496f64a5281f0f4e9baf8965f4c0adf/180_0_2740_2192/master/2740.jpg?width=140&quality=85&auto=format&fit=max&s=74fcf0c3275b5cb4f67e8207742a01fd"
           },
           {
             "title": "Greens must avoid ‘capture by extremists and racists’, says party MP",
@@ -1320,6 +1365,15 @@
             "provider": "GUARDIAN",
             "categories": "Green party Zack Polanski Politics UK news Judaism",
             "image": "https://i.guim.co.uk/img/media/aa45a9e2289da29f8f64114b03c06771113a50e7/1725_409_3595_2876/master/3595.jpg?width=140&quality=85&auto=format&fit=max&s=a7b22086e7b3fbc6a4fd7ed6ce830ed9"
+          },
+          {
+            "title": "UK must not be beholden to foreign AI, says head of Alan Turing Institute",
+            "link": "https://www.theguardian.com/technology/2026/oct/10/uk-foreign-ai-head-alan-turing-institute-george-williamson",
+            "published": "Sat, 10 Oct 2026 10:00:55 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "AI (artificial intelligence) UK news Defence policy UK security and counter-terrorism Politics Technology Computing",
+            "image": "https://i.guim.co.uk/img/media/86f6ce436080552a980f816a4c5ba14072a37b86/545_213_5198_4158/master/5198.jpg?width=140&quality=85&auto=format&fit=max&s=d3dfce885f900e948ce678c839cdbbf8"
           },
           {
             "title": "‘If voters aren’t better off by the next election, we’re screwed’: Labour insiders voice fears over budget",
@@ -1338,33 +1392,6 @@
             "provider": "GUARDIAN",
             "categories": "Immigration and asylum Gaza Shabana Mahmood Refugees Home Office Palestine Migration Politics UK news Labour",
             "image": "https://i.guim.co.uk/img/media/3aa7f42620809db20db93cdae47ec1311958cf5d/248_0_2503_2003/master/2503.jpg?width=140&quality=85&auto=format&fit=max&s=920fd66c292c3cdfb38d74c29f3181ba"
-          },
-          {
-            "title": "Create new pre-apprenticeship scheme to close youth unemployment gap, says Milburn",
-            "link": "https://www.theguardian.com/education/2026/oct/10/pre-apprenticeship-scheme-landmark-alan-milburn-youth-jobs-crisis-report",
-            "published": "Sat, 10 Oct 2026 05:00:47 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Apprenticeships Business Vocational education Young people Society Education policy Education Further education Politics UK news Youth unemployment Unemployment Manufacturing sector",
-            "image": "https://i.guim.co.uk/img/media/6ba9839b5213ce0aa8891298391d1bfaf44453ca/77_0_4639_3710/master/4639.jpg?width=140&quality=85&auto=format&fit=max&s=018cb1da9426350f2091c42186174d3e"
-          },
-          {
-            "title": "Northern Ireland secretary Chris Bryant bans Drumcree parade",
-            "link": "https://www.theguardian.com/uk-news/2026/oct/09/northern-ireland-secretary-chris-bryant-bans-drumcree-parade",
-            "published": "Fri, 09 Oct 2026 20:58:00 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Northern Ireland UK news Northern Irish politics Chris Bryant Politics",
-            "image": "https://i.guim.co.uk/img/media/22abd47dc88efdeefcd4264565e2c7b88bbd7c70/912_0_5002_4000/master/5002.jpg?width=140&quality=85&auto=format&fit=max&s=9ab5c6a712ac38aa937bfdc60749ac14"
-          },
-          {
-            "title": "Parties prepare for byelection in Farage seat amid speculation over £5m gift inquiry",
-            "link": "https://www.theguardian.com/politics/2026/oct/09/nigel-farage-byelection-clacton-seat-speculation-5m-gift-inquiry",
-            "published": "Fri, 09 Oct 2026 17:52:17 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Nigel Farage Reform UK Politics UK news Conservatives House of Commons",
-            "image": "https://i.guim.co.uk/img/media/319ede727f93aa0da1da84beb0fda39afdd49ebf/660_468_3839_3072/master/3839.jpg?width=140&quality=85&auto=format&fit=max&s=00d52160c65d089193138863642dc53c"
           },
           {
             "title": "After RAF Fairford incident, how big a threat to the UK is Iran?",
@@ -1605,6 +1632,33 @@
         ],
         "POLITICS": [
           {
+            "title": "Burnham faces questions over push to scrap photo ID voting requirement",
+            "link": "https://www.theguardian.com/politics/2026/oct/11/andy-burnham-faces-questions-electoral-system-changes-photo-id-voting",
+            "published": "Sun, 11 Oct 2026 11:16:05 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Electoral reform Labour Andy Burnham House of Lords Electoral Commission Party funding General elections Politics UK news",
+            "image": "https://i.guim.co.uk/img/media/ab71e304b00e9526f74e773d0bb171bb7640ce98/1215_60_3944_3157/master/3944.jpg?width=140&quality=85&auto=format&fit=max&s=3df8c6b9428574140c0964c210a9c5ca"
+          },
+          {
+            "title": "Britain stands behind Zelenskyy, says Streeting after Trump’s call for new leader in Ukraine",
+            "link": "https://www.theguardian.com/politics/2026/oct/11/britain-stands-behind-zelenskyy-streeting-trump-ukraine",
+            "published": "Sun, 11 Oct 2026 10:03:16 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Foreign policy Wes Streeting Ukraine Volodymyr Zelenskyy Trump administration Russia Europe World news Politics UK news",
+            "image": "https://i.guim.co.uk/img/media/7894c3c5dd3783a05e4469021dabf9d36574628c/987_278_3745_2996/master/3745.jpg?width=140&quality=85&auto=format&fit=max&s=101d22b4505578b2e5c0f6affbb580ec"
+          },
+          {
+            "title": "Surgeon faces deportation as Home Office revokes refugee status for Syrians",
+            "link": "https://www.theguardian.com/politics/2026/oct/11/surgeon-faces-deportation-syria-uk-home-office-revokes-refugee-status-syrians",
+            "published": "Sun, 11 Oct 2026 09:00:22 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Home Office Immigration and asylum Refugees Syria UK news Politics London",
+            "image": "https://i.guim.co.uk/img/media/593f4301a5523f348578c72b5a2413b71924e00a/600_0_4583_3667/master/4583.jpg?width=140&quality=85&auto=format&fit=max&s=d71e4a699440500a701a249c64c021e7"
+          },
+          {
             "title": "‘Gaza is a moral tear in the universe’: Naomi Klein and Astra Taylor | Radical Thinking with Aditya Chakrabortty – podcast",
             "link": "https://www.theguardian.com/news/audio/2026/oct/11/gaza-is-a-moral-tear-in-the-universe-naomi-klein-and-astra-taylor-radical-thinking-with-aditya-chakrabortty-podcast",
             "published": "Sun, 11 Oct 2026 07:00:20 GMT",
@@ -1641,31 +1695,13 @@
             "image": "https://i.guim.co.uk/img/media/94b5d3f21f443f54277cfa6a35ec6c17b937751b/541_0_2255_1805/master/2255.jpg?width=140&quality=85&auto=format&fit=max&s=f8877262948b859dbc07495bcc5108b3"
           },
           {
-            "title": "‘If voters aren’t better off by the next election, we’re screwed’: Labour insiders voice fears over budget",
-            "link": "https://www.theguardian.com/uk-news/2026/oct/10/labour-fears-budget-burnham-healey",
-            "published": "Sat, 10 Oct 2026 06:00:51 GMT",
+            "title": "Labour has got the message – developing nations suffer most from bond market turmoil | Heather Stewart",
+            "link": "https://www.theguardian.com/business/2026/oct/11/labour-bond-market-turmoil-developing-nations-andy-burnham-brown-blair",
+            "published": "Sun, 11 Oct 2026 10:11:19 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Budget Andy Burnham Economic policy Budget 2026 UK cost of living crisis Tax and spending Social care Labour Public finance State pensions John Healey Politics UK news",
-            "image": "https://i.guim.co.uk/img/media/5db02fb2b803b721a93444ed5b66b92a97b8af50/349_0_2901_2321/master/2901.jpg?width=140&quality=85&auto=format&fit=max&s=fb671a0c5edd42f2e9662c6379333963"
-          },
-          {
-            "title": "UK accused of giving people of Gaza false hope over new refugee safe route",
-            "link": "https://www.theguardian.com/uk-news/2026/oct/10/uk-gaza-refugee-resettlement-scheme-palestinians-home-office",
-            "published": "Sat, 10 Oct 2026 06:00:50 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Immigration and asylum Gaza Shabana Mahmood Refugees Home Office Palestine Migration Politics UK news Labour",
-            "image": "https://i.guim.co.uk/img/media/3aa7f42620809db20db93cdae47ec1311958cf5d/248_0_2503_2003/master/2503.jpg?width=140&quality=85&auto=format&fit=max&s=920fd66c292c3cdfb38d74c29f3181ba"
-          },
-          {
-            "title": "Create new pre-apprenticeship scheme to close youth unemployment gap, says Milburn",
-            "link": "https://www.theguardian.com/education/2026/oct/10/pre-apprenticeship-scheme-landmark-alan-milburn-youth-jobs-crisis-report",
-            "published": "Sat, 10 Oct 2026 05:00:47 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Apprenticeships Business Vocational education Young people Society Education policy Education Further education Politics UK news Youth unemployment Unemployment Manufacturing sector",
-            "image": "https://i.guim.co.uk/img/media/6ba9839b5213ce0aa8891298391d1bfaf44453ca/77_0_4639_3710/master/4639.jpg?width=140&quality=85&auto=format&fit=max&s=018cb1da9426350f2091c42186174d3e"
+            "categories": "Debt relief Global economy Economics G20 International Monetary Fund (IMF) World Bank Bonds Emerging markets Economic policy Labour Politics UK news World news Business",
+            "image": "https://i.guim.co.uk/img/media/da3a2e966c63537aa017958bf563b83cbeed6911/201_0_4096_3280/master/4096.jpg?width=140&quality=85&auto=format&fit=max&s=b1036d42ce35edbe2d9eabc95afc7ac9"
           },
           {
             "title": "Andy Burnham is lucky – Polanski, Farage and Badenoch all seem determined to help him | Jonathan Freedland",
@@ -1722,13 +1758,22 @@
             "image": "https://i.guim.co.uk/img/media/36e477597b21eb11465522f9f85b021c463abea0/1000_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=b7024ac3b29a9c2585a8982d024f80de"
           },
           {
-            "title": "Stockpile food – and wash your hands: is that really how to prepare for environmental catastrophe? | George Monbiot",
-            "link": "https://www.theguardian.com/commentisfree/2026/oct/08/stockpile-food-wash-hands-how-to-prepare-environmental-catastrophe",
-            "published": "Thu, 08 Oct 2026 05:00:10 GMT",
+            "title": "People smugglers are still profiting from small boats. Can the UK fix the crisis?",
+            "link": "https://www.theguardian.com/uk-news/2026/oct/11/people-smugglers-profit-small-boats-can-uk-fix-crisis",
+            "published": "Sun, 11 Oct 2026 12:00:27 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Emergency planning Food security Drought Flooding Politics Environment Extreme weather Water UK news",
-            "image": "https://i.guim.co.uk/img/media/f81aa9599e1a7dbe69197a55798777243d5d0a8c/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=d273882986eb99fbfbc8c0cb1ca71498"
+            "categories": "Immigration and asylum Home Office Politics UK news France Migration Refugees Europe World news",
+            "image": "https://i.guim.co.uk/img/media/6b54c071a496f64a5281f0f4e9baf8965f4c0adf/180_0_2740_2192/master/2740.jpg?width=140&quality=85&auto=format&fit=max&s=74fcf0c3275b5cb4f67e8207742a01fd"
+          },
+          {
+            "title": "After RAF Fairford incident, how big a threat to the UK is Iran?",
+            "link": "https://www.theguardian.com/uk-news/2026/oct/11/after-raf-fairford-how-big-threat-uk-iran",
+            "published": "Sun, 11 Oct 2026 09:00:21 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "UK security and counter-terrorism Defence policy Iran US military UK news Politics US news World news",
+            "image": "https://i.guim.co.uk/img/media/a1300a7434278bbdac6f10899814a6b68460510d/414_0_5263_4210/master/5263.jpg?width=140&quality=85&auto=format&fit=max&s=3266481118cfe56b6a3eb3a32d528b70"
           },
           {
             "title": "‘We need less point scoring’: What party conference season taught us about UK climate action",
@@ -1747,24 +1792,6 @@
             "provider": "GUARDIAN",
             "categories": "Far right Activism The far right Politics Tommy Robinson BNP Nick Griffin Rupert Lowe",
             "image": "https://i.guim.co.uk/img/media/0b0e70479a6c56c185ecd4b60a9e549830d59556/683_0_6827_5464/master/6827.jpg?width=140&quality=85&auto=format&fit=max&s=b1549700fb8eb98e94a671f6908d8d6e"
-          },
-          {
-            "title": "Does Polanski have to go? Greens at the crossroads after Holborn and St Pancras",
-            "link": "https://www.theguardian.com/politics/2026/oct/09/zack-polanski-future-as-green-party-leader-holborn-st-pancras-byelection-defeat",
-            "published": "Fri, 09 Oct 2026 16:32:30 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Green party Zack Polanski Politics Holborn and St Pancras byelection UK news London",
-            "image": "https://i.guim.co.uk/img/media/7aea2eba83a830d2641f37f3a2a4b154d9a3074c/595_61_3818_3054/master/3818.jpg?width=140&quality=85&auto=format&fit=max&s=37a66d67f16df331606f746fa5880cd3"
-          },
-          {
-            "title": "‘The real deal’: Sagal Abdi-Wali’s journey from child refugee to Labour MP in former PM’s seat",
-            "link": "https://www.theguardian.com/politics/2026/oct/09/sagal-abdi-wali-journey-child-refugee-labour-mp-former-pms-seat-london",
-            "published": "Fri, 09 Oct 2026 16:17:24 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Holborn and St Pancras byelection Labour Politics UK news London Local politics Local government Communities Keir Starmer Society Women in politics London politics",
-            "image": "https://i.guim.co.uk/img/media/36c8ba0f5cd978ec45c10101b6ef150d6984da93/0_0_2242_1793/master/2242.jpg?width=140&quality=85&auto=format&fit=max&s=a8594fec4dc93ede02fb1b912059885b"
           },
           {
             "title": "Martin Rowson on Zack Polanski losing the Holborn and St Pancras byelection – cartoon",
@@ -1978,6 +2005,15 @@
             "image": "https://i.guim.co.uk/img/media/86f6ce436080552a980f816a4c5ba14072a37b86/545_213_5198_4158/master/5198.jpg?width=140&quality=85&auto=format&fit=max&s=d3dfce885f900e948ce678c839cdbbf8"
           },
           {
+            "title": "Fixated on AI, the world has forgotten what is staring it in the face: nuclear annihilation | Simon Tisdall",
+            "link": "https://www.theguardian.com/commentisfree/2026/oct/11/ai-annihilation-advanced-nuclear-weapons",
+            "published": "Sun, 11 Oct 2026 09:00:22 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Nuclear weapons AI (artificial intelligence) World news Technology Donald Trump US news Iran US foreign policy Middle East and north Africa",
+            "image": "https://i.guim.co.uk/img/media/603ece70d9015d3f39bcf155098c10c864112098/192_528_1858_1487/master/1858.jpg?width=140&quality=85&auto=format&fit=max&s=d07bf9a67f3cf7241663c6ada77c859f"
+          },
+          {
             "title": "OpenAI projected to bring in $20bn less in revenue than expected",
             "link": "https://www.theguardian.com/technology/2026/oct/09/openai-forecast-revenue-gap",
             "published": "Fri, 09 Oct 2026 08:06:09 GMT",
@@ -2012,15 +2048,6 @@
             "provider": "GUARDIAN",
             "categories": "Microsoft Technology US immigration JD Vance Trump administration US politics US news",
             "image": "https://i.guim.co.uk/img/media/0a5876855694163b01d022271607a1f87c8c496a/758_255_3012_2410/master/3012.jpg?width=140&quality=85&auto=format&fit=max&s=190dffb4f94317823062ce7106f575d9"
-          },
-          {
-            "title": "The new Darth Vader: how tech execs became the film villains of our age",
-            "link": "https://www.theguardian.com/film/2026/oct/09/the-new-darth-vader-how-tech-execs-became-the-film-villains-of-our-age",
-            "published": "Fri, 09 Oct 2026 11:05:42 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Film Culture Technology Meta Mark Zuckerberg OpenAI Jeremy Strong Social media Digital media",
-            "image": "https://i.guim.co.uk/img/media/d24aa015cccedd5a5c1724fe8e1d94fce20600cc/4_0_1667_1334/master/1667.jpg?width=140&quality=85&auto=format&fit=max&s=eca67e35d4c0ba42b70b4ea7f28d2d70"
           },
           {
             "title": "Recruitment boss accused of being behind ‘doxxing’ campaign against RNLI and anti-racism activists",
@@ -2354,7 +2381,79 @@
       "categories": {
         "UK": [
           {
-            "title": "Urgent warning issued after Salmonella found in eggs imported from Ukraine",
+            "title": "Reservoir dries up revealing impressive prehistoric villages",
+            "link": "https://metro.co.uk/2026/10/11/reservoir-dries-revealing-impressive-prehistoric-villages-29698774/",
+            "published": "Sun, 11 Oct 2026 12:10:16 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News UK Devon Heatwave History",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316165847-3729.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "First picture of tiger who killed man in enclosure as zoo reveals its fate",
+            "link": "https://metro.co.uk/2026/10/11/wildlife-park-reveals-tigers-fate-statement-man-killed-enclosure-29698801/",
+            "published": "Sun, 11 Oct 2026 11:52:13 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News UK Animals Doncaster Yorkshire",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316080095-818a.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Northern Lights sighted all over UK and you could see them again tonight",
+            "link": "https://metro.co.uk/2026/10/11/northern-lights-sighted-across-uk-see-tonight-29698703/",
+            "published": "Sun, 11 Oct 2026 11:22:03 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News UK Devon England Hampshire Kent Met Office Northern Lights Scotland Swindon UK weather Weather",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316167515-9b86.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Greatest threats to human survival revealed as two could wipe us out by next century",
+            "link": "https://metro.co.uk/2026/10/11/greatest-threats-human-survival-revealed-two-wipe-us-next-century-29698450/",
+            "published": "Sun, 11 Oct 2026 10:20:07 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News World Death Health News",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEC_316172602-3930.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Trump threatens to join air strikes after Riyadh airport attack kills 12 and injures 300",
+            "link": "https://metro.co.uk/2026/10/11/riyadh-airport-attack-kills-12-injures-300-trump-threatens-strikes-29698520/",
+            "published": "Sun, 11 Oct 2026 10:19:23 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News World Iran war Middle East Saudi Arabia Yemen",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316118974-f8c2.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Man left with 1,000 bedbug bites following repeated infestations",
+            "link": "https://metro.co.uk/2026/10/11/man-left-1-000-bedbug-bites-following-repeated-infestations-29698639/",
+            "published": "Sun, 11 Oct 2026 10:08:03 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News UK Housing London Social Housing",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316166258-64ca.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Baby dies after heart monitor suffers paper jam",
+            "link": "https://metro.co.uk/2026/10/11/baby-dies-heart-monitor-suffers-paper-jam-29698419/",
+            "published": "Sun, 11 Oct 2026 09:49:19 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News UK Baby",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316170141-ea15.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Trump chants ‘we will kill everyone’ and ‘praise be to Allah’ in bizarre speech",
+            "link": "https://metro.co.uk/2026/10/11/trump-chants-we-will-kill-everyone-praise-allah-bizarre-speech-29698465/",
+            "published": "Sun, 11 Oct 2026 09:16:42 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News US Donald Trump Iran United States of America",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316153827-ed15.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Urgent warning issued after Salmonella found in eggs",
             "link": "https://metro.co.uk/2026/10/11/urgent-warning-issued-salmonella-found-imported-eggs-29698297/",
             "published": "Sun, 11 Oct 2026 07:18:48 +0000",
             "source": "Metro",
@@ -2460,81 +2559,18 @@
             "provider": "METRO",
             "categories": "News UK Video Crime News Hartlepool Lancashire Murder",
             "image": "https://metro.co.uk/wp-content/uploads/2026/10/1791632239250_790797926692298.jpg?quality=90&strip=all&w=636"
-          },
-          {
-            "title": "Runner pauses Beijing to London record attempt to rescue kitten abandoned in Gobi desert",
-            "link": "https://metro.co.uk/2026/10/10/runner-pauses-beijing-london-record-attempt-rescue-kitten-abandoned-gobi-desert-29697287/",
-            "published": "Sat, 10 Oct 2026 15:16:21 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News World Cats China",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/image-d1c7-e1791628935109.png?w=646"
-          },
-          {
-            "title": "Trump mocked for claiming Florida hurricane is ‘under control’ after previous ‘nuke them’ comment",
-            "link": "https://metro.co.uk/2026/10/10/trump-mocked-control-claim-past-nuke-idea-29697665/",
-            "published": "Sat, 10 Oct 2026 15:01:16 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News US Donald Trump Florida Hurricanes Weather",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315923852-d35a.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Man dies from serious injuries after ‘jumping into tiger enclosure’ at wildlife park",
-            "link": "https://metro.co.uk/2026/10/10/man-jumps-tiger-enclosure-animal-shot-staff-wildlife-park-29697753/",
-            "published": "Sat, 10 Oct 2026 14:54:56 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News UK Animals England Yorkshire",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/DMGTCHPDCOMP000006400757-36f5.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Pope Leo says death penalty is ‘inadmissible’ after Trump approves livestreaming execution",
-            "link": "https://metro.co.uk/2026/10/10/pope-leo-criticism-trump-approves-livestreaming-execution-29697713/",
-            "published": "Sat, 10 Oct 2026 14:30:13 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News US Christa Pike Donald Trump Pope Leo XIV US Politics",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/08/SEI_307184702-d7cb.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Trump and Moscow call for Zelensky to be replaced after Ukraine ‘blindsided’ by £3billion US-Russia diesel deal",
-            "link": "https://metro.co.uk/2026/10/10/zelensky-smashes-oil-hub-labelling-trump-putin-deal-weak-29697526/",
-            "published": "Sat, 10 Oct 2026 13:17:22 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News World Donald Trump Russia-Ukraine war Vladimir Putin Volodymyr Zelensky",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_313564627-8748.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Prince Harry booed by fans during surprise appearance in the stands at rugby match",
-            "link": "https://metro.co.uk/2026/10/10/prince-harry-booed-fans-surprise-appearance-prem-rugby-match-29697154/",
-            "published": "Sat, 10 Oct 2026 12:52:40 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News UK Video Gloucester Meghan Markle Duchess of Sussex Prince Harry Royal Family Rugby",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315952131-1e59-e1791635488269.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Trump calls Nobel committee ‘enemies of civilisation’ for not giving him peace prize",
-            "link": "https://metro.co.uk/2026/10/10/trump-calls-nobel-committee-enemies-civilisation-not-awarding-peace-prize-29697174/",
-            "published": "Sat, 10 Oct 2026 12:16:50 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News US Donald Trump United States of America",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315966992-3ea9.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "MPs bag nearly £500k in freebies from UAE and Manchester City as campaigners raise ‘conflict of interest’ concern",
-            "link": "https://metro.co.uk/2026/10/10/mps-500k-freebies-uae-spark-conflict-concerns-29697397/",
-            "published": "Sat, 10 Oct 2026 12:01:38 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News Politics Andy Burnham Conservative Party Labour Party Manchester City FC",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_314969240-eb67.jpg?quality=90&strip=all&w=646"
           }
         ],
         "WORLD": [
+          {
+            "title": "Trump threatens to join air strikes after Riyadh airport attack kills 12 and injures 300",
+            "link": "https://metro.co.uk/2026/10/11/riyadh-airport-attack-kills-12-injures-300-trump-threatens-strikes-29698520/",
+            "published": "Sun, 11 Oct 2026 10:19:23 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News World Iran war Middle East Saudi Arabia Yemen",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316118974-f8c2.jpg?quality=90&strip=all&w=646"
+          },
           {
             "title": "Boy saved from bear attack after mobile phone exploded as he was mauled by predator",
             "link": "https://metro.co.uk/2026/10/10/teen-survives-bear-attack-phone-explodes-29698010/",
@@ -2689,31 +2725,13 @@
             "image": "https://metro.co.uk/wp-content/uploads/2026/07/SEC_305304007-9e3d.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Russia says no plague cases in Siberia after US Embassy releases warning",
-            "link": "https://metro.co.uk/2026/10/07/russia-says-no-plague-cases-siberia-us-embassy-releases-warning-29686712/",
-            "published": "Wed, 07 Oct 2026 08:33:17 +0000",
+            "title": "Trump chants ‘we will kill everyone’ and ‘praise be to Allah’ in bizarre speech",
+            "link": "https://metro.co.uk/2026/10/11/trump-chants-we-will-kill-everyone-praise-allah-bizarre-speech-29698465/",
+            "published": "Sun, 11 Oct 2026 09:16:42 +0000",
             "source": "Metro",
             "provider": "METRO",
-            "categories": "News World Health News Russia United States of America",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315396151-f50f.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Urgent warning issued after Salmonella found in eggs imported from Ukraine",
-            "link": "https://metro.co.uk/2026/10/11/urgent-warning-issued-salmonella-found-imported-eggs-29698297/",
-            "published": "Sun, 11 Oct 2026 07:18:48 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News UK Egg Food recalls Health News",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_310527610-351c.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Fresh Jodie mystery triggered in Coronation Street as Shona gets a sinister shock",
-            "link": "https://metro.co.uk/2026/10/11/coronation-street-jodie-mystery-triggered-shona-gets-a-sinister-shock-29695110/",
-            "published": "Sun, 11 Oct 2026 06:30:00 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Coronation Street Soaps David Platt Jack P. Shepherd Jodie Ramsey Julia Goulding Olivia Frances-Brown Shona Platt",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_311203487-dfe9.jpg?quality=90&strip=all&w=646"
+            "categories": "News US Donald Trump Iran United States of America",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316153827-ed15.jpg?quality=90&strip=all&w=646"
           }
         ],
         "POLITICS": [
@@ -3071,63 +3089,63 @@
             "image": "https://metro.co.uk/wp-content/uploads/2026/05/GettyImages-2273245544_91a3b0.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "British duo stranded in Botswana hike 70km in Birkenstocks surrounded by lions",
-            "link": "https://metro.co.uk/2026/10/11/british-duo-stranded-botswana-hike-70km-birkenstocks-surrounded-lions-29698401/",
-            "published": "Sun, 11 Oct 2026 08:33:05 +0000",
+            "title": "Cathay Pacific Business Class review: ‘The most unusual in-flight meal I’ve ever had’",
+            "link": "https://metro.co.uk/2026/10/11/cathay-pacific-business-class-review-the-unusual-in-flight-meal-ever-had-29691797/",
+            "published": "Sun, 11 Oct 2026 11:00:00 +0000",
             "source": "Metro",
             "provider": "METRO",
-            "categories": "News World Animals Botswana",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316165732-ed1e.jpg?quality=90&strip=all&w=646"
+            "categories": "Lifestyle Travel Airline Reviews Flights Travel Inspiration Travel Reviews",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/GettyImages-2231825269-8acc.jpg?quality=90&strip=all&w=646"
           }
         ],
         "TECH": [
           {
-            "title": "Met police chief fired after accessing ‘intimate’ photos of women on work phone",
-            "link": "https://metro.co.uk/2026/10/11/met-police-chief-fired-using-work-phone-access-intimate-pictures-women-29698258/",
-            "published": "Sun, 11 Oct 2026 07:18:07 +0000",
+            "title": "Texting ‘Sorry just seen this’ is actually rude, according to etiquette experts",
+            "link": "https://metro.co.uk/2026/10/11/texting-sorry-just-seen-this-actually-rude-according-etiquette-experts-29694702/",
+            "published": "Sun, 11 Oct 2026 11:00:00 +0000",
             "source": "Metro",
             "provider": "METRO",
-            "categories": "News UK Artificial Intelligence Crime News London Metropolitan Police",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316161707-c75f.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Your star sign’s weekly tarot horoscope reading for October 12 to October 18",
-            "link": "https://metro.co.uk/2026/10/11/weekly-tarot-horoscope-reading-october-12-october-18-2026-29697908/",
-            "published": "Sun, 11 Oct 2026 03:00:00 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Horoscopes Lifestyle Aquarius Aries Astrology Cancer (star sign) Capricorn Gemini Leo Libra Pisces Sagittarius Scorpio Tarot Taurus Virgo",
-            "image": "https://metro.co.uk/wp-content/uploads/2022/04/SEI_96594073.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Why is Star Wars suddenly so good at video games? – Reader’s Feature",
-            "link": "https://metro.co.uk/2026/10/11/star-wars-suddenly-good-video-games-readers-feature-29696902/",
-            "published": "Sun, 11 Oct 2026 01:00:00 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Entertainment Gaming Games news Reader's Feature Star Wars",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/08/SEI_307985549-49b9.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "If Sony change their PlayStation disc policy people will like them again – Reader’s Feature",
-            "link": "https://metro.co.uk/2026/10/11/sony-change-playstation-disc-policy-people-will-like-readers-feature-29696916/",
-            "published": "Sun, 11 Oct 2026 00:00:00 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Entertainment Gaming PlayStation 5 PlayStation 6 Reader's Feature Sony Wolverine",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310242516-33e8.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Daily horoscope October 11 2026: Today’s predictions for your star sign",
-            "link": "https://metro.co.uk/2026/10/11/daily-horoscope-october-11-2026-predictions-star-sign-29696638/",
-            "published": "Sat, 10 Oct 2026 23:01:00 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Horoscopes Lifestyle Aquarius Aries Astrology Cancer (star sign) Capricorn Gemini Leo Libra Pisces Sagittarius Scorpio Taurus Virgo",
-            "image": "https://metro.co.uk/wp-content/uploads/2023/04/new-horoscope-2023-02-a5db.gif?w=646"
+            "categories": "Lifestyle Modern Etiquette Social Media",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/GettyImages-2198912604-1-3439.jpg?quality=90&strip=all&w=646"
           }
         ],
         "ENTERTAINMENT": [
+          {
+            "title": "Strictly Come Dancing’s Bethany Antonia’s trans ally T-shirt edited out of show by BBC",
+            "link": "https://metro.co.uk/2026/10/11/strictly-come-dancings-bethany-antonias-trans-ally-t-shirt-edited-show-bbc-29698569/",
+            "published": "Sun, 11 Oct 2026 13:01:57 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment TV BBC Bethany Antonia LGBTQ+ Nancy Xu Strictly Come Dancing",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEC_316192280-d092.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Strictly’s Shirley Ballas’ scoring of rumoured dancer boyfriend ‘didn’t breach rules’ at competition",
+            "link": "https://metro.co.uk/2026/10/11/shirley-ballas-didnt-breach-rules-giving-rumoured-boyfriend-high-scores-competition-29698349/",
+            "published": "Sun, 11 Oct 2026 10:35:45 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment TV Shirley Ballas Strictly Come Dancing",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312989471-f88e.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Fans have been calling this Strictly star ‘unlikeable’ – I couldn’t disagree more",
+            "link": "https://metro.co.uk/2026/10/11/fans-calling-this-strictly-star-unlikeable-couldnt-disagree-29698423/",
+            "published": "Sun, 11 Oct 2026 09:48:21 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment TV BBC Carlos Gu Columnists Jaime Winstone Opinion Strictly Come Dancing",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_313469142-e3c2.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Jeremy Clarkson: ‘Ranulph Fiennes should not be in a care home’",
+            "link": "https://metro.co.uk/2026/10/11/jeremy-clarkson-ranulph-fiennes-not-a-care-home-29698523/",
+            "published": "Sun, 11 Oct 2026 09:25:43 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment TV Jeremy Clarkson Sir Ranulph Fiennes",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/comp-1791709518.png?w=646"
+          },
           {
             "title": "Kelsey Parker: ‘I feared negativity caused my baby’s death – so I kept my next pregnancy secret’",
             "link": "https://metro.co.uk/2026/10/11/kelsey-parker-i-feared-negativity-caused-babys-death-kept-next-pregnancy-secret-29691256/",
@@ -3174,7 +3192,7 @@
             "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316085573-b0bd.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Fans slam ‘rushed and lazy’ adaptation of beloved horror novel",
+            "title": "Jessica Chastain’s new horror movie slammed as ‘rushed and lazy’ book adaptation",
             "link": "https://metro.co.uk/2026/10/10/fans-slam-rushed-lazy-adaptation-beloved-horror-novel-29697477/",
             "published": "Sat, 10 Oct 2026 16:37:21 +0000",
             "source": "Metro",
@@ -3271,42 +3289,6 @@
             "provider": "METRO",
             "categories": "Entertainment Showbiz Katie Price Lee Andrews",
             "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316000235-46c1-e1791623817105.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Elsinore ruined me – Andrew Scott’s standing ovation was totally justified",
-            "link": "https://metro.co.uk/2026/10/10/elsinore-review-this-film-ruined-andrew-scotts-standing-ovation-totally-justified-29693899/",
-            "published": "Sat, 10 Oct 2026 08:30:00 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Entertainment Film Andrew Scott BFI London Film Festival Billie Piper Film reviews Olivia Colman William Shakespeare",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315826040-dc4f.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "2000s TV heartthrob accidentally shares naked photo on Instagram stories",
-            "link": "https://metro.co.uk/2026/10/10/2000s-tv-heartthrob-accidentally-shares-naked-photo-instagram-stories-29696978/",
-            "published": "Sat, 10 Oct 2026 08:13:51 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Entertainment TV 00s nostalgia Superman",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_237759633-b752.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "James Acaster has turned his Celebrity Traitors weakness into a winning strategy",
-            "link": "https://metro.co.uk/2026/10/09/james-acaster-turned-celebrity-traitors-weakness-a-winning-strategy-29695796/",
-            "published": "Fri, 09 Oct 2026 20:05:00 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Entertainment Opinion TV Alan Carr BBC Celebrity Traitors Columnists James Acaster Richard E Grant Romesh Ranganathan",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315885376-62de-e1791554510507.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Scarlett Moffatt welcomes second baby with fiancé and reveals quirky name",
-            "link": "https://metro.co.uk/2026/10/09/scarlett-moffatt-welcomes-second-baby-fiance-reveals-quirky-name-29696754/",
-            "published": "Fri, 09 Oct 2026 18:03:42 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Entertainment Showbiz Gogglebox Scarlett Moffatt",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315924190-e479.jpg?quality=90&strip=all&w=646"
           }
         ]
       },
@@ -3317,7 +3299,7 @@
         },
         "WORLD": {
           "ok": true,
-          "count": 20
+          "count": 19
         },
         "POLITICS": {
           "ok": true,
@@ -3329,7 +3311,7 @@
         },
         "TECH": {
           "ok": true,
-          "count": 5
+          "count": 1
         },
         "ENTERTAINMENT": {
           "ok": true,
@@ -3446,6 +3428,15 @@
         "STOCK_MARKET": [],
         "STOCKS": [
           {
+            "title": "Dow Jones Futures Loom; ASML, Nvidia Chipmaker Taiwan Semi To Kick Off AI Earnings",
+            "link": "https://uk.finance.yahoo.com/m/0d7a86f7-63d8-35ac-9402-ed0f2ca814ac/dow-jones-futures-loom%3B-asml%2C.html?.tsrc=rss",
+            "published": "Sun, 11 Oct 2026 11:56:38 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
             "title": "These 2 FTSE 100 dividend stocks yield 3.9% and 4.2%. Here’s why I prefer the 3.9% one!",
             "link": "https://www.twelfthmagpie.com/2026/10/11/these-2-ftse-100-dividend-stocks-yield-3-9-and-4-2-heres-why-i-prefer-the-3-9-one/?.tsrc=rss",
             "published": "Sun, 11 Oct 2026 08:02:00 +0000",
@@ -3494,15 +3485,6 @@
             "title": "Here’s Why Meta (META) Is A Cheap Stock To Buy",
             "link": "https://finance.yahoo.com/technology/ai/articles/meta-meta-ai-strategy-gains-144459494.html?.tsrc=rss",
             "published": "Sat, 10 Oct 2026 17:26:59 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "Dow Jones Futures: S&P 500, Nasdaq Near Highs; ASML, Nvidia's Chipmaker Taiwan Semi To Kick Off AI Earnings",
-            "link": "https://uk.finance.yahoo.com/m/0d7a86f7-63d8-35ac-9402-ed0f2ca814ac/dow-jones-futures%3A-s%26p-500%2C.html?.tsrc=rss",
-            "published": "Sat, 10 Oct 2026 15:28:10 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
@@ -3707,6 +3689,15 @@
         ],
         "STOCKS": [
           {
+            "title": "Saudi stocks slide after attack on Riyadh airport",
+            "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOOEliNzFKYlR3T0NNakk4TWxXWGJ0UlJfQ0JLdFVIRnlESENoRW4zdjNSWW02UjFJOFozRmlZdVZ2ZlFaOTFSdEc5RGd6QWVVaFFMNi1QRTdMSVg2dFQxaHROcjhjbnI4ekhnZUZVbXlmYVBQaDZ3TG1pcFQ5RnFaVXpfYUxWRG1acC1mYnR6d3ZtdXpxbTBBUFJkcU9ock1wbXc?oc=5",
+            "published": "Sun, 11 Oct 2026 07:51:43 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
             "title": "Wall Street posts weekly gains with earnings, inflation data on tap",
             "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNY0hWbFNBUlE5SFJjLVpMMnIwZzFpN2hVNEd2YkxlalYyVDRKTDZxcGJ0REJLUERXb0tlVVVreVZLMHFodlAtZlY0eDhuN2xiOHcybjM1c3gxMlBNTmZMWWdrdkhQOG9Pc2JRdTEwYXM5N181QmttRVEyRkdXTy1LT2J0ZVA4d2FXdjZZeGZwaGRaSUtDUXJUZXFjSU94cnprbTVUSXRpXzFtQzV2TWtpR1dNSjdaWVplUlE?oc=5",
             "published": "Fri, 09 Oct 2026 23:33:00 GMT",
@@ -3719,6 +3710,24 @@
             "title": "Oil prices settle higher as more production shut ahead of hurricane",
             "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONW0wejJNQmpGTE9heFBmZG8wTWE5a010VFNMSDBqcThNXzBFTjZkbWF3NnpxSWxoVkRJSEhMcDk4VDh5OVp3bzlZNzdiS0pNTnd6aGkwQVZsU0JiOU9wb0k1ckN1V2ZUVl9sTFRuZnVhLXFlaDUwZGIxT2VxNW1RZUwyNlJ3c2ZxRkdONll5RVdtTnlfcDllN0pnLWE4VU1FblRvbHdkTkIwbHNk?oc=5",
             "published": "Fri, 09 Oct 2026 20:19:51 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "Stocks advance ahead of earnings, navigating still-high Treasury yields and oil prices",
+            "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBmemlrTzkxS0ZGNW4xVC1Bb0FYNmR0MWNHMnFtYXl6Wmg2UHFSVWwwUEQ0MEI5dmY0VGVtR1RURVc2aHlZRjBnVS0yQzdJaDVqNWVnSGFOZkh6SHdTSTJVUDBjd0tFdFhrbjFHa3ExVzFNN0FvOXFpOTZ2QQ?oc=5",
+            "published": "Fri, 09 Oct 2026 19:19:05 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "India's Jio Platforms targets $106 billion valuation in IPO, sources say",
+            "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPLVBtV2xpdERRYnpuYTFjdGl4empoX2I5VVN5ZERGWW96V0FDRGRFNkVzR2lRUnhKbG1ta291NTM2YndMTnFHbDFMVHo2S3FkZEtITFhMUkcyV2hRLUhNeF9nQjY5M0tfcnZNcTZlS09PNlloQjlNNjdjYzQwVXA5a0p6MFJUaEtIMVFPNU5DbmpVbmhqcFg3MlJENFBQakZjWENxUVJhcGE1S3djdjhCcHFqTUV4RHlTVkNMd3hR?oc=5",
+            "published": "Fri, 09 Oct 2026 14:11:35 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3743,15 +3752,6 @@
             "image": ""
           },
           {
-            "title": "Nvidia-backed Firmus scraps $5 billion Australia IPO amid growing AI scrutiny",
-            "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQY21BNU1iQlJDajVWejFGYjVrM2J0cllKVmc5WEVZX2tMQnROZGFJRkRDekhCaFY0MzRnYXhYOGNaVi11cFlndVo5b1RIYUpaS25JbV92dVkwVEZpXzVaTWdtR3piN0d6SUI2OW9qaEI4eHVCV1VBQkFBWXhyemttZDlhMlFVa3hQdDhpWVZkLW95cmxNaEFzZGxWb2dzU3VPSzNlNTc4OEF5YXV1LVoxOHZuUzFsMTZfaDJuckx4UQ?oc=5",
-            "published": "Fri, 09 Oct 2026 07:54:22 GMT",
-            "source": "Reuters",
-            "provider": "REUTERS",
-            "categories": "",
-            "image": ""
-          },
-          {
             "title": "Firmus $5 bln float failure deals blow to Australia's shrinking share market",
             "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxONnRwRm1LSkcxRmYwZGx2Wkt0c0dGbGdqVFRYUEdfWEZsblN3aWJYcE9LbFNKNHZWcllURmYyREtmYzF5OGpmVDdreGtUam9mVFhpNVBPOUpGV3hsWXJ6SUdsVmpDbC1VanNzazJabUZkTFFkdi01MVVtZ0NuVXV1aVoxN0VKNGlsMVR2RjY2eU5uY2R6eHZsQXhMYmxvODJZZjdFS1oxQUJ3ZTFmOTFSUU5EOGlsb1ctNmkxdkQ5aWhyWjlvZ0E?oc=5",
             "published": "Fri, 09 Oct 2026 06:45:00 GMT",
@@ -3770,24 +3770,6 @@
             "image": ""
           },
           {
-            "title": "S&P 500, Nasdaq end lower as crude prices jump, chip stocks weigh",
-            "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPLTluWFV5cWFfM2xBV243NUduZW80Q3dmYnFLa1Y4Nmhha2RNNHVGTS1sM2NYZ0ZCeWJlazZpSndKOWM0OVUxTmx2M3luSDdpbVgzNnYtanQtb2VkWV9tU2NQaU03ejAxZy1NU1JhWkMwLXRNbmJUY2pWaTBrVE9XbGRXa2VFekh1LTVZbVNGUVRKTVhIU0NnSUZqdXI?oc=5",
-            "published": "Thu, 08 Oct 2026 23:09:38 GMT",
-            "source": "Reuters",
-            "provider": "REUTERS",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "Nvidia-backed Iambic Therapeutics launches IPO as biotechs buck market gloom",
-            "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOT2duSWZGV1gtNHhZUVRCMHQ4QTN4ZzAzOFR1QjVlbmNfdEYwRG9HRWc1ai1WUXV0TFlESmpzSnhQSW1jT2xDYmdhSXZrXzZTUFVyX1N5VFltX2VyVDZPeEUzZ0hxYnB1MmpYYVhvU3h0VlB3MjZrMThFZFhwMkk2cEw0eGdKSHdySTJEWTNsZklka25TamNFbG91UXRPSjJPYjl4d2JvREdwa2QyeTh5bHpRN3dmUXJzbXRUOFJacHpuM3M0?oc=5",
-            "published": "Thu, 08 Oct 2026 18:18:10 GMT",
-            "source": "Reuters",
-            "provider": "REUTERS",
-            "categories": "",
-            "image": ""
-          },
-          {
             "title": "COMMENTARY: Battle for Mideast oil market share has already begun",
             "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPT1RyVmNydDh5ZVFSUExTVnBMZElEeHF1QUVDWTh6SmV6R0wxOV9yZno1clF4dW5fUlFzcnJIWE9ZMG1qM0MtZVRtVC1yNHJEZEJDVmhCZFBOU2RxNUxfdURsVXV2TktONlJ5OEd4NEJxaGZLcmp3X1RNcFllX3k0NzdoU05qVGVBa0hqb2RDNE1vZHBVQ1liTjU4c2J3R215UGR1Nnc0eFlsaW1rVW1lUlYzTFZLZlRvcXc?oc=5",
             "published": "Thu, 08 Oct 2026 07:02:02 GMT",
@@ -3797,18 +3779,18 @@
             "image": ""
           },
           {
-            "title": "World shares, euro slide as high oil prices, fiscal worries linger",
-            "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZW5YUkkzdjhfTWJXY25aWkVLeExISGkybXo1YmFoS256Qk5DclZaVVc4ODRnejkzYlBYOTBVWWp5YTVHRDVyMmtBUDVZWHlFclVhYUtIU2d0Tm1GWmRzMnhQNlg4aVVfWEZjb21nQ0tTUzc0WjQ5bEhmWVJuNzFwX25Bdw?oc=5",
-            "published": "Wed, 07 Oct 2026 16:34:59 GMT",
+            "title": "Investors pick new darlings and duds as selloff rocks Europe's bond market",
+            "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZUwxWllNS1pOd3QyU1N1SXNKRExZYWU2U2V2SXdRZkIxNTJ5NEFjNlRPMmlScW9sQUFMdzl3STlMN09oRzNqc0tPNGJVWnJ3b2hUa3NNWFN6MFRjSHJQODFZTFh4a1BMczhIU3JqY0xwUGlDRHEtUWxYbFJuXy1MbTk4ZGtHcFNnQjZ4V2d6UFc3VDNFTmtOOVlVTUhLeGRjOG1GbUp3VjFpUVBBSDdUOA?oc=5",
+            "published": "Wed, 07 Oct 2026 15:32:49 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
             "image": ""
           },
           {
-            "title": "Investors pick new darlings and duds as selloff rocks Europe's bond market",
-            "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZUwxWllNS1pOd3QyU1N1SXNKRExZYWU2U2V2SXdRZkIxNTJ5NEFjNlRPMmlScW9sQUFMdzl3STlMN09oRzNqc0tPNGJVWnJ3b2hUa3NNWFN6MFRjSHJQODFZTFh4a1BMczhIU3JqY0xwUGlDRHEtUWxYbFJuXy1MbTk4ZGtHcFNnQjZ4V2d6UFc3VDNFTmtOOVlVTUhLeGRjOG1GbUp3VjFpUVBBSDdUOA?oc=5",
-            "published": "Wed, 07 Oct 2026 15:32:49 GMT",
+            "title": "Hedge funds deliver mixed September results on AI swings",
+            "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUZkZi1QLXNOR283SlRkU0ZYV3FJdUQxNDEyTmpmdEZuT2lmOHRwZXQxM0I1RWNZYTlZYnM3RnN2cHVNbDJwUGNqZHQ2M1JwT21QREpGNFE3Vy1CWEJDOGZabElfcU1mSmZvcnNjNTFxVERheFBDSXliQWxMaEJfZDcyem1ZT0hhdG1obDlGUy1BMjdEbDViOHQ5ZTVhY0dxQzY1YjRrSQ?oc=5",
+            "published": "Wed, 07 Oct 2026 07:00:00 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3836,6 +3818,24 @@
     "MAGPIE": {
       "categories": {
         "STOCKS": [
+          {
+            "title": "These 2 FTSE 100 dividend stocks yield 6.6% after recent dips – but which is better value?",
+            "link": "https://www.twelfthmagpie.com/2026/10/11/these-2-ftse-100-dividend-stocks-yield-6-6-after-recent-dips-but-which-is-better-value/",
+            "published": "Sun, 11 Oct 2026 12:47:40 +0000",
+            "source": "The Twelfth Magpie",
+            "provider": "MAGPIE",
+            "categories": "Dividend Shares Investing Articles",
+            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2024/02/Heart-hands-1200x800.jpg"
+          },
+          {
+            "title": "This old Warren Buffett lesson looks like a very useful one in today’s market!",
+            "link": "https://www.twelfthmagpie.com/2026/10/11/this-old-warren-buffett-lesson-looks-like-a-very-useful-one-in-todays-market/",
+            "published": "Sun, 11 Oct 2026 09:23:14 +0000",
+            "source": "The Twelfth Magpie",
+            "provider": "MAGPIE",
+            "categories": "Growth Shares Investing Articles",
+            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2021/11/Buffett.jpg"
+          },
           {
             "title": "Here’s how much a £5-a-day passive income plan could produce a decade from now",
             "link": "https://www.twelfthmagpie.com/2026/10/11/heres-how-much-a-5-a-day-passive-income-plan-could-produce-a-decade-from-now/",
@@ -3907,24 +3907,6 @@
             "provider": "MAGPIE",
             "categories": "Dividend Shares Investing Articles",
             "image": "https://www.twelfthmagpie.com/wp-content/uploads/2024/07/Father-and-daughter-1200x800.jpg"
-          },
-          {
-            "title": "Why’s everyone selling Taylor Wimpey shares?",
-            "link": "https://www.twelfthmagpie.com/2026/10/11/why-is-everyone-selling-taylor-wimpey-shares/",
-            "published": "Sun, 11 Oct 2026 07:11:00 +0000",
-            "source": "The Twelfth Magpie",
-            "provider": "MAGPIE",
-            "categories": "Investing Articles Investing For Beginners",
-            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2021/01/Semi-detached1.jpg"
-          },
-          {
-            "title": "2 of the most popular UK stocks to buy today",
-            "link": "https://www.twelfthmagpie.com/2026/10/11/2-of-the-most-popular-uk-stocks-to-buy-today/",
-            "published": "Sun, 11 Oct 2026 07:01:00 +0000",
-            "source": "The Twelfth Magpie",
-            "provider": "MAGPIE",
-            "categories": "Investing Articles Investing For Beginners",
-            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2026/06/AdobeStock_680954671-1200x800.jpeg"
           }
         ]
       },
@@ -3940,5 +3922,5 @@
       }
     }
   },
-  "stocksUpdated": "2026-10-11T09:15:17.121Z"
+  "stocksUpdated": "2026-10-11T13:03:15.157Z"
 }
