@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-11T13:03:15.204Z",
+  "updated": "2026-10-11T15:55:59.103Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -24,13 +24,13 @@
         "title": "Verity",
         "author": "Colleen Hoover",
         "narrator": "Vanessa Johansson , Amy Landon",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/40/ef/da/40efda88-49f4-a5ec-814c-6703689e539b/9791036624001.jpg/600x600bb.jpg"
+        "image": "https://m.media-amazon.com/images/I/41xU31AS-BL._SL500_.jpg"
       },
       {
         "title": "Dungeon Crawler Carl",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://covers.openlibrary.org/b/id/15143022-L.jpg"
+        "image": "https://m.media-amazon.com/images/I/51HIZdnqASL._SL500_.jpg"
       },
       {
         "title": "He Who Fights with Monsters 13: A LitRPG Adventure",
@@ -123,14 +123,14 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-10-11T13:03:15.205Z",
-      "lastSuccessfulRefresh": "2026-10-11T13:03:15.205Z",
+      "checkedAt": "2026-10-11T15:55:59.103Z",
+      "lastSuccessfulRefresh": "2026-10-11T15:55:59.103Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-10-11T13:03:24.483Z",
-      "lastSuccessfulRefresh": "2026-10-11T13:03:24.483Z",
+      "checkedAt": "2026-10-11T15:56:08.370Z",
+      "lastSuccessfulRefresh": "2026-10-11T15:56:08.370Z",
       "reason": ""
     }
   }
