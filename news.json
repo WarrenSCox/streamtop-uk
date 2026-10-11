@@ -1,7 +1,16 @@
 {
-  "updated": "2026-10-11T20:10:34.642Z",
+  "updated": "2026-10-11T22:06:05.348Z",
   "categories": {
     "UK": [
+      {
+        "title": "Nigel Farage vows to ban asylum seekers and deport 90,000 people if Reform wins",
+        "link": "https://metro.co.uk/2026/10/11/nigel-farage-promises-ban-asylum-seekers-deport-90-000-people-straight-away-29699751/",
+        "published": "Sun, 11 Oct 2026 21:29:51 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News Politics Nigel Farage Reform UK",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315784367-d67a.jpg?quality=90&strip=all&w=646"
+      },
       {
         "title": "Charlie Kirk-style ‘prove me wrong’ tent torn down by ‘school kids’",
         "link": "https://metro.co.uk/2026/10/11/charlie-kirk-style-prove-wrong-tent-torn-school-kids-29699543/",
@@ -37,15 +46,6 @@
         "provider": "GUARDIAN",
         "categories": "Brexit Foreign policy Andy Burnham Labour Russia European Union Europe World news Politics UK news",
         "image": "https://i.guim.co.uk/img/media/33bd484b3049da09d96757ddf4d6de04f7f8ef2c/946_127_2878_2302/master/2878.jpg?width=140&quality=85&auto=format&fit=max&s=08a6eab4156d74a86b3cd2a70cec7f51"
-      },
-      {
-        "title": "Russia strikes power plants moments after Trump announces ‘energy ceasefire’ between Putin and Zelensky",
-        "link": "https://metro.co.uk/2026/10/11/trump-says-russia-ukraine-agreed-stop-bombing-oil-plants-29699284/",
-        "published": "Sun, 11 Oct 2026 15:23:01 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News US World Donald Trump Russia Russia-Ukraine war Ukraine",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315546934-c68b-e1791316045866.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "Zack Polanski signals Green party overhaul after row over Zionism vote",
@@ -95,13 +95,13 @@
     ],
     "WORLD": [
       {
-        "title": "Politics live: Greens call for US execution live stream to be blocked; Flydubai pilot’s Australia links ‘disturbing’",
+        "title": "Politics live: Monique Ryan ‘not bothered’ by Josh Frydenberg comeback speculation",
         "link": "https://www.theguardian.com/australia-news/live/2026/oct/12/labor-anthony-albanese-greens-digital-duty-of-care-coalition-angus-taylor-one-nation-ntwnfb",
-        "published": "Sun, 11 Oct 2026 20:07:40 GMT",
+        "published": "Sun, 11 Oct 2026 21:48:45 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
-        "categories": "Australia news Australian politics Australian economy Business Health Australian education Australian immigration and asylum Australian foreign policy Coalition Angus Taylor Labor party Anthony Albanese One Nation Pauline Hanson",
-        "image": "https://i.guim.co.uk/img/media/fd17fb0b28652a84f746f1009f4c41a8277572f1/1042_370_2387_1909/master/2387.jpg?width=140&quality=85&auto=format&fit=max&s=61a1c59f1ada41e56088c5eb21c5e8e4"
+        "categories": "Australian politics Australia news Australian economy Business Health Australian education Australian immigration and asylum Australian foreign policy Coalition Angus Taylor Labor party Anthony Albanese One Nation Pauline Hanson Australian Greens",
+        "image": "https://i.guim.co.uk/img/media/137281671abf6509a4a707cb10439d200a89a4e4/688_0_6880_5504/master/6880.jpg?width=140&quality=85&auto=format&fit=max&s=44b3a27f303ea8933e4240ab157919a3"
       },
       {
         "title": "Volkswagen boss backs EU plan to bolster domestic European industry",
@@ -113,8 +113,8 @@
         "image": "https://i.guim.co.uk/img/media/d16c05f9a59edb2f7fa273d4807bd01cd301414a/570_0_2700_2160/master/2700.jpg?width=140&quality=85&auto=format&fit=max&s=3ae26140a9ed576c038a2f98dc96e9aa"
       },
       {
-        "title": "At least 13 miners killed in airstrike",
-        "link": "https://news.sky.com/story/at-least-13-miners-killed-in-airstrike-on-sudan-egypt-border-says-medical-group-13597904",
+        "title": "'At least 72' miners killed in airstrike",
+        "link": "https://news.sky.com/story/at-least-72-miners-killed-in-airstrike-on-sudan-egypt-border-13597904",
         "published": "Sun, 11 Oct 2026 17:25:00 +0100",
         "source": "Sky News",
         "provider": "SKY",
@@ -149,13 +149,13 @@
         "image": "https://i.guim.co.uk/img/media/2cec99cb14b49a9de1171e6bdf226ed0a9e92d39/86_90_494_395/master/494.jpg?width=140&quality=85&auto=format&fit=max&s=6fd6c4adaaf1f617082ede770076be1e"
       },
       {
-        "title": "Greens gear up for fight with Labor as Sarah Hanson-Young pushes to strengthen laws to rein in big tech",
-        "link": "https://www.theguardian.com/australia-news/2026/oct/12/greens-sarah-hanson-young-big-tech-digital-duty-of-care-labor",
+        "title": "Australia has never driven migration into reverse by design. Would slamming on the brakes be calamitous?",
+        "link": "https://www.theguardian.com/australia-news/2026/oct/12/australia-has-never-driven-migration-into-reverse-by-design-would-slamming-the-brakes-on-be-calamitous",
         "published": "Sun, 11 Oct 2026 14:00:28 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
-        "categories": "Australian Greens Social media ban Sarah Hanson-Young Australia news Australian politics Technology Business Internet safety David Shoebridge Labor party Social media Social media bans Online abuse Cyberbullying Coalition Freedom of speech",
-        "image": "https://i.guim.co.uk/img/media/7334f9540b3d46e2ac7945858bfe20c2948cc71c/479_123_2187_1750/master/2187.jpg?width=140&quality=85&auto=format&fit=max&s=cdd4efe45a1c3a01e50718f0bbb31659"
+        "categories": "Australian immigration and asylum Australia news Business One Nation Australian politics Migration Coalition",
+        "image": "https://i.guim.co.uk/img/media/3c614d3ec9db0aee1d31c19a5b2e47c0786bbde2/197_0_3200_2560/master/3200.jpg?width=140&quality=85&auto=format&fit=max&s=f04992c3e11798a98cbf1331e1773746"
       },
       {
         "title": "Pakistan's president declares state of emergency in province run by Imran Khan's party",
@@ -167,15 +167,6 @@
         "image": "https://e3.365dm.com/26/10/1920x1080/skynews-khyber-pakhtunkhwa_7374171.jpg?20261011150325"
       },
       {
-        "title": "Andy Burnham confirms Russia interfered in Brexit vote",
-        "link": "https://metro.co.uk/2026/10/11/andy-burnham-confirms-russia-interfered-brexit-vote-29698897/",
-        "published": "Sun, 11 Oct 2026 13:04:41 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News Politics Andy Burnham Brexit European Union Russia",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315782089-123d.jpg?quality=90&strip=all&w=646"
-      },
-      {
         "title": "Pope Leo to undergo surgery in coming days after nodule discovered on his lung",
         "link": "https://news.sky.com/story/pope-leo-to-undergo-surgery-in-coming-days-after-nodule-discovered-on-his-lung-13597712",
         "published": "Sun, 11 Oct 2026 11:25:00 +0100",
@@ -183,9 +174,27 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/10/1920x1080/skynews-pope-leo_7373928.jpg?20261011115441"
+      },
+      {
+        "title": "Trump threatens to join air strikes after Riyadh airport attack kills 12 and injures 300",
+        "link": "https://metro.co.uk/2026/10/11/riyadh-airport-attack-kills-12-injures-300-trump-threatens-strikes-29698520/",
+        "published": "Sun, 11 Oct 2026 10:19:23 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News World Iran war Middle East Saudi Arabia Yemen",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316118974-f8c2.jpg?quality=90&strip=all&w=646"
       }
     ],
     "POLITICS": [
+      {
+        "title": "Nigel Farage vows to ban asylum seekers and deport 90,000 people if Reform wins",
+        "link": "https://metro.co.uk/2026/10/11/nigel-farage-promises-ban-asylum-seekers-deport-90-000-people-straight-away-29699751/",
+        "published": "Sun, 11 Oct 2026 21:29:51 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News Politics Nigel Farage Reform UK",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315784367-d67a.jpg?quality=90&strip=all&w=646"
+      },
       {
         "title": "Andy Burnham says it is clear Russia interfered in Brexit referendum",
         "link": "https://www.theguardian.com/politics/2026/oct/11/andy-burnham-russia-interfered-brexit-vote",
@@ -212,15 +221,6 @@
         "provider": "GUARDIAN",
         "categories": "Green party Politics UK news Labour Israel",
         "image": "https://i.guim.co.uk/img/media/d3e22fc8328a99f0f91a310da466539d51077f4f/687_0_5293_4235/master/5293.jpg?width=140&quality=85&auto=format&fit=max&s=f891093e8a521277414fbc0c80efdff4"
-      },
-      {
-        "title": "People smugglers are still profiting from small boats. Can the UK fix the crisis?",
-        "link": "https://www.theguardian.com/uk-news/2026/oct/11/people-smugglers-profit-small-boats-can-uk-fix-crisis",
-        "published": "Sun, 11 Oct 2026 12:00:27 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Immigration and asylum Home Office Politics UK news France Migration Refugees Europe World news",
-        "image": "https://i.guim.co.uk/img/media/6b54c071a496f64a5281f0f4e9baf8965f4c0adf/180_0_2740_2192/master/2740.jpg?width=140&quality=85&auto=format&fit=max&s=74fcf0c3275b5cb4f67e8207742a01fd"
       },
       {
         "title": "MPs bag nearly £500k in freebies from UAE and Manchester City as campaigners raise ‘conflict of interest’ concern",
@@ -463,6 +463,15 @@
     ],
     "ENTERTAINMENT": [
       {
+        "title": "ITV’s party from hell thriller isn’t perfect but I’m dying to see the twist",
+        "link": "https://metro.co.uk/2026/10/11/itvs-party-hell-thriller-isnt-perfect-im-dying-see-twist-29697794/",
+        "published": "Sun, 11 Oct 2026 21:00:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Entertainment TV ITV ITVX Joanna Scanlan Luke Evans Thriller movies & TV shows TV reviews",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315488232-d8ae.jpg?quality=90&strip=all&w=646"
+      },
+      {
         "title": "The Mummy star walks out of Tom Cruise’s Digger: ‘What were they thinking?’",
         "link": "https://metro.co.uk/2026/10/11/mummy-star-walks-tom-cruises-digger-what-thinking-29699615/",
         "published": "Sun, 11 Oct 2026 19:13:42 +0000",
@@ -488,15 +497,6 @@
         "provider": "METRO",
         "categories": "Entertainment TV BBC David Tennant Exclusive",
         "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI315373587-68c1.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Vic Reeves, 67, ‘rushed to hospital after collapsing at wedding’",
-        "link": "https://metro.co.uk/2026/10/11/vic-reeves-67-rushed-hospital-collapsing-wedding-29699065/",
-        "published": "Sun, 11 Oct 2026 17:45:55 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Entertainment Showbiz Bob Mortimer Vic Reeves",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/PRI_202089833-3b26-e1791740573785.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "Stark warning – does new footage in Avengers: Endgame reveal the truth about Doctor Doom?",
@@ -555,6 +555,15 @@
     ],
     "STOCKS": [
       {
+        "title": "Dow Jones Futures: Trump Claims Russia-Ukraine 'Energy Ceasefire'; ASML, Nvidia Chipmaker Taiwan Semi Earnings Loom",
+        "link": "https://uk.finance.yahoo.com/m/0d7a86f7-63d8-35ac-9402-ed0f2ca814ac/dow-jones-futures%3A-trump.html?.tsrc=rss",
+        "published": "Sun, 11 Oct 2026 21:54:25 +0000",
+        "source": "Yahoo Finance",
+        "provider": "YAHOO",
+        "categories": "",
+        "image": ""
+      },
+      {
         "title": "Strip out AI stocks, and the US market lags Europe",
         "link": "https://finance.yahoo.com/markets/article/strip-out-ai-stocks-and-the-us-market-lags-europe-190907424.html?.tsrc=rss",
         "published": "Sun, 11 Oct 2026 19:09:07 +0000",
@@ -576,15 +585,6 @@
         "title": "Stock Futures Kick Off New Week Ahead of Bank Reports",
         "link": "https://uk.finance.yahoo.com/m/acbd48df-f128-333b-bfb4-57cdd62f83bf/stock-futures-kick-off-new.html?.tsrc=rss",
         "published": "Sun, 11 Oct 2026 18:11:00 +0000",
-        "source": "Yahoo Finance",
-        "provider": "YAHOO",
-        "categories": "",
-        "image": ""
-      },
-      {
-        "title": "Wells Fargo, Bank of America, Domino’s, Johnson & Johnson, Inflation Data, and More to Watch This Week",
-        "link": "https://uk.finance.yahoo.com/m/63470f09-0012-3664-9778-7a6e6caecb92/wells-fargo%2C-bank-of-america%2C.html?.tsrc=rss",
-        "published": "Sun, 11 Oct 2026 18:00:00 +0000",
         "source": "Yahoo Finance",
         "provider": "YAHOO",
         "categories": "",
@@ -851,8 +851,8 @@
             "image": "https://e3.365dm.com/26/10/1920x1080/skynews-bab-el-mandeb-yemen_7373917.jpg?20261011113957"
           },
           {
-            "title": "At least 13 miners killed in airstrike",
-            "link": "https://news.sky.com/story/at-least-13-miners-killed-in-airstrike-on-sudan-egypt-border-says-medical-group-13597904",
+            "title": "'At least 72' miners killed in airstrike",
+            "link": "https://news.sky.com/story/at-least-72-miners-killed-in-airstrike-on-sudan-egypt-border-13597904",
             "published": "Sun, 11 Oct 2026 17:25:00 +0100",
             "source": "Sky News",
             "provider": "SKY",
@@ -1586,13 +1586,13 @@
             "image": "https://i.guim.co.uk/img/media/1fb3cd9a44e62de1df9ceaac61c77bb0cf10693b/511_0_3761_3009/master/3761.jpg?width=140&quality=85&auto=format&fit=max&s=d02c734a2c493409323ccefeb51d07dd"
           },
           {
-            "title": "Politics live: Greens call for US execution live stream to be blocked; Flydubai pilot’s Australia links ‘disturbing’",
+            "title": "Politics live: Monique Ryan ‘not bothered’ by Josh Frydenberg comeback speculation",
             "link": "https://www.theguardian.com/australia-news/live/2026/oct/12/labor-anthony-albanese-greens-digital-duty-of-care-coalition-angus-taylor-one-nation-ntwnfb",
-            "published": "Sun, 11 Oct 2026 20:07:40 GMT",
+            "published": "Sun, 11 Oct 2026 21:48:45 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Australia news Australian politics Australian economy Business Health Australian education Australian immigration and asylum Australian foreign policy Coalition Angus Taylor Labor party Anthony Albanese One Nation Pauline Hanson",
-            "image": "https://i.guim.co.uk/img/media/fd17fb0b28652a84f746f1009f4c41a8277572f1/1042_370_2387_1909/master/2387.jpg?width=140&quality=85&auto=format&fit=max&s=61a1c59f1ada41e56088c5eb21c5e8e4"
+            "categories": "Australian politics Australia news Australian economy Business Health Australian education Australian immigration and asylum Australian foreign policy Coalition Angus Taylor Labor party Anthony Albanese One Nation Pauline Hanson Australian Greens",
+            "image": "https://i.guim.co.uk/img/media/137281671abf6509a4a707cb10439d200a89a4e4/688_0_6880_5504/master/6880.jpg?width=140&quality=85&auto=format&fit=max&s=44b3a27f303ea8933e4240ab157919a3"
           },
           {
             "title": "The Australian’s Shadow of Doubt podcast delayed ‘sadistic’ paedophile’s trial, court documents reveal",
@@ -1604,15 +1604,6 @@
             "image": "https://i.guim.co.uk/img/media/2cec99cb14b49a9de1171e6bdf226ed0a9e92d39/86_90_494_395/master/494.jpg?width=140&quality=85&auto=format&fit=max&s=6fd6c4adaaf1f617082ede770076be1e"
           },
           {
-            "title": "Greens gear up for fight with Labor as Sarah Hanson-Young pushes to strengthen laws to rein in big tech",
-            "link": "https://www.theguardian.com/australia-news/2026/oct/12/greens-sarah-hanson-young-big-tech-digital-duty-of-care-labor",
-            "published": "Sun, 11 Oct 2026 14:00:28 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Australian Greens Social media ban Sarah Hanson-Young Australia news Australian politics Technology Business Internet safety David Shoebridge Labor party Social media Social media bans Online abuse Cyberbullying Coalition Freedom of speech",
-            "image": "https://i.guim.co.uk/img/media/7334f9540b3d46e2ac7945858bfe20c2948cc71c/479_123_2187_1750/master/2187.jpg?width=140&quality=85&auto=format&fit=max&s=cdd4efe45a1c3a01e50718f0bbb31659"
-          },
-          {
             "title": "Australia has never driven migration into reverse by design. Would slamming on the brakes be calamitous?",
             "link": "https://www.theguardian.com/australia-news/2026/oct/12/australia-has-never-driven-migration-into-reverse-by-design-would-slamming-the-brakes-on-be-calamitous",
             "published": "Sun, 11 Oct 2026 14:00:28 GMT",
@@ -1620,6 +1611,15 @@
             "provider": "GUARDIAN",
             "categories": "Australian immigration and asylum Australia news Business One Nation Australian politics Migration Coalition",
             "image": "https://i.guim.co.uk/img/media/3c614d3ec9db0aee1d31c19a5b2e47c0786bbde2/197_0_3200_2560/master/3200.jpg?width=140&quality=85&auto=format&fit=max&s=f04992c3e11798a98cbf1331e1773746"
+          },
+          {
+            "title": "Greens prepare for fight with Labor over social media algorithm reform, with ‘pervert glasses’ in its sights",
+            "link": "https://www.theguardian.com/australia-news/2026/oct/12/greens-sarah-hanson-young-big-tech-digital-duty-of-care-labor",
+            "published": "Sun, 11 Oct 2026 14:00:28 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Australian Greens Social media ban Sarah Hanson-Young Australia news Australian politics Technology Business Internet safety David Shoebridge Labor party Social media Social media bans Online abuse Cyberbullying Coalition Freedom of speech",
+            "image": "https://i.guim.co.uk/img/media/7334f9540b3d46e2ac7945858bfe20c2948cc71c/479_123_2187_1750/master/2187.jpg?width=140&quality=85&auto=format&fit=max&s=cdd4efe45a1c3a01e50718f0bbb31659"
           },
           {
             "title": "A Trump impersonator and opera singers: CPAC was a spectacle, but the right still can’t agree how to take down Labor",
@@ -2382,6 +2382,15 @@
       "categories": {
         "UK": [
           {
+            "title": "Nigel Farage vows to ban asylum seekers and deport 90,000 people if Reform wins",
+            "link": "https://metro.co.uk/2026/10/11/nigel-farage-promises-ban-asylum-seekers-deport-90-000-people-straight-away-29699751/",
+            "published": "Sun, 11 Oct 2026 21:29:51 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News Politics Nigel Farage Reform UK",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315784367-d67a.jpg?quality=90&strip=all&w=646"
+          },
+          {
             "title": "Charlie Kirk-style ‘prove me wrong’ tent torn down by ‘school kids’",
             "link": "https://metro.co.uk/2026/10/11/charlie-kirk-style-prove-wrong-tent-torn-school-kids-29699543/",
             "published": "Sun, 11 Oct 2026 18:53:31 +0000",
@@ -2551,15 +2560,6 @@
             "provider": "METRO",
             "categories": "News US Donald Trump Iran United States of America",
             "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316153827-ed15.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Urgent warning issued after Salmonella found in eggs",
-            "link": "https://metro.co.uk/2026/10/11/urgent-warning-issued-salmonella-found-imported-eggs-29698297/",
-            "published": "Sun, 11 Oct 2026 07:18:48 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News UK Egg Food recalls Health News",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_310527610-351c.jpg?quality=90&strip=all&w=646"
           }
         ],
         "WORLD": [
@@ -2724,18 +2724,18 @@
             "provider": "METRO",
             "categories": "News World Gaza Gaza City Hamas Israel Israel-Hamas war Israeli Government Palestine",
             "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315637530-d9c3.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Andy Burnham confirms Russia interfered in Brexit vote",
-            "link": "https://metro.co.uk/2026/10/11/andy-burnham-confirms-russia-interfered-brexit-vote-29698897/",
-            "published": "Sun, 11 Oct 2026 13:04:41 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News Politics Andy Burnham Brexit European Union Russia",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315782089-123d.jpg?quality=90&strip=all&w=646"
           }
         ],
         "POLITICS": [
+          {
+            "title": "Nigel Farage vows to ban asylum seekers and deport 90,000 people if Reform wins",
+            "link": "https://metro.co.uk/2026/10/11/nigel-farage-promises-ban-asylum-seekers-deport-90-000-people-straight-away-29699751/",
+            "published": "Sun, 11 Oct 2026 21:29:51 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News Politics Nigel Farage Reform UK",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315784367-d67a.jpg?quality=90&strip=all&w=646"
+          },
           {
             "title": "MPs bag nearly £500k in freebies from UAE and Manchester City as campaigners raise ‘conflict of interest’ concern",
             "link": "https://metro.co.uk/2026/10/10/mps-500k-freebies-uae-spark-conflict-concerns-29697397/",
@@ -2906,15 +2906,6 @@
             "provider": "METRO",
             "categories": "News Politics Andy Burnham Department for Work and Pensions Labour Party Pensions",
             "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_314424129-593c.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Angela Rayner blasts 90s trance hits from DJ decks at Labour conference",
-            "link": "https://metro.co.uk/2026/09/29/angela-rayner-blasts-90s-trance-hits-dj-decks-labour-conference-29662463/",
-            "published": "Tue, 29 Sep 2026 09:01:11 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News Politics Andy Burnham Angela Rayner British Government Dawn Butler Labour Party",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_314537876-147b.jpg?quality=90&strip=all&w=646"
           }
         ],
         "BUSINESS": [
@@ -3112,6 +3103,15 @@
         ],
         "ENTERTAINMENT": [
           {
+            "title": "ITV’s party from hell thriller isn’t perfect but I’m dying to see the twist",
+            "link": "https://metro.co.uk/2026/10/11/itvs-party-hell-thriller-isnt-perfect-im-dying-see-twist-29697794/",
+            "published": "Sun, 11 Oct 2026 21:00:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment TV ITV ITVX Joanna Scanlan Luke Evans Thriller movies & TV shows TV reviews",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315488232-d8ae.jpg?quality=90&strip=all&w=646"
+          },
+          {
             "title": "The Mummy star walks out of Tom Cruise’s Digger: ‘What were they thinking?’",
             "link": "https://metro.co.uk/2026/10/11/mummy-star-walks-tom-cruises-digger-what-thinking-29699615/",
             "published": "Sun, 11 Oct 2026 19:13:42 +0000",
@@ -3281,15 +3281,6 @@
             "provider": "METRO",
             "categories": "Entertainment Showbiz Joe Swash Stacey Solomon",
             "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_268767059-b252.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Stephen Graham reveals how he stopped wife leaving him for Spanish lover",
-            "link": "https://metro.co.uk/2026/10/10/stephen-graham-reveals-stopped-wife-leaving-spanish-lover-29697391/",
-            "published": "Sat, 10 Oct 2026 12:14:32 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Entertainment Showbiz Adolescence Stephen Graham",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_313475181-3a45.jpg?quality=90&strip=all&w=646"
           }
         ]
       },
@@ -3300,7 +3291,7 @@
         },
         "WORLD": {
           "ok": true,
-          "count": 19
+          "count": 18
         },
         "POLITICS": {
           "ok": true,
@@ -3430,6 +3421,15 @@
         "STOCK_MARKET": [],
         "STOCKS": [
           {
+            "title": "Dow Jones Futures: Trump Claims Russia-Ukraine 'Energy Ceasefire'; ASML, Nvidia Chipmaker Taiwan Semi Earnings Loom",
+            "link": "https://uk.finance.yahoo.com/m/0d7a86f7-63d8-35ac-9402-ed0f2ca814ac/dow-jones-futures%3A-trump.html?.tsrc=rss",
+            "published": "Sun, 11 Oct 2026 21:54:25 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
             "title": "Strip out AI stocks, and the US market lags Europe",
             "link": "https://finance.yahoo.com/markets/article/strip-out-ai-stocks-and-the-us-market-lags-europe-190907424.html?.tsrc=rss",
             "published": "Sun, 11 Oct 2026 19:09:07 +0000",
@@ -3460,15 +3460,6 @@
             "title": "Wells Fargo, Bank of America, Domino’s, Johnson & Johnson, Inflation Data, and More to Watch This Week",
             "link": "https://uk.finance.yahoo.com/m/63470f09-0012-3664-9778-7a6e6caecb92/wells-fargo%2C-bank-of-america%2C.html?.tsrc=rss",
             "published": "Sun, 11 Oct 2026 18:00:00 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "Dow Jones Futures: Trump Claims Russia-Ukraine 'Energy Ceasefire'; ASML, Nvidia Chipmaker Taiwan Semi Earnings Loom",
-            "link": "https://uk.finance.yahoo.com/m/0d7a86f7-63d8-35ac-9402-ed0f2ca814ac/dow-jones-futures%3A-trump.html?.tsrc=rss",
-            "published": "Sun, 11 Oct 2026 17:23:44 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
@@ -3718,6 +3709,15 @@
             "image": ""
           },
           {
+            "title": "India's Jio Platforms targets $106 billion valuation in IPO, sources say",
+            "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPLVBtV2xpdERRYnpuYTFjdGl4empoX2I5VVN5ZERGWW96V0FDRGRFNkVzR2lRUnhKbG1ta291NTM2YndMTnFHbDFMVHo2S3FkZEtITFhMUkcyV2hRLUhNeF9nQjY5M0tfcnZNcTZlS09PNlloQjlNNjdjYzQwVXA5a0p6MFJUaEtIMVFPNU5DbmpVbmhqcFg3MlJENFBQakZjWENxUVJhcGE1S3djdjhCcHFqTUV4RHlTVkNMd3hR?oc=5",
+            "published": "Fri, 09 Oct 2026 14:11:35 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
             "title": "AI-centered US stock bull market nears four-year anniversary",
             "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZThNNTgyNW8tMm1YNzBUMG1FRDdMVm9PNktJLUYtek04SHhGX1ZyY0tIM3RVbk50Yk5iSlROdUhjZV9DaWpIRHVrREVkN3dxVUlUUkRXYkhFREJaVVJLRGw1RS1GVTkwcVUweWlPd2xVSkNmY3RJYWZFdGxqYWVRZ2JiSzJOZTVWb3dvMndyRThaZ0NWN2tBMGQzNmtvaGxZSkVOd19rbzNGcjVEQlVhM0xTaGJXV1U?oc=5",
             "published": "Fri, 09 Oct 2026 10:02:00 GMT",
@@ -3784,15 +3784,6 @@
             "title": "World shares, euro slide as high oil prices, fiscal worries linger",
             "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZW5YUkkzdjhfTWJXY25aWkVLeExISGkybXo1YmFoS256Qk5DclZaVVc4ODRnejkzYlBYOTBVWWp5YTVHRDVyMmtBUDVZWHlFclVhYUtIU2d0Tm1GWmRzMnhQNlg4aVVfWEZjb21nQ0tTUzc0WjQ5bEhmWVJuNzFwX25Bdw?oc=5",
             "published": "Wed, 07 Oct 2026 16:34:59 GMT",
-            "source": "Reuters",
-            "provider": "REUTERS",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "Investors pick new darlings and duds as selloff rocks Europe's bond market",
-            "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZUwxWllNS1pOd3QyU1N1SXNKRExZYWU2U2V2SXdRZkIxNTJ5NEFjNlRPMmlScW9sQUFMdzl3STlMN09oRzNqc0tPNGJVWnJ3b2hUa3NNWFN6MFRjSHJQODFZTFh4a1BMczhIU3JqY0xwUGlDRHEtUWxYbFJuXy1MbTk4ZGtHcFNnQjZ4V2d6UFc3VDNFTmtOOVlVTUhLeGRjOG1GbUp3VjFpUVBBSDdUOA?oc=5",
-            "published": "Wed, 07 Oct 2026 15:32:49 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3924,5 +3915,5 @@
       }
     }
   },
-  "stocksUpdated": "2026-10-11T20:10:41.943Z"
+  "stocksUpdated": "2026-10-11T22:06:14.415Z"
 }
