@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-11T15:55:59.103Z",
+  "updated": "2026-10-11T20:10:42.005Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -24,7 +24,7 @@
         "title": "Verity",
         "author": "Colleen Hoover",
         "narrator": "Vanessa Johansson , Amy Landon",
-        "image": "https://m.media-amazon.com/images/I/41xU31AS-BL._SL500_.jpg"
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/40/ef/da/40efda88-49f4-a5ec-814c-6703689e539b/9791036624001.jpg/600x600bb.jpg"
       },
       {
         "title": "Dungeon Crawler Carl",
@@ -45,22 +45,22 @@
         "image": "https://m.media-amazon.com/images/I/41E2JISfmgL._SL500_.jpg"
       },
       {
-        "title": "You Will Remember Nothing",
-        "author": "Liv Parkinson",
-        "narrator": "Raffey Cassidy , Tom Alexander , Nico Mirallegro",
-        "image": ""
-      },
-      {
         "title": "Carl's Doomsday Scenario",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
         "image": "https://covers.openlibrary.org/b/id/11702962-L.jpg"
       },
       {
-        "title": "The Dungeon Anarchist's Cookbook",
-        "author": "Matt Dinniman",
-        "narrator": "Jeff Hays , The Critical Drinker",
-        "image": "https://covers.openlibrary.org/b/id/15262048-L.jpg"
+        "title": "You Will Remember Nothing",
+        "author": "Liv Parkinson",
+        "narrator": "Raffey Cassidy , Tom Alexander , Nico Mirallegro",
+        "image": "https://m.media-amazon.com/images/I/41LjhY18lAL._SL500_.jpg"
+      },
+      {
+        "title": "The Let Them Theory",
+        "author": "Mel Robbins",
+        "narrator": "Mel Robbins",
+        "image": "https://m.media-amazon.com/images/I/51YOr6ua-PL._SL500_.jpg"
       }
     ],
     "BOOKS": [
@@ -123,14 +123,14 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-10-11T15:55:59.103Z",
-      "lastSuccessfulRefresh": "2026-10-11T15:55:59.103Z",
+      "checkedAt": "2026-10-11T20:10:42.006Z",
+      "lastSuccessfulRefresh": "2026-10-11T20:10:42.006Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-10-11T15:56:08.370Z",
-      "lastSuccessfulRefresh": "2026-10-11T15:56:08.370Z",
+      "checkedAt": "2026-10-11T20:10:49.977Z",
+      "lastSuccessfulRefresh": "2026-10-11T20:10:49.977Z",
       "reason": ""
     }
   }
