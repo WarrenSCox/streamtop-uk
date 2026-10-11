@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-11T22:06:14.470Z",
+  "updated": "2026-10-11T23:54:52.631Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -12,7 +12,7 @@
         "title": "The Witch",
         "author": "Freida McFadden",
         "narrator": "Saskia Maarleveld , Marin Ireland",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/21/e2/a3/21e2a31c-2e04-6d99-0af9-180a08fa96a2/9798349169328.jpg/600x600bb.jpg"
+        "image": "https://m.media-amazon.com/images/I/41vExa8IbhL._SL500_.jpg"
       },
       {
         "title": "Threshing Day (Wing and Claw Collection)",
@@ -39,28 +39,28 @@
         "image": "https://m.media-amazon.com/images/I/51XVeo9KqOL._SL500_.jpg"
       },
       {
-        "title": "The Safe Room",
-        "author": "Sarah A. Denzil",
-        "narrator": "Gemma Whelan , Maimie McCoy",
-        "image": "https://m.media-amazon.com/images/I/41E2JISfmgL._SL500_.jpg"
-      },
-      {
         "title": "Carl's Doomsday Scenario",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
         "image": "https://covers.openlibrary.org/b/id/11702962-L.jpg"
       },
       {
-        "title": "You Will Remember Nothing",
-        "author": "Liv Parkinson",
-        "narrator": "Raffey Cassidy , Tom Alexander , Nico Mirallegro",
-        "image": "https://m.media-amazon.com/images/I/41LjhY18lAL._SL500_.jpg"
+        "title": "The Dungeon Anarchist's Cookbook",
+        "author": "Matt Dinniman",
+        "narrator": "Jeff Hays , The Critical Drinker",
+        "image": "https://covers.openlibrary.org/b/id/15262048-L.jpg"
       },
       {
         "title": "The Let Them Theory",
         "author": "Mel Robbins",
         "narrator": "Mel Robbins",
-        "image": "https://m.media-amazon.com/images/I/51YOr6ua-PL._SL500_.jpg"
+        "image": "https://covers.openlibrary.org/b/id/15165806-L.jpg"
+      },
+      {
+        "title": "The Safe Room",
+        "author": "Sarah A. Denzil",
+        "narrator": "Gemma Whelan , Maimie McCoy",
+        "image": "https://m.media-amazon.com/images/I/41E2JISfmgL._SL500_.jpg"
       }
     ],
     "BOOKS": [
@@ -123,15 +123,15 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-10-11T22:06:14.471Z",
-      "lastSuccessfulRefresh": "2026-10-11T22:06:14.471Z",
+      "checkedAt": "2026-10-11T23:54:52.631Z",
+      "lastSuccessfulRefresh": "2026-10-11T23:54:52.631Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
-      "status": "stale",
-      "checkedAt": "2026-10-11T22:06:23.848Z",
-      "lastSuccessfulRefresh": "2026-10-11T20:10:49.977Z",
-      "reason": "503 https://www.audible.co.uk/charts/best"
+      "status": "healthy",
+      "checkedAt": "2026-10-11T23:55:01.140Z",
+      "lastSuccessfulRefresh": "2026-10-11T23:55:01.140Z",
+      "reason": ""
     }
   }
 }
