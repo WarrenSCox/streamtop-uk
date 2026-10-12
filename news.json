@@ -1,9 +1,27 @@
 {
-  "updated": "2026-10-12T15:11:50.714Z",
+  "updated": "2026-10-12T15:40:18.160Z",
   "categories": {
     "UK": [
       {
-        "title": "Iran’s IRGC ‘almost certainly’ directed RAF Fairford incident, Burnham says",
+        "title": "Man living in flat he ‘secretly’ built inside horse stable ordered to demolish it",
+        "link": "https://metro.co.uk/2026/10/12/man-living-flat-secretly-built-inside-horse-stable-ordered-demolish-29701357/",
+        "published": "Mon, 12 Oct 2026 15:39:21 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News UK England",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315890972-277f-e1791819162485.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Burnham claims EU summit could boost growth and help control illegal migration – UK politics live",
+        "link": "https://www.theguardian.com/politics/live/2026/oct/12/uk-politics-live-tories-andy-burnham-russian-interference-brexit-eu-latest",
+        "published": "Mon, 12 Oct 2026 15:32:15 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Politics UK news Andy Burnham Labour Brexit European Union Nigel Farage Reform UK Immigration and asylum Ed Davey Russia Kemi Badenoch Ukraine US politics The Sun Technology AI (artificial intelligence)",
+        "image": "https://i.guim.co.uk/img/media/e00822eb0a9542d30bcbe36e1fd0f079bc6a36ba/454_0_4467_3575/master/4467.jpg?width=140&quality=85&auto=format&fit=max&s=9350174748b96034083d69809bccb6c3"
+      },
+      {
+        "title": "Iran Revolutionary Guard ‘almost certainly’ directed RAF Fairford incident, Burnham says",
         "link": "https://metro.co.uk/2026/10/12/irans-irgc-almost-certainly-directed-raf-fairford-incident-burnham-says-29702371/",
         "published": "Mon, 12 Oct 2026 15:06:36 +0000",
         "source": "Metro",
@@ -21,21 +39,12 @@
         "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316340585-8296.jpg?quality=90&strip=all&w=646"
       },
       {
-        "title": "Burnham accepts Brexit result ‘legitimate’ despite Russian interference, says No 10 – UK politics live",
-        "link": "https://www.theguardian.com/politics/live/2026/oct/12/uk-politics-live-tories-andy-burnham-russian-interference-brexit-eu-latest",
-        "published": "Mon, 12 Oct 2026 14:53:58 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Politics UK news Andy Burnham Labour Brexit European Union Nigel Farage Reform UK Immigration and asylum Ed Davey Russia Kemi Badenoch Ukraine US politics The Sun Technology AI (artificial intelligence)",
-        "image": "https://i.guim.co.uk/img/media/e00822eb0a9542d30bcbe36e1fd0f079bc6a36ba/454_0_4467_3575/master/4467.jpg?width=140&quality=85&auto=format&fit=max&s=9350174748b96034083d69809bccb6c3"
-      },
-      {
         "title": "How significant are Burnham’s remarks on Kremlin interference in Brexit vote?",
         "link": "https://www.theguardian.com/politics/2026/oct/12/andy-burnham-kremlin-eu-referendum-brexit",
         "published": "Mon, 12 Oct 2026 14:48:51 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
-        "categories": "Andy Burnham Brexit Files Brexit Russia Europe UK security and counter-terrorism European Union Politics UK news",
+        "categories": "Andy Burnham Brexit Files Brexit Russia Europe UK security and counter-terrorism European Union Politics UK news Foreign policy",
         "image": "https://i.guim.co.uk/img/media/88dd654a116d85c0ab9e14938abf9268c53ca3a8/632_0_3192_2552/master/3192.jpg?width=140&quality=85&auto=format&fit=max&s=70c1b5ba3c7690d06f3ada5b9e509789"
       },
       {
@@ -55,15 +64,6 @@
         "provider": "METRO",
         "categories": "Football Sport Manchester United Michael Carrick Paul Pogba Premier League",
         "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316318277-f7df.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Nato chief warns Putin: ‘We’re ready to fight’",
-        "link": "https://metro.co.uk/2026/10/12/nato-chief-warns-putin-were-ready-fight-29702047/",
-        "published": "Mon, 12 Oct 2026 13:55:06 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News World NATO Russia Vladimir Putin",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316329084-5fb2.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "Man denies racist murder of scientist as trial date set",
@@ -95,7 +95,7 @@
     ],
     "WORLD": [
       {
-        "title": "Iran’s IRGC ‘almost certainly’ directed RAF Fairford incident, Burnham says",
+        "title": "Iran Revolutionary Guard ‘almost certainly’ directed RAF Fairford incident, Burnham says",
         "link": "https://metro.co.uk/2026/10/12/irans-irgc-almost-certainly-directed-raf-fairford-incident-burnham-says-29702371/",
         "published": "Mon, 12 Oct 2026 15:06:36 +0000",
         "source": "Metro",
@@ -149,7 +149,7 @@
         "image": "https://e3.365dm.com/26/10/1920x1080/skynews-dublin-central-criminal-court_7375029.jpg?20261012124039"
       },
       {
-        "title": "Alleged Irish crime boss Daniel Kinahan will 'vehemently defend' himself in court and apply for bail",
+        "title": "Alleged Irish crime boss will 'vehemently defend' himself in court and apply for bail",
         "link": "https://news.sky.com/story/daniel-kinahan-alleged-irish-crime-boss-will-vehemently-defend-himself-in-court-and-apply-for-bail-13598148",
         "published": "Mon, 12 Oct 2026 12:34:00 +0100",
         "source": "Sky News",
@@ -187,13 +187,22 @@
     ],
     "POLITICS": [
       {
-        "title": "Burnham accepts Brexit result ‘legitimate’ despite Russian interference, says No 10 – UK politics live",
+        "title": "Burnham claims EU summit could boost growth and help control illegal migration – UK politics live",
         "link": "https://www.theguardian.com/politics/live/2026/oct/12/uk-politics-live-tories-andy-burnham-russian-interference-brexit-eu-latest",
-        "published": "Mon, 12 Oct 2026 14:53:58 GMT",
+        "published": "Mon, 12 Oct 2026 15:17:56 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
         "categories": "Politics UK news Andy Burnham Labour Brexit European Union Nigel Farage Reform UK Immigration and asylum Ed Davey Russia Kemi Badenoch Ukraine US politics The Sun Technology AI (artificial intelligence)",
         "image": "https://i.guim.co.uk/img/media/e00822eb0a9542d30bcbe36e1fd0f079bc6a36ba/454_0_4467_3575/master/4467.jpg?width=140&quality=85&auto=format&fit=max&s=9350174748b96034083d69809bccb6c3"
+      },
+      {
+        "title": "Reform’s Zia Yusuf is sounding more and more like Trump every day | Zoe Williams",
+        "link": "https://www.theguardian.com/commentisfree/2026/oct/12/reform-zia-yusuf-trump-today-programme",
+        "published": "Mon, 12 Oct 2026 14:59:15 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Reform UK Politics UK news Immigration and asylum Far right Refugees Nigel Farage",
+        "image": "https://i.guim.co.uk/img/media/d81c79443eba3a749cece23caf720c2999e430fc/0_164_4379_3503/master/4379.jpg?width=140&quality=85&auto=format&fit=max&s=69952c9c50c9b6de2c0f3a82d0b25e99"
       },
       {
         "title": "How significant are Burnham’s remarks on Kremlin interference in Brexit vote?",
@@ -201,7 +210,7 @@
         "published": "Mon, 12 Oct 2026 14:48:51 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
-        "categories": "Andy Burnham Brexit Files Brexit Russia Europe UK security and counter-terrorism European Union Politics UK news",
+        "categories": "Andy Burnham Brexit Files Brexit Russia Europe UK security and counter-terrorism European Union Politics UK news Foreign policy",
         "image": "https://i.guim.co.uk/img/media/88dd654a116d85c0ab9e14938abf9268c53ca3a8/632_0_3192_2552/master/3192.jpg?width=140&quality=85&auto=format&fit=max&s=70c1b5ba3c7690d06f3ada5b9e509789"
       },
       {
@@ -212,15 +221,6 @@
         "provider": "GUARDIAN",
         "categories": "Reform UK Nigel Farage Shabana Mahmood Politics UK news Immigration and asylum Far right",
         "image": "https://i.guim.co.uk/img/media/c2c3037582e4dc09f2516828059b4574609a242e/453_0_4549_3640/master/4549.jpg?width=140&quality=85&auto=format&fit=max&s=b2e3ca442d3448d6f9f09ec67da13f44"
-      },
-      {
-        "title": "Nigel Farage adviser had unpublicised role at polling firm",
-        "link": "https://www.theguardian.com/politics/2026/oct/12/nigel-farage-adviser-influential-role-polling-firm-chris-bruni-lowe",
-        "published": "Mon, 12 Oct 2026 13:42:27 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Nigel Farage Reform UK Opinion polls Politics UK news",
-        "image": "https://i.guim.co.uk/img/media/26aa94823356fa3a99d5152617daadb554f17b06/458_1195_1995_1596/master/1995.jpg?width=140&quality=85&auto=format&fit=max&s=406d5f693d8c700c3b3b581c06fb849c"
       },
       {
         "title": "AI minister says it is likely the UK’s cyber defences will be breached by bots",
@@ -259,6 +259,15 @@
         "image": "https://e3.365dm.com/26/10/1920x1080/skynews-holborn-st-pancras_7371712.png?20261009051636"
       },
       {
+        "title": "Nigel Farage adviser had unpublicised role at polling firm",
+        "link": "https://www.theguardian.com/politics/2026/oct/12/nigel-farage-adviser-influential-role-polling-firm-chris-bruni-lowe",
+        "published": "Mon, 12 Oct 2026 13:42:27 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Nigel Farage Reform UK Opinion polls Politics UK news",
+        "image": "https://i.guim.co.uk/img/media/26aa94823356fa3a99d5152617daadb554f17b06/458_1195_1995_1596/master/1995.jpg?width=140&quality=85&auto=format&fit=max&s=406d5f693d8c700c3b3b581c06fb849c"
+      },
+      {
         "title": "Ex-director who oversaw Grenfell cost-cutting leaves council housing role after backlash",
         "link": "https://www.theguardian.com/uk-news/2026/oct/12/former-grenfell-tower-housing-boss-laura-johnson-leaves-council-property-role-after-backlash",
         "published": "Mon, 12 Oct 2026 09:24:59 GMT",
@@ -266,15 +275,6 @@
         "provider": "GUARDIAN",
         "categories": "Grenfell Tower fire Social housing Housing Communities Society UK news London England Local government Politics",
         "image": "https://i.guim.co.uk/img/media/dcc8e4046ef29a5c11c644843f8cb6ffa09ba114/473_58_4680_3744/master/4680.jpg?width=140&quality=85&auto=format&fit=max&s=d75ab1099047b4b16f84ef704380e8af"
-      },
-      {
-        "title": "UK van drivers face extra £2.5bn in diesel costs this year, figures show",
-        "link": "https://www.theguardian.com/money/2026/oct/12/uk-van-drivers-diesel-costs-fuel-duty",
-        "published": "Mon, 12 Oct 2026 06:00:49 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Petrol prices UK news Money Motoring Fuel duty Tax and spending Politics Tax",
-        "image": "https://i.guim.co.uk/img/media/c47ffb29e3c3499e34ea0adeb0b229afd9e2e2ae/322_836_3554_2844/master/3554.jpg?width=140&quality=85&auto=format&fit=max&s=fbb76be84cba831871ba7dbf6d13826f"
       }
     ],
     "BUSINESS": [
@@ -333,7 +333,7 @@
         "image": "https://metro.co.uk/wp-content/uploads/2026/08/laurie-anne-split-comp.png?w=646"
       },
       {
-        "title": "'Frankly shocking' breaches of road rules detected in AI technology trial",
+        "title": "'Frankly shocking' risk-taking by motorists uncovered by AI-powered cameras",
         "link": "https://news.sky.com/story/trial-of-ai-technology-uncovers-frankly-shocking-number-of-road-rule-breaches-13598008",
         "published": "Mon, 12 Oct 2026 03:13:00 +0100",
         "source": "Sky News",
@@ -425,7 +425,7 @@
         "image": "https://i.guim.co.uk/img/media/2a5f71fa41895820957bba576349ebc2da450ec3/205_0_5123_4099/master/5123.jpg?width=140&quality=85&auto=format&fit=max&s=1462654c2aaa0487aa2247343e4afb2d"
       },
       {
-        "title": "'Frankly shocking' breaches of road rules detected in AI technology trial",
+        "title": "'Frankly shocking' risk-taking by motorists uncovered by AI-powered cameras",
         "link": "https://news.sky.com/story/trial-of-ai-technology-uncovers-frankly-shocking-number-of-road-rule-breaches-13598008",
         "published": "Mon, 12 Oct 2026 03:13:00 +0100",
         "source": "Sky News",
@@ -481,15 +481,6 @@
         "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315145807-e046.jpg?quality=90&strip=all&w=646"
       },
       {
-        "title": "EastEnders actor wants ‘to marry’ co-star after confirming relationship",
-        "link": "https://metro.co.uk/2026/10/12/eastenders-actor-wants-to-marry-co-star-confirming-relationship-29701489/",
-        "published": "Mon, 12 Oct 2026 12:32:54 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "EastEnders Soaps Shona McGarty Soaps Showbiz",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/tony-discipline-and-shona-mcgarty.png?w=646"
-      },
-      {
         "title": "Celebrity Traitors fans worried Hannah Fry’s ‘super obvious’ clue gives her away",
         "link": "https://metro.co.uk/2026/10/12/celebrity-traitors-fans-worried-hannah-frys-super-obvious-clue-gives-away-29700269/",
         "published": "Mon, 12 Oct 2026 12:20:15 +0000",
@@ -497,6 +488,15 @@
         "provider": "METRO",
         "categories": "Entertainment TV Celebrity Traitors Professor Hannah Fry The Traitors",
         "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315761296-8d0e-e1791473144668.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Gemma Collins reveals mum died just one day before planned wedding",
+        "link": "https://metro.co.uk/2026/10/12/gemma-collins-reveals-mum-died-just-one-day-planned-wedding-29701077/",
+        "published": "Mon, 12 Oct 2026 11:52:36 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Entertainment TV Big Brother Gemma Collins",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/07/SEI54339133-f0c4-e1785392345508.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "BBC defends decision to remove trans rights slogan from Strictly episode",
@@ -555,40 +555,40 @@
     ],
     "STOCKS": [
       {
-        "title": "A closer look at Big Banks ahead of Q3 earnings, & one metric Meta investors should watch",
-        "link": "https://finance.yahoo.com/video/a-closer-look-at-big-banks-ahead-of-q3-earnings--one-metric-meta-investors-should-watch-145616926.html?.tsrc=rss",
-        "published": "Mon, 12 Oct 2026 14:56:16 +0000",
+        "title": "Why the heck has President Trump just bought $5m+ of Meta stock?",
+        "link": "https://www.twelfthmagpie.com/2026/10/12/why-the-heck-has-president-trump-just-bought-5m-of-meta-stock/",
+        "published": "Mon, 12 Oct 2026 15:29:00 +0000",
+        "source": "The Twelfth Magpie",
+        "provider": "MAGPIE",
+        "categories": "Growth Shares Investing Articles",
+        "image": "https://www.twelfthmagpie.com/wp-content/uploads/2023/10/Mark-Zuckerberg-1200x675.jpg"
+      },
+      {
+        "title": "United Healthcare (UNH): Early-Stage Earnings Recovery Sets the Stage for Mid-Teens Compound Growth",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/united-healthcare-unh-early-stage-152237095.html?.tsrc=rss",
+        "published": "Mon, 12 Oct 2026 15:22:37 +0000",
         "source": "Yahoo Finance",
         "provider": "YAHOO",
         "categories": "",
         "image": ""
       },
       {
-        "title": "1 S&P 500 Stock to Target This Week and 2 We Question",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/1-p-500-stock-target-144703946.html?.tsrc=rss",
-        "published": "Mon, 12 Oct 2026 14:47:03 +0000",
+        "title": "2 S&P 500 Stocks to Own for Decades and 1 We Find Risky",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/2-p-500-stocks-own-151903610.html?.tsrc=rss",
+        "published": "Mon, 12 Oct 2026 15:19:03 +0000",
         "source": "Yahoo Finance",
         "provider": "YAHOO",
         "categories": "",
         "image": ""
       },
       {
-        "title": "BC-Most Active Stocks",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-143015049.html?.tsrc=rss",
-        "published": "Mon, 12 Oct 2026 14:30:15 +0000",
+        "title": "Chip Stock Skid Stretches On",
+        "link": "https://uk.finance.yahoo.com/m/211a3a39-0ee9-3853-bf69-c10fd13941f3/chip-stock-skid-stretches-on.html?.tsrc=rss",
+        "published": "Mon, 12 Oct 2026 15:14:31 +0000",
         "source": "Yahoo Finance",
         "provider": "YAHOO",
         "categories": "",
         "image": ""
-      },
-      {
-        "title": "RBC trims Barclays price target to 525p ahead of third-quarter results, keeps 'outperform' rating",
-        "link": "https://www.proactiveinvestors.com/companies/news/1099968/rbc-trims-barclays-price-target-to-525p-ahead-of-third-quarter-results-keeps-outperform-rating-1099968.html?.tsrc=rss",
-        "published": "Mon, 12 Oct 2026 14:30:00 +0000",
-        "source": "Yahoo Finance",
-        "provider": "YAHOO",
-        "categories": "",
-        "image": "https://cdn.proactiveinvestors.com/eyJidWNrZXQiOiJwYS1jZG4iLCJrZXkiOiJ1cGxvYWRcL05ld3NcL0ltYWdlXC8yMDI2XzEwXC9zaHV0dGVyc3RvY2stMTY0ODQxNzE2LmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0Ijo2MzAsImZpdCI6ImNvdmVyIn19fQ=="
       },
       {
         "title": "Is a 6% dividend yield twice as good as a 3% dividend yield?",
@@ -618,6 +618,15 @@
         "image": "https://www.twelfthmagpie.com/wp-content/uploads/2022/03/Value-Investor.jpg"
       },
       {
+        "title": "Gold eases on strong dollar, oil prices; US inflation data eyed",
+        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSTdfbFRJUWVBUW5ndjBGSlJ6aGRQYi1saWxfVU5haEdOVXJaNzFuRnlyZ1F6eGVPb2tGYVczeXlRWEI5WmVHeVFGMTVqd2I5dEZCVDNrNDBkS2N1Q2NWWlRQMzhSa3BPMlZnVElqaFhaQkRLWnJrMG1NUnlvYVE5OWZGTXZucUJoaTUzTmxJeS1mUHpRSVVNT2xlRUI5dmtoQmc?oc=5",
+        "published": "Mon, 12 Oct 2026 03:13:00 GMT",
+        "source": "Reuters",
+        "provider": "REUTERS",
+        "categories": "",
+        "image": ""
+      },
+      {
         "title": "India benchmark shares fall as inflation woes overshadow RBI support measures",
         "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQenFsbDRhbVJGa21YRV9MV1BuQkhlUGNYVzlhUU5nMmR6NWdnd19ZaU1IWkYwVExZbVVJUWNoR3RNNnlodEpiTUJVelRKQ1I0SUJRQzFlNjl3cUszd0lpbW5KR3BFNnJDUkU5ZGpaRHdUdFFxODJOYmJ3TGp4S2NPMV8tRHdLVk8zTzktaS1Sa1kyUS1EZlNuaDQtN1Rwdmo4dGhIbVM0NUM3ZElSNExNZw?oc=5",
         "published": "Mon, 12 Oct 2026 02:29:00 GMT",
@@ -630,15 +639,6 @@
         "title": "Shares shrug off oil swings as earnings season looms",
         "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA4VndfYlhKMjFvd01KYndaSHVGZ3dlckMtTUtucy1jQjk0aE9JcHRpdEFuSE1SZGFWZzV1TW1MVFFabU9oNEhfajl6MVVIbzFVVF85VUZaWTFMRmx1WDFPRHItbWhuVWpoUzRxcXBPc0V4Tmo1UUU3QjRfbw?oc=5",
         "published": "Mon, 12 Oct 2026 00:42:00 GMT",
-        "source": "Reuters",
-        "provider": "REUTERS",
-        "categories": "",
-        "image": ""
-      },
-      {
-        "title": "Wall Street posts weekly gains with earnings, inflation data on tap",
-        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNY0hWbFNBUlE5SFJjLVpMMnIwZzFpN2hVNEd2YkxlalYyVDRKTDZxcGJ0REJLUERXb0tlVVVreVZLMHFodlAtZlY0eDhuN2xiOHcybjM1c3gxMlBNTmZMWWdrdkhQOG9Pc2JRdTEwYXM5N181QmttRVEyRkdXTy1LT2J0ZVA4d2FXdjZZeGZwaGRaSUtDUXJUZXFjSU94cnprbTVUSXRpXzFtQzV2TWtpR1dNSjdaWVplUlE?oc=5",
-        "published": "Fri, 09 Oct 2026 23:33:00 GMT",
         "source": "Reuters",
         "provider": "REUTERS",
         "categories": "",
@@ -776,7 +776,7 @@
             "image": "https://e3.365dm.com/26/10/1920x1080/skynews-the-beggars-bush-pub_7374707.jpg?20261012025754"
           },
           {
-            "title": "'Frankly shocking' breaches of road rules detected in AI technology trial",
+            "title": "'Frankly shocking' risk-taking by motorists uncovered by AI-powered cameras",
             "link": "https://news.sky.com/story/trial-of-ai-technology-uncovers-frankly-shocking-number-of-road-rule-breaches-13598008",
             "published": "Mon, 12 Oct 2026 03:13:00 +0100",
             "source": "Sky News",
@@ -832,7 +832,7 @@
         ],
         "WORLD": [
           {
-            "title": "Alleged Irish crime boss Daniel Kinahan will 'vehemently defend' himself in court and apply for bail",
+            "title": "Alleged Irish crime boss will 'vehemently defend' himself in court and apply for bail",
             "link": "https://news.sky.com/story/daniel-kinahan-alleged-irish-crime-boss-will-vehemently-defend-himself-in-court-and-apply-for-bail-13598148",
             "published": "Mon, 12 Oct 2026 12:34:00 +0100",
             "source": "Sky News",
@@ -926,7 +926,7 @@
             "image": "https://e3.365dm.com/26/10/1920x1080/skynews-king-power-stadium_7375115.jpg?20261012140722"
           },
           {
-            "title": "'Frankly shocking' breaches of road rules detected in AI technology trial",
+            "title": "'Frankly shocking' risk-taking by motorists uncovered by AI-powered cameras",
             "link": "https://news.sky.com/story/trial-of-ai-technology-uncovers-frankly-shocking-number-of-road-rule-breaches-13598008",
             "published": "Mon, 12 Oct 2026 03:13:00 +0100",
             "source": "Sky News",
@@ -1009,7 +1009,7 @@
         ],
         "TECH": [
           {
-            "title": "'Frankly shocking' breaches of road rules detected in AI technology trial",
+            "title": "'Frankly shocking' risk-taking by motorists uncovered by AI-powered cameras",
             "link": "https://news.sky.com/story/trial-of-ai-technology-uncovers-frankly-shocking-number-of-road-rule-breaches-13598008",
             "published": "Mon, 12 Oct 2026 03:13:00 +0100",
             "source": "Sky News",
@@ -1223,9 +1223,9 @@
       "categories": {
         "UK": [
           {
-            "title": "Burnham accepts Brexit result ‘legitimate’ despite Russian interference, says No 10 – UK politics live",
+            "title": "Burnham claims EU summit could boost growth and help control illegal migration – UK politics live",
             "link": "https://www.theguardian.com/politics/live/2026/oct/12/uk-politics-live-tories-andy-burnham-russian-interference-brexit-eu-latest",
-            "published": "Mon, 12 Oct 2026 14:53:58 GMT",
+            "published": "Mon, 12 Oct 2026 15:32:15 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
             "categories": "Politics UK news Andy Burnham Labour Brexit European Union Nigel Farage Reform UK Immigration and asylum Ed Davey Russia Kemi Badenoch Ukraine US politics The Sun Technology AI (artificial intelligence)",
@@ -1237,7 +1237,7 @@
             "published": "Mon, 12 Oct 2026 14:48:51 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Andy Burnham Brexit Files Brexit Russia Europe UK security and counter-terrorism European Union Politics UK news",
+            "categories": "Andy Burnham Brexit Files Brexit Russia Europe UK security and counter-terrorism European Union Politics UK news Foreign policy",
             "image": "https://i.guim.co.uk/img/media/88dd654a116d85c0ab9e14938abf9268c53ca3a8/632_0_3192_2552/master/3192.jpg?width=140&quality=85&auto=format&fit=max&s=70c1b5ba3c7690d06f3ada5b9e509789"
           },
           {
@@ -1587,9 +1587,9 @@
         ],
         "POLITICS": [
           {
-            "title": "Burnham accepts Brexit result ‘legitimate’ despite Russian interference, says No 10 – UK politics live",
+            "title": "Burnham claims EU summit could boost growth and help control illegal migration – UK politics live",
             "link": "https://www.theguardian.com/politics/live/2026/oct/12/uk-politics-live-tories-andy-burnham-russian-interference-brexit-eu-latest",
-            "published": "Mon, 12 Oct 2026 14:53:58 GMT",
+            "published": "Mon, 12 Oct 2026 15:17:56 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
             "categories": "Politics UK news Andy Burnham Labour Brexit European Union Nigel Farage Reform UK Immigration and asylum Ed Davey Russia Kemi Badenoch Ukraine US politics The Sun Technology AI (artificial intelligence)",
@@ -1601,7 +1601,7 @@
             "published": "Mon, 12 Oct 2026 14:48:51 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Andy Burnham Brexit Files Brexit Russia Europe UK security and counter-terrorism European Union Politics UK news",
+            "categories": "Andy Burnham Brexit Files Brexit Russia Europe UK security and counter-terrorism European Union Politics UK news Foreign policy",
             "image": "https://i.guim.co.uk/img/media/88dd654a116d85c0ab9e14938abf9268c53ca3a8/632_0_3192_2552/master/3192.jpg?width=140&quality=85&auto=format&fit=max&s=70c1b5ba3c7690d06f3ada5b9e509789"
           },
           {
@@ -1648,6 +1648,15 @@
             "provider": "GUARDIAN",
             "categories": "Institute for Fiscal Studies Budget Budget 2026 John Healey UK news Tax and spending Pre-budget report Economic policy Public finance Government borrowing Thinktanks Business Economics Politics Defence policy Budget deficit Economic growth (GDP)",
             "image": "https://i.guim.co.uk/img/media/b343ffd35e7f931485cbcbdd23da90ff491a8766/0_0_4561_3648/master/4561.jpg?width=140&quality=85&auto=format&fit=max&s=c28048c99de80df832288c3d2f310bc8"
+          },
+          {
+            "title": "Reform’s Zia Yusuf is sounding more and more like Trump every day | Zoe Williams",
+            "link": "https://www.theguardian.com/commentisfree/2026/oct/12/reform-zia-yusuf-trump-today-programme",
+            "published": "Mon, 12 Oct 2026 14:59:15 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Reform UK Politics UK news Immigration and asylum Far right Refugees Nigel Farage",
+            "image": "https://i.guim.co.uk/img/media/d81c79443eba3a749cece23caf720c2999e430fc/0_164_4379_3503/master/4379.jpg?width=140&quality=85&auto=format&fit=max&s=69952c9c50c9b6de2c0f3a82d0b25e99"
           },
           {
             "title": "Yes, it’s been a tough week for the Greens: but don’t lose sight of how we’re transforming British politics | Zack Polanski",
@@ -1702,15 +1711,6 @@
             "provider": "GUARDIAN",
             "categories": "Green party Holborn and St Pancras byelection Zack Polanski Byelections Politics UK news",
             "image": "https://i.guim.co.uk/img/media/20e2c14d68e6bf585662e8d7c1daf9faa1bf5f63/2229_0_4049_3240/master/4049.jpg?width=140&quality=85&auto=format&fit=max&s=90490f9e63f5586f1529208be81201d1"
-          },
-          {
-            "title": "British households would be £5,000 richer if we were more innovative. Let’s unleash our talents | Gordon Brown",
-            "link": "https://www.theguardian.com/commentisfree/2026/oct/09/gordon-brown-british-households-5000-richer-innovation",
-            "published": "Fri, 09 Oct 2026 05:00:39 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Science Technology sector Technology policy Politics UK news Technology Business Universities AI (artificial intelligence) Medical research",
-            "image": "https://i.guim.co.uk/img/media/af54d7267194e9b8370c2768f87c4c2c861eb5cf/0_0_3895_3116/master/3895.jpg?width=140&quality=85&auto=format&fit=max&s=7591ef801593773e94d45b91fd33e46e"
           },
           {
             "title": "Father was asked for DNA test to get a passport for his daughter",
@@ -2336,7 +2336,16 @@
       "categories": {
         "UK": [
           {
-            "title": "Iran’s IRGC ‘almost certainly’ directed RAF Fairford incident, Burnham says",
+            "title": "Man living in flat he ‘secretly’ built inside horse stable ordered to demolish it",
+            "link": "https://metro.co.uk/2026/10/12/man-living-flat-secretly-built-inside-horse-stable-ordered-demolish-29701357/",
+            "published": "Mon, 12 Oct 2026 15:39:21 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News UK England",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315890972-277f-e1791819162485.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Iran Revolutionary Guard ‘almost certainly’ directed RAF Fairford incident, Burnham says",
             "link": "https://metro.co.uk/2026/10/12/irans-irgc-almost-certainly-directed-raf-fairford-incident-burnham-says-29702371/",
             "published": "Mon, 12 Oct 2026 15:06:36 +0000",
             "source": "Metro",
@@ -2599,7 +2608,7 @@
             "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315874608-d2a6.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Iran’s IRGC ‘almost certainly’ directed RAF Fairford incident, Burnham says",
+            "title": "Iran Revolutionary Guard ‘almost certainly’ directed RAF Fairford incident, Burnham says",
             "link": "https://metro.co.uk/2026/10/12/irans-irgc-almost-certainly-directed-raf-fairford-incident-burnham-says-29702371/",
             "published": "Mon, 12 Oct 2026 15:06:36 +0000",
             "source": "Metro",
@@ -3075,15 +3084,6 @@
             "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316325171-6fd2.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "ITV’s party from hell thriller isn’t perfect but I’m dying to see the twist",
-            "link": "https://metro.co.uk/2026/10/11/itvs-party-hell-thriller-isnt-perfect-im-dying-see-twist-29697794/",
-            "published": "Sun, 11 Oct 2026 21:00:00 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Entertainment TV ITV ITVX Joanna Scanlan Luke Evans Thriller movies & TV shows TV reviews",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315488232-d8ae.jpg?quality=90&strip=all&w=646"
-          },
-          {
             "title": "TfL rolls out virtual reality at Tube stations in bid to tackle hate crime",
             "link": "https://metro.co.uk/2026/10/12/tfl-rolls-virtual-reality-tube-stations-tackle-hate-crime-29702198/",
             "published": "Mon, 12 Oct 2026 14:47:12 +0000",
@@ -3091,22 +3091,13 @@
             "provider": "METRO",
             "categories": "News UK Crime News London London Underground Transport for London",
             "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316321754-23ec.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "EastEnders actor wants ‘to marry’ co-star after confirming relationship",
-            "link": "https://metro.co.uk/2026/10/12/eastenders-actor-wants-to-marry-co-star-confirming-relationship-29701489/",
-            "published": "Mon, 12 Oct 2026 12:32:54 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "EastEnders Soaps Shona McGarty Soaps Showbiz",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/tony-discipline-and-shona-mcgarty.png?w=646"
           }
         ]
       },
       "health": {
         "UK": {
           "ok": true,
-          "count": 16
+          "count": 17
         },
         "WORLD": {
           "ok": true,
@@ -3126,7 +3117,7 @@
         },
         "ENTERTAINMENT": {
           "ok": true,
-          "count": 12
+          "count": 10
         }
       }
     },
@@ -3239,9 +3230,27 @@
         "STOCK_MARKET": [],
         "STOCKS": [
           {
-            "title": "A closer look at Big Banks ahead of Q3 earnings, & one metric Meta investors should watch",
-            "link": "https://finance.yahoo.com/video/a-closer-look-at-big-banks-ahead-of-q3-earnings--one-metric-meta-investors-should-watch-145616926.html?.tsrc=rss",
-            "published": "Mon, 12 Oct 2026 14:56:16 +0000",
+            "title": "United Healthcare (UNH): Early-Stage Earnings Recovery Sets the Stage for Mid-Teens Compound Growth",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/united-healthcare-unh-early-stage-152237095.html?.tsrc=rss",
+            "published": "Mon, 12 Oct 2026 15:22:37 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "2 S&P 500 Stocks to Own for Decades and 1 We Find Risky",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/2-p-500-stocks-own-151903610.html?.tsrc=rss",
+            "published": "Mon, 12 Oct 2026 15:19:03 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "Chip Stock Skid Stretches On",
+            "link": "https://uk.finance.yahoo.com/m/211a3a39-0ee9-3853-bf69-c10fd13941f3/chip-stock-skid-stretches-on.html?.tsrc=rss",
+            "published": "Mon, 12 Oct 2026 15:14:31 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
@@ -3305,24 +3314,6 @@
             "title": "Why bank stocks shocked everyone by getting thrashed",
             "link": "https://finance.yahoo.com/markets/stocks/article/why-bank-stocks-shocked-everyone-by-getting-thrashed-141552354.html?.tsrc=rss",
             "published": "Mon, 12 Oct 2026 14:15:52 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "2 S&P 500 Stocks for Long-Term Investors and 1 We Ignore",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/2-p-500-stocks-long-141503293.html?.tsrc=rss",
-            "published": "Mon, 12 Oct 2026 14:15:03 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "Underneath S&P 500: Most stocks are down 10% from highs",
-            "link": "https://finance.yahoo.com/video/underneath-sp-500-most-stocks-are-down-10-from-highs-141145529.html?.tsrc=rss",
-            "published": "Mon, 12 Oct 2026 14:11:45 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
@@ -3482,6 +3473,15 @@
         ],
         "STOCKS": [
           {
+            "title": "Gold eases on strong dollar, oil prices; US inflation data eyed",
+            "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSTdfbFRJUWVBUW5ndjBGSlJ6aGRQYi1saWxfVU5haEdOVXJaNzFuRnlyZ1F6eGVPb2tGYVczeXlRWEI5WmVHeVFGMTVqd2I5dEZCVDNrNDBkS2N1Q2NWWlRQMzhSa3BPMlZnVElqaFhaQkRLWnJrMG1NUnlvYVE5OWZGTXZucUJoaTUzTmxJeS1mUHpRSVVNT2xlRUI5dmtoQmc?oc=5",
+            "published": "Mon, 12 Oct 2026 03:13:00 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
             "title": "India benchmark shares fall as inflation woes overshadow RBI support measures",
             "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQenFsbDRhbVJGa21YRV9MV1BuQkhlUGNYVzlhUU5nMmR6NWdnd19ZaU1IWkYwVExZbVVJUWNoR3RNNnlodEpiTUJVelRKQ1I0SUJRQzFlNjl3cUszd0lpbW5KR3BFNnJDUkU5ZGpaRHdUdFFxODJOYmJ3TGp4S2NPMV8tRHdLVk8zTzktaS1Sa1kyUS1EZlNuaDQtN1Rwdmo4dGhIbVM0NUM3ZElSNExNZw?oc=5",
             "published": "Mon, 12 Oct 2026 02:29:00 GMT",
@@ -3579,15 +3579,6 @@
             "provider": "REUTERS",
             "categories": "",
             "image": ""
-          },
-          {
-            "title": "S&P 500, Nasdaq reach record closing highs as focus pivots to earnings",
-            "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZ0p5VWxQQ0ZmUUI0Vk5wRUVjTUJhZjZGUlZjU2tWU1AtOEdqYjZ0OFRtRXNrUVdrTFlNZjVWdzluRjUyaWhHTlYxMG5Yc21pMHFubTdiX1RIRTRUSnB4UTZPckRMZTlzTHBEbkZKU1ROMTZpWE9lMXhPQkhyQmhBV3JNdkFrQVk?oc=5",
-            "published": "Tue, 06 Oct 2026 10:27:00 GMT",
-            "source": "Reuters",
-            "provider": "REUTERS",
-            "categories": "",
-            "image": ""
           }
         ]
       },
@@ -3611,6 +3602,15 @@
     "MAGPIE": {
       "categories": {
         "STOCKS": [
+          {
+            "title": "Why the heck has President Trump just bought $5m+ of Meta stock?",
+            "link": "https://www.twelfthmagpie.com/2026/10/12/why-the-heck-has-president-trump-just-bought-5m-of-meta-stock/",
+            "published": "Mon, 12 Oct 2026 15:29:00 +0000",
+            "source": "The Twelfth Magpie",
+            "provider": "MAGPIE",
+            "categories": "Growth Shares Investing Articles",
+            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2023/10/Mark-Zuckerberg-1200x675.jpg"
+          },
           {
             "title": "Is a 6% dividend yield twice as good as a 3% dividend yield?",
             "link": "https://www.twelfthmagpie.com/2026/10/12/is-a-6-dividend-yield-twice-as-good-as-a-3-dividend-yield/",
@@ -3691,15 +3691,6 @@
             "provider": "MAGPIE",
             "categories": "Dividend Shares Investing Articles",
             "image": "https://www.twelfthmagpie.com/wp-content/uploads/2024/02/REITs-1200x800.jpg"
-          },
-          {
-            "title": "Could Burberry be a FTSE 100 index recovery star in the making?",
-            "link": "https://www.twelfthmagpie.com/2026/10/12/could-burberry-be-a-ftse-100-index-recovery-star-in-the-making/",
-            "published": "Mon, 12 Oct 2026 07:41:35 +0000",
-            "source": "The Twelfth Magpie",
-            "provider": "MAGPIE",
-            "categories": "Investing Articles Value Shares",
-            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2022/10/London-fireworks.jpg"
           }
         ]
       },
@@ -3715,5 +3706,5 @@
       }
     }
   },
-  "stocksUpdated": "2026-10-12T15:11:56.363Z"
+  "stocksUpdated": "2026-10-12T15:40:24.117Z"
 }

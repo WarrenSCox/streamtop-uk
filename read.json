@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-12T15:11:56.425Z",
+  "updated": "2026-10-12T15:40:24.177Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -60,7 +60,7 @@
         "title": "The Gate of the Feral Gods",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://covers.openlibrary.org/b/id/15258911-L.jpg"
+        "image": "https://m.media-amazon.com/images/I/51rmyTTWPsL._SL500_.jpg"
       }
     ],
     "BOOKS": [
@@ -123,14 +123,14 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-10-12T15:11:56.425Z",
-      "lastSuccessfulRefresh": "2026-10-12T15:11:56.425Z",
+      "checkedAt": "2026-10-12T15:40:24.177Z",
+      "lastSuccessfulRefresh": "2026-10-12T15:40:24.177Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-10-12T15:12:04.667Z",
-      "lastSuccessfulRefresh": "2026-10-12T15:12:04.667Z",
+      "checkedAt": "2026-10-12T15:40:32.389Z",
+      "lastSuccessfulRefresh": "2026-10-12T15:40:32.389Z",
       "reason": ""
     }
   }
