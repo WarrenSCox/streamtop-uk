@@ -1,7 +1,16 @@
 {
-  "updated": "2026-10-12T22:34:13.645Z",
+  "updated": "2026-10-13T00:48:45.796Z",
   "categories": {
     "UK": [
+      {
+        "title": "English councils warn of ‘catastrophic’ Send debts forecast to hit £10bn by 2028",
+        "link": "https://www.theguardian.com/education/2026/oct/13/english-councils-catastrophic-send-debts-forecast-2028",
+        "published": "Mon, 12 Oct 2026 23:01:07 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Special educational needs UK news School funding Schools Education Public finance Local government Society Politics Autism Department for Education",
+        "image": "https://i.guim.co.uk/img/media/3576ec1f47e6c51d8b0425b7f37f30532424ae0c/427_0_4267_3413/master/4267.jpg?width=140&quality=85&auto=format&fit=max&s=a597b11d05e4b28996f4328784d73c7a"
+      },
       {
         "title": "Steven Gerrard writes off Man Utd star after £50m Chelsea transfer: ‘He’s not world-class’",
         "link": "https://metro.co.uk/2026/10/12/steven-gerrard-writes-off-man-utd-star-50m-chelsea-transfer-hes-not-world-class-29702891/",
@@ -57,15 +66,6 @@
         "image": "https://i.guim.co.uk/img/media/e79f82ab83cea62a9c70b023e4bd867088c55451/554_0_4630_3704/master/4630.jpg?width=140&quality=85&auto=format&fit=max&s=bc275f326b19c201580f93cbd36f5282"
       },
       {
-        "title": "Manchester United duo ruled out of Atletico Madrid clash in Champions League",
-        "link": "https://metro.co.uk/2026/10/12/manchester-united-duo-ruled-atletico-madrid-clash-champions-league-29702996/",
-        "published": "Mon, 12 Oct 2026 17:48:10 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Football Sport Champions League Manchester United Michael Carrick Premier League",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/GettyImages-2271783636-5298.jpg?quality=90&strip=all&w=646"
-      },
-      {
         "title": "Burnham says ‘public will be the boss’ in any future decision about closer relationship with the EU – as it happened",
         "link": "https://www.theguardian.com/politics/live/2026/oct/12/uk-politics-live-tories-andy-burnham-russian-interference-brexit-eu-latest",
         "published": "Mon, 12 Oct 2026 17:34:40 GMT",
@@ -95,13 +95,31 @@
     ],
     "WORLD": [
       {
-        "title": "Australia politics live: PM urged to call Trump about execution livestream; Robert Pether speaks after Iraq prison release",
+        "title": "Australian politics live: Hanson-Young says she won’t run for Greens leadership again; fire ants found in Sydney’s inner west",
         "link": "https://www.theguardian.com/australia-news/live/2026/oct/13/labor-anthony-albanese-charity-boost-greens-ukraine-coalition-one-nation-ntwnfb",
-        "published": "Mon, 12 Oct 2026 22:07:52 GMT",
+        "published": "Tue, 13 Oct 2026 00:34:17 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
         "categories": "Australia news Australian politics Australian economy Business Health Australian education Australian immigration and asylum Australian foreign policy Coalition Australian Greens Liberal party National party Labor party Independents",
-        "image": "https://i.guim.co.uk/img/media/4259d797b86b3cc36816eac5f7a87848e5663343/1_0_4998_4000/master/4998.jpg?width=140&quality=85&auto=format&fit=max&s=491aee5ef2dff2a0c810e26f74496175"
+        "image": "https://i.guim.co.uk/img/media/894d2f88c53ff572b6d13ea603cfb325ed73ae42/250_0_2500_2000/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=d5379e5fe464ec7d4a70a6c71621b075"
+      },
+      {
+        "title": "Body found in stockyard trough confirmed to be missing 73-year-old Yvonne Whear",
+        "link": "https://www.theguardian.com/australia-news/2026/oct/13/yvonne-whear-body-found-in-stockyard-trough-missing-woman-murwillumbah-ntwnfb",
+        "published": "Tue, 13 Oct 2026 00:17:37 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "New South Wales Australia news",
+        "image": "https://i.guim.co.uk/img/media/65136c964dc50d64b08d7a5d3f69d719260b4452/0_41_1000_800/master/1000.jpg?width=140&quality=85&auto=format&fit=max&s=982bdb237d91332409a4821e4cc9421e"
+      },
+      {
+        "title": "Queensland prison where children self-harm to get transferred ‘more suitable’ than police watch-houses: ombudsman",
+        "link": "https://www.theguardian.com/australia-news/2026/oct/13/queensland-ombudsman-backs-away-from-calls-to-close-youth-prison-so-unsuitable-some-children-self-harm-to-get-transferred-ntwnfb",
+        "published": "Mon, 12 Oct 2026 23:00:07 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Queensland Australia news Australian police and policing Youth justice Queensland politics Young people Indigenous Australians Indigenous incarceration Mental health",
+        "image": "https://i.guim.co.uk/img/media/08feb8ad68eac1d164ce9cce4b80bb5097f0488a/6_9_1079_864/master/1079.jpg?width=140&quality=85&auto=format&fit=max&s=f9263b7ecde213eb6ed8ee75980541d1"
       },
       {
         "title": "Bolivia investigates ex-president Evo Morales over alleged ties to 2009 killings",
@@ -111,15 +129,6 @@
         "provider": "GUARDIAN",
         "categories": "Bolivia Evo Morales World news Americas",
         "image": "https://i.guim.co.uk/img/media/bbba54cb3af93f07899e3c63d8dc41cf90c1a464/855_101_4498_3600/master/4498.jpg?width=140&quality=85&auto=format&fit=max&s=0d085c041da0230d776d730ee51f78a6"
-      },
-      {
-        "title": "Australia may risk a diplomatic spat with the Trump administration if it limits the viewing of a US execution",
-        "link": "https://www.theguardian.com/australia-news/2026/oct/13/australia-us-execution-livestream-julie-inman-grant-esafety",
-        "published": "Mon, 12 Oct 2026 21:19:46 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Australian politics Social media Technology Capital punishment Australia news",
-        "image": "https://i.guim.co.uk/img/media/1ab3921801a614f6b3d44ffd49d50c114d203388/0_0_4646_3719/master/4646.jpg?width=140&quality=85&auto=format&fit=max&s=c83d78ba3bf2fe174768aea46deef6ab"
       },
       {
         "title": "Hackers turn up supermarket fridges to 50°C wreaking havoc across France",
@@ -174,18 +183,18 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/10/1920x1080/skynews-carrefour-france_7375229.jpg?20261012170413"
-      },
-      {
-        "title": "More part-time bosses and co-CEOs could keep women in leadership and narrow Australia’s pay gap",
-        "link": "https://www.theguardian.com/australia-news/2026/oct/13/more-part-time-bosses-and-co-ceos-could-keep-women-in-leadership-and-narrow-australias-pay-gap",
-        "published": "Mon, 12 Oct 2026 14:01:56 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Business Gender pay gap Gender Australia news Equal pay Work-life balance Work & careers",
-        "image": "https://i.guim.co.uk/img/media/4d41fb6d1c4e7235fe61f5c0d332dc3406b6d205/722_0_4750_3800/master/4750.jpg?width=140&quality=85&auto=format&fit=max&s=2e04fddd73b73ccc1de22b8d74df578e"
       }
     ],
     "POLITICS": [
+      {
+        "title": "English councils warn of ‘catastrophic’ Send debts forecast to hit £10bn by 2028",
+        "link": "https://www.theguardian.com/education/2026/oct/13/english-councils-catastrophic-send-debts-forecast-2028",
+        "published": "Mon, 12 Oct 2026 23:01:07 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Special educational needs UK news School funding Schools Education Public finance Local government Society Politics Autism Department for Education",
+        "image": "https://i.guim.co.uk/img/media/3576ec1f47e6c51d8b0425b7f37f30532424ae0c/427_0_4267_3413/master/4267.jpg?width=140&quality=85&auto=format&fit=max&s=a597b11d05e4b28996f4328784d73c7a"
+      },
       {
         "title": "Andy Burnham promises ‘serious dialogue’ over UK’s relationship with EU",
         "link": "https://www.theguardian.com/politics/2026/oct/12/andy-burnham-britain-eu-brexit-reset",
@@ -212,15 +221,6 @@
         "provider": "GUARDIAN",
         "categories": "Liberal Democrats Ed Davey Politics Liberal Democrat conference Reform UK Labour Conservatives Tax and spending UK news Economic policy",
         "image": "https://i.guim.co.uk/img/media/0ab34874157161d1f2ef4e225ddd47fa7dc5dd53/0_163_4388_3511/master/4388.jpg?width=140&quality=85&auto=format&fit=max&s=fedff4b494d75f60898f799ef6f583e1"
-      },
-      {
-        "title": "Burnham says ‘public will be the boss’ in any future decision about closer relationship with the EU – as it happened",
-        "link": "https://www.theguardian.com/politics/live/2026/oct/12/uk-politics-live-tories-andy-burnham-russian-interference-brexit-eu-latest",
-        "published": "Mon, 12 Oct 2026 17:34:40 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Politics UK news Andy Burnham Labour Brexit European Union Nigel Farage Reform UK Immigration and asylum Ed Davey Russia Kemi Badenoch Ukraine US politics The Sun Technology AI (artificial intelligence) Restore Britain Europe Ursula von der Leyen Migration Refugees",
-        "image": "https://i.guim.co.uk/img/media/81c1a232ba4889d324365859280fbc139bb3da8e/695_107_1848_1479/master/1848.jpg?width=140&quality=85&auto=format&fit=max&s=d787348e6f453ffd2176f3f36bc5c9cb"
       },
       {
         "title": "AI minister says it is likely the UK’s cyber defences will be breached by bots",
@@ -259,6 +259,15 @@
         "image": "https://e3.365dm.com/26/10/1920x1080/skynews-holborn-st-pancras_7371712.png?20261009051636"
       },
       {
+        "title": "Burnham says ‘public will be the boss’ in any future decision about closer relationship with the EU – as it happened",
+        "link": "https://www.theguardian.com/politics/live/2026/oct/12/uk-politics-live-tories-andy-burnham-russian-interference-brexit-eu-latest",
+        "published": "Mon, 12 Oct 2026 17:34:40 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Politics UK news Andy Burnham Labour Brexit European Union Nigel Farage Reform UK Immigration and asylum Ed Davey Russia Kemi Badenoch Ukraine US politics The Sun Technology AI (artificial intelligence) Restore Britain Europe Ursula von der Leyen Migration Refugees",
+        "image": "https://i.guim.co.uk/img/media/81c1a232ba4889d324365859280fbc139bb3da8e/695_107_1848_1479/master/1848.jpg?width=140&quality=85&auto=format&fit=max&s=d787348e6f453ffd2176f3f36bc5c9cb"
+      },
+      {
         "title": "Iran’s Revolutionary Guards ‘almost certainly’ behind RAF Fairford threats, says Burnham",
         "link": "https://www.theguardian.com/uk-news/2026/oct/12/iran-revolutionary-guards-irgc-raf-fairford-threats",
         "published": "Mon, 12 Oct 2026 17:08:11 GMT",
@@ -266,15 +275,6 @@
         "provider": "GUARDIAN",
         "categories": "UK security and counter-terrorism Iran Gloucestershire US military UK news Politics Defence policy Military Andy Burnham",
         "image": "https://i.guim.co.uk/img/media/d5e0716d6047fe8555ea4cdb4760d5d39329defa/0_1216_4175_3340/master/4175.jpg?width=140&quality=85&auto=format&fit=max&s=892b316bad39a10794d39a027d34a034"
-      },
-      {
-        "title": "Ben Jennings on Reform’s pledge to suspend the UK asylum system – cartoon",
-        "link": "https://www.theguardian.com/commentisfree/picture/2026/oct/12/ben-jennings-reforms-pledge-suspend-uk-asylum-system-cartoon",
-        "published": "Mon, 12 Oct 2026 17:00:00 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Reform UK Nigel Farage Immigration and asylum Politics UK news",
-        "image": "https://i.guim.co.uk/img/media/8ec7df06c1336644429a53a58edd78f39f23012f/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=987d386874497c21c20cdd9fe6df2082"
       }
     ],
     "BUSINESS": [
@@ -286,15 +286,6 @@
         "provider": "METRO",
         "categories": "News Cybercrime France",
         "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316345244-2880.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Nationwide to offer £370 of free money in new deal — check if you’re eligible",
-        "link": "https://metro.co.uk/2026/10/12/nationwide-offer-370-free-money-new-deal-check-eligible-29701213/",
-        "published": "Mon, 12 Oct 2026 15:55:02 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Lifestyle Money Money Tips Saving",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_196723197-c6dd.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "Nobel Prize for economics awarded to Hall and Woodford for work on ‘smoothing’ crises",
@@ -367,9 +358,36 @@
         "provider": "GUARDIAN",
         "categories": "US economy Economics Business AI (artificial intelligence) US politics",
         "image": "https://i.guim.co.uk/img/media/c01cee88362c0355e50eac343016f771811f0cd2/355_0_3701_2960/master/3701.jpg?width=140&quality=85&auto=format&fit=max&s=e91cdb1d17c082730c24e5fb4321d833"
+      },
+      {
+        "title": "London’s HSBC tower is transforming into ‘Swiss Cheese’ building complete with holes",
+        "link": "https://metro.co.uk/2026/09/20/londons-hsbc-tower-turned-swiss-cheese-complete-holes-29620356/",
+        "published": "Sun, 20 Sep 2026 05:00:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News UK Business Canary Wharf HSBC London",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/09/AN_49346026-1d26.jpg?quality=90&strip=all&w=646"
       }
     ],
     "TECH": [
+      {
+        "title": "Valor Mortis review – a first person Soulslike with a Sharpe edge",
+        "link": "https://metro.co.uk/2026/10/13/valor-mortis-review-a-first-person-soulslike-a-sharpe-edge-29703206/",
+        "published": "Tue, 13 Oct 2026 00:00:18 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Entertainment Gaming Games news Games reviews PC Games PlayStation 5 Soulslike Xbox Series X",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316382390-940d.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Daily horoscope October 13 2026: Today’s predictions for your star sign",
+        "link": "https://metro.co.uk/2026/10/13/daily-horoscope-october-13-2026-predictions-star-sign-29700944/",
+        "published": "Mon, 12 Oct 2026 23:01:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Horoscopes Lifestyle Aquarius Aries Astrology Cancer (star sign) Capricorn Gemini Leo Libra Pisces Sagittarius Scorpio Taurus Virgo",
+        "image": "https://metro.co.uk/wp-content/uploads/2023/04/new-horoscope-2023-02-a5db.gif?w=646"
+      },
       {
         "title": "Have Russian bots dropped off after Ukraine attacked its data centres?",
         "link": "https://metro.co.uk/2026/10/12/russian-bots-dropped-off-ukraine-attacked-data-centres-29700401/",
@@ -389,15 +407,6 @@
         "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316346620-0458.jpg?quality=90&strip=all&w=646"
       },
       {
-        "title": "Mum of British TikToker in Dubai jail for ‘murder’ reveals star is ‘suffering’ in prison",
-        "link": "https://metro.co.uk/2026/10/12/mum-british-tiktoker-dubai-jail-murder-reveals-star-suffering-prison-29700920/",
-        "published": "Mon, 12 Oct 2026 16:00:00 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News World Crime News TikTok United Arab Emirates",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316308918-45f7-e1791813646533.jpg?quality=90&strip=all&w=646"
-      },
-      {
         "title": "French supermarket fridges heated to 50C in cyber attack - causing fires and food losses",
         "link": "https://news.sky.com/story/hackers-heat-french-supermarket-fridges-to-50c-in-large-scale-cyber-attack-13598252",
         "published": "Mon, 12 Oct 2026 16:56:00 +0100",
@@ -405,15 +414,6 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/10/1920x1080/skynews-carrefour-france_7375229.jpg?20261012170413"
-      },
-      {
-        "title": "Robot seized by police for ‘thrusting up against girl, 16, and touching her buttocks’",
-        "link": "https://metro.co.uk/2026/10/12/robot-seized-police-thrusting-girl-16-touching-buttocks-29702568/",
-        "published": "Mon, 12 Oct 2026 15:55:35 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News Tech Cologne Germany Robots",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316344758-f141-e1791820373457.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "Is Wikipedia ‘deeply biased’? Sandi Toksvig says it is – so she’s backing a rival",
@@ -463,6 +463,42 @@
     ],
     "ENTERTAINMENT": [
       {
+        "title": "EastEnders predator Craig’s shocking plan for Amy revealed – and it’s horrifying",
+        "link": "https://metro.co.uk/2026/10/12/eastenders-predator-craigs-shocking-plan-amy-revealed-horrifying-29702487/",
+        "published": "Mon, 12 Oct 2026 22:59:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "EastEnders Soaps Amy Mitchell Craig Ingram Ellie Dadd Jack Branning Matthew James Bailey Scott Maslen",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316344155-86e7.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Frankie’s horror in Hollyoaks as major character is rushed to hospital",
+        "link": "https://metro.co.uk/2026/10/12/frankies-horror-hollyoaks-major-character-rushed-hospital-29701441/",
+        "published": "Mon, 12 Oct 2026 22:59:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Hollyoaks Soaps Frankie Osborne Isabelle Smith",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316324632-1acb.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Coronation Street star confirms ‘beautiful’ Debbie Christmas but ‘real darkness’ follows",
+        "link": "https://metro.co.uk/2026/10/12/coronation-street-star-confirms-beautiful-debbie-christmas-29693868/",
+        "published": "Mon, 12 Oct 2026 22:59:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Coronation Street Soaps Debbie Webster Ronnie Bailey Sue Devaney Vinta Morgan",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315775896-6ad4.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "‘Like mother, like daughter!’ Halloween Emmerdale moment Thea will ‘put Kim down’",
+        "link": "https://metro.co.uk/2026/10/12/like-mother-like-daughter-halloween-emmerdale-moment-thea-will-put-kim-down-29701808/",
+        "published": "Mon, 12 Oct 2026 22:59:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Emmerdale Soaps Chelsea Edge Claire King DS Thea Ramsden Kim Tate",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316340660-ba47.jpg?quality=90&strip=all&w=646"
+      },
+      {
         "title": "Breaking Bad star RJ Mitte dies aged 34",
         "link": "https://news.sky.com/story/breaking-bad-star-rj-mitte-dies-aged-34-13598332",
         "published": "Mon, 12 Oct 2026 21:51:00 +0100",
@@ -470,33 +506,6 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/10/1920x1080/skynews-rj-mitte-mitte_7375444.jpg?20261012215914"
-      },
-      {
-        "title": "Emmerdale confirms major Kim and Graham twist and Joe will be murderous",
-        "link": "https://metro.co.uk/2026/10/12/emmerdale-confirms-major-kim-graham-twist-joe-will-murderous-29700882/",
-        "published": "Mon, 12 Oct 2026 19:30:00 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Emmerdale Soaps Andrew Scarborough Claire King Graham Foster Joe Tate Kim Tate Ned Porteous",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316317355-6e2b.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "The final chapter in the WandaVision trilogy is Marvel’s best show in years",
-        "link": "https://metro.co.uk/2026/10/12/visionquest-review-marvels-best-show-since-wandavision-29700689/",
-        "published": "Mon, 12 Oct 2026 19:00:00 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Entertainment TV Marvel TV reviews WandaVision",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315426996-d982.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Joe gets rid of Vinny for good as Emmerdale spoilers confirm what happens next",
-        "link": "https://metro.co.uk/2026/10/12/joe-gets-rid-vinny-good-emmerdale-spoilers-confirm-happens-next-29701642/",
-        "published": "Mon, 12 Oct 2026 18:45:00 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Emmerdale Soaps Bradley Johnson Claire King Joe Tate Kim Tate Ned Porteous Vinny Dingle",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316328750-4793.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "BBC defends decision to remove trans rights slogan from Strictly episode",
@@ -542,18 +551,18 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/10/1920x1080/skynews-eva-marie-saint-oscars_7370364.jpg?20261007111744"
-      },
-      {
-        "title": "Portrait artist: None of us really know what we actually look like",
-        "link": "https://news.sky.com/story/portrait-artist-jonathan-yeo-none-of-us-really-know-what-we-actually-look-like-13595585",
-        "published": "Wed, 07 Oct 2026 04:06:00 +0100",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/10/1920x1080/skynews-king-charles-portrait_7370111.jpg?20261007040603"
       }
     ],
     "STOCKS": [
+      {
+        "title": "Why Compass (COMP) Stock Is Down Today",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/why-compass-comp-stock-down-002303843.html?.tsrc=rss",
+        "published": "Tue, 13 Oct 2026 00:23:03 +0000",
+        "source": "Yahoo Finance",
+        "provider": "YAHOO",
+        "categories": "",
+        "image": ""
+      },
       {
         "title": "3 Reasons Investors Watch Stryker (SYK)",
         "link": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-investors-watch-stryker-215103848.html?.tsrc=rss",
@@ -576,15 +585,6 @@
         "title": "Clorox (CLX): Buy, Sell, or Hold Post Q2 Earnings?",
         "link": "https://finance.yahoo.com/markets/stocks/articles/clorox-clx-buy-sell-hold-211903832.html?.tsrc=rss",
         "published": "Mon, 12 Oct 2026 21:19:03 +0000",
-        "source": "Yahoo Finance",
-        "provider": "YAHOO",
-        "categories": "",
-        "image": ""
-      },
-      {
-        "title": "ConocoPhillips (COP) Advances While Market Declines: Some Information for Investors",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/conocophillips-cop-advances-while-market-211505759.html?.tsrc=rss",
-        "published": "Mon, 12 Oct 2026 21:15:05 +0000",
         "source": "Yahoo Finance",
         "provider": "YAHOO",
         "categories": "",
@@ -735,7 +735,7 @@
           },
           "YAHOO": {
             "ok": true,
-            "count": 7,
+            "count": 8,
             "retainedPrevious": 0,
             "errors": [
               "https://finance.yahoo.com/news/rssindex: 404 Not Found"
@@ -828,15 +828,6 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/10/1920x1080/skynews-strictly-come-dancing_7374893.jpg?20261012102756"
-          },
-          {
-            "title": "UK floods taskforce told to start looking at drought",
-            "link": "https://news.sky.com/story/uk-floods-taskforce-told-to-start-looking-at-drought-13597252",
-            "published": "Sun, 11 Oct 2026 00:01:00 +0100",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/10/1920x1080/skynews-flooding-storm-chandra_7373555.jpg?20261010190405"
           }
         ],
         "WORLD": [
@@ -1204,7 +1195,7 @@
       "health": {
         "UK": {
           "ok": true,
-          "count": 9
+          "count": 8
         },
         "WORLD": {
           "ok": true,
@@ -1231,6 +1222,15 @@
     "GUARDIAN": {
       "categories": {
         "UK": [
+          {
+            "title": "English councils warn of ‘catastrophic’ Send debts forecast to hit £10bn by 2028",
+            "link": "https://www.theguardian.com/education/2026/oct/13/english-councils-catastrophic-send-debts-forecast-2028",
+            "published": "Mon, 12 Oct 2026 23:01:07 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Special educational needs UK news School funding Schools Education Public finance Local government Society Politics Autism Department for Education",
+            "image": "https://i.guim.co.uk/img/media/3576ec1f47e6c51d8b0425b7f37f30532424ae0c/427_0_4267_3413/master/4267.jpg?width=140&quality=85&auto=format&fit=max&s=a597b11d05e4b28996f4328784d73c7a"
+          },
           {
             "title": "Andy Burnham promises ‘serious dialogue’ over UK’s relationship with EU",
             "link": "https://www.theguardian.com/politics/2026/oct/12/andy-burnham-britain-eu-brexit-reset",
@@ -1302,15 +1302,6 @@
             "provider": "GUARDIAN",
             "categories": "Nobel economics prize Economics Business UK news US news World news",
             "image": "https://i.guim.co.uk/img/media/da45028dc64bf797e1a84fdb61067fdf71dd4a3d/922_55_3916_3133/master/3916.jpg?width=140&quality=85&auto=format&fit=max&s=8aa6dd64fcf8b58346cf8516b8e437f1"
-          },
-          {
-            "title": "Student lay in wait for housemate before stabbing him 30 times, Bristol court hears",
-            "link": "https://www.theguardian.com/uk-news/2026/oct/12/student-lay-in-wait-for-housemate-before-stabbing-him-30-times-bristol-court-hears",
-            "published": "Mon, 12 Oct 2026 14:04:19 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "UK news England",
-            "image": "https://i.guim.co.uk/img/media/f00d68dc5e6fcf89cacb7251a5b255a1fc83d188/0_62_470_376/master/470.jpg?width=140&quality=85&auto=format&fit=max&s=5680e407eba9cdff9e3f4c89719e038d"
           },
           {
             "title": "Revealed: Nigel Farage adviser had unpublicised role at polling firm",
@@ -1549,13 +1540,31 @@
             "image": "https://i.guim.co.uk/img/media/1bc92aeec67082226ccd5e531f4e5378a53d0c2c/195_0_3750_3000/master/3750.jpg?width=140&quality=85&auto=format&fit=max&s=fa3e2802647a56a95191856d6ba10471"
           },
           {
-            "title": "Australia politics live: PM urged to call Trump about execution livestream; Robert Pether speaks after Iraq prison release",
+            "title": "Australian politics live: Hanson-Young says she won’t run for Greens leadership again; fire ants found in Sydney’s inner west",
             "link": "https://www.theguardian.com/australia-news/live/2026/oct/13/labor-anthony-albanese-charity-boost-greens-ukraine-coalition-one-nation-ntwnfb",
-            "published": "Mon, 12 Oct 2026 22:07:52 GMT",
+            "published": "Tue, 13 Oct 2026 00:34:17 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
             "categories": "Australia news Australian politics Australian economy Business Health Australian education Australian immigration and asylum Australian foreign policy Coalition Australian Greens Liberal party National party Labor party Independents",
-            "image": "https://i.guim.co.uk/img/media/4259d797b86b3cc36816eac5f7a87848e5663343/1_0_4998_4000/master/4998.jpg?width=140&quality=85&auto=format&fit=max&s=491aee5ef2dff2a0c810e26f74496175"
+            "image": "https://i.guim.co.uk/img/media/894d2f88c53ff572b6d13ea603cfb325ed73ae42/250_0_2500_2000/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=d5379e5fe464ec7d4a70a6c71621b075"
+          },
+          {
+            "title": "Body found in stockyard trough confirmed to be missing 73-year-old Yvonne Whear",
+            "link": "https://www.theguardian.com/australia-news/2026/oct/13/yvonne-whear-body-found-in-stockyard-trough-missing-woman-murwillumbah-ntwnfb",
+            "published": "Tue, 13 Oct 2026 00:17:37 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "New South Wales Australia news",
+            "image": "https://i.guim.co.uk/img/media/65136c964dc50d64b08d7a5d3f69d719260b4452/0_41_1000_800/master/1000.jpg?width=140&quality=85&auto=format&fit=max&s=982bdb237d91332409a4821e4cc9421e"
+          },
+          {
+            "title": "Queensland prison where children self-harm to get transferred ‘more suitable’ than police watch-houses: ombudsman",
+            "link": "https://www.theguardian.com/australia-news/2026/oct/13/queensland-ombudsman-backs-away-from-calls-to-close-youth-prison-so-unsuitable-some-children-self-harm-to-get-transferred-ntwnfb",
+            "published": "Mon, 12 Oct 2026 23:00:07 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Queensland Australia news Australian police and policing Youth justice Queensland politics Young people Indigenous Australians Indigenous incarceration Mental health",
+            "image": "https://i.guim.co.uk/img/media/08feb8ad68eac1d164ce9cce4b80bb5097f0488a/6_9_1079_864/master/1079.jpg?width=140&quality=85&auto=format&fit=max&s=f9263b7ecde213eb6ed8ee75980541d1"
           },
           {
             "title": "Australia may risk a diplomatic spat with the Trump administration if it limits the viewing of a US execution",
@@ -1574,27 +1583,18 @@
             "provider": "GUARDIAN",
             "categories": "Business Gender pay gap Gender Australia news Equal pay Work-life balance Work & careers",
             "image": "https://i.guim.co.uk/img/media/4d41fb6d1c4e7235fe61f5c0d332dc3406b6d205/722_0_4750_3800/master/4750.jpg?width=140&quality=85&auto=format&fit=max&s=2e04fddd73b73ccc1de22b8d74df578e"
-          },
-          {
-            "title": "Rescued turtles return home after NSW government cut flows to wetland",
-            "link": "https://www.theguardian.com/australia-news/2026/oct/13/rescued-turtles-return-home-after-nsw-government-cut-flows-to-wetland",
-            "published": "Mon, 12 Oct 2026 14:00:58 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "New South Wales Wildlife Reptiles Environment Conservation Australia news",
-            "image": "https://i.guim.co.uk/img/media/56c5384fd76840012e625de757fbad7346b34a0b/111_0_6827_5464/master/6827.jpg?width=140&quality=85&auto=format&fit=max&s=b8c0d002f39cdab412d3a0ca34f0ce97"
-          },
-          {
-            "title": "‘We always do everything together’: Chloe has no way to contact her husband, a democracy campaigner detained in Vietnam",
-            "link": "https://www.theguardian.com/australia-news/2026/oct/12/australian-democracy-campaigner-detained-in-vietnam-on-alleged-terrorism-offences-uncontactable-wife-says",
-            "published": "Mon, 12 Oct 2026 14:00:57 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Australian foreign policy Human rights Vietnam Penny Wong Australia news",
-            "image": "https://i.guim.co.uk/img/media/ffe0128faedb118fc1f54a4453342ac0e946f4a2/0_0_1714_1371/master/1714.jpg?width=140&quality=85&auto=format&fit=max&s=67209953aedc1078dc71c77dcdeb37b7"
           }
         ],
         "POLITICS": [
+          {
+            "title": "English councils warn of ‘catastrophic’ Send debts forecast to hit £10bn by 2028",
+            "link": "https://www.theguardian.com/education/2026/oct/13/english-councils-catastrophic-send-debts-forecast-2028",
+            "published": "Mon, 12 Oct 2026 23:01:07 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Special educational needs UK news School funding Schools Education Public finance Local government Society Politics Autism Department for Education",
+            "image": "https://i.guim.co.uk/img/media/3576ec1f47e6c51d8b0425b7f37f30532424ae0c/427_0_4267_3413/master/4267.jpg?width=140&quality=85&auto=format&fit=max&s=a597b11d05e4b28996f4328784d73c7a"
+          },
           {
             "title": "Andy Burnham promises ‘serious dialogue’ over UK’s relationship with EU",
             "link": "https://www.theguardian.com/politics/2026/oct/12/andy-burnham-britain-eu-brexit-reset",
@@ -1648,15 +1648,6 @@
             "provider": "GUARDIAN",
             "categories": "Politics Andy Burnham Russia Vladimir Putin Europe Brexit Donald Trump",
             "image": "https://i.guim.co.uk/img/media/ed308eaa1316f799724b992649bc03f8aed6996e/91_76_3347_2678/master/3347.jpg?width=140&quality=85&auto=format&fit=max&s=ad9bab4641a7bdec6b35b1284ddf64b6"
-          },
-          {
-            "title": "Children and women included in Reform plan to immediately deport 90,000 asylum seekers",
-            "link": "https://www.theguardian.com/politics/2026/oct/12/children-mothers-included-reform-immediately-deport-asylum-seekers",
-            "published": "Mon, 12 Oct 2026 14:24:31 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Reform UK Nigel Farage Shabana Mahmood Politics UK news Immigration and asylum Far right",
-            "image": "https://i.guim.co.uk/img/media/c2c3037582e4dc09f2516828059b4574609a242e/453_0_4549_3640/master/4549.jpg?width=140&quality=85&auto=format&fit=max&s=b2e3ca442d3448d6f9f09ec67da13f44"
           },
           {
             "title": "The Guardian view on the Liberal Democrats: now is not the time to change leader | Editorial",
@@ -2669,15 +2660,6 @@
             "provider": "METRO",
             "categories": "News Tech Russia Russia-Ukraine war Ukraine",
             "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315861875-29fc.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Robot seized by police for ‘thrusting up against girl, 16, and touching her buttocks’",
-            "link": "https://metro.co.uk/2026/10/12/robot-seized-police-thrusting-girl-16-touching-buttocks-29702568/",
-            "published": "Mon, 12 Oct 2026 15:55:35 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News Tech Cologne Germany Robots",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316344758-f141-e1791820373457.jpg?quality=90&strip=all&w=646"
           }
         ],
         "POLITICS": [
@@ -3033,18 +3015,27 @@
             "provider": "METRO",
             "categories": "News Cybercrime France",
             "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316345244-2880.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Nationwide to offer £370 of free money in new deal — check if you’re eligible",
-            "link": "https://metro.co.uk/2026/10/12/nationwide-offer-370-free-money-new-deal-check-eligible-29701213/",
-            "published": "Mon, 12 Oct 2026 15:55:02 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Lifestyle Money Money Tips Saving",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_196723197-c6dd.jpg?quality=90&strip=all&w=646"
           }
         ],
         "TECH": [
+          {
+            "title": "Valor Mortis review – a first person Soulslike with a Sharpe edge",
+            "link": "https://metro.co.uk/2026/10/13/valor-mortis-review-a-first-person-soulslike-a-sharpe-edge-29703206/",
+            "published": "Tue, 13 Oct 2026 00:00:18 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment Gaming Games news Games reviews PC Games PlayStation 5 Soulslike Xbox Series X",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316382390-940d.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Daily horoscope October 13 2026: Today’s predictions for your star sign",
+            "link": "https://metro.co.uk/2026/10/13/daily-horoscope-october-13-2026-predictions-star-sign-29700944/",
+            "published": "Mon, 12 Oct 2026 23:01:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Horoscopes Lifestyle Aquarius Aries Astrology Cancer (star sign) Capricorn Gemini Leo Libra Pisces Sagittarius Scorpio Taurus Virgo",
+            "image": "https://metro.co.uk/wp-content/uploads/2023/04/new-horoscope-2023-02-a5db.gif?w=646"
+          },
           {
             "title": "Have Russian bots dropped off after Ukraine attacked its data centres?",
             "link": "https://metro.co.uk/2026/10/12/russian-bots-dropped-off-ukraine-attacked-data-centres-29700401/",
@@ -3062,33 +3053,6 @@
             "provider": "METRO",
             "categories": "Entertainment Gaming EA EA Sports FC Games news Nintendo Switch Nintendo Switch 2 PlayStation 4 PlayStation 5 Xbox One Xbox Series X",
             "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316346620-0458.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Mum of British TikToker in Dubai jail for ‘murder’ reveals star is ‘suffering’ in prison",
-            "link": "https://metro.co.uk/2026/10/12/mum-british-tiktoker-dubai-jail-murder-reveals-star-suffering-prison-29700920/",
-            "published": "Mon, 12 Oct 2026 16:00:00 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News World Crime News TikTok United Arab Emirates",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316308918-45f7-e1791813646533.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Robot seized by police for ‘thrusting up against girl, 16, and touching her buttocks’",
-            "link": "https://metro.co.uk/2026/10/12/robot-seized-police-thrusting-girl-16-touching-buttocks-29702568/",
-            "published": "Mon, 12 Oct 2026 15:55:35 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News Tech Cologne Germany Robots",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316344758-f141-e1791820373457.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Call Of Duty: Modern Warfare 4 pre-orders now include early DMZ access",
-            "link": "https://metro.co.uk/2026/10/12/call-duty-modern-warfare-4-pre-orders-now-include-early-dmz-access-29702435/",
-            "published": "Mon, 12 Oct 2026 15:50:23 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Entertainment Gaming Activision Call of Duty Games news Nintendo Switch 2 PC Games PlayStation 5 Xbox Series X",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316342077-1911.jpg?quality=90&strip=all&w=646"
           }
         ],
         "ENTERTAINMENT": [
@@ -3219,49 +3183,58 @@
             "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEC_316306779-a044.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Freddy Brazier used BBC budget to buy drugs while filming Race Across The World",
-            "link": "https://metro.co.uk/2026/10/12/freddy-brazier-used-bbc-budget-buy-drugs-filming-race-across-world-29699846/",
-            "published": "Mon, 12 Oct 2026 08:06:55 +0000",
+            "title": "EastEnders predator Craig’s shocking plan for Amy revealed – and it’s horrifying",
+            "link": "https://metro.co.uk/2026/10/12/eastenders-predator-craigs-shocking-plan-amy-revealed-horrifying-29702487/",
+            "published": "Mon, 12 Oct 2026 22:59:00 +0000",
             "source": "Metro",
             "provider": "METRO",
-            "categories": "Entertainment TV Freddy Brazier Jade Goody Jeff Brazier Race Across The World",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_245341591-5b38.jpg?quality=90&strip=all&w=646"
+            "categories": "EastEnders Soaps Amy Mitchell Craig Ingram Ellie Dadd Jack Branning Matthew James Bailey Scott Maslen",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316344155-86e7.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Emmerdale confirms major Kim and Graham twist and Joe will be murderous",
-            "link": "https://metro.co.uk/2026/10/12/emmerdale-confirms-major-kim-graham-twist-joe-will-murderous-29700882/",
-            "published": "Mon, 12 Oct 2026 19:30:00 +0000",
+            "title": "Frankie’s horror in Hollyoaks as major character is rushed to hospital",
+            "link": "https://metro.co.uk/2026/10/12/frankies-horror-hollyoaks-major-character-rushed-hospital-29701441/",
+            "published": "Mon, 12 Oct 2026 22:59:00 +0000",
             "source": "Metro",
             "provider": "METRO",
-            "categories": "Emmerdale Soaps Andrew Scarborough Claire King Graham Foster Joe Tate Kim Tate Ned Porteous",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316317355-6e2b.jpg?quality=90&strip=all&w=646"
+            "categories": "Hollyoaks Soaps Frankie Osborne Isabelle Smith",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316324632-1acb.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Joe gets rid of Vinny for good as Emmerdale spoilers confirm what happens next",
-            "link": "https://metro.co.uk/2026/10/12/joe-gets-rid-vinny-good-emmerdale-spoilers-confirm-happens-next-29701642/",
-            "published": "Mon, 12 Oct 2026 18:45:00 +0000",
+            "title": "Coronation Street star confirms ‘beautiful’ Debbie Christmas but ‘real darkness’ follows",
+            "link": "https://metro.co.uk/2026/10/12/coronation-street-star-confirms-beautiful-debbie-christmas-29693868/",
+            "published": "Mon, 12 Oct 2026 22:59:00 +0000",
             "source": "Metro",
             "provider": "METRO",
-            "categories": "Emmerdale Soaps Bradley Johnson Claire King Joe Tate Kim Tate Ned Porteous Vinny Dingle",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316328750-4793.jpg?quality=90&strip=all&w=646"
+            "categories": "Coronation Street Soaps Debbie Webster Ronnie Bailey Sue Devaney Vinta Morgan",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315775896-6ad4.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Ned’s shock ‘favour’ of Mark and dark Craig twist as EastEnders spoilers reveal what happens next",
-            "link": "https://metro.co.uk/2026/10/12/neds-favour-mark-craig-twist-eastenders-spoilers-reveal-happens-next-29700345/",
-            "published": "Mon, 12 Oct 2026 17:30:00 +0000",
+            "title": "‘Like mother, like daughter!’ Halloween Emmerdale moment Thea will ‘put Kim down’",
+            "link": "https://metro.co.uk/2026/10/12/like-mother-like-daughter-halloween-emmerdale-moment-thea-will-put-kim-down-29701808/",
+            "published": "Mon, 12 Oct 2026 22:59:00 +0000",
             "source": "Metro",
             "provider": "METRO",
-            "categories": "EastEnders Soaps Craig Ingram Felix Uff Jamie Bamber Mark Fowler Jr Matthew James Bailey Ned Hawkins Ryder Hawkins Stephen Aaron-Sipple",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316314707-bd1a.jpg?quality=90&strip=all&w=646"
+            "categories": "Emmerdale Soaps Chelsea Edge Claire King DS Thea Ramsden Kim Tate",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316340660-ba47.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Is Vinny leaving Emmerdale? Bradley Johnson’s exit explained",
-            "link": "https://metro.co.uk/2026/10/12/vinny-leaving-emmerdale-bradley-johnsons-exit-explained-29700080/",
-            "published": "Mon, 12 Oct 2026 16:00:00 +0000",
+            "title": "Killer Sarah’s fate confirmed on Coronation Street as the jury deliver trial verdict",
+            "link": "https://metro.co.uk/2026/10/12/killer-sarahs-fate-confirmed-coronation-street-jury-deliver-verdict-29693930/",
+            "published": "Mon, 12 Oct 2026 22:59:00 +0000",
             "source": "Metro",
             "provider": "METRO",
-            "categories": "Emmerdale Soaps Bradley Johnson Vinny Dingle",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_314987262-b2c8.jpg?quality=90&strip=all&w=646"
+            "categories": "Coronation Street Soaps Sarah Platt Tina O'Brien",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315775810-d66f.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Aaron and Sarah on a mission in Emmerdale as Robert’s plan brings scandal",
+            "link": "https://metro.co.uk/2026/10/12/emmerdales-aaron-sarah-a-mission-roberts-plan-brings-scandal-29701786/",
+            "published": "Mon, 12 Oct 2026 22:59:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Emmerdale Soaps Aaron Dingle Danny Miller Katie Hill Robert Sugden Ryan Hawley Sarah Sugden",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/aaron-and-sarah-both-looking-at-someone-looking-distressed-in-emmerdale.png?w=646"
           }
         ]
       },
@@ -3272,7 +3245,7 @@
         },
         "WORLD": {
           "ok": true,
-          "count": 17
+          "count": 16
         },
         "POLITICS": {
           "ok": true,
@@ -3280,15 +3253,15 @@
         },
         "BUSINESS": {
           "ok": true,
-          "count": 20
+          "count": 19
         },
         "TECH": {
           "ok": true,
-          "count": 5
+          "count": 4
         },
         "ENTERTAINMENT": {
           "ok": true,
-          "count": 19
+          "count": 20
         }
       }
     },
@@ -3401,6 +3374,15 @@
         "STOCK_MARKET": [],
         "STOCKS": [
           {
+            "title": "Why Compass (COMP) Stock Is Down Today",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/why-compass-comp-stock-down-002303843.html?.tsrc=rss",
+            "published": "Tue, 13 Oct 2026 00:23:03 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
             "title": "3 Reasons Investors Watch Stryker (SYK)",
             "link": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-investors-watch-stryker-215103848.html?.tsrc=rss",
             "published": "Mon, 12 Oct 2026 21:51:03 +0000",
@@ -3477,7 +3459,7 @@
         },
         "STOCKS": {
           "ok": true,
-          "count": 7,
+          "count": 8,
           "retainedPrevious": 0,
           "errors": [
             "https://finance.yahoo.com/news/rssindex: 404 Not Found"
@@ -3662,18 +3644,18 @@
             "image": ""
           },
           {
-            "title": "Stocks advance ahead of earnings, navigating still-high Treasury yields and oil prices",
-            "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBmemlrTzkxS0ZGNW4xVC1Bb0FYNmR0MWNHMnFtYXl6Wmg2UHFSVWwwUEQ0MEI5dmY0VGVtR1RURVc2aHlZRjBnVS0yQzdJaDVqNWVnSGFOZkh6SHdTSTJVUDBjd0tFdFhrbjFHa3ExVzFNN0FvOXFpOTZ2QQ?oc=5",
-            "published": "Fri, 09 Oct 2026 19:19:05 GMT",
+            "title": "Indian shares rise, end longest weekly losing streak in 25 years",
+            "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSUlMb1g5cjVaX2pyT0FWTUJ1N2xGTXV0OVN2WkFRQ2R2RS1Fdkc4cmloUC1yNzRlR2pYcW1KOVNjTW1kbmVZbWRhal9WS0dwcU9IeUVvcmRXcTlNZ3V2d0pFYUZndExqNXpNdWltSEhSUjBYRGdmcFpjWVpHT0VUQ3FIV0Q0SUxVdG9mT2lMZzY5bWVhcE92TkR2aEVmajNPVWN1SjZidFlsX1hjM0xVQzJTdHQ?oc=5",
+            "published": "Fri, 09 Oct 2026 19:48:47 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
             "image": ""
           },
           {
-            "title": "Indian shares rise, end longest weekly losing streak in 25 years",
-            "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSUlMb1g5cjVaX2pyT0FWTUJ1N2xGTXV0OVN2WkFRQ2R2RS1Fdkc4cmloUC1yNzRlR2pYcW1KOVNjTW1kbmVZbWRhal9WS0dwcU9IeUVvcmRXcTlNZ3V2d0pFYUZndExqNXpNdWltSEhSUjBYRGdmcFpjWVpHT0VUQ3FIV0Q0SUxVdG9mT2lMZzY5bWVhcE92TkR2aEVmajNPVWN1SjZidFlsX1hjM0xVQzJTdHQ?oc=5",
-            "published": "Fri, 09 Oct 2026 10:20:16 GMT",
+            "title": "Stocks advance ahead of earnings, navigating still-high Treasury yields and oil prices",
+            "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBmemlrTzkxS0ZGNW4xVC1Bb0FYNmR0MWNHMnFtYXl6Wmg2UHFSVWwwUEQ0MEI5dmY0VGVtR1RURVc2aHlZRjBnVS0yQzdJaDVqNWVnSGFOZkh6SHdTSTJVUDBjd0tFdFhrbjFHa3ExVzFNN0FvOXFpOTZ2QQ?oc=5",
+            "published": "Fri, 09 Oct 2026 19:19:05 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3698,9 +3680,9 @@
             "image": ""
           },
           {
-            "title": "World shares, euro slide as high oil prices, fiscal worries linger",
-            "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZW5YUkkzdjhfTWJXY25aWkVLeExISGkybXo1YmFoS256Qk5DclZaVVc4ODRnejkzYlBYOTBVWWp5YTVHRDVyMmtBUDVZWHlFclVhYUtIU2d0Tm1GWmRzMnhQNlg4aVVfWEZjb21nQ0tTUzc0WjQ5bEhmWVJuNzFwX25Bdw?oc=5",
-            "published": "Wed, 07 Oct 2026 16:34:59 GMT",
+            "title": "Gold ticks up as investors weigh Fed path, mounting debt concerns",
+            "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQaTl2VDRiV2EtanRNTGxRVGc4OEhQUUhZOEV1MXduVGNBOW1wa2V6N2lqaXJaX2hiVnpPdU5kSC05VGNVUV9ydExDbnVral9vVW1qTFlvYTZSMGY2cTFraXRJeEthaEZmMFRuVmtVYzc2azRkYlM5MVBvWG9nUGY0LUFBX2VmZHNWTkxHTVZGdUtvTWd2NGlJbg?oc=5",
+            "published": "Thu, 08 Oct 2026 10:31:04 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3850,5 +3832,5 @@
       }
     }
   },
-  "stocksUpdated": "2026-10-12T22:34:18.467Z"
+  "stocksUpdated": "2026-10-13T00:48:50.139Z"
 }
