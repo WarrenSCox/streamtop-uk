@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-13T00:48:50.204Z",
+  "updated": "2026-10-13T03:09:06.251Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -45,22 +45,22 @@
         "image": "https://covers.openlibrary.org/b/id/11702962-L.jpg"
       },
       {
-        "title": "The Let Them Theory",
-        "author": "Mel Robbins",
-        "narrator": "Mel Robbins",
-        "image": "https://covers.openlibrary.org/b/id/15165806-L.jpg"
-      },
-      {
         "title": "The Dungeon Anarchist's Cookbook",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays , The Critical Drinker",
         "image": "https://covers.openlibrary.org/b/id/15262048-L.jpg"
       },
       {
+        "title": "The Let Them Theory",
+        "author": "Mel Robbins",
+        "narrator": "Mel Robbins",
+        "image": "https://covers.openlibrary.org/b/id/15165806-L.jpg"
+      },
+      {
         "title": "The Gate of the Feral Gods",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://m.media-amazon.com/images/I/51rmyTTWPsL._SL500_.jpg"
+        "image": "https://covers.openlibrary.org/b/id/15258911-L.jpg"
       }
     ],
     "BOOKS": [
@@ -123,15 +123,15 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-10-13T00:48:50.205Z",
-      "lastSuccessfulRefresh": "2026-10-13T00:48:50.205Z",
+      "checkedAt": "2026-10-13T03:09:06.252Z",
+      "lastSuccessfulRefresh": "2026-10-13T03:09:06.252Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
-      "status": "stale",
-      "checkedAt": "2026-10-13T00:48:57.768Z",
-      "lastSuccessfulRefresh": "2026-10-12T15:40:32.389Z",
-      "reason": "503 https://www.audible.co.uk/charts/best"
+      "status": "healthy",
+      "checkedAt": "2026-10-13T03:09:15.000Z",
+      "lastSuccessfulRefresh": "2026-10-13T03:09:15.000Z",
+      "reason": ""
     }
   }
 }
