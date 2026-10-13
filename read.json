@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-13T22:53:33.275Z",
+  "updated": "2026-10-13T23:04:35.998Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -15,22 +15,28 @@
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/21/e2/a3/21e2a31c-2e04-6d99-0af9-180a08fa96a2/9798349169328.jpg/600x600bb.jpg"
       },
       {
+        "title": "Threshing Day [Dramatized Adaptation]",
+        "author": "Rebecca Yarros",
+        "narrator": "Full Cast , Gabriel Michael , Torian Brackett , Taylor Coan , Robb Moreira , Henry W. Kramer , Rayner Gabriel , Jessica Schly , James J. Johnson , Casie Platt , Danny Gavigan , Rob McFadyen , Renee Dorian , Belsheber Junior Rusape , GM Hakim",
+        "image": ""
+      },
+      {
         "title": "Threshing Day (Wing and Claw Collection)",
         "author": "Rebecca Yarros",
         "narrator": "Justis Bolding , Jake Bordeaux , Chase Brown , Frankie Corzo , Giordan Diaz , Teddy Hamilton , Laura Knight Keating , Zion Jang , Nick Mills , Robb Moriera , James Aaron Oh , Anthony Palmini , John Skelley , Jasmin Walker",
         "image": "https://m.media-amazon.com/images/I/51+hQRgOR2L._SL500_.jpg"
       },
       {
-        "title": "Verity",
-        "author": "Colleen Hoover",
-        "narrator": "Vanessa Johansson , Amy Landon",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/40/ef/da/40efda88-49f4-a5ec-814c-6703689e539b/9791036624001.jpg/600x600bb.jpg"
-      },
-      {
         "title": "Dungeon Crawler Carl",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
         "image": "https://covers.openlibrary.org/b/id/15143022-L.jpg"
+      },
+      {
+        "title": "Verity",
+        "author": "Colleen Hoover",
+        "narrator": "Vanessa Johansson , Amy Landon",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/40/ef/da/40efda88-49f4-a5ec-814c-6703689e539b/9791036624001.jpg/600x600bb.jpg"
       },
       {
         "title": "He Who Fights with Monsters 13: A LitRPG Adventure",
@@ -55,12 +61,6 @@
         "author": "Mel Robbins",
         "narrator": "Mel Robbins",
         "image": "https://covers.openlibrary.org/b/id/15165806-L.jpg"
-      },
-      {
-        "title": "The Gate of the Feral Gods",
-        "author": "Matt Dinniman",
-        "narrator": "Jeff Hays",
-        "image": "https://covers.openlibrary.org/b/id/15258911-L.jpg"
       }
     ],
     "BOOKS": [
@@ -123,15 +123,15 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-10-13T22:53:33.275Z",
-      "lastSuccessfulRefresh": "2026-10-13T22:53:33.275Z",
+      "checkedAt": "2026-10-13T23:04:35.998Z",
+      "lastSuccessfulRefresh": "2026-10-13T23:04:35.998Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
-      "status": "stale",
-      "checkedAt": "2026-10-13T22:53:41.228Z",
-      "lastSuccessfulRefresh": "2026-10-13T03:09:15.000Z",
-      "reason": "503 https://www.audible.co.uk/charts/best"
+      "status": "healthy",
+      "checkedAt": "2026-10-13T23:04:43.415Z",
+      "lastSuccessfulRefresh": "2026-10-13T23:04:43.415Z",
+      "reason": ""
     }
   }
 }
