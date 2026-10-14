@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-14T13:02:42.479Z",
+  "updated": "2026-10-14T17:20:09.532Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -122,16 +122,16 @@
   },
   "health": {
     "BOOKS": {
-      "status": "healthy",
-      "checkedAt": "2026-10-14T13:02:42.479Z",
+      "status": "stale",
+      "checkedAt": "2026-10-14T17:20:09.532Z",
       "lastSuccessfulRefresh": "2026-10-14T13:02:42.479Z",
-      "reason": ""
+      "reason": "403 https://www.lovereading.co.uk/genres/lrt10/uk-top-10-books"
     },
     "AUDIOBOOKS": {
-      "status": "healthy",
-      "checkedAt": "2026-10-14T13:02:50.629Z",
+      "status": "stale",
+      "checkedAt": "2026-10-14T17:20:09.804Z",
       "lastSuccessfulRefresh": "2026-10-14T13:02:50.629Z",
-      "reason": ""
+      "reason": "503 https://www.audible.co.uk/charts/best"
     }
   }
 }
