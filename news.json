@@ -1,7 +1,25 @@
 {
-  "updated": "2026-10-14T17:20:00.713Z",
+  "updated": "2026-10-14T17:57:10.786Z",
   "categories": {
     "UK": [
+      {
+        "title": "Russell Brand was ruthless, calculated and manipulative sexual predator, court told",
+        "link": "https://www.theguardian.com/uk-news/2026/oct/14/russell-brand-was-ruthless-calculated-and-manipulative-sexual-predator-court-told",
+        "published": "Wed, 14 Oct 2026 17:39:19 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "UK news",
+        "image": "https://i.guim.co.uk/img/media/68a5ec4d8d28ec9e3f70464b34e7f59a0cda4196/444_50_4102_3283/master/4102.jpg?width=140&quality=85&auto=format&fit=max&s=ec6e1c9d263ce5bb09bc2cdbbb16d09e"
+      },
+      {
+        "title": "Could AI ‘change the stakes’ in the development of bioweapons?",
+        "link": "https://www.theguardian.com/technology/2026/oct/14/could-ai-change-the-stakes-in-the-development-of-bioweapons",
+        "published": "Wed, 14 Oct 2026 17:34:14 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "AI (artificial intelligence) Chatbots Infectious diseases MI5 Anthropic UK security and counter-terrorism Science Technology UK news Biology Microbiology Weapons technology Synthetic biology",
+        "image": "https://i.guim.co.uk/img/media/fc1dd52941c9a6bd0156aa709eb103e872d37d5a/86_0_834_667/master/834.jpg?width=140&quality=85&auto=format&fit=max&s=9fbf95c0c4a1abe119a05188182809e8"
+      },
       {
         "title": "Burnham tells Zelenskyy’s UK’s support for Ukraine ‘will not change’ – as it happened",
         "link": "https://www.theguardian.com/politics/live/2026/oct/14/pmqs-andy-burnham-kemi-badenoch-zelenskyy-uk-politics-latest-news",
@@ -21,24 +39,6 @@
         "image": "https://i.guim.co.uk/img/media/e9f4317e59cceaeb1acc7c9802b4ef9938a2aa1a/440_0_4395_3516/master/4395.jpg?width=140&quality=85&auto=format&fit=max&s=fa7a1f23cd0db91e2649c4b5c419ad06"
       },
       {
-        "title": "Could AI ‘change the stakes’ in the development of bioweapons?",
-        "link": "https://www.theguardian.com/technology/2026/oct/14/could-ai-change-the-stakes-in-the-development-of-bioweapons",
-        "published": "Wed, 14 Oct 2026 16:54:43 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "AI (artificial intelligence) Chatbots Infectious diseases MI5 Anthropic UK security and counter-terrorism Science Technology UK news Biology",
-        "image": "https://i.guim.co.uk/img/media/dee8ec9d41a7f5522c622af9e1e3f43d78c6d567/128_0_3591_2872/master/3591.jpg?width=140&quality=85&auto=format&fit=max&s=0eb213696fefadfa8aa1b5efe3b0c05e"
-      },
-      {
-        "title": "New UK sanctions powers will enable action against supporters of illegal Israeli settlements",
-        "link": "https://www.theguardian.com/politics/2026/oct/14/uk-sanctions-powers-action-supporters-israeli-settlements",
-        "published": "Wed, 14 Oct 2026 16:51:25 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Foreign policy Politics Israel Palestine Ed Miliband Labour UK news World news Middle East and north Africa International law Human rights West Bank",
-        "image": "https://i.guim.co.uk/img/media/80dd7b222e94052acb2e4d70e79fda18c8f91248/713_0_4870_3896/master/4870.jpg?width=140&quality=85&auto=format&fit=max&s=a44911f150c5451a978d76480eec95a2"
-      },
-      {
         "title": "7 surprising signs that show you’re pretty healthy, actually",
         "link": "https://metro.co.uk/2026/10/14/7-surprising-signs-that-show-youre-pretty-healthy-actually-29709567/",
         "published": "Wed, 14 Oct 2026 16:00:00 +0000",
@@ -46,6 +46,15 @@
         "provider": "METRO",
         "categories": "Health Lifestyle exercise Fitness Health Advice Sleep Wellness",
         "image": "https://metro.co.uk/wp-content/uploads/2026/08/GettyImages-1989500628-17e4.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "British soldier who had 'homemade cannon' and promoted extreme right-wing views is jailed",
+        "link": "https://news.sky.com/story/british-soldier-mark-broadhurst-who-had-homemade-cannon-and-promoted-extreme-right-wing-views-is-jailed-13599315",
+        "published": "Wed, 14 Oct 2026 16:57:00 +0100",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/10/1920x1080/skynews-british-army-chef-mark-broadhurst_7376957.jpg?20261014184744"
       },
       {
         "title": "Fulham boss learns punishment for explosive comments after Man Utd game",
@@ -82,15 +91,6 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/10/1920x1080/skynews-annette-bishop-bristol_7376780.png?20261014132345"
-      },
-      {
-        "title": "One dead and two missing after fishing boat disappears off Scotland",
-        "link": "https://news.sky.com/story/one-man-dead-and-two-missing-after-fishing-vessel-goes-missing-off-scotland-13599156",
-        "published": "Wed, 14 Oct 2026 09:50:00 +0100",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/10/1920x1080/skynews-coastguard-helicopter_7376611.jpg?20261014100607"
       }
     ],
     "WORLD": [
@@ -187,7 +187,16 @@
     ],
     "POLITICS": [
       {
-        "title": "Burnham tells Zelenskyy’s UK’s support for Ukraine ‘will not change’ – UK politics live",
+        "title": "The Guardian view on Trump’s deal with Putin: grim and grubby, but not gamechanging | Editorial",
+        "link": "https://www.theguardian.com/commentisfree/2026/oct/14/the-guardian-view-on-trumps-deal-with-putin-grim-and-grubby-but-not-gamechanging",
+        "published": "Wed, 14 Oct 2026 17:30:08 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Ukraine Volodymyr Zelenskyy Donald Trump US news US politics Vladimir Putin Russia Andy Burnham Labour Politics US foreign policy Trump administration",
+        "image": "https://i.guim.co.uk/img/media/29c81af2518d0cad0cb06c7a441aef5240cc6a43/423_0_2890_2313/master/2890.jpg?width=140&quality=85&auto=format&fit=max&s=2980bcc8b07793f9ade8da681196bb4f"
+      },
+      {
+        "title": "Burnham tells Zelenskyy’s UK’s support for Ukraine ‘will not change’ – as it happened",
         "link": "https://www.theguardian.com/politics/live/2026/oct/14/pmqs-andy-burnham-kemi-badenoch-zelenskyy-uk-politics-latest-news",
         "published": "Wed, 14 Oct 2026 17:06:58 GMT",
         "source": "The Guardian",
@@ -212,15 +221,6 @@
         "provider": "GUARDIAN",
         "categories": "Foreign policy Politics Israel Palestine Ed Miliband Labour UK news World news Middle East and north Africa International law Human rights West Bank",
         "image": "https://i.guim.co.uk/img/media/80dd7b222e94052acb2e4d70e79fda18c8f91248/713_0_4870_3896/master/4870.jpg?width=140&quality=85&auto=format&fit=max&s=a44911f150c5451a978d76480eec95a2"
-      },
-      {
-        "title": "Plan unveiled to increase share of land farmed organically in England to 10%",
-        "link": "https://www.theguardian.com/environment/2026/oct/14/land-farmed-organically-england-share-10-pc-2036-plan-food-climate",
-        "published": "Wed, 14 Oct 2026 16:49:15 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Farming UK news England Angela Eagle Politics Organics Environment Food Climate crisis Rural affairs",
-        "image": "https://i.guim.co.uk/img/media/c3a911c9ccf6a6e1e4f95fd0946ec6f2546394e0/864_0_4336_3471/master/4336.jpg?width=140&quality=85&auto=format&fit=max&s=a408a8e04217c5a0345a3b370f5b0ece"
       },
       {
         "title": "Bookies in last-ditch plea to Healey to avert budget tax bombshell",
@@ -279,22 +279,13 @@
     ],
     "BUSINESS": [
       {
-        "title": "The UK energy secretary is flirting with a bad idea for bills – the ‘rising block tariff’",
-        "link": "https://www.theguardian.com/business/nils-pratley-on-finance/2026/oct/14/the-uk-energy-secretary-is-flirting-with-a-bad-idea-for-bills-the-rising-block-tariff",
-        "published": "Wed, 14 Oct 2026 16:43:15 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "UK cost of living crisis Energy industry Energy bills Fuel poverty Poverty Business Consumer affairs Household bills Money Family finances Miatta Fahnbulleh Politics UK news",
-        "image": "https://i.guim.co.uk/img/media/891fade78b064ae6f987db8ada920a471955cbee/660_0_6615_5292/master/6615.jpg?width=140&quality=85&auto=format&fit=max&s=9838d4017745ed990e7f5fe6ecae2120"
-      },
-      {
-        "title": "Netflix to lay off about 1,000 employees in biggest cuts since 2022",
-        "link": "https://www.theguardian.com/media/2026/oct/14/netflix-job-layoffs-streaming",
-        "published": "Wed, 14 Oct 2026 15:10:45 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Netflix Media Business US television industry TV streaming Media business Job losses",
-        "image": "https://i.guim.co.uk/img/media/c71140341ec0c98d2a11d40c18063e1604ce4531/0_0_4067_3253/master/4067.jpg?width=140&quality=85&auto=format&fit=max&s=7e4d986b5ba870d60b577ef2c01d88ce"
+        "title": "Ronnie O’Sullivan announced for big-money event and rare UK appearance",
+        "link": "https://metro.co.uk/2026/10/14/ronnie-osullivan-announced-big-money-event-rare-uk-appearance-29709518/",
+        "published": "Wed, 14 Oct 2026 17:48:53 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Snooker Sport Ronnie O'Sullivan",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/08/SEI_309649501-87b2.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "Strictly’s Delta Goodrem shares health update after injury that could take weeks to heal",
@@ -324,13 +315,13 @@
         "image": "https://i.guim.co.uk/img/media/84db52e3bd4c7e10da78a8eeaa51b4462b587fda/333_0_3334_2667/master/3334.jpg?width=140&quality=85&auto=format&fit=max&s=7ff8effcb194c105f932eff5874c25bf"
       },
       {
-        "title": "English and Welsh water firms could be forced to return £107m via lower bills",
-        "link": "https://www.theguardian.com/business/2026/oct/14/water-firms-england-wales-cuts-bills-thames-yorkshire-ofwat",
-        "published": "Wed, 14 Oct 2026 14:18:01 GMT",
+        "title": "Bank of America fined $1.2bn for money-laundering failures",
+        "link": "https://www.theguardian.com/business/2026/oct/14/bank-of-america-fined-money-laundering",
+        "published": "Wed, 14 Oct 2026 11:54:29 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
-        "categories": "Water industry Water bills Utilities Business Regulators Household bills Consumer affairs Money England Wales",
-        "image": "https://i.guim.co.uk/img/media/31bcdd95f896a2d7afeb67aaf59fc801725476a8/312_0_2693_2156/master/2693.jpg?width=140&quality=85&auto=format&fit=max&s=c3ce6cdb8b3842e5180aa86e1464864e"
+        "categories": "Bank of America Banking Regulators Business US news",
+        "image": "https://i.guim.co.uk/img/media/1cdacb9386333374edb8f83c39b5199ce58973a1/720_0_7200_5760/master/7200.jpg?width=140&quality=85&auto=format&fit=max&s=80186fa78c45183510437d41a5b6cbf3"
       },
       {
         "title": "How much triple lock change will impact current - and future - pensioners",
@@ -349,6 +340,15 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/15/05/1920x1080/newmarket-racecourse-guineas-bookmakers-generic_3298014.jpg?20150502142836"
+      },
+      {
+        "title": "Judge extends White House access to banned media outlets CNN, MS Now and Politico",
+        "link": "https://www.theguardian.com/us-news/2026/oct/14/white-house-media-ban-lifted-cnn-msnow-politico",
+        "published": "Wed, 14 Oct 2026 04:34:29 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Trump administration Media Business CNN MS Now US news Donald Trump US politics US television industry US press and publishing Press freedom Freedom of speech",
+        "image": "https://i.guim.co.uk/img/media/8eeeccbb67b79fe20efeef6b9aaa834c81948498/641_0_5512_4413/master/5512.jpg?width=140&quality=85&auto=format&fit=max&s=b5e232d03a3c3395b3d3fb10abdae35b"
       },
       {
         "title": "I lost my hair twice – now I have a £20m wig business and sell to celebrities",
@@ -373,10 +373,10 @@
       {
         "title": "Could AI ‘change the stakes’ in the development of bioweapons?",
         "link": "https://www.theguardian.com/technology/2026/oct/14/could-ai-change-the-stakes-in-the-development-of-bioweapons",
-        "published": "Wed, 14 Oct 2026 16:54:43 GMT",
+        "published": "Wed, 14 Oct 2026 17:34:14 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
-        "categories": "AI (artificial intelligence) Chatbots Infectious diseases MI5 Anthropic UK security and counter-terrorism Science Technology UK news Biology",
+        "categories": "AI (artificial intelligence) Chatbots Infectious diseases MI5 Anthropic UK security and counter-terrorism Science Technology UK news Biology Microbiology Weapons technology Synthetic biology",
         "image": "https://i.guim.co.uk/img/media/dee8ec9d41a7f5522c622af9e1e3f43d78c6d567/128_0_3591_2872/master/3591.jpg?width=140&quality=85&auto=format&fit=max&s=0eb213696fefadfa8aa1b5efe3b0c05e"
       },
       {
@@ -385,7 +385,7 @@
         "published": "Wed, 14 Oct 2026 16:43:27 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
-        "categories": "Wearable technology AI (artificial intelligence) Reform UK Technology policy Privacy House of Commons Surveillance Technology Welsh politics Wales UK news Politics Data protection",
+        "categories": "Wearable technology Welsh politics Reform UK Technology policy House of Commons Privacy Politics Wales UK news Technology",
         "image": "https://i.guim.co.uk/img/media/4c63fd3569598d1424cf7662c053ed995980c8e5/285_0_1350_1080/master/1350.jpg?width=140&quality=85&auto=format&fit=max&s=37f0eac17e8aa21c3ce4e7ea567d6b56"
       },
       {
@@ -434,15 +434,6 @@
         "image": "https://e3.365dm.com/26/10/1920x1080/skynews-hakan-oniz-turkey_7376922.jpg?20261014154604"
       },
       {
-        "title": "Boozy Elon Musk puts Mark Zuckerberg to shame after Meta boss’ Guinness disgust",
-        "link": "https://metro.co.uk/2026/10/14/boozy-elon-musk-puts-mark-zuckerberg-shame-guinness-disgust-29709047/",
-        "published": "Wed, 14 Oct 2026 13:56:56 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News US Elon Musk Mark Zuckerberg Podcasts Social Media",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/08/SEI_299117956-4cdb.jpg?quality=90&strip=all&w=646"
-      },
-      {
         "title": "New dinosaur species discovered in UK after fossil left in drawer for 100 years",
         "link": "https://news.sky.com/story/new-dinosaur-species-found-after-isle-of-wight-fossil-overlooked-for-a-century-13599144",
         "published": "Wed, 14 Oct 2026 09:08:00 +0100",
@@ -459,9 +450,27 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/09/1920x1080/skynews-anthropic-ai-openai_7349937.jpg?20260913083842"
+      },
+      {
+        "title": "Ready player one? Why the games arcade is having a rebirth",
+        "link": "https://www.theguardian.com/games/2026/oct/14/ready-player-one-why-the-games-arcade-is-having-a-rebirth",
+        "published": "Wed, 14 Oct 2026 14:00:03 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Games Culture Arcade games Retro games Games consoles",
+        "image": "https://i.guim.co.uk/img/media/85ce458be333a264a98168404e284eb550307179/191_4_2938_2351/master/2938.jpg?width=140&quality=85&auto=format&fit=max&s=099d3f8a4108d082671799aebb19940a"
       }
     ],
     "ENTERTAINMENT": [
+      {
+        "title": "The end ‘confirmed’ for Kat and Alfie as EastEnders spoilers reveal what happens next",
+        "link": "https://metro.co.uk/2026/10/14/end-confirmed-kat-alfie-eastenders-spoilers-reveal-happens-next-29706666/",
+        "published": "Wed, 14 Oct 2026 17:30:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "EastEnders Soaps Alfie Moon Jessie Wallace Kat Slater Shane Richie",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316571204-90a6.jpg?quality=90&strip=all&w=646"
+      },
       {
         "title": "Major Cindy twist and Lucas left to die as Hollyoaks spoilers reveal what happens next",
         "link": "https://metro.co.uk/2026/10/14/major-cindy-twist-lucas-left-die-hollyoaks-spoilers-reveal-happens-next-29708975/",
@@ -488,15 +497,6 @@
         "provider": "METRO",
         "categories": "Emmerdale Soaps Bob Hope (Emmerdale character) Cathy Hope Tony Audenshaw",
         "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_230022421-733d-e1791972267449.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "How did Zoe die in EastEnders and why did she leave? Michelle Ryan exit explained",
-        "link": "https://metro.co.uk/2026/10/14/zoe-slater-die-eastenders-leave-michelle-ryan-exit-explained-29709411/",
-        "published": "Wed, 14 Oct 2026 16:00:00 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "EastEnders Soaps Michelle Ryan Soaps Showbiz Zoe Slater",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316605906-713f.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "Girls is back: why it’s the perfect time for more of Lena Dunham’s millennial Sex and the City",
@@ -555,6 +555,24 @@
     ],
     "STOCKS": [
       {
+        "title": "Nasdaq Sheds 1.65% as Russell 2000 Sinks to RSI 28, Oil Climbs While Gold and Silver Slide",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-sheds-1-65-russell-173900219.html?.tsrc=rss",
+        "published": "Wed, 14 Oct 2026 17:39:00 +0000",
+        "source": "Yahoo Finance",
+        "provider": "YAHOO",
+        "categories": "",
+        "image": ""
+      },
+      {
+        "title": "US inflation heats up in September; Fed rate hike this month back on table",
+        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNX3hkV3J5em1xWWY4V0hQODFTamFtU3NvdkpPRUUzMGY0TnlKaVlneXZPc0J6bFpWdDZWb2hLRkZZaHhZVElDSXNFbGNYMVVBRGR6c1RlNDA4cEhkMEcwck5VMFRtZ1QxOFJqNTkyaGJzWWFLSXp2Z0l1Z19vMDh5bGd6N1FJSkJFR2tZUXd1UWUzeVlvZi1xNTVONk00ejJ5cE0xSGY4THFsaUo0RGxPV3dpaW4tbEZseUE?oc=5",
+        "published": "Wed, 14 Oct 2026 17:03:11 GMT",
+        "source": "Reuters",
+        "provider": "REUTERS",
+        "categories": "",
+        "image": ""
+      },
+      {
         "title": "Stock Market Today: Tech Hit Amid Hot Inflation Data; Nvidia Among The Losers (Live Coverage)",
         "link": "https://uk.finance.yahoo.com/m/a9aa7eaa-2df2-3f6f-b548-5269d49f67bc/stock-market-today%3A-tech-hit.html?.tsrc=rss",
         "published": "Wed, 14 Oct 2026 16:54:52 +0000",
@@ -573,18 +591,9 @@
         "image": ""
       },
       {
-        "title": "British Shares Rise; Airtel Money Makes London Debut",
-        "link": "https://uk.finance.yahoo.com/news/british-shares-rise-airtel-money-154939126.html?.tsrc=rss",
-        "published": "Wed, 14 Oct 2026 15:49:39 +0000",
-        "source": "Yahoo Finance",
-        "provider": "YAHOO",
-        "categories": "",
-        "image": ""
-      },
-      {
-        "title": "Delta Air Lines Cuts 2026 Earnings Outlook: Time to Sell DAL Stock?",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/delta-air-lines-cuts-2026-151000126.html?.tsrc=rss",
-        "published": "Wed, 14 Oct 2026 15:10:00 +0000",
+        "title": "Stock Market Pillars Are Wobbling as the Rally Faces Its Next Test",
+        "link": "https://uk.finance.yahoo.com/m/89ad84c1-d2dd-36ab-b47c-f0c8b8c4f86d/stock-market-pillars-are.html?.tsrc=rss",
+        "published": "Wed, 14 Oct 2026 16:28:00 +0000",
         "source": "Yahoo Finance",
         "provider": "YAHOO",
         "categories": "",
@@ -630,15 +639,6 @@
         "title": "Oil prices steady after gains on Iran's new tactics to target tankers",
         "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxON0hPaGRDOW9haXRKcUJ3WVU5dVdwSjB2ZzNMZTVWd0lRYV9ZUjRNRTI4VjVXeERGeW1XVU1GanZidjZneXhKeFh1dWM0OUJ6ZGltVXFXdHJNVk52MDN5M3NvRnhUUWN6aEFiSldFUWxfeHNPYmQ2R21JMGlhaUNaWEFNckc0T0ItSFpYcHA3MmM4UUdnTVd0VFg0NWhtbm91MllPWllha0pqdVBjZlRldDgxaG5PclVud0xtNQ?oc=5",
         "published": "Wed, 14 Oct 2026 01:27:00 GMT",
-        "source": "Reuters",
-        "provider": "REUTERS",
-        "categories": "",
-        "image": ""
-      },
-      {
-        "title": "Brutal session for chip stocks shows AI trade is turning",
-        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPM1RJWWJHTmtIMnhaYWVyeFFpYV8wZndZMUFOVXM2NkpJdUNfRGlyQzdHeVcwMXkxcXkyWFFZQ3hXS3RpM0NqZUtNcmxNd3NkSGZETmlvTjRRYjJ3X3BXa0FEamh0NDExSTZieGRHam9BdFBiZXdOcTBSUXRPNlFEeTVKOEtkN3JiV25QUEsyekp0OTJRaU5nVA?oc=5",
-        "published": "Tue, 13 Oct 2026 18:04:55 GMT",
         "source": "Reuters",
         "provider": "REUTERS",
         "categories": "",
@@ -743,7 +743,7 @@
           },
           "REUTERS": {
             "ok": true,
-            "count": 11,
+            "count": 12,
             "retainedPrevious": 0,
             "errors": [
               "https://www.reuters.com/arc/outboundfeeds/v3/all/?outputType=xml: 404 Not Found"
@@ -774,6 +774,15 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/10/1920x1080/skynews-william-chapman-tiger_7376418.jpg?20261013230801"
+          },
+          {
+            "title": "British soldier who had 'homemade cannon' and promoted extreme right-wing views is jailed",
+            "link": "https://news.sky.com/story/british-soldier-mark-broadhurst-who-had-homemade-cannon-and-promoted-extreme-right-wing-views-is-jailed-13599315",
+            "published": "Wed, 14 Oct 2026 16:57:00 +0100",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/10/1920x1080/skynews-british-army-chef-mark-broadhurst_7376957.jpg?20261014184744"
           },
           {
             "title": "Premier League star 'froze' after alleged racial abuse, court hears",
@@ -1213,7 +1222,7 @@
       "health": {
         "UK": {
           "ok": true,
-          "count": 8
+          "count": 9
         },
         "WORLD": {
           "ok": true,
@@ -1240,6 +1249,15 @@
     "GUARDIAN": {
       "categories": {
         "UK": [
+          {
+            "title": "Russell Brand was ruthless, calculated and manipulative sexual predator, court told",
+            "link": "https://www.theguardian.com/uk-news/2026/oct/14/russell-brand-was-ruthless-calculated-and-manipulative-sexual-predator-court-told",
+            "published": "Wed, 14 Oct 2026 17:39:19 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "UK news",
+            "image": "https://i.guim.co.uk/img/media/68a5ec4d8d28ec9e3f70464b34e7f59a0cda4196/444_50_4102_3283/master/4102.jpg?width=140&quality=85&auto=format&fit=max&s=ec6e1c9d263ce5bb09bc2cdbbb16d09e"
+          },
           {
             "title": "Burnham tells Zelenskyy’s UK’s support for Ukraine ‘will not change’ – as it happened",
             "link": "https://www.theguardian.com/politics/live/2026/oct/14/pmqs-andy-burnham-kemi-badenoch-zelenskyy-uk-politics-latest-news",
@@ -1313,13 +1331,13 @@
             "image": "https://i.guim.co.uk/img/media/5b247372fee86cad7634ecb470e027cc9c15bf58/0_835_3312_2650/master/3312.jpg?width=140&quality=85&auto=format&fit=max&s=e266adcabe673a945aa1e84fa8622f21"
           },
           {
-            "title": "Russell Brand was ‘ruthless and calculated’, prosecutors tell jury as rape and sexual assault trial begins – as it happened",
-            "link": "https://www.theguardian.com/uk-news/live/2026/oct/14/russell-brand-trial-latest-news-updates",
-            "published": "Wed, 14 Oct 2026 15:46:22 GMT",
+            "title": "Victims of carer’s allowance crisis ‘need speedier repayments’, say campaigners",
+            "link": "https://www.theguardian.com/society/2026/oct/14/campaigners-decry-slow-progress-repaying-victims-carers-allowance-crisis",
+            "published": "Wed, 14 Oct 2026 15:35:51 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "UK news",
-            "image": "https://i.guim.co.uk/img/media/68a5ec4d8d28ec9e3f70464b34e7f59a0cda4196/444_50_4102_3283/master/4102.jpg?width=140&quality=85&auto=format&fit=max&s=ec6e1c9d263ce5bb09bc2cdbbb16d09e"
+            "categories": "Carer's allowance UK news Politics Benefits Society",
+            "image": "https://i.guim.co.uk/img/media/2d5ff3af9e9dfcccfbf71b9b62851e67af782267/560_0_5600_4480/master/5600.jpg?width=140&quality=85&auto=format&fit=max&s=fb2119abda55893bcc1e1890a40bee31"
           },
           {
             "title": "Closer EU trade ties greater prize for UK than making separate deals, minister says",
@@ -1358,22 +1376,13 @@
             "image": "https://i.guim.co.uk/img/media/8c755c3899b3aced4071701da6a2b58ed002f70e/2763_1574_3633_2906/master/3633.jpg?width=140&quality=85&auto=format&fit=max&s=ab9acd69a4d39549dd3df8e34868c75e"
           },
           {
-            "title": "Cryptocurrency exchange founded by Reform donor Ben Delo sued for £20m",
-            "link": "https://www.theguardian.com/politics/2026/oct/14/cryptocurrency-exchange-founded-by-reform-donor-ben-delo-sued-for-20m",
-            "published": "Tue, 13 Oct 2026 23:01:38 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Reform UK Financial Conduct Authority Politics UK news Cryptocurrencies Bitcoin",
-            "image": "https://i.guim.co.uk/img/media/efa07eae7656ea0e8ac40f4217cbe03d652ec9e0/109_203_1022_817/master/1022.jpg?width=140&quality=85&auto=format&fit=max&s=9b1a8949572db218ae8c524165abc046"
-          },
-          {
             "title": "Could AI ‘change the stakes’ in the development of bioweapons?",
             "link": "https://www.theguardian.com/technology/2026/oct/14/could-ai-change-the-stakes-in-the-development-of-bioweapons",
-            "published": "Wed, 14 Oct 2026 16:54:43 GMT",
+            "published": "Wed, 14 Oct 2026 17:34:14 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "AI (artificial intelligence) Chatbots Infectious diseases MI5 Anthropic UK security and counter-terrorism Science Technology UK news Biology",
-            "image": "https://i.guim.co.uk/img/media/dee8ec9d41a7f5522c622af9e1e3f43d78c6d567/128_0_3591_2872/master/3591.jpg?width=140&quality=85&auto=format&fit=max&s=0eb213696fefadfa8aa1b5efe3b0c05e"
+            "categories": "AI (artificial intelligence) Chatbots Infectious diseases MI5 Anthropic UK security and counter-terrorism Science Technology UK news Biology Microbiology Weapons technology Synthetic biology",
+            "image": "https://i.guim.co.uk/img/media/fc1dd52941c9a6bd0156aa709eb103e872d37d5a/86_0_834_667/master/834.jpg?width=140&quality=85&auto=format&fit=max&s=9fbf95c0c4a1abe119a05188182809e8"
           },
           {
             "title": "Far-right and Iran add to mix of terror threats UK faces – not to mention AI",
@@ -1605,7 +1614,7 @@
         ],
         "POLITICS": [
           {
-            "title": "Burnham tells Zelenskyy’s UK’s support for Ukraine ‘will not change’ – UK politics live",
+            "title": "Burnham tells Zelenskyy’s UK’s support for Ukraine ‘will not change’ – as it happened",
             "link": "https://www.theguardian.com/politics/live/2026/oct/14/pmqs-andy-burnham-kemi-badenoch-zelenskyy-uk-politics-latest-news",
             "published": "Wed, 14 Oct 2026 17:06:58 GMT",
             "source": "The Guardian",
@@ -1646,7 +1655,7 @@
             "published": "Wed, 14 Oct 2026 16:43:27 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Wearable technology AI (artificial intelligence) Reform UK Technology policy Privacy House of Commons Surveillance Technology Welsh politics Wales UK news Politics Data protection",
+            "categories": "Wearable technology Welsh politics Reform UK Technology policy House of Commons Privacy Politics Wales UK news Technology",
             "image": "https://i.guim.co.uk/img/media/4c63fd3569598d1424cf7662c053ed995980c8e5/285_0_1350_1080/master/1350.jpg?width=140&quality=85&auto=format&fit=max&s=37f0eac17e8aa21c3ce4e7ea567d6b56"
           },
           {
@@ -1666,6 +1675,15 @@
             "provider": "GUARDIAN",
             "categories": "Gambling UK news Business Politics Tax and spending John Healey Sport betting",
             "image": "https://i.guim.co.uk/img/media/5b247372fee86cad7634ecb470e027cc9c15bf58/0_835_3312_2650/master/3312.jpg?width=140&quality=85&auto=format&fit=max&s=e266adcabe673a945aa1e84fa8622f21"
+          },
+          {
+            "title": "The Guardian view on Trump’s deal with Putin: grim and grubby, but not gamechanging | Editorial",
+            "link": "https://www.theguardian.com/commentisfree/2026/oct/14/the-guardian-view-on-trumps-deal-with-putin-grim-and-grubby-but-not-gamechanging",
+            "published": "Wed, 14 Oct 2026 17:30:08 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Ukraine Volodymyr Zelenskyy Donald Trump US news US politics Vladimir Putin Russia Andy Burnham Labour Politics US foreign policy Trump administration",
+            "image": "https://i.guim.co.uk/img/media/29c81af2518d0cad0cb06c7a441aef5240cc6a43/423_0_2890_2313/master/2890.jpg?width=140&quality=85&auto=format&fit=max&s=2980bcc8b07793f9ade8da681196bb4f"
           },
           {
             "title": "The UK energy secretary is flirting with a bad idea for bills – the ‘rising block tariff’",
@@ -1720,15 +1738,6 @@
             "provider": "GUARDIAN",
             "categories": "Brexit Andy Burnham Labour Politics European Union Keir Starmer Neil Kinnock Europe Conservatives UK news Foreign policy",
             "image": "https://i.guim.co.uk/img/media/9388b7ba4537813f8d78d720ab63b7a8800ee5b8/360_0_3598_2878/master/3598.jpg?width=140&quality=85&auto=format&fit=max&s=cafdb568ccb5fa12c737acd3ac4daa8b"
-          },
-          {
-            "title": "The Guardian view on probation: overcrowded prisons need an outlet | Editorial",
-            "link": "https://www.theguardian.com/commentisfree/2026/oct/13/the-guardian-view-on-probation-overcrowded-prisons-need-an-outlet",
-            "published": "Tue, 13 Oct 2026 17:29:03 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Prisons and probation UK criminal justice Society Andy Burnham Labour Politics UK news",
-            "image": "https://i.guim.co.uk/img/media/ecff802e26783a1a24654e85eb23c20624e8fd90/471_0_4153_3322/master/4153.jpg?width=140&quality=85&auto=format&fit=max&s=e908c6e114815c555ae44bcaff913e2b"
           },
           {
             "title": "Father was asked for DNA test to get a passport for his daughter",
@@ -1796,139 +1805,76 @@
             "image": "https://i.guim.co.uk/img/media/84db52e3bd4c7e10da78a8eeaa51b4462b587fda/333_0_3334_2667/master/3334.jpg?width=140&quality=85&auto=format&fit=max&s=7ff8effcb194c105f932eff5874c25bf"
           },
           {
-            "title": "Closer EU trade ties greater prize for UK than making separate deals, minister says",
-            "link": "https://www.theguardian.com/politics/2026/oct/14/closer-eu-trade-ties-uk-europe-douglas-alexander",
-            "published": "Wed, 14 Oct 2026 13:58:39 GMT",
+            "title": "Bank of America fined $1.2bn for money-laundering failures",
+            "link": "https://www.theguardian.com/business/2026/oct/14/bank-of-america-fined-money-laundering",
+            "published": "Wed, 14 Oct 2026 11:54:29 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Trade policy Brexit Douglas Alexander Labour Foreign policy Politics UK news European Union International trade Business Economics Europe World news Economic policy India",
-            "image": "https://i.guim.co.uk/img/media/0e7efe7a00d8a9e46de07a3e55fb70f6c91aed5b/259_123_1165_932/master/1165.jpg?width=140&quality=85&auto=format&fit=max&s=c2254e4491676882bf42bc1404524c3e"
+            "categories": "Bank of America Banking Regulators Business US news",
+            "image": "https://i.guim.co.uk/img/media/1cdacb9386333374edb8f83c39b5199ce58973a1/720_0_7200_5760/master/7200.jpg?width=140&quality=85&auto=format&fit=max&s=80186fa78c45183510437d41a5b6cbf3"
           },
           {
-            "title": "Netflix to lay off about 1,000 employees in biggest cuts since 2022",
-            "link": "https://www.theguardian.com/media/2026/oct/14/netflix-job-layoffs-streaming",
-            "published": "Wed, 14 Oct 2026 15:10:45 GMT",
+            "title": "Judge extends White House access to banned media outlets CNN, MS Now and Politico",
+            "link": "https://www.theguardian.com/us-news/2026/oct/14/white-house-media-ban-lifted-cnn-msnow-politico",
+            "published": "Wed, 14 Oct 2026 04:34:29 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Netflix Media Business US television industry TV streaming Media business Job losses",
-            "image": "https://i.guim.co.uk/img/media/c71140341ec0c98d2a11d40c18063e1604ce4531/0_0_4067_3253/master/4067.jpg?width=140&quality=85&auto=format&fit=max&s=7e4d986b5ba870d60b577ef2c01d88ce"
+            "categories": "Trump administration Media Business CNN MS Now US news Donald Trump US politics US television industry US press and publishing Press freedom Freedom of speech",
+            "image": "https://i.guim.co.uk/img/media/8eeeccbb67b79fe20efeef6b9aaa834c81948498/641_0_5512_4413/master/5512.jpg?width=140&quality=85&auto=format&fit=max&s=b5e232d03a3c3395b3d3fb10abdae35b"
           },
           {
-            "title": "Merry squishmas: £10 squeezy banana on list of top festive season toys",
-            "link": "https://www.theguardian.com/business/2026/oct/14/best-christmas-season-toys-list-hamleys-squeezy-banana-squishies",
-            "published": "Wed, 14 Oct 2026 14:03:08 GMT",
+            "title": "Threat of AI share crash puts world financial stability at risk, says IMF",
+            "link": "https://www.theguardian.com/business/2026/oct/13/ai-share-crash-risk-global-imf-debt-corrowing-cyber-attacks",
+            "published": "Tue, 13 Oct 2026 12:30:01 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Retail industry Toys Business Life and style Christmas Shops and shopping UK news Shopping Lego Money",
-            "image": "https://i.guim.co.uk/img/media/2b3f03352bb780fdcebea023d72c8f2ee460a76a/0_1867_4959_3967/master/4959.jpg?width=140&quality=85&auto=format&fit=max&s=1f8426d6c8a2047b397acdf42fe87b3a"
+            "categories": "Economics Stock markets Technology sector International Monetary Fund (IMF) Business AI (artificial intelligence) Technology UK news US news World news",
+            "image": "https://i.guim.co.uk/img/media/e66d4b83821641865a2b61c557a735880c9734e0/936_0_4064_3251/master/4064.jpg?width=140&quality=85&auto=format&fit=max&s=64f8d89d1094aed1c2d57aeff5d62a4b"
           },
           {
-            "title": "‘From liabilities to goldmines’: refineries eye record profits from diesel shortage",
-            "link": "https://www.theguardian.com/business/2026/oct/14/refineries-record-profits-diesel-shortage-fuel-crude-oil",
-            "published": "Wed, 14 Oct 2026 12:26:27 GMT",
+            "title": "BBC asks judge to force Trump to sit for deposition as part of his $10bn lawsuit",
+            "link": "https://www.theguardian.com/media/2026/oct/13/bbc-trump-lawsuit-deposition",
+            "published": "Tue, 13 Oct 2026 20:49:53 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Oil and gas companies Oil Commodities Energy industry Business Trump administration Russia Europe US politics US news Global economy US-Israel war on Iran Iran Ukraine Economics World news Petrol prices",
-            "image": "https://i.guim.co.uk/img/media/94ac31cd7196557682cea06b91e11a36b59d0617/541_0_5412_4329/master/5412.jpg?width=140&quality=85&auto=format&fit=max&s=84b1976af650aec61a47533dd3b70631"
+            "categories": "BBC Media Donald Trump Business US news Law (US)",
+            "image": "https://i.guim.co.uk/img/media/48df2fe29208c0c5035017777e1fa224757de109/560_0_4553_3642/master/4553.jpg?width=140&quality=85&auto=format&fit=max&s=132a0a655a1a75f57e00b3d87e2d8e8b"
           },
           {
-            "title": "Excluding UK from ‘Made in Europe’ law will hurt entire EU car industry, Mercedes boss warns",
-            "link": "https://www.theguardian.com/world/2026/oct/14/uk-made-in-europe-law-hurt-carmaking-eu-mercedes-benz-boss-ola-kallenius",
-            "published": "Wed, 14 Oct 2026 13:57:03 GMT",
+            "title": "​FTC and seven states seek contempt ruling against Shkreli over pharma ban",
+            "link": "https://www.theguardian.com/us-news/2026/oct/13/martin-shkreli-ftc-ruling-pharma-ban",
+            "published": "Tue, 13 Oct 2026 16:54:11 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "European Union Automotive industry Manufacturing sector Brexit Andy Burnham UK news Europe Business International trade Foreign policy Economics Global economy World news Tariffs Trade policy China",
-            "image": "https://i.guim.co.uk/img/media/4d2553f2b92aae86c9ecd4884f384655968aef78/342_12_1717_1374/master/1717.jpg?width=140&quality=85&auto=format&fit=max&s=717b1512801895327a16841859b33f49"
+            "categories": "Martin Shkreli Pharmaceuticals industry US justice system US news Contempt of court Business Law",
+            "image": "https://i.guim.co.uk/img/media/9484c1d0c4f9e41b627a9aabef8f799caa87b6f0/596_0_3560_2848/master/3560.jpg?width=140&quality=85&auto=format&fit=max&s=b4776a5f141bdb75985665fd13fa831d"
           },
           {
-            "title": "Uber begins self-driving robotaxi trial in Manchester",
-            "link": "https://www.theguardian.com/technology/2026/oct/14/uber-self-driving-robotaxi-trial-manchester",
-            "published": "Wed, 14 Oct 2026 13:11:35 GMT",
+            "title": "Nobel Prize for economics awarded to Hall and Woodford for work on ‘smoothing’ crises",
+            "link": "https://www.theguardian.com/world/2026/oct/12/nobel-prize-for-economics-hall-woodford-new-keynesian-models",
+            "published": "Mon, 12 Oct 2026 14:20:53 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Uber Self-driving cars Technology City transport Road transport Manchester Transport Greater Manchester Business UK news Cities Technology sector",
-            "image": "https://i.guim.co.uk/img/media/3404e451ee4fae511bb6fa5a47e392a46a4cc173/321_106_1933_1547/master/1933.jpg?width=140&quality=85&auto=format&fit=max&s=39655ffe58c188540040e2f8aa8e013f"
+            "categories": "Nobel economics prize Economics Business UK news US news World news",
+            "image": "https://i.guim.co.uk/img/media/da45028dc64bf797e1a84fdb61067fdf71dd4a3d/922_55_3916_3133/master/3916.jpg?width=140&quality=85&auto=format&fit=max&s=8aa6dd64fcf8b58346cf8516b8e437f1"
           },
           {
-            "title": "Nvidia, worth $5.5tn, donates $250m to UK for AI safety research",
-            "link": "https://www.theguardian.com/technology/2026/oct/14/nvidia-donates-to-uk-ai-safety-research",
-            "published": "Wed, 14 Oct 2026 10:10:37 GMT",
+            "title": "Trump’s deal with Putin will have little impact on US diesel prices, experts say",
+            "link": "https://www.theguardian.com/us-news/2026/oct/11/trump-russia-diesel-deal-putin-little-impact-prices",
+            "published": "Sun, 11 Oct 2026 15:56:25 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Nvidia AI (artificial intelligence) Business Technology sector Computing UK news US news World news Technology",
-            "image": "https://i.guim.co.uk/img/media/63fe41cf76dc85790ffaa07a8437c6647182b789/1000_0_4500_3600/master/4500.jpg?width=140&quality=85&auto=format&fit=max&s=c0f7ac9f0d2149e58a430df0c6d75775"
+            "categories": "Trump administration US news US politics World news Energy industry Supply chain crisis Global economy International trade US economy Russia Ukraine Donald Trump Volodymyr Zelenskyy Vladimir Putin Economics Business Europe US Gas Prices Oil Commodities",
+            "image": "https://i.guim.co.uk/img/media/491db428125131d2e20360201b2421799f58759d/48_0_6428_5143/master/6428.jpg?width=140&quality=85&auto=format&fit=max&s=b2b42082c6cd5d08a7ef84b8a1fb100c"
           },
           {
-            "title": "English and Welsh water firms could be forced to return £107m via lower bills",
-            "link": "https://www.theguardian.com/business/2026/oct/14/water-firms-england-wales-cuts-bills-thames-yorkshire-ofwat",
-            "published": "Wed, 14 Oct 2026 14:18:01 GMT",
+            "title": "US’s Reagan-era economic promises return as Trump’s AI-fueled growth fantasy",
+            "link": "https://www.theguardian.com/business/2026/oct/11/trump-ai-economy-reagan",
+            "published": "Sun, 11 Oct 2026 11:00:25 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Water industry Water bills Utilities Business Regulators Household bills Consumer affairs Money England Wales",
-            "image": "https://i.guim.co.uk/img/media/31bcdd95f896a2d7afeb67aaf59fc801725476a8/312_0_2693_2156/master/2693.jpg?width=140&quality=85&auto=format&fit=max&s=c3ce6cdb8b3842e5180aa86e1464864e"
-          },
-          {
-            "title": "The UK energy secretary is flirting with a bad idea for bills – the ‘rising block tariff’",
-            "link": "https://www.theguardian.com/business/nils-pratley-on-finance/2026/oct/14/the-uk-energy-secretary-is-flirting-with-a-bad-idea-for-bills-the-rising-block-tariff",
-            "published": "Wed, 14 Oct 2026 16:43:15 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "UK cost of living crisis Energy industry Energy bills Fuel poverty Poverty Business Consumer affairs Household bills Money Family finances Miatta Fahnbulleh Politics UK news",
-            "image": "https://i.guim.co.uk/img/media/891fade78b064ae6f987db8ada920a471955cbee/660_0_6615_5292/master/6615.jpg?width=140&quality=85&auto=format&fit=max&s=9838d4017745ed990e7f5fe6ecae2120"
-          },
-          {
-            "title": "I work for a major insurer. Much of my industry is fudging the numbers in the face of the climate crisis | Anonymous",
-            "link": "https://www.theguardian.com/commentisfree/2026/oct/14/climate-crisis-insurance-risk-disaster-catastrophe",
-            "published": "Wed, 14 Oct 2026 10:00:01 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Insurance industry Insurance Climate crisis Extreme weather Business Environment Money World news",
-            "image": "https://i.guim.co.uk/img/media/6a668ead04e21df6ccd139ccb83b33ad0d2b85d2/688_0_3717_2975/master/3717.jpg?width=140&quality=85&auto=format&fit=max&s=60afac57bb711b6f67cfe3aecb3fcbcf"
-          },
-          {
-            "title": "Palantir is worming its way into the British state – it’s time to curb this controversial US company’s influence | George Monbiot",
-            "link": "https://www.theguardian.com/commentisfree/2026/oct/14/palantir-british-state-controversial-us-company-tom-watson",
-            "published": "Wed, 14 Oct 2026 05:00:44 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Palantir Lobbying Tom Watson Andy Burnham UK news Politics Peter Thiel Technology NHS",
-            "image": "https://i.guim.co.uk/img/media/c1fe9dc155aeff1f846904ca655d2964382ea9b9/550_0_4594_3675/master/4594.jpg?width=140&quality=85&auto=format&fit=max&s=a1242e6d2e210d99a236485966a457af"
-          },
-          {
-            "title": "AI overlords say they want to democratise their technology. Here’s how | Richard Wilson and Clara Long",
-            "link": "https://www.theguardian.com/commentisfree/2026/oct/14/ai-overlords-democratise-technology",
-            "published": "Wed, 14 Oct 2026 10:00:03 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "AI (artificial intelligence) Sam Altman Dario Amodei OpenAI Anthropic Technology Utah Datacentres",
-            "image": "https://i.guim.co.uk/img/media/ddaf0914ee2a78da5b3a0fe5c73996710342639d/431_0_4267_3414/master/4267.jpg?width=140&quality=85&auto=format&fit=max&s=adf57b32cac43c26d023572a5f02b72d"
-          },
-          {
-            "title": "Why are so many Americans forced to work standing up – unlike their president? | Arwa Mahdawi",
-            "link": "https://www.theguardian.com/commentisfree/2026/oct/14/americans-forced-to-work-standing-up-trump-tsa",
-            "published": "Wed, 14 Oct 2026 10:00:00 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "US politics US news Trump administration World news Air transport Workers' rights",
-            "image": "https://i.guim.co.uk/img/media/6e0070eba58aa077537d44d4c0baad31d17b3ba7/0_0_4860_3887/master/4860.jpg?width=140&quality=85&auto=format&fit=max&s=aeee9524d6be852ae34461d98e5ea8ae"
-          },
-          {
-            "title": "The Guardian view on Burnham’s Brexit reset: overdue, but proceed with care | Editorial",
-            "link": "https://www.theguardian.com/commentisfree/2026/oct/13/the-guardian-view-on-burnhams-brexit-reset-an-overdue-show-of-ambition",
-            "published": "Tue, 13 Oct 2026 17:30:25 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Brexit Andy Burnham Labour Politics European Union Keir Starmer Neil Kinnock Europe Conservatives UK news Foreign policy",
-            "image": "https://i.guim.co.uk/img/media/9388b7ba4537813f8d78d720ab63b7a8800ee5b8/360_0_3598_2878/master/3598.jpg?width=140&quality=85&auto=format&fit=max&s=cafdb568ccb5fa12c737acd3ac4daa8b"
-          },
-          {
-            "title": "Companies rushed in on AI. Now some are pulling back",
-            "link": "https://www.theguardian.com/technology/2026/oct/13/ai-companies-rushed-workers-fallout",
-            "published": "Tue, 13 Oct 2026 15:00:00 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "AI (artificial intelligence) Technology Meta Microsoft Walmart Palantir Nvidia ChatGPT OpenAI Computing",
-            "image": "https://i.guim.co.uk/img/media/11db79cfa93a229b7abb801fe12ea8aa6f6e2f32/1_0_2701_2160/master/2701.jpg?width=140&quality=85&auto=format&fit=max&s=cb80a51a0683c2a9f4f6327f6c065ce0"
+            "categories": "US economy Economics Business AI (artificial intelligence) US politics",
+            "image": "https://i.guim.co.uk/img/media/c01cee88362c0355e50eac343016f771811f0cd2/355_0_3701_2960/master/3701.jpg?width=140&quality=85&auto=format&fit=max&s=e91cdb1d17c082730c24e5fb4321d833"
           },
           {
             "title": "Is punishing the poor Trump’s last hand to play?",
@@ -1940,31 +1886,85 @@
             "image": "https://i.guim.co.uk/img/media/0c0416dd6bd71f6328f03ac94cdcec2d5fa22b02/724_0_4492_3592/master/4492.jpg?width=140&quality=85&auto=format&fit=max&s=7fcfb2a5fb1f3f9d17308ae34a644c1e"
           },
           {
-            "title": "Bank of America fined $1.2bn for money-laundering failures",
-            "link": "https://www.theguardian.com/business/2026/oct/14/bank-of-america-fined-money-laundering",
-            "published": "Wed, 14 Oct 2026 11:54:29 GMT",
+            "title": "‘People are feeling the real impacts’: influencers are targeting private equity with satire and rage",
+            "link": "https://www.theguardian.com/us-news/2026/oct/09/anti-private-equity-comedy-influencers",
+            "published": "Fri, 09 Oct 2026 11:00:26 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Bank of America Banking Regulators Business US news",
-            "image": "https://i.guim.co.uk/img/media/1cdacb9386333374edb8f83c39b5199ce58973a1/720_0_7200_5760/master/7200.jpg?width=140&quality=85&auto=format&fit=max&s=80186fa78c45183510437d41a5b6cbf3"
+            "categories": "Private equity Instagram TikTok Social media Digital media Business US news",
+            "image": "https://i.guim.co.uk/img/media/817207da855a7b276ca059e8f7dbc28861989440/585_0_5852_4684/master/5852.jpg?width=140&quality=85&auto=format&fit=max&s=840eb10011849805d1dac93e83fe43c8"
           },
           {
-            "title": "Cryptocurrency exchange founded by Reform donor Ben Delo sued for £20m",
-            "link": "https://www.theguardian.com/politics/2026/oct/14/cryptocurrency-exchange-founded-by-reform-donor-ben-delo-sued-for-20m",
-            "published": "Tue, 13 Oct 2026 23:01:38 GMT",
+            "title": "The American dream remains elusive in the valley that inspired East of Eden",
+            "link": "https://www.theguardian.com/us-news/2026/oct/03/salinas-california-john-steinbeck",
+            "published": "Sat, 03 Oct 2026 09:00:54 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Reform UK Financial Conduct Authority Politics UK news Cryptocurrencies Bitcoin",
-            "image": "https://i.guim.co.uk/img/media/efa07eae7656ea0e8ac40f4217cbe03d652ec9e0/109_203_1022_817/master/1022.jpg?width=140&quality=85&auto=format&fit=max&s=9b1a8949572db218ae8c524165abc046"
+            "categories": "California US income inequality Housing Business John Steinbeck Inequality West Coast Society US news US politics",
+            "image": "https://i.guim.co.uk/img/media/ed62391476cf888240cd6a1f638bde36baf9fcc9/0_17_2957_2365/master/2957.jpg?width=140&quality=85&auto=format&fit=max&s=38d56bc6b4416e1cf78914232882263b"
           },
           {
-            "title": "Scale back on hake and coley, seafood charity tells shoppers",
-            "link": "https://www.theguardian.com/environment/2026/oct/14/scale-back-on-hake-and-coley-seafood-charity-tells-shoppers",
-            "published": "Wed, 14 Oct 2026 07:00:48 GMT",
+            "title": "EU to limit Chinese hybrid vehicle imports to 350,000 a year",
+            "link": "https://www.theguardian.com/environment/2026/oct/12/eu-deal-china-limit-imports-hybrid-electric-vehicles",
+            "published": "Mon, 12 Oct 2026 11:23:55 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Fishing Environment Food Animals Conservation Wildlife Marine life UK news",
-            "image": "https://i.guim.co.uk/img/media/b003beedc86778429f219496fe4531e81b9d853f/587_0_4477_3582/master/4477.jpg?width=140&quality=85&auto=format&fit=max&s=a6be3fd2e1d594198b31c40cc57bcc52"
+            "categories": "Electric, hybrid and low-emission cars Automotive industry Business International trade European Union Europe China World Trade Organization Tariffs Asia Pacific Global economy Economics",
+            "image": "https://i.guim.co.uk/img/media/9b1bc334f5fc5243721e7b1a8d59c7c49217b34c/326_0_6827_5464/master/6827.jpg?width=140&quality=85&auto=format&fit=max&s=84187bd51cc0b5c5f914dbb263ecbdb4"
+          },
+          {
+            "title": "‘Some aren’t going to make it’: how pressure on farmers threatens UK food security",
+            "link": "https://www.theguardian.com/uk-news/2026/oct/11/farmers-uk-food-security-producers-supply-chains",
+            "published": "Sun, 11 Oct 2026 11:00:24 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "UK news Food & drink industry Farming Business Environment Rural affairs Food Supply chain crisis Emergency planning Drought Climate crisis",
+            "image": "https://i.guim.co.uk/img/media/3bdbd9c82ee5e81e71f3a2edfc1cbedcb35fb34a/266_132_4502_3600/master/4502.jpg?width=140&quality=85&auto=format&fit=max&s=ece71e1c480e9e66d451b34bab0fc5f5"
+          },
+          {
+            "title": "Thieves make off with €5m haul from prestigious Italian winery",
+            "link": "https://www.theguardian.com/world/2026/oct/09/thieves-make-off-with-haul-from-prestigious-italian-winery-marchesi-antinori",
+            "published": "Fri, 09 Oct 2026 11:57:49 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Italy Wine Food & drink industry World news Europe Business",
+            "image": "https://i.guim.co.uk/img/media/b4c06b45cb313d13051e7a902481a5ec8abd1b3b/545_0_3547_2837/master/3547.jpg?width=140&quality=85&auto=format&fit=max&s=820deea42e7cad4ed78f5e940a4b76fc"
+          },
+          {
+            "title": "Canada’s Weston family buys Boots for $8.9bn",
+            "link": "https://www.theguardian.com/business/2026/oct/07/canada-weston-family-buys-boots-uk",
+            "published": "Wed, 07 Oct 2026 15:12:09 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Boots Retail industry Mergers and acquisitions Private equity Business UK news",
+            "image": "https://i.guim.co.uk/img/media/21442718d370dfc1c92efe6f09144d93fb01fd5b/227_0_2917_2333/master/2917.jpg?width=140&quality=85&auto=format&fit=max&s=9828766f879c73cc65bb1730096be34c"
+          },
+          {
+            "title": "When her ‘soul cat’ died, she was bereft. Now she designs memorial jewelry to help others with pet loss",
+            "link": "https://www.theguardian.com/business/2026/apr/24/pet-memorial-jewelry-small-business",
+            "published": "Fri, 24 Apr 2026 15:00:19 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Pets Small business Business Cats Animals Life and style",
+            "image": "https://i.guim.co.uk/img/media/e4f6dbcc608c174f48176f60ae2b654825d41ae6/1861_0_5565_4453/master/5565.jpg?width=140&quality=85&auto=format&fit=max&s=7d14aa16fbac54477c13c373551fa0d7"
+          },
+          {
+            "title": "Financial bullying can ruin a marriage: first-person stories",
+            "link": "https://www.theguardian.com/money/us-money-blog/2014/aug/14/relationships-finances-bullying-abuse-dependent-equality",
+            "published": "Thu, 14 Aug 2014 11:00:02 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "US personal finance Relationships Marriage Inequality Bullying",
+            "image": "https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2014/8/11/1407775970091/35614646-3560-440e-99c3-7e064e53eac8-2060x1236.jpeg?width=140&quality=85&auto=format&fit=max&s=7f5a95db55fecaf83cb9d468ccb2fa7e"
+          },
+          {
+            "title": "‘I ain’t goin nowhere’: Gullah Geechee people fight off developers with a historic referendum",
+            "link": "https://www.theguardian.com/news/2026/jan/22/gullah-geechee-georgia-development-referendum",
+            "published": "Thu, 22 Jan 2026 17:00:50 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Gullah Geechee Georgia Gentrification Race Slavery Housing Communities Money Society US news",
+            "image": "https://i.guim.co.uk/img/media/d4ea2418baae414bfb1a8b511360eb1876fea1ec/0_1300_5704_4564/master/5704.jpg?width=140&quality=85&auto=format&fit=max&s=e940be015854b1dee62d29922e9df568"
           }
         ],
         "TECH": [
@@ -1974,16 +1974,16 @@
             "published": "Wed, 14 Oct 2026 16:43:27 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Wearable technology AI (artificial intelligence) Reform UK Technology policy Privacy House of Commons Surveillance Technology Welsh politics Wales UK news Politics Data protection",
+            "categories": "Wearable technology Welsh politics Reform UK Technology policy House of Commons Privacy Politics Wales UK news Technology",
             "image": "https://i.guim.co.uk/img/media/4c63fd3569598d1424cf7662c053ed995980c8e5/285_0_1350_1080/master/1350.jpg?width=140&quality=85&auto=format&fit=max&s=37f0eac17e8aa21c3ce4e7ea567d6b56"
           },
           {
             "title": "Could AI ‘change the stakes’ in the development of bioweapons?",
             "link": "https://www.theguardian.com/technology/2026/oct/14/could-ai-change-the-stakes-in-the-development-of-bioweapons",
-            "published": "Wed, 14 Oct 2026 16:54:43 GMT",
+            "published": "Wed, 14 Oct 2026 17:34:14 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "AI (artificial intelligence) Chatbots Infectious diseases MI5 Anthropic UK security and counter-terrorism Science Technology UK news Biology",
+            "categories": "AI (artificial intelligence) Chatbots Infectious diseases MI5 Anthropic UK security and counter-terrorism Science Technology UK news Biology Microbiology Weapons technology Synthetic biology",
             "image": "https://i.guim.co.uk/img/media/dee8ec9d41a7f5522c622af9e1e3f43d78c6d567/128_0_3591_2872/master/3591.jpg?width=140&quality=85&auto=format&fit=max&s=0eb213696fefadfa8aa1b5efe3b0c05e"
           },
           {
@@ -2032,15 +2032,6 @@
             "image": "https://i.guim.co.uk/img/media/93cc0e130431b9824f3c533c1d51b2d82c72ae3d/543_0_3333_2668/master/3333.jpg?width=140&quality=85&auto=format&fit=max&s=e93557714a90f4a8c06d2c5f81fc26dc"
           },
           {
-            "title": "Reform UK politician appears to use smart glasses as teleprompter during Senedd debate – video",
-            "link": "https://www.theguardian.com/uk-news/video/2026/oct/14/reform-uk-politician-appears-to-use-smart-glasses-as-teleprompter-during-senedd-debate-video",
-            "published": "Wed, 14 Oct 2026 14:57:14 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Wales Wearable technology Reform UK Welsh politics AI (artificial intelligence) Technology",
-            "image": "https://i.guim.co.uk/img/media/4c63fd3569598d1424cf7662c053ed995980c8e5/285_0_1350_1080/master/1350.jpg?width=140&quality=85&auto=format&fit=max&s=37f0eac17e8aa21c3ce4e7ea567d6b56"
-          },
-          {
             "title": "Bank of England and IMF bosses warn of cyber threat to trust in financial system",
             "link": "https://www.theguardian.com/business/2026/oct/14/bank-of-england-imf-bosses-warning-cyber-threat-to-trust",
             "published": "Wed, 14 Oct 2026 09:07:59 GMT",
@@ -2066,6 +2057,15 @@
             "provider": "GUARDIAN",
             "categories": "Stock markets Technology sector Business AI (artificial intelligence) Computing Technology World news",
             "image": "https://i.guim.co.uk/img/media/77f9a81df8fd42b5b37915ddf26c8765ed3530e1/1157_508_4051_3242/master/4051.jpg?width=140&quality=85&auto=format&fit=max&s=59b1dbfd4435bfcfcb594dac2e1cf486"
+          },
+          {
+            "title": "AFL tells Sportsbet to stop using players in AI-generated content",
+            "link": "https://www.theguardian.com/australia-news/2026/oct/14/afl-tells-sportsbet-to-stop-using-players-in-ai-generated-content",
+            "published": "Tue, 13 Oct 2026 14:00:06 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Gambling AFL AI (artificial intelligence) Australia news Australian rules football Australia sport Sport",
+            "image": "https://i.guim.co.uk/img/media/da4ea25084485353b9189695120198ae84ce7050/0_0_2500_2000/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=e145cb2fe400af54a5ebb0114d21a2ed"
           },
           {
             "title": "Was this Mark Zuckerberg’s first – and last – taste of Guinness?",
@@ -2140,34 +2140,16 @@
             "image": "https://i.guim.co.uk/img/media/91eb51240dd2fef8f7247eee102d4565f96a2e66/322_0_6368_5095/master/6368.jpg?width=140&quality=85&auto=format&fit=max&s=db9f7dfab7ec1af9c0849bb6c3bb0753"
           },
           {
-            "title": "iPhone 18 Pro Max review: Apple’s biggest, heaviest and longest-lasting superphone",
-            "link": "https://www.theguardian.com/technology/2026/oct/12/iphone-18-pro-max-review-apples-biggest-heaviest-and-longest-lasting-superphone",
-            "published": "Mon, 12 Oct 2026 06:00:47 GMT",
+            "title": "Ready player one? Why the games arcade is having a rebirth",
+            "link": "https://www.theguardian.com/games/2026/oct/14/ready-player-one-why-the-games-arcade-is-having-a-rebirth",
+            "published": "Wed, 14 Oct 2026 14:00:03 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "iPhone Apple Smartphones iOS Technology Mobile phones",
-            "image": "https://i.guim.co.uk/img/media/11819909b0a7df973c02d052fc87d7a251d9767b/1265_717_4498_3598/master/4498.jpg?width=140&quality=85&auto=format&fit=max&s=e9b5caa607beb4b18e174b89b0b936f3"
+            "categories": "Games Culture Arcade games Retro games Games consoles",
+            "image": "https://i.guim.co.uk/img/media/85ce458be333a264a98168404e284eb550307179/191_4_2938_2351/master/2938.jpg?width=140&quality=85&auto=format&fit=max&s=099d3f8a4108d082671799aebb19940a"
           }
         ],
         "ENTERTAINMENT": [
-          {
-            "title": "‘I must continue until I die’: inside the fight to bring Iran’s thriving art scene to the world",
-            "link": "https://www.theguardian.com/artanddesign/2026/oct/14/iran-art-scene-continuum-dario-duran-interview",
-            "published": "Wed, 14 Oct 2026 14:00:05 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Art Culture Art and design Iran Painting Photography Exhibitions",
-            "image": "https://i.guim.co.uk/img/media/eee24b858d7e7aadd723b4252d0a54175ec39b76/83_0_835_668/master/835.jpg?width=140&quality=85&auto=format&fit=max&s=5bedfb0363e5a392a2dfc1e96b3ee0a6"
-          },
-          {
-            "title": "A dominatrix and her tightly bound client: Giada Ripa’s best photograph",
-            "link": "https://www.theguardian.com/artanddesign/2026/oct/14/japanese-dominatrix-tightly-bound-client-samurai-giada-ripa-best-photograph",
-            "published": "Wed, 14 Oct 2026 13:39:13 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Art and design Culture Japan Photography Art",
-            "image": "https://i.guim.co.uk/img/media/303e8f07b7aee438ecb1123e051902cda09bdeb4/0_89_2953_2362/master/2953.jpg?width=140&quality=85&auto=format&fit=max&s=b96383c17021e2e43579926acf0a7e32"
-          },
           {
             "title": "Girls is back: why it’s the perfect time for more of Lena Dunham’s millennial Sex and the City",
             "link": "https://www.theguardian.com/tv-and-radio/2026/oct/14/girls-reboot-hbo",
@@ -2176,51 +2158,6 @@
             "provider": "GUARDIAN",
             "categories": "Girls US television Lena Dunham Drama Culture Television Television & radio TV comedy Comedy HBO",
             "image": "https://i.guim.co.uk/img/media/d87b3b86e9b11627fafaf2813087a6a8d7428a29/119_0_3266_2613/master/3266.jpg?width=140&quality=85&auto=format&fit=max&s=272c02a9bea7e78037ae74fa23b93471"
-          },
-          {
-            "title": "Stevie Wonder review – playing ​his greatest album in full, he knocks everyone sideways",
-            "link": "https://www.theguardian.com/music/2026/oct/14/stevie-wonder-review-songs-in-the-key-of-life-50th-anniversary-live-utilita-arena-birmingham-uk-tour",
-            "published": "Wed, 14 Oct 2026 11:35:20 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Stevie Wonder Music Pop and rock Soul R&B Culture",
-            "image": "https://i.guim.co.uk/img/media/8b6e5a6abc3091b4d7c534ff69b11a3de76ee581/0_0_4996_3998/master/4996.jpg?width=140&quality=85&auto=format&fit=max&s=4f8f33af8d182842fafdda3b3e7c582b"
-          },
-          {
-            "title": "How we lost our appetite for eat-the-rich satire",
-            "link": "https://www.theguardian.com/film/2026/oct/14/how-we-lost-our-appetite-for-eat-the-rich-satire",
-            "published": "Wed, 14 Oct 2026 13:34:27 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Film Digger Warner Bros Class issues Donald Trump Paramount Pictures Saltburn Tom Cruise Inequality Culture Film criticism Alejandro González Iñárritu Film industry",
-            "image": "https://i.guim.co.uk/img/media/50bcd5319c29b7303295323897bb6a3c23b913c1/0_139_2221_1777/master/2221.jpg?width=140&quality=85&auto=format&fit=max&s=11918484ac2469d80f4ea1496143ce78"
-          },
-          {
-            "title": "‘It put me in a fever dream’: Philip Venables on turning Sarah Kane’s 4.48 Psychosis into a shocking opera",
-            "link": "https://www.theguardian.com/music/2026/oct/14/composer-philip-venables-448-psychosis-royal-opera-house-sarah-kane",
-            "published": "Wed, 14 Oct 2026 05:00:47 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Opera Classical music Culture Music Royal Opera House Sarah Kane Stage",
-            "image": "https://i.guim.co.uk/img/media/01539aa07d7ce0dcde061bdb11d58a6048c5dab1/502_3_2715_2172/master/2715.jpg?width=140&quality=85&auto=format&fit=max&s=a737fed27452ad116e0cec2807d5656f"
-          },
-          {
-            "title": "Larger Than Life review – Wallace, Gromit and the gang say cheeeese for hilarious Aardman origin story",
-            "link": "https://www.theguardian.com/artanddesign/2026/oct/13/larger-than-life-review-wallace-gromit-shaun-lightroom-london-immersive",
-            "published": "Tue, 13 Oct 2026 14:00:04 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Art and design Aardman Art Culture Exhibitions",
-            "image": "https://i.guim.co.uk/img/media/09d28cc9fb75ee561f154b6cc8fcac415dcb4dbb/0_645_3648_2918/master/3648.jpg?width=140&quality=85&auto=format&fit=max&s=f6dbe40714a375bb9b85c8cfea39053c"
-          },
-          {
-            "title": "‘He’s terrified, panicked, can’t sleep’: the tragic, lonely death of Beatles manager Brian Epstein",
-            "link": "https://www.theguardian.com/music/2026/oct/14/beatles-brian-epstein-gary-kemp-spandau-ballet",
-            "published": "Wed, 14 Oct 2026 04:00:44 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Music Gary Kemp Culture The Beatles Music books Books Biography books",
-            "image": "https://i.guim.co.uk/img/media/d259345a2a0367b55381796dc3d18742cebb3f8e/118_0_2179_1743/master/2179.jpg?width=140&quality=85&auto=format&fit=max&s=9fe290e1005a13fe10c79a6a90a6a868"
           },
           {
             "title": "Jimmy Kimmel on Trump’s new press secretary: ‘Her reading is good for an 11-year-old’",
@@ -2232,13 +2169,40 @@
             "image": "https://i.guim.co.uk/img/media/cb02b1622be1f1e38d60700e543fddf1847c8358/447_118_1899_1519/master/1899.jpg?width=140&quality=85&auto=format&fit=max&s=5aa6b79deff00c494a5c10b1e3ee5ed9"
           },
           {
-            "title": "Tinie Tempah says he will finally visit Scunthorpe after campaign by fans",
-            "link": "https://www.theguardian.com/music/2026/oct/14/tinie-tempah-visit-scunthorpe-campaign-fans-pass-out",
-            "published": "Wed, 14 Oct 2026 11:59:01 GMT",
+            "title": "‘I must continue until I die’: inside the fight to bring Iran’s thriving art scene to the world",
+            "link": "https://www.theguardian.com/artanddesign/2026/oct/14/iran-art-scene-continuum-dario-duran-interview",
+            "published": "Wed, 14 Oct 2026 14:00:05 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Tinie Tempah Lincolnshire Rap Hip-hop Grime Music Culture UK news North of England Celebrity",
-            "image": "https://i.guim.co.uk/img/media/a6142d1394d8f5cf6d8e0ecb01fd02fe9bb19b44/0_2397_6192_4954/master/6192.jpg?width=140&quality=85&auto=format&fit=max&s=3050d8accda0abcff5418a4cf9e2941f"
+            "categories": "Art Culture Art and design Iran Painting Photography Exhibitions",
+            "image": "https://i.guim.co.uk/img/media/eee24b858d7e7aadd723b4252d0a54175ec39b76/83_0_835_668/master/835.jpg?width=140&quality=85&auto=format&fit=max&s=5bedfb0363e5a392a2dfc1e96b3ee0a6"
+          },
+          {
+            "title": "How we lost our appetite for eat-the-rich satire",
+            "link": "https://www.theguardian.com/film/2026/oct/14/how-we-lost-our-appetite-for-eat-the-rich-satire",
+            "published": "Wed, 14 Oct 2026 13:34:27 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Film Digger Warner Bros Class issues Donald Trump Paramount Pictures Saltburn Tom Cruise Inequality Culture Film criticism Alejandro González Iñárritu Film industry",
+            "image": "https://i.guim.co.uk/img/media/50bcd5319c29b7303295323897bb6a3c23b913c1/0_139_2221_1777/master/2221.jpg?width=140&quality=85&auto=format&fit=max&s=11918484ac2469d80f4ea1496143ce78"
+          },
+          {
+            "title": "Netflix’s Mike Tyson docuseries offers an incomplete portrait of a troubling figure | Andrew Lawrence",
+            "link": "https://www.theguardian.com/tv-and-radio/2026/oct/14/mike-tyson-docuseries-netflix",
+            "published": "Wed, 14 Oct 2026 09:00:50 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Documentary Mike Tyson Boxing Netflix Sport Television Television & radio Culture Factual TV US sports",
+            "image": "https://i.guim.co.uk/img/media/adff1b39d37bbfabe250860cdd0de2a360cf511c/0_0_1378_1103/master/1378.jpg?width=140&quality=85&auto=format&fit=max&s=3d3540586a32db55d4178c43800a1875"
+          },
+          {
+            "title": "The Legend of Zelda: Ocarina of Time preview – Link faces his scariest challenge yet: the 4K era",
+            "link": "https://www.theguardian.com/games/2026/oct/14/the-legend-of-zelda-ocarina-of-time-preview-4k-era-switch-2-remake",
+            "published": "Wed, 14 Oct 2026 13:00:02 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Games Culture Nintendo Switch 2 Nintendo The Legend of Zelda",
+            "image": "https://i.guim.co.uk/img/media/c2a1544dfcc137112f74b2641d33f3025f183feb/595_0_2700_2160/master/2700.jpg?width=140&quality=85&auto=format&fit=max&s=960d08bed805518267ad0f1995325129"
           },
           {
             "title": "Joni Mitchell becomes US citizen: ‘A journey that began 62 years ago’",
@@ -2250,49 +2214,13 @@
             "image": "https://i.guim.co.uk/img/media/369763803c4b71aade9b94260488cb516e1dc4f1/0_21_695_556/master/695.jpg?width=140&quality=85&auto=format&fit=max&s=3a45d804575493b18f41df01d0b5e43a"
           },
           {
-            "title": "Duane ‘Keffe D’ Davis sentenced to 40 years to life over Tupac Shakur’s murder",
-            "link": "https://www.theguardian.com/music/2026/oct/13/duane-davis-sentencing-tupac-shakur-murder",
-            "published": "Tue, 13 Oct 2026 19:43:45 GMT",
+            "title": "Ply by Hernan Diaz review – Pulitzer winner’s dry vision of far-future America",
+            "link": "https://www.theguardian.com/books/2026/oct/14/ply-by-hernan-diaz-review-pulitzer-winners-dry-vision-of-far-future-america",
+            "published": "Wed, 14 Oct 2026 08:00:48 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Tupac Shakur US crime US news West Coast California Nevada Music Culture Las Vegas World news",
-            "image": "https://i.guim.co.uk/img/media/9d91f85fe67405ffdca8d911d1c431b64d2c3dd2/363_0_3567_2856/master/3567.jpg?width=140&quality=85&auto=format&fit=max&s=41cc6684f692787b740f535f305ffce1"
-          },
-          {
-            "title": "Lena Dunham’s Girls returning for limited run at HBO",
-            "link": "https://www.theguardian.com/tv-and-radio/2026/oct/13/girls-hbo-return-lena-dunham",
-            "published": "Tue, 13 Oct 2026 19:39:13 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Girls Lena Dunham US television TV comedy Comedy Culture Television Television & radio HBO",
-            "image": "https://i.guim.co.uk/img/media/0c4aa17c77c464d8df2107b7190c07268899bc7b/1195_291_2394_1916/master/2394.jpg?width=140&quality=85&auto=format&fit=max&s=80ec3e3e178c0f7857adddbf6e7a6fab"
-          },
-          {
-            "title": "Barriers facing black and south Asian music events ‘cost London up to £141m a year’",
-            "link": "https://www.theguardian.com/music/2026/oct/14/barriers-black-south-asian-music-events-london-racial-inequality",
-            "published": "Wed, 14 Oct 2026 05:00:46 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Music Music industry Race UK news Black British culture Culture London Police Metropolitan police Clubbing Business",
-            "image": "https://i.guim.co.uk/img/media/d77052aa8c280819e2fa480b56095e49cd9f82dd/260_0_2483_1987/master/2483.jpg?width=140&quality=85&auto=format&fit=max&s=4c907b753469ffec4ec347edd1850b7a"
-          },
-          {
-            "title": "‘At war with the obvious’: the everyday genius of William Eggleston – in pictures",
-            "link": "https://www.theguardian.com/artanddesign/gallery/2026/oct/14/at-war-with-the-obvious-the-everyday-genius-of-william-eggleston-in-pictures",
-            "published": "Wed, 14 Oct 2026 06:00:48 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "William Eggleston Photography Art and design Culture Exhibitions Fashion",
-            "image": "https://i.guim.co.uk/img/media/91f37d9e9e1c5b9015f545c98c218470960dc118/0_1688_3286_2628/master/3286.jpg?width=140&quality=85&auto=format&fit=max&s=d63227993f2d1ac2b7242974c1cd5e6d"
-          },
-          {
-            "title": "Fight the power! Protest and rebellion in America – in pictures",
-            "link": "https://www.theguardian.com/artanddesign/gallery/2026/oct/13/fight-the-power-protest-and-rebellion-in-america-in-pictures",
-            "published": "Tue, 13 Oct 2026 06:00:16 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Photography Art and design Art and design books Books Civil rights movement Culture",
-            "image": "https://i.guim.co.uk/img/media/aa72a79ac9ee7d2f2b325804722f610705112aed/361_0_3013_2411/master/3013.jpg?width=140&quality=85&auto=format&fit=max&s=a5b66c2f8861e6bebf81bb337358b932"
+            "categories": "Fiction Books Culture",
+            "image": "https://i.guim.co.uk/img/media/f02a42e356bd117a340347bebc7b51e7eb5cb2f8/1830_55_5767_4615/master/5767.jpg?width=140&quality=85&auto=format&fit=max&s=e501b941abc908cc5b3460a9e9f71244"
           },
           {
             "title": "VisionQuest review – Marvel’s latest TV show feels like it could have been made by a computer",
@@ -2304,31 +2232,103 @@
             "image": "https://i.guim.co.uk/img/media/e70bfd6326b26f1ace5a86a5fc12ab7fcfee1de5/535_0_1557_1246/master/1557.jpg?width=140&quality=85&auto=format&fit=max&s=e4a9e0df1a7a07ef04c4bbc8ced5d730"
           },
           {
-            "title": "Meet the top 1% of OnlyFans creators: the ‘revolutionary’ reality show exploring modern sex work",
-            "link": "https://www.theguardian.com/tv-and-radio/2026/oct/13/turned-on-dirty-sexy-money-reality-tv-show-australian-sex-work-only-fans-creators",
-            "published": "Tue, 13 Oct 2026 14:00:06 GMT",
+            "title": "Netflix unveils first trailer for Greta Gerwig’s Narnia: The Magician’s Nephew",
+            "link": "https://www.theguardian.com/film/2026/oct/13/narnia-trailer-netflix-greta-gerwig",
+            "published": "Tue, 13 Oct 2026 19:10:29 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Reality TV Culture Television Stan TV streaming Sex work",
-            "image": "https://i.guim.co.uk/img/media/cc6b0d33daa11607404df426ce2a174f0c63f07a/0_0_7200_5760/master/7200.jpg?width=140&quality=85&auto=format&fit=max&s=15d419eab46181f69a7a54a9460e13c5"
+            "categories": "Greta Gerwig Film Action and adventure films Culture Netflix Daniel Craig Meryl Streep Carey Mulligan CS Lewis",
+            "image": "https://i.guim.co.uk/img/media/8f452e396aa5a6050832a7355929b693ba7ecdca/291_0_1397_1118/master/1397.jpg?width=140&quality=85&auto=format&fit=max&s=a366cceb2634172e48744adc6ceef76a"
           },
           {
-            "title": "Tyson review – deeply icky … and that’s before Trump shows up",
-            "link": "https://www.theguardian.com/tv-and-radio/2026/oct/13/mike-tyson-review-boxing-superstar-trump-president",
-            "published": "Tue, 13 Oct 2026 07:01:17 GMT",
+            "title": "The Social Reckoning isn’t as angry or as potent as a Facebook drama should be",
+            "link": "https://www.theguardian.com/film/2026/oct/13/the-social-reckoning-aaron-sorkin",
+            "published": "Tue, 13 Oct 2026 09:00:20 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Television Television & radio Culture Mike Tyson Sport TV Documentary Sport US news",
-            "image": "https://i.guim.co.uk/img/media/ee93d55a8fbe760e9b3d4da04566c0894d25eeb6/390_0_1429_1143/master/1429.jpg?width=140&quality=85&auto=format&fit=max&s=679b0c690eabc71567c8cb5856c10368"
+            "categories": "Drama films Aaron Sorkin Facebook Mikey Madison Jeremy Strong Jeremy Allen White Culture Film Social media The Social Network Meta Technology Social networking",
+            "image": "https://i.guim.co.uk/img/media/b14a9b14430495500b14eea4327e8f10c0d0632e/582_0_3331_2666/master/3331.jpg?width=140&quality=85&auto=format&fit=max&s=64365a739c1b9b40bd66de31463a2825"
           },
           {
-            "title": "TV tonight: an Emmy-nominated US period drama finally lands on UK TV",
-            "link": "https://www.theguardian.com/tv-and-radio/2026/oct/14/tv-tonight-an-emmy-nominated-us-period-drama-finally-lands-on-uk-tv",
-            "published": "Wed, 14 Oct 2026 05:15:45 GMT",
+            "title": "Devil in the detail: 100 years on, FW Murnau’s Faust scrapbook reveals the secrets of his silent masterpiece",
+            "link": "https://www.theguardian.com/film/2026/oct/13/how-fw-murnau-made-faust-bible-silent-film",
+            "published": "Tue, 13 Oct 2026 10:25:11 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Television Television & radio Culture",
-            "image": "https://i.guim.co.uk/img/media/fee680d95c48168e4a992f79c9adecb453130541/332_0_5042_4033/master/5042.jpg?width=140&quality=85&auto=format&fit=max&s=38bb6b005fc18f0226f143c1b0456ef3"
+            "categories": "FW Murnau Johann Wolfgang von Goethe Film Culture Books",
+            "image": "https://i.guim.co.uk/img/media/d8a0a533edf5a872247696cc77bc753dc87abc2d/238_29_1881_1505/master/1881.jpg?width=140&quality=85&auto=format&fit=max&s=edd29b5bcf0a7b0c56179ea82d6aa489"
+          },
+          {
+            "title": "NAZA: Netanyahu orders identification and prosecution of film’s interviewees",
+            "link": "https://www.theguardian.com/film/2026/oct/12/naza-netanyahu-orders-identification-prosecution-interviewees-documentary-film",
+            "published": "Mon, 12 Oct 2026 12:59:56 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "NAZA Israel Film Middle East and north Africa Culture World news Benjamin Netanyahu Palestine Press freedom Human rights",
+            "image": "https://i.guim.co.uk/img/media/3fa7c1678f5a6282da9f66019bda1865327570a9/193_87_2503_2002/master/2503.jpg?width=140&quality=85&auto=format&fit=max&s=0f909d49baf32f9ea60057b16d3555c4"
+          },
+          {
+            "title": "‘He’s terrified, panicked, can’t sleep’: the tragic, lonely death of Beatles manager Brian Epstein",
+            "link": "https://www.theguardian.com/music/2026/oct/14/beatles-brian-epstein-gary-kemp-spandau-ballet",
+            "published": "Wed, 14 Oct 2026 04:00:44 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Music Gary Kemp Culture The Beatles Music books Books Biography books",
+            "image": "https://i.guim.co.uk/img/media/d259345a2a0367b55381796dc3d18742cebb3f8e/118_0_2179_1743/master/2179.jpg?width=140&quality=85&auto=format&fit=max&s=9fe290e1005a13fe10c79a6a90a6a868"
+          },
+          {
+            "title": "Lena Dunham’s Girls returning for limited run at HBO",
+            "link": "https://www.theguardian.com/tv-and-radio/2026/oct/13/girls-hbo-return-lena-dunham",
+            "published": "Tue, 13 Oct 2026 19:39:13 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Girls Lena Dunham US television TV comedy Comedy Culture Television Television & radio HBO",
+            "image": "https://i.guim.co.uk/img/media/0c4aa17c77c464d8df2107b7190c07268899bc7b/1195_291_2394_1916/master/2394.jpg?width=140&quality=85&auto=format&fit=max&s=80ec3e3e178c0f7857adddbf6e7a6fab"
+          },
+          {
+            "title": "Duane ‘Keffe D’ Davis sentenced to 40 years to life over Tupac Shakur’s murder",
+            "link": "https://www.theguardian.com/music/2026/oct/13/duane-davis-sentencing-tupac-shakur-murder",
+            "published": "Tue, 13 Oct 2026 19:43:45 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Tupac Shakur US crime US news West Coast California Nevada Music Culture Las Vegas World news",
+            "image": "https://i.guim.co.uk/img/media/9d91f85fe67405ffdca8d911d1c431b64d2c3dd2/363_0_3567_2856/master/3567.jpg?width=140&quality=85&auto=format&fit=max&s=41cc6684f692787b740f535f305ffce1"
+          },
+          {
+            "title": "‘A tipping point of ickiness’: Welsh star Tom Rhys Harries on playing eyelid-snipping DC supervillain Clayface",
+            "link": "https://www.theguardian.com/film/2026/oct/13/tom-rhys-harries-on-playing-dc-supervillain-clayface",
+            "published": "Tue, 13 Oct 2026 14:58:35 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Film Culture DC Comics Horror films Superhero movies",
+            "image": "https://i.guim.co.uk/img/media/88b409ecac1f4a4fa9b336854aab4f664166564d/241_0_6824_5460/master/6824.jpg?width=140&quality=85&auto=format&fit=max&s=65192c47e153a844e0a2edef58ca12e9"
+          },
+          {
+            "title": "Fight the power! Protest and rebellion in America – in pictures",
+            "link": "https://www.theguardian.com/artanddesign/gallery/2026/oct/13/fight-the-power-protest-and-rebellion-in-america-in-pictures",
+            "published": "Tue, 13 Oct 2026 06:00:16 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Photography Art and design Art and design books Books Civil rights movement Culture",
+            "image": "https://i.guim.co.uk/img/media/aa72a79ac9ee7d2f2b325804722f610705112aed/361_0_3013_2411/master/3013.jpg?width=140&quality=85&auto=format&fit=max&s=a5b66c2f8861e6bebf81bb337358b932"
+          },
+          {
+            "title": "The Steps by Sylvester Stallone review – the inside story of Rocky",
+            "link": "https://www.theguardian.com/books/2026/oct/14/the-steps-by-sylvester-stallone-review-the-inside-story-of-rocky",
+            "published": "Wed, 14 Oct 2026 06:00:47 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Autobiography and memoir Books Culture Sylvester Stallone",
+            "image": "https://i.guim.co.uk/img/media/a8735ccd107e76c7173a8024e680b9939f490253/0_89_4962_3969/master/4962.jpg?width=140&quality=85&auto=format&fit=max&s=2ea4fe21a99f6c997561ee846d2f8e5c"
+          },
+          {
+            "title": "The Chicks review – exquisite harmonies and hard-won vindication in anniversary show",
+            "link": "https://www.theguardian.com/culture/2026/oct/13/the-chicks-new-york-concert-review",
+            "published": "Tue, 13 Oct 2026 19:05:18 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "The Chicks Country Music Culture New York Pop and rock US news",
+            "image": "https://i.guim.co.uk/img/media/88991c0f851fca509797f40c53c5028037afcb6c/0_3498_4997_3994/master/4997.jpg?width=140&quality=85&auto=format&fit=max&s=e63471cba7a8d50ce6127f4e86c376d8"
           }
         ]
       },
@@ -2347,7 +2347,7 @@
         },
         "BUSINESS": {
           "ok": true,
-          "count": 20
+          "count": 19
         },
         "TECH": {
           "ok": true,
@@ -2999,6 +2999,15 @@
             "image": "https://metro.co.uk/wp-content/uploads/2025/10/SEC_271456045-2954.jpg?quality=90&strip=all&w=646"
           },
           {
+            "title": "Ronnie O’Sullivan announced for big-money event and rare UK appearance",
+            "link": "https://metro.co.uk/2026/10/14/ronnie-osullivan-announced-big-money-event-rare-uk-appearance-29709518/",
+            "published": "Wed, 14 Oct 2026 17:48:53 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Snooker Sport Ronnie O'Sullivan",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/08/SEI_309649501-87b2.jpg?quality=90&strip=all&w=646"
+          },
+          {
             "title": "Strictly’s Delta Goodrem shares health update after injury that could take weeks to heal",
             "link": "https://metro.co.uk/2026/10/14/strictlys-delta-goodrem-shares-update-injury-take-weeks-hea-29708962/",
             "published": "Wed, 14 Oct 2026 15:04:45 +0000",
@@ -3026,15 +3035,6 @@
             "provider": "METRO",
             "categories": "News US Donald Trump Social Media United States of America",
             "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316595844-9add-e1791986694805.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Boozy Elon Musk puts Mark Zuckerberg to shame after Meta boss’ Guinness disgust",
-            "link": "https://metro.co.uk/2026/10/14/boozy-elon-musk-puts-mark-zuckerberg-shame-guinness-disgust-29709047/",
-            "published": "Wed, 14 Oct 2026 13:56:56 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News US Elon Musk Mark Zuckerberg Podcasts Social Media",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/08/SEI_299117956-4cdb.jpg?quality=90&strip=all&w=646"
           }
         ],
         "ENTERTAINMENT": [
@@ -3165,6 +3165,15 @@
             "image": "https://metro.co.uk/wp-content/uploads/2026/10/comp-1791973235.png?w=646"
           },
           {
+            "title": "The end ‘confirmed’ for Kat and Alfie as EastEnders spoilers reveal what happens next",
+            "link": "https://metro.co.uk/2026/10/14/end-confirmed-kat-alfie-eastenders-spoilers-reveal-happens-next-29706666/",
+            "published": "Wed, 14 Oct 2026 17:30:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "EastEnders Soaps Alfie Moon Jessie Wallace Kat Slater Shane Richie",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316571204-90a6.jpg?quality=90&strip=all&w=646"
+          },
+          {
             "title": "Major Cindy twist and Lucas left to die as Hollyoaks spoilers reveal what happens next",
             "link": "https://metro.co.uk/2026/10/14/major-cindy-twist-lucas-left-die-hollyoaks-spoilers-reveal-happens-next-29708975/",
             "published": "Wed, 14 Oct 2026 17:00:00 +0000",
@@ -3208,15 +3217,15 @@
         },
         "BUSINESS": {
           "ok": true,
-          "count": 19
+          "count": 20
         },
         "TECH": {
           "ok": true,
-          "count": 3
+          "count": 2
         },
         "ENTERTAINMENT": {
           "ok": true,
-          "count": 17
+          "count": 18
         }
       }
     },
@@ -3329,6 +3338,15 @@
         "STOCK_MARKET": [],
         "STOCKS": [
           {
+            "title": "Nasdaq Sheds 1.65% as Russell 2000 Sinks to RSI 28, Oil Climbs While Gold and Silver Slide",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-sheds-1-65-russell-173900219.html?.tsrc=rss",
+            "published": "Wed, 14 Oct 2026 17:39:00 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
             "title": "Stock Market Today: Tech Hit Amid Hot Inflation Data; Nvidia Among The Losers (Live Coverage)",
             "link": "https://uk.finance.yahoo.com/m/a9aa7eaa-2df2-3f6f-b548-5269d49f67bc/stock-market-today%3A-tech-hit.html?.tsrc=rss",
             "published": "Wed, 14 Oct 2026 16:54:52 +0000",
@@ -3347,9 +3365,36 @@
             "image": ""
           },
           {
+            "title": "Stock Market Pillars Are Wobbling as the Rally Faces Its Next Test",
+            "link": "https://uk.finance.yahoo.com/m/89ad84c1-d2dd-36ab-b47c-f0c8b8c4f86d/stock-market-pillars-are.html?.tsrc=rss",
+            "published": "Wed, 14 Oct 2026 16:28:00 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "Ugly September Inflation Amps Ups Pressure on Fed to Raise Rates",
+            "link": "https://uk.finance.yahoo.com/m/1e739333-8d91-3c06-b6d2-e1f96639263e/ugly-september-inflation-amps.html?.tsrc=rss",
+            "published": "Wed, 14 Oct 2026 15:55:34 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
             "title": "British Shares Rise; Airtel Money Makes London Debut",
             "link": "https://uk.finance.yahoo.com/news/british-shares-rise-airtel-money-154939126.html?.tsrc=rss",
             "published": "Wed, 14 Oct 2026 15:49:39 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "The Nasdaq Keeps Falling. Inflation Data Trump Earnings.",
+            "link": "https://uk.finance.yahoo.com/m/8a94753b-3247-3a71-a781-11f3493ffb8f/the-nasdaq-keeps-falling..html?.tsrc=rss",
+            "published": "Wed, 14 Oct 2026 15:47:01 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
@@ -3395,42 +3440,6 @@
             "title": "QXO Plunges 43% Year to Date: How Should Investors Play the Stock?",
             "link": "https://finance.yahoo.com/markets/stocks/articles/qxo-plunges-43-date-investors-145700598.html?.tsrc=rss",
             "published": "Wed, 14 Oct 2026 14:57:00 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "Horace Mann Educators (HMN): Buy, Sell, or Hold Post Q2 Earnings?",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/horace-mann-educators-hmn-buy-145207527.html?.tsrc=rss",
-            "published": "Wed, 14 Oct 2026 14:52:07 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "McDonald's Stock Down 23% in 6 Months: Should Investors Buy the Dip?",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/mcdonalds-stock-down-23-6-144600726.html?.tsrc=rss",
-            "published": "Wed, 14 Oct 2026 14:46:00 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "3 Reasons to Avoid SAIA and 1 Stock to Buy Instead",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-avoid-saia-1-144407818.html?.tsrc=rss",
-            "published": "Wed, 14 Oct 2026 14:44:07 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "BR Stock Rises 14.3% in Three Months: Here's What You Should Know",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/br-stock-rises-14-3-143800324.html?.tsrc=rss",
-            "published": "Wed, 14 Oct 2026 14:38:00 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
@@ -3590,6 +3599,15 @@
         ],
         "STOCKS": [
           {
+            "title": "US inflation heats up in September; Fed rate hike this month back on table",
+            "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNX3hkV3J5em1xWWY4V0hQODFTamFtU3NvdkpPRUUzMGY0TnlKaVlneXZPc0J6bFpWdDZWb2hLRkZZaHhZVElDSXNFbGNYMVVBRGR6c1RlNDA4cEhkMEcwck5VMFRtZ1QxOFJqNTkyaGJzWWFLSXp2Z0l1Z19vMDh5bGd6N1FJSkJFR2tZUXd1UWUzeVlvZi1xNTVONk00ejJ5cE0xSGY4THFsaUo0RGxPV3dpaW4tbEZseUE?oc=5",
+            "published": "Wed, 14 Oct 2026 17:03:11 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
             "title": "Gulf markets mixed; Saudi stocks hardest hit on Aramco attack",
             "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNLXZwM3pfUE0yMVJsTzRjTkJmWFIwclNIamJ1Y2xFdmxWV2lpVHZWRDNqdkVLVGRvSV9rWEZXX0Q3cndEWXJNNnFWeVlYWkhzbFRjV19CSlV5M2phQVJSa2pWdXNob0RsSURPb0k2bVh2ZXJnMEJPeUdXYnhDV2FNLVN4QVdLVXpIWjJCTU5BYkVaMTlkQWlzeDI5bW9CU09sRUtsNlNtbjV6UklveDU4ZmNHcGQxT1VLb3BJ?oc=5",
             "published": "Wed, 14 Oct 2026 13:23:39 GMT",
@@ -3699,7 +3717,7 @@
         },
         "STOCKS": {
           "ok": true,
-          "count": 11,
+          "count": 12,
           "retainedPrevious": 0,
           "errors": [
             "https://www.reuters.com/arc/outboundfeeds/v3/all/?outputType=xml: 404 Not Found"
@@ -3814,5 +3832,5 @@
       }
     }
   },
-  "stocksUpdated": "2026-10-14T17:20:09.364Z"
+  "stocksUpdated": "2026-10-14T17:57:17.953Z"
 }
