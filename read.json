@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-14T07:28:36.562Z",
+  "updated": "2026-10-14T12:04:07.368Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -12,13 +12,13 @@
         "title": "The Witch",
         "author": "Freida McFadden",
         "narrator": "Saskia Maarleveld , Marin Ireland",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/21/e2/a3/21e2a31c-2e04-6d99-0af9-180a08fa96a2/9798349169328.jpg/600x600bb.jpg"
+        "image": "https://m.media-amazon.com/images/I/41vExa8IbhL._SL500_.jpg"
       },
       {
         "title": "Threshing Day [Dramatized Adaptation]",
         "author": "Rebecca Yarros",
         "narrator": "Full Cast , Gabriel Michael , Torian Brackett , Taylor Coan , Robb Moreira , Henry W. Kramer , Rayner Gabriel , Jessica Schly , James J. Johnson , Casie Platt , Danny Gavigan , Rob McFadyen , Renee Dorian , Belsheber Junior Rusape , GM Hakim",
-        "image": ""
+        "image": "https://m.media-amazon.com/images/I/51yEO5vfs9L._SL500_.jpg"
       },
       {
         "title": "Threshing Day (Wing and Claw Collection)",
@@ -39,10 +39,16 @@
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/40/ef/da/40efda88-49f4-a5ec-814c-6703689e539b/9791036624001.jpg/600x600bb.jpg"
       },
       {
-        "title": "He Who Fights with Monsters 13: A LitRPG Adventure",
-        "author": "Shirtaloon",
-        "narrator": "Heath Miller",
-        "image": "https://m.media-amazon.com/images/I/51XVeo9KqOL._SL500_.jpg"
+        "title": "Her Stepmother's House",
+        "author": "K. L. Slater",
+        "narrator": "Clare Corbett",
+        "image": ""
+      },
+      {
+        "title": "You Will Remember Nothing",
+        "author": "Liv Parkinson",
+        "narrator": "Raffey Cassidy , Tom Alexander , Nico Mirallegro",
+        "image": ""
       },
       {
         "title": "Carl's Doomsday Scenario",
@@ -51,16 +57,10 @@
         "image": "https://covers.openlibrary.org/b/id/11702962-L.jpg"
       },
       {
-        "title": "The Dungeon Anarchist's Cookbook",
-        "author": "Matt Dinniman",
-        "narrator": "Jeff Hays , The Critical Drinker",
-        "image": "https://covers.openlibrary.org/b/id/15262048-L.jpg"
-      },
-      {
-        "title": "The Let Them Theory",
-        "author": "Mel Robbins",
-        "narrator": "Mel Robbins",
-        "image": "https://covers.openlibrary.org/b/id/15165806-L.jpg"
+        "title": "Out of the Shadows",
+        "author": "Jay Stratton",
+        "narrator": "Hal Puthoff , Jay Stratton",
+        "image": "https://m.media-amazon.com/images/I/41dggAvbIIL._SL500_.jpg"
       }
     ],
     "BOOKS": [
@@ -123,15 +123,15 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-10-14T07:28:36.562Z",
-      "lastSuccessfulRefresh": "2026-10-14T07:28:36.562Z",
+      "checkedAt": "2026-10-14T12:04:07.368Z",
+      "lastSuccessfulRefresh": "2026-10-14T12:04:07.368Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
-      "status": "stale",
-      "checkedAt": "2026-10-14T07:28:44.655Z",
-      "lastSuccessfulRefresh": "2026-10-13T23:04:43.415Z",
-      "reason": "503 https://www.audible.co.uk/charts/best"
+      "status": "healthy",
+      "checkedAt": "2026-10-14T12:04:16.797Z",
+      "lastSuccessfulRefresh": "2026-10-14T12:04:16.797Z",
+      "reason": ""
     }
   }
 }
