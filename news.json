@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-15T21:30:57.635Z",
+  "updated": "2026-10-15T21:43:57.249Z",
   "categories": {
     "UK": [
       {
@@ -555,6 +555,24 @@
     ],
     "STOCKS": [
       {
+        "title": "BC-Select Stock Indices",
+        "link": "https://finance.yahoo.com/markets/world-indices/articles/bc-select-stock-indices-213013358.html?.tsrc=rss",
+        "published": "Thu, 15 Oct 2026 21:30:13 +0000",
+        "source": "Yahoo Finance",
+        "provider": "YAHOO",
+        "categories": "",
+        "image": ""
+      },
+      {
+        "title": "EXCLUSIVE: Investors temper Anthropic IPO valuation expectations over revenue growth slowdown, sources say",
+        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQRW4tSGppV2U0ZWtvaXBsQmlyaDVVLVFCSmJNMWdmMHpod0FWd25kUXRNQzFvZXJPTmhoQUNvMlFrQzI3NjBQVG9McWFPRHdUODhMbVItOGg4S0N3ZmJ4R2psZVd1aWFZM2M0aEY4R3VaYnFZWUxhOFZiRXAxTnc5UG9hMm1ERGpKbURkX3BWYzQ5UWl3THBFTDhWUWR0SVhUSWJsekpMZjM4OUZRQl9BVmY2djVKRENDSldCSUpOWmdvbHVK?oc=5",
+        "published": "Thu, 15 Oct 2026 21:15:18 GMT",
+        "source": "Reuters",
+        "provider": "REUTERS",
+        "categories": "",
+        "image": ""
+      },
+      {
         "title": "TCGX Acquisition Corp. II Announces Pricing of $100,000,000 Initial Public Offering",
         "link": "https://finance.yahoo.com/markets/stocks/articles/tcgx-acquisition-corp-ii-announces-211300867.html?.tsrc=rss",
         "published": "Thu, 15 Oct 2026 21:13:00 +0000",
@@ -576,15 +594,6 @@
         "title": "Housing stocks are the AI sell-off's winners as bond yields sink",
         "link": "https://finance.yahoo.com/markets/stocks/article/housing-stocks-are-the-ai-sell-offs-winners-as-bond-yields-sink-204204317.html?.tsrc=rss",
         "published": "Thu, 15 Oct 2026 20:42:04 +0000",
-        "source": "Yahoo Finance",
-        "provider": "YAHOO",
-        "categories": "",
-        "image": ""
-      },
-      {
-        "title": "EMCOR Group (EME): Why Claude Put 14.5% of Its AI Portfolio in a Data Center Contractor",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/emcor-group-eme-why-claude-203109393.html?.tsrc=rss",
-        "published": "Thu, 15 Oct 2026 20:31:09 +0000",
         "source": "Yahoo Finance",
         "provider": "YAHOO",
         "categories": "",
@@ -634,15 +643,6 @@
         "provider": "MAGPIE",
         "categories": "Growth Shares Investing Articles",
         "image": "https://www.twelfthmagpie.com/wp-content/uploads/2023/03/Budget-1200x675.jpg"
-      },
-      {
-        "title": "US inflation heats up in September; Fed rate hike this month back on table",
-        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNX3hkV3J5em1xWWY4V0hQODFTamFtU3NvdkpPRUUzMGY0TnlKaVlneXZPc0J6bFpWdDZWb2hLRkZZaHhZVElDSXNFbGNYMVVBRGR6c1RlNDA4cEhkMEcwck5VMFRtZ1QxOFJqNTkyaGJzWWFLSXp2Z0l1Z19vMDh5bGd6N1FJSkJFR2tZUXd1UWUzeVlvZi1xNTVONk00ejJ5cE0xSGY4THFsaUo0RGxPV3dpaW4tbEZseUE?oc=5",
-        "published": "Wed, 14 Oct 2026 21:45:35 GMT",
-        "source": "Reuters",
-        "provider": "REUTERS",
-        "categories": "",
-        "image": ""
       }
     ]
   },
@@ -3311,6 +3311,15 @@
         "STOCK_MARKET": [],
         "STOCKS": [
           {
+            "title": "BC-Select Stock Indices",
+            "link": "https://finance.yahoo.com/markets/world-indices/articles/bc-select-stock-indices-213013358.html?.tsrc=rss",
+            "published": "Thu, 15 Oct 2026 21:30:13 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
             "title": "TCGX Acquisition Corp. II Announces Pricing of $100,000,000 Initial Public Offering",
             "link": "https://finance.yahoo.com/markets/stocks/articles/tcgx-acquisition-corp-ii-announces-211300867.html?.tsrc=rss",
             "published": "Thu, 15 Oct 2026 21:13:00 +0000",
@@ -3404,15 +3413,6 @@
             "title": "Frazier Life Sciences Acquisition Corp. II Announces Completion of $75,000,000 Initial Public Offering",
             "link": "https://finance.yahoo.com/markets/stocks/articles/frazier-life-sciences-acquisition-corp-200500615.html?.tsrc=rss",
             "published": "Thu, 15 Oct 2026 20:05:00 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "nCino, Appian, Autodesk, The Trade Desk, and AppLovin Stocks Trade Up, What You Need To Know",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/ncino-appian-autodesk-trade-desk-200309682.html?.tsrc=rss",
-            "published": "Thu, 15 Oct 2026 20:03:09 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
@@ -3572,6 +3572,15 @@
         ],
         "STOCKS": [
           {
+            "title": "EXCLUSIVE: Investors temper Anthropic IPO valuation expectations over revenue growth slowdown, sources say",
+            "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQRW4tSGppV2U0ZWtvaXBsQmlyaDVVLVFCSmJNMWdmMHpod0FWd25kUXRNQzFvZXJPTmhoQUNvMlFrQzI3NjBQVG9McWFPRHdUODhMbVItOGg4S0N3ZmJ4R2psZVd1aWFZM2M0aEY4R3VaYnFZWUxhOFZiRXAxTnc5UG9hMm1ERGpKbURkX3BWYzQ5UWl3THBFTDhWUWR0SVhUSWJsekpMZjM4OUZRQl9BVmY2djVKRENDSldCSUpOWmdvbHVK?oc=5",
+            "published": "Thu, 15 Oct 2026 21:15:18 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
             "title": "Nasdaq resolves network disruption that caused data gaps, source says",
             "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMnFLNkdraTdWRmNuLUlrbGF6Ni15M1VBODdjYjdyVl9NZ1p0NV9mbW5wd0U2VkFnX0RNYzlNcXhlaUlseFdjbENlWEc3UTBhV19lQmUtcE1uZ0NfNXhqeGxqODBnWVRQODBiR3dCNkJ0bHhFWUZkZnlidlVIZVVYaE9GQVc3dkJJNjkzUnJkX0FELWtERW1TMXBKYmZucmRwamczVGZuaVI2N3BZY3RF?oc=5",
             "published": "Thu, 15 Oct 2026 18:25:44 GMT",
@@ -3602,15 +3611,6 @@
             "title": "Perella Weinberg, Piper Sandler abandon merger talks, source says",
             "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZ0pSWl9ScDFtYldwRWYyeHgtWC1LaTNRRTBYRndoUHk5bVdkS2lSVHMtYWh6WEpvSTQyR2paRURhVk02cUNpeGttWTk4eEZxMDNWcWU0SGN0Tl9lYm0zanZlTTJfTmdUNGhZUVpVbkJONmVQLXBLTVVNMzgzbFV2TXR6S0x1NTdYcWVGVGIwaTNaVkdKOFJYbGJtZjlzY2lkRUNYcExHRHNDaW5ud19ZZWxXMXM5UDNBWHc?oc=5",
             "published": "Wed, 14 Oct 2026 21:06:14 GMT",
-            "source": "Reuters",
-            "provider": "REUTERS",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "Eutelsat shares jump as Ukraine flags curbs on Starlink military-grade service",
-            "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVWhWbm1PUEtEQWFtY2lHdjRoWHhiVDdhaHo5U2NoLWMwVXlydnFvYUowbHRHMXNyX2NKSlJQZWY4VTZ1emotSGNkVHZUaEc2OGRJZjhmWFFZbGtVWHBXbzdUdUdJcmRnN2xpOFIxSU5NRzRKZzVtOUNqVXFvNThadVZZa0E0Um5FTUJUMEdhYkV0cjNlemFXUnFrMUViTjljVW9hSGRObGkySjJLcXY5OXBoN3FpQ3ZH?oc=5",
-            "published": "Wed, 14 Oct 2026 18:48:44 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3805,5 +3805,5 @@
       }
     }
   },
-  "stocksUpdated": "2026-10-15T21:31:02.886Z"
+  "stocksUpdated": "2026-10-15T21:44:03.419Z"
 }
