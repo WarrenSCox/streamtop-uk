@@ -1,10 +1,10 @@
 {
-  "updated": "2026-10-15T04:27:08.234Z",
+  "updated": "2026-10-15T04:50:51.439Z",
   "categories": {
     "UK": [
       {
         "title": "Inquest into death of man killed by tiger at wildlife park to open",
-        "link": "https://news.sky.com/story/william-chapman-inquest-into-death-of-man-killed-by-tiger-at-yorkshire-wildlife-parj-to-open-13599438",
+        "link": "https://news.sky.com/story/william-chapman-inquest-into-death-of-man-killed-by-tiger-at-yorkshire-wildlife-park-to-open-13599438",
         "published": "Thu, 15 Oct 2026 04:28:00 +0100",
         "source": "Sky News",
         "provider": "SKY",
@@ -97,11 +97,20 @@
       {
         "title": "Australian politics live: Wells says ‘manosphere’ podcasts and moon landing conspiracies allowed under Labor duty of care reform",
         "link": "https://www.theguardian.com/australia-news/live/2026/oct/15/anthony-albanese-labor-pauline-hanson-monoculture-victorian-election-coalition-angus-taylor-ntwnfb",
-        "published": "Thu, 15 Oct 2026 04:13:35 GMT",
+        "published": "Thu, 15 Oct 2026 04:34:00 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
         "categories": "Australia news Australian politics Australian economy Business Health Australian education Australian immigration and asylum Australian foreign policy Coalition Liberal party Labor party Independents Australian Greens One Nation Private health insurance Jacqui Lambie Tax Victorian politics New South Wales politics",
         "image": "https://i.guim.co.uk/img/media/f4493b7fc0d7030937f30cea5b8c8b5f0f119f49/634_0_6341_5073/master/6341.jpg?width=140&quality=85&auto=format&fit=max&s=37d2feecba5c9408e7c2a00d4924f8d2"
+      },
+      {
+        "title": "Indonesia fights fire with dry ice as toxic haze spreads across region",
+        "link": "https://www.theguardian.com/world/2026/oct/15/indonesia-fires-dry-ice-dropped-toxic-haze-spreads",
+        "published": "Thu, 15 Oct 2026 04:25:03 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Indonesia Asia Pacific World news Prabowo Subianto Wildfires Singapore Malaysia",
+        "image": "https://i.guim.co.uk/img/media/f91346dbfc3a74a003e6aeb4789749685a84ac60/328_0_4558_3646/master/4558.jpg?width=140&quality=85&auto=format&fit=max&s=4bda54c423277f3c568c467fbcd6eeee"
       },
       {
         "title": "Victoria to become first state to make abortions free as Coalition matches Labor election promise",
@@ -120,15 +129,6 @@
         "provider": "GUARDIAN",
         "categories": "Australian Greens Australian politics Australia news",
         "image": "https://i.guim.co.uk/img/media/185725865ec230dcdd9ad9d78840ef9d5a39831d/345_0_2624_2100/master/2624.jpg?width=140&quality=85&auto=format&fit=max&s=23782fc5ee7911b3b30ba6d68728273d"
-      },
-      {
-        "title": "Brazil cuts work week to 40 hours in win for Lula ahead of runoff",
-        "link": "https://www.theguardian.com/world/2026/oct/15/brazil-cuts-work-week-to-40-hours-lula-bolsonaro-election-runoff",
-        "published": "Thu, 15 Oct 2026 02:45:42 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Brazil Luiz Inácio Lula da Silva Americas Flávio Bolsonaro",
-        "image": "https://i.guim.co.uk/img/media/170d64bce3c3cd5f2da0bd8212e95c754448d44a/183_0_2045_1636/master/2045.jpg?width=140&quality=85&auto=format&fit=max&s=7b326e73b5aba8a1a88bdfec56dffc82"
       },
       {
         "title": "World's oldest shipwreck found off Turkish coast",
@@ -768,7 +768,7 @@
           },
           {
             "title": "Inquest into death of man killed by tiger at wildlife park to open",
-            "link": "https://news.sky.com/story/william-chapman-inquest-into-death-of-man-killed-by-tiger-at-yorkshire-wildlife-parj-to-open-13599438",
+            "link": "https://news.sky.com/story/william-chapman-inquest-into-death-of-man-killed-by-tiger-at-yorkshire-wildlife-park-to-open-13599438",
             "published": "Thu, 15 Oct 2026 04:28:00 +0100",
             "source": "Sky News",
             "provider": "SKY",
@@ -1522,6 +1522,15 @@
             "image": "https://i.guim.co.uk/img/media/ddb81138e72020184014d768ff458321471829dd/341_0_4472_3578/master/4472.jpg?width=140&quality=85&auto=format&fit=max&s=caa0b7857ca55e571fcceb6eaee93784"
           },
           {
+            "title": "Indonesia fights fire with dry ice as toxic haze spreads across region",
+            "link": "https://www.theguardian.com/world/2026/oct/15/indonesia-fires-dry-ice-dropped-toxic-haze-spreads",
+            "published": "Thu, 15 Oct 2026 04:25:03 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Indonesia Asia Pacific World news Prabowo Subianto Wildfires Singapore Malaysia",
+            "image": "https://i.guim.co.uk/img/media/f91346dbfc3a74a003e6aeb4789749685a84ac60/328_0_4558_3646/master/4558.jpg?width=140&quality=85&auto=format&fit=max&s=4bda54c423277f3c568c467fbcd6eeee"
+          },
+          {
             "title": "UK’s ‘incoherent’ approach to China plagued by lack of expertise, report says",
             "link": "https://www.theguardian.com/politics/2026/oct/14/uks-incoherent-approach-to-china-plagued-by-a-lack-of-expertise-report-says",
             "published": "Wed, 14 Oct 2026 17:00:14 GMT",
@@ -1558,18 +1567,9 @@
             "image": "https://i.guim.co.uk/img/media/3e4c27d536a0b1b6f81b2a36d1cce1eea34e0eb4/455_0_4408_3526/master/4408.jpg?width=140&quality=85&auto=format&fit=max&s=f590642d26b00d3e939738fb2b6d715c"
           },
           {
-            "title": "EU to limit Chinese hybrid vehicle imports to 350,000 a year",
-            "link": "https://www.theguardian.com/environment/2026/oct/12/eu-deal-china-limit-imports-hybrid-electric-vehicles",
-            "published": "Mon, 12 Oct 2026 11:23:55 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Electric, hybrid and low-emission cars Automotive industry Business International trade European Union Europe China World Trade Organization Tariffs Asia Pacific Global economy Economics",
-            "image": "https://i.guim.co.uk/img/media/9b1bc334f5fc5243721e7b1a8d59c7c49217b34c/326_0_6827_5464/master/6827.jpg?width=140&quality=85&auto=format&fit=max&s=84187bd51cc0b5c5f914dbb263ecbdb4"
-          },
-          {
             "title": "Australian politics live: Wells says ‘manosphere’ podcasts and moon landing conspiracies allowed under Labor duty of care reform",
             "link": "https://www.theguardian.com/australia-news/live/2026/oct/15/anthony-albanese-labor-pauline-hanson-monoculture-victorian-election-coalition-angus-taylor-ntwnfb",
-            "published": "Thu, 15 Oct 2026 04:13:35 GMT",
+            "published": "Thu, 15 Oct 2026 04:34:00 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
             "categories": "Australia news Australian politics Australian economy Business Health Australian education Australian immigration and asylum Australian foreign policy Coalition Liberal party Labor party Independents Australian Greens One Nation Private health insurance Jacqui Lambie Tax Victorian politics New South Wales politics",
@@ -3805,5 +3805,5 @@
       }
     }
   },
-  "stocksUpdated": "2026-10-15T04:27:13.859Z"
+  "stocksUpdated": "2026-10-15T04:50:57.803Z"
 }
