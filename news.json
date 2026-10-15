@@ -1,7 +1,34 @@
 {
-  "updated": "2026-10-14T21:47:52.943Z",
+  "updated": "2026-10-15T00:04:07.618Z",
   "categories": {
     "UK": [
+      {
+        "title": "Stopping Pip for ADHD or autism would not make big savings, says thinktank",
+        "link": "https://www.theguardian.com/society/2026/oct/15/pip-ban-adhd-autism-savings-resolution-foundation",
+        "published": "Wed, 14 Oct 2026 23:01:15 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Benefits Mental health Neurodiversity Resolution Foundation State benefits UK news Welfare Society Disability Politics",
+        "image": "https://i.guim.co.uk/img/media/69799fa6d30e1431a91206c44a339ccf44616ea0/1241_0_5993_4797/master/5993.jpg?width=140&quality=85&auto=format&fit=max&s=4321cb85aa4d1c1f300bc5fabedbc0d8"
+      },
+      {
+        "title": "Volodymyr Zelenskyy feels ‘betrayed’ by Donald Trump over Starlink access",
+        "link": "https://www.theguardian.com/world/2026/oct/14/volodymyr-zelenskyy-feels-betrayed-by-donald-trump-over-starlink-access",
+        "published": "Wed, 14 Oct 2026 23:00:08 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Ukraine US news UK news Andy Burnham Volodymyr Zelenskyy Donald Trump World news",
+        "image": "https://i.guim.co.uk/img/media/0a9b1324dd3d818c1d5a0625f6a6afdc7ae245f6/641_0_6405_5127/master/6405.jpg?width=140&quality=85&auto=format&fit=max&s=53efce5be02c377bd93cbf05cae4bc36"
+      },
+      {
+        "title": "Lisandro Martinez makes feelings clear by releasing statement on bombshell interview",
+        "link": "https://metro.co.uk/2026/10/14/lisandro-martinez-makes-feelings-clear-statement-bombshell-interview-29709894/",
+        "published": "Wed, 14 Oct 2026 22:16:38 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Football Sport Champions League Lisandro Martinez Manchester United",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/08/GettyImages-2291327630-0c65.jpg?quality=90&strip=all&w=646"
+      },
       {
         "title": "UK hospitality sector to offer up to 100,000 jobs to young people out of work",
         "link": "https://www.theguardian.com/society/2026/oct/14/uk-hospitality-sector-100000-jobs-young-people-neets",
@@ -21,24 +48,6 @@
         "image": "https://metro.co.uk/wp-content/uploads/2026/10/847917374_1568731925292771_5470614459411381220_n-099d.jpg?quality=90&strip=all&w=646"
       },
       {
-        "title": "Volodymyr Zelenskyy feels ‘betrayed’ by Donald Trump over Starlink access",
-        "link": "https://www.theguardian.com/world/2026/oct/14/volodymyr-zelenskyy-feels-betrayed-by-donald-trump-over-starlink-access",
-        "published": "Wed, 14 Oct 2026 21:08:52 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Ukraine US news UK news Andy Burnham Volodymyr Zelenskyy Donald Trump World news",
-        "image": "https://i.guim.co.uk/img/media/0a9b1324dd3d818c1d5a0625f6a6afdc7ae245f6/641_0_6405_5127/master/6405.jpg?width=140&quality=85&auto=format&fit=max&s=53efce5be02c377bd93cbf05cae4bc36"
-      },
-      {
-        "title": "Liverpool youngster picks out ‘unbelievable’ teammate after first Champions League goal",
-        "link": "https://metro.co.uk/2026/10/14/liverpool-youngster-picks-unbelievable-teammate-first-champions-league-goal-29709862/",
-        "published": "Wed, 14 Oct 2026 20:44:43 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Football Sport Andoni Iraola Bradley Barcola Champions League Liverpool FC",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316637097-b89f.jpg?quality=90&strip=all&w=646"
-      },
-      {
         "title": "Man wears burka in court to deny hiding his face at anti-migrant protest",
         "link": "https://metro.co.uk/2026/10/14/man-wears-burka-court-deny-hiding-face-anti-migrant-protest-29709766/",
         "published": "Wed, 14 Oct 2026 20:06:03 +0000",
@@ -55,15 +64,6 @@
         "provider": "GUARDIAN",
         "categories": "Reform UK Local government Politics Nigel Farage Local politics UK news Society",
         "image": "https://i.guim.co.uk/img/media/e157187b05e6ba964d21ef1af96ff3d56683e41e/80_0_1349_1080/master/1349.jpg?width=140&quality=85&auto=format&fit=max&s=13d508bbb59a8ec466a5091ac334053c"
-      },
-      {
-        "title": "OpenAI’s London staff receive average of £2.3m per person annually",
-        "link": "https://www.theguardian.com/technology/2026/oct/14/openai-london-staff-earnings-2million-per-person",
-        "published": "Wed, 14 Oct 2026 19:15:14 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "OpenAI Technology ChatGPT AI (artificial intelligence) Money London UK news",
-        "image": "https://i.guim.co.uk/img/media/6e3f91a7c491ffbb06b0d75f239e2786a37ee2e3/450_0_2915_2333/master/2915.jpg?width=140&quality=85&auto=format&fit=max&s=45ef221d694807bf66fe5f37fffa77bb"
       },
       {
         "title": "Sally Rooney books withdrawn from UK over Palestine Action support",
@@ -95,31 +95,40 @@
     ],
     "WORLD": [
       {
-        "title": "Australian politics live: Labor defiant on private health rebate for over 65s; AEC warns about ‘emerging’ risk of AI in voting",
+        "title": "Australian politics live: Labor and Coalition reject bill to stop incarcerated women being shackled in childbirth; Wells tables social media reform",
         "link": "https://www.theguardian.com/australia-news/live/2026/oct/15/anthony-albanese-labor-pauline-hanson-monoculture-victorian-election-coalition-angus-taylor-ntwnfb",
-        "published": "Wed, 14 Oct 2026 21:33:42 GMT",
+        "published": "Wed, 14 Oct 2026 23:39:23 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
-        "categories": "Australia news Australian politics Australian economy Business Health Australian education Australian immigration and asylum Australian foreign policy Coalition Liberal party Labor party Independents Australian Greens One Nation",
-        "image": "https://i.guim.co.uk/img/media/dc7d2a3df8a7b755abd748a356c2a7b627765b13/0_0_5511_4411/master/5511.jpg?width=140&quality=85&auto=format&fit=max&s=fefffe00bf9f10df29e1029efbef79a1"
+        "categories": "Australia news Australian politics Australian economy Business Health Australian education Australian immigration and asylum Australian foreign policy Coalition Liberal party Labor party Independents Australian Greens One Nation Private health insurance Jacqui Lambie Tax",
+        "image": "https://i.guim.co.uk/img/media/cd242f750ed19e0190499d8d922c385b5e2f5935/688_0_6880_5504/master/6880.jpg?width=140&quality=85&auto=format&fit=max&s=6ad78417fc0a2420ffadefb5249d5291"
       },
       {
-        "title": "Zimbabwean author Simbarashe Kundizeza denies using AI to write prize-winning story",
-        "link": "https://www.theguardian.com/technology/2026/oct/14/zimbabwean-author-simbarashe-kundizeza-denies-ai-story",
-        "published": "Wed, 14 Oct 2026 19:01:29 GMT",
+        "title": "Paddington: The Musical is coming to Sydney in 2027",
+        "link": "https://www.theguardian.com/stage/2026/oct/15/paddington-the-musical-sydney-australia-2027",
+        "published": "Wed, 14 Oct 2026 23:34:02 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
-        "categories": "AI (artificial intelligence) Caine prize The Atlantic Short stories Technology Books Awards and prizes Culture Fiction Zimbabwe Africa World news",
-        "image": "https://i.guim.co.uk/img/media/6487803463c6c4e3138642f657eeb1cd90cd5acc/0_113_1078_862/master/1078.jpg?width=140&quality=85&auto=format&fit=max&s=6e0f4e5dcae2b2a9e886d0f5ebb34561"
+        "categories": "Australian theatre Stage Culture Sydney Australia news Paddington Michael Bond Children and teenagers",
+        "image": "https://i.guim.co.uk/img/media/5f3331fa1ba36805ad86f69facb5be5b02a9d8a4/231_0_2083_1667/master/2083.jpg?width=140&quality=85&auto=format&fit=max&s=9579e0f0a81f778a343ea2a082ed215a"
       },
       {
-        "title": "UK’s ‘incoherent’ approach to China plagued by lack of expertise, report says",
-        "link": "https://www.theguardian.com/politics/2026/oct/14/uks-incoherent-approach-to-china-plagued-by-a-lack-of-expertise-report-says",
-        "published": "Wed, 14 Oct 2026 17:00:14 GMT",
+        "title": "Illegal tobacco increasingly hard to spot, with some fakes featuring Australian health warnings",
+        "link": "https://www.theguardian.com/australia-news/2026/oct/15/black-market-tobacco-fakes-australian-health-warning",
+        "published": "Wed, 14 Oct 2026 23:32:14 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
-        "categories": "Foreign policy UK news China Trade policy Espionage Asia Pacific Politics World news",
-        "image": "https://i.guim.co.uk/img/media/e9f4317e59cceaeb1acc7c9802b4ef9938a2aa1a/440_0_4395_3516/master/4395.jpg?width=140&quality=85&auto=format&fit=max&s=fa7a1f23cd0db91e2649c4b5c419ad06"
+        "categories": "Australia news Smoking Organised crime Crime - Australia Tobacco industry",
+        "image": "https://i.guim.co.uk/img/media/a5d893e6fc98353d063571345c1b9737c5714ccf/334_0_2014_1612/master/2014.jpg?width=140&quality=85&auto=format&fit=max&s=633b5fd290dd30cd50a24aa8ac0cf9da"
+      },
+      {
+        "title": "Sydney hospital patient charged with attempted murder after allegedly setting fellow patient alight",
+        "link": "https://www.theguardian.com/australia-news/2026/oct/15/sydney-hospital-patient-charged-attempted-murder-royal-prince-of-wales-ntwnfb",
+        "published": "Wed, 14 Oct 2026 23:30:16 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "New South Wales Australia news",
+        "image": "https://i.guim.co.uk/img/media/7b779b9091d0fe2fb4e53024283b29ab4cdd1b09/683_0_4597_3676/master/4597.jpg?width=140&quality=85&auto=format&fit=max&s=7fc44a10dac72c211eb909c7d15288ae"
       },
       {
         "title": "World's oldest shipwreck found off Turkish coast",
@@ -138,15 +147,6 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/10/1920x1080/skynews-pope-leo_7375308.jpg?20261012182635"
-      },
-      {
-        "title": "Guinea-Bissau denies it has approved controversial vaccine trial in newborns",
-        "link": "https://www.theguardian.com/world/2026/oct/14/guinea-bissau-vaccine-hepatitis-b-trial-denial",
-        "published": "Wed, 14 Oct 2026 13:16:30 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Guinea-Bissau Hepatitis B Vaccines and immunisation Robert F Kennedy Jr Children's health Africa World news",
-        "image": "https://i.guim.co.uk/img/media/28120a16f4ee8133901215c24889ae3476e9eeda/663_0_6627_5304/master/6627.jpg?width=140&quality=85&auto=format&fit=max&s=0ffc2facca7ee7016cb29b33c9713097"
       },
       {
         "title": "Children killed in arson attack named - as family calls for culprit to 'own up'",
@@ -187,6 +187,15 @@
     ],
     "POLITICS": [
       {
+        "title": "Stopping Pip for ADHD or autism would not make big savings, says thinktank",
+        "link": "https://www.theguardian.com/society/2026/oct/15/pip-ban-adhd-autism-savings-resolution-foundation",
+        "published": "Wed, 14 Oct 2026 23:01:15 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Benefits Mental health Neurodiversity Resolution Foundation State benefits UK news Welfare Society Disability Politics",
+        "image": "https://i.guim.co.uk/img/media/69799fa6d30e1431a91206c44a339ccf44616ea0/1241_0_5993_4797/master/5993.jpg?width=140&quality=85&auto=format&fit=max&s=4321cb85aa4d1c1f300bc5fabedbc0d8"
+      },
+      {
         "title": "UK hospitality sector to offer up to 100,000 jobs to young people out of work",
         "link": "https://www.theguardian.com/society/2026/oct/14/uk-hospitality-sector-100000-jobs-young-people-neets",
         "published": "Wed, 14 Oct 2026 21:30:13 GMT",
@@ -212,15 +221,6 @@
         "provider": "GUARDIAN",
         "categories": "Ukraine Volodymyr Zelenskyy Donald Trump US news US politics Vladimir Putin Russia Andy Burnham Labour Politics US foreign policy Trump administration",
         "image": "https://i.guim.co.uk/img/media/29c81af2518d0cad0cb06c7a441aef5240cc6a43/423_0_2890_2313/master/2890.jpg?width=140&quality=85&auto=format&fit=max&s=2980bcc8b07793f9ade8da681196bb4f"
-      },
-      {
-        "title": "Burnham tells Zelenskyy’s UK’s support for Ukraine ‘will not change’ – as it happened",
-        "link": "https://www.theguardian.com/politics/live/2026/oct/14/pmqs-andy-burnham-kemi-badenoch-zelenskyy-uk-politics-latest-news",
-        "published": "Wed, 14 Oct 2026 17:06:58 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Politics UK news PMQs Andy Burnham Kemi Badenoch Labour Conservatives Ukraine Nigel Farage Reform UK Chagos Islands House of Commons Barack Obama Good Friday agreement Liberal Democrats Ed Davey Scottish independence Scotland Scottish politics John Swinney Volodymyr Zelenskyy Green party Zack Polanski Antisemitism",
-        "image": "https://i.guim.co.uk/img/media/76ce9b73d51befcddcd5d63bc68b16f2ed89dbfc/686_0_4893_3914/master/4893.jpg?width=140&quality=85&auto=format&fit=max&s=c84e755daa719bc783a2d16a4636f4f1"
       },
       {
         "title": "Bookies in last-ditch plea to Healey to avert budget tax bombshell",
@@ -279,6 +279,15 @@
     ],
     "BUSINESS": [
       {
+        "title": "OpenAI’s London staff receive average of £2.3m per person annually",
+        "link": "https://www.theguardian.com/technology/2026/oct/14/openai-london-staff-earnings-2million-per-person",
+        "published": "Wed, 14 Oct 2026 19:15:14 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "OpenAI Technology ChatGPT AI (artificial intelligence) Money London UK news",
+        "image": "https://i.guim.co.uk/img/media/6e3f91a7c491ffbb06b0d75f239e2786a37ee2e3/450_0_2915_2333/master/2915.jpg?width=140&quality=85&auto=format&fit=max&s=45ef221d694807bf66fe5f37fffa77bb"
+      },
+      {
         "title": "Ronnie O’Sullivan announced for big-money event and rare UK appearance",
         "link": "https://metro.co.uk/2026/10/14/ronnie-osullivan-announced-big-money-event-rare-uk-appearance-29709518/",
         "published": "Wed, 14 Oct 2026 17:48:53 +0000",
@@ -286,15 +295,6 @@
         "provider": "METRO",
         "categories": "Snooker Sport Ronnie O'Sullivan",
         "image": "https://metro.co.uk/wp-content/uploads/2026/08/SEI_309649501-87b2.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Strictly’s Delta Goodrem shares health update after injury that could take weeks to heal",
-        "link": "https://metro.co.uk/2026/10/14/strictlys-delta-goodrem-shares-update-injury-take-weeks-hea-29708962/",
-        "published": "Wed, 14 Oct 2026 15:04:45 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Entertainment TV BBC Strictly Come Dancing",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316601478-3765-e1791988933268.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "Downing Street calls in IPO candidates and investors for talks",
@@ -371,6 +371,33 @@
     ],
     "TECH": [
       {
+        "title": "Castlevania: Belmont’s Curse review – the origin of Metroidvania",
+        "link": "https://metro.co.uk/2026/10/15/castlevania-belmonts-curse-review-origin-metroidvania-29708869/",
+        "published": "Thu, 15 Oct 2026 00:00:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Entertainment Gaming Games news Games reviews Konami Nintendo Switch Games PC Games PlayStation 5 Xbox Series X",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316601940-ad96.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Daily horoscope October 15 2026: Today’s predictions for your star sign",
+        "link": "https://metro.co.uk/2026/10/15/daily-horoscope-october-15-2026-predictions-star-sign-29700972/",
+        "published": "Wed, 14 Oct 2026 23:01:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Horoscopes Lifestyle Aquarius Aries Astrology Cancer (star sign) Capricorn Gemini Leo Libra Pisces Sagittarius Scorpio Taurus Virgo",
+        "image": "https://metro.co.uk/wp-content/uploads/2023/04/new-horoscope-2023-02-a5db.gif?w=646"
+      },
+      {
+        "title": "Eight states accuse OpenAI of coaching children to harm themselves in lawsuit",
+        "link": "https://www.theguardian.com/technology/2026/oct/14/openai-child-self-harm-lawsuit",
+        "published": "Wed, 14 Oct 2026 21:50:29 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "OpenAI Technology ChatGPT AI (artificial intelligence) Children Children's tech Chatbots Law (US) US news",
+        "image": "https://i.guim.co.uk/img/media/8f1d52dd128124b20d65f31b5f7791fd3dc1e307/560_0_5600_4480/master/5600.jpg?width=140&quality=85&auto=format&fit=max&s=593d1744e9bb0ea8bed0aba037cee5f1"
+      },
+      {
         "title": "OpenAI accuses employee who left for Apple of leaking plans for unreleased device",
         "link": "https://www.theguardian.com/technology/2026/oct/14/openai-apple-employee-leak-lawsuit",
         "published": "Wed, 14 Oct 2026 20:31:15 GMT",
@@ -378,15 +405,6 @@
         "provider": "GUARDIAN",
         "categories": "Apple Technology OpenAI AI (artificial intelligence) Intellectual property ChatGPT",
         "image": "https://i.guim.co.uk/img/media/ebf66ef2fc761ca986ec34ee126faa393835c357/479_0_4771_3819/master/4771.jpg?width=140&quality=85&auto=format&fit=max&s=49598467932deaad38c34b1c32751dc9"
-      },
-      {
-        "title": "Eight states accuse OpenAI of coaching children to harm themselves in lawsuit",
-        "link": "https://www.theguardian.com/technology/2026/oct/14/openai-child-self-harm-lawsuit",
-        "published": "Wed, 14 Oct 2026 20:26:30 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "OpenAI Technology ChatGPT AI (artificial intelligence) Children Children's tech Chatbots Law (US) US news",
-        "image": "https://i.guim.co.uk/img/media/8f1d52dd128124b20d65f31b5f7791fd3dc1e307/560_0_5600_4480/master/5600.jpg?width=140&quality=85&auto=format&fit=max&s=593d1744e9bb0ea8bed0aba037cee5f1"
       },
       {
         "title": "Moment OpenAI engineer ‘caught looking at spy device he left in top secret room’",
@@ -405,15 +423,6 @@
         "provider": "GUARDIAN",
         "categories": "OpenAI Technology ChatGPT AI (artificial intelligence) Money London UK news",
         "image": "https://i.guim.co.uk/img/media/6e3f91a7c491ffbb06b0d75f239e2786a37ee2e3/450_0_2915_2333/master/2915.jpg?width=140&quality=85&auto=format&fit=max&s=45ef221d694807bf66fe5f37fffa77bb"
-      },
-      {
-        "title": "Zimbabwean author Simbarashe Kundizeza denies using AI to write prize-winning story",
-        "link": "https://www.theguardian.com/technology/2026/oct/14/zimbabwean-author-simbarashe-kundizeza-denies-ai-story",
-        "published": "Wed, 14 Oct 2026 19:01:29 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "AI (artificial intelligence) Caine prize The Atlantic Short stories Technology Books Awards and prizes Culture Fiction Zimbabwe Africa World news",
-        "image": "https://i.guim.co.uk/img/media/6487803463c6c4e3138642f657eeb1cd90cd5acc/0_113_1078_862/master/1078.jpg?width=140&quality=85&auto=format&fit=max&s=6e0f4e5dcae2b2a9e886d0f5ebb34561"
       },
       {
         "title": "Cyberleek threatens to ruin end of GTA 6 if Rockstar set their lawyers on them",
@@ -450,15 +459,6 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/09/1920x1080/skynews-anthropic-ai-openai_7349937.jpg?20260913083842"
-      },
-      {
-        "title": "Could AI ‘change the stakes’ in the development of bioweapons?",
-        "link": "https://www.theguardian.com/technology/2026/oct/14/could-ai-change-the-stakes-in-the-development-of-bioweapons",
-        "published": "Wed, 14 Oct 2026 17:34:14 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "AI (artificial intelligence) Chatbots Infectious diseases MI5 Anthropic UK security and counter-terrorism Science Technology UK news Biology Microbiology Weapons technology Synthetic biology",
-        "image": "https://i.guim.co.uk/img/media/fc1dd52941c9a6bd0156aa709eb103e872d37d5a/86_0_834_667/master/834.jpg?width=140&quality=85&auto=format&fit=max&s=9fbf95c0c4a1abe119a05188182809e8"
       }
     ],
     "ENTERTAINMENT": [
@@ -472,15 +472,6 @@
         "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310675699-5e78.jpg?quality=90&strip=all&w=646"
       },
       {
-        "title": "Ronnie reveals heartbreaking reason he can’t have sex with Debbie on Coronation Street",
-        "link": "https://metro.co.uk/2026/10/14/coronation-streets-ronnie-reveals-heartbreaking-reason-cant-sleep-debbie-29696803/",
-        "published": "Wed, 14 Oct 2026 21:00:00 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Coronation Street Soaps Debbie Webster Ronnie Bailey Sue Devaney Vinta Morgan",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315775847-dfc1.jpg?quality=90&strip=all&w=646"
-      },
-      {
         "title": "Evil Sadie casts a spell in Emmerdale as she ups campaign to steal Caleb from Ruby",
         "link": "https://metro.co.uk/2026/10/14/emmerdales-sadie-casts-a-spell-ups-campaign-steal-caleb-ruby-29703846/",
         "published": "Wed, 14 Oct 2026 21:00:00 +0000",
@@ -488,6 +479,15 @@
         "provider": "METRO",
         "categories": "Emmerdale Soaps Beth Cordingly Caleb Miligan Patsy Kensit Ruby Miligan Sadie King William Ash",
         "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315776020-c350.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Ronnie reveals heartbreaking reason he can’t have sex with Debbie on Coronation Street",
+        "link": "https://metro.co.uk/2026/10/14/coronation-streets-ronnie-reveals-heartbreaking-reason-cant-sleep-debbie-29696803/",
+        "published": "Wed, 14 Oct 2026 21:00:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Coronation Street Soaps Debbie Webster Ronnie Bailey Sue Devaney Vinta Morgan",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315775847-dfc1.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "Sadie plots to seduce Caleb in Emmerdale – with murderous twist following",
@@ -555,54 +555,54 @@
     ],
     "STOCKS": [
       {
-        "title": "US stocks fall after hot inflation report as leading AI shares tumble",
-        "link": "https://uk.finance.yahoo.com/news/asian-markets-mixed-tech-firms-025619993.html?.tsrc=rss",
-        "published": "Wed, 14 Oct 2026 20:43:49 +0000",
+        "title": "West Coast Community Bancorp Rings Nasdaq Closing Bell",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/west-coast-community-bancorp-rings-231600413.html?.tsrc=rss",
+        "published": "Wed, 14 Oct 2026 23:16:00 +0000",
         "source": "Yahoo Finance",
         "provider": "YAHOO",
-        "categories": "",
-        "image": ""
-      },
-      {
-        "title": "S&P 500 Ends Longest Streak of Calm Since 2020 as AI Trade Sinks",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/p-500-ends-longest-streak-203621761.html?.tsrc=rss",
-        "published": "Wed, 14 Oct 2026 20:36:21 +0000",
-        "source": "Yahoo Finance",
-        "provider": "YAHOO",
-        "categories": "",
-        "image": ""
-      },
-      {
-        "title": "Compass Announces Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/compass-announces-inducement-grants-under-203000922.html?.tsrc=rss",
-        "published": "Wed, 14 Oct 2026 20:30:00 +0000",
-        "source": "Yahoo Finance",
-        "provider": "YAHOO",
-        "categories": "",
-        "image": ""
-      },
-      {
-        "title": "Stock Market Today: Nasdaq Dives On Rate Hike Jitters, AI Woes; Taiwan Semi Earnings On Deck",
-        "link": "https://uk.finance.yahoo.com/m/a9aa7eaa-2df2-3f6f-b548-5269d49f67bc/stock-market-today%3A-nasdaq.html?.tsrc=rss",
-        "published": "Wed, 14 Oct 2026 20:27:58 +0000",
-        "source": "Yahoo Finance",
-        "provider": "YAHOO",
-        "categories": "",
-        "image": ""
-      },
-      {
-        "title": "Nasdaq ends sharply lower as hot inflation data stirs rate-hike worries",
-        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMDkzb0Zhb0ExSzhlSnR6c25HbzdpY2g1djVFZ1R4eVktaWtCZ2gya1lEdHpzcHlEM1VITE1Pdlc1MmlDclhQQmxOWC13NXdXZjhPOEYtUnc3bm80eThIZ0lEam8tN0hXV3kxNnhob3g5OHFxNHd5VzJsTks4SzlJR0JRVE5LZ2JMbXhYNFhvOC1yTUJ5bWFEN0JWTFdpaFkxN2c?oc=5",
-        "published": "Wed, 14 Oct 2026 20:19:18 GMT",
-        "source": "Reuters",
-        "provider": "REUTERS",
         "categories": "",
         "image": ""
       },
       {
         "title": "US inflation heats up in September; Fed rate hike this month back on table",
         "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNX3hkV3J5em1xWWY4V0hQODFTamFtU3NvdkpPRUUzMGY0TnlKaVlneXZPc0J6bFpWdDZWb2hLRkZZaHhZVElDSXNFbGNYMVVBRGR6c1RlNDA4cEhkMEcwck5VMFRtZ1QxOFJqNTkyaGJzWWFLSXp2Z0l1Z19vMDh5bGd6N1FJSkJFR2tZUXd1UWUzeVlvZi1xNTVONk00ejJ5cE0xSGY4THFsaUo0RGxPV3dpaW4tbEZseUE?oc=5",
-        "published": "Wed, 14 Oct 2026 17:25:53 GMT",
+        "published": "Wed, 14 Oct 2026 21:45:35 GMT",
+        "source": "Reuters",
+        "provider": "REUTERS",
+        "categories": "",
+        "image": ""
+      },
+      {
+        "title": "BC-Select Stock Indices",
+        "link": "https://finance.yahoo.com/markets/world-indices/articles/bc-select-stock-indices-213013568.html?.tsrc=rss",
+        "published": "Wed, 14 Oct 2026 21:30:13 +0000",
+        "source": "Yahoo Finance",
+        "provider": "YAHOO",
+        "categories": "",
+        "image": ""
+      },
+      {
+        "title": "Western Midstream (WES) Stock Moves -1.10%: What You Should Know",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/western-midstream-wes-stock-moves-211505854.html?.tsrc=rss",
+        "published": "Wed, 14 Oct 2026 21:15:05 +0000",
+        "source": "Yahoo Finance",
+        "provider": "YAHOO",
+        "categories": "",
+        "image": ""
+      },
+      {
+        "title": "Pacific Biosciences of California (PACB) Declines More Than Market: Some Information for Investors",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/pacific-biosciences-california-pacb-declines-211504689.html?.tsrc=rss",
+        "published": "Wed, 14 Oct 2026 21:15:04 +0000",
+        "source": "Yahoo Finance",
+        "provider": "YAHOO",
+        "categories": "",
+        "image": ""
+      },
+      {
+        "title": "Perella Weinberg, Piper Sandler abandon merger talks, source says",
+        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZ0pSWl9ScDFtYldwRWYyeHgtWC1LaTNRRTBYRndoUHk5bVdkS2lSVHMtYWh6WEpvSTQyR2paRURhVk02cUNpeGttWTk4eEZxMDNWcWU0SGN0Tl9lYm0zanZlTTJfTmdUNGhZUVpVbkJONmVQLXBLTVVNMzgzbFV2TXR6S0x1NTdYcWVGVGIwaTNaVkdKOFJYbGJtZjlzY2lkRUNYcExHRHNDaW5ud19ZZWxXMXM5UDNBWHc?oc=5",
+        "published": "Wed, 14 Oct 2026 21:06:14 GMT",
         "source": "Reuters",
         "provider": "REUTERS",
         "categories": "",
@@ -735,7 +735,7 @@
           },
           "YAHOO": {
             "ok": true,
-            "count": 12,
+            "count": 8,
             "retainedPrevious": 0,
             "errors": [
               "https://finance.yahoo.com/news/rssindex: 404 Not Found"
@@ -743,7 +743,7 @@
           },
           "REUTERS": {
             "ok": true,
-            "count": 12,
+            "count": 11,
             "retainedPrevious": 0,
             "errors": [
               "https://www.reuters.com/arc/outboundfeeds/v3/all/?outputType=xml: 404 Not Found"
@@ -1250,6 +1250,24 @@
       "categories": {
         "UK": [
           {
+            "title": "Stopping Pip for ADHD or autism would not make big savings, says thinktank",
+            "link": "https://www.theguardian.com/society/2026/oct/15/pip-ban-adhd-autism-savings-resolution-foundation",
+            "published": "Wed, 14 Oct 2026 23:01:15 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Benefits Mental health Neurodiversity Resolution Foundation State benefits UK news Welfare Society Disability Politics",
+            "image": "https://i.guim.co.uk/img/media/69799fa6d30e1431a91206c44a339ccf44616ea0/1241_0_5993_4797/master/5993.jpg?width=140&quality=85&auto=format&fit=max&s=4321cb85aa4d1c1f300bc5fabedbc0d8"
+          },
+          {
+            "title": "Volodymyr Zelenskyy feels ‘betrayed’ by Donald Trump over Starlink access",
+            "link": "https://www.theguardian.com/world/2026/oct/14/volodymyr-zelenskyy-feels-betrayed-by-donald-trump-over-starlink-access",
+            "published": "Wed, 14 Oct 2026 23:00:08 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Ukraine US news UK news Andy Burnham Volodymyr Zelenskyy Donald Trump World news",
+            "image": "https://i.guim.co.uk/img/media/0a9b1324dd3d818c1d5a0625f6a6afdc7ae245f6/641_0_6405_5127/master/6405.jpg?width=140&quality=85&auto=format&fit=max&s=53efce5be02c377bd93cbf05cae4bc36"
+          },
+          {
             "title": "UK hospitality sector to offer up to 100,000 jobs to young people out of work",
             "link": "https://www.theguardian.com/society/2026/oct/14/uk-hospitality-sector-100000-jobs-young-people-neets",
             "published": "Wed, 14 Oct 2026 21:30:13 GMT",
@@ -1257,15 +1275,6 @@
             "provider": "GUARDIAN",
             "categories": "Youth unemployment Labour Hospitality industry Burger King Mitchells & Butlers Business Unemployment Young people Society Politics UK news",
             "image": "https://i.guim.co.uk/img/media/03535cccea0a9663dfcbda2588ef4a86c6aa1456/508_0_5840_4672/master/5840.jpg?width=140&quality=85&auto=format&fit=max&s=d347a250a059303a29e5d08cde1f9be6"
-          },
-          {
-            "title": "Volodymyr Zelenskyy feels ‘betrayed’ by Donald Trump over Starlink access",
-            "link": "https://www.theguardian.com/world/2026/oct/14/volodymyr-zelenskyy-feels-betrayed-by-donald-trump-over-starlink-access",
-            "published": "Wed, 14 Oct 2026 21:08:52 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Ukraine US news UK news Andy Burnham Volodymyr Zelenskyy Donald Trump World news",
-            "image": "https://i.guim.co.uk/img/media/0a9b1324dd3d818c1d5a0625f6a6afdc7ae245f6/641_0_6405_5127/master/6405.jpg?width=140&quality=85&auto=format&fit=max&s=53efce5be02c377bd93cbf05cae4bc36"
           },
           {
             "title": "Reform UK councillors and candidates filmed making racist and extreme comments",
@@ -1300,7 +1309,7 @@
             "published": "Wed, 14 Oct 2026 17:06:58 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Politics UK news PMQs Andy Burnham Kemi Badenoch Labour Conservatives Ukraine Nigel Farage Reform UK Chagos Islands House of Commons Barack Obama Good Friday agreement Liberal Democrats Ed Davey Scottish independence Scotland Scottish politics John Swinney Volodymyr Zelenskyy Green party Zack Polanski Antisemitism",
+            "categories": "Politics UK news PMQs Andy Burnham Kemi Badenoch Labour Conservatives Ukraine Nigel Farage Reform UK Chagos Islands House of Commons Barack Obama Good Friday agreement Liberal Democrats Ed Davey Scottish independence Scotland Scottish politics John Swinney Volodymyr Zelenskyy Green party Zack Polanski Antisemitism Employment law Cancer",
             "image": "https://i.guim.co.uk/img/media/76ce9b73d51befcddcd5d63bc68b16f2ed89dbfc/686_0_4893_3914/master/4893.jpg?width=140&quality=85&auto=format&fit=max&s=c84e755daa719bc783a2d16a4636f4f1"
           },
           {
@@ -1322,13 +1331,13 @@
             "image": "https://i.guim.co.uk/img/media/80dd7b222e94052acb2e4d70e79fda18c8f91248/713_0_4870_3896/master/4870.jpg?width=140&quality=85&auto=format&fit=max&s=a44911f150c5451a978d76480eec95a2"
           },
           {
-            "title": "Plan unveiled to increase share of land farmed organically in England to 10%",
-            "link": "https://www.theguardian.com/environment/2026/oct/14/land-farmed-organically-england-share-10-pc-2036-plan-food-climate",
-            "published": "Wed, 14 Oct 2026 16:49:15 GMT",
+            "title": "The eyes have it: Reform politician’s ‘smart glasses’ prompt calls for ban in Westminster",
+            "link": "https://www.theguardian.com/technology/2026/oct/14/smart-glasses-ai-technology-reform-senedd-westminster-ban",
+            "published": "Wed, 14 Oct 2026 16:43:27 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Farming UK news England Angela Eagle Politics Organics Environment Food Climate crisis Rural affairs",
-            "image": "https://i.guim.co.uk/img/media/c3a911c9ccf6a6e1e4f95fd0946ec6f2546394e0/864_0_4336_3471/master/4336.jpg?width=140&quality=85&auto=format&fit=max&s=a408a8e04217c5a0345a3b370f5b0ece"
+            "categories": "Wearable technology Welsh politics Reform UK Technology policy House of Commons Privacy Politics Wales UK news Technology",
+            "image": "https://i.guim.co.uk/img/media/4c63fd3569598d1424cf7662c053ed995980c8e5/285_0_1350_1080/master/1350.jpg?width=140&quality=85&auto=format&fit=max&s=37f0eac17e8aa21c3ce4e7ea567d6b56"
           },
           {
             "title": "Palantir and Sadiq Khan drop legal battle over Met contract",
@@ -1365,15 +1374,6 @@
             "provider": "GUARDIAN",
             "categories": "Trade policy Brexit Douglas Alexander Labour Foreign policy Politics UK news European Union International trade Business Economics Europe World news Economic policy India",
             "image": "https://i.guim.co.uk/img/media/0e7efe7a00d8a9e46de07a3e55fb70f6c91aed5b/259_123_1165_932/master/1165.jpg?width=140&quality=85&auto=format&fit=max&s=c2254e4491676882bf42bc1404524c3e"
-          },
-          {
-            "title": "UK government apologises for past burials of stillborn babies in mass graves",
-            "link": "https://www.theguardian.com/uk-news/2026/oct/14/uk-government-apologises-stillborn-babies-mass-graves",
-            "published": "Wed, 14 Oct 2026 11:42:22 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "UK news Bereavement Yvette Cooper NHS Merseyside England Society Women Politics Death and dying Pregnancy North of England",
-            "image": "https://i.guim.co.uk/img/media/78a21ecee0f48c29c02fea7505b8534cdd7b0529/2016_1114_5435_4350/master/5435.jpg?width=140&quality=85&auto=format&fit=max&s=fac0959a624faccfb3911ecf7162a9c5"
           },
           {
             "title": "Could AI ‘change the stakes’ in the development of bioweapons?",
@@ -1567,13 +1567,40 @@
             "image": "https://i.guim.co.uk/img/media/9b1bc334f5fc5243721e7b1a8d59c7c49217b34c/326_0_6827_5464/master/6827.jpg?width=140&quality=85&auto=format&fit=max&s=84187bd51cc0b5c5f914dbb263ecbdb4"
           },
           {
-            "title": "Australian politics live: Labor defiant on private health rebate for over 65s; AEC warns about ‘emerging’ risk of AI in voting",
+            "title": "Australian politics live: Labor and Coalition reject bill to stop incarcerated women being shackled in childbirth; Wells tables social media reform",
             "link": "https://www.theguardian.com/australia-news/live/2026/oct/15/anthony-albanese-labor-pauline-hanson-monoculture-victorian-election-coalition-angus-taylor-ntwnfb",
-            "published": "Wed, 14 Oct 2026 21:33:42 GMT",
+            "published": "Wed, 14 Oct 2026 23:39:23 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Australia news Australian politics Australian economy Business Health Australian education Australian immigration and asylum Australian foreign policy Coalition Liberal party Labor party Independents Australian Greens One Nation",
-            "image": "https://i.guim.co.uk/img/media/dc7d2a3df8a7b755abd748a356c2a7b627765b13/0_0_5511_4411/master/5511.jpg?width=140&quality=85&auto=format&fit=max&s=fefffe00bf9f10df29e1029efbef79a1"
+            "categories": "Australia news Australian politics Australian economy Business Health Australian education Australian immigration and asylum Australian foreign policy Coalition Liberal party Labor party Independents Australian Greens One Nation Private health insurance Jacqui Lambie Tax",
+            "image": "https://i.guim.co.uk/img/media/cd242f750ed19e0190499d8d922c385b5e2f5935/688_0_6880_5504/master/6880.jpg?width=140&quality=85&auto=format&fit=max&s=6ad78417fc0a2420ffadefb5249d5291"
+          },
+          {
+            "title": "Paddington: The Musical is coming to Sydney in 2027",
+            "link": "https://www.theguardian.com/stage/2026/oct/15/paddington-the-musical-sydney-australia-2027",
+            "published": "Wed, 14 Oct 2026 23:34:02 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Australian theatre Stage Culture Sydney Australia news Paddington Michael Bond Children and teenagers",
+            "image": "https://i.guim.co.uk/img/media/5f3331fa1ba36805ad86f69facb5be5b02a9d8a4/231_0_2083_1667/master/2083.jpg?width=140&quality=85&auto=format&fit=max&s=9579e0f0a81f778a343ea2a082ed215a"
+          },
+          {
+            "title": "Illegal tobacco increasingly hard to spot, with some fakes featuring Australian health warnings",
+            "link": "https://www.theguardian.com/australia-news/2026/oct/15/black-market-tobacco-fakes-australian-health-warning",
+            "published": "Wed, 14 Oct 2026 23:32:14 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Australia news Smoking Organised crime Crime - Australia Tobacco industry",
+            "image": "https://i.guim.co.uk/img/media/a5d893e6fc98353d063571345c1b9737c5714ccf/334_0_2014_1612/master/2014.jpg?width=140&quality=85&auto=format&fit=max&s=633b5fd290dd30cd50a24aa8ac0cf9da"
+          },
+          {
+            "title": "Sydney hospital patient charged with attempted murder after allegedly setting fellow patient alight",
+            "link": "https://www.theguardian.com/australia-news/2026/oct/15/sydney-hospital-patient-charged-attempted-murder-royal-prince-of-wales-ntwnfb",
+            "published": "Wed, 14 Oct 2026 23:30:16 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "New South Wales Australia news",
+            "image": "https://i.guim.co.uk/img/media/7b779b9091d0fe2fb4e53024283b29ab4cdd1b09/683_0_4597_3676/master/4597.jpg?width=140&quality=85&auto=format&fit=max&s=7fc44a10dac72c211eb909c7d15288ae"
           },
           {
             "title": "Child safety officer incorrectly assessed Elizabeth Struhs as ‘safe’ day after she was admitted to hospital in coma",
@@ -1583,36 +1610,18 @@
             "provider": "GUARDIAN",
             "categories": "Queensland Australia news Crime - Australia",
             "image": "https://i.guim.co.uk/img/media/4f45123c0d103781f7cb5dc2ba43bfa0b98fda10/0_92_1100_880/master/1100.jpg?width=140&quality=85&auto=format&fit=max&s=a3ec0e659afe52735bb30398729dfaf6"
-          },
-          {
-            "title": "Labor’s bill to cut private health insurance rebate blocked by Greens over pensioner carve-out",
-            "link": "https://www.theguardian.com/australia-news/2026/oct/14/labors-bill-to-cut-private-health-insurance-rebate-blocked-by-greens-over-pensioner-carve-out",
-            "published": "Wed, 14 Oct 2026 07:59:53 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Australian politics Australian Greens Labor party Health Australia news",
-            "image": "https://i.guim.co.uk/img/media/43abd0d3743d7701422debb507d594b886a5115a/195_184_3931_3145/master/3931.jpg?width=140&quality=85&auto=format&fit=max&s=c5703501aa272f6de208ffe55069b352"
-          },
-          {
-            "title": "Video recording device found in cabin of HMAS Leeuwin navy ship in Cairns",
-            "link": "https://www.theguardian.com/australia-news/2026/oct/14/video-recording-device-found-in-cabin-of-hmas-leeuwin-navy-ship-in-cairns",
-            "published": "Wed, 14 Oct 2026 07:19:06 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Royal Australian Navy Australian military Cairns Australia news Jacqui Lambie Queensland",
-            "image": "https://i.guim.co.uk/img/media/98d448ae505f5429bb15574a19d2212a28b995b8/369_0_2444_1955/master/2444.jpg?width=140&quality=85&auto=format&fit=max&s=e17c484cc2367d0f881f1e2bfd628166"
-          },
-          {
-            "title": "Trade minister says Coalition MPs walked out of meeting on EU trade deal – as it happened",
-            "link": "https://www.theguardian.com/australia-news/live/2026/oct/14/treasurer-jim-chalmers-labor-one-nation-pauline-hanson-one-nation-gas-reservation-scheme-ntwnfb",
-            "published": "Wed, 14 Oct 2026 07:01:02 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Australia news Australian politics Australian economy Business Health Australian education Australian immigration and asylum Australian foreign policy Labor party One Nation Coalition",
-            "image": "https://i.guim.co.uk/img/media/d65db3eb009eb8059fe402d24c61977195853411/451_0_4511_3609/master/4511.jpg?width=140&quality=85&auto=format&fit=max&s=ad0a02cf72607ad0af37580aebfc8053"
           }
         ],
         "POLITICS": [
+          {
+            "title": "Stopping Pip for ADHD or autism would not make big savings, says thinktank",
+            "link": "https://www.theguardian.com/society/2026/oct/15/pip-ban-adhd-autism-savings-resolution-foundation",
+            "published": "Wed, 14 Oct 2026 23:01:15 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Benefits Mental health Neurodiversity Resolution Foundation State benefits UK news Welfare Society Disability Politics",
+            "image": "https://i.guim.co.uk/img/media/69799fa6d30e1431a91206c44a339ccf44616ea0/1241_0_5993_4797/master/5993.jpg?width=140&quality=85&auto=format&fit=max&s=4321cb85aa4d1c1f300bc5fabedbc0d8"
+          },
           {
             "title": "UK hospitality sector to offer up to 100,000 jobs to young people out of work",
             "link": "https://www.theguardian.com/society/2026/oct/14/uk-hospitality-sector-100000-jobs-young-people-neets",
@@ -1637,7 +1646,7 @@
             "published": "Wed, 14 Oct 2026 17:06:58 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Politics UK news PMQs Andy Burnham Kemi Badenoch Labour Conservatives Ukraine Nigel Farage Reform UK Chagos Islands House of Commons Barack Obama Good Friday agreement Liberal Democrats Ed Davey Scottish independence Scotland Scottish politics John Swinney Volodymyr Zelenskyy Green party Zack Polanski Antisemitism",
+            "categories": "Politics UK news PMQs Andy Burnham Kemi Badenoch Labour Conservatives Ukraine Nigel Farage Reform UK Chagos Islands House of Commons Barack Obama Good Friday agreement Liberal Democrats Ed Davey Scottish independence Scotland Scottish politics John Swinney Volodymyr Zelenskyy Green party Zack Polanski Antisemitism Employment law Cancer",
             "image": "https://i.guim.co.uk/img/media/76ce9b73d51befcddcd5d63bc68b16f2ed89dbfc/686_0_4893_3914/master/4893.jpg?width=140&quality=85&auto=format&fit=max&s=c84e755daa719bc783a2d16a4636f4f1"
           },
           {
@@ -1666,15 +1675,6 @@
             "provider": "GUARDIAN",
             "categories": "Farming UK news England Angela Eagle Politics Organics Environment Food Climate crisis Rural affairs",
             "image": "https://i.guim.co.uk/img/media/c3a911c9ccf6a6e1e4f95fd0946ec6f2546394e0/864_0_4336_3471/master/4336.jpg?width=140&quality=85&auto=format&fit=max&s=a408a8e04217c5a0345a3b370f5b0ece"
-          },
-          {
-            "title": "The eyes have it: Reform politician’s ‘smart glasses’ prompt calls for ban in Westminster",
-            "link": "https://www.theguardian.com/technology/2026/oct/14/smart-glasses-ai-technology-reform-senedd-westminster-ban",
-            "published": "Wed, 14 Oct 2026 16:43:27 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Wearable technology Welsh politics Reform UK Technology policy House of Commons Privacy Politics Wales UK news Technology",
-            "image": "https://i.guim.co.uk/img/media/4c63fd3569598d1424cf7662c053ed995980c8e5/285_0_1350_1080/master/1350.jpg?width=140&quality=85&auto=format&fit=max&s=37f0eac17e8aa21c3ce4e7ea567d6b56"
           },
           {
             "title": "The Guardian view on Trump’s deal with Putin: grim and grubby, but not gamechanging | Editorial",
@@ -1904,6 +1904,15 @@
             "image": "https://i.guim.co.uk/img/media/ed62391476cf888240cd6a1f638bde36baf9fcc9/0_17_2957_2365/master/2957.jpg?width=140&quality=85&auto=format&fit=max&s=38d56bc6b4416e1cf78914232882263b"
           },
           {
+            "title": "OpenAI’s London staff receive average of £2.3m per person annually",
+            "link": "https://www.theguardian.com/technology/2026/oct/14/openai-london-staff-earnings-2million-per-person",
+            "published": "Wed, 14 Oct 2026 19:15:14 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "OpenAI Technology ChatGPT AI (artificial intelligence) Money London UK news",
+            "image": "https://i.guim.co.uk/img/media/6e3f91a7c491ffbb06b0d75f239e2786a37ee2e3/450_0_2915_2333/master/2915.jpg?width=140&quality=85&auto=format&fit=max&s=45ef221d694807bf66fe5f37fffa77bb"
+          },
+          {
             "title": "EU to limit Chinese hybrid vehicle imports to 350,000 a year",
             "link": "https://www.theguardian.com/environment/2026/oct/12/eu-deal-china-limit-imports-hybrid-electric-vehicles",
             "published": "Mon, 12 Oct 2026 11:23:55 GMT",
@@ -1929,15 +1938,6 @@
             "provider": "GUARDIAN",
             "categories": "Italy Wine Food & drink industry World news Europe Business",
             "image": "https://i.guim.co.uk/img/media/b4c06b45cb313d13051e7a902481a5ec8abd1b3b/545_0_3547_2837/master/3547.jpg?width=140&quality=85&auto=format&fit=max&s=820deea42e7cad4ed78f5e940a4b76fc"
-          },
-          {
-            "title": "Canada’s Weston family buys Boots for $8.9bn",
-            "link": "https://www.theguardian.com/business/2026/oct/07/canada-weston-family-buys-boots-uk",
-            "published": "Wed, 07 Oct 2026 15:12:09 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Boots Retail industry Mergers and acquisitions Private equity Business UK news",
-            "image": "https://i.guim.co.uk/img/media/21442718d370dfc1c92efe6f09144d93fb01fd5b/227_0_2917_2333/master/2917.jpg?width=140&quality=85&auto=format&fit=max&s=9828766f879c73cc65bb1730096be34c"
           },
           {
             "title": "When her ‘soul cat’ died, she was bereft. Now she designs memorial jewelry to help others with pet loss",
@@ -2032,6 +2032,15 @@
             "image": "https://i.guim.co.uk/img/media/93cc0e130431b9824f3c533c1d51b2d82c72ae3d/543_0_3333_2668/master/3333.jpg?width=140&quality=85&auto=format&fit=max&s=e93557714a90f4a8c06d2c5f81fc26dc"
           },
           {
+            "title": "Eight states accuse OpenAI of coaching children to harm themselves in lawsuit",
+            "link": "https://www.theguardian.com/technology/2026/oct/14/openai-child-self-harm-lawsuit",
+            "published": "Wed, 14 Oct 2026 21:50:29 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "OpenAI Technology ChatGPT AI (artificial intelligence) Children Children's tech Chatbots Law (US) US news",
+            "image": "https://i.guim.co.uk/img/media/8f1d52dd128124b20d65f31b5f7791fd3dc1e307/560_0_5600_4480/master/5600.jpg?width=140&quality=85&auto=format&fit=max&s=593d1744e9bb0ea8bed0aba037cee5f1"
+          },
+          {
             "title": "OpenAI accuses employee who left for Apple of leaking plans for unreleased device",
             "link": "https://www.theguardian.com/technology/2026/oct/14/openai-apple-employee-leak-lawsuit",
             "published": "Wed, 14 Oct 2026 20:31:15 GMT",
@@ -2039,15 +2048,6 @@
             "provider": "GUARDIAN",
             "categories": "Apple Technology OpenAI AI (artificial intelligence) Intellectual property ChatGPT",
             "image": "https://i.guim.co.uk/img/media/ebf66ef2fc761ca986ec34ee126faa393835c357/479_0_4771_3819/master/4771.jpg?width=140&quality=85&auto=format&fit=max&s=49598467932deaad38c34b1c32751dc9"
-          },
-          {
-            "title": "Eight states accuse OpenAI of coaching children to harm themselves in lawsuit",
-            "link": "https://www.theguardian.com/technology/2026/oct/14/openai-child-self-harm-lawsuit",
-            "published": "Wed, 14 Oct 2026 20:26:30 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "OpenAI Technology ChatGPT AI (artificial intelligence) Children Children's tech Chatbots Law (US) US news",
-            "image": "https://i.guim.co.uk/img/media/8f1d52dd128124b20d65f31b5f7791fd3dc1e307/560_0_5600_4480/master/5600.jpg?width=140&quality=85&auto=format&fit=max&s=593d1744e9bb0ea8bed0aba037cee5f1"
           },
           {
             "title": "OpenAI’s London staff receive average of £2.3m per person annually",
@@ -2534,13 +2534,13 @@
             "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316422332-cd70.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Liverpool youngster picks out ‘unbelievable’ teammate after first Champions League goal",
-            "link": "https://metro.co.uk/2026/10/14/liverpool-youngster-picks-unbelievable-teammate-first-champions-league-goal-29709862/",
-            "published": "Wed, 14 Oct 2026 20:44:43 +0000",
+            "title": "Lisandro Martinez makes feelings clear by releasing statement on bombshell interview",
+            "link": "https://metro.co.uk/2026/10/14/lisandro-martinez-makes-feelings-clear-statement-bombshell-interview-29709894/",
+            "published": "Wed, 14 Oct 2026 22:16:38 +0000",
             "source": "Metro",
             "provider": "METRO",
-            "categories": "Football Sport Andoni Iraola Bradley Barcola Champions League Liverpool FC",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316637097-b89f.jpg?quality=90&strip=all&w=646"
+            "categories": "Football Sport Champions League Lisandro Martinez Manchester United",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/08/GettyImages-2291327630-0c65.jpg?quality=90&strip=all&w=646"
           }
         ],
         "WORLD": [
@@ -2970,18 +2970,27 @@
             "provider": "METRO",
             "categories": "Snooker Sport Ronnie O'Sullivan",
             "image": "https://metro.co.uk/wp-content/uploads/2026/08/SEI_309649501-87b2.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Strictly’s Delta Goodrem shares health update after injury that could take weeks to heal",
-            "link": "https://metro.co.uk/2026/10/14/strictlys-delta-goodrem-shares-update-injury-take-weeks-hea-29708962/",
-            "published": "Wed, 14 Oct 2026 15:04:45 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Entertainment TV BBC Strictly Come Dancing",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316601478-3765-e1791988933268.jpg?quality=90&strip=all&w=646"
           }
         ],
         "TECH": [
+          {
+            "title": "Castlevania: Belmont’s Curse review – the origin of Metroidvania",
+            "link": "https://metro.co.uk/2026/10/15/castlevania-belmonts-curse-review-origin-metroidvania-29708869/",
+            "published": "Thu, 15 Oct 2026 00:00:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment Gaming Games news Games reviews Konami Nintendo Switch Games PC Games PlayStation 5 Xbox Series X",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316601940-ad96.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Daily horoscope October 15 2026: Today’s predictions for your star sign",
+            "link": "https://metro.co.uk/2026/10/15/daily-horoscope-october-15-2026-predictions-star-sign-29700972/",
+            "published": "Wed, 14 Oct 2026 23:01:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Horoscopes Lifestyle Aquarius Aries Astrology Cancer (star sign) Capricorn Gemini Leo Libra Pisces Sagittarius Scorpio Taurus Virgo",
+            "image": "https://metro.co.uk/wp-content/uploads/2023/04/new-horoscope-2023-02-a5db.gif?w=646"
+          },
           {
             "title": "Moment OpenAI engineer ‘caught looking at spy device he left in top secret room’",
             "link": "https://metro.co.uk/2026/10/14/moment-openai-engineer-caught-looking-spy-device-left-top-secret-room-29709668/",
@@ -3147,15 +3156,6 @@
             "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310675699-5e78.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Ronnie reveals heartbreaking reason he can’t have sex with Debbie on Coronation Street",
-            "link": "https://metro.co.uk/2026/10/14/coronation-streets-ronnie-reveals-heartbreaking-reason-cant-sleep-debbie-29696803/",
-            "published": "Wed, 14 Oct 2026 21:00:00 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Coronation Street Soaps Debbie Webster Ronnie Bailey Sue Devaney Vinta Morgan",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315775847-dfc1.jpg?quality=90&strip=all&w=646"
-          },
-          {
             "title": "Evil Sadie casts a spell in Emmerdale as she ups campaign to steal Caleb from Ruby",
             "link": "https://metro.co.uk/2026/10/14/emmerdales-sadie-casts-a-spell-ups-campaign-steal-caleb-ruby-29703846/",
             "published": "Wed, 14 Oct 2026 21:00:00 +0000",
@@ -3163,6 +3163,15 @@
             "provider": "METRO",
             "categories": "Emmerdale Soaps Beth Cordingly Caleb Miligan Patsy Kensit Ruby Miligan Sadie King William Ash",
             "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315776020-c350.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Ronnie reveals heartbreaking reason he can’t have sex with Debbie on Coronation Street",
+            "link": "https://metro.co.uk/2026/10/14/coronation-streets-ronnie-reveals-heartbreaking-reason-cant-sleep-debbie-29696803/",
+            "published": "Wed, 14 Oct 2026 21:00:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Coronation Street Soaps Debbie Webster Ronnie Bailey Sue Devaney Vinta Morgan",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315775847-dfc1.jpg?quality=90&strip=all&w=646"
           },
           {
             "title": "Sadie plots to seduce Caleb in Emmerdale – with murderous twist following",
@@ -3199,11 +3208,11 @@
         },
         "BUSINESS": {
           "ok": true,
-          "count": 20
+          "count": 19
         },
         "TECH": {
           "ok": true,
-          "count": 2
+          "count": 4
         },
         "ENTERTAINMENT": {
           "ok": true,
@@ -3320,108 +3329,72 @@
         "STOCK_MARKET": [],
         "STOCKS": [
           {
-            "title": "US stocks fall after hot inflation report as leading AI shares tumble",
-            "link": "https://uk.finance.yahoo.com/news/asian-markets-mixed-tech-firms-025619993.html?.tsrc=rss",
-            "published": "Wed, 14 Oct 2026 20:43:49 +0000",
+            "title": "West Coast Community Bancorp Rings Nasdaq Closing Bell",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/west-coast-community-bancorp-rings-231600413.html?.tsrc=rss",
+            "published": "Wed, 14 Oct 2026 23:16:00 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
             "image": ""
           },
           {
-            "title": "S&P 500 Ends Longest Streak of Calm Since 2020 as AI Trade Sinks",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/p-500-ends-longest-streak-203621761.html?.tsrc=rss",
-            "published": "Wed, 14 Oct 2026 20:36:21 +0000",
+            "title": "BC-Select Stock Indices",
+            "link": "https://finance.yahoo.com/markets/world-indices/articles/bc-select-stock-indices-213013568.html?.tsrc=rss",
+            "published": "Wed, 14 Oct 2026 21:30:13 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
             "image": ""
           },
           {
-            "title": "Compass Announces Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/compass-announces-inducement-grants-under-203000922.html?.tsrc=rss",
-            "published": "Wed, 14 Oct 2026 20:30:00 +0000",
+            "title": "Western Midstream (WES) Stock Moves -1.10%: What You Should Know",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/western-midstream-wes-stock-moves-211505854.html?.tsrc=rss",
+            "published": "Wed, 14 Oct 2026 21:15:05 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
             "image": ""
           },
           {
-            "title": "Stock Market Today: Nasdaq Dives On Rate Hike Jitters, AI Woes; Taiwan Semi Earnings On Deck",
-            "link": "https://uk.finance.yahoo.com/m/a9aa7eaa-2df2-3f6f-b548-5269d49f67bc/stock-market-today%3A-nasdaq.html?.tsrc=rss",
-            "published": "Wed, 14 Oct 2026 20:27:58 +0000",
+            "title": "Pacific Biosciences of California (PACB) Declines More Than Market: Some Information for Investors",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/pacific-biosciences-california-pacb-declines-211504689.html?.tsrc=rss",
+            "published": "Wed, 14 Oct 2026 21:15:04 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
             "image": ""
           },
           {
-            "title": "IonQ Stock Tumbles on $2 Billion Equity Offering. Why Other Quantum Names Are Falling Just as Hard.",
-            "link": "https://uk.finance.yahoo.com/m/7618d4b3-66a1-315b-b56d-7fdfa085f75c/ionq-stock-tumbles-on-%242.html?.tsrc=rss",
-            "published": "Wed, 14 Oct 2026 20:27:00 +0000",
+            "title": "SolarEdge Technologies (SEDG) Declines More Than Market: Some Information for Investors",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/solaredge-technologies-sedg-declines-more-211504196.html?.tsrc=rss",
+            "published": "Wed, 14 Oct 2026 21:15:04 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
             "image": ""
           },
           {
-            "title": "Bank of America Slides on $1.21 Billion Fine as Chip Stocks Tumble | Closing Bell",
-            "link": "https://finance.yahoo.com/video/bank-america-slides-1-21-202208069.html?.tsrc=rss",
-            "published": "Wed, 14 Oct 2026 20:22:08 +0000",
+            "title": "Onto Innovation (ONTO) Falls More Steeply Than Broader Market: What Investors Need to Know",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/onto-innovation-onto-falls-more-211503066.html?.tsrc=rss",
+            "published": "Wed, 14 Oct 2026 21:15:03 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
             "image": ""
           },
           {
-            "title": "SpaceX Stock Is Down. It’s Due to CoreWeave’s Troubles.",
-            "link": "https://uk.finance.yahoo.com/m/0ceb4e45-57c5-39f5-a2b7-5f4d0311006d/spacex-stock-is-down.-it%E2%80%99s.html?.tsrc=rss",
-            "published": "Wed, 14 Oct 2026 20:21:00 +0000",
+            "title": "Kraft Heinz (KHC) Advances While Market Declines: Some Information for Investors",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/kraft-heinz-khc-advances-while-211503038.html?.tsrc=rss",
+            "published": "Wed, 14 Oct 2026 21:15:03 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
             "image": ""
           },
           {
-            "title": "How major US stock indexes fared Wednesday 10/14/2026",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/major-us-stock-indexes-fared-201908701.html?.tsrc=rss",
-            "published": "Wed, 14 Oct 2026 20:19:08 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "NVE Schedules Conference Call on Second-Quarter Results",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/nve-schedules-conference-call-second-201500623.html?.tsrc=rss",
-            "published": "Wed, 14 Oct 2026 20:15:00 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "AI stocks drop after hot inflation report bolsters bets for Fed rate hikes",
-            "link": "https://www.cnn.com/2026/10/14/investing/us-stocks-ai-chipmakers?.tsrc=rss",
-            "published": "Wed, 14 Oct 2026 20:12:17 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2300173627.jpg?c=16x9&q=w_800,c_fill"
-          },
-          {
-            "title": "These Stocks Break Out As Investors Play Defense. But Watch This.",
-            "link": "https://uk.finance.yahoo.com/m/4e33e166-b8cf-39a1-9b55-7e94a68a4ac2/these-stocks-break-out-as.html?.tsrc=rss",
-            "published": "Wed, 14 Oct 2026 20:10:46 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "S&P 500 Tumbles in Worst Day Since July. Tech is Tanking.",
-            "link": "https://uk.finance.yahoo.com/m/94ea7be2-e63c-3285-bf06-9c73dff22867/s%26p-500-tumbles-in-worst-day.html?.tsrc=rss",
-            "published": "Wed, 14 Oct 2026 20:02:10 +0000",
+            "title": "Garmin (GRMN) Advances While Market Declines: Some Information for Investors",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/garmin-grmn-advances-while-market-211502615.html?.tsrc=rss",
+            "published": "Wed, 14 Oct 2026 21:15:02 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
@@ -3441,7 +3414,7 @@
         },
         "STOCKS": {
           "ok": true,
-          "count": 12,
+          "count": 8,
           "retainedPrevious": 0,
           "errors": [
             "https://finance.yahoo.com/news/rssindex: 404 Not Found"
@@ -3581,18 +3554,18 @@
         ],
         "STOCKS": [
           {
-            "title": "Nasdaq ends sharply lower as hot inflation data stirs rate-hike worries",
-            "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMDkzb0Zhb0ExSzhlSnR6c25HbzdpY2g1djVFZ1R4eVktaWtCZ2gya1lEdHpzcHlEM1VITE1Pdlc1MmlDclhQQmxOWC13NXdXZjhPOEYtUnc3bm80eThIZ0lEam8tN0hXV3kxNnhob3g5OHFxNHd5VzJsTks4SzlJR0JRVE5LZ2JMbXhYNFhvOC1yTUJ5bWFEN0JWTFdpaFkxN2c?oc=5",
-            "published": "Wed, 14 Oct 2026 20:19:18 GMT",
+            "title": "US inflation heats up in September; Fed rate hike this month back on table",
+            "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNX3hkV3J5em1xWWY4V0hQODFTamFtU3NvdkpPRUUzMGY0TnlKaVlneXZPc0J6bFpWdDZWb2hLRkZZaHhZVElDSXNFbGNYMVVBRGR6c1RlNDA4cEhkMEcwck5VMFRtZ1QxOFJqNTkyaGJzWWFLSXp2Z0l1Z19vMDh5bGd6N1FJSkJFR2tZUXd1UWUzeVlvZi1xNTVONk00ejJ5cE0xSGY4THFsaUo0RGxPV3dpaW4tbEZseUE?oc=5",
+            "published": "Wed, 14 Oct 2026 21:45:35 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
             "image": ""
           },
           {
-            "title": "US inflation heats up in September; Fed rate hike this month back on table",
-            "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNX3hkV3J5em1xWWY4V0hQODFTamFtU3NvdkpPRUUzMGY0TnlKaVlneXZPc0J6bFpWdDZWb2hLRkZZaHhZVElDSXNFbGNYMVVBRGR6c1RlNDA4cEhkMEcwck5VMFRtZ1QxOFJqNTkyaGJzWWFLSXp2Z0l1Z19vMDh5bGd6N1FJSkJFR2tZUXd1UWUzeVlvZi1xNTVONk00ejJ5cE0xSGY4THFsaUo0RGxPV3dpaW4tbEZseUE?oc=5",
-            "published": "Wed, 14 Oct 2026 17:25:53 GMT",
+            "title": "Perella Weinberg, Piper Sandler abandon merger talks, source says",
+            "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZ0pSWl9ScDFtYldwRWYyeHgtWC1LaTNRRTBYRndoUHk5bVdkS2lSVHMtYWh6WEpvSTQyR2paRURhVk02cUNpeGttWTk4eEZxMDNWcWU0SGN0Tl9lYm0zanZlTTJfTmdUNGhZUVpVbkJONmVQLXBLTVVNMzgzbFV2TXR6S0x1NTdYcWVGVGIwaTNaVkdKOFJYbGJtZjlzY2lkRUNYcExHRHNDaW5ud19ZZWxXMXM5UDNBWHc?oc=5",
+            "published": "Wed, 14 Oct 2026 21:06:14 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3678,15 +3651,6 @@
             "provider": "REUTERS",
             "categories": "",
             "image": ""
-          },
-          {
-            "title": "S&P 500, Nasdaq end lower as crude prices jump, chip stocks weigh",
-            "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPLTluWFV5cWFfM2xBV243NUduZW80Q3dmYnFLa1Y4Nmhha2RNNHVGTS1sM2NYZ0ZCeWJlazZpSndKOWM0OVUxTmx2M3luSDdpbVgzNnYtanQtb2VkWV9tU2NQaU03ejAxZy1NU1JhWkMwLXRNbmJUY2pWaTBrVE9XbGRXa2VFekh1LTVZbVNGUVRKTVhIU0NnSUZqdXI?oc=5",
-            "published": "Thu, 08 Oct 2026 23:09:38 GMT",
-            "source": "Reuters",
-            "provider": "REUTERS",
-            "categories": "",
-            "image": ""
           }
         ]
       },
@@ -3699,7 +3663,7 @@
         },
         "STOCKS": {
           "ok": true,
-          "count": 12,
+          "count": 11,
           "retainedPrevious": 0,
           "errors": [
             "https://www.reuters.com/arc/outboundfeeds/v3/all/?outputType=xml: 404 Not Found"
@@ -3814,5 +3778,5 @@
       }
     }
   },
-  "stocksUpdated": "2026-10-14T21:47:58.864Z"
+  "stocksUpdated": "2026-10-15T00:04:14.208Z"
 }
