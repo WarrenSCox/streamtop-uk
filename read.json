@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-15T04:50:57.855Z",
+  "updated": "2026-10-15T09:21:21.680Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -23,32 +23,26 @@
       {
         "title": "Threshing Day (Wing and Claw Collection)",
         "author": "Rebecca Yarros",
-        "narrator": "Justis Bolding , Jake Bordeaux , Chase Brown , Frankie Corzo , Giordan Diaz , Teddy Hamilton , Laura Knight Keating , Zion Jang , Nick Mills , Robb Moriera , James Aaron Oh , Anthony Palmini , John Skelley , Jasmin Walker",
+        "narrator": "Justis Bolding , Jake Bordeaux , Chase Brown , Frankie Corzo , Giordan Diaz , Teddy Hamilton , Laura Knight Keating , Zion Jang , Nick Mills , Robb Moreira , James Aaron Oh , Anthony Palmini , John Skelley , Jasmin Walker",
         "image": "https://m.media-amazon.com/images/I/51+hQRgOR2L._SL500_.jpg"
+      },
+      {
+        "title": "Opal",
+        "author": "Patricia Wolf",
+        "narrator": "Adam Fitzgerald",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8b/7d/a4/8b7da422-d5bb-4ae6-68b0-281e42be2cd9/9781471417252.jpg/600x600bb.jpg"
       },
       {
         "title": "Dungeon Crawler Carl",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://covers.openlibrary.org/b/id/15143022-L.jpg"
+        "image": "https://m.media-amazon.com/images/I/51HIZdnqASL._SL500_.jpg"
       },
       {
         "title": "Verity",
         "author": "Colleen Hoover",
         "narrator": "Vanessa Johansson , Amy Landon",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/40/ef/da/40efda88-49f4-a5ec-814c-6703689e539b/9791036624001.jpg/600x600bb.jpg"
-      },
-      {
-        "title": "Her Stepmother's House",
-        "author": "K. L. Slater",
-        "narrator": "Clare Corbett",
-        "image": ""
-      },
-      {
-        "title": "You Will Remember Nothing",
-        "author": "Liv Parkinson",
-        "narrator": "Raffey Cassidy , Tom Alexander , Nico Mirallegro",
-        "image": "https://m.media-amazon.com/images/I/41LjhY18lAL._SL500_.jpg"
+        "image": "https://m.media-amazon.com/images/I/41xU31AS-BL._SL500_.jpg"
       },
       {
         "title": "Carl's Doomsday Scenario",
@@ -57,10 +51,16 @@
         "image": "https://covers.openlibrary.org/b/id/11702962-L.jpg"
       },
       {
-        "title": "Out of the Shadows",
-        "author": "Jay Stratton",
-        "narrator": "Hal Puthoff , Jay Stratton",
-        "image": "https://m.media-amazon.com/images/I/41dggAvbIIL._SL500_.jpg"
+        "title": "The Dungeon Anarchist's Cookbook",
+        "author": "Matt Dinniman",
+        "narrator": "Jeff Hays , The Critical Drinker",
+        "image": "https://covers.openlibrary.org/b/id/15262048-L.jpg"
+      },
+      {
+        "title": "The Let Them Theory",
+        "author": "Mel Robbins",
+        "narrator": "Mel Robbins",
+        "image": "https://covers.openlibrary.org/b/id/15165806-L.jpg"
       }
     ],
     "BOOKS": [
@@ -123,15 +123,15 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-10-15T04:50:57.856Z",
-      "lastSuccessfulRefresh": "2026-10-15T04:50:57.856Z",
+      "checkedAt": "2026-10-15T09:21:21.680Z",
+      "lastSuccessfulRefresh": "2026-10-15T09:21:21.680Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
-      "status": "stale",
-      "checkedAt": "2026-10-15T04:51:07.101Z",
-      "lastSuccessfulRefresh": "2026-10-14T17:57:27.327Z",
-      "reason": "503 https://www.audible.co.uk/charts/best"
+      "status": "healthy",
+      "checkedAt": "2026-10-15T09:21:30.747Z",
+      "lastSuccessfulRefresh": "2026-10-15T09:21:30.747Z",
+      "reason": ""
     }
   }
 }
