@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-16T09:40:23.170Z",
+  "updated": "2026-10-16T11:34:38.745Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -30,7 +30,7 @@
         "title": "Dungeon Crawler Carl",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://covers.openlibrary.org/b/id/15143022-L.jpg"
+        "image": "https://m.media-amazon.com/images/I/51HIZdnqASL._SL500_.jpg"
       },
       {
         "title": "Verity",
@@ -123,15 +123,15 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-10-16T09:40:23.170Z",
-      "lastSuccessfulRefresh": "2026-10-16T09:40:23.170Z",
+      "checkedAt": "2026-10-16T11:34:38.745Z",
+      "lastSuccessfulRefresh": "2026-10-16T11:34:38.745Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
-      "status": "stale",
-      "checkedAt": "2026-10-16T09:40:32.495Z",
-      "lastSuccessfulRefresh": "2026-10-16T04:54:55.162Z",
-      "reason": "503 https://www.audible.co.uk/charts/best"
+      "status": "healthy",
+      "checkedAt": "2026-10-16T11:34:47.212Z",
+      "lastSuccessfulRefresh": "2026-10-16T11:34:47.212Z",
+      "reason": ""
     }
   }
 }
