@@ -1,7 +1,25 @@
 {
-  "updated": "2026-10-15T21:43:57.249Z",
+  "updated": "2026-10-16T00:17:19.273Z",
   "categories": {
     "UK": [
+      {
+        "title": "Wes Streeting urges US to back Ukraine on Washington visit after Starlink row",
+        "link": "https://www.theguardian.com/politics/2026/oct/15/wes-streeting-us-support-ukraine--washington-visit",
+        "published": "Thu, 15 Oct 2026 23:49:57 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Foreign policy Defence policy Wes Streeting Ukraine Russia Europe Pete Hegseth Trump administration US foreign policy US news World news Politics UK news",
+        "image": "https://i.guim.co.uk/img/media/fa916c12bb8bb5bef1de9a9d5159fef58e19da3f/380_80_3307_2647/master/3307.jpg?width=140&quality=85&auto=format&fit=max&s=b282f0d23af321e24b51a491bc144fc2"
+      },
+      {
+        "title": "Antonio Conte sends message to Manchester United over replacing Michael Carrick",
+        "link": "https://metro.co.uk/2026/10/15/antonio-conte-sends-message-man-utd-replacing-michael-carrick-29713558/",
+        "published": "Thu, 15 Oct 2026 22:53:05 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Football Sport Antonio Conte Chelsea FC Chelsea transfer news Manchester United Manchester United Transfer News Premier League Tottenham Hotspur Transfer News and Rumours",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_282461864-1d7e.jpg?quality=90&strip=all&w=646"
+      },
       {
         "title": "Minibus smashes into Eurotunnel train leaving 19 people injured",
         "link": "https://metro.co.uk/2026/10/15/eurotunnel-train-smashes-minibus-multiple-casualties-29713507/",
@@ -48,31 +66,13 @@
         "image": "https://e3.365dm.com/26/10/1920x1080/skynews-deepak-sandhu-xiaoqing-ke_7377816.jpg?20261015195443"
       },
       {
-        "title": "A 4’11” dinosaur ‘more dangerous than a T Rex’ once terrorised the Isle of Wight",
-        "link": "https://metro.co.uk/2026/10/15/a-411-dinosaur-more-dangerous-a-t-rex-terrorised-isle-wight-29713339/",
-        "published": "Thu, 15 Oct 2026 18:38:29 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News UK Dinosaurs Isle of Wight",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316552885-219e.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Dad killed daughter on family ‘bonding trip’ to lake then claimed she had been kidnapped",
-        "link": "https://metro.co.uk/2026/10/15/dad-killed-daughter-bonding-trip-lake-claimed-kidnapped-29713355/",
-        "published": "Thu, 15 Oct 2026 18:11:01 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News US Crime News Murder True Crime",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/frattolin-melina-ny2500643783-247d.jpg?quality=90&strip=all&w=331"
-      },
-      {
-        "title": "Wes Streeting urges US to back Ukraine on Washington visit after Starlink row",
-        "link": "https://www.theguardian.com/politics/2026/oct/15/wes-streeting-us-support-ukraine--washington-visit",
-        "published": "Thu, 15 Oct 2026 18:09:14 GMT",
+        "title": "Russell Brand made alleged rape victim take photos of him half naked, trial told",
+        "link": "https://www.theguardian.com/uk-news/2026/oct/15/russell-brand-jury-alleged-rape-woman-1999-crown-court",
+        "published": "Thu, 15 Oct 2026 18:01:27 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
-        "categories": "Foreign policy Defence policy Wes Streeting Ukraine Russia Europe Pete Hegseth Trump administration US foreign policy US news World news Politics UK news",
-        "image": "https://i.guim.co.uk/img/media/fa916c12bb8bb5bef1de9a9d5159fef58e19da3f/380_80_3307_2647/master/3307.jpg?width=140&quality=85&auto=format&fit=max&s=b282f0d23af321e24b51a491bc144fc2"
+        "categories": "UK news England",
+        "image": "https://i.guim.co.uk/img/media/c41b177162657cfc8aecd864276aa3b13e2fcef0/0_1384_4000_3200/master/4000.jpg?width=140&quality=85&auto=format&fit=max&s=76eeecfcf3007b49624e879537cbf150"
       },
       {
         "title": "Trans patients to be placed on wards according to their birth sex in England",
@@ -95,6 +95,15 @@
     ],
     "WORLD": [
       {
+        "title": "Five dead after school shooting in Oregon",
+        "link": "https://news.sky.com/story/multiple-fatalities-after-school-shooting-in-oregon-nbc-news-reports-13599795",
+        "published": "Fri, 16 Oct 2026 00:09:00 +0100",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/10/1920x1080/skynews-bend-oregon-school_7377941.jpg?20261016001653"
+      },
+      {
         "title": "Neanderthals capable of both violence and care, bones from Iraqi cave suggest",
         "link": "https://news.sky.com/story/neanderthals-capable-of-both-violence-and-care-bones-from-iraqi-cave-suggest-13599736",
         "published": "Thu, 15 Oct 2026 19:25:00 +0100",
@@ -102,6 +111,15 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/10/1920x1080/skynews-neanderthal-natural-history-museum_7377847.jpg?20261015203808"
+      },
+      {
+        "title": "19 injured after Channel Tunnel collision between bus and train",
+        "link": "https://news.sky.com/story/19-injured-after-channel-tunnel-collision-between-bus-and-train-on-french-side-13599710",
+        "published": "Thu, 15 Oct 2026 18:19:00 +0100",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/10/1920x1080/skynews-eurotunnel-channel-tunnel_7377869.jpg?20261015210330"
       },
       {
         "title": "Nicolás Maduro tells New York court new torture allegations are ‘false’",
@@ -158,15 +176,6 @@
         "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316481136-9fb1-e1792056642760.jpg?quality=90&strip=all&w=646"
       },
       {
-        "title": "Eerie orange smog shrouds Indonesian cities",
-        "link": "https://news.sky.com/story/eerie-orange-smog-shrouds-indonesian-cities-13599502",
-        "published": "Thu, 15 Oct 2026 10:06:00 +0100",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/10/1920x1080/skynews-indonesia-fire-smog_7377382.jpg?20261015095256"
-      },
-      {
         "title": "Woman charged after ‘lacing co-worker’s curry with snail poison’",
         "link": "https://metro.co.uk/2026/10/15/woman-charged-lacing-co-workers-curry-snail-poison-29710041/",
         "published": "Thu, 15 Oct 2026 08:32:43 +0000",
@@ -174,18 +183,18 @@
         "provider": "METRO",
         "categories": "News World Australia Court Crime News",
         "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316702434-ccf8.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "School owner arrested after dozens of children killed in roof collapse",
-        "link": "https://news.sky.com/story/at-least-34-children-killed-in-pakistan-school-collapse-13599466",
-        "published": "Thu, 15 Oct 2026 07:21:00 +0100",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/10/1920x1080/skynews-peshawar-pakistan_7377321.jpg?20261015074713"
       }
     ],
     "POLITICS": [
+      {
+        "title": "Wes Streeting urges US to back Ukraine on Washington visit after Starlink row",
+        "link": "https://www.theguardian.com/politics/2026/oct/15/wes-streeting-us-support-ukraine--washington-visit",
+        "published": "Thu, 15 Oct 2026 23:49:57 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Foreign policy Defence policy Wes Streeting Ukraine Russia Europe Pete Hegseth Trump administration US foreign policy US news World news Politics UK news",
+        "image": "https://i.guim.co.uk/img/media/fa916c12bb8bb5bef1de9a9d5159fef58e19da3f/380_80_3307_2647/master/3307.jpg?width=140&quality=85&auto=format&fit=max&s=b282f0d23af321e24b51a491bc144fc2"
+      },
       {
         "title": "France drops opposition to UK being included in ‘Made in Europe’ legislation",
         "link": "https://www.theguardian.com/world/2026/oct/15/france-drops-opposition-to-uk-being-included-in-made-in-europe-legislation",
@@ -203,15 +212,6 @@
         "provider": "GUARDIAN",
         "categories": "Nigel Farage Reform UK Politics UK news Documentary films Far right",
         "image": "https://i.guim.co.uk/img/media/e24c3b4e4243b011cbee7ad838b3b392b3495c1f/573_0_5330_4264/master/5330.jpg?width=140&quality=85&auto=format&fit=max&s=4e09d2a1a61cfaa3daef593ba0c5b2c6"
-      },
-      {
-        "title": "Wes Streeting urges US to back Ukraine on Washington visit after Starlink row",
-        "link": "https://www.theguardian.com/politics/2026/oct/15/wes-streeting-us-support-ukraine--washington-visit",
-        "published": "Thu, 15 Oct 2026 18:09:14 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Foreign policy Defence policy Wes Streeting Ukraine Russia Europe Pete Hegseth Trump administration US foreign policy US news World news Politics UK news",
-        "image": "https://i.guim.co.uk/img/media/fa916c12bb8bb5bef1de9a9d5159fef58e19da3f/380_80_3307_2647/master/3307.jpg?width=140&quality=85&auto=format&fit=max&s=b282f0d23af321e24b51a491bc144fc2"
       },
       {
         "title": "The water torture goes on at Thames. Sector-wide reform isn’t moving much faster | Nils Pratley",
@@ -371,6 +371,33 @@
     ],
     "TECH": [
       {
+        "title": "Games Inbox: Was the GTA 6 launch trailer the last one?",
+        "link": "https://metro.co.uk/2026/10/16/games-inbox-gta-6-launch-trailer-last-one-29713607/",
+        "published": "Fri, 16 Oct 2026 00:10:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Entertainment Gaming Call of Duty Capcom Games Inbox GTA 5 GTA 6 Konami Nintendo Resident Evil Rockstar Games Steam Street Fighter Xbox",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316744544-28ae.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Resident Evil at 30 – ranking every mainline game from 1996 to 2026",
+        "link": "https://metro.co.uk/2026/10/16/resident-evil-30-ranking-every-mainline-game-1996-2026-29684221/",
+        "published": "Fri, 16 Oct 2026 00:00:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Entertainment Gaming Capcom Games news Nintendo Switch Nintendo Switch 2 PC Games PlayStation 4 PlayStation 5 Resident Evil Xbox One Xbox Series X",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEC_315512261-f720.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Daily horoscope October 16 2026: Today’s predictions for your star sign",
+        "link": "https://metro.co.uk/2026/10/16/daily-horoscope-october-16-2026-predictions-star-sign-29701013/",
+        "published": "Thu, 15 Oct 2026 23:01:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Horoscopes Lifestyle Aquarius Aries Astrology Cancer (star sign) Capricorn Gemini Leo Libra Pisces Sagittarius Scorpio Taurus Virgo",
+        "image": "https://metro.co.uk/wp-content/uploads/2023/04/new-horoscope-2023-02-a5db.gif?w=646"
+      },
+      {
         "title": "Neanderthals capable of both violence and care, bones from Iraqi cave suggest",
         "link": "https://news.sky.com/story/neanderthals-capable-of-both-violence-and-care-bones-from-iraqi-cave-suggest-13599736",
         "published": "Thu, 15 Oct 2026 19:25:00 +0100",
@@ -389,15 +416,6 @@
         "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316757396-0931.jpg?quality=90&strip=all&w=646"
       },
       {
-        "title": "Teen killer asked AI for legal advice after knifing ‘gentle’ roommate to death",
-        "link": "https://metro.co.uk/2026/10/15/teen-killer-asked-ai-legal-advice-knifing-gentle-roommate-death-29712844/",
-        "published": "Thu, 15 Oct 2026 16:19:00 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News UK Crime News",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316749790-6a8c.jpg?quality=90&strip=all&w=646"
-      },
-      {
         "title": "How an accelerating Earth led experts to adopt the leap hour",
         "link": "https://www.theguardian.com/science/2026/oct/15/times-up-for-the-leap-second-as-scientists-swap-it-for-the-leap-hour",
         "published": "Thu, 15 Oct 2026 16:16:10 GMT",
@@ -405,15 +423,6 @@
         "provider": "GUARDIAN",
         "categories": "Science France World news Technology",
         "image": "https://i.guim.co.uk/img/media/e8625b862c3605490cdf938ebc9cf85795994976/228_0_4910_3928/master/4910.jpg?width=140&quality=85&auto=format&fit=max&s=037665b8523b71420c0d088ce41ff001"
-      },
-      {
-        "title": "New Steam game wants you to beat it in two hours so you get a refund",
-        "link": "https://metro.co.uk/2026/10/15/new-steam-game-wants-beat-two-hours-get-a-refund-29713009/",
-        "published": "Thu, 15 Oct 2026 16:11:28 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Entertainment Gaming Games news Indie Games PC Games Steam",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316753684-36fb.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "Tech market sell-off deepens amid fears over US inflation and AI debt",
@@ -450,18 +459,18 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/10/1920x1080/skynews-turkey-ancient-hakan-oniz_7376919.png?20261014154451"
-      },
-      {
-        "title": "New dinosaur species discovered in UK after fossil left in drawer for 100 years",
-        "link": "https://news.sky.com/story/new-dinosaur-species-found-after-isle-of-wight-fossil-overlooked-for-a-century-13599144",
-        "published": "Wed, 14 Oct 2026 09:08:00 +0100",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/10/1920x1080/skynews-dinosaur-invictibellatrix-amberina_7376590.jpg?20261014091227"
       }
     ],
     "ENTERTAINMENT": [
+      {
+        "title": "Cleo and Dodger’s sex scandal exposed in Hollyoaks with devastating outcome",
+        "link": "https://metro.co.uk/2026/10/15/cleo-dodgers-sex-scandal-exposed-hollyoaks-devastating-outcome-29712822/",
+        "published": "Thu, 15 Oct 2026 22:59:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Hollyoaks Soaps Cleo McQueen Danny Mac Dodger Savage Jorgie Porter Nadine Mulkerrin Theresa McQueen",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316755027-1388.jpg?quality=90&strip=all&w=646"
+      },
       {
         "title": "Klara and the Sun review – Taika Waititi’s manic pixie dream robot sci-fi is a sentimental mess",
         "link": "https://www.theguardian.com/film/2026/oct/15/klara-and-the-sun-review-taika-waititi-kazuo-ishiguro",
@@ -517,15 +526,6 @@
         "image": "https://i.guim.co.uk/img/media/7528553baf05edd3b792bcba2197a9fa77754cbd/301_0_7200_5760/master/7200.jpg?width=140&quality=85&auto=format&fit=max&s=3201c93c92f925c40181fa6be20c2294"
       },
       {
-        "title": "Jimmy Kimmel on Trump’s AI-generated social media content: ‘I guess maybe he’s bored?’",
-        "link": "https://www.theguardian.com/culture/2026/oct/15/jimmy-kimmel-trump-ai-recap",
-        "published": "Thu, 15 Oct 2026 14:17:21 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Late-night TV roundup Jimmy Kimmel Culture Television & radio TV comedy Comedy Television",
-        "image": "https://i.guim.co.uk/img/media/07ca3c1b723458acb28c9fef5feb62992a06c64d/254_0_1327_1062/master/1327.jpg?width=140&quality=85&auto=format&fit=max&s=a041ee6aa4453bb881f79e4770f0d6c5"
-      },
-      {
         "title": "Nandy 'minded to intervene' in Sky-ITV deal",
         "link": "https://news.sky.com/story/sky-itv-deal-culture-secretary-minded-to-intervene-13599540",
         "published": "Thu, 15 Oct 2026 11:54:00 +0100",
@@ -555,45 +555,36 @@
     ],
     "STOCKS": [
       {
-        "title": "BC-Select Stock Indices",
-        "link": "https://finance.yahoo.com/markets/world-indices/articles/bc-select-stock-indices-213013358.html?.tsrc=rss",
-        "published": "Thu, 15 Oct 2026 21:30:13 +0000",
-        "source": "Yahoo Finance",
-        "provider": "YAHOO",
-        "categories": "",
-        "image": ""
-      },
-      {
         "title": "EXCLUSIVE: Investors temper Anthropic IPO valuation expectations over revenue growth slowdown, sources say",
         "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQRW4tSGppV2U0ZWtvaXBsQmlyaDVVLVFCSmJNMWdmMHpod0FWd25kUXRNQzFvZXJPTmhoQUNvMlFrQzI3NjBQVG9McWFPRHdUODhMbVItOGg4S0N3ZmJ4R2psZVd1aWFZM2M0aEY4R3VaYnFZWUxhOFZiRXAxTnc5UG9hMm1ERGpKbURkX3BWYzQ5UWl3THBFTDhWUWR0SVhUSWJsekpMZjM4OUZRQl9BVmY2djVKRENDSldCSUpOWmdvbHVK?oc=5",
-        "published": "Thu, 15 Oct 2026 21:15:18 GMT",
+        "published": "Thu, 15 Oct 2026 23:27:38 GMT",
         "source": "Reuters",
         "provider": "REUTERS",
         "categories": "",
         "image": ""
       },
       {
-        "title": "TCGX Acquisition Corp. II Announces Pricing of $100,000,000 Initial Public Offering",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/tcgx-acquisition-corp-ii-announces-211300867.html?.tsrc=rss",
-        "published": "Thu, 15 Oct 2026 21:13:00 +0000",
+        "title": "Breaking Down The Big 3 Investing Strategies",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/breaking-down-big-3-investing-225700497.html?.tsrc=rss",
+        "published": "Thu, 15 Oct 2026 22:57:00 +0000",
         "source": "Yahoo Finance",
         "provider": "YAHOO",
         "categories": "",
         "image": ""
       },
       {
-        "title": "Alliant Energy Corporation Declares Quarterly Common Stock Dividend",
-        "link": "https://finance.yahoo.com/energy/articles/alliant-energy-corporation-declares-quarterly-210000780.html?.tsrc=rss",
-        "published": "Thu, 15 Oct 2026 21:00:00 +0000",
+        "title": "Adams Diversified Equity Fund Reports Nine Month Results",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/adams-diversified-equity-fund-reports-215600900.html?.tsrc=rss",
+        "published": "Thu, 15 Oct 2026 21:56:00 +0000",
         "source": "Yahoo Finance",
         "provider": "YAHOO",
         "categories": "",
         "image": ""
       },
       {
-        "title": "Housing stocks are the AI sell-off's winners as bond yields sink",
-        "link": "https://finance.yahoo.com/markets/stocks/article/housing-stocks-are-the-ai-sell-offs-winners-as-bond-yields-sink-204204317.html?.tsrc=rss",
-        "published": "Thu, 15 Oct 2026 20:42:04 +0000",
+        "title": "Adams Natural Resources Fund Reports Nine Month Results",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/adams-natural-resources-fund-reports-215500122.html?.tsrc=rss",
+        "published": "Thu, 15 Oct 2026 21:55:00 +0000",
         "source": "Yahoo Finance",
         "provider": "YAHOO",
         "categories": "",
@@ -643,6 +634,15 @@
         "provider": "MAGPIE",
         "categories": "Growth Shares Investing Articles",
         "image": "https://www.twelfthmagpie.com/wp-content/uploads/2023/03/Budget-1200x675.jpg"
+      },
+      {
+        "title": "US inflation heats up in September; Fed rate hike this month back on table",
+        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNX3hkV3J5em1xWWY4V0hQODFTamFtU3NvdkpPRUUzMGY0TnlKaVlneXZPc0J6bFpWdDZWb2hLRkZZaHhZVElDSXNFbGNYMVVBRGR6c1RlNDA4cEhkMEcwck5VMFRtZ1QxOFJqNTkyaGJzWWFLSXp2Z0l1Z19vMDh5bGd6N1FJSkJFR2tZUXd1UWUzeVlvZi1xNTVONk00ejJ5cE0xSGY4THFsaUo0RGxPV3dpaW4tbEZseUE?oc=5",
+        "published": "Wed, 14 Oct 2026 21:45:35 GMT",
+        "source": "Reuters",
+        "provider": "REUTERS",
+        "categories": "",
+        "image": ""
       }
     ]
   },
@@ -812,7 +812,7 @@
             "image": "https://e3.365dm.com/26/10/1920x1080/skynews-dorking-avenue-manchester_7377583.png?20261015140029"
           },
           {
-            "title": "Wildlife park to reopen after man killed by tiger",
+            "title": "Wildlife park to reopen after man fatally attacked by tiger",
             "link": "https://news.sky.com/story/yorkshire-wildlife-park-to-reopen-after-tiger-attack-13599610",
             "published": "Thu, 15 Oct 2026 14:02:00 +0100",
             "source": "Sky News",
@@ -840,6 +840,24 @@
           }
         ],
         "WORLD": [
+          {
+            "title": "Five dead after school shooting in Oregon",
+            "link": "https://news.sky.com/story/multiple-fatalities-after-school-shooting-in-oregon-nbc-news-reports-13599795",
+            "published": "Fri, 16 Oct 2026 00:09:00 +0100",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/10/1920x1080/skynews-bend-oregon-school_7377941.jpg?20261016001653"
+          },
+          {
+            "title": "19 injured after Channel Tunnel collision between bus and train",
+            "link": "https://news.sky.com/story/19-injured-after-channel-tunnel-collision-between-bus-and-train-on-french-side-13599710",
+            "published": "Thu, 15 Oct 2026 18:19:00 +0100",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/10/1920x1080/skynews-eurotunnel-channel-tunnel_7377869.jpg?20261015210330"
+          },
           {
             "title": "Man and woman arrested after two adults and two children killed in house fire",
             "link": "https://news.sky.com/story/arrests-after-two-adults-and-two-children-killed-in-house-fire-13599096",
@@ -893,15 +911,6 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/10/1920x1080/skynews-serhii-kusnetzow-nord-stream_7376774.jpg?20261014145512"
-          },
-          {
-            "title": "Trump says 'massive' oil, gas and mineral exploration will begin in 'our' Greenland",
-            "link": "https://news.sky.com/story/trump-announces-that-massive-oil-gas-and-mineral-exploration-will-begin-in-greenland-13599119",
-            "published": "Wed, 14 Oct 2026 07:33:00 +0100",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/10/1920x1080/skynews-donald-trump-us_7376561.jpg?20261014083017"
           }
         ],
         "POLITICS": [
@@ -1244,7 +1253,7 @@
         },
         "WORLD": {
           "ok": true,
-          "count": 7
+          "count": 8
         },
         "POLITICS": {
           "ok": true,
@@ -1268,6 +1277,15 @@
       "categories": {
         "UK": [
           {
+            "title": "Wes Streeting urges US to back Ukraine on Washington visit after Starlink row",
+            "link": "https://www.theguardian.com/politics/2026/oct/15/wes-streeting-us-support-ukraine--washington-visit",
+            "published": "Thu, 15 Oct 2026 23:49:57 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Foreign policy Defence policy Wes Streeting Ukraine Russia Europe Pete Hegseth Trump administration US foreign policy US news World news Politics UK news",
+            "image": "https://i.guim.co.uk/img/media/fa916c12bb8bb5bef1de9a9d5159fef58e19da3f/380_80_3307_2647/master/3307.jpg?width=140&quality=85&auto=format&fit=max&s=b282f0d23af321e24b51a491bc144fc2"
+          },
+          {
             "title": "France drops opposition to UK being included in ‘Made in Europe’ legislation",
             "link": "https://www.theguardian.com/world/2026/oct/15/france-drops-opposition-to-uk-being-included-in-made-in-europe-legislation",
             "published": "Thu, 15 Oct 2026 19:28:34 GMT",
@@ -1284,15 +1302,6 @@
             "provider": "GUARDIAN",
             "categories": "Nigel Farage Reform UK Politics UK news Documentary films Far right",
             "image": "https://i.guim.co.uk/img/media/e24c3b4e4243b011cbee7ad838b3b392b3495c1f/573_0_5330_4264/master/5330.jpg?width=140&quality=85&auto=format&fit=max&s=4e09d2a1a61cfaa3daef593ba0c5b2c6"
-          },
-          {
-            "title": "Wes Streeting urges US to back Ukraine on Washington visit after Starlink row",
-            "link": "https://www.theguardian.com/politics/2026/oct/15/wes-streeting-us-support-ukraine--washington-visit",
-            "published": "Thu, 15 Oct 2026 18:09:14 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Foreign policy Defence policy Wes Streeting Ukraine Russia Europe Pete Hegseth Trump administration US foreign policy US news World news Politics UK news",
-            "image": "https://i.guim.co.uk/img/media/fa916c12bb8bb5bef1de9a9d5159fef58e19da3f/380_80_3307_2647/master/3307.jpg?width=140&quality=85&auto=format&fit=max&s=b282f0d23af321e24b51a491bc144fc2"
           },
           {
             "title": "Russell Brand made alleged rape victim take photos of him half naked, trial told",
@@ -1632,6 +1641,15 @@
         ],
         "POLITICS": [
           {
+            "title": "Wes Streeting urges US to back Ukraine on Washington visit after Starlink row",
+            "link": "https://www.theguardian.com/politics/2026/oct/15/wes-streeting-us-support-ukraine--washington-visit",
+            "published": "Thu, 15 Oct 2026 23:49:57 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Foreign policy Defence policy Wes Streeting Ukraine Russia Europe Pete Hegseth Trump administration US foreign policy US news World news Politics UK news",
+            "image": "https://i.guim.co.uk/img/media/fa916c12bb8bb5bef1de9a9d5159fef58e19da3f/380_80_3307_2647/master/3307.jpg?width=140&quality=85&auto=format&fit=max&s=b282f0d23af321e24b51a491bc144fc2"
+          },
+          {
             "title": "France drops opposition to UK being included in ‘Made in Europe’ legislation",
             "link": "https://www.theguardian.com/world/2026/oct/15/france-drops-opposition-to-uk-being-included-in-made-in-europe-legislation",
             "published": "Thu, 15 Oct 2026 19:28:34 GMT",
@@ -1648,15 +1666,6 @@
             "provider": "GUARDIAN",
             "categories": "Nigel Farage Reform UK Politics UK news Documentary films Far right",
             "image": "https://i.guim.co.uk/img/media/e24c3b4e4243b011cbee7ad838b3b392b3495c1f/573_0_5330_4264/master/5330.jpg?width=140&quality=85&auto=format&fit=max&s=4e09d2a1a61cfaa3daef593ba0c5b2c6"
-          },
-          {
-            "title": "Wes Streeting urges US to back Ukraine on Washington visit after Starlink row",
-            "link": "https://www.theguardian.com/politics/2026/oct/15/wes-streeting-us-support-ukraine--washington-visit",
-            "published": "Thu, 15 Oct 2026 18:09:14 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Foreign policy Defence policy Wes Streeting Ukraine Russia Europe Pete Hegseth Trump administration US foreign policy US news World news Politics UK news",
-            "image": "https://i.guim.co.uk/img/media/fa916c12bb8bb5bef1de9a9d5159fef58e19da3f/380_80_3307_2647/master/3307.jpg?width=140&quality=85&auto=format&fit=max&s=b282f0d23af321e24b51a491bc144fc2"
           },
           {
             "title": "Eritrea accuses Shabana Mahmood of ‘political gimmick’ over visa ban threat",
@@ -2507,6 +2516,15 @@
             "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316723763-726f.jpg?quality=90&strip=all&w=646"
           },
           {
+            "title": "Antonio Conte sends message to Manchester United over replacing Michael Carrick",
+            "link": "https://metro.co.uk/2026/10/15/antonio-conte-sends-message-man-utd-replacing-michael-carrick-29713558/",
+            "published": "Thu, 15 Oct 2026 22:53:05 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Football Sport Antonio Conte Chelsea FC Chelsea transfer news Manchester United Manchester United Transfer News Premier League Tottenham Hotspur Transfer News and Rumours",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_282461864-1d7e.jpg?quality=90&strip=all&w=646"
+          },
+          {
             "title": "Lisandro Martinez punished by Manchester United over Jason Wilcox criticism",
             "link": "https://metro.co.uk/2026/10/15/lisandro-martinez-punished-man-utd-jason-wilcox-criticism-29713438/",
             "published": "Thu, 15 Oct 2026 18:45:57 +0000",
@@ -2523,15 +2541,6 @@
             "provider": "METRO",
             "categories": "Food Lifestyle Brixton Gentrification London London Underground",
             "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316714049-de20.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Arsenal ‘hunting’ former Chelsea and Man Utd target as ’emergency’ signing",
-            "link": "https://metro.co.uk/2026/10/15/arsenal-hunting-former-chelsea-man-utd-target-emergency-signing-29712565/",
-            "published": "Thu, 15 Oct 2026 15:26:46 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Football Sport Arsenal Arsenal transfer news Bayern Munich FC Chelsea FC Chelsea transfer news Manchester United Manchester United Transfer News Premier League Transfer News and Rumours",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/Screenshot-2026-10-15-at-16.00.24-12a0.png?w=646"
           }
         ],
         "WORLD": [
@@ -2974,6 +2983,33 @@
         ],
         "TECH": [
           {
+            "title": "Games Inbox: Was the GTA 6 launch trailer the last one?",
+            "link": "https://metro.co.uk/2026/10/16/games-inbox-gta-6-launch-trailer-last-one-29713607/",
+            "published": "Fri, 16 Oct 2026 00:10:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment Gaming Call of Duty Capcom Games Inbox GTA 5 GTA 6 Konami Nintendo Resident Evil Rockstar Games Steam Street Fighter Xbox",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316744544-28ae.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Resident Evil at 30 – ranking every mainline game from 1996 to 2026",
+            "link": "https://metro.co.uk/2026/10/16/resident-evil-30-ranking-every-mainline-game-1996-2026-29684221/",
+            "published": "Fri, 16 Oct 2026 00:00:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment Gaming Capcom Games news Nintendo Switch Nintendo Switch 2 PC Games PlayStation 4 PlayStation 5 Resident Evil Xbox One Xbox Series X",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEC_315512261-f720.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Daily horoscope October 16 2026: Today’s predictions for your star sign",
+            "link": "https://metro.co.uk/2026/10/16/daily-horoscope-october-16-2026-predictions-star-sign-29701013/",
+            "published": "Thu, 15 Oct 2026 23:01:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Horoscopes Lifestyle Aquarius Aries Astrology Cancer (star sign) Capricorn Gemini Leo Libra Pisces Sagittarius Scorpio Taurus Virgo",
+            "image": "https://metro.co.uk/wp-content/uploads/2023/04/new-horoscope-2023-02-a5db.gif?w=646"
+          },
+          {
             "title": "Building the Lego Venetian Neighbourhood may be more fun than holidaying there",
             "link": "https://metro.co.uk/2026/10/15/building-lego-venetian-neighbourhood-may-fun-holidaying-29713130/",
             "published": "Thu, 15 Oct 2026 16:34:20 +0000",
@@ -2999,15 +3035,6 @@
             "provider": "METRO",
             "categories": "Entertainment Gaming Games news Indie Games PC Games Steam",
             "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316753684-36fb.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "People can’t agree on how far back ‘the other day’ actually goes",
-            "link": "https://metro.co.uk/2026/10/15/people-cant-agree-far-back-the-day-actually-goes-29710924/",
-            "published": "Thu, 15 Oct 2026 15:13:30 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Lifestyle Features Reddit Social Media",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316730066-8f85.jpg?quality=90&strip=all&w=646"
           }
         ],
         "ENTERTAINMENT": [
@@ -3147,6 +3174,15 @@
             "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316612143-2974-e1791996606291.jpg?quality=90&strip=all&w=646"
           },
           {
+            "title": "Cleo and Dodger’s sex scandal exposed in Hollyoaks with devastating outcome",
+            "link": "https://metro.co.uk/2026/10/15/cleo-dodgers-sex-scandal-exposed-hollyoaks-devastating-outcome-29712822/",
+            "published": "Thu, 15 Oct 2026 22:59:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Hollyoaks Soaps Cleo McQueen Danny Mac Dodger Savage Jorgie Porter Nadine Mulkerrin Theresa McQueen",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316755027-1388.jpg?quality=90&strip=all&w=646"
+          },
+          {
             "title": "I found the affordable high street versions of Claudia Winkleman’s The Celebrity Traitors outfits",
             "link": "https://metro.co.uk/2026/10/15/get-claudia-winklemans-celebrity-traitors-style-less-29707684/",
             "published": "Thu, 15 Oct 2026 19:00:00 +0000",
@@ -3194,11 +3230,11 @@
         },
         "TECH": {
           "ok": true,
-          "count": 4
+          "count": 6
         },
         "ENTERTAINMENT": {
           "ok": true,
-          "count": 18
+          "count": 19
         }
       }
     },
@@ -3311,6 +3347,33 @@
         "STOCK_MARKET": [],
         "STOCKS": [
           {
+            "title": "Breaking Down The Big 3 Investing Strategies",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/breaking-down-big-3-investing-225700497.html?.tsrc=rss",
+            "published": "Thu, 15 Oct 2026 22:57:00 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "Adams Diversified Equity Fund Reports Nine Month Results",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/adams-diversified-equity-fund-reports-215600900.html?.tsrc=rss",
+            "published": "Thu, 15 Oct 2026 21:56:00 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "Adams Natural Resources Fund Reports Nine Month Results",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/adams-natural-resources-fund-reports-215500122.html?.tsrc=rss",
+            "published": "Thu, 15 Oct 2026 21:55:00 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
             "title": "BC-Select Stock Indices",
             "link": "https://finance.yahoo.com/markets/world-indices/articles/bc-select-stock-indices-213013358.html?.tsrc=rss",
             "published": "Thu, 15 Oct 2026 21:30:13 +0000",
@@ -3320,99 +3383,72 @@
             "image": ""
           },
           {
-            "title": "TCGX Acquisition Corp. II Announces Pricing of $100,000,000 Initial Public Offering",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/tcgx-acquisition-corp-ii-announces-211300867.html?.tsrc=rss",
-            "published": "Thu, 15 Oct 2026 21:13:00 +0000",
+            "title": "American Tower (AMT) Beats Stock Market Upswing: What Investors Need to Know",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/american-tower-amt-beats-stock-211507080.html?.tsrc=rss",
+            "published": "Thu, 15 Oct 2026 21:15:07 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
             "image": ""
           },
           {
-            "title": "Alliant Energy Corporation Declares Quarterly Common Stock Dividend",
-            "link": "https://finance.yahoo.com/energy/articles/alliant-energy-corporation-declares-quarterly-210000780.html?.tsrc=rss",
-            "published": "Thu, 15 Oct 2026 21:00:00 +0000",
+            "title": "T. Rowe Price (TROW) Beats Stock Market Upswing: What Investors Need to Know",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/t-rowe-price-trow-beats-211507432.html?.tsrc=rss",
+            "published": "Thu, 15 Oct 2026 21:15:07 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
             "image": ""
           },
           {
-            "title": "Housing stocks are the AI sell-off's winners as bond yields sink",
-            "link": "https://finance.yahoo.com/markets/stocks/article/housing-stocks-are-the-ai-sell-offs-winners-as-bond-yields-sink-204204317.html?.tsrc=rss",
-            "published": "Thu, 15 Oct 2026 20:42:04 +0000",
+            "title": "Ross Stores (ROST) Outpaces Stock Market Gains: What You Should Know",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/ross-stores-rost-outpaces-stock-211506925.html?.tsrc=rss",
+            "published": "Thu, 15 Oct 2026 21:15:06 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
             "image": ""
           },
           {
-            "title": "EMCOR Group (EME): Why Claude Put 14.5% of Its AI Portfolio in a Data Center Contractor",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/emcor-group-eme-why-claude-203109393.html?.tsrc=rss",
-            "published": "Thu, 15 Oct 2026 20:31:09 +0000",
+            "title": "Phillips 66 (PSX) Stock Sinks As Market Gains: What You Should Know",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/phillips-66-psx-stock-sinks-211506616.html?.tsrc=rss",
+            "published": "Thu, 15 Oct 2026 21:15:06 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
             "image": ""
           },
           {
-            "title": "Stock Market Today: Dow Pops 550 Points As Yields Sink; Dell Sets Off Sell Signals",
-            "link": "https://uk.finance.yahoo.com/m/27f9f9ee-5b06-3a78-a91a-ddc2a33bd2d2/stock-market-today%3A-dow-pops.html?.tsrc=rss",
-            "published": "Thu, 15 Oct 2026 20:30:16 +0000",
+            "title": "MongoDB (MDB) Laps the Stock Market: Here's Why",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/mongodb-mdb-laps-stock-market-211505586.html?.tsrc=rss",
+            "published": "Thu, 15 Oct 2026 21:15:05 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
             "image": ""
           },
           {
-            "title": "US stocks end higher as AI shares stabilize",
-            "link": "https://uk.finance.yahoo.com/news/tech-stock-lead-rout-us-025325864.html?.tsrc=rss",
-            "published": "Thu, 15 Oct 2026 20:29:57 +0000",
+            "title": "Oneok Inc. (OKE) Stock Falls Amid Market Uptick: What Investors Need to Know",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/oneok-inc-oke-stock-falls-211505788.html?.tsrc=rss",
+            "published": "Thu, 15 Oct 2026 21:15:05 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
             "image": ""
           },
           {
-            "title": "Chipmaker sell-off sends investors to other stocks and bonds for safety",
-            "link": "https://www.cnn.com/2026/10/15/business/tech-selloff-nasdaq-ai-intl?.tsrc=rss",
-            "published": "Thu, 15 Oct 2026 20:24:36 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2298297894.jpg?c=16x9&q=w_800,c_fill"
-          },
-          {
-            "title": "How major US stock indexes fared Thursday 10/15/2026",
-            "link": "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-202216834.html?.tsrc=rss",
-            "published": "Thu, 15 Oct 2026 20:22:16 +0000",
+            "title": "Hershey (HSY) Beats Stock Market Upswing: What Investors Need to Know",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/hershey-hsy-beats-stock-market-211504536.html?.tsrc=rss",
+            "published": "Thu, 15 Oct 2026 21:15:04 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
             "image": ""
           },
           {
-            "title": "Chip stocks tumble; Are investors just repositioning?",
-            "link": "https://finance.yahoo.com/video/chip-stocks-tumble-are-investors-just-repositioning-202107103.html?.tsrc=rss",
-            "published": "Thu, 15 Oct 2026 20:21:07 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "Adobe, HubSpot, Workday, Asana, and Workiva Shares Are Soaring, What You Need To Know",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/adobe-hubspot-workday-asana-workiva-201109529.html?.tsrc=rss",
-            "published": "Thu, 15 Oct 2026 20:11:09 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "Frazier Life Sciences Acquisition Corp. II Announces Completion of $75,000,000 Initial Public Offering",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/frazier-life-sciences-acquisition-corp-200500615.html?.tsrc=rss",
-            "published": "Thu, 15 Oct 2026 20:05:00 +0000",
+            "title": "Hamilton Insurance (HG) Beats Stock Market Upswing: What Investors Need to Know",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/hamilton-insurance-hg-beats-stock-211504886.html?.tsrc=rss",
+            "published": "Thu, 15 Oct 2026 21:15:04 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
@@ -3574,7 +3610,7 @@
           {
             "title": "EXCLUSIVE: Investors temper Anthropic IPO valuation expectations over revenue growth slowdown, sources say",
             "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQRW4tSGppV2U0ZWtvaXBsQmlyaDVVLVFCSmJNMWdmMHpod0FWd25kUXRNQzFvZXJPTmhoQUNvMlFrQzI3NjBQVG9McWFPRHdUODhMbVItOGg4S0N3ZmJ4R2psZVd1aWFZM2M0aEY4R3VaYnFZWUxhOFZiRXAxTnc5UG9hMm1ERGpKbURkX3BWYzQ5UWl3THBFTDhWUWR0SVhUSWJsekpMZjM4OUZRQl9BVmY2djVKRENDSldCSUpOWmdvbHVK?oc=5",
-            "published": "Thu, 15 Oct 2026 21:15:18 GMT",
+            "published": "Thu, 15 Oct 2026 23:27:38 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3611,6 +3647,15 @@
             "title": "Perella Weinberg, Piper Sandler abandon merger talks, source says",
             "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZ0pSWl9ScDFtYldwRWYyeHgtWC1LaTNRRTBYRndoUHk5bVdkS2lSVHMtYWh6WEpvSTQyR2paRURhVk02cUNpeGttWTk4eEZxMDNWcWU0SGN0Tl9lYm0zanZlTTJfTmdUNGhZUVpVbkJONmVQLXBLTVVNMzgzbFV2TXR6S0x1NTdYcWVGVGIwaTNaVkdKOFJYbGJtZjlzY2lkRUNYcExHRHNDaW5ud19ZZWxXMXM5UDNBWHc?oc=5",
             "published": "Wed, 14 Oct 2026 21:06:14 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "Eutelsat shares jump as Ukraine flags curbs on Starlink military-grade service",
+            "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVWhWbm1PUEtEQWFtY2lHdjRoWHhiVDdhaHo5U2NoLWMwVXlydnFvYUowbHRHMXNyX2NKSlJQZWY4VTZ1emotSGNkVHZUaEc2OGRJZjhmWFFZbGtVWHBXbzdUdUdJcmRnN2xpOFIxSU5NRzRKZzVtOUNqVXFvNThadVZZa0E0Um5FTUJUMEdhYkV0cjNlemFXUnFrMUViTjljVW9hSGRObGkySjJLcXY5OXBoN3FpQ3ZH?oc=5",
+            "published": "Wed, 14 Oct 2026 18:48:44 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3665,15 +3710,6 @@
             "title": "India benchmark shares fall as inflation woes overshadow RBI support measures",
             "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQenFsbDRhbVJGa21YRV9MV1BuQkhlUGNYVzlhUU5nMmR6NWdnd19ZaU1IWkYwVExZbVVJUWNoR3RNNnlodEpiTUJVelRKQ1I0SUJRQzFlNjl3cUszd0lpbW5KR3BFNnJDUkU5ZGpaRHdUdFFxODJOYmJ3TGp4S2NPMV8tRHdLVk8zTzktaS1Sa1kyUS1EZlNuaDQtN1Rwdmo4dGhIbVM0NUM3ZElSNExNZw?oc=5",
             "published": "Mon, 12 Oct 2026 11:48:59 GMT",
-            "source": "Reuters",
-            "provider": "REUTERS",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "Wall Street's big but narrow rally: 4 in 10 S&P stocks are down this year",
-            "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPOHVFd3RKVURlTy1UV2FEeGZZTmZKT0RmYkxtM0EyTjdLTzhidVdqdVdMV05LX1R5WlpQVGpGMncwTGpPM1Q3amQwVmFSR1k0SmI0aGRIMW5iR21WMFZSbV83dGczZ3hhWURhSWVHMF95cXFGMVRZTmp4dl9hVlZYTGFmLW1ueS0xN21la3FtcHBLdXUwQ0hBSVFEb0Z3TWRLcVNoVjNTMWJnMEtY?oc=5",
-            "published": "Mon, 12 Oct 2026 09:01:43 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3805,5 +3841,5 @@
       }
     }
   },
-  "stocksUpdated": "2026-10-15T21:44:03.419Z"
+  "stocksUpdated": "2026-10-16T00:17:24.095Z"
 }
