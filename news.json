@@ -1,7 +1,25 @@
 {
-  "updated": "2026-10-17T16:37:27.932Z",
+  "updated": "2026-10-17T19:14:12.254Z",
   "categories": {
     "UK": [
+      {
+        "title": "Man, 22, dies after falling from top of the Arc de Triomphe",
+        "link": "https://metro.co.uk/2026/10/17/man-22-dies-falling-top-arc-de-triomphe-29717903/",
+        "published": "Sat, 17 Oct 2026 17:37:42 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News World France Paris",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_92578466-936a.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "London’s major airports race to expand first ahead of 150,000,000 passenger increase by 2040s",
+        "link": "https://metro.co.uk/2026/10/17/londons-major-airports-race-expand-first-ahead-150-000-000-passenger-increase-2040s-29697689/",
+        "published": "Sat, 17 Oct 2026 17:24:26 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News UK Gatwick Airport Heathrow Airport Luton Airport Stansted Airport",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316567449-e437.jpg?quality=90&strip=all&w=646"
+      },
       {
         "title": "Teacher says tiger attack victim had ‘everything going for him’",
         "link": "https://metro.co.uk/2026/10/17/teacher-says-tiger-attack-victim-everything-going-him-29717681/",
@@ -48,15 +66,6 @@
         "image": "https://i.guim.co.uk/img/media/dc2f9d231863c6c126b9760a976294a0dfcf604c/295_0_2948_2359/master/2948.jpg?width=140&quality=85&auto=format&fit=max&s=f8f9b4b01d7cbb737307bed367d0dedf"
       },
       {
-        "title": "Serial killer Rose West, 72, ‘on her last legs’ in prison",
-        "link": "https://metro.co.uk/2026/10/17/serial-killer-rose-west-72-on-last-legs-prison-29717151/",
-        "published": "Sat, 17 Oct 2026 15:38:37 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News UK Fred and Rose West Prisons",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/LG_55076-204d.jpg?quality=90&strip=all&w=646"
-      },
-      {
         "title": "More NHS staff sacked after accessing medical records of Nottingham attack victims",
         "link": "https://news.sky.com/story/more-nhs-staff-sacked-after-accessing-medical-records-of-nottingham-attack-victims-13600282",
         "published": "Sat, 17 Oct 2026 16:30:00 +0100",
@@ -64,15 +73,6 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/09/1920x1080/skynews-grace-kumar-barnaby-webber_7344887.jpg?20260908112157"
-      },
-      {
-        "title": "Reform mayor Luke Campbell investigated for ‘showing colleague naked pictures of himself’",
-        "link": "https://metro.co.uk/2026/10/17/reform-mayor-luke-campbell-investigated-showing-colleague-naked-pictures-himself-29717587/",
-        "published": "Sat, 17 Oct 2026 15:28:41 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News Politics Reform UK",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_241749762-0893.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "Man charged with murder after fatal assault at caravan park",
@@ -95,6 +95,24 @@
     ],
     "WORLD": [
       {
+        "title": "Israeli settlers attack European diplomats and French mayor in West Bank, Belgium says",
+        "link": "https://news.sky.com/story/israeli-settlers-attack-european-diplomats-and-french-mayor-in-west-bank-belgium-says-13600419",
+        "published": "Sat, 17 Oct 2026 18:38:00 +0100",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/10/1920x1080/skynews-westbank-taybeh_7379338.jpg?20261017185135"
+      },
+      {
+        "title": "Man, 22, dies after falling from top of the Arc de Triomphe",
+        "link": "https://metro.co.uk/2026/10/17/man-22-dies-falling-top-arc-de-triomphe-29717903/",
+        "published": "Sat, 17 Oct 2026 17:37:42 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News World France Paris",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_92578466-936a.jpg?quality=90&strip=all&w=646"
+      },
+      {
         "title": "Pensioner goes on a rampage in care home killing woman and injuring two",
         "link": "https://metro.co.uk/2026/10/17/pensioner-goes-a-rampage-care-home-killing-woman-injuring-two-29717438/",
         "published": "Sat, 17 Oct 2026 14:02:46 +0000",
@@ -102,6 +120,15 @@
         "provider": "METRO",
         "categories": "News World Crime News Germany",
         "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316971336-e978.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Man and woman charged with assault and criminal damage after fatal house fire",
+        "link": "https://news.sky.com/story/man-and-woman-charged-with-assault-and-criminal-damage-after-fatal-house-fire-13600228",
+        "published": "Sat, 17 Oct 2026 14:52:00 +0100",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/10/1920x1080/skynews-waterford-fire_7377650.jpg?20261015153331"
       },
       {
         "title": "UK advises against all but essential travel to Saudi Arabia",
@@ -120,15 +147,6 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/10/1920x1080/skynews-pope-rome_7378920.jpg?20261017144556"
-      },
-      {
-        "title": "Three men sentenced to more than 158 years in jail for murders of surfers​",
-        "link": "https://news.sky.com/story/three-men-sentenced-to-more-than-158-years-in-prison-for-murders-of-australian-and-us-surfers-13600108",
-        "published": "Sat, 17 Oct 2026 08:23:00 +0100",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/10/1920x1080/skynews-jake-callum-robinson_7372589.jpg?20261010002747"
       },
       {
         "title": "Mexican judge sentences three men to 158 years in prison for murders of Australian and US surfers​",
@@ -165,27 +183,18 @@
         "provider": "METRO",
         "categories": "News World Australia Sydney",
         "image": "https://metro.co.uk/wp-content/uploads/2026/10/coverimages56084704-8994-e1792144376913.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Police seize robot after it ‘sexually assaulted teenage girl on livestream’",
-        "link": "https://metro.co.uk/2026/10/16/german-police-seize-robot-groped-teenage-girl-livestream-29714217/",
-        "published": "Fri, 16 Oct 2026 08:49:45 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News Weird World Crime News Germany Robots",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316482488-4e48.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Minibus smashes into Eurotunnel train leaving 19 people injured",
-        "link": "https://metro.co.uk/2026/10/15/eurotunnel-train-smashes-minibus-multiple-casualties-29713507/",
-        "published": "Thu, 15 Oct 2026 19:44:47 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News World Calais Channel Tunnel Crash Eurostar France",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316782457-6c25-e1792096833566.jpg?quality=90&strip=all&w=646"
       }
     ],
     "POLITICS": [
+      {
+        "title": "Reform needs to ‘build concentration camps’, aspiring MP admits to undercover journalist",
+        "link": "https://metro.co.uk/2026/10/17/reform-needs-build-concentration-camps-aspiring-mp-admits-undercover-journalist-29717534/",
+        "published": "Sat, 17 Oct 2026 19:00:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News Politics ITV Nigel Farage Racism Reform UK",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310944334-f803.jpg?quality=90&strip=all&w=646"
+      },
       {
         "title": "SNP says campaign for next referendum on independence ‘has already begun’",
         "link": "https://www.theguardian.com/politics/2026/oct/17/snp-campaign-second-referendum-independence-john-swinney",
@@ -230,15 +239,6 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/09/1920x1080/skynews-heathrow-passenger_7345890.jpg?20260909110801"
-      },
-      {
-        "title": "Plan to make firms pay more to train older workers than youth apprentices in England",
-        "link": "https://www.theguardian.com/business/2026/oct/17/make-firms-pay-more-train-older-workers-youth-apprentices-england",
-        "published": "Sat, 17 Oct 2026 07:00:24 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Business Apprenticeships Vocational education Youth unemployment Labour Politics Society Young people Work & careers Education UK news",
-        "image": "https://i.guim.co.uk/img/media/ad1389d51d8c29206fd53426752bc2d1a86af89e/203_0_7200_5760/master/7200.jpg?width=140&quality=85&auto=format&fit=max&s=9852ec89eb09eb65e1102ed17bd8899d"
       },
       {
         "title": "Palestine Action post by wife of PM's adviser being assessed by police",
@@ -463,6 +463,15 @@
     ],
     "ENTERTAINMENT": [
       {
+        "title": "Delta Goodrem breaks down in tears responding to Johannes Radebe on Strictly Come Dancing",
+        "link": "https://metro.co.uk/2026/10/17/delta-goodrem-breaks-message-johannes-radebe-strictly-come-dancing-29717950/",
+        "published": "Sat, 17 Oct 2026 18:30:45 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Entertainment TV Delta Goodrem Emma Willis Johannes Radebe Josh Widdicombe Strictly Come Dancing",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/Screenshot-2026-10-17-at-19.03.54-988a.png?w=646"
+      },
+      {
         "title": "Celebrity Traitors star reveals new plot twist behind Richard E. Grant’s infamous mistake",
         "link": "https://metro.co.uk/2026/10/17/celebrity-traitors-star-reveals-new-plot-twist-behind-richard-e-grants-infamous-mistake-29717769/",
         "published": "Sat, 17 Oct 2026 16:08:23 +0000",
@@ -488,15 +497,6 @@
         "provider": "METRO",
         "categories": "Entertainment TV BBC Ellen DeGeneres Graham Norton",
         "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317003235-dbba.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Lorraine Kelly says ‘daughter will be mortified’ after making sex life confession",
-        "link": "https://metro.co.uk/2026/10/17/lorraine-kelly-says-daughter-will-mortified-making-sex-life-confession-29717463/",
-        "published": "Sat, 17 Oct 2026 14:33:41 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Entertainment Showbiz ITV Lorraine Kelly",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_203768911-dfef.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "Masterplan review – Stanley Tucci is wasted in Amazon’s smooth-brained heist caper",
@@ -555,6 +555,33 @@
     ],
     "STOCKS": [
       {
+        "title": "Earnings Upgrades Put Twilio Stock In Focus",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/earnings-upgrades-put-twilio-stock-180855455.html?.tsrc=rss",
+        "published": "Sat, 17 Oct 2026 18:08:55 +0000",
+        "source": "Yahoo Finance",
+        "provider": "YAHOO",
+        "categories": "",
+        "image": ""
+      },
+      {
+        "title": "Why Harley-Davidson (HOG) Dropped And What Investors Are Watching",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/why-harley-davidson-hog-dropped-171322177.html?.tsrc=rss",
+        "published": "Sat, 17 Oct 2026 17:13:22 +0000",
+        "source": "Yahoo Finance",
+        "provider": "YAHOO",
+        "categories": "",
+        "image": ""
+      },
+      {
+        "title": "By October 2027, could Greggs shares surge to 2,440p? 1 broker thinks so…",
+        "link": "https://www.twelfthmagpie.com/2026/10/17/by-october-2027-could-greggs-shares-surge-to-2440p-1-broker-thinks-so/",
+        "published": "Sat, 17 Oct 2026 16:39:00 +0000",
+        "source": "The Twelfth Magpie",
+        "provider": "MAGPIE",
+        "categories": "Dividend Shares Investing Articles",
+        "image": "https://www.twelfthmagpie.com/wp-content/uploads/2022/10/Breakfast-buffet.jpg"
+      },
+      {
         "title": "The good, the bad and the ugly of the next stock market crash…",
         "link": "https://www.twelfthmagpie.com/2026/10/17/the-good-the-bad-and-the-ugly-of-the-next-stock-market-crash/",
         "published": "Sat, 17 Oct 2026 14:26:00 +0000",
@@ -591,15 +618,6 @@
         "image": ""
       },
       {
-        "title": "2 dividend stocks with P/Es below 9 and yields above 6.5% for an ISA?",
-        "link": "https://www.twelfthmagpie.com/2026/10/17/2-dividend-stocks-with-p-es-below-9-and-yields-above-6-5-for-an-isa/",
-        "published": "Sat, 17 Oct 2026 10:24:49 +0000",
-        "source": "The Twelfth Magpie",
-        "provider": "MAGPIE",
-        "categories": "Dividend Shares Investing Articles",
-        "image": "https://www.twelfthmagpie.com/wp-content/uploads/2021/10/Notes-And-Coins.jpg"
-      },
-      {
         "title": "Investors temper Anthropic IPO valuation expectations over revenue growth slowdown, sources say",
         "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQRW4tSGppV2U0ZWtvaXBsQmlyaDVVLVFCSmJNMWdmMHpod0FWd25kUXRNQzFvZXJPTmhoQUNvMlFrQzI3NjBQVG9McWFPRHdUODhMbVItOGg4S0N3ZmJ4R2psZVd1aWFZM2M0aEY4R3VaYnFZWUxhOFZiRXAxTnc5UG9hMm1ERGpKbURkX3BWYzQ5UWl3THBFTDhWUWR0SVhUSWJsekpMZjM4OUZRQl9BVmY2djVKRENDSldCSUpOWmdvbHVK?oc=5",
         "published": "Sat, 17 Oct 2026 10:10:22 GMT",
@@ -609,36 +627,18 @@
         "image": ""
       },
       {
-        "title": "Penny stock Steppe Cement’s on fire. Is a £1,000 investment worth considering near 40p?",
-        "link": "https://www.twelfthmagpie.com/2026/10/17/penny-stock-steppe-cement-is-on-fire-is-a-1000-investment-worth-considering-near-40p/",
-        "published": "Sat, 17 Oct 2026 09:22:00 +0000",
-        "source": "The Twelfth Magpie",
-        "provider": "MAGPIE",
-        "categories": "Investing Articles Micro-Cap Shares",
-        "image": "https://www.twelfthmagpie.com/wp-content/uploads/2024/07/Portfolio-refresh-1200x800.jpg"
-      },
-      {
-        "title": "After a 93% crash, brokers forecast a spectacular recovery! So could this be one of the best UK shares to buy now?",
-        "link": "https://www.twelfthmagpie.com/2026/10/17/after-a-93-crash-brokers-forecast-a-spectacular-recovery-could-this-be-one-of-the-best-uk-shares-to-buy-now/?.tsrc=rss",
-        "published": "Sat, 17 Oct 2026 06:21:00 +0000",
-        "source": "Yahoo Finance",
-        "provider": "YAHOO",
-        "categories": "",
-        "image": "https://www.twelfthmagpie.com/wp-content/uploads/2024/07/Lake-District-1200x721.jpg"
-      },
-      {
-        "title": "Take Five: Earnings, an election and an MSCI headache",
-        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWXNOV1lOOVZ1RFdoQ21GQ3VQcUJ0Z2ZoWFRPa2dvb3luRlBlNms3R0R5S0ZwMFk5M1RPSzJReGwyaDQ1T3doYUNjWm1ia1EtRzc2MUdlcHJqalg0QV9KdEJFUGI2WTZOOXlaT3BHWTRHU28wNFNEeGJSMzdtb0MzWEVaYmJFc1UtM012OA?oc=5",
-        "published": "Fri, 16 Oct 2026 10:43:07 GMT",
+        "title": "Wall St Week Ahead As AI rally wobbles, stock market's spotlight turns to earnings",
+        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNR0cyVkR4czJqcmtMVHU0c21pVnRHR1h1Q3VFRUdyX1FtSzg1alVJSFRqSmI0al95bGpvRkJpRG1EUy14djN1Y2xWXzlfVC04X2xIcUt4QkROSTR6V01la3plVWVhX202alJTYmhJSXIxQTJrM3VyTVZOVXhmWExqYVFWMVJQWUt3X3VUb0loWEp1SmphZ3E4MDVXS0ZZX3dkSThsTFAtMmEzRHpHMzFxTWhrblZQZFRoT1lFdXN5X3M5Y0dUQ0I5bzBR?oc=5",
+        "published": "Fri, 16 Oct 2026 21:23:05 GMT",
         "source": "Reuters",
         "provider": "REUTERS",
         "categories": "",
         "image": ""
       },
       {
-        "title": "Investors bought stocks and bonds, shed cash in past week, say BofA",
-        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQazJRNXM2d0xERjdpSEtZbExxU3R3M3ZkdEtEb2NGVkxoMEw3VlIzN3JGaXFoSUdWbEpTMWRsTkUyTDlJRHR0aVBaZDJmTG9DQkRfWG5nVENmazN6dFM4VmlXNE5Ed3dqUkF2S1R6Mll2TGhyd0V1TkFHRGduUEZHQWNrbw?oc=5",
-        "published": "Fri, 16 Oct 2026 09:24:09 GMT",
+        "title": "Take Five: Earnings, an election and an MSCI headache",
+        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWXNOV1lOOVZ1RFdoQ21GQ3VQcUJ0Z2ZoWFRPa2dvb3luRlBlNms3R0R5S0ZwMFk5M1RPSzJReGwyaDQ1T3doYUNjWm1ia1EtRzc2MUdlcHJqalg0QV9KdEJFUGI2WTZOOXlaT3BHWTRHU28wNFNEeGJSMzdtb0MzWEVaYmJFc1UtM012OA?oc=5",
+        "published": "Fri, 16 Oct 2026 10:43:07 GMT",
         "source": "Reuters",
         "provider": "REUTERS",
         "categories": "",
@@ -735,7 +735,7 @@
           },
           "YAHOO": {
             "ok": true,
-            "count": 10,
+            "count": 11,
             "retainedPrevious": 0,
             "errors": [
               "https://finance.yahoo.com/news/rssindex: 404 Not Found"
@@ -850,6 +850,15 @@
         ],
         "WORLD": [
           {
+            "title": "Israeli settlers attack European diplomats and French mayor in West Bank, Belgium says",
+            "link": "https://news.sky.com/story/israeli-settlers-attack-european-diplomats-and-french-mayor-in-west-bank-belgium-says-13600419",
+            "published": "Sat, 17 Oct 2026 18:38:00 +0100",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/10/1920x1080/skynews-westbank-taybeh_7379338.jpg?20261017185135"
+          },
+          {
             "title": "Three men sentenced to more than 158 years in jail for murders of surfers​",
             "link": "https://news.sky.com/story/three-men-sentenced-to-more-than-158-years-in-prison-for-murders-of-australian-and-us-surfers-13600108",
             "published": "Sat, 17 Oct 2026 08:23:00 +0100",
@@ -857,6 +866,15 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/10/1920x1080/skynews-jake-callum-robinson_7372589.jpg?20261010002747"
+          },
+          {
+            "title": "Man and woman charged with assault and criminal damage after fatal house fire",
+            "link": "https://news.sky.com/story/man-and-woman-charged-with-assault-and-criminal-damage-after-fatal-house-fire-13600228",
+            "published": "Sat, 17 Oct 2026 14:52:00 +0100",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/10/1920x1080/skynews-waterford-fire_7377650.jpg?20261015153331"
           },
           {
             "title": "Pope Leo leaves hospital after lung cancer surgery, the Vatican says",
@@ -893,15 +911,6 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/10/1920x1080/skynews-waterford-fire_7377650.jpg?20261015153331"
-          },
-          {
-            "title": "Madeleine McCann prime suspect could face new rape trial",
-            "link": "https://news.sky.com/story/christian-b-madeleine-mccann-prime-suspect-could-face-new-rape-trial-as-prosecutors-fight-to-overturn-acquittal-13599922",
-            "published": "Fri, 16 Oct 2026 12:03:00 +0100",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/25/09/1920x1080/skynews-christian-b-court_7036050.jpg?20250929125136"
           }
         ],
         "POLITICS": [
@@ -967,15 +976,6 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/15/05/1920x1080/newmarket-racecourse-guineas-bookmakers-generic_3298014.jpg?20150502142836"
-          },
-          {
-            "title": "Budget 'beerlaterals': How Burnham and Healey really work",
-            "link": "https://news.sky.com/story/budget-beerlaterals-how-burnham-and-healey-really-work-13598838",
-            "published": "Tue, 13 Oct 2026 13:49:00 +0100",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/08/1920x1080/skynews-pasaa-sam-and-anne_7332493.png?20260827102415"
           }
         ],
         "BUSINESS": [
@@ -1151,15 +1151,6 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/08/1920x1080/skynews-artificial-intelligence_7333218.jpg?20260911120951"
-          },
-          {
-            "title": "UK floods taskforce told to start looking at drought",
-            "link": "https://news.sky.com/story/uk-floods-taskforce-told-to-start-looking-at-drought-13597252",
-            "published": "Sun, 11 Oct 2026 00:01:00 +0100",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/10/1920x1080/skynews-flooding-storm-chandra_7373555.jpg?20261010190405"
           }
         ],
         "ENTERTAINMENT": [
@@ -1262,11 +1253,11 @@
         },
         "WORLD": {
           "ok": true,
-          "count": 6
+          "count": 7
         },
         "POLITICS": {
           "ok": true,
-          "count": 8
+          "count": 7
         },
         "BUSINESS": {
           "ok": true,
@@ -1274,7 +1265,7 @@
         },
         "TECH": {
           "ok": true,
-          "count": 10
+          "count": 9
         },
         "ENTERTAINMENT": {
           "ok": true,
@@ -2408,6 +2399,24 @@
       "categories": {
         "UK": [
           {
+            "title": "Man, 22, dies after falling from top of the Arc de Triomphe",
+            "link": "https://metro.co.uk/2026/10/17/man-22-dies-falling-top-arc-de-triomphe-29717903/",
+            "published": "Sat, 17 Oct 2026 17:37:42 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News World France Paris",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_92578466-936a.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "London’s major airports race to expand first ahead of 150,000,000 passenger increase by 2040s",
+            "link": "https://metro.co.uk/2026/10/17/londons-major-airports-race-expand-first-ahead-150-000-000-passenger-increase-2040s-29697689/",
+            "published": "Sat, 17 Oct 2026 17:24:26 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News UK Gatwick Airport Heathrow Airport Luton Airport Stansted Airport",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316567449-e437.jpg?quality=90&strip=all&w=646"
+          },
+          {
             "title": "Teacher says tiger attack victim had ‘everything going for him’",
             "link": "https://metro.co.uk/2026/10/17/teacher-says-tiger-attack-victim-everything-going-him-29717681/",
             "published": "Sat, 17 Oct 2026 16:15:20 +0000",
@@ -2568,27 +2577,18 @@
             "provider": "METRO",
             "categories": "News US Donald Trump United States of America White House",
             "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316904299-f5a1.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Queen’s hilarious charity shop secret revealed by former dressmaker",
-            "link": "https://metro.co.uk/2026/10/16/queens-hilarious-charity-shop-secret-revealed-former-dressmaker-29716313/",
-            "published": "Fri, 16 Oct 2026 17:06:44 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News UK Queen Elizabeth II Royal Family",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316849855-8c4a.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Swim floats sold on Amazon may be putting babies at risk of drowning",
-            "link": "https://metro.co.uk/2026/10/16/swim-floats-sold-amazon-may-putting-babies-risk-drowning-29715928/",
-            "published": "Fri, 16 Oct 2026 16:56:03 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News UK Baby",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316886801-84c8.jpg?quality=90&strip=all&w=646"
           }
         ],
         "WORLD": [
+          {
+            "title": "Man, 22, dies after falling from top of the Arc de Triomphe",
+            "link": "https://metro.co.uk/2026/10/17/man-22-dies-falling-top-arc-de-triomphe-29717903/",
+            "published": "Sat, 17 Oct 2026 17:37:42 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News World France Paris",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_92578466-936a.jpg?quality=90&strip=all&w=646"
+          },
           {
             "title": "Pensioner goes on a rampage in care home killing woman and injuring two",
             "link": "https://metro.co.uk/2026/10/17/pensioner-goes-a-rampage-care-home-killing-woman-injuring-two-29717438/",
@@ -2681,6 +2681,15 @@
           }
         ],
         "POLITICS": [
+          {
+            "title": "Reform needs to ‘build concentration camps’, aspiring MP admits to undercover journalist",
+            "link": "https://metro.co.uk/2026/10/17/reform-needs-build-concentration-camps-aspiring-mp-admits-undercover-journalist-29717534/",
+            "published": "Sat, 17 Oct 2026 19:00:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News Politics ITV Nigel Farage Racism Reform UK",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310944334-f803.jpg?quality=90&strip=all&w=646"
+          },
           {
             "title": "Reform mayor Luke Campbell investigated for ‘showing colleague naked pictures of himself’",
             "link": "https://metro.co.uk/2026/10/17/reform-mayor-luke-campbell-investigated-showing-colleague-naked-pictures-himself-29717587/",
@@ -2851,15 +2860,6 @@
             "provider": "METRO",
             "categories": "News Politics Conservative Party Kemi Badenoch",
             "image": "https://metro.co.uk/wp-content/uploads/2026/10/26138-6e17.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Artist hits out at Tories for ‘using his Andy Burnham cartoon’ on water bottle",
-            "link": "https://metro.co.uk/2026/10/05/artist-hits-tories-using-andy-burnham-cartoon-water-bottle-29678844/",
-            "published": "Mon, 05 Oct 2026 08:42:33 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News Politics Andy Burnham Conservative Party Labour Party",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/26124-bb79.jpg?quality=90&strip=all&w=646"
           }
         ],
         "BUSINESS": [
@@ -3057,6 +3057,15 @@
         ],
         "ENTERTAINMENT": [
           {
+            "title": "Delta Goodrem breaks down in tears responding to Johannes Radebe on Strictly Come Dancing",
+            "link": "https://metro.co.uk/2026/10/17/delta-goodrem-breaks-message-johannes-radebe-strictly-come-dancing-29717950/",
+            "published": "Sat, 17 Oct 2026 18:30:45 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment TV Delta Goodrem Emma Willis Johannes Radebe Josh Widdicombe Strictly Come Dancing",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/Screenshot-2026-10-17-at-19.03.54-988a.png?w=646"
+          },
+          {
             "title": "Celebrity Traitors star reveals new plot twist behind Richard E. Grant’s infamous mistake",
             "link": "https://metro.co.uk/2026/10/17/celebrity-traitors-star-reveals-new-plot-twist-behind-richard-e-grants-infamous-mistake-29717769/",
             "published": "Sat, 17 Oct 2026 16:08:23 +0000",
@@ -3226,15 +3235,6 @@
             "provider": "METRO",
             "categories": "Entertainment Showbiz Selma Blair US Showbiz news",
             "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316458681-386a.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Miranda Hart opens up on her debilitating illness and the Celebrity Traitors ‘challenge’",
-            "link": "https://metro.co.uk/2026/10/16/miranda-hart-opens-debilitating-illness-celebrity-traitors-challenge-29715541/",
-            "published": "Fri, 16 Oct 2026 19:30:00 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Entertainment TV Celebrity Traitors Miranda Hart",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316883670-6e9d-e1792158339152.jpg?quality=90&strip=all&w=646"
           }
         ]
       },
@@ -3245,7 +3245,7 @@
         },
         "WORLD": {
           "ok": true,
-          "count": 10
+          "count": 11
         },
         "POLITICS": {
           "ok": true,
@@ -3374,6 +3374,24 @@
         "STOCK_MARKET": [],
         "STOCKS": [
           {
+            "title": "Earnings Upgrades Put Twilio Stock In Focus",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/earnings-upgrades-put-twilio-stock-180855455.html?.tsrc=rss",
+            "published": "Sat, 17 Oct 2026 18:08:55 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "Why Harley-Davidson (HOG) Dropped And What Investors Are Watching",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/why-harley-davidson-hog-dropped-171322177.html?.tsrc=rss",
+            "published": "Sat, 17 Oct 2026 17:13:22 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
             "title": "These 7 Stocks Are Analyst Favorites For Magnificent Earnings Growth; Eli Lilly Leads Industry",
             "link": "https://uk.finance.yahoo.com/m/2b47c372-177e-3051-aa01-406a8d82b220/these-7-stocks-are-analyst.html?.tsrc=rss",
             "published": "Sat, 17 Oct 2026 12:02:21 +0000",
@@ -3453,15 +3471,6 @@
             "provider": "YAHOO",
             "categories": "",
             "image": ""
-          },
-          {
-            "title": "Blink Charging (BLNK) Declines More Than Market: Some Information for Investors",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/blink-charging-blnk-declines-more-211505446.html?.tsrc=rss",
-            "published": "Fri, 16 Oct 2026 21:15:05 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
           }
         ]
       },
@@ -3477,7 +3486,7 @@
         },
         "STOCKS": {
           "ok": true,
-          "count": 10,
+          "count": 11,
           "retainedPrevious": 0,
           "errors": [
             "https://finance.yahoo.com/news/rssindex: 404 Not Found"
@@ -3626,6 +3635,15 @@
             "image": ""
           },
           {
+            "title": "Wall St Week Ahead As AI rally wobbles, stock market's spotlight turns to earnings",
+            "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNR0cyVkR4czJqcmtMVHU0c21pVnRHR1h1Q3VFRUdyX1FtSzg1alVJSFRqSmI0al95bGpvRkJpRG1EUy14djN1Y2xWXzlfVC04X2xIcUt4QkROSTR6V01la3plVWVhX202alJTYmhJSXIxQTJrM3VyTVZOVXhmWExqYVFWMVJQWUt3X3VUb0loWEp1SmphZ3E4MDVXS0ZZX3dkSThsTFAtMmEzRHpHMzFxTWhrblZQZFRoT1lFdXN5X3M5Y0dUQ0I5bzBR?oc=5",
+            "published": "Fri, 16 Oct 2026 21:23:05 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
             "title": "Take Five: Earnings, an election and an MSCI headache",
             "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWXNOV1lOOVZ1RFdoQ21GQ3VQcUJ0Z2ZoWFRPa2dvb3luRlBlNms3R0R5S0ZwMFk5M1RPSzJReGwyaDQ1T3doYUNjWm1ia1EtRzc2MUdlcHJqalg0QV9KdEJFUGI2WTZOOXlaT3BHWTRHU28wNFNEeGJSMzdtb0MzWEVaYmJFc1UtM012OA?oc=5",
             "published": "Fri, 16 Oct 2026 10:43:07 GMT",
@@ -3638,6 +3656,15 @@
             "title": "Investors bought stocks and bonds, shed cash in past week, say BofA",
             "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQazJRNXM2d0xERjdpSEtZbExxU3R3M3ZkdEtEb2NGVkxoMEw3VlIzN3JGaXFoSUdWbEpTMWRsTkUyTDlJRHR0aVBaZDJmTG9DQkRfWG5nVENmazN6dFM4VmlXNE5Ed3dqUkF2S1R6Mll2TGhyd0V1TkFHRGduUEZHQWNrbw?oc=5",
             "published": "Fri, 16 Oct 2026 09:24:09 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "Global stocks flat as AI and rate fears hit tech",
+            "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE8zSHhMSkR3TXNQeHQwd0pHRXVZU3lzTjYzY2l0ZkVyMWVmbmczQWhqSzhGaEtBSWhKdW5lQ1VIeFI5Y0ZwUzE4dFFGWVRfUzE0Y0RaZlRkWEZSMUlleXp2OTBTd1FCU05vakU1QlA2X3hHcGl2UVk3SnhGUQ?oc=5",
+            "published": "Thu, 15 Oct 2026 21:12:58 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3671,6 +3698,15 @@
             "image": ""
           },
           {
+            "title": "Nasdaq ends sharply lower as hot inflation data stirs rate-hike worries",
+            "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMDkzb0Zhb0ExSzhlSnR6c25HbzdpY2g1djVFZ1R4eVktaWtCZ2gya1lEdHpzcHlEM1VITE1Pdlc1MmlDclhQQmxOWC13NXdXZjhPOEYtUnc3bm80eThIZ0lEam8tN0hXV3kxNnhob3g5OHFxNHd5VzJsTks4SzlJR0JRVE5LZ2JMbXhYNFhvOC1yTUJ5bWFEN0JWTFdpaFkxN2c?oc=5",
+            "published": "Wed, 14 Oct 2026 23:33:39 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
             "title": "US inflation heats up in September; Fed rate hike this month back on table",
             "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNX3hkV3J5em1xWWY4V0hQODFTamFtU3NvdkpPRUUzMGY0TnlKaVlneXZPc0J6bFpWdDZWb2hLRkZZaHhZVElDSXNFbGNYMVVBRGR6c1RlNDA4cEhkMEcwck5VMFRtZ1QxOFJqNTkyaGJzWWFLSXp2Z0l1Z19vMDh5bGd6N1FJSkJFR2tZUXd1UWUzeVlvZi1xNTVONk00ejJ5cE0xSGY4THFsaUo0RGxPV3dpaW4tbEZseUE?oc=5",
             "published": "Wed, 14 Oct 2026 21:45:35 GMT",
@@ -3692,33 +3728,6 @@
             "title": "Gulf markets mixed; Saudi stocks hardest hit on Aramco attack",
             "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNLXZwM3pfUE0yMVJsTzRjTkJmWFIwclNIamJ1Y2xFdmxWV2lpVHZWRDNqdkVLVGRvSV9rWEZXX0Q3cndEWXJNNnFWeVlYWkhzbFRjV19CSlV5M2phQVJSa2pWdXNob0RsSURPb0k2bVh2ZXJnMEJPeUdXYnhDV2FNLVN4QVdLVXpIWjJCTU5BYkVaMTlkQWlzeDI5bW9CU09sRUtsNlNtbjV6UklveDU4ZmNHcGQxT1VLb3BJ?oc=5",
             "published": "Wed, 14 Oct 2026 13:23:39 GMT",
-            "source": "Reuters",
-            "provider": "REUTERS",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "Indian shares end lower as higher oil prices, foreign outflows dent appetite",
-            "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUDFseEc5cVpDQ2FOSndESDFUc3N6VnVMY0c0bS14N2taUmU3cU9CY09HeEVvX014STdGY1pwY05aWXVTemoycUFEbzFLeFdVa2JIZ1Nwc1BUZGxkSXEyeXJvVW5VdFBtM0E3MXVpWll5R3pKU3FMajQzODBYZjhuM1V5cDdOQmlwRmxwWUhkZ2R5a0RKM2YtaU91UkVMYUJsYVJmQVBOU1lra2R6YkZ0bXdn?oc=5",
-            "published": "Wed, 14 Oct 2026 10:11:14 GMT",
-            "source": "Reuters",
-            "provider": "REUTERS",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "Gold eases on strong dollar, oil prices; US inflation data eyed",
-            "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSTdfbFRJUWVBUW5ndjBGSlJ6aGRQYi1saWxfVU5haEdOVXJaNzFuRnlyZ1F6eGVPb2tGYVczeXlRWEI5WmVHeVFGMTVqd2I5dEZCVDNrNDBkS2N1Q2NWWlRQMzhSa3BPMlZnVElqaFhaQkRLWnJrMG1NUnlvYVE5OWZGTXZucUJoaTUzTmxJeS1mUHpRSVVNT2xlRUI5dmtoQmc?oc=5",
-            "published": "Mon, 12 Oct 2026 18:36:35 GMT",
-            "source": "Reuters",
-            "provider": "REUTERS",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "Oil prices rise on Saudi Arabia attacks, overshadowing Trump's diesel deal",
-            "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQM0xoWVo4eTNVMU5uQXk0Rk9WeWlMaWN0TFlDbWwzX1FqNy1iWW5iUzk0REtlMGNVSnlGWkRCb0tySkQwRFZ0NzVDQzRFVk1IcWNqVFIteWpOVTRVM01xblZ0TzN1dWdlNUdYWTRMUUFBOGhwQ2xTYl9NaTF0bmk5UllSanctMGJDT1g3MnVuX1IxTWpwR193RHoyV1BEd2FqOWlDcg?oc=5",
-            "published": "Mon, 12 Oct 2026 18:36:35 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3746,6 +3755,15 @@
     "MAGPIE": {
       "categories": {
         "STOCKS": [
+          {
+            "title": "By October 2027, could Greggs shares surge to 2,440p? 1 broker thinks so…",
+            "link": "https://www.twelfthmagpie.com/2026/10/17/by-october-2027-could-greggs-shares-surge-to-2440p-1-broker-thinks-so/",
+            "published": "Sat, 17 Oct 2026 16:39:00 +0000",
+            "source": "The Twelfth Magpie",
+            "provider": "MAGPIE",
+            "categories": "Dividend Shares Investing Articles",
+            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2022/10/Breakfast-buffet.jpg"
+          },
           {
             "title": "The good, the bad and the ugly of the next stock market crash…",
             "link": "https://www.twelfthmagpie.com/2026/10/17/the-good-the-bad-and-the-ugly-of-the-next-stock-market-crash/",
@@ -3826,15 +3844,6 @@
             "provider": "MAGPIE",
             "categories": "Dividend Shares Investing Articles",
             "image": "https://www.twelfthmagpie.com/wp-content/uploads/2024/02/bank-notes-1200x833.jpg"
-          },
-          {
-            "title": "In 2 years Saga shares have turned £5,000 into £31,000. Can they keep rising?",
-            "link": "https://www.twelfthmagpie.com/2026/10/17/in-2-years-saga-shares-have-turned-5000-into-31000-can-they-keep-rising/",
-            "published": "Sat, 17 Oct 2026 07:37:00 +0000",
-            "source": "The Twelfth Magpie",
-            "provider": "MAGPIE",
-            "categories": "Investing Articles Value Shares",
-            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2026/06/AdobeStock_559686390-1200x800.jpeg"
           }
         ]
       },
@@ -3850,5 +3859,5 @@
       }
     }
   },
-  "stocksUpdated": "2026-10-17T16:37:34.602Z"
+  "stocksUpdated": "2026-10-17T19:14:19.188Z"
 }
