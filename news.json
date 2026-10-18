@@ -1,7 +1,16 @@
 {
-  "updated": "2026-10-17T23:57:30.976Z",
+  "updated": "2026-10-18T04:18:35.015Z",
   "categories": {
     "UK": [
+      {
+        "title": "NHS faces 'more challenging' winter after summer of heatwaves, minister warns",
+        "link": "https://news.sky.com/story/nhs-faces-more-challenging-winter-after-summer-of-heatwaves-yvette-cooper-warns-13600504",
+        "published": "Sun, 18 Oct 2026 01:52:00 +0100",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/08/1920x1080/skynews-nhs-hospital_7313328.jpg?20260803233226"
+      },
       {
         "title": "Yvette Cooper pledges £140m to boost urgent care as NHS faces ‘tough’ winter",
         "link": "https://www.theguardian.com/society/2026/oct/18/yvette-cooper-140m-boost-urgent-care-nhs-tough-winter",
@@ -48,15 +57,6 @@
         "image": "https://i.guim.co.uk/img/media/d4ab1c134c4c8f31bad2e66b87319575193984da/1256_787_1826_1461/master/1826.jpg?width=140&quality=85&auto=format&fit=max&s=2abb77454d54086035cd503990bf8f54"
       },
       {
-        "title": "Reform candidate filmed saying asylum seekers should be put in ‘concentration camps’",
-        "link": "https://www.theguardian.com/politics/2026/oct/17/reform-candidate-filmed-saying-asylum-seekers-should-be-put-in-concentration-camps",
-        "published": "Sat, 17 Oct 2026 19:00:41 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Reform UK Politics Islamophobia ITV UK news",
-        "image": "https://i.guim.co.uk/img/media/1d991d732bb27d9133acb72455c5f4d4e767e6fa/89_0_2500_2000/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=4e51ccbc844207afc6ef486fe0f271e5"
-      },
-      {
         "title": "Man, 22, dies after falling from top of the Arc de Triomphe",
         "link": "https://metro.co.uk/2026/10/17/man-22-dies-falling-top-arc-de-triomphe-29717903/",
         "published": "Sat, 17 Oct 2026 17:37:42 +0000",
@@ -95,12 +95,39 @@
     ],
     "WORLD": [
       {
-        "title": "Ebike rider, 13, charged with sexual touching after girls and women allegedly harassed on northern beaches trails",
+        "title": "‘4,000 people minding our own business’: four decades on, Falklands again face a hostile Argentina",
+        "link": "https://www.theguardian.com/news/ng-interactive/2026/oct/18/4000-people-minding-our-own-business-four-decades-on-falklands-again-face-a-hostile-argentina",
+        "published": "Sun, 18 Oct 2026 04:00:49 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Falkland Islands UK news Americas Argentina World news",
+        "image": "https://i.guim.co.uk/img/media/695b7c54600f1a7aeb665fd7f024c80a6b5330d6/391_162_7606_6086/master/7606.jpg?width=140&quality=85&auto=format&fit=max&s=7e770d17c51c9105e4dc74a829280d48"
+      },
+      {
+        "title": "Indigenous woman shackled to hospital bed while in labour in Queensland",
+        "link": "https://www.theguardian.com/australia-news/2026/oct/18/indigenous-woman-shackled-during-labour-childbirth-queensland-ntwnfb",
+        "published": "Sun, 18 Oct 2026 03:59:02 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Prisons Indigenous incarceration Indigenous Australians Health Australian politics Queensland Australia news",
+        "image": "https://i.guim.co.uk/img/media/eeaa78fab5bd670f07defe9f653fe7d43b508614/683_0_6827_5464/master/6827.jpg?width=140&quality=85&auto=format&fit=max&s=b521a96e84e2110db24800f8a5a57081"
+      },
+      {
+        "title": "‘Serious incident’ at Alberta military base causes deaths and injuries, Canada officials say",
+        "link": "https://www.theguardian.com/world/2026/oct/18/serious-incident-alberta-military-base-deaths-injuries-canada-carney-cfb-wainwright",
+        "published": "Sun, 18 Oct 2026 02:50:29 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Canada Americas",
+        "image": "https://i.guim.co.uk/img/media/b00577f4dd9c40e89cdaed4dc9d1a17ac22996e0/336_0_3664_2931/master/3664.jpg?width=140&quality=85&auto=format&fit=max&s=e6e72ca1ec2787b50d7c04cd5ed8abb5"
+      },
+      {
+        "title": "Ebike rider, 13, charged with sexual touching after girls and women allegedly harassed on northern beaches",
         "link": "https://www.theguardian.com/australia-news/2026/oct/18/sydney-northern-beaches-teenage-ebike-rider-13-charged-sexual-touching-trails-ntwnfb",
         "published": "Sat, 17 Oct 2026 23:53:08 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
-        "categories": "New South Wales Australia news",
+        "categories": "New South Wales Australia news Sydney",
         "image": "https://i.guim.co.uk/img/media/5d3ef148a542eda1fba384c5304087747c009bd4/212_0_4294_3437/master/4294.jpg?width=140&quality=85&auto=format&fit=max&s=e3320d349437156e599cd5bac2c96a2a"
       },
       {
@@ -111,24 +138,6 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/10/1920x1080/skynews-kolkata-india_7379416.jpg?20261017204837"
-      },
-      {
-        "title": "Plover, not a fighter: protected bird 12th man on Tasmanian cricket ground as staff mow around nest",
-        "link": "https://www.theguardian.com/australia-news/2026/oct/18/plover-not-a-fighter-masked-lapwing-nesting-on-tasmanian-cricket-ground-indifferent-as-play-continues",
-        "published": "Sat, 17 Oct 2026 19:00:40 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Tasmania Cricket Birds Sport Australia news Wildlife",
-        "image": "https://i.guim.co.uk/img/media/b8a8dcdafe9f90bfe19a2550a0320b7daf4f29c0/130_0_1666_1333/master/1666.jpg?width=140&quality=85&auto=format&fit=max&s=15fcdac68cb5f150670b1c3a8c07f652"
-      },
-      {
-        "title": "Almost all NSW homes destroyed in black summer bushfires were within 100 metres of flammable vegetation",
-        "link": "https://www.theguardian.com/australia-news/2026/oct/18/nsw-homes-destroyed-in-black-summer-bushfires-in-high-risk-buffer-zone",
-        "published": "Sat, 17 Oct 2026 19:00:40 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Bushfires Australia news Natural disasters Environment New South Wales Wildfires Climate crisis",
-        "image": "https://i.guim.co.uk/img/media/fb7f9558ce032aba14287c04852433e83741ccb5/80_0_2400_1920/master/2400.jpg?width=140&quality=85&auto=format&fit=max&s=cb7f23973fed7aef66da8d019e26f8fd"
       },
       {
         "title": "Israeli settlers attack European diplomats and French mayor in West Bank, Belgium says",
@@ -167,15 +176,6 @@
         "image": "https://e3.365dm.com/26/10/1920x1080/skynews-waterford-fire_7377650.jpg?20261015153331"
       },
       {
-        "title": "Mexican judge sentences three men to 158 years in prison for murders of Australian and US surfers​",
-        "link": "https://www.theguardian.com/australia-news/2026/oct/17/mexican-judge-sentences-three-men-to-158-years-in-prison-for-murders-of-australian-and-us-surfers-ntwnfb",
-        "published": "Sat, 17 Oct 2026 02:52:59 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Mexico Australia news Americas",
-        "image": "https://i.guim.co.uk/img/media/803a6b4b97e168ef99e8d8f6d05ed5c149c09e7f/201_0_2463_1970/master/2463.jpg?width=140&quality=85&auto=format&fit=max&s=63953268ca6673aa7647702fcd6065c4"
-      },
-      {
         "title": "‘We were lost in the desert for five days after one mistake – this is how we stayed alive’",
         "link": "https://metro.co.uk/2026/10/16/we-lost-desert-five-days-one-mistake-this-stayed-alive-29713805/",
         "published": "Fri, 16 Oct 2026 10:05:17 +0000",
@@ -186,6 +186,15 @@
       }
     ],
     "POLITICS": [
+      {
+        "title": "NHS faces 'more challenging' winter after summer of heatwaves, minister warns",
+        "link": "https://news.sky.com/story/nhs-faces-more-challenging-winter-after-summer-of-heatwaves-yvette-cooper-warns-13600504",
+        "published": "Sun, 18 Oct 2026 01:52:00 +0100",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/08/1920x1080/skynews-nhs-hospital_7313328.jpg?20260803233226"
+      },
       {
         "title": "Yvette Cooper pledges £140m to boost urgent care as NHS faces ‘tough’ winter",
         "link": "https://www.theguardian.com/society/2026/oct/18/yvette-cooper-140m-boost-urgent-care-nhs-tough-winter",
@@ -221,15 +230,6 @@
         "provider": "METRO",
         "categories": "News Politics ITV Nigel Farage Racism Reform UK",
         "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310944334-f803.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "SNP says campaign for next referendum on independence ‘has already begun’",
-        "link": "https://www.theguardian.com/politics/2026/oct/17/snp-campaign-second-referendum-independence-john-swinney",
-        "published": "Sat, 17 Oct 2026 15:45:53 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Scottish National party (SNP) John Swinney Scottish politics Scotland Politics UK news",
-        "image": "https://i.guim.co.uk/img/media/dc2f9d231863c6c126b9760a976294a0dfcf604c/295_0_2948_2359/master/2948.jpg?width=140&quality=85&auto=format&fit=max&s=f8f9b4b01d7cbb737307bed367d0dedf"
       },
       {
         "title": "Reform mayor Luke Campbell investigated for ‘showing colleague naked pictures of himself’",
@@ -371,6 +371,33 @@
     ],
     "TECH": [
       {
+        "title": "Your star sign’s weekly tarot horoscope reading for October 19 to October 25",
+        "link": "https://metro.co.uk/2026/10/18/weekly-tarot-horoscope-reading-october-19-october-25-2026-29713957/",
+        "published": "Sun, 18 Oct 2026 03:00:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Horoscopes Lifestyle Aquarius Aries Astrology Cancer (star sign) Capricorn Gemini Leo Libra Pisces Sagittarius Scorpio Tarot Taurus Virgo",
+        "image": "https://metro.co.uk/wp-content/uploads/2022/04/SEI_96594073.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "If this is the best year for Star Wars games it’s not for the reason you think – Reader’s Feature",
+        "link": "https://metro.co.uk/2026/10/18/this-best-year-star-wars-games-not-reason-think-readers-feature-29717962/",
+        "published": "Sun, 18 Oct 2026 01:00:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Entertainment Gaming Games news Reader's Feature Star Wars",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/08/SEI_308706499-1f23.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "I know an obvious way to go for the next mainline Zelda game – Reader’s Feature",
+        "link": "https://metro.co.uk/2026/10/18/know-obvious-way-go-next-mainline-zelda-game-readers-feature-29718091/",
+        "published": "Sun, 18 Oct 2026 00:00:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Entertainment Gaming Nintendo Reader's Feature The Legend of Zelda",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/07/SEI_246133704-313e.jpg?quality=90&strip=all&w=646"
+      },
+      {
         "title": "Daily horoscope October 18 2026: Today’s predictions for your star sign",
         "link": "https://metro.co.uk/2026/10/18/daily-horoscope-october-18-2026-predictions-star-sign-29701025/",
         "published": "Sat, 17 Oct 2026 23:01:00 +0000",
@@ -380,15 +407,6 @@
         "image": "https://metro.co.uk/wp-content/uploads/2023/04/new-horoscope-2023-02-a5db.gif?w=646"
       },
       {
-        "title": "Train passenger urges others to avoid £40 fine over ‘stupid rule’",
-        "link": "https://metro.co.uk/2026/10/17/train-passenger-urges-others-avoid-40-fine-stupid-rule-29717565/",
-        "published": "Sat, 17 Oct 2026 15:58:04 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Lifestyle Travel London Ryanair TikTok",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317016691-f7a8.jpg?quality=90&strip=all&w=646"
-      },
-      {
         "title": "Why Britain should reject the lure of cheap – and scary – Chinese AI",
         "link": "https://www.theguardian.com/business/2026/oct/17/why-britain-should-reject-the-lure-of-cheap-and-scary-chinese-ai",
         "published": "Sat, 17 Oct 2026 15:00:33 GMT",
@@ -396,15 +414,6 @@
         "provider": "GUARDIAN",
         "categories": "International trade AI (artificial intelligence) Economics China UK news Asia Pacific Business Technology World news Automotive industry UK security and counter-terrorism Human rights Trade policy Global economy Economic policy Data and computer security Technology policy Chinese economy",
         "image": "https://i.guim.co.uk/img/media/ed76515ea4f9df6a0b170674679392f87ba2c9ea/531_0_4025_3221/master/4025.jpg?width=140&quality=85&auto=format&fit=max&s=3b88a02580f809a6d160f8960e568a1c"
-      },
-      {
-        "title": "Dopamine websites are the internet’s bleakest new obsession",
-        "link": "https://metro.co.uk/2026/10/17/dopamine-websites-are-the-internets-bleakest-new-obsession-29717533/",
-        "published": "Sat, 17 Oct 2026 14:06:09 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Health Lifestyle Mental health Trends",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/06/dopamine-comp2-5a9a.gif?w=646"
       },
       {
         "title": "The power of AI is worrying senior Labour figures – as is the fear of ‘falling behind the public’",
@@ -450,15 +459,6 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/10/1920x1080/skynews-turkey-ancient-hakan-oniz_7376919.png?20261014154451"
-      },
-      {
-        "title": "Ministers must be honest about Russian threat to UK, says former Foreign Office head",
-        "link": "https://www.theguardian.com/technology/2026/oct/17/russia-threat-uk-former-foreign-office-head-lord-peter-ricketts",
-        "published": "Sat, 17 Oct 2026 10:19:32 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Cyberwar UK news Russia Vladimir Putin UK security and counter-terrorism Cybercrime MI5 Donald Trump",
-        "image": "https://i.guim.co.uk/img/media/8580aa29134c097092b2760c87b5d620add039e7/111_0_455_364/master/455.jpg?width=140&quality=85&auto=format&fit=max&s=ac134d44b6412db0e5ff6bd87c77c7f6"
       }
     ],
     "ENTERTAINMENT": [
@@ -555,9 +555,18 @@
     ],
     "STOCKS": [
       {
+        "title": "Iambic Therapeutics (IAM) Joins The Nasdaq Composite, Is The Stock Already Pricey?",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/iambic-therapeutics-iam-joins-nasdaq-001621139.html?.tsrc=rss",
+        "published": "Sun, 18 Oct 2026 00:16:21 +0000",
+        "source": "Yahoo Finance",
+        "provider": "YAHOO",
+        "categories": "",
+        "image": ""
+      },
+      {
         "title": "Citi says interest rates may matter more for economy than stock valuations",
-        "link": "https://finance.yahoo.com/economy/policy/articles/citi-says-interest-rates-may-202416020.html?.tsrc=rss",
-        "published": "Sat, 17 Oct 2026 20:24:16 +0000",
+        "link": "https://uk.finance.yahoo.com/news/citi-says-interest-rates-may-202610546.html?.tsrc=rss",
+        "published": "Sat, 17 Oct 2026 20:26:10 +0000",
         "source": "Yahoo Finance",
         "provider": "YAHOO",
         "categories": "",
@@ -609,15 +618,6 @@
         "image": "https://www.twelfthmagpie.com/wp-content/uploads/2026/07/AdobeStock_602591470-1200x800.jpeg"
       },
       {
-        "title": "These 7 Stocks Are Analyst Favorites For Magnificent Earnings Growth; Eli Lilly Leads Industry",
-        "link": "https://uk.finance.yahoo.com/m/2b47c372-177e-3051-aa01-406a8d82b220/these-7-stocks-are-analyst.html?.tsrc=rss",
-        "published": "Sat, 17 Oct 2026 12:02:21 +0000",
-        "source": "Yahoo Finance",
-        "provider": "YAHOO",
-        "categories": "",
-        "image": ""
-      },
-      {
         "title": "Investors temper Anthropic IPO valuation expectations over revenue growth slowdown, sources say",
         "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQRW4tSGppV2U0ZWtvaXBsQmlyaDVVLVFCSmJNMWdmMHpod0FWd25kUXRNQzFvZXJPTmhoQUNvMlFrQzI3NjBQVG9McWFPRHdUODhMbVItOGg4S0N3ZmJ4R2psZVd1aWFZM2M0aEY4R3VaYnFZWUxhOFZiRXAxTnc5UG9hMm1ERGpKbURkX3BWYzQ5UWl3THBFTDhWUWR0SVhUSWJsekpMZjM4OUZRQl9BVmY2djVKRENDSldCSUpOWmdvbHVK?oc=5",
         "published": "Sat, 17 Oct 2026 10:10:22 GMT",
@@ -627,18 +627,18 @@
         "image": ""
       },
       {
-        "title": "Wall St Week Ahead As AI rally wobbles, stock market's spotlight turns to earnings",
-        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNR0cyVkR4czJqcmtMVHU0c21pVnRHR1h1Q3VFRUdyX1FtSzg1alVJSFRqSmI0al95bGpvRkJpRG1EUy14djN1Y2xWXzlfVC04X2xIcUt4QkROSTR6V01la3plVWVhX202alJTYmhJSXIxQTJrM3VyTVZOVXhmWExqYVFWMVJQWUt3X3VUb0loWEp1SmphZ3E4MDVXS0ZZX3dkSThsTFAtMmEzRHpHMzFxTWhrblZQZFRoT1lFdXN5X3M5Y0dUQ0I5bzBR?oc=5",
-        "published": "Fri, 16 Oct 2026 21:23:05 GMT",
+        "title": "Take Five: Earnings, an election and an MSCI headache",
+        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWXNOV1lOOVZ1RFdoQ21GQ3VQcUJ0Z2ZoWFRPa2dvb3luRlBlNms3R0R5S0ZwMFk5M1RPSzJReGwyaDQ1T3doYUNjWm1ia1EtRzc2MUdlcHJqalg0QV9KdEJFUGI2WTZOOXlaT3BHWTRHU28wNFNEeGJSMzdtb0MzWEVaYmJFc1UtM012OA?oc=5",
+        "published": "Fri, 16 Oct 2026 10:43:07 GMT",
         "source": "Reuters",
         "provider": "REUTERS",
         "categories": "",
         "image": ""
       },
       {
-        "title": "Take Five: Earnings, an election and an MSCI headache",
-        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWXNOV1lOOVZ1RFdoQ21GQ3VQcUJ0Z2ZoWFRPa2dvb3luRlBlNms3R0R5S0ZwMFk5M1RPSzJReGwyaDQ1T3doYUNjWm1ia1EtRzc2MUdlcHJqalg0QV9KdEJFUGI2WTZOOXlaT3BHWTRHU28wNFNEeGJSMzdtb0MzWEVaYmJFc1UtM012OA?oc=5",
-        "published": "Fri, 16 Oct 2026 10:43:07 GMT",
+        "title": "Investors bought stocks and bonds, shed cash in past week, say BofA",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQazJRNXM2d0xERjdpSEtZbExxU3R3M3ZkdEtEb2NGVkxoMEw3VlIzN3JGaXFoSUdWbEpTMWRsTkUyTDlJRHR0aVBaZDJmTG9DQkRfWG5nVENmazN6dFM4VmlXNE5Ed3dqUkF2S1R6Mll2TGhyd0V1TkFHRGduUEZHQWNrbw?oc=5",
+        "published": "Fri, 16 Oct 2026 09:24:09 GMT",
         "source": "Reuters",
         "provider": "REUTERS",
         "categories": "",
@@ -758,6 +758,15 @@
       "categories": {
         "UK": [
           {
+            "title": "NHS faces 'more challenging' winter after summer of heatwaves, minister warns",
+            "link": "https://news.sky.com/story/nhs-faces-more-challenging-winter-after-summer-of-heatwaves-yvette-cooper-warns-13600504",
+            "published": "Sun, 18 Oct 2026 01:52:00 +0100",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/08/1920x1080/skynews-nhs-hospital_7313328.jpg?20260803233226"
+          },
+          {
             "title": "More NHS staff sacked after accessing medical records of Nottingham attack victims",
             "link": "https://news.sky.com/story/more-nhs-staff-sacked-after-accessing-medical-records-of-nottingham-attack-victims-13600282",
             "published": "Sat, 17 Oct 2026 16:30:00 +0100",
@@ -785,15 +794,6 @@
             "image": "https://e3.365dm.com/26/09/1920x1080/skynews-heathrow-passenger_7345890.jpg?20260909110801"
           },
           {
-            "title": "UK advises against all but essential travel to Saudi Arabia",
-            "link": "https://news.sky.com/story/uk-advises-against-all-but-essential-travel-to-saudi-arabia-amid-houthi-strikes-as-missiles-hit-yemen-airport-13600096",
-            "published": "Sat, 17 Oct 2026 11:21:00 +0100",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/10/1920x1080/skynews-saudi-arabia-yemen_7376684.jpg?20261014113217"
-          },
-          {
             "title": "Daniel Dubois retains his WBO title against Fabio Wardley",
             "link": "https://news.sky.com/story/daniel-dubois-retains-his-wbo-title-against-fabio-wardley-13600222",
             "published": "Sat, 17 Oct 2026 14:28:00 +0100",
@@ -801,6 +801,15 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/10/1920x1080/skynews-daniel-dubois-boxing_7379510.jpg?20261017230241"
+          },
+          {
+            "title": "UK advises against all but essential travel to Saudi Arabia",
+            "link": "https://news.sky.com/story/uk-advises-against-all-but-essential-travel-to-saudi-arabia-amid-houthi-strikes-as-missiles-hit-yemen-airport-13600096",
+            "published": "Sat, 17 Oct 2026 11:21:00 +0100",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/10/1920x1080/skynews-saudi-arabia-yemen_7376684.jpg?20261014113217"
           },
           {
             "title": "Two dead after light aircraft crash",
@@ -837,15 +846,6 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/21/09/1920x1080/skynews-vistry-construction_5503762.jpg?20210907123049"
-          },
-          {
-            "title": "Water bills face £40 hike if sector is downgraded, industry chief warns",
-            "link": "https://news.sky.com/story/water-bills-face-40-hike-if-sector-is-downgraded-industry-chief-warns-13600137",
-            "published": "Sat, 17 Oct 2026 11:21:00 +0100",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/08/1920x1080/skynews-thames-water-water_7319384.jpg?20260812070626"
           }
         ],
         "WORLD": [
@@ -893,15 +893,6 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/10/1920x1080/skynews-pope-rome_7378920.jpg?20261017144556"
-          },
-          {
-            "title": "UK advises against all but essential travel to Saudi Arabia",
-            "link": "https://news.sky.com/story/uk-advises-against-all-but-essential-travel-to-saudi-arabia-amid-houthi-strikes-as-missiles-hit-yemen-airport-13600096",
-            "published": "Sat, 17 Oct 2026 11:21:00 +0100",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/10/1920x1080/skynews-saudi-arabia-yemen_7376684.jpg?20261014113217"
           }
         ],
         "POLITICS": [
@@ -922,6 +913,15 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/09/1920x1080/skynews-heathrow-passenger_7345890.jpg?20260909110801"
+          },
+          {
+            "title": "NHS faces 'more challenging' winter after summer of heatwaves, minister warns",
+            "link": "https://news.sky.com/story/nhs-faces-more-challenging-winter-after-summer-of-heatwaves-yvette-cooper-warns-13600504",
+            "published": "Sun, 18 Oct 2026 01:52:00 +0100",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/08/1920x1080/skynews-nhs-hospital_7313328.jpg?20260803233226"
           },
           {
             "title": "UK to ban three types of extreme pornography next month",
@@ -1235,11 +1235,11 @@
         },
         "WORLD": {
           "ok": true,
-          "count": 6
+          "count": 5
         },
         "POLITICS": {
           "ok": true,
-          "count": 6
+          "count": 7
         },
         "BUSINESS": {
           "ok": true,
@@ -1486,6 +1486,24 @@
             "image": "https://i.guim.co.uk/img/media/1af4719571646d49b58a7ed6e715293e288fb0b4/221_146_6359_5087/master/6359.jpg?width=140&quality=85&auto=format&fit=max&s=c3a3342197ea60869e430d51e4329640"
           },
           {
+            "title": "‘4,000 people minding our own business’: four decades on, Falklands again face a hostile Argentina",
+            "link": "https://www.theguardian.com/news/ng-interactive/2026/oct/18/4000-people-minding-our-own-business-four-decades-on-falklands-again-face-a-hostile-argentina",
+            "published": "Sun, 18 Oct 2026 04:00:49 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Falkland Islands UK news Americas Argentina World news",
+            "image": "https://i.guim.co.uk/img/media/695b7c54600f1a7aeb665fd7f024c80a6b5330d6/391_162_7606_6086/master/7606.jpg?width=140&quality=85&auto=format&fit=max&s=7e770d17c51c9105e4dc74a829280d48"
+          },
+          {
+            "title": "‘Serious incident’ at Alberta military base causes deaths and injuries, Canada officials say",
+            "link": "https://www.theguardian.com/world/2026/oct/18/serious-incident-alberta-military-base-deaths-injuries-canada-carney-cfb-wainwright",
+            "published": "Sun, 18 Oct 2026 02:50:29 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Canada Americas",
+            "image": "https://i.guim.co.uk/img/media/b00577f4dd9c40e89cdaed4dc9d1a17ac22996e0/336_0_3664_2931/master/3664.jpg?width=140&quality=85&auto=format&fit=max&s=e6e72ca1ec2787b50d7c04cd5ed8abb5"
+          },
+          {
             "title": "Mexican judge sentences three men to 158 years in prison for murders of Australian and US surfers​",
             "link": "https://www.theguardian.com/australia-news/2026/oct/17/mexican-judge-sentences-three-men-to-158-years-in-prison-for-murders-of-australian-and-us-surfers-ntwnfb",
             "published": "Sat, 17 Oct 2026 02:52:59 GMT",
@@ -1511,24 +1529,6 @@
             "provider": "GUARDIAN",
             "categories": "Brazil Luiz Inácio Lula da Silva Americas World news Flávio Bolsonaro",
             "image": "https://i.guim.co.uk/img/media/d849b27b6454c97e931470b1c5fe256748d76ce4/377_0_4335_3467/master/4335.jpg?width=140&quality=85&auto=format&fit=max&s=b17977c8e67d5b6e448974d4d7709ddd"
-          },
-          {
-            "title": "‘Opening the lid of a horrible secret’: Jamaicans confront enslavement with taboo-busting stories on screen",
-            "link": "https://www.theguardian.com/news/2026/oct/16/jamaicans-confront-enslavement-taboo-busting-stories-on-screen-possession",
-            "published": "Fri, 16 Oct 2026 10:00:02 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Jamaica World cinema Slavery Reparations and reparative justice Film Caribbean Americas Culture World news Colonialism Race Drama Television",
-            "image": "https://i.guim.co.uk/img/media/6deca24e182f623eee35888b7b353e7ef82d12fe/369_0_2500_2000/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=84e886efdd6ffea90d40a92fb4f182c5"
-          },
-          {
-            "title": "Nicolás Maduro tells New York court new torture allegations are ‘false’",
-            "link": "https://www.theguardian.com/world/2026/oct/15/nicolas-maduro-torture-allegations-cilia-flores",
-            "published": "Thu, 15 Oct 2026 16:38:32 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Nicolás Maduro New York US news Venezuela Torture Americas",
-            "image": "https://i.guim.co.uk/img/media/c84cbecb1aa6b6fc1724842c0b45b41fd1f86315/194_0_2281_1825/master/2281.jpg?width=140&quality=85&auto=format&fit=max&s=102fd4502e5a852a91c7c726a8a4a3e4"
           },
           {
             "title": "No 10 leaves option open to impose Chinese EV tariffs if UK joins EU scheme",
@@ -1576,12 +1576,21 @@
             "image": "https://i.guim.co.uk/img/media/f91346dbfc3a74a003e6aeb4789749685a84ac60/328_0_4558_3646/master/4558.jpg?width=140&quality=85&auto=format&fit=max&s=4bda54c423277f3c568c467fbcd6eeee"
           },
           {
-            "title": "Ebike rider, 13, charged with sexual touching after girls and women allegedly harassed on northern beaches trails",
+            "title": "Indigenous woman shackled to hospital bed while in labour in Queensland",
+            "link": "https://www.theguardian.com/australia-news/2026/oct/18/indigenous-woman-shackled-during-labour-childbirth-queensland-ntwnfb",
+            "published": "Sun, 18 Oct 2026 03:59:02 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Prisons Indigenous incarceration Indigenous Australians Health Australian politics Queensland Australia news",
+            "image": "https://i.guim.co.uk/img/media/eeaa78fab5bd670f07defe9f653fe7d43b508614/683_0_6827_5464/master/6827.jpg?width=140&quality=85&auto=format&fit=max&s=b521a96e84e2110db24800f8a5a57081"
+          },
+          {
+            "title": "Ebike rider, 13, charged with sexual touching after girls and women allegedly harassed on northern beaches",
             "link": "https://www.theguardian.com/australia-news/2026/oct/18/sydney-northern-beaches-teenage-ebike-rider-13-charged-sexual-touching-trails-ntwnfb",
             "published": "Sat, 17 Oct 2026 23:53:08 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "New South Wales Australia news",
+            "categories": "New South Wales Australia news Sydney",
             "image": "https://i.guim.co.uk/img/media/5d3ef148a542eda1fba384c5304087747c009bd4/212_0_4294_3437/master/4294.jpg?width=140&quality=85&auto=format&fit=max&s=e3320d349437156e599cd5bac2c96a2a"
           },
           {
@@ -1594,7 +1603,7 @@
             "image": "https://i.guim.co.uk/img/media/b8a8dcdafe9f90bfe19a2550a0320b7daf4f29c0/130_0_1666_1333/master/1666.jpg?width=140&quality=85&auto=format&fit=max&s=15fcdac68cb5f150670b1c3a8c07f652"
           },
           {
-            "title": "Almost all NSW homes destroyed in black summer bushfires were within 100 metres of flammable vegetation",
+            "title": "Most NSW homes destroyed in black summer bushfires were within 100 metres of vegetation",
             "link": "https://www.theguardian.com/australia-news/2026/oct/18/nsw-homes-destroyed-in-black-summer-bushfires-in-high-risk-buffer-zone",
             "published": "Sat, 17 Oct 2026 19:00:40 GMT",
             "source": "The Guardian",
@@ -1610,15 +1619,6 @@
             "provider": "GUARDIAN",
             "categories": "Cost of living crisis Australia news One Nation OECD Australian politics Business Mathias Cormann Australian immigration and asylum Australian economy Productivity",
             "image": "https://i.guim.co.uk/img/media/de3f2e8a77b6dda011deff1298ee6f189e9c0594/190_0_3429_2744/master/3429.jpg?width=140&quality=85&auto=format&fit=max&s=64bd3dbf3d431b0ee61c28f9db2a97e7"
-          },
-          {
-            "title": "Gone to the dogs: racing fans mourn closure of ‘Wenty’, Sydney’s historic greyhound track",
-            "link": "https://www.theguardian.com/australia-news/2026/oct/17/gone-to-the-dogs-racing-fans-mourn-closure-of-wenty-sydneys-historic-greyhound-track",
-            "published": "Fri, 16 Oct 2026 23:00:15 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Sydney Australia sport Greyhound racing Australia news",
-            "image": "https://i.guim.co.uk/img/media/14ccab98d3964708fc2f5206bb3d0e3c44e8c5a5/250_0_2500_2002/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=3cefbf4c8f2d8ccd3d14bfc13d3828d0"
           }
         ],
         "POLITICS": [
@@ -2086,6 +2086,15 @@
             "image": "https://i.guim.co.uk/img/media/ebf66ef2fc761ca986ec34ee126faa393835c357/479_0_4771_3819/master/4771.jpg?width=140&quality=85&auto=format&fit=max&s=49598467932deaad38c34b1c32751dc9"
           },
           {
+            "title": "The ultra-rich are spending one million dollars a day fighting California’s proposed billionaire tax",
+            "link": "https://www.theguardian.com/news/ng-interactive/2026/oct/16/billionaires-fight-california-prop-40",
+            "published": "Fri, 16 Oct 2026 13:00:11 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "The super-rich Super Pacs US political financing California Sergey Brin Silicon Valley US taxation West Coast Technology US news US political lobbying",
+            "image": "https://i.guim.co.uk/img/media/278e5483c063fe17b8fe2273a6c7632a5f987ec9/0_0_3000_2400/master/3000.jpg?width=140&quality=85&auto=format&fit=max&s=fe7eec8884c4aeed0db87998d0eb199a"
+          },
+          {
             "title": "How to dress a tech oligarch: The Social Reckoning’s costume designer on Zuckerberg’s style evolution",
             "link": "https://www.theguardian.com/fashion/2026/oct/16/social-reckoning-zuckerberg-fashion-costume-design",
             "published": "Fri, 16 Oct 2026 12:00:10 GMT",
@@ -2156,15 +2165,6 @@
             "provider": "GUARDIAN",
             "categories": "Quiz and trivia games Life and style",
             "image": "https://i.guim.co.uk/img/media/2c184cfa6cd9ed17ee1220cbd1efbd11c17d423f/688_0_6880_5504/master/6880.jpg?width=140&quality=85&auto=format&fit=max&s=8bd3e34a8f9b4b62705d2265d2915ce4"
-          },
-          {
-            "title": "Penguin Colony review – an Antarctic odyssey of Nazis and Lovecraftian horrors",
-            "link": "https://www.theguardian.com/games/2026/oct/16/penguin-colony-review-an-antarctic-odyssey-of-nazis-and-lovecraftian-horrors",
-            "published": "Fri, 16 Oct 2026 09:00:57 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Games Culture Adventure games Indie games PC Game play Platform games HP Lovecraft",
-            "image": "https://i.guim.co.uk/img/media/a22ff356dab9c2094538405df58f27c9ef83c868/505_176_1088_870/master/1088.jpg?width=140&quality=85&auto=format&fit=max&s=240930a829215fdcbc916f2eca7b5e96"
           }
         ],
         "ENTERTAINMENT": [
@@ -3010,6 +3010,33 @@
         ],
         "TECH": [
           {
+            "title": "Your star sign’s weekly tarot horoscope reading for October 19 to October 25",
+            "link": "https://metro.co.uk/2026/10/18/weekly-tarot-horoscope-reading-october-19-october-25-2026-29713957/",
+            "published": "Sun, 18 Oct 2026 03:00:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Horoscopes Lifestyle Aquarius Aries Astrology Cancer (star sign) Capricorn Gemini Leo Libra Pisces Sagittarius Scorpio Tarot Taurus Virgo",
+            "image": "https://metro.co.uk/wp-content/uploads/2022/04/SEI_96594073.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "If this is the best year for Star Wars games it’s not for the reason you think – Reader’s Feature",
+            "link": "https://metro.co.uk/2026/10/18/this-best-year-star-wars-games-not-reason-think-readers-feature-29717962/",
+            "published": "Sun, 18 Oct 2026 01:00:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment Gaming Games news Reader's Feature Star Wars",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/08/SEI_308706499-1f23.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "I know an obvious way to go for the next mainline Zelda game – Reader’s Feature",
+            "link": "https://metro.co.uk/2026/10/18/know-obvious-way-go-next-mainline-zelda-game-readers-feature-29718091/",
+            "published": "Sun, 18 Oct 2026 00:00:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment Gaming Nintendo Reader's Feature The Legend of Zelda",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/07/SEI_246133704-313e.jpg?quality=90&strip=all&w=646"
+          },
+          {
             "title": "Daily horoscope October 18 2026: Today’s predictions for your star sign",
             "link": "https://metro.co.uk/2026/10/18/daily-horoscope-october-18-2026-predictions-star-sign-29701025/",
             "published": "Sat, 17 Oct 2026 23:01:00 +0000",
@@ -3026,15 +3053,6 @@
             "provider": "METRO",
             "categories": "Lifestyle Travel London Ryanair TikTok",
             "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317016691-f7a8.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Dopamine websites are the internet’s bleakest new obsession",
-            "link": "https://metro.co.uk/2026/10/17/dopamine-websites-are-the-internets-bleakest-new-obsession-29717533/",
-            "published": "Sat, 17 Oct 2026 14:06:09 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Health Lifestyle Mental health Trends",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/06/dopamine-comp2-5a9a.gif?w=646"
           }
         ],
         "ENTERTAINMENT": [
@@ -3239,7 +3257,7 @@
         },
         "TECH": {
           "ok": true,
-          "count": 3
+          "count": 5
         },
         "ENTERTAINMENT": {
           "ok": true,
@@ -3356,9 +3374,18 @@
         "STOCK_MARKET": [],
         "STOCKS": [
           {
+            "title": "Iambic Therapeutics (IAM) Joins The Nasdaq Composite, Is The Stock Already Pricey?",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/iambic-therapeutics-iam-joins-nasdaq-001621139.html?.tsrc=rss",
+            "published": "Sun, 18 Oct 2026 00:16:21 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
             "title": "Citi says interest rates may matter more for economy than stock valuations",
-            "link": "https://finance.yahoo.com/economy/policy/articles/citi-says-interest-rates-may-202416020.html?.tsrc=rss",
-            "published": "Sat, 17 Oct 2026 20:24:16 +0000",
+            "link": "https://uk.finance.yahoo.com/news/citi-says-interest-rates-may-202610546.html?.tsrc=rss",
+            "published": "Sat, 17 Oct 2026 20:26:10 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
@@ -3440,15 +3467,6 @@
             "title": "BC-Select Stock Indices",
             "link": "https://finance.yahoo.com/markets/world-indices/articles/bc-select-stock-indices-213013974.html?.tsrc=rss",
             "published": "Fri, 16 Oct 2026 21:30:13 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "Equinix (EQIX) Stock Moves -1.03%: What You Should Know",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/equinix-eqix-stock-moves-1-211507168.html?.tsrc=rss",
-            "published": "Fri, 16 Oct 2026 21:15:07 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
@@ -3626,15 +3644,6 @@
             "image": ""
           },
           {
-            "title": "Wall St Week Ahead As AI rally wobbles, stock market's spotlight turns to earnings",
-            "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNR0cyVkR4czJqcmtMVHU0c21pVnRHR1h1Q3VFRUdyX1FtSzg1alVJSFRqSmI0al95bGpvRkJpRG1EUy14djN1Y2xWXzlfVC04X2xIcUt4QkROSTR6V01la3plVWVhX202alJTYmhJSXIxQTJrM3VyTVZOVXhmWExqYVFWMVJQWUt3X3VUb0loWEp1SmphZ3E4MDVXS0ZZX3dkSThsTFAtMmEzRHpHMzFxTWhrblZQZFRoT1lFdXN5X3M5Y0dUQ0I5bzBR?oc=5",
-            "published": "Fri, 16 Oct 2026 21:23:05 GMT",
-            "source": "Reuters",
-            "provider": "REUTERS",
-            "categories": "",
-            "image": ""
-          },
-          {
             "title": "Take Five: Earnings, an election and an MSCI headache",
             "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWXNOV1lOOVZ1RFdoQ21GQ3VQcUJ0Z2ZoWFRPa2dvb3luRlBlNms3R0R5S0ZwMFk5M1RPSzJReGwyaDQ1T3doYUNjWm1ia1EtRzc2MUdlcHJqalg0QV9KdEJFUGI2WTZOOXlaT3BHWTRHU28wNFNEeGJSMzdtb0MzWEVaYmJFc1UtM012OA?oc=5",
             "published": "Fri, 16 Oct 2026 10:43:07 GMT",
@@ -3698,15 +3707,6 @@
             "image": ""
           },
           {
-            "title": "US inflation heats up in September; Fed rate hike this month back on table",
-            "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNX3hkV3J5em1xWWY4V0hQODFTamFtU3NvdkpPRUUzMGY0TnlKaVlneXZPc0J6bFpWdDZWb2hLRkZZaHhZVElDSXNFbGNYMVVBRGR6c1RlNDA4cEhkMEcwck5VMFRtZ1QxOFJqNTkyaGJzWWFLSXp2Z0l1Z19vMDh5bGd6N1FJSkJFR2tZUXd1UWUzeVlvZi1xNTVONk00ejJ5cE0xSGY4THFsaUo0RGxPV3dpaW4tbEZseUE?oc=5",
-            "published": "Wed, 14 Oct 2026 21:45:35 GMT",
-            "source": "Reuters",
-            "provider": "REUTERS",
-            "categories": "",
-            "image": ""
-          },
-          {
             "title": "Oil prices gain on attacks in Saudi Arabia, Iran's new tactics to target tankers",
             "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxON0hPaGRDOW9haXRKcUJ3WVU5dVdwSjB2ZzNMZTVWd0lRYV9ZUjRNRTI4VjVXeERGeW1XVU1GanZidjZneXhKeFh1dWM0OUJ6ZGltVXFXdHJNVk52MDN5M3NvRnhUUWN6aEFiSldFUWxfeHNPYmQ2R21JMGlhaUNaWEFNckc0T0ItSFpYcHA3MmM4UUdnTVd0VFg0NWhtbm91MllPWllha0pqdVBjZlRldDgxaG5PclVud0xtNQ?oc=5",
             "published": "Wed, 14 Oct 2026 20:01:08 GMT",
@@ -3719,6 +3719,24 @@
             "title": "Gulf markets mixed; Saudi stocks hardest hit on Aramco attack",
             "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNLXZwM3pfUE0yMVJsTzRjTkJmWFIwclNIamJ1Y2xFdmxWV2lpVHZWRDNqdkVLVGRvSV9rWEZXX0Q3cndEWXJNNnFWeVlYWkhzbFRjV19CSlV5M2phQVJSa2pWdXNob0RsSURPb0k2bVh2ZXJnMEJPeUdXYnhDV2FNLVN4QVdLVXpIWjJCTU5BYkVaMTlkQWlzeDI5bW9CU09sRUtsNlNtbjV6UklveDU4ZmNHcGQxT1VLb3BJ?oc=5",
             "published": "Wed, 14 Oct 2026 13:23:39 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "Indian shares end lower as higher oil prices, foreign outflows dent appetite",
+            "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUDFseEc5cVpDQ2FOSndESDFUc3N6VnVMY0c0bS14N2taUmU3cU9CY09HeEVvX014STdGY1pwY05aWXVTemoycUFEbzFLeFdVa2JIZ1Nwc1BUZGxkSXEyeXJvVW5VdFBtM0E3MXVpWll5R3pKU3FMajQzODBYZjhuM1V5cDdOQmlwRmxwWUhkZ2R5a0RKM2YtaU91UkVMYUJsYVJmQVBOU1lra2R6YkZ0bXdn?oc=5",
+            "published": "Wed, 14 Oct 2026 11:37:05 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "Gold eases on strong dollar, oil prices; US inflation data eyed",
+            "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSTdfbFRJUWVBUW5ndjBGSlJ6aGRQYi1saWxfVU5haEdOVXJaNzFuRnlyZ1F6eGVPb2tGYVczeXlRWEI5WmVHeVFGMTVqd2I5dEZCVDNrNDBkS2N1Q2NWWlRQMzhSa3BPMlZnVElqaFhaQkRLWnJrMG1NUnlvYVE5OWZGTXZucUJoaTUzTmxJeS1mUHpRSVVNT2xlRUI5dmtoQmc?oc=5",
+            "published": "Mon, 12 Oct 2026 18:36:35 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3850,5 +3868,5 @@
       }
     }
   },
-  "stocksUpdated": "2026-10-17T23:57:39.062Z"
+  "stocksUpdated": "2026-10-18T04:18:42.612Z"
 }
