@@ -1,7 +1,16 @@
 {
-  "updated": "2026-10-18T20:53:12.134Z",
+  "updated": "2026-10-18T21:46:44.495Z",
   "categories": {
     "UK": [
+      {
+        "title": "Mum dies after being washed away in Spanish floods",
+        "link": "https://metro.co.uk/2026/10/18/mum-dies-washed-away-spanish-floods-29718988/",
+        "published": "Sun, 18 Oct 2026 21:14:58 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News UK Barcelona Flood Ibiza Spain",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317191355-90c3-e1792332178771.jpg?quality=90&strip=all&w=646"
+      },
       {
         "title": "Two teenagers killed in horror crash in Suffolk village",
         "link": "https://metro.co.uk/2026/10/18/two-teenagers-killed-horror-crash-suffolk-village-29719534/",
@@ -66,15 +75,6 @@
         "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316759615-79ba-e1792336380594.jpg?quality=90&strip=all&w=646"
       },
       {
-        "title": "Triumphant Lime Bike jouster ‘closed his eyes’ before knocking off rival in trendy London park",
-        "link": "https://metro.co.uk/2026/10/18/triumphant-lime-bike-joust-winner-closed-eyes-knocking-off-rival-trendy-london-park-29719022/",
-        "published": "Sun, 18 Oct 2026 15:33:36 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News UK Cycling London",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317207629-271d-e1792336755755.jpg?quality=90&strip=all&w=576"
-      },
-      {
         "title": "Bodies of four family members killed in Ireland house fire arrive at church before funeral",
         "link": "https://news.sky.com/story/bodies-of-four-family-members-killed-in-ireland-house-fire-arrive-at-church-before-funeral-13600687",
         "published": "Sun, 18 Oct 2026 16:29:00 +0100",
@@ -94,6 +94,33 @@
       }
     ],
     "WORLD": [
+      {
+        "title": "Sydney man charged after alleged gunfire prompted Dulwich Hill lockdown",
+        "link": "https://www.theguardian.com/australia-news/2026/oct/19/man-charged-dulwich-hill-sydney-inner-west-alleged-gun-ntwnfb",
+        "published": "Sun, 18 Oct 2026 21:22:51 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Sydney Australia news New South Wales",
+        "image": "https://i.guim.co.uk/img/media/ad63b473fb5f5da33817b94700856e4be2b027b6/368_1087_5353_4282/master/5353.jpg?width=140&quality=85&auto=format&fit=max&s=2678fa90e8b944e5b652ce9f0134c552"
+      },
+      {
+        "title": "Mum dies after being washed away in Spanish floods",
+        "link": "https://metro.co.uk/2026/10/18/mum-dies-washed-away-spanish-floods-29718988/",
+        "published": "Sun, 18 Oct 2026 21:14:58 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News UK Barcelona Flood Ibiza Spain",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317191355-90c3-e1792332178771.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Flight from Tel Aviv to Vienna makes emergency landing after bomb threat",
+        "link": "https://news.sky.com/story/flight-from-tel-aviv-to-vienna-makes-emergency-landing-after-bomb-threat-13600784",
+        "published": "Sun, 18 Oct 2026 20:45:00 +0100",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/08/1920x1080/skynews-breakingnews-uk_7322499.jpg?20260826125921"
+      },
       {
         "title": "Second day of violence in Milan as protesters clash with police",
         "link": "https://news.sky.com/story/second-day-of-violence-in-milan-as-protesters-clash-with-police-13600765",
@@ -120,24 +147,6 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/10/1920x1080/skynews-waterford-ireland_7380015.jpg?20261018164917"
-      },
-      {
-        "title": "Trump endorses Netanyahu ahead of Israeli elections, calling him 'great warrior prime minister'",
-        "link": "https://news.sky.com/story/trump-endorses-netanyahu-ahead-of-israeli-elections-calling-him-great-warrior-prime-minister-13600658",
-        "published": "Sun, 18 Oct 2026 15:50:00 +0100",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/10/1920x1080/skynews-benjamin-netanyahu_7379982.jpg?20261018161627"
-      },
-      {
-        "title": "Zelenskyy says US taking Putin's side would be 'historic mistake' - as Russian oil sites attacked",
-        "link": "https://news.sky.com/story/zelenskyy-says-us-taking-putins-side-would-be-historic-mistake-as-russian-oil-sites-attacked-13600632",
-        "published": "Sun, 18 Oct 2026 14:49:00 +0100",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/10/1920x1080/skynews-russia-st-petersburg_7380108.jpg?20261018180529"
       },
       {
         "title": "Police chase wild boar wreaking havoc though city centre during festival",
@@ -174,15 +183,6 @@
         "provider": "GUARDIAN",
         "categories": "Nigeria Music Africa World news Culture Club culture",
         "image": "https://i.guim.co.uk/img/media/99c40d26cbdbdca2b0abb4f3ee9ba91e4e235c6a/625_0_4419_3535/master/4419.jpg?width=140&quality=85&auto=format&fit=max&s=9af00549ea395c750436ad7a31ab1973"
-      },
-      {
-        "title": "Nato fighter pilots summoned to ‘red warning’ over unrecognised flying object at airport",
-        "link": "https://metro.co.uk/2026/10/18/nato-pilots-summoned-red-warning-flying-object-airport-29718176/",
-        "published": "Sun, 18 Oct 2026 08:00:35 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News World Drone strike Lithuania NATO Russia-Ukraine war",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317152953-6dcb.jpg?quality=90&strip=all&w=646"
       }
     ],
     "POLITICS": [
@@ -860,6 +860,15 @@
             "image": "https://e3.365dm.com/26/10/1920x1080/skynews-benjamin-netanyahu_7379982.jpg?20261018161627"
           },
           {
+            "title": "Flight from Tel Aviv to Vienna makes emergency landing after bomb threat",
+            "link": "https://news.sky.com/story/flight-from-tel-aviv-to-vienna-makes-emergency-landing-after-bomb-threat-13600784",
+            "published": "Sun, 18 Oct 2026 20:45:00 +0100",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/08/1920x1080/skynews-breakingnews-uk_7322499.jpg?20260826125921"
+          },
+          {
             "title": "Zelenskyy says US taking Putin's side would be 'historic mistake' - as Russian oil sites attacked",
             "link": "https://news.sky.com/story/zelenskyy-says-us-taking-putins-side-would-be-historic-mistake-as-russian-oil-sites-attacked-13600632",
             "published": "Sun, 18 Oct 2026 14:49:00 +0100",
@@ -1263,7 +1272,7 @@
         },
         "WORLD": {
           "ok": true,
-          "count": 7
+          "count": 8
         },
         "POLITICS": {
           "ok": true,
@@ -1604,6 +1613,15 @@
             "image": "https://i.guim.co.uk/img/media/f91346dbfc3a74a003e6aeb4789749685a84ac60/328_0_4558_3646/master/4558.jpg?width=140&quality=85&auto=format&fit=max&s=4bda54c423277f3c568c467fbcd6eeee"
           },
           {
+            "title": "Sydney man charged after alleged gunfire prompted Dulwich Hill lockdown",
+            "link": "https://www.theguardian.com/australia-news/2026/oct/19/man-charged-dulwich-hill-sydney-inner-west-alleged-gun-ntwnfb",
+            "published": "Sun, 18 Oct 2026 21:22:51 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Sydney Australia news New South Wales",
+            "image": "https://i.guim.co.uk/img/media/ad63b473fb5f5da33817b94700856e4be2b027b6/368_1087_5353_4282/master/5353.jpg?width=140&quality=85&auto=format&fit=max&s=2678fa90e8b944e5b652ce9f0134c552"
+          },
+          {
             "title": "Jordon Steele-John says ‘I’m not on leave’ and accuses Greens leader of making ‘bad call’ regarding complaints",
             "link": "https://www.theguardian.com/australia-news/2026/oct/18/greens-senator-jordon-steele-john-says-not-on-leave-blames-david-shoebridge-complaints-ntwnfb",
             "published": "Sun, 18 Oct 2026 09:51:48 GMT",
@@ -1638,15 +1656,6 @@
             "provider": "GUARDIAN",
             "categories": "New South Wales Australia news Sydney",
             "image": "https://i.guim.co.uk/img/media/5d3ef148a542eda1fba384c5304087747c009bd4/212_0_4294_3437/master/4294.jpg?width=140&quality=85&auto=format&fit=max&s=e3320d349437156e599cd5bac2c96a2a"
-          },
-          {
-            "title": "Plover, not a fighter: protected bird 12th man on Tasmanian cricket ground as staff mow around nest",
-            "link": "https://www.theguardian.com/australia-news/2026/oct/18/plover-not-a-fighter-masked-lapwing-nesting-on-tasmanian-cricket-ground-indifferent-as-play-continues",
-            "published": "Sat, 17 Oct 2026 19:00:40 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Tasmania Cricket Birds Sport Australia news Wildlife",
-            "image": "https://i.guim.co.uk/img/media/b8a8dcdafe9f90bfe19a2550a0320b7daf4f29c0/130_0_1666_1333/master/1666.jpg?width=140&quality=85&auto=format&fit=max&s=15fcdac68cb5f150670b1c3a8c07f652"
           }
         ],
         "POLITICS": [
@@ -2409,6 +2418,15 @@
       "categories": {
         "UK": [
           {
+            "title": "Mum dies after being washed away in Spanish floods",
+            "link": "https://metro.co.uk/2026/10/18/mum-dies-washed-away-spanish-floods-29718988/",
+            "published": "Sun, 18 Oct 2026 21:14:58 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News UK Barcelona Flood Ibiza Spain",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317191355-90c3-e1792332178771.jpg?quality=90&strip=all&w=646"
+          },
+          {
             "title": "Two teenagers killed in horror crash in Suffolk village",
             "link": "https://metro.co.uk/2026/10/18/two-teenagers-killed-horror-crash-suffolk-village-29719534/",
             "published": "Sun, 18 Oct 2026 19:45:23 +0000",
@@ -2578,15 +2596,6 @@
             "provider": "METRO",
             "categories": "News UK",
             "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEC_316624125-d109.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "It took 3 years for my sexual assault case to go to court – then I was called a liar",
-            "link": "https://metro.co.uk/2026/10/18/took-3-years-case-go-court-called-a-liar-29691301/",
-            "published": "Sun, 18 Oct 2026 09:00:00 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News UK First Person Mental health Real Life Sexual Violence This is Not Right",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316309541-ccab.jpg?quality=90&strip=all&w=646"
           }
         ],
         "WORLD": [
@@ -2706,6 +2715,15 @@
             "provider": "METRO",
             "categories": "News World Elon Musk SpaceX Ukraine Volodymyr Zelensky",
             "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_310699174-56a8.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Mum dies after being washed away in Spanish floods",
+            "link": "https://metro.co.uk/2026/10/18/mum-dies-washed-away-spanish-floods-29718988/",
+            "published": "Sun, 18 Oct 2026 21:14:58 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News UK Barcelona Flood Ibiza Spain",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317191355-90c3-e1792332178771.jpg?quality=90&strip=all&w=646"
           }
         ],
         "POLITICS": [
@@ -3255,7 +3273,7 @@
         },
         "WORLD": {
           "ok": true,
-          "count": 13
+          "count": 14
         },
         "POLITICS": {
           "ok": true,
@@ -3870,5 +3888,5 @@
       }
     }
   },
-  "stocksUpdated": "2026-10-18T20:53:20.273Z"
+  "stocksUpdated": "2026-10-18T21:46:51.282Z"
 }
