@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-18T21:46:51.346Z",
+  "updated": "2026-10-19T00:08:00.963Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -21,16 +21,10 @@
         "image": "https://m.media-amazon.com/images/I/51yEO5vfs9L._SL500_.jpg"
       },
       {
-        "title": "Her Stepmother's House",
-        "author": "K. L. Slater",
-        "narrator": "Clare Corbett",
-        "image": ""
-      },
-      {
         "title": "Dungeon Crawler Carl",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://m.media-amazon.com/images/I/51HIZdnqASL._SL500_.jpg"
+        "image": "https://covers.openlibrary.org/b/id/15143022-L.jpg"
       },
       {
         "title": "Threshing Day (Wing and Claw Collection)",
@@ -39,28 +33,34 @@
         "image": "https://m.media-amazon.com/images/I/51+hQRgOR2L._SL500_.jpg"
       },
       {
-        "title": "The Body in the Snow",
-        "author": "Nick Louth",
-        "narrator": "Marston York",
-        "image": ""
-      },
-      {
-        "title": "You Will Remember Nothing",
-        "author": "Liv Parkinson",
-        "narrator": "Raffey Cassidy , Tom Alexander , Nico Mirallegro",
+        "title": "Her Stepmother's House",
+        "author": "K. L. Slater",
+        "narrator": "Clare Corbett",
         "image": ""
       },
       {
         "title": "Verity",
         "author": "Colleen Hoover",
         "narrator": "Vanessa Johansson , Amy Landon",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/40/ef/da/40efda88-49f4-a5ec-814c-6703689e539b/9791036624001.jpg/600x600bb.jpg"
+        "image": "https://m.media-amazon.com/images/I/41xU31AS-BL._SL500_.jpg"
       },
       {
-        "title": "Mycroft Holmes: Fogbank",
-        "author": "J. S. Barnes",
-        "narrator": "Rory Kinnear",
-        "image": "https://m.media-amazon.com/images/I/51fMhjieq4L._SL500_.jpg"
+        "title": "Carl's Doomsday Scenario",
+        "author": "Matt Dinniman",
+        "narrator": "Jeff Hays",
+        "image": "https://covers.openlibrary.org/b/id/11702962-L.jpg"
+      },
+      {
+        "title": "The Body in the Snow",
+        "author": "Nick Louth",
+        "narrator": "Marston York",
+        "image": ""
+      },
+      {
+        "title": "The Dungeon Anarchist's Cookbook",
+        "author": "Matt Dinniman",
+        "narrator": "Jeff Hays , The Critical Drinker",
+        "image": "https://covers.openlibrary.org/b/id/15262048-L.jpg"
       }
     ],
     "BOOKS": [
@@ -123,15 +123,15 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-10-18T21:46:51.346Z",
-      "lastSuccessfulRefresh": "2026-10-18T21:46:51.346Z",
+      "checkedAt": "2026-10-19T00:08:00.963Z",
+      "lastSuccessfulRefresh": "2026-10-19T00:08:00.963Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
-      "status": "stale",
-      "checkedAt": "2026-10-18T21:46:59.655Z",
-      "lastSuccessfulRefresh": "2026-10-18T19:23:04.887Z",
-      "reason": "503 https://www.audible.co.uk/charts/best"
+      "status": "healthy",
+      "checkedAt": "2026-10-19T00:08:10.669Z",
+      "lastSuccessfulRefresh": "2026-10-19T00:08:10.669Z",
+      "reason": ""
     }
   }
 }
