@@ -1,18 +1,18 @@
 {
-  "updated": "2026-10-20T20:28:10.975Z",
+  "updated": "2026-10-20T21:44:09.956Z",
   "charts": {
     "AUDIOBOOKS": [
       {
         "title": "Bram Stoker's Dracula",
         "author": "Bram Stoker",
         "narrator": "Jonathan Bailey , Ella Purnell , Aimee Lou Wood , Louis Partridge , David Jonsson , Johnny Flynn , Lesley Manville , Maggie Gyllenhaal",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/03/85/a8/0385a8b0-667d-baed-8423-132574f5a40f/9781785752292.png/600x600bb.jpg"
+        "image": "https://m.media-amazon.com/images/I/51nLhYS-rhL._SL500_.jpg"
       },
       {
         "title": "The Witch",
         "author": "Freida McFadden",
         "narrator": "Saskia Maarleveld , Marin Ireland",
-        "image": "https://m.media-amazon.com/images/I/41vExa8IbhL._SL500_.jpg"
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/21/e2/a3/21e2a31c-2e04-6d99-0af9-180a08fa96a2/9798349169328.jpg/600x600bb.jpg"
       },
       {
         "title": "Her Stepmother's House",
@@ -51,16 +51,16 @@
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/40/ef/da/40efda88-49f4-a5ec-814c-6703689e539b/9791036624001.jpg/600x600bb.jpg"
       },
       {
-        "title": "You Will Remember Nothing",
-        "author": "Liv Parkinson",
-        "narrator": "Raffey Cassidy , Tom Alexander , Nico Mirallegro",
-        "image": "https://m.media-amazon.com/images/I/41LjhY18lAL._SL500_.jpg"
-      },
-      {
         "title": "The Dungeon Anarchist's Cookbook",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays , The Critical Drinker",
-        "image": "https://m.media-amazon.com/images/I/518nfG1FaYL._SL500_.jpg"
+        "image": "https://covers.openlibrary.org/b/id/15262048-L.jpg"
+      },
+      {
+        "title": "The Let Them Theory",
+        "author": "Mel Robbins",
+        "narrator": "Mel Robbins",
+        "image": "https://m.media-amazon.com/images/I/51YOr6ua-PL._SL500_.jpg"
       }
     ],
     "BOOKS": [
@@ -123,15 +123,15 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-10-20T20:28:10.976Z",
-      "lastSuccessfulRefresh": "2026-10-20T20:28:10.976Z",
+      "checkedAt": "2026-10-20T21:44:09.956Z",
+      "lastSuccessfulRefresh": "2026-10-20T21:44:09.956Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
-      "status": "stale",
-      "checkedAt": "2026-10-20T20:28:20.508Z",
-      "lastSuccessfulRefresh": "2026-10-20T17:18:37.790Z",
-      "reason": "503 https://www.audible.co.uk/charts/best"
+      "status": "healthy",
+      "checkedAt": "2026-10-20T21:44:19.303Z",
+      "lastSuccessfulRefresh": "2026-10-20T21:44:19.303Z",
+      "reason": ""
     }
   }
 }
