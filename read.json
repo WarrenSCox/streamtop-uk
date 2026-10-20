@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20T16:49:59.935Z",
+  "updated": "2026-10-20T17:18:27.713Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -30,7 +30,7 @@
         "title": "Dungeon Crawler Carl",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://m.media-amazon.com/images/I/51HIZdnqASL._SL500_.jpg"
+        "image": "https://covers.openlibrary.org/b/id/15143022-L.jpg"
       },
       {
         "title": "Threshing Day (Wing and Claw Collection)",
@@ -60,7 +60,7 @@
         "title": "The Dungeon Anarchist's Cookbook",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays , The Critical Drinker",
-        "image": "https://covers.openlibrary.org/b/id/15262048-L.jpg"
+        "image": "https://m.media-amazon.com/images/I/518nfG1FaYL._SL500_.jpg"
       }
     ],
     "BOOKS": [
@@ -123,15 +123,15 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-10-20T16:49:59.935Z",
-      "lastSuccessfulRefresh": "2026-10-20T16:49:59.935Z",
+      "checkedAt": "2026-10-20T17:18:27.713Z",
+      "lastSuccessfulRefresh": "2026-10-20T17:18:27.713Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
-      "status": "stale",
-      "checkedAt": "2026-10-20T16:50:11.279Z",
-      "lastSuccessfulRefresh": "2026-10-20T12:01:43.797Z",
-      "reason": "503 https://www.audible.co.uk/charts/best"
+      "status": "healthy",
+      "checkedAt": "2026-10-20T17:18:37.790Z",
+      "lastSuccessfulRefresh": "2026-10-20T17:18:37.790Z",
+      "reason": ""
     }
   }
 }
