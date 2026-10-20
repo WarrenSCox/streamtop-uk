@@ -1,7 +1,25 @@
 {
-  "updated": "2026-10-20T11:49:06.470Z",
+  "updated": "2026-10-20T12:01:28.649Z",
   "categories": {
     "UK": [
+      {
+        "title": "Police officer who sent vile racist messages saying Asian people ‘eat dogs’ sacked",
+        "link": "https://metro.co.uk/2026/10/20/police-officer-sent-vile-racist-messages-saying-asian-people-eat-dogs-sacked-29724011/",
+        "published": "Tue, 20 Oct 2026 11:51:04 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News UK Wales",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317438948-b9bf.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Covid revealed ‘underlying fragility of adult social care workforce’, inquiry finds – UK politics live",
+        "link": "https://www.theguardian.com/politics/live/2026/oct/20/kemi-badenoch-john-healey-capital-gains-tax-budget-covid-inquiry-care-homes-uk-politics-latest-news",
+        "published": "Tue, 20 Oct 2026 11:49:10 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Politics UK news Labour Conservatives Reform UK Kemi Badenoch Nigel Farage Andy Burnham Budget Budget 2026 Tax and spending Covid inquiry Benefits Crime",
+        "image": "https://i.guim.co.uk/img/media/e47ef742035edc19ba36b13621ca7e9926f80ba6/680_0_6814_5451/master/6814.jpg?width=140&quality=85&auto=format&fit=max&s=afd17c76ec35662bae353286242f5931"
+      },
       {
         "title": "‘He’s not doing it’ – Carlton Cole says Bukayo Saka has become a ‘passenger’ for Arsenal",
         "link": "https://metro.co.uk/2026/10/20/carlton-cole-says-arsenal-star-become-a-passenger-mikel-arteta-29723724/",
@@ -19,15 +37,6 @@
         "provider": "GUARDIAN",
         "categories": "UK weather UK news England Wales",
         "image": "https://i.guim.co.uk/img/media/c57858faffd6eb23a4c63753572831eb2675974a/357_0_3048_2438/master/3048.jpg?width=140&quality=85&auto=format&fit=max&s=e40402b22464abb90906412e0c8ac515"
-      },
-      {
-        "title": "Covid revealed ‘underlying fragility of adult social care workforce’, inquiry finds – UK politics live",
-        "link": "https://www.theguardian.com/politics/live/2026/oct/20/kemi-badenoch-john-healey-capital-gains-tax-budget-covid-inquiry-care-homes-uk-politics-latest-news",
-        "published": "Tue, 20 Oct 2026 11:37:32 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Politics UK news Labour Conservatives Reform UK Kemi Badenoch Nigel Farage Andy Burnham Budget Budget 2026 Tax and spending Covid inquiry Benefits Crime",
-        "image": "https://i.guim.co.uk/img/media/e47ef742035edc19ba36b13621ca7e9926f80ba6/680_0_6814_5451/master/6814.jpg?width=140&quality=85&auto=format&fit=max&s=afd17c76ec35662bae353286242f5931"
       },
       {
         "title": "Forget coffee, is it acceptable to bring notes into a job interview?",
@@ -55,15 +64,6 @@
         "provider": "GUARDIAN",
         "categories": "Royal Air Force Military Defence policy Saudi Arabia Houthis Yemen Middle East and north Africa World news UK news Politics",
         "image": "https://i.guim.co.uk/img/media/ed5b7f246bea513d923672e490f53e7d5ac9bc2e/0_203_3995_3195/master/3995.jpg?width=140&quality=85&auto=format&fit=max&s=e2e685adece343090ed0ad645b221e3e"
-      },
-      {
-        "title": "Family members ‘should have been allowed into care homes earlier in Covid outbreak’",
-        "link": "https://metro.co.uk/2026/10/20/family-should-allowed-care-homes-earlier-covid-outbreak-29723875/",
-        "published": "Tue, 20 Oct 2026 11:00:02 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News Politics Coronavirus Health News Matt Hancock",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317437140-7f79.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "Britain's first storm of the season named",
@@ -187,22 +187,22 @@
     ],
     "POLITICS": [
       {
-        "title": "Covid revealed ‘underlying fragility of adult social care workforce’, inquiry finds – UK politics live",
-        "link": "https://www.theguardian.com/politics/live/2026/oct/20/kemi-badenoch-john-healey-capital-gains-tax-budget-covid-inquiry-care-homes-uk-politics-latest-news",
-        "published": "Tue, 20 Oct 2026 11:37:32 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Politics UK news Labour Conservatives Reform UK Kemi Badenoch Nigel Farage Andy Burnham Budget Budget 2026 Tax and spending Covid inquiry Benefits Crime",
-        "image": "https://i.guim.co.uk/img/media/e47ef742035edc19ba36b13621ca7e9926f80ba6/680_0_6814_5451/master/6814.jpg?width=140&quality=85&auto=format&fit=max&s=afd17c76ec35662bae353286242f5931"
-      },
-      {
         "title": "UK to deploy fighter jets to protect Saudi Arabia from Houthi attacks",
         "link": "https://www.theguardian.com/uk-news/2026/oct/20/uk-raf-typhoon-fighters-saudi-arabia-houthi-attacks",
-        "published": "Tue, 20 Oct 2026 11:08:00 GMT",
+        "published": "Tue, 20 Oct 2026 11:54:52 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
         "categories": "Royal Air Force Military Defence policy Saudi Arabia Houthis Yemen Middle East and north Africa World news UK news Politics",
         "image": "https://i.guim.co.uk/img/media/ed5b7f246bea513d923672e490f53e7d5ac9bc2e/0_203_3995_3195/master/3995.jpg?width=140&quality=85&auto=format&fit=max&s=e2e685adece343090ed0ad645b221e3e"
+      },
+      {
+        "title": "Covid revealed ‘underlying fragility of adult social care workforce’, inquiry finds – UK politics live",
+        "link": "https://www.theguardian.com/politics/live/2026/oct/20/kemi-badenoch-john-healey-capital-gains-tax-budget-covid-inquiry-care-homes-uk-politics-latest-news",
+        "published": "Tue, 20 Oct 2026 11:49:10 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Politics UK news Labour Conservatives Reform UK Kemi Badenoch Nigel Farage Andy Burnham Budget Budget 2026 Tax and spending Covid inquiry Benefits Crime",
+        "image": "https://i.guim.co.uk/img/media/e47ef742035edc19ba36b13621ca7e9926f80ba6/680_0_6814_5451/master/6814.jpg?width=140&quality=85&auto=format&fit=max&s=afd17c76ec35662bae353286242f5931"
       },
       {
         "title": "UK government failures led to Covid spreading ‘like wildfire’ in care homes, inquiry finds",
@@ -279,9 +279,9 @@
     ],
     "BUSINESS": [
       {
-        "title": "Google Cloud outage: Problems reported at banks, Revolut, Rightmove and court video cameras – business live",
+        "title": "Google Cloud outage caused by ‘power event’ as problems reported at banks, Revolut, and court video cameras – business live",
         "link": "https://www.theguardian.com/business/live/2026/oct/20/uk-unemployment-rate-pre-budget-boost-wages-vacancies-latest-news-updates",
-        "published": "Tue, 20 Oct 2026 11:36:07 GMT",
+        "published": "Tue, 20 Oct 2026 11:37:36 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
         "categories": "Business Economics Stock markets FTSE UK unemployment and employment statistics Technology Google Revolut",
@@ -315,6 +315,15 @@
         "image": "https://e3.365dm.com/26/08/1920x1080/skynews-chessington-thames-water_7318261.jpg?20260810141130"
       },
       {
+        "title": "Hollywood AI-listers: is the technology ready to rival flesh-and-blood film stars?",
+        "link": "https://www.theguardian.com/film/2026/oct/20/ai-actors-val-kilmer-as-deep-as-the-grave-tilly-norwood",
+        "published": "Tue, 20 Oct 2026 06:00:18 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Film AI (artificial intelligence) Val Kilmer Tilly Norwood (AI character) Culture Technology",
+        "image": "https://i.guim.co.uk/img/media/69f15733860f5f7d23d5d775e35e0d3d293c3a18/187_0_906_725/master/906.jpg?width=140&quality=85&auto=format&fit=max&s=0b907620412ffbebb86f933c5971d7dd"
+      },
+      {
         "title": "UK unemployment rate falls to lowest level since July last year",
         "link": "https://news.sky.com/story/surprise-dip-in-jobless-rate-supports-interest-rate-hike-13601180",
         "published": "Tue, 20 Oct 2026 05:31:00 +0100",
@@ -342,15 +351,6 @@
         "image": "https://i.guim.co.uk/img/media/ff2dc74cc6caff96ab8cb23e046cdf2ad57f24bc/404_72_1229_983/master/1229.jpg?width=140&quality=85&auto=format&fit=max&s=3167ef4b892b87cebb6ae8c3258006bb"
       },
       {
-        "title": "AI firm Anthropic to commit 5% of shares to fund for ‘public good’",
-        "link": "https://www.theguardian.com/technology/2026/oct/19/ai-firm-anthropic-to-commit-shares-to-fund-for-public-good",
-        "published": "Mon, 19 Oct 2026 12:51:04 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Anthropic AI (artificial intelligence) Business Technology sector Stock markets IPOs Technology UK news US news World news Elon Musk SpaceX",
-        "image": "https://i.guim.co.uk/img/media/2790d74966de266025ee31e1975f1f2ce9024d36/387_0_2915_2333/master/2915.jpg?width=140&quality=85&auto=format&fit=max&s=16ba666f47897a1a79435713e2ff8af3"
-      },
-      {
         "title": "I lost my hair twice – now I have a £20m wig business and sell to celebrities",
         "link": "https://metro.co.uk/2026/10/12/i-lost-my-hair-twice-now-i-have-a-20m-wig-business-and-sell-to-celebrities-29701475/",
         "published": "Mon, 12 Oct 2026 11:52:07 +0000",
@@ -371,9 +371,18 @@
     ],
     "TECH": [
       {
-        "title": "Google Cloud outage: Problems reported at banks, Revolut, Rightmove and court video cameras – business live",
+        "title": "Rockstar tried to reunite Daft Punk for GTA 6 soundtrack but they said no",
+        "link": "https://metro.co.uk/2026/10/20/rockstar-tried-reunite-daft-punk-gta-6-soundtrack-said-no-29724185/",
+        "published": "Tue, 20 Oct 2026 11:52:38 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Entertainment Gaming Daft Punk Games news GTA 6 Rockstar Games",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEC_317435389-4c77.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Google Cloud outage caused by ‘power event’ as problems reported at banks, Revolut, and court video cameras – business live",
         "link": "https://www.theguardian.com/business/live/2026/oct/20/uk-unemployment-rate-pre-budget-boost-wages-vacancies-latest-news-updates",
-        "published": "Tue, 20 Oct 2026 11:31:27 GMT",
+        "published": "Tue, 20 Oct 2026 11:37:36 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
         "categories": "Business Economics Stock markets FTSE UK unemployment and employment statistics Technology Google Revolut",
@@ -407,15 +416,6 @@
         "image": "https://i.guim.co.uk/img/media/69f15733860f5f7d23d5d775e35e0d3d293c3a18/187_0_906_725/master/906.jpg?width=140&quality=85&auto=format&fit=max&s=0b907620412ffbebb86f933c5971d7dd"
       },
       {
-        "title": "Don’t be fooled. The AI that was supposed to save us time is doing just the opposite | Gaby Hinsliff",
-        "link": "https://www.theguardian.com/commentisfree/2026/oct/20/ai-supposed-to-save-time-opposite-government-uk",
-        "published": "Tue, 20 Oct 2026 05:00:17 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "AI (artificial intelligence) ChatGPT OpenAI Computing Technology Politics Employment law Law Employment tribunals Money UK news",
-        "image": "https://i.guim.co.uk/img/media/55c4a8455eb4fa69029f5190872b3e993c3d18ed/1234_0_4623_3699/master/4623.jpg?width=140&quality=85&auto=format&fit=max&s=e9cab90ca4121e8da588f3d71a97d934"
-      },
-      {
         "title": "Japan launches mission to Mars to bring back samples from its moon",
         "link": "https://news.sky.com/story/japan-launches-mission-to-mars-to-bring-back-samples-from-one-of-its-moons-13601139",
         "published": "Mon, 19 Oct 2026 21:04:00 +0100",
@@ -443,6 +443,15 @@
         "image": "https://e3.365dm.com/26/10/1920x1080/skynews-amelia-earhart-earhart_7377071.jpg?20261014200720"
       },
       {
+        "title": "Don’t be fooled. The AI that was supposed to save us time is doing just the opposite | Gaby Hinsliff",
+        "link": "https://www.theguardian.com/commentisfree/2026/oct/20/ai-supposed-to-save-time-opposite-government-uk",
+        "published": "Tue, 20 Oct 2026 05:00:17 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "AI (artificial intelligence) ChatGPT OpenAI Computing Technology Politics Employment law Law Employment tribunals Money UK news",
+        "image": "https://i.guim.co.uk/img/media/55c4a8455eb4fa69029f5190872b3e993c3d18ed/1234_0_4623_3699/master/4623.jpg?width=140&quality=85&auto=format&fit=max&s=e9cab90ca4121e8da588f3d71a97d934"
+      },
+      {
         "title": "‘These risks are real’: the threat of AI bioweapons – podcast",
         "link": "https://www.theguardian.com/science/audio/2026/oct/20/these-risks-are-real-the-threat-of-ai-bioweapons-podcast",
         "published": "Tue, 20 Oct 2026 04:00:15 GMT",
@@ -450,15 +459,6 @@
         "provider": "GUARDIAN",
         "categories": "Science MI5 UK news UK security and counter-terrorism AI (artificial intelligence) Technology Weapons technology",
         "image": "https://i.guim.co.uk/img/media/a79e23d080eb53cbc53f3416c637200ed693036a/366_0_3656_2924/master/3656.jpg?width=140&quality=85&auto=format&fit=max&s=dce4153855fac7c63fec4cbb0cedb5fb"
-      },
-      {
-        "title": "Is this the beginning of the end of the AI stock market boom?",
-        "link": "https://www.theguardian.com/business/2026/oct/20/ai-stock-market-boom-beginning-of-the-end-imf-wallstreet-nasdaq",
-        "published": "Tue, 20 Oct 2026 02:29:19 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Stock markets Technology sector Business AI (artificial intelligence)",
-        "image": "https://i.guim.co.uk/img/media/ddfb561650f575c6123c0a9b57256c95a64a8ee8/182_0_3595_2877/master/3595.jpg?width=140&quality=85&auto=format&fit=max&s=2816d43ffd19b5b5453d3f54f7b4b10b"
       }
     ],
     "ENTERTAINMENT": [
@@ -1259,6 +1259,15 @@
       "categories": {
         "UK": [
           {
+            "title": "Covid revealed ‘underlying fragility of adult social care workforce’, inquiry finds – UK politics live",
+            "link": "https://www.theguardian.com/politics/live/2026/oct/20/kemi-badenoch-john-healey-capital-gains-tax-budget-covid-inquiry-care-homes-uk-politics-latest-news",
+            "published": "Tue, 20 Oct 2026 11:49:10 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Politics UK news Labour Conservatives Reform UK Kemi Badenoch Nigel Farage Andy Burnham Budget Budget 2026 Tax and spending Covid inquiry Benefits Crime",
+            "image": "https://i.guim.co.uk/img/media/e47ef742035edc19ba36b13621ca7e9926f80ba6/680_0_6814_5451/master/6814.jpg?width=140&quality=85&auto=format&fit=max&s=afd17c76ec35662bae353286242f5931"
+          },
+          {
             "title": "Storm Austen forecast to hit southern UK",
             "link": "https://www.theguardian.com/uk-news/2026/oct/20/storm-austen-named-uk-severe-weather-warning",
             "published": "Tue, 20 Oct 2026 11:38:01 GMT",
@@ -1266,15 +1275,6 @@
             "provider": "GUARDIAN",
             "categories": "UK weather UK news England Wales",
             "image": "https://i.guim.co.uk/img/media/c57858faffd6eb23a4c63753572831eb2675974a/357_0_3048_2438/master/3048.jpg?width=140&quality=85&auto=format&fit=max&s=e40402b22464abb90906412e0c8ac515"
-          },
-          {
-            "title": "Covid revealed ‘underlying fragility of adult social care workforce’, inquiry finds – UK politics live",
-            "link": "https://www.theguardian.com/politics/live/2026/oct/20/kemi-badenoch-john-healey-capital-gains-tax-budget-covid-inquiry-care-homes-uk-politics-latest-news",
-            "published": "Tue, 20 Oct 2026 11:37:32 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Politics UK news Labour Conservatives Reform UK Kemi Badenoch Nigel Farage Andy Burnham Budget Budget 2026 Tax and spending Covid inquiry Benefits Crime",
-            "image": "https://i.guim.co.uk/img/media/e47ef742035edc19ba36b13621ca7e9926f80ba6/680_0_6814_5451/master/6814.jpg?width=140&quality=85&auto=format&fit=max&s=afd17c76ec35662bae353286242f5931"
           },
           {
             "title": "UK to deploy fighter jets to protect Saudi Arabia from Houthi attacks",
@@ -1623,22 +1623,22 @@
         ],
         "POLITICS": [
           {
-            "title": "Covid revealed ‘underlying fragility of adult social care workforce’, inquiry finds – UK politics live",
-            "link": "https://www.theguardian.com/politics/live/2026/oct/20/kemi-badenoch-john-healey-capital-gains-tax-budget-covid-inquiry-care-homes-uk-politics-latest-news",
-            "published": "Tue, 20 Oct 2026 11:37:32 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Politics UK news Labour Conservatives Reform UK Kemi Badenoch Nigel Farage Andy Burnham Budget Budget 2026 Tax and spending Covid inquiry Benefits Crime",
-            "image": "https://i.guim.co.uk/img/media/e47ef742035edc19ba36b13621ca7e9926f80ba6/680_0_6814_5451/master/6814.jpg?width=140&quality=85&auto=format&fit=max&s=afd17c76ec35662bae353286242f5931"
-          },
-          {
             "title": "UK to deploy fighter jets to protect Saudi Arabia from Houthi attacks",
             "link": "https://www.theguardian.com/uk-news/2026/oct/20/uk-raf-typhoon-fighters-saudi-arabia-houthi-attacks",
-            "published": "Tue, 20 Oct 2026 11:08:00 GMT",
+            "published": "Tue, 20 Oct 2026 11:54:52 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
             "categories": "Royal Air Force Military Defence policy Saudi Arabia Houthis Yemen Middle East and north Africa World news UK news Politics",
             "image": "https://i.guim.co.uk/img/media/ed5b7f246bea513d923672e490f53e7d5ac9bc2e/0_203_3995_3195/master/3995.jpg?width=140&quality=85&auto=format&fit=max&s=e2e685adece343090ed0ad645b221e3e"
+          },
+          {
+            "title": "Covid revealed ‘underlying fragility of adult social care workforce’, inquiry finds – UK politics live",
+            "link": "https://www.theguardian.com/politics/live/2026/oct/20/kemi-badenoch-john-healey-capital-gains-tax-budget-covid-inquiry-care-homes-uk-politics-latest-news",
+            "published": "Tue, 20 Oct 2026 11:49:10 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Politics UK news Labour Conservatives Reform UK Kemi Badenoch Nigel Farage Andy Burnham Budget Budget 2026 Tax and spending Covid inquiry Benefits Crime",
+            "image": "https://i.guim.co.uk/img/media/e47ef742035edc19ba36b13621ca7e9926f80ba6/680_0_6814_5451/master/6814.jpg?width=140&quality=85&auto=format&fit=max&s=afd17c76ec35662bae353286242f5931"
           },
           {
             "title": "UK government failures led to Covid spreading ‘like wildfire’ in care homes, inquiry finds",
@@ -1805,13 +1805,22 @@
         ],
         "BUSINESS": [
           {
-            "title": "Google Cloud outage: Problems reported at banks, Revolut, Rightmove and court video cameras – business live",
+            "title": "Google Cloud outage caused by ‘power event’ as problems reported at banks, Revolut, and court video cameras – business live",
             "link": "https://www.theguardian.com/business/live/2026/oct/20/uk-unemployment-rate-pre-budget-boost-wages-vacancies-latest-news-updates",
-            "published": "Tue, 20 Oct 2026 11:36:07 GMT",
+            "published": "Tue, 20 Oct 2026 11:37:36 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
             "categories": "Business Economics Stock markets FTSE UK unemployment and employment statistics Technology Google Revolut",
             "image": "https://i.guim.co.uk/img/media/4abba6c5ea456b0e89fd05e658c5c6fa8a713ce7/430_0_3301_2641/master/3301.jpg?width=140&quality=85&auto=format&fit=max&s=98372603f749a5c16b34ef982356b0e1"
+          },
+          {
+            "title": "Hollywood AI-listers: is the technology ready to rival flesh-and-blood film stars?",
+            "link": "https://www.theguardian.com/film/2026/oct/20/ai-actors-val-kilmer-as-deep-as-the-grave-tilly-norwood",
+            "published": "Tue, 20 Oct 2026 06:00:18 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Film AI (artificial intelligence) Val Kilmer Tilly Norwood (AI character) Culture Technology",
+            "image": "https://i.guim.co.uk/img/media/69f15733860f5f7d23d5d775e35e0d3d293c3a18/187_0_906_725/master/906.jpg?width=140&quality=85&auto=format&fit=max&s=0b907620412ffbebb86f933c5971d7dd"
           },
           {
             "title": "HelloFresh workers claim physical abuse and denied bathroom breaks in class-action suit",
@@ -1875,15 +1884,6 @@
             "provider": "GUARDIAN",
             "categories": "Mining Deforestation Electric, hybrid and low-emission cars Automotive industry Environment Travel and transport Trees and forests Indonesia Business Asia Pacific World news Volkswagen (VW) Ford Tesla",
             "image": "https://i.guim.co.uk/img/media/f6ca0a15fbe0d1b954133fee2cab92722a203c87/251_0_3749_3000/master/3749.jpg?width=140&quality=85&auto=format&fit=max&s=866017e5c5c6ce1094e416526865c8c1"
-          },
-          {
-            "title": "People in the US: what is your personal ‘recession indicator’?",
-            "link": "https://www.theguardian.com/business/2026/oct/15/what-is-your-personal-recession-indicator",
-            "published": "Thu, 15 Oct 2026 16:55:41 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "US economy US news Business Economics US economic growth and recession",
-            "image": "https://i.guim.co.uk/img/media/52ff3960d4aa2d7390c5b285301a93bf98ea062b/550_0_2750_2200/master/2750.jpg?width=140&quality=85&auto=format&fit=max&s=a3d00e71147cd2628e96983ee79329e1"
           },
           {
             "title": "Bad news for Trump ahead of the midterms: it’s still the economy, stupid",
@@ -1996,9 +1996,9 @@
             "image": "https://i.guim.co.uk/img/media/fa40f496b03a1db7776f47e3b79ed8b0858aef61/722_304_4620_3696/master/4620.jpg?width=140&quality=85&auto=format&fit=max&s=560167757e3f4e4a3571ff33be6bb85d"
           },
           {
-            "title": "Google Cloud outage: Problems reported at banks, Revolut, Rightmove and court video cameras – business live",
+            "title": "Google Cloud outage caused by ‘power event’ as problems reported at banks, Revolut, and court video cameras – business live",
             "link": "https://www.theguardian.com/business/live/2026/oct/20/uk-unemployment-rate-pre-budget-boost-wages-vacancies-latest-news-updates",
-            "published": "Tue, 20 Oct 2026 11:31:27 GMT",
+            "published": "Tue, 20 Oct 2026 11:37:36 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
             "categories": "Business Economics Stock markets FTSE UK unemployment and employment statistics Technology Google Revolut",
@@ -2381,6 +2381,15 @@
       "categories": {
         "UK": [
           {
+            "title": "Police officer who sent vile racist messages saying Asian people ‘eat dogs’ sacked",
+            "link": "https://metro.co.uk/2026/10/20/police-officer-sent-vile-racist-messages-saying-asian-people-eat-dogs-sacked-29724011/",
+            "published": "Tue, 20 Oct 2026 11:51:04 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News UK Wales",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317438948-b9bf.jpg?quality=90&strip=all&w=646"
+          },
+          {
             "title": "Hero barber who pinned down and disarmed Helen Haines’ alleged attacker speaks out",
             "link": "https://metro.co.uk/2026/10/20/hero-barber-pinned-disarmed-helen-haines-alleged-attacker-speaks-29723384/",
             "published": "Tue, 20 Oct 2026 11:13:14 +0000",
@@ -2532,15 +2541,6 @@
             "provider": "METRO",
             "categories": "News UK Crime News London Metropolitan Police",
             "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317330711-6204.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Dad of Helen Haines’ alleged attacker reveals 20-year friendship with Aussie MP",
-            "link": "https://metro.co.uk/2026/10/19/helen-haines-mp-may-lost-leg-struck-car-targeted-attack-29720914/",
-            "published": "Mon, 19 Oct 2026 11:50:41 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News World Australia",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317318540-baef.jpg?quality=90&strip=all&w=646"
           },
           {
             "title": "‘He’s not doing it’ – Carlton Cole says Bukayo Saka has become a ‘passenger’ for Arsenal",
@@ -3082,6 +3082,15 @@
         ],
         "TECH": [
           {
+            "title": "Rockstar tried to reunite Daft Punk for GTA 6 soundtrack but they said no",
+            "link": "https://metro.co.uk/2026/10/20/rockstar-tried-reunite-daft-punk-gta-6-soundtrack-said-no-29724185/",
+            "published": "Tue, 20 Oct 2026 11:52:38 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment Gaming Daft Punk Games news GTA 6 Rockstar Games",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEC_317435389-4c77.jpg?quality=90&strip=all&w=646"
+          },
+          {
             "title": "Bungie and Respawn in talks for Star Wars Battlefront 3 claim insiders",
             "link": "https://metro.co.uk/2026/10/20/bungie-respawn-talks-star-wars-battlefront-3-claim-insiders-29723558/",
             "published": "Tue, 20 Oct 2026 10:10:14 +0000",
@@ -3257,7 +3266,7 @@
         },
         "TECH": {
           "ok": true,
-          "count": 1
+          "count": 2
         },
         "ENTERTAINMENT": {
           "ok": true,
@@ -3868,5 +3877,5 @@
       }
     }
   },
-  "stocksUpdated": "2026-10-20T11:49:13.949Z"
+  "stocksUpdated": "2026-10-20T12:01:34.303Z"
 }

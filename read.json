@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20T11:49:14.003Z",
+  "updated": "2026-10-20T12:01:34.364Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -18,7 +18,7 @@
         "title": "Her Stepmother's House",
         "author": "K. L. Slater",
         "narrator": "Clare Corbett",
-        "image": ""
+        "image": "https://m.media-amazon.com/images/I/510J1VMd3QL._SL500_.jpg"
       },
       {
         "title": "Threshing Day [Dramatized Adaptation]",
@@ -30,7 +30,7 @@
         "title": "Dungeon Crawler Carl",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://covers.openlibrary.org/b/id/15143022-L.jpg"
+        "image": "https://m.media-amazon.com/images/I/51HIZdnqASL._SL500_.jpg"
       },
       {
         "title": "Threshing Day (Wing and Claw Collection)",
@@ -48,7 +48,7 @@
         "title": "Verity",
         "author": "Colleen Hoover",
         "narrator": "Vanessa Johansson , Amy Landon",
-        "image": "https://m.media-amazon.com/images/I/41xU31AS-BL._SL500_.jpg"
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/40/ef/da/40efda88-49f4-a5ec-814c-6703689e539b/9791036624001.jpg/600x600bb.jpg"
       },
       {
         "title": "You Will Remember Nothing",
@@ -123,14 +123,14 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-10-20T11:49:14.003Z",
-      "lastSuccessfulRefresh": "2026-10-20T11:49:14.003Z",
+      "checkedAt": "2026-10-20T12:01:34.364Z",
+      "lastSuccessfulRefresh": "2026-10-20T12:01:34.364Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-10-20T11:49:23.330Z",
-      "lastSuccessfulRefresh": "2026-10-20T11:49:23.330Z",
+      "checkedAt": "2026-10-20T12:01:43.797Z",
+      "lastSuccessfulRefresh": "2026-10-20T12:01:43.797Z",
       "reason": ""
     }
   }
