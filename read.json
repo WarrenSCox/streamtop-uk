@@ -1,12 +1,12 @@
 {
-  "updated": "2026-10-20T06:30:46.404Z",
+  "updated": "2026-10-20T11:49:14.003Z",
   "charts": {
     "AUDIOBOOKS": [
       {
         "title": "Bram Stoker's Dracula",
         "author": "Bram Stoker",
         "narrator": "Jonathan Bailey , Ella Purnell , Aimee Lou Wood , Louis Partridge , David Jonsson , Johnny Flynn , Lesley Manville , Maggie Gyllenhaal",
-        "image": "https://m.media-amazon.com/images/I/51nLhYS-rhL._SL500_.jpg"
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/03/85/a8/0385a8b0-667d-baed-8423-132574f5a40f/9781785752292.png/600x600bb.jpg"
       },
       {
         "title": "The Witch",
@@ -39,10 +39,10 @@
         "image": "https://m.media-amazon.com/images/I/51+hQRgOR2L._SL500_.jpg"
       },
       {
-        "title": "You Will Remember Nothing",
-        "author": "Liv Parkinson",
-        "narrator": "Raffey Cassidy , Tom Alexander , Nico Mirallegro",
-        "image": "https://m.media-amazon.com/images/I/41LjhY18lAL._SL500_.jpg"
+        "title": "Carl's Doomsday Scenario",
+        "author": "Matt Dinniman",
+        "narrator": "Jeff Hays",
+        "image": "https://m.media-amazon.com/images/I/51e1PKKdv8L._SL500_.jpg"
       },
       {
         "title": "Verity",
@@ -51,10 +51,10 @@
         "image": "https://m.media-amazon.com/images/I/41xU31AS-BL._SL500_.jpg"
       },
       {
-        "title": "The Let Them Theory",
-        "author": "Mel Robbins",
-        "narrator": "Mel Robbins",
-        "image": "https://m.media-amazon.com/images/I/51YOr6ua-PL._SL500_.jpg"
+        "title": "You Will Remember Nothing",
+        "author": "Liv Parkinson",
+        "narrator": "Raffey Cassidy , Tom Alexander , Nico Mirallegro",
+        "image": "https://m.media-amazon.com/images/I/41LjhY18lAL._SL500_.jpg"
       },
       {
         "title": "The Dungeon Anarchist's Cookbook",
@@ -123,15 +123,15 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-10-20T06:30:46.404Z",
-      "lastSuccessfulRefresh": "2026-10-20T06:30:46.404Z",
+      "checkedAt": "2026-10-20T11:49:14.003Z",
+      "lastSuccessfulRefresh": "2026-10-20T11:49:14.003Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
-      "status": "stale",
-      "checkedAt": "2026-10-20T06:30:55.149Z",
-      "lastSuccessfulRefresh": "2026-10-19T22:27:44.048Z",
-      "reason": "503 https://www.audible.co.uk/charts/best"
+      "status": "healthy",
+      "checkedAt": "2026-10-20T11:49:23.330Z",
+      "lastSuccessfulRefresh": "2026-10-20T11:49:23.330Z",
+      "reason": ""
     }
   }
 }
