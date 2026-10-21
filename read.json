@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21T01:57:23.517Z",
+  "updated": "2026-10-21T04:59:28.294Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -15,10 +15,10 @@
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/21/e2/a3/21e2a31c-2e04-6d99-0af9-180a08fa96a2/9798349169328.jpg/600x600bb.jpg"
       },
       {
-        "title": "Her Stepmother's House",
-        "author": "K. L. Slater",
-        "narrator": "Clare Corbett",
-        "image": "https://m.media-amazon.com/images/I/510J1VMd3QL._SL500_.jpg"
+        "title": "Dungeon Crawler Carl",
+        "author": "Matt Dinniman",
+        "narrator": "Jeff Hays",
+        "image": "https://m.media-amazon.com/images/I/51HIZdnqASL._SL500_.jpg"
       },
       {
         "title": "Threshing Day [Dramatized Adaptation]",
@@ -27,22 +27,22 @@
         "image": "https://m.media-amazon.com/images/I/51yEO5vfs9L._SL500_.jpg"
       },
       {
-        "title": "Dungeon Crawler Carl",
-        "author": "Matt Dinniman",
-        "narrator": "Jeff Hays",
-        "image": "https://covers.openlibrary.org/b/id/15143022-L.jpg"
-      },
-      {
         "title": "Threshing Day (Wing and Claw Collection)",
         "author": "Rebecca Yarros",
         "narrator": "Justis Bolding , Jake Bordeaux , Chase Brown , Frankie Corzo , Giordan Diaz , Teddy Hamilton , Laura Knight Keating , Zion Jang , Nick Mills , Robb Moreira , James Aaron Oh , Anthony Palmini , John Skelley , Jasmin Walker",
         "image": "https://m.media-amazon.com/images/I/51+hQRgOR2L._SL500_.jpg"
       },
       {
+        "title": "Her Stepmother's House",
+        "author": "K. L. Slater",
+        "narrator": "Clare Corbett",
+        "image": "https://m.media-amazon.com/images/I/510J1VMd3QL._SL500_.jpg"
+      },
+      {
         "title": "Carl's Doomsday Scenario",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://m.media-amazon.com/images/I/51e1PKKdv8L._SL500_.jpg"
+        "image": "https://covers.openlibrary.org/b/id/11702962-L.jpg"
       },
       {
         "title": "Verity",
@@ -51,16 +51,16 @@
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/40/ef/da/40efda88-49f4-a5ec-814c-6703689e539b/9791036624001.jpg/600x600bb.jpg"
       },
       {
+        "title": "The Let Them Theory",
+        "author": "Mel Robbins",
+        "narrator": "Mel Robbins",
+        "image": "https://covers.openlibrary.org/b/id/15165806-L.jpg"
+      },
+      {
         "title": "The Dungeon Anarchist's Cookbook",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays , The Critical Drinker",
         "image": "https://covers.openlibrary.org/b/id/15262048-L.jpg"
-      },
-      {
-        "title": "The Let Them Theory",
-        "author": "Mel Robbins",
-        "narrator": "Mel Robbins",
-        "image": "https://m.media-amazon.com/images/I/51YOr6ua-PL._SL500_.jpg"
       }
     ],
     "BOOKS": [
@@ -123,15 +123,15 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-10-21T01:57:23.517Z",
-      "lastSuccessfulRefresh": "2026-10-21T01:57:23.517Z",
+      "checkedAt": "2026-10-21T04:59:28.294Z",
+      "lastSuccessfulRefresh": "2026-10-21T04:59:28.294Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
-      "status": "stale",
-      "checkedAt": "2026-10-21T01:57:32.139Z",
-      "lastSuccessfulRefresh": "2026-10-20T21:44:19.303Z",
-      "reason": "503 https://www.audible.co.uk/charts/best"
+      "status": "healthy",
+      "checkedAt": "2026-10-21T04:59:37.803Z",
+      "lastSuccessfulRefresh": "2026-10-21T04:59:37.803Z",
+      "reason": ""
     }
   }
 }
