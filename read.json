@@ -1,12 +1,12 @@
 {
-  "updated": "2026-10-21T04:59:28.294Z",
+  "updated": "2026-10-21T07:28:17.312Z",
   "charts": {
     "AUDIOBOOKS": [
       {
         "title": "Bram Stoker's Dracula",
         "author": "Bram Stoker",
         "narrator": "Jonathan Bailey , Ella Purnell , Aimee Lou Wood , Louis Partridge , David Jonsson , Johnny Flynn , Lesley Manville , Maggie Gyllenhaal",
-        "image": "https://m.media-amazon.com/images/I/51nLhYS-rhL._SL500_.jpg"
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/03/85/a8/0385a8b0-667d-baed-8423-132574f5a40f/9781785752292.png/600x600bb.jpg"
       },
       {
         "title": "The Witch",
@@ -42,7 +42,7 @@
         "title": "Carl's Doomsday Scenario",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://covers.openlibrary.org/b/id/11702962-L.jpg"
+        "image": "https://m.media-amazon.com/images/I/51e1PKKdv8L._SL500_.jpg"
       },
       {
         "title": "Verity",
@@ -60,7 +60,7 @@
         "title": "The Dungeon Anarchist's Cookbook",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays , The Critical Drinker",
-        "image": "https://covers.openlibrary.org/b/id/15262048-L.jpg"
+        "image": "https://m.media-amazon.com/images/I/518nfG1FaYL._SL500_.jpg"
       }
     ],
     "BOOKS": [
@@ -123,14 +123,14 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-10-21T04:59:28.294Z",
-      "lastSuccessfulRefresh": "2026-10-21T04:59:28.294Z",
+      "checkedAt": "2026-10-21T07:28:17.313Z",
+      "lastSuccessfulRefresh": "2026-10-21T07:28:17.313Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-10-21T04:59:37.803Z",
-      "lastSuccessfulRefresh": "2026-10-21T04:59:37.803Z",
+      "checkedAt": "2026-10-21T07:28:24.975Z",
+      "lastSuccessfulRefresh": "2026-10-21T07:28:24.975Z",
       "reason": ""
     }
   }
