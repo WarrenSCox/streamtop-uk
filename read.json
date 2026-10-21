@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21T07:28:17.312Z",
+  "updated": "2026-10-21T12:00:54.681Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -65,14 +65,39 @@
     ],
     "BOOKS": [
       {
+        "title": "Adam & Eve",
+        "author": "Jeffrey Archer",
+        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978000/9780008640316.jpg"
+      },
+      {
         "title": "Threshing Day (Limited Deluxe Edition)",
         "author": "Rebecca Yarros",
         "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978034/9780349450612.jpg"
       },
       {
-        "title": "Swan Song",
-        "author": "Charles Spencer Spencer",
-        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978024/9780241825594.jpg"
+        "title": "The Witch",
+        "author": "Freida McFadden",
+        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978161/9781615958672.jpg"
+      },
+      {
+        "title": "Tempest",
+        "author": "Victoria Aveyard",
+        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978139/9781399622141.jpg"
+      },
+      {
+        "title": "The Midwinter Daughter",
+        "author": "Dilly Court",
+        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978000/9780008796075.jpg"
+      },
+      {
+        "title": "Quicksilver",
+        "author": "Callie Hart",
+        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978139/9781399751285.jpg"
+      },
+      {
+        "title": "The Heights",
+        "author": "Ian Rankin",
+        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978139/9781398726802.jpg"
       },
       {
         "title": "We Chase Shadows",
@@ -80,39 +105,14 @@
         "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978024/9780241745892.jpg"
       },
       {
-        "title": "The Steps",
-        "author": "Sylvester Stallone",
-        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978139/9781399629454.jpg"
-      },
-      {
-        "title": "Caller Unknown",
-        "author": "Gillian McAllister",
-        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978140/9781405957250.jpg"
+        "title": "Hope Rises",
+        "author": "David Baldacci",
+        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978103/9781035035403.jpg"
       },
       {
         "title": "The Correspondent",
         "author": "Virginia Evans",
         "image": "http://www.bibdsl.co.uk/bds-images/l/978024/9780241869895.jpg"
-      },
-      {
-        "title": "Escape Me",
-        "author": "Tahereh Mafi",
-        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978000/9780008718213.jpg"
-      },
-      {
-        "title": "Dungeon Crawler Carl",
-        "author": "Matt Dinniman",
-        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978140/9781405989411.jpg"
-      },
-      {
-        "title": "Spooky Cutie",
-        "author": "Coco Wyo",
-        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978024/9780241808986.jpg"
-      },
-      {
-        "title": "Verity",
-        "author": "Colleen Hoover",
-        "image": "http://www.bibdsl.co.uk/bds-images/l/978140/9781408735923.jpg"
       }
     ]
   },
@@ -123,15 +123,15 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-10-21T07:28:17.313Z",
-      "lastSuccessfulRefresh": "2026-10-21T07:28:17.313Z",
+      "checkedAt": "2026-10-21T12:00:54.681Z",
+      "lastSuccessfulRefresh": "2026-10-21T12:00:54.681Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
-      "status": "healthy",
-      "checkedAt": "2026-10-21T07:28:24.975Z",
+      "status": "stale",
+      "checkedAt": "2026-10-21T12:01:04.584Z",
       "lastSuccessfulRefresh": "2026-10-21T07:28:24.975Z",
-      "reason": ""
+      "reason": "503 https://www.audible.co.uk/charts/best"
     }
   }
 }
