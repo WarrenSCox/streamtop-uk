@@ -1,12 +1,12 @@
 {
-  "updated": "2026-10-23T20:19:39.898Z",
+  "updated": "2026-10-23T21:30:20.391Z",
   "charts": {
     "AUDIOBOOKS": [
       {
         "title": "Bram Stoker's Dracula",
         "author": "Bram Stoker",
         "narrator": "Jonathan Bailey , Ella Purnell , Aimee Lou Wood , Louis Partridge , David Jonsson , Johnny Flynn , Lesley Manville , Maggie Gyllenhaal",
-        "image": "https://m.media-amazon.com/images/I/51nLhYS-rhL._SL500_.jpg"
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/03/85/a8/0385a8b0-667d-baed-8423-132574f5a40f/9781785752292.png/600x600bb.jpg"
       },
       {
         "title": "The Witch",
@@ -24,19 +24,19 @@
         "title": "Dungeon Crawler Carl",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://m.media-amazon.com/images/I/51HIZdnqASL._SL500_.jpg"
+        "image": "https://covers.openlibrary.org/b/id/15143022-L.jpg"
       },
       {
         "title": "A Court of Splintered Harmony",
         "author": "Sarah J. Maas",
         "narrator": "Elizabeth Evans",
-        "image": "https://m.media-amazon.com/images/I/51WqRCIn0sL._SL500_.jpg"
+        "image": "https://covers.openlibrary.org/b/id/15253996-L.jpg"
       },
       {
         "title": "Dead in Three Two One",
         "author": "Peter James",
         "narrator": "Daniel Weyman",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b8/38/6b/b8386be1-e948-8ae4-57c0-6b770979a26d/9781529090154.jpg/600x600bb.jpg"
+        "image": "https://m.media-amazon.com/images/I/51urw7a2KKL._SL500_.jpg"
       },
       {
         "title": "Threshing Day (Wing and Claw Collection)",
@@ -123,15 +123,15 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-10-23T20:19:39.898Z",
-      "lastSuccessfulRefresh": "2026-10-23T20:19:39.898Z",
+      "checkedAt": "2026-10-23T21:30:20.391Z",
+      "lastSuccessfulRefresh": "2026-10-23T21:30:20.391Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
-      "status": "stale",
-      "checkedAt": "2026-10-23T20:19:49.031Z",
-      "lastSuccessfulRefresh": "2026-10-23T17:16:25.960Z",
-      "reason": "503 https://www.audible.co.uk/charts/best"
+      "status": "healthy",
+      "checkedAt": "2026-10-23T21:30:28.368Z",
+      "lastSuccessfulRefresh": "2026-10-23T21:30:28.368Z",
+      "reason": ""
     }
   }
 }

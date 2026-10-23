@@ -1,7 +1,16 @@
 {
-  "updated": "2026-10-23T20:19:34.554Z",
+  "updated": "2026-10-23T21:30:15.651Z",
   "categories": {
     "UK": [
+      {
+        "title": "Chaos at Stansted as passengers stranded without water following transit train breakdown",
+        "link": "https://metro.co.uk/2026/10/23/stansted-passengers-stranded-without-water-following-transit-train-breakdown-29735694/",
+        "published": "Fri, 23 Oct 2026 20:52:01 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News UK London Stansted Airport Storms Travel News UK weather",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_264627619-bb07.jpg?quality=90&strip=all&w=646"
+      },
       {
         "title": "Luxury yacht among £50,000,000 in assets seized from British pair in unexplained wealth order",
         "link": "https://metro.co.uk/2026/10/23/luxury-yacht-among-50-000-000-assets-seized-british-pair-unexplained-wealth-order-29735624/",
@@ -18,7 +27,16 @@
         "source": "Metro",
         "provider": "METRO",
         "categories": "News UK Crime News Lidl West Midlands Police Wolverhampton",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317891592-6d98.jpg?quality=90&strip=all&w=646"
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317902519-5fa1.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Why Trump told Burnham the UK is going to be 'very rich'",
+        "link": "https://news.sky.com/story/donald-trump-tells-andy-burnham-the-uk-will-become-very-rich-by-drilling-in-the-north-sea-13602842",
+        "published": "Fri, 23 Oct 2026 20:10:00 +0100",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/10/1920x1080/skynews-donald-trump-andy-burnham_7384969.jpg?20261023201042"
       },
       {
         "title": "Gang jailed after being caught tunnelling in to jewellery shop",
@@ -37,15 +55,6 @@
         "provider": "GUARDIAN",
         "categories": "UK news England",
         "image": "https://i.guim.co.uk/img/media/06255a9e2eb8bc92d7a776638178e3018c0ffa7b/720_0_7200_5760/master/7200.jpg?width=140&quality=85&auto=format&fit=max&s=5589ccce844bd1e6a4b26b6be42dc49b"
-      },
-      {
-        "title": "Nurse struck off after falsifying records to get cheaper weight loss drugs",
-        "link": "https://metro.co.uk/2026/10/23/nurse-struck-off-falsifying-records-get-cheaper-weight-loss-drugs-29735506/",
-        "published": "Fri, 23 Oct 2026 18:00:14 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News Cornwall Diet and Weight Loss NHS Ozempic",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_233870501-e8e4.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "‘Realistic and reassuring’: UK public ‘responding calmly’ to Be Ready campaign",
@@ -82,15 +91,6 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/09/1920x1080/skynews-airbnb-housing_7346826.jpg?20260910085626"
-      },
-      {
-        "title": "What is in the Be Ready checklist as Britons urged to stock up for emergencies?",
-        "link": "https://news.sky.com/story/what-is-in-the-be-ready-checklist-as-britons-urged-to-stock-up-to-survive-potential-cyber-or-climate-emergencies-13602659",
-        "published": "Fri, 23 Oct 2026 12:33:00 +0100",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/10/1920x1080/skynews-emergency-backpack_7384659.jpg?20261023142923"
       }
     ],
     "WORLD": [
@@ -279,6 +279,15 @@
     ],
     "BUSINESS": [
       {
+        "title": "Trump drops some Canada tariffs in bid to boost embattled Susan Collins in Maine",
+        "link": "https://www.theguardian.com/us-news/2026/oct/23/susan-collins-maine-trump-tariffs-canada",
+        "published": "Fri, 23 Oct 2026 20:36:12 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "US politics Trump tariffs US midterm elections 2026 Business Maine US news Tariffs Republicans World news Canada US Senate US Congress",
+        "image": "https://i.guim.co.uk/img/media/a656adaa305948099a0698f8410031bd96ebf2ff/261_0_2655_2125/master/2655.jpg?width=140&quality=85&auto=format&fit=max&s=4d9cc435fff3980f6d247bc8abe9a63f"
+      },
+      {
         "title": "Oil price rises above $117 a barrel amid fears US will renew strikes on Iran",
         "link": "https://www.theguardian.com/business/2026/oct/23/oil-five-month-high-fears-us-renews-strikes-iran",
         "published": "Fri, 23 Oct 2026 16:48:28 GMT",
@@ -331,15 +340,6 @@
         "provider": "GUARDIAN",
         "categories": "Global development Global health Cancer Health Pharmaceuticals industry India World news South and central Asia Business Healthcare industry Hospitals Breast cancer Society",
         "image": "https://i.guim.co.uk/img/media/5949b37784145f170b9a40cdf06c532b40e2925d/10_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=908a51257bc2a6e05a22c3330d7e9d29"
-      },
-      {
-        "title": "Elon Musk reportedly invests $1bn in David Ellison’s Skydance",
-        "link": "https://www.theguardian.com/technology/2026/oct/22/elon-musk-david-ellison-skydance-investment",
-        "published": "Thu, 22 Oct 2026 21:23:39 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Elon Musk Technology Media business Paramount Pictures Media Mergers and acquisitions Warner Bros Business US television industry",
-        "image": "https://i.guim.co.uk/img/media/7cd5dc6f61f2d7b3d20aa1f599e65225ab113411/0_0_4078_3262/master/4078.jpg?width=140&quality=85&auto=format&fit=max&s=8f7559ac0087dbde2f502e711407959b"
       },
       {
         "title": "I lost my hair twice – now I have a £20m wig business and sell to celebrities",
@@ -555,36 +555,36 @@
     ],
     "STOCKS": [
       {
-        "title": "How major US stock indexes fared Friday 10/23/2026",
-        "link": "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-201458598.html?.tsrc=rss",
-        "published": "Fri, 23 Oct 2026 20:14:58 +0000",
+        "title": "Stock Market Today: Nasdaq Posts Back-To-Back Losses As Oil Surges; Samsara Breaks Out",
+        "link": "https://uk.finance.yahoo.com/m/81c00f86-3a6b-31fa-a8aa-5d5650c74f9c/stock-market-today%3A-nasdaq.html?.tsrc=rss",
+        "published": "Fri, 23 Oct 2026 20:38:53 +0000",
         "source": "Yahoo Finance",
         "provider": "YAHOO",
         "categories": "",
         "image": ""
       },
       {
-        "title": "1 S&P 500 stock with exciting potential and 2 facing challenges",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/1-p-500-stock-exciting-200839441.html?.tsrc=rss",
-        "published": "Fri, 23 Oct 2026 20:08:39 +0000",
+        "title": "Atlassian Swing Trade: Why We Sold A Resilient Stock In A Tech Pullback",
+        "link": "https://uk.finance.yahoo.com/m/87d52fa0-71d2-306f-ac6d-6cc7bf8e62ac/atlassian-swing-trade%3A-why-we.html?.tsrc=rss",
+        "published": "Fri, 23 Oct 2026 20:32:10 +0000",
         "source": "Yahoo Finance",
         "provider": "YAHOO",
         "categories": "",
         "image": ""
       },
       {
-        "title": "3 consumer stocks we think twice about",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/3-consumer-stocks-think-twice-200039814.html?.tsrc=rss",
-        "published": "Fri, 23 Oct 2026 20:00:39 +0000",
+        "title": "Oil tops $116 with stocks mixed on earnings, AI",
+        "link": "https://uk.finance.yahoo.com/news/asian-stocks-head-weekend-low-024730962.html?.tsrc=rss",
+        "published": "Fri, 23 Oct 2026 20:22:55 +0000",
         "source": "Yahoo Finance",
         "provider": "YAHOO",
         "categories": "",
         "image": ""
       },
       {
-        "title": "2 healthcare stocks to keep an eye on and 1 that underwhelm",
-        "link": "https://finance.yahoo.com/healthcare/articles/2-healthcare-stocks-keep-eye-194439548.html?.tsrc=rss",
-        "published": "Fri, 23 Oct 2026 19:44:39 +0000",
+        "title": "2 S&P 500 stocks worth your attention and 1 we avoid",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/2-p-500-stocks-worth-201639987.html?.tsrc=rss",
+        "published": "Fri, 23 Oct 2026 20:16:39 +0000",
         "source": "Yahoo Finance",
         "provider": "YAHOO",
         "categories": "",
@@ -767,6 +767,15 @@
             "image": "https://e3.365dm.com/26/10/1920x1080/skynews-duchess-of-sussex-meghan_7384470.jpg?20261023110214"
           },
           {
+            "title": "Why Trump told Burnham the UK is going to be 'very rich'",
+            "link": "https://news.sky.com/story/donald-trump-tells-andy-burnham-the-uk-will-become-very-rich-by-drilling-in-the-north-sea-13602842",
+            "published": "Fri, 23 Oct 2026 20:10:00 +0100",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/10/1920x1080/skynews-donald-trump-andy-burnham_7384969.jpg?20261023201042"
+          },
+          {
             "title": "Vincent Kompany taken to hospital after collapsing at Bayern Munich training",
             "link": "https://news.sky.com/story/vincent-kompany-bayern-coach-taken-to-hospital-after-collapsing-at-training-13602791",
             "published": "Fri, 23 Oct 2026 17:55:00 +0100",
@@ -837,15 +846,6 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/10/1920x1080/skynews-teddy-young-royal-navy_7371247.jpg?20261008130154"
-          },
-          {
-            "title": "The national resilience moment that almost unfolded in silence - in stark contrast to NATO allies",
-            "link": "https://news.sky.com/story/be-ready-checklist-the-national-resilience-moment-that-almost-barely-happened-13602517",
-            "published": "Thu, 22 Oct 2026 23:05:00 +0100",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/10/1920x1080/skynews-wes-streeting-uk_7384205.jpg?20261022232609"
           }
         ],
         "WORLD": [
@@ -1823,6 +1823,15 @@
         ],
         "BUSINESS": [
           {
+            "title": "Trump drops some Canada tariffs in bid to boost embattled Susan Collins in Maine",
+            "link": "https://www.theguardian.com/us-news/2026/oct/23/susan-collins-maine-trump-tariffs-canada",
+            "published": "Fri, 23 Oct 2026 20:36:12 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "US politics Trump tariffs US midterm elections 2026 Business Maine US news Tariffs Republicans World news Canada US Senate US Congress",
+            "image": "https://i.guim.co.uk/img/media/a656adaa305948099a0698f8410031bd96ebf2ff/261_0_2655_2125/master/2655.jpg?width=140&quality=85&auto=format&fit=max&s=4d9cc435fff3980f6d247bc8abe9a63f"
+          },
+          {
             "title": "Oil price rises above $117 a barrel amid fears US will renew strikes on Iran",
             "link": "https://www.theguardian.com/business/2026/oct/23/oil-five-month-high-fears-us-renews-strikes-iran",
             "published": "Fri, 23 Oct 2026 16:48:28 GMT",
@@ -1893,15 +1902,6 @@
             "provider": "GUARDIAN",
             "categories": "Bonds Eurozone France Europe World news Business",
             "image": "https://i.guim.co.uk/img/media/f6bb8d4864e05b4447547f7813c2a697dc28b29a/432_0_4320_3456/master/4320.jpg?width=140&quality=85&auto=format&fit=max&s=212fae03a703c784f0b0b5b65623df66"
-          },
-          {
-            "title": "Tesla and SpaceX explore merger as Elon Musk gives backing",
-            "link": "https://www.theguardian.com/science/2026/oct/20/spacex-revenue-earnings-report",
-            "published": "Wed, 21 Oct 2026 01:10:07 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "SpaceX Elon Musk Quarterly results Technology sector Satellites Technology Business Aerospace industry",
-            "image": "https://i.guim.co.uk/img/media/e8751fbc7c731bbd0529b03c52637c25514b5fc6/619_0_4330_3463/master/4330.jpg?width=140&quality=85&auto=format&fit=max&s=bbd3129d8214898b08d7ec2403477375"
           },
           {
             "title": "‘Hunted like animals’: inside Trump’s war on the people who build America",
@@ -2399,6 +2399,15 @@
       "categories": {
         "UK": [
           {
+            "title": "Chaos at Stansted as passengers stranded without water following transit train breakdown",
+            "link": "https://metro.co.uk/2026/10/23/stansted-passengers-stranded-without-water-following-transit-train-breakdown-29735694/",
+            "published": "Fri, 23 Oct 2026 20:52:01 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News UK London Stansted Airport Storms Travel News UK weather",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_264627619-bb07.jpg?quality=90&strip=all&w=646"
+          },
+          {
             "title": "Luxury yacht among £50,000,000 in assets seized from British pair in unexplained wealth order",
             "link": "https://metro.co.uk/2026/10/23/luxury-yacht-among-50-000-000-assets-seized-british-pair-unexplained-wealth-order-29735624/",
             "published": "Fri, 23 Oct 2026 20:16:25 +0000",
@@ -2414,7 +2423,7 @@
             "source": "Metro",
             "provider": "METRO",
             "categories": "News UK Crime News Lidl West Midlands Police Wolverhampton",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317891592-6d98.jpg?quality=90&strip=all&w=646"
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317902519-5fa1.jpg?quality=90&strip=all&w=646"
           },
           {
             "title": "Gang jailed after being caught tunnelling in to jewellery shop",
@@ -2568,15 +2577,6 @@
             "provider": "METRO",
             "categories": "News UK Weird news West Sussex",
             "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317570707-1fef.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Mystery after world’s largest military cargo plane ‘catches fire’ during landing",
-            "link": "https://metro.co.uk/2026/10/23/mystery-worlds-largest-military-cargo-plane-catches-fire-landing-29733541/",
-            "published": "Fri, 23 Oct 2026 11:01:02 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News World Japan Russia Russia-Ukraine war Ukraine",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317818023-6b94.jpg?quality=90&strip=all&w=646"
           }
         ],
         "WORLD": [
@@ -3401,6 +3401,42 @@
         "STOCK_MARKET": [],
         "STOCKS": [
           {
+            "title": "Stock Market Today: Nasdaq Posts Back-To-Back Losses As Oil Surges; Samsara Breaks Out",
+            "link": "https://uk.finance.yahoo.com/m/81c00f86-3a6b-31fa-a8aa-5d5650c74f9c/stock-market-today%3A-nasdaq.html?.tsrc=rss",
+            "published": "Fri, 23 Oct 2026 20:38:53 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "Atlassian Swing Trade: Why We Sold A Resilient Stock In A Tech Pullback",
+            "link": "https://uk.finance.yahoo.com/m/87d52fa0-71d2-306f-ac6d-6cc7bf8e62ac/atlassian-swing-trade%3A-why-we.html?.tsrc=rss",
+            "published": "Fri, 23 Oct 2026 20:32:10 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "Oil tops $116 with stocks mixed on earnings, AI",
+            "link": "https://uk.finance.yahoo.com/news/asian-stocks-head-weekend-low-024730962.html?.tsrc=rss",
+            "published": "Fri, 23 Oct 2026 20:22:55 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "2 S&P 500 stocks worth your attention and 1 we avoid",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/2-p-500-stocks-worth-201639987.html?.tsrc=rss",
+            "published": "Fri, 23 Oct 2026 20:16:39 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
             "title": "How major US stock indexes fared Friday 10/23/2026",
             "link": "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-201458598.html?.tsrc=rss",
             "published": "Fri, 23 Oct 2026 20:14:58 +0000",
@@ -3437,15 +3473,6 @@
             "image": ""
           },
           {
-            "title": "Stock Market Today: Dow Sheds 600 Points As Oil Jumps; Samsara Breaks Out (Live Coverage)",
-            "link": "https://uk.finance.yahoo.com/m/81c00f86-3a6b-31fa-a8aa-5d5650c74f9c/stock-market-today%3A-dow-sheds.html?.tsrc=rss",
-            "published": "Fri, 23 Oct 2026 19:17:16 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
-          },
-          {
             "title": "2 industrials stocks to consider right now and 1 we avoid",
             "link": "https://finance.yahoo.com/markets/stocks/articles/2-industrials-stocks-consider-now-191239731.html?.tsrc=rss",
             "published": "Fri, 23 Oct 2026 19:12:39 +0000",
@@ -3476,33 +3503,6 @@
             "title": "1 software stock worth your attention and 2 we brush off",
             "link": "https://finance.yahoo.com/markets/stocks/articles/1-software-stock-worth-attention-172039072.html?.tsrc=rss",
             "published": "Fri, 23 Oct 2026 17:20:39 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "Applied Digital’s Co-Founders Load Up on Shares as the Stock Hit a One-Year Low",
-            "link": "https://uk.finance.yahoo.com/m/655815e1-2560-3a3f-a2c1-a1173705e70e/applied-digital%E2%80%99s-co-founders.html?.tsrc=rss",
-            "published": "Fri, 23 Oct 2026 17:12:00 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "3 insurance stocks walking a fine line",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/3-insurance-stocks-walking-fine-170439615.html?.tsrc=rss",
-            "published": "Fri, 23 Oct 2026 17:04:39 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "FTSE 100 slips as oil price hits five-month high",
-            "link": "https://uk.finance.yahoo.com/news/ftse-100-slips-oil-price-163141780.html?.tsrc=rss",
-            "published": "Fri, 23 Oct 2026 16:31:41 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
@@ -3895,5 +3895,5 @@
       }
     }
   },
-  "stocksUpdated": "2026-10-23T20:19:39.837Z"
+  "stocksUpdated": "2026-10-23T21:30:20.330Z"
 }
