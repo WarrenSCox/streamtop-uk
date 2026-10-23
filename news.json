@@ -1,7 +1,25 @@
 {
-  "updated": "2026-10-23T11:48:34.332Z",
+  "updated": "2026-10-23T12:00:07.292Z",
   "categories": {
     "UK": [
+      {
+        "title": "Man forced to move fence on his own land after council says it’s too ‘overbearing’",
+        "link": "https://metro.co.uk/2026/10/23/man-forced-move-fence-land-council-says-overbearing-29734196/",
+        "published": "Fri, 23 Oct 2026 11:59:11 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News UK Weird news West Sussex",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317570707-1fef.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Antonio Conte issues statement after Manchester United link",
+        "link": "https://metro.co.uk/2026/10/23/antonio-conte-breaks-silence-man-utd-link-replace-michael-carrick-29734202/",
+        "published": "Fri, 23 Oct 2026 11:50:33 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Football Sport Antonio Conte Chelsea FC Manchester United Manchester United Transfer News Michael Carrick Napoli Premier League Tottenham Hotspur",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_266547182-9486.jpg?quality=90&strip=all&w=646"
+      },
       {
         "title": "Andy Burnham warns of ‘winter of greater flooding’ – UK politics live",
         "link": "https://www.theguardian.com/politics/live/2026/oct/23/uk-warnings-stockpile-storm-austen-treasury-autumn-budget-latest-news-updates",
@@ -26,7 +44,7 @@
         "published": "Fri, 23 Oct 2026 11:28:44 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
-        "categories": "Meghan, the Duchess of Sussex Philippines Asia Pacific UK news World news Metropolitan police Monarchy US news",
+        "categories": "Meghan, the Duchess of Sussex Monarchy UK news US news Philippines Asia Pacific World news",
         "image": "https://i.guim.co.uk/img/media/cb82f430a06dc8d31acbdb8d325a697d131baec9/41_0_2500_2000/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=e69836a0430bf383d737234400018d19"
       },
       {
@@ -39,15 +57,6 @@
         "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317818023-6b94.jpg?quality=90&strip=all&w=646"
       },
       {
-        "title": "Oodie’s £1 sale returns with wearable blankets, dressing gowns and throws up for grabs",
-        "link": "https://metro.co.uk/2026/10/23/forget-black-friday-oodie-selling-bestselling-blanket-1-29729879/",
-        "published": "Fri, 23 Oct 2026 11:00:00 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Lifestyle Shopping Black Friday Deals Fashion High Street Metro newspaper Sleep",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEC_317700295-b7b7.jpg?quality=90&strip=all&w=646"
-      },
-      {
         "title": "Millions will have their faces scanned while shopping in Oxford Street this Christmas",
         "link": "https://metro.co.uk/2026/10/23/millions-will-faces-scanned-shopping-oxford-street-this-christmas-29733543/",
         "published": "Fri, 23 Oct 2026 10:39:24 +0000",
@@ -55,15 +64,6 @@
         "provider": "METRO",
         "categories": "News UK Crime News London",
         "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_273957624-9fd2-e1792751782394.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Retail sales in Great Britain fall as struggling households cut back",
-        "link": "https://www.theguardian.com/business/2026/oct/23/retail-sales-in-great-britain-fall-as-struggling-households-cut-back",
-        "published": "Fri, 23 Oct 2026 10:35:55 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Retail industry Budget 2026 Business John Healey Budget UK news Office for National Statistics Petrol prices UK cost of living crisis",
-        "image": "https://i.guim.co.uk/img/media/6de18620e98932dfc227e95b40ff3c07943f39b6/910_112_3699_2959/master/3699.jpg?width=140&quality=85&auto=format&fit=max&s=3047c3ad8a5ce9f9a899dde1d162ecee"
       },
       {
         "title": "European football giants to meet in London for NBA basketball talks",
@@ -100,7 +100,7 @@
         "published": "Fri, 23 Oct 2026 11:28:44 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
-        "categories": "Meghan, the Duchess of Sussex Philippines Asia Pacific UK news World news Metropolitan police Monarchy US news",
+        "categories": "Meghan, the Duchess of Sussex Monarchy UK news US news Philippines Asia Pacific World news",
         "image": "https://i.guim.co.uk/img/media/cb82f430a06dc8d31acbdb8d325a697d131baec9/41_0_2500_2000/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=e69836a0430bf383d737234400018d19"
       },
       {
@@ -167,7 +167,7 @@
         "image": "https://i.guim.co.uk/img/media/0ed9f2c263f907e249340eb3fefc038e54c166e5/827_0_5033_4027/master/5033.jpg?width=140&quality=85&auto=format&fit=max&s=28efa8ac67f988d31942b18efb61218f"
       },
       {
-        "title": "Terror probe after attacker 'with automatic weapon' kills one and injures four near Paris",
+        "title": "Terror probe after fatal shooting in Paris suburb",
         "link": "https://news.sky.com/story/one-dead-and-several-wounded-after-shooting-in-paris-suburb-13602320",
         "published": "Fri, 23 Oct 2026 00:01:00 +0100",
         "source": "Sky News",
@@ -187,6 +187,15 @@
     ],
     "POLITICS": [
       {
+        "title": "Andy Burnham warns of ‘winter of greater flooding’ – UK politics live",
+        "link": "https://www.theguardian.com/politics/live/2026/oct/23/uk-warnings-stockpile-storm-austen-treasury-autumn-budget-latest-news-updates",
+        "published": "Fri, 23 Oct 2026 11:35:25 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Politics UK news Budget 2026",
+        "image": "https://i.guim.co.uk/img/media/1d6f5a0a59ef29acdac15274e1ea33089ec60d1e/2055_273_2600_2081/master/2600.jpg?width=140&quality=85&auto=format&fit=max&s=d9003338c208bd42ee3a3189ba16f320"
+      },
+      {
         "title": "This man has quit Badenoch’s increasingly hard-right Tory party – others should be brave enough to do the same | Polly Toynbee",
         "link": "https://www.theguardian.com/commentisfree/2026/oct/23/tory-party-kemi-badenoch-quit-andrew-boff",
         "published": "Fri, 23 Oct 2026 11:16:16 GMT",
@@ -194,15 +203,6 @@
         "provider": "GUARDIAN",
         "categories": "Conservatives Kemi Badenoch European court of human rights Human Rights Act Politics UK news",
         "image": "https://i.guim.co.uk/img/media/ec18d930848e0699e02507a62545846d43bb5999/207_0_4734_3786/master/4734.jpg?width=140&quality=85&auto=format&fit=max&s=b180633c49c6207d1add07db77fbcd22"
-      },
-      {
-        "title": "Andy Burnham warns of ‘winter of greater flooding’ – UK politics live",
-        "link": "https://www.theguardian.com/politics/live/2026/oct/23/uk-warnings-stockpile-storm-austen-treasury-autumn-budget-latest-news-updates",
-        "published": "Fri, 23 Oct 2026 11:15:41 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Politics UK news Budget 2026",
-        "image": "https://i.guim.co.uk/img/media/1d6f5a0a59ef29acdac15274e1ea33089ec60d1e/2055_273_2600_2081/master/2600.jpg?width=140&quality=85&auto=format&fit=max&s=d9003338c208bd42ee3a3189ba16f320"
       },
       {
         "title": "Extreme weather is here — the stock cupboard list Brits need to prep for emergency",
@@ -463,7 +463,7 @@
     ],
     "ENTERTAINMENT": [
       {
-        "title": "Pitbull finally confesses to Jennifer Lopez erection 15 years after performance",
+        "title": "Pitbull admits to erection during Jennifer Lopez performance after pictures go viral",
         "link": "https://metro.co.uk/2026/10/23/pitbull-finally-confesses-jennifer-lopez-erection-15-years-performance-29734120/",
         "published": "Fri, 23 Oct 2026 11:47:42 +0000",
         "source": "Metro",
@@ -478,7 +478,7 @@
         "source": "Metro",
         "provider": "METRO",
         "categories": "Entertainment Music British musicians Jarvis Cocker Mercury Music Prize",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEC_316306779-a044.jpg?quality=90&strip=all&w=646"
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317754298-a3cb.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "Celebrity Traitors star Maya Jama swipes back at nasty insult in deleted tweet",
@@ -859,7 +859,7 @@
             "image": "https://e3.365dm.com/26/10/1920x1080/skynews-israeli-soldiers-hebron_7384380.jpg?20261023092252"
           },
           {
-            "title": "Terror probe after attacker 'with automatic weapon' kills one and injures four near Paris",
+            "title": "Terror probe after fatal shooting in Paris suburb",
             "link": "https://news.sky.com/story/one-dead-and-several-wounded-after-shooting-in-paris-suburb-13602320",
             "published": "Fri, 23 Oct 2026 00:01:00 +0100",
             "source": "Sky News",
@@ -1336,7 +1336,7 @@
             "published": "Fri, 23 Oct 2026 11:28:44 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Meghan, the Duchess of Sussex Philippines Asia Pacific UK news World news Metropolitan police Monarchy US news",
+            "categories": "Meghan, the Duchess of Sussex Monarchy UK news US news Philippines Asia Pacific World news",
             "image": "https://i.guim.co.uk/img/media/cb82f430a06dc8d31acbdb8d325a697d131baec9/41_0_2500_2000/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=e69836a0430bf383d737234400018d19"
           },
           {
@@ -1590,7 +1590,7 @@
             "published": "Fri, 23 Oct 2026 11:28:44 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Meghan, the Duchess of Sussex Philippines Asia Pacific UK news World news Metropolitan police Monarchy US news",
+            "categories": "Meghan, the Duchess of Sussex Monarchy UK news US news Philippines Asia Pacific World news",
             "image": "https://i.guim.co.uk/img/media/cb82f430a06dc8d31acbdb8d325a697d131baec9/41_0_2500_2000/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=e69836a0430bf383d737234400018d19"
           },
           {
@@ -1679,7 +1679,7 @@
           {
             "title": "Andy Burnham warns of ‘winter of greater flooding’ – UK politics live",
             "link": "https://www.theguardian.com/politics/live/2026/oct/23/uk-warnings-stockpile-storm-austen-treasury-autumn-budget-latest-news-updates",
-            "published": "Fri, 23 Oct 2026 11:15:41 GMT",
+            "published": "Fri, 23 Oct 2026 11:35:25 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
             "categories": "Politics UK news Budget 2026",
@@ -2435,6 +2435,15 @@
       "categories": {
         "UK": [
           {
+            "title": "Man forced to move fence on his own land after council says it’s too ‘overbearing’",
+            "link": "https://metro.co.uk/2026/10/23/man-forced-move-fence-land-council-says-overbearing-29734196/",
+            "published": "Fri, 23 Oct 2026 11:59:11 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News UK Weird news West Sussex",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317570707-1fef.jpg?quality=90&strip=all&w=646"
+          },
+          {
             "title": "Mystery after world’s largest military cargo plane ‘catches fire’ during landing",
             "link": "https://metro.co.uk/2026/10/23/mystery-worlds-largest-military-cargo-plane-catches-fire-landing-29733541/",
             "published": "Fri, 23 Oct 2026 11:01:02 +0000",
@@ -2597,22 +2606,13 @@
             "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_309359471-4b4f.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Oodie’s £1 sale returns with wearable blankets, dressing gowns and throws up for grabs",
-            "link": "https://metro.co.uk/2026/10/23/forget-black-friday-oodie-selling-bestselling-blanket-1-29729879/",
-            "published": "Fri, 23 Oct 2026 11:00:00 +0000",
+            "title": "Antonio Conte issues statement after Manchester United link",
+            "link": "https://metro.co.uk/2026/10/23/antonio-conte-breaks-silence-man-utd-link-replace-michael-carrick-29734202/",
+            "published": "Fri, 23 Oct 2026 11:50:33 +0000",
             "source": "Metro",
             "provider": "METRO",
-            "categories": "Lifestyle Shopping Black Friday Deals Fashion High Street Metro newspaper Sleep",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEC_317700295-b7b7.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Antonio Conte makes two demands to Manchester United over replacing Michael Carrick",
-            "link": "https://metro.co.uk/2026/10/23/antonio-conte-makes-two-demands-man-utd-replacing-michael-carrick-29733199/",
-            "published": "Fri, 23 Oct 2026 09:15:39 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Football Sport Antonio Conte Chelsea FC Manchester United Manchester United Transfer News Michael Carrick Premier League Tottenham Hotspur Transfer News and Rumours",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_271274200-dcee.jpg?quality=90&strip=all&w=646"
+            "categories": "Football Sport Antonio Conte Chelsea FC Manchester United Manchester United Transfer News Michael Carrick Napoli Premier League Tottenham Hotspur",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_266547182-9486.jpg?quality=90&strip=all&w=646"
           }
         ],
         "WORLD": [
@@ -3129,7 +3129,7 @@
         ],
         "ENTERTAINMENT": [
           {
-            "title": "Pitbull finally confesses to Jennifer Lopez erection 15 years after performance",
+            "title": "Pitbull admits to erection during Jennifer Lopez performance after pictures go viral",
             "link": "https://metro.co.uk/2026/10/23/pitbull-finally-confesses-jennifer-lopez-erection-15-years-performance-29734120/",
             "published": "Fri, 23 Oct 2026 11:47:42 +0000",
             "source": "Metro",
@@ -3144,7 +3144,7 @@
             "source": "Metro",
             "provider": "METRO",
             "categories": "Entertainment Music British musicians Jarvis Cocker Mercury Music Prize",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEC_316306779-a044.jpg?quality=90&strip=all&w=646"
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317754298-a3cb.jpg?quality=90&strip=all&w=646"
           },
           {
             "title": "Celebrity Traitors star Maya Jama swipes back at nasty insult in deleted tweet",
@@ -3497,7 +3497,7 @@
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
-            "image": "https://cdn.proactiveinvestors.com/eyJidWNrZXQiOiJwYS1jZG4iLCJrZXkiOiJ1cGxvYWRcL05ld3NcL0ltYWdlXC8yMDI2XzEwXC9zaHV0dGVyc3RvY2stNzA3ODUwMDg1XzZhZGIzZGZiZjMyNTMuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMjAwLCJoZWlnaHQiOjYzMCwiZml0IjoiY292ZXIifX19"
+            "image": "https://cdn.proactiveinvestors.com/eyJidWNrZXQiOiJwYS1jZG4iLCJrZXkiOiJ1cGxvYWRcL05ld3NcL0ltYWdlXC8yMDI2XzEwXC8yMDI1LTEyLTIzLTA5LTAwLTQwLTljODM2YWFiZjkxZmMwZjgwZWVhZWVmY2ZhMjVhYWYxLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0Ijo2MzAsImZpdCI6ImNvdmVyIn19fQ=="
           },
           {
             "title": "Asia stocks fall as AI rout batters S.Korea; Japan spooked by strong CPI",
@@ -3725,6 +3725,15 @@
             "image": ""
           },
           {
+            "title": "Investors see risk from US midterms to AI trade as data center backlash builds",
+            "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPN1FMNjdldVFMRjM1VlhaMGJCSG9GR3d4TzBjRVUxRk1NYnpHZWxDU1BLNVN4Y1BxUHhrdDhCc3JDYXpiN0c1T2NGRHFRNUxRcEFFVkpadTYxX0h4QXREYWtEZjVyOVJSdkQ0NlBnS05lRVlTUzhVNTRrdGNpbGM4blFKb2NiSnktRGdERWV4R1psd3BqbTROX242TjBkbFl2RVVhenBXVDZEVks3M1FsYTZBOGhhYVRfT0s1TmZ4SXQ?oc=5",
+            "published": "Thu, 22 Oct 2026 15:31:01 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
             "title": "Indian shares extend losses as high oil prices heighten inflation worries",
             "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZDhVMWdGc0J2bURPNnV2YnBaRXlMSkVqcXRGX1FBZ2lUOXQ4eVJyd3RsTE1CckJ4cjRuVEdPQVJLaGVXaVA5clJIZ0lQSTBsMm1iQ0xfeTZkNXhqWUtoX2ExQkNlRFVfSVhKckRtenZfWW41bDlxWWc0WVFuRTVTTHlIdEtPcEI2Z2hWR2pyd2NGOGRiNXNMUkM3OE5qcFV5VUxQUkVDem1HdXN4X0pKY3RrejhKeHcxRjdV?oc=5",
             "published": "Thu, 22 Oct 2026 02:33:00 GMT",
@@ -3791,15 +3800,6 @@
             "title": "AI stocks bounce back after bruising selloff, CoreWeave gets Goldman upgrade",
             "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQQnRpUlhFSVItYXlyM2JtRDAxZFNzc1owV1VBSFM4VERhS3dYOW1wVWtOeERTaDRrWlZyQVJTVVdvNFktdG5oSGpjY0ZwY1hBbnllN2d6Qkg4aExFcWdNT3F3dWlxdTFtbU92WV9WTC1NVEw0QmlWb201cXB6NGJCajVtbmZjYnJ4MWZ3TDZYR1l3ZmZFRFJORzhlNE1Yb0QtNDlyc3ZnY2tuenV1OFgwVQ?oc=5",
             "published": "Mon, 19 Oct 2026 15:16:52 GMT",
-            "source": "Reuters",
-            "provider": "REUTERS",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "Indonesia stock exchange to meet MSCI on Monday, seeking clarification on downgrade warning",
-            "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNTE5LaGtJejUxOFd5bFNMUnVTSTdEWXZDMFV0RTIxbjF1ckpOQ0F3VU9JZzV4TWxPWUNacWFNTHo0UDZONUloQnUwSS1uNklteUJnbGd6M19QNGtnMjVodkRfbXBjeXEyLS1vbUFaX0phR1h1V2RzR2ljbWtZWEpkaDJndWY2c1JJMFV0Y1pXc2l4V1AwdGdueXBSUWdDdjFQT1RLV3AxVzh6UFp1RjlBb3pJOWFNUjhnWWZLN1JuUTdTVHRnT3dZ?oc=5",
-            "published": "Mon, 19 Oct 2026 06:15:50 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3931,5 +3931,5 @@
       }
     }
   },
-  "stocksUpdated": "2026-10-23T11:48:42.881Z"
+  "stocksUpdated": "2026-10-23T12:00:13.407Z"
 }
