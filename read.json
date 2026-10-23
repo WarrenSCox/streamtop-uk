@@ -1,18 +1,18 @@
 {
-  "updated": "2026-10-22T22:41:29.157Z",
+  "updated": "2026-10-23T01:25:24.545Z",
   "charts": {
     "AUDIOBOOKS": [
       {
         "title": "Bram Stoker's Dracula",
         "author": "Bram Stoker",
         "narrator": "Jonathan Bailey , Ella Purnell , Aimee Lou Wood , Louis Partridge , David Jonsson , Johnny Flynn , Lesley Manville , Maggie Gyllenhaal",
-        "image": "https://m.media-amazon.com/images/I/51nLhYS-rhL._SL500_.jpg"
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/03/85/a8/0385a8b0-667d-baed-8423-132574f5a40f/9781785752292.png/600x600bb.jpg"
       },
       {
         "title": "The Witch",
         "author": "Freida McFadden",
         "narrator": "Saskia Maarleveld , Marin Ireland",
-        "image": "https://m.media-amazon.com/images/I/41vExa8IbhL._SL500_.jpg"
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/21/e2/a3/21e2a31c-2e04-6d99-0af9-180a08fa96a2/9798349169328.jpg/600x600bb.jpg"
       },
       {
         "title": "Her Stepmother's House",
@@ -30,7 +30,7 @@
         "title": "Dead in Three Two One",
         "author": "Peter James",
         "narrator": "Daniel Weyman",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b8/38/6b/b8386be1-e948-8ae4-57c0-6b770979a26d/9781529090154.jpg/600x600bb.jpg"
+        "image": "https://m.media-amazon.com/images/I/51urw7a2KKL._SL500_.jpg"
       },
       {
         "title": "Threshing Day (Wing and Claw Collection)",
@@ -45,22 +45,22 @@
         "image": "https://m.media-amazon.com/images/I/51yEO5vfs9L._SL500_.jpg"
       },
       {
+        "title": "The Let Them Theory",
+        "author": "Mel Robbins",
+        "narrator": "Mel Robbins",
+        "image": "https://m.media-amazon.com/images/I/51YOr6ua-PL._SL500_.jpg"
+      },
+      {
         "title": "Carl's Doomsday Scenario",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
         "image": "https://covers.openlibrary.org/b/id/11702962-L.jpg"
       },
       {
-        "title": "The Let Them Theory",
-        "author": "Mel Robbins",
-        "narrator": "Mel Robbins",
-        "image": "https://covers.openlibrary.org/b/id/15165806-L.jpg"
-      },
-      {
-        "title": "You Will Remember Nothing",
-        "author": "Liv Parkinson",
-        "narrator": "Raffey Cassidy , Tom Alexander , Nico Mirallegro",
-        "image": "https://m.media-amazon.com/images/I/41LjhY18lAL._SL500_.jpg"
+        "title": "The Dungeon Anarchist's Cookbook",
+        "author": "Matt Dinniman",
+        "narrator": "Jeff Hays , The Critical Drinker",
+        "image": "https://m.media-amazon.com/images/I/518nfG1FaYL._SL500_.jpg"
       }
     ],
     "BOOKS": [
@@ -123,15 +123,15 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-10-22T22:41:29.157Z",
-      "lastSuccessfulRefresh": "2026-10-22T22:41:29.157Z",
+      "checkedAt": "2026-10-23T01:25:24.545Z",
+      "lastSuccessfulRefresh": "2026-10-23T01:25:24.545Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
-      "status": "stale",
-      "checkedAt": "2026-10-22T22:41:36.822Z",
-      "lastSuccessfulRefresh": "2026-10-22T17:18:38.955Z",
-      "reason": "503 https://www.audible.co.uk/charts/best"
+      "status": "healthy",
+      "checkedAt": "2026-10-23T01:25:33.877Z",
+      "lastSuccessfulRefresh": "2026-10-23T01:25:33.877Z",
+      "reason": ""
     }
   }
 }
