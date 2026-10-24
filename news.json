@@ -1,7 +1,16 @@
 {
-  "updated": "2026-10-24T11:13:51.073Z",
+  "updated": "2026-10-24T12:11:19.631Z",
   "categories": {
     "UK": [
+      {
+        "title": "Storm Boelo to bring gusts of up to 80mph and heavy rain to parts of UK",
+        "link": "https://www.theguardian.com/world/2026/oct/24/storm-boelo-80mph-winds-heavy-rain-northern-uk",
+        "published": "Sat, 24 Oct 2026 11:24:19 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Extreme weather UK weather UK news England North of England Met Office Environment Scotland Northern Ireland Flooding",
+        "image": "https://i.guim.co.uk/img/media/1bbbd982efa547b0834013560d14fe87ee504c30/282_0_4080_3264/master/4080.jpg?width=140&quality=85&auto=format&fit=max&s=cb6fa5eed92b389a73c772a73f6cb7a1"
+      },
       {
         "title": "British man faces 25 years in jail over ‘murder’ of wife found dead in Spain",
         "link": "https://metro.co.uk/2026/10/24/british-man-faces-25-years-jail-murder-wife-found-dead-spain-29736219/",
@@ -10,6 +19,24 @@
         "provider": "METRO",
         "categories": "News World Crime News Spain",
         "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317956478-d972.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "No unions, low taxes: why some of Britain’s top chefs are opening outposts in Gulf states",
+        "link": "https://www.theguardian.com/food/2026/oct/24/uk-tsunami-taxes-top-london-restaurants-expand-abroad",
+        "published": "Sat, 24 Oct 2026 11:00:31 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Restaurants Dubai United Arab Emirates Tax and spending Politics London UK news Middle East and north Africa World news Workers' rights",
+        "image": "https://i.guim.co.uk/img/media/8169ff71c023a4ac8a94eb1f541f83ce182d7093/118_0_4570_3655/master/4570.jpg?width=140&quality=85&auto=format&fit=max&s=eb0d47220c12f03c8388794e05560d0d"
+      },
+      {
+        "title": "Is London really the most-taxed city? Banks accused of cherrypicking data",
+        "link": "https://www.theguardian.com/uk-news/2026/oct/24/banking-lobby-group-accused-cherry-picking-data-healey-tax-rise",
+        "published": "Sat, 24 Oct 2026 11:00:31 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Budget 2026 Financial sector Tax and spending Banking John Healey Budget Tax London Business UK news Politics",
+        "image": "https://i.guim.co.uk/img/media/bd0a6314e2540f8792bbbc2a44826e497205c994/0_0_5524_4420/master/5524.jpg?width=140&quality=85&auto=format&fit=max&s=b8af8160dddeaae0420d71f3cc5146f5"
       },
       {
         "title": "Storm Boelo to cause ‘widespread travel issues’ with heavy rain and 80mph winds",
@@ -37,33 +64,6 @@
         "provider": "METRO",
         "categories": "News UK Death The Bahamas",
         "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317889214-a4b7-e1792831822662.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Boy, 14, seriously injured after confronting ‘fat bald man’ urinating in the street",
-        "link": "https://metro.co.uk/2026/10/24/boy-14-seriously-injured-confronting-fat-bald-man-urinating-street-29736032/",
-        "published": "Sat, 24 Oct 2026 09:19:41 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News UK Bradford Crime News",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317956781-a078.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Tinned food, loo roll and power banks: the Brits following advice to stockpile",
-        "link": "https://www.theguardian.com/society/2026/oct/24/tinned-food-loo-roll-power-banks-brits-stockpiling-government-advice",
-        "published": "Sat, 24 Oct 2026 09:00:29 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Society Emergency planning Politics UK news Natural disasters",
-        "image": "https://i.guim.co.uk/img/media/fdff821dc01a145f69cf72ea122d36982c088a0e/0_823_3427_2741/master/3427.jpg?width=140&quality=85&auto=format&fit=max&s=1ac8a8e8b3db8e42190edda65e8ee17e"
-      },
-      {
-        "title": "Can John Healey make a dent in the cost of living crisis in his first budget?",
-        "link": "https://www.theguardian.com/uk-news/2026/oct/24/can-john-healey-make-a-dent-in-the-cost-of-living-crisis-in-his-first-budget",
-        "published": "Sat, 24 Oct 2026 09:00:29 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Budget 2026 John Healey UK cost of living crisis Tax and spending Economic policy Labour Andy Burnham UK news Business Politics Budget",
-        "image": "https://i.guim.co.uk/img/media/fc384fb4e4201ba96e3ea0f3696d10da28d16e43/411_0_3989_3192/master/3989.jpg?width=140&quality=85&auto=format&fit=max&s=a52a9f03cffc07ca8626e18963a7acf7"
       },
       {
         "title": "Former Goldman Sachs chief leaves Britain amid tax hike fears",
@@ -187,15 +187,6 @@
     ],
     "POLITICS": [
       {
-        "title": "Is London really the most-taxed city? Banks accused of cherrypicking data",
-        "link": "https://www.theguardian.com/uk-news/2026/oct/24/banking-lobby-group-accused-cherry-picking-data-healey-tax-rise",
-        "published": "Sat, 24 Oct 2026 11:00:31 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Budget 2026 Financial sector Tax and spending Banking John Healey Budget Tax London Business UK news Politics",
-        "image": "https://i.guim.co.uk/img/media/bd0a6314e2540f8792bbbc2a44826e497205c994/0_0_5524_4420/master/5524.jpg?width=140&quality=85&auto=format&fit=max&s=b8af8160dddeaae0420d71f3cc5146f5"
-      },
-      {
         "title": "No unions, low taxes: why some of Britain’s top chefs are opening outposts in Gulf states",
         "link": "https://www.theguardian.com/food/2026/oct/24/uk-tsunami-taxes-top-london-restaurants-expand-abroad",
         "published": "Sat, 24 Oct 2026 11:00:31 GMT",
@@ -203,6 +194,15 @@
         "provider": "GUARDIAN",
         "categories": "Restaurants Dubai United Arab Emirates Tax and spending Politics London UK news Middle East and north Africa World news Workers' rights",
         "image": "https://i.guim.co.uk/img/media/8169ff71c023a4ac8a94eb1f541f83ce182d7093/118_0_4570_3655/master/4570.jpg?width=140&quality=85&auto=format&fit=max&s=eb0d47220c12f03c8388794e05560d0d"
+      },
+      {
+        "title": "Is London really the most-taxed city? Banks accused of cherrypicking data",
+        "link": "https://www.theguardian.com/uk-news/2026/oct/24/banking-lobby-group-accused-cherry-picking-data-healey-tax-rise",
+        "published": "Sat, 24 Oct 2026 11:00:31 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Budget 2026 Financial sector Tax and spending Banking John Healey Budget Tax London Business UK news Politics",
+        "image": "https://i.guim.co.uk/img/media/bd0a6314e2540f8792bbbc2a44826e497205c994/0_0_5524_4420/master/5524.jpg?width=140&quality=85&auto=format&fit=max&s=b8af8160dddeaae0420d71f3cc5146f5"
       },
       {
         "title": "Andy Burnham has come for the headphone-dodgers. But is there any evidence fines work?",
@@ -407,15 +407,6 @@
         "image": "https://i.guim.co.uk/img/media/13ceb52a43f1b6771519d70b1eb33680ffbec0ca/0_0_2750_2200/master/2750.jpg?width=140&quality=85&auto=format&fit=max&s=7c0a9667489edbac502049a00339a656"
       },
       {
-        "title": "‘Scammers took every penny my mum’s got – and got away with it’",
-        "link": "https://metro.co.uk/2026/10/24/scammers-took-every-penny-mums-got-got-away-it-29666009/",
-        "published": "Sat, 24 Oct 2026 05:00:00 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News Tech Alzheimer's",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/alt01_01-735b.gif?w=646"
-      },
-      {
         "title": "UK pledges £600m to defend against AI health and security threats",
         "link": "https://news.sky.com/story/uk-pledges-to-spend-600m-to-defend-against-ai-health-and-security-threats-13602935",
         "published": "Sat, 24 Oct 2026 03:49:00 +0100",
@@ -423,6 +414,15 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/10/1920x1080/skynews-ai-generic_7385212.jpg?20261024035917"
+      },
+      {
+        "title": "‘Black October’: cybersecurity experts sound the alarm over new era of AI-enabled hacking",
+        "link": "https://www.theguardian.com/technology/2026/oct/23/cybersecurity-ai-hacking-php-vulnerability",
+        "published": "Fri, 23 Oct 2026 18:48:48 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Technology AI (artificial intelligence) US news World news",
+        "image": "https://i.guim.co.uk/img/media/cb4c18c4ae3df1d687b8488dfb57058ade00d1a7/731_0_3659_2927/master/3659.jpg?width=140&quality=85&auto=format&fit=max&s=22240fd63146e88296ce67fe0124324c"
       },
       {
         "title": "The £1,000 mistake people are making with new iPhone purchase",
@@ -443,25 +443,43 @@
         "image": "https://e3.365dm.com/23/08/1920x1080/skynews-scales-obesity_6254499.jpg?20230818115716"
       },
       {
-        "title": "‘Black October’: cybersecurity experts sound the alarm over new era of AI-enabled hacking",
-        "link": "https://www.theguardian.com/technology/2026/oct/23/cybersecurity-ai-hacking-php-vulnerability",
-        "published": "Fri, 23 Oct 2026 18:48:48 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Technology AI (artificial intelligence) US news World news",
-        "image": "https://i.guim.co.uk/img/media/cb4c18c4ae3df1d687b8488dfb57058ade00d1a7/731_0_3659_2927/master/3659.jpg?width=140&quality=85&auto=format&fit=max&s=22240fd63146e88296ce67fe0124324c"
+        "title": "Military aircraft to be equipped to fight wildfires",
+        "link": "https://news.sky.com/story/military-aircraft-to-be-equipped-to-fight-wildfires-government-says-13602524",
+        "published": "Fri, 23 Oct 2026 02:11:00 +0100",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/10/1920x1080/skynews-uk-helicopter-wildfires_7384222.jpg?20261023040224"
       },
       {
-        "title": "A farewell to BioWare, maker of some of the best games of the 21st century | Lucy James",
-        "link": "https://www.theguardian.com/games/2026/oct/23/bioware-rpg-games-ea-closure-mass-effect",
-        "published": "Fri, 23 Oct 2026 14:44:48 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Games Role playing games",
-        "image": "https://i.guim.co.uk/img/media/db0a48ae4a8bab736e867ed6a0033af706ae7f1e/831_0_1713_1372/master/1713.jpg?width=140&quality=85&auto=format&fit=max&s=c57969addcf44d18009e58141e3a5c8f"
+        "title": "Vital clues could help predict prostate cancer years in advance",
+        "link": "https://news.sky.com/story/vital-clues-could-help-predict-prostate-cancer-years-in-advance-study-suggests-13601915",
+        "published": "Wed, 21 Oct 2026 14:20:00 +0100",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/02/1920x1080/skynews-prostate-cancer_7176769.jpg?20260602170111"
       }
     ],
     "ENTERTAINMENT": [
+      {
+        "title": "Skydance employees brace for expected restructure as megamerger dust settles",
+        "link": "https://www.theguardian.com/media/2026/oct/24/skydance-employees-brace-change-megamerger-dust-settles",
+        "published": "Sat, 24 Oct 2026 12:00:32 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Media Paramount+ Paramount Pictures Warner Bros Film Culture Television & radio Business",
+        "image": "https://i.guim.co.uk/img/media/ae15500f5d8870634c8687ec5d1a5f1e422eabc2/775_288_3996_3198/master/3996.jpg?width=140&quality=85&auto=format&fit=max&s=229b9f5778adcf83cd361db38158cce5"
+      },
+      {
+        "title": "Morgana Robinson demanded a bodyguard for filming ‘disturbing and risky’ Ali G sequel",
+        "link": "https://metro.co.uk/2026/10/24/morgana-robinson-demanded-a-bodyguard-filming-disturbing-risky-ali-g-sequel-29736169/",
+        "published": "Sat, 24 Oct 2026 11:49:49 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Entertainment Film Channel 4 Comedians Comedy Sacha Baron Cohen",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316683425-34f0.jpg?quality=90&strip=all&w=646"
+      },
       {
         "title": "Celebrity Traitors fans convinced they’ve spotted ‘game-breaking’ moment that left producers scrambling",
         "link": "https://metro.co.uk/2026/10/24/celebrity-traitors-fans-convinced-spotted-game-breaking-moment-29736054/",
@@ -481,15 +499,6 @@
         "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317770536-d4fe-e1792742311515.jpg?quality=90&strip=all&w=646"
       },
       {
-        "title": "Gogglebox fans defend Andy Burnham from critics: ‘He’s raising money for cancer charities’",
-        "link": "https://metro.co.uk/2026/10/24/gogglebox-fans-defend-andy-burnham-critics-hes-raising-money-cancer-charities-29736024/",
-        "published": "Sat, 24 Oct 2026 09:38:39 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Entertainment TV Andy Burnham Cancer Channel 4 Gogglebox",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/1792772666204_3309693712902662.jpg?quality=90&strip=all&w=636"
-      },
-      {
         "title": "‘Unlike anything we’ve experienced’: fans swarm San Francisco for BTS star’s art exhibition",
         "link": "https://www.theguardian.com/artanddesign/2026/oct/24/rm-bts-sfmoma-exhibition",
         "published": "Sat, 24 Oct 2026 09:00:29 GMT",
@@ -497,15 +506,6 @@
         "provider": "GUARDIAN",
         "categories": "Exhibitions BTS Museums Culture Art Art and design Music Pop and rock K-pop San Francisco California West Coast",
         "image": "https://i.guim.co.uk/img/media/d4f1a5074c7e69d4a404f73360b9907321f5341a/400_364_1183_947/master/1183.jpg?width=140&quality=85&auto=format&fit=max&s=71c1f4ff28c4e68d9cafd679114324a0"
-      },
-      {
-        "title": "New James Bond frontrunner emerges as 007 auditions begin this weekend",
-        "link": "https://metro.co.uk/2026/10/24/new-james-bond-frontrunner-emerges-007-auditions-begin-this-weekend-29736042/",
-        "published": "Sat, 24 Oct 2026 08:43:24 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Entertainment Film Amazon Prime Video James Bond Richard Madden",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_292736416-9de9.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "A Course Called Ireland: Bill Murray clearly hated making his new golfing show – but it’s extremely fun to binge",
@@ -555,6 +555,24 @@
     ],
     "STOCKS": [
       {
+        "title": "Could this fresh rally above 600p be a ‘breakout’ for BP shares?",
+        "link": "https://www.twelfthmagpie.com/2026/10/24/could-this-fresh-rally-above-600p-be-a-breakout-for-bp-shares/",
+        "published": "Sat, 24 Oct 2026 12:02:00 +0000",
+        "source": "The Twelfth Magpie",
+        "provider": "MAGPIE",
+        "categories": "Dividend Shares Investing Articles",
+        "image": "https://www.twelfthmagpie.com/wp-content/uploads/2023/10/BP-oil-workers-1200x675.jpg"
+      },
+      {
+        "title": "Evercore Outlines Key Credit and Treasury Yield Thresholds That Could Signal AI Stock Market Correction",
+        "link": "https://uk.advfn.com/market-news/article/24945/evercore-outlines-key-credit-and-treasury-yield-thresholds-that-could-signal-ai-stock-market-correction?.tsrc=rss",
+        "published": "Sat, 24 Oct 2026 11:49:00 +0000",
+        "source": "Yahoo Finance",
+        "provider": "YAHOO",
+        "categories": "",
+        "image": "https://uk.advfn-editors.com/wp-content/uploads/2026/05/artificial-intelligence-a1-chip-NEW-SIZE.png"
+      },
+      {
         "title": "Prediction: Legal & General will be the most-bought passive income share in a Stocks and Shares ISA in 2027",
         "link": "https://www.twelfthmagpie.com/2026/10/24/prediction-legal-general-will-be-the-most-bought-passive-income-share-in-a-stocks-and-shares-isa-in-2027/",
         "published": "Sat, 24 Oct 2026 10:56:00 +0000",
@@ -582,15 +600,6 @@
         "image": "https://www.twelfthmagpie.com/wp-content/uploads/2026/06/AdobeStock_349905801-1200x800.jpeg"
       },
       {
-        "title": "Are Barclays shares set for further losses after Citi slashes its target?",
-        "link": "https://www.twelfthmagpie.com/2026/10/24/are-barclays-shares-set-for-further-losses-after-citi-slashes-target/",
-        "published": "Sat, 24 Oct 2026 08:11:00 +0000",
-        "source": "The Twelfth Magpie",
-        "provider": "MAGPIE",
-        "categories": "Dividend Shares Investing Articles",
-        "image": "https://www.twelfthmagpie.com/wp-content/uploads/2022/10/despairing-investor.jpg"
-      },
-      {
         "title": "This Stock Faces a Beautiful Future After Completing Its Makeover",
         "link": "https://uk.finance.yahoo.com/m/c656c7c8-c256-3106-87b1-437b26b10d5c/this-stock-faces-a-beautiful.html?.tsrc=rss",
         "published": "Sat, 24 Oct 2026 05:00:00 +0000",
@@ -603,15 +612,6 @@
         "title": "Viper Energy (VNOM): 3 reasons we love this stock",
         "link": "https://finance.yahoo.com/markets/stocks/articles/viper-energy-vnom-3-reasons-004039620.html?.tsrc=rss",
         "published": "Sat, 24 Oct 2026 00:40:39 +0000",
-        "source": "Yahoo Finance",
-        "provider": "YAHOO",
-        "categories": "",
-        "image": ""
-      },
-      {
-        "title": "3 Reasons to sell NEOG and 1 stock to buy instead",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-sell-neog-1-003239977.html?.tsrc=rss",
-        "published": "Sat, 24 Oct 2026 00:32:39 +0000",
         "source": "Yahoo Finance",
         "provider": "YAHOO",
         "categories": "",
@@ -696,10 +696,11 @@
         "status": "healthy",
         "liveProviders": [
           "SKY",
-          "GUARDIAN",
+          "GUARDIAN"
+        ],
+        "failedProviders": [
           "METRO"
         ],
-        "failedProviders": [],
         "retainedPrevious": 0,
         "count": 10
       },
@@ -758,13 +759,13 @@
       "categories": {
         "UK": [
           {
-            "title": "Meghan's father investigated by police over child sex abuse image claims",
-            "link": "https://news.sky.com/story/meghan-deeply-distressed-by-allegations-against-her-father-thomas-markle-13602319",
-            "published": "Fri, 23 Oct 2026 00:01:00 +0100",
+            "title": "Met Police told of allegations about Meghan's father, but did not share with other forces",
+            "link": "https://news.sky.com/story/met-police-received-thomas-markle-allegations-letter-but-did-not-tell-other-forces-13597502",
+            "published": "Sat, 10 Oct 2026 17:53:00 +0100",
             "source": "Sky News",
             "provider": "SKY",
             "categories": "",
-            "image": "https://e3.365dm.com/26/10/1920x1080/skynews-duchess-of-sussex-meghan_7384470.jpg?20261023110214"
+            "image": "https://e3.365dm.com/26/10/1920x1080/skynews-thomas-markle-tv_7384464.jpg?20261023105220"
           },
           {
             "title": "Former Goldman Sachs chief leaves Britain amid tax hike fears",
@@ -1286,6 +1287,33 @@
       "categories": {
         "UK": [
           {
+            "title": "Storm Boelo to bring gusts of up to 80mph and heavy rain to parts of UK",
+            "link": "https://www.theguardian.com/world/2026/oct/24/storm-boelo-80mph-winds-heavy-rain-northern-uk",
+            "published": "Sat, 24 Oct 2026 11:24:19 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Extreme weather UK weather UK news England North of England Met Office Environment Scotland Northern Ireland Flooding",
+            "image": "https://i.guim.co.uk/img/media/1bbbd982efa547b0834013560d14fe87ee504c30/282_0_4080_3264/master/4080.jpg?width=140&quality=85&auto=format&fit=max&s=cb6fa5eed92b389a73c772a73f6cb7a1"
+          },
+          {
+            "title": "No unions, low taxes: why some of Britain’s top chefs are opening outposts in Gulf states",
+            "link": "https://www.theguardian.com/food/2026/oct/24/uk-tsunami-taxes-top-london-restaurants-expand-abroad",
+            "published": "Sat, 24 Oct 2026 11:00:31 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Restaurants Dubai United Arab Emirates Tax and spending Politics London UK news Middle East and north Africa World news Workers' rights",
+            "image": "https://i.guim.co.uk/img/media/8169ff71c023a4ac8a94eb1f541f83ce182d7093/118_0_4570_3655/master/4570.jpg?width=140&quality=85&auto=format&fit=max&s=eb0d47220c12f03c8388794e05560d0d"
+          },
+          {
+            "title": "Is London really the most-taxed city? Banks accused of cherrypicking data",
+            "link": "https://www.theguardian.com/uk-news/2026/oct/24/banking-lobby-group-accused-cherry-picking-data-healey-tax-rise",
+            "published": "Sat, 24 Oct 2026 11:00:31 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Budget 2026 Financial sector Tax and spending Banking John Healey Budget Tax London Business UK news Politics",
+            "image": "https://i.guim.co.uk/img/media/bd0a6314e2540f8792bbbc2a44826e497205c994/0_0_5524_4420/master/5524.jpg?width=140&quality=85&auto=format&fit=max&s=b8af8160dddeaae0420d71f3cc5146f5"
+          },
+          {
             "title": "British woman dies trying to save sons on Bahamas snorkelling trip",
             "link": "https://www.theguardian.com/world/2026/oct/24/british-woman-dies-trying-to-save-sons-on-bahamas-snorkelling-trip",
             "published": "Sat, 24 Oct 2026 09:43:09 GMT",
@@ -1340,34 +1368,7 @@
             "image": "https://i.guim.co.uk/img/media/d8ca7107a32ae75c0414d1c2341b3ee1dd62c0ff/761_0_6147_4918/master/6147.jpg?width=140&quality=85&auto=format&fit=max&s=dc0b267477bb221eb70863df86fda2fe"
           },
           {
-            "title": "Thousands of homes without power as Storm Austen hits south-west England",
-            "link": "https://www.theguardian.com/uk-news/2026/oct/23/storm-austen-weather-updates-thousands-without-power-south-west-england",
-            "published": "Fri, 23 Oct 2026 22:21:28 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Extreme weather UK weather England Cornwall UK news",
-            "image": "https://i.guim.co.uk/img/media/defb52d17a98c272784c56e832b7b215dc0c188f/0_0_5160_4128/master/5160.jpg?width=140&quality=85&auto=format&fit=max&s=ba60e43974dcfc54f9652ad7c3d48f26"
-          },
-          {
-            "title": "Criminals recruiting children to damage Greater Manchester HMOs, police believe",
-            "link": "https://www.theguardian.com/uk-news/2026/oct/23/children-being-exploited-by-criminals-to-target-greater-manchester-hmos-police-say",
-            "published": "Fri, 23 Oct 2026 18:19:43 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "UK news England",
-            "image": "https://i.guim.co.uk/img/media/06255a9e2eb8bc92d7a776638178e3018c0ffa7b/720_0_7200_5760/master/7200.jpg?width=140&quality=85&auto=format&fit=max&s=5589ccce844bd1e6a4b26b6be42dc49b"
-          },
-          {
-            "title": "Tommy Robinson ‘threatened people and acted like a bully’, jury told",
-            "link": "https://www.theguardian.com/uk-news/2026/oct/23/tommy-robinson-trial-harassment-vigilante-world",
-            "published": "Fri, 23 Oct 2026 17:14:59 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "UK news",
-            "image": "https://i.guim.co.uk/img/media/91b637c6e3a63c1c25ca7130356319d392bd452c/910_374_2159_1728/master/2159.jpg?width=140&quality=85&auto=format&fit=max&s=d71879c9bc17f7c36b021bbb24f6fc30"
-          },
-          {
-            "title": "Can John Healey make a dent in the cost of living crisis in his first budget?",
+            "title": "Can curry nights and canny advisers help Healey deliver a budget for everyday people?",
             "link": "https://www.theguardian.com/uk-news/2026/oct/24/can-john-healey-make-a-dent-in-the-cost-of-living-crisis-in-his-first-budget",
             "published": "Sat, 24 Oct 2026 09:00:29 GMT",
             "source": "The Guardian",
@@ -1650,15 +1651,6 @@
         ],
         "POLITICS": [
           {
-            "title": "Is London really the most-taxed city? Banks accused of cherrypicking data",
-            "link": "https://www.theguardian.com/uk-news/2026/oct/24/banking-lobby-group-accused-cherry-picking-data-healey-tax-rise",
-            "published": "Sat, 24 Oct 2026 11:00:31 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Budget 2026 Financial sector Tax and spending Banking John Healey Budget Tax London Business UK news Politics",
-            "image": "https://i.guim.co.uk/img/media/bd0a6314e2540f8792bbbc2a44826e497205c994/0_0_5524_4420/master/5524.jpg?width=140&quality=85&auto=format&fit=max&s=b8af8160dddeaae0420d71f3cc5146f5"
-          },
-          {
             "title": "No unions, low taxes: why some of Britain’s top chefs are opening outposts in Gulf states",
             "link": "https://www.theguardian.com/food/2026/oct/24/uk-tsunami-taxes-top-london-restaurants-expand-abroad",
             "published": "Sat, 24 Oct 2026 11:00:31 GMT",
@@ -1666,6 +1658,15 @@
             "provider": "GUARDIAN",
             "categories": "Restaurants Dubai United Arab Emirates Tax and spending Politics London UK news Middle East and north Africa World news Workers' rights",
             "image": "https://i.guim.co.uk/img/media/8169ff71c023a4ac8a94eb1f541f83ce182d7093/118_0_4570_3655/master/4570.jpg?width=140&quality=85&auto=format&fit=max&s=eb0d47220c12f03c8388794e05560d0d"
+          },
+          {
+            "title": "Is London really the most-taxed city? Banks accused of cherrypicking data",
+            "link": "https://www.theguardian.com/uk-news/2026/oct/24/banking-lobby-group-accused-cherry-picking-data-healey-tax-rise",
+            "published": "Sat, 24 Oct 2026 11:00:31 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Budget 2026 Financial sector Tax and spending Banking John Healey Budget Tax London Business UK news Politics",
+            "image": "https://i.guim.co.uk/img/media/bd0a6314e2540f8792bbbc2a44826e497205c994/0_0_5524_4420/master/5524.jpg?width=140&quality=85&auto=format&fit=max&s=b8af8160dddeaae0420d71f3cc5146f5"
           },
           {
             "title": "Tinned food, loo roll and power banks: the Brits following advice to stockpile",
@@ -2014,6 +2015,15 @@
         ],
         "TECH": [
           {
+            "title": "The datacentre next door: on the frontline of tech’s latest David v Goliath battle",
+            "link": "https://www.theguardian.com/technology/2026/oct/24/the-datacentre-next-door-on-the-frontline-of-techs-latest-david-v-goliath-battle",
+            "published": "Sat, 24 Oct 2026 11:00:32 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "AI (artificial intelligence) Big data Technology Life and style Wales",
+            "image": "https://i.guim.co.uk/img/media/0373ee73af80c68fd75a9ab321de66de4801ad27/865_0_5902_4724/master/5902.jpg?width=140&quality=85&auto=format&fit=max&s=5f523b9df1901844cac4ef7d3a723b2b"
+          },
+          {
             "title": "AI firms say UK has a year to head off datacentre protests before construction is threatened",
             "link": "https://www.theguardian.com/uk-news/2026/oct/22/ai-firms-say-uk-has-a-year-to-head-off-datacentre-protests-before-construction-is-threatened",
             "published": "Thu, 22 Oct 2026 05:00:08 GMT",
@@ -2068,15 +2078,6 @@
             "image": "https://i.guim.co.uk/img/media/e240560dbdb0dfbd8f0e19f35e6bf6650b057f87/0_0_3000_2400/master/3000.jpg?width=140&quality=85&auto=format&fit=max&s=e02249e5bef8e34df304c9e91d27d0ec"
           },
           {
-            "title": "The dangers of letting tech billionaires shape our world",
-            "link": "https://www.theguardian.com/global/2026/oct/19/musk-ukraine-ai-music",
-            "published": "Tue, 20 Oct 2026 14:31:45 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Technology AI (artificial intelligence) Elon Musk Music SpaceX Ukraine World news Science Grimes Europe France Paris Digital music and audio Internet",
-            "image": "https://i.guim.co.uk/img/media/9df3eaa715484d3f560e4dea76d7dda82597ac00/188_0_4077_3262/master/4077.jpg?width=140&quality=85&auto=format&fit=max&s=b7b903174ee49baa9b374086769320ea"
-          },
-          {
             "title": "Blue Planet III features cloudier footage to prove authenticity amid AI boom",
             "link": "https://www.theguardian.com/media/2026/oct/24/blue-planet-iii-cloudier-footage-prove-authenticity-ai-boom",
             "published": "Sat, 24 Oct 2026 08:32:56 GMT",
@@ -2113,15 +2114,6 @@
             "image": "https://i.guim.co.uk/img/media/9e77a4ead0dd662eb649b44a2b029545f70ae2d1/408_0_4078_3263/master/4078.jpg?width=140&quality=85&auto=format&fit=max&s=03c497b56890f64a599984cd4dece7c8"
           },
           {
-            "title": "The datacentre next door: on the frontline of tech’s latest David v Goliath battle",
-            "link": "https://www.theguardian.com/technology/2026/oct/24/the-datacentre-next-door-on-the-frontline-of-techs-latest-david-v-goliath-battle",
-            "published": "Sat, 24 Oct 2026 11:00:32 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "AI (artificial intelligence) Big data Technology Life and style Wales",
-            "image": "https://i.guim.co.uk/img/media/0373ee73af80c68fd75a9ab321de66de4801ad27/865_0_5902_4724/master/5902.jpg?width=140&quality=85&auto=format&fit=max&s=5f523b9df1901844cac4ef7d3a723b2b"
-          },
-          {
             "title": "The young Americans choosing Y2K cars over shiny new SUVs: ‘I get so much crap from people’",
             "link": "https://www.theguardian.com/us-news/2026/oct/23/y2k-used-cars-gen-z",
             "published": "Fri, 23 Oct 2026 11:30:24 GMT",
@@ -2147,6 +2139,15 @@
             "provider": "GUARDIAN",
             "categories": "US midterm elections 2026 Technology AI (artificial intelligence) Datacenters – US US news US politics",
             "image": "https://i.guim.co.uk/img/media/bee9ffbae201f232019437dd608cde56248e206a/0_618_2744_2194/master/2744.jpg?width=140&quality=85&auto=format&fit=max&s=12783154694bb2037b9eebd91b0c343e"
+          },
+          {
+            "title": "‘Pure arrogance’: anger in Finland as Google illegally fells 250,000 trees for datacentre",
+            "link": "https://www.theguardian.com/environment/ng-interactive/2026/oct/22/finland-google-felling-trees-datacentre",
+            "published": "Thu, 22 Oct 2026 11:22:23 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Environment Finland Europe World news AI (artificial intelligence) Google Technology Alphabet Datacentres Computing",
+            "image": "https://i.guim.co.uk/img/media/5a426a4caa58ecb7baabf8e19319bb4ee7c46a53/669_0_3162_2531/master/3162.jpg?width=140&quality=85&auto=format&fit=max&s=94737ebde78cf77bb6f11a8127225101"
           },
           {
             "title": "Is a job guarantee the solution to mass AI unemployment?",
@@ -2195,6 +2196,15 @@
           }
         ],
         "ENTERTAINMENT": [
+          {
+            "title": "Skydance employees brace for expected restructure as megamerger dust settles",
+            "link": "https://www.theguardian.com/media/2026/oct/24/skydance-employees-brace-change-megamerger-dust-settles",
+            "published": "Sat, 24 Oct 2026 12:00:32 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Media Paramount+ Paramount Pictures Warner Bros Film Culture Television & radio Business",
+            "image": "https://i.guim.co.uk/img/media/ae15500f5d8870634c8687ec5d1a5f1e422eabc2/775_288_3996_3198/master/3996.jpg?width=140&quality=85&auto=format&fit=max&s=229b9f5778adcf83cd361db38158cce5"
+          },
           {
             "title": "‘Unlike anything we’ve experienced’: fans swarm San Francisco for BTS star’s art exhibition",
             "link": "https://www.theguardian.com/artanddesign/2026/oct/24/rm-bts-sfmoma-exhibition",
@@ -2266,15 +2276,6 @@
             "provider": "GUARDIAN",
             "categories": "Film Culture Venice film festival South Korea",
             "image": "https://i.guim.co.uk/img/media/3cf973d2d86c0befe097325ad05138a88e4f6048/0_20_6189_4950/master/6189.jpg?width=140&quality=85&auto=format&fit=max&s=38d18f3fefd6dd6d61a3178ab7e6a50e"
-          },
-          {
-            "title": "Add to playlist: the gloriously boisterous grime-metal of Native James and the week’s best new tracks",
-            "link": "https://www.theguardian.com/music/2026/oct/23/add-to-playlist-native-james-and-the-weeks-best-new-tracks",
-            "published": "Fri, 23 Oct 2026 11:00:32 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Music Culture Rap Metal Grime Pop and rock Hip-hop Black British culture",
-            "image": "https://i.guim.co.uk/img/media/dfa89ba7a5887a3b5d056c039f766ea7eeba46b5/0_393_4800_3839/master/4800.jpg?width=140&quality=85&auto=format&fit=max&s=ca4124c8a27e3a865856ebe0ce31804e"
           },
           {
             "title": "Murder on the dancefloor: are phones, drugs and chatter killing off dancing?",
@@ -2495,7 +2496,7 @@
             "source": "Metro",
             "provider": "METRO",
             "categories": "News UK Crime News Lidl West Midlands Police Wolverhampton",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317902519-5fa1.jpg?quality=90&strip=all&w=646"
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317902533-93a9.jpg?quality=90&strip=all&w=646"
           },
           {
             "title": "Gang jailed after being caught tunnelling in to jewellery shop",
@@ -3093,6 +3094,15 @@
         ],
         "ENTERTAINMENT": [
           {
+            "title": "Morgana Robinson demanded a bodyguard for filming ‘disturbing and risky’ Ali G sequel",
+            "link": "https://metro.co.uk/2026/10/24/morgana-robinson-demanded-a-bodyguard-filming-disturbing-risky-ali-g-sequel-29736169/",
+            "published": "Sat, 24 Oct 2026 11:49:49 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment Film Channel 4 Comedians Comedy Sacha Baron Cohen",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316683425-34f0.jpg?quality=90&strip=all&w=646"
+          },
+          {
             "title": "Celebrity Traitors fans convinced they’ve spotted ‘game-breaking’ moment that left producers scrambling",
             "link": "https://metro.co.uk/2026/10/24/celebrity-traitors-fans-convinced-spotted-game-breaking-moment-29736054/",
             "published": "Sat, 24 Oct 2026 09:57:59 +0000",
@@ -3262,15 +3272,6 @@
             "provider": "METRO",
             "categories": "Entertainment TV BBC James Acaster Opinion The Traitors",
             "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317828983-6862.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Raye’s Mercury Prize win comes after devastating career news",
-            "link": "https://metro.co.uk/2026/10/23/rayes-mercury-prize-win-comes-devastating-career-news-29733640/",
-            "published": "Fri, 23 Oct 2026 09:46:35 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Entertainment Music Mercury Music Prize Raye",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317775948-545c.jpg?quality=90&strip=all&w=646"
           }
         ]
       },
@@ -3292,8 +3293,9 @@
           "count": 20
         },
         "TECH": {
-          "ok": true,
-          "count": 1
+          "ok": false,
+          "count": 0,
+          "reason": "No correctly classified live stories"
         },
         "ENTERTAINMENT": {
           "ok": true,
@@ -3410,6 +3412,15 @@
         "STOCK_MARKET": [],
         "STOCKS": [
           {
+            "title": "Evercore Outlines Key Credit and Treasury Yield Thresholds That Could Signal AI Stock Market Correction",
+            "link": "https://uk.advfn.com/market-news/article/24945/evercore-outlines-key-credit-and-treasury-yield-thresholds-that-could-signal-ai-stock-market-correction?.tsrc=rss",
+            "published": "Sat, 24 Oct 2026 11:49:00 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": "https://uk.advfn-editors.com/wp-content/uploads/2026/05/artificial-intelligence-a1-chip-NEW-SIZE.png"
+          },
+          {
             "title": "This Stock Faces a Beautiful Future After Completing Its Makeover",
             "link": "https://uk.finance.yahoo.com/m/c656c7c8-c256-3106-87b1-437b26b10d5c/this-stock-faces-a-beautiful.html?.tsrc=rss",
             "published": "Sat, 24 Oct 2026 05:00:00 +0000",
@@ -3503,15 +3514,6 @@
             "title": "MongoDB (MDB) Advances While Market Declines: Some Information for Investors",
             "link": "https://finance.yahoo.com/markets/stocks/articles/mongodb-mdb-advances-while-market-211504428.html?.tsrc=rss",
             "published": "Fri, 23 Oct 2026 21:15:04 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "Blink Charging (BLNK) Declines More Than Market: Some Information for Investors",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/blink-charging-blnk-declines-more-211503813.html?.tsrc=rss",
-            "published": "Fri, 23 Oct 2026 21:15:03 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
@@ -3801,6 +3803,15 @@
       "categories": {
         "STOCKS": [
           {
+            "title": "Could this fresh rally above 600p be a ‘breakout’ for BP shares?",
+            "link": "https://www.twelfthmagpie.com/2026/10/24/could-this-fresh-rally-above-600p-be-a-breakout-for-bp-shares/",
+            "published": "Sat, 24 Oct 2026 12:02:00 +0000",
+            "source": "The Twelfth Magpie",
+            "provider": "MAGPIE",
+            "categories": "Dividend Shares Investing Articles",
+            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2023/10/BP-oil-workers-1200x675.jpg"
+          },
+          {
             "title": "Prediction: Legal & General will be the most-bought passive income share in a Stocks and Shares ISA in 2027",
             "link": "https://www.twelfthmagpie.com/2026/10/24/prediction-legal-general-will-be-the-most-bought-passive-income-share-in-a-stocks-and-shares-isa-in-2027/",
             "published": "Sat, 24 Oct 2026 10:56:00 +0000",
@@ -3880,15 +3891,6 @@
             "provider": "MAGPIE",
             "categories": "Growth Shares Investing Articles",
             "image": "https://www.twelfthmagpie.com/wp-content/uploads/2024/09/Pumpkins-1200x675.jpg"
-          },
-          {
-            "title": "HSBC shares have fallen 15%. Could Q3 results and the Budget send them flying again?",
-            "link": "https://www.twelfthmagpie.com/2026/10/24/hsbc-shares-have-fallen-15-could-q3-results-and-the-budget-send-them-flying-again/",
-            "published": "Sat, 24 Oct 2026 06:25:00 +0000",
-            "source": "The Twelfth Magpie",
-            "provider": "MAGPIE",
-            "categories": "Growth Shares Investing Articles",
-            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2024/07/Searching-1200x675.jpg"
           }
         ]
       },
@@ -3904,5 +3906,5 @@
       }
     }
   },
-  "stocksUpdated": "2026-10-24T11:13:56.427Z"
+  "stocksUpdated": "2026-10-24T12:11:26.331Z"
 }
