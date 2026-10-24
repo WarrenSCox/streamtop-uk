@@ -1,24 +1,60 @@
 {
-  "updated": "2026-10-24T12:11:19.631Z",
+  "updated": "2026-10-24T16:03:35.778Z",
   "categories": {
     "UK": [
       {
-        "title": "Storm Boelo to bring gusts of up to 80mph and heavy rain to parts of UK",
+        "title": "‘Do not approach’ warning after prisoner escapes medical facility in London",
+        "link": "https://metro.co.uk/2026/10/24/do-not-approach-warning-prisoner-escapes-medical-facility-london-29736741/",
+        "published": "Sat, 24 Oct 2026 15:57:07 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News UK Crime News London",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_318002806-fb16-e1792857331108.jpg?quality=90&strip=all&w=478"
+      },
+      {
+        "title": "Two guilty of murder after man stabbed in four-minute broad daylight attack",
+        "link": "https://metro.co.uk/2026/10/24/two-guilty-murder-man-stabbed-four-minute-broad-daylight-attack-29736540/",
+        "published": "Sat, 24 Oct 2026 14:58:55 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News UK Crime News Lincolnshire",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317991101-c7f5.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Four-week-old baby suffers bruised face after being thrown from pram during attack on mum",
+        "link": "https://metro.co.uk/2026/10/24/four-week-old-baby-beaten-gang-targeting-mum-29736321/",
+        "published": "Sat, 24 Oct 2026 14:53:15 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News US Crime News Detroit",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317919965-e8e3.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Police treating death of man whose body was found at recycling centre as suspicious",
+        "link": "https://metro.co.uk/2026/10/24/man-found-dead-recycling-centre-may-murdered-29736343/",
+        "published": "Sat, 24 Oct 2026 14:48:56 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News Crime News Dublin Republic of Ireland",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_250165323-62c5.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Met says it shared allegations about Meghan’s father with her but not other forces",
+        "link": "https://www.theguardian.com/uk-news/2026/oct/24/met-admits-it-did-not-pass-on-2019-letter-about-meghan-markle-father-thomas-markle-allegations-",
+        "published": "Sat, 24 Oct 2026 13:52:58 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Meghan, the Duchess of Sussex Metropolitan police Monarchy Police Crime London UK news",
+        "image": "https://i.guim.co.uk/img/media/a7cd75cec6acbe07ab0b79ab9868594caa94709f/207_0_2065_1652/master/2065.jpg?width=140&quality=85&auto=format&fit=max&s=950b7d04467ad1023687d2b482d4c0ff"
+      },
+      {
+        "title": "Storm Boelo to bring 80mph gusts and heavy rain to parts of UK",
         "link": "https://www.theguardian.com/world/2026/oct/24/storm-boelo-80mph-winds-heavy-rain-northern-uk",
-        "published": "Sat, 24 Oct 2026 11:24:19 GMT",
+        "published": "Sat, 24 Oct 2026 13:28:07 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
         "categories": "Extreme weather UK weather UK news England North of England Met Office Environment Scotland Northern Ireland Flooding",
         "image": "https://i.guim.co.uk/img/media/1bbbd982efa547b0834013560d14fe87ee504c30/282_0_4080_3264/master/4080.jpg?width=140&quality=85&auto=format&fit=max&s=cb6fa5eed92b389a73c772a73f6cb7a1"
-      },
-      {
-        "title": "British man faces 25 years in jail over ‘murder’ of wife found dead in Spain",
-        "link": "https://metro.co.uk/2026/10/24/british-man-faces-25-years-jail-murder-wife-found-dead-spain-29736219/",
-        "published": "Sat, 24 Oct 2026 11:10:52 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News World Crime News Spain",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317956478-d972.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "No unions, low taxes: why some of Britain’s top chefs are opening outposts in Gulf states",
@@ -28,42 +64,6 @@
         "provider": "GUARDIAN",
         "categories": "Restaurants Dubai United Arab Emirates Tax and spending Politics London UK news Middle East and north Africa World news Workers' rights",
         "image": "https://i.guim.co.uk/img/media/8169ff71c023a4ac8a94eb1f541f83ce182d7093/118_0_4570_3655/master/4570.jpg?width=140&quality=85&auto=format&fit=max&s=eb0d47220c12f03c8388794e05560d0d"
-      },
-      {
-        "title": "Is London really the most-taxed city? Banks accused of cherrypicking data",
-        "link": "https://www.theguardian.com/uk-news/2026/oct/24/banking-lobby-group-accused-cherry-picking-data-healey-tax-rise",
-        "published": "Sat, 24 Oct 2026 11:00:31 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Budget 2026 Financial sector Tax and spending Banking John Healey Budget Tax London Business UK news Politics",
-        "image": "https://i.guim.co.uk/img/media/bd0a6314e2540f8792bbbc2a44826e497205c994/0_0_5524_4420/master/5524.jpg?width=140&quality=85&auto=format&fit=max&s=b8af8160dddeaae0420d71f3cc5146f5"
-      },
-      {
-        "title": "Storm Boelo to cause ‘widespread travel issues’ with heavy rain and 80mph winds",
-        "link": "https://metro.co.uk/2026/10/24/storm-boelo-cause-widespread-travel-issues-heavy-rain-80mph-winds-29736106/",
-        "published": "Sat, 24 Oct 2026 10:32:00 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News UK Met Office Storms UK weather Weather",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317851339-b515.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "British woman dies trying to save sons on Bahamas snorkelling trip",
-        "link": "https://www.theguardian.com/world/2026/oct/24/british-woman-dies-trying-to-save-sons-on-bahamas-snorkelling-trip",
-        "published": "Sat, 24 Oct 2026 09:43:09 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Bahamas Americas Caribbean World news UK news",
-        "image": "https://i.guim.co.uk/img/media/8aab2c6d270e81625bcb385b9817033d361e1ea0/252_0_3780_3024/master/3780.jpg?width=140&quality=85&auto=format&fit=max&s=ee5e9e53781191ecd66c4803e2746425"
-      },
-      {
-        "title": "‘Hero’ mum who drowned trying to save her two children on family holiday pictured",
-        "link": "https://metro.co.uk/2026/10/24/hero-mum-drowned-trying-save-two-children-family-holiday-pictured-29736012/",
-        "published": "Sat, 24 Oct 2026 09:28:00 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News UK Death The Bahamas",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317889214-a4b7-e1792831822662.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "Former Goldman Sachs chief leaves Britain amid tax hike fears",
@@ -95,6 +95,24 @@
     ],
     "WORLD": [
       {
+        "title": "Huge fire tears through Adolf Hitler’s Eagle’s Nest mountaintop retreat",
+        "link": "https://metro.co.uk/2026/10/24/huge-fire-tears-adolf-hitlers-eagles-nest-mountaintop-retreat-29736400/",
+        "published": "Sat, 24 Oct 2026 14:41:55 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News World Adolf Hitler Fire Germany",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317940839-9d77.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Kim Jong-un crosses newly opened bridge into China",
+        "link": "https://www.theguardian.com/world/2026/oct/24/kim-jong-un-crosses-newly-opened-bridge-into-china",
+        "published": "Sat, 24 Oct 2026 13:34:56 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "North Korea China Kim Jong-un Asia Pacific World news South Korea",
+        "image": "https://i.guim.co.uk/img/media/70aba9653c376fb7740a63f99ee1a6474668c259/44_0_3934_3148/master/3934.jpg?width=140&quality=85&auto=format&fit=max&s=056c22a8ea5c8ffc7eb9fdd0db37331c"
+      },
+      {
         "title": "British man faces 25 years in jail over ‘murder’ of wife found dead in Spain",
         "link": "https://metro.co.uk/2026/10/24/british-man-faces-25-years-jail-murder-wife-found-dead-spain-29736219/",
         "published": "Sat, 24 Oct 2026 11:10:52 +0000",
@@ -113,15 +131,6 @@
         "image": "https://i.guim.co.uk/img/media/8aab2c6d270e81625bcb385b9817033d361e1ea0/252_0_3780_3024/master/3780.jpg?width=140&quality=85&auto=format&fit=max&s=ee5e9e53781191ecd66c4803e2746425"
       },
       {
-        "title": "Kim Jong-un crosses over newly opened bridge into China",
-        "link": "https://www.theguardian.com/world/2026/oct/24/kim-jong-un-crosses-newly-opened-bridge-into-china",
-        "published": "Sat, 24 Oct 2026 09:34:40 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "North Korea China Kim Jong-un Xi Jinping Asia Pacific World news South Korea Rail transport",
-        "image": "https://i.guim.co.uk/img/media/70aba9653c376fb7740a63f99ee1a6474668c259/44_0_3934_3148/master/3934.jpg?width=140&quality=85&auto=format&fit=max&s=056c22a8ea5c8ffc7eb9fdd0db37331c"
-      },
-      {
         "title": "Bahamas police investigate after British woman dies trying to rescue sons",
         "link": "https://news.sky.com/story/bahamas-police-investigate-after-british-woman-dies-trying-to-rescue-sons-13602998",
         "published": "Sat, 24 Oct 2026 10:25:00 +0100",
@@ -138,15 +147,6 @@
         "provider": "METRO",
         "categories": "News World Crime News Emmanuel Macron France Paris",
         "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317876512-fee0.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "What we know about Coronation Street’s ‘bleak’ Christmas storylines so far",
-        "link": "https://metro.co.uk/2026/10/24/what-we-know-about-coronation-streets-bleak-christmas-storylines-so-far-2-29733723/",
-        "published": "Sat, 24 Oct 2026 08:00:00 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Coronation Street Soaps Ben Price Christmas TV Debbie Webster Jack P. Shepherd Jodie Ramsey Olivia Frances-Brown Ryan Mulvey Sue Devaney",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEC_314992269-e46a.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "Suspect arrested after fire at Hitler's 'Eagle's Nest' retreat",
@@ -187,6 +187,24 @@
     ],
     "POLITICS": [
       {
+        "title": "Tax dodgers will have cash automatically taken from accounts under new powers",
+        "link": "https://metro.co.uk/2026/10/24/tax-dodgers-will-cash-automatically-taken-accounts-29736410/",
+        "published": "Sat, 24 Oct 2026 15:36:45 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News Politics HMRC John Healey Labour Party",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_307888049-c88c.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "The unofficial item every Brit needs to prep for Doomsday",
+        "link": "https://metro.co.uk/2026/10/24/unofficial-must-have-every-brit-needs-prep-doomsday-29736269/",
+        "published": "Sat, 24 Oct 2026 13:55:54 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Lifestyle Andy Burnham Angela Rayner British Government Cybercrime",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317983345-1656.jpg?quality=90&strip=all&w=646"
+      },
+      {
         "title": "No unions, low taxes: why some of Britain’s top chefs are opening outposts in Gulf states",
         "link": "https://www.theguardian.com/food/2026/oct/24/uk-tsunami-taxes-top-london-restaurants-expand-abroad",
         "published": "Sat, 24 Oct 2026 11:00:31 GMT",
@@ -212,24 +230,6 @@
         "provider": "GUARDIAN",
         "categories": "Social etiquette Andy Burnham Asbos Society Politics Public transport",
         "image": "https://i.guim.co.uk/img/media/daf19f8c955a10b2ea58ab0ad434ca3e7715be2f/248_0_3340_2672/master/3340.jpg?width=140&quality=85&auto=format&fit=max&s=38185700565e758b46c4e927c57f9b76"
-      },
-      {
-        "title": "Fine ‘headphone dodgers’ if you will, but to really tackle antisocial behaviour, Britain should look to Japan | Emily Bratt",
-        "link": "https://www.theguardian.com/commentisfree/2026/oct/24/headphone-dodgers-antisocial-behaviour-britain-japan",
-        "published": "Sat, 24 Oct 2026 10:00:30 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Public transport Transport policy Politics Transport Japan Andy Burnham UK news World news",
-        "image": "https://i.guim.co.uk/img/media/764d2908597821ae27927305dbd62b4c7f885252/1077_359_6431_5145/master/6431.jpg?width=140&quality=85&auto=format&fit=max&s=e5f0016f09222545e183c536ec7c2b61"
-      },
-      {
-        "title": "What we know about Coronation Street’s ‘bleak’ Christmas storylines so far",
-        "link": "https://metro.co.uk/2026/10/24/what-we-know-about-coronation-streets-bleak-christmas-storylines-so-far-2-29733723/",
-        "published": "Sat, 24 Oct 2026 08:00:00 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Coronation Street Soaps Ben Price Christmas TV Debbie Webster Jack P. Shepherd Jodie Ramsey Olivia Frances-Brown Ryan Mulvey Sue Devaney",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEC_314992269-e46a.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "UK pledges £600m to defend against AI health and security threats",
@@ -279,22 +279,13 @@
     ],
     "BUSINESS": [
       {
-        "title": "Martin Lewis’ MSE shares warning over fake Warm Home Discount letters",
-        "link": "https://metro.co.uk/2026/10/24/martin-lewis-mse-shares-warning-fake-warm-home-discount-letters-29736029/",
-        "published": "Sat, 24 Oct 2026 10:39:38 +0000",
+        "title": "Tax dodgers will have cash automatically taken from accounts under new powers",
+        "link": "https://metro.co.uk/2026/10/24/tax-dodgers-will-cash-automatically-taken-accounts-29736410/",
+        "published": "Sat, 24 Oct 2026 15:36:45 +0000",
         "source": "Metro",
         "provider": "METRO",
-        "categories": "Lifestyle Money Martin Lewis Money Tips",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317959678-0c81.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Popular desserts pulled from supermarket shelves as they ‘may contain glass’",
-        "link": "https://metro.co.uk/2026/10/24/popular-desserts-pulled-supermarket-shelves-may-contain-glass-29736121/",
-        "published": "Sat, 24 Oct 2026 10:39:27 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News UK Chocolate Food recalls",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315397470-8641.jpg?quality=90&strip=all&w=646"
+        "categories": "News Politics HMRC John Healey Labour Party",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_307888049-c88c.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "Former Goldman Sachs chief leaves Britain amid tax hike fears",
@@ -367,6 +358,15 @@
         "provider": "METRO",
         "categories": "Lifestyle Business Careers Real Life Windrush Women",
         "image": "https://metro.co.uk/wp-content/uploads/2026/08/laurie-anne-split-comp.png?w=646"
+      },
+      {
+        "title": "London’s HSBC tower is transforming into ‘Swiss Cheese’ building complete with holes",
+        "link": "https://metro.co.uk/2026/09/20/londons-hsbc-tower-turned-swiss-cheese-complete-holes-29620356/",
+        "published": "Sun, 20 Sep 2026 05:00:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News UK Business Canary Wharf HSBC London",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/09/AN_49346026-1d26.jpg?quality=90&strip=all&w=646"
       }
     ],
     "TECH": [
@@ -463,40 +463,49 @@
     ],
     "ENTERTAINMENT": [
       {
-        "title": "Skydance employees brace for expected restructure as megamerger dust settles",
+        "title": "University Challenge contestants slam BBC’s ‘absurd censoring of Pride pin badges’",
+        "link": "https://metro.co.uk/2026/10/24/university-challenge-contestants-slam-bbcs-absurd-censoring-pride-pin-badges-29736497/",
+        "published": "Sat, 24 Oct 2026 14:52:46 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Entertainment TV BBC LGBTQ+ Transgender University Challenge",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317987057-309f.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Actor doubles down on him and twin brother being ‘children of incest’ with hilarious joke",
+        "link": "https://metro.co.uk/2026/10/24/actor-doubles-twin-brother-children-incest-hilarious-joke-29736592/",
+        "published": "Sat, 24 Oct 2026 14:39:19 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Entertainment Showbiz Disney US Showbiz news",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/dylan-cole-sprouse.png?w=646"
+      },
+      {
+        "title": "Celebrity Traitors fans convinced Ed Gamble made a ‘secret cameo’ last night",
+        "link": "https://metro.co.uk/2026/10/24/celebrity-traitors-fans-convinced-ed-gamble-made-a-secret-cameo-last-night-definitely-missed-29736389/",
+        "published": "Sat, 24 Oct 2026 14:18:06 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Entertainment TV BBC Celebrity Traitors Comedians Ed Gamble",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI315433382-f694-e1792847960394.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "What’s the route for Celebrity Race Across The World 2026?",
+        "link": "https://metro.co.uk/2026/10/24/route-celebrity-race-across-world-2026-29734830/",
+        "published": "Sat, 24 Oct 2026 13:27:14 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Entertainment TV BBC Race Across The World Sam Ryder",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317300102-d31f-e1792765414400.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "‘Cuts mean jobs’: Skydance staff brace for shake-up after $110bn megamerger",
         "link": "https://www.theguardian.com/media/2026/oct/24/skydance-employees-brace-change-megamerger-dust-settles",
         "published": "Sat, 24 Oct 2026 12:00:32 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
         "categories": "Media Paramount+ Paramount Pictures Warner Bros Film Culture Television & radio Business",
         "image": "https://i.guim.co.uk/img/media/ae15500f5d8870634c8687ec5d1a5f1e422eabc2/775_288_3996_3198/master/3996.jpg?width=140&quality=85&auto=format&fit=max&s=229b9f5778adcf83cd361db38158cce5"
-      },
-      {
-        "title": "Morgana Robinson demanded a bodyguard for filming ‘disturbing and risky’ Ali G sequel",
-        "link": "https://metro.co.uk/2026/10/24/morgana-robinson-demanded-a-bodyguard-filming-disturbing-risky-ali-g-sequel-29736169/",
-        "published": "Sat, 24 Oct 2026 11:49:49 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Entertainment Film Channel 4 Comedians Comedy Sacha Baron Cohen",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316683425-34f0.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Celebrity Traitors fans convinced they’ve spotted ‘game-breaking’ moment that left producers scrambling",
-        "link": "https://metro.co.uk/2026/10/24/celebrity-traitors-fans-convinced-spotted-game-breaking-moment-29736054/",
-        "published": "Sat, 24 Oct 2026 09:57:59 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Entertainment TV BBC Celebrity Traitors James Acaster Maya Jama The Traitors",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317894279-f058-e1792833349291.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Graham Norton viewers surprised after Prince William reveals unexpected side",
-        "link": "https://metro.co.uk/2026/10/24/graham-norton-viewers-surprised-prince-william-reveals-unexpected-side-29736144/",
-        "published": "Sat, 24 Oct 2026 09:54:03 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Entertainment TV BBC Celebrity Traitors Graham Norton Prince William, Prince of Wales The Traitors",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317770536-d4fe-e1792742311515.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "‘Unlike anything we’ve experienced’: fans swarm San Francisco for BTS star’s art exhibition",
@@ -526,15 +535,6 @@
         "image": "https://e3.365dm.com/26/10/1920x1080/skynews-andy-burnham-steve-rotheram_7385277.jpg?20261024073652"
       },
       {
-        "title": "Nobody Wants This creator says she disagrees with Adam Brody’s ‘free Palestine’ comments",
-        "link": "https://www.theguardian.com/tv-and-radio/2026/oct/23/nobody-wants-this-adam-brody-palestine-comments",
-        "published": "Fri, 23 Oct 2026 14:33:52 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "US television Television Culture Television & radio Israel-Gaza war US news Judaism Netflix Palestine",
-        "image": "https://i.guim.co.uk/img/media/1d1cbbd32d193e161c9aef5b8cbc04dfe577f010/300_0_3000_2400/master/3000.jpg?width=140&quality=85&auto=format&fit=max&s=a06397a5265f767d87ec74d116b5565a"
-      },
-      {
         "title": "Tom Skerritt, Top Gun and Alien actor, has died",
         "link": "https://news.sky.com/story/actor-tom-skerritt-known-for-roles-in-top-gun-and-alien-has-died-13602478",
         "published": "Thu, 22 Oct 2026 20:28:00 +0100",
@@ -554,6 +554,15 @@
       }
     ],
     "STOCKS": [
+      {
+        "title": "Could a rise in UK bank taxes cause a stock market crash?",
+        "link": "https://www.twelfthmagpie.com/2026/10/24/could-a-rise-in-uk-bank-taxes-cause-a-stock-market-crash/",
+        "published": "Sat, 24 Oct 2026 12:20:48 +0000",
+        "source": "The Twelfth Magpie",
+        "provider": "MAGPIE",
+        "categories": "Dividend Shares Investing Articles",
+        "image": "https://www.twelfthmagpie.com/wp-content/uploads/2024/07/Lunch-break-1200x800.jpg"
+      },
       {
         "title": "Could this fresh rally above 600p be a ‘breakout’ for BP shares?",
         "link": "https://www.twelfthmagpie.com/2026/10/24/could-this-fresh-rally-above-600p-be-a-breakout-for-bp-shares/",
@@ -589,15 +598,6 @@
         "provider": "MAGPIE",
         "categories": "Investing Articles Micro-Cap Shares",
         "image": "https://www.twelfthmagpie.com/wp-content/uploads/2023/04/Celebration-1200x675.jpg"
-      },
-      {
-        "title": "Lloyds shares: next stop 140p? These experts say yes!",
-        "link": "https://www.twelfthmagpie.com/2026/10/24/lloyds-shares-next-stop-140p-these-experts-say-yes/",
-        "published": "Sat, 24 Oct 2026 08:19:33 +0000",
-        "source": "The Twelfth Magpie",
-        "provider": "MAGPIE",
-        "categories": "Investing Articles Value Shares",
-        "image": "https://www.twelfthmagpie.com/wp-content/uploads/2026/06/AdobeStock_349905801-1200x800.jpeg"
       },
       {
         "title": "This Stock Faces a Beautiful Future After Completing Its Makeover",
@@ -638,7 +638,7 @@
       {
         "title": "Ambani's Jio becomes most subscribed Indian IPO with $77 billion in bids",
         "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVnRMTFMtTUhERkVlZG4zSVcxcm54ODQ5SXo5NGMxNmVZM2RSbjdqTko3NzB4Q053b09iMEJiX3dRd3Rpem9RQ2pDa1dVMFFOZG54WjhLMkdSbHpyQnF6OXpQbDhBd0ExQ0QyRFNXRm93Q0dfUEdCSllQdTBrUVNzRFUzTWc1OVZva3F0YkVDLUdyeEZvNFh1S1VhNVdMZjFDbVVFTDZPUk9MQVVMTEN1ZmRiX3BjaEJDNi00OWlLNDY?oc=5",
-        "published": "Fri, 23 Oct 2026 06:28:00 GMT",
+        "published": "Fri, 23 Oct 2026 15:31:04 GMT",
         "source": "Reuters",
         "provider": "REUTERS",
         "categories": "",
@@ -758,6 +758,15 @@
     "SKY": {
       "categories": {
         "UK": [
+          {
+            "title": "Government backs bid for 'Northern Games' in 2040s",
+            "link": "https://news.sky.com/story/pm-backs-north-of-england-olympics-bid-with-7m-budget-injection-13597494",
+            "published": "Sat, 10 Oct 2026 17:46:00 +0100",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/10/1920x1080/skynews-2024-olympics-paris_7385565.jpg?20261024141942"
+          },
           {
             "title": "Met Police told of allegations about Meghan's father, but did not share with other forces",
             "link": "https://news.sky.com/story/met-police-received-thomas-markle-allegations-letter-but-did-not-tell-other-forces-13597502",
@@ -1259,7 +1268,7 @@
       "health": {
         "UK": {
           "ok": true,
-          "count": 8
+          "count": 9
         },
         "WORLD": {
           "ok": true,
@@ -1287,9 +1296,18 @@
       "categories": {
         "UK": [
           {
-            "title": "Storm Boelo to bring gusts of up to 80mph and heavy rain to parts of UK",
+            "title": "Met says it shared allegations about Meghan’s father with her but not other forces",
+            "link": "https://www.theguardian.com/uk-news/2026/oct/24/met-admits-it-did-not-pass-on-2019-letter-about-meghan-markle-father-thomas-markle-allegations-",
+            "published": "Sat, 24 Oct 2026 13:52:58 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Meghan, the Duchess of Sussex Metropolitan police Monarchy Police Crime London UK news",
+            "image": "https://i.guim.co.uk/img/media/a7cd75cec6acbe07ab0b79ab9868594caa94709f/207_0_2065_1652/master/2065.jpg?width=140&quality=85&auto=format&fit=max&s=950b7d04467ad1023687d2b482d4c0ff"
+          },
+          {
+            "title": "Storm Boelo to bring 80mph gusts and heavy rain to parts of UK",
             "link": "https://www.theguardian.com/world/2026/oct/24/storm-boelo-80mph-winds-heavy-rain-northern-uk",
-            "published": "Sat, 24 Oct 2026 11:24:19 GMT",
+            "published": "Sat, 24 Oct 2026 13:28:07 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
             "categories": "Extreme weather UK weather UK news England North of England Met Office Environment Scotland Northern Ireland Flooding",
@@ -1357,15 +1375,6 @@
             "provider": "GUARDIAN",
             "categories": "Budget 2026 UK news England John Healey AI (artificial intelligence) Economic policy Tax and spending",
             "image": "https://i.guim.co.uk/img/media/13ceb52a43f1b6771519d70b1eb33680ffbec0ca/0_0_2750_2200/master/2750.jpg?width=140&quality=85&auto=format&fit=max&s=7c0a9667489edbac502049a00339a656"
-          },
-          {
-            "title": "Online safety laws have failed to protect children in UK, Ofcom admits",
-            "link": "https://www.theguardian.com/society/2026/oct/23/uk-children-just-as-likely-to-have-suffered-harm-on-social-media-despite-crackdown-ofcom-online-safety-act",
-            "published": "Fri, 23 Oct 2026 22:51:50 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Children Ofcom Society Media Social media ban Social media Internet safety Internet UK news Digital media Technology",
-            "image": "https://i.guim.co.uk/img/media/d8ca7107a32ae75c0414d1c2341b3ee1dd62c0ff/761_0_6147_4918/master/6147.jpg?width=140&quality=85&auto=format&fit=max&s=dc0b267477bb221eb70863df86fda2fe"
           },
           {
             "title": "Can curry nights and canny advisers help Healey deliver a budget for everyday people?",
@@ -1559,12 +1568,12 @@
             "image": "https://i.guim.co.uk/img/media/24436e30051721c8fa0489c283150fc4b439b60a/334_0_3331_2666/master/3331.jpg?width=140&quality=85&auto=format&fit=max&s=cb87d3a4c0464016bf02e71c83492916"
           },
           {
-            "title": "Kim Jong-un crosses over newly opened bridge into China",
+            "title": "Kim Jong-un crosses newly opened bridge into China",
             "link": "https://www.theguardian.com/world/2026/oct/24/kim-jong-un-crosses-newly-opened-bridge-into-china",
-            "published": "Sat, 24 Oct 2026 09:34:40 GMT",
+            "published": "Sat, 24 Oct 2026 13:34:56 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "North Korea China Kim Jong-un Xi Jinping Asia Pacific World news South Korea Rail transport",
+            "categories": "North Korea China Kim Jong-un Asia Pacific World news South Korea",
             "image": "https://i.guim.co.uk/img/media/70aba9653c376fb7740a63f99ee1a6474668c259/44_0_3934_3148/master/3934.jpg?width=140&quality=85&auto=format&fit=max&s=056c22a8ea5c8ffc7eb9fdd0db37331c"
           },
           {
@@ -2197,7 +2206,7 @@
         ],
         "ENTERTAINMENT": [
           {
-            "title": "Skydance employees brace for expected restructure as megamerger dust settles",
+            "title": "‘Cuts mean jobs’: Skydance staff brace for shake-up after $110bn megamerger",
             "link": "https://www.theguardian.com/media/2026/oct/24/skydance-employees-brace-change-megamerger-dust-settles",
             "published": "Sat, 24 Oct 2026 12:00:32 GMT",
             "source": "The Guardian",
@@ -2409,6 +2418,105 @@
       "categories": {
         "UK": [
           {
+            "title": "‘Do not approach’ warning after prisoner escapes medical facility in London",
+            "link": "https://metro.co.uk/2026/10/24/do-not-approach-warning-prisoner-escapes-medical-facility-london-29736741/",
+            "published": "Sat, 24 Oct 2026 15:57:07 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News UK Crime News London",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_318002806-fb16-e1792857331108.jpg?quality=90&strip=all&w=478"
+          },
+          {
+            "title": "Two guilty of murder after man stabbed in four-minute broad daylight attack",
+            "link": "https://metro.co.uk/2026/10/24/two-guilty-murder-man-stabbed-four-minute-broad-daylight-attack-29736540/",
+            "published": "Sat, 24 Oct 2026 14:58:55 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News UK Crime News Lincolnshire",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317991101-c7f5.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Four-week-old baby suffers bruised face after being thrown from pram during attack on mum",
+            "link": "https://metro.co.uk/2026/10/24/four-week-old-baby-beaten-gang-targeting-mum-29736321/",
+            "published": "Sat, 24 Oct 2026 14:53:15 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News US Crime News Detroit",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317919965-e8e3.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Police treating death of man whose body was found at recycling centre as suspicious",
+            "link": "https://metro.co.uk/2026/10/24/man-found-dead-recycling-centre-may-murdered-29736343/",
+            "published": "Sat, 24 Oct 2026 14:48:56 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News Crime News Dublin Republic of Ireland",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_250165323-62c5.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Huge fire tears through Adolf Hitler’s Eagle’s Nest mountaintop retreat",
+            "link": "https://metro.co.uk/2026/10/24/huge-fire-tears-adolf-hitlers-eagles-nest-mountaintop-retreat-29736400/",
+            "published": "Sat, 24 Oct 2026 14:41:55 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News World Adolf Hitler Fire Germany",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317940839-9d77.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Man in 70s and his dog die after being hit by bus",
+            "link": "https://metro.co.uk/2026/10/24/man-70s-dog-die-hit-bus-29736524/",
+            "published": "Sat, 24 Oct 2026 14:37:13 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News UK Bristol Crash Dogs",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317989580-13ef.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Fears of Christmas turkey shortage after bird flu outbreak leads to mass cull",
+            "link": "https://metro.co.uk/2026/10/24/fears-christmas-turkey-shortage-bird-flu-outbreak-leads-mass-cull-29736359/",
+            "published": "Sat, 24 Oct 2026 13:58:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News UK Animals Bird flu Christmas",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_276215500-50bf.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Four charged with running ‘Breaking Bad’ meth lab on rural farm",
+            "link": "https://metro.co.uk/2026/10/24/four-charged-running-breaking-bad-meth-lab-rural-farm-29736336/",
+            "published": "Sat, 24 Oct 2026 13:55:46 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News UK Crime News Warwickshire",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_311484195-4340.jpg?quality=90&strip=all&w=625"
+          },
+          {
+            "title": "Drivers warned of ‘endless gridlock’ before two-year closure of M5 junction",
+            "link": "https://metro.co.uk/2026/10/24/drivers-warned-endless-gridlock-two-year-road-closure-29736245/",
+            "published": "Sat, 24 Oct 2026 12:52:14 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News UK Cheltenham Gloucestershire Travel News",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/08/SEI_309353207-6689.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Monk who lived on private island accused of sending naked photos to women",
+            "link": "https://metro.co.uk/2026/10/24/monk-lived-private-island-accused-sending-naked-photos-women-29736225/",
+            "published": "Sat, 24 Oct 2026 12:47:58 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News UK Catholic Church Wales",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317703546-20f9-e1792841474415.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Met knew of Thomas Markle claims in 2019 but didn’t tell ‘other law enforcement’",
+            "link": "https://metro.co.uk/2026/10/24/met-knew-thomas-markle-claims-2019-didnt-tell-other-law-enforcement-29736322/",
+            "published": "Sat, 24 Oct 2026 12:36:13 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News UK Crime News Meghan Markle Duchess of Sussex Meghan Markle family Metropolitan Police Philippines",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317971451-a1d5.jpg?quality=90&strip=all&w=646"
+          },
+          {
             "title": "British man faces 25 years in jail over ‘murder’ of wife found dead in Spain",
             "link": "https://metro.co.uk/2026/10/24/british-man-faces-25-years-jail-murder-wife-found-dead-spain-29736219/",
             "published": "Sat, 24 Oct 2026 11:10:52 +0000",
@@ -2488,108 +2596,18 @@
             "provider": "METRO",
             "categories": "News UK Crown Prosecution Service High Court",
             "image": "https://metro.co.uk/wp-content/uploads/2026/10/PRI_88853529-716a.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Man in 30s dead after driver ‘suffers medical episode’ and crashes into busy Lidl",
-            "link": "https://metro.co.uk/2026/10/23/man-dies-car-crashes-front-busy-lidl-29735667/",
-            "published": "Fri, 23 Oct 2026 19:58:25 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News UK Crime News Lidl West Midlands Police Wolverhampton",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317902533-93a9.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Gang jailed after being caught tunnelling in to jewellery shop",
-            "link": "https://metro.co.uk/2026/10/23/gang-jailed-caught-tunnelling-jewellery-shop-29735581/",
-            "published": "Fri, 23 Oct 2026 18:38:35 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News UK Crime News London Metropolitan Police",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/1792779078533_7429901199823319.jpg?quality=90&strip=all&w=636"
-          },
-          {
-            "title": "Nurse struck off after falsifying records to get cheaper weight loss drugs",
-            "link": "https://metro.co.uk/2026/10/23/nurse-struck-off-falsifying-records-get-cheaper-weight-loss-drugs-29735506/",
-            "published": "Fri, 23 Oct 2026 18:00:14 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News Cornwall Diet and Weight Loss NHS Ozempic",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_233870501-e8e4.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Tory campaign director ‘abused inside information’ to bet on 2024 election date",
-            "link": "https://metro.co.uk/2026/10/23/tory-campaign-director-abused-inside-information-bet-2024-election-date-29735405/",
-            "published": "Fri, 23 Oct 2026 17:05:39 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News Politics Conservative Party General Election Rishi Sunak",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_241538273-876b-e1792774861373.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Britain and France carry out first-ever joint nuclear drills in ‘decisive milestone’",
-            "link": "https://metro.co.uk/2026/10/23/britain-france-carry-first-ever-joint-nuclear-defence-drills-french-minister-says-29735186/",
-            "published": "Fri, 23 Oct 2026 15:59:26 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News UK Armed Forces France RAF and Red Arrows",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317842982-926b.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Drug dealer who ‘terrorised’ woman before she fell from balcony is jailed for killing her",
-            "link": "https://metro.co.uk/2026/10/23/drug-dealer-terrorised-woman-fell-balcony-jailed-killing-29735146/",
-            "published": "Fri, 23 Oct 2026 15:11:48 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News UK Crime News",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/comp-1792767831.png?w=646"
-          },
-          {
-            "title": "Man drove 100 miles to murder stepdaughter on her 20th birthday before scattering evidence on M6",
-            "link": "https://metro.co.uk/2026/10/23/man-drove-100-miles-murder-stepdaughter-20th-birthday-scattering-evidence-m6-29734590/",
-            "published": "Fri, 23 Oct 2026 15:09:47 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News UK Crime News Murder Preston",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317720010-f3c1-e1792765123186.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Video game designer who created ‘Stick Run’ livestreamed his suicide",
-            "link": "https://metro.co.uk/2026/10/23/video-game-designer-created-stick-run-livestreamed-suicide-29734191/",
-            "published": "Fri, 23 Oct 2026 15:07:43 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News World Death",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317592655-893e.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Andrew Mountbatten-Windsor can be called to give evidence at High Court, judge rules",
-            "link": "https://metro.co.uk/2026/10/23/andrew-mountbatten-windsor-can-called-give-evidence-high-court-judge-rules-29734891/",
-            "published": "Fri, 23 Oct 2026 14:21:47 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News UK Andrew Mountbatten-Windsor Crime News High Court Sarah Ferguson",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315384878-6bea.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Dead goats are being dumped in a forest and no one knows why",
-            "link": "https://metro.co.uk/2026/10/23/dead-goats-dumped-a-forest-no-one-knows-29733026/",
-            "published": "Fri, 23 Oct 2026 14:13:47 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News Weird Animals Somerset Somerset Police",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/coverimages56097635-4cf9-e1792764611690.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Police officers ‘joked about death’ of Paul Hardcastle’s son after crash",
-            "link": "https://metro.co.uk/2026/10/23/police-officers-joked-death-paul-hardcastles-son-crash-29734359/",
-            "published": "Fri, 23 Oct 2026 14:08:36 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News UK Essex Police",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317828290-b3d7-e1792758402675.jpg?quality=90&strip=all&w=646"
           }
         ],
         "WORLD": [
+          {
+            "title": "Huge fire tears through Adolf Hitler’s Eagle’s Nest mountaintop retreat",
+            "link": "https://metro.co.uk/2026/10/24/huge-fire-tears-adolf-hitlers-eagles-nest-mountaintop-retreat-29736400/",
+            "published": "Sat, 24 Oct 2026 14:41:55 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News World Adolf Hitler Fire Germany",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317940839-9d77.jpg?quality=90&strip=all&w=646"
+          },
           {
             "title": "British man faces 25 years in jail over ‘murder’ of wife found dead in Spain",
             "link": "https://metro.co.uk/2026/10/24/british-man-faces-25-years-jail-murder-wife-found-dead-spain-29736219/",
@@ -2706,27 +2724,18 @@
             "provider": "METRO",
             "categories": "News World Canada Murder",
             "image": "https://metro.co.uk/wp-content/uploads/2026/10/comp-1792413104.png?w=646"
-          },
-          {
-            "title": "Dad of Helen Haines’ alleged attacker reveals 20-year friendship with Aussie MP",
-            "link": "https://metro.co.uk/2026/10/19/helen-haines-mp-may-lost-leg-struck-car-targeted-attack-29720914/",
-            "published": "Mon, 19 Oct 2026 11:50:41 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News World Australia",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317318540-baef.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "What we know about Coronation Street’s ‘bleak’ Christmas storylines so far",
-            "link": "https://metro.co.uk/2026/10/24/what-we-know-about-coronation-streets-bleak-christmas-storylines-so-far-2-29733723/",
-            "published": "Sat, 24 Oct 2026 08:00:00 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Coronation Street Soaps Ben Price Christmas TV Debbie Webster Jack P. Shepherd Jodie Ramsey Olivia Frances-Brown Ryan Mulvey Sue Devaney",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEC_314992269-e46a.jpg?quality=90&strip=all&w=646"
           }
         ],
         "POLITICS": [
+          {
+            "title": "Tax dodgers will have cash automatically taken from accounts under new powers",
+            "link": "https://metro.co.uk/2026/10/24/tax-dodgers-will-cash-automatically-taken-accounts-29736410/",
+            "published": "Sat, 24 Oct 2026 15:36:45 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News Politics HMRC John Healey Labour Party",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_307888049-c88c.jpg?quality=90&strip=all&w=646"
+          },
           {
             "title": "Tory campaign director ‘abused inside information’ to bet on 2024 election date",
             "link": "https://metro.co.uk/2026/10/23/tory-campaign-director-abused-inside-information-bet-2024-election-date-29735405/",
@@ -2881,22 +2890,13 @@
             "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315784367-d67a.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "MPs bag nearly £500k in freebies from UAE and Manchester City as campaigners raise ‘conflict of interest’ concern",
-            "link": "https://metro.co.uk/2026/10/10/mps-500k-freebies-uae-spark-conflict-concerns-29697397/",
-            "published": "Sat, 10 Oct 2026 12:01:38 +0000",
+            "title": "The unofficial item every Brit needs to prep for Doomsday",
+            "link": "https://metro.co.uk/2026/10/24/unofficial-must-have-every-brit-needs-prep-doomsday-29736269/",
+            "published": "Sat, 24 Oct 2026 13:55:54 +0000",
             "source": "Metro",
             "provider": "METRO",
-            "categories": "News Politics Andy Burnham Conservative Party Labour Party Manchester City FC",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_314969240-eb67.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "What we know about Coronation Street’s ‘bleak’ Christmas storylines so far",
-            "link": "https://metro.co.uk/2026/10/24/what-we-know-about-coronation-streets-bleak-christmas-storylines-so-far-2-29733723/",
-            "published": "Sat, 24 Oct 2026 08:00:00 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Coronation Street Soaps Ben Price Christmas TV Debbie Webster Jack P. Shepherd Jodie Ramsey Olivia Frances-Brown Ryan Mulvey Sue Devaney",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEC_314992269-e46a.jpg?quality=90&strip=all&w=646"
+            "categories": "Lifestyle Andy Burnham Angela Rayner British Government Cybercrime",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317983345-1656.jpg?quality=90&strip=all&w=646"
           }
         ],
         "BUSINESS": [
@@ -3063,22 +3063,13 @@
             "image": "https://metro.co.uk/wp-content/uploads/2025/10/SEC_271456045-2954.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Martin Lewis’ MSE shares warning over fake Warm Home Discount letters",
-            "link": "https://metro.co.uk/2026/10/24/martin-lewis-mse-shares-warning-fake-warm-home-discount-letters-29736029/",
-            "published": "Sat, 24 Oct 2026 10:39:38 +0000",
+            "title": "Tax dodgers will have cash automatically taken from accounts under new powers",
+            "link": "https://metro.co.uk/2026/10/24/tax-dodgers-will-cash-automatically-taken-accounts-29736410/",
+            "published": "Sat, 24 Oct 2026 15:36:45 +0000",
             "source": "Metro",
             "provider": "METRO",
-            "categories": "Lifestyle Money Martin Lewis Money Tips",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317959678-0c81.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Popular desserts pulled from supermarket shelves as they ‘may contain glass’",
-            "link": "https://metro.co.uk/2026/10/24/popular-desserts-pulled-supermarket-shelves-may-contain-glass-29736121/",
-            "published": "Sat, 24 Oct 2026 10:39:27 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News UK Chocolate Food recalls",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315397470-8641.jpg?quality=90&strip=all&w=646"
+            "categories": "News Politics HMRC John Healey Labour Party",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_307888049-c88c.jpg?quality=90&strip=all&w=646"
           }
         ],
         "TECH": [
@@ -3093,6 +3084,51 @@
           }
         ],
         "ENTERTAINMENT": [
+          {
+            "title": "University Challenge contestants slam BBC’s ‘absurd censoring of Pride pin badges’",
+            "link": "https://metro.co.uk/2026/10/24/university-challenge-contestants-slam-bbcs-absurd-censoring-pride-pin-badges-29736497/",
+            "published": "Sat, 24 Oct 2026 14:52:46 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment TV BBC LGBTQ+ Transgender University Challenge",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317987057-309f.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Actor doubles down on him and twin brother being ‘children of incest’ with hilarious joke",
+            "link": "https://metro.co.uk/2026/10/24/actor-doubles-twin-brother-children-incest-hilarious-joke-29736592/",
+            "published": "Sat, 24 Oct 2026 14:39:19 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment Showbiz Disney US Showbiz news",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/dylan-cole-sprouse.png?w=646"
+          },
+          {
+            "title": "Celebrity Traitors fans convinced Ed Gamble made a ‘secret cameo’ last night",
+            "link": "https://metro.co.uk/2026/10/24/celebrity-traitors-fans-convinced-ed-gamble-made-a-secret-cameo-last-night-definitely-missed-29736389/",
+            "published": "Sat, 24 Oct 2026 14:18:06 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment TV BBC Celebrity Traitors Comedians Ed Gamble",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI315433382-f694-e1792847960394.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "What’s the route for Celebrity Race Across The World 2026?",
+            "link": "https://metro.co.uk/2026/10/24/route-celebrity-race-across-world-2026-29734830/",
+            "published": "Sat, 24 Oct 2026 13:27:14 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment TV BBC Race Across The World Sam Ryder",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317300102-d31f-e1792765414400.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "UK Home Secretary urged to ban Macklemore from Britain ahead of Wembley gig",
+            "link": "https://metro.co.uk/2026/10/24/macklemore-faces-calls-uk-ban-ahead-wembley-gig-29736208/",
+            "published": "Sat, 24 Oct 2026 12:50:13 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment Music Macklemore Palestine Shabana Mahmood Wembley Stadium",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/AN_117228993-dbdc.jpg?quality=90&strip=all&w=646"
+          },
           {
             "title": "Morgana Robinson demanded a bodyguard for filming ‘disturbing and risky’ Ali G sequel",
             "link": "https://metro.co.uk/2026/10/24/morgana-robinson-demanded-a-bodyguard-filming-disturbing-risky-ali-g-sequel-29736169/",
@@ -3139,15 +3175,6 @@
             "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_292736416-9de9.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Taskmaster star Chloe Petts: ‘You can be mean about me – just use the right pronouns’",
-            "link": "https://metro.co.uk/2026/10/24/taskmaster-star-chloe-petts-you-can-mean-just-use-right-pronouns-29734330/",
-            "published": "Sat, 24 Oct 2026 08:00:00 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Entertainment TV Ed Gamble Greg Davies Richard Ayoade Taskmaster",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317459901-10b4-e1792758087406.jpg?quality=90&strip=all&w=646"
-          },
-          {
             "title": "Ashley Walters: ‘Stephen Graham saved my life’",
             "link": "https://metro.co.uk/2026/10/24/ashley-walters-stephen-graham-saved-life-29734991/",
             "published": "Sat, 24 Oct 2026 08:00:00 +0000",
@@ -3155,6 +3182,15 @@
             "provider": "METRO",
             "categories": "Entertainment Film Adolescence Ashley Walters Stephen Graham",
             "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317642521-44e4-e1792768658226.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Taskmaster star Chloe Petts: ‘You can be mean about me – just use the right pronouns’",
+            "link": "https://metro.co.uk/2026/10/24/taskmaster-star-chloe-petts-you-can-mean-just-use-right-pronouns-29734330/",
+            "published": "Sat, 24 Oct 2026 08:00:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment TV Ed Gamble Greg Davies Richard Ayoade Taskmaster",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317459901-10b4-e1792758087406.jpg?quality=90&strip=all&w=646"
           },
           {
             "title": "Lee Andrews shares big hint that he’s back with Katie Price",
@@ -3227,51 +3263,6 @@
             "provider": "METRO",
             "categories": "Entertainment Showbiz Jimmy Carr Lindsay Clancy",
             "image": "https://metro.co.uk/wp-content/uploads/2026/10/clancy-carr.png?w=646"
-          },
-          {
-            "title": "Pitbull admits to erection during Jennifer Lopez performance after pictures go viral",
-            "link": "https://metro.co.uk/2026/10/23/pitbull-finally-confesses-jennifer-lopez-erection-15-years-performance-29734120/",
-            "published": "Fri, 23 Oct 2026 11:47:42 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Entertainment Showbiz Jennifer Lopez Pitbull US Showbiz news",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317842305-c735.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Unexpected Glastonbury 2027 headliner thrown into the mix by rock icon",
-            "link": "https://metro.co.uk/2026/10/23/unexpected-glastonbury-2027-headliner-thrown-mix-rock-icon-29733519/",
-            "published": "Fri, 23 Oct 2026 11:46:45 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Entertainment Music British musicians Jarvis Cocker Mercury Music Prize",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317754298-a3cb.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Celebrity Traitors star Maya Jama swipes back at nasty insult in deleted tweet",
-            "link": "https://metro.co.uk/2026/10/23/celebrity-traitors-star-maya-jama-swipes-back-nasty-insult-deleted-tweet-29733905/",
-            "published": "Fri, 23 Oct 2026 11:46:44 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Entertainment TV BBC Celebrity Traitors James Acaster Maya Jama The Traitors",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317839783-9fa7.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Wildwood is pure dark magic you need to see for yourself",
-            "link": "https://metro.co.uk/2026/10/23/wildwood-review-stop-motion-pure-dark-magic-need-see-29731067/",
-            "published": "Fri, 23 Oct 2026 11:00:00 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Entertainment Film Carey Mulligan Film reviews Mahershala Ali Richard E Grant US film",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316323611-0d95.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "James Acaster finally proved he is a perfect Celebrity Traitor – he just disappointed me doing it",
-            "link": "https://metro.co.uk/2026/10/23/james-acaster-finally-proved-a-perfect-celebrity-traitor-just-disappointed-29733031/",
-            "published": "Fri, 23 Oct 2026 10:03:13 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Entertainment TV BBC James Acaster Opinion The Traitors",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317828983-6862.jpg?quality=90&strip=all&w=646"
           }
         ]
       },
@@ -3282,7 +3273,7 @@
         },
         "WORLD": {
           "ok": true,
-          "count": 15
+          "count": 14
         },
         "POLITICS": {
           "ok": true,
@@ -3290,7 +3281,7 @@
         },
         "BUSINESS": {
           "ok": true,
-          "count": 20
+          "count": 19
         },
         "TECH": {
           "ok": false,
@@ -3693,7 +3684,7 @@
           {
             "title": "Ambani's Jio becomes most subscribed Indian IPO with $77 billion in bids",
             "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVnRMTFMtTUhERkVlZG4zSVcxcm54ODQ5SXo5NGMxNmVZM2RSbjdqTko3NzB4Q053b09iMEJiX3dRd3Rpem9RQ2pDa1dVMFFOZG54WjhLMkdSbHpyQnF6OXpQbDhBd0ExQ0QyRFNXRm93Q0dfUEdCSllQdTBrUVNzRFUzTWc1OVZva3F0YkVDLUdyeEZvNFh1S1VhNVdMZjFDbVVFTDZPUk9MQVVMTEN1ZmRiX3BjaEJDNi00OWlLNDY?oc=5",
-            "published": "Fri, 23 Oct 2026 06:28:00 GMT",
+            "published": "Fri, 23 Oct 2026 15:31:04 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3803,6 +3794,15 @@
       "categories": {
         "STOCKS": [
           {
+            "title": "Could a rise in UK bank taxes cause a stock market crash?",
+            "link": "https://www.twelfthmagpie.com/2026/10/24/could-a-rise-in-uk-bank-taxes-cause-a-stock-market-crash/",
+            "published": "Sat, 24 Oct 2026 12:20:48 +0000",
+            "source": "The Twelfth Magpie",
+            "provider": "MAGPIE",
+            "categories": "Dividend Shares Investing Articles",
+            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2024/07/Lunch-break-1200x800.jpg"
+          },
+          {
             "title": "Could this fresh rally above 600p be a ‘breakout’ for BP shares?",
             "link": "https://www.twelfthmagpie.com/2026/10/24/could-this-fresh-rally-above-600p-be-a-breakout-for-bp-shares/",
             "published": "Sat, 24 Oct 2026 12:02:00 +0000",
@@ -3882,15 +3882,6 @@
             "provider": "MAGPIE",
             "categories": "Dividend Shares Investing Articles",
             "image": "https://www.twelfthmagpie.com/wp-content/uploads/2022/10/Bournemouth-fireworks.jpg"
-          },
-          {
-            "title": "Top British growth stocks to consider buying for Halloween and beyond",
-            "link": "https://www.twelfthmagpie.com/2026/10/24/top-british-growth-stocks-to-consider-buying-for-halloween-and-beyond/",
-            "published": "Sat, 24 Oct 2026 06:33:59 +0000",
-            "source": "The Twelfth Magpie",
-            "provider": "MAGPIE",
-            "categories": "Growth Shares Investing Articles",
-            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2024/09/Pumpkins-1200x675.jpg"
           }
         ]
       },
@@ -3906,5 +3897,5 @@
       }
     }
   },
-  "stocksUpdated": "2026-10-24T12:11:26.331Z"
+  "stocksUpdated": "2026-10-24T16:03:41.615Z"
 }
