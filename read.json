@@ -1,12 +1,12 @@
 {
-  "updated": "2026-10-24T18:57:28.310Z",
+  "updated": "2026-10-24T20:57:41.480Z",
   "charts": {
     "AUDIOBOOKS": [
       {
         "title": "Bram Stoker's Dracula",
         "author": "Bram Stoker",
         "narrator": "Jonathan Bailey , Ella Purnell , Aimee Lou Wood , Louis Partridge , David Jonsson , Johnny Flynn , Lesley Manville , Maggie Gyllenhaal",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/03/85/a8/0385a8b0-667d-baed-8423-132574f5a40f/9781785752292.png/600x600bb.jpg"
+        "image": "https://m.media-amazon.com/images/I/51nLhYS-rhL._SL500_.jpg"
       },
       {
         "title": "The Witch",
@@ -15,28 +15,28 @@
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/21/e2/a3/21e2a31c-2e04-6d99-0af9-180a08fa96a2/9798349169328.jpg/600x600bb.jpg"
       },
       {
-        "title": "Her Stepmother's House",
-        "author": "K. L. Slater",
-        "narrator": "Clare Corbett",
-        "image": "https://m.media-amazon.com/images/I/510J1VMd3QL._SL500_.jpg"
-      },
-      {
         "title": "A Court of Splintered Harmony",
         "author": "Sarah J. Maas",
         "narrator": "Elizabeth Evans",
-        "image": "https://m.media-amazon.com/images/I/51WqRCIn0sL._SL500_.jpg"
+        "image": "https://covers.openlibrary.org/b/id/15253996-L.jpg"
+      },
+      {
+        "title": "The Night Thief",
+        "author": "Joy Ellis",
+        "narrator": "Richard Armitage",
+        "image": ""
       },
       {
         "title": "Dungeon Crawler Carl",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://m.media-amazon.com/images/I/51HIZdnqASL._SL500_.jpg"
+        "image": "https://covers.openlibrary.org/b/id/15143022-L.jpg"
       },
       {
-        "title": "Threshing Day (Wing and Claw Collection)",
-        "author": "Rebecca Yarros",
-        "narrator": "Justis Bolding , Jake Bordeaux , Chase Brown , Frankie Corzo , Giordan Diaz , Teddy Hamilton , Laura Knight Keating , Zion Jang , Nick Mills , Robb Moreira , James Aaron Oh , Anthony Palmini , John Skelley , Jasmin Walker",
-        "image": "https://m.media-amazon.com/images/I/51+hQRgOR2L._SL500_.jpg"
+        "title": "Her Stepmother's House",
+        "author": "K. L. Slater",
+        "narrator": "Clare Corbett",
+        "image": "https://m.media-amazon.com/images/I/510J1VMd3QL._SL500_.jpg"
       },
       {
         "title": "Threshing Day [Dramatized Adaptation]",
@@ -45,10 +45,10 @@
         "image": "https://m.media-amazon.com/images/I/51yEO5vfs9L._SL500_.jpg"
       },
       {
-        "title": "Dead in Three Two One",
-        "author": "Peter James",
-        "narrator": "Daniel Weyman",
-        "image": "https://m.media-amazon.com/images/I/51urw7a2KKL._SL500_.jpg"
+        "title": "Threshing Day (Wing and Claw Collection)",
+        "author": "Rebecca Yarros",
+        "narrator": "Justis Bolding , Jake Bordeaux , Chase Brown , Frankie Corzo , Giordan Diaz , Teddy Hamilton , Laura Knight Keating , Zion Jang , Nick Mills , Robb Moreira , James Aaron Oh , Anthony Palmini , John Skelley , Jasmin Walker",
+        "image": "https://m.media-amazon.com/images/I/51+hQRgOR2L._SL500_.jpg"
       },
       {
         "title": "Carl's Doomsday Scenario",
@@ -57,10 +57,10 @@
         "image": "https://covers.openlibrary.org/b/id/11702962-L.jpg"
       },
       {
-        "title": "The Let Them Theory",
-        "author": "Mel Robbins",
-        "narrator": "Mel Robbins",
-        "image": "https://covers.openlibrary.org/b/id/15165806-L.jpg"
+        "title": "Dead in Three Two One",
+        "author": "Peter James",
+        "narrator": "Daniel Weyman",
+        "image": "https://m.media-amazon.com/images/I/51urw7a2KKL._SL500_.jpg"
       }
     ],
     "BOOKS": [
@@ -123,14 +123,14 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-10-24T18:57:28.311Z",
-      "lastSuccessfulRefresh": "2026-10-24T18:57:28.311Z",
+      "checkedAt": "2026-10-24T20:57:41.480Z",
+      "lastSuccessfulRefresh": "2026-10-24T20:57:41.480Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-10-24T18:57:37.478Z",
-      "lastSuccessfulRefresh": "2026-10-24T18:57:37.478Z",
+      "checkedAt": "2026-10-24T20:57:50.074Z",
+      "lastSuccessfulRefresh": "2026-10-24T20:57:50.074Z",
       "reason": ""
     }
   }
