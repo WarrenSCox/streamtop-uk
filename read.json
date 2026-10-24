@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-24T01:55:02.431Z",
+  "updated": "2026-10-24T04:46:32.894Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -12,7 +12,7 @@
         "title": "The Witch",
         "author": "Freida McFadden",
         "narrator": "Saskia Maarleveld , Marin Ireland",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/21/e2/a3/21e2a31c-2e04-6d99-0af9-180a08fa96a2/9798349169328.jpg/600x600bb.jpg"
+        "image": "https://m.media-amazon.com/images/I/41vExa8IbhL._SL500_.jpg"
       },
       {
         "title": "A Court of Splintered Harmony",
@@ -36,7 +36,7 @@
         "title": "Dead in Three Two One",
         "author": "Peter James",
         "narrator": "Daniel Weyman",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b8/38/6b/b8386be1-e948-8ae4-57c0-6b770979a26d/9781529090154.jpg/600x600bb.jpg"
+        "image": "https://m.media-amazon.com/images/I/51urw7a2KKL._SL500_.jpg"
       },
       {
         "title": "Threshing Day (Wing and Claw Collection)",
@@ -54,7 +54,7 @@
         "title": "Carl's Doomsday Scenario",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://covers.openlibrary.org/b/id/11702962-L.jpg"
+        "image": "https://m.media-amazon.com/images/I/51e1PKKdv8L._SL500_.jpg"
       },
       {
         "title": "The Let Them Theory",
@@ -123,14 +123,14 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-10-24T01:55:02.431Z",
-      "lastSuccessfulRefresh": "2026-10-24T01:55:02.431Z",
+      "checkedAt": "2026-10-24T04:46:32.895Z",
+      "lastSuccessfulRefresh": "2026-10-24T04:46:32.895Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-10-24T01:55:12.283Z",
-      "lastSuccessfulRefresh": "2026-10-24T01:55:12.283Z",
+      "checkedAt": "2026-10-24T04:46:42.605Z",
+      "lastSuccessfulRefresh": "2026-10-24T04:46:42.605Z",
       "reason": ""
     }
   }

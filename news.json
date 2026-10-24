@@ -1,7 +1,25 @@
 {
-  "updated": "2026-10-24T01:54:57.538Z",
+  "updated": "2026-10-24T04:46:27.055Z",
   "categories": {
     "UK": [
+      {
+        "title": "UK pledges £600m to defend against AI health and security threats",
+        "link": "https://news.sky.com/story/uk-pledges-to-spend-600m-to-defend-against-ai-health-and-security-threats-13602935",
+        "published": "Sat, 24 Oct 2026 03:49:00 +0100",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/10/1920x1080/skynews-ai-generic_7385212.jpg?20261024035917"
+      },
+      {
+        "title": "Rain and 80mph winds forecast for UK as Storm Boelo arrives",
+        "link": "https://news.sky.com/story/rain-and-80mph-winds-forecast-for-uk-as-second-named-storm-in-48-hours-hits-13602934",
+        "published": "Sat, 24 Oct 2026 03:44:00 +0100",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/10/1920x1080/skynews-weather-uk-storm_7385214.jpg?20261024042437"
+      },
       {
         "title": "Online safety laws have failed to protect children in UK, Ofcom admits",
         "link": "https://www.theguardian.com/society/2026/oct/23/uk-children-just-as-likely-to-have-suffered-harm-on-social-media-despite-crackdown-ofcom-online-safety-act",
@@ -66,15 +84,6 @@
         "image": "https://i.guim.co.uk/img/media/06255a9e2eb8bc92d7a776638178e3018c0ffa7b/720_0_7200_5760/master/7200.jpg?width=140&quality=85&auto=format&fit=max&s=5589ccce844bd1e6a4b26b6be42dc49b"
       },
       {
-        "title": "‘Realistic and reassuring’: UK public ‘responding calmly’ to Be Ready campaign",
-        "link": "https://www.theguardian.com/society/2026/oct/23/realistic-and-reassuring-uk-public-responding-calmly-to-be-ready-campaign",
-        "published": "Fri, 23 Oct 2026 17:22:18 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Emergency planning Cyberwar Internet Infrastructure Defence policy Hacking Politics UK news Climate crisis",
-        "image": "https://i.guim.co.uk/img/media/81450ec00e1a9bfb238cb29c46f0ec47505cece2/425_0_4078_3264/master/4078.jpg?width=140&quality=85&auto=format&fit=max&s=c576a020338cbe46cf3829fe0270c196"
-      },
-      {
         "title": "Vincent Kompany taken to hospital after collapsing at Bayern Munich training",
         "link": "https://news.sky.com/story/vincent-kompany-bayern-coach-taken-to-hospital-after-collapsing-at-training-13602791",
         "published": "Fri, 23 Oct 2026 17:55:00 +0100",
@@ -82,18 +91,18 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/10/1920x1080/skynews-vincent-kompany-bayern-munich_7384916.jpg?20261023191749"
-      },
-      {
-        "title": "Airbnb hosts can't ask guests to do 'chores' anymore in rule change",
-        "link": "https://news.sky.com/story/airbnb-hosts-can-no-longer-ask-guests-to-do-dishes-or-strip-bed-under-new-rules-13602685",
-        "published": "Fri, 23 Oct 2026 14:05:00 +0100",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-airbnb-housing_7346826.jpg?20260910085626"
       }
     ],
     "WORLD": [
+      {
+        "title": "Typhoon Champi kills one and injures more than 500 in Taiwan as it heads to China",
+        "link": "https://www.theguardian.com/world/2026/oct/24/typhoon-champi-kills-one-and-injures-more-than-500-in-taiwan-as-it-heads-to-china",
+        "published": "Sat, 24 Oct 2026 02:22:32 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Taiwan Taiwan Asia Pacific China Japan",
+        "image": "https://i.guim.co.uk/img/media/ef90d32836e051ec70630f8c26f1745009515247/589_0_6827_5464/master/6827.jpg?width=140&quality=85&auto=format&fit=max&s=71c6a707179b0ef711ce3814e4c20947"
+      },
       {
         "title": "Embattled Greens senator Jordon Steele-John confirms leave from parliament after allegations against him made public",
         "link": "https://www.theguardian.com/australia-news/2026/oct/24/greens-senator-jordon-steele-john-confirms-leave-from-parliament-ntwnfb",
@@ -129,15 +138,6 @@
         "provider": "METRO",
         "categories": "Entertainment Gaming EA Games news Reader's Feature United States of America",
         "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317875073-2156.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Thunderstorms, heavy rain and flash flooding predicted for much of Australia",
-        "link": "https://www.theguardian.com/australia-news/2026/oct/24/thunderstorms-heavy-rain-and-flash-flooding-predicted-for-much-of-australia",
-        "published": "Fri, 23 Oct 2026 23:26:05 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Australia weather Australia news Queensland Victoria South Australia Tasmania",
-        "image": "https://i.guim.co.uk/img/media/559129ca49d22e95b5248f9ae804833a6fd6b9bf/469_283_1995_1595/master/1995.jpg?width=140&quality=85&auto=format&fit=max&s=1bf8c6fb6a15e736ff04391632d1240e"
       },
       {
         "title": "Miranda Hart reveals where she stands with Joanne McNally after Celebrity Traitors clash",
@@ -186,6 +186,15 @@
       }
     ],
     "POLITICS": [
+      {
+        "title": "UK pledges £600m to defend against AI health and security threats",
+        "link": "https://news.sky.com/story/uk-pledges-to-spend-600m-to-defend-against-ai-health-and-security-threats-13602935",
+        "published": "Sat, 24 Oct 2026 03:49:00 +0100",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/10/1920x1080/skynews-ai-generic_7385212.jpg?20261024035917"
+      },
       {
         "title": "Andy Bloke appears vaguely normal on Gogglebox – but Kemi dodged a bullet",
         "link": "https://www.theguardian.com/politics/2026/oct/24/andy-bloke-appears-vaguely-normal-on-gogglebox-but-kemi-dodged-a-bullet",
@@ -248,15 +257,6 @@
         "provider": "METRO",
         "categories": "News UK Armed Forces France RAF and Red Arrows",
         "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317842982-926b.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Martin Rowson on the approval of the Jackdaw gasfield – cartoon",
-        "link": "https://www.theguardian.com/commentisfree/picture/2026/oct/23/martin-rowson-cartoon-jackdaw-gasfield-andy-burnham-labour-climate-crisis",
-        "published": "Fri, 23 Oct 2026 15:36:29 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Oil and gas companies Gas Energy industry UK news Climate crisis Andy Burnham Politics",
-        "image": "https://i.guim.co.uk/img/media/fe5283d6490bfed94c77c3255802585133190d63/14_0_4279_3423/master/4279.jpg?width=140&quality=85&auto=format&fit=max&s=09529366cb08ba5ec20abdb64c048531"
       },
       {
         "title": "Three people linked to Conservatives sentenced after cheating at gambling on general election",
@@ -371,6 +371,15 @@
     ],
     "TECH": [
       {
+        "title": "UK pledges £600m to defend against AI health and security threats",
+        "link": "https://news.sky.com/story/uk-pledges-to-spend-600m-to-defend-against-ai-health-and-security-threats-13602935",
+        "published": "Sat, 24 Oct 2026 03:49:00 +0100",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/10/1920x1080/skynews-ai-generic_7385212.jpg?20261024035917"
+      },
+      {
         "title": "Inside NQ JPN, London’s new arcade bar – insert coin, order a cocktail",
         "link": "https://metro.co.uk/2026/10/24/inside-nq-jpn-londons-new-arcade-bar-insert-coin-order-a-cocktail-29734704/",
         "published": "Sat, 24 Oct 2026 01:00:00 +0000",
@@ -414,15 +423,6 @@
         "provider": "GUARDIAN",
         "categories": "Spain Pedro Sánchez AI (artificial intelligence) Europe World news",
         "image": "https://i.guim.co.uk/img/media/b2d99fbc0419494ad01c1db56e1c3987fef305dd/799_96_2908_2326/master/2908.jpg?width=140&quality=85&auto=format&fit=max&s=26b2782eab34845759c7884cee206583"
-      },
-      {
-        "title": "Marvel’s Blade ‘nearing the end’ of production as Arkane faces closure",
-        "link": "https://metro.co.uk/2026/10/23/marvels-blade-nearing-end-production-arkane-faces-closure-29735364/",
-        "published": "Fri, 23 Oct 2026 16:29:43 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Entertainment Gaming Bethesda Games news Marvel Xbox",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317868614-f30b.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "A farewell to BioWare, maker of some of the best games of the 21st century | Lucy James",
@@ -472,15 +472,6 @@
         "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317714547-58c6.jpg?quality=90&strip=all&w=646"
       },
       {
-        "title": "Max’s despicable EastEnders act could be the end of kidnapped Amy",
-        "link": "https://metro.co.uk/2026/10/23/maxs-despicable-eastenders-act-end-kidnapped-amy-29727888/",
-        "published": "Fri, 23 Oct 2026 22:59:00 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "EastEnders Soaps Amy Mitchell Craig Ingram Ellie Dadd Jack Branning Jake Wood Matthew James Bailey Max Branning Scott Maslen",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317314952-f320.jpg?quality=90&strip=all&w=646"
-      },
-      {
         "title": "Emmerdale legend in hospital dash after stabbing in new spoiler video",
         "link": "https://metro.co.uk/2026/10/23/emmerdale-legend-hospital-dash-stabbing-new-spoiler-video-29734570/",
         "published": "Fri, 23 Oct 2026 22:59:00 +0000",
@@ -488,6 +479,15 @@
         "provider": "METRO",
         "categories": "Emmerdale Soaps Chelsea Edge Claire King DS Thea Ramsden Kim Tate Weekend",
         "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316723549-425a.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Max’s despicable EastEnders act could be the end of kidnapped Amy",
+        "link": "https://metro.co.uk/2026/10/23/maxs-despicable-eastenders-act-end-kidnapped-amy-29727888/",
+        "published": "Fri, 23 Oct 2026 22:59:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "EastEnders Soaps Amy Mitchell Craig Ingram Ellie Dadd Jack Branning Jake Wood Matthew James Bailey Max Branning Scott Maslen",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317314952-f320.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "Defiant PM defends Gogglebox double act",
@@ -758,6 +758,15 @@
       "categories": {
         "UK": [
           {
+            "title": "Rain and 80mph winds forecast for UK as Storm Boelo arrives",
+            "link": "https://news.sky.com/story/rain-and-80mph-winds-forecast-for-uk-as-second-named-storm-in-48-hours-hits-13602934",
+            "published": "Sat, 24 Oct 2026 03:44:00 +0100",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/10/1920x1080/skynews-weather-uk-storm_7385214.jpg?20261024042437"
+          },
+          {
             "title": "Meghan's father investigated by police over child sex abuse image claims",
             "link": "https://news.sky.com/story/meghan-deeply-distressed-by-allegations-against-her-father-thomas-markle-13602319",
             "published": "Fri, 23 Oct 2026 00:01:00 +0100",
@@ -774,6 +783,15 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/10/1920x1080/skynews-donald-trump-andy-burnham_7384969.jpg?20261023201042"
+          },
+          {
+            "title": "UK pledges £600m to defend against AI health and security threats",
+            "link": "https://news.sky.com/story/uk-pledges-to-spend-600m-to-defend-against-ai-health-and-security-threats-13602935",
+            "published": "Sat, 24 Oct 2026 03:49:00 +0100",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/10/1920x1080/skynews-ai-generic_7385212.jpg?20261024035917"
           },
           {
             "title": "Vincent Kompany taken to hospital after collapsing at Bayern Munich training",
@@ -828,24 +846,6 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/10/1920x1080/skynews-carrick-linda-williams_7384338.jpg?20261023094911"
-          },
-          {
-            "title": "Items recovered in search for missing fishing boat and crew",
-            "link": "https://news.sky.com/story/items-recovered-in-search-for-missing-fishing-boat-and-crew-off-isle-of-lewis-13602603",
-            "published": "Fri, 23 Oct 2026 10:08:00 +0100",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/10/1920x1080/skynews-norman-murray-murdo-morrison_7384548.jpg?20261023122903"
-          },
-          {
-            "title": "New charges for Royal Navy sailor accused of plotting to leak secrets to Russia",
-            "link": "https://news.sky.com/story/new-charges-for-royal-navy-sailor-accused-of-plotting-to-leak-secrets-to-russia-13602597",
-            "published": "Fri, 23 Oct 2026 09:59:00 +0100",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/10/1920x1080/skynews-teddy-young-royal-navy_7371247.jpg?20261008130154"
           }
         ],
         "WORLD": [
@@ -905,6 +905,15 @@
           }
         ],
         "POLITICS": [
+          {
+            "title": "UK pledges £600m to defend against AI health and security threats",
+            "link": "https://news.sky.com/story/uk-pledges-to-spend-600m-to-defend-against-ai-health-and-security-threats-13602935",
+            "published": "Sat, 24 Oct 2026 03:49:00 +0100",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/10/1920x1080/skynews-ai-generic_7385212.jpg?20261024035917"
+          },
           {
             "title": "Defiant PM defends Gogglebox double act",
             "link": "https://news.sky.com/story/was-pms-gogglebox-double-act-inappropriate-amid-war-alert-burnham-defends-bit-of-humour-13602916",
@@ -1072,6 +1081,15 @@
         ],
         "TECH": [
           {
+            "title": "UK pledges £600m to defend against AI health and security threats",
+            "link": "https://news.sky.com/story/uk-pledges-to-spend-600m-to-defend-against-ai-health-and-security-threats-13602935",
+            "published": "Sat, 24 Oct 2026 03:49:00 +0100",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/10/1920x1080/skynews-ai-generic_7385212.jpg?20261024035917"
+          },
+          {
             "title": "Mounjaro rollout on NHS needs 'urgent' boost, say MPs",
             "link": "https://news.sky.com/story/mounjaro-rollout-on-nhs-needs-urgent-boost-say-mps-13602553",
             "published": "Fri, 23 Oct 2026 07:01:00 +0100",
@@ -1151,15 +1169,6 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/10/1920x1080/skynews-neanderthal-natural-history-museum_7377847.jpg?20261015203808"
-          },
-          {
-            "title": "Severe drought declared in parts of England",
-            "link": "https://news.sky.com/story/severe-drought-declared-in-parts-of-southern-england-13598962",
-            "published": "Thu, 15 Oct 2026 00:01:00 +0100",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/10/1920x1080/skynews-ardingly-reservoir_7377532.jpg?20261015124753"
           }
         ],
         "ENTERTAINMENT": [
@@ -1266,7 +1275,7 @@
         },
         "POLITICS": {
           "ok": true,
-          "count": 8
+          "count": 9
         },
         "BUSINESS": {
           "ok": true,
@@ -1558,6 +1567,15 @@
             "image": "https://i.guim.co.uk/img/media/347c2b50dd40c786867351c740f195ced11a57b8/473_141_1639_1312/master/1639.jpg?width=140&quality=85&auto=format&fit=max&s=635bf0e9c4b8dc84b4bd5298215e9905"
           },
           {
+            "title": "Typhoon Champi kills one and injures more than 500 in Taiwan as it heads to China",
+            "link": "https://www.theguardian.com/world/2026/oct/24/typhoon-champi-kills-one-and-injures-more-than-500-in-taiwan-as-it-heads-to-china",
+            "published": "Sat, 24 Oct 2026 02:22:32 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Taiwan Taiwan Asia Pacific China Japan",
+            "image": "https://i.guim.co.uk/img/media/ef90d32836e051ec70630f8c26f1745009515247/589_0_6827_5464/master/6827.jpg?width=140&quality=85&auto=format&fit=max&s=71c6a707179b0ef711ce3814e4c20947"
+          },
+          {
             "title": "Duchess of Sussex ‘deeply distressed’ over child sexual abuse image claims against father",
             "link": "https://www.theguardian.com/uk-news/2026/oct/23/meghan-duchess-of-sussex-distressed-child-sexual-abuse-image-claims-against-father",
             "published": "Fri, 23 Oct 2026 17:14:16 GMT",
@@ -1592,15 +1610,6 @@
             "provider": "GUARDIAN",
             "categories": "Taiwan China Xi Jinping Asia Pacific World news Comedy Culture Freedom of speech",
             "image": "https://i.guim.co.uk/img/media/58b66aaef4e26d60886b5c0c15befc257deb5d69/363_156_721_577/master/721.jpg?width=140&quality=85&auto=format&fit=max&s=577fc45552c222f8259e6cff0fffbe91"
-          },
-          {
-            "title": "China’s economy grows faster than forecast after AI boom boosts exports",
-            "link": "https://www.theguardian.com/world/2026/oct/19/china-economy-grows-faster-than-forecast-after-ai-boom-boosted-exports",
-            "published": "Mon, 19 Oct 2026 09:27:04 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Chinese economy China Business Economics Asia Pacific World news",
-            "image": "https://i.guim.co.uk/img/media/892bb878342a5fcbb68c7a85fb2b553e42c94669/495_0_4953_3962/master/4953.jpg?width=140&quality=85&auto=format&fit=max&s=ff640566f6eec2c8677076e94db84d22"
           },
           {
             "title": "Embattled Greens senator Jordon Steele-John confirms leave from parliament after allegations against him made public",
@@ -3291,15 +3300,6 @@
             "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317714547-58c6.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Max’s despicable EastEnders act could be the end of kidnapped Amy",
-            "link": "https://metro.co.uk/2026/10/23/maxs-despicable-eastenders-act-end-kidnapped-amy-29727888/",
-            "published": "Fri, 23 Oct 2026 22:59:00 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "EastEnders Soaps Amy Mitchell Craig Ingram Ellie Dadd Jack Branning Jake Wood Matthew James Bailey Max Branning Scott Maslen",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317314952-f320.jpg?quality=90&strip=all&w=646"
-          },
-          {
             "title": "Emmerdale legend in hospital dash after stabbing in new spoiler video",
             "link": "https://metro.co.uk/2026/10/23/emmerdale-legend-hospital-dash-stabbing-new-spoiler-video-29734570/",
             "published": "Fri, 23 Oct 2026 22:59:00 +0000",
@@ -3307,6 +3307,15 @@
             "provider": "METRO",
             "categories": "Emmerdale Soaps Chelsea Edge Claire King DS Thea Ramsden Kim Tate Weekend",
             "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316723549-425a.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Max’s despicable EastEnders act could be the end of kidnapped Amy",
+            "link": "https://metro.co.uk/2026/10/23/maxs-despicable-eastenders-act-end-kidnapped-amy-29727888/",
+            "published": "Fri, 23 Oct 2026 22:59:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "EastEnders Soaps Amy Mitchell Craig Ingram Ellie Dadd Jack Branning Jake Wood Matthew James Bailey Max Branning Scott Maslen",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317314952-f320.jpg?quality=90&strip=all&w=646"
           },
           {
             "title": "Ramsden’s Kim revenge and Liam ‘affair’ shocker as Emmerdale spoilers reveal what happens next",
@@ -3761,6 +3770,15 @@
             "image": ""
           },
           {
+            "title": "Stocks drop as Meta fans AI worries, Treasuries gain",
+            "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQNmlzbXFUNWNXc3U3RHRac2lYVEhXNjZmZGw0Q19yNVRORUEtak91QlJnTEVqcGhWT2xuT2RmOHdTVHlyN1JmSHRVZEpfMzgtNEVMT1RCWk1VNGswaVFYTXI4WlFpUE95aEJid1NxNVNBdzBGX0pzOUQwMnZnQ25kOVNXQQ?oc=5",
+            "published": "Thu, 22 Oct 2026 20:06:34 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
             "title": "Meta shares slide, default insurance hits record as AI spending alarms investors",
             "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdnFibXQ2bEZfUWFpTEoxYTNPQ3dHTlMwMjZRaFcxZlphTlplUlNFWkgta2xwdVBvU0l5OWNkMEctQmNrM2s1UDRpSW5jNFhpLW9TQUlzYlpmZFZudjhvM0RtcC1hQ24xSmVOMDYwbUIzNDQ3NlAwTEpILTc4akh1czlRcThIUnU3Y2VkbWJJWE9jdXJzbWtzclVfeUh5RzN6UzdaTlZjRWlMQQ?oc=5",
             "published": "Thu, 22 Oct 2026 17:21:56 GMT",
@@ -3773,15 +3791,6 @@
             "title": "Indian shares extend losses as high oil prices heighten inflation worries",
             "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZDhVMWdGc0J2bURPNnV2YnBaRXlMSkVqcXRGX1FBZ2lUOXQ4eVJyd3RsTE1CckJ4cjRuVEdPQVJLaGVXaVA5clJIZ0lQSTBsMm1iQ0xfeTZkNXhqWUtoX2ExQkNlRFVfSVhKckRtenZfWW41bDlxWWc0WVFuRTVTTHlIdEtPcEI2Z2hWR2pyd2NGOGRiNXNMUkM3OE5qcFV5VUxQUkVDem1HdXN4X0pKY3RrejhKeHcxRjdV?oc=5",
             "published": "Thu, 22 Oct 2026 02:33:00 GMT",
-            "source": "Reuters",
-            "provider": "REUTERS",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "Stocks drop as Meta fans AI worries, Treasuries gain",
-            "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQNmlzbXFUNWNXc3U3RHRac2lYVEhXNjZmZGw0Q19yNVRORUEtak91QlJnTEVqcGhWT2xuT2RmOHdTVHlyN1JmSHRVZEpfMzgtNEVMT1RCWk1VNGswaVFYTXI4WlFpUE95aEJid1NxNVNBdzBGX0pzOUQwMnZnQ25kOVNXQQ?oc=5",
-            "published": "Thu, 22 Oct 2026 02:15:00 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3806,18 +3815,18 @@
             "image": ""
           },
           {
-            "title": "Stocks mostly rise as oil, US yields ease; French stocks fall",
-            "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPaHdteV9meHVjc2dvbmd1WjNPa1FHR2lwTFlEcmJPWE5zZnhHSFNjQndCeHptVW1NaEpsbms3QS1oSHRiTmZyUVp2ZVR0SlMwT1kxVnM2UFdyenVSblJHVW4ySjA3aTFUcGxvbV9iaHZZMzJVZTRQV1ZtM3BZMVd4RHFsaw?oc=5",
-            "published": "Tue, 20 Oct 2026 21:24:52 GMT",
+            "title": "European stocks extend slide as French unrest rattles investors",
+            "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOaGtKbDBJR08ydzB1TFpxUzVLZDFZSlZfTnNCYlplQzE0Si1aR09YVTYybDRqaU91RG1Rbmx3RERydDdlWlMyZW9OendTNlAzREk1dkQ3QUVSMmczVDVmWmluUXk5UUx4UVdKdkNlSFREUWlvSEpOaHVhMU0xZXpJakc2VDZwVldRVlI0OUlKUlZ1cUMxTktZeHdyX01hQXdMd2hJNU05UjJjVEt2bHRtSEgwOUM?oc=5",
+            "published": "Tue, 20 Oct 2026 16:22:47 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
             "image": ""
           },
           {
-            "title": "European stocks extend slide as French unrest rattles investors",
-            "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOaGtKbDBJR08ydzB1TFpxUzVLZDFZSlZfTnNCYlplQzE0Si1aR09YVTYybDRqaU91RG1Rbmx3RERydDdlWlMyZW9OendTNlAzREk1dkQ3QUVSMmczVDVmWmluUXk5UUx4UVdKdkNlSFREUWlvSEpOaHVhMU0xZXpJakc2VDZwVldRVlI0OUlKUlZ1cUMxTktZeHdyX01hQXdMd2hJNU05UjJjVEt2bHRtSEgwOUM?oc=5",
-            "published": "Tue, 20 Oct 2026 16:22:47 GMT",
+            "title": "US stocks rebound with AI earnings test ahead, euro falls on France unrest",
+            "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOLVFWRVZxMkJLTnJJaThPRWdnNTFRbmc2V1FTYW1CbUNZc1hNYkZKd0xCbHJTeUpzYnNzYmx6RS1aZS1FNnBUcGx0VHY5bFZmY2xTMU1nZHlJNTNpWmliOE0tcmJ5d0JpeVJlZmw3Y1RuRnJvQWZSQXJraTNtN1pGOTJ4RQ?oc=5",
+            "published": "Mon, 19 Oct 2026 22:39:35 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3949,5 +3958,5 @@
       }
     }
   },
-  "stocksUpdated": "2026-10-24T01:55:02.360Z"
+  "stocksUpdated": "2026-10-24T04:46:32.839Z"
 }
