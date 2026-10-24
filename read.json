@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-24T20:57:41.480Z",
+  "updated": "2026-10-24T21:31:12.891Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -12,19 +12,19 @@
         "title": "The Witch",
         "author": "Freida McFadden",
         "narrator": "Saskia Maarleveld , Marin Ireland",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/21/e2/a3/21e2a31c-2e04-6d99-0af9-180a08fa96a2/9798349169328.jpg/600x600bb.jpg"
+        "image": "https://m.media-amazon.com/images/I/41vExa8IbhL._SL500_.jpg"
       },
       {
         "title": "A Court of Splintered Harmony",
         "author": "Sarah J. Maas",
         "narrator": "Elizabeth Evans",
-        "image": "https://covers.openlibrary.org/b/id/15253996-L.jpg"
+        "image": "https://m.media-amazon.com/images/I/51WqRCIn0sL._SL500_.jpg"
       },
       {
         "title": "The Night Thief",
         "author": "Joy Ellis",
         "narrator": "Richard Armitage",
-        "image": ""
+        "image": "https://m.media-amazon.com/images/I/41+rlKOtOdL._SL500_.jpg"
       },
       {
         "title": "Dungeon Crawler Carl",
@@ -123,14 +123,14 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-10-24T20:57:41.480Z",
-      "lastSuccessfulRefresh": "2026-10-24T20:57:41.480Z",
+      "checkedAt": "2026-10-24T21:31:12.891Z",
+      "lastSuccessfulRefresh": "2026-10-24T21:31:12.891Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-10-24T20:57:50.074Z",
-      "lastSuccessfulRefresh": "2026-10-24T20:57:50.074Z",
+      "checkedAt": "2026-10-24T21:31:23.100Z",
+      "lastSuccessfulRefresh": "2026-10-24T21:31:23.100Z",
       "reason": ""
     }
   }
