@@ -1,12 +1,12 @@
 {
-  "updated": "2026-10-24T16:12:11.962Z",
+  "updated": "2026-10-24T18:57:28.310Z",
   "charts": {
     "AUDIOBOOKS": [
       {
         "title": "Bram Stoker's Dracula",
         "author": "Bram Stoker",
         "narrator": "Jonathan Bailey , Ella Purnell , Aimee Lou Wood , Louis Partridge , David Jonsson , Johnny Flynn , Lesley Manville , Maggie Gyllenhaal",
-        "image": "https://m.media-amazon.com/images/I/51nLhYS-rhL._SL500_.jpg"
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/03/85/a8/0385a8b0-667d-baed-8423-132574f5a40f/9781785752292.png/600x600bb.jpg"
       },
       {
         "title": "The Witch",
@@ -24,7 +24,7 @@
         "title": "A Court of Splintered Harmony",
         "author": "Sarah J. Maas",
         "narrator": "Elizabeth Evans",
-        "image": "https://covers.openlibrary.org/b/id/15253996-L.jpg"
+        "image": "https://m.media-amazon.com/images/I/51WqRCIn0sL._SL500_.jpg"
       },
       {
         "title": "Dungeon Crawler Carl",
@@ -48,13 +48,13 @@
         "title": "Dead in Three Two One",
         "author": "Peter James",
         "narrator": "Daniel Weyman",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b8/38/6b/b8386be1-e948-8ae4-57c0-6b770979a26d/9781529090154.jpg/600x600bb.jpg"
+        "image": "https://m.media-amazon.com/images/I/51urw7a2KKL._SL500_.jpg"
       },
       {
         "title": "Carl's Doomsday Scenario",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://m.media-amazon.com/images/I/51e1PKKdv8L._SL500_.jpg"
+        "image": "https://covers.openlibrary.org/b/id/11702962-L.jpg"
       },
       {
         "title": "The Let Them Theory",
@@ -123,15 +123,15 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-10-24T16:12:11.963Z",
-      "lastSuccessfulRefresh": "2026-10-24T16:12:11.963Z",
+      "checkedAt": "2026-10-24T18:57:28.311Z",
+      "lastSuccessfulRefresh": "2026-10-24T18:57:28.311Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
-      "status": "stale",
-      "checkedAt": "2026-10-24T16:12:20.986Z",
-      "lastSuccessfulRefresh": "2026-10-24T16:03:50.893Z",
-      "reason": "503 https://www.audible.co.uk/charts/best"
+      "status": "healthy",
+      "checkedAt": "2026-10-24T18:57:37.478Z",
+      "lastSuccessfulRefresh": "2026-10-24T18:57:37.478Z",
+      "reason": ""
     }
   }
 }
