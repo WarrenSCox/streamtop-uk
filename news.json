@@ -1,7 +1,16 @@
 {
-  "updated": "2026-10-25T04:28:49.792Z",
+  "updated": "2026-10-25T04:53:53.645Z",
   "categories": {
     "UK": [
+      {
+        "title": "Labour unveils £285m funding boost to 'shift power' to local leaders",
+        "link": "https://news.sky.com/story/labour-unveils-285m-funding-boost-for-local-communities-so-decisions-can-be-made-closer-to-home-13603437",
+        "published": "Sun, 25 Oct 2026 01:37:00 +0000",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/10/1920x1080/skynews-andy-burnham_7386348.jpg?20261025022215"
+      },
       {
         "title": "Andy Burnham says he wants ‘honest discussion’ about freedom of movement with EU",
         "link": "https://www.theguardian.com/politics/2026/oct/25/andy-burnham-says-he-wants-honest-discussion-about-freedom-of-movement-with-eu",
@@ -55,15 +64,6 @@
         "provider": "METRO",
         "categories": "News UK Crime News Sir David Amess",
         "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317952086-f2ff.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Manhunt under way to find prisoner who absconded from medical facility",
-        "link": "https://www.theguardian.com/uk-news/2026/oct/24/manhunt-under-way-to-find-prisoner-who-absconded-from-medical-facility",
-        "published": "Sat, 24 Oct 2026 18:10:15 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "UK news London Metropolitan police",
-        "image": "https://i.guim.co.uk/img/media/a9c3476826064590bedc32b6bd1c78dc17aebdf7/0_83_463_370/master/463.jpg?width=140&quality=85&auto=format&fit=max&s=8182eae835ca74e481fb1295c06536ad"
       },
       {
         "title": "France riots in pictures: Protests of 400,000 descend into anarchy as police fire tear gas",
@@ -187,6 +187,15 @@
     ],
     "POLITICS": [
       {
+        "title": "Labour unveils £285m funding boost to 'shift power' to local leaders",
+        "link": "https://news.sky.com/story/labour-unveils-285m-funding-boost-for-local-communities-so-decisions-can-be-made-closer-to-home-13603437",
+        "published": "Sun, 25 Oct 2026 01:37:00 +0000",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/10/1920x1080/skynews-andy-burnham_7386348.jpg?20261025022215"
+      },
+      {
         "title": "Andy Burnham says he wants ‘honest discussion’ about freedom of movement with EU",
         "link": "https://www.theguardian.com/politics/2026/oct/25/andy-burnham-says-he-wants-honest-discussion-about-freedom-of-movement-with-eu",
         "published": "Sat, 24 Oct 2026 23:07:12 GMT",
@@ -221,15 +230,6 @@
         "provider": "GUARDIAN",
         "categories": "Restaurants Dubai United Arab Emirates Tax and spending Politics London UK news Middle East and north Africa World news Workers' rights",
         "image": "https://i.guim.co.uk/img/media/8169ff71c023a4ac8a94eb1f541f83ce182d7093/118_0_4570_3655/master/4570.jpg?width=140&quality=85&auto=format&fit=max&s=eb0d47220c12f03c8388794e05560d0d"
-      },
-      {
-        "title": "Is London really the most-taxed city? Banks accused of cherrypicking data",
-        "link": "https://www.theguardian.com/uk-news/2026/oct/24/banking-lobby-group-accused-cherry-picking-data-healey-tax-rise",
-        "published": "Sat, 24 Oct 2026 11:00:31 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Budget 2026 Financial sector Tax and spending Banking John Healey Budget Tax London Business UK news Politics",
-        "image": "https://i.guim.co.uk/img/media/bd0a6314e2540f8792bbbc2a44826e497205c994/0_0_5524_4420/master/5524.jpg?width=140&quality=85&auto=format&fit=max&s=b8af8160dddeaae0420d71f3cc5146f5"
       },
       {
         "title": "UK pledges £600m to defend against AI health and security threats",
@@ -600,15 +600,6 @@
         "image": "https://www.twelfthmagpie.com/wp-content/uploads/2023/04/Celebration-1200x675.jpg"
       },
       {
-        "title": "Lloyds shares: next stop 140p? These experts say yes!",
-        "link": "https://www.twelfthmagpie.com/2026/10/24/lloyds-shares-next-stop-140p-these-experts-say-yes/",
-        "published": "Sat, 24 Oct 2026 08:19:33 +0000",
-        "source": "The Twelfth Magpie",
-        "provider": "MAGPIE",
-        "categories": "Investing Articles Value Shares",
-        "image": "https://www.twelfthmagpie.com/wp-content/uploads/2026/06/AdobeStock_349905801-1200x800.jpeg"
-      },
-      {
         "title": "This Stock Faces a Beautiful Future After Completing Its Makeover",
         "link": "https://uk.finance.yahoo.com/m/c656c7c8-c256-3106-87b1-437b26b10d5c/this-stock-faces-a-beautiful.html?.tsrc=rss",
         "published": "Sat, 24 Oct 2026 05:00:00 +0000",
@@ -627,20 +618,29 @@
         "image": ""
       },
       {
-        "title": "3 Reasons to sell NEOG and 1 stock to buy instead",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-sell-neog-1-003239977.html?.tsrc=rss",
-        "published": "Sat, 24 Oct 2026 00:32:39 +0000",
-        "source": "Yahoo Finance",
-        "provider": "YAHOO",
+        "title": "Stocks fall, but tech shares steady after selloff; oil hits highest in nearly six months",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQMG5uTk9BQ2lzbUtHT1k4Nlp4RlRCcXFvVXR5YUhCamhubGQ1SlB0c2FYczVLdl9ESzJBRzdkNmVuYU1ISVc2MndXWnBZTzBDNFdzeHBEQTNPTGU2SGhBTmtKM3Z1SWUxR2szN20yYWIySGIzUXlZcXVhdGNtTlJNMGN1WQ?oc=5",
+        "published": "Fri, 23 Oct 2026 22:52:51 GMT",
+        "source": "Reuters",
+        "provider": "REUTERS",
         "categories": "",
         "image": ""
       },
       {
-        "title": "3 Reasons MTD is risky and 1 stock to buy instead",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-mtd-risky-1-002439993.html?.tsrc=rss",
-        "published": "Sat, 24 Oct 2026 00:24:39 +0000",
-        "source": "Yahoo Finance",
-        "provider": "YAHOO",
+        "title": "Wells Fargo, Intuit latest companies to object to their shares being tokenized, document shows",
+        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPY1IyYVRJX1Vlemd2UTZ5OHpUS2ZYU3A2eHpIel9JOHdrUy1sNG40Mlp6M3h4dDhiZmRnMFR0UU5fSGx0SkdPdTVYU2t4NUxFOW9uZTBEbTNZN1RvZVdfajRXbzRrc2xiVXlZRzNvYVdqWjBtd1NaNjVwVzZnQ1QzVVk3aFhGdk9EWkJZcjdndVlIZXNBd1ZUeWlQVEo0S3NwUzdmOVdmNUxlMnRxSHE2TXA4cm00V29Nc01PVktZbFIzZ2c?oc=5",
+        "published": "Fri, 23 Oct 2026 17:23:26 GMT",
+        "source": "Reuters",
+        "provider": "REUTERS",
+        "categories": "",
+        "image": ""
+      },
+      {
+        "title": "BASF raises Evonik offer to €24 a share, sources say",
+        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNNWgwOXQwV0N5WFlOZDQ3LWRhMElCdXh5MGZMZnpfd0dGS2Z1X0g5MFhVM3czNk1ZdUhrdEEyYzltc0RNQ2xWcmpVcTZmVUVILU9lQ1VDc2FYNDdxVkJOc0QyNXQwZFNydnh3bHl5SXRhY1ZGc0lVSjlVQUZ0b0RXc2NDR3JuWFZSZFFvUU1kN3dLOV9nRXRMTDdGaEdQdktma1hPN3ZscFdwX1JwdHl2aDBJa2JpV2xJdGdB?oc=5",
+        "published": "Fri, 23 Oct 2026 15:59:28 GMT",
+        "source": "Reuters",
+        "provider": "REUTERS",
         "categories": "",
         "image": ""
       }
@@ -719,11 +719,10 @@
         "count": 10,
         "liveProviders": [
           "MAGPIE",
-          "YAHOO"
-        ],
-        "failedProviders": [
+          "YAHOO",
           "REUTERS"
         ],
+        "failedProviders": [],
         "retainedPrevious": 0,
         "sourceHealth": {
           "MAGPIE": {
@@ -731,7 +730,7 @@
             "count": 10,
             "retainedPrevious": 0,
             "errors": [
-              "https://news.google.com/rss/search?q=stocks%20OR%20shares%20OR%20FTSE%20source%3A%22The%20Twelfth%20Magpie%22%20when%3A7d&hl=en-GB&gl=GB&ceid=GB:en: 503 Service Unavailable"
+              "https://news.google.com/rss/search?q=stocks%20OR%20shares%20OR%20FTSE%20source%3A%22The%20Twelfth%20Magpie%22%20when%3A7d&hl=en-GB&gl=GB&ceid=GB:en: no relevant articles"
             ]
           },
           "YAHOO": {
@@ -743,12 +742,11 @@
             ]
           },
           "REUTERS": {
-            "ok": false,
-            "count": 0,
-            "retainedPrevious": 12,
+            "ok": true,
+            "count": 12,
+            "retainedPrevious": 0,
             "errors": [
-              "https://www.reuters.com/arc/outboundfeeds/v3/all/?outputType=xml: 404 Not Found",
-              "https://news.google.com/rss/search?q=stocks%20OR%20shares%20OR%20markets%20source%3AReuters%20when%3A7d&hl=en-GB&gl=GB&ceid=GB:en: 503 Service Unavailable"
+              "https://www.reuters.com/arc/outboundfeeds/v3/all/?outputType=xml: 404 Not Found"
             ]
           }
         }
@@ -776,6 +774,15 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/10/1920x1080/skynews-2024-olympics-paris_7385565.jpg?20261024141942"
+          },
+          {
+            "title": "Labour unveils £285m funding boost to 'shift power' to local leaders",
+            "link": "https://news.sky.com/story/labour-unveils-285m-funding-boost-for-local-communities-so-decisions-can-be-made-closer-to-home-13603437",
+            "published": "Sun, 25 Oct 2026 01:37:00 +0000",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/10/1920x1080/skynews-andy-burnham_7386348.jpg?20261025022215"
           },
           {
             "title": "Man charged with murder after body found in wheelie bin",
@@ -830,15 +837,6 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/10/1920x1080/skynews-vincent-kompany-bayern-munich_7384916.jpg?20261023191749"
-          },
-          {
-            "title": "What is in the Be Ready checklist as Britons urged to stock up for emergencies?",
-            "link": "https://news.sky.com/story/what-is-in-the-be-ready-checklist-as-britons-urged-to-stock-up-to-survive-potential-cyber-or-climate-emergencies-13602659",
-            "published": "Fri, 23 Oct 2026 12:33:00 +0100",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/10/1920x1080/skynews-emergency-backpack_7384659.jpg?20261023142923"
           }
         ],
         "WORLD": [
@@ -907,6 +905,15 @@
           }
         ],
         "POLITICS": [
+          {
+            "title": "Labour unveils £285m funding boost to 'shift power' to local leaders",
+            "link": "https://news.sky.com/story/labour-unveils-285m-funding-boost-for-local-communities-so-decisions-can-be-made-closer-to-home-13603437",
+            "published": "Sun, 25 Oct 2026 01:37:00 +0000",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/10/1920x1080/skynews-andy-burnham_7386348.jpg?20261025022215"
+          },
           {
             "title": "UK pledges £600m to defend against AI health and security threats",
             "link": "https://news.sky.com/story/uk-pledges-to-spend-600m-to-defend-against-ai-health-and-security-threats-13602935",
@@ -1277,7 +1284,7 @@
         },
         "POLITICS": {
           "ok": true,
-          "count": 9
+          "count": 10
         },
         "BUSINESS": {
           "ok": true,
@@ -3682,6 +3689,15 @@
         ],
         "STOCKS": [
           {
+            "title": "Stocks fall, but tech shares steady after selloff; oil hits highest in nearly six months",
+            "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQMG5uTk9BQ2lzbUtHT1k4Nlp4RlRCcXFvVXR5YUhCamhubGQ1SlB0c2FYczVLdl9ESzJBRzdkNmVuYU1ISVc2MndXWnBZTzBDNFdzeHBEQTNPTGU2SGhBTmtKM3Z1SWUxR2szN20yYWIySGIzUXlZcXVhdGNtTlJNMGN1WQ?oc=5",
+            "published": "Fri, 23 Oct 2026 22:52:51 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
             "title": "Wells Fargo, Intuit latest companies to object to their shares being tokenized, document shows",
             "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPY1IyYVRJX1Vlemd2UTZ5OHpUS2ZYU3A2eHpIel9JOHdrUy1sNG40Mlp6M3h4dDhiZmRnMFR0UU5fSGx0SkdPdTVYU2t4NUxFOW9uZTBEbTNZN1RvZVdfajRXbzRrc2xiVXlZRzNvYVdqWjBtd1NaNjVwVzZnQ1QzVVk3aFhGdk9EWkJZcjdndVlIZXNBd1ZUeWlQVEo0S3NwUzdmOVdmNUxlMnRxSHE2TXA4cm00V29Nc01PVktZbFIzZ2c?oc=5",
             "published": "Fri, 23 Oct 2026 17:23:26 GMT",
@@ -3702,7 +3718,7 @@
           {
             "title": "Ambani's Jio becomes most subscribed Indian IPO with $77 billion in bids",
             "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVnRMTFMtTUhERkVlZG4zSVcxcm54ODQ5SXo5NGMxNmVZM2RSbjdqTko3NzB4Q053b09iMEJiX3dRd3Rpem9RQ2pDa1dVMFFOZG54WjhLMkdSbHpyQnF6OXpQbDhBd0ExQ0QyRFNXRm93Q0dfUEdCSllQdTBrUVNzRFUzTWc1OVZva3F0YkVDLUdyeEZvNFh1S1VhNVdMZjFDbVVFTDZPUk9MQVVMTEN1ZmRiX3BjaEJDNi00OWlLNDY?oc=5",
-            "published": "Fri, 23 Oct 2026 06:28:00 GMT",
+            "published": "Fri, 23 Oct 2026 15:31:04 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3712,15 +3728,6 @@
             "title": "Eni boosts payout after profit doubles, shares near 20-year highs",
             "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOeFlVdjZzZm5kM3B0d08tTWtCeHFQZWNob2ZWakdtUG9DR0RUR1RsNWtEX3hza1cyZlp2bTc5dHhWVXdoUXhwTzZJdXZsVTVCcDNxdWR6QWs3WThYMGpja2x6aHp2MmVIQzhscW5rX1RGTVNHTkZnaEpsSkN4TllrbktkaUN4VXhXSFNPd2VDVmpma2ZocjN2R2k0MWtUcDFNYjdyM3lFS1Q2X2FkSk5CVERaWnF0RmlNUGpVWEVTV1E5QQ?oc=5",
             "published": "Fri, 23 Oct 2026 05:42:00 GMT",
-            "source": "Reuters",
-            "provider": "REUTERS",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "Stocks fall, but tech shares steady after selloff; oil hits highest in nearly six months",
-            "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQMG5uTk9BQ2lzbUtHT1k4Nlp4RlRCcXFvVXR5YUhCamhubGQ1SlB0c2FYczVLdl9ESzJBRzdkNmVuYU1ISVc2MndXWnBZTzBDNFdzeHBEQTNPTGU2SGhBTmtKM3Z1SWUxR2szN20yYWIySGIzUXlZcXVhdGNtTlJNMGN1WQ?oc=5",
-            "published": "Fri, 23 Oct 2026 01:50:00 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3745,9 +3752,9 @@
             "image": ""
           },
           {
-            "title": "Meta shares slide, default insurance hits record as AI spending alarms investors",
-            "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdnFibXQ2bEZfUWFpTEoxYTNPQ3dHTlMwMjZRaFcxZlphTlplUlNFWkgta2xwdVBvU0l5OWNkMEctQmNrM2s1UDRpSW5jNFhpLW9TQUlzYlpmZFZudjhvM0RtcC1hQ24xSmVOMDYwbUIzNDQ3NlAwTEpILTc4akh1czlRcThIUnU3Y2VkbWJJWE9jdXJzbWtzclVfeUh5RzN6UzdaTlZjRWlMQQ?oc=5",
-            "published": "Thu, 22 Oct 2026 17:21:56 GMT",
+            "title": "Nigeria bourse CEO says Dangote refinery IPO to widen investor base",
+            "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPUlRPZUlCUTlYR3VZV1FIRmxNQU1xVmtfVjNiTVplcVQtT0dQQ1pnTDgwbFdhMUVVaTN6YVF0UGlCTDRZS2xVb29tajVGTHZiY0hYTjdGWENNU3BoeWVVWTNxV1B2VG1ieFZsYl9IT1ZUVjA5bVBmVk1hd1hqdzFsaUZnaWdtVXVMZGZ1ZzAzRWVDeWVvb1c3VExuX0FiNURpR2VKME1mSW9SMTFuY0tCOTVzWQ?oc=5",
+            "published": "Thu, 22 Oct 2026 13:24:56 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3772,18 +3779,18 @@
             "image": ""
           },
           {
-            "title": "Investors flood to Jio IPO on day one of India's largest offering",
-            "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxON1VVUmNkZDI5QkFtVV8zeWNRdWY2YkRtQXVPSHlNUnFwY3BhRTBYcU9uOXVKMmljOE05N1dLSUxkTm9PUjBmSXhhNHFTZ000cUgyNlpVMG1ia1diRlJ6WXFuN091VktQX3hJMjl3QUJCRy1yeGtzSDY5bm1FSHNydzRtbUZzcUY5amhobDM2eXBfZXIydUwyZDBJSElseDFDX1VIWjdB?oc=5",
-            "published": "Wed, 21 Oct 2026 14:57:29 GMT",
+            "title": "Europe's earnings boom widens beyond energy and AI",
+            "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQ1JyMkRkWjBlbnZpSlhVTEZHczJ5UFpPdGJXWTdUQnhMSjM1cGNldnhlWWRJLUtNOEVtekMwUzU0bW40S0ZRYW1BbUV0UnB6bHI2NF80VGwyU1ZQbG1nTGhMRFlhYWNMUEN6azBIc1ZmajRQaFdXRTBDWUkzWXRpNnlBbk5weXVWTmdXUzFGTFhHTVhoVm96eWYwNHdWaFE?oc=5",
+            "published": "Wed, 21 Oct 2026 06:38:46 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
             "image": ""
           },
           {
-            "title": "Europe's earnings boom widens beyond energy and AI",
-            "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQ1JyMkRkWjBlbnZpSlhVTEZHczJ5UFpPdGJXWTdUQnhMSjM1cGNldnhlWWRJLUtNOEVtekMwUzU0bW40S0ZRYW1BbUV0UnB6bHI2NF80VGwyU1ZQbG1nTGhMRFlhYWNMUEN6azBIc1ZmajRQaFdXRTBDWUkzWXRpNnlBbk5weXVWTmdXUzFGTFhHTVhoVm96eWYwNHdWaFE?oc=5",
-            "published": "Wed, 21 Oct 2026 06:38:46 GMT",
+            "title": "Stocks mostly rise as oil, US yields ease; French stocks fall",
+            "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPaHdteV9meHVjc2dvbmd1WjNPa1FHR2lwTFlEcmJPWE5zZnhHSFNjQndCeHptVW1NaEpsbms3QS1oSHRiTmZyUVp2ZVR0SlMwT1kxVnM2UFdyenVSblJHVW4ySjA3aTFUcGxvbV9iaHZZMzJVZTRQV1ZtM3BZMVd4RHFsaw?oc=5",
+            "published": "Tue, 20 Oct 2026 21:24:52 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3799,12 +3806,11 @@
           "errors": []
         },
         "STOCKS": {
-          "ok": false,
-          "count": 0,
-          "retainedPrevious": 12,
+          "ok": true,
+          "count": 12,
+          "retainedPrevious": 0,
           "errors": [
-            "https://www.reuters.com/arc/outboundfeeds/v3/all/?outputType=xml: 404 Not Found",
-            "https://news.google.com/rss/search?q=stocks%20OR%20shares%20OR%20markets%20source%3AReuters%20when%3A7d&hl=en-GB&gl=GB&ceid=GB:en: 503 Service Unavailable"
+            "https://www.reuters.com/arc/outboundfeeds/v3/all/?outputType=xml: 404 Not Found"
           ]
         }
       }
@@ -3910,11 +3916,11 @@
           "count": 10,
           "retainedPrevious": 0,
           "errors": [
-            "https://news.google.com/rss/search?q=stocks%20OR%20shares%20OR%20FTSE%20source%3A%22The%20Twelfth%20Magpie%22%20when%3A7d&hl=en-GB&gl=GB&ceid=GB:en: 503 Service Unavailable"
+            "https://news.google.com/rss/search?q=stocks%20OR%20shares%20OR%20FTSE%20source%3A%22The%20Twelfth%20Magpie%22%20when%3A7d&hl=en-GB&gl=GB&ceid=GB:en: no relevant articles"
           ]
         }
       }
     }
   },
-  "stocksUpdated": "2026-10-25T04:29:10.403Z"
+  "stocksUpdated": "2026-10-25T04:54:00.188Z"
 }
