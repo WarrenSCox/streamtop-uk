@@ -1,42 +1,69 @@
 {
-  "updated": "2026-10-25T17:36:03.859Z",
+  "updated": "2026-10-25T19:55:27.983Z",
   "categories": {
     "UK": [
       {
+        "title": "Has Healey’s military-style budget secrecy really played out so differently to past budgets?",
+        "link": "https://www.theguardian.com/uk-news/2026/oct/25/john-healey-chancellor-budget-secrecy",
+        "published": "Sun, 25 Oct 2026 19:35:17 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Budget 2026 John Healey Tax and spending Banks and building societies Energy bills Defence policy Ministry of Defence Media UK news Politics Budget Economic policy",
+        "image": "https://i.guim.co.uk/img/media/2a9b44b5ca337bd9d24374e143472f7f2753add3/0_0_1921_1536/master/1921.jpg?width=140&quality=85&auto=format&fit=max&s=7dfc3d3610c0c2d5bc974598ab2ce672"
+      },
+      {
+        "title": "Four-year-old girl dies after falling from east London tower block",
+        "link": "https://www.theguardian.com/uk-news/2026/oct/25/four-year-old-girl-dies-after-falling-from-east-london-tower-block",
+        "published": "Sun, 25 Oct 2026 19:25:47 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "London UK news",
+        "image": "https://i.guim.co.uk/img/media/6b15c2ea4062ecb92c00622eaf9049a1ea0c8f82/583_0_2917_2333/master/2917.jpg?width=140&quality=85&auto=format&fit=max&s=84eb13244ede84548b77618c6aff69c0"
+      },
+      {
+        "title": "Female rapper ‘Bandit’ charged after police officer shot in foot in Nottingham",
+        "link": "https://metro.co.uk/2026/10/25/female-rapper-bandit-charged-police-officer-shot-foot-nottingham-29738380/",
+        "published": "Sun, 25 Oct 2026 19:25:12 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News UK Crime News Nottinghamshire",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317185663-8e2e.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Pensioner and labrador ‘he loved more than life itself’ both killed in bus crash",
+        "link": "https://metro.co.uk/2026/10/25/pensioner-labrador-he-loved-life-itself-killed-bus-crash-29738501/",
+        "published": "Sun, 25 Oct 2026 19:19:40 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News UK Bristol Crash",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317989580-7a5b.jpg?quality=90&strip=all&w=646"
+      },
+      {
         "title": "One dead and 82,000 properties without power as Storm Boelo batters UK",
         "link": "https://www.theguardian.com/uk-news/2026/oct/25/storm-boelo-warnings-scotland-northern-ireland-north-of-england-high-winds-uk",
-        "published": "Sun, 25 Oct 2026 17:10:11 GMT",
+        "published": "Sun, 25 Oct 2026 18:38:44 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
         "categories": "UK weather UK news Scotland Northern Ireland North of England England",
         "image": "https://i.guim.co.uk/img/media/e8efd7482c8993822a97f1bc577830eb113b2f43/852_0_4578_3663/master/4578.jpg?width=140&quality=85&auto=format&fit=max&s=0f8b1c38c26840e704e7f49b596a5faf"
       },
       {
-        "title": "Girl, 10, rushed to hospital with stomach pains finds out she’s six months pregnant",
-        "link": "https://metro.co.uk/2026/10/25/girl-10-rushed-hospital-stomach-pains-finds-six-months-pregnant-29738147/",
-        "published": "Sun, 25 Oct 2026 17:04:24 +0000",
+        "title": "Man killed after armed gang of four target him in ‘sustained’ attack",
+        "link": "https://metro.co.uk/2026/10/25/man-killed-armed-gang-four-target-sustained-attack-29738292/",
+        "published": "Sun, 25 Oct 2026 18:34:47 +0000",
         "source": "Metro",
         "provider": "METRO",
-        "categories": "News World Argentina Sexual harassment",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_318175247-486e-e1792945644864.jpg?quality=90&strip=all&w=646"
+        "categories": "News UK Crime News Leeds Murder West Yorkshire Police",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/GettyImages-1439139959-1f2a.jpg?quality=90&strip=all&w=646"
       },
       {
-        "title": "Driver, in 20s, becomes Storm Boelo’s second victim after tree crushes car in London",
-        "link": "https://metro.co.uk/2026/10/25/man-60s-killed-falling-tree-storm-boelo-turns-deadly-29738280/",
-        "published": "Sun, 25 Oct 2026 16:27:24 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News UK Death Scotland Storms UK weather Weather",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_318126226-8824.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Daring rescuers save bears from rusting cages in Russia for life in Irish forest",
-        "link": "https://metro.co.uk/2026/10/25/rescuers-save-bears-cages-russia-life-irish-forest-29737691/",
-        "published": "Sun, 25 Oct 2026 16:00:55 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News World Animals Republic of Ireland Russia",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_318161301-97bd.jpg?quality=90&strip=all&w=646"
+        "title": "Two-day manhunt for escaped prisoner who is 'a risk to the public'",
+        "link": "https://news.sky.com/story/two-day-manhunt-for-escaped-prisoner-who-is-a-risk-to-himself-and-the-public-13603674",
+        "published": "Sun, 25 Oct 2026 16:40:00 +0000",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/10/1920x1080/skynews-anthony-lloyd-met-police_7386926.jpg?20261025164244"
       },
       {
         "title": "All aboard the TrainTok trend: spotters and staff boost rail content online",
@@ -46,24 +73,6 @@
         "provider": "GUARDIAN",
         "categories": "TikTok Social media Rail transport Transport UK news",
         "image": "https://i.guim.co.uk/img/media/e4484e0f573e41115dba16dd437a0af7e0045245/0_481_901_720/master/901.jpg?width=140&quality=85&auto=format&fit=max&s=0a1e767e7ee57ec62704f45f61f34c0b"
-      },
-      {
-        "title": "Rayner backs Burnham call for debate on return to free movement with EU",
-        "link": "https://www.theguardian.com/politics/2026/oct/25/burnham-rayner-labour-eu-free-movement-brexit",
-        "published": "Sun, 25 Oct 2026 13:31:05 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Labour Andy Burnham Angela Rayner Stella Creasy Shabana Mahmood Foreign policy Brexit Politics UK news European Union",
-        "image": "https://i.guim.co.uk/img/media/bde04cf97a3ddf798e20b45db767cc0d3ecb0133/523_0_3866_3093/master/3866.jpg?width=140&quality=85&auto=format&fit=max&s=050d61324caeda5cdb0b88e701c63a7c"
-      },
-      {
-        "title": "Ethnic minorities in England less likely to get breast cancer diagnosis from routine screening",
-        "link": "https://www.theguardian.com/society/2026/oct/25/ethnic-minorities-england-breast-cancer-screening-disparity",
-        "published": "Sun, 25 Oct 2026 13:28:23 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Breast cancer Inequality Health Race Poverty NHS England UK news Cancer Cancer research Women's health",
-        "image": "https://i.guim.co.uk/img/media/60d6a9893f1bf7c680d0be6c150d407b8ade047e/428_0_4248_3400/master/4248.jpg?width=140&quality=85&auto=format&fit=max&s=f14cfcf36e870ee76687b04432620cfd"
       },
       {
         "title": "PM open to 'honest discussion' about return to EU free movement",
@@ -82,18 +91,27 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/10/1920x1080/skynews-andy-burnham_7386348.jpg?20261025022215"
-      },
-      {
-        "title": "Power surge at major UK airport delays hundreds of flights",
-        "link": "https://news.sky.com/story/power-surge-at-major-uk-airport-causes-delays-to-hundreds-of-flights-13603382",
-        "published": "Sat, 24 Oct 2026 21:03:00 +0100",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/08/1920x1080/skynews-stansted-airport_7314577.jpg?20260805134748"
       }
     ],
     "WORLD": [
+      {
+        "title": "Brazil election 2026: Live second round results",
+        "link": "https://www.theguardian.com/world/ng-interactive/2026/oct/25/brazil-election-2026-live-second-round-results",
+        "published": "Sun, 25 Oct 2026 19:37:49 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Brazil Americas World news Flávio Bolsonaro Luiz Inácio Lula da Silva",
+        "image": "https://i.guim.co.uk/img/media/27cf0f75664744a7e5011e058a7d77262fc7dc20/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=657fa14bf4844c04521b15b9e9c0200c"
+      },
+      {
+        "title": "Talks between Ukraine, Russia and US to be held next month",
+        "link": "https://news.sky.com/story/meeting-between-ukraine-russia-and-us-to-be-held-next-month-zelenskyy-says-13603718",
+        "published": "Sun, 25 Oct 2026 18:09:00 +0000",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/10/1920x1080/skynews-zelenskyy-ukraine_7387115.jpg?20261025192802"
+      },
       {
         "title": "Exiled opposition leader María Corina Machado returns to Venezuela",
         "link": "https://www.theguardian.com/world/2026/oct/25/exiled-venezuelan-opposition-leader-maria-corina-machado-announces-her-return",
@@ -102,6 +120,15 @@
         "provider": "GUARDIAN",
         "categories": "Venezuela María Corina Machado Americas World news Delcy Rodríguez US foreign policy Nicolás Maduro Trump administration",
         "image": "https://i.guim.co.uk/img/media/dfaa07b032c9a809392cea909471f429672eb20d/255_0_5997_4796/master/5997.jpg?width=140&quality=85&auto=format&fit=max&s=29c2aa871430985f6141839237510e82"
+      },
+      {
+        "title": "Exiled opposition leader announces shock return to Venezuela",
+        "link": "https://news.sky.com/story/exiled-venezuelan-opposition-leader-announces-shock-return-to-the-country-13603692",
+        "published": "Sun, 25 Oct 2026 17:03:00 +0000",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/10/1920x1080/skynews-machado-venezuela_7386973.jpg?20261025173140"
       },
       {
         "title": "Daring rescuers save bears from rusting cages in Russia for life in Irish forest",
@@ -140,24 +167,6 @@
         "image": "https://i.guim.co.uk/img/media/a6c636b5b687abb683c4882cb841ffe9962b380f/725_0_4101_3280/master/4101.jpg?width=140&quality=85&auto=format&fit=max&s=a15be8942f30449abe4a5d96ddced368"
       },
       {
-        "title": "Burnham says he won’t rule out return to freedom of movement in EU talks",
-        "link": "https://metro.co.uk/2026/10/25/burnham-says-wont-rule-return-free-movement-eu-talks-29737541/",
-        "published": "Sun, 25 Oct 2026 13:29:52 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News Politics Andy Burnham Brexit British Government European Union Labour Party",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316579534-41aa.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Signs suggest Thomas Markle Sr may be ‘sex offender of the grossest kind’, says Philippine minister",
-        "link": "https://www.theguardian.com/uk-news/2026/oct/25/thomas-markle-sr-philippines-investigation",
-        "published": "Sun, 25 Oct 2026 11:52:45 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Meghan, the Duchess of Sussex Monarchy UK news Philippines Asia Pacific World news",
-        "image": "https://i.guim.co.uk/img/media/33215d4db9f8f71824e313272b8523a971becfd8/362_0_1223_978/master/1223.jpg?width=140&quality=85&auto=format&fit=max&s=271dc2d9a7b980e62ac3e87270bf92f4"
-      },
-      {
         "title": "Bus and lorry collide killing 22, including passengers returning from funeral",
         "link": "https://news.sky.com/story/bus-and-lorry-collide-in-kenya-killling-22-including-passengers-returning-from-funeral-13603491",
         "published": "Sun, 25 Oct 2026 09:41:00 +0000",
@@ -167,25 +176,25 @@
         "image": "https://e3.365dm.com/26/10/1920x1080/skynews-bus-kenya-bus-crash_7386643.jpg?20261025140424"
       },
       {
-        "title": "Student protesters aim for electoral victory over Serbia's long-serving leader",
-        "link": "https://news.sky.com/story/student-protest-movement-aims-to-defeat-ex-serbian-leader-in-parliamentary-election-13603462",
-        "published": "Sun, 25 Oct 2026 07:46:00 +0000",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/10/1920x1080/skynews-aleksandar-vucic-serbian-progressive-party_7386617.jpg?20261025132424"
-      },
-      {
-        "title": "Brazilians head to the polls with left-winger and son of Trump ally neck and neck",
-        "link": "https://news.sky.com/story/brazilians-go-to-polls-today-with-luiz-inacio-lula-da-silva-and-flavio-bolsonaro-neck-and-neck-13603442",
-        "published": "Sun, 25 Oct 2026 01:11:00 +0000",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/10/1920x1080/skynews-luiz-inacio-lula-da-silva_7386779.jpg?20261025153049"
+        "title": "France riots in pictures: Protests of 400,000 descend into anarchy as police fire tear gas",
+        "link": "https://metro.co.uk/2026/10/24/france-riots-pictures-protests-400-000-descend-anarchy-police-fire-tear-gas-29736891/",
+        "published": "Sat, 24 Oct 2026 18:08:36 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News World Emmanuel Macron France Paris",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_318007953-8443.jpg?quality=90&strip=all&w=646"
       }
     ],
     "POLITICS": [
+      {
+        "title": "Has Healey’s military-style budget secrecy really played out so differently to past budgets?",
+        "link": "https://www.theguardian.com/uk-news/2026/oct/25/john-healey-chancellor-budget-secrecy",
+        "published": "Sun, 25 Oct 2026 19:35:17 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Budget 2026 John Healey Tax and spending Banks and building societies Energy bills Defence policy Ministry of Defence Media UK news Politics Budget Economic policy",
+        "image": "https://i.guim.co.uk/img/media/2a9b44b5ca337bd9d24374e143472f7f2753add3/0_0_1921_1536/master/1921.jpg?width=140&quality=85&auto=format&fit=max&s=7dfc3d3610c0c2d5bc974598ab2ce672"
+      },
       {
         "title": "The Guardian view on Oxford Street’s pedestrianisation: cities should be designed around people, not cars | Editorial",
         "link": "https://www.theguardian.com/commentisfree/2026/oct/25/the-guardian-view-on-oxford-streets-pedestrianisation-cities-should-be-designed-around-people-not-cars",
@@ -230,15 +239,6 @@
         "provider": "GUARDIAN",
         "categories": "Economics Regulators Business Economic policy Privatisation John Healey Labour Politics UK news",
         "image": "https://i.guim.co.uk/img/media/67f8e84a93010519e06f6ab2c4a40198b9536308/198_0_1920_1536/master/1920.jpg?width=140&quality=85&auto=format&fit=max&s=7f33f8c97df913b68281bf107423863c"
-      },
-      {
-        "title": "Former Tory candidate suspended over contract killer claims was adviser in Kemi Badenoch’s office",
-        "link": "https://www.theguardian.com/politics/2026/oct/25/former-tory-candidate-suspended-over-contract-killer-claims-was-adviser-in-kemi-badenoch-office-jack-ross",
-        "published": "Sun, 25 Oct 2026 13:00:03 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Conservatives Kemi Badenoch Politics UK news The far right",
-        "image": "https://i.guim.co.uk/img/media/d7c6c678fc8a6629030e48cfc483b2a5757c7b0b/998_0_5013_4013/master/5013.jpg?width=140&quality=85&auto=format&fit=max&s=cc51ec03785a1a04a2e1539588cc25db"
       },
       {
         "title": "PM open to 'honest discussion' about return to EU free movement",
@@ -371,6 +371,15 @@
     ],
     "TECH": [
       {
+        "title": "Anthropic sued for allegedly using 274 Elvis Presley songs to train AI models",
+        "link": "https://www.theguardian.com/us-news/2026/oct/25/elvis-presley-anthropic-lawsuit-ai-models-music",
+        "published": "Sun, 25 Oct 2026 18:25:59 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "US news Elvis Presley Anthropic Law (US) AI (artificial intelligence) Music Pop and rock Culture Technology World news Computing",
+        "image": "https://i.guim.co.uk/img/media/84aa6ec87e3e6db19123ab53bff1786594581607/0_358_2832_2265/master/2832.jpg?width=140&quality=85&auto=format&fit=max&s=b314d5ff58cb339d8ba3616e98aa3000"
+      },
+      {
         "title": "Neighbours is being recut into a microdrama focused on Margot Robbie – and her co-stars aren’t happy",
         "link": "https://www.theguardian.com/tv-and-radio/2026/oct/26/neighbours-soap-recut-ai-microdrama-mobile-series-feat-margot-robbie",
         "published": "Sun, 25 Oct 2026 14:00:06 GMT",
@@ -416,15 +425,6 @@
         "image": "https://e3.365dm.com/26/10/1920x1080/skynews-volodymyr-zelenskyy_7385610.jpg?20261024144157"
       },
       {
-        "title": "The datacentre next door: on the frontline of tech’s latest David v Goliath battle",
-        "link": "https://www.theguardian.com/technology/2026/oct/24/the-datacentre-next-door-on-the-frontline-of-techs-latest-david-v-goliath-battle",
-        "published": "Sat, 24 Oct 2026 11:00:32 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "AI (artificial intelligence) Big data Technology Life and style Wales",
-        "image": "https://i.guim.co.uk/img/media/0373ee73af80c68fd75a9ab321de66de4801ad27/865_0_5902_4724/master/5902.jpg?width=140&quality=85&auto=format&fit=max&s=5f523b9df1901844cac4ef7d3a723b2b"
-      },
-      {
         "title": "UK pledges £600m to defend against AI health and security threats",
         "link": "https://news.sky.com/story/uk-pledges-to-spend-600m-to-defend-against-ai-health-and-security-threats-13602935",
         "published": "Sat, 24 Oct 2026 03:49:00 +0100",
@@ -463,6 +463,24 @@
     ],
     "ENTERTAINMENT": [
       {
+        "title": "JoJo Siwa and Chris Hughes secretly pick out the exact same engagement ring",
+        "link": "https://metro.co.uk/2026/10/25/jojo-siwa-chris-hughes-secretly-pick-exact-engagement-ring-29738371/",
+        "published": "Sun, 25 Oct 2026 19:07:21 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Entertainment Showbiz Celebrity Big Brother Chris Hughes JoJo Siwa",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317855440-859c.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Celebrity Traitors star forced to ‘ask BBC staff to buy him extra pairs of pants’",
+        "link": "https://metro.co.uk/2026/10/25/celebrity-traitors-star-forced-ask-bbc-staff-buy-extra-pairs-pants-29738300/",
+        "published": "Sun, 25 Oct 2026 17:45:46 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Entertainment TV BBC Celebrity Traitors James Blunt",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_314721494-b439-e1790857503318.jpg?quality=90&strip=all&w=646"
+      },
+      {
         "title": "Dominic Cooper on adultery: ‘Everyone gets tempted by something different’",
         "link": "https://metro.co.uk/2026/10/25/dominic-cooper-adultery-everyone-gets-tempted-something-different-29734644/",
         "published": "Sun, 25 Oct 2026 17:00:00 +0000",
@@ -481,15 +499,6 @@
         "image": "https://metro.co.uk/wp-content/uploads/2026/10/comp-1792943770.png?w=646"
       },
       {
-        "title": "Celebrity Traitors theory predicts Traitors have unintentionally doomed themselves with latest mission",
-        "link": "https://metro.co.uk/2026/10/25/celebrity-traitors-theory-predicts-traitors-unintentionally-doomed-29737801/",
-        "published": "Sun, 25 Oct 2026 14:39:58 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Entertainment TV Celebrity Traitors James Acaster King Kenny Maya Jama",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_318157380-1f48.jpg?quality=90&strip=all&w=646"
-      },
-      {
         "title": "‘There’s nothing interesting about me – and no interest in me’: how Larry David’s new biography nearly didn’t happen",
         "link": "https://www.theguardian.com/tv-and-radio/2026/oct/25/theres-nothing-interesting-about-me-and-no-interest-in-me-how-larry-davids-new-biography-nearly-didnt-happen",
         "published": "Sun, 25 Oct 2026 14:00:04 GMT",
@@ -497,15 +506,6 @@
         "provider": "GUARDIAN",
         "categories": "Television Larry David Curb Your Enthusiasm Seinfeld Jerry Seinfeld Culture Television & radio US television Biography books TV comedy Comedy Books TV and radio books",
         "image": "https://i.guim.co.uk/img/media/797c4c06bd1796d5769a2f6272db9c2f944acc33/219_0_2563_2051/master/2563.jpg?width=140&quality=85&auto=format&fit=max&s=4d8f14368d0182ca54836b3b9491976e"
-      },
-      {
-        "title": "Eamonn Holmes’ girlfriend sent death threats after ‘two years of hell’",
-        "link": "https://metro.co.uk/2026/10/25/eamonn-holmes-girlfriend-sent-death-threats-two-years-hell-29737615/",
-        "published": "Sun, 25 Oct 2026 13:17:24 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Entertainment TV Eamonn Holmes Ruth Langsford",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_292745940-e1791189051433.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "Stephen Fry: ‘Sherlock Holmes altered the course of my whole life’",
@@ -777,6 +777,15 @@
             "image": "https://e3.365dm.com/26/08/1920x1080/skynews-stansted-airport_7314577.jpg?20260805134748"
           },
           {
+            "title": "Two-day manhunt for escaped prisoner who is 'a risk to the public'",
+            "link": "https://news.sky.com/story/two-day-manhunt-for-escaped-prisoner-who-is-a-risk-to-himself-and-the-public-13603674",
+            "published": "Sun, 25 Oct 2026 16:40:00 +0000",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/10/1920x1080/skynews-anthony-lloyd-met-police_7386926.jpg?20261025164244"
+          },
+          {
             "title": "PM open to 'honest discussion' about return to EU free movement",
             "link": "https://news.sky.com/story/pm-open-to-honest-discussion-about-return-to-free-movement-with-eu-13603444",
             "published": "Sun, 25 Oct 2026 04:47:00 +0000",
@@ -829,27 +838,18 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/24/04/1920x1080/skynews-treasury-spending_6530389.jpg?20240423071047"
-          },
-          {
-            "title": "Why Trump told Burnham the UK is going to be 'very rich'",
-            "link": "https://news.sky.com/story/donald-trump-tells-andy-burnham-the-uk-will-become-very-rich-by-drilling-in-the-north-sea-13602842",
-            "published": "Fri, 23 Oct 2026 20:10:00 +0100",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/10/1920x1080/skynews-donald-trump-andy-burnham_7384969.jpg?20261023201042"
-          },
-          {
-            "title": "UK pledges £600m to defend against AI health and security threats",
-            "link": "https://news.sky.com/story/uk-pledges-to-spend-600m-to-defend-against-ai-health-and-security-threats-13602935",
-            "published": "Sat, 24 Oct 2026 03:49:00 +0100",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/10/1920x1080/skynews-ai-generic_7385212.jpg?20261024035917"
           }
         ],
         "WORLD": [
+          {
+            "title": "Exiled opposition leader announces shock return to Venezuela",
+            "link": "https://news.sky.com/story/exiled-venezuelan-opposition-leader-announces-shock-return-to-the-country-13603692",
+            "published": "Sun, 25 Oct 2026 17:03:00 +0000",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/10/1920x1080/skynews-machado-venezuela_7386973.jpg?20261025173140"
+          },
           {
             "title": "Brazilians head to the polls with left-winger and son of Trump ally neck and neck",
             "link": "https://news.sky.com/story/brazilians-go-to-polls-today-with-luiz-inacio-lula-da-silva-and-flavio-bolsonaro-neck-and-neck-13603442",
@@ -878,6 +878,15 @@
             "image": "https://e3.365dm.com/26/10/1920x1080/skynews-aleksandar-vucic-serbian-progressive-party_7386617.jpg?20261025132424"
           },
           {
+            "title": "Talks between Ukraine, Russia and US to be held next month",
+            "link": "https://news.sky.com/story/meeting-between-ukraine-russia-and-us-to-be-held-next-month-zelenskyy-says-13603718",
+            "published": "Sun, 25 Oct 2026 18:09:00 +0000",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/10/1920x1080/skynews-zelenskyy-ukraine_7387115.jpg?20261025192802"
+          },
+          {
             "title": "British and French paratroopers take part in major wargame in Germany",
             "link": "https://news.sky.com/story/british-and-french-paratroopers-take-part-in-major-wargame-in-germany-13603116",
             "published": "Sat, 24 Oct 2026 15:07:00 +0100",
@@ -903,15 +912,6 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/10/1920x1080/skynews-vincent-kompany-bayern-munich_7384916.jpg?20261023191749"
-          },
-          {
-            "title": "Bahamas police investigate after British woman dies trying to rescue sons",
-            "link": "https://news.sky.com/story/bahamas-police-investigate-after-british-woman-dies-trying-to-rescue-sons-13602998",
-            "published": "Sat, 24 Oct 2026 10:25:00 +0100",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/10/1920x1080/skynews-bimini-bahamas_7385390.jpg?20261024105247"
           }
         ],
         "POLITICS": [
@@ -1286,11 +1286,11 @@
       "health": {
         "UK": {
           "ok": true,
-          "count": 10
+          "count": 9
         },
         "WORLD": {
           "ok": true,
-          "count": 7
+          "count": 8
         },
         "POLITICS": {
           "ok": true,
@@ -1314,9 +1314,18 @@
       "categories": {
         "UK": [
           {
+            "title": "Four-year-old girl dies after falling from east London tower block",
+            "link": "https://www.theguardian.com/uk-news/2026/oct/25/four-year-old-girl-dies-after-falling-from-east-london-tower-block",
+            "published": "Sun, 25 Oct 2026 19:25:47 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "London UK news",
+            "image": "https://i.guim.co.uk/img/media/6b15c2ea4062ecb92c00622eaf9049a1ea0c8f82/583_0_2917_2333/master/2917.jpg?width=140&quality=85&auto=format&fit=max&s=84eb13244ede84548b77618c6aff69c0"
+          },
+          {
             "title": "One dead and 82,000 properties without power as Storm Boelo batters UK",
             "link": "https://www.theguardian.com/uk-news/2026/oct/25/storm-boelo-warnings-scotland-northern-ireland-north-of-england-high-winds-uk",
-            "published": "Sun, 25 Oct 2026 17:10:11 GMT",
+            "published": "Sun, 25 Oct 2026 18:38:44 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
             "categories": "UK weather UK news Scotland Northern Ireland North of England England",
@@ -1386,15 +1395,6 @@
             "image": "https://i.guim.co.uk/img/media/41857771d6b7e99a163e8d99af363e9bbd9ff452/628_0_5398_4319/master/5398.jpg?width=140&quality=85&auto=format&fit=max&s=a34de22a6fc8eb64f7c50512288c1ab0"
           },
           {
-            "title": "Bust companies revived in ‘phoenix’ deals more likely to fail again, study finds",
-            "link": "https://www.theguardian.com/business/2026/oct/25/bust-companies-revived-in-phoenix-deals-more-likely-to-fail-again-study-finds",
-            "published": "Sun, 25 Oct 2026 09:00:57 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Corporate governance Business HMRC UK news Accountancy Bankruptcy and IVAs Financial sector Money",
-            "image": "https://i.guim.co.uk/img/media/7c84a22a4e8f537282504cd446f45b93c28fc0c2/538_0_4402_3522/master/4402.jpg?width=140&quality=85&auto=format&fit=max&s=026bec9117a5885808f337f3a5cf3722"
-          },
-          {
             "title": "The boss whose twice-bust business appears to be back despite £3m debts",
             "link": "https://www.theguardian.com/business/2026/oct/25/recruitment-boss-twice-bust-business-resurface-debts",
             "published": "Sun, 25 Oct 2026 09:00:57 GMT",
@@ -1440,6 +1440,15 @@
             "image": "https://i.guim.co.uk/img/media/8169ff71c023a4ac8a94eb1f541f83ce182d7093/118_0_4570_3655/master/4570.jpg?width=140&quality=85&auto=format&fit=max&s=eb0d47220c12f03c8388794e05560d0d"
           },
           {
+            "title": "Has Healey’s military-style budget secrecy really played out so differently to past budgets?",
+            "link": "https://www.theguardian.com/uk-news/2026/oct/25/john-healey-chancellor-budget-secrecy",
+            "published": "Sun, 25 Oct 2026 19:35:17 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Budget 2026 John Healey Tax and spending Banks and building societies Energy bills Defence policy Ministry of Defence Media UK news Politics Budget Economic policy",
+            "image": "https://i.guim.co.uk/img/media/2a9b44b5ca337bd9d24374e143472f7f2753add3/0_0_1921_1536/master/1921.jpg?width=140&quality=85&auto=format&fit=max&s=7dfc3d3610c0c2d5bc974598ab2ce672"
+          },
+          {
             "title": "Ageing users and record deaths – the data behind Britain’s multibillion-pound cocaine habit",
             "link": "https://www.theguardian.com/society/2026/oct/25/deaths-cocaine-crime-survey-england-wales",
             "published": "Sun, 25 Oct 2026 07:00:56 GMT",
@@ -1465,15 +1474,6 @@
             "provider": "GUARDIAN",
             "categories": "Europe weather Environment Spain UK weather Europe World news UK news China Japan Taiwan",
             "image": "https://i.guim.co.uk/img/media/9cc260f6bd4696eae5584dd6539a4d46f6e7a25e/350_0_2083_1667/master/2083.jpg?width=140&quality=85&auto=format&fit=max&s=f3859a20e1d884aac8ae0b577954a642"
-          },
-          {
-            "title": "How might Andy Burnham tackle Thames Water debacle?",
-            "link": "https://www.theguardian.com/business/2026/oct/21/three-ideas-for-how-to-deal-with-thames-water",
-            "published": "Wed, 21 Oct 2026 06:00:04 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Thames Water Business Andy Burnham Politics UK news Utilities Water industry",
-            "image": "https://i.guim.co.uk/img/media/6e6d4ee22eab5275b653a66fe8a910a8b070e716/329_274_3407_2726/master/3407.jpg?width=140&quality=85&auto=format&fit=max&s=983e9179a6690480ed5166040846ae4e"
           },
           {
             "title": "‘Culture is stagnant, so politics is stuck’ – playwright James Graham | Radical Thinking – podcast",
@@ -1541,6 +1541,15 @@
             "image": "https://i.guim.co.uk/img/media/cc9a6ec270dac6b02b8ff0b829657c9fed193c1b/671_0_4033_3227/master/4033.jpg?width=140&quality=85&auto=format&fit=max&s=16352e02a522e9bb6270cae4acc5a411"
           },
           {
+            "title": "Brazil election 2026: Live second round results",
+            "link": "https://www.theguardian.com/world/ng-interactive/2026/oct/25/brazil-election-2026-live-second-round-results",
+            "published": "Sun, 25 Oct 2026 19:37:49 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Brazil Americas World news Flávio Bolsonaro Luiz Inácio Lula da Silva",
+            "image": "https://i.guim.co.uk/img/media/27cf0f75664744a7e5011e058a7d77262fc7dc20/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=657fa14bf4844c04521b15b9e9c0200c"
+          },
+          {
             "title": "Exiled opposition leader María Corina Machado returns to Venezuela",
             "link": "https://www.theguardian.com/world/2026/oct/25/exiled-venezuelan-opposition-leader-maria-corina-machado-announces-her-return",
             "published": "Sun, 25 Oct 2026 17:18:28 GMT",
@@ -1575,15 +1584,6 @@
             "provider": "GUARDIAN",
             "categories": "Brazil World news Americas Rio de Janeiro",
             "image": "https://i.guim.co.uk/img/media/0ba994ba5bb361aee178bf93d77a0ef20ea9f1ee/407_0_4928_3943/master/4928.jpg?width=140&quality=85&auto=format&fit=max&s=b65f8c76279731e0b2936b45aab0d208"
-          },
-          {
-            "title": "British woman dies trying to save sons on Bahamas snorkelling trip",
-            "link": "https://www.theguardian.com/world/2026/oct/24/british-woman-dies-trying-to-save-sons-on-bahamas-snorkelling-trip",
-            "published": "Sat, 24 Oct 2026 09:43:09 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Bahamas Americas Caribbean World news UK news",
-            "image": "https://i.guim.co.uk/img/media/8aab2c6d270e81625bcb385b9817033d361e1ea0/252_0_3780_3024/master/3780.jpg?width=140&quality=85&auto=format&fit=max&s=ee5e9e53781191ecd66c4803e2746425"
           },
           {
             "title": "Signs suggest Thomas Markle Sr may be ‘sex offender of the grossest kind’, says Philippine minister",
@@ -1804,6 +1804,15 @@
             "image": "https://i.guim.co.uk/img/media/ec18d930848e0699e02507a62545846d43bb5999/207_0_4734_3786/master/4734.jpg?width=140&quality=85&auto=format&fit=max&s=b180633c49c6207d1add07db77fbcd22"
           },
           {
+            "title": "Has Healey’s military-style budget secrecy really played out so differently to past budgets?",
+            "link": "https://www.theguardian.com/uk-news/2026/oct/25/john-healey-chancellor-budget-secrecy",
+            "published": "Sun, 25 Oct 2026 19:35:17 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Budget 2026 John Healey Tax and spending Banks and building societies Energy bills Defence policy Ministry of Defence Media UK news Politics Budget Economic policy",
+            "image": "https://i.guim.co.uk/img/media/2a9b44b5ca337bd9d24374e143472f7f2753add3/0_0_1921_1536/master/1921.jpg?width=140&quality=85&auto=format&fit=max&s=7dfc3d3610c0c2d5bc974598ab2ce672"
+          },
+          {
             "title": "The boss whose twice-bust business appears to be back despite £3m debts",
             "link": "https://www.theguardian.com/business/2026/oct/25/recruitment-boss-twice-bust-business-resurface-debts",
             "published": "Sun, 25 Oct 2026 09:00:57 GMT",
@@ -1829,15 +1838,6 @@
             "provider": "GUARDIAN",
             "categories": "Social etiquette Andy Burnham Asbos Society Politics Public transport",
             "image": "https://i.guim.co.uk/img/media/daf19f8c955a10b2ea58ab0ad434ca3e7715be2f/248_0_3340_2672/master/3340.jpg?width=140&quality=85&auto=format&fit=max&s=38185700565e758b46c4e927c57f9b76"
-          },
-          {
-            "title": "Can curry nights and canny advisers help Healey deliver a budget for everyday people?",
-            "link": "https://www.theguardian.com/uk-news/2026/oct/24/can-john-healey-make-a-dent-in-the-cost-of-living-crisis-in-his-first-budget",
-            "published": "Sat, 24 Oct 2026 09:00:29 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Budget 2026 John Healey UK cost of living crisis Tax and spending Economic policy Labour Andy Burnham UK news Business Politics Budget",
-            "image": "https://i.guim.co.uk/img/media/fc384fb4e4201ba96e3ea0f3696d10da28d16e43/411_0_3989_3192/master/3989.jpg?width=140&quality=85&auto=format&fit=max&s=a52a9f03cffc07ca8626e18963a7acf7"
           },
           {
             "title": "Martin Rowson on the approval of the Jackdaw gasfield – cartoon",
@@ -2105,6 +2105,15 @@
             "image": "https://i.guim.co.uk/img/media/e240560dbdb0dfbd8f0e19f35e6bf6650b057f87/0_0_3000_2400/master/3000.jpg?width=140&quality=85&auto=format&fit=max&s=e02249e5bef8e34df304c9e91d27d0ec"
           },
           {
+            "title": "Anthropic sued for allegedly using 274 Elvis Presley songs to train AI models",
+            "link": "https://www.theguardian.com/us-news/2026/oct/25/elvis-presley-anthropic-lawsuit-ai-models-music",
+            "published": "Sun, 25 Oct 2026 18:25:59 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "US news Elvis Presley Anthropic Law (US) AI (artificial intelligence) Music Pop and rock Culture Technology World news Computing",
+            "image": "https://i.guim.co.uk/img/media/84aa6ec87e3e6db19123ab53bff1786594581607/0_358_2832_2265/master/2832.jpg?width=140&quality=85&auto=format&fit=max&s=b314d5ff58cb339d8ba3616e98aa3000"
+          },
+          {
             "title": "Neighbours is being recut into a microdrama focused on Margot Robbie – and her co-stars aren’t happy",
             "link": "https://www.theguardian.com/tv-and-radio/2026/oct/26/neighbours-soap-recut-ai-microdrama-mobile-series-feat-margot-robbie",
             "published": "Sun, 25 Oct 2026 14:00:06 GMT",
@@ -2130,15 +2139,6 @@
             "provider": "GUARDIAN",
             "categories": "BBC Nature documentaries Science and nature TV BBC One David Attenborough Television & radio Marine life AI (artificial intelligence) Factual TV Documentary Wildlife Animals The news on TV Oceans UK news Culture Educational TV Environment Television Technology",
             "image": "https://i.guim.co.uk/img/media/ceaba2d2e573fa4bc480fbaee7cee88e2ce7c97b/620_0_4500_3600/master/4500.jpg?width=140&quality=85&auto=format&fit=max&s=f0d25aae5ae109f551faef3ce97d9432"
-          },
-          {
-            "title": "Opposition deepfake video of Spanish PM’s wife sparks outrage before election",
-            "link": "https://www.theguardian.com/world/2026/oct/23/opposition-deepfake-video-spain-election",
-            "published": "Sat, 24 Oct 2026 06:51:53 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Spain Pedro Sánchez AI (artificial intelligence) Europe World news",
-            "image": "https://i.guim.co.uk/img/media/b2d99fbc0419494ad01c1db56e1c3987fef305dd/799_96_2908_2326/master/2908.jpg?width=140&quality=85&auto=format&fit=max&s=26b2782eab34845759c7884cee206583"
           },
           {
             "title": "Cookie theft: how fraudsters get the digital key to your accounts",
@@ -2436,6 +2436,51 @@
       "categories": {
         "UK": [
           {
+            "title": "Female rapper ‘Bandit’ charged after police officer shot in foot in Nottingham",
+            "link": "https://metro.co.uk/2026/10/25/female-rapper-bandit-charged-police-officer-shot-foot-nottingham-29738380/",
+            "published": "Sun, 25 Oct 2026 19:25:12 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News UK Crime News Nottinghamshire",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317185663-8e2e.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Pensioner and labrador ‘he loved more than life itself’ both killed in bus crash",
+            "link": "https://metro.co.uk/2026/10/25/pensioner-labrador-he-loved-life-itself-killed-bus-crash-29738501/",
+            "published": "Sun, 25 Oct 2026 19:19:40 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News UK Bristol Crash",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317989580-7a5b.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Man killed after armed gang of four target him in ‘sustained’ attack",
+            "link": "https://metro.co.uk/2026/10/25/man-killed-armed-gang-four-target-sustained-attack-29738292/",
+            "published": "Sun, 25 Oct 2026 18:34:47 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News UK Crime News Leeds Murder West Yorkshire Police",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/GettyImages-1439139959-1f2a.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Body found in search for pensioner who fell off ferry",
+            "link": "https://metro.co.uk/2026/10/25/body-found-search-pensioner-fell-off-ferry-29738313/",
+            "published": "Sun, 25 Oct 2026 17:50:56 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News UK Scotland",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_292417288-f43d.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "‘Hero’ mum was celebrating anniversary on trip where she drowned saving sons",
+            "link": "https://metro.co.uk/2026/10/25/hero-mum-celebrating-anniversary-trip-drowned-saving-sons-29737949/",
+            "published": "Sun, 25 Oct 2026 17:37:32 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News UK BBC Nottinghamshire The Bahamas",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317889214-a4b7-e1792831822662.jpg?quality=90&strip=all&w=646"
+          },
+          {
             "title": "Girl, 10, rushed to hospital with stomach pains finds out she’s six months pregnant",
             "link": "https://metro.co.uk/2026/10/25/girl-10-rushed-hospital-stomach-pains-finds-six-months-pregnant-29738147/",
             "published": "Sun, 25 Oct 2026 17:04:24 +0000",
@@ -2569,51 +2614,6 @@
             "provider": "METRO",
             "categories": "News UK British Airways",
             "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317682612-e1a6.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "UK must be ready for war in 1000 days says Streeting",
-            "link": "https://metro.co.uk/2026/10/25/uk-must-ready-war-1000-days-says-streeting-29737548/",
-            "published": "Sun, 25 Oct 2026 11:42:54 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News UK Andy Burnham British Government Wes Streeting",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_313721808-d70f.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Woman who accused neighbour of using car as ‘phallic symbol’ is struck off",
-            "link": "https://metro.co.uk/2026/10/25/architect-accuses-neighbour-using-car-phallic-symbol-29737326/",
-            "published": "Sun, 25 Oct 2026 11:08:27 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News UK Neighbours",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_318152055-0a5c-e1792939745311.jpg?quality=90&strip=all&w=400"
-          },
-          {
-            "title": "Meghan Markle told dad ‘I know you’re an abuser’ in final letter",
-            "link": "https://metro.co.uk/2026/10/25/meghan-markle-told-dad-i-know-abuser-final-letter-29737459/",
-            "published": "Sun, 25 Oct 2026 10:49:50 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News US Meghan Markle Duchess of Sussex Meghan Markle family Prince Harry",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312677492-750d.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Entire UK town submerged and thousands lose power in second day of Storm Boelo chaos",
-            "link": "https://metro.co.uk/2026/10/25/storm-boelo-brings-second-day-travel-disruption-gusts-80mph-29737172/",
-            "published": "Sun, 25 Oct 2026 10:39:00 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News UK Northern Ireland Scotland Storms UK weather Wales Weather",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_318127569-e2e6.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Historic London leisure centre closes ‘until next year’ after illness-causing bacteria found",
-            "link": "https://metro.co.uk/2026/10/25/historic-london-leisure-centre-closes-until-next-year-illness-causing-bacteria-found-29737214/",
-            "published": "Sun, 25 Oct 2026 09:05:25 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News UK London",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_29801349-1d81.jpg?quality=90&strip=all&w=646"
           }
         ],
         "WORLD": [
@@ -2724,15 +2724,6 @@
             "provider": "METRO",
             "categories": "News UK Canada Crime News Drugs Glasgow Weird news",
             "image": "https://metro.co.uk/wp-content/uploads/2026/10/GettyImages-1344807337-117b.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Burnham says he won’t rule out return to freedom of movement in EU talks",
-            "link": "https://metro.co.uk/2026/10/25/burnham-says-wont-rule-return-free-movement-eu-talks-29737541/",
-            "published": "Sun, 25 Oct 2026 13:29:52 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News Politics Andy Burnham Brexit British Government European Union Labour Party",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316579534-41aa.jpg?quality=90&strip=all&w=646"
           }
         ],
         "POLITICS": [
@@ -3103,6 +3094,24 @@
         ],
         "ENTERTAINMENT": [
           {
+            "title": "JoJo Siwa and Chris Hughes secretly pick out the exact same engagement ring",
+            "link": "https://metro.co.uk/2026/10/25/jojo-siwa-chris-hughes-secretly-pick-exact-engagement-ring-29738371/",
+            "published": "Sun, 25 Oct 2026 19:07:21 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment Showbiz Celebrity Big Brother Chris Hughes JoJo Siwa",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317855440-859c.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Celebrity Traitors star forced to ‘ask BBC staff to buy him extra pairs of pants’",
+            "link": "https://metro.co.uk/2026/10/25/celebrity-traitors-star-forced-ask-bbc-staff-buy-extra-pairs-pants-29738300/",
+            "published": "Sun, 25 Oct 2026 17:45:46 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment TV BBC Celebrity Traitors James Blunt",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_314721494-b439-e1790857503318.jpg?quality=90&strip=all&w=646"
+          },
+          {
             "title": "Dominic Cooper on adultery: ‘Everyone gets tempted by something different’",
             "link": "https://metro.co.uk/2026/10/25/dominic-cooper-adultery-everyone-gets-tempted-something-different-29734644/",
             "published": "Sun, 25 Oct 2026 17:00:00 +0000",
@@ -3263,24 +3272,6 @@
             "provider": "METRO",
             "categories": "Entertainment TV BBC Celebrity Traitors James Acaster Maya Jama The Traitors",
             "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317894279-f058-e1792833349291.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Graham Norton viewers surprised after Prince William reveals unexpected side",
-            "link": "https://metro.co.uk/2026/10/24/graham-norton-viewers-surprised-prince-william-reveals-unexpected-side-29736144/",
-            "published": "Sat, 24 Oct 2026 09:54:03 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Entertainment TV BBC Celebrity Traitors Graham Norton Prince William, Prince of Wales The Traitors",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317770536-d4fe-e1792742311515.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Gogglebox fans defend Andy Burnham from critics: ‘He’s raising money for cancer charities’",
-            "link": "https://metro.co.uk/2026/10/24/gogglebox-fans-defend-andy-burnham-critics-hes-raising-money-cancer-charities-29736024/",
-            "published": "Sat, 24 Oct 2026 09:38:39 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Entertainment TV Andy Burnham Cancer Channel 4 Gogglebox",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/1792772666204_3309693712902662.jpg?quality=90&strip=all&w=636"
           }
         ]
       },
@@ -3291,7 +3282,7 @@
         },
         "WORLD": {
           "ok": true,
-          "count": 13
+          "count": 12
         },
         "POLITICS": {
           "ok": true,
@@ -3718,15 +3709,6 @@
             "image": ""
           },
           {
-            "title": "Surging oil prices drag Indian shares to weekly losses",
-            "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOeVk5bXN2THRVWVBubnpudHpPQ2dreFhuVUxXSUFqZWJLa2psTU1rbjl3UktXTlVabEpvVEM0YUpuZVBUWkJQSjB4X1o1QlI5OEZYNE1fNE5QREZ1RjZqeURTcEFZSm5DbkFGYkFCLVNVYkpRNXRCQ3RMTDExMGVJdS1lUjUtdlBFVkJQY1VXdVBZTF9qVklpbU1YRXp6dHpXNWhqcHVFVFNsZUtQeXV6SGNBTnJYaHBzWlE5SF9EeFpiYllha3c?oc=5",
-            "published": "Fri, 23 Oct 2026 12:36:27 GMT",
-            "source": "Reuters",
-            "provider": "REUTERS",
-            "categories": "",
-            "image": ""
-          },
-          {
             "title": "Eni boosts payout after profit doubles, shares near 20-year highs",
             "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOeFlVdjZzZm5kM3B0d08tTWtCeHFQZWNob2ZWakdtUG9DR0RUR1RsNWtEX3hza1cyZlp2bTc5dHhWVXdoUXhwTzZJdXZsVTVCcDNxdWR6QWs3WThYMGpja2x6aHp2MmVIQzhscW5rX1RGTVNHTkZnaEpsSkN4TllrbktkaUN4VXhXSFNPd2VDVmpma2ZocjN2R2k0MWtUcDFNYjdyM3lFS1Q2X2FkSk5CVERaWnF0RmlNUGpVWEVTV1E5QQ?oc=5",
             "published": "Fri, 23 Oct 2026 10:07:31 GMT",
@@ -3784,6 +3766,15 @@
             "title": "Nasdaq leads Wall Street gains as SpaceX, Super Micro boost AI sentiment",
             "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZUJTOXdaa0JmVzZubm12MGt4VnNSemsyOW1fQXpCMnhEc25HSVJRZk93d2NYUXQ3eHBuQklaNE1FT1QyQ1NqdTFkdExDbmoxY2JtOWhLQkVtYXczMHh3a3VsZmhub1JFc0FIZHN1eEcwc3FRZVZWQnBoSjFjekFYTUN6X2d5WHJUWGpDU2paekhhU24zenhNbWpXUmtfdmo5cTFIZVZwTXdiRzZoeUtiazhHWkJEWEVZLTVmQmRMcw?oc=5",
             "published": "Wed, 21 Oct 2026 23:11:13 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "Investors flood to Jio IPO on day one of India's largest offering",
+            "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxON1VVUmNkZDI5QkFtVV8zeWNRdWY2YkRtQXVPSHlNUnFwY3BhRTBYcU9uOXVKMmljOE05N1dLSUxkTm9PUjBmSXhhNHFTZ000cUgyNlpVMG1ia1diRlJ6WXFuN091VktQX3hJMjl3QUJCRy1yeGtzSDY5bm1FSHNydzRtbUZzcUY5amhobDM2eXBfZXIydUwyZDBJSElseDFDX1VIWjdB?oc=5",
+            "published": "Wed, 21 Oct 2026 14:57:29 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3915,5 +3906,5 @@
       }
     }
   },
-  "stocksUpdated": "2026-10-25T17:36:10.383Z"
+  "stocksUpdated": "2026-10-25T19:55:33.422Z"
 }
