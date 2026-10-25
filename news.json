@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-24T23:37:25.679Z",
+  "updated": "2026-10-25T04:28:49.792Z",
   "categories": {
     "UK": [
       {
@@ -37,6 +37,15 @@
         "provider": "METRO",
         "categories": "News UK Meghan Markle Duchess of Sussex Meghan Markle family Prince Harry Royal Family",
         "image": "https://metro.co.uk/wp-content/uploads/2026/10/comp-1792873081.png?w=646"
+      },
+      {
+        "title": "Police to trial ignoring some minor breaches of tag conditions, Sky News understands",
+        "link": "https://news.sky.com/story/police-to-reduce-enforcement-of-minor-tag-breaches-sky-news-understands-13603365",
+        "published": "Sat, 24 Oct 2026 20:21:00 +0100",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/05/1920x1080/skynews-metropolitan-police_7236956.jpg?20260502144512"
       },
       {
         "title": "Man arrested after video appears to show person spitting on David Amess statue",
@@ -82,26 +91,35 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/10/1920x1080/skynews-uk-france-parachute_7385672.jpg?20261024152148"
-      },
-      {
-        "title": "Former Goldman Sachs chief leaves Britain amid tax hike fears",
-        "link": "https://news.sky.com/story/former-goldman-chief-sherwood-leaves-britain-amid-tax-hike-fears-13602963",
-        "published": "Sat, 24 Oct 2026 07:40:00 +0100",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/24/04/1920x1080/skynews-treasury-spending_6530389.jpg?20240423071047"
       }
     ],
     "WORLD": [
       {
-        "title": "Four people injured after drive-by shooting outside boxing event south of Brisbane",
+        "title": "AFP boss says politicians’ heated rhetoric is fuelling threats against MPs",
+        "link": "https://www.theguardian.com/australia-news/2026/oct/25/afp-commissioner-krissy-barrett-threats-mps-political-debate-ntwnfb",
+        "published": "Sun, 25 Oct 2026 03:54:43 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Australian security and counter-terrorism Helen Haines Australian police and policing Australia news Melbourne Australian politics Violence against women and girls",
+        "image": "https://i.guim.co.uk/img/media/f4037d3bd456c829f9760ba38f9317666abf9e42/721_0_5833_4667/master/5833.jpg?width=140&quality=85&auto=format&fit=max&s=a4e0de6fe4f05de0dd7e4e03c3cb4fff"
+      },
+      {
+        "title": "‘Horrific’: woman, 19, shot in head in drive-by shooting outside boxing event near Brisbane",
         "link": "https://www.theguardian.com/australia-news/2026/oct/25/drive-by-shooting-loganholme-four-injured-ntwnfb",
-        "published": "Sat, 24 Oct 2026 23:13:32 GMT",
+        "published": "Sun, 25 Oct 2026 01:41:37 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
         "categories": "Queensland Australia news",
-        "image": "https://i.guim.co.uk/img/media/ab900e0fe29c18e5dacd47f33277c2eb3bceda28/500_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=a058522ec878ba7179f5ec50652beb5c"
+        "image": "https://i.guim.co.uk/img/media/aa540b532e5dca291cd51695886a8a0fc9815375/126_0_3780_3024/master/3780.jpg?width=140&quality=85&auto=format&fit=max&s=22d83c82591e7f9e91d613d6f0515cf4"
+      },
+      {
+        "title": "Brazilians go to polls today with left-winger and son of Trump ally neck and neck",
+        "link": "https://news.sky.com/story/brazilians-go-to-polls-today-with-luiz-inacio-lula-da-silva-and-flavio-bolsonaro-neck-and-neck-13603442",
+        "published": "Sun, 25 Oct 2026 01:11:00 +0000",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/10/1920x1080/skynews-lula-bolsonaro_7386344.jpg?20261025020543"
       },
       {
         "title": "More than one million Lula supporters rally on eve of Brazilian election runoff",
@@ -165,24 +183,6 @@
         "provider": "METRO",
         "categories": "News World Crime News Spain",
         "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317956478-d972.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "British woman dies trying to save sons on Bahamas snorkelling trip",
-        "link": "https://www.theguardian.com/world/2026/oct/24/british-woman-dies-trying-to-save-sons-on-bahamas-snorkelling-trip",
-        "published": "Sat, 24 Oct 2026 09:43:09 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Bahamas Americas Caribbean World news UK news",
-        "image": "https://i.guim.co.uk/img/media/8aab2c6d270e81625bcb385b9817033d361e1ea0/252_0_3780_3024/master/3780.jpg?width=140&quality=85&auto=format&fit=max&s=ee5e9e53781191ecd66c4803e2746425"
-      },
-      {
-        "title": "Bahamas police investigate after British woman dies trying to rescue sons",
-        "link": "https://news.sky.com/story/bahamas-police-investigate-after-british-woman-dies-trying-to-rescue-sons-13602998",
-        "published": "Sat, 24 Oct 2026 10:25:00 +0100",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/10/1920x1080/skynews-bimini-bahamas_7385390.jpg?20261024105247"
       }
     ],
     "POLITICS": [
@@ -371,6 +371,33 @@
     ],
     "TECH": [
       {
+        "title": "Your star sign’s weekly tarot horoscope reading for October 26 to November 1",
+        "link": "https://metro.co.uk/2026/10/25/weekly-tarot-horoscope-reading-october-26-november-1-2026-29733147/",
+        "published": "Sun, 25 Oct 2026 04:00:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Horoscopes Lifestyle Aquarius Aries Astrology Cancer (star sign) Capricorn Gemini Leo Libra Pisces Sagittarius Scorpio Tarot Taurus Virgo",
+        "image": "https://metro.co.uk/wp-content/uploads/2022/04/SEI_96594073.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Why I will always be a Bubsy Bobcat fan – Reader’s Feature",
+        "link": "https://metro.co.uk/2026/10/25/will-always-a-bubsy-bobcat-fan-readers-feature-29735554/",
+        "published": "Sun, 25 Oct 2026 02:00:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Entertainment Gaming Games news Reader's Feature",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317876368-9cac.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Motion controls are great and games should use them more – Reader’s Feature",
+        "link": "https://metro.co.uk/2026/10/25/motion-controls-great-games-use-readers-feature-29735547/",
+        "published": "Sun, 25 Oct 2026 01:00:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Entertainment Gaming Nintendo Nintendo Switch 2 Reader's Feature",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317444780-bbb7.jpg?quality=90&strip=all&w=646"
+      },
+      {
         "title": "Daily horoscope October 25, 2026: Today’s predictions for your star sign",
         "link": "https://metro.co.uk/2026/10/25/daily-horoscope-october-25-2026-predictions-star-sign-29733758/",
         "published": "Sat, 24 Oct 2026 23:01:00 +0000",
@@ -432,33 +459,6 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/10/1920x1080/skynews-iphone-duo-apple-iphone_7384320.jpg?20261023074732"
-      },
-      {
-        "title": "Opposition deepfake video of Spanish PM’s wife sparks outrage before election",
-        "link": "https://www.theguardian.com/world/2026/oct/23/opposition-deepfake-video-spain-election",
-        "published": "Sat, 24 Oct 2026 06:51:53 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Spain Pedro Sánchez AI (artificial intelligence) Europe World news",
-        "image": "https://i.guim.co.uk/img/media/b2d99fbc0419494ad01c1db56e1c3987fef305dd/799_96_2908_2326/master/2908.jpg?width=140&quality=85&auto=format&fit=max&s=26b2782eab34845759c7884cee206583"
-      },
-      {
-        "title": "John Healey pledges to use budget to harness power of AI to bolster Britain’s security",
-        "link": "https://www.theguardian.com/uk-news/2026/oct/24/john-healey-pledges-to-use-budget-to-harness-power-of-ai-to-bolster-britains-security",
-        "published": "Sat, 24 Oct 2026 05:00:24 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Budget 2026 UK news England John Healey AI (artificial intelligence) Economic policy Tax and spending",
-        "image": "https://i.guim.co.uk/img/media/13ceb52a43f1b6771519d70b1eb33680ffbec0ca/0_0_2750_2200/master/2750.jpg?width=140&quality=85&auto=format&fit=max&s=7c0a9667489edbac502049a00339a656"
-      },
-      {
-        "title": "‘Black October’: cybersecurity experts sound the alarm over new era of AI-enabled hacking",
-        "link": "https://www.theguardian.com/technology/2026/oct/23/cybersecurity-ai-hacking-php-vulnerability",
-        "published": "Fri, 23 Oct 2026 18:48:48 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Technology AI (artificial intelligence) US news World news",
-        "image": "https://i.guim.co.uk/img/media/cb4c18c4ae3df1d687b8488dfb57058ade00d1a7/731_0_3659_2927/master/3659.jpg?width=140&quality=85&auto=format&fit=max&s=22240fd63146e88296ce67fe0124324c"
       }
     ],
     "ENTERTAINMENT": [
@@ -600,6 +600,15 @@
         "image": "https://www.twelfthmagpie.com/wp-content/uploads/2023/04/Celebration-1200x675.jpg"
       },
       {
+        "title": "Lloyds shares: next stop 140p? These experts say yes!",
+        "link": "https://www.twelfthmagpie.com/2026/10/24/lloyds-shares-next-stop-140p-these-experts-say-yes/",
+        "published": "Sat, 24 Oct 2026 08:19:33 +0000",
+        "source": "The Twelfth Magpie",
+        "provider": "MAGPIE",
+        "categories": "Investing Articles Value Shares",
+        "image": "https://www.twelfthmagpie.com/wp-content/uploads/2026/06/AdobeStock_349905801-1200x800.jpeg"
+      },
+      {
         "title": "This Stock Faces a Beautiful Future After Completing Its Makeover",
         "link": "https://uk.finance.yahoo.com/m/c656c7c8-c256-3106-87b1-437b26b10d5c/this-stock-faces-a-beautiful.html?.tsrc=rss",
         "published": "Sat, 24 Oct 2026 05:00:00 +0000",
@@ -618,29 +627,20 @@
         "image": ""
       },
       {
-        "title": "Wells Fargo, Intuit latest companies to object to their shares being tokenized, document shows",
-        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPY1IyYVRJX1Vlemd2UTZ5OHpUS2ZYU3A2eHpIel9JOHdrUy1sNG40Mlp6M3h4dDhiZmRnMFR0UU5fSGx0SkdPdTVYU2t4NUxFOW9uZTBEbTNZN1RvZVdfajRXbzRrc2xiVXlZRzNvYVdqWjBtd1NaNjVwVzZnQ1QzVVk3aFhGdk9EWkJZcjdndVlIZXNBd1ZUeWlQVEo0S3NwUzdmOVdmNUxlMnRxSHE2TXA4cm00V29Nc01PVktZbFIzZ2c?oc=5",
-        "published": "Fri, 23 Oct 2026 17:23:26 GMT",
-        "source": "Reuters",
-        "provider": "REUTERS",
+        "title": "3 Reasons to sell NEOG and 1 stock to buy instead",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-sell-neog-1-003239977.html?.tsrc=rss",
+        "published": "Sat, 24 Oct 2026 00:32:39 +0000",
+        "source": "Yahoo Finance",
+        "provider": "YAHOO",
         "categories": "",
         "image": ""
       },
       {
-        "title": "BASF raises Evonik offer to €24 a share, sources say",
-        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNNWgwOXQwV0N5WFlOZDQ3LWRhMElCdXh5MGZMZnpfd0dGS2Z1X0g5MFhVM3czNk1ZdUhrdEEyYzltc0RNQ2xWcmpVcTZmVUVILU9lQ1VDc2FYNDdxVkJOc0QyNXQwZFNydnh3bHl5SXRhY1ZGc0lVSjlVQUZ0b0RXc2NDR3JuWFZSZFFvUU1kN3dLOV9nRXRMTDdGaEdQdktma1hPN3ZscFdwX1JwdHl2aDBJa2JpV2xJdGdB?oc=5",
-        "published": "Fri, 23 Oct 2026 15:59:28 GMT",
-        "source": "Reuters",
-        "provider": "REUTERS",
-        "categories": "",
-        "image": ""
-      },
-      {
-        "title": "Ambani's Jio becomes most subscribed Indian IPO with $77 billion in bids",
-        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVnRMTFMtTUhERkVlZG4zSVcxcm54ODQ5SXo5NGMxNmVZM2RSbjdqTko3NzB4Q053b09iMEJiX3dRd3Rpem9RQ2pDa1dVMFFOZG54WjhLMkdSbHpyQnF6OXpQbDhBd0ExQ0QyRFNXRm93Q0dfUEdCSllQdTBrUVNzRFUzTWc1OVZva3F0YkVDLUdyeEZvNFh1S1VhNVdMZjFDbVVFTDZPUk9MQVVMTEN1ZmRiX3BjaEJDNi00OWlLNDY?oc=5",
-        "published": "Fri, 23 Oct 2026 06:28:00 GMT",
-        "source": "Reuters",
-        "provider": "REUTERS",
+        "title": "3 Reasons MTD is risky and 1 stock to buy instead",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-mtd-risky-1-002439993.html?.tsrc=rss",
+        "published": "Sat, 24 Oct 2026 00:24:39 +0000",
+        "source": "Yahoo Finance",
+        "provider": "YAHOO",
         "categories": "",
         "image": ""
       }
@@ -719,10 +719,11 @@
         "count": 10,
         "liveProviders": [
           "MAGPIE",
-          "YAHOO",
+          "YAHOO"
+        ],
+        "failedProviders": [
           "REUTERS"
         ],
-        "failedProviders": [],
         "retainedPrevious": 0,
         "sourceHealth": {
           "MAGPIE": {
@@ -730,7 +731,7 @@
             "count": 10,
             "retainedPrevious": 0,
             "errors": [
-              "https://news.google.com/rss/search?q=stocks%20OR%20shares%20OR%20FTSE%20source%3A%22The%20Twelfth%20Magpie%22%20when%3A7d&hl=en-GB&gl=GB&ceid=GB:en: no relevant articles"
+              "https://news.google.com/rss/search?q=stocks%20OR%20shares%20OR%20FTSE%20source%3A%22The%20Twelfth%20Magpie%22%20when%3A7d&hl=en-GB&gl=GB&ceid=GB:en: 503 Service Unavailable"
             ]
           },
           "YAHOO": {
@@ -742,11 +743,12 @@
             ]
           },
           "REUTERS": {
-            "ok": true,
-            "count": 12,
-            "retainedPrevious": 0,
+            "ok": false,
+            "count": 0,
+            "retainedPrevious": 12,
             "errors": [
-              "https://www.reuters.com/arc/outboundfeeds/v3/all/?outputType=xml: 404 Not Found"
+              "https://www.reuters.com/arc/outboundfeeds/v3/all/?outputType=xml: 404 Not Found",
+              "https://news.google.com/rss/search?q=stocks%20OR%20shares%20OR%20markets%20source%3AReuters%20when%3A7d&hl=en-GB&gl=GB&ceid=GB:en: 503 Service Unavailable"
             ]
           }
         }
@@ -757,6 +759,15 @@
     "SKY": {
       "categories": {
         "UK": [
+          {
+            "title": "Police to trial ignoring some minor breaches of tag conditions, Sky News understands",
+            "link": "https://news.sky.com/story/police-to-reduce-enforcement-of-minor-tag-breaches-sky-news-understands-13603365",
+            "published": "Sat, 24 Oct 2026 20:21:00 +0100",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/05/1920x1080/skynews-metropolitan-police_7236956.jpg?20260502144512"
+          },
           {
             "title": "Government backs bid for 'Northern Games' in 2040s",
             "link": "https://news.sky.com/story/pm-backs-north-of-england-olympics-bid-with-7m-budget-injection-13597494",
@@ -832,6 +843,15 @@
         ],
         "WORLD": [
           {
+            "title": "Brazilians go to polls today with left-winger and son of Trump ally neck and neck",
+            "link": "https://news.sky.com/story/brazilians-go-to-polls-today-with-luiz-inacio-lula-da-silva-and-flavio-bolsonaro-neck-and-neck-13603442",
+            "published": "Sun, 25 Oct 2026 01:11:00 +0000",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/10/1920x1080/skynews-lula-bolsonaro_7386344.jpg?20261025020543"
+          },
+          {
             "title": "British and French paratroopers take part in major wargame in Germany",
             "link": "https://news.sky.com/story/british-and-french-paratroopers-take-part-in-major-wargame-in-germany-13603116",
             "published": "Sat, 24 Oct 2026 15:07:00 +0100",
@@ -884,15 +904,6 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/10/1920x1080/skynews-trappes-yvelines-france_7384627.jpg?20261023135950"
-          },
-          {
-            "title": "Former Olympic marathon champion suspended after failed drugs test",
-            "link": "https://news.sky.com/story/kenyan-former-olympic-marathon-champion-suspended-after-failed-drugs-test-13602695",
-            "published": "Fri, 23 Oct 2026 14:42:00 +0100",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/10/1920x1080/skynews-tokyo-2020-olympics_7384677.jpg?20261023144251"
           }
         ],
         "POLITICS": [
@@ -1258,7 +1269,7 @@
       "health": {
         "UK": {
           "ok": true,
-          "count": 8
+          "count": 9
         },
         "WORLD": {
           "ok": true,
@@ -1603,13 +1614,22 @@
             "image": "https://i.guim.co.uk/img/media/713bcd9ff1654fe9c89a51939a324229100d3767/0_125_3728_2984/master/3728.jpg?width=140&quality=85&auto=format&fit=max&s=6214d8633e19ac1fd959d6bb83d748bd"
           },
           {
-            "title": "Four people injured after drive-by shooting outside boxing event south of Brisbane",
+            "title": "AFP boss says politicians’ heated rhetoric is fuelling threats against MPs",
+            "link": "https://www.theguardian.com/australia-news/2026/oct/25/afp-commissioner-krissy-barrett-threats-mps-political-debate-ntwnfb",
+            "published": "Sun, 25 Oct 2026 03:54:43 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Australian security and counter-terrorism Helen Haines Australian police and policing Australia news Melbourne Australian politics Violence against women and girls",
+            "image": "https://i.guim.co.uk/img/media/f4037d3bd456c829f9760ba38f9317666abf9e42/721_0_5833_4667/master/5833.jpg?width=140&quality=85&auto=format&fit=max&s=a4e0de6fe4f05de0dd7e4e03c3cb4fff"
+          },
+          {
+            "title": "‘Horrific’: woman, 19, shot in head in drive-by shooting outside boxing event near Brisbane",
             "link": "https://www.theguardian.com/australia-news/2026/oct/25/drive-by-shooting-loganholme-four-injured-ntwnfb",
-            "published": "Sat, 24 Oct 2026 23:13:32 GMT",
+            "published": "Sun, 25 Oct 2026 01:41:37 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
             "categories": "Queensland Australia news",
-            "image": "https://i.guim.co.uk/img/media/ab900e0fe29c18e5dacd47f33277c2eb3bceda28/500_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=a058522ec878ba7179f5ec50652beb5c"
+            "image": "https://i.guim.co.uk/img/media/aa540b532e5dca291cd51695886a8a0fc9815375/126_0_3780_3024/master/3780.jpg?width=140&quality=85&auto=format&fit=max&s=22d83c82591e7f9e91d613d6f0515cf4"
           },
           {
             "title": "Embattled Greens senator Jordon Steele-John confirms leave from parliament after allegations against him made public",
@@ -1637,15 +1657,6 @@
             "provider": "GUARDIAN",
             "categories": "Australia weather Australia news Queensland Victoria South Australia Tasmania",
             "image": "https://i.guim.co.uk/img/media/559129ca49d22e95b5248f9ae804833a6fd6b9bf/469_283_1995_1595/master/1995.jpg?width=140&quality=85&auto=format&fit=max&s=1bf8c6fb6a15e736ff04391632d1240e"
-          },
-          {
-            "title": "Jordon Steele-John’s position remains in limbo as Greens prepare for moment in spotlight",
-            "link": "https://www.theguardian.com/australia-news/2026/oct/23/jordan-steele-john-in-limbo-greens-misconduct-allegations-ntwnfb",
-            "published": "Fri, 23 Oct 2026 22:41:46 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Australian Greens Australian politics David Shoebridge Australia news Western Australia",
-            "image": "https://i.guim.co.uk/img/media/bb974d706976903f7cd52427fedbf3da4ecd08d1/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=bc2600a4ff06b5aefd4a4b66553715c2"
           }
         ],
         "POLITICS": [
@@ -3055,6 +3066,33 @@
         ],
         "TECH": [
           {
+            "title": "Your star sign’s weekly tarot horoscope reading for October 26 to November 1",
+            "link": "https://metro.co.uk/2026/10/25/weekly-tarot-horoscope-reading-october-26-november-1-2026-29733147/",
+            "published": "Sun, 25 Oct 2026 04:00:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Horoscopes Lifestyle Aquarius Aries Astrology Cancer (star sign) Capricorn Gemini Leo Libra Pisces Sagittarius Scorpio Tarot Taurus Virgo",
+            "image": "https://metro.co.uk/wp-content/uploads/2022/04/SEI_96594073.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Why I will always be a Bubsy Bobcat fan – Reader’s Feature",
+            "link": "https://metro.co.uk/2026/10/25/will-always-a-bubsy-bobcat-fan-readers-feature-29735554/",
+            "published": "Sun, 25 Oct 2026 02:00:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment Gaming Games news Reader's Feature",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317876368-9cac.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Motion controls are great and games should use them more – Reader’s Feature",
+            "link": "https://metro.co.uk/2026/10/25/motion-controls-great-games-use-readers-feature-29735547/",
+            "published": "Sun, 25 Oct 2026 01:00:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment Gaming Nintendo Nintendo Switch 2 Reader's Feature",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317444780-bbb7.jpg?quality=90&strip=all&w=646"
+          },
+          {
             "title": "Daily horoscope October 25, 2026: Today’s predictions for your star sign",
             "link": "https://metro.co.uk/2026/10/25/daily-horoscope-october-25-2026-predictions-star-sign-29733758/",
             "published": "Sat, 24 Oct 2026 23:01:00 +0000",
@@ -3266,7 +3304,7 @@
         },
         "TECH": {
           "ok": true,
-          "count": 1
+          "count": 4
         },
         "ENTERTAINMENT": {
           "ok": true,
@@ -3761,11 +3799,12 @@
           "errors": []
         },
         "STOCKS": {
-          "ok": true,
-          "count": 12,
-          "retainedPrevious": 0,
+          "ok": false,
+          "count": 0,
+          "retainedPrevious": 12,
           "errors": [
-            "https://www.reuters.com/arc/outboundfeeds/v3/all/?outputType=xml: 404 Not Found"
+            "https://www.reuters.com/arc/outboundfeeds/v3/all/?outputType=xml: 404 Not Found",
+            "https://news.google.com/rss/search?q=stocks%20OR%20shares%20OR%20markets%20source%3AReuters%20when%3A7d&hl=en-GB&gl=GB&ceid=GB:en: 503 Service Unavailable"
           ]
         }
       }
@@ -3871,11 +3910,11 @@
           "count": 10,
           "retainedPrevious": 0,
           "errors": [
-            "https://news.google.com/rss/search?q=stocks%20OR%20shares%20OR%20FTSE%20source%3A%22The%20Twelfth%20Magpie%22%20when%3A7d&hl=en-GB&gl=GB&ceid=GB:en: no relevant articles"
+            "https://news.google.com/rss/search?q=stocks%20OR%20shares%20OR%20FTSE%20source%3A%22The%20Twelfth%20Magpie%22%20when%3A7d&hl=en-GB&gl=GB&ceid=GB:en: 503 Service Unavailable"
           ]
         }
       }
     }
   },
-  "stocksUpdated": "2026-10-24T23:37:31.424Z"
+  "stocksUpdated": "2026-10-25T04:29:10.403Z"
 }
