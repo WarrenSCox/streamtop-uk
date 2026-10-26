@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-26T06:00:12.367Z",
+  "updated": "2026-10-26T12:47:53.840Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -70,7 +70,7 @@
         "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978000/9780008640316.jpg"
       },
       {
-        "title": "Threshing Day",
+        "title": "Threshing Day (Limited Deluxe Edition)",
         "author": "Rebecca Yarros",
         "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978034/9780349450612.jpg"
       },
@@ -122,14 +122,14 @@
   },
   "health": {
     "BOOKS": {
-      "status": "stale",
-      "checkedAt": "2026-10-26T06:00:12.367Z",
-      "lastSuccessfulRefresh": "2026-10-26T04:57:57.709Z",
-      "reason": "522 https://www.lovereading.co.uk/genres/lrt10/uk-top-10-books"
+      "status": "healthy",
+      "checkedAt": "2026-10-26T12:47:53.840Z",
+      "lastSuccessfulRefresh": "2026-10-26T12:47:53.840Z",
+      "reason": ""
     },
     "AUDIOBOOKS": {
       "status": "stale",
-      "checkedAt": "2026-10-26T06:00:32.183Z",
+      "checkedAt": "2026-10-26T12:48:04.468Z",
       "lastSuccessfulRefresh": "2026-10-25T16:32:28.332Z",
       "reason": "503 https://www.audible.co.uk/charts/best"
     }
