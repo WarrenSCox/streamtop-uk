@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-27T02:22:28.944Z",
+  "updated": "2026-10-27T05:15:31.610Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -33,16 +33,16 @@
         "image": "https://m.media-amazon.com/images/I/510J1VMd3QL._SL500_.jpg"
       },
       {
-        "title": "I Haven&rsquo;t Been Entirely Honest with You",
-        "author": "Miranda Hart",
-        "narrator": "Miranda Hart",
-        "image": "https://m.media-amazon.com/images/I/41F+BK6TRML._SL500_.jpg"
-      },
-      {
         "title": "Threshing Day (Wing and Claw Collection)",
         "author": "Rebecca Yarros",
         "narrator": "Justis Bolding , Jake Bordeaux , Chase Brown , Frankie Corzo , Giordan Diaz , Teddy Hamilton , Laura Knight Keating , Zion Jang , Nick Mills , Robb Moreira , James Aaron Oh , Anthony Palmini , John Skelley , Jasmin Walker",
         "image": "https://m.media-amazon.com/images/I/51+hQRgOR2L._SL500_.jpg"
+      },
+      {
+        "title": "I Haven&rsquo;t Been Entirely Honest with You",
+        "author": "Miranda Hart",
+        "narrator": "Miranda Hart",
+        "image": "https://m.media-amazon.com/images/I/41F+BK6TRML._SL500_.jpg"
       },
       {
         "title": "Threshing Day [Dramatized Adaptation]",
@@ -57,10 +57,10 @@
         "image": "https://covers.openlibrary.org/b/id/11702962-L.jpg"
       },
       {
-        "title": "The Dungeon Anarchist's Cookbook",
-        "author": "Matt Dinniman",
-        "narrator": "Jeff Hays , The Critical Drinker",
-        "image": "https://covers.openlibrary.org/b/id/15262048-L.jpg"
+        "title": "The Let Them Theory",
+        "author": "Mel Robbins",
+        "narrator": "Mel Robbins",
+        "image": "https://m.media-amazon.com/images/I/51YOr6ua-PL._SL500_.jpg"
       }
     ],
     "BOOKS": [
@@ -123,15 +123,15 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-10-27T02:22:28.944Z",
-      "lastSuccessfulRefresh": "2026-10-27T02:22:28.944Z",
+      "checkedAt": "2026-10-27T05:15:31.610Z",
+      "lastSuccessfulRefresh": "2026-10-27T05:15:31.610Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
-      "status": "stale",
-      "checkedAt": "2026-10-27T02:22:38.509Z",
-      "lastSuccessfulRefresh": "2026-10-26T23:17:42.075Z",
-      "reason": "503 https://www.audible.co.uk/charts/best"
+      "status": "healthy",
+      "checkedAt": "2026-10-27T05:15:40.709Z",
+      "lastSuccessfulRefresh": "2026-10-27T05:15:40.709Z",
+      "reason": ""
     }
   }
 }
