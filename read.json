@@ -1,18 +1,18 @@
 {
-  "updated": "2026-10-28T17:19:46.196Z",
+  "updated": "2026-10-28T21:52:47.809Z",
   "charts": {
     "AUDIOBOOKS": [
       {
         "title": "A Court of Splintered Harmony",
         "author": "Sarah J. Maas",
         "narrator": "Elizabeth Evans",
-        "image": "https://covers.openlibrary.org/b/id/15253996-L.jpg"
+        "image": "https://m.media-amazon.com/images/I/51WqRCIn0sL._SL500_.jpg"
       },
       {
         "title": "Bram Stoker's Dracula",
         "author": "Bram Stoker",
         "narrator": "Jonathan Bailey , Ella Purnell , Aimee Lou Wood , Louis Partridge , David Jonsson , Johnny Flynn , Lesley Manville , Maggie Gyllenhaal",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/03/85/a8/0385a8b0-667d-baed-8423-132574f5a40f/9781785752292.png/600x600bb.jpg"
+        "image": "https://m.media-amazon.com/images/I/51nLhYS-rhL._SL500_.jpg"
       },
       {
         "title": "The Witch",
@@ -24,13 +24,7 @@
         "title": "Dungeon Crawler Carl",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://covers.openlibrary.org/b/id/15143022-L.jpg"
-      },
-      {
-        "title": "Threshing Day (Wing and Claw Collection)",
-        "author": "Rebecca Yarros",
-        "narrator": "Justis Bolding , Jake Bordeaux , Chase Brown , Frankie Corzo , Giordan Diaz , Teddy Hamilton , Laura Knight Keating , Zion Jang , Nick Mills , Robb Moreira , James Aaron Oh , Anthony Palmini , John Skelley , Jasmin Walker",
-        "image": "https://m.media-amazon.com/images/I/51+hQRgOR2L._SL500_.jpg"
+        "image": "https://m.media-amazon.com/images/I/51HIZdnqASL._SL500_.jpg"
       },
       {
         "title": "Her Stepmother's House",
@@ -42,7 +36,19 @@
         "title": "Carl's Doomsday Scenario",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://covers.openlibrary.org/b/id/11702962-L.jpg"
+        "image": "https://m.media-amazon.com/images/I/51e1PKKdv8L._SL500_.jpg"
+      },
+      {
+        "title": "Threshing Day (Wing and Claw Collection)",
+        "author": "Rebecca Yarros",
+        "narrator": "Justis Bolding , Jake Bordeaux , Chase Brown , Frankie Corzo , Giordan Diaz , Teddy Hamilton , Laura Knight Keating , Zion Jang , Nick Mills , Robb Moreira , James Aaron Oh , Anthony Palmini , John Skelley , Jasmin Walker",
+        "image": "https://m.media-amazon.com/images/I/51+hQRgOR2L._SL500_.jpg"
+      },
+      {
+        "title": "Bad in Bed",
+        "author": "Ali Hazelwood",
+        "narrator": "Brooke Bloomingdale , Teddy Hamilton , full cast",
+        "image": "https://m.media-amazon.com/images/I/51K1uX7EGGL._SL500_.jpg"
       },
       {
         "title": "Threshing Day [Dramatized Adaptation]",
@@ -55,12 +61,6 @@
         "author": "Miranda Hart",
         "narrator": "Miranda Hart",
         "image": "https://m.media-amazon.com/images/I/41F+BK6TRML._SL500_.jpg"
-      },
-      {
-        "title": "The Let Them Theory",
-        "author": "Mel Robbins",
-        "narrator": "Mel Robbins",
-        "image": "https://covers.openlibrary.org/b/id/15165806-L.jpg"
       }
     ],
     "BOOKS": [
@@ -123,15 +123,15 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-10-28T17:19:46.196Z",
-      "lastSuccessfulRefresh": "2026-10-28T17:19:46.196Z",
+      "checkedAt": "2026-10-28T21:52:47.809Z",
+      "lastSuccessfulRefresh": "2026-10-28T21:52:47.809Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
-      "status": "stale",
-      "checkedAt": "2026-10-28T17:19:54.876Z",
-      "lastSuccessfulRefresh": "2026-10-28T05:54:28.387Z",
-      "reason": "503 https://www.audible.co.uk/charts/best"
+      "status": "healthy",
+      "checkedAt": "2026-10-28T21:52:56.816Z",
+      "lastSuccessfulRefresh": "2026-10-28T21:52:56.816Z",
+      "reason": ""
     }
   }
 }
