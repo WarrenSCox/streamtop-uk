@@ -1,12 +1,12 @@
 {
-  "updated": "2026-10-27T23:42:49.899Z",
+  "updated": "2026-10-28T05:26:06.030Z",
   "charts": {
     "AUDIOBOOKS": [
       {
         "title": "A Court of Splintered Harmony",
         "author": "Sarah J. Maas",
         "narrator": "Elizabeth Evans",
-        "image": "https://covers.openlibrary.org/b/id/15253996-L.jpg"
+        "image": "https://m.media-amazon.com/images/I/51WqRCIn0sL._SL500_.jpg"
       },
       {
         "title": "Bram Stoker's Dracula",
@@ -27,28 +27,16 @@
         "image": "https://covers.openlibrary.org/b/id/15143022-L.jpg"
       },
       {
-        "title": "Her Stepmother's House",
-        "author": "K. L. Slater",
-        "narrator": "Clare Corbett",
-        "image": "https://m.media-amazon.com/images/I/510J1VMd3QL._SL500_.jpg"
-      },
-      {
         "title": "Threshing Day (Wing and Claw Collection)",
         "author": "Rebecca Yarros",
         "narrator": "Justis Bolding , Jake Bordeaux , Chase Brown , Frankie Corzo , Giordan Diaz , Teddy Hamilton , Laura Knight Keating , Zion Jang , Nick Mills , Robb Moreira , James Aaron Oh , Anthony Palmini , John Skelley , Jasmin Walker",
         "image": "https://m.media-amazon.com/images/I/51+hQRgOR2L._SL500_.jpg"
       },
       {
-        "title": "I Haven&rsquo;t Been Entirely Honest with You",
-        "author": "Miranda Hart",
-        "narrator": "Miranda Hart",
-        "image": "https://m.media-amazon.com/images/I/41F+BK6TRML._SL500_.jpg"
-      },
-      {
-        "title": "Threshing Day [Dramatized Adaptation]",
-        "author": "Rebecca Yarros",
-        "narrator": "Full Cast , Gabriel Michael , Torian Brackett , Taylor Coan , Robb Moreira , Henry W. Kramer , Rayner Gabriel , Jessica Schly , James J. Johnson , Casie Platt , Danny Gavigan , Rob McFadyen , Renee Dorian , Belsheber Junior Rusape , GM Hakim",
-        "image": "https://m.media-amazon.com/images/I/51yEO5vfs9L._SL500_.jpg"
+        "title": "Her Stepmother's House",
+        "author": "K. L. Slater",
+        "narrator": "Clare Corbett",
+        "image": "https://m.media-amazon.com/images/I/510J1VMd3QL._SL500_.jpg"
       },
       {
         "title": "Carl's Doomsday Scenario",
@@ -57,10 +45,22 @@
         "image": "https://covers.openlibrary.org/b/id/11702962-L.jpg"
       },
       {
+        "title": "Threshing Day [Dramatized Adaptation]",
+        "author": "Rebecca Yarros",
+        "narrator": "Full Cast , Gabriel Michael , Torian Brackett , Taylor Coan , Robb Moreira , Henry W. Kramer , Rayner Gabriel , Jessica Schly , James J. Johnson , Casie Platt , Danny Gavigan , Rob McFadyen , Renee Dorian , Belsheber Junior Rusape , GM Hakim",
+        "image": "https://m.media-amazon.com/images/I/51yEO5vfs9L._SL500_.jpg"
+      },
+      {
+        "title": "I Haven&rsquo;t Been Entirely Honest with You",
+        "author": "Miranda Hart",
+        "narrator": "Miranda Hart",
+        "image": "https://m.media-amazon.com/images/I/41F+BK6TRML._SL500_.jpg"
+      },
+      {
         "title": "The Let Them Theory",
         "author": "Mel Robbins",
         "narrator": "Mel Robbins",
-        "image": "https://m.media-amazon.com/images/I/51YOr6ua-PL._SL500_.jpg"
+        "image": "https://covers.openlibrary.org/b/id/15165806-L.jpg"
       }
     ],
     "BOOKS": [
@@ -123,15 +123,15 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-10-27T23:42:49.899Z",
-      "lastSuccessfulRefresh": "2026-10-27T23:42:49.899Z",
+      "checkedAt": "2026-10-28T05:26:06.030Z",
+      "lastSuccessfulRefresh": "2026-10-28T05:26:06.030Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
-      "status": "stale",
-      "checkedAt": "2026-10-27T23:42:59.535Z",
-      "lastSuccessfulRefresh": "2026-10-27T05:15:40.709Z",
-      "reason": "503 https://www.audible.co.uk/charts/best"
+      "status": "healthy",
+      "checkedAt": "2026-10-28T05:26:14.753Z",
+      "lastSuccessfulRefresh": "2026-10-28T05:26:14.753Z",
+      "reason": ""
     }
   }
 }
