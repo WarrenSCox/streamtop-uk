@@ -1,12 +1,12 @@
 {
-  "updated": "2026-10-30T00:14:26.915Z",
+  "updated": "2026-10-30T05:58:54.113Z",
   "charts": {
     "AUDIOBOOKS": [
       {
         "title": "A Court of Splintered Harmony",
         "author": "Sarah J. Maas",
         "narrator": "Elizabeth Evans",
-        "image": "https://m.media-amazon.com/images/I/51FBqskXJ2L._SL500_.jpg"
+        "image": "https://covers.openlibrary.org/b/id/15253996-L.jpg"
       },
       {
         "title": "Bram Stoker's Dracula",
@@ -27,16 +27,16 @@
         "image": "https://covers.openlibrary.org/b/id/15143022-L.jpg"
       },
       {
+        "title": "Carl's Doomsday Scenario",
+        "author": "Matt Dinniman",
+        "narrator": "Jeff Hays",
+        "image": "https://m.media-amazon.com/images/I/51e1PKKdv8L._SL500_.jpg"
+      },
+      {
         "title": "Her Stepmother's House",
         "author": "K. L. Slater",
         "narrator": "Clare Corbett",
         "image": "https://m.media-amazon.com/images/I/510J1VMd3QL._SL500_.jpg"
-      },
-      {
-        "title": "Carl's Doomsday Scenario",
-        "author": "Matt Dinniman",
-        "narrator": "Jeff Hays",
-        "image": "https://covers.openlibrary.org/b/id/11702962-L.jpg"
       },
       {
         "title": "Threshing Day (Wing and Claw Collection)",
@@ -45,16 +45,16 @@
         "image": "https://m.media-amazon.com/images/I/51+hQRgOR2L._SL500_.jpg"
       },
       {
+        "title": "The Let Them Theory",
+        "author": "Mel Robbins",
+        "narrator": "Mel Robbins",
+        "image": "https://covers.openlibrary.org/b/id/15165806-L.jpg"
+      },
+      {
         "title": "I Haven&rsquo;t Been Entirely Honest with You",
         "author": "Miranda Hart",
         "narrator": "Miranda Hart",
-        "image": ""
-      },
-      {
-        "title": "Bad in Bed",
-        "author": "Ali Hazelwood",
-        "narrator": "Brooke Bloomingdale , Teddy Hamilton , full cast",
-        "image": "https://m.media-amazon.com/images/I/51K1uX7EGGL._SL500_.jpg"
+        "image": "https://m.media-amazon.com/images/I/41F+BK6TRML._SL500_.jpg"
       },
       {
         "title": "The Dungeon Anarchist's Cookbook",
@@ -123,14 +123,14 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-10-30T00:14:26.915Z",
-      "lastSuccessfulRefresh": "2026-10-30T00:14:26.915Z",
+      "checkedAt": "2026-10-30T05:58:54.114Z",
+      "lastSuccessfulRefresh": "2026-10-30T05:58:54.114Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-10-30T00:14:36.021Z",
-      "lastSuccessfulRefresh": "2026-10-30T00:14:36.021Z",
+      "checkedAt": "2026-10-30T05:59:02.541Z",
+      "lastSuccessfulRefresh": "2026-10-30T05:59:02.541Z",
       "reason": ""
     }
   }
