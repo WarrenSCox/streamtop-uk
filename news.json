@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T22:28:45.753Z",
+  "updated": "2026-10-30T22:55:13.363Z",
   "categories": {
     "UK": [
       {
@@ -10,6 +10,15 @@
         "provider": "METRO",
         "categories": "News UK Crime News Madeleine McCann",
         "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_300970656-369a.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Man arrested as part of probe into suspected terrorism offences in Belfast",
+        "link": "https://news.sky.com/story/man-arrested-as-part-of-probe-into-suspected-terrorism-offences-in-belfast-13605947",
+        "published": "Fri, 30 Oct 2026 20:44:00 +0000",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/10/1920x1080/skynews-shankill-road-belfaset_7392289.jpg?20261030212432"
       },
       {
         "title": "Toblerone sues independent vegan chocolate brand for ‘copying’ bar’s iconic shape",
@@ -82,15 +91,6 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/10/1920x1080/skynews-simon-richardson-mullins_7392076.jpg?20261030190533"
-      },
-      {
-        "title": "Former non-league football club boss admits offences linked to rape of woman drugged by husband",
-        "link": "https://news.sky.com/story/ex-football-club-boss-admits-offences-linked-to-rape-of-woman-drugged-by-husband-13605818",
-        "published": "Fri, 30 Oct 2026 15:28:00 +0000",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/25/01/1920x1080/skynews-rochdale-manchester_6812677.jpg?20250128141955"
       }
     ],
     "WORLD": [
@@ -565,8 +565,8 @@
       },
       {
         "title": "Okta jumps after-hours following tapped inclusion in the S&P 500",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/okta-jumps-hours-following-tapped-215908289.html?.tsrc=rss",
-        "published": "Fri, 30 Oct 2026 21:59:08 +0000",
+        "link": "https://uk.finance.yahoo.com/news/okta-jumps-hours-following-tapped-220012433.html?.tsrc=rss",
+        "published": "Fri, 30 Oct 2026 22:00:12 +0000",
         "source": "Yahoo Finance",
         "provider": "YAHOO",
         "categories": "",
@@ -618,15 +618,6 @@
         "image": "https://www.twelfthmagpie.com/wp-content/uploads/2026/10/Stock_HappyWoman.jpeg"
       },
       {
-        "title": "The hawkish pause, Lula's market meltdown, and the Anthropic IPO bombshell: The financial week in five charts",
-        "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxORzZSdUpvaFdlYlFMUDJUcVRQMktBM2IxSFo5dVlTWXBGZHc3bW9ncElFZHgwYzRGREJ4NlZUM21KSFRxN0pxYUllRkhLVS1tdmZCclF3RGNwVTFTMk42ZUlTUGdiS3Y5b1ZtRDFUNnp0aWlkai1Pd3RyQ29PS1lrRjl0OFpPNnVXSThCUERmNDBoOVhXUHJLVGlvblpUNWMySzE2TUVpenM3Q0k4dHJZZWMzbWtlaHM5ZFpJNUlfQUFyTk53dVVzSndsOXpsRUVnVWs0VG1qN2JVRXVGT3BBa3ln?oc=5",
-        "published": "Fri, 30 Oct 2026 11:51:22 GMT",
-        "source": "Reuters",
-        "provider": "REUTERS",
-        "categories": "",
-        "image": ""
-      },
-      {
         "title": "Mapping the Market: More losses in store for Netflix shares?",
         "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBDQUFvWGxDeWxxUjAtdTFlb2NDVkJheGMyRkNHZzdkTTlMQ0NldnIyMERZWWV0U01KUVZrOG5UN3E0RkZrZFp6S2lvbWZjdE4tN0kydWpKUGRMMmR5dGFEVXloVWhFV2NlUHBsb0M1M2traEhKZ3hmMUhycEo?oc=5",
         "published": "Fri, 30 Oct 2026 10:11:05 GMT",
@@ -639,6 +630,15 @@
         "title": "Origin shares rise as quarterly APLNG revenue jumps 34% on higher LNG prices",
         "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNRnR5UFd3NnROR3ZaV21idm1TVU1taVJsRTM1ajRsRDBqWW1FOVhKejB5dWJmYk1taUU0b1lpWWduVUpFUDdnQkJDWXhhVU1fYUZPMXMwQ3B2YnhybDE3S3FveEd3Z0JqODVyYmFvMkY5R1VnbE44N3pyTEtBM2d5bjZmZ0FQaTduRGhaWURHb2U0a2ctWGRLQTdPTmxPaTdDNFR4ZUxsSGNZQmdqX2RuQ2p0cDgyU2ROc3Y4RXFrWTZna3BFTXcyaw?oc=5",
         "published": "Thu, 29 Oct 2026 21:45:00 GMT",
+        "source": "Reuters",
+        "provider": "REUTERS",
+        "categories": "",
+        "image": ""
+      },
+      {
+        "title": "Intel shares tumble after hours, hit by chip supply constraints, big cash burn",
+        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbEgxampOc0U5RENJWVd0a09uQjlFSkxueGxGVzVPX2NwdElzNDN3WXdjVFpvelNULXVObnMzTTJzb0ZfeFBtN1ZOQ0FVNXRuN0ZINkF0dWZkZlR6ZlkzUE5wQWpPTWg3dGtDLURwRl9OU0ZEb1UtejNBbC1KMnVWbmJ5OHQxWTBoU1I3cFduaXAyOHFBVkFIYjhCNXR1c0EyM2xlZFZNWFM?oc=5",
+        "published": "Thu, 29 Oct 2026 20:02:00 GMT",
         "source": "Reuters",
         "provider": "REUTERS",
         "categories": "",
@@ -735,7 +735,7 @@
           },
           "YAHOO": {
             "ok": true,
-            "count": 10,
+            "count": 9,
             "retainedPrevious": 0,
             "errors": [
               "https://finance.yahoo.com/news/rssindex: 404 Not Found"
@@ -743,7 +743,7 @@
           },
           "REUTERS": {
             "ok": true,
-            "count": 11,
+            "count": 8,
             "retainedPrevious": 0,
             "errors": [
               "https://www.reuters.com/arc/outboundfeeds/v3/all/?outputType=xml: 404 Not Found"
@@ -785,13 +785,13 @@
             "image": "https://e3.365dm.com/26/10/1920x1080/skynews-sawyers-grove-brentwood_7391903.jpg?20261030142349"
           },
           {
-            "title": "Former non-league football club boss admits offences linked to rape of woman drugged by husband",
-            "link": "https://news.sky.com/story/ex-football-club-boss-admits-offences-linked-to-rape-of-woman-drugged-by-husband-13605818",
-            "published": "Fri, 30 Oct 2026 15:28:00 +0000",
+            "title": "Man arrested as part of probe into suspected terrorism offences in Belfast",
+            "link": "https://news.sky.com/story/man-arrested-as-part-of-probe-into-suspected-terrorism-offences-in-belfast-13605947",
+            "published": "Fri, 30 Oct 2026 20:44:00 +0000",
             "source": "Sky News",
             "provider": "SKY",
             "categories": "",
-            "image": "https://e3.365dm.com/25/01/1920x1080/skynews-rochdale-manchester_6812677.jpg?20250128141955"
+            "image": "https://e3.365dm.com/26/10/1920x1080/skynews-shankill-road-belfaset_7392289.jpg?20261030212432"
           },
           {
             "title": "G20 photocall axed after Miliband and other ministers refuse to be pictured with top Russian diplomat",
@@ -801,6 +801,15 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/10/1920x1080/skynews-g20-foreign-ministers_7392205.jpg?20261030195102"
+          },
+          {
+            "title": "Former non-league football club boss admits offences linked to rape of woman drugged by husband",
+            "link": "https://news.sky.com/story/ex-football-club-boss-admits-offences-linked-to-rape-of-woman-drugged-by-husband-13605818",
+            "published": "Fri, 30 Oct 2026 15:28:00 +0000",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/25/01/1920x1080/skynews-rochdale-manchester_6812677.jpg?20250128141955"
           },
           {
             "title": "Yorkshire Water boss resigns after company given lowest environmental rating",
@@ -837,15 +846,6 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/10/1920x1080/skynews-poundland-croydon_7390973.jpg?20261029135718"
-          },
-          {
-            "title": "'Manosphere' as bad as tobacco for public health, report warns",
-            "link": "https://news.sky.com/story/manosphere-content-poses-danger-to-public-similar-to-tobacco-report-warns-13605324",
-            "published": "Thu, 29 Oct 2026 12:57:00 +0000",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/10/1920x1080/skynews-computer-hacker_7382910.jpg?20261021144857"
           }
         ],
         "WORLD": [
@@ -3384,8 +3384,8 @@
           },
           {
             "title": "Okta jumps after-hours following tapped inclusion in the S&P 500",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/okta-jumps-hours-following-tapped-215908289.html?.tsrc=rss",
-            "published": "Fri, 30 Oct 2026 21:59:08 +0000",
+            "link": "https://uk.finance.yahoo.com/news/okta-jumps-hours-following-tapped-220012433.html?.tsrc=rss",
+            "published": "Fri, 30 Oct 2026 22:00:12 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
@@ -3453,15 +3453,6 @@
             "provider": "YAHOO",
             "categories": "",
             "image": ""
-          },
-          {
-            "title": "Archrock Inc. (AROC) Stock Moves -1.25%: What You Should Know",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/archrock-inc-aroc-stock-moves-205002864.html?.tsrc=rss",
-            "published": "Fri, 30 Oct 2026 20:50:02 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
           }
         ]
       },
@@ -3477,7 +3468,7 @@
         },
         "STOCKS": {
           "ok": true,
-          "count": 10,
+          "count": 9,
           "retainedPrevious": 0,
           "errors": [
             "https://finance.yahoo.com/news/rssindex: 404 Not Found"
@@ -3617,15 +3608,6 @@
         ],
         "STOCKS": [
           {
-            "title": "The hawkish pause, Lula's market meltdown, and the Anthropic IPO bombshell: The financial week in five charts",
-            "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxORzZSdUpvaFdlYlFMUDJUcVRQMktBM2IxSFo5dVlTWXBGZHc3bW9ncElFZHgwYzRGREJ4NlZUM21KSFRxN0pxYUllRkhLVS1tdmZCclF3RGNwVTFTMk42ZUlTUGdiS3Y5b1ZtRDFUNnp0aWlkai1Pd3RyQ29PS1lrRjl0OFpPNnVXSThCUERmNDBoOVhXUHJLVGlvblpUNWMySzE2TUVpenM3Q0k4dHJZZWMzbWtlaHM5ZFpJNUlfQUFyTk53dVVzSndsOXpsRUVnVWs0VG1qN2JVRXVGT3BBa3ln?oc=5",
-            "published": "Fri, 30 Oct 2026 11:51:22 GMT",
-            "source": "Reuters",
-            "provider": "REUTERS",
-            "categories": "",
-            "image": ""
-          },
-          {
             "title": "Mapping the Market: More losses in store for Netflix shares?",
             "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBDQUFvWGxDeWxxUjAtdTFlb2NDVkJheGMyRkNHZzdkTTlMQ0NldnIyMERZWWV0U01KUVZrOG5UN3E0RkZrZFp6S2lvbWZjdE4tN0kydWpKUGRMMmR5dGFEVXloVWhFV2NlUHBsb0M1M2traEhKZ3hmMUhycEo?oc=5",
             "published": "Fri, 30 Oct 2026 10:11:05 GMT",
@@ -3656,15 +3638,6 @@
             "title": "Global stocks hold gains after Fed decision, oil prices rise",
             "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZl9HX1lrU1RCazV4ZHJxc1o3YkwyUXcyWmtXUVZwUjE1X2ZWQ0tCY3hkckptWlRUbVJ5RVB4ZUd3bUtxdktMVXpsSnU2MDlzVmQ0TDhWU0ZyeE1FN1dDSzBFckpNbm1OZVJjWHRZeE1mN1RPOUJXME1UcFNpQVhmSkVRbw?oc=5",
             "published": "Thu, 29 Oct 2026 07:53:01 GMT",
-            "source": "Reuters",
-            "provider": "REUTERS",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "Gold slides as higher US inflation reinforces Fed tightening bets",
-            "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQYlhrT3hjaWJ0VXJlcHYxRUdvdVJsVEpGN2lzQXA4a1pLNW5SdklwTFpMYmRNTGRNQ2w2MTRTR2g0UUJfMkx0c21Ja1Fqbzd4eVk1U1gySHF5cnYwQ0FqUzFWWVVMVXpWaUMtQ3d2VGs1TERHQ0dtbFpMWWgxbVpoVS13bGRORTByVkZaS0piSjNxYTk0eUtoZ0ItV2wxbzNnOXhCM2R1bW1Sa1laZUE?oc=5",
-            "published": "Thu, 29 Oct 2026 04:25:00 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3705,15 +3678,6 @@
             "provider": "REUTERS",
             "categories": "",
             "image": ""
-          },
-          {
-            "title": "Stocks fall, but tech shares steady after selloff; oil hits highest in nearly six months",
-            "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQMG5uTk9BQ2lzbUtHT1k4Nlp4RlRCcXFvVXR5YUhCamhubGQ1SlB0c2FYczVLdl9ESzJBRzdkNmVuYU1ISVc2MndXWnBZTzBDNFdzeHBEQTNPTGU2SGhBTmtKM3Z1SWUxR2szN20yYWIySGIzUXlZcXVhdGNtTlJNMGN1WQ?oc=5",
-            "published": "Fri, 23 Oct 2026 22:52:51 GMT",
-            "source": "Reuters",
-            "provider": "REUTERS",
-            "categories": "",
-            "image": ""
           }
         ]
       },
@@ -3726,7 +3690,7 @@
         },
         "STOCKS": {
           "ok": true,
-          "count": 11,
+          "count": 8,
           "retainedPrevious": 0,
           "errors": [
             "https://www.reuters.com/arc/outboundfeeds/v3/all/?outputType=xml: 404 Not Found"
@@ -3841,5 +3805,5 @@
       }
     }
   },
-  "stocksUpdated": "2026-10-30T22:28:51.653Z"
+  "stocksUpdated": "2026-10-30T22:55:18.946Z"
 }
