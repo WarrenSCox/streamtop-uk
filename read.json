@@ -1,12 +1,12 @@
 {
-  "updated": "2026-10-29T22:51:10.794Z",
+  "updated": "2026-10-30T00:14:26.915Z",
   "charts": {
     "AUDIOBOOKS": [
       {
         "title": "A Court of Splintered Harmony",
         "author": "Sarah J. Maas",
         "narrator": "Elizabeth Evans",
-        "image": "https://m.media-amazon.com/images/I/51WqRCIn0sL._SL500_.jpg"
+        "image": "https://m.media-amazon.com/images/I/51FBqskXJ2L._SL500_.jpg"
       },
       {
         "title": "Bram Stoker's Dracula",
@@ -18,13 +18,13 @@
         "title": "The Witch",
         "author": "Freida McFadden",
         "narrator": "Saskia Maarleveld , Marin Ireland",
-        "image": "https://m.media-amazon.com/images/I/41vExa8IbhL._SL500_.jpg"
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/21/e2/a3/21e2a31c-2e04-6d99-0af9-180a08fa96a2/9798349169328.jpg/600x600bb.jpg"
       },
       {
         "title": "Dungeon Crawler Carl",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://m.media-amazon.com/images/I/51HIZdnqASL._SL500_.jpg"
+        "image": "https://covers.openlibrary.org/b/id/15143022-L.jpg"
       },
       {
         "title": "Her Stepmother's House",
@@ -33,86 +33,86 @@
         "image": "https://m.media-amazon.com/images/I/510J1VMd3QL._SL500_.jpg"
       },
       {
-        "title": "Threshing Day (Wing and Claw Collection)",
-        "author": "Rebecca Yarros",
-        "narrator": "Justis Bolding , Jake Bordeaux , Chase Brown , Frankie Corzo , Giordan Diaz , Teddy Hamilton , Laura Knight Keating , Zion Jang , Nick Mills , Robb Moreira , James Aaron Oh , Anthony Palmini , John Skelley , Jasmin Walker",
-        "image": "https://m.media-amazon.com/images/I/51+hQRgOR2L._SL500_.jpg"
-      },
-      {
         "title": "Carl's Doomsday Scenario",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
         "image": "https://covers.openlibrary.org/b/id/11702962-L.jpg"
       },
       {
+        "title": "Threshing Day (Wing and Claw Collection)",
+        "author": "Rebecca Yarros",
+        "narrator": "Justis Bolding , Jake Bordeaux , Chase Brown , Frankie Corzo , Giordan Diaz , Teddy Hamilton , Laura Knight Keating , Zion Jang , Nick Mills , Robb Moreira , James Aaron Oh , Anthony Palmini , John Skelley , Jasmin Walker",
+        "image": "https://m.media-amazon.com/images/I/51+hQRgOR2L._SL500_.jpg"
+      },
+      {
+        "title": "I Haven&rsquo;t Been Entirely Honest with You",
+        "author": "Miranda Hart",
+        "narrator": "Miranda Hart",
+        "image": ""
+      },
+      {
+        "title": "Bad in Bed",
+        "author": "Ali Hazelwood",
+        "narrator": "Brooke Bloomingdale , Teddy Hamilton , full cast",
+        "image": "https://m.media-amazon.com/images/I/51K1uX7EGGL._SL500_.jpg"
+      },
+      {
         "title": "The Dungeon Anarchist's Cookbook",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays , The Critical Drinker",
         "image": "https://covers.openlibrary.org/b/id/15262048-L.jpg"
-      },
-      {
-        "title": "Threshing Day [Dramatized Adaptation]",
-        "author": "Rebecca Yarros",
-        "narrator": "Full Cast , Gabriel Michael , Torian Brackett , Taylor Coan , Robb Moreira , Henry W. Kramer , Rayner Gabriel , Jessica Schly , James J. Johnson , Casie Platt , Danny Gavigan , Rob McFadyen , Renee Dorian , Belsheber Junior Rusape , GM Hakim",
-        "image": "https://m.media-amazon.com/images/I/51yEO5vfs9L._SL500_.jpg"
-      },
-      {
-        "title": "The Let Them Theory",
-        "author": "Mel Robbins",
-        "narrator": "Mel Robbins",
-        "image": "https://covers.openlibrary.org/b/id/15165806-L.jpg"
       }
     ],
     "BOOKS": [
+      {
+        "title": "Chain Reaction",
+        "author": "Lee Child and 1 more",
+        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978191/9781911754244.jpg"
+      },
+      {
+        "title": "Wild Wicked Mate",
+        "author": "Laurie Gilmore",
+        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978000/9780008834890.jpg"
+      },
+      {
+        "title": "Dead in Three Two One",
+        "author": "Peter James",
+        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978152/9781529090116.jpg"
+      },
       {
         "title": "Adam & Eve",
         "author": "Jeffrey Archer",
         "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978000/9780008640316.jpg"
       },
       {
+        "title": "Is It Too Late to Make a Run for It?",
+        "author": "Judi Dench and 1 more",
+        "image": "http://www.bibdsl.co.uk/bds-images/l/978125/9781250438928.jpg"
+      },
+      {
+        "title": "Grand",
+        "author": "Gromit and 1 more",
+        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978152/9781529990874.jpg"
+      },
+      {
+        "title": "The Best Christmas Ever",
+        "author": "Sarah Morgan",
+        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978000/9780008744632.jpg"
+      },
+      {
+        "title": "Royal Witch",
+        "author": "Philippa Gregory",
+        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978000/9780008745035.jpg"
+      },
+      {
+        "title": "Good Mood Food",
+        "author": "T. D. Spector",
+        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978178/9781787336476.jpg"
+      },
+      {
         "title": "Threshing Day (Limited Deluxe Edition)",
         "author": "Rebecca Yarros",
         "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978034/9780349450612.jpg"
-      },
-      {
-        "title": "The Witch",
-        "author": "Freida McFadden",
-        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978161/9781615958672.jpg"
-      },
-      {
-        "title": "Tempest",
-        "author": "Victoria Aveyard",
-        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978139/9781399622141.jpg"
-      },
-      {
-        "title": "The Midwinter Daughter",
-        "author": "Dilly Court",
-        "image": "http://www.bibdsl.co.uk/bds-images/l/978000/9780008796068.jpg"
-      },
-      {
-        "title": "Quicksilver",
-        "author": "Callie Hart",
-        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978139/9781399745451.jpg"
-      },
-      {
-        "title": "The Heights",
-        "author": "Ian Rankin",
-        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978139/9781398726802.jpg"
-      },
-      {
-        "title": "We Chase Shadows",
-        "author": "Richard Osman",
-        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978024/9780241745892.jpg"
-      },
-      {
-        "title": "Hope Rises",
-        "author": "David Baldacci",
-        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978103/9781035035403.jpg"
-      },
-      {
-        "title": "The Correspondent",
-        "author": "Virginia Evans",
-        "image": "http://www.bibdsl.co.uk/bds-images/l/978024/9780241869895.jpg"
       }
     ]
   },
@@ -123,15 +123,15 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-10-29T22:51:10.794Z",
-      "lastSuccessfulRefresh": "2026-10-29T22:51:10.794Z",
+      "checkedAt": "2026-10-30T00:14:26.915Z",
+      "lastSuccessfulRefresh": "2026-10-30T00:14:26.915Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
-      "status": "stale",
-      "checkedAt": "2026-10-29T22:51:20.308Z",
-      "lastSuccessfulRefresh": "2026-10-29T05:57:55.425Z",
-      "reason": "503 https://www.audible.co.uk/charts/best"
+      "status": "healthy",
+      "checkedAt": "2026-10-30T00:14:36.021Z",
+      "lastSuccessfulRefresh": "2026-10-30T00:14:36.021Z",
+      "reason": ""
     }
   }
 }
