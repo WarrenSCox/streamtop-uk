@@ -1,7 +1,16 @@
 {
-  "updated": "2026-10-31T19:30:09.216Z",
+  "updated": "2026-10-31T21:43:02.986Z",
   "categories": {
     "UK": [
+      {
+        "title": "Man in Belfast charged with possessing explosives and firearms",
+        "link": "https://www.theguardian.com/uk-news/2026/oct/31/man-belfast-charged-possessing-explosives-firearms",
+        "published": "Sat, 31 Oct 2026 20:21:08 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Belfast Northern Ireland UK news",
+        "image": "https://i.guim.co.uk/img/media/4e48c09d31e3042f22134d6be7e8094bd2dd8ce5/0_0_3284_2628/master/3284.jpg?width=140&quality=85&auto=format&fit=max&s=2a76321f0cc6f55e64476f3494d02190"
+      },
       {
         "title": "Donald Trump says he was ‘never particularly attracted’ to his sisters",
         "link": "https://metro.co.uk/2026/10/31/donald-trump-says-never-particularly-attracted-sisters-29755425/",
@@ -57,7 +66,7 @@
         "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_318882824-dfa4.jpg?quality=90&strip=all&w=646"
       },
       {
-        "title": "Man charged in Belfast under Explosives Act and Firearms Order",
+        "title": "Man charged with explosives offences in Belfast",
         "link": "https://news.sky.com/story/man-charged-in-belfast-under-explosives-act-and-firearms-order-13606110",
         "published": "Sat, 31 Oct 2026 14:10:00 +0000",
         "source": "Sky News",
@@ -66,17 +75,8 @@
         "image": "https://e3.365dm.com/26/10/1920x1080/skynews-shankill-road-belfaset_7392289.jpg?20261030212432"
       },
       {
-        "title": "Top BBC journalist ‘offered threesome by minister and his wife’ at party conference",
-        "link": "https://metro.co.uk/2026/10/31/top-bbc-journalist-offered-threesome-minister-wife-party-conference-29755020/",
-        "published": "Sat, 31 Oct 2026 13:29:48 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News Laura Kuenssberg",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_224236215-ceb3.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Dozens arrested for expressing support for Palestine Action at protest",
-        "link": "https://news.sky.com/story/dozens-arrested-for-expressing-support-for-palestine-action-at-protest-13606066",
+        "title": "Police arrest 139 during Palestine Action protest",
+        "link": "https://news.sky.com/story/139-people-arrested-during-protest-in-support-of-palestine-action-13606066",
         "published": "Sat, 31 Oct 2026 10:15:00 +0000",
         "source": "Sky News",
         "provider": "SKY",
@@ -279,15 +279,6 @@
     ],
     "BUSINESS": [
       {
-        "title": "Major bank closes app as customers have until today to switch before service closes",
-        "link": "https://metro.co.uk/2026/10/31/major-bank-closes-app-customers-today-switch-service-closes-29755010/",
-        "published": "Sat, 31 Oct 2026 12:41:54 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News UK",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_306690140-8a88.jpg?quality=90&strip=all&w=646"
-      },
-      {
         "title": "Buyout firm TDR Capital strikes €400m deal to buy Lovehoney",
         "link": "https://news.sky.com/story/buyout-firm-tdr-capital-strikes-400m-deal-to-buy-lovehoney-13606074",
         "published": "Sat, 31 Oct 2026 12:20:00 +0000",
@@ -340,6 +331,15 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/10/1920x1080/skynews-bugatti-chiron-hypercar_7391842.jpg?20261030125706"
+      },
+      {
+        "title": "Yorkshire Water boss resigns after company given lowest environmental rating",
+        "link": "https://news.sky.com/story/yorkshire-water-boss-resigns-after-company-given-lowest-environmental-rating-13605746",
+        "published": "Fri, 30 Oct 2026 12:18:00 +0000",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/10/1920x1080/skynews-baitings-reservoir_7391819.jpg?20261030121106"
       },
       {
         "title": "Royal painters immortalise business heroes saving British high streets",
@@ -463,6 +463,15 @@
     ],
     "ENTERTAINMENT": [
       {
+        "title": "Strictly Come Dancing fans blast Josh Widdicombe’s ‘disappointing’ Halloween outfit",
+        "link": "https://metro.co.uk/2026/10/31/strictly-come-dancing-fans-blast-josh-widdicombes-disappointing-halloween-outfit-29755547/",
+        "published": "Sat, 31 Oct 2026 20:20:38 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Entertainment TV BBC Emma Willis Johannes Radebe Josh Widdicombe Strictly Come Dancing",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/Screenshot-2026-10-31-at-20.09.15-6e58.png?w=646"
+      },
+      {
         "title": "Maya Jama donates Celebrity Traitors prize she ‘would have won’ to chosen charity",
         "link": "https://metro.co.uk/2026/10/31/maya-jama-donates-celebrity-traitors-prize-would-won-charity-29755398/",
         "published": "Sat, 31 Oct 2026 17:23:42 +0000",
@@ -488,15 +497,6 @@
         "provider": "METRO",
         "categories": "Entertainment Showbiz Colin Farrell HBO",
         "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_318840862-d93a.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "David Walliams’s model ex-wife Lara Stone, 42, diagnosed with breast cancer",
-        "link": "https://metro.co.uk/2026/10/31/david-walliamss-model-ex-wife-lara-stone-42-diagnosed-breast-cancer-29755280/",
-        "published": "Sat, 31 Oct 2026 16:17:39 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Entertainment Showbiz Breast Cancer David Walliams Lara Stone",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/comp-1793464026.png?w=646"
       },
       {
         "title": "Actress Selma Blair says she's 'so sorry' in first public remarks since incident on plane",
@@ -555,6 +555,24 @@
     ],
     "STOCKS": [
       {
+        "title": "5 Best Biotech Stocks Under $10 to Buy",
+        "link": "https://finance.yahoo.com/healthcare/articles/5-best-biotech-stocks-under-213041975.html?.tsrc=rss",
+        "published": "Sat, 31 Oct 2026 21:30:41 +0000",
+        "source": "Yahoo Finance",
+        "provider": "YAHOO",
+        "categories": "",
+        "image": ""
+      },
+      {
+        "title": "5 Best Defense Stocks to Buy According to Hedge Funds",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/5-best-defense-stocks-buy-203829039.html?.tsrc=rss",
+        "published": "Sat, 31 Oct 2026 20:38:29 +0000",
+        "source": "Yahoo Finance",
+        "provider": "YAHOO",
+        "categories": "",
+        "image": ""
+      },
+      {
         "title": "3 Underowned S&P 500 Stocks as Investors Rotate Beyond AI",
         "link": "https://finance.yahoo.com/markets/stocks/articles/3-underowned-p-500-stocks-171435079.html?.tsrc=rss",
         "published": "Sat, 31 Oct 2026 17:14:35 +0000",
@@ -582,15 +600,6 @@
         "image": "https://www.twelfthmagpie.com/wp-content/uploads/2021/10/Jar-Of-Pounds.jpg"
       },
       {
-        "title": "'The Fed put is very much back': Wall Street strategists weigh central bank's next move",
-        "link": "https://finance.yahoo.com/markets/article/the-fed-put-is-very-much-back-wall-street-strategists-weigh-central-banks-next-move-155353732.html?.tsrc=rss",
-        "published": "Sat, 31 Oct 2026 15:53:53 +0000",
-        "source": "Yahoo Finance",
-        "provider": "YAHOO",
-        "categories": "",
-        "image": ""
-      },
-      {
         "title": "Want to start investing? 3 things to decide first!",
         "link": "https://www.twelfthmagpie.com/2026/10/31/want-to-start-investing-3-things-to-decide-first/",
         "published": "Sat, 31 Oct 2026 15:48:00 +0000",
@@ -598,15 +607,6 @@
         "provider": "MAGPIE",
         "categories": "Investing Articles Investing For Beginners",
         "image": "https://www.twelfthmagpie.com/wp-content/uploads/2024/07/Commuter-1200x800.jpg"
-      },
-      {
-        "title": "AI enthusiasm is collapsing and tech earnings made it worse",
-        "link": "https://finance.yahoo.com/technology/ai/articles/ai-enthusiasm-collapsing-tech-earnings-130000178.html?.tsrc=rss",
-        "published": "Sat, 31 Oct 2026 13:00:00 +0000",
-        "source": "Yahoo Finance",
-        "provider": "YAHOO",
-        "categories": "",
-        "image": ""
       },
       {
         "title": "How much second income is a realistic target from a £20k ISA?",
@@ -744,7 +744,7 @@
           },
           "REUTERS": {
             "ok": true,
-            "count": 12,
+            "count": 9,
             "retainedPrevious": 0,
             "errors": [
               "https://www.reuters.com/arc/outboundfeeds/v3/all/?outputType=xml: 404 Not Found"
@@ -786,8 +786,8 @@
             "image": "https://e3.365dm.com/26/10/1920x1080/skynews-rahiem-jackson-reema_7392529.jpg?20261031102145"
           },
           {
-            "title": "Dozens arrested for expressing support for Palestine Action at protest",
-            "link": "https://news.sky.com/story/dozens-arrested-for-expressing-support-for-palestine-action-at-protest-13606066",
+            "title": "Police arrest 139 during Palestine Action protest",
+            "link": "https://news.sky.com/story/139-people-arrested-during-protest-in-support-of-palestine-action-13606066",
             "published": "Sat, 31 Oct 2026 10:15:00 +0000",
             "source": "Sky News",
             "provider": "SKY",
@@ -795,7 +795,7 @@
             "image": "https://e3.365dm.com/26/10/1920x1080/skynews-protest-london_7392799.jpg?20261031160338"
           },
           {
-            "title": "Man charged in Belfast under Explosives Act and Firearms Order",
+            "title": "Man charged with explosives offences in Belfast",
             "link": "https://news.sky.com/story/man-charged-in-belfast-under-explosives-act-and-firearms-order-13606110",
             "published": "Sat, 31 Oct 2026 14:10:00 +0000",
             "source": "Sky News",
@@ -903,24 +903,6 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/10/1920x1080/skynews-bugatti-chiron-hypercar_7391842.jpg?20261030125706"
-          },
-          {
-            "title": "AI-powered 'doorbell cameras' tested to alert people to approaching polar bears",
-            "link": "https://news.sky.com/story/ai-powered-doorbell-cameras-tested-to-cut-risk-of-rising-human-encounters-with-polar-bears-13605711",
-            "published": "Fri, 30 Oct 2026 11:49:00 +0000",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/10/1920x1080/skynews-polar-bears-conservation_7391726.jpg?20261030102409"
-          },
-          {
-            "title": "Why Google stock has plunged $500bn in a single day",
-            "link": "https://news.sky.com/story/google-parent-alphabet-takes-500bn-hit-on-ai-worries-13605428",
-            "published": "Thu, 29 Oct 2026 16:06:00 +0000",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/07/1920x1080/skynews-google-logi_7288073.jpg?20260702125749"
           }
         ],
         "POLITICS": [
@@ -1263,7 +1245,7 @@
         },
         "WORLD": {
           "ok": true,
-          "count": 8
+          "count": 6
         },
         "POLITICS": {
           "ok": true,
@@ -1286,6 +1268,15 @@
     "GUARDIAN": {
       "categories": {
         "UK": [
+          {
+            "title": "Man in Belfast charged with possessing explosives and firearms",
+            "link": "https://www.theguardian.com/uk-news/2026/oct/31/man-belfast-charged-possessing-explosives-firearms",
+            "published": "Sat, 31 Oct 2026 20:21:08 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Belfast Northern Ireland UK news",
+            "image": "https://i.guim.co.uk/img/media/4e48c09d31e3042f22134d6be7e8094bd2dd8ce5/0_0_3284_2628/master/3284.jpg?width=140&quality=85&auto=format&fit=max&s=2a76321f0cc6f55e64476f3494d02190"
+          },
           {
             "title": "Almost 140 arrested at protest against Palestine Action ban outside US embassy in London",
             "link": "https://www.theguardian.com/uk-news/2026/oct/31/protest-against-palestine-action-ban-outside-us-embassy-in-london",
@@ -1357,15 +1348,6 @@
             "provider": "GUARDIAN",
             "categories": "UK news England",
             "image": "https://i.guim.co.uk/img/media/875bea51b504b9da71b17961345b808a0dffb6dc/368_0_3839_3072/master/3839.jpg?width=140&quality=85&auto=format&fit=max&s=935d4bde297de1c9ca2cdfaa770c29cb"
-          },
-          {
-            "title": "Avanti West Coast paid out £20m in ‘delay repay’ passenger refunds this summer",
-            "link": "https://www.theguardian.com/business/2026/oct/31/avanti-west-coast-gwr-lner-train-delay-repay-passenger-refunds-compensation",
-            "published": "Sat, 31 Oct 2026 07:00:35 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Rail industry Rail transport Rail fares Consumer rights Consumer affairs Business UK news Transport Money Transport policy",
-            "image": "https://i.guim.co.uk/img/media/4692c4088bfe7c7f3ac12a8e5a25c2807dd74ab8/380_0_7200_5760/master/7200.jpg?width=140&quality=85&auto=format&fit=max&s=6b7ac13f56634c793427dcb03b74dddd"
           },
           {
             "title": "Nigel’s ‘chiselled cheekbones’ make the news – Reform’s the Reformer, digested by John Crace",
@@ -3016,15 +2998,6 @@
             "provider": "METRO",
             "categories": "Food Lifestyle Alcohol Business Drinks London Pubs Wetherspoon",
             "image": "https://metro.co.uk/wp-content/uploads/2026/05/GettyImages-702545309.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Major bank closes app as customers have until today to switch before service closes",
-            "link": "https://metro.co.uk/2026/10/31/major-bank-closes-app-customers-today-switch-service-closes-29755010/",
-            "published": "Sat, 31 Oct 2026 12:41:54 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News UK",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_306690140-8a88.jpg?quality=90&strip=all&w=646"
           }
         ],
         "TECH": [
@@ -3066,6 +3039,15 @@
           }
         ],
         "ENTERTAINMENT": [
+          {
+            "title": "Strictly Come Dancing fans blast Josh Widdicombe’s ‘disappointing’ Halloween outfit",
+            "link": "https://metro.co.uk/2026/10/31/strictly-come-dancing-fans-blast-josh-widdicombes-disappointing-halloween-outfit-29755547/",
+            "published": "Sat, 31 Oct 2026 20:20:38 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment TV BBC Emma Willis Johannes Radebe Josh Widdicombe Strictly Come Dancing",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/Screenshot-2026-10-31-at-20.09.15-6e58.png?w=646"
+          },
           {
             "title": "Maya Jama donates Celebrity Traitors prize she ‘would have won’ to chosen charity",
             "link": "https://metro.co.uk/2026/10/31/maya-jama-donates-celebrity-traitors-prize-would-won-charity-29755398/",
@@ -3236,15 +3218,6 @@
             "provider": "METRO",
             "categories": "Entertainment Showbiz Jesy Nelson",
             "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_318757406-3998-e1793380170839.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Inside Patrick Stewart’s family life including 3 marriages and estranged children",
-            "link": "https://metro.co.uk/2026/10/30/inside-patrick-stewarts-family-life-including-3-marriages-estranged-children-29753926/",
-            "published": "Fri, 30 Oct 2026 16:27:30 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Entertainment Showbiz Patrick Stewart US Showbiz news",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_318661679-cb95.jpg?quality=90&strip=all&w=646"
           }
         ]
       },
@@ -3263,7 +3236,7 @@
         },
         "BUSINESS": {
           "ok": true,
-          "count": 19
+          "count": 18
         },
         "TECH": {
           "ok": false,
@@ -3385,6 +3358,24 @@
         "STOCK_MARKET": [],
         "STOCKS": [
           {
+            "title": "5 Best Biotech Stocks Under $10 to Buy",
+            "link": "https://finance.yahoo.com/healthcare/articles/5-best-biotech-stocks-under-213041975.html?.tsrc=rss",
+            "published": "Sat, 31 Oct 2026 21:30:41 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "5 Best Defense Stocks to Buy According to Hedge Funds",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/5-best-defense-stocks-buy-203829039.html?.tsrc=rss",
+            "published": "Sat, 31 Oct 2026 20:38:29 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
             "title": "3 Underowned S&P 500 Stocks as Investors Rotate Beyond AI",
             "link": "https://finance.yahoo.com/markets/stocks/articles/3-underowned-p-500-stocks-171435079.html?.tsrc=rss",
             "published": "Sat, 31 Oct 2026 17:14:35 +0000",
@@ -3473,24 +3464,6 @@
             "provider": "YAHOO",
             "categories": "",
             "image": ""
-          },
-          {
-            "title": "Okta Set to Join S&P 500; Others to Join S&P MidCap 400 and S&P SmallCap 600",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/okta-set-join-p-500-215100402.html?.tsrc=rss",
-            "published": "Fri, 30 Oct 2026 21:51:00 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "Nasdaq suffers worst month in over a year as AI nerves roil markets",
-            "link": "https://www.cnn.com/2026/10/30/investing/us-stocks-ai-investment?.tsrc=rss",
-            "published": "Fri, 30 Oct 2026 21:35:00 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2302193506.jpg?c=16x9&q=w_800,c_fill"
           }
         ]
       },
@@ -3725,33 +3698,6 @@
             "provider": "REUTERS",
             "categories": "",
             "image": ""
-          },
-          {
-            "title": "Oil prices rise on Yemen fighting, Saudi refinery attack",
-            "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQYUhHblNqOGNPczlpdUR2NDFMWjZxX2FZYjVTTzREX2R4YU5jRzF2ckN1MG9sSnIxWG9hbDJ0TjV4YTZXRjdqSUc3aF9OcTJuUVlJZkZrdUd0V0RMUU1qUWxiNDdmdXhCTmJUczZWOFRUWTRKdzJQLUJYNXZBODhnTjJfOXMyNU01OGVreWM5TkNyamNjbzV5UzAxX3ZOdWcwcUE5SFZHSkEyUjZ1M1dUQ3ByRDdxbC13ZzRQR0xfcTZ0bjh6dnNPalJZRWI?oc=5",
-            "published": "Wed, 28 Oct 2026 18:24:00 GMT",
-            "source": "Reuters",
-            "provider": "REUTERS",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "European stocks rebound as corporate optimism lifts mood ahead of rate decisions",
-            "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPNTNqT1RkY0RsU1oyTkpOUHNVR3V3eDNUckxOSV9QeW1JelM3TjhzTjJ5NmJkcl8tMXFOOVJjVlJhMEtaSmI2RjNqV2VwbW93RWlRanFHZjJJTVg4Qi1jQmQ2ekRpZU1tZzk1Y1BEZDVYNlVzblNtV2loeFkzSHZQWFdTdUFXMjkxSHozRENYZWp3cXBzQ3ZPRTZDaGRrRGNOZzVF?oc=5",
-            "published": "Mon, 26 Oct 2026 17:39:16 GMT",
-            "source": "Reuters",
-            "provider": "REUTERS",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "Brazil stocks, real tumble as Lula win shifts investor focus",
-            "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQN2NwbFFDLVhWTUJuTGZxYkI1YWtMOFNFM29UMndmRUp3V1RzM0wyeTdvS2dzalE3WFRKdUVvWTdpOXVzakNmajA1TFVkX1RmdG5xRmRWUm9pQ1lOMEYwM2tMQVY0emRfdjVWeks3QVBhdWNzVXd4dEN1TE5oc1Q2ZHpOUDE3NmM4bWE0Sk1mS3RSeF9CUUlqdjhkZmJiNFpRWUp3ZTRDb3ZHWkU?oc=5",
-            "published": "Mon, 26 Oct 2026 04:13:21 GMT",
-            "source": "Reuters",
-            "provider": "REUTERS",
-            "categories": "",
-            "image": ""
           }
         ]
       },
@@ -3764,7 +3710,7 @@
         },
         "STOCKS": {
           "ok": true,
-          "count": 12,
+          "count": 9,
           "retainedPrevious": 0,
           "errors": [
             "https://www.reuters.com/arc/outboundfeeds/v3/all/?outputType=xml: 404 Not Found"
@@ -3879,5 +3825,5 @@
       }
     }
   },
-  "stocksUpdated": "2026-10-31T19:30:13.933Z"
+  "stocksUpdated": "2026-10-31T21:43:07.327Z"
 }
