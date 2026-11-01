@@ -1,7 +1,16 @@
 {
-  "updated": "2026-10-31T22:46:16.109Z",
+  "updated": "2026-11-01T02:06:08.371Z",
   "categories": {
     "UK": [
+      {
+        "title": "Flights disrupted after 'illegal and persistent' drone activity near airport",
+        "link": "https://news.sky.com/story/flights-disrupted-after-illegal-and-persistent-drone-activity-near-airport-13606553",
+        "published": "Sun, 01 Nov 2026 00:04:00 +0000",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/11/1920x1080/skynews-jersey-airport_7393581.jpg?20261101001557"
+      },
       {
         "title": "Body of missing 18-year-old found as police investigate ‘unexplained’ death",
         "link": "https://metro.co.uk/2026/10/31/body-missing-18-year-old-found-police-investigate-unexplained-death-29755643/",
@@ -57,15 +66,6 @@
         "image": "https://i.guim.co.uk/img/media/96af588f30bb56de819cd5be243b9f7784fab473/26_0_3540_2832/master/3540.jpg?width=140&quality=85&auto=format&fit=max&s=d361795511aaccc711e179a445804418"
       },
       {
-        "title": "Man dies after stabbing at centre housing migrants",
-        "link": "https://metro.co.uk/2026/10/31/man-dies-stabbing-centre-housing-migrants-29755161/",
-        "published": "Sat, 31 Oct 2026 14:51:39 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News Crime News",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_318882824-dfa4.jpg?quality=90&strip=all&w=646"
-      },
-      {
         "title": "Man charged with explosives offences in Belfast",
         "link": "https://news.sky.com/story/man-charged-in-belfast-under-explosives-act-and-firearms-order-13606110",
         "published": "Sat, 31 Oct 2026 14:10:00 +0000",
@@ -94,6 +94,15 @@
       }
     ],
     "WORLD": [
+      {
+        "title": "Judge dismisses Trump's Wall Street Journal lawsuit",
+        "link": "https://news.sky.com/story/judge-dismisses-trumps-wall-street-journal-lawsuit-13606496",
+        "published": "Sat, 31 Oct 2026 21:17:00 +0000",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/10/1920x1080/skynews-donald-trump-darline-graham_7391141.jpg?20261029173106"
+      },
       {
         "title": "Disquiet grows in Albanese’s back yard as Grayndler artists unite against ‘insane’ AI proposal",
         "link": "https://www.theguardian.com/australia-news/2026/nov/01/artists-against-ai-proposal-anthony-albanese-grayndler-sydney-inner-west",
@@ -147,15 +156,6 @@
         "provider": "GUARDIAN",
         "categories": "Australian politics Anthony Albanese Australian foreign policy Jim Chalmers Interest rates Australia news Commonwealth of Nations Commonwealth summit G20 Slavery Reparations and reparative justice Inflation",
         "image": "https://i.guim.co.uk/img/media/4b53858a08ec9ff575ea7c834cbc4882a68501c4/464_0_4643_3714/master/4643.jpg?width=140&quality=85&auto=format&fit=max&s=ad34ed736d43ef5856062ce6a4093613"
-      },
-      {
-        "title": "US cancels G20 ‘family photo’ after Australia, UK and others refuse to appear with Russia",
-        "link": "https://www.theguardian.com/world/2026/oct/31/us-cancels-g20-family-photo-after-australia-uk-and-others-refuse-to-appear-with-russia",
-        "published": "Sat, 31 Oct 2026 00:29:28 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "G20 Australian foreign policy Russia Australian politics UK news US politics Australia news",
-        "image": "https://i.guim.co.uk/img/media/94e76fb3f040c70be5f1c43fa81c443afb9943dd/1924_1239_3101_2483/master/3101.jpg?width=140&quality=85&auto=format&fit=max&s=6b1eedaa160a8b30de7f331c40f2ceeb"
       },
       {
         "title": "Ebola outbreak kills more than 5,000 people in Democratic Republic of Congo",
@@ -371,6 +371,33 @@
     ],
     "TECH": [
       {
+        "title": "Why I bought Gears Of War: E-Day despite not being a fan of the series – Reader’s Feature",
+        "link": "https://metro.co.uk/2026/11/01/bought-gears-war-e-day-despite-not-a-fan-series-readers-feature-29754710/",
+        "published": "Sun, 01 Nov 2026 02:00:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Entertainment Gaming Gears Of War Reader's Feature Xbox",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_314860733-b947.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Call Of Duty will never die no matter how bad it gets – Reader’s Feature",
+        "link": "https://metro.co.uk/2026/11/01/call-duty-will-never-die-no-matter-bad-gets-readers-feature-29754725/",
+        "published": "Sun, 01 Nov 2026 01:00:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Entertainment Gaming Call of Duty Reader's Feature",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317756902-20e3.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Daily horoscope November 1, 2026: Today’s predictions for your star sign",
+        "link": "https://metro.co.uk/2026/11/01/daily-horoscope-november-1-2026-predictions-star-sign-29751441/",
+        "published": "Sun, 01 Nov 2026 00:01:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Horoscopes Lifestyle Aquarius Aries Astrology Cancer (star sign) Capricorn Gemini Leo Libra Pisces Sagittarius Scorpio Taurus Virgo",
+        "image": "https://metro.co.uk/wp-content/uploads/2023/04/new-horoscope-2023-02-a5db.gif?w=646"
+      },
+      {
         "title": "Majority of funds stolen in cryptocurrency hack replenished, Binance says",
         "link": "https://news.sky.com/story/majority-of-funds-stolen-in-cryptocurrency-hack-replenished-binance-says-13606152",
         "published": "Sat, 31 Oct 2026 14:39:00 +0000",
@@ -407,24 +434,6 @@
         "image": "https://i.guim.co.uk/img/media/7a052dd1015720ea8d19c722dd7b8bcd0586aab3/452_0_4515_3613/master/4515.jpg?width=140&quality=85&auto=format&fit=max&s=caca7d3f30c1eef3ea87cd4a8a986b56"
       },
       {
-        "title": "North Korea is likely culprit behind $6.3bn crypto hack, ‘largest heist in history’",
-        "link": "https://www.theguardian.com/business/2026/oct/29/binance-crypto-exchange-hack",
-        "published": "Fri, 30 Oct 2026 16:35:44 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Binance Cryptocurrencies Business Hacking US news Technology World news North Korea Bitcoin",
-        "image": "https://i.guim.co.uk/img/media/4824d0b9ac9b676f0f7a9915bd1edd46731ae136/366_0_3924_3139/master/3924.jpg?width=140&quality=85&auto=format&fit=max&s=27f44bf7541cca708bf964e7d5dfd1bc"
-      },
-      {
-        "title": "Billionaire tax: how a union leader’s ‘crazy’ idea became the defining issue of California’s midterms",
-        "link": "https://www.theguardian.com/us-news/ng-interactive/2026/oct/30/california-billionaire-tax",
-        "published": "Fri, 30 Oct 2026 15:00:19 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "California Technology US news West Coast The super-rich US politics World news Sergey Brin Media Google Larry Page",
-        "image": "https://i.guim.co.uk/img/media/f84e43fdfd782096ab7cda1b19640357b6b43cb3/299_52_2305_1844/master/2305.jpg?width=140&quality=85&auto=format&fit=max&s=d3e08772ea4eae20d747d5b40f7669cf"
-      },
-      {
         "title": "Meta, TikTok and X lose hearing against UK watchdog over moderation data demands",
         "link": "https://news.sky.com/story/meta-tiktok-and-x-lose-hearing-against-uk-watchdog-over-moderation-data-demands-13605731",
         "published": "Fri, 30 Oct 2026 12:50:00 +0000",
@@ -443,22 +452,13 @@
         "image": "https://e3.365dm.com/26/10/1920x1080/skynews-baitings-reservoir_7391819.jpg?20261030121106"
       },
       {
-        "title": "AI-powered 'doorbell cameras' tested to alert people to approaching polar bears",
-        "link": "https://news.sky.com/story/ai-powered-doorbell-cameras-tested-to-cut-risk-of-rising-human-encounters-with-polar-bears-13605711",
-        "published": "Fri, 30 Oct 2026 11:49:00 +0000",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/10/1920x1080/skynews-polar-bears-conservation_7391726.jpg?20261030102409"
-      },
-      {
-        "title": "Crypto industry suffers 'largest bank heist in human history'",
-        "link": "https://news.sky.com/story/crypto-worth-billions-frozen-over-potential-security-issue-13605627",
-        "published": "Thu, 29 Oct 2026 23:40:00 +0000",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/10/1920x1080/skynews-bitcoin-crypto_7391549.jpg?20261030004210"
+        "title": "North Korea is likely culprit behind $6.3bn crypto hack, ‘largest heist in history’",
+        "link": "https://www.theguardian.com/business/2026/oct/29/binance-crypto-exchange-hack",
+        "published": "Fri, 30 Oct 2026 16:35:44 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Binance Cryptocurrencies Business Hacking US news Technology World news North Korea Bitcoin",
+        "image": "https://i.guim.co.uk/img/media/4824d0b9ac9b676f0f7a9915bd1edd46731ae136/366_0_3924_3139/master/3924.jpg?width=140&quality=85&auto=format&fit=max&s=27f44bf7541cca708bf964e7d5dfd1bc"
       }
     ],
     "ENTERTAINMENT": [
@@ -696,11 +696,10 @@
         "status": "healthy",
         "liveProviders": [
           "SKY",
-          "GUARDIAN"
-        ],
-        "failedProviders": [
+          "GUARDIAN",
           "METRO"
         ],
+        "failedProviders": [],
         "retainedPrevious": 0,
         "count": 10
       },
@@ -766,6 +765,15 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/10/1920x1080/skynews-andy-bunrham-brexit_7387656.jpg?20261026103048"
+          },
+          {
+            "title": "Flights disrupted after 'illegal and persistent' drone activity near airport",
+            "link": "https://news.sky.com/story/flights-disrupted-after-illegal-and-persistent-drone-activity-near-airport-13606553",
+            "published": "Sun, 01 Nov 2026 00:04:00 +0000",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/11/1920x1080/skynews-jersey-airport_7393581.jpg?20261101001557"
           },
           {
             "title": "Virgin Media O2 to axe thousands of jobs in sweeping shake-up",
@@ -838,15 +846,6 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/10/1920x1080/skynews-shankill-road-belfaset_7392289.jpg?20261030212432"
-          },
-          {
-            "title": "Three explosive devices found as police detain man and woman",
-            "link": "https://news.sky.com/story/three-explosive-devices-found-after-police-called-to-neighbour-row-in-brentwood-13605700",
-            "published": "Fri, 30 Oct 2026 09:59:00 +0000",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/10/1920x1080/skynews-sawyers-grove-brentwood_7391903.jpg?20261030142349"
           }
         ],
         "WORLD": [
@@ -867,6 +866,15 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/10/1920x1080/skynews-richard-teng-binance_7391659.jpg?20261030085901"
+          },
+          {
+            "title": "Judge dismisses Trump's Wall Street Journal lawsuit",
+            "link": "https://news.sky.com/story/judge-dismisses-trumps-wall-street-journal-lawsuit-13606496",
+            "published": "Sat, 31 Oct 2026 21:17:00 +0000",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/10/1920x1080/skynews-donald-trump-darline-graham_7391141.jpg?20261029173106"
           },
           {
             "title": "G20 photocall axed after Miliband and other ministers refuse to be pictured with top Russian diplomat",
@@ -894,15 +902,6 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/10/1920x1080/skynews-bitcoin-crypto_7391549.jpg?20261030004210"
-          },
-          {
-            "title": "Bugatti CEO chases down car thief - then offers him lift home",
-            "link": "https://news.sky.com/story/bugattis-ceo-mate-rimac-chases-down-car-thief-then-offers-him-lift-home-13605756",
-            "published": "Fri, 30 Oct 2026 14:52:00 +0000",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/10/1920x1080/skynews-bugatti-chiron-hypercar_7391842.jpg?20261030125706"
           }
         ],
         "POLITICS": [
@@ -3002,36 +3001,27 @@
         ],
         "TECH": [
           {
-            "title": "The 15 most terrifying horror films set at Halloween and where to watch them",
-            "link": "https://metro.co.uk/2026/10/31/the-15-most-terrifying-horror-films-set-at-halloween-and-where-to-watch-them-29737764/",
-            "published": "Sat, 31 Oct 2026 07:00:00 +0000",
+            "title": "Why I bought Gears Of War: E-Day despite not being a fan of the series – Reader’s Feature",
+            "link": "https://metro.co.uk/2026/11/01/bought-gears-war-e-day-despite-not-a-fan-series-readers-feature-29754710/",
+            "published": "Sun, 01 Nov 2026 02:00:00 +0000",
             "source": "Metro",
             "provider": "METRO",
-            "categories": "Entertainment Film Amazon Prime Video Apple TV BBC Halloween HBO Horror movies and TV shows Movies Paramount Plus Sky",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_318272463-b5d0.jpg?quality=90&strip=all&w=646"
+            "categories": "Entertainment Gaming Gears Of War Reader's Feature Xbox",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_314860733-b947.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Why EA killed my favourite developer (and I don’t mean BioWare) – Reader’s Feature",
-            "link": "https://metro.co.uk/2026/10/31/ea-killed-favourite-developer-dont-mean-bioware-readers-feature-29754684/",
-            "published": "Sat, 31 Oct 2026 02:00:00 +0000",
+            "title": "Call Of Duty will never die no matter how bad it gets – Reader’s Feature",
+            "link": "https://metro.co.uk/2026/11/01/call-duty-will-never-die-no-matter-bad-gets-readers-feature-29754725/",
+            "published": "Sun, 01 Nov 2026 01:00:00 +0000",
             "source": "Metro",
             "provider": "METRO",
-            "categories": "Entertainment Gaming EA Reader's Feature World of Warcraft",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_318821755-3a02.jpg?quality=90&strip=all&w=646"
+            "categories": "Entertainment Gaming Call of Duty Reader's Feature",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317756902-20e3.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Horror video games will always be scarier than movies – Reader’s Feature",
-            "link": "https://metro.co.uk/2026/10/31/horror-video-games-will-always-scarier-movies-readers-feature-29754675/",
-            "published": "Sat, 31 Oct 2026 01:00:00 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Entertainment Gaming Reader's Feature Resident Evil Silent Hill Survival Horror Games",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEC_313795587-3db5.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Daily horoscope October 31, 2026: Today’s predictions for your star sign",
-            "link": "https://metro.co.uk/2026/10/31/daily-horoscope-october-31-2026-predictions-star-sign-29751438/",
-            "published": "Sat, 31 Oct 2026 00:01:00 +0000",
+            "title": "Daily horoscope November 1, 2026: Today’s predictions for your star sign",
+            "link": "https://metro.co.uk/2026/11/01/daily-horoscope-november-1-2026-predictions-star-sign-29751441/",
+            "published": "Sun, 01 Nov 2026 00:01:00 +0000",
             "source": "Metro",
             "provider": "METRO",
             "categories": "Horoscopes Lifestyle Aquarius Aries Astrology Cancer (star sign) Capricorn Gemini Leo Libra Pisces Sagittarius Scorpio Taurus Virgo",
@@ -3239,9 +3229,8 @@
           "count": 18
         },
         "TECH": {
-          "ok": false,
-          "count": 0,
-          "reason": "No correctly classified live stories"
+          "ok": true,
+          "count": 3
         },
         "ENTERTAINMENT": {
           "ok": true,
@@ -3664,18 +3653,9 @@
             "image": ""
           },
           {
-            "title": "Origin shares rise as quarterly APLNG revenue jumps 34% on higher LNG prices",
-            "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNRnR5UFd3NnROR3ZaV21idm1TVU1taVJsRTM1ajRsRDBqWW1FOVhKejB5dWJmYk1taUU0b1lpWWduVUpFUDdnQkJDWXhhVU1fYUZPMXMwQ3B2YnhybDE3S3FveEd3Z0JqODVyYmFvMkY5R1VnbE44N3pyTEtBM2d5bjZmZ0FQaTduRGhaWURHb2U0a2ctWGRLQTdPTmxPaTdDNFR4ZUxsSGNZQmdqX2RuQ2p0cDgyU2ROc3Y4RXFrWTZna3BFTXcyaw?oc=5",
-            "published": "Thu, 29 Oct 2026 21:45:00 GMT",
-            "source": "Reuters",
-            "provider": "REUTERS",
-            "categories": "",
-            "image": ""
-          },
-          {
             "title": "Intel shares tumble after hours, hit by chip supply constraints, big cash burn",
             "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbEgxampOc0U5RENJWVd0a09uQjlFSkxueGxGVzVPX2NwdElzNDN3WXdjVFpvelNULXVObnMzTTJzb0ZfeFBtN1ZOQ0FVNXRuN0ZINkF0dWZkZlR6ZlkzUE5wQWpPTWg3dGtDLURwRl9OU0ZEb1UtejNBbC1KMnVWbmJ5OHQxWTBoU1I3cFduaXAyOHFBVkFIYjhCNXR1c0EyM2xlZFZNWFM?oc=5",
-            "published": "Thu, 29 Oct 2026 20:02:00 GMT",
+            "published": "Fri, 30 Oct 2026 00:11:58 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3694,6 +3674,15 @@
             "title": "Stocks rise ahead of tech earnings, Fed decision",
             "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQdEdzTDdxbEtNX1l6VDJMdF9NTGpUNEJPYy1jaUo2SkllaGhJZnZvNzZOOTd5MkZHV3p5T2ZhcjlkcWduOXp5elFKREQ0bFBib0pXUzNKdGI2QmE3eWZxRlktZXhSZG0tQzQ4U1dXNWxOZktiZVZvc1pNUERsYUFLVUJYSQ?oc=5",
             "published": "Wed, 28 Oct 2026 21:19:39 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "European stocks rebound as corporate optimism lifts mood ahead of rate decisions",
+            "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPNTNqT1RkY0RsU1oyTkpOUHNVR3V3eDNUckxOSV9QeW1JelM3TjhzTjJ5NmJkcl8tMXFOOVJjVlJhMEtaSmI2RjNqV2VwbW93RWlRanFHZjJJTVg4Qi1jQmQ2ekRpZU1tZzk1Y1BEZDVYNlVzblNtV2loeFkzSHZQWFdTdUFXMjkxSHozRENYZWp3cXBzQ3ZPRTZDaGRrRGNOZzVF?oc=5",
+            "published": "Mon, 26 Oct 2026 17:39:16 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3825,5 +3814,5 @@
       }
     }
   },
-  "stocksUpdated": "2026-10-31T22:46:21.632Z"
+  "stocksUpdated": "2026-11-01T02:06:13.188Z"
 }
