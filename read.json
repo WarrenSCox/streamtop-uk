@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-01T16:16:53.502Z",
+  "updated": "2026-11-01T17:58:47.950Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -18,7 +18,7 @@
         "title": "The Witch",
         "author": "Freida McFadden",
         "narrator": "Saskia Maarleveld , Marin Ireland",
-        "image": "https://m.media-amazon.com/images/I/41vExa8IbhL._SL500_.jpg"
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/21/e2/a3/21e2a31c-2e04-6d99-0af9-180a08fa96a2/9798349169328.jpg/600x600bb.jpg"
       },
       {
         "title": "Dungeon Crawler Carl",
@@ -27,28 +27,28 @@
         "image": "https://covers.openlibrary.org/b/id/15143022-L.jpg"
       },
       {
-        "title": "The Oscar Wilde BBC Radio Drama Collection",
-        "author": "Oscar Wilde",
-        "narrator": "Miriam Margolyes , Judi Dench , Diana Rigg , Michael Sheen , full cast , Martin Jarvis , Martin Clunes , Ian McKellen , Stephen Fry , Simon Russell Beale",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/ea/59/84/ea598438-bafb-bc41-8022-bfa1ab186d47/9781787534698.jpg/600x600bb.jpg"
-      },
-      {
         "title": "Her Stepmother's House",
         "author": "K. L. Slater",
         "narrator": "Clare Corbett",
         "image": "https://m.media-amazon.com/images/I/510J1VMd3QL._SL500_.jpg"
       },
       {
-        "title": "Carl's Doomsday Scenario",
-        "author": "Matt Dinniman",
-        "narrator": "Jeff Hays",
-        "image": "https://covers.openlibrary.org/b/id/11702962-L.jpg"
-      },
-      {
         "title": "Bad in Bed",
         "author": "Ali Hazelwood",
         "narrator": "Brooke Bloomingdale , Teddy Hamilton , full cast",
         "image": "https://m.media-amazon.com/images/I/51K1uX7EGGL._SL500_.jpg"
+      },
+      {
+        "title": "The Oscar Wilde BBC Radio Drama Collection",
+        "author": "Oscar Wilde",
+        "narrator": "Miriam Margolyes , Judi Dench , Diana Rigg , Michael Sheen , full cast , Martin Jarvis , Martin Clunes , Ian McKellen , Stephen Fry , Simon Russell Beale",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/ea/59/84/ea598438-bafb-bc41-8022-bfa1ab186d47/9781787534698.jpg/600x600bb.jpg"
+      },
+      {
+        "title": "Carl's Doomsday Scenario",
+        "author": "Matt Dinniman",
+        "narrator": "Jeff Hays",
+        "image": "https://covers.openlibrary.org/b/id/11702962-L.jpg"
       },
       {
         "title": "I Haven&rsquo;t Been Entirely Honest with You",
@@ -123,15 +123,15 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-11-01T16:16:53.502Z",
-      "lastSuccessfulRefresh": "2026-11-01T16:16:53.502Z",
+      "checkedAt": "2026-11-01T17:58:47.950Z",
+      "lastSuccessfulRefresh": "2026-11-01T17:58:47.950Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
-      "status": "stale",
-      "checkedAt": "2026-11-01T16:17:02.383Z",
-      "lastSuccessfulRefresh": "2026-11-01T09:08:17.505Z",
-      "reason": "503 https://www.audible.co.uk/charts/best"
+      "status": "healthy",
+      "checkedAt": "2026-11-01T17:58:57.139Z",
+      "lastSuccessfulRefresh": "2026-11-01T17:58:57.139Z",
+      "reason": ""
     }
   }
 }
