@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-01T06:20:23.182Z",
+  "updated": "2026-11-01T09:08:09.421Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -12,13 +12,13 @@
         "title": "Bram Stoker's Dracula",
         "author": "Bram Stoker",
         "narrator": "Jonathan Bailey , Ella Purnell , Aimee Lou Wood , Louis Partridge , David Jonsson , Johnny Flynn , Lesley Manville , Maggie Gyllenhaal",
-        "image": "https://m.media-amazon.com/images/I/51nLhYS-rhL._SL500_.jpg"
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/03/85/a8/0385a8b0-667d-baed-8423-132574f5a40f/9781785752292.png/600x600bb.jpg"
       },
       {
         "title": "The Witch",
         "author": "Freida McFadden",
         "narrator": "Saskia Maarleveld , Marin Ireland",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/21/e2/a3/21e2a31c-2e04-6d99-0af9-180a08fa96a2/9798349169328.jpg/600x600bb.jpg"
+        "image": "https://m.media-amazon.com/images/I/41vExa8IbhL._SL500_.jpg"
       },
       {
         "title": "Dungeon Crawler Carl",
@@ -30,7 +30,7 @@
         "title": "The Oscar Wilde BBC Radio Drama Collection",
         "author": "Oscar Wilde",
         "narrator": "Miriam Margolyes , Judi Dench , Diana Rigg , Michael Sheen , full cast , Martin Jarvis , Martin Clunes , Ian McKellen , Stephen Fry , Simon Russell Beale",
-        "image": "https://m.media-amazon.com/images/I/51QVE1-tTiL._SL500_.jpg"
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/ea/59/84/ea598438-bafb-bc41-8022-bfa1ab186d47/9781787534698.jpg/600x600bb.jpg"
       },
       {
         "title": "Her Stepmother's House",
@@ -60,7 +60,7 @@
         "title": "The Dungeon Anarchist's Cookbook",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays , The Critical Drinker",
-        "image": "https://m.media-amazon.com/images/I/518nfG1FaYL._SL500_.jpg"
+        "image": "https://covers.openlibrary.org/b/id/15262048-L.jpg"
       }
     ],
     "BOOKS": [
@@ -123,14 +123,14 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-11-01T06:20:23.182Z",
-      "lastSuccessfulRefresh": "2026-11-01T06:20:23.182Z",
+      "checkedAt": "2026-11-01T09:08:09.421Z",
+      "lastSuccessfulRefresh": "2026-11-01T09:08:09.421Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-11-01T06:20:32.713Z",
-      "lastSuccessfulRefresh": "2026-11-01T06:20:32.713Z",
+      "checkedAt": "2026-11-01T09:08:17.505Z",
+      "lastSuccessfulRefresh": "2026-11-01T09:08:17.505Z",
       "reason": ""
     }
   }
