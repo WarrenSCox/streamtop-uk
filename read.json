@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-01T22:10:03.320Z",
+  "updated": "2026-11-02T00:34:30.012Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -12,7 +12,7 @@
         "title": "Bram Stoker's Dracula",
         "author": "Bram Stoker",
         "narrator": "Jonathan Bailey , Ella Purnell , Aimee Lou Wood , Louis Partridge , David Jonsson , Johnny Flynn , Lesley Manville , Maggie Gyllenhaal",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/03/85/a8/0385a8b0-667d-baed-8423-132574f5a40f/9781785752292.png/600x600bb.jpg"
+        "image": "https://m.media-amazon.com/images/I/51nLhYS-rhL._SL500_.jpg"
       },
       {
         "title": "The Witch",
@@ -39,16 +39,10 @@
         "image": "https://m.media-amazon.com/images/I/51K1uX7EGGL._SL500_.jpg"
       },
       {
-        "title": "The Oscar Wilde BBC Radio Drama Collection",
-        "author": "Oscar Wilde",
-        "narrator": "Miriam Margolyes , Judi Dench , Diana Rigg , Michael Sheen , full cast , Martin Jarvis , Martin Clunes , Ian McKellen , Stephen Fry , Simon Russell Beale",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/ea/59/84/ea598438-bafb-bc41-8022-bfa1ab186d47/9781787534698.jpg/600x600bb.jpg"
-      },
-      {
         "title": "Carl's Doomsday Scenario",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://covers.openlibrary.org/b/id/11702962-L.jpg"
+        "image": "https://m.media-amazon.com/images/I/51e1PKKdv8L._SL500_.jpg"
       },
       {
         "title": "I Haven&rsquo;t Been Entirely Honest with You",
@@ -60,7 +54,13 @@
         "title": "The Dungeon Anarchist's Cookbook",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays , The Critical Drinker",
-        "image": "https://covers.openlibrary.org/b/id/15262048-L.jpg"
+        "image": "https://m.media-amazon.com/images/I/518nfG1FaYL._SL500_.jpg"
+      },
+      {
+        "title": "The Oscar Wilde BBC Radio Drama Collection",
+        "author": "Oscar Wilde",
+        "narrator": "Miriam Margolyes , Judi Dench , Diana Rigg , Michael Sheen , full cast , Martin Jarvis , Martin Clunes , Ian McKellen , Stephen Fry , Simon Russell Beale",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/ea/59/84/ea598438-bafb-bc41-8022-bfa1ab186d47/9781787534698.jpg/600x600bb.jpg"
       }
     ],
     "BOOKS": [
@@ -123,15 +123,15 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-11-01T22:10:03.320Z",
-      "lastSuccessfulRefresh": "2026-11-01T22:10:03.320Z",
+      "checkedAt": "2026-11-02T00:34:30.012Z",
+      "lastSuccessfulRefresh": "2026-11-02T00:34:30.012Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
-      "status": "stale",
-      "checkedAt": "2026-11-01T22:10:11.958Z",
-      "lastSuccessfulRefresh": "2026-11-01T17:58:57.139Z",
-      "reason": "503 https://www.audible.co.uk/charts/best"
+      "status": "healthy",
+      "checkedAt": "2026-11-02T00:34:38.134Z",
+      "lastSuccessfulRefresh": "2026-11-02T00:34:38.134Z",
+      "reason": ""
     }
   }
 }
