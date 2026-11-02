@@ -1,7 +1,16 @@
 {
-  "updated": "2026-11-02T06:21:28.871Z",
+  "updated": "2026-11-02T06:45:11.502Z",
   "categories": {
     "UK": [
+      {
+        "title": "Millions of Ukrainians sent false nuclear attack warning in suspected hack",
+        "link": "https://metro.co.uk/2026/11/02/millions-ukrainians-sent-false-nuclear-attack-warning-suspected-hack-29757281/",
+        "published": "Mon, 02 Nov 2026 06:38:41 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News World Russia Russia-Ukraine war Ukraine",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_316042199-0f4a.jpg?quality=90&strip=all&w=646"
+      },
       {
         "title": "World’s largest early warning system for severe child illness to launch in NHS A&Es across England",
         "link": "https://www.theguardian.com/society/2026/nov/02/nhs-early-warning-system-child-illness-england",
@@ -37,15 +46,6 @@
         "provider": "METRO",
         "categories": "News UK Fertility Health News",
         "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_318889601-9607-e1793463548397.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Counsellors and psychotherapists call for UK statutory regulation in ‘watershed moment’",
-        "link": "https://www.theguardian.com/society/2026/nov/02/counsellors-psychotherapists-statutory-regulation-uk-professional-bodies",
-        "published": "Mon, 02 Nov 2026 05:01:31 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Counselling and therapy Psychiatry Society Politics UK news",
-        "image": "https://i.guim.co.uk/img/media/f91802e46ea43b45712c041b8764bf2ae1d833af/424_0_6042_4836/master/6042.jpg?width=140&quality=85&auto=format&fit=max&s=2c5868c78093f3e81f4025402603bd7c"
       },
       {
         "title": "Home secretary to announce new immigration rules - here's what could happen",
@@ -84,16 +84,34 @@
         "image": "https://e3.365dm.com/26/11/1920x1080/skynews-sheerness-kent_7394075.png?20261101175032"
       },
       {
-        "title": "Five teenage boys seriously injured after being stabbed at party on Halloween",
-        "link": "https://news.sky.com/story/five-teenage-boys-seriously-injured-after-they-were-stabbed-at-party-on-halloween-13606578",
-        "published": "Sun, 01 Nov 2026 13:09:00 +0000",
+        "title": "Suspected far-right activists from Britain 'with tear gas bombs' detained in France",
+        "link": "https://news.sky.com/story/suspected-far-right-activists-from-britain-with-tear-gas-bombs-detained-in-france-say-authorities-13606604",
+        "published": "Sun, 01 Nov 2026 12:09:00 +0000",
         "source": "Sky News",
         "provider": "SKY",
         "categories": "",
-        "image": "https://e3.365dm.com/26/11/1920x1080/skynews-hampshire-chandlers-ford_7393918.jpg?20261101154952"
+        "image": "https://e3.365dm.com/26/11/1920x1080/skynews-france-police-officers_7393706.jpg?20261101104422"
       }
     ],
     "WORLD": [
+      {
+        "title": "Millions of Ukrainians sent false nuclear attack warning in suspected hack",
+        "link": "https://metro.co.uk/2026/11/02/millions-ukrainians-sent-false-nuclear-attack-warning-suspected-hack-29757281/",
+        "published": "Mon, 02 Nov 2026 06:38:41 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News World Russia Russia-Ukraine war Ukraine",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_316042199-0f4a.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Police use facial recognition to scan one million faces in WA trial leading to 122 arrests",
+        "link": "https://www.theguardian.com/australia-news/2026/nov/02/wa-police-facial-recognition-technology-trial",
+        "published": "Mon, 02 Nov 2026 06:12:52 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Western Australia Australian police and policing Facial recognition AI (artificial intelligence) Australia news Technology",
+        "image": "https://i.guim.co.uk/img/media/52be4530d7e3640e661d83a08791923838efe95f/514_0_5031_4024/master/5031.jpg?width=140&quality=85&auto=format&fit=max&s=41de7dd66d7ff4ac769757dd305e4700"
+      },
       {
         "title": "Minns warns expected RBA rate rise will see ‘shops close that don’t reopen’ as pressure mounts on PM",
         "link": "https://www.theguardian.com/australia-news/2026/nov/02/minns-warns-rba-rate-rise-job-losses-economy",
@@ -111,24 +129,6 @@
         "provider": "GUARDIAN",
         "categories": "Victoria Australian law Australia news",
         "image": "https://i.guim.co.uk/img/media/5ab78f3b8f5d85023ac39d3269789b0d203f9630/0_0_2500_2000/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=202df95a93e5dda08868061f40aa00c8"
-      },
-      {
-        "title": "Million-dollar fish caught by Darwin man ‘just fishing and talking’ at night with brother",
-        "link": "https://www.theguardian.com/australia-news/2026/nov/02/million-dollar-fish-caught-by-darwin-man-just-fishing-and-talking-at-night-with-brother",
-        "published": "Mon, 02 Nov 2026 03:45:51 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Northern Territory Fishing Darwin Australia news",
-        "image": "https://i.guim.co.uk/img/media/ddb26d13586cebdeffd91958c6db0cc4953da41b/181_0_1119_895/master/1119.jpg?width=140&quality=85&auto=format&fit=max&s=2b76ba54514e6a805506dc197de26dd6"
-      },
-      {
-        "title": "Police use facial recognition to scan one million faces in WA trial leading to 122 arrests",
-        "link": "https://www.theguardian.com/australia-news/2026/nov/02/wa-police-facial-recognition-technology-trial",
-        "published": "Mon, 02 Nov 2026 02:02:34 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Western Australia Australian police and policing Facial recognition AI (artificial intelligence) Australia news Technology",
-        "image": "https://i.guim.co.uk/img/media/52be4530d7e3640e661d83a08791923838efe95f/514_0_5031_4024/master/5031.jpg?width=140&quality=85&auto=format&fit=max&s=41de7dd66d7ff4ac769757dd305e4700"
       },
       {
         "title": "Phantom Blade Zero composer reveals why his music is ‘offensive’ in China",
@@ -555,6 +555,15 @@
     ],
     "STOCKS": [
       {
+        "title": "EXCLUSIVE: India markets regulator backs removal of long-term capital gains tax for foreign investors, sources say",
+        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNMzZGZDRyZ3dzMWVMcEp4bmVRbGNoRFdhODFvSDFjZmplU1VDRXNleUs1MElLczNVRHN5WS0xc2phWXFZaktGQ1pqelBPbjRfeWRLSFBqajEzRU43bWxpUkZtNVM4VGs0LVVUMzVlbW13X0FGZlJLWWZDZmpscXV4NVBNemxXZ2RhZEozakVfRlNWb3E0MTlEYlhveXRZVHVmeUozNkJ4RjBBQTR2TUt2QnJZajV1SVRMZUEyMG5n?oc=5",
+        "published": "Mon, 02 Nov 2026 06:38:00 GMT",
+        "source": "Reuters",
+        "provider": "REUTERS",
+        "categories": "",
+        "image": ""
+      },
+      {
         "title": "Aktsiaselts Infortar own share acquisition transactions",
         "link": "https://uk.finance.yahoo.com/news/aktsiaselts-infortar-own-share-acquisition-060000276.html?.tsrc=rss",
         "published": "Mon, 02 Nov 2026 06:00:00 +0000",
@@ -585,15 +594,6 @@
         "title": "Stock futures jump ahead of a monster week after a $5 trillion AI rout",
         "link": "https://finance.yahoo.com/markets/article/stock-futures-jump-ahead-of-a-monster-week-after-a-5-trillion-ai-rout-021203996.html?.tsrc=rss",
         "published": "Sun, 01 Nov 2026 23:25:00 +0000",
-        "source": "Yahoo Finance",
-        "provider": "YAHOO",
-        "categories": "",
-        "image": ""
-      },
-      {
-        "title": "The Big Money Poll Shows Investors as Divided as America",
-        "link": "https://uk.finance.yahoo.com/m/ed866a6d-9ab0-3639-93f4-3a5dadd447c3/the-big-money-poll-shows.html?.tsrc=rss",
-        "published": "Sun, 01 Nov 2026 21:23:00 +0000",
         "source": "Yahoo Finance",
         "provider": "YAHOO",
         "categories": "",
@@ -758,15 +758,6 @@
       "categories": {
         "UK": [
           {
-            "title": "Five teenage boys seriously injured after being stabbed at party on Halloween",
-            "link": "https://news.sky.com/story/five-teenage-boys-seriously-injured-after-they-were-stabbed-at-party-on-halloween-13606578",
-            "published": "Sun, 01 Nov 2026 13:09:00 +0000",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/11/1920x1080/skynews-hampshire-chandlers-ford_7393918.jpg?20261101154952"
-          },
-          {
             "title": "Home secretary to announce new immigration rules - here's what could happen",
             "link": "https://news.sky.com/story/home-secretary-to-announce-new-immigration-rules-13606832",
             "published": "Sun, 01 Nov 2026 21:30:00 +0000",
@@ -846,6 +837,15 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/10/1920x1080/skynews-protest-london_7392799.jpg?20261031160338"
+          },
+          {
+            "title": "Man charged with explosives offences in Belfast",
+            "link": "https://news.sky.com/story/man-charged-in-belfast-under-explosives-act-and-firearms-order-13606110",
+            "published": "Sat, 31 Oct 2026 14:10:00 +0000",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/10/1920x1080/skynews-shankill-road-belfaset_7392289.jpg?20261030212432"
           }
         ],
         "WORLD": [
@@ -1594,6 +1594,15 @@
             "image": "https://i.guim.co.uk/img/media/c089e593b51b58d6c2c6c9db1d4664acb5ca046c/445_373_1136_910/master/1136.jpg?width=140&quality=85&auto=format&fit=max&s=6e2d03692b62475af646432b9eec9eb0"
           },
           {
+            "title": "Police use facial recognition to scan one million faces in WA trial leading to 122 arrests",
+            "link": "https://www.theguardian.com/australia-news/2026/nov/02/wa-police-facial-recognition-technology-trial",
+            "published": "Mon, 02 Nov 2026 06:12:52 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Western Australia Australian police and policing Facial recognition AI (artificial intelligence) Australia news Technology",
+            "image": "https://i.guim.co.uk/img/media/52be4530d7e3640e661d83a08791923838efe95f/514_0_5031_4024/master/5031.jpg?width=140&quality=85&auto=format&fit=max&s=41de7dd66d7ff4ac769757dd305e4700"
+          },
+          {
             "title": "Minns warns expected RBA rate rise will see ‘shops close that don’t reopen’ as pressure mounts on PM",
             "link": "https://www.theguardian.com/australia-news/2026/nov/02/minns-warns-rba-rate-rise-job-losses-economy",
             "published": "Mon, 02 Nov 2026 06:08:33 GMT",
@@ -1619,15 +1628,6 @@
             "provider": "GUARDIAN",
             "categories": "Northern Territory Fishing Darwin Australia news",
             "image": "https://i.guim.co.uk/img/media/ddb26d13586cebdeffd91958c6db0cc4953da41b/181_0_1119_895/master/1119.jpg?width=140&quality=85&auto=format&fit=max&s=2b76ba54514e6a805506dc197de26dd6"
-          },
-          {
-            "title": "Police use facial recognition to scan one million faces in WA trial leading to 122 arrests",
-            "link": "https://www.theguardian.com/australia-news/2026/nov/02/wa-police-facial-recognition-technology-trial",
-            "published": "Mon, 02 Nov 2026 02:02:34 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Western Australia Australian police and policing Facial recognition AI (artificial intelligence) Australia news Technology",
-            "image": "https://i.guim.co.uk/img/media/52be4530d7e3640e661d83a08791923838efe95f/514_0_5031_4024/master/5031.jpg?width=140&quality=85&auto=format&fit=max&s=41de7dd66d7ff4ac769757dd305e4700"
           },
           {
             "title": "Pauline Hanson and James Ashby rule out running against Nationals leader Matt Canavan in Capricornia",
@@ -2399,6 +2399,15 @@
       "categories": {
         "UK": [
           {
+            "title": "Millions of Ukrainians sent false nuclear attack warning in suspected hack",
+            "link": "https://metro.co.uk/2026/11/02/millions-ukrainians-sent-false-nuclear-attack-warning-suspected-hack-29757281/",
+            "published": "Mon, 02 Nov 2026 06:38:41 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News World Russia Russia-Ukraine war Ukraine",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_316042199-0f4a.jpg?quality=90&strip=all&w=646"
+          },
+          {
             "title": "600,000 men are taking ‘unregulated’ steroids which ruin fertility",
             "link": "https://metro.co.uk/2026/11/02/600-000-men-taking-unregulated-steroids-ruin-fertility-29755211/",
             "published": "Mon, 02 Nov 2026 06:00:00 +0000",
@@ -2568,18 +2577,18 @@
             "provider": "METRO",
             "categories": "News World Iran RAF and Red Arrows Royal Navy",
             "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_319031959-71ac.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "British university professor confirmed dead in Spanish train crash that killed at least 69",
-            "link": "https://metro.co.uk/2026/11/01/british-university-professor-confirmed-dead-spanish-train-crash-killed-least-69-29755806/",
-            "published": "Sun, 01 Nov 2026 09:28:28 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News World Crash Rail Spain",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_319028106-7863-e1793524711574.jpg?quality=90&strip=all&w=646"
           }
         ],
         "WORLD": [
+          {
+            "title": "Millions of Ukrainians sent false nuclear attack warning in suspected hack",
+            "link": "https://metro.co.uk/2026/11/02/millions-ukrainians-sent-false-nuclear-attack-warning-suspected-hack-29757281/",
+            "published": "Mon, 02 Nov 2026 06:38:41 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News World Russia Russia-Ukraine war Ukraine",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_316042199-0f4a.jpg?quality=90&strip=all&w=646"
+          },
           {
             "title": "Drones deployed to track Russian vessels in English Channel for first time",
             "link": "https://metro.co.uk/2026/11/01/drones-deployed-track-russian-vessels-english-channel-first-time-29755896/",
@@ -2687,15 +2696,6 @@
             "provider": "METRO",
             "categories": "News World Russia-Ukraine war Ukraine Vladimir Putin",
             "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_318638080-2d16-e1793288808908.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Girl, 8, seriously injured after being attacked by a wolf at a wildlife park in Germany",
-            "link": "https://metro.co.uk/2026/10/29/girl-8-seriously-injured-attacked-a-wolf-a-wildlife-park-germany-29748694/",
-            "published": "Thu, 29 Oct 2026 09:26:57 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News World Animals Germany",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_318604796-61cd.jpg?quality=90&strip=all&w=646"
           },
           {
             "title": "Phantom Blade Zero composer reveals why his music is ‘offensive’ in China",
@@ -3689,6 +3689,15 @@
         ],
         "STOCKS": [
           {
+            "title": "EXCLUSIVE: India markets regulator backs removal of long-term capital gains tax for foreign investors, sources say",
+            "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNMzZGZDRyZ3dzMWVMcEp4bmVRbGNoRFdhODFvSDFjZmplU1VDRXNleUs1MElLczNVRHN5WS0xc2phWXFZaktGQ1pqelBPbjRfeWRLSFBqajEzRU43bWxpUkZtNVM4VGs0LVVUMzVlbW13X0FGZlJLWWZDZmpscXV4NVBNemxXZ2RhZEozakVfRlNWb3E0MTlEYlhveXRZVHVmeUozNkJ4RjBBQTR2TUt2QnJZajV1SVRMZUEyMG5n?oc=5",
+            "published": "Mon, 02 Nov 2026 06:38:00 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
             "title": "Portugal weighing bigger Galp stake after Moeve merger collapse, minister says",
             "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNN3pBN0NNOHJZSlM2X0RCbnVjRHJYWUI1bzdrVFg0bjhqQTUzeTN1a2hsZDhGazJQNzR0V3gwb0ZLWHpfTUM2dGhrTjVDdmlHREE2Q0I2M1Q1SUIzZ0VJUzh1dGR2MkUxMFNEZlp5Rk1uTTJYaDlTWVpKd0VLbVJ0ZTFnT2VkTFlOVzY1STFKZkRHcHlWcjNLa283VTBxTDJBNVZ1MzFUQlRPMGs1eTJxMkd6c0FJY0JoWW1SN3l1T3FCOUlZSzcySg?oc=5",
             "published": "Sun, 01 Nov 2026 13:05:45 GMT",
@@ -3710,15 +3719,6 @@
             "title": "Reddit shares plunge as Google's AI search squeezes traffic",
             "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQks1Z3lNdGwyQnFsQ3NQTU1jWTMwNGRGV002QW5RaDhIOGRIRG9xZmFWTUpsYnpYWVhvbUE1N0ZRTXNlOVRJMjdIVE5nOU5tWEhWRGNORVZPUWxNZ2otUF9zUEQ1QkRlWjNNRm1keF95MFlJOUo3bXBmRTZJQ3ppdWxmOVlQbENUVXE3dXUwcTItTUNQTTJEQmJCdGJXeXNwckE?oc=5",
             "published": "Fri, 30 Oct 2026 16:15:23 GMT",
-            "source": "Reuters",
-            "provider": "REUTERS",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "The hawkish pause, Lula's market meltdown, and the Anthropic IPO bombshell: The financial week in five charts",
-            "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxORzZSdUpvaFdlYlFMUDJUcVRQMktBM2IxSFo5dVlTWXBGZHc3bW9ncElFZHgwYzRGREJ4NlZUM21KSFRxN0pxYUllRkhLVS1tdmZCclF3RGNwVTFTMk42ZUlTUGdiS3Y5b1ZtRDFUNnp0aWlkai1Pd3RyQ29PS1lrRjl0OFpPNnVXSThCUERmNDBoOVhXUHJLVGlvblpUNWMySzE2TUVpenM3Q0k4dHJZZWMzbWtlaHM5ZFpJNUlfQUFyTk53dVVzSndsOXpsRUVnVWs0VG1qN2JVRXVGT3BBa3ln?oc=5",
-            "published": "Fri, 30 Oct 2026 11:51:22 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3904,5 +3904,5 @@
       }
     }
   },
-  "stocksUpdated": "2026-11-02T06:21:37.009Z"
+  "stocksUpdated": "2026-11-02T06:45:19.703Z"
 }
