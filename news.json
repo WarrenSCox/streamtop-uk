@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-03T06:31:54.287Z",
+  "updated": "2026-11-03T06:57:29.510Z",
   "categories": {
     "UK": [
       {
@@ -95,9 +95,18 @@
     ],
     "WORLD": [
       {
-        "title": "RBA interest rates live updates: Reserve Bank of Australia announces cash rate hike to 4.85% after meeting today – latest news",
+        "title": "Australia’s social media ban ‘ill-thought-out’, Reddit argues in high court challenge",
+        "link": "https://www.theguardian.com/australia-news/2026/nov/03/reddit-under-16s-social-media-ban-australia-high-court",
+        "published": "Tue, 03 Nov 2026 06:36:58 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Social media ban Australia news Reddit Australian politics Freedom of speech Social media bans Social media Australian law",
+        "image": "https://i.guim.co.uk/img/media/593f4c0d03990046121aef0f7507437a4c10e99e/1198_0_7857_6286/master/7857.jpg?width=140&quality=85&auto=format&fit=max&s=94c295a57275ccfd0522770e4c55d91d"
+      },
+      {
+        "title": "Bullock doesn’t see ‘economy cracking at this point’ – as it happened",
         "link": "https://www.theguardian.com/australia-news/live/2026/nov/03/rba-interest-rates-meeting-today-latest-news-australia-reserve-bank-cash-rate-announcement-decision-live-updates",
-        "published": "Tue, 03 Nov 2026 06:21:07 GMT",
+        "published": "Tue, 03 Nov 2026 06:33:51 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
         "categories": "Reserve Bank of Australia Australia news Australian economy Interest rates Housing Australian politics",
@@ -120,15 +129,6 @@
         "provider": "GUARDIAN",
         "categories": "Alan Jones trial Alan Jones Australia news Australian media Media",
         "image": "https://i.guim.co.uk/img/media/d070c91198dbf550117bb33fcfc865f51ff270da/768_0_4213_3371/master/4213.jpg?width=140&quality=85&auto=format&fit=max&s=6352c9dad28d341d84610241a373bc53"
-      },
-      {
-        "title": "Peacock found in couple’s Brisbane bathroom leads to creative bid to reunite bird with tattoo artist",
-        "link": "https://www.theguardian.com/environment/2026/nov/03/hex-the-peacock-found-in-brisbane-bathroom",
-        "published": "Tue, 03 Nov 2026 05:32:30 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Birds Queensland Wildlife Animals Australia news",
-        "image": "https://i.guim.co.uk/img/media/743d929edbd995a4e8f91a7fbb29ed72f5a11b74/30_0_530_424/master/530.jpg?width=140&quality=85&auto=format&fit=max&s=26b434b1e6aa51988c026d0b0cd565af"
       },
       {
         "title": "US carries out 'limited strikes' on Qeshm Island in Iran",
@@ -743,7 +743,7 @@
           },
           "REUTERS": {
             "ok": true,
-            "count": 10,
+            "count": 12,
             "retainedPrevious": 0,
             "errors": [
               "https://www.reuters.com/arc/outboundfeeds/v3/all/?outputType=xml: 404 Not Found"
@@ -1594,9 +1594,18 @@
             "image": "https://i.guim.co.uk/img/media/c089e593b51b58d6c2c6c9db1d4664acb5ca046c/445_373_1136_910/master/1136.jpg?width=140&quality=85&auto=format&fit=max&s=6e2d03692b62475af646432b9eec9eb0"
           },
           {
-            "title": "RBA interest rates live updates: Reserve Bank of Australia announces cash rate hike to 4.85% after meeting today – latest news",
+            "title": "Australia’s social media ban ‘ill-thought-out’, Reddit argues in high court challenge",
+            "link": "https://www.theguardian.com/australia-news/2026/nov/03/reddit-under-16s-social-media-ban-australia-high-court",
+            "published": "Tue, 03 Nov 2026 06:36:58 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Social media ban Australia news Reddit Australian politics Freedom of speech Social media bans Social media Australian law",
+            "image": "https://i.guim.co.uk/img/media/593f4c0d03990046121aef0f7507437a4c10e99e/1198_0_7857_6286/master/7857.jpg?width=140&quality=85&auto=format&fit=max&s=94c295a57275ccfd0522770e4c55d91d"
+          },
+          {
+            "title": "Bullock doesn’t see ‘economy cracking at this point’ – as it happened",
             "link": "https://www.theguardian.com/australia-news/live/2026/nov/03/rba-interest-rates-meeting-today-latest-news-australia-reserve-bank-cash-rate-announcement-decision-live-updates",
-            "published": "Tue, 03 Nov 2026 06:21:07 GMT",
+            "published": "Tue, 03 Nov 2026 06:33:51 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
             "categories": "Reserve Bank of Australia Australia news Australian economy Interest rates Housing Australian politics",
@@ -1628,15 +1637,6 @@
             "provider": "GUARDIAN",
             "categories": "Birds Queensland Wildlife Animals Australia news",
             "image": "https://i.guim.co.uk/img/media/743d929edbd995a4e8f91a7fbb29ed72f5a11b74/30_0_530_424/master/530.jpg?width=140&quality=85&auto=format&fit=max&s=26b434b1e6aa51988c026d0b0cd565af"
-          },
-          {
-            "title": "MPs granting powerful political lobbyists unfettered access to Australia’s parliament, data reveals",
-            "link": "https://www.theguardian.com/australia-news/2026/nov/03/powerful-political-lobbyists-access-to-parliament-australia",
-            "published": "Tue, 03 Nov 2026 04:37:41 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Australian politics Gambling Woodside Labor party Coalition David Pocock Australian Greens Australia news Business",
-            "image": "https://i.guim.co.uk/img/media/6d40c5218b2b7c8b8dbbd8ddc0c20d6d784c3320/839_0_6583_5266/master/6583.jpg?width=140&quality=85&auto=format&fit=max&s=d0d93441edf912039eb04dda042ce694"
           }
         ],
         "POLITICS": [
@@ -3635,6 +3635,15 @@
             "image": ""
           },
           {
+            "title": "Oracle taps investors for $20 billion to finance AI expansion",
+            "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9OVGUyeXVqQlVYMEx3TEhEVHY5ekZLX3paamdqNUF1ek80VE9RZVhuSFl2d3dsVkF6T2JyVFdJdF8xR1FuWU5EdU9OWG03SmRoLUloaEFCc3pGLXFxN0FyOUNnVkM3T3prb1NMYXBOanNGT2RMYjNxcTZsdUEwbGs?oc=5",
+            "published": "Mon, 02 Nov 2026 13:22:00 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
             "title": "Reliance earnings, lower oil prices power India's Sensex to near two-month high",
             "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPRV9nWF8tcV9tRkNYTENXRnRyTDhkcnRoZEJmMFJ1Wm1USDJwbDNxcEFuU0xNbE9JSnRJb2xScTBmWWVpZWJ5SmlhXzdBajNuSDhnOWdULWQ4UUZ2T3RRdjhpNWxZb08tcEQxR01tdks4dkhLTUN1WjJiZVFSa1JCbHBRdGVsZVZqNzFoQ2ZDdF9zbE9MeUlvRHhzZGRRM05SeGxlaFB1MFZjWVB3TVZjbTBfUlprRTZ2eTA3bFBFQVpLdw?oc=5",
             "published": "Mon, 02 Nov 2026 02:42:00 GMT",
@@ -3665,6 +3674,15 @@
             "title": "Mapping the Market: More losses in store for Netflix shares?",
             "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBDQUFvWGxDeWxxUjAtdTFlb2NDVkJheGMyRkNHZzdkTTlMQ0NldnIyMERZWWV0U01KUVZrOG5UN3E0RkZrZFp6S2lvbWZjdE4tN0kydWpKUGRMMmR5dGFEVXloVWhFV2NlUHBsb0M1M2traEhKZ3hmMUhycEo?oc=5",
             "published": "Fri, 30 Oct 2026 10:11:05 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "Midterms meet earnings",
+            "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxORzJ5RF9XWncxal9sWkV5MS05ek4tS3psYmd1NFh5dkF3V1BxaXdlN0FFZzBabllhX2FnNVVjOWhTTllpbkRKeGNsNGFlYUE4SWw1RDd2QjdlZTZ0Wk9VM2laNUhpdGRnbUp5My1CRUlhOEU1VzM5Z3JkMExTVDgtQ0h3?oc=5",
+            "published": "Fri, 30 Oct 2026 08:48:00 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3708,7 +3726,7 @@
         },
         "STOCKS": {
           "ok": true,
-          "count": 10,
+          "count": 12,
           "retainedPrevious": 0,
           "errors": [
             "https://www.reuters.com/arc/outboundfeeds/v3/all/?outputType=xml: 404 Not Found"
@@ -3823,5 +3841,5 @@
       }
     }
   },
-  "stocksUpdated": "2026-11-03T06:31:59.147Z"
+  "stocksUpdated": "2026-11-03T06:57:36.132Z"
 }
