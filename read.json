@@ -1,12 +1,18 @@
 {
-  "updated": "2026-11-04T07:26:38.708Z",
+  "updated": "2026-11-04T15:43:42.263Z",
   "charts": {
     "AUDIOBOOKS": [
       {
         "title": "A Court of Splintered Harmony",
         "author": "Sarah J. Maas",
         "narrator": "Elizabeth Evans",
-        "image": "https://m.media-amazon.com/images/I/51FBqskXJ2L._SL500_.jpg"
+        "image": "https://covers.openlibrary.org/b/id/15253996-L.jpg"
+      },
+      {
+        "title": "All She Wants for Christmas",
+        "author": "Lisa Jewell",
+        "narrator": "Ruth Wilson , Matthew Rhys , Phoebe Dynevor , Harriet Walter",
+        "image": "https://m.media-amazon.com/images/I/51sHa2PFlvL._SL500_.jpg"
       },
       {
         "title": "Bram Stoker's Dracula",
@@ -18,19 +24,13 @@
         "title": "The Witch",
         "author": "Freida McFadden",
         "narrator": "Saskia Maarleveld , Marin Ireland",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/21/e2/a3/21e2a31c-2e04-6d99-0af9-180a08fa96a2/9798349169328.jpg/600x600bb.jpg"
+        "image": "https://m.media-amazon.com/images/I/41vExa8IbhL._SL500_.jpg"
       },
       {
         "title": "Dungeon Crawler Carl",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://covers.openlibrary.org/b/id/15143022-L.jpg"
-      },
-      {
-        "title": "Carl's Doomsday Scenario",
-        "author": "Matt Dinniman",
-        "narrator": "Jeff Hays",
-        "image": "https://covers.openlibrary.org/b/id/11702962-L.jpg"
+        "image": "https://m.media-amazon.com/images/I/51HIZdnqASL._SL500_.jpg"
       },
       {
         "title": "Bad in Bed",
@@ -39,28 +39,28 @@
         "image": "https://m.media-amazon.com/images/I/51K1uX7EGGL._SL500_.jpg"
       },
       {
-        "title": "The Let Them Theory",
-        "author": "Mel Robbins",
-        "narrator": "Mel Robbins",
-        "image": "https://covers.openlibrary.org/b/id/15165806-L.jpg"
-      },
-      {
-        "title": "The Dungeon Anarchist's Cookbook",
-        "author": "Matt Dinniman",
-        "narrator": "Jeff Hays , The Critical Drinker",
-        "image": "https://m.media-amazon.com/images/I/518nfG1FaYL._SL500_.jpg"
-      },
-      {
         "title": "Her Stepmother's House",
         "author": "K. L. Slater",
         "narrator": "Clare Corbett",
         "image": "https://m.media-amazon.com/images/I/510J1VMd3QL._SL500_.jpg"
       },
       {
-        "title": "I Haven&rsquo;t Been Entirely Honest with You",
-        "author": "Miranda Hart",
-        "narrator": "Miranda Hart",
-        "image": "https://m.media-amazon.com/images/I/41F+BK6TRML._SL500_.jpg"
+        "title": "Carl's Doomsday Scenario",
+        "author": "Matt Dinniman",
+        "narrator": "Jeff Hays",
+        "image": "https://covers.openlibrary.org/b/id/11702962-L.jpg"
+      },
+      {
+        "title": "The Let Them Theory",
+        "author": "Mel Robbins",
+        "narrator": "Mel Robbins",
+        "image": "https://m.media-amazon.com/images/I/51YOr6ua-PL._SL500_.jpg"
+      },
+      {
+        "title": "The Dungeon Anarchist's Cookbook",
+        "author": "Matt Dinniman",
+        "narrator": "Jeff Hays , The Critical Drinker",
+        "image": "https://covers.openlibrary.org/b/id/15262048-L.jpg"
       }
     ],
     "BOOKS": [
@@ -123,15 +123,15 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-11-04T07:26:38.708Z",
-      "lastSuccessfulRefresh": "2026-11-04T07:26:38.708Z",
+      "checkedAt": "2026-11-04T15:43:42.263Z",
+      "lastSuccessfulRefresh": "2026-11-04T15:43:42.263Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
-      "status": "stale",
-      "checkedAt": "2026-11-04T07:26:46.966Z",
-      "lastSuccessfulRefresh": "2026-11-04T00:52:51.560Z",
-      "reason": "503 https://www.audible.co.uk/charts/best"
+      "status": "healthy",
+      "checkedAt": "2026-11-04T15:43:51.143Z",
+      "lastSuccessfulRefresh": "2026-11-04T15:43:51.143Z",
+      "reason": ""
     }
   }
 }
