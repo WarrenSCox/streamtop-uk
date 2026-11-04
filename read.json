@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04T19:52:46.562Z",
+  "updated": "2026-11-04T21:48:54.652Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -30,7 +30,19 @@
         "title": "Dungeon Crawler Carl",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://m.media-amazon.com/images/I/51HIZdnqASL._SL500_.jpg"
+        "image": "https://covers.openlibrary.org/b/id/15143022-L.jpg"
+      },
+      {
+        "title": "Carl's Doomsday Scenario",
+        "author": "Matt Dinniman",
+        "narrator": "Jeff Hays",
+        "image": "https://m.media-amazon.com/images/I/51e1PKKdv8L._SL500_.jpg"
+      },
+      {
+        "title": "Michael",
+        "author": "Bob Mortimer",
+        "narrator": "Bob Mortimer , Matt Berry",
+        "image": ""
       },
       {
         "title": "Bad in Bed",
@@ -39,28 +51,16 @@
         "image": "https://m.media-amazon.com/images/I/51K1uX7EGGL._SL500_.jpg"
       },
       {
-        "title": "Her Stepmother's House",
-        "author": "K. L. Slater",
-        "narrator": "Clare Corbett",
-        "image": "https://m.media-amazon.com/images/I/510J1VMd3QL._SL500_.jpg"
-      },
-      {
-        "title": "Carl's Doomsday Scenario",
+        "title": "The Dungeon Anarchist's Cookbook",
         "author": "Matt Dinniman",
-        "narrator": "Jeff Hays",
-        "image": "https://covers.openlibrary.org/b/id/11702962-L.jpg"
+        "narrator": "Jeff Hays , The Critical Drinker",
+        "image": "https://m.media-amazon.com/images/I/518nfG1FaYL._SL500_.jpg"
       },
       {
         "title": "The Let Them Theory",
         "author": "Mel Robbins",
         "narrator": "Mel Robbins",
         "image": "https://m.media-amazon.com/images/I/51YOr6ua-PL._SL500_.jpg"
-      },
-      {
-        "title": "The Dungeon Anarchist's Cookbook",
-        "author": "Matt Dinniman",
-        "narrator": "Jeff Hays , The Critical Drinker",
-        "image": "https://covers.openlibrary.org/b/id/15262048-L.jpg"
       }
     ],
     "BOOKS": [
@@ -123,15 +123,15 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-11-04T19:52:46.562Z",
-      "lastSuccessfulRefresh": "2026-11-04T19:52:46.562Z",
+      "checkedAt": "2026-11-04T21:48:54.652Z",
+      "lastSuccessfulRefresh": "2026-11-04T21:48:54.652Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
-      "status": "stale",
-      "checkedAt": "2026-11-04T19:52:56.430Z",
-      "lastSuccessfulRefresh": "2026-11-04T15:43:51.143Z",
-      "reason": "503 https://www.audible.co.uk/charts/best"
+      "status": "healthy",
+      "checkedAt": "2026-11-04T21:49:04.851Z",
+      "lastSuccessfulRefresh": "2026-11-04T21:49:04.851Z",
+      "reason": ""
     }
   }
 }
