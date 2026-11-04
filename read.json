@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04T00:52:42.214Z",
+  "updated": "2026-11-04T06:39:44.068Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -87,7 +87,7 @@
       {
         "title": "Is It Too Late to Make a Run for It?",
         "author": "Judi Dench and 1 more",
-        "image": "http://www.bibdsl.co.uk/bds-images/l/978125/9781250438928.jpg"
+        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978024/9780241799536.jpg"
       },
       {
         "title": "Grand",
@@ -123,15 +123,15 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-11-04T00:52:42.214Z",
-      "lastSuccessfulRefresh": "2026-11-04T00:52:42.214Z",
+      "checkedAt": "2026-11-04T06:39:44.068Z",
+      "lastSuccessfulRefresh": "2026-11-04T06:39:44.068Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
-      "status": "healthy",
-      "checkedAt": "2026-11-04T00:52:51.560Z",
+      "status": "stale",
+      "checkedAt": "2026-11-04T06:39:53.822Z",
       "lastSuccessfulRefresh": "2026-11-04T00:52:51.560Z",
-      "reason": ""
+      "reason": "503 https://www.audible.co.uk/charts/best"
     }
   }
 }
