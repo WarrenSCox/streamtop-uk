@@ -1,18 +1,18 @@
 {
-  "updated": "2026-11-05T09:47:34.731Z",
+  "updated": "2026-11-05T17:57:27.970Z",
   "charts": {
     "AUDIOBOOKS": [
-      {
-        "title": "A Court of Splintered Harmony",
-        "author": "Sarah J. Maas",
-        "narrator": "Elizabeth Evans",
-        "image": "https://covers.openlibrary.org/b/id/15253996-L.jpg"
-      },
       {
         "title": "All She Wants for Christmas",
         "author": "Lisa Jewell",
         "narrator": "Ruth Wilson , Matthew Rhys , Phoebe Dynevor , Harriet Walter",
         "image": "https://m.media-amazon.com/images/I/51sHa2PFlvL._SL500_.jpg"
+      },
+      {
+        "title": "A Court of Splintered Harmony",
+        "author": "Sarah J. Maas",
+        "narrator": "Elizabeth Evans",
+        "image": "https://covers.openlibrary.org/b/id/15253996-L.jpg"
       },
       {
         "title": "Bram Stoker's Dracula",
@@ -30,7 +30,19 @@
         "title": "Dungeon Crawler Carl",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://m.media-amazon.com/images/I/51HIZdnqASL._SL500_.jpg"
+        "image": "https://covers.openlibrary.org/b/id/15143022-L.jpg"
+      },
+      {
+        "title": "Her Stepmother's House",
+        "author": "K. L. Slater",
+        "narrator": "Clare Corbett",
+        "image": "https://m.media-amazon.com/images/I/510J1VMd3QL._SL500_.jpg"
+      },
+      {
+        "title": "Bad in Bed",
+        "author": "Ali Hazelwood",
+        "narrator": "Brooke Bloomingdale , Teddy Hamilton , full cast",
+        "image": "https://m.media-amazon.com/images/I/51K1uX7EGGL._SL500_.jpg"
       },
       {
         "title": "Carl's Doomsday Scenario",
@@ -39,9 +51,9 @@
         "image": "https://covers.openlibrary.org/b/id/11702962-L.jpg"
       },
       {
-        "title": "Michael",
-        "author": "Bob Mortimer",
-        "narrator": "Bob Mortimer , Matt Berry",
+        "title": "The Single Father",
+        "author": "Jade Lee Wright",
+        "narrator": "Tamaryn Payne",
         "image": ""
       },
       {
@@ -49,40 +61,38 @@
         "author": "Mel Robbins",
         "narrator": "Mel Robbins",
         "image": "https://covers.openlibrary.org/b/id/15165806-L.jpg"
-      },
-      {
-        "title": "The Dungeon Anarchist's Cookbook",
-        "author": "Matt Dinniman",
-        "narrator": "Jeff Hays , The Critical Drinker",
-        "image": "https://covers.openlibrary.org/b/id/15262048-L.jpg"
-      },
-      {
-        "title": "Her Stepmother's House",
-        "author": "K. L. Slater",
-        "narrator": "Clare Corbett",
-        "image": "https://m.media-amazon.com/images/I/510J1VMd3QL._SL500_.jpg"
       }
     ],
     "BOOKS": [
+      {
+        "title": "A Court of Splintered Harmony",
+        "author": "Sarah J. Maas",
+        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978103/9781037200076.jpg"
+      },
+      {
+        "title": "Fight or Flight",
+        "author": "",
+        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978024/9780241745212.jpg"
+      },
+      {
+        "title": "Gruffalo Granny",
+        "author": "",
+        "image": "https://storage.googleapis.com/lr-assets/main/covers/1780656267-9781035065516-324x400.jpg"
+      },
       {
         "title": "Chain Reaction",
         "author": "Lee Child and 1 more",
         "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978191/9781911754244.jpg"
       },
       {
-        "title": "Wild Wicked Mate",
-        "author": "Laurie Gilmore",
-        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978000/9780008834890.jpg"
+        "title": "Lottie Brooks's Twelve Disasters of Christmas",
+        "author": "",
+        "image": "https://storage.googleapis.com/lr-assets/_nielsen/200/9781788453912.jpg"
       },
       {
-        "title": "Dead in Three Two One",
-        "author": "Peter James",
-        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978152/9781529090116.jpg"
-      },
-      {
-        "title": "Adam & Eve",
-        "author": "Jeffrey Archer",
-        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978000/9780008640316.jpg"
+        "title": "Bunny Vs Monkey: Day of the Heroes!",
+        "author": "",
+        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978178/9781788453912.jpg"
       },
       {
         "title": "Is It Too Late to Make a Run for It?",
@@ -90,24 +100,14 @@
         "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978024/9780241799536.jpg"
       },
       {
-        "title": "Grand",
-        "author": "Gromit and 1 more",
-        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978152/9781529990874.jpg"
-      },
-      {
         "title": "The Best Christmas Ever",
         "author": "Sarah Morgan",
         "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978000/9780008744632.jpg"
       },
       {
-        "title": "Royal Witch",
-        "author": "Philippa Gregory",
-        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978000/9780008745035.jpg"
-      },
-      {
-        "title": "Good Mood Food",
-        "author": "T. D. Spector",
-        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978178/9781787336476.jpg"
+        "title": "The Correspondent",
+        "author": "Virginia Evans",
+        "image": "http://www.bibdsl.co.uk/bds-images/l/978024/9780241869895.jpg"
       },
       {
         "title": "Threshing Day (Limited Deluxe Edition)",
@@ -123,14 +123,14 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-11-05T09:47:34.731Z",
-      "lastSuccessfulRefresh": "2026-11-05T09:47:34.731Z",
+      "checkedAt": "2026-11-05T17:57:27.970Z",
+      "lastSuccessfulRefresh": "2026-11-05T17:57:27.970Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-11-05T09:47:44.307Z",
-      "lastSuccessfulRefresh": "2026-11-05T09:47:44.307Z",
+      "checkedAt": "2026-11-05T17:57:39.143Z",
+      "lastSuccessfulRefresh": "2026-11-05T17:57:39.143Z",
       "reason": ""
     }
   }
