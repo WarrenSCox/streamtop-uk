@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05T17:57:27.970Z",
+  "updated": "2026-11-05T20:05:14.121Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -12,7 +12,7 @@
         "title": "A Court of Splintered Harmony",
         "author": "Sarah J. Maas",
         "narrator": "Elizabeth Evans",
-        "image": "https://covers.openlibrary.org/b/id/15253996-L.jpg"
+        "image": "https://m.media-amazon.com/images/I/51FBqskXJ2L._SL500_.jpg"
       },
       {
         "title": "Bram Stoker's Dracula",
@@ -30,7 +30,7 @@
         "title": "Dungeon Crawler Carl",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://covers.openlibrary.org/b/id/15143022-L.jpg"
+        "image": "https://m.media-amazon.com/images/I/51HIZdnqASL._SL500_.jpg"
       },
       {
         "title": "Her Stepmother's House",
@@ -54,13 +54,13 @@
         "title": "The Single Father",
         "author": "Jade Lee Wright",
         "narrator": "Tamaryn Payne",
-        "image": ""
+        "image": "https://m.media-amazon.com/images/I/51lIA+wgzgL._SL500_.jpg"
       },
       {
         "title": "The Let Them Theory",
         "author": "Mel Robbins",
         "narrator": "Mel Robbins",
-        "image": "https://covers.openlibrary.org/b/id/15165806-L.jpg"
+        "image": "https://m.media-amazon.com/images/I/51YOr6ua-PL._SL500_.jpg"
       }
     ],
     "BOOKS": [
@@ -123,14 +123,14 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-11-05T17:57:27.970Z",
-      "lastSuccessfulRefresh": "2026-11-05T17:57:27.970Z",
+      "checkedAt": "2026-11-05T20:05:14.121Z",
+      "lastSuccessfulRefresh": "2026-11-05T20:05:14.121Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-11-05T17:57:39.143Z",
-      "lastSuccessfulRefresh": "2026-11-05T17:57:39.143Z",
+      "checkedAt": "2026-11-05T20:05:24.660Z",
+      "lastSuccessfulRefresh": "2026-11-05T20:05:24.660Z",
       "reason": ""
     }
   }
