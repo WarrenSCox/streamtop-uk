@@ -1,7 +1,25 @@
 {
-  "updated": "2026-11-05T23:33:38.628Z",
+  "updated": "2026-11-06T03:37:12.813Z",
   "categories": {
     "UK": [
+      {
+        "title": "The crimes of Russell Brand – podcast",
+        "link": "https://www.theguardian.com/news/audio/2026/nov/06/the-crimes-of-russell-brand-podcast",
+        "published": "Fri, 06 Nov 2026 03:00:41 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Russell Brand Rape and sexual assault Crime Celebrity Media Television Sexual harassment Sexual consent Culture UK news Television & radio",
+        "image": "https://i.guim.co.uk/img/media/681b85fa1fe139fd9043297805c0cc003cf0c294/593_0_2973_2378/master/2973.jpg?width=140&quality=85&auto=format&fit=max&s=8b53c52c69121155ff38c0e94e897adf"
+      },
+      {
+        "title": "Slashing number of police forces in England and Wales is only option, says Met chief",
+        "link": "https://www.theguardian.com/uk-news/2026/nov/05/cut-number-of-police-forces-england-hogan-howe-review",
+        "published": "Fri, 06 Nov 2026 00:04:37 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Police Bernard Hogan-Howe UK news",
+        "image": "https://i.guim.co.uk/img/media/eb10e2a0a0598f3bf3e36ed8fca7857698ffdefb/210_0_3125_2500/master/3125.jpg?width=140&quality=85&auto=format&fit=max&s=5659d4ce3acd1cffafbed5bfba1db720"
+      },
       {
         "title": "California governor just spared the lives of 548 death row inmates",
         "link": "https://metro.co.uk/2026/11/05/california-governor-just-spared-lives-548-death-row-inmates-29770621/",
@@ -30,15 +48,6 @@
         "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_319574318-5859.jpg?quality=90&strip=all&w=646"
       },
       {
-        "title": "Man leaps from flat window to survive Bonfire Night blaze",
-        "link": "https://metro.co.uk/2026/11/05/man-leaps-flat-window-survive-bonfire-night-blaze-29770563/",
-        "published": "Thu, 05 Nov 2026 21:04:23 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News UK London",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_319578431-81b5-e1793911893210.jpg?quality=90&strip=all&w=607"
-      },
-      {
         "title": "British Ebola patient evacuated from DR Congo arrives at London hospital",
         "link": "https://www.theguardian.com/world/2026/nov/05/british-ebola-patient-evacuated-drc-arrives-london-hospital",
         "published": "Thu, 05 Nov 2026 20:30:11 GMT",
@@ -55,15 +64,6 @@
         "provider": "GUARDIAN",
         "categories": "UK news England",
         "image": "https://i.guim.co.uk/img/media/36422e6cb7622434e81b87b745cce88b0a5ebaed/225_0_2253_1803/master/2253.jpg?width=140&quality=85&auto=format&fit=max&s=43ac5e83734f97400556ed963aca32d1"
-      },
-      {
-        "title": "Cancer diagnoses in England hit record high of more than 1,000 people a day",
-        "link": "https://www.theguardian.com/society/2026/nov/05/nhs-england-cancer-diagnoses-record-high-1000-people-diagnosed-every-day",
-        "published": "Thu, 05 Nov 2026 18:49:25 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Cancer NHS Health Society Breast cancer Prostate cancer Lung cancer Bowel cancer Cancer research England UK news",
-        "image": "https://i.guim.co.uk/img/media/35fda37d88f97320d4f215c7d6d925bde94ad822/0_42_4290_3434/master/4290.jpg?width=140&quality=85&auto=format&fit=max&s=2f5890add823d4936348130315b53a5a"
       },
       {
         "title": "Meghan's brother a 'person of interest' in child abuse image claims",
@@ -95,22 +95,40 @@
     ],
     "WORLD": [
       {
-        "title": "Beau Lamarre-Condon trial live updates: former police officer continues evidence in double murder trial",
-        "link": "https://www.theguardian.com/australia-news/live/2026/nov/06/beau-lamarre-condon-trial-former-police-accused-murder-case-jesse-baird-luke-davies-ntwnfb",
-        "published": "Thu, 05 Nov 2026 23:16:57 GMT",
+        "title": "Woman, 90, shot during Bondi beach massacre dies in hospital year after antisemitic attack",
+        "link": "https://www.theguardian.com/australia-news/2026/nov/06/bondi-beach-shooting-woman-dies-year-after-terror-attack-ntwnfb",
+        "published": "Fri, 06 Nov 2026 03:14:09 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
-        "categories": "Sydney Australia news New South Wales",
-        "image": "https://i.guim.co.uk/img/media/ebfc885f7db8935002487a469a0f9baba836690e/178_0_2715_2171/master/2715.jpg?width=140&quality=85&auto=format&fit=max&s=f28f36d7c46b054d98cea30d7767e80c"
+        "categories": "Bondi beach terror attack Bondi beach Australia news New South Wales",
+        "image": "https://i.guim.co.uk/img/media/72259763e62364f247e27c55fd8470a097d78fcb/117_0_2500_2000/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=3139c875b5f912c45fb980a8414a9b0d"
       },
       {
-        "title": "Powerhouse Parramatta opens this weekend – and it’s dazzling inside and out",
-        "link": "https://www.theguardian.com/culture/ng-interactive/2026/nov/06/powerhouse-parramatta-opening-festival",
-        "published": "Thu, 05 Nov 2026 23:00:36 GMT",
+        "title": "Beau Lamarre-Condon trial: prosecution begins cross-examination of double murder accused – as it happened",
+        "link": "https://www.theguardian.com/australia-news/live/2026/nov/06/beau-lamarre-condon-trial-former-police-accused-murder-case-jesse-baird-luke-davies-ntwnfb",
+        "published": "Fri, 06 Nov 2026 02:30:00 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
-        "categories": "Museums Sydney Culture Art Space Science Technology Australia news Australian art Indigenous art Art and design Architecture",
-        "image": "https://i.guim.co.uk/img/media/f98712649872f00498ef7bae039a13ef7ee16f70/605_0_6623_5301/master/6623.jpg?width=140&quality=85&auto=format&fit=max&s=95930b57eb532e9b0f8777ff5d602f8d"
+        "categories": "Sydney Australia news New South Wales Australian police and policing",
+        "image": "https://i.guim.co.uk/img/media/69a781da23f48b2cde91996a93de7520bc4ee220/482_143_2922_2337/master/2922.jpg?width=140&quality=85&auto=format&fit=max&s=46ef6642807aa142505cd61ffe7241d7"
+      },
+      {
+        "title": "Liberal bus crashes into shop awning on its first outing of Victorian election campaign",
+        "link": "https://www.theguardian.com/australia-news/2026/nov/06/liberal-jess-wilson-campaign-bus-crashes-into-shop-first-day-victorian-election",
+        "published": "Fri, 06 Nov 2026 02:28:02 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Victoria state election 2026 Liberal party Victorian politics Australia news",
+        "image": "https://i.guim.co.uk/img/media/fc341bfdee8ecbb0db7ebd74914b764abfa779a1/515_0_6880_5504/master/6880.jpg?width=140&quality=85&auto=format&fit=max&s=13780e9d776baf5ee1bc1b3e3264f044"
+      },
+      {
+        "title": "Beau Lamarre-Condon tells double murder trial shooting of Jesse Baird wasn’t intentional but ‘it was my fault’",
+        "link": "https://www.theguardian.com/australia-news/2026/nov/06/beau-lamarre-condon-trial-witness-box-evidence-case-ntwnfb",
+        "published": "Fri, 06 Nov 2026 01:36:20 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Sydney Australia news New South Wales Australian police and policing",
+        "image": "https://i.guim.co.uk/img/media/b6bb10a5926a77556033638b05990ec0f53a7b8a/524_54_1008_806/master/1008.jpg?width=140&quality=85&auto=format&fit=max&s=0b81e8643e1c53b1dcdfaac6449868b0"
       },
       {
         "title": "Melania Trump lavished with praise after brokering Ukraine and Russia ceasefire",
@@ -122,6 +140,15 @@
         "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_319574318-5859.jpg?quality=90&strip=all&w=646"
       },
       {
+        "title": "Breakaway league LIV Golf to fold after filing for bankruptcy",
+        "link": "https://news.sky.com/story/breakaway-league-liv-golf-to-fold-after-lack-of-financial-support-13608566",
+        "published": "Thu, 05 Nov 2026 19:23:00 +0000",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/11/1920x1080/skynews-golf-sergio-garcia_7398473.jpg?20261105200925"
+      },
+      {
         "title": "Family of footballer who died after on-pitch collision pay tribute to him",
         "link": "https://news.sky.com/story/jesus-de-miguel-hundreds-gather-for-funeral-of-tenerife-striker-13608553",
         "published": "Thu, 05 Nov 2026 18:50:00 +0000",
@@ -129,15 +156,6 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/11/1920x1080/skynews-jesus-de-miguel-tenerife_7395647.jpg?20261104195713"
-      },
-      {
-        "title": "Paraguay’s president quits after millions of people’s savings frozen in bank crisis",
-        "link": "https://www.theguardian.com/world/2026/nov/05/paraguay-president-santiago-pena-resigns",
-        "published": "Thu, 05 Nov 2026 18:48:07 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Paraguay Financial crisis Banking Americas World news",
-        "image": "https://i.guim.co.uk/img/media/a77eebbaa9a34c6ba08a7521d0b9d7e55650da11/1666_5_3949_3159/master/3949.jpg?width=140&quality=85&auto=format&fit=max&s=e82620f109a326e6d5b5cff3740166e3"
       },
       {
         "title": "Didier Deschamps responds to Manchester United approach",
@@ -158,15 +176,6 @@
         "image": "https://e3.365dm.com/26/10/1920x1080/skynews-meghan-markle-switzerland_7391122.jpg?20261029170453"
       },
       {
-        "title": "Duchess of Sussex’s estranged half-brother ‘person of interest’ in child sexual abuse inquiry",
-        "link": "https://www.theguardian.com/world/2026/nov/05/meghan-sussex-thomas-markle-jr-philippines-child-sexual-abuse-inquiry",
-        "published": "Thu, 05 Nov 2026 17:37:27 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Philippines Asia Pacific World news Meghan, the Duchess of Sussex UK news Monarchy",
-        "image": "https://i.guim.co.uk/img/media/f07363f35ce5612b989365a754efde92e8077a12/384_0_2441_1953/master/2441.jpg?width=140&quality=85&auto=format&fit=max&s=487347e8c2f0afd80ec79acc90c6e867"
-      },
-      {
         "title": "Italian chef fired after refusing to put pineapple on pizza",
         "link": "https://metro.co.uk/2026/11/05/italian-chef-fired-refusing-put-pineapple-pizza-29769137/",
         "published": "Thu, 05 Nov 2026 17:29:21 +0000",
@@ -174,15 +183,6 @@
         "provider": "METRO",
         "categories": "News World Australia Brisbane",
         "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_297055963-bacf.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Cristiano Ronaldo bows out from national team with emotional message",
-        "link": "https://news.sky.com/story/cristiano-ronaldo-retires-from-international-football-13608313",
-        "published": "Thu, 05 Nov 2026 10:30:00 +0000",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/11/1920x1080/skynews-cristiano-ronaldo-portugal_7397799.jpg?20261105110638"
       }
     ],
     "POLITICS": [
@@ -371,6 +371,33 @@
     ],
     "TECH": [
       {
+        "title": "Games Inbox: What will be the next big Nintendo Switch 2 game?",
+        "link": "https://metro.co.uk/2026/11/06/games-inbox-will-next-big-nintendo-switch-2-game-29770675/",
+        "published": "Fri, 06 Nov 2026 01:10:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Entertainment Gaming Elder Scrolls Games Inbox God Of War Nintendo Nintendo Switch 2 Rockstar Games The Legend of Zelda",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_311592223-954e.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Call Of Duty: Modern Warfare 4 final review – solid package deployed",
+        "link": "https://metro.co.uk/2026/11/06/call-duty-modern-warfare-4-final-review-solid-package-deployed-29768586/",
+        "published": "Fri, 06 Nov 2026 01:00:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Entertainment Gaming Activision Call of Duty Games news Games reviews Nintendo Switch 2 PC Games PlayStation 5 Xbox Series X",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316458738-53c7.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Daily horoscope November 6, 2026: Today’s predictions for your star sign",
+        "link": "https://metro.co.uk/2026/11/06/daily-horoscope-november-6-2026-predictions-star-sign-29764898/",
+        "published": "Fri, 06 Nov 2026 00:01:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Horoscopes Lifestyle Aquarius Aries Astrology Cancer (star sign) Capricorn Gemini Leo Libra Pisces Sagittarius Scorpio Taurus Virgo",
+        "image": "https://metro.co.uk/wp-content/uploads/2023/04/new-horoscope-2023-02-a5db.gif?w=646"
+      },
+      {
         "title": "Nasdaq sees worst day in 18 months as investors bet on AI slowdown after Democrats’ election triumph",
         "link": "https://www.theguardian.com/business/2026/nov/05/nasdaq-heading-for-worst-day-in-18-months-as-wall-street-sustains-widespread-losses",
         "published": "Thu, 05 Nov 2026 21:23:18 GMT",
@@ -407,24 +434,6 @@
         "image": "https://i.guim.co.uk/img/media/4715f465419ef48f670873b52cf277ecc33598de/186_0_4168_3335/master/4168.jpg?width=140&quality=85&auto=format&fit=max&s=3cbfed1bbf2f2888a614772b7b09b79f"
       },
       {
-        "title": "‘Icon’ dies at 97th birthday ‘rager’ after dancing to Stayin’ Alive",
-        "link": "https://metro.co.uk/2026/11/05/icon-dies-97th-birthday-rager-dancing-stayin-alive-29769136/",
-        "published": "Thu, 05 Nov 2026 16:16:39 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News US Death Social Media",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/11/comp-1793892164.png?w=646"
-      },
-      {
-        "title": "The best Christmas gifts in the UK for dads, grandads, uncles and friends – tested for 2026",
-        "link": "https://www.theguardian.com/thefilter/2026/nov/05/best-christmas-gifts-dads-grandads-uncles-friends-uk",
-        "published": "Thu, 05 Nov 2026 15:00:27 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Family Christmas Life and style Men's fashion Technology Gadgets",
-        "image": "https://i.guim.co.uk/img/media/837ec3d7500d5e5a1162a916c5bacf44dfac1141/0_104_3885_3106/master/3885.jpg?width=140&quality=85&auto=format&fit=max&s=37279828e970a95153eea86281ac385b"
-      },
-      {
         "title": "Health checks offered to residents near one of England's worst illegal waste sites",
         "link": "https://news.sky.com/story/health-checks-offered-to-wigan-residents-near-one-of-englands-worst-illegal-waste-sites-13608060",
         "published": "Wed, 04 Nov 2026 17:18:00 +0000",
@@ -450,18 +459,18 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/11/1920x1080/skynews-blood-test_7396906.jpg?20261104132648"
-      },
-      {
-        "title": "Was Elon Musk the US midterms' biggest loser? – Stateside with Kai and Carter",
-        "link": "https://www.theguardian.com/us-news/video/2026/nov/05/was-elon-musk-the-us-midterms-biggest-loser-stateside-with-kai-and-carter",
-        "published": "Thu, 05 Nov 2026 11:00:23 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "US midterm elections 2026 Elon Musk US political financing US politics Technology Trump administration Republicans Democrats Datacenters – US AI (artificial intelligence) US news",
-        "image": "https://i.guim.co.uk/img/media/c38fdda580cd24d0aba4f136cafe5afcf2d72702/0_0_1350_1080/master/1350.jpg?width=140&quality=85&auto=format&fit=max&s=5edac0cd098702596636359823b415b2"
       }
     ],
     "ENTERTAINMENT": [
+      {
+        "title": "Cindy arrested in Hollyoaks after drastic action to erase crimes massively backfires",
+        "link": "https://metro.co.uk/2026/11/05/cindy-arrested-hollyoaks-drastic-action-erase-crimes-massively-backfires-29767756/",
+        "published": "Thu, 05 Nov 2026 23:59:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Hollyoaks Soaps Cindy Cunningham Kieron Richardson Ste Hay Stephanie Waring",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_319512698-518f.jpg?quality=90&strip=all&w=646"
+      },
       {
         "title": "Tom Jones reveals he almost died in return to stage following serious mystery illness",
         "link": "https://metro.co.uk/2026/11/05/tom-jones-reveals-almost-died-return-stage-following-serious-mystery-illness-29770666/",
@@ -488,15 +497,6 @@
         "provider": "METRO",
         "categories": "Entertainment Film Deadpool Hugh Jackman US film US Showbiz news",
         "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_319584076-f75c.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Kev brings Nicola closer to Jimmy in Emmerdale as she enjoys his snoring",
-        "link": "https://metro.co.uk/2026/11/05/kev-brings-nicola-closer-jimmy-emmerdale-enjoys-snoring-29767726/",
-        "published": "Thu, 05 Nov 2026 20:25:00 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Emmerdale Soaps Chris Coghill Kev Barton Nicola King Nicola Wheeler",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317701008-4968.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "K-pop group NewJeans’s contract omitted rights to ‘sleep and free choice’ – report",
@@ -555,58 +555,40 @@
     ],
     "STOCKS": [
       {
-        "title": "BC-Select Stock Indices",
-        "link": "https://finance.yahoo.com/markets/world-indices/articles/bc-select-stock-indices-223014285.html?.tsrc=rss",
-        "published": "Thu, 05 Nov 2026 22:30:14 +0000",
-        "source": "Yahoo Finance",
-        "provider": "YAHOO",
-        "categories": "",
-        "image": ""
-      },
-      {
-        "title": "Leader’s Advantage Acquisition Corp. Announces the Separate Trading of its Class A Ordinary Shares and Warrants, Commencing November 6, 2026",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/leader-advantage-acquisition-corp-announces-222900338.html?.tsrc=rss",
-        "published": "Thu, 05 Nov 2026 22:29:00 +0000",
-        "source": "Yahoo Finance",
-        "provider": "YAHOO",
-        "categories": "",
-        "image": ""
-      },
-      {
-        "title": "ChargePoint Holdings, Inc. (CHPT) Stock Moves -3.94%: What You Should Know",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/chargepoint-holdings-inc-chpt-stock-221503669.html?.tsrc=rss",
-        "published": "Thu, 05 Nov 2026 22:15:03 +0000",
-        "source": "Yahoo Finance",
-        "provider": "YAHOO",
-        "categories": "",
-        "image": ""
-      },
-      {
-        "title": "RH (RH) Declines More Than Market: Some Information for Investors",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/rh-rh-declines-more-market-221503364.html?.tsrc=rss",
-        "published": "Thu, 05 Nov 2026 22:15:03 +0000",
-        "source": "Yahoo Finance",
-        "provider": "YAHOO",
-        "categories": "",
-        "image": ""
-      },
-      {
-        "title": "Wall St slumps as sharp tech losses put Nasdaq on course for correction",
-        "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTFA1aWlfTHBOUUVBVXg1Y2RNZXRGMHA1Z2kybE9wSHlsc244YUFYcEdYNG91bkVCWWpXbV9RWVAwZl94ODhy?oc=5",
-        "published": "Thu, 05 Nov 2026 21:02:39 GMT",
+        "title": "As high oil prices curb demand, fresh signs of glut appear",
+        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQem82aUU3S0NZWXNNcXlreW9xS3J0UnpIcDNCWVdqS3NyclRxSUtWenpmMEhoNmp6amtNSG5ZYmpuMzc1TElxODVYTmVSZURrYjJsbVliVXlVSzNtM3J5TDBMNl9sQ0JSTmxKQ2RxVzc4RnMxX2lIZGp3Y3kwTFdrUndLZkFMN0JkN2xLTi02dDZjT0x1Wk0ySTMxZlpNZWRmX1F6ZDhR?oc=5",
+        "published": "Fri, 06 Nov 2026 02:04:00 GMT",
         "source": "Reuters",
         "provider": "REUTERS",
         "categories": "",
         "image": ""
       },
       {
-        "title": "SpaceX, Tesla extend losses as midterm results cloud data center, merger outlook",
-        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQaXI0TWJjeldpYmNUM0tQR3NKcEh6bGtsaWUzOV9XQnQyaFVnNlNuaEcxakNkdjd4MzBJR2NoMWdua1RaNEVfSzNjOGRCVU5vVmc3MXRYdlkzVEpYV3JZR2JMYVVSMTJ5ZmkxY2VYM2RSWm1nb005RENwSk93NTcxa0U5X1lrMUw1cHRFV3c4b3lhc2doNHFJM012TE1yN1N5ZEo2em9pSExVcHgtQ2h1cURZOE5taVF6aFVKZU5GWVpHX0FDSGpGYmppMFUtUXM?oc=5",
-        "published": "Thu, 05 Nov 2026 19:53:31 GMT",
-        "source": "Reuters",
-        "provider": "REUTERS",
+        "title": "U.S. stock futures rise after AI rout batters Wall St; payrolls data in focus",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/u-stock-futures-rise-ai-013807565.html?.tsrc=rss",
+        "published": "Fri, 06 Nov 2026 01:38:07 +0000",
+        "source": "Yahoo Finance",
+        "provider": "YAHOO",
         "categories": "",
         "image": ""
+      },
+      {
+        "title": "Oil Rebounds Toward $100 as Democrats’ Sweep Rattles Energy Stocks",
+        "link": "https://finance.yahoo.com/energy/articles/oil-rebounds-toward-100-democrats-010000633.html?.tsrc=rss",
+        "published": "Fri, 06 Nov 2026 01:00:00 +0000",
+        "source": "Yahoo Finance",
+        "provider": "YAHOO",
+        "categories": "",
+        "image": ""
+      },
+      {
+        "title": "Massive tech sell-off wipes $2.5 trillion from the stock market",
+        "link": "https://www.cnn.com/2026/11/05/investing/tech-heavy-nasdaq-plunges?.tsrc=rss",
+        "published": "Fri, 06 Nov 2026 00:20:14 +0000",
+        "source": "Yahoo Finance",
+        "provider": "YAHOO",
+        "categories": "",
+        "image": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2299938321-20261105160258828.jpg?c=16x9&q=w_800,c_fill"
       },
       {
         "title": "Surprise! The Ocado share price has been the second-best performer on the FTSE 250 since August",
@@ -636,9 +618,27 @@
         "image": "https://www.twelfthmagpie.com/wp-content/uploads/2024/07/Searching-1200x675.jpg"
       },
       {
+        "title": "Investors wipe $2.5 trillion off Nasdaq as blue tsunami prompts AI fears",
+        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVVFVWVUwWmVwQXRLMTV2ZFBIV3dpR1VBUTU4dnhfUW5SN3BwcGZraXF1YTFDMmx2TjZFOTVBTWNqc09zTV9VbE1faDJ5Y294THA0YlFkTlZmX3AzWDJacm96Um1YQ0htd2FLRmJFTlpvLWVhQ0pXdUtyLVh0ZTRESzBJNW1fZ2lrTVBkUEIzejF2VUVLeGdyQWxDazczTmNWQWdOMXIybTR2T0x5OWFGNWMyU256bUhRME54eXBlTQ?oc=5",
+        "published": "Thu, 05 Nov 2026 11:23:00 GMT",
+        "source": "Reuters",
+        "provider": "REUTERS",
+        "categories": "",
+        "image": ""
+      },
+      {
         "title": "China's November diesel exports to ease amid thin domestic stocks, sources say",
         "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOUC1heWwydGNUd0wzYWtNUXViUFMta2hyYVhFMm1pSV9oSi1lUGxxVEw1alpQYm02MUh1bU40U2VkNWNOYTZVS1BHUGRhN3Y0Z1FZODNaM2NtT0NLWW1abmxRQ0w4LVhkUzVHTHBnQmhYOVBRODhCRXpMMmpndVBsdm0tVG45NXd1c0h5YTlwSjU2bTJvNGEtdWxNT0NOTWNXa0lXN3NFakZTeUN3cWl2Mks4V3hhcWRrb18tU0NuTjJHRjQ?oc=5",
         "published": "Thu, 05 Nov 2026 06:26:00 GMT",
+        "source": "Reuters",
+        "provider": "REUTERS",
+        "categories": "",
+        "image": ""
+      },
+      {
+        "title": "Wall Street ends higher after Democrats win Congress; data center stocks tumble",
+        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQbWpBY1VHMFd5a2tJXzM1RFFFQTl5Y09aVDgza095UkJKVzNnQ3F4VW1pMzBEazJKMGhlS21zUEdCLXJPOVhWdXRnZmlLRHliMDdqYmt2b2ZWYk5FeW85VnBSalpRd1E5b3BVSUZDU2VLMUNiQm41YWw1SUgxV2dWaUFZUkI2MllhY0Z5ZkZHcWNuQmdCaHBKbVRhck1meTRz?oc=5",
+        "published": "Wed, 04 Nov 2026 23:54:37 GMT",
         "source": "Reuters",
         "provider": "REUTERS",
         "categories": "",
@@ -735,7 +735,7 @@
           },
           "YAHOO": {
             "ok": true,
-            "count": 11,
+            "count": 7,
             "retainedPrevious": 0,
             "errors": [
               "https://finance.yahoo.com/news/rssindex: 404 Not Found"
@@ -743,7 +743,7 @@
           },
           "REUTERS": {
             "ok": true,
-            "count": 12,
+            "count": 11,
             "retainedPrevious": 0,
             "errors": [
               "https://www.reuters.com/arc/outboundfeeds/v3/all/?outputType=xml: 404 Not Found"
@@ -801,24 +801,6 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/11/1920x1080/skynews-airbus-skynet-6a_7397976.jpg?20261105132329"
-          },
-          {
-            "title": "'I'll die in prison,' says man who drugged and raped wife in case likened to Gisele Pelicot",
-            "link": "https://news.sky.com/story/ill-die-in-prison-for-what-ive-done-says-man-who-drugged-and-raped-wife-in-case-likened-to-gisele-pelicot-13608296",
-            "published": "Thu, 05 Nov 2026 10:10:00 +0000",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/11/1920x1080/skynews-robert-stewart-jonathan-kirk_7395670.jpg?20261103114639"
-          },
-          {
-            "title": "Third person charged after police officer shot in foot in Nottingham",
-            "link": "https://news.sky.com/story/third-person-charged-after-police-officer-shot-in-foot-in-nottingham-13608240",
-            "published": "Thu, 05 Nov 2026 07:29:00 +0000",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/10/1920x1080/skynews-nottingham-shooting_7379638.jpg?20261022205450"
           }
         ],
         "WORLD": [
@@ -839,6 +821,15 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/10/1920x1080/skynews-meghan-markle-switzerland_7391122.jpg?20261029170453"
+          },
+          {
+            "title": "Breakaway league LIV Golf to fold after filing for bankruptcy",
+            "link": "https://news.sky.com/story/breakaway-league-liv-golf-to-fold-after-lack-of-financial-support-13608566",
+            "published": "Thu, 05 Nov 2026 19:23:00 +0000",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/11/1920x1080/skynews-golf-sergio-garcia_7398473.jpg?20261105200925"
           },
           {
             "title": "Cristiano Ronaldo bows out from national team with emotional message",
@@ -866,15 +857,6 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/11/1920x1080/skynews-jesus-owono-jesus-de-miguel_7397013.jpg?20261104150714"
-          },
-          {
-            "title": "Spanish footballer dies after on-field collision",
-            "link": "https://news.sky.com/story/tenerife-footballer-jesus-de-miguel-30-dies-after-on-field-collision-13607419",
-            "published": "Tue, 03 Nov 2026 10:20:00 +0000",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/11/1920x1080/skynews-jesus-de-miguel-tenerife_7395617.jpg?20261103101535"
           }
         ],
         "POLITICS": [
@@ -1222,7 +1204,7 @@
       "health": {
         "UK": {
           "ok": true,
-          "count": 7
+          "count": 5
         },
         "WORLD": {
           "ok": true,
@@ -1249,6 +1231,15 @@
     "GUARDIAN": {
       "categories": {
         "UK": [
+          {
+            "title": "Slashing number of police forces in England and Wales is only option, says Met chief",
+            "link": "https://www.theguardian.com/uk-news/2026/nov/05/cut-number-of-police-forces-england-hogan-howe-review",
+            "published": "Fri, 06 Nov 2026 00:04:37 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Police Bernard Hogan-Howe UK news",
+            "image": "https://i.guim.co.uk/img/media/eb10e2a0a0598f3bf3e36ed8fca7857698ffdefb/210_0_3125_2500/master/3125.jpg?width=140&quality=85&auto=format&fit=max&s=5659d4ce3acd1cffafbed5bfba1db720"
+          },
           {
             "title": "British Ebola patient evacuated from DR Congo arrives at London hospital",
             "link": "https://www.theguardian.com/world/2026/nov/05/british-ebola-patient-evacuated-drc-arrives-london-hospital",
@@ -1320,15 +1311,6 @@
             "provider": "GUARDIAN",
             "categories": "Politics UK news Labour Conservatives Reform UK European Union Michel Barnier Violence against women and girls Social care Nigel Farage Water industry Angela Eagle Europe Chagos Islands G20 Defence policy Opinion polls Andy Burnham Tax and spending Budget 2026 Yvette Cooper Health",
             "image": "https://i.guim.co.uk/img/media/aed2919813a17af91b19415c1b3bb956ef9ac548/200_180_3263_2610/master/3263.jpg?width=140&quality=85&auto=format&fit=max&s=67af9c30f96af2724e7f41e289e1b7d7"
-          },
-          {
-            "title": "Burnham wants to ‘recast’ Chagos Islands deal after US resistance",
-            "link": "https://www.theguardian.com/politics/2026/nov/05/andy-burnham-recast-chagos-islands-deal-us-resistance",
-            "published": "Thu, 05 Nov 2026 16:17:48 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Andy Burnham Chagos Islands Foreign policy Defence policy Politics UK news US news",
-            "image": "https://i.guim.co.uk/img/media/2e561cbb6409fbdb9d404590fb61932c4a3b8429/398_0_6159_4927/master/6159.jpg?width=140&quality=85&auto=format&fit=max&s=0f80bb32c2e11abd5f9f64ed5b145837"
           },
           {
             "title": "Mahmood’s migration changes may harm women and children, Labour MP warns",
@@ -1412,6 +1394,15 @@
             "image": "https://i.guim.co.uk/img/media/e5d74696788edf613106cb392ccab215fcedea6f/703_0_7017_5615/master/7017.jpg?width=140&quality=85&auto=format&fit=max&s=ec7d495edd0280bac566eb2e5b57b9c0"
           },
           {
+            "title": "The crimes of Russell Brand – podcast",
+            "link": "https://www.theguardian.com/news/audio/2026/nov/06/the-crimes-of-russell-brand-podcast",
+            "published": "Fri, 06 Nov 2026 03:00:41 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Russell Brand Rape and sexual assault Crime Celebrity Media Television Sexual harassment Sexual consent Culture UK news Television & radio",
+            "image": "https://i.guim.co.uk/img/media/681b85fa1fe139fd9043297805c0cc003cf0c294/593_0_2973_2378/master/2973.jpg?width=140&quality=85&auto=format&fit=max&s=8b53c52c69121155ff38c0e94e897adf"
+          },
+          {
             "title": "Why is Labour risking a row over migration? – podcast",
             "link": "https://www.theguardian.com/politics/audio/2026/nov/02/why-is-labour-risking-a-row-over-migration-podcast",
             "published": "Mon, 02 Nov 2026 15:25:31 GMT",
@@ -1419,15 +1410,6 @@
             "provider": "GUARDIAN",
             "categories": "Politics UK news Migration Labour Shabana Mahmood Andy Burnham Home Office Immigration and asylum",
             "image": "https://i.guim.co.uk/img/media/61ec9d5dc48995375e7e67d9e62961ad06cdbd77/505_115_2756_2205/master/2756.jpg?width=140&quality=85&auto=format&fit=max&s=0f61b472d140d78dc3d7ef3805b989f5"
-          },
-          {
-            "title": "Why politicians chasing economic growth is a lie | Radical Thinking with Aditya Chakrabortty – podcast",
-            "link": "https://www.theguardian.com/news/audio/2026/nov/01/why-politicians-chasing-economic-growth-is-a-lie-radical-thinking-with-aditya-chakrabortty-podcast",
-            "published": "Sun, 01 Nov 2026 08:00:07 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Politics Economic growth (GDP) Economics Budget 2026 UK news",
-            "image": "https://i.guim.co.uk/img/media/20828d174b329db5d0fc6efe3bfffb10377e09b5/640_223_3012_2411/master/3012.jpg?width=140&quality=85&auto=format&fit=max&s=1732009eea45726748f700b85ace2c18"
           }
         ],
         "WORLD": [
@@ -1477,6 +1459,15 @@
             "image": "https://i.guim.co.uk/img/media/75e7c001f076ab3b02f724b5cffa0f0d6b244e26/320_316_1688_1351/master/1688.jpg?width=140&quality=85&auto=format&fit=max&s=c553b3acef6d1af022889b33d7e9eaa3"
           },
           {
+            "title": "Peru airport officials discover 3,000 tarantulas smuggled inside dirty socks",
+            "link": "https://www.theguardian.com/world/2026/nov/06/3000-tarantulas-smuggled-inside-dirty-socks-peru",
+            "published": "Fri, 06 Nov 2026 01:22:49 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Peru Spiders Americas Environment Wildlife",
+            "image": "https://i.guim.co.uk/img/media/c8e02014efcb6621df0185a3b2dd97463db96479/238_75_789_631/master/789.jpg?width=140&quality=85&auto=format&fit=max&s=bfce97c63034fd949cbcc621f93c55c2"
+          },
+          {
             "title": "Paraguay’s president quits after millions of people’s savings frozen in bank crisis",
             "link": "https://www.theguardian.com/world/2026/nov/05/paraguay-president-santiago-pena-resigns",
             "published": "Thu, 05 Nov 2026 18:48:07 GMT",
@@ -1511,15 +1502,6 @@
             "provider": "GUARDIAN",
             "categories": "Canada Wildlife Animals Americas World news",
             "image": "https://i.guim.co.uk/img/media/fceb81be290fbe0b0ac46e0b4dfc0b39aab55c9c/480_0_4800_3840/master/4800.jpg?width=140&quality=85&auto=format&fit=max&s=e2bf59e40e4db2e6726b9bd30d40aa7b"
-          },
-          {
-            "title": "Brazil publishes first global ‘roadmap’ for phasing out fossil fuels",
-            "link": "https://www.theguardian.com/environment/2026/nov/03/brazil-first-global-roadmap-phasing-out-fossil-fuels",
-            "published": "Tue, 03 Nov 2026 13:00:07 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Cop30 Fossil fuels Energy Climate crisis Brazil Americas World news Environment",
-            "image": "https://i.guim.co.uk/img/media/adcc136be3a039cc686a97e706b24371222bb09e/0_0_2720_2175/master/2720.jpg?width=140&quality=85&auto=format&fit=max&s=addafc9aec13a033e2a012c719ed6e90"
           },
           {
             "title": "Duchess of Sussex’s estranged half-brother ‘person of interest’ in child sexual abuse inquiry",
@@ -1567,13 +1549,40 @@
             "image": "https://i.guim.co.uk/img/media/93931aed9b2c9de66c5e7d47a1df4c3d0c323131/535_0_1928_1542/master/1928.jpg?width=140&quality=85&auto=format&fit=max&s=b8afb3a4798ee0b6949ac7c1dfdf9107"
           },
           {
-            "title": "Beau Lamarre-Condon trial live updates: former police officer continues evidence in double murder trial",
-            "link": "https://www.theguardian.com/australia-news/live/2026/nov/06/beau-lamarre-condon-trial-former-police-accused-murder-case-jesse-baird-luke-davies-ntwnfb",
-            "published": "Thu, 05 Nov 2026 23:16:57 GMT",
+            "title": "Woman, 90, shot during Bondi beach massacre dies in hospital year after antisemitic attack",
+            "link": "https://www.theguardian.com/australia-news/2026/nov/06/bondi-beach-shooting-woman-dies-year-after-terror-attack-ntwnfb",
+            "published": "Fri, 06 Nov 2026 03:14:09 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Sydney Australia news New South Wales",
-            "image": "https://i.guim.co.uk/img/media/ebfc885f7db8935002487a469a0f9baba836690e/178_0_2715_2171/master/2715.jpg?width=140&quality=85&auto=format&fit=max&s=f28f36d7c46b054d98cea30d7767e80c"
+            "categories": "Bondi beach terror attack Bondi beach Australia news New South Wales",
+            "image": "https://i.guim.co.uk/img/media/72259763e62364f247e27c55fd8470a097d78fcb/117_0_2500_2000/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=3139c875b5f912c45fb980a8414a9b0d"
+          },
+          {
+            "title": "Beau Lamarre-Condon trial: prosecution begins cross-examination of double murder accused – as it happened",
+            "link": "https://www.theguardian.com/australia-news/live/2026/nov/06/beau-lamarre-condon-trial-former-police-accused-murder-case-jesse-baird-luke-davies-ntwnfb",
+            "published": "Fri, 06 Nov 2026 02:30:00 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Sydney Australia news New South Wales Australian police and policing",
+            "image": "https://i.guim.co.uk/img/media/69a781da23f48b2cde91996a93de7520bc4ee220/482_143_2922_2337/master/2922.jpg?width=140&quality=85&auto=format&fit=max&s=46ef6642807aa142505cd61ffe7241d7"
+          },
+          {
+            "title": "Liberal bus crashes into shop awning on its first outing of Victorian election campaign",
+            "link": "https://www.theguardian.com/australia-news/2026/nov/06/liberal-jess-wilson-campaign-bus-crashes-into-shop-first-day-victorian-election",
+            "published": "Fri, 06 Nov 2026 02:28:02 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Victoria state election 2026 Liberal party Victorian politics Australia news",
+            "image": "https://i.guim.co.uk/img/media/fc341bfdee8ecbb0db7ebd74914b764abfa779a1/515_0_6880_5504/master/6880.jpg?width=140&quality=85&auto=format&fit=max&s=13780e9d776baf5ee1bc1b3e3264f044"
+          },
+          {
+            "title": "Beau Lamarre-Condon tells double murder trial shooting of Jesse Baird wasn’t intentional but ‘it was my fault’",
+            "link": "https://www.theguardian.com/australia-news/2026/nov/06/beau-lamarre-condon-trial-witness-box-evidence-case-ntwnfb",
+            "published": "Fri, 06 Nov 2026 01:36:20 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Sydney Australia news New South Wales Australian police and policing",
+            "image": "https://i.guim.co.uk/img/media/b6bb10a5926a77556033638b05990ec0f53a7b8a/524_54_1008_806/master/1008.jpg?width=140&quality=85&auto=format&fit=max&s=0b81e8643e1c53b1dcdfaac6449868b0"
           },
           {
             "title": "Powerhouse Parramatta opens this weekend – and it’s dazzling inside and out",
@@ -1583,33 +1592,6 @@
             "provider": "GUARDIAN",
             "categories": "Museums Sydney Culture Art Space Science Technology Australia news Australian art Indigenous art Art and design Architecture",
             "image": "https://i.guim.co.uk/img/media/f98712649872f00498ef7bae039a13ef7ee16f70/605_0_6623_5301/master/6623.jpg?width=140&quality=85&auto=format&fit=max&s=95930b57eb532e9b0f8777ff5d602f8d"
-          },
-          {
-            "title": "One Nation asks donors at $3,000-a-head Sydney fundraiser to accept ‘non-disclosure agreement’",
-            "link": "https://www.theguardian.com/australia-news/2026/nov/06/one-nation-sydney-fundraiser-pauline-hanson-nda-ntwnfb",
-            "published": "Thu, 05 Nov 2026 14:00:26 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "One Nation New South Wales politics New South Wales Australia news Australian politics Pauline Hanson",
-            "image": "https://i.guim.co.uk/img/media/9d16c450381725d9d8901be24c12d8e0ae5f6b6d/947_359_2467_1974/master/2467.jpg?width=140&quality=85&auto=format&fit=max&s=b14514687313a18ddece2c0a797eba6e"
-          },
-          {
-            "title": "Australians are yet to see the benefits of AI and datacentres – and US midterms show they could be political kryptonite",
-            "link": "https://www.theguardian.com/australia-news/2026/nov/06/ai-datacentre-boom-could-be-political-kryptonite-australia",
-            "published": "Thu, 05 Nov 2026 14:00:26 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Datacentres - Australia AI (artificial intelligence) Technology Australia news Anthony Albanese Australian economy Interest rates Australian politics Deloitte Reserve Bank of Australia",
-            "image": "https://i.guim.co.uk/img/media/f237f8c427d9aa7bac910c3b553c853bfe1d3aa4/42_0_6827_5464/master/6827.jpg?width=140&quality=85&auto=format&fit=max&s=4393e0717ee879a5a4415ef7072cacc1"
-          },
-          {
-            "title": "Accused double murderer gives evidence in high-profile case – as it happened",
-            "link": "https://www.theguardian.com/australia-news/live/2026/nov/05/beau-lamarre-condon-trial-former-police-accused-murder-case-jesse-baird-luke-davies-ntwnfb",
-            "published": "Thu, 05 Nov 2026 06:58:33 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Sydney Australia news New South Wales",
-            "image": "https://i.guim.co.uk/img/media/ebfc885f7db8935002487a469a0f9baba836690e/317_347_2279_1823/master/2279.jpg?width=140&quality=85&auto=format&fit=max&s=b33c7ad733982967cf75a684d0a83644"
           }
         ],
         "POLITICS": [
@@ -3010,6 +2992,33 @@
         ],
         "TECH": [
           {
+            "title": "Games Inbox: What will be the next big Nintendo Switch 2 game?",
+            "link": "https://metro.co.uk/2026/11/06/games-inbox-will-next-big-nintendo-switch-2-game-29770675/",
+            "published": "Fri, 06 Nov 2026 01:10:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment Gaming Elder Scrolls Games Inbox God Of War Nintendo Nintendo Switch 2 Rockstar Games The Legend of Zelda",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_311592223-954e.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Call Of Duty: Modern Warfare 4 final review – solid package deployed",
+            "link": "https://metro.co.uk/2026/11/06/call-duty-modern-warfare-4-final-review-solid-package-deployed-29768586/",
+            "published": "Fri, 06 Nov 2026 01:00:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment Gaming Activision Call of Duty Games news Games reviews Nintendo Switch 2 PC Games PlayStation 5 Xbox Series X",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316458738-53c7.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Daily horoscope November 6, 2026: Today’s predictions for your star sign",
+            "link": "https://metro.co.uk/2026/11/06/daily-horoscope-november-6-2026-predictions-star-sign-29764898/",
+            "published": "Fri, 06 Nov 2026 00:01:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Horoscopes Lifestyle Aquarius Aries Astrology Cancer (star sign) Capricorn Gemini Leo Libra Pisces Sagittarius Scorpio Taurus Virgo",
+            "image": "https://metro.co.uk/wp-content/uploads/2023/04/new-horoscope-2023-02-a5db.gif?w=646"
+          },
+          {
             "title": "EA is re-releasing 25 retro PC games including Wing Commander and Ultima",
             "link": "https://metro.co.uk/2026/11/05/ea-re-releasing-25-retro-pc-games-including-wing-commander-ultima-29770274/",
             "published": "Thu, 05 Nov 2026 18:30:00 +0000",
@@ -3017,15 +3026,6 @@
             "provider": "METRO",
             "categories": "Entertainment Gaming 80s nostalgia 90s nostalgia EA Games news PC Games Steam",
             "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_319551074-85e0.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "‘Icon’ dies at 97th birthday ‘rager’ after dancing to Stayin’ Alive",
-            "link": "https://metro.co.uk/2026/11/05/icon-dies-97th-birthday-rager-dancing-stayin-alive-29769136/",
-            "published": "Thu, 05 Nov 2026 16:16:39 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News US Death Social Media",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/11/comp-1793892164.png?w=646"
           }
         ],
         "ENTERTAINMENT": [
@@ -3183,13 +3183,13 @@
             "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_319472729-4fcd.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Sir Elton John enters Christmas race with remix of classic song with huge popstar",
-            "link": "https://metro.co.uk/2026/11/05/sir-elton-john-enters-christmas-race-remix-classic-song-huge-popstar-29767293/",
-            "published": "Thu, 05 Nov 2026 09:00:00 +0000",
+            "title": "Cindy arrested in Hollyoaks after drastic action to erase crimes massively backfires",
+            "link": "https://metro.co.uk/2026/11/05/cindy-arrested-hollyoaks-drastic-action-erase-crimes-massively-backfires-29767756/",
+            "published": "Thu, 05 Nov 2026 23:59:00 +0000",
             "source": "Metro",
             "provider": "METRO",
-            "categories": "Entertainment Music Christmas Elton John",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI235554724-441f.jpg?quality=90&strip=all&w=646"
+            "categories": "Hollyoaks Soaps Cindy Cunningham Kieron Richardson Ste Hay Stephanie Waring",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_319512698-518f.jpg?quality=90&strip=all&w=646"
           },
           {
             "title": "Kev brings Nicola closer to Jimmy in Emmerdale as she enjoys his snoring",
@@ -3230,7 +3230,7 @@
         },
         "TECH": {
           "ok": true,
-          "count": 2
+          "count": 4
         },
         "ENTERTAINMENT": {
           "ok": true,
@@ -3347,6 +3347,33 @@
         "STOCK_MARKET": [],
         "STOCKS": [
           {
+            "title": "U.S. stock futures rise after AI rout batters Wall St; payrolls data in focus",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/u-stock-futures-rise-ai-013807565.html?.tsrc=rss",
+            "published": "Fri, 06 Nov 2026 01:38:07 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "Oil Rebounds Toward $100 as Democrats’ Sweep Rattles Energy Stocks",
+            "link": "https://finance.yahoo.com/energy/articles/oil-rebounds-toward-100-democrats-010000633.html?.tsrc=rss",
+            "published": "Fri, 06 Nov 2026 01:00:00 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "Massive tech sell-off wipes $2.5 trillion from the stock market",
+            "link": "https://www.cnn.com/2026/11/05/investing/tech-heavy-nasdaq-plunges?.tsrc=rss",
+            "published": "Fri, 06 Nov 2026 00:20:14 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2299938321-20261105160258828.jpg?c=16x9&q=w_800,c_fill"
+          },
+          {
             "title": "BC-Select Stock Indices",
             "link": "https://finance.yahoo.com/markets/world-indices/articles/bc-select-stock-indices-223014285.html?.tsrc=rss",
             "published": "Thu, 05 Nov 2026 22:30:14 +0000",
@@ -3381,69 +3408,6 @@
             "provider": "YAHOO",
             "categories": "",
             "image": ""
-          },
-          {
-            "title": "Clearway Energy (CWEN) Stock Moves -4.00%: What You Should Know",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/clearway-energy-cwen-stock-moves-221503509.html?.tsrc=rss",
-            "published": "Thu, 05 Nov 2026 22:15:03 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "Lucid Group (LCID) Falls More Steeply Than Broader Market: What Investors Need to Know",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/lucid-group-lcid-falls-more-221502116.html?.tsrc=rss",
-            "published": "Thu, 05 Nov 2026 22:15:02 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "BellRing Brands (BRBR) Stock Moves -4.01%: What You Should Know",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/bellring-brands-brbr-stock-moves-221502297.html?.tsrc=rss",
-            "published": "Thu, 05 Nov 2026 22:15:02 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "Copa Holdings (CPA) Stock Moves -2.80%: What You Should Know",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/copa-holdings-cpa-stock-moves-221502465.html?.tsrc=rss",
-            "published": "Thu, 05 Nov 2026 22:15:02 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "Samsara Inc. (IOT) Stock Moves -4.02%: What You Should Know",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/samsara-inc-iot-stock-moves-221502204.html?.tsrc=rss",
-            "published": "Thu, 05 Nov 2026 22:15:02 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "CSLM Acquisition Corp. (SPWR) Rises As Market Takes a Dip: Key Facts",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/cslm-acquisition-corp-spwr-rises-220003071.html?.tsrc=rss",
-            "published": "Thu, 05 Nov 2026 22:00:03 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "Star Bulk Carriers (SBLK) Stock Moves -2.57%: What You Should Know",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/star-bulk-carriers-sblk-stock-220003454.html?.tsrc=rss",
-            "published": "Thu, 05 Nov 2026 22:00:03 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
           }
         ]
       },
@@ -3459,7 +3423,7 @@
         },
         "STOCKS": {
           "ok": true,
-          "count": 11,
+          "count": 7,
           "retainedPrevious": 0,
           "errors": [
             "https://finance.yahoo.com/news/rssindex: 404 Not Found"
@@ -3599,18 +3563,18 @@
         ],
         "STOCKS": [
           {
-            "title": "Wall St slumps as sharp tech losses put Nasdaq on course for correction",
-            "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTFA1aWlfTHBOUUVBVXg1Y2RNZXRGMHA1Z2kybE9wSHlsc244YUFYcEdYNG91bkVCWWpXbV9RWVAwZl94ODhy?oc=5",
-            "published": "Thu, 05 Nov 2026 21:02:39 GMT",
+            "title": "As high oil prices curb demand, fresh signs of glut appear",
+            "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQem82aUU3S0NZWXNNcXlreW9xS3J0UnpIcDNCWVdqS3NyclRxSUtWenpmMEhoNmp6amtNSG5ZYmpuMzc1TElxODVYTmVSZURrYjJsbVliVXlVSzNtM3J5TDBMNl9sQ0JSTmxKQ2RxVzc4RnMxX2lIZGp3Y3kwTFdrUndLZkFMN0JkN2xLTi02dDZjT0x1Wk0ySTMxZlpNZWRmX1F6ZDhR?oc=5",
+            "published": "Fri, 06 Nov 2026 02:04:00 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
             "image": ""
           },
           {
-            "title": "SpaceX, Tesla extend losses as midterm results cloud data center, merger outlook",
-            "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQaXI0TWJjeldpYmNUM0tQR3NKcEh6bGtsaWUzOV9XQnQyaFVnNlNuaEcxakNkdjd4MzBJR2NoMWdua1RaNEVfSzNjOGRCVU5vVmc3MXRYdlkzVEpYV3JZR2JMYVVSMTJ5ZmkxY2VYM2RSWm1nb005RENwSk93NTcxa0U5X1lrMUw1cHRFV3c4b3lhc2doNHFJM012TE1yN1N5ZEo2em9pSExVcHgtQ2h1cURZOE5taVF6aFVKZU5GWVpHX0FDSGpGYmppMFUtUXM?oc=5",
-            "published": "Thu, 05 Nov 2026 19:53:31 GMT",
+            "title": "Investors wipe $2.5 trillion off Nasdaq as blue tsunami prompts AI fears",
+            "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVVFVWVUwWmVwQXRLMTV2ZFBIV3dpR1VBUTU4dnhfUW5SN3BwcGZraXF1YTFDMmx2TjZFOTVBTWNqc09zTV9VbE1faDJ5Y294THA0YlFkTlZmX3AzWDJacm96Um1YQ0htd2FLRmJFTlpvLWVhQ0pXdUtyLVh0ZTRESzBJNW1fZ2lrTVBkUEIzejF2VUVLeGdyQWxDazczTmNWQWdOMXIybTR2T0x5OWFGNWMyU256bUhRME54eXBlTQ?oc=5",
+            "published": "Thu, 05 Nov 2026 11:23:00 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3680,18 +3644,9 @@
             "image": ""
           },
           {
-            "title": "European shares rise as oil falls on Middle East deal hopes",
-            "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZHBCTFNsTWh0RmpkcWloQkhvaWlJWW1BQWM3VU93VXNSVXA5QXhVOTI3WEs2N0I3NUd3OFo4YjcxT0Fob2ZIWU5leTA2Y1kxUlZDUlNNYURhM0x0c2FoVHhuT0tBTXZ1WTBmdUZyN1NXcXl3VnRIVENPTGZfSmtWZ2pIa2FjUWVXV243UWtPNnBLZmtnaWwtaTRSRG5hQ2w2T3V3cHlZQTlLbzNhUFRtZHFB?oc=5",
-            "published": "Mon, 02 Nov 2026 17:45:36 GMT",
-            "source": "Reuters",
-            "provider": "REUTERS",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "S&P 500 ends down; Apple dips ahead of quarterly report",
-            "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPbnVDQzd0LTF3Vi1BMnJDLWpGaHNIMlJVTDNnVmplMzZnVjRxRTZUUTRsQkVvZ21EN3lXMzA4ZDJnOTQwc01ld2tqT1pGZVN6VmpuVWpzLVVMUU1qcDdnRFdEQUZoM0l6Ym9NYnhfWDctWkZnSC1fLUk0RGxtUmd3WU9zLXdhcTdGTkJvcUxaazZKZEliVjl3bVBfZldDajJMOXZtVkx0NVI4YWlwMkVFbXpMR0ZGQW9wOWxEcTM3QThSdk1fb2c?oc=5",
-            "published": "Mon, 02 Nov 2026 10:57:00 GMT",
+            "title": "Reliance earnings, lower oil prices power India's Sensex to near two-month high",
+            "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPRV9nWF8tcV9tRkNYTENXRnRyTDhkcnRoZEJmMFJ1Wm1USDJwbDNxcEFuU0xNbE9JSnRJb2xScTBmWWVpZWJ5SmlhXzdBajNuSDhnOWdULWQ4UUZ2T3RRdjhpNWxZb08tcEQxR01tdks4dkhLTUN1WjJiZVFSa1JCbHBRdGVsZVZqNzFoQ2ZDdF9zbE9MeUlvRHhzZGRRM05SeGxlaFB1MFZjWVB3TVZjbTBfUlprRTZ2eTA3bFBFQVpLdw?oc=5",
+            "published": "Mon, 02 Nov 2026 10:25:35 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3717,7 +3672,7 @@
         },
         "STOCKS": {
           "ok": true,
-          "count": 12,
+          "count": 11,
           "retainedPrevious": 0,
           "errors": [
             "https://www.reuters.com/arc/outboundfeeds/v3/all/?outputType=xml: 404 Not Found"
@@ -3832,5 +3787,5 @@
       }
     }
   },
-  "stocksUpdated": "2026-11-05T23:33:44.525Z"
+  "stocksUpdated": "2026-11-06T03:37:18.045Z"
 }
