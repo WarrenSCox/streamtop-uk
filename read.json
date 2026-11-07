@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T13:15:53.851Z",
+  "updated": "2026-11-07T16:48:29.456Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -9,16 +9,16 @@
         "image": "https://m.media-amazon.com/images/I/51sHa2PFlvL._SL500_.jpg"
       },
       {
+        "title": "Exoplanet",
+        "author": "Benjamin Percy",
+        "narrator": "Anthony Mackie , Ariana DeBose , John Leguizamo , Ray Porter , Cherry Jones , Aida Osman , Charlie Plummer , Sufe Bradshaw , Full cast",
+        "image": "https://m.media-amazon.com/images/I/51QMmltt5IL._SL500_.jpg"
+      },
+      {
         "title": "A Court of Splintered Harmony",
         "author": "Sarah J. Maas",
         "narrator": "Elizabeth Evans",
         "image": "https://covers.openlibrary.org/b/id/15253996-L.jpg"
-      },
-      {
-        "title": "The Witch",
-        "author": "Freida McFadden",
-        "narrator": "Saskia Maarleveld , Marin Ireland",
-        "image": "https://m.media-amazon.com/images/I/41vExa8IbhL._SL500_.jpg"
       },
       {
         "title": "Bram Stoker's Dracula",
@@ -27,40 +27,40 @@
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/03/85/a8/0385a8b0-667d-baed-8423-132574f5a40f/9781785752292.png/600x600bb.jpg"
       },
       {
-        "title": "Exoplanet",
-        "author": "Benjamin Percy",
-        "narrator": "Anthony Mackie , Ariana DeBose , John Leguizamo , Ray Porter , Cherry Jones , Aida Osman , Charlie Plummer , Sufe Bradshaw , Full cast",
-        "image": ""
+        "title": "The Witch",
+        "author": "Freida McFadden",
+        "narrator": "Saskia Maarleveld , Marin Ireland",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/21/e2/a3/21e2a31c-2e04-6d99-0af9-180a08fa96a2/9798349169328.jpg/600x600bb.jpg"
       },
       {
         "title": "Dungeon Crawler Carl",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://m.media-amazon.com/images/I/51HIZdnqASL._SL500_.jpg"
+        "image": "https://covers.openlibrary.org/b/id/15143022-L.jpg"
+      },
+      {
+        "title": "Her Stepmother's House",
+        "author": "K. L. Slater",
+        "narrator": "Clare Corbett",
+        "image": ""
+      },
+      {
+        "title": "Bad in Bed",
+        "author": "Ali Hazelwood",
+        "narrator": "Brooke Bloomingdale , Teddy Hamilton , full cast",
+        "image": ""
+      },
+      {
+        "title": "The Single Father",
+        "author": "Jade Lee Wright",
+        "narrator": "Tamaryn Payne",
+        "image": ""
       },
       {
         "title": "Carl's Doomsday Scenario",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://m.media-amazon.com/images/I/51e1PKKdv8L._SL500_.jpg"
-      },
-      {
-        "title": "Orlando",
-        "author": "Harry Whittaker",
-        "narrator": "Hugh Skinner , Tuppence Middleton , Jack Holden",
-        "image": "https://m.media-amazon.com/images/I/51voRTm9wGL._SL500_.jpg"
-      },
-      {
-        "title": "The Let Them Theory",
-        "author": "Mel Robbins",
-        "narrator": "Mel Robbins",
-        "image": "https://covers.openlibrary.org/b/id/15165806-L.jpg"
-      },
-      {
-        "title": "The Dungeon Anarchist's Cookbook",
-        "author": "Matt Dinniman",
-        "narrator": "Jeff Hays , The Critical Drinker",
-        "image": "https://covers.openlibrary.org/b/id/15262048-L.jpg"
+        "image": "https://covers.openlibrary.org/b/id/11702962-L.jpg"
       }
     ],
     "BOOKS": [
@@ -123,15 +123,15 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-11-07T13:15:53.851Z",
-      "lastSuccessfulRefresh": "2026-11-07T13:15:53.851Z",
+      "checkedAt": "2026-11-07T16:48:29.456Z",
+      "lastSuccessfulRefresh": "2026-11-07T16:48:29.456Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
-      "status": "stale",
-      "checkedAt": "2026-11-07T13:16:03.551Z",
-      "lastSuccessfulRefresh": "2026-11-07T03:08:43.276Z",
-      "reason": "503 https://www.audible.co.uk/charts/best"
+      "status": "healthy",
+      "checkedAt": "2026-11-07T16:48:40.091Z",
+      "lastSuccessfulRefresh": "2026-11-07T16:48:40.091Z",
+      "reason": ""
     }
   }
 }
