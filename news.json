@@ -1,7 +1,16 @@
 {
-  "updated": "2026-11-07T20:48:06.040Z",
+  "updated": "2026-11-07T21:58:20.115Z",
   "categories": {
     "UK": [
+      {
+        "title": "Moody Donald Trump storms off after reporter calls him a ‘loser’",
+        "link": "https://metro.co.uk/2026/11/07/moody-donald-trump-storms-off-reporter-calls-a-loser-29774135/",
+        "published": "Sat, 07 Nov 2026 20:51:24 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News US Donald Trump Republican Party",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_319736866-0b87.jpg?quality=90&strip=all&w=646"
+      },
       {
         "title": "Trump ‘offers’ UFC mogul Dana White job of press secretary – and says to bring fighters with him",
         "link": "https://metro.co.uk/2026/11/07/trump-to-hire-ufcs-dana-white-press-secretary-29774244/",
@@ -28,15 +37,6 @@
         "provider": "METRO",
         "categories": "News UK easyJet",
         "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_311684808-8066.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Trump’s firebrand adviser says it’s time to ‘fight with all our soul’",
-        "link": "https://metro.co.uk/2026/11/07/trumps-firebrand-adviser-says-time-fight-soul-29774002/",
-        "published": "Sat, 07 Nov 2026 17:07:04 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News US Donald Trump ICE US Election White House",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_319698003-52aa.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "Rise in NHS birth centre closures ‘shocking’ denial of women’s rights, experts say",
@@ -288,7 +288,7 @@
         "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_319727467-6c8f.jpg?quality=90&strip=all&w=646"
       },
       {
-        "title": "Six dead and police officer critical after ‘far-right’ gunman attacked Krakow market square",
+        "title": "British citizen among six killed by ‘far-right’ gunman in Krakow market square shooting",
         "link": "https://metro.co.uk/2026/11/07/five-dead-shooting-krakow-market-square-29773910/",
         "published": "Sat, 07 Nov 2026 15:31:59 +0000",
         "source": "Metro",
@@ -555,6 +555,15 @@
     ],
     "STOCKS": [
       {
+        "title": "US midterm results in maps and charts",
+        "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9mYlFQMWJNR3dHZEQ1QVZ5TEo4QnRWOHYwTE9UMGh2X2x4TV8xTk1VbWNJSWZzdkdjclZFdjBNZmE5UFhhQnU4dGh0eXloOVhCeTBkekRwQUUyTzVZNV96Uml0ZXZDbHB1RHExMkphQUtLRnl3cWNMYmwyYVE?oc=5",
+        "published": "Sat, 07 Nov 2026 21:00:05 GMT",
+        "source": "Reuters",
+        "provider": "REUTERS",
+        "categories": "",
+        "image": ""
+      },
+      {
         "title": "Stocks soared on the Democratic sweep. Less than 24 hours later, the AI trade cracked.",
         "link": "https://finance.yahoo.com/markets/article/stocks-soared-on-the-democratic-sweep-less-than-24-hours-later-the-ai-trade-cracked-183312401.html?.tsrc=rss",
         "published": "Sat, 07 Nov 2026 18:33:12 +0000",
@@ -609,15 +618,6 @@
         "image": ""
       },
       {
-        "title": "Market Week Ahead: Can The Stock Market Fly With A Lame Duck Congress?",
-        "link": "https://uk.finance.yahoo.com/m/d9b3dc87-0876-3cca-a855-3dc48452a602/market-week-ahead%3A-can-the.html?.tsrc=rss",
-        "published": "Sat, 07 Nov 2026 14:41:31 +0000",
-        "source": "Yahoo Finance",
-        "provider": "YAHOO",
-        "categories": "",
-        "image": ""
-      },
-      {
         "title": "Is the much-predicted stock market crash finally here?",
         "link": "https://www.twelfthmagpie.com/2026/11/07/is-the-much-predicted-stock-market-crash-here/",
         "published": "Sat, 07 Nov 2026 13:43:00 +0000",
@@ -627,18 +627,18 @@
         "image": "https://www.twelfthmagpie.com/wp-content/uploads/2022/06/bear-in-front-of-stocks-on-screen.jpg"
       },
       {
-        "title": "US midterm results in maps and charts",
-        "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9mYlFQMWJNR3dHZEQ1QVZ5TEo4QnRWOHYwTE9UMGh2X2x4TV8xTk1VbWNJSWZzdkdjclZFdjBNZmE5UFhhQnU4dGh0eXloOVhCeTBkekRwQUUyTzVZNV96Uml0ZXZDbHB1RHExMkphQUtLRnl3cWNMYmwyYVE?oc=5",
-        "published": "Sat, 07 Nov 2026 00:00:05 GMT",
+        "title": "Trump Media’s investors lost $2.2 billion while Trump holds $460 million stake",
+        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQUGkzZG4yU1c4YThoQTduQWZQMlBJREw3LW8tYkd2Wnl4c29kRXZjblRCcWtCdzFuak8zVEE3Ump5WkJwajZRRV91bUhtN2QtYjNHemh6MjZMZzZ6ck9TNVFrQ2FhZWFaQTlXbkpYMDN3RnZWZ0h2Yzg2cnBfOFB3aVlILXhsUzhkeW9QY29yUWR0Mm9SN1NIUEVldzJDT1RWZmc4MlE3cXhkUHdndFRRcDZPYktSenhnRzhQR1dkSDNQV0JLMEdpenZnVHhUQQ?oc=5",
+        "published": "Fri, 06 Nov 2026 16:45:27 GMT",
         "source": "Reuters",
         "provider": "REUTERS",
         "categories": "",
         "image": ""
       },
       {
-        "title": "Trump Media’s investors lost $2.2 billion while Trump holds $460 million stake",
-        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQUGkzZG4yU1c4YThoQTduQWZQMlBJREw3LW8tYkd2Wnl4c29kRXZjblRCcWtCdzFuak8zVEE3Ump5WkJwajZRRV91bUhtN2QtYjNHemh6MjZMZzZ6ck9TNVFrQ2FhZWFaQTlXbkpYMDN3RnZWZ0h2Yzg2cnBfOFB3aVlILXhsUzhkeW9QY29yUWR0Mm9SN1NIUEVldzJDT1RWZmc4MlE3cXhkUHdndFRRcDZPYktSenhnRzhQR1dkSDNQV0JLMEdpenZnVHhUQQ?oc=5",
-        "published": "Fri, 06 Nov 2026 16:45:27 GMT",
+        "title": "Markets fret over growth and inflation, just as tech rout gains speed",
+        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxONUh4V2hzQnA1Rk9zNTN6d3ZxcVZycGZQVmNUNjR3NmpXSmphZHh4LWZvaGJmTTVEWDdBc0lNWmZyUUp3MTFndk5uZl80Qnk0QXotRmo5S1g0MVhDejlwMjJlczNLVWY1eHRLZ1c4dExyOUNqdjJPaUFhVnE2WC16QUc4aTVfUlAwQUtKMktZYi1STk94cXBnSXF5OEQ?oc=5",
+        "published": "Fri, 06 Nov 2026 05:09:00 GMT",
         "source": "Reuters",
         "provider": "REUTERS",
         "categories": "",
@@ -1385,15 +1385,6 @@
             "image": "https://i.guim.co.uk/img/media/5944b61ee5436a78b173fbd2474520d21b660c05/973_545_2629_2103/master/2629.jpg?width=140&quality=85&auto=format&fit=max&s=fe4d7f779954d5c6a3bf0273e4013d4f"
           },
           {
-            "title": "‘Super-force’ plans a real threat to local policing, English mayors say",
-            "link": "https://www.theguardian.com/uk-news/2026/nov/07/super-force-plans-england-wales-threaten-local-policing-mayors",
-            "published": "Sat, 07 Nov 2026 07:00:04 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Police Greater Manchester Mayoral elections Mark Rowley Metropolitan police Local politics Local government London Society Politics England Wales UK news Devolution",
-            "image": "https://i.guim.co.uk/img/media/28b9efa1a0ecf769d3f2a029c30e52e049178708/398_177_2542_2033/master/2542.jpg?width=140&quality=85&auto=format&fit=max&s=d9e48ad9c58490e2a027d441a2159184"
-          },
-          {
             "title": "Reform UK councillor promoted collapsed $1.9bn ‘Ponzi scheme’ HyperVerse that left victims suicidal",
             "link": "https://www.theguardian.com/politics/2026/nov/07/reform-uk-councillor-promoted-alleged-ponzi-scheme-hyperverse",
             "published": "Sat, 07 Nov 2026 07:00:04 GMT",
@@ -1401,6 +1392,15 @@
             "provider": "GUARDIAN",
             "categories": "Reform UK Cryptocurrencies Politics UK news Technology",
             "image": "https://i.guim.co.uk/img/media/c4ab352229a9553522afe3e33aaa405141978fb4/781_95_1724_1380/master/1724.jpg?width=140&quality=85&auto=format&fit=max&s=a76aedad354b9a23642fbc9bedce6e64"
+          },
+          {
+            "title": "‘Super-force’ plans a real threat to local policing, English mayors say",
+            "link": "https://www.theguardian.com/uk-news/2026/nov/07/super-force-plans-england-wales-threaten-local-policing-mayors",
+            "published": "Sat, 07 Nov 2026 07:00:04 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Police Greater Manchester Mayoral elections Mark Rowley Metropolitan police Local politics Local government London Society Politics England Wales UK news Devolution",
+            "image": "https://i.guim.co.uk/img/media/28b9efa1a0ecf769d3f2a029c30e52e049178708/398_177_2542_2033/master/2542.jpg?width=140&quality=85&auto=format&fit=max&s=d9e48ad9c58490e2a027d441a2159184"
           },
           {
             "title": "Burnham aims for ‘quite radical change’ in support for young people",
@@ -2417,6 +2417,15 @@
       "categories": {
         "UK": [
           {
+            "title": "Moody Donald Trump storms off after reporter calls him a ‘loser’",
+            "link": "https://metro.co.uk/2026/11/07/moody-donald-trump-storms-off-reporter-calls-a-loser-29774135/",
+            "published": "Sat, 07 Nov 2026 20:51:24 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News US Donald Trump Republican Party",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_319736866-0b87.jpg?quality=90&strip=all&w=646"
+          },
+          {
             "title": "Trump ‘offers’ UFC mogul Dana White job of press secretary – and says to bring fighters with him",
             "link": "https://metro.co.uk/2026/11/07/trump-to-hire-ufcs-dana-white-press-secretary-29774244/",
             "published": "Sat, 07 Nov 2026 20:16:33 +0000",
@@ -2471,7 +2480,7 @@
             "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_319776846-3c80.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Two skydivers killed after parachutes became tangled 150ft above ground",
+            "title": "Two experienced skydivers killed after parachutes became tangled 150ft above ground named",
             "link": "https://metro.co.uk/2026/11/07/two-skydivers-killed-parachutes-became-tangled-150ft-ground-29773838/",
             "published": "Sat, 07 Nov 2026 14:45:52 +0000",
             "source": "Metro",
@@ -2586,15 +2595,6 @@
             "provider": "METRO",
             "categories": "News World Crime News Fire",
             "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_316621658-5458.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Dad of three, 32, dies after being shot while trying to break up road rage row",
-            "link": "https://metro.co.uk/2026/11/07/dad-three-32-dies-shot-trying-break-road-rage-row-29773323/",
-            "published": "Sat, 07 Nov 2026 08:24:50 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News UK Crime News London Metropolitan Police",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_319750083-b3ae.jpg?quality=90&strip=all&w=646"
           }
         ],
         "WORLD": [
@@ -3026,7 +3026,7 @@
             "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_319727467-6c8f.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Six dead and police officer critical after ‘far-right’ gunman attacked Krakow market square",
+            "title": "British citizen among six killed by ‘far-right’ gunman in Krakow market square shooting",
             "link": "https://metro.co.uk/2026/11/07/five-dead-shooting-krakow-market-square-29773910/",
             "published": "Sat, 07 Nov 2026 15:31:59 +0000",
             "source": "Metro",
@@ -3635,18 +3635,18 @@
         ],
         "STOCKS": [
           {
-            "title": "Berkshire Hathaway speeds up stock buybacks, though profit falls",
-            "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPa29SbTRWcFpWdFpiekRVRjRvNmZjM1BnNzhOeVY3ajB5S25PaGgxVFAyTTItcjRDZkRmcHROSkJIZ3lNdXZkaGp0R2hOZE51eHBzR1U3MXlFRXhGOUhzV1pJR0I2RWtUZnRrQU1MVXZaSm1haDUtTHo3NEJvNGJhLU1rM2N4a240NWp2VFh5Vkd5LW1DOTd6emN0S1QyengzS1ZjdE04LVluRGppX19oSkxtVktEcDdoWXVIVk93?oc=5",
-            "published": "Sat, 07 Nov 2026 17:37:38 GMT",
+            "title": "US midterm results in maps and charts",
+            "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9mYlFQMWJNR3dHZEQ1QVZ5TEo4QnRWOHYwTE9UMGh2X2x4TV8xTk1VbWNJSWZzdkdjclZFdjBNZmE5UFhhQnU4dGh0eXloOVhCeTBkekRwQUUyTzVZNV96Uml0ZXZDbHB1RHExMkphQUtLRnl3cWNMYmwyYVE?oc=5",
+            "published": "Sat, 07 Nov 2026 21:00:05 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
             "image": ""
           },
           {
-            "title": "US midterm results in maps and charts",
-            "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9mYlFQMWJNR3dHZEQ1QVZ5TEo4QnRWOHYwTE9UMGh2X2x4TV8xTk1VbWNJSWZzdkdjclZFdjBNZmE5UFhhQnU4dGh0eXloOVhCeTBkekRwQUUyTzVZNV96Uml0ZXZDbHB1RHExMkphQUtLRnl3cWNMYmwyYVE?oc=5",
-            "published": "Sat, 07 Nov 2026 00:00:05 GMT",
+            "title": "Berkshire Hathaway speeds up stock buybacks, though profit falls",
+            "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPa29SbTRWcFpWdFpiekRVRjRvNmZjM1BnNzhOeVY3ajB5S25PaGgxVFAyTTItcjRDZkRmcHROSkJIZ3lNdXZkaGp0R2hOZE51eHBzR1U3MXlFRXhGOUhzV1pJR0I2RWtUZnRrQU1MVXZaSm1haDUtTHo3NEJvNGJhLU1rM2N4a240NWp2VFh5Vkd5LW1DOTd6emN0S1QyengzS1ZjdE04LVluRGppX19oSkxtVktEcDdoWXVIVk93?oc=5",
+            "published": "Sat, 07 Nov 2026 17:37:38 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3665,6 +3665,15 @@
             "title": "Markets fret over growth and inflation, just as tech rout gains speed",
             "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxONUh4V2hzQnA1Rk9zNTN6d3ZxcVZycGZQVmNUNjR3NmpXSmphZHh4LWZvaGJmTTVEWDdBc0lNWmZyUUp3MTFndk5uZl80Qnk0QXotRmo5S1g0MVhDejlwMjJlczNLVWY1eHRLZ1c4dExyOUNqdjJPaUFhVnE2WC16QUc4aTVfUlAwQUtKMktZYi1STk94cXBnSXF5OEQ?oc=5",
             "published": "Fri, 06 Nov 2026 05:09:00 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "Japanese investors snap up foreign long-term bonds as tech stocks slide",
+            "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNTU9ZS0xSNlMtd3ptNEVtUXlpc0JDMFJpNVNJQVNPT29sbElqMlNEVVJIa1ItOEFzajMwT3AycHpKVFVqbU9oOTEwczVwZlA0WFZNX00xdGFtWTRrdHh0S1R3elNYNUZyby1oYW1aakppQ0pwZE5IUzFhUkNuYmdoQnk2RzRNNHcyMDhmQkxKcDZXMFp2N1lrR1IwdE11MmN6UDE5bnlvdFp1Y1p6TEtFeGU1NHUtU1p4VUMtVFZjMkNKVXZ6dkFCRQ?oc=5",
+            "published": "Fri, 06 Nov 2026 05:06:00 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3725,18 +3734,9 @@
             "image": ""
           },
           {
-            "title": "European shares rise as oil falls on Middle East deal hopes",
-            "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZHBCTFNsTWh0RmpkcWloQkhvaWlJWW1BQWM3VU93VXNSVXA5QXhVOTI3WEs2N0I3NUd3OFo4YjcxT0Fob2ZIWU5leTA2Y1kxUlZDUlNNYURhM0x0c2FoVHhuT0tBTXZ1WTBmdUZyN1NXcXl3VnRIVENPTGZfSmtWZ2pIa2FjUWVXV243UWtPNnBLZmtnaWwtaTRSRG5hQ2w2T3V3cHlZQTlLbzNhUFRtZHFB?oc=5",
-            "published": "Mon, 02 Nov 2026 17:45:36 GMT",
-            "source": "Reuters",
-            "provider": "REUTERS",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "S&P 500 ends down; Apple dips ahead of quarterly report",
-            "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPbnVDQzd0LTF3Vi1BMnJDLWpGaHNIMlJVTDNnVmplMzZnVjRxRTZUUTRsQkVvZ21EN3lXMzA4ZDJnOTQwc01ld2tqT1pGZVN6VmpuVWpzLVVMUU1qcDdnRFdEQUZoM0l6Ym9NYnhfWDctWkZnSC1fLUk0RGxtUmd3WU9zLXdhcTdGTkJvcUxaazZKZEliVjl3bVBfZldDajJMOXZtVkx0NVI4YWlwMkVFbXpMR0ZGQW9wOWxEcTM3QThSdk1fb2c?oc=5",
-            "published": "Mon, 02 Nov 2026 10:57:00 GMT",
+            "title": "Nasdaq ends higher as AI heavyweights rebound ahead of midterm results",
+            "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWVp0N2w0REZqOUJ3YkRxcmliYkhtX25yTkFtdmJDUFdSVm5CcXRQYjdMeFFLU0gxcHk1STM2R0xXaGJ6TW9ZN2ZQS2RReVRiXzNtY1B3Qm5fZ1lfTUFaMVpRM2d2ZVZodnZtbUFFLUtkcURfUEtENElyNG5YcFRGcncteEFaZFUwOGxVUmpTMWFkMEtvb09VTG50a2NSbjhLUm5Zc3EtZS1XUU5lWm9B?oc=5",
+            "published": "Tue, 03 Nov 2026 10:50:00 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3868,5 +3868,5 @@
       }
     }
   },
-  "stocksUpdated": "2026-11-07T20:48:14.335Z"
+  "stocksUpdated": "2026-11-07T21:58:27.305Z"
 }
