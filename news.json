@@ -1,7 +1,25 @@
 {
-  "updated": "2026-11-08T00:25:43.096Z",
+  "updated": "2026-11-08T06:15:47.776Z",
   "categories": {
     "UK": [
+      {
+        "title": "Map shows Remembrance Sunday 2026 parade route",
+        "link": "https://metro.co.uk/2026/11/08/map-shows-remembrance-sunday-2026-parade-route-29764696/",
+        "published": "Sun, 08 Nov 2026 06:00:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News UK London Remembrance Day",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_319509281-bc56.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Two seriously injured in 30-vehicle crash in 'thick fog' in Kent",
+        "link": "https://news.sky.com/story/two-seriously-injured-in-30-vehicle-crash-in-fog-on-the-m20-near-maidstone-13609605",
+        "published": "Sat, 07 Nov 2026 23:05:00 +0000",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/11/1920x1080/skynews-m20-crash_7400658.jpg?20261108000205"
+      },
       {
         "title": "Moody Donald Trump storms off after reporter calls him a ‘loser’",
         "link": "https://metro.co.uk/2026/11/07/moody-donald-trump-storms-off-reporter-calls-a-loser-29774135/",
@@ -28,15 +46,6 @@
         "provider": "METRO",
         "categories": "News Education School",
         "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_319661443-1ccc.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Vomiting illness breaks out on EasyJet flight forcing crew to contact air traffic control",
-        "link": "https://metro.co.uk/2026/11/07/vomiting-illness-breaks-easyjet-flight-forcing-crew-contact-air-traffic-control-29774197/",
-        "published": "Sat, 07 Nov 2026 18:54:31 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News UK easyJet",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_311684808-8066.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "Rise in NHS birth centre closures ‘shocking’ denial of women’s rights, experts say",
@@ -82,18 +91,63 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/11/1920x1080/skynews-tuffley-gloucester_7399940.jpg?20261107144754"
-      },
-      {
-        "title": "Anti-data centre groups set to march in Edinburgh as part of Europe-wide protest",
-        "link": "https://news.sky.com/story/dozens-of-anti-data-centre-groups-set-to-march-in-edinburgh-as-part-of-europe-wide-protest-13609164",
-        "published": "Sat, 07 Nov 2026 08:19:00 +0000",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/11/1920x1080/skynews-scotland-data-centre-protest_7399731.jpg?20261107083230"
       }
     ],
     "WORLD": [
+      {
+        "title": "We may have just prevented a new ice age – but it’s not a good thing",
+        "link": "https://metro.co.uk/2026/11/08/may-just-prevented-a-new-ice-age-not-a-good-thing-29764836/",
+        "published": "Sun, 08 Nov 2026 06:00:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News Tech Weird Canada Climate Change Science",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_319417884-141d.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Trump asks UFC boss Dana White to be his new press secretary",
+        "link": "https://news.sky.com/story/trump-asks-ufc-boss-dana-white-to-become-white-house-press-secretary-13609613",
+        "published": "Sun, 08 Nov 2026 04:27:00 +0000",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/11/1920x1080/skynews-dana-white-trump_7400674.jpg?20261108050154"
+      },
+      {
+        "title": "Uyghurs facing deportation by Thailand say they will be ‘like slaves’ in China",
+        "link": "https://www.theguardian.com/global-development/2026/nov/08/uyghurs-thailand-china-forced-deportation",
+        "published": "Sun, 08 Nov 2026 03:00:28 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Uyghurs Global development Thailand Xinjiang China World news Asia Pacific Human rights Transnational repression Refugees Torture Human rights",
+        "image": "https://i.guim.co.uk/img/media/35edbd25132584ead100a994fe3243e80a1ce3f1/0_0_4132_3306/master/4132.jpg?width=140&quality=85&auto=format&fit=max&s=27393216122fc0abfebcbe2607170f1a"
+      },
+      {
+        "title": "Cold blast brings springtime snow to alpine regions as temperatures plummet across Australia’s south-east",
+        "link": "https://www.theguardian.com/australia-news/2026/nov/08/australia-weather-cold-blast-springtime-snow-thredbo-perisher-hotham-victoria-tasmania-el-nino",
+        "published": "Sun, 08 Nov 2026 02:34:19 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Australia weather New South Wales Victoria Queensland Tasmania Australia news El Niño southern oscillation Environment",
+        "image": "https://i.guim.co.uk/img/media/cec2d40cb1736bf071e01cfe1c16506146148e45/467_97_1218_975/master/1218.jpg?width=140&quality=85&auto=format&fit=max&s=f0b668a0c2353f200a661bd995771642"
+      },
+      {
+        "title": "Briton among six killed by 'far-right' gunman in Krakow rampage",
+        "link": "https://news.sky.com/story/british-national-among-six-killed-by-far-right-gunman-in-krakow-rampage-13609612",
+        "published": "Sun, 08 Nov 2026 02:19:00 +0000",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/11/1920x1080/skynews-poland-krakow-shooting_7400608.jpg?20261107222856"
+      },
+      {
+        "title": "NZ election 2026: New Zealand faces weeks of uncertainty with results ‘too close to call’",
+        "link": "https://www.theguardian.com/world/2026/nov/07/new-zealand-election-too-close-to-call-vote-count",
+        "published": "Sun, 08 Nov 2026 01:00:48 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "New Zealand election 2026 New Zealand Asia Pacific World news New Zealand politics Christopher Luxon Chris Hipkins Māori National Party",
+        "image": "https://i.guim.co.uk/img/media/7fcb32a817f834d2911af2cc72d2a3a7d313ee0e/688_0_6880_5504/master/6880.jpg?width=140&quality=85&auto=format&fit=max&s=030d6b177625782a5ee646ba1c1d9571"
+      },
       {
         "title": "Blow for Netanyahu as opposition rival asked to form government by Israel's president",
         "link": "https://news.sky.com/story/blow-for-netanyahu-as-opposition-rival-asked-to-form-government-by-israels-president-13609540",
@@ -104,42 +158,6 @@
         "image": "https://e3.365dm.com/26/10/1920x1080/skynews-gadi-eisenkot-israel-elections_7389637.jpg?20261028121525"
       },
       {
-        "title": "How do you broker UN climate talks when your own country is a big coal and gas exporter? Chris Bowen is about to find out",
-        "link": "https://www.theguardian.com/environment/2026/nov/08/chris-bowen-cop31-experts-condemn-australia-coal-gas-approvals",
-        "published": "Sat, 07 Nov 2026 19:00:20 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Cop31 Australian politics Chris Bowen Australia news Environment",
-        "image": "https://i.guim.co.uk/img/media/bb286d73fb7d844e4e9bbf6f098aca4d917fe76f/127_0_5701_4561/master/5701.jpg?width=140&quality=85&auto=format&fit=max&s=742f8319ef65817b462bb6fc943c7e16"
-      },
-      {
-        "title": "A Big Build royal commission helped Ben Carroll become premier. Will it be his downfall?",
-        "link": "https://www.theguardian.com/australia-news/2026/nov/08/big-build-royal-commission-victorian-election-ben-carroll-labor-ntwnfb",
-        "published": "Sat, 07 Nov 2026 19:00:19 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Victoria state election 2026 Ben Carroll Labor party Australian trade unions Victorian politics Victoria Australia news",
-        "image": "https://i.guim.co.uk/img/media/8c639709fffda9b930d49d011734b4c7cba4ef67/294_0_5040_4032/master/5040.jpg?width=140&quality=85&auto=format&fit=max&s=f4cdd0a0f9c2b488500e29ec890f1dd9"
-      },
-      {
-        "title": "At least 27 people killed in strike near Yemen's capital, Houthi official says",
-        "link": "https://news.sky.com/story/at-least-27-people-killed-in-strike-near-yemens-capital-houthi-official-says-13609232",
-        "published": "Sat, 07 Nov 2026 14:19:00 +0000",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/11/1920x1080/skynews-yemen-sanaa_7399969.jpg?20261107150301"
-      },
-      {
-        "title": "New Zealand faces weeks of uncertainty with election ‘too close to call’",
-        "link": "https://www.theguardian.com/world/2026/nov/07/new-zealand-election-too-close-to-call-vote-count",
-        "published": "Sat, 07 Nov 2026 13:48:18 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "New Zealand election 2026 New Zealand Asia Pacific World news New Zealand politics Christopher Luxon Chris Hipkins Māori National Party",
-        "image": "https://i.guim.co.uk/img/media/7fcb32a817f834d2911af2cc72d2a3a7d313ee0e/688_0_6880_5504/master/6880.jpg?width=140&quality=85&auto=format&fit=max&s=030d6b177625782a5ee646ba1c1d9571"
-      },
-      {
         "title": "Girl, 15, sent to ‘hellhole’ penal colony by Russian court for being ‘Ukrainian spy’",
         "link": "https://metro.co.uk/2026/11/07/girl-15-sent-hellhole-penal-colony-russian-court-ukrainian-spy-29773762/",
         "published": "Sat, 07 Nov 2026 13:42:20 +0000",
@@ -147,24 +165,6 @@
         "provider": "METRO",
         "categories": "News World Russia Russia-Ukraine war Ukraine",
         "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_319769785-8bcc.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "No clear winner after New Zealand general election",
-        "link": "https://news.sky.com/story/new-zealand-election-too-close-to-call-with-conservative-coalition-on-brink-of-slim-majority-13609199",
-        "published": "Sat, 07 Nov 2026 13:00:00 +0000",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/11/1920x1080/skynews-new-zealand-christopher-luxon_7399827.jpg?20261107131659"
-      },
-      {
-        "title": "Thousands turn out to greet Pope Leo as he begins Latin America tour",
-        "link": "https://news.sky.com/story/pope-leo-begins-latin-america-tour-less-than-a-month-after-lung-cancer-surgery-13609186",
-        "published": "Sat, 07 Nov 2026 12:02:00 +0000",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/11/1920x1080/skynews-pope-leo-uruguay_7399813.jpg?20261107130636"
       },
       {
         "title": "TV channels and more flights receive bomb threats on the third day of chaos",
@@ -186,6 +186,15 @@
       }
     ],
     "POLITICS": [
+      {
+        "title": "Does Andy Burnham’s pivot from press to social media put scrutiny at risk?",
+        "link": "https://www.theguardian.com/politics/2026/nov/08/andy-burnham-social-media-traditional-media-scrutiny-at-risk",
+        "published": "Sun, 08 Nov 2026 06:00:32 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Andy Burnham Social media Newspapers & magazines Media Newspapers Politics UK news BBC",
+        "image": "https://i.guim.co.uk/img/media/a0cac622860a5bd34d5fc74415a28b00182fbf8a/417_0_4167_3335/master/4167.jpg?width=140&quality=85&auto=format&fit=max&s=e70529c700f67398c69d874bebee624e"
+      },
       {
         "title": "What happens if a ‘Black Sky’ attack hits the UK?",
         "link": "https://metro.co.uk/2026/11/07/happens-a-black-sky-attack-hits-uk-29773583/",
@@ -230,15 +239,6 @@
         "provider": "GUARDIAN",
         "categories": "Reform UK Nigel Farage Politics UK news",
         "image": "https://i.guim.co.uk/img/media/79076a3b05d8796724e0007bdd12c573ab1f8e2d/1172_0_5860_4688/master/5860.jpg?width=140&quality=85&auto=format&fit=max&s=9a6c47d0cba77ccee4d84a4af2abc56b"
-      },
-      {
-        "title": "I spent a week cooking 70s meals for my family – they did not go down well",
-        "link": "https://metro.co.uk/2026/11/07/spent-a-week-cooking-70s-meals-family-not-go-well-29756503/",
-        "published": "Sat, 07 Nov 2026 14:00:00 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Food Lifestyle 70s nostalgia cooking Foodie History I Tried Mary Berry Recipes",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEC_319166025-8514.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "Job adverts to be legally required to include salary information",
@@ -371,31 +371,49 @@
     ],
     "TECH": [
       {
-        "title": "Daily horoscope November 8, 2026: Today’s predictions for your star sign",
-        "link": "https://metro.co.uk/2026/11/08/daily-horoscope-november-8-2026-predictions-star-sign-29764909/",
-        "published": "Sun, 08 Nov 2026 00:01:00 +0000",
+        "title": "We may have just prevented a new ice age – but it’s not a good thing",
+        "link": "https://metro.co.uk/2026/11/08/may-just-prevented-a-new-ice-age-not-a-good-thing-29764836/",
+        "published": "Sun, 08 Nov 2026 06:00:00 +0000",
         "source": "Metro",
         "provider": "METRO",
-        "categories": "Horoscopes Lifestyle Aquarius Aries Astrology Cancer (star sign) Capricorn Gemini Leo Libra Pisces Sagittarius Scorpio Taurus Virgo",
-        "image": "https://metro.co.uk/wp-content/uploads/2023/04/new-horoscope-2023-02-a5db.gif?w=646"
+        "categories": "News Tech Weird Canada Climate Change Science",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_319417884-141d.jpg?quality=90&strip=all&w=646"
       },
       {
-        "title": "What happens if a ‘Black Sky’ attack hits the UK?",
-        "link": "https://metro.co.uk/2026/11/07/happens-a-black-sky-attack-hits-uk-29773583/",
-        "published": "Sat, 07 Nov 2026 17:49:47 +0000",
+        "title": "007 First Light is my game of the year and it’s dirt cheap right now – Reader’s Feature",
+        "link": "https://metro.co.uk/2026/11/08/007-first-light-game-year-dirt-cheap-right-now-readers-feature-29773311/",
+        "published": "Sun, 08 Nov 2026 06:00:00 +0000",
         "source": "Metro",
         "provider": "METRO",
-        "categories": "News UK BBC British Government Internet Outage",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_319765231-d981.jpg?quality=90&strip=all&w=646"
+        "categories": "Entertainment Gaming James Bond Reader's Feature",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312548538-0f57.jpg?quality=90&strip=all&w=646"
       },
       {
-        "title": "Man sues after ChatGPT ‘encouraged’ wife’s plan to poison him",
-        "link": "https://metro.co.uk/2026/11/07/man-sues-chatgpt-encouraged-wifes-plan-poison-29773879/",
-        "published": "Sat, 07 Nov 2026 16:57:13 +0000",
+        "title": "Your star sign’s weekly tarot horoscope reading for November 9 to November 15",
+        "link": "https://metro.co.uk/2026/11/08/weekly-tarot-horoscope-reading-november-9-november-15-2026-29770451/",
+        "published": "Sun, 08 Nov 2026 04:00:00 +0000",
         "source": "Metro",
         "provider": "METRO",
-        "categories": "News US Artificial Intelligence ChatGPT Crime News",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310675656-e510.jpg?quality=90&strip=all&w=646"
+        "categories": "Horoscopes Lifestyle Aquarius Aries Astrology Cancer (star sign) Capricorn Gemini Leo Libra Pisces Sagittarius Scorpio Tarot Taurus Virgo",
+        "image": "https://metro.co.uk/wp-content/uploads/2022/04/SEI_96594073.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "How I made a mobile game with my seven-year-old daughter – Reader’s Feature",
+        "link": "https://metro.co.uk/2026/11/08/made-a-mobile-game-seven-year-old-daughter-readers-feature-29773272/",
+        "published": "Sun, 08 Nov 2026 01:00:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Entertainment Gaming iOS games Reader's Feature",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_319728136-851a.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "The Trump administration wants underwater datacenters. One Great Lakes non-profit is already preparing",
+        "link": "https://www.theguardian.com/us-news/2026/nov/07/underwater-datacenters-great-lakes-trump",
+        "published": "Sat, 07 Nov 2026 14:00:14 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Datacenters – US Ohio Technology US news",
+        "image": "https://i.guim.co.uk/img/media/90c2d090a335bb315daba9621a26b958330e6918/724_0_7212_5773/master/7212.jpg?width=140&quality=85&auto=format&fit=max&s=fa55f080faaeac50e942a94c3047ee52"
       },
       {
         "title": "Standing in the way of slop bowls: the woman blocking food delivery robots",
@@ -407,22 +425,13 @@
         "image": "https://i.guim.co.uk/img/media/6c9b99624b2d4f830d94948c591fde5d07839cf9/148_0_6358_5086/master/6358.jpg?width=140&quality=85&auto=format&fit=max&s=731516b3b10b69bcfb54fdbce5864718"
       },
       {
-        "title": "Gotta buy ’em all: how Pokémon card collecting became race against scalpers",
-        "link": "https://www.theguardian.com/games/2026/nov/07/gotta-buy-em-all-how-pokemon-card-collecting-became-race-against-scalpers",
-        "published": "Sat, 07 Nov 2026 12:00:11 GMT",
+        "title": "A ‘customer success story’: leaked documents show Cisco doubled down on Israeli military deals during Gaza war",
+        "link": "https://www.theguardian.com/world/2026/nov/07/israel-intelligence-cisco-gaza-palestine",
+        "published": "Sat, 07 Nov 2026 12:00:12 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
-        "categories": "Pokémon Collecting Shopping Life and style Game culture Consumer affairs London UK news",
-        "image": "https://i.guim.co.uk/img/media/add3efa623b78699ceac7a663e4ab615f38fb13d/378_0_3378_2704/master/3378.jpg?width=140&quality=85&auto=format&fit=max&s=9cbf16c0a06e9a9b6f60466fd302ad8a"
-      },
-      {
-        "title": "Lanarkshire AI datacentre to fully rely on National Grid despite renewables claim",
-        "link": "https://www.theguardian.com/uk-news/2026/nov/07/lanarkshire-ai-datacentre-datavita-chapelhall-national-grid-renewable-energy",
-        "published": "Sat, 07 Nov 2026 10:00:08 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Datacentres - UK Scotland National Grid Renewable energy Energy AI (artificial intelligence) UK news Glasgow Energy industry",
-        "image": "https://i.guim.co.uk/img/media/c1b8eb2d05fbcf3925b8a30a9e3d4612d3eaa8c7/1365_0_6827_5464/master/6827.jpg?width=140&quality=85&auto=format&fit=max&s=3ef7aa4b0036b9e0fb5e9137ca280cb4"
+        "categories": "Israel-Gaza war Cisco Gaza Palestine Computing Technology sector Technology International law Israel Middle East and north Africa World news",
+        "image": "https://i.guim.co.uk/img/media/60a84798eb17356220e1eb8ab76f14087a8cd747/0_0_3000_2400/master/3000.jpg?width=140&quality=85&auto=format&fit=max&s=cea2e5100ec572f808c1994331acef93"
       },
       {
         "title": "Anti-data centre groups set to march in Edinburgh as part of Europe-wide protest",
@@ -450,18 +459,18 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/07/1920x1080/skynews-waste-illegal-waste_7303647.png?20260721183645"
-      },
-      {
-        "title": "The datacentre arms race hits pause in south-east Asia",
-        "link": "https://www.theguardian.com/technology/2026/nov/07/datacentres-southeast-asia",
-        "published": "Sat, 07 Nov 2026 10:00:07 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Technology AI (artificial intelligence) Datacentres World news Thailand Asia Pacific Malaysia Energy industry Singapore Indonesia Infrastructure",
-        "image": "https://i.guim.co.uk/img/media/97317ac683d16a9b43f8f91ba651c0c5be5113a7/836_0_4164_3333/master/4164.jpg?width=140&quality=85&auto=format&fit=max&s=b3dcfcb97fc179796641df3a7d439106"
       }
     ],
     "ENTERTAINMENT": [
+      {
+        "title": "Sally is stunned when Tim delivers unexpected news on Coronation Street",
+        "link": "https://metro.co.uk/2026/11/07/coronation-streets-sally-stunned-tim-delivers-unexpected-news-29766650/",
+        "published": "Sat, 07 Nov 2026 20:00:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Coronation Street Soaps Joe Duttine Sally Dynevor Sally Metcalfe Tim Metcalfe",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/11/image-f5eb.png?w=646"
+      },
       {
         "title": "Idris plays vicious games with Carla on Coronation Street – and he’s winning",
         "link": "https://metro.co.uk/2026/11/07/coronation-streets-idris-plays-vicious-games-carla-winning-29764119/",
@@ -488,15 +497,6 @@
         "provider": "METRO",
         "categories": "Entertainment Music Olivia Rodrigo Robbie Williams US music",
         "image": "https://metro.co.uk/wp-content/uploads/2026/11/comp-1794063982.png?w=646"
-      },
-      {
-        "title": "Celebrity Traitors star forced to scrap ‘tell-all’ podcast after BBC warning",
-        "link": "https://metro.co.uk/2026/11/07/celebrity-traitors-star-forced-scrap-tell-all-podcast-bbc-warning-29773891/",
-        "published": "Sat, 07 Nov 2026 15:57:09 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Entertainment TV BBC Celebrity Traitors Joanne McNally",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI315054154-b1f3.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "Sebastián Lelio was a fascinating film-maker of great passion and poetry",
@@ -758,22 +758,13 @@
       "categories": {
         "UK": [
           {
-            "title": "Critical incident declared after car 'damaged by gunfire' - with two arrested",
-            "link": "https://news.sky.com/story/critical-incident-declared-in-south-wales-after-car-damaged-by-gunfire-with-two-arrested-13609113",
-            "published": "Fri, 06 Nov 2026 22:26:00 +0000",
+            "title": "Two seriously injured in 30-vehicle crash in 'thick fog' in Kent",
+            "link": "https://news.sky.com/story/two-seriously-injured-in-30-vehicle-crash-in-fog-on-the-m20-near-maidstone-13609605",
+            "published": "Sat, 07 Nov 2026 23:05:00 +0000",
             "source": "Sky News",
             "provider": "SKY",
             "categories": "",
-            "image": "https://e3.365dm.com/26/11/1920x1080/skynews-swansea-a48-clase-road_7399643.jpg?20261106224119"
-          },
-          {
-            "title": "Man appears in court charged with murder of missing woman",
-            "link": "https://news.sky.com/story/man-appears-in-court-charged-with-murder-of-missing-woman-carrie-mullane-in-northern-ireland-13609131",
-            "published": "Sat, 07 Nov 2026 01:38:00 +0000",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/11/1920x1080/skynews-carrie-mullane-enniskillen_7399666.jpg?20261107014700"
+            "image": "https://e3.365dm.com/26/11/1920x1080/skynews-m20-crash_7400658.jpg?20261108000205"
           },
           {
             "title": "Travel delays feared as fog warning issued for parts of England",
@@ -792,6 +783,24 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/11/1920x1080/skynews-tuffley-gloucester_7399940.jpg?20261107144754"
+          },
+          {
+            "title": "Man appears in court charged with murder of missing woman",
+            "link": "https://news.sky.com/story/man-appears-in-court-charged-with-murder-of-missing-woman-carrie-mullane-in-northern-ireland-13609131",
+            "published": "Sat, 07 Nov 2026 01:38:00 +0000",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/11/1920x1080/skynews-carrie-mullane-enniskillen_7399666.jpg?20261107014700"
+          },
+          {
+            "title": "Critical incident declared after car 'damaged by gunfire' - with two arrested",
+            "link": "https://news.sky.com/story/critical-incident-declared-in-south-wales-after-car-damaged-by-gunfire-with-two-arrested-13609113",
+            "published": "Fri, 06 Nov 2026 22:26:00 +0000",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/11/1920x1080/skynews-swansea-a48-clase-road_7399643.jpg?20261106224119"
           },
           {
             "title": "Katherine Ryan feels 'grief and relief' over Brand guilty verdict",
@@ -828,27 +837,18 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/11/1920x1080/skynews-prince-harry-london_7399328.jpg?20261106174708"
-          },
-          {
-            "title": "Amateur cricketer 'Clicky Ponting' banned for two years over viral cheating",
-            "link": "https://news.sky.com/story/amateur-cricketer-clicky-pointing-banned-for-two-years-and-club-relegated-over-viral-cheating-13608918",
-            "published": "Fri, 06 Nov 2026 15:29:00 +0000",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/07/1920x1080/skynews-cricket-sports_7308719.jpg?20260728164157"
-          },
-          {
-            "title": "Andrew made more than £2,000 a month subletting Royal Lodge cottages",
-            "link": "https://news.sky.com/story/andrew-made-more-than-2000-a-month-subletting-royal-lodge-cottages-13608682",
-            "published": "Fri, 06 Nov 2026 06:30:00 +0000",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/02/1920x1080/skynews-andrew-mountbatten-windsor_7170540.jpg?20260220200932"
           }
         ],
         "WORLD": [
+          {
+            "title": "Briton among six killed by 'far-right' gunman in Krakow rampage",
+            "link": "https://news.sky.com/story/british-national-among-six-killed-by-far-right-gunman-in-krakow-rampage-13609612",
+            "published": "Sun, 08 Nov 2026 02:19:00 +0000",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/11/1920x1080/skynews-poland-krakow-shooting_7400608.jpg?20261107222856"
+          },
           {
             "title": "Blow for Netanyahu as opposition rival asked to form government by Israel's president",
             "link": "https://news.sky.com/story/blow-for-netanyahu-as-opposition-rival-asked-to-form-government-by-israels-president-13609540",
@@ -859,6 +859,15 @@
             "image": "https://e3.365dm.com/26/10/1920x1080/skynews-gadi-eisenkot-israel-elections_7389637.jpg?20261028121525"
           },
           {
+            "title": "Trump asks UFC boss Dana White to be his new press secretary",
+            "link": "https://news.sky.com/story/trump-asks-ufc-boss-dana-white-to-become-white-house-press-secretary-13609613",
+            "published": "Sun, 08 Nov 2026 04:27:00 +0000",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/11/1920x1080/skynews-dana-white-trump_7400674.jpg?20261108050154"
+          },
+          {
             "title": "At least 27 people killed in strike near Yemen's capital, Houthi official says",
             "link": "https://news.sky.com/story/at-least-27-people-killed-in-strike-near-yemens-capital-houthi-official-says-13609232",
             "published": "Sat, 07 Nov 2026 14:19:00 +0000",
@@ -866,6 +875,15 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/11/1920x1080/skynews-yemen-sanaa_7399969.jpg?20261107150301"
+          },
+          {
+            "title": "Thousands turn out to greet Pope Leo as he begins Latin America tour",
+            "link": "https://news.sky.com/story/pope-leo-begins-latin-america-tour-less-than-a-month-after-lung-cancer-surgery-13609186",
+            "published": "Sat, 07 Nov 2026 12:02:00 +0000",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/11/1920x1080/skynews-pope-leo-uruguay_7399813.jpg?20261107130636"
           },
           {
             "title": "Meghan's father in court charged with possessing child abuse material",
@@ -886,15 +904,6 @@
             "image": "https://e3.365dm.com/26/11/1920x1080/skynews-new-zealand-christopher-luxon_7399827.jpg?20261107131659"
           },
           {
-            "title": "Thousands turn out to greet Pope Leo as he begins Latin America tour",
-            "link": "https://news.sky.com/story/pope-leo-begins-latin-america-tour-less-than-a-month-after-lung-cancer-surgery-13609186",
-            "published": "Sat, 07 Nov 2026 12:02:00 +0000",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/11/1920x1080/skynews-pope-leo-uruguay_7399813.jpg?20261107130636"
-          },
-          {
             "title": "Boy, 6, dies in hospital after house fire that killed four members of his family",
             "link": "https://news.sky.com/story/boy-6-dies-in-hospital-after-house-fire-that-killed-four-members-of-his-family-13609051",
             "published": "Fri, 06 Nov 2026 20:29:00 +0000",
@@ -902,24 +911,6 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/10/1920x1080/skynews-waterford-fire_7377650.jpg?20261015153331"
-          },
-          {
-            "title": "UK has 'new pair of eyes' in space as new military satellite enters orbit",
-            "link": "https://news.sky.com/story/uk-has-new-pair-of-eyes-in-space-after-military-satellite-titania-enters-orbit-13609133",
-            "published": "Sat, 07 Nov 2026 03:30:00 +0000",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/11/1920x1080/skynews-satellite-titania_7399669.png?20261107040424"
-          },
-          {
-            "title": "Two dead after bus carrying schoolchildren crashes in France, officials say",
-            "link": "https://news.sky.com/story/two-dead-after-bus-carrying-schoolchildren-crashes-in-france-officials-say-13608677",
-            "published": "Fri, 06 Nov 2026 12:10:00 +0000",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/11/1920x1080/skynews-france-school-bus-lent_7398902.jpg?20261106102057"
           }
         ],
         "POLITICS": [
@@ -1267,7 +1258,7 @@
       "health": {
         "UK": {
           "ok": true,
-          "count": 10
+          "count": 9
         },
         "WORLD": {
           "ok": true,
@@ -1567,9 +1558,18 @@
             "image": "https://i.guim.co.uk/img/media/a77eebbaa9a34c6ba08a7521d0b9d7e55650da11/1666_5_3949_3159/master/3949.jpg?width=140&quality=85&auto=format&fit=max&s=e82620f109a326e6d5b5cff3740166e3"
           },
           {
-            "title": "New Zealand faces weeks of uncertainty with election ‘too close to call’",
+            "title": "Uyghurs facing deportation by Thailand say they will be ‘like slaves’ in China",
+            "link": "https://www.theguardian.com/global-development/2026/nov/08/uyghurs-thailand-china-forced-deportation",
+            "published": "Sun, 08 Nov 2026 03:00:28 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Uyghurs Global development Thailand Xinjiang China World news Asia Pacific Human rights Transnational repression Refugees Torture Human rights",
+            "image": "https://i.guim.co.uk/img/media/35edbd25132584ead100a994fe3243e80a1ce3f1/0_0_4132_3306/master/4132.jpg?width=140&quality=85&auto=format&fit=max&s=27393216122fc0abfebcbe2607170f1a"
+          },
+          {
+            "title": "NZ election 2026: New Zealand faces weeks of uncertainty with results ‘too close to call’",
             "link": "https://www.theguardian.com/world/2026/nov/07/new-zealand-election-too-close-to-call-vote-count",
-            "published": "Sat, 07 Nov 2026 13:48:18 GMT",
+            "published": "Sun, 08 Nov 2026 01:00:48 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
             "categories": "New Zealand election 2026 New Zealand Asia Pacific World news New Zealand politics Christopher Luxon Chris Hipkins Māori National Party",
@@ -1603,13 +1603,22 @@
             "image": "https://i.guim.co.uk/img/media/f07363f35ce5612b989365a754efde92e8077a12/384_0_2441_1953/master/2441.jpg?width=140&quality=85&auto=format&fit=max&s=487347e8c2f0afd80ec79acc90c6e867"
           },
           {
-            "title": "K-pop group NewJeans’s contract omitted rights to ‘sleep and free choice’ – report",
-            "link": "https://www.theguardian.com/music/2026/nov/05/k-pop-group-newjeans-contract",
-            "published": "Thu, 05 Nov 2026 17:08:29 GMT",
+            "title": "Cold blast brings springtime snow to alpine regions as temperatures plummet across Australia’s south-east",
+            "link": "https://www.theguardian.com/australia-news/2026/nov/08/australia-weather-cold-blast-springtime-snow-thredbo-perisher-hotham-victoria-tasmania-el-nino",
+            "published": "Sun, 08 Nov 2026 02:34:19 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "K-pop Music South Korea Pop and rock Culture Asia Pacific US news",
-            "image": "https://i.guim.co.uk/img/media/e19e5c2659dc5b85cbc7515c4bde9d66462e8fb8/94_0_2812_2250/master/2812.jpg?width=140&quality=85&auto=format&fit=max&s=6e31142ff89536d0f2a0a8053cd27028"
+            "categories": "Australia weather New South Wales Victoria Queensland Tasmania Australia news El Niño southern oscillation Environment",
+            "image": "https://i.guim.co.uk/img/media/cec2d40cb1736bf071e01cfe1c16506146148e45/467_97_1218_975/master/1218.jpg?width=140&quality=85&auto=format&fit=max&s=f0b668a0c2353f200a661bd995771642"
+          },
+          {
+            "title": "Victoria Barracks in Sydney and Melbourne to remain in public hands after partial backtrack on defence property selloff",
+            "link": "https://www.theguardian.com/australia-news/2026/nov/08/victoria-barracks-sydney-and-melbourne-remain-in-public-hands-backtrack-defence-property-sale-albanese-marles",
+            "published": "Sun, 08 Nov 2026 00:17:28 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Australian military Housing Richard Marles Australian politics Australia news Anthony Albanese Sydney Melbourne",
+            "image": "https://i.guim.co.uk/img/media/4de3f4de1a517d63098209ff6451d828346e519e/407_0_4066_3253/master/4066.jpg?width=140&quality=85&auto=format&fit=max&s=4965429b9c28af04599748c5247ec451"
           },
           {
             "title": "How do you broker UN climate talks when your own country is a big coal and gas exporter? Chris Bowen is about to find out",
@@ -1637,24 +1646,6 @@
             "provider": "GUARDIAN",
             "categories": "Cop31 Environment Climate crisis Fossil fuels Solar power Energy Renewable energy Turkey Australia news",
             "image": "https://i.guim.co.uk/img/media/ab150660e1c0941c2982524b3f3d02283867ef5d/350_0_2943_2354/master/2943.jpg?width=140&quality=85&auto=format&fit=max&s=947cd67326b78e5e24874e61dd562574"
-          },
-          {
-            "title": "Ben Roberts-Smith collaborates with gym business run by influencer that sold ‘war crimes’ pre-workout supplement",
-            "link": "https://www.theguardian.com/australia-news/2026/nov/07/ben-roberts-smith-collaborates-gym-business-influencer-war-crimes-pre-workout-supplement-ntwnfb",
-            "published": "Sat, 07 Nov 2026 00:58:11 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Ben Roberts-Smith Australia news Social media Australian military",
-            "image": "https://i.guim.co.uk/img/media/02e0d857f88e103dd152dec11497256886fd7736/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=5332afb735430603b0c8bfc9d8ff407f"
-          },
-          {
-            "title": "When a single vowel stands in the path to victory, the stakes could not be higher for these spelling bee champions",
-            "link": "https://www.theguardian.com/australia-news/2026/nov/07/when-a-single-vowel-stands-in-the-path-to-victory-the-stakes-could-not-be-higher-for-these-spelling-bee-champions",
-            "published": "Fri, 06 Nov 2026 23:06:10 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "New South Wales Sydney Australia news Schools Students",
-            "image": "https://i.guim.co.uk/img/media/ff549a712a3bdd87712f2192da48624a1c4eaad6/610_0_6827_5464/master/6827.jpg?width=140&quality=85&auto=format&fit=max&s=62d76cdd7c679f83d7d358febc8c544c"
           }
         ],
         "POLITICS": [
@@ -1785,6 +1776,15 @@
             "image": "https://i.guim.co.uk/img/media/6403d1650f9b4ac86b7edb5dfab2c6dccc9fe186/859_39_5805_4643/master/5805.jpg?width=140&quality=85&auto=format&fit=max&s=72bd5654fff094f3d87f29d3d1791bbc"
           },
           {
+            "title": "Does Andy Burnham’s pivot from press to social media put scrutiny at risk?",
+            "link": "https://www.theguardian.com/politics/2026/nov/08/andy-burnham-social-media-traditional-media-scrutiny-at-risk",
+            "published": "Sun, 08 Nov 2026 06:00:32 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Andy Burnham Social media Newspapers & magazines Media Newspapers Politics UK news BBC",
+            "image": "https://i.guim.co.uk/img/media/a0cac622860a5bd34d5fc74415a28b00182fbf8a/417_0_4167_3335/master/4167.jpg?width=140&quality=85&auto=format&fit=max&s=e70529c700f67398c69d874bebee624e"
+          },
+          {
             "title": "Vetting candidates is a tricky process but Reform can’t seem to get it right",
             "link": "https://www.theguardian.com/politics/2026/nov/07/reform-nigel-farage-vetting-candidates-struggle",
             "published": "Sat, 07 Nov 2026 15:00:14 GMT",
@@ -1810,15 +1810,6 @@
             "provider": "GUARDIAN",
             "categories": "US midterm elections 2026 Donald Trump Andy Burnham Labour Ed Miliband David Miliband Emily Thornberry Politics",
             "image": "https://i.guim.co.uk/img/media/b076067a192f5c67274d494db6ff5d8abab610fc/390_0_3290_2632/master/3290.jpg?width=140&quality=85&auto=format&fit=max&s=034db0609ae0b95626b90a55746a946b"
-          },
-          {
-            "title": "‘I feel free now’: Shabana Mahmood’s immigration shake-up provokes mixed emotions",
-            "link": "https://www.theguardian.com/uk-news/2026/nov/06/shabana-mahmood-uk-immigration-shakeup-reaction",
-            "published": "Fri, 06 Nov 2026 15:28:18 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Immigration and asylum Shabana Mahmood Politics UK news Home Office Housing benefit Care workers Society Housing Benefits Communities",
-            "image": "https://i.guim.co.uk/img/media/6b061cd7e309f7f7bbb7f4883125a6220eaaf331/22_0_1500_1200/master/1500.jpg?width=140&quality=85&auto=format&fit=max&s=a8ba682a1e4ffce6c9b82c6f2bad2cca"
           },
           {
             "title": "Ella Baron on the future of care workers in Britain – cartoon",
@@ -2122,6 +2113,24 @@
             "image": "https://i.guim.co.uk/img/media/970f70f987dc7eac0861b19182f1571b300dab67/688_0_6880_5504/master/6880.jpg?width=140&quality=85&auto=format&fit=max&s=39df1482a09503c4a3875897aa378d36"
           },
           {
+            "title": "The Trump administration wants underwater datacenters. One Great Lakes non-profit is already preparing",
+            "link": "https://www.theguardian.com/us-news/2026/nov/07/underwater-datacenters-great-lakes-trump",
+            "published": "Sat, 07 Nov 2026 14:00:14 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Datacenters – US Ohio Technology US news",
+            "image": "https://i.guim.co.uk/img/media/90c2d090a335bb315daba9621a26b958330e6918/724_0_7212_5773/master/7212.jpg?width=140&quality=85&auto=format&fit=max&s=fa55f080faaeac50e942a94c3047ee52"
+          },
+          {
+            "title": "A ‘customer success story’: leaked documents show Cisco doubled down on Israeli military deals during Gaza war",
+            "link": "https://www.theguardian.com/world/2026/nov/07/israel-intelligence-cisco-gaza-palestine",
+            "published": "Sat, 07 Nov 2026 12:00:12 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Israel-Gaza war Cisco Gaza Palestine Computing Technology sector Technology International law Israel Middle East and north Africa World news",
+            "image": "https://i.guim.co.uk/img/media/60a84798eb17356220e1eb8ab76f14087a8cd747/0_0_3000_2400/master/3000.jpg?width=140&quality=85&auto=format&fit=max&s=cea2e5100ec572f808c1994331acef93"
+          },
+          {
             "title": "The nine best personalized gift ideas: customized for the person you love",
             "link": "https://www.theguardian.com/thefilter-us/2026/nov/06/best-personalized-custom-gift-ideas",
             "published": "Fri, 06 Nov 2026 20:15:51 GMT",
@@ -2138,24 +2147,6 @@
             "provider": "GUARDIAN",
             "categories": "Toys Gadgets Technology Family Life and style Beauty Lego Books Teen books Skincare Craft Hair care Young people Fashion Children and teenagers Headphones Vinyl Makeup Hobbies Nintendo Games Nintendo Switch",
             "image": "https://i.guim.co.uk/img/media/204c00013989f6f2f22fe56adc9ec75406a3634b/242_154_3718_2974/master/3718.jpg?width=140&quality=85&auto=format&fit=max&s=0ed81f5910c91bff27245412abfb4812"
-          },
-          {
-            "title": "Measles, mumps and misinformation: how Crunchy Moms became ‘the most dangerous’ group on Facebook",
-            "link": "https://www.theguardian.com/technology/2026/nov/06/crunchy-moms-facebook-vaccines",
-            "published": "Fri, 06 Nov 2026 12:00:41 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Meta Facebook US healthcare Trump administration Vaccines and immunisation MMR Social media Technology Health US politics US news",
-            "image": "https://i.guim.co.uk/img/media/03a82c3073c26abbf8d1d9523115a15b393db5e5/0_0_3000_2400/master/3000.jpg?width=140&quality=85&auto=format&fit=max&s=ba8c493aa12711e4a90c560fe46fcde2"
-          },
-          {
-            "title": "The best Christmas gifts in the UK for dads, grandads, uncles and friends – tested for 2026",
-            "link": "https://www.theguardian.com/thefilter/2026/nov/05/best-christmas-gifts-dads-grandads-uncles-friends-uk",
-            "published": "Thu, 05 Nov 2026 15:00:27 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Family Christmas Life and style Men's fashion Technology Gadgets",
-            "image": "https://i.guim.co.uk/img/media/837ec3d7500d5e5a1162a916c5bacf44dfac1141/0_104_3885_3106/master/3885.jpg?width=140&quality=85&auto=format&fit=max&s=37279828e970a95153eea86281ac385b"
           },
           {
             "title": "Tech barons cozied up to Trump. What will they do in newly blue America?",
@@ -2417,6 +2408,15 @@
       "categories": {
         "UK": [
           {
+            "title": "Map shows Remembrance Sunday 2026 parade route",
+            "link": "https://metro.co.uk/2026/11/08/map-shows-remembrance-sunday-2026-parade-route-29764696/",
+            "published": "Sun, 08 Nov 2026 06:00:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News UK London Remembrance Day",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_319509281-bc56.jpg?quality=90&strip=all&w=646"
+          },
+          {
             "title": "Moody Donald Trump storms off after reporter calls him a ‘loser’",
             "link": "https://metro.co.uk/2026/11/07/moody-donald-trump-storms-off-reporter-calls-a-loser-29774135/",
             "published": "Sat, 07 Nov 2026 20:51:24 +0000",
@@ -2586,15 +2586,6 @@
             "provider": "METRO",
             "categories": "News US Donald Trump Migrants Venezuela White House",
             "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_319750461-e53d.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Boy, 6, dies in hospital weeks after arson attack that killed his parents and brothers",
-            "link": "https://metro.co.uk/2026/11/07/boy-6-dies-hospital-weeks-waterford-arson-attack-killed-family-29773380/",
-            "published": "Sat, 07 Nov 2026 08:50:34 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News World Crime News Fire",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_316621658-5458.jpg?quality=90&strip=all&w=646"
           }
         ],
         "WORLD": [
@@ -2705,6 +2696,15 @@
             "provider": "METRO",
             "categories": "News World France Ministry of Defence Poland Ukraine Wes Streeting",
             "image": "https://metro.co.uk/wp-content/uploads/2026/11/image-98b2.png?w=646"
+          },
+          {
+            "title": "We may have just prevented a new ice age – but it’s not a good thing",
+            "link": "https://metro.co.uk/2026/11/08/may-just-prevented-a-new-ice-age-not-a-good-thing-29764836/",
+            "published": "Sun, 08 Nov 2026 06:00:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News Tech Weird Canada Climate Change Science",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_319417884-141d.jpg?quality=90&strip=all&w=646"
           }
         ],
         "POLITICS": [
@@ -2842,15 +2842,6 @@
             "provider": "METRO",
             "categories": "News US Donald Trump ICE US Election White House",
             "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_319698003-52aa.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "I spent a week cooking 70s meals for my family – they did not go down well",
-            "link": "https://metro.co.uk/2026/11/07/spent-a-week-cooking-70s-meals-family-not-go-well-29756503/",
-            "published": "Sat, 07 Nov 2026 14:00:00 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Food Lifestyle 70s nostalgia cooking Foodie History I Tried Mary Berry Recipes",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEC_319166025-8514.jpg?quality=90&strip=all&w=646"
           }
         ],
         "BUSINESS": [
@@ -3037,6 +3028,42 @@
         ],
         "TECH": [
           {
+            "title": "We may have just prevented a new ice age – but it’s not a good thing",
+            "link": "https://metro.co.uk/2026/11/08/may-just-prevented-a-new-ice-age-not-a-good-thing-29764836/",
+            "published": "Sun, 08 Nov 2026 06:00:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News Tech Weird Canada Climate Change Science",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_319417884-141d.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "007 First Light is my game of the year and it’s dirt cheap right now – Reader’s Feature",
+            "link": "https://metro.co.uk/2026/11/08/007-first-light-game-year-dirt-cheap-right-now-readers-feature-29773311/",
+            "published": "Sun, 08 Nov 2026 06:00:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment Gaming James Bond Reader's Feature",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312548538-0f57.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Your star sign’s weekly tarot horoscope reading for November 9 to November 15",
+            "link": "https://metro.co.uk/2026/11/08/weekly-tarot-horoscope-reading-november-9-november-15-2026-29770451/",
+            "published": "Sun, 08 Nov 2026 04:00:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Horoscopes Lifestyle Aquarius Aries Astrology Cancer (star sign) Capricorn Gemini Leo Libra Pisces Sagittarius Scorpio Tarot Taurus Virgo",
+            "image": "https://metro.co.uk/wp-content/uploads/2022/04/SEI_96594073.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "How I made a mobile game with my seven-year-old daughter – Reader’s Feature",
+            "link": "https://metro.co.uk/2026/11/08/made-a-mobile-game-seven-year-old-daughter-readers-feature-29773272/",
+            "published": "Sun, 08 Nov 2026 01:00:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment Gaming iOS games Reader's Feature",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_319728136-851a.jpg?quality=90&strip=all&w=646"
+          },
+          {
             "title": "Daily horoscope November 8, 2026: Today’s predictions for your star sign",
             "link": "https://metro.co.uk/2026/11/08/daily-horoscope-november-8-2026-predictions-star-sign-29764909/",
             "published": "Sun, 08 Nov 2026 00:01:00 +0000",
@@ -3219,22 +3246,13 @@
             "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_319674041-bb2d.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "One of Netflix’s bloodiest thrillers returns – plus 5 more shows to binge this November",
-            "link": "https://metro.co.uk/2026/11/06/one-netflixs-bloodiest-thrillers-returns-plus-5-shows-binge-this-november-29770854/",
-            "published": "Fri, 06 Nov 2026 15:00:00 +0000",
+            "title": "Sally is stunned when Tim delivers unexpected news on Coronation Street",
+            "link": "https://metro.co.uk/2026/11/07/coronation-streets-sally-stunned-tim-delivers-unexpected-news-29766650/",
+            "published": "Sat, 07 Nov 2026 20:00:00 +0000",
             "source": "Metro",
             "provider": "METRO",
-            "categories": "Entertainment TV",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/11/sarah-lancashire-in-black-doves-charlie-vickers-in-the-lord-of-the-rings-the-rings-of-power-and-michelle-yeoh-in-blade-runner-2099-picture-netflix-amazon-prime-video.png?w=646"
-          },
-          {
-            "title": "Nicole Kidman’s youngest daughter Faith makes rare appearance at Chanel show",
-            "link": "https://metro.co.uk/2026/11/06/nicole-kidmans-youngest-daughter-faith-makes-rare-appearance-chanel-show-29771458/",
-            "published": "Fri, 06 Nov 2026 14:53:34 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Entertainment Showbiz Keith Urban Nicole Kidman US Showbiz news",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI310214063-a75d.jpg?quality=90&strip=all&w=646"
+            "categories": "Coronation Street Soaps Joe Duttine Sally Dynevor Sally Metcalfe Tim Metcalfe",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/11/image-f5eb.png?w=646"
           },
           {
             "title": "Idris plays vicious games with Carla on Coronation Street – and he’s winning",
@@ -3254,11 +3272,11 @@
         },
         "WORLD": {
           "ok": true,
-          "count": 12
+          "count": 13
         },
         "POLITICS": {
           "ok": true,
-          "count": 16
+          "count": 15
         },
         "BUSINESS": {
           "ok": true,
@@ -3266,11 +3284,11 @@
         },
         "TECH": {
           "ok": true,
-          "count": 3
+          "count": 7
         },
         "ENTERTAINMENT": {
           "ok": true,
-          "count": 20
+          "count": 19
         }
       }
     },
@@ -3689,15 +3707,6 @@
             "image": ""
           },
           {
-            "title": "SoftBank credit risk jumps to 4-year high, shares tumble as AI fears roil market",
-            "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdWEyYjlxaW9WTFZLanBpRjhNVnFKS1NhanJZRjl2WHk5Wm9TUDhOaFlyMXRHZTZyajFqb2RPOXUwTHN0T2VuVlNYUmZVanVGU1JRWTE5X2ZiWHY0MDdXRVltemF5cVZSZFM3b3Q5VXl6VnFlc0l1ZHptbXR4dG1Vd054ODNYVXRqOEpqLQ?oc=5",
-            "published": "Fri, 06 Nov 2026 03:20:00 GMT",
-            "source": "Reuters",
-            "provider": "REUTERS",
-            "categories": "",
-            "image": ""
-          },
-          {
             "title": "As high oil prices curb demand, fresh signs of glut appear",
             "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQem82aUU3S0NZWXNNcXlreW9xS3J0UnpIcDNCWVdqS3NyclRxSUtWenpmMEhoNmp6amtNSG5ZYmpuMzc1TElxODVYTmVSZURrYjJsbVliVXlVSzNtM3J5TDBMNl9sQ0JSTmxKQ2RxVzc4RnMxX2lIZGp3Y3kwTFdrUndLZkFMN0JkN2xLTi02dDZjT0x1Wk0ySTMxZlpNZWRmX1F6ZDhR?oc=5",
             "published": "Fri, 06 Nov 2026 02:04:00 GMT",
@@ -3707,18 +3716,18 @@
             "image": ""
           },
           {
-            "title": "China's November diesel exports to ease amid thin domestic stocks, sources say",
-            "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOUC1heWwydGNUd0wzYWtNUXViUFMta2hyYVhFMm1pSV9oSi1lUGxxVEw1alpQYm02MUh1bU40U2VkNWNOYTZVS1BHUGRhN3Y0Z1FZODNaM2NtT0NLWW1abmxRQ0w4LVhkUzVHTHBnQmhYOVBRODhCRXpMMmpndVBsdm0tVG45NXd1c0h5YTlwSjU2bTJvNGEtdWxNT0NOTWNXa0lXN3NFakZTeUN3cWl2Mks4V3hhcWRrb18tU0NuTjJHRjQ?oc=5",
-            "published": "Thu, 05 Nov 2026 16:50:13 GMT",
+            "title": "Investors wipe $2.5 trillion off Nasdaq as blue tsunami prompts AI fears",
+            "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVVFVWVUwWmVwQXRLMTV2ZFBIV3dpR1VBUTU4dnhfUW5SN3BwcGZraXF1YTFDMmx2TjZFOTVBTWNqc09zTV9VbE1faDJ5Y294THA0YlFkTlZmX3AzWDJacm96Um1YQ0htd2FLRmJFTlpvLWVhQ0pXdUtyLVh0ZTRESzBJNW1fZ2lrTVBkUEIzejF2VUVLeGdyQWxDazczTmNWQWdOMXIybTR2T0x5OWFGNWMyU256bUhRME54eXBlTQ?oc=5",
+            "published": "Thu, 05 Nov 2026 23:16:52 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
             "image": ""
           },
           {
-            "title": "Investors wipe $2.5 trillion off Nasdaq as blue tsunami prompts AI fears",
-            "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVVFVWVUwWmVwQXRLMTV2ZFBIV3dpR1VBUTU4dnhfUW5SN3BwcGZraXF1YTFDMmx2TjZFOTVBTWNqc09zTV9VbE1faDJ5Y294THA0YlFkTlZmX3AzWDJacm96Um1YQ0htd2FLRmJFTlpvLWVhQ0pXdUtyLVh0ZTRESzBJNW1fZ2lrTVBkUEIzejF2VUVLeGdyQWxDazczTmNWQWdOMXIybTR2T0x5OWFGNWMyU256bUhRME54eXBlTQ?oc=5",
-            "published": "Thu, 05 Nov 2026 11:23:00 GMT",
+            "title": "China's November diesel exports to ease amid thin domestic stocks, sources say",
+            "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOUC1heWwydGNUd0wzYWtNUXViUFMta2hyYVhFMm1pSV9oSi1lUGxxVEw1alpQYm02MUh1bU40U2VkNWNOYTZVS1BHUGRhN3Y0Z1FZODNaM2NtT0NLWW1abmxRQ0w4LVhkUzVHTHBnQmhYOVBRODhCRXpMMmpndVBsdm0tVG45NXd1c0h5YTlwSjU2bTJvNGEtdWxNT0NOTWNXa0lXN3NFakZTeUN3cWl2Mks4V3hhcWRrb18tU0NuTjJHRjQ?oc=5",
+            "published": "Thu, 05 Nov 2026 16:50:13 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3746,6 +3755,15 @@
             "title": "Nasdaq ends higher as AI heavyweights rebound ahead of midterm results",
             "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWVp0N2w0REZqOUJ3YkRxcmliYkhtX25yTkFtdmJDUFdSVm5CcXRQYjdMeFFLU0gxcHk1STM2R0xXaGJ6TW9ZN2ZQS2RReVRiXzNtY1B3Qm5fZ1lfTUFaMVpRM2d2ZVZodnZtbUFFLUtkcURfUEtENElyNG5YcFRGcncteEFaZFUwOGxVUmpTMWFkMEtvb09VTG50a2NSbjhLUm5Zc3EtZS1XUU5lWm9B?oc=5",
             "published": "Tue, 03 Nov 2026 10:50:00 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "European shares rise as oil falls on Middle East deal hopes",
+            "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZHBCTFNsTWh0RmpkcWloQkhvaWlJWW1BQWM3VU93VXNSVXA5QXhVOTI3WEs2N0I3NUd3OFo4YjcxT0Fob2ZIWU5leTA2Y1kxUlZDUlNNYURhM0x0c2FoVHhuT0tBTXZ1WTBmdUZyN1NXcXl3VnRIVENPTGZfSmtWZ2pIa2FjUWVXV243UWtPNnBLZmtnaWwtaTRSRG5hQ2w2T3V3cHlZQTlLbzNhUFRtZHFB?oc=5",
+            "published": "Mon, 02 Nov 2026 17:45:36 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3877,5 +3895,5 @@
       }
     }
   },
-  "stocksUpdated": "2026-11-08T00:25:49.018Z"
+  "stocksUpdated": "2026-11-08T06:15:52.788Z"
 }
