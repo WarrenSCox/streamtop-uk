@@ -1,7 +1,25 @@
 {
-  "updated": "2026-11-08T18:46:30.118Z",
+  "updated": "2026-11-08T22:15:53.254Z",
   "categories": {
     "UK": [
+      {
+        "title": "Government considering banning under-16s from Vinted and eBay",
+        "link": "https://news.sky.com/story/government-considering-banning-under-16s-from-vinted-and-ebay-13609954",
+        "published": "Sun, 08 Nov 2026 19:43:00 +0000",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/25/03/1920x1080/skynews-teen-young-boy-istock_6861721.jpg?20261108203401"
+      },
+      {
+        "title": "Russell Brand case must be wake-up call to protect women in media, Lisa Nandy says",
+        "link": "https://www.theguardian.com/media/2026/nov/08/women-abuse-media-industry-lisa-nandy-russell-brand",
+        "published": "Sun, 08 Nov 2026 19:05:04 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Television industry Lisa Nandy Russell Brand Women Rape and sexual assault Media Politics UK news",
+        "image": "https://i.guim.co.uk/img/media/762ae91c8ce0a67e86d117452274a6e484f8f369/273_0_2500_2000/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=87193a1cb8cf69e755e2b161163e96c1"
+      },
       {
         "title": "Riot breaks out at influencer boxing event attended by Tommy Robinson in Ireland",
         "link": "https://www.theguardian.com/uk-news/2026/nov/08/riot-influencer-boxing-event-attended-tommy-robinson-ireland",
@@ -19,24 +37,6 @@
         "provider": "GUARDIAN",
         "categories": "Brexit Lisa Nandy Labour Foreign policy Politics UK news European Union Europe",
         "image": "https://i.guim.co.uk/img/media/5157f3976eae5a90891ee70050849ee9c60e26cb/540_86_2393_1914/master/2393.jpg?width=140&quality=85&auto=format&fit=max&s=b8a34d6bb3e1889ef0a95b2f5cdaf1c9"
-      },
-      {
-        "title": "Teaching GCSEs early risks turning schools into ‘exam factories’, education secretary warns",
-        "link": "https://www.theguardian.com/education/2026/nov/08/gcses-teaching-england-curriculum-education-secretary-lucy-powell",
-        "published": "Sun, 08 Nov 2026 18:07:54 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Schools GCSEs Exams Secondary schools Lucy Powell Department for Education National curriculum Education policy Labour Curriculums Politics Education England UK news",
-        "image": "https://i.guim.co.uk/img/media/29cf0e38613d5172328a5e922b8a72c9980a3b77/517_0_4251_3400/master/4251.jpg?width=140&quality=85&auto=format&fit=max&s=6ae6737332d56f99bafc50538b6adb85"
-      },
-      {
-        "title": "Climate always comes second: are green issues slipping down Burnham’s agenda?",
-        "link": "https://www.theguardian.com/environment/2026/nov/08/andy-burnham-uk-climate-crisis-rosebank-jackdaw",
-        "published": "Sun, 08 Nov 2026 18:01:01 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Environment policy Andy Burnham Energy Labour Heat pumps Fossil fuels Climate crisis Gas Electric, hybrid and low-emission cars Politics John Healey Miatta Fahnbulleh Budget Oil Ethical and green living Greenhouse gas emissions UK news",
-        "image": "https://i.guim.co.uk/img/media/7a02db80a099b48fdc379f25b678f9698ce1e84a/477_0_4751_3803/master/4751.jpg?width=140&quality=85&auto=format&fit=max&s=78597f9fc767a9b19d8bdfb978002b35"
       },
       {
         "title": "Seven teenagers and woman injured after car mounts footpath outside Dublin shop",
@@ -95,6 +95,42 @@
     ],
     "WORLD": [
       {
+        "title": "Man charged with murder over fatal stabbing of HungryPanda delivery rider in Melbourne",
+        "link": "https://www.theguardian.com/australia-news/2026/nov/09/man-charged-fatal-stabbing-hungrypanda-delivery-driver-jianming-feng-melbourne-ntwnfb",
+        "published": "Sun, 08 Nov 2026 22:03:59 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Australia news",
+        "image": "https://i.guim.co.uk/img/media/4954ad8d5503c8161345548e255e4fdf2719dd1d/585_40_1083_867/master/1083.jpg?width=140&quality=85&auto=format&fit=max&s=5ec33b002d331556a841dce611707272"
+      },
+      {
+        "title": "Cold blast brings springtime snow to alpine regions as temperatures plummet across Australia’s south-east",
+        "link": "https://www.theguardian.com/australia-news/2026/nov/08/australia-weather-cold-blast-springtime-snow-thredbo-perisher-hotham-victoria-tasmania-el-nino",
+        "published": "Sun, 08 Nov 2026 21:25:10 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Australia weather New South Wales Victoria Queensland Tasmania Australia news El Niño southern oscillation Environment",
+        "image": "https://i.guim.co.uk/img/media/cec2d40cb1736bf071e01cfe1c16506146148e45/467_97_1218_975/master/1218.jpg?width=140&quality=85&auto=format&fit=max&s=f0b668a0c2353f200a661bd995771642"
+      },
+      {
+        "title": "Nvidia opens investigation after report CEO Jensen Huang was target of foreign intelligence",
+        "link": "https://www.theguardian.com/us-news/2026/nov/08/nvidia-jensen-huang-investigation",
+        "published": "Sun, 08 Nov 2026 21:00:58 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "US news Nvidia China Technology AI (artificial intelligence) Asia Pacific World news",
+        "image": "https://i.guim.co.uk/img/media/3fc6a5d68684a58fece0294bce9094ed76072ecd/1816_254_6098_4878/master/6098.jpg?width=140&quality=85&auto=format&fit=max&s=90bf64ebcb2ef6e0ae0390bf9e4979cf"
+      },
+      {
+        "title": "Nvidia launches 'foreign intelligence' investigation after CEO admits affair",
+        "link": "https://news.sky.com/story/tech-giant-nvidia-launches-investigation-after-reports-ceo-was-targeted-by-chinese-intelligence-13609986",
+        "published": "Sun, 08 Nov 2026 20:41:00 +0000",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-nvidia-jensen-huang_7354587.jpg?20260917130746"
+      },
+      {
         "title": "Collision of two trains in Egypt kills at least seven",
         "link": "https://www.theguardian.com/world/2026/nov/08/egypt-two-trains-deadly-collision",
         "published": "Sun, 08 Nov 2026 17:51:17 GMT",
@@ -122,15 +158,6 @@
         "image": "https://e3.365dm.com/26/11/1920x1080/skynews-egypt-train-derailed_7401023.jpg?20261108152839"
       },
       {
-        "title": "Weakening AI copyright law will spell ‘disaster for creativity’, global music body warns Albanese",
-        "link": "https://www.theguardian.com/technology/2026/nov/09/weakening-ai-copyright-law-will-spell-disaster-for-creativity-australia",
-        "published": "Sun, 08 Nov 2026 14:00:43 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "AI (artificial intelligence) Australia news Technology Music industry",
-        "image": "https://i.guim.co.uk/img/media/a9d776b6ee27daeda7be27a2ffc273f39b966850/200_0_6000_4800/master/6000.jpg?width=140&quality=85&auto=format&fit=max&s=d7cfb9e02bdb165293c91e886fccd4f9"
-      },
-      {
         "title": "'Human rights and freedom have ceased': Newspaper that defied Kremlin pays price",
         "link": "https://news.sky.com/story/human-rights-and-freedom-have-ceased-newspaper-that-defied-kremlin-pays-price-13609715",
         "published": "Sun, 08 Nov 2026 13:59:00 +0000",
@@ -149,87 +176,51 @@
         "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_282037202-4915.jpg?quality=90&strip=all&w=646"
       },
       {
-        "title": "Cop31 must deliver climate progress that people can see is real, host says",
-        "link": "https://www.theguardian.com/environment/2026/nov/08/cop31-climate-summit-deliver-progress-real-host-says",
-        "published": "Sun, 08 Nov 2026 13:24:00 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Cop31 Fossil fuels Global climate talks Energy Climate crisis Greenhouse gas emissions Climate finance Climate aid Least developed countries Environment Turkey Australia news World news",
-        "image": "https://i.guim.co.uk/img/media/5864e1f794c25f06dace50bf42918bce1e0f72db/174_0_6003_4803/master/6003.jpg?width=140&quality=85&auto=format&fit=max&s=83fdd9ee72f2efe6df78f03a7cacbffe"
-      },
-      {
-        "title": "UK military chief says Russia threat is ‘most dangerous period he’s known’",
-        "link": "https://metro.co.uk/2026/11/08/uk-military-chief-says-russia-threat-most-dangerous-period-known-29774958/",
-        "published": "Sun, 08 Nov 2026 12:42:06 +0000",
+        "title": "Girl, 15, sent to ‘hellhole’ penal colony by Russian court for being ‘Ukrainian spy’",
+        "link": "https://metro.co.uk/2026/11/07/girl-15-sent-hellhole-penal-colony-russian-court-ukrainian-spy-29773762/",
+        "published": "Sat, 07 Nov 2026 13:42:20 +0000",
         "source": "Metro",
         "provider": "METRO",
-        "categories": "News Armed Forces Russia Vladimir Putin",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_319910136-4eb2.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "One dead in Russia after Ukraine drone attack - as emergency workers struck by Moscow",
-        "link": "https://news.sky.com/story/one-dead-in-russia-after-ukraine-drone-attack-as-emergency-workers-struck-by-moscow-13609678",
-        "published": "Sun, 08 Nov 2026 12:09:00 +0000",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/11/1920x1080/skynews-ukraine-zaporizhzhia_7400787.jpg?20261108120655"
-      },
-      {
-        "title": "How African philosophies inspired a new approach to staging film festivals in Manchester",
-        "link": "https://www.theguardian.com/news/2026/nov/08/african-philosophies-see-my-world-film-festival-manchester",
-        "published": "Sun, 08 Nov 2026 12:00:39 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Manchester Culture Film Theatre UK news Colonialism Kenya Africa",
-        "image": "https://i.guim.co.uk/img/media/bcb07f839060d7b54330feb02b27ea2cae25f696/62_0_2371_1897/master/2371.jpg?width=140&quality=85&auto=format&fit=max&s=aac1a0e90bbdcc40e6993511572b0f95"
+        "categories": "News World Russia Russia-Ukraine war Ukraine",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_319769785-8bcc.jpg?quality=90&strip=all&w=646"
       }
     ],
     "POLITICS": [
+      {
+        "title": "Government considering banning under-16s from Vinted and eBay",
+        "link": "https://news.sky.com/story/government-considering-banning-under-16s-from-vinted-and-ebay-13609954",
+        "published": "Sun, 08 Nov 2026 19:43:00 +0000",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/25/03/1920x1080/skynews-teen-young-boy-istock_6861721.jpg?20261108203401"
+      },
+      {
+        "title": "Russell Brand case must be wake-up call to protect women in media, Lisa Nandy says",
+        "link": "https://www.theguardian.com/media/2026/nov/08/women-abuse-media-industry-lisa-nandy-russell-brand",
+        "published": "Sun, 08 Nov 2026 19:05:04 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Television industry Lisa Nandy Russell Brand Women Rape and sexual assault Media Politics UK news",
+        "image": "https://i.guim.co.uk/img/media/762ae91c8ce0a67e86d117452274a6e484f8f369/273_0_2500_2000/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=87193a1cb8cf69e755e2b161163e96c1"
+      },
       {
         "title": "Lisa Nandy wary of ‘circular arguments’ about rejoining EU",
         "link": "https://www.theguardian.com/politics/2026/nov/08/lisa-nandy-wary-of-circular-arguments-about-rejoining-eu",
         "published": "Sun, 08 Nov 2026 18:20:06 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
-        "categories": "Brexit Lisa Nandy Labour Politics UK news Foreign policy European Union Europe",
+        "categories": "Brexit Lisa Nandy Labour Foreign policy Politics UK news European Union Europe",
         "image": "https://i.guim.co.uk/img/media/5157f3976eae5a90891ee70050849ee9c60e26cb/540_86_2393_1914/master/2393.jpg?width=140&quality=85&auto=format&fit=max&s=b8a34d6bb3e1889ef0a95b2f5cdaf1c9"
       },
       {
-        "title": "Teaching GCSEs early risks turning schools into ‘exam factories’, education secretary warns",
+        "title": "Teaching GCSE topics younger risks turning schools into ‘early exam factories’, Powell warns",
         "link": "https://www.theguardian.com/education/2026/nov/08/gcses-teaching-england-curriculum-education-secretary-lucy-powell",
         "published": "Sun, 08 Nov 2026 18:07:54 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
-        "categories": "Schools GCSEs Exams Secondary schools Lucy Powell Department for Education National curriculum Education policy Labour Curriculums Politics Education England UK news",
+        "categories": "National curriculum Secondary schools Schools GCSEs Exams Education policy Lucy Powell Labour Department for Education Curriculums Education Politics England UK news",
         "image": "https://i.guim.co.uk/img/media/29cf0e38613d5172328a5e922b8a72c9980a3b77/517_0_4251_3400/master/4251.jpg?width=140&quality=85&auto=format&fit=max&s=6ae6737332d56f99bafc50538b6adb85"
-      },
-      {
-        "title": "Climate always comes second: are green issues slipping down Burnham’s agenda?",
-        "link": "https://www.theguardian.com/environment/2026/nov/08/andy-burnham-uk-climate-crisis-rosebank-jackdaw",
-        "published": "Sun, 08 Nov 2026 18:01:01 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Environment policy Andy Burnham Energy Labour Heat pumps Fossil fuels Climate crisis Gas Electric, hybrid and low-emission cars Politics John Healey Miatta Fahnbulleh Budget Oil Ethical and green living Greenhouse gas emissions UK news",
-        "image": "https://i.guim.co.uk/img/media/7a02db80a099b48fdc379f25b678f9698ce1e84a/477_0_4751_3803/master/4751.jpg?width=140&quality=85&auto=format&fit=max&s=78597f9fc767a9b19d8bdfb978002b35"
-      },
-      {
-        "title": "UK spent £100m on zombie Brexit border inspection posts",
-        "link": "https://www.theguardian.com/politics/2026/nov/08/uk-zombie-brexit-border-inspection-posts-check-goods",
-        "published": "Sun, 08 Nov 2026 13:32:58 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Brexit European Union Foreign policy Europe Portsmouth Politics UK news World news International trade Food & drink industry HMRC Trade policy England Business",
-        "image": "https://i.guim.co.uk/img/media/db4240edf03977a12a595754e65bb19448f4299e/368_0_3895_3116/master/3895.jpg?width=140&quality=85&auto=format&fit=max&s=6da4a837d21aad183e406a99a45876eb"
-      },
-      {
-        "title": "Under-16s will be banned from Vinted and eBay in grooming crackdown",
-        "link": "https://metro.co.uk/2026/11/08/under-16s-will-banned-vinted-ebay-grooming-crackdown-29774676/",
-        "published": "Sun, 08 Nov 2026 12:16:20 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News UK eBay Labour Party Lisa Nandy Social Media",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_319915389-d27c.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "Farage predicts ‘very, very sharp’ escalation in Iran after Trump’s midterm flub",
@@ -248,6 +239,15 @@
         "provider": "METRO",
         "categories": "News Politics British Government European Union Lisa Nandy Remembrance Day",
         "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_318474712-5de3.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Job adverts to be legally required to include salary information",
+        "link": "https://metro.co.uk/2026/11/05/job-adverts-legally-required-include-salary-information-29770124/",
+        "published": "Thu, 05 Nov 2026 22:30:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News Politics Andy Burnham British Government Business Work",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_305078487-3c32.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "UK agrees to 'time-bound' talks on harms of slave trade",
@@ -278,6 +278,15 @@
       }
     ],
     "BUSINESS": [
+      {
+        "title": "Brits are getting the ick over ‘dystopian’ new shopping trend at M&S",
+        "link": "https://metro.co.uk/2026/11/08/brits-getting-ick-dystopian-new-shopping-trend-m-s-29775613/",
+        "published": "Sun, 08 Nov 2026 19:19:48 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Food Lifestyle Food Launches Foodie Marks & Spencer Supermarkets Trends",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_237406111-8749.jpg?quality=90&strip=all&w=646"
+      },
       {
         "title": "Chinese carmaker BYD’s offices in Netherlands raided over JLR ‘copycat car’ claim",
         "link": "https://www.theguardian.com/business/2026/nov/08/chinese-carmaker-byd-offices-raided-netherlands-land-rover-copycat-claim",
@@ -324,15 +333,6 @@
         "image": "https://i.guim.co.uk/img/media/a82621f2173bcdb47b29018958e54222130414c4/291_0_2520_2016/master/2520.jpg?width=140&quality=85&auto=format&fit=max&s=61faaabb5ec3b188e3a2f40a602a4f1e"
       },
       {
-        "title": "Standing in the way of slop bowls: the woman blocking food delivery robots",
-        "link": "https://www.theguardian.com/technology/ng-interactive/2026/nov/07/philadelphia-blocking-food-delivery-robots",
-        "published": "Sat, 07 Nov 2026 14:00:12 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Robots Gig economy AI (artificial intelligence) Protest (US) Couriers/delivery industry Philadelphia US news Technology Business",
-        "image": "https://i.guim.co.uk/img/media/6c9b99624b2d4f830d94948c591fde5d07839cf9/148_0_6358_5086/master/6358.jpg?width=140&quality=85&auto=format&fit=max&s=731516b3b10b69bcfb54fdbce5864718"
-      },
-      {
         "title": "Revealed: Poundland owner's £18m bonanza from struggling discounter",
         "link": "https://news.sky.com/story/revealed-poundland-owners-18m-bonanza-from-struggling-discounter-13609174",
         "published": "Sat, 07 Nov 2026 09:54:00 +0000",
@@ -371,13 +371,22 @@
     ],
     "TECH": [
       {
-        "title": "Under-16s will be banned from Vinted and eBay in grooming crackdown",
-        "link": "https://metro.co.uk/2026/11/08/under-16s-will-banned-vinted-ebay-grooming-crackdown-29774676/",
-        "published": "Sun, 08 Nov 2026 12:16:20 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News UK eBay Labour Party Lisa Nandy Social Media",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_319915389-d27c.jpg?quality=90&strip=all&w=646"
+        "title": "Nvidia launches 'foreign intelligence' investigation after CEO admits affair",
+        "link": "https://news.sky.com/story/tech-giant-nvidia-launches-investigation-after-reports-ceo-was-targeted-by-chinese-intelligence-13609986",
+        "published": "Sun, 08 Nov 2026 20:41:00 +0000",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-nvidia-jensen-huang_7354587.jpg?20260917130746"
+      },
+      {
+        "title": "Government considering banning under-16s from Vinted and eBay",
+        "link": "https://news.sky.com/story/government-considering-banning-under-16s-from-vinted-and-ebay-13609954",
+        "published": "Sun, 08 Nov 2026 19:43:00 +0000",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/25/03/1920x1080/skynews-teen-young-boy-istock_6861721.jpg?20261108203401"
       },
       {
         "title": "‘AI clog’: UK public bodies battle onslaught of chatbot-generated complaints",
@@ -398,6 +407,15 @@
         "image": "https://i.guim.co.uk/img/media/09d27a91ac5dc51fcea6ef2db11a85053e40bb50/0_158_4000_3198/master/4000.jpg?width=140&quality=85&auto=format&fit=max&s=61f705fa3e603f228abbd6c56fd24887"
       },
       {
+        "title": "Ukraine’s new frontier: how space has become critical to balance of the war",
+        "link": "https://www.theguardian.com/science/ng-interactive/2026/nov/08/ukraine-space-critical-war-starlink",
+        "published": "Sun, 08 Nov 2026 05:00:30 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Space Ukraine Science Russia US news US military Technology Soyuz Satellites Weapons technology Europe World news",
+        "image": "https://i.guim.co.uk/img/media/a2e74883c34189ee475959f8f42c735f8b9f1483/0_883_4000_3198/master/4000.jpg?width=140&quality=85&auto=format&fit=max&s=9edf40374512a24b3ad5de87b5e1040d"
+      },
+      {
         "title": "FAA announces first US digital air traffic control towers in Florida and Alaska",
         "link": "https://www.theguardian.com/us-news/2026/nov/07/faa-digital-air-traffic-control-tower-technology",
         "published": "Sat, 07 Nov 2026 20:03:23 GMT",
@@ -405,6 +423,15 @@
         "provider": "GUARDIAN",
         "categories": "Trump administration Air transport AI (artificial intelligence) Technology US news",
         "image": "https://i.guim.co.uk/img/media/e713b6ce0cb3abec030579736ea07b0d1821a0da/334_0_3338_2670/master/3338.jpg?width=140&quality=85&auto=format&fit=max&s=0dec4bcc78b00a8ba4fada6d106eee57"
+      },
+      {
+        "title": "The Trump administration wants underwater datacenters. One Great Lakes non-profit is already preparing",
+        "link": "https://www.theguardian.com/us-news/2026/nov/07/underwater-datacenters-great-lakes-trump",
+        "published": "Sat, 07 Nov 2026 14:00:14 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Datacenters – US Ohio Technology US news",
+        "image": "https://i.guim.co.uk/img/media/90c2d090a335bb315daba9621a26b958330e6918/724_0_7212_5773/master/7212.jpg?width=140&quality=85&auto=format&fit=max&s=fa55f080faaeac50e942a94c3047ee52"
       },
       {
         "title": "Anti-data centre groups set to march in Edinburgh as part of Europe-wide protest",
@@ -432,71 +459,44 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/07/1920x1080/skynews-waste-illegal-waste_7303647.png?20260721183645"
-      },
-      {
-        "title": "The Trump administration wants underwater datacenters. One Great Lakes non-profit is already preparing",
-        "link": "https://www.theguardian.com/us-news/2026/nov/07/underwater-datacenters-great-lakes-trump",
-        "published": "Sat, 07 Nov 2026 14:00:14 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Datacenters – US Ohio Technology US news",
-        "image": "https://i.guim.co.uk/img/media/90c2d090a335bb315daba9621a26b958330e6918/724_0_7212_5773/master/7212.jpg?width=140&quality=85&auto=format&fit=max&s=fa55f080faaeac50e942a94c3047ee52"
-      },
-      {
-        "title": "Standing in the way of slop bowls: the woman blocking food delivery robots",
-        "link": "https://www.theguardian.com/technology/ng-interactive/2026/nov/07/philadelphia-blocking-food-delivery-robots",
-        "published": "Sat, 07 Nov 2026 14:00:12 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Robots Gig economy AI (artificial intelligence) Protest (US) Couriers/delivery industry Philadelphia US news Technology Business",
-        "image": "https://i.guim.co.uk/img/media/6c9b99624b2d4f830d94948c591fde5d07839cf9/148_0_6358_5086/master/6358.jpg?width=140&quality=85&auto=format&fit=max&s=731516b3b10b69bcfb54fdbce5864718"
-      },
-      {
-        "title": "A ‘customer success story’: leaked documents show Cisco doubled down on Israeli military deals during Gaza war",
-        "link": "https://www.theguardian.com/world/2026/nov/07/israel-intelligence-cisco-gaza-palestine",
-        "published": "Sat, 07 Nov 2026 12:00:12 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Israel-Gaza war Cisco Gaza Palestine Computing Technology sector Technology International law Israel Middle East and north Africa World news",
-        "image": "https://i.guim.co.uk/img/media/60a84798eb17356220e1eb8ab76f14087a8cd747/0_0_3000_2400/master/3000.jpg?width=140&quality=85&auto=format&fit=max&s=cea2e5100ec572f808c1994331acef93"
       }
     ],
     "ENTERTAINMENT": [
       {
-        "title": "Strictly’s Dianne Buswell hits back at body criticism 8 months after giving birth",
-        "link": "https://metro.co.uk/2026/11/08/strictlys-dianne-buswell-hits-back-body-criticism-8-months-giving-birth-29775491/",
-        "published": "Sun, 08 Nov 2026 17:56:28 +0000",
+        "title": "Jeremy Clarkson feared Elon Musk was trying to kill him with driverless car",
+        "link": "https://metro.co.uk/2026/11/08/jeremy-clarkson-feared-elon-musk-trying-kill-driverless-car-29775687/",
+        "published": "Sun, 08 Nov 2026 20:40:16 +0000",
         "source": "Metro",
         "provider": "METRO",
-        "categories": "Entertainment TV Dianne Buswell Joe Sugg Strictly Come Dancing Will Best",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/11/comp-1794159757.png?w=646"
+        "categories": "Entertainment Showbiz Elon Musk Jeremy Clarkson Tesla Top Gear",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/11/elon-musk-jeremy-clarkson.png?w=646"
       },
       {
-        "title": "Vanessa Feltz recounts ‘disgusting’ comments Russell Brand made about 15-year-old daughter",
-        "link": "https://metro.co.uk/2026/11/08/vanessa-feltz-recounts-disgusting-comments-russell-brand-made-15-year-old-daughter-29775281/",
-        "published": "Sun, 08 Nov 2026 17:38:32 +0000",
+        "title": "Strictly Come Dancing viewers outraged after ‘wrong couple’ eliminated in shock result",
+        "link": "https://metro.co.uk/2026/11/08/strictly-come-dancing-viewers-outraged-wrong-couple-eliminated-shock-result-29775083/",
+        "published": "Sun, 08 Nov 2026 20:00:00 +0000",
         "source": "Metro",
         "provider": "METRO",
-        "categories": "Entertainment Showbiz Russell Brand Vanessa Feltz",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_319950850-b823.jpg?quality=90&strip=all&w=646"
+        "categories": "Entertainment TV BBC Bethany Antonia Cach Mercer Nancy Xu Strictly Come Dancing",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_319922217-0fab.jpg?quality=90&strip=all&w=646"
       },
       {
-        "title": "First I’m A Celebrity contestant pictured at airport ahead of star-studded new series",
-        "link": "https://metro.co.uk/2026/11/08/first-im-a-celebrity-contestant-pictured-airport-ahead-star-studded-new-series-29775208/",
-        "published": "Sun, 08 Nov 2026 16:10:39 +0000",
+        "title": "Maya Jama shocks by announcing she’s quit hosting Love Island",
+        "link": "https://metro.co.uk/2026/11/08/maya-jama-shocks-announcing-quit-hosting-love-island-29775717/",
+        "published": "Sun, 08 Nov 2026 19:24:46 +0000",
         "source": "Metro",
         "provider": "METRO",
-        "categories": "Entertainment TV I'm A Celebrity ITV Wayne Rooney",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_273851167-76a7.jpg?quality=90&strip=all&w=646"
+        "categories": "Entertainment TV ITV Love Island Maya Jama Reality TV",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/11/comp-1794166064.png?w=646"
       },
       {
-        "title": "Big Brother star to sue ITV after claiming she suffered ‘psychological turmoil’",
-        "link": "https://metro.co.uk/2026/11/08/big-brother-star-sue-itv-claiming-suffered-psychological-turmoil-29775074/",
-        "published": "Sun, 08 Nov 2026 15:56:12 +0000",
+        "title": "This is why Gregory Porter is wearing the same hat every time you see him",
+        "link": "https://metro.co.uk/2026/11/08/this-gregory-porter-wearing-hat-every-time-see-2-29775161/",
+        "published": "Sun, 08 Nov 2026 19:10:00 +0000",
         "source": "Metro",
         "provider": "METRO",
-        "categories": "Entertainment TV Big Brother ITV ITVX Reality TV",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_224004175-ed78.jpg?quality=90&strip=all&w=646"
+        "categories": "Entertainment Showbiz Gregory Porter",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/11/comp-1794151777.png?w=646"
       },
       {
         "title": "Sebastián Lelio was a fascinating film-maker of great passion and poetry",
@@ -555,36 +555,36 @@
     ],
     "STOCKS": [
       {
-        "title": "Boeing (BA): A Top 10 Dow Stock for 2027 With a Record $745B of Orders",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/boeing-ba-top-10-dow-173734444.html?.tsrc=rss",
-        "published": "Sun, 08 Nov 2026 17:37:34 +0000",
+        "title": "Sell Alert: 5 High-Profile Stocks Just Dumped by Top Analysts",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/sell-alert-5-high-profile-203124084.html?.tsrc=rss",
+        "published": "Sun, 08 Nov 2026 20:31:24 +0000",
         "source": "Yahoo Finance",
         "provider": "YAHOO",
         "categories": "",
         "image": ""
       },
       {
-        "title": "UnitedHealth (UNH): A Dow Stock for 2027 Where the Margin Repair Is Starting to Show",
-        "link": "https://finance.yahoo.com/healthcare/articles/unitedhealth-unh-dow-stock-2027-173658226.html?.tsrc=rss",
-        "published": "Sun, 08 Nov 2026 17:36:58 +0000",
+        "title": "Gildan (GIL): Here’s Why UBS Downgraded the Stock",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/gildan-gil-why-ubs-downgraded-202908949.html?.tsrc=rss",
+        "published": "Sun, 08 Nov 2026 20:29:08 +0000",
         "source": "Yahoo Finance",
         "provider": "YAHOO",
         "categories": "",
         "image": ""
       },
       {
-        "title": "Microsoft (MSFT) Makes the 10 Best Dow Stocks for 2027 List as Azure Growth Speeds Up",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/microsoft-msft-makes-10-best-173628657.html?.tsrc=rss",
-        "published": "Sun, 08 Nov 2026 17:36:28 +0000",
+        "title": "Five9 (FIVN): Evercore ISI Downgraded the Stock Despite AI Revenue Growth Rate of 91%",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/five9-fivn-evercore-isi-downgraded-202815705.html?.tsrc=rss",
+        "published": "Sun, 08 Nov 2026 20:28:15 +0000",
         "source": "Yahoo Finance",
         "provider": "YAHOO",
         "categories": "",
         "image": ""
       },
       {
-        "title": "Top 5 stocks to watch this week",
-        "link": "https://uk.finance.yahoo.com/news/top-5-stocks-watch-week-162409746.html?.tsrc=rss",
-        "published": "Sun, 08 Nov 2026 16:24:09 +0000",
+        "title": "Why Barclays Cut Gartner (IT) Despite a 27% Rally in Its Shares",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/why-barclays-cut-gartner-despite-202403354.html?.tsrc=rss",
+        "published": "Sun, 08 Nov 2026 20:24:03 +0000",
         "source": "Yahoo Finance",
         "provider": "YAHOO",
         "categories": "",
@@ -696,10 +696,11 @@
         "status": "healthy",
         "liveProviders": [
           "SKY",
-          "GUARDIAN",
+          "GUARDIAN"
+        ],
+        "failedProviders": [
           "METRO"
         ],
-        "failedProviders": [],
         "retainedPrevious": 0,
         "count": 10
       },
@@ -735,7 +736,7 @@
           },
           "YAHOO": {
             "ok": true,
-            "count": 12,
+            "count": 10,
             "retainedPrevious": 0,
             "errors": [
               "https://finance.yahoo.com/news/rssindex: 404 Not Found"
@@ -774,6 +775,15 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/11/1920x1080/skynews-m20-crash_7400658.jpg?20261108000205"
+          },
+          {
+            "title": "Government considering banning under-16s from Vinted and eBay",
+            "link": "https://news.sky.com/story/government-considering-banning-under-16s-from-vinted-and-ebay-13609954",
+            "published": "Sun, 08 Nov 2026 19:43:00 +0000",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/25/03/1920x1080/skynews-teen-young-boy-istock_6861721.jpg?20261108203401"
           },
           {
             "title": "Schools to stop teaching GCSEs early in curriculum overhaul",
@@ -819,36 +829,18 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/11/1920x1080/skynews-katherine-ryan-london_7399139.jpg?20261106145636"
-          },
-          {
-            "title": "Anti-data centre groups set to march in Edinburgh as part of Europe-wide protest",
-            "link": "https://news.sky.com/story/dozens-of-anti-data-centre-groups-set-to-march-in-edinburgh-as-part-of-europe-wide-protest-13609164",
-            "published": "Sat, 07 Nov 2026 08:19:00 +0000",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/11/1920x1080/skynews-scotland-data-centre-protest_7399731.jpg?20261107083230"
-          },
-          {
-            "title": "UK has 'new pair of eyes' in space as new military satellite enters orbit",
-            "link": "https://news.sky.com/story/uk-has-new-pair-of-eyes-in-space-after-military-satellite-titania-enters-orbit-13609133",
-            "published": "Sat, 07 Nov 2026 03:30:00 +0000",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/11/1920x1080/skynews-satellite-titania_7399669.png?20261107040424"
-          },
-          {
-            "title": "Prince Harry to appeal after privacy lawsuit against Daily Mail publisher dismissed",
-            "link": "https://news.sky.com/story/prince-harry-to-appeal-after-privacy-lawsuit-against-daily-mail-publisher-dismissed-13608978",
-            "published": "Fri, 06 Nov 2026 17:17:00 +0000",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/11/1920x1080/skynews-prince-harry-london_7399328.jpg?20261106174708"
           }
         ],
         "WORLD": [
+          {
+            "title": "Nvidia launches 'foreign intelligence' investigation after CEO admits affair",
+            "link": "https://news.sky.com/story/tech-giant-nvidia-launches-investigation-after-reports-ceo-was-targeted-by-chinese-intelligence-13609986",
+            "published": "Sun, 08 Nov 2026 20:41:00 +0000",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-nvidia-jensen-huang_7354587.jpg?20260917130746"
+          },
           {
             "title": "Briton among six killed by 'far-right' gunman in Krakow rampage",
             "link": "https://news.sky.com/story/british-national-among-six-killed-by-far-right-gunman-in-krakow-rampage-13609612",
@@ -893,18 +885,18 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/11/1920x1080/skynews-russia-newspaper-closing_7400669.jpg?20261108032249"
-          },
-          {
-            "title": "At least 27 people killed in strike near Yemen's capital, Houthi official says",
-            "link": "https://news.sky.com/story/at-least-27-people-killed-in-strike-near-yemens-capital-houthi-official-says-13609232",
-            "published": "Sat, 07 Nov 2026 14:19:00 +0000",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/11/1920x1080/skynews-yemen-sanaa_7399969.jpg?20261107150301"
           }
         ],
         "POLITICS": [
+          {
+            "title": "Government considering banning under-16s from Vinted and eBay",
+            "link": "https://news.sky.com/story/government-considering-banning-under-16s-from-vinted-and-ebay-13609954",
+            "published": "Sun, 08 Nov 2026 19:43:00 +0000",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/25/03/1920x1080/skynews-teen-young-boy-istock_6861721.jpg?20261108203401"
+          },
           {
             "title": "UK agrees to 'time-bound' talks on harms of slave trade",
             "link": "https://news.sky.com/story/uk-agrees-to-talks-addressing-historical-harms-of-slavery-but-pm-rules-out-reparations-13608208",
@@ -1072,6 +1064,24 @@
         ],
         "TECH": [
           {
+            "title": "Nvidia launches 'foreign intelligence' investigation after CEO admits affair",
+            "link": "https://news.sky.com/story/tech-giant-nvidia-launches-investigation-after-reports-ceo-was-targeted-by-chinese-intelligence-13609986",
+            "published": "Sun, 08 Nov 2026 20:41:00 +0000",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-nvidia-jensen-huang_7354587.jpg?20260917130746"
+          },
+          {
+            "title": "Government considering banning under-16s from Vinted and eBay",
+            "link": "https://news.sky.com/story/government-considering-banning-under-16s-from-vinted-and-ebay-13609954",
+            "published": "Sun, 08 Nov 2026 19:43:00 +0000",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/25/03/1920x1080/skynews-teen-young-boy-istock_6861721.jpg?20261108203401"
+          },
+          {
             "title": "Anti-data centre groups set to march in Edinburgh as part of Europe-wide protest",
             "link": "https://news.sky.com/story/dozens-of-anti-data-centre-groups-set-to-march-in-edinburgh-as-part-of-europe-wide-protest-13609164",
             "published": "Sat, 07 Nov 2026 08:19:00 +0000",
@@ -1142,24 +1152,6 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/11/1920x1080/skynews-ebay-amazon_7395979.jpg?20261103170724"
-          },
-          {
-            "title": "Australia's social media ban challenged by Reddit and rights group in court",
-            "link": "https://news.sky.com/story/reddit-and-rights-group-challenge-australias-under-16s-social-media-ban-in-court-13607383",
-            "published": "Tue, 03 Nov 2026 13:40:00 +0000",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/10/1920x1080/skynews-social-media-ofcom_7391817.jpg?20261030120646"
-          },
-          {
-            "title": "Plans revealed for AI data centre at former power station in North Yorkshire",
-            "link": "https://news.sky.com/story/plans-announced-for-ai-data-centre-at-drax-site-in-north-yorkshire-13607386",
-            "published": "Tue, 03 Nov 2026 08:07:00 +0000",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/19/06/1920x1080/skynews-drax-yorkshire_4698878.jpg?20190621020733"
           }
         ],
         "ENTERTAINMENT": [
@@ -1249,7 +1241,7 @@
       "health": {
         "UK": {
           "ok": true,
-          "count": 10
+          "count": 8
         },
         "WORLD": {
           "ok": true,
@@ -1257,7 +1249,7 @@
         },
         "POLITICS": {
           "ok": true,
-          "count": 8
+          "count": 9
         },
         "BUSINESS": {
           "ok": true,
@@ -1277,6 +1269,15 @@
       "categories": {
         "UK": [
           {
+            "title": "Russell Brand case must be wake-up call to protect women in media, Lisa Nandy says",
+            "link": "https://www.theguardian.com/media/2026/nov/08/women-abuse-media-industry-lisa-nandy-russell-brand",
+            "published": "Sun, 08 Nov 2026 19:05:04 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Television industry Lisa Nandy Russell Brand Women Rape and sexual assault Media Politics UK news",
+            "image": "https://i.guim.co.uk/img/media/762ae91c8ce0a67e86d117452274a6e484f8f369/273_0_2500_2000/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=87193a1cb8cf69e755e2b161163e96c1"
+          },
+          {
             "title": "Riot breaks out at influencer boxing event attended by Tommy Robinson in Ireland",
             "link": "https://www.theguardian.com/uk-news/2026/nov/08/riot-influencer-boxing-event-attended-tommy-robinson-ireland",
             "published": "Sun, 08 Nov 2026 18:33:34 GMT",
@@ -1295,12 +1296,12 @@
             "image": "https://i.guim.co.uk/img/media/5157f3976eae5a90891ee70050849ee9c60e26cb/540_86_2393_1914/master/2393.jpg?width=140&quality=85&auto=format&fit=max&s=b8a34d6bb3e1889ef0a95b2f5cdaf1c9"
           },
           {
-            "title": "Teaching GCSEs early risks turning schools into ‘exam factories’, education secretary warns",
+            "title": "Teaching GCSE topics younger risks turning schools into ‘early exam factories’, Powell warns",
             "link": "https://www.theguardian.com/education/2026/nov/08/gcses-teaching-england-curriculum-education-secretary-lucy-powell",
             "published": "Sun, 08 Nov 2026 18:07:54 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Schools GCSEs Exams Secondary schools Lucy Powell Department for Education National curriculum Education policy Labour Curriculums Politics Education England UK news",
+            "categories": "National curriculum Secondary schools Schools GCSEs Exams Education policy Lucy Powell Labour Department for Education Curriculums Education Politics England UK news",
             "image": "https://i.guim.co.uk/img/media/29cf0e38613d5172328a5e922b8a72c9980a3b77/517_0_4251_3400/master/4251.jpg?width=140&quality=85&auto=format&fit=max&s=6ae6737332d56f99bafc50538b6adb85"
           },
           {
@@ -1331,7 +1332,7 @@
             "image": "https://i.guim.co.uk/img/media/11c393589c9223777c86027befaea0a93646249f/806_0_2730_2184/master/2730.jpg?width=140&quality=85&auto=format&fit=max&s=6c54255041e70caa31cee0586d92f574"
           },
           {
-            "title": "End of the ‘vomit comet’: Scillonian III sets sail on final voyage from Isles of Scilly",
+            "title": "End of the ‘vomit comet’: Scillonian III makes final voyage from Isles of Scilly",
             "link": "https://www.theguardian.com/uk-news/2026/nov/08/scillonian-iii-ship-final-voyage-isles-of-scilly-penzance-cornwall",
             "published": "Sun, 08 Nov 2026 14:56:59 GMT",
             "source": "The Guardian",
@@ -1347,15 +1348,6 @@
             "provider": "GUARDIAN",
             "categories": "Brexit European Union Foreign policy Europe Portsmouth Politics UK news World news International trade Food & drink industry HMRC Trade policy England Business",
             "image": "https://i.guim.co.uk/img/media/db4240edf03977a12a595754e65bb19448f4299e/368_0_3895_3116/master/3895.jpg?width=140&quality=85&auto=format&fit=max&s=6da4a837d21aad183e406a99a45876eb"
-          },
-          {
-            "title": "Russell Brand case must be wake-up call to protect women in media, Lisa Nandy says",
-            "link": "https://www.theguardian.com/media/2026/nov/08/women-abuse-media-industry-lisa-nandy-russell-brand",
-            "published": "Sun, 08 Nov 2026 13:18:50 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Television industry Lisa Nandy Russell Brand Women Rape and sexual assault Media Politics UK news",
-            "image": "https://i.guim.co.uk/img/media/762ae91c8ce0a67e86d117452274a6e484f8f369/273_0_2500_2000/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=87193a1cb8cf69e755e2b161163e96c1"
           },
           {
             "title": "‘AI clog’: UK public bodies battle onslaught of chatbot-generated complaints",
@@ -1549,6 +1541,15 @@
             "image": "https://i.guim.co.uk/img/media/3fe8efc901b9158f1c2cd1700fd01110a70a3ecc/1583_790_5453_4362/master/5453.jpg?width=140&quality=85&auto=format&fit=max&s=efec4d1af8f41ebc62eb59e67c08bedf"
           },
           {
+            "title": "Nvidia opens investigation after report CEO Jensen Huang was target of foreign intelligence",
+            "link": "https://www.theguardian.com/us-news/2026/nov/08/nvidia-jensen-huang-investigation",
+            "published": "Sun, 08 Nov 2026 21:00:58 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "US news Nvidia China Technology AI (artificial intelligence) Asia Pacific World news",
+            "image": "https://i.guim.co.uk/img/media/3fc6a5d68684a58fece0294bce9094ed76072ecd/1816_254_6098_4878/master/6098.jpg?width=140&quality=85&auto=format&fit=max&s=90bf64ebcb2ef6e0ae0390bf9e4979cf"
+          },
+          {
             "title": "Uyghurs facing deportation by Thailand say they will be ‘like slaves’ in China",
             "link": "https://www.theguardian.com/global-development/2026/nov/08/uyghurs-thailand-china-forced-deportation",
             "published": "Sun, 08 Nov 2026 03:00:28 GMT",
@@ -1585,13 +1586,22 @@
             "image": "https://i.guim.co.uk/img/media/133fcf307a659f484d60938a125776efe501ba4e/407_0_3025_2422/master/3025.jpg?width=140&quality=85&auto=format&fit=max&s=89a44d686b06b49ef9bf9404d834f126"
           },
           {
-            "title": "Duchess of Sussex’s estranged half-brother ‘person of interest’ in child sexual abuse inquiry",
-            "link": "https://www.theguardian.com/world/2026/nov/05/meghan-sussex-thomas-markle-jr-philippines-child-sexual-abuse-inquiry",
-            "published": "Thu, 05 Nov 2026 17:37:27 GMT",
+            "title": "Man charged with murder over fatal stabbing of HungryPanda delivery rider in Melbourne",
+            "link": "https://www.theguardian.com/australia-news/2026/nov/09/man-charged-fatal-stabbing-hungrypanda-delivery-driver-jianming-feng-melbourne-ntwnfb",
+            "published": "Sun, 08 Nov 2026 22:03:59 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Philippines Asia Pacific World news Meghan, the Duchess of Sussex UK news Monarchy",
-            "image": "https://i.guim.co.uk/img/media/f07363f35ce5612b989365a754efde92e8077a12/384_0_2441_1953/master/2441.jpg?width=140&quality=85&auto=format&fit=max&s=487347e8c2f0afd80ec79acc90c6e867"
+            "categories": "Australia news",
+            "image": "https://i.guim.co.uk/img/media/4954ad8d5503c8161345548e255e4fdf2719dd1d/585_40_1083_867/master/1083.jpg?width=140&quality=85&auto=format&fit=max&s=5ec33b002d331556a841dce611707272"
+          },
+          {
+            "title": "Cold blast brings springtime snow to alpine regions as temperatures plummet across Australia’s south-east",
+            "link": "https://www.theguardian.com/australia-news/2026/nov/08/australia-weather-cold-blast-springtime-snow-thredbo-perisher-hotham-victoria-tasmania-el-nino",
+            "published": "Sun, 08 Nov 2026 21:25:10 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Australia weather New South Wales Victoria Queensland Tasmania Australia news El Niño southern oscillation Environment",
+            "image": "https://i.guim.co.uk/img/media/cec2d40cb1736bf071e01cfe1c16506146148e45/467_97_1218_975/master/1218.jpg?width=140&quality=85&auto=format&fit=max&s=f0b668a0c2353f200a661bd995771642"
           },
           {
             "title": "Weakening AI copyright law will spell ‘disaster for creativity’, global music body warns Albanese",
@@ -1619,43 +1629,34 @@
             "provider": "GUARDIAN",
             "categories": "Cop31 Climate crisis Environment Turkey Australia news Europe World news Global climate talks Fossil fuels Greenhouse gas emissions Energy Renewable energy",
             "image": "https://i.guim.co.uk/img/media/72678bea25c1a92a183def8f6052f58a39fa3e5a/790_0_4240_3392/master/4240.jpg?width=140&quality=85&auto=format&fit=max&s=5c03e71c63752f13b18521a75650ceb4"
-          },
-          {
-            "title": "Cop31: what is at stake at the UN climate summit and what can it achieve?",
-            "link": "https://www.theguardian.com/environment/2026/nov/08/cop31-what-is-at-stake-at-the-un-climate-summit-and-what-can-it-achieve",
-            "published": "Sun, 08 Nov 2026 11:00:38 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Cop31 Global climate talks Climate crisis Environment Paris climate agreement Fossil fuels Energy Europe Turkey Australia news",
-            "image": "https://i.guim.co.uk/img/media/d6b690af57abc6ab43cbd2a94e2f483c2480349a/18_0_4233_3386/master/4233.jpg?width=140&quality=85&auto=format&fit=max&s=22b10412ecce3e9b3d0e2aabef403808"
-          },
-          {
-            "title": "Psychiatrists and paediatricians among specialists most likely to charge ‘extreme’ fees, thinktank finds",
-            "link": "https://www.theguardian.com/australia-news/2026/nov/08/psychiatrists-paediatricians-extreme-specialist-fees-health-australia",
-            "published": "Sun, 08 Nov 2026 09:00:35 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Health Australia news",
-            "image": "https://i.guim.co.uk/img/media/004c94c765569b58a3c94c48e641df8c020432a6/606_0_6030_4827/master/6030.jpg?width=140&quality=85&auto=format&fit=max&s=8819099ca9751cff5f74ec2a06299ee1"
           }
         ],
         "POLITICS": [
+          {
+            "title": "Russell Brand case must be wake-up call to protect women in media, Lisa Nandy says",
+            "link": "https://www.theguardian.com/media/2026/nov/08/women-abuse-media-industry-lisa-nandy-russell-brand",
+            "published": "Sun, 08 Nov 2026 19:05:04 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Television industry Lisa Nandy Russell Brand Women Rape and sexual assault Media Politics UK news",
+            "image": "https://i.guim.co.uk/img/media/762ae91c8ce0a67e86d117452274a6e484f8f369/273_0_2500_2000/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=87193a1cb8cf69e755e2b161163e96c1"
+          },
           {
             "title": "Lisa Nandy wary of ‘circular arguments’ about rejoining EU",
             "link": "https://www.theguardian.com/politics/2026/nov/08/lisa-nandy-wary-of-circular-arguments-about-rejoining-eu",
             "published": "Sun, 08 Nov 2026 18:20:06 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Brexit Lisa Nandy Labour Politics UK news Foreign policy European Union Europe",
+            "categories": "Brexit Lisa Nandy Labour Foreign policy Politics UK news European Union Europe",
             "image": "https://i.guim.co.uk/img/media/5157f3976eae5a90891ee70050849ee9c60e26cb/540_86_2393_1914/master/2393.jpg?width=140&quality=85&auto=format&fit=max&s=b8a34d6bb3e1889ef0a95b2f5cdaf1c9"
           },
           {
-            "title": "Teaching GCSEs early risks turning schools into ‘exam factories’, education secretary warns",
+            "title": "Teaching GCSE topics younger risks turning schools into ‘early exam factories’, Powell warns",
             "link": "https://www.theguardian.com/education/2026/nov/08/gcses-teaching-england-curriculum-education-secretary-lucy-powell",
             "published": "Sun, 08 Nov 2026 18:07:54 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Schools GCSEs Exams Secondary schools Lucy Powell Department for Education National curriculum Education policy Labour Curriculums Politics Education England UK news",
+            "categories": "National curriculum Secondary schools Schools GCSEs Exams Education policy Lucy Powell Labour Department for Education Curriculums Education Politics England UK news",
             "image": "https://i.guim.co.uk/img/media/29cf0e38613d5172328a5e922b8a72c9980a3b77/517_0_4251_3400/master/4251.jpg?width=140&quality=85&auto=format&fit=max&s=6ae6737332d56f99bafc50538b6adb85"
           },
           {
@@ -1666,15 +1667,6 @@
             "provider": "GUARDIAN",
             "categories": "Brexit European Union Foreign policy Europe Portsmouth Politics UK news World news International trade Food & drink industry HMRC Trade policy England Business",
             "image": "https://i.guim.co.uk/img/media/db4240edf03977a12a595754e65bb19448f4299e/368_0_3895_3116/master/3895.jpg?width=140&quality=85&auto=format&fit=max&s=6da4a837d21aad183e406a99a45876eb"
-          },
-          {
-            "title": "Russell Brand case must be wake-up call to protect women in media, Lisa Nandy says",
-            "link": "https://www.theguardian.com/media/2026/nov/08/women-abuse-media-industry-lisa-nandy-russell-brand",
-            "published": "Sun, 08 Nov 2026 13:18:50 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Television industry Lisa Nandy Russell Brand Women Rape and sexual assault Media Politics UK news",
-            "image": "https://i.guim.co.uk/img/media/762ae91c8ce0a67e86d117452274a6e484f8f369/273_0_2500_2000/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=87193a1cb8cf69e755e2b161163e96c1"
           },
           {
             "title": "‘Windrush’ accusations over sharp rise in Turkish nationals facing removal from UK",
@@ -2104,6 +2096,15 @@
             "image": "https://i.guim.co.uk/img/media/c3a832e799ac1dd8a85e6c73794399c038d7678b/250_0_2500_2001/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=ea760337f8b9936ab96b5415c0bb868d"
           },
           {
+            "title": "Ukraine’s new frontier: how space has become critical to balance of the war",
+            "link": "https://www.theguardian.com/science/ng-interactive/2026/nov/08/ukraine-space-critical-war-starlink",
+            "published": "Sun, 08 Nov 2026 05:00:30 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Space Ukraine Science Russia US news US military Technology Soyuz Satellites Weapons technology Europe World news",
+            "image": "https://i.guim.co.uk/img/media/a2e74883c34189ee475959f8f42c735f8b9f1483/0_883_4000_3198/master/4000.jpg?width=140&quality=85&auto=format&fit=max&s=9edf40374512a24b3ad5de87b5e1040d"
+          },
+          {
             "title": "The Trump administration wants underwater datacenters. One Great Lakes non-profit is already preparing",
             "link": "https://www.theguardian.com/us-news/2026/nov/07/underwater-datacenters-great-lakes-trump",
             "published": "Sat, 07 Nov 2026 14:00:14 GMT",
@@ -2174,15 +2175,6 @@
             "provider": "GUARDIAN",
             "categories": "Pokémon Collecting Shopping Life and style Game culture Consumer affairs London UK news",
             "image": "https://i.guim.co.uk/img/media/add3efa623b78699ceac7a663e4ab615f38fb13d/378_0_3378_2704/master/3378.jpg?width=140&quality=85&auto=format&fit=max&s=9cbf16c0a06e9a9b6f60466fd302ad8a"
-          },
-          {
-            "title": "The Legend of Zelda: Ocarina of Time has revived the midnight game launch – but was it worth the wait?",
-            "link": "https://www.theguardian.com/games/2026/nov/06/the-legend-of-zelda-ocarina-of-time-midnight-game-launch",
-            "published": "Fri, 06 Nov 2026 13:00:43 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Games Culture Nintendo Nintendo Switch 2 The Legend of Zelda Retro games",
-            "image": "https://i.guim.co.uk/img/media/6faa0bb9c9a766ed30a17dc1d250c2c3f315b6f4/250_238_7202_5762/master/7202.jpg?width=140&quality=85&auto=format&fit=max&s=2278ae4ff2513e8c78e601c2cb94663b"
           }
         ],
         "ENTERTAINMENT": [
@@ -2432,7 +2424,7 @@
             "source": "Metro",
             "provider": "METRO",
             "categories": "News UK Surrey Theme parks",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/11/PRI_147886526-b2a4.jpg?quality=90&strip=all&w=646"
+            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_319954271-c66b.jpg?quality=90&strip=all&w=646"
           },
           {
             "title": "British couple in Krakow recall seeing ‘250 people running’ after shooting",
@@ -2489,13 +2481,13 @@
             "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_319914668-f8f7.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Kate Middleton’s Remembrance Sunday outfit may feature a heartbreaking detail",
+            "title": "Prince Harry attends Remembrance Sunday service miles away from royals",
             "link": "https://metro.co.uk/2026/11/08/king-charles-leads-charge-honouring-troops-remembrance-sunday-29774779/",
             "published": "Sun, 08 Nov 2026 11:12:49 +0000",
             "source": "Metro",
             "provider": "METRO",
             "categories": "News UK Andy Burnham Catherine, Princess of Wales King Charles III London Princess Anne Remembrance Day Royal Family",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_319918047-5881.jpg?quality=90&strip=all&w=646"
+            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_319961201-3b12.jpg?quality=90&strip=all&w=646"
           },
           {
             "title": "‘Dangerous and unprecedented’ polar vortex could break record this month",
@@ -2507,13 +2499,13 @@
             "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_319911133-0b51.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Everything we know about ‘far-right military cadet’ who shot dead six in Krakow",
+            "title": "Everything we know about ‘far-right military cadet’ who shot six dead in Krakow",
             "link": "https://metro.co.uk/2026/11/08/everything-know-far-right-military-cadet-shot-dead-six-krakow-29774457/",
             "published": "Sun, 08 Nov 2026 09:54:18 +0000",
             "source": "Metro",
             "provider": "METRO",
             "categories": "News World Krakow Mass shootings Poland",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/11/1794133711876_3950314233794613.jpg?quality=90&strip=all&w=636"
+            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_319913145-57e8.jpg?quality=90&strip=all&w=646"
           },
           {
             "title": "Man who makes Britain’s ‘dullest’ calendars goes a step further with a new one on gravel",
@@ -2696,15 +2688,6 @@
             "provider": "METRO",
             "categories": "News US Flights Los Angeles",
             "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_282037202-4915.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "UK military chief says Russia threat is ‘most dangerous period he’s known’",
-            "link": "https://metro.co.uk/2026/11/08/uk-military-chief-says-russia-threat-most-dangerous-period-known-29774958/",
-            "published": "Sun, 08 Nov 2026 12:42:06 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News Armed Forces Russia Vladimir Putin",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_319910136-4eb2.jpg?quality=90&strip=all&w=646"
           }
         ],
         "POLITICS": [
@@ -2824,15 +2807,6 @@
             "provider": "METRO",
             "categories": "News Politics Andy Burnham Brexit British Government European Union Labour Party",
             "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316579534-41aa.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Under-16s will be banned from Vinted and eBay in grooming crackdown",
-            "link": "https://metro.co.uk/2026/11/08/under-16s-will-banned-vinted-ebay-grooming-crackdown-29774676/",
-            "published": "Sun, 08 Nov 2026 12:16:20 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News UK eBay Labour Party Lisa Nandy Social Media",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_319915389-d27c.jpg?quality=90&strip=all&w=646"
           }
         ],
         "BUSINESS": [
@@ -2999,6 +2973,15 @@
             "image": "https://metro.co.uk/wp-content/uploads/2026/05/SEI_299101165-c269.jpg?quality=90&strip=all&w=646"
           },
           {
+            "title": "Brits are getting the ick over ‘dystopian’ new shopping trend at M&S",
+            "link": "https://metro.co.uk/2026/11/08/brits-getting-ick-dystopian-new-shopping-trend-m-s-29775613/",
+            "published": "Sun, 08 Nov 2026 19:19:48 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Food Lifestyle Food Launches Foodie Marks & Spencer Supermarkets Trends",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_237406111-8749.jpg?quality=90&strip=all&w=646"
+          },
+          {
             "title": "Woman dies in Tesco as supermarket car park evacuated",
             "link": "https://metro.co.uk/2026/11/08/woman-dies-tesco-supermarket-air-ambulance-lands-car-park-29775312/",
             "published": "Sun, 08 Nov 2026 16:10:25 +0000",
@@ -3020,6 +3003,42 @@
           }
         ],
         "ENTERTAINMENT": [
+          {
+            "title": "Jeremy Clarkson feared Elon Musk was trying to kill him with driverless car",
+            "link": "https://metro.co.uk/2026/11/08/jeremy-clarkson-feared-elon-musk-trying-kill-driverless-car-29775687/",
+            "published": "Sun, 08 Nov 2026 20:40:16 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment Showbiz Elon Musk Jeremy Clarkson Tesla Top Gear",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/11/elon-musk-jeremy-clarkson.png?w=646"
+          },
+          {
+            "title": "Strictly Come Dancing viewers outraged after ‘wrong couple’ eliminated in shock result",
+            "link": "https://metro.co.uk/2026/11/08/strictly-come-dancing-viewers-outraged-wrong-couple-eliminated-shock-result-29775083/",
+            "published": "Sun, 08 Nov 2026 20:00:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment TV BBC Bethany Antonia Cach Mercer Nancy Xu Strictly Come Dancing",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_319922217-0fab.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Maya Jama shocks by announcing she’s quit hosting Love Island",
+            "link": "https://metro.co.uk/2026/11/08/maya-jama-shocks-announcing-quit-hosting-love-island-29775717/",
+            "published": "Sun, 08 Nov 2026 19:24:46 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment TV ITV Love Island Maya Jama Reality TV",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/11/comp-1794166064.png?w=646"
+          },
+          {
+            "title": "This is why Gregory Porter is wearing the same hat every time you see him",
+            "link": "https://metro.co.uk/2026/11/08/this-gregory-porter-wearing-hat-every-time-see-2-29775161/",
+            "published": "Sun, 08 Nov 2026 19:10:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment Showbiz Gregory Porter",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/11/comp-1794151777.png?w=646"
+          },
           {
             "title": "Strictly’s Dianne Buswell hits back at body criticism 8 months after giving birth",
             "link": "https://metro.co.uk/2026/11/08/strictlys-dianne-buswell-hits-back-body-criticism-8-months-giving-birth-29775491/",
@@ -3163,42 +3182,6 @@
             "provider": "METRO",
             "categories": "Entertainment TV BBC Celebrity Traitors Joanne McNally",
             "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI315054154-b1f3.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Strictly Come Dancing couple reveal ’anxiety’ ahead of performing move ‘never seen before’",
-            "link": "https://metro.co.uk/2026/11/07/strictly-come-dancing-couple-reveal-anxiety-ahead-performing-move-never-seen-before-29772579/",
-            "published": "Sat, 07 Nov 2026 15:00:00 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Entertainment TV Dani Dyer Exclusive Nikita Kuzmin Strictly Come Dancing",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_318938728-3059.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Russell Brand’s ‘disgusting’ red carpet interaction with Katy Perry resurfaces after rape conviction",
-            "link": "https://metro.co.uk/2026/11/07/russell-brands-disgusting-red-carpet-interaction-katy-perry-resurfaces-rape-conviction-29773657/",
-            "published": "Sat, 07 Nov 2026 14:24:52 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Entertainment Showbiz Katy Perry Russell Brand",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_319771788-ebf8.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "TV viewers find secret message hidden in Aldi Christmas advert",
-            "link": "https://metro.co.uk/2026/11/07/tv-viewers-find-secret-message-hidden-aldi-christmas-advert-29773593/",
-            "published": "Sat, 07 Nov 2026 12:00:06 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Entertainment TV Aldi Christmas Christmas TV adverts",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/11/112344111-0-image-a-11_1793962150849.jpg?quality=90&strip=all&w=636"
-          },
-          {
-            "title": "Latest Harry Styles James Bond rumours have 007 fans at the end of their tether",
-            "link": "https://metro.co.uk/2026/11/07/latest-harry-styles-james-bond-rumours-007-fans-end-tether-29773496/",
-            "published": "Sat, 07 Nov 2026 11:31:39 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Entertainment Film Callum Turner Harry Styles Jack Lowden James Bond Josh O'Connor Nicholas Hoult Robert Pattinson",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/11/comp-1794050108.png?w=646"
           }
         ]
       },
@@ -3209,19 +3192,20 @@
         },
         "WORLD": {
           "ok": true,
-          "count": 14
+          "count": 13
         },
         "POLITICS": {
           "ok": true,
-          "count": 14
+          "count": 13
         },
         "BUSINESS": {
           "ok": true,
-          "count": 19
+          "count": 20
         },
         "TECH": {
-          "ok": true,
-          "count": 1
+          "ok": false,
+          "count": 0,
+          "reason": "No correctly classified live stories"
         },
         "ENTERTAINMENT": {
           "ok": true,
@@ -3338,6 +3322,51 @@
         "STOCK_MARKET": [],
         "STOCKS": [
           {
+            "title": "Sell Alert: 5 High-Profile Stocks Just Dumped by Top Analysts",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/sell-alert-5-high-profile-203124084.html?.tsrc=rss",
+            "published": "Sun, 08 Nov 2026 20:31:24 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "Gildan (GIL): Here’s Why UBS Downgraded the Stock",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/gildan-gil-why-ubs-downgraded-202908949.html?.tsrc=rss",
+            "published": "Sun, 08 Nov 2026 20:29:08 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "Five9 (FIVN): Evercore ISI Downgraded the Stock Despite AI Revenue Growth Rate of 91%",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/five9-fivn-evercore-isi-downgraded-202815705.html?.tsrc=rss",
+            "published": "Sun, 08 Nov 2026 20:28:15 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "Why Barclays Cut Gartner (IT) Despite a 27% Rally in Its Shares",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/why-barclays-cut-gartner-despite-202403354.html?.tsrc=rss",
+            "published": "Sun, 08 Nov 2026 20:24:03 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "Inflation Data, Constellation Energy, Skydance, Applied Materials, and More to Watch This Week",
+            "link": "https://uk.finance.yahoo.com/m/826f68d8-6715-357e-b04d-885d04102528/inflation-data%2C-constellation.html?.tsrc=rss",
+            "published": "Sun, 08 Nov 2026 19:00:00 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
             "title": "Boeing (BA): A Top 10 Dow Stock for 2027 With a Record $745B of Orders",
             "link": "https://finance.yahoo.com/markets/stocks/articles/boeing-ba-top-10-dow-173734444.html?.tsrc=rss",
             "published": "Sun, 08 Nov 2026 17:37:34 +0000",
@@ -3381,69 +3410,6 @@
             "provider": "YAHOO",
             "categories": "",
             "image": ""
-          },
-          {
-            "title": "£15,000 invested in the stock market at the start of the year is now worth…",
-            "link": "https://www.twelfthmagpie.com/2026/11/08/15000-invested-in-the-stock-market-at-the-start-of-the-year-is-now-worth/?.tsrc=rss",
-            "published": "Sun, 08 Nov 2026 13:58:00 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2024/07/Westminster-Bridge-1200x800.jpg"
-          },
-          {
-            "title": "What’s a realistic annual income goal for a £20,000 ISA — £500, £1,000 or £2,000?",
-            "link": "https://www.twelfthmagpie.com/2026/11/08/whats-a-realistic-annual-income-goal-for-a-20000-isa-500-1000-or-2000/?.tsrc=rss",
-            "published": "Sun, 08 Nov 2026 12:13:00 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2025/01/Gradual-Increase-1200x675.jpg"
-          },
-          {
-            "title": "Buy the dip or wait? BofA maps out 3 scenarios for chip stocks and top picks",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/buy-dip-wait-bofa-maps-115701295.html?.tsrc=rss",
-            "published": "Sun, 08 Nov 2026 11:57:01 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "HSBC shares have been flying, but is the AI bubble a risk investors are overlooking?",
-            "link": "https://www.twelfthmagpie.com/2026/11/08/hsbc-shares-have-been-flying-but-is-the-ai-bubble-a-risk-investors-are-overlooking/?.tsrc=rss",
-            "published": "Sun, 08 Nov 2026 09:09:00 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2024/07/Ponderous-1200x800.jpg"
-          },
-          {
-            "title": "Agility Robotics (AGLT) Pulls Back After Nasdaq Entry, But Is It Fully Valued?",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/agility-robotics-aglt-pulls-back-081035143.html?.tsrc=rss",
-            "published": "Sun, 08 Nov 2026 08:10:35 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "Is now a good time to buy Legal & General shares or sell them?",
-            "link": "https://www.twelfthmagpie.com/2026/11/08/is-now-a-good-time-to-buy-legal-general-shares-or-sell-them/?.tsrc=rss",
-            "published": "Sun, 08 Nov 2026 07:51:00 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2026/10/Stock_BOE.jpeg"
-          },
-          {
-            "title": "5 big analyst AI moves: Is the historic AI stock rout a buy opportunity?",
-            "link": "https://uk.finance.yahoo.com/news/5-big-analyst-ai-moves-060010459.html?.tsrc=rss",
-            "published": "Sun, 08 Nov 2026 06:00:10 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
           }
         ]
       },
@@ -3459,7 +3425,7 @@
         },
         "STOCKS": {
           "ok": true,
-          "count": 12,
+          "count": 10,
           "retainedPrevious": 0,
           "errors": [
             "https://finance.yahoo.com/news/rssindex: 404 Not Found"
@@ -3689,18 +3655,18 @@
             "image": ""
           },
           {
-            "title": "European shares rise as oil falls on Middle East deal hopes",
-            "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZHBCTFNsTWh0RmpkcWloQkhvaWlJWW1BQWM3VU93VXNSVXA5QXhVOTI3WEs2N0I3NUd3OFo4YjcxT0Fob2ZIWU5leTA2Y1kxUlZDUlNNYURhM0x0c2FoVHhuT0tBTXZ1WTBmdUZyN1NXcXl3VnRIVENPTGZfSmtWZ2pIa2FjUWVXV243UWtPNnBLZmtnaWwtaTRSRG5hQ2w2T3V3cHlZQTlLbzNhUFRtZHFB?oc=5",
-            "published": "Mon, 02 Nov 2026 17:45:36 GMT",
+            "title": "Apple shares slide as Ternus sounds alarm on memory costs",
+            "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOOWtrTGxXbDgwckNQWG4zLXc1eV9LUTdPZW1zbnlWYmdobHdXMm15MXNDNU8wdUVHLThfLWRxeHo3TnM4YnNvdEJmeHpEeVE2ekh2SWhKekx3RkJwNUhHWEh2OV8wRmdkWThzcHBKYTk4RGRLYXdaSTRfWFNCNnJaNWs1X3NHQmtuS004T3N3SGpXVWtmeVZkR0hUWTRoelhZS3AxSnNCdk9zWF9Da01LdmVLQVViaHRtdWx6dg?oc=5",
+            "published": "Tue, 03 Nov 2026 14:34:09 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
             "image": ""
           },
           {
-            "title": "S&P 500 ends down; Apple dips ahead of quarterly report",
-            "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPbnVDQzd0LTF3Vi1BMnJDLWpGaHNIMlJVTDNnVmplMzZnVjRxRTZUUTRsQkVvZ21EN3lXMzA4ZDJnOTQwc01ld2tqT1pGZVN6VmpuVWpzLVVMUU1qcDdnRFdEQUZoM0l6Ym9NYnhfWDctWkZnSC1fLUk0RGxtUmd3WU9zLXdhcTdGTkJvcUxaazZKZEliVjl3bVBfZldDajJMOXZtVkx0NVI4YWlwMkVFbXpMR0ZGQW9wOWxEcTM3QThSdk1fb2c?oc=5",
-            "published": "Mon, 02 Nov 2026 10:57:00 GMT",
+            "title": "European shares rise as oil falls on Middle East deal hopes",
+            "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZHBCTFNsTWh0RmpkcWloQkhvaWlJWW1BQWM3VU93VXNSVXA5QXhVOTI3WEs2N0I3NUd3OFo4YjcxT0Fob2ZIWU5leTA2Y1kxUlZDUlNNYURhM0x0c2FoVHhuT0tBTXZ1WTBmdUZyN1NXcXl3VnRIVENPTGZfSmtWZ2pIa2FjUWVXV243UWtPNnBLZmtnaWwtaTRSRG5hQ2w2T3V3cHlZQTlLbzNhUFRtZHFB?oc=5",
+            "published": "Mon, 02 Nov 2026 17:45:36 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3832,5 +3798,5 @@
       }
     }
   },
-  "stocksUpdated": "2026-11-08T18:46:38.021Z"
+  "stocksUpdated": "2026-11-08T22:15:57.675Z"
 }
