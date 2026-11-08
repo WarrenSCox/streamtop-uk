@@ -1,7 +1,16 @@
 {
-  "updated": "2026-11-08T22:15:53.254Z",
+  "updated": "2026-11-08T22:46:59.473Z",
   "categories": {
     "UK": [
+      {
+        "title": "GPs to offer 300,000 patients extra support to ease winter strain on NHS",
+        "link": "https://www.theguardian.com/society/2026/nov/08/gps-extra-checks-winter-nhs-hospitals-england",
+        "published": "Sun, 08 Nov 2026 22:30:51 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Health Health policy GPs Doctors NHS Society Politics England UK news",
+        "image": "https://i.guim.co.uk/img/media/cb9d98c7d6af56a8ddc942e7ca0ecbd07ab9f309/1650_0_4722_3780/master/4722.jpg?width=140&quality=85&auto=format&fit=max&s=6d19c6d6f5d41d448b789a52d638d903"
+      },
       {
         "title": "Government considering banning under-16s from Vinted and eBay",
         "link": "https://news.sky.com/story/government-considering-banning-under-16s-from-vinted-and-ebay-13609954",
@@ -82,15 +91,6 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/11/1920x1080/skynews-weather-uk_7400930.png?20261108150856"
-      },
-      {
-        "title": "Two seriously injured in 30-vehicle crash in 'thick fog' in Kent",
-        "link": "https://news.sky.com/story/two-seriously-injured-in-30-vehicle-crash-in-fog-on-the-m20-near-maidstone-13609605",
-        "published": "Sat, 07 Nov 2026 23:05:00 +0000",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/11/1920x1080/skynews-m20-crash_7400658.jpg?20261108000205"
       }
     ],
     "WORLD": [
@@ -100,7 +100,7 @@
         "published": "Sun, 08 Nov 2026 22:03:59 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
-        "categories": "Australia news",
+        "categories": "Melbourne Australia news Victoria",
         "image": "https://i.guim.co.uk/img/media/4954ad8d5503c8161345548e255e4fdf2719dd1d/585_40_1083_867/master/1083.jpg?width=140&quality=85&auto=format&fit=max&s=5ec33b002d331556a841dce611707272"
       },
       {
@@ -119,7 +119,7 @@
         "source": "The Guardian",
         "provider": "GUARDIAN",
         "categories": "US news Nvidia China Technology AI (artificial intelligence) Asia Pacific World news",
-        "image": "https://i.guim.co.uk/img/media/3fc6a5d68684a58fece0294bce9094ed76072ecd/1816_254_6098_4878/master/6098.jpg?width=140&quality=85&auto=format&fit=max&s=90bf64ebcb2ef6e0ae0390bf9e4979cf"
+        "image": "https://i.guim.co.uk/img/media/3fc6a5d68684a58fece0294bce9094ed76072ecd/2374_660_5539_4431/master/5539.jpg?width=140&quality=85&auto=format&fit=max&s=92cbb8a7ec8156c0882d52286c3cc1a9"
       },
       {
         "title": "Nvidia launches 'foreign intelligence' investigation after CEO admits affair",
@@ -186,6 +186,15 @@
       }
     ],
     "POLITICS": [
+      {
+        "title": "GPs to offer 300,000 patients extra support to ease winter strain on NHS",
+        "link": "https://www.theguardian.com/society/2026/nov/08/gps-extra-checks-winter-nhs-hospitals-england",
+        "published": "Sun, 08 Nov 2026 22:30:51 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Health Health policy GPs Doctors NHS Society Politics England UK news",
+        "image": "https://i.guim.co.uk/img/media/cb9d98c7d6af56a8ddc942e7ca0ecbd07ab9f309/1650_0_4722_3780/master/4722.jpg?width=140&quality=85&auto=format&fit=max&s=6d19c6d6f5d41d448b789a52d638d903"
+      },
       {
         "title": "Government considering banning under-16s from Vinted and eBay",
         "link": "https://news.sky.com/story/government-considering-banning-under-16s-from-vinted-and-ebay-13609954",
@@ -266,15 +275,6 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/10/1920x1080/skynews-poundland-sheffield_7372627.jpg?20261010073001"
-      },
-      {
-        "title": "Parliament risks 'catastrophic event' without urgent renovation",
-        "link": "https://news.sky.com/story/parliament-risks-catastrophic-event-without-urgent-renovation-mps-warn-13607723",
-        "published": "Wed, 04 Nov 2026 02:45:00 +0000",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/24/06/1920x1080/skynews-houses-of-parliament_6584662.jpg?20240618134251"
       }
     ],
     "BUSINESS": [
@@ -555,6 +555,24 @@
     ],
     "STOCKS": [
       {
+        "title": "Dow Jones Futures Loom; Techs Set To Slide As Nvidia Probes CEO Jensen Huang Spying Case",
+        "link": "https://uk.finance.yahoo.com/m/283e1bd9-349e-390b-a32b-b4ed9a9034f3/dow-jones-futures-loom%3B-techs.html?.tsrc=rss",
+        "published": "Sun, 08 Nov 2026 22:27:02 +0000",
+        "source": "Yahoo Finance",
+        "provider": "YAHOO",
+        "categories": "",
+        "image": ""
+      },
+      {
+        "title": "As AI trade tires, BCA calls for European stocks to beat Wall Street",
+        "link": "https://uk.finance.yahoo.com/news/ai-trade-tires-bca-calls-215010623.html?.tsrc=rss",
+        "published": "Sun, 08 Nov 2026 21:50:10 +0000",
+        "source": "Yahoo Finance",
+        "provider": "YAHOO",
+        "categories": "",
+        "image": ""
+      },
+      {
         "title": "Sell Alert: 5 High-Profile Stocks Just Dumped by Top Analysts",
         "link": "https://finance.yahoo.com/markets/stocks/articles/sell-alert-5-high-profile-203124084.html?.tsrc=rss",
         "published": "Sun, 08 Nov 2026 20:31:24 +0000",
@@ -567,24 +585,6 @@
         "title": "Gildan (GIL): Here’s Why UBS Downgraded the Stock",
         "link": "https://finance.yahoo.com/markets/stocks/articles/gildan-gil-why-ubs-downgraded-202908949.html?.tsrc=rss",
         "published": "Sun, 08 Nov 2026 20:29:08 +0000",
-        "source": "Yahoo Finance",
-        "provider": "YAHOO",
-        "categories": "",
-        "image": ""
-      },
-      {
-        "title": "Five9 (FIVN): Evercore ISI Downgraded the Stock Despite AI Revenue Growth Rate of 91%",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/five9-fivn-evercore-isi-downgraded-202815705.html?.tsrc=rss",
-        "published": "Sun, 08 Nov 2026 20:28:15 +0000",
-        "source": "Yahoo Finance",
-        "provider": "YAHOO",
-        "categories": "",
-        "image": ""
-      },
-      {
-        "title": "Why Barclays Cut Gartner (IT) Despite a 27% Rally in Its Shares",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/why-barclays-cut-gartner-despite-202403354.html?.tsrc=rss",
-        "published": "Sun, 08 Nov 2026 20:24:03 +0000",
         "source": "Yahoo Finance",
         "provider": "YAHOO",
         "categories": "",
@@ -736,7 +736,7 @@
           },
           "YAHOO": {
             "ok": true,
-            "count": 10,
+            "count": 11,
             "retainedPrevious": 0,
             "errors": [
               "https://finance.yahoo.com/news/rssindex: 404 Not Found"
@@ -1269,6 +1269,15 @@
       "categories": {
         "UK": [
           {
+            "title": "GPs to offer 300,000 patients extra support to ease winter strain on NHS",
+            "link": "https://www.theguardian.com/society/2026/nov/08/gps-extra-checks-winter-nhs-hospitals-england",
+            "published": "Sun, 08 Nov 2026 22:30:51 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Health Health policy GPs Doctors NHS Society Politics England UK news",
+            "image": "https://i.guim.co.uk/img/media/cb9d98c7d6af56a8ddc942e7ca0ecbd07ab9f309/1650_0_4722_3780/master/4722.jpg?width=140&quality=85&auto=format&fit=max&s=6d19c6d6f5d41d448b789a52d638d903"
+          },
+          {
             "title": "Russell Brand case must be wake-up call to protect women in media, Lisa Nandy says",
             "link": "https://www.theguardian.com/media/2026/nov/08/women-abuse-media-industry-lisa-nandy-russell-brand",
             "published": "Sun, 08 Nov 2026 19:05:04 GMT",
@@ -1339,15 +1348,6 @@
             "provider": "GUARDIAN",
             "categories": "Cornwall UK news Transport Water transport",
             "image": "https://i.guim.co.uk/img/media/3ccaece5cc48aad5908346391943e02e0802357f/1705_186_4187_3349/master/4187.jpg?width=140&quality=85&auto=format&fit=max&s=7df3b60523e58831f139e906f57236eb"
-          },
-          {
-            "title": "UK spent £100m on zombie Brexit border inspection posts",
-            "link": "https://www.theguardian.com/politics/2026/nov/08/uk-zombie-brexit-border-inspection-posts-check-goods",
-            "published": "Sun, 08 Nov 2026 13:32:58 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Brexit European Union Foreign policy Europe Portsmouth Politics UK news World news International trade Food & drink industry HMRC Trade policy England Business",
-            "image": "https://i.guim.co.uk/img/media/db4240edf03977a12a595754e65bb19448f4299e/368_0_3895_3116/master/3895.jpg?width=140&quality=85&auto=format&fit=max&s=6da4a837d21aad183e406a99a45876eb"
           },
           {
             "title": "‘AI clog’: UK public bodies battle onslaught of chatbot-generated complaints",
@@ -1547,7 +1547,7 @@
             "source": "The Guardian",
             "provider": "GUARDIAN",
             "categories": "US news Nvidia China Technology AI (artificial intelligence) Asia Pacific World news",
-            "image": "https://i.guim.co.uk/img/media/3fc6a5d68684a58fece0294bce9094ed76072ecd/1816_254_6098_4878/master/6098.jpg?width=140&quality=85&auto=format&fit=max&s=90bf64ebcb2ef6e0ae0390bf9e4979cf"
+            "image": "https://i.guim.co.uk/img/media/3fc6a5d68684a58fece0294bce9094ed76072ecd/2374_660_5539_4431/master/5539.jpg?width=140&quality=85&auto=format&fit=max&s=92cbb8a7ec8156c0882d52286c3cc1a9"
           },
           {
             "title": "Uyghurs facing deportation by Thailand say they will be ‘like slaves’ in China",
@@ -1591,7 +1591,7 @@
             "published": "Sun, 08 Nov 2026 22:03:59 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Australia news",
+            "categories": "Melbourne Australia news Victoria",
             "image": "https://i.guim.co.uk/img/media/4954ad8d5503c8161345548e255e4fdf2719dd1d/585_40_1083_867/master/1083.jpg?width=140&quality=85&auto=format&fit=max&s=5ec33b002d331556a841dce611707272"
           },
           {
@@ -1632,6 +1632,15 @@
           }
         ],
         "POLITICS": [
+          {
+            "title": "GPs to offer 300,000 patients extra support to ease winter strain on NHS",
+            "link": "https://www.theguardian.com/society/2026/nov/08/gps-extra-checks-winter-nhs-hospitals-england",
+            "published": "Sun, 08 Nov 2026 22:30:51 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Health Health policy GPs Doctors NHS Society Politics England UK news",
+            "image": "https://i.guim.co.uk/img/media/cb9d98c7d6af56a8ddc942e7ca0ecbd07ab9f309/1650_0_4722_3780/master/4722.jpg?width=140&quality=85&auto=format&fit=max&s=6d19c6d6f5d41d448b789a52d638d903"
+          },
           {
             "title": "Russell Brand case must be wake-up call to protect women in media, Lisa Nandy says",
             "link": "https://www.theguardian.com/media/2026/nov/08/women-abuse-media-industry-lisa-nandy-russell-brand",
@@ -1685,15 +1694,6 @@
             "provider": "GUARDIAN",
             "categories": "Reproductive rights Pregnancy Women's health Midwifery NHS Health Society Women Hospitals Nursing Health policy England UK news Politics Public services policy",
             "image": "https://i.guim.co.uk/img/media/c3c6b99f0a024d3deb184dea44054eed0944f26e/149_0_4233_3386/master/4233.jpg?width=140&quality=85&auto=format&fit=max&s=26c1dba7e069d172d2bf6f8fc2b4be74"
-          },
-          {
-            "title": "Five European leaders call for closer EU-UK ties ahead of Brussels summit",
-            "link": "https://www.theguardian.com/world/2026/nov/07/europe-leaders-call-closer-eu-uk-ties-brussels-summit",
-            "published": "Sat, 07 Nov 2026 15:30:35 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "European Union Europe Energy Energy industry Brexit Foreign policy Business UK news World news Environment Politics Andy Burnham Ursula von der Leyen Germany Belgium Luxembourg Denmark Netherlands Greenhouse gas emissions",
-            "image": "https://i.guim.co.uk/img/media/a82621f2173bcdb47b29018958e54222130414c4/291_0_2520_2016/master/2520.jpg?width=140&quality=85&auto=format&fit=max&s=61faaabb5ec3b188e3a2f40a602a4f1e"
           },
           {
             "title": "‘I just got AI emails rejecting my application – or no reply at all’: this is the soul-crushing reality of being a Neet | John Harris",
@@ -3322,6 +3322,24 @@
         "STOCK_MARKET": [],
         "STOCKS": [
           {
+            "title": "Dow Jones Futures Loom; Techs Set To Slide As Nvidia Probes CEO Jensen Huang Spying Case",
+            "link": "https://uk.finance.yahoo.com/m/283e1bd9-349e-390b-a32b-b4ed9a9034f3/dow-jones-futures-loom%3B-techs.html?.tsrc=rss",
+            "published": "Sun, 08 Nov 2026 22:27:02 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "As AI trade tires, BCA calls for European stocks to beat Wall Street",
+            "link": "https://uk.finance.yahoo.com/news/ai-trade-tires-bca-calls-215010623.html?.tsrc=rss",
+            "published": "Sun, 08 Nov 2026 21:50:10 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
             "title": "Sell Alert: 5 High-Profile Stocks Just Dumped by Top Analysts",
             "link": "https://finance.yahoo.com/markets/stocks/articles/sell-alert-5-high-profile-203124084.html?.tsrc=rss",
             "published": "Sun, 08 Nov 2026 20:31:24 +0000",
@@ -3401,15 +3419,6 @@
             "provider": "YAHOO",
             "categories": "",
             "image": ""
-          },
-          {
-            "title": "As AI trade tires, BCA calls for European stocks to beat Wall Street",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/ai-trade-tires-bca-calls-153106937.html?.tsrc=rss",
-            "published": "Sun, 08 Nov 2026 15:31:06 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
           }
         ]
       },
@@ -3425,7 +3434,7 @@
         },
         "STOCKS": {
           "ok": true,
-          "count": 10,
+          "count": 11,
           "retainedPrevious": 0,
           "errors": [
             "https://finance.yahoo.com/news/rssindex: 404 Not Found"
@@ -3655,18 +3664,18 @@
             "image": ""
           },
           {
-            "title": "Apple shares slide as Ternus sounds alarm on memory costs",
-            "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOOWtrTGxXbDgwckNQWG4zLXc1eV9LUTdPZW1zbnlWYmdobHdXMm15MXNDNU8wdUVHLThfLWRxeHo3TnM4YnNvdEJmeHpEeVE2ekh2SWhKekx3RkJwNUhHWEh2OV8wRmdkWThzcHBKYTk4RGRLYXdaSTRfWFNCNnJaNWs1X3NHQmtuS004T3N3SGpXVWtmeVZkR0hUWTRoelhZS3AxSnNCdk9zWF9Da01LdmVLQVViaHRtdWx6dg?oc=5",
-            "published": "Tue, 03 Nov 2026 14:34:09 GMT",
+            "title": "Nasdaq ends higher as AI heavyweights rebound ahead of midterm results",
+            "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWVp0N2w0REZqOUJ3YkRxcmliYkhtX25yTkFtdmJDUFdSVm5CcXRQYjdMeFFLU0gxcHk1STM2R0xXaGJ6TW9ZN2ZQS2RReVRiXzNtY1B3Qm5fZ1lfTUFaMVpRM2d2ZVZodnZtbUFFLUtkcURfUEtENElyNG5YcFRGcncteEFaZFUwOGxVUmpTMWFkMEtvb09VTG50a2NSbjhLUm5Zc3EtZS1XUU5lWm9B?oc=5",
+            "published": "Wed, 04 Nov 2026 11:21:38 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
             "image": ""
           },
           {
-            "title": "European shares rise as oil falls on Middle East deal hopes",
-            "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZHBCTFNsTWh0RmpkcWloQkhvaWlJWW1BQWM3VU93VXNSVXA5QXhVOTI3WEs2N0I3NUd3OFo4YjcxT0Fob2ZIWU5leTA2Y1kxUlZDUlNNYURhM0x0c2FoVHhuT0tBTXZ1WTBmdUZyN1NXcXl3VnRIVENPTGZfSmtWZ2pIa2FjUWVXV243UWtPNnBLZmtnaWwtaTRSRG5hQ2w2T3V3cHlZQTlLbzNhUFRtZHFB?oc=5",
-            "published": "Mon, 02 Nov 2026 17:45:36 GMT",
+            "title": "Apple shares slide as Ternus sounds alarm on memory costs",
+            "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOOWtrTGxXbDgwckNQWG4zLXc1eV9LUTdPZW1zbnlWYmdobHdXMm15MXNDNU8wdUVHLThfLWRxeHo3TnM4YnNvdEJmeHpEeVE2ekh2SWhKekx3RkJwNUhHWEh2OV8wRmdkWThzcHBKYTk4RGRLYXdaSTRfWFNCNnJaNWs1X3NHQmtuS004T3N3SGpXVWtmeVZkR0hUWTRoelhZS3AxSnNCdk9zWF9Da01LdmVLQVViaHRtdWx6dg?oc=5",
+            "published": "Tue, 03 Nov 2026 14:34:09 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3798,5 +3807,5 @@
       }
     }
   },
-  "stocksUpdated": "2026-11-08T22:15:57.675Z"
+  "stocksUpdated": "2026-11-08T22:47:05.545Z"
 }
