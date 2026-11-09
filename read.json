@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-09T02:34:20.704Z",
+  "updated": "2026-11-09T06:49:02.742Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -123,15 +123,15 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-11-09T02:34:20.704Z",
-      "lastSuccessfulRefresh": "2026-11-09T02:34:20.704Z",
+      "checkedAt": "2026-11-09T06:49:02.742Z",
+      "lastSuccessfulRefresh": "2026-11-09T06:49:02.742Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
-      "status": "healthy",
-      "checkedAt": "2026-11-09T02:34:31.699Z",
+      "status": "stale",
+      "checkedAt": "2026-11-09T06:49:11.480Z",
       "lastSuccessfulRefresh": "2026-11-09T02:34:31.699Z",
-      "reason": ""
+      "reason": "503 https://www.audible.co.uk/charts/best"
     }
   }
 }
