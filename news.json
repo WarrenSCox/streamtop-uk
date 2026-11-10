@@ -1,7 +1,16 @@
 {
-  "updated": "2026-11-09T22:30:00.216Z",
+  "updated": "2026-11-10T03:25:50.640Z",
   "categories": {
     "UK": [
+      {
+        "title": "Headteachers consider leaving jobs earlier than planned after new Ofsted inspection",
+        "link": "https://www.theguardian.com/education/2026/nov/10/headteachers-consider-leaving-job-earlier-than-planned-new-ofsted-inspection",
+        "published": "Tue, 10 Nov 2026 00:01:22 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Ofsted Teacher Network Education Teaching UK news England Department for Education Teachers' workload Schools",
+        "image": "https://i.guim.co.uk/img/media/b31390076cd9ca56e6c7bd7a7d912bc359cff31f/507_0_2607_2086/master/2607.jpg?width=140&quality=85&auto=format&fit=max&s=900dc22e11a8bcca34c36c6dcec51b76"
+      },
       {
         "title": "Laughing gas motorist pleads to eat chips after McDonald’s drive-through arrest",
         "link": "https://metro.co.uk/2026/11/09/laughing-gas-motorist-pleads-eat-chips-mcdonalds-drive-through-arrest-29779082/",
@@ -28,15 +37,6 @@
         "provider": "METRO",
         "categories": "News US United States of America",
         "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_318711845-f2c6.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Rio Ferdinand claims Mikel Arteta has a ‘huge problem’ at Arsenal",
-        "link": "https://metro.co.uk/2026/11/09/rio-ferdinand-claims-mikel-arteta-a-huge-problem-arsenal-29778687/",
-        "published": "Mon, 09 Nov 2026 20:02:07 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Football Sport Arsenal Mikel Arteta Premier League Rio Ferdinand",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/11/rio-ferdinand-d67d.png?w=646"
       },
       {
         "title": "Tommy Walsh, co-presenter of BBC’s Ground Force, dies aged 69",
@@ -95,6 +95,60 @@
     ],
     "WORLD": [
       {
+        "title": "Beau Lamarre-Condon denies stalking Jesse Baird as double murder trial continues",
+        "link": "https://www.theguardian.com/australia-news/2026/nov/10/beau-lamarre-condon-murder-trial-ntwnfb",
+        "published": "Tue, 10 Nov 2026 03:07:17 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Sydney New South Wales Australia news",
+        "image": "https://i.guim.co.uk/img/media/69a781da23f48b2cde91996a93de7520bc4ee220/202_458_2489_1992/master/2489.jpg?width=140&quality=85&auto=format&fit=max&s=244895ce0fcf3d33c7803d343519e647"
+      },
+      {
+        "title": "Australia to introduce mandatory reporting after OpenAI hack to combat artificial intelligence ‘going rogue’",
+        "link": "https://www.theguardian.com/technology/2026/nov/10/australia-manadatory-reporting-openai-medicare-hack",
+        "published": "Tue, 10 Nov 2026 02:31:08 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "AI (artificial intelligence) Australia news Australian politics Anthony Albanese Technology",
+        "image": "https://i.guim.co.uk/img/media/dffa89dc77a6bbaad44df383335bad241ee8e4ac/250_0_2500_2000/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=8860562d2849d1681cc78614e56d9f4f"
+      },
+      {
+        "title": "Todd Russell, Beaconsfield mine collapse survivor, dies aged 54 due to illness",
+        "link": "https://www.theguardian.com/australia-news/2026/nov/10/todd-russell-dies-beaconsfield-mine-collapse-survivor-death-illness-aged-54",
+        "published": "Tue, 10 Nov 2026 02:17:30 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Tasmania Australia news Mining",
+        "image": "https://i.guim.co.uk/img/media/9b143c92c9a4ed57fdb4fed5bd631a8251922862/0_0_2257_1806/master/2257.jpg?width=140&quality=85&auto=format&fit=max&s=ee792f71608cbef7e8f8257b3b1cd16a"
+      },
+      {
+        "title": "FBI investigating Nvidia CEO over affair with alleged Chinese spy",
+        "link": "https://news.sky.com/story/fbi-to-investigate-nvidia-ceo-over-affair-with-alleged-chinese-spy-trump-says-13610382",
+        "published": "Tue, 10 Nov 2026 02:06:00 +0000",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/11/1920x1080/skynews-jensen-huang-nvidia_7402606.jpg?20261110022343"
+      },
+      {
+        "title": "Qantas to cut 850 Australian jobs and outsource work to India under AI-driven overhaul",
+        "link": "https://www.theguardian.com/business/2026/nov/10/qantas-850-job-cuts-outsource-work-to-india-ai-overhaul",
+        "published": "Tue, 10 Nov 2026 01:34:47 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Qantas Business Australia news Australian trade unions Industrial relations AI (artificial intelligence) Accenture Airline industry",
+        "image": "https://i.guim.co.uk/img/media/495089a2ea3363d20bc4baf998d27df79ec59b7c/688_0_6880_5504/master/6880.jpg?width=140&quality=85&auto=format&fit=max&s=db4988bce91ca2639e69700b72cf3372"
+      },
+      {
+        "title": "Jodie ‘confirmed dead’ in Coronation Street as gruesome discovery is made",
+        "link": "https://metro.co.uk/2026/11/09/jodie-confirmed-dead-coronation-street-gruesome-discovery-made-29770196/",
+        "published": "Mon, 09 Nov 2026 23:59:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Coronation Street Soaps Bethany Platt David Platt Jack P. Shepherd Jodie Ramsey Julia Goulding Lucy Fallon Olivia Frances-Brown Shona Platt",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_319644753-6aad.jpg?quality=90&strip=all&w=646"
+      },
+      {
         "title": "What is impeachment after top Republican takes step to force out Pete Hegseth",
         "link": "https://metro.co.uk/2026/11/09/impeachment-top-republican-takes-step-force-pete-hegseth-29779035/",
         "published": "Mon, 09 Nov 2026 20:40:56 +0000",
@@ -102,15 +156,6 @@
         "provider": "METRO",
         "categories": "News US United States of America",
         "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_318711845-f2c6.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "High fossil fuel prices spread inflation ‘like a cancer’, UN climate chief tells Cop31",
-        "link": "https://www.theguardian.com/environment/2026/nov/09/high-fossil-fuel-prices-spread-inflation-like-cancer-cop31egotiator-tells-cop31",
-        "published": "Mon, 09 Nov 2026 17:47:04 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Cop31 Turkey World news Fossil fuels Climate crisis Environment Europe United Nations Australia news Energy Renewable energy",
-        "image": "https://i.guim.co.uk/img/media/3697c15560867e293649ef23a87293050bdc770d/911_0_4561_3648/master/4561.jpg?width=140&quality=85&auto=format&fit=max&s=646da91bc8b73ea8981eb9cb6f67197d"
       },
       {
         "title": "Most-loved Greek island hotel is a ‘spot on’ 2-star stay with rooms for £64 per night",
@@ -131,33 +176,6 @@
         "image": "https://e3.365dm.com/26/11/1920x1080/skynews-cyber-attack-freezer_7394827.jpg?20261109172457"
       },
       {
-        "title": "GTA 6 datamine suggests new PS5 Pro support and cut content in Australia",
-        "link": "https://metro.co.uk/2026/11/09/gta-6-datamine-suggests-new-ps5-pro-support-cut-content-australia-29778181/",
-        "published": "Mon, 09 Nov 2026 16:06:07 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Entertainment Gaming Games news GTA 6 PlayStation 5 Rockstar Games Xbox Series X",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_320081937-544b.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "‘Exceedingly heavy-handed’: ACT police criticised by magistrate for Tasering disabled Aboriginal woman",
-        "link": "https://www.theguardian.com/australia-news/2026/nov/10/exceedingly-heavy-handed-act-police-officers-criticised-by-magistrate-for-taser-arrest-of-disabled-aboriginal-woman-ntwnfb",
-        "published": "Mon, 09 Nov 2026 14:00:13 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Australian police and policing Australian Capital Territory (ACT) Indigenous Australians Australia news Canberra Taser electronic weapons",
-        "image": "https://i.guim.co.uk/img/media/6fce0b552bf50c7ce2b6e690c11bf5a8594062c1/688_0_6880_5504/master/6880.jpg?width=140&quality=85&auto=format&fit=max&s=c68c0d760461d3d41763486755d78553"
-      },
-      {
-        "title": "‘Settle down’ and ‘do your own swabs’: how alleged rape victims are treated in Queensland revealed in major report",
-        "link": "https://www.theguardian.com/australia-news/2026/nov/10/settle-down-do-your-own-swabs-how-alleged-victims-are-treated-in-queensland-revealed-in-major-report",
-        "published": "Mon, 09 Nov 2026 14:00:12 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Queensland Australian police and policing Rape and sexual assault Crime - Australia Australia news",
-        "image": "https://i.guim.co.uk/img/media/c97abbd2d42262f1d2aaa94eb91adc07a4fe6a8c/0_0_2500_2000/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=ec90b16bbf4f249e5f334cc8af3f33e1"
-      },
-      {
         "title": "Explosion at steel plant in Turkey kills 16, president says",
         "link": "https://news.sky.com/story/explosion-at-steel-plant-in-turkey-kills-at-least-16-officials-say-13610161",
         "published": "Mon, 09 Nov 2026 12:05:00 +0000",
@@ -165,24 +183,6 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/11/1920x1080/skynews-aliaga-turkey-fire_7402157.jpg?20261109131735"
-      },
-      {
-        "title": "'Positive momentum' towards end to Iran war, Trump says",
-        "link": "https://news.sky.com/story/positive-momentum-towards-end-to-iran-war-trump-says-13610128",
-        "published": "Mon, 09 Nov 2026 10:52:00 +0000",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/11/1920x1080/skynews-trump-usa_7402530.jpg?20261109215753"
-      },
-      {
-        "title": "Girl, 15, sent to ‘hellhole’ penal colony by Russian court for being ‘Ukrainian spy’",
-        "link": "https://metro.co.uk/2026/11/07/girl-15-sent-hellhole-penal-colony-russian-court-ukrainian-spy-29773762/",
-        "published": "Sat, 07 Nov 2026 13:42:20 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News World Russia Russia-Ukraine war Ukraine",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_319769785-8bcc.jpg?quality=90&strip=all&w=646"
       }
     ],
     "POLITICS": [
@@ -279,6 +279,24 @@
     ],
     "BUSINESS": [
       {
+        "title": "California voters fail to pass proposed one-time tax on billionaires’ wealth",
+        "link": "https://www.theguardian.com/us-news/2026/nov/09/california-tax-billionaires-prop-40",
+        "published": "Tue, 10 Nov 2026 02:54:54 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "California US midterm elections 2026 Silicon Valley US news West Coast The super-rich US taxation US income inequality Sergey Brin World news",
+        "image": "https://i.guim.co.uk/img/media/026aa3fdbb690df527b92e025e1f71eeafb7876b/667_0_3333_2668/master/3333.jpg?width=140&quality=85&auto=format&fit=max&s=962fb4fb032105acbfe9d9031d8ba874"
+      },
+      {
+        "title": "FBI investigating Nvidia CEO over affair with alleged Chinese spy",
+        "link": "https://news.sky.com/story/fbi-to-investigate-nvidia-ceo-over-affair-with-alleged-chinese-spy-trump-says-13610382",
+        "published": "Tue, 10 Nov 2026 02:06:00 +0000",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/11/1920x1080/skynews-jensen-huang-nvidia_7402606.jpg?20261110022343"
+      },
+      {
         "title": "Jensen Huang’s image has been shattered. Could he be pushed out at Nvidia?",
         "link": "https://www.theguardian.com/technology/2026/nov/09/jensen-huang-image-nvidia",
         "published": "Mon, 09 Nov 2026 20:27:07 GMT",
@@ -315,15 +333,6 @@
         "image": "https://e3.365dm.com/26/07/1920x1080/skynews-liberty-steel-sanjeev-gupta_7298469.jpg?20260715191307"
       },
       {
-        "title": "Thames Water agrees funding into next year ahead of looming deadline",
-        "link": "https://news.sky.com/story/thames-water-agrees-funding-into-next-year-ahead-of-november-deadline-13610180",
-        "published": "Mon, 09 Nov 2026 15:08:00 +0000",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/10/1920x1080/skynews-thames-water-leak_7385349.jpg?20261024093642"
-      },
-      {
         "title": "Economic relief is on the way, Democrats say. But what, how and when?",
         "link": "https://www.theguardian.com/us-news/2026/nov/09/democrats-midterms-economy-healthcare",
         "published": "Mon, 09 Nov 2026 11:00:07 GMT",
@@ -331,15 +340,6 @@
         "provider": "GUARDIAN",
         "categories": "Democrats US midterm elections 2026 Business US politics US news",
         "image": "https://i.guim.co.uk/img/media/3a8e041b1ffd178a038a02782c554293ae66c6fa/234_0_3164_2533/master/3164.jpg?width=140&quality=85&auto=format&fit=max&s=fc99693f076985a68290bb8204c2d34d"
-      },
-      {
-        "title": "Chinese carmaker BYD’s offices in Netherlands raided over JLR ‘copycat car’ claim",
-        "link": "https://www.theguardian.com/business/2026/nov/08/chinese-carmaker-byd-offices-raided-netherlands-land-rover-copycat-claim",
-        "published": "Sun, 08 Nov 2026 16:50:58 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Jaguar Land Rover Automotive industry Business Intellectual property China Law World news Netherlands Europe",
-        "image": "https://i.guim.co.uk/img/media/df3641cd7932ef0f9d4ed70becb2641c5d68b0eb/334_0_1666_1333/master/1666.jpg?width=140&quality=85&auto=format&fit=max&s=1ea67ae59ab4bf614766c2310f73b0c2"
       },
       {
         "title": "Job adverts to be legally required to include salary information",
@@ -371,40 +371,67 @@
     ],
     "TECH": [
       {
-        "title": "Jensen Huang’s image has been shattered. Could he be pushed out at Nvidia?",
-        "link": "https://www.theguardian.com/technology/2026/nov/09/jensen-huang-image-nvidia",
-        "published": "Mon, 09 Nov 2026 20:27:07 GMT",
+        "title": "Australia to introduce mandatory reporting after OpenAI hack to combat artificial intelligence ‘going rogue’",
+        "link": "https://www.theguardian.com/technology/2026/nov/10/australia-manadatory-reporting-openai-medicare-hack",
+        "published": "Tue, 10 Nov 2026 02:31:08 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
-        "categories": "Nvidia Jensen Huang Technology sector Ethics Corporate governance Computing AI (artificial intelligence) China World news Technology Business",
-        "image": "https://i.guim.co.uk/img/media/55b2e52d9f44f9c355f1d6205d0dc7ce85b47cbe/345_0_3849_3080/master/3849.jpg?width=140&quality=85&auto=format&fit=max&s=afdecc31729b9181eb40ced7efa95880"
+        "categories": "AI (artificial intelligence) Australia news Australian politics Anthony Albanese Technology",
+        "image": "https://i.guim.co.uk/img/media/dffa89dc77a6bbaad44df383335bad241ee8e4ac/250_0_2500_2000/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=8860562d2849d1681cc78614e56d9f4f"
       },
       {
-        "title": "The AI poster boy, the ‘Chinese spy’ and Trump: how an affair may have harmed US security",
-        "link": "https://www.theguardian.com/technology/2026/nov/09/nvidia-affair-huang-trump-national-security",
-        "published": "Mon, 09 Nov 2026 20:01:05 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Jensen Huang Nvidia China Espionage Donald Trump US news World news Technology AI (artificial intelligence) Technology sector Trump administration",
-        "image": "https://i.guim.co.uk/img/media/b4b824c7d10e7e9cf32fc762d69d763186eb0815/898_0_2126_1701/master/2126.jpg?width=140&quality=85&auto=format&fit=max&s=a719322d934a458d16dd90c7e5930f84"
+        "title": "FBI investigating Nvidia CEO over affair with alleged Chinese spy",
+        "link": "https://news.sky.com/story/fbi-to-investigate-nvidia-ceo-over-affair-with-alleged-chinese-spy-trump-says-13610382",
+        "published": "Tue, 10 Nov 2026 02:06:00 +0000",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/11/1920x1080/skynews-jensen-huang-nvidia_7402606.jpg?20261110022343"
       },
       {
-        "title": "Cyber-attack on French supermarket freezers has geopolitical context",
-        "link": "https://www.theguardian.com/technology/2026/nov/09/cyber-attack-french-supermarket-freezers-iran-europe",
-        "published": "Mon, 09 Nov 2026 19:40:45 GMT",
+        "title": "Trump backs embattled Hegseth and Jensen Huang and says FBI looking into spy allegations – video",
+        "link": "https://www.theguardian.com/us-news/video/2026/nov/09/trump-hegseth-jensen-huang",
+        "published": "Tue, 10 Nov 2026 01:40:32 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
-        "categories": "Cybercrime Hacking AI (artificial intelligence) Cyberwar Technology Internet France Iran Israel Europe",
-        "image": "https://i.guim.co.uk/img/media/67edbe777b6f2a03334e7acacf646cbcabb1144d/2_0_3540_2832/master/3540.jpg?width=140&quality=85&auto=format&fit=max&s=2fcee9639e9c08f65c05bf3be321dc9f"
+        "categories": "Donald Trump Nvidia Jensen Huang Pete Hegseth AI (artificial intelligence) Technology sector Computing Iran US news",
+        "image": "https://i.guim.co.uk/img/media/ab7c6bd313bc788fbe0af23bacc93090ccecb010/243_0_3462_2770/master/3462.jpg?width=140&quality=85&auto=format&fit=max&s=668b175a7489b52523c15ede5808920e"
       },
       {
-        "title": "Silicon Valley and Trump rally behind Nvidia CEO after his affair with alleged Chinese spy",
-        "link": "https://www.theguardian.com/technology/2026/nov/09/nvidia-jensen-huang-affair-trump-musk",
-        "published": "Mon, 09 Nov 2026 18:58:37 GMT",
+        "title": "Qantas to cut 850 Australian jobs and outsource work to India under AI-driven overhaul",
+        "link": "https://www.theguardian.com/business/2026/nov/10/qantas-850-job-cuts-outsource-work-to-india-ai-overhaul",
+        "published": "Tue, 10 Nov 2026 01:34:47 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
-        "categories": "Nvidia Technology Donald Trump Elon Musk US news AI (artificial intelligence) Silicon Valley World news Computing Jensen Huang",
-        "image": "https://i.guim.co.uk/img/media/63c3dc64507f47996bc06856081323764517277f/70_0_2056_1645/master/2056.jpg?width=140&quality=85&auto=format&fit=max&s=08fae72606a752db6b7d1434d2b8d7fa"
+        "categories": "Qantas Business Australia news Australian trade unions Industrial relations AI (artificial intelligence) Accenture Airline industry",
+        "image": "https://i.guim.co.uk/img/media/495089a2ea3363d20bc4baf998d27df79ec59b7c/688_0_6880_5504/master/6880.jpg?width=140&quality=85&auto=format&fit=max&s=db4988bce91ca2639e69700b72cf3372"
+      },
+      {
+        "title": "Teenager who planned terror attack in Sydney tells court he was radicalised online and used AI to strategise",
+        "link": "https://www.theguardian.com/australia-news/2026/nov/10/teen-planned-sydney-terror-attack-using-chatgpt-radicalised-tiktok-ntwnfb",
+        "published": "Tue, 10 Nov 2026 01:09:19 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Australian security and counter-terrorism Sydney TikTok ChatGPT Australia news New South Wales Sydney Opera House Telegram YouTube Social media Islam AI (artificial intelligence)",
+        "image": "https://i.guim.co.uk/img/media/560f38c53c59131a19338207e679804b1d3aa8c0/956_0_4778_3823/master/4778.jpg?width=140&quality=85&auto=format&fit=max&s=6bb733238b659a7a62996dc188ee38ae"
+      },
+      {
+        "title": "Games Inbox: What should the first GTA 6 spin-off be?",
+        "link": "https://metro.co.uk/2026/11/10/games-inbox-first-gta-6-spin-off-29779154/",
+        "published": "Tue, 10 Nov 2026 01:00:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Entertainment Gaming DC Comics Games Inbox GTA 5 GTA 6 Resident Evil Rockstar Games The Legend of Zelda Warner Bros.",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_314563110-4ea5.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Daily horoscope November 10, 2026: Today’s predictions for your star sign",
+        "link": "https://metro.co.uk/2026/11/10/daily-horoscope-november-10-2026-predictions-star-sign-29778951/",
+        "published": "Tue, 10 Nov 2026 00:01:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Horoscopes Lifestyle Aquarius Aries Astrology Cancer (star sign) Capricorn Gemini Leo Libra Pisces Sagittarius Scorpio Taurus Virgo",
+        "image": "https://metro.co.uk/wp-content/uploads/2023/04/new-horoscope-2023-02-a5db.gif?w=646"
       },
       {
         "title": "New PS Portal model has expanded storage but Sony won’t say why",
@@ -414,15 +441,6 @@
         "provider": "METRO",
         "categories": "Entertainment Gaming Games news Japan PlayStation 5 PlayStation 6 Sony",
         "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_320087778-6b3d.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "GTA 6 datamine suggests new PS5 Pro support and cut content in Australia",
-        "link": "https://metro.co.uk/2026/11/09/gta-6-datamine-suggests-new-ps5-pro-support-cut-content-australia-29778181/",
-        "published": "Mon, 09 Nov 2026 16:06:07 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Entertainment Gaming Games news GTA 6 PlayStation 5 Rockstar Games Xbox Series X",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_320081937-544b.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "AI giant Nvidia launches investigation into CEO's affair with 'Chinese spy'",
@@ -441,35 +459,44 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/25/03/1920x1080/skynews-teen-young-boy-istock_6861721.jpg?20261108203401"
-      },
-      {
-        "title": "Anti-data centre groups set to march in Edinburgh as part of Europe-wide protest",
-        "link": "https://news.sky.com/story/dozens-of-anti-data-centre-groups-set-to-march-in-edinburgh-as-part-of-europe-wide-protest-13609164",
-        "published": "Sat, 07 Nov 2026 08:19:00 +0000",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/11/1920x1080/skynews-scotland-data-centre-protest_7399731.jpg?20261107083230"
-      },
-      {
-        "title": "Revealed: Palantir lobbied minister to stretch AI tools’ reach to NHS GP records",
-        "link": "https://www.theguardian.com/technology/2026/nov/09/revealed-palantir-lobbied-minister-to-stretch-ai-tools-reach-to-nhs-gp-records",
-        "published": "Mon, 09 Nov 2026 17:58:05 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Palantir NHS Technology AI (artificial intelligence) Health policy GPs Politics UK news Public services policy Privacy Society England",
-        "image": "https://i.guim.co.uk/img/media/2492145870792c940b152bec952dec99ef8071eb/415_0_4151_3321/master/4151.jpg?width=140&quality=85&auto=format&fit=max&s=7f86011f4d4d9f2a535c3ab895ab5f7e"
       }
     ],
     "ENTERTAINMENT": [
       {
-        "title": "Russell Brand’s ex Jemima Goldsmith ‘had to call police after violent incident’",
-        "link": "https://metro.co.uk/2026/11/09/russell-brands-ex-jemima-goldsmith-had-call-police-violent-incident-29779103/",
-        "published": "Mon, 09 Nov 2026 21:38:34 +0000",
+        "title": "Shock explosion at Underworld rocks Coronation Street",
+        "link": "https://metro.co.uk/2026/11/09/shock-explosion-underworld-rocks-coronation-street-29770680/",
+        "published": "Mon, 09 Nov 2026 23:59:00 +0000",
         "source": "Metro",
         "provider": "METRO",
-        "categories": "Entertainment Showbiz Russell Brand",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_171843636-f8de-e1794259645496.jpg?quality=90&strip=all&w=646"
+        "categories": "Coronation Street Soaps Alison King Carla Connor-Swain Idris Nazir Junade Khan",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_319639430-2c94.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Groomer Abigail exposed in Hollyoaks – but it’s too late to save snatched Dee Dee",
+        "link": "https://metro.co.uk/2026/11/09/groomer-abigail-exposed-hollyoaks-late-save-snatched-dee-dee-29777371/",
+        "published": "Mon, 09 Nov 2026 23:59:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Hollyoaks Soaps Brooke Vincent Tony Hutchinson",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_320071559-8120.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Ste and Imran’s fates revealed in Hollyoaks as climactic showdown explodes",
+        "link": "https://metro.co.uk/2026/11/09/ste-imrans-fates-revealed-hollyoaks-climactic-showdown-explodes-29777532/",
+        "published": "Mon, 09 Nov 2026 23:59:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Hollyoaks Soaps Kieron Richardson Ste Hay",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_320073442-b8bd.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Nancy’s EastEnders exit revealed and it’s a terrible outcome for Lee",
+        "link": "https://metro.co.uk/2026/11/09/nancys-eastenders-exit-revealed-a-terrible-outcome-lee-29777696/",
+        "published": "Mon, 09 Nov 2026 23:59:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "EastEnders Soaps Danny Hatchard Kellie Bright Lee Carter Linda Carter Maddy Hill Nancy Carter",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_318274365-06ba.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "Paul McCartney becomes a billionaire and world’s third richest musician",
@@ -479,33 +506,6 @@
         "provider": "GUARDIAN",
         "categories": "Paul McCartney Music Culture Pop and rock",
         "image": "https://i.guim.co.uk/img/media/7a11565459ffd42b9478c7b81e22f1329b6af336/0_2390_5584_4466/master/5584.jpg?width=140&quality=85&auto=format&fit=max&s=986dc35a82e92744e8a6fbdfae2e7031"
-      },
-      {
-        "title": "Gordon Ramsay shows off ‘shredded’ abs in shirtless photo on his 60th birthday",
-        "link": "https://metro.co.uk/2026/11/09/gordon-ramsay-shows-off-shredded-abs-shirtless-photo-60th-birthday-29778985/",
-        "published": "Mon, 09 Nov 2026 20:28:40 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Entertainment Showbiz",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_319763661-a806-e1794253944414.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "If Samson is coming back revealed and Cain pays as Emmerdale spoilers confirm what happens next",
-        "link": "https://metro.co.uk/2026/11/09/samson-coming-back-cain-pays-emmerdale-spoilers-confirm-happens-next-29776768/",
-        "published": "Mon, 09 Nov 2026 19:45:00 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Emmerdale Soaps Cain Dingle James Hooton Jeff Hordley Sam Dingle Sam Hall Samson Dingle",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_320066827-dcda.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Kim Kardashian’s Skims offering refunds for $148 advent calendar filled with hairbands",
-        "link": "https://metro.co.uk/2026/11/09/kim-kardashians-skims-offering-refunds-148-advent-calendar-filled-hairbands-29778457/",
-        "published": "Mon, 09 Nov 2026 19:09:01 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Entertainment Showbiz Kim Kardashian",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/11/comp-1794249598.png?w=1024"
       },
       {
         "title": "Donnie Dunagan, original voice of Disney’s Bambi and triple Purple Heart marine, dies aged 92",
@@ -555,38 +555,56 @@
     ],
     "STOCKS": [
       {
-        "title": "Earnings live updates: 'Grand Theft Auto VI' preorders hit 'unprecedented levels,' Take-Two CEO says",
-        "link": "https://finance.yahoo.com/markets/live/earnings-live-updates-november-9-2026-take-two-coreweave-220550675.html?.tsrc=rss",
-        "published": "Mon, 09 Nov 2026 22:05:50 +0000",
+        "title": "Monolithic Power Systems and Photronics shares skyrocket, what you need to know",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/monolithic-power-systems-photronics-shares-030936110.html?.tsrc=rss",
+        "published": "Tue, 10 Nov 2026 03:09:36 +0000",
         "source": "Yahoo Finance",
         "provider": "YAHOO",
         "categories": "",
         "image": ""
       },
       {
-        "title": "Stock Market Today: Dow Jumps, These Stocks Test Entries; Warren Buffett Play Clears Buy Zone",
-        "link": "https://uk.finance.yahoo.com/m/6fc3228f-8806-33c0-9e3b-4402850ebacd/stock-market-today%3A-dow.html?.tsrc=rss",
-        "published": "Mon, 09 Nov 2026 21:41:06 +0000",
+        "title": "Allegro MicroSystems, IPG Photonics, Lattice Semiconductor, Entegris, and Broadcom shares skyrocket, what you need to know",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/allegro-microsystems-ipg-photonics-lattice-030136618.html?.tsrc=rss",
+        "published": "Tue, 10 Nov 2026 03:01:36 +0000",
         "source": "Yahoo Finance",
         "provider": "YAHOO",
         "categories": "",
         "image": ""
       },
       {
-        "title": "Investors Title Company Board Declares Special Cash Dividend and Regular Quarterly Cash Dividend",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/investors-title-company-board-declares-213500240.html?.tsrc=rss",
-        "published": "Mon, 09 Nov 2026 21:35:00 +0000",
+        "title": "Tech leads Asian stock rally as traders track Wall St rebound",
+        "link": "https://uk.finance.yahoo.com/news/tech-leads-asian-stock-rally-023930603.html?.tsrc=rss",
+        "published": "Tue, 10 Nov 2026 02:39:30 +0000",
         "source": "Yahoo Finance",
         "provider": "YAHOO",
         "categories": "",
         "image": ""
       },
       {
-        "title": "Nvidia plunges but tech shares rebound, oil prices slump",
-        "link": "https://uk.finance.yahoo.com/news/tech-firms-claw-back-losses-025428597.html?.tsrc=rss",
-        "published": "Mon, 09 Nov 2026 21:24:06 +0000",
+        "title": "U.S. stock futures steady after tech-led rebound; CPI in focus",
+        "link": "https://finance.yahoo.com/news/u-stock-futures-steady-tech-004342905.html?.tsrc=rss",
+        "published": "Tue, 10 Nov 2026 00:43:42 +0000",
         "source": "Yahoo Finance",
         "provider": "YAHOO",
+        "categories": "",
+        "image": ""
+      },
+      {
+        "title": "Occidental beats profit estimates as higher oil prices offset output decline",
+        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNS3d3eDJFNXE0T2pOMy1XYWt4VEF3NXdJVzNRQXZvWnZKeUU3Z21WNld4YS05dDhTX0tnSUhaRHVyY3dZaXBJdVlBazJMekE2ekRHVDB2SS16a0pPVFV3cVVQWmJ5cnI2QlBfQndnaDFuam1MVVpaZFdpMElYWWwzeFVINm1wQi1PdDRqaXFCYmprQVVPN09hTlVySThLS183RGVhdzRQdUQ?oc=5",
+        "published": "Mon, 09 Nov 2026 22:50:44 GMT",
+        "source": "Reuters",
+        "provider": "REUTERS",
+        "categories": "",
+        "image": ""
+      },
+      {
+        "title": "Lucid expands credit line from top investor by $1.75 billion amid turnaround",
+        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOaFc4ZzVMTm8tbFBRX1g0ekd3Y25BV184VC1KWkJYem9SUFcwMzgwdzNkbHgySzNzTDBMcDBfN2tDclN2R0VDQ3A5SmZPa1h6MXJfN0RjOVhaVnVpdVdaUXpHNXdRcjVmZUphaGFDdTlHZkRHSWE4LXBLb3pKR0FPM19GbjB0QlJ3U3JKYVZIRllldXlSZUh4eTBDX0lSNm9pYVFqNEtaVXoyTVlJRm56UVVMLUtUaVNrOEZUeVE5VkV3ZHAwczBLNkhHU0pRaHEw?oc=5",
+        "published": "Mon, 09 Nov 2026 21:41:33 GMT",
+        "source": "Reuters",
+        "provider": "REUTERS",
         "categories": "",
         "image": ""
       },
@@ -621,24 +639,6 @@
         "title": "Mapping the Market: Alphabet shares may be ready for a corrective rally",
         "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9vZGlZeXZzRUlyeHhERkg4UzlnbEFhMHBoZDlLaGN1aS05cWZ5MENHV2xGREkzWjdaMDhyR3JWQTYycjhqVVI3TFkxNldsakNGYUJLNjFobWVSUWpXdzItZ2w4TDFYMVZRMzJTQlNyUF90YkJKQ2FmVzVLdkc?oc=5",
         "published": "Mon, 09 Nov 2026 11:03:18 GMT",
-        "source": "Reuters",
-        "provider": "REUTERS",
-        "categories": "",
-        "image": ""
-      },
-      {
-        "title": "Indian shares consolidate in Diwali session after seven-day rally",
-        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSURhQVo2bnpTNGJqSFRaSk5Tc1ZFcmxGcTU0MXNiVkR4b2tQekR0VXlhVktMZzYwMWdHUnpkWWdyM1lGTUowOXhLR19tMl9wd1BpS3J4MWpvNnJxaUpUSXg5M2pyTUtCaUFaRy16dTdKRDBGekI1czdXSGcwMjR4MnJDVGxLbDdPREdyMms4cFlpbTl6U3FxeHY5NXI4NHQ4VVR3VTQyT2cyU2wwa2Iw?oc=5",
-        "published": "Sun, 08 Nov 2026 10:43:43 GMT",
-        "source": "Reuters",
-        "provider": "REUTERS",
-        "categories": "",
-        "image": ""
-      },
-      {
-        "title": "Berkshire Hathaway speeds up stock buybacks, though profit falls",
-        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPa29SbTRWcFpWdFpiekRVRjRvNmZjM1BnNzhOeVY3ajB5S25PaGgxVFAyTTItcjRDZkRmcHROSkJIZ3lNdXZkaGp0R2hOZE51eHBzR1U3MXlFRXhGOUhzV1pJR0I2RWtUZnRrQU1MVXZaSm1haDUtTHo3NEJvNGJhLU1rM2N4a240NWp2VFh5Vkd5LW1DOTd6emN0S1QyengzS1ZjdE04LVluRGppX19oSkxtVktEcDdoWXVIVk93?oc=5",
-        "published": "Sat, 07 Nov 2026 13:16:00 GMT",
         "source": "Reuters",
         "provider": "REUTERS",
         "categories": "",
@@ -850,13 +850,22 @@
         ],
         "WORLD": [
           {
-            "title": "'Positive momentum' towards end to Iran war, Trump says",
+            "title": "Trump believes Iran war 'militarily is effectively over'",
             "link": "https://news.sky.com/story/positive-momentum-towards-end-to-iran-war-trump-says-13610128",
             "published": "Mon, 09 Nov 2026 10:52:00 +0000",
             "source": "Sky News",
             "provider": "SKY",
             "categories": "",
-            "image": "https://e3.365dm.com/26/11/1920x1080/skynews-trump-usa_7402530.jpg?20261109215753"
+            "image": "https://e3.365dm.com/26/11/1920x1080/skynews-trump-press-conference_7402604.jpg?20261110012038"
+          },
+          {
+            "title": "FBI investigating Nvidia CEO over affair with alleged Chinese spy",
+            "link": "https://news.sky.com/story/fbi-to-investigate-nvidia-ceo-over-affair-with-alleged-chinese-spy-trump-says-13610382",
+            "published": "Tue, 10 Nov 2026 02:06:00 +0000",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/11/1920x1080/skynews-jensen-huang-nvidia_7402606.jpg?20261110022343"
           },
           {
             "title": "France blames Iran for massive cyber attack on supermarket fridges",
@@ -920,24 +929,6 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/11/1920x1080/skynews-joe-biden-usa-democrats_7402177.jpg?20261109135025"
-          },
-          {
-            "title": "Seven dead and 114 injured in train crash near Cairo",
-            "link": "https://news.sky.com/story/four-dead-and-88-injured-in-train-crash-near-cairo-13609748",
-            "published": "Sun, 08 Nov 2026 14:55:00 +0000",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/11/1920x1080/skynews-egypt-train-derailed_7401023.jpg?20261108152839"
-          },
-          {
-            "title": "Trump 'only kidding' about offering UFC boss press secretary job",
-            "link": "https://news.sky.com/story/trump-asks-ufc-boss-dana-white-to-become-white-house-press-secretary-13609613",
-            "published": "Sun, 08 Nov 2026 04:27:00 +0000",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/11/1920x1080/skynews-dana-white-trump_7400674.jpg?20261108050154"
           }
         ],
         "POLITICS": [
@@ -1025,6 +1016,15 @@
         ],
         "BUSINESS": [
           {
+            "title": "FBI investigating Nvidia CEO over affair with alleged Chinese spy",
+            "link": "https://news.sky.com/story/fbi-to-investigate-nvidia-ceo-over-affair-with-alleged-chinese-spy-trump-says-13610382",
+            "published": "Tue, 10 Nov 2026 02:06:00 +0000",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/11/1920x1080/skynews-jensen-huang-nvidia_7402606.jpg?20261110022343"
+          },
+          {
             "title": "Retail sector charity refuses to back Poundland owner's boss",
             "link": "https://news.sky.com/story/retail-sector-charity-refuses-to-back-poundland-owners-boss-13610268",
             "published": "Mon, 09 Nov 2026 15:31:00 +0000",
@@ -1104,18 +1104,18 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/11/1920x1080/skynews-poundland-high-street_7399760.jpg?20261107102851"
-          },
-          {
-            "title": "Shocking attacks, overtime and overwhelming pressure: Reality of being a prison officer",
-            "link": "https://news.sky.com/story/shocking-attacks-overtime-and-overwhelming-pressure-reality-of-being-a-prison-officer-13610153",
-            "published": "Mon, 09 Nov 2026 11:40:00 +0000",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/11/1920x1080/skynews-prison-prisons-prison-guard_7402064.jpg?20261109120239"
           }
         ],
         "TECH": [
+          {
+            "title": "FBI investigating Nvidia CEO over affair with alleged Chinese spy",
+            "link": "https://news.sky.com/story/fbi-to-investigate-nvidia-ceo-over-affair-with-alleged-chinese-spy-trump-says-13610382",
+            "published": "Tue, 10 Nov 2026 02:06:00 +0000",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/11/1920x1080/skynews-jensen-huang-nvidia_7402606.jpg?20261110022343"
+          },
           {
             "title": "AI giant Nvidia launches investigation into CEO's affair with 'Chinese spy'",
             "link": "https://news.sky.com/story/tech-giant-nvidia-launches-investigation-after-reports-ceo-was-targeted-by-chinese-intelligence-13609986",
@@ -1196,15 +1196,6 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/11/1920x1080/skynews-teenage-girls-anonymous_7397116.jpg?20261104164626"
-          },
-          {
-            "title": "MPs urge online retailers to stop selling AI toys over child harm fears",
-            "link": "https://news.sky.com/story/ai-toys-should-be-banned-over-child-harm-fears-say-mps-as-they-urge-retailers-to-remove-them-13607511",
-            "published": "Tue, 03 Nov 2026 15:10:00 +0000",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/11/1920x1080/skynews-ebay-amazon_7395979.jpg?20261103170724"
           }
         ],
         "ENTERTAINMENT": [
@@ -1298,7 +1289,7 @@
         },
         "WORLD": {
           "ok": true,
-          "count": 10
+          "count": 9
         },
         "POLITICS": {
           "ok": true,
@@ -1321,6 +1312,15 @@
     "GUARDIAN": {
       "categories": {
         "UK": [
+          {
+            "title": "Headteachers consider leaving jobs earlier than planned after new Ofsted inspection",
+            "link": "https://www.theguardian.com/education/2026/nov/10/headteachers-consider-leaving-job-earlier-than-planned-new-ofsted-inspection",
+            "published": "Tue, 10 Nov 2026 00:01:22 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Ofsted Teacher Network Education Teaching UK news England Department for Education Teachers' workload Schools",
+            "image": "https://i.guim.co.uk/img/media/b31390076cd9ca56e6c7bd7a7d912bc359cff31f/507_0_2607_2086/master/2607.jpg?width=140&quality=85&auto=format&fit=max&s=900dc22e11a8bcca34c36c6dcec51b76"
+          },
           {
             "title": "Tommy Walsh, co-presenter of BBC’s Ground Force, dies aged 69",
             "link": "https://www.theguardian.com/uk-news/2026/nov/09/tommy-walsh-co-presenter-of-bbcs-ground-force-dies-aged-69",
@@ -1392,15 +1392,6 @@
             "provider": "GUARDIAN",
             "categories": "Crime Reform UK UK news Local politics Race Local government Politics",
             "image": "https://i.guim.co.uk/img/media/b83a9e6402644b197306eafccf7b72449bff0217/0_0_2145_1716/master/2145.jpg?width=140&quality=85&auto=format&fit=max&s=6d52a461d74bb67e72782258b110a141"
-          },
-          {
-            "title": "Burnham warns that NHS will ‘struggle’ to cope if consultants don’t resume talks over pay – as it happened",
-            "link": "https://www.theguardian.com/politics/live/2026/nov/09/polanski-greens-labour-andy-burnham-climate-crisis-ev-targets-uk-politics-latest-news",
-            "published": "Mon, 09 Nov 2026 17:31:36 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Politics UK news Labour Electric, hybrid and low-emission cars Environment Andy Burnham Zack Polanski Green party Opinion polls Rupert Lowe Russell Brand Scotland Scottish politics John Swinney Remembrance Day Conservatives Reform UK Liberal Democrats Health NHS Norway",
-            "image": "https://i.guim.co.uk/img/media/e661b9f921ffdd777b231a9de99cca1b4f9bee1e/1889_309_5046_4036/master/5046.jpg?width=140&quality=85&auto=format&fit=max&s=18bfdf610be38d2b39b7053f7307d843"
           },
           {
             "title": "Labour’s Brexit red lines ready for ‘dignified retirement’, says their co-author",
@@ -1639,49 +1630,49 @@
             "image": "https://i.guim.co.uk/img/media/133fcf307a659f484d60938a125776efe501ba4e/407_0_3025_2422/master/3025.jpg?width=140&quality=85&auto=format&fit=max&s=89a44d686b06b49ef9bf9404d834f126"
           },
           {
-            "title": "High fossil fuel prices spread inflation ‘like a cancer’, UN climate chief tells Cop31",
-            "link": "https://www.theguardian.com/environment/2026/nov/09/high-fossil-fuel-prices-spread-inflation-like-cancer-cop31egotiator-tells-cop31",
-            "published": "Mon, 09 Nov 2026 17:47:04 GMT",
+            "title": "Beau Lamarre-Condon denies stalking Jesse Baird as double murder trial continues",
+            "link": "https://www.theguardian.com/australia-news/2026/nov/10/beau-lamarre-condon-murder-trial-ntwnfb",
+            "published": "Tue, 10 Nov 2026 03:07:17 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Cop31 Turkey World news Fossil fuels Climate crisis Environment Europe United Nations Australia news Energy Renewable energy",
-            "image": "https://i.guim.co.uk/img/media/3697c15560867e293649ef23a87293050bdc770d/911_0_4561_3648/master/4561.jpg?width=140&quality=85&auto=format&fit=max&s=646da91bc8b73ea8981eb9cb6f67197d"
+            "categories": "Sydney New South Wales Australia news",
+            "image": "https://i.guim.co.uk/img/media/69a781da23f48b2cde91996a93de7520bc4ee220/202_458_2489_1992/master/2489.jpg?width=140&quality=85&auto=format&fit=max&s=244895ce0fcf3d33c7803d343519e647"
           },
           {
-            "title": "‘Exceedingly heavy-handed’: ACT police criticised by magistrate for Tasering disabled Aboriginal woman",
-            "link": "https://www.theguardian.com/australia-news/2026/nov/10/exceedingly-heavy-handed-act-police-officers-criticised-by-magistrate-for-taser-arrest-of-disabled-aboriginal-woman-ntwnfb",
-            "published": "Mon, 09 Nov 2026 14:00:13 GMT",
+            "title": "Australia to introduce mandatory reporting after OpenAI hack to combat artificial intelligence ‘going rogue’",
+            "link": "https://www.theguardian.com/technology/2026/nov/10/australia-manadatory-reporting-openai-medicare-hack",
+            "published": "Tue, 10 Nov 2026 02:31:08 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Australian police and policing Australian Capital Territory (ACT) Indigenous Australians Australia news Canberra Taser electronic weapons",
-            "image": "https://i.guim.co.uk/img/media/6fce0b552bf50c7ce2b6e690c11bf5a8594062c1/688_0_6880_5504/master/6880.jpg?width=140&quality=85&auto=format&fit=max&s=c68c0d760461d3d41763486755d78553"
+            "categories": "AI (artificial intelligence) Australia news Australian politics Anthony Albanese Technology",
+            "image": "https://i.guim.co.uk/img/media/dffa89dc77a6bbaad44df383335bad241ee8e4ac/250_0_2500_2000/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=8860562d2849d1681cc78614e56d9f4f"
           },
           {
-            "title": "‘Settle down’ and ‘do your own swabs’: how alleged rape victims are treated in Queensland revealed in major report",
-            "link": "https://www.theguardian.com/australia-news/2026/nov/10/settle-down-do-your-own-swabs-how-alleged-victims-are-treated-in-queensland-revealed-in-major-report",
-            "published": "Mon, 09 Nov 2026 14:00:12 GMT",
+            "title": "Todd Russell, Beaconsfield mine collapse survivor, dies aged 54 due to illness",
+            "link": "https://www.theguardian.com/australia-news/2026/nov/10/todd-russell-dies-beaconsfield-mine-collapse-survivor-death-illness-aged-54",
+            "published": "Tue, 10 Nov 2026 02:17:30 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Queensland Australian police and policing Rape and sexual assault Crime - Australia Australia news",
-            "image": "https://i.guim.co.uk/img/media/c97abbd2d42262f1d2aaa94eb91adc07a4fe6a8c/0_0_2500_2000/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=ec90b16bbf4f249e5f334cc8af3f33e1"
+            "categories": "Tasmania Australia news Mining",
+            "image": "https://i.guim.co.uk/img/media/9b143c92c9a4ed57fdb4fed5bd631a8251922862/0_0_2257_1806/master/2257.jpg?width=140&quality=85&auto=format&fit=max&s=ee792f71608cbef7e8f8257b3b1cd16a"
           },
           {
-            "title": "There’s more than a whiff of politics to the sudden call to slash Labor’s green energy subsidies",
-            "link": "https://www.theguardian.com/business/2026/nov/10/labor-cuts-green-energy-subsidies-inflation",
-            "published": "Mon, 09 Nov 2026 14:00:12 GMT",
+            "title": "Qantas to cut 850 Australian jobs and outsource work to India under AI-driven overhaul",
+            "link": "https://www.theguardian.com/business/2026/nov/10/qantas-850-job-cuts-outsource-work-to-india-ai-overhaul",
+            "published": "Tue, 10 Nov 2026 01:34:47 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Australian economy Australian politics Jim Chalmers Energy Australia news Electric vehicles Coalition Aukus Renewable energy Business Labor party",
-            "image": "https://i.guim.co.uk/img/media/2207fcae915df5cc9e38bf70a33ab75e699b4030/752_0_3556_2845/master/3556.jpg?width=140&quality=85&auto=format&fit=max&s=4be5c515e0015f63bfc7f3347b7fbc74"
+            "categories": "Qantas Business Australia news Australian trade unions Industrial relations AI (artificial intelligence) Accenture Airline industry",
+            "image": "https://i.guim.co.uk/img/media/495089a2ea3363d20bc4baf998d27df79ec59b7c/688_0_6880_5504/master/6880.jpg?width=140&quality=85&auto=format&fit=max&s=db4988bce91ca2639e69700b72cf3372"
           },
           {
-            "title": "Stop undermining Jim Chalmers, environment minister urges Labor colleagues",
-            "link": "https://www.theguardian.com/uk-news/2026/nov/09/stop-undermining-treasurer-jim-chalmers-environment-minister-urges-colleagues",
-            "published": "Mon, 09 Nov 2026 05:47:49 GMT",
+            "title": "Teenager who planned terror attack in Sydney tells court he was radicalised online and used AI to strategise",
+            "link": "https://www.theguardian.com/australia-news/2026/nov/10/teen-planned-sydney-terror-attack-using-chatgpt-radicalised-tiktok-ntwnfb",
+            "published": "Tue, 10 Nov 2026 01:09:19 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Labor party Jim Chalmers Anthony Albanese Australian politics Australia news Environment Coalition Australian economy Electric vehicles",
-            "image": "https://i.guim.co.uk/img/media/0a251c36d8f4f67e296c116d611465daf42788cd/212_0_5048_4038/master/5048.jpg?width=140&quality=85&auto=format&fit=max&s=b1558db5c26a0a43c35a7d026786850e"
+            "categories": "Australian security and counter-terrorism Sydney TikTok ChatGPT Australia news New South Wales Sydney Opera House Telegram YouTube Social media Islam AI (artificial intelligence)",
+            "image": "https://i.guim.co.uk/img/media/560f38c53c59131a19338207e679804b1d3aa8c0/956_0_4778_3823/master/4778.jpg?width=140&quality=85&auto=format&fit=max&s=6bb733238b659a7a62996dc188ee38ae"
           }
         ],
         "POLITICS": [
@@ -2030,13 +2021,13 @@
             "image": "https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2014/8/11/1407775970091/35614646-3560-440e-99c3-7e064e53eac8-2060x1236.jpeg?width=140&quality=85&auto=format&fit=max&s=7f5a95db55fecaf83cb9d468ccb2fa7e"
           },
           {
-            "title": "The survival of American democracy depends on taxing billionaires",
-            "link": "https://www.theguardian.com/us-news/2026/oct/27/democracy-tax-billionaires",
-            "published": "Tue, 27 Oct 2026 11:00:36 GMT",
+            "title": "California voters fail to pass proposed one-time tax on billionaires’ wealth",
+            "link": "https://www.theguardian.com/us-news/2026/nov/09/california-tax-billionaires-prop-40",
+            "published": "Tue, 10 Nov 2026 02:54:54 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "US taxation US midterm elections 2026 US economy Business US income inequality Technology California US news US politics",
-            "image": "https://i.guim.co.uk/img/media/e1ee2d6c7a916abffe9d76333c0444ad7d911a84/468_0_4680_3744/master/4680.jpg?width=140&quality=85&auto=format&fit=max&s=18d4392528abca946502e7ecb2ea1d32"
+            "categories": "California US midterm elections 2026 Silicon Valley US news West Coast The super-rich US taxation US income inequality Sergey Brin World news",
+            "image": "https://i.guim.co.uk/img/media/026aa3fdbb690df527b92e025e1f71eeafb7876b/667_0_3333_2668/master/3333.jpg?width=140&quality=85&auto=format&fit=max&s=962fb4fb032105acbfe9d9031d8ba874"
           },
           {
             "title": "‘I ain’t goin nowhere’: Gullah Geechee people fight off developers with a historic referendum",
@@ -2052,7 +2043,7 @@
           {
             "title": "Silicon Valley and Trump rally behind Nvidia CEO after his affair with alleged Chinese spy",
             "link": "https://www.theguardian.com/technology/2026/nov/09/nvidia-jensen-huang-affair-trump-musk",
-            "published": "Mon, 09 Nov 2026 18:58:37 GMT",
+            "published": "Mon, 09 Nov 2026 23:30:37 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
             "categories": "Nvidia Technology Donald Trump Elon Musk US news AI (artificial intelligence) Silicon Valley World news Computing Jensen Huang",
@@ -2113,40 +2104,40 @@
             "image": "https://i.guim.co.uk/img/media/82c6e92cb6cbcabc717462a79d11fbaac898da2c/0_0_5906_4724/master/5906.jpg?width=140&quality=85&auto=format&fit=max&s=94570b4f9d7eac5982f2eba6f0827561"
           },
           {
-            "title": "The AI poster boy, the ‘Chinese spy’ and Trump: how an affair may have harmed US security",
-            "link": "https://www.theguardian.com/technology/2026/nov/09/nvidia-affair-huang-trump-national-security",
-            "published": "Mon, 09 Nov 2026 20:01:05 GMT",
+            "title": "Australia to introduce mandatory reporting after OpenAI hack to combat artificial intelligence ‘going rogue’",
+            "link": "https://www.theguardian.com/technology/2026/nov/10/australia-manadatory-reporting-openai-medicare-hack",
+            "published": "Tue, 10 Nov 2026 02:31:08 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Jensen Huang Nvidia China Espionage Donald Trump US news World news Technology AI (artificial intelligence) Technology sector Trump administration",
-            "image": "https://i.guim.co.uk/img/media/b4b824c7d10e7e9cf32fc762d69d763186eb0815/898_0_2126_1701/master/2126.jpg?width=140&quality=85&auto=format&fit=max&s=a719322d934a458d16dd90c7e5930f84"
+            "categories": "AI (artificial intelligence) Australia news Australian politics Anthony Albanese Technology",
+            "image": "https://i.guim.co.uk/img/media/dffa89dc77a6bbaad44df383335bad241ee8e4ac/250_0_2500_2000/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=8860562d2849d1681cc78614e56d9f4f"
           },
           {
-            "title": "Nvidia opens investigation after report CEO Jensen Huang was target of foreign intelligence",
-            "link": "https://www.theguardian.com/us-news/2026/nov/08/nvidia-jensen-huang-investigation",
-            "published": "Mon, 09 Nov 2026 00:25:28 GMT",
+            "title": "Trump backs embattled Hegseth and Jensen Huang and says FBI looking into spy allegations – video",
+            "link": "https://www.theguardian.com/us-news/video/2026/nov/09/trump-hegseth-jensen-huang",
+            "published": "Tue, 10 Nov 2026 01:40:32 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "US news Nvidia China Technology AI (artificial intelligence) Asia Pacific World news Donald Trump Trump administration Jensen Huang",
-            "image": "https://i.guim.co.uk/img/media/3fc6a5d68684a58fece0294bce9094ed76072ecd/2488_14_5430_4347/master/5430.jpg?width=140&quality=85&auto=format&fit=max&s=57b1a4b39c9e4d81da1942f21f2da458"
+            "categories": "Donald Trump Nvidia Jensen Huang Pete Hegseth AI (artificial intelligence) Technology sector Computing Iran US news",
+            "image": "https://i.guim.co.uk/img/media/ab7c6bd313bc788fbe0af23bacc93090ccecb010/243_0_3462_2770/master/3462.jpg?width=140&quality=85&auto=format&fit=max&s=668b175a7489b52523c15ede5808920e"
           },
           {
-            "title": "Weakening AI copyright law will spell ‘disaster for creativity’, global music body warns Albanese",
-            "link": "https://www.theguardian.com/technology/2026/nov/09/weakening-ai-copyright-law-will-spell-disaster-for-creativity-australia",
-            "published": "Sun, 08 Nov 2026 14:00:43 GMT",
+            "title": "Qantas to cut 850 Australian jobs and outsource work to India under AI-driven overhaul",
+            "link": "https://www.theguardian.com/business/2026/nov/10/qantas-850-job-cuts-outsource-work-to-india-ai-overhaul",
+            "published": "Tue, 10 Nov 2026 01:34:47 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "AI (artificial intelligence) Australia news Technology Music industry",
-            "image": "https://i.guim.co.uk/img/media/a9d776b6ee27daeda7be27a2ffc273f39b966850/200_0_6000_4800/master/6000.jpg?width=140&quality=85&auto=format&fit=max&s=d7cfb9e02bdb165293c91e886fccd4f9"
+            "categories": "Qantas Business Australia news Australian trade unions Industrial relations AI (artificial intelligence) Accenture Airline industry",
+            "image": "https://i.guim.co.uk/img/media/495089a2ea3363d20bc4baf998d27df79ec59b7c/688_0_6880_5504/master/6880.jpg?width=140&quality=85&auto=format&fit=max&s=db4988bce91ca2639e69700b72cf3372"
           },
           {
-            "title": "FAA announces first US digital air traffic control towers in Florida and Alaska",
-            "link": "https://www.theguardian.com/us-news/2026/nov/07/faa-digital-air-traffic-control-tower-technology",
-            "published": "Sat, 07 Nov 2026 20:03:23 GMT",
+            "title": "Teenager who planned terror attack in Sydney tells court he was radicalised online and used AI to strategise",
+            "link": "https://www.theguardian.com/australia-news/2026/nov/10/teen-planned-sydney-terror-attack-using-chatgpt-radicalised-tiktok-ntwnfb",
+            "published": "Tue, 10 Nov 2026 01:09:19 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Trump administration Air transport AI (artificial intelligence) Technology US news",
-            "image": "https://i.guim.co.uk/img/media/e713b6ce0cb3abec030579736ea07b0d1821a0da/334_0_3338_2670/master/3338.jpg?width=140&quality=85&auto=format&fit=max&s=0dec4bcc78b00a8ba4fada6d106eee57"
+            "categories": "Australian security and counter-terrorism Sydney TikTok ChatGPT Australia news New South Wales Sydney Opera House Telegram YouTube Social media Islam AI (artificial intelligence)",
+            "image": "https://i.guim.co.uk/img/media/560f38c53c59131a19338207e679804b1d3aa8c0/956_0_4778_3823/master/4778.jpg?width=140&quality=85&auto=format&fit=max&s=6bb733238b659a7a62996dc188ee38ae"
           },
           {
             "title": "Parents and teachers decry Google pledge to yank Search if schools block AI: ‘This threat is nothing but extortion’",
@@ -2707,6 +2698,15 @@
             "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_319279298-50fd.jpg?quality=90&strip=all&w=646"
           },
           {
+            "title": "Jodie ‘confirmed dead’ in Coronation Street as gruesome discovery is made",
+            "link": "https://metro.co.uk/2026/11/09/jodie-confirmed-dead-coronation-street-gruesome-discovery-made-29770196/",
+            "published": "Mon, 09 Nov 2026 23:59:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Coronation Street Soaps Bethany Platt David Platt Jack P. Shepherd Jodie Ramsey Julia Goulding Lucy Fallon Olivia Frances-Brown Shona Platt",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_319644753-6aad.jpg?quality=90&strip=all&w=646"
+          },
+          {
             "title": "What is impeachment after top Republican takes step to force out Pete Hegseth",
             "link": "https://metro.co.uk/2026/11/09/impeachment-top-republican-takes-step-force-pete-hegseth-29779035/",
             "published": "Mon, 09 Nov 2026 20:40:56 +0000",
@@ -2723,15 +2723,6 @@
             "provider": "METRO",
             "categories": "Lifestyle Travel Crete Europe Travel Greece Travel Inspiration",
             "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_320072181-6200.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "GTA 6 datamine suggests new PS5 Pro support and cut content in Australia",
-            "link": "https://metro.co.uk/2026/11/09/gta-6-datamine-suggests-new-ps5-pro-support-cut-content-australia-29778181/",
-            "published": "Mon, 09 Nov 2026 16:06:07 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Entertainment Gaming Games news GTA 6 PlayStation 5 Rockstar Games Xbox Series X",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_320081937-544b.jpg?quality=90&strip=all&w=646"
           }
         ],
         "POLITICS": [
@@ -3019,6 +3010,24 @@
         ],
         "TECH": [
           {
+            "title": "Games Inbox: What should the first GTA 6 spin-off be?",
+            "link": "https://metro.co.uk/2026/11/10/games-inbox-first-gta-6-spin-off-29779154/",
+            "published": "Tue, 10 Nov 2026 01:00:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment Gaming DC Comics Games Inbox GTA 5 GTA 6 Resident Evil Rockstar Games The Legend of Zelda Warner Bros.",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_314563110-4ea5.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Daily horoscope November 10, 2026: Today’s predictions for your star sign",
+            "link": "https://metro.co.uk/2026/11/10/daily-horoscope-november-10-2026-predictions-star-sign-29778951/",
+            "published": "Tue, 10 Nov 2026 00:01:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Horoscopes Lifestyle Aquarius Aries Astrology Cancer (star sign) Capricorn Gemini Leo Libra Pisces Sagittarius Scorpio Taurus Virgo",
+            "image": "https://metro.co.uk/wp-content/uploads/2023/04/new-horoscope-2023-02-a5db.gif?w=646"
+          },
+          {
             "title": "New PS Portal model has expanded storage but Sony won’t say why",
             "link": "https://metro.co.uk/2026/11/09/new-ps-portal-model-expanded-storage-sony-wont-say-29778492/",
             "published": "Mon, 09 Nov 2026 17:30:43 +0000",
@@ -3026,15 +3035,6 @@
             "provider": "METRO",
             "categories": "Entertainment Gaming Games news Japan PlayStation 5 PlayStation 6 Sony",
             "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_320087778-6b3d.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "GTA 6 datamine suggests new PS5 Pro support and cut content in Australia",
-            "link": "https://metro.co.uk/2026/11/09/gta-6-datamine-suggests-new-ps5-pro-support-cut-content-australia-29778181/",
-            "published": "Mon, 09 Nov 2026 16:06:07 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Entertainment Gaming Games news GTA 6 PlayStation 5 Rockstar Games Xbox Series X",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_320081937-544b.jpg?quality=90&strip=all&w=646"
           }
         ],
         "ENTERTAINMENT": [
@@ -3174,31 +3174,49 @@
             "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_319604957-de24.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "If Samson is coming back revealed and Cain pays as Emmerdale spoilers confirm what happens next",
-            "link": "https://metro.co.uk/2026/11/09/samson-coming-back-cain-pays-emmerdale-spoilers-confirm-happens-next-29776768/",
-            "published": "Mon, 09 Nov 2026 19:45:00 +0000",
+            "title": "Shock explosion at Underworld rocks Coronation Street",
+            "link": "https://metro.co.uk/2026/11/09/shock-explosion-underworld-rocks-coronation-street-29770680/",
+            "published": "Mon, 09 Nov 2026 23:59:00 +0000",
             "source": "Metro",
             "provider": "METRO",
-            "categories": "Emmerdale Soaps Cain Dingle James Hooton Jeff Hordley Sam Dingle Sam Hall Samson Dingle",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_320066827-dcda.jpg?quality=90&strip=all&w=646"
+            "categories": "Coronation Street Soaps Alison King Carla Connor-Swain Idris Nazir Junade Khan",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_319639430-2c94.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "The truth about ‘dead’ Mick after Linda and Janine shocker as EastEnders spoilers reveal what happens next",
-            "link": "https://metro.co.uk/2026/11/09/truth-dead-mick-amid-linda-janine-shocker-eastenders-spoilers-reveal-next-29776403/",
-            "published": "Mon, 09 Nov 2026 18:05:00 +0000",
+            "title": "Groomer Abigail exposed in Hollyoaks – but it’s too late to save snatched Dee Dee",
+            "link": "https://metro.co.uk/2026/11/09/groomer-abigail-exposed-hollyoaks-late-save-snatched-dee-dee-29777371/",
+            "published": "Mon, 09 Nov 2026 23:59:00 +0000",
             "source": "Metro",
             "provider": "METRO",
-            "categories": "EastEnders Soaps Charlie Brooks Danny Dyer Janine Butcher Kellie Bright Linda Carter Mick Carter",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_320056797-060e.jpg?quality=90&strip=all&w=646"
+            "categories": "Hollyoaks Soaps Brooke Vincent Tony Hutchinson",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_320071559-8120.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "What happened to Mick Carter in EastEnders and is he dead?",
-            "link": "https://metro.co.uk/2026/11/09/happened-mick-carter-eastenders-dead-29776184/",
-            "published": "Mon, 09 Nov 2026 17:00:00 +0000",
+            "title": "Ste and Imran’s fates revealed in Hollyoaks as climactic showdown explodes",
+            "link": "https://metro.co.uk/2026/11/09/ste-imrans-fates-revealed-hollyoaks-climactic-showdown-explodes-29777532/",
+            "published": "Mon, 09 Nov 2026 23:59:00 +0000",
             "source": "Metro",
             "provider": "METRO",
-            "categories": "EastEnders Soaps Danny Dyer Mick Carter",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_232694392-cc6e.jpg?quality=90&strip=all&w=646"
+            "categories": "Hollyoaks Soaps Kieron Richardson Ste Hay",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_320073442-b8bd.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Nancy’s EastEnders exit revealed and it’s a terrible outcome for Lee",
+            "link": "https://metro.co.uk/2026/11/09/nancys-eastenders-exit-revealed-a-terrible-outcome-lee-29777696/",
+            "published": "Mon, 09 Nov 2026 23:59:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "EastEnders Soaps Danny Hatchard Kellie Bright Lee Carter Linda Carter Maddy Hill Nancy Carter",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_318274365-06ba.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Emmerdale’s Caleb feels utterly sick as he is caught kissing Sadie",
+            "link": "https://metro.co.uk/2026/11/09/emmerdales-caleb-feels-utterly-sick-caught-kissing-sadie-29776705/",
+            "published": "Mon, 09 Nov 2026 23:59:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Emmerdale Soaps Beth Cordingly Caleb Miligan Patsy Kensit Ruby Miligan Sadie King William Ash",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_319521743-49bd.jpg?quality=90&strip=all&w=646"
           }
         ]
       },
@@ -3221,11 +3239,11 @@
         },
         "TECH": {
           "ok": true,
-          "count": 2
+          "count": 3
         },
         "ENTERTAINMENT": {
           "ok": true,
-          "count": 18
+          "count": 20
         }
       }
     },
@@ -3338,6 +3356,78 @@
         "STOCK_MARKET": [],
         "STOCKS": [
           {
+            "title": "Monolithic Power Systems and Photronics shares skyrocket, what you need to know",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/monolithic-power-systems-photronics-shares-030936110.html?.tsrc=rss",
+            "published": "Tue, 10 Nov 2026 03:09:36 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "Allegro MicroSystems, IPG Photonics, Lattice Semiconductor, Entegris, and Broadcom shares skyrocket, what you need to know",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/allegro-microsystems-ipg-photonics-lattice-030136618.html?.tsrc=rss",
+            "published": "Tue, 10 Nov 2026 03:01:36 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "Tech leads Asian stock rally as traders track Wall St rebound",
+            "link": "https://uk.finance.yahoo.com/news/tech-leads-asian-stock-rally-023930603.html?.tsrc=rss",
+            "published": "Tue, 10 Nov 2026 02:39:30 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "U.S. stock futures steady after tech-led rebound; CPI in focus",
+            "link": "https://finance.yahoo.com/news/u-stock-futures-steady-tech-004342905.html?.tsrc=rss",
+            "published": "Tue, 10 Nov 2026 00:43:42 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "Nvidia is about 6% of the S&P 500. If Jensen Huang is ousted, there’s no clear successor — could chaos hit portfolios?",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-6-p-500-jensen-230000817.html?.tsrc=rss",
+            "published": "Mon, 09 Nov 2026 23:00:00 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "Nvidia stock falls after investigation into CEO, bucking market rally",
+            "link": "https://www.cnn.com/2026/11/09/investing/nvidia-stock-huang-investigation?.tsrc=rss",
+            "published": "Mon, 09 Nov 2026 22:35:30 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2303827031.jpg?c=16x9&q=w_800,c_fill"
+          },
+          {
+            "title": "BC-Select Stock Indices",
+            "link": "https://finance.yahoo.com/markets/world-indices/articles/bc-select-stock-indices-223013442.html?.tsrc=rss",
+            "published": "Mon, 09 Nov 2026 22:30:13 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "Dollar General (DG) Increases Yet Falls Behind Market: What Investors Need to Know",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/dollar-general-dg-increases-yet-221501917.html?.tsrc=rss",
+            "published": "Mon, 09 Nov 2026 22:15:01 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
             "title": "Earnings live updates: 'Grand Theft Auto VI' preorders hit 'unprecedented levels,' Take-Two CEO says",
             "link": "https://finance.yahoo.com/markets/live/earnings-live-updates-november-9-2026-take-two-coreweave-220550675.html?.tsrc=rss",
             "published": "Mon, 09 Nov 2026 22:05:50 +0000",
@@ -3347,99 +3437,27 @@
             "image": ""
           },
           {
-            "title": "Stock Market Today: Dow Jumps, These Stocks Test Entries; Warren Buffett Play Clears Buy Zone",
-            "link": "https://uk.finance.yahoo.com/m/6fc3228f-8806-33c0-9e3b-4402850ebacd/stock-market-today%3A-dow.html?.tsrc=rss",
-            "published": "Mon, 09 Nov 2026 21:41:06 +0000",
+            "title": "MINISO Group Holding Limited Unsponsored ADR (MNSO) Stock Sinks As Market Gains: Here's Why",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/miniso-group-holding-limited-unsponsored-215001787.html?.tsrc=rss",
+            "published": "Mon, 09 Nov 2026 21:50:01 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
             "image": ""
           },
           {
-            "title": "Investors Title Company Board Declares Special Cash Dividend and Regular Quarterly Cash Dividend",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/investors-title-company-board-declares-213500240.html?.tsrc=rss",
-            "published": "Mon, 09 Nov 2026 21:35:00 +0000",
+            "title": "C3.ai, Inc. (AI) Beats Stock Market Upswing: What Investors Need to Know",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/c3-ai-inc-ai-beats-215001090.html?.tsrc=rss",
+            "published": "Mon, 09 Nov 2026 21:50:01 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
             "image": ""
           },
           {
-            "title": "Nvidia plunges but tech shares rebound, oil prices slump",
-            "link": "https://uk.finance.yahoo.com/news/tech-firms-claw-back-losses-025428597.html?.tsrc=rss",
-            "published": "Mon, 09 Nov 2026 21:24:06 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "How major US stock indexes fared Monday 11/9/2026",
-            "link": "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-212258454.html?.tsrc=rss",
-            "published": "Mon, 09 Nov 2026 21:22:58 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "Nvidia stock falls after investigation into CEO, bucking market rally",
-            "link": "https://www.cnn.com/2026/11/09/investing/nvidia-stock-huang-investigation?.tsrc=rss",
-            "published": "Mon, 09 Nov 2026 21:12:11 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2303827031.jpg?c=16x9&q=w_800,c_fill"
-          },
-          {
-            "title": "Stock Market's Best Day in Months Was Also Its Most Unpredictable",
-            "link": "https://uk.finance.yahoo.com/m/1558adb4-5f76-3eca-8829-a95baead2aea/stock-market%27s-best-day-in.html?.tsrc=rss",
-            "published": "Mon, 09 Nov 2026 21:02:20 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "ParaZero Receives Additional 180-Day Extension from Nasdaq to Regain Compliance with Minimum Bid Price Requirement",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/parazero-receives-additional-180-day-210200696.html?.tsrc=rss",
-            "published": "Mon, 09 Nov 2026 21:02:00 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "Ferguson Beats Earnings Estimates. Why the HVAC Supplier Is Optimistic as Business Headwinds Persist.",
-            "link": "https://uk.finance.yahoo.com/m/288302f8-f54a-36ee-9ce2-01494a0a8df3/ferguson-beats-earnings.html?.tsrc=rss",
-            "published": "Mon, 09 Nov 2026 19:27:00 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "5 Best All-Time High Stocks to Buy According to Wall Street",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/5-best-time-high-stocks-190458183.html?.tsrc=rss",
-            "published": "Mon, 09 Nov 2026 19:03:49 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "D-Wave and Rigetti Q3 Earnings Tomorrow: Buy the Dip or Stay Cautious?",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/d-wave-rigetti-q3-earnings-190000206.html?.tsrc=rss",
-            "published": "Mon, 09 Nov 2026 19:00:00 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "Citigroup sends major warning after $3 trillion stock wipeout",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/citigroup-sends-major-warning-3-185550287.html?.tsrc=rss",
-            "published": "Mon, 09 Nov 2026 18:55:50 +0000",
+            "title": "Morgan Stanley Adds to Its ‘Funnel’ With Vinyl Equity Acquisition",
+            "link": "https://uk.finance.yahoo.com/m/d85ef981-7143-34d0-b6f7-3cd589010038/morgan-stanley-adds-to-its.html?.tsrc=rss",
+            "published": "Mon, 09 Nov 2026 21:49:00 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
@@ -3599,6 +3617,24 @@
         ],
         "STOCKS": [
           {
+            "title": "Occidental beats profit estimates as higher oil prices offset output decline",
+            "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNS3d3eDJFNXE0T2pOMy1XYWt4VEF3NXdJVzNRQXZvWnZKeUU3Z21WNld4YS05dDhTX0tnSUhaRHVyY3dZaXBJdVlBazJMekE2ekRHVDB2SS16a0pPVFV3cVVQWmJ5cnI2QlBfQndnaDFuam1MVVpaZFdpMElYWWwzeFVINm1wQi1PdDRqaXFCYmprQVVPN09hTlVySThLS183RGVhdzRQdUQ?oc=5",
+            "published": "Mon, 09 Nov 2026 22:50:44 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "Lucid expands credit line from top investor by $1.75 billion amid turnaround",
+            "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOaFc4ZzVMTm8tbFBRX1g0ekd3Y25BV184VC1KWkJYem9SUFcwMzgwdzNkbHgySzNzTDBMcDBfN2tDclN2R0VDQ3A5SmZPa1h6MXJfN0RjOVhaVnVpdVdaUXpHNXdRcjVmZUphaGFDdTlHZkRHSWE4LXBLb3pKR0FPM19GbjB0QlJ3U3JKYVZIRllldXlSZUh4eTBDX0lSNm9pYVFqNEtaVXoyTVlJRm56UVVMLUtUaVNrOEZUeVE5VkV3ZHAwczBLNkhHU0pRaHEw?oc=5",
+            "published": "Mon, 09 Nov 2026 21:41:33 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
             "title": "Mapping the Market: Alphabet shares may be ready for a corrective rally",
             "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9vZGlZeXZzRUlyeHhERkg4UzlnbEFhMHBoZDlLaGN1aS05cWZ5MENHV2xGREkzWjdaMDhyR3JWQTYycjhqVVI3TFkxNldsakNGYUJLNjFobWVSUWpXdzItZ2w4TDFYMVZRMzJTQlNyUF90YkJKQ2FmVzVLdkc?oc=5",
             "published": "Mon, 09 Nov 2026 11:03:18 GMT",
@@ -3608,9 +3644,9 @@
             "image": ""
           },
           {
-            "title": "Indian shares consolidate in Diwali session after seven-day rally",
-            "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSURhQVo2bnpTNGJqSFRaSk5Tc1ZFcmxGcTU0MXNiVkR4b2tQekR0VXlhVktMZzYwMWdHUnpkWWdyM1lGTUowOXhLR19tMl9wd1BpS3J4MWpvNnJxaUpUSXg5M2pyTUtCaUFaRy16dTdKRDBGekI1czdXSGcwMjR4MnJDVGxLbDdPREdyMms4cFlpbTl6U3FxeHY5NXI4NHQ4VVR3VTQyT2cyU2wwa2Iw?oc=5",
-            "published": "Sun, 08 Nov 2026 10:43:43 GMT",
+            "title": "COMMENTARY: Middle East oil price war heralds post-conflict glut",
+            "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOWWdUbTZOMkxOdnRzOHBPdHRWSFBmNG1jZnFISWQ0MVFaWEc1MUlkTjRuNlhSQzdMQWQxaXQzYTBOTGtBd0NkYnRNTFNHaDlNZ0xwVU1JODVSMFdLZnREeGttWWlEdmE3ZnJwODdnMG5iQnJwRlZBbDZvOEU5UjczRC1UcGo5S0p4U01KZWMzcVBjNEdnWW42clRaR1U5QXpoMHh1bnE0T2phU1I1OEpUVFJJUHN2LThoMFd3WGJR?oc=5",
+            "published": "Mon, 09 Nov 2026 07:00:00 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3653,15 +3689,6 @@
             "image": ""
           },
           {
-            "title": "Markets fret over growth and inflation, just as tech rout gains speed",
-            "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxONUh4V2hzQnA1Rk9zNTN6d3ZxcVZycGZQVmNUNjR3NmpXSmphZHh4LWZvaGJmTTVEWDdBc0lNWmZyUUp3MTFndk5uZl80Qnk0QXotRmo5S1g0MVhDejlwMjJlczNLVWY1eHRLZ1c4dExyOUNqdjJPaUFhVnE2WC16QUc4aTVfUlAwQUtKMktZYi1STk94cXBnSXF5OEQ?oc=5",
-            "published": "Fri, 06 Nov 2026 05:09:00 GMT",
-            "source": "Reuters",
-            "provider": "REUTERS",
-            "categories": "",
-            "image": ""
-          },
-          {
             "title": "South Korea stocks plunge as US midterm results spark AI selloff",
             "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQUXFPZWJ0ekg2Mnl6b3ZEMDRpRzJON3M1b3FnWlpsbVZSSlpnMDR1YXJFWG0zMmROd0NybFRLWXdtcjdQWm1hckFsTE15d2FoY0hnMGZsMjctbnc1VjFCZ09uUWhDbVpGOUtmQmU4UEhLNmtINHZjbTA4cXZPSmpqTFM3TEptUUU4clROU0xCc3QtM3NNbThZOHMxU1lqU1I4Y3EzRnRnY1hqUFpwUTJWcWcxQWhJNVh2VER2dGtzZUxxSmJSeXc?oc=5",
             "published": "Fri, 06 Nov 2026 01:01:00 GMT",
@@ -3692,15 +3719,6 @@
             "title": "World shares advance as Democrats' victory eases political uncertainty",
             "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBWZWFDY2tZeDZfbXdVWnE2QWZwVlNpX3NqVm1OdmR0bDBGTlJjU3dJWG5yWEFpSG4tSHVhY2NEeVBsNnllVFQyb0tWRU1naXZQLWN3Tlk4VE1PV3o2cU1tVHFYX1hDT1ZtRkVWUWtYR3JwWFRyTXZIRldDWQ?oc=5",
             "published": "Wed, 04 Nov 2026 22:30:07 GMT",
-            "source": "Reuters",
-            "provider": "REUTERS",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "Apple shares slide as Ternus sounds alarm on memory costs",
-            "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOOWtrTGxXbDgwckNQWG4zLXc1eV9LUTdPZW1zbnlWYmdobHdXMm15MXNDNU8wdUVHLThfLWRxeHo3TnM4YnNvdEJmeHpEeVE2ekh2SWhKekx3RkJwNUhHWEh2OV8wRmdkWThzcHBKYTk4RGRLYXdaSTRfWFNCNnJaNWs1X3NHQmtuS004T3N3SGpXVWtmeVZkR0hUWTRoelhZS3AxSnNCdk9zWF9Da01LdmVLQVViaHRtdWx6dg?oc=5",
-            "published": "Tue, 03 Nov 2026 14:34:09 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3832,5 +3850,5 @@
       }
     }
   },
-  "stocksUpdated": "2026-11-09T22:30:06.843Z"
+  "stocksUpdated": "2026-11-10T03:25:55.699Z"
 }
