@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11T07:02:12.236Z",
+  "updated": "2026-11-11T15:03:55.011Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -36,13 +36,13 @@
         "title": "Bram Stoker's Dracula",
         "author": "Bram Stoker",
         "narrator": "Jonathan Bailey , Ella Purnell , Aimee Lou Wood , Louis Partridge , David Jonsson , Johnny Flynn , Lesley Manville , Maggie Gyllenhaal",
-        "image": "https://m.media-amazon.com/images/I/51nLhYS-rhL._SL500_.jpg"
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/03/85/a8/0385a8b0-667d-baed-8423-132574f5a40f/9781785752292.png/600x600bb.jpg"
       },
       {
         "title": "Carl's Doomsday Scenario",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://m.media-amazon.com/images/I/51e1PKKdv8L._SL500_.jpg"
+        "image": "https://covers.openlibrary.org/b/id/11702962-L.jpg"
       },
       {
         "title": "Her Stepmother's House",
@@ -54,13 +54,13 @@
         "title": "Sunrise on the Reaping (The Hunger Games)",
         "author": "Suzanne Collins",
         "narrator": "Jefferson White",
-        "image": "https://m.media-amazon.com/images/I/51aRJv+TnTL._SL500_.jpg"
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f0/5c/b6/f05cb68a-da4c-f986-ebf3-14af7fbaf690/9781546171492.png/600x600bb.jpg"
       },
       {
-        "title": "The Let Them Theory",
-        "author": "Mel Robbins",
-        "narrator": "Mel Robbins",
-        "image": "https://m.media-amazon.com/images/I/51YOr6ua-PL._SL500_.jpg"
+        "title": "The Single Father",
+        "author": "Jade Lee Wright",
+        "narrator": "Tamaryn Payne",
+        "image": "https://m.media-amazon.com/images/I/51lIA+wgzgL._SL500_.jpg"
       }
     ],
     "BOOKS": [
@@ -123,15 +123,15 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-11-11T07:02:12.237Z",
-      "lastSuccessfulRefresh": "2026-11-11T07:02:12.237Z",
+      "checkedAt": "2026-11-11T15:03:55.011Z",
+      "lastSuccessfulRefresh": "2026-11-11T15:03:55.011Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
-      "status": "stale",
-      "checkedAt": "2026-11-11T07:02:22.912Z",
-      "lastSuccessfulRefresh": "2026-11-10T19:38:21.629Z",
-      "reason": "503 https://www.audible.co.uk/charts/best"
+      "status": "healthy",
+      "checkedAt": "2026-11-11T15:04:05.884Z",
+      "lastSuccessfulRefresh": "2026-11-11T15:04:05.884Z",
+      "reason": ""
     }
   }
 }
