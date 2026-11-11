@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11T15:03:55.011Z",
+  "updated": "2026-11-11T19:42:37.823Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -24,7 +24,7 @@
         "title": "The Witch",
         "author": "Freida McFadden",
         "narrator": "Saskia Maarleveld , Marin Ireland",
-        "image": "https://m.media-amazon.com/images/I/41vExa8IbhL._SL500_.jpg"
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/21/e2/a3/21e2a31c-2e04-6d99-0af9-180a08fa96a2/9798349169328.jpg/600x600bb.jpg"
       },
       {
         "title": "Dungeon Crawler Carl",
@@ -65,6 +65,16 @@
     ],
     "BOOKS": [
       {
+        "title": "A Sprinkle in Time",
+        "author": "Dav Pilkey",
+        "image": "http://www.bibdsl.co.uk/bds-images/l/978070/9780702349300.jpg"
+      },
+      {
+        "title": "Gruffalo Granny",
+        "author": "",
+        "image": "https://storage.googleapis.com/lr-assets/main/covers/1780656267-9781035065516-324x400.jpg"
+      },
+      {
         "title": "A Court of Splintered Harmony",
         "author": "Sarah J. Maas",
         "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978103/9781037200076.jpg"
@@ -75,9 +85,9 @@
         "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978024/9780241745212.jpg"
       },
       {
-        "title": "Gruffalo Granny",
-        "author": "",
-        "image": "https://storage.googleapis.com/lr-assets/main/covers/1780656267-9781035065516-324x400.jpg"
+        "title": "Defy the Dusk",
+        "author": "Danielle L Jensen",
+        "image": "http://www.bibdsl.co.uk/bds-images/l/978152/9781529955217.jpg"
       },
       {
         "title": "Chain Reaction",
@@ -85,34 +95,24 @@
         "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978191/9781911754244.jpg"
       },
       {
+        "title": "Jane's Patisserie Christmas",
+        "author": "Jane Dunn",
+        "image": "https://storage.googleapis.com/lr-assets/_nielsen/200/9781788453677.jpg"
+      },
+      {
+        "title": "The World of Bunny Vs Monkey",
+        "author": "",
+        "image": "https://storage.googleapis.com/lr-assets/main/covers/1791798310-world-of-bunny-vs-monkey-hardback-front-cover-rgb-1-312x400.jpg"
+      },
+      {
         "title": "Lottie Brooks's Twelve Disasters of Christmas",
         "author": "",
-        "image": "https://storage.googleapis.com/lr-assets/_nielsen/200/9781788453912.jpg"
+        "image": "http://www.bibdsl.co.uk/bds-images/m/978180/9781806500222.jpg"
       },
       {
-        "title": "Bunny Vs Monkey: Day of the Heroes!",
-        "author": "",
-        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978178/9781788453912.jpg"
-      },
-      {
-        "title": "Is It Too Late to Make a Run for It?",
-        "author": "Judi Dench and 1 more",
-        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978024/9780241799536.jpg"
-      },
-      {
-        "title": "The Best Christmas Ever",
-        "author": "Sarah Morgan",
-        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978000/9780008744632.jpg"
-      },
-      {
-        "title": "The Correspondent",
-        "author": "Virginia Evans",
-        "image": "http://www.bibdsl.co.uk/bds-images/l/978024/9780241869895.jpg"
-      },
-      {
-        "title": "Threshing Day (Limited Deluxe Edition)",
-        "author": "Rebecca Yarros",
-        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978034/9780349450612.jpg"
+        "title": "Guinness World Records 2027",
+        "author": "Judi Dench",
+        "image": "http://www.bibdsl.co.uk/bds-images/l/978180/9781806500222.jpg"
       }
     ]
   },
@@ -123,14 +123,14 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-11-11T15:03:55.011Z",
-      "lastSuccessfulRefresh": "2026-11-11T15:03:55.011Z",
+      "checkedAt": "2026-11-11T19:42:37.824Z",
+      "lastSuccessfulRefresh": "2026-11-11T19:42:37.824Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-11-11T15:04:05.884Z",
-      "lastSuccessfulRefresh": "2026-11-11T15:04:05.884Z",
+      "checkedAt": "2026-11-11T19:42:51.593Z",
+      "lastSuccessfulRefresh": "2026-11-11T19:42:51.593Z",
       "reason": ""
     }
   }
