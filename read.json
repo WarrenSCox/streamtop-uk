@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T18:49:30.562Z",
+  "updated": "2026-11-12T20:04:51.754Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -54,7 +54,7 @@
         "title": "Sunrise on the Reaping (The Hunger Games)",
         "author": "Suzanne Collins",
         "narrator": "Jefferson White",
-        "image": "https://m.media-amazon.com/images/I/51aRJv+TnTL._SL500_.jpg"
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f0/5c/b6/f05cb68a-da4c-f986-ebf3-14af7fbaf690/9781546171492.png/600x600bb.jpg"
       },
       {
         "title": "The Single Father",
@@ -123,14 +123,14 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-11-12T18:49:30.562Z",
-      "lastSuccessfulRefresh": "2026-11-12T18:49:30.562Z",
+      "checkedAt": "2026-11-12T20:04:51.754Z",
+      "lastSuccessfulRefresh": "2026-11-12T20:04:51.754Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-11-12T18:49:42.636Z",
-      "lastSuccessfulRefresh": "2026-11-12T18:49:42.636Z",
+      "checkedAt": "2026-11-12T20:05:07.722Z",
+      "lastSuccessfulRefresh": "2026-11-12T20:05:07.722Z",
       "reason": ""
     }
   }
