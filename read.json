@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T06:55:04.584Z",
+  "updated": "2026-11-13T07:09:40.364Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -15,16 +15,16 @@
         "image": "https://m.media-amazon.com/images/I/51QMmltt5IL._SL500_.jpg"
       },
       {
-        "title": "A Court of Splintered Harmony",
-        "author": "Sarah J. Maas",
-        "narrator": "Elizabeth Evans",
-        "image": "https://covers.openlibrary.org/b/id/15273593-L.jpg"
-      },
-      {
         "title": "Drinking Custard",
         "author": "Lucy Beaumont",
         "narrator": "Lucy Beaumont , Jon Richardson",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/58/ad/67/58ad6781-af2a-e629-402b-d4c4ba5e40cf/9781913183769.jpg/600x600bb.jpg"
+        "image": "https://m.media-amazon.com/images/I/51gm-hkq1XL._SL500_.jpg"
+      },
+      {
+        "title": "A Court of Splintered Harmony",
+        "author": "Sarah J. Maas",
+        "narrator": "Elizabeth Evans",
+        "image": "https://m.media-amazon.com/images/I/51FBqskXJ2L._SL500_.jpg"
       },
       {
         "title": "Dungeon Crawler Carl",
@@ -54,13 +54,13 @@
         "title": "Sunrise on the Reaping (The Hunger Games)",
         "author": "Suzanne Collins",
         "narrator": "Jefferson White",
-        "image": "https://m.media-amazon.com/images/I/51aRJv+TnTL._SL500_.jpg"
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f0/5c/b6/f05cb68a-da4c-f986-ebf3-14af7fbaf690/9781546171492.png/600x600bb.jpg"
       },
       {
         "title": "The Dungeon Anarchist's Cookbook",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays , The Critical Drinker",
-        "image": "https://covers.openlibrary.org/b/id/15262048-L.jpg"
+        "image": "https://m.media-amazon.com/images/I/518nfG1FaYL._SL500_.jpg"
       }
     ],
     "BOOKS": [
@@ -123,15 +123,15 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-11-13T06:55:04.584Z",
-      "lastSuccessfulRefresh": "2026-11-13T06:55:04.584Z",
+      "checkedAt": "2026-11-13T07:09:40.365Z",
+      "lastSuccessfulRefresh": "2026-11-13T07:09:40.365Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
-      "status": "stale",
-      "checkedAt": "2026-11-13T06:55:16.123Z",
-      "lastSuccessfulRefresh": "2026-11-13T00:09:03.808Z",
-      "reason": "503 https://www.audible.co.uk/charts/best"
+      "status": "healthy",
+      "checkedAt": "2026-11-13T07:09:54.926Z",
+      "lastSuccessfulRefresh": "2026-11-13T07:09:54.926Z",
+      "reason": ""
     }
   }
 }
