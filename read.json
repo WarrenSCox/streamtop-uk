@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T20:04:51.754Z",
+  "updated": "2026-11-13T00:08:51.795Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -21,22 +21,28 @@
         "image": "https://covers.openlibrary.org/b/id/15273593-L.jpg"
       },
       {
+        "title": "Drinking Custard",
+        "author": "Lucy Beaumont",
+        "narrator": "Lucy Beaumont , Jon Richardson",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/58/ad/67/58ad6781-af2a-e629-402b-d4c4ba5e40cf/9781913183769.jpg/600x600bb.jpg"
+      },
+      {
         "title": "Dungeon Crawler Carl",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://covers.openlibrary.org/b/id/15143022-L.jpg"
+        "image": "https://m.media-amazon.com/images/I/51HIZdnqASL._SL500_.jpg"
       },
       {
         "title": "The Witch",
         "author": "Freida McFadden",
         "narrator": "Saskia Maarleveld , Marin Ireland",
-        "image": "https://m.media-amazon.com/images/I/41vExa8IbhL._SL500_.jpg"
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/21/e2/a3/21e2a31c-2e04-6d99-0af9-180a08fa96a2/9798349169328.jpg/600x600bb.jpg"
       },
       {
         "title": "Bram Stoker's Dracula",
         "author": "Bram Stoker",
         "narrator": "Jonathan Bailey , Ella Purnell , Aimee Lou Wood , Louis Partridge , David Jonsson , Johnny Flynn , Lesley Manville , Maggie Gyllenhaal",
-        "image": "https://m.media-amazon.com/images/I/51nLhYS-rhL._SL500_.jpg"
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/03/85/a8/0385a8b0-667d-baed-8423-132574f5a40f/9781785752292.png/600x600bb.jpg"
       },
       {
         "title": "Carl's Doomsday Scenario",
@@ -45,22 +51,16 @@
         "image": "https://covers.openlibrary.org/b/id/11702962-L.jpg"
       },
       {
-        "title": "Her Stepmother's House",
-        "author": "K. L. Slater",
-        "narrator": "Clare Corbett",
-        "image": "https://m.media-amazon.com/images/I/510J1VMd3QL._SL500_.jpg"
-      },
-      {
         "title": "Sunrise on the Reaping (The Hunger Games)",
         "author": "Suzanne Collins",
         "narrator": "Jefferson White",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f0/5c/b6/f05cb68a-da4c-f986-ebf3-14af7fbaf690/9781546171492.png/600x600bb.jpg"
+        "image": "https://m.media-amazon.com/images/I/51aRJv+TnTL._SL500_.jpg"
       },
       {
-        "title": "The Single Father",
-        "author": "Jade Lee Wright",
-        "narrator": "Tamaryn Payne",
-        "image": "https://m.media-amazon.com/images/I/51lIA+wgzgL._SL500_.jpg"
+        "title": "The Dungeon Anarchist's Cookbook",
+        "author": "Matt Dinniman",
+        "narrator": "Jeff Hays , The Critical Drinker",
+        "image": "https://covers.openlibrary.org/b/id/15262048-L.jpg"
       }
     ],
     "BOOKS": [
@@ -123,14 +123,14 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-11-12T20:04:51.754Z",
-      "lastSuccessfulRefresh": "2026-11-12T20:04:51.754Z",
+      "checkedAt": "2026-11-13T00:08:51.796Z",
+      "lastSuccessfulRefresh": "2026-11-13T00:08:51.796Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-11-12T20:05:07.722Z",
-      "lastSuccessfulRefresh": "2026-11-12T20:05:07.722Z",
+      "checkedAt": "2026-11-13T00:09:03.808Z",
+      "lastSuccessfulRefresh": "2026-11-13T00:09:03.808Z",
       "reason": ""
     }
   }
