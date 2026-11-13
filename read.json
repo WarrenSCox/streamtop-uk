@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T15:39:29.064Z",
+  "updated": "2026-11-13T19:51:01.568Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -36,7 +36,7 @@
         "title": "The Witch",
         "author": "Freida McFadden",
         "narrator": "Saskia Maarleveld , Marin Ireland",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/21/e2/a3/21e2a31c-2e04-6d99-0af9-180a08fa96a2/9798349169328.jpg/600x600bb.jpg"
+        "image": "https://m.media-amazon.com/images/I/41vExa8IbhL._SL500_.jpg"
       },
       {
         "title": "Bram Stoker's Dracula",
@@ -45,22 +45,22 @@
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/03/85/a8/0385a8b0-667d-baed-8423-132574f5a40f/9781785752292.png/600x600bb.jpg"
       },
       {
+        "title": "The Single Father",
+        "author": "Jade Lee Wright",
+        "narrator": "Tamaryn Payne",
+        "image": "https://m.media-amazon.com/images/I/51lIA+wgzgL._SL500_.jpg"
+      },
+      {
         "title": "Carl's Doomsday Scenario",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://covers.openlibrary.org/b/id/11702962-L.jpg"
+        "image": "https://m.media-amazon.com/images/I/51e1PKKdv8L._SL500_.jpg"
       },
       {
-        "title": "Sunrise on the Reaping (The Hunger Games)",
-        "author": "Suzanne Collins",
-        "narrator": "Jefferson White",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f0/5c/b6/f05cb68a-da4c-f986-ebf3-14af7fbaf690/9781546171492.png/600x600bb.jpg"
-      },
-      {
-        "title": "The Dungeon Anarchist's Cookbook",
-        "author": "Matt Dinniman",
-        "narrator": "Jeff Hays , The Critical Drinker",
-        "image": "https://m.media-amazon.com/images/I/518nfG1FaYL._SL500_.jpg"
+        "title": "Her Stepmother's House",
+        "author": "K. L. Slater",
+        "narrator": "Clare Corbett",
+        "image": "https://m.media-amazon.com/images/I/510J1VMd3QL._SL500_.jpg"
       }
     ],
     "BOOKS": [
@@ -123,15 +123,15 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-11-13T15:39:29.065Z",
-      "lastSuccessfulRefresh": "2026-11-13T15:39:29.065Z",
+      "checkedAt": "2026-11-13T19:51:01.568Z",
+      "lastSuccessfulRefresh": "2026-11-13T19:51:01.568Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
-      "status": "stale",
-      "checkedAt": "2026-11-13T15:39:41.311Z",
-      "lastSuccessfulRefresh": "2026-11-13T07:09:54.926Z",
-      "reason": "503 https://www.audible.co.uk/charts/best"
+      "status": "healthy",
+      "checkedAt": "2026-11-13T19:51:14.788Z",
+      "lastSuccessfulRefresh": "2026-11-13T19:51:14.788Z",
+      "reason": ""
     }
   }
 }
