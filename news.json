@@ -1,7 +1,16 @@
 {
-  "updated": "2026-11-14T18:14:58.821Z",
+  "updated": "2026-11-14T20:37:32.283Z",
   "categories": {
     "UK": [
+      {
+        "title": "Family of 80-year-old woman set on fire reveal ‘catastrophic’ injuries",
+        "link": "https://metro.co.uk/2026/11/14/family-80-year-old-woman-set-fire-reveal-catastrophic-injuries-29793244/",
+        "published": "Sat, 14 Nov 2026 19:39:38 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News UK Crime News Fire Hertfordshire",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_320314595-af17-e1794684507619.jpg?quality=90&strip=all&w=646"
+      },
       {
         "title": "Expert’s plea to cat owners as rare songbird killed after epic journey from Siberia",
         "link": "https://metro.co.uk/2026/11/14/rare-siberian-bird-meets-tragic-fate-uk-garden-29793162/",
@@ -66,15 +75,6 @@
         "image": "https://i.guim.co.uk/img/media/6035732eda45a68c9aabfbeb732079748dc463bf/113_0_4560_3648/master/4560.jpg?width=140&quality=85&auto=format&fit=max&s=00e2dd606b1598ea617eb312f27034f8"
       },
       {
-        "title": "Deadly crash may have been avoided if police were sent to the right place sooner",
-        "link": "https://metro.co.uk/2026/11/14/deadly-crash-may-avoided-police-sent-right-place-sooner-29792637/",
-        "published": "Sat, 14 Nov 2026 16:36:02 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News UK Crash London Metropolitan Police",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_320631540-9f09.jpg?quality=90&strip=all&w=646"
-      },
-      {
         "title": "Wales beat the All Blacks for first time since 1953",
         "link": "https://news.sky.com/story/wales-beat-the-all-blacks-for-first-time-since-1953-13612239",
         "published": "Sat, 14 Nov 2026 16:05:00 +0000",
@@ -94,6 +94,42 @@
       }
     ],
     "WORLD": [
+      {
+        "title": "Philippines’ Carmelle wins first Eurovision contest in Asia",
+        "link": "https://www.theguardian.com/tv-and-radio/2026/nov/14/philippines-carmelle-wins-first-eurovision-contest-in-asia",
+        "published": "Sat, 14 Nov 2026 19:01:32 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Eurovision Music Asia Pacific Culture World news Philippines Thailand",
+        "image": "https://i.guim.co.uk/img/media/e086ead12105dc2c27d05464ce6db1d81b380886/300_0_3206_2564/master/3206.jpg?width=140&quality=85&auto=format&fit=max&s=6824875970409bb022b0fe92c92ae52e"
+      },
+      {
+        "title": "Even Labor MPs are at a loss over the Victorian premier’s ‘tough love’ plan for youth offenders",
+        "link": "https://www.theguardian.com/australia-news/2026/nov/15/victoria-premier-ben-caroll-youth-crime-offenders-plan-ntwnfb",
+        "published": "Sat, 14 Nov 2026 19:00:53 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Victoria state election 2026 Victoria Victorian politics Australia news Youth justice",
+        "image": "https://i.guim.co.uk/img/media/0ddcc3866d426031d184b92ca5117f79edd2abd4/390_0_5750_4600/master/5750.jpg?width=140&quality=85&auto=format&fit=max&s=0c9a26d78f9de18030033c9b633d5278"
+      },
+      {
+        "title": "Art ‘must not be sacrificed on the altar of corporate profit’ Liberal senator says as AI policy debate rages",
+        "link": "https://www.theguardian.com/australia-news/2026/nov/15/art-over-profit-ai-policy-debate-andrew-mclachlan",
+        "published": "Sat, 14 Nov 2026 19:00:52 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Australian politics AI (artificial intelligence) Datacentres - Australia Technology Australia news Liberal party",
+        "image": "https://i.guim.co.uk/img/media/bb100c4ad17c64282442b40c27895d51765e32dd/0_0_3485_2789/master/3485.jpg?width=140&quality=85&auto=format&fit=max&s=d72d9f2961e3b70e5c920ce9fd1fa088"
+      },
+      {
+        "title": "Ukraine MP accidentally flashes presenter during live TV interview",
+        "link": "https://metro.co.uk/2026/11/14/ukraine-mp-accidentally-flashes-presenter-live-tv-interview-29793140/",
+        "published": "Sat, 14 Nov 2026 18:25:26 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News World Russia-Ukraine war Ukraine",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_320608684-bcce.jpg?quality=90&strip=all&w=646"
+      },
       {
         "title": "I spent 20 years in a doomsday cult",
         "link": "https://metro.co.uk/2026/11/14/i-spent-twenty-years-a-doomsday-cult-29722175/",
@@ -147,45 +183,18 @@
         "provider": "GUARDIAN",
         "categories": "Extreme weather Climate crisis Extreme heat Flooding Wildfires Cop31 Americas South and central Asia Europe World news Environment Victoria bushfires 2026 Drought Nepal-Tibet flood disaster Canada wildfires",
         "image": "https://i.guim.co.uk/img/media/91a483d5ba6d8f592762c799125eb6366c710585/407_0_2877_2302/master/2877.jpg?width=140&quality=85&auto=format&fit=max&s=32a2aa31dd6ea4bdbb54046bfd1d6540"
-      },
-      {
-        "title": "Microsoft ‘deeply sorry’ for global outage that could have billion-dollar impact on Australia",
-        "link": "https://www.theguardian.com/australia-news/2026/nov/14/microsoft-deeply-sorry-for-global-disruption-that-could-have-billion-dollar-impact-on-australia",
-        "published": "Sat, 14 Nov 2026 06:19:04 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Australia news Microsoft Business Australian economy",
-        "image": "https://i.guim.co.uk/img/media/6e00c0e827484eda171fc2f542c59ea59f98fec9/411_82_4687_3752/master/4687.jpg?width=140&quality=85&auto=format&fit=max&s=32d07acfc6c3a30cd9dc6332d3e3023c"
-      },
-      {
-        "title": "US-bound flights out of Australia delayed after telecommunications outage grounded American planes",
-        "link": "https://www.theguardian.com/australia-news/2026/nov/14/us-bound-flights-out-of-australia-grounded-as-telecommunications-outage-affects-american-travel",
-        "published": "Sat, 14 Nov 2026 04:56:06 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Air transport Australia news Sydney Melbourne Airline industry Sydney airport",
-        "image": "https://i.guim.co.uk/img/media/0f73a43c7adabdff5e4709c7319a3e2dd6459d4d/2337_146_6560_5249/master/6560.jpg?width=140&quality=85&auto=format&fit=max&s=5e9b61407d5b8104eb046c8c98d7d409"
-      },
-      {
-        "title": "Europe ramps up space war with Russia through ‘low orbit’ technology",
-        "link": "https://metro.co.uk/2026/11/13/europe-ramps-space-war-russia-low-orbit-technology-29791329/",
-        "published": "Fri, 13 Nov 2026 18:09:07 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News World Russia-Ukraine war SpaceX",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_320558321-f9b4.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "One of world’s most wanted terrorists, 74, escapes house arrest by abseiling from flat",
-        "link": "https://metro.co.uk/2026/11/13/one-worlds-wanted-terrorists-74-escapes-house-arrest-abseiling-flat-29790210/",
-        "published": "Fri, 13 Nov 2026 10:50:05 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News World Argentina Crime News Italy",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_320313692-afec.jpg?quality=90&strip=all&w=646"
       }
     ],
     "POLITICS": [
+      {
+        "title": "Ukraine MP accidentally flashes presenter during live TV interview",
+        "link": "https://metro.co.uk/2026/11/14/ukraine-mp-accidentally-flashes-presenter-live-tv-interview-29793140/",
+        "published": "Sat, 14 Nov 2026 18:25:26 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News World Russia-Ukraine war Ukraine",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_320608684-bcce.jpg?quality=90&strip=all&w=646"
+      },
       {
         "title": "A rapid interest rate rise seems inevitable – and households are expected to pick up the tab",
         "link": "https://www.theguardian.com/business/2026/nov/14/interest-rate-rise-phillip-inman-inflation-economy",
@@ -221,15 +230,6 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/11/1920x1080/skynews-poundland-kleinman_7406316.jpg?20261114102016"
-      },
-      {
-        "title": "UK tells blind Nigerian pensioner to go to India for medical treatment",
-        "link": "https://www.theguardian.com/uk-news/2026/nov/14/uk-tells-blind-nigerian-pensioner-to-go-home-to-india",
-        "published": "Sat, 14 Nov 2026 06:00:37 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "UK news Immigration and asylum Home Office Blindness and visual impairment Shabana Mahmood Politics Health",
-        "image": "https://i.guim.co.uk/img/media/e73cf35123e8bd53321089a41687a7d298f4654a/1125_0_6827_5464/master/6827.jpg?width=140&quality=85&auto=format&fit=max&s=c183c52d4ec3a4e9fcec7342598a6887"
       },
       {
         "title": "Two ways the law could change after Russell Brand’s conviction",
@@ -463,6 +463,33 @@
     ],
     "ENTERTAINMENT": [
       {
+        "title": "Strictly fans order judges to ‘back off’ Lacey Turner after she looks on verge of tears",
+        "link": "https://metro.co.uk/2026/11/14/strictly-fans-order-judges-back-off-lacey-turner-looks-verge-tears-29793326/",
+        "published": "Sat, 14 Nov 2026 20:25:22 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Entertainment TV Anton Du Beke BBC Craig Revel Horwood Lacey Turner Strictly Come Dancing Vito Coppola",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_320668201-75b7.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Russell Brand accused of ‘raping 16-year-old’ who he referred to as ‘the child’",
+        "link": "https://metro.co.uk/2026/11/14/russell-brand-accused-raping-16-year-old-nicknamed-the-child-29793205/",
+        "published": "Sat, 14 Nov 2026 19:21:31 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Entertainment Showbiz Russell Brand",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/11/comp-1794686119.png?w=646"
+      },
+      {
+        "title": "Strictly’s Craig Revel Horwood lays into Nikita Kuzmin: ‘You’re taking the mick’",
+        "link": "https://metro.co.uk/2026/11/14/strictlys-craig-revel-horwood-lays-nikita-kuzmin-youre-taking-mick-29793223/",
+        "published": "Sat, 14 Nov 2026 19:14:48 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Entertainment TV BBC Craig Revel Horwood Dani Dyer Nikita Kuzmin Strictly Come Dancing",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/11/craig-revel-horwood-dani-dyer-and-nikita-kuzmin-on-strictly-come-dancing-picture-bbc.png?w=646"
+      },
+      {
         "title": "Russell Brand’s rotting pub to reopen after never serving a single pint",
         "link": "https://metro.co.uk/2026/11/14/russell-brands-rotting-pub-reopen-never-serving-a-single-pint-29793079/",
         "published": "Sat, 14 Nov 2026 18:13:09 +0000",
@@ -470,33 +497,6 @@
         "provider": "METRO",
         "categories": "Entertainment Showbiz Oxfordshire Russell Brand",
         "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_172170375-3121.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "I’m A Celebrity’s Ade Adepitan defended after ableist backlash: ‘If it bothers you, don’t watch’",
-        "link": "https://metro.co.uk/2026/11/14/im-a-celebritys-ade-adepitan-defended-ableist-backlash-29793070/",
-        "published": "Sat, 14 Nov 2026 16:59:40 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Entertainment TV Ade Adepitan I'm A Celebrity ITV Tasha Ghouri",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_320171282-9e04.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Singer who defended Russell Brand axed from Hall of Fame induction",
-        "link": "https://metro.co.uk/2026/11/14/singer-defended-russell-brand-axed-hall-fame-induction-29792822/",
-        "published": "Sat, 14 Nov 2026 15:48:43 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Entertainment Music British musicians Russell Brand",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/11/ian-mcnabb-russell-brand.png?w=646"
-      },
-      {
-        "title": "Lucy Beaumont feared people would think David Walliams whistleblowing was a ‘PR stunt’",
-        "link": "https://metro.co.uk/2026/11/14/lucy-beaumont-feared-people-think-david-walliams-whistleblowing-a-pr-stunt-29792746/",
-        "published": "Sat, 14 Nov 2026 15:39:11 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Entertainment Showbiz David Walliams Lucy Beaumont",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/11/comp-1794667195.png?w=646"
       },
       {
         "title": "Jimmy Kimmel on Trump accusing Democrats of wrongdoing: ‘His mantra is corruption’",
@@ -555,6 +555,24 @@
     ],
     "STOCKS": [
       {
+        "title": "Micron Technology (MU): Does a Low Earnings Multiple Understate Its AI Opportunity?",
+        "link": "https://finance.yahoo.com/technology/ai/articles/micron-technology-mu-does-low-193008035.html?.tsrc=rss",
+        "published": "Sat, 14 Nov 2026 19:30:08 +0000",
+        "source": "Yahoo Finance",
+        "provider": "YAHOO",
+        "categories": "",
+        "image": ""
+      },
+      {
+        "title": "5 AI Infrastructure Stocks to Watch After CoreWeave’s Earnings",
+        "link": "https://finance.yahoo.com/technology/ai/articles/5-ai-infrastructure-stocks-watch-192326731.html?.tsrc=rss",
+        "published": "Sat, 14 Nov 2026 19:23:26 +0000",
+        "source": "Yahoo Finance",
+        "provider": "YAHOO",
+        "categories": "",
+        "image": ""
+      },
+      {
         "title": "This beaten-down income stock now yields over 7%, after decades of dividend growth",
         "link": "https://www.twelfthmagpie.com/2026/11/14/this-beaten-down-income-stock-now-yields-over-7-after-decades-of-dividend-growth/",
         "published": "Sat, 14 Nov 2026 17:46:00 +0000",
@@ -582,15 +600,6 @@
         "image": ""
       },
       {
-        "title": "52 Hedge Funds Back This Semiconductor Stock – What’s the Catch?",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/52-hedge-funds-back-semiconductor-152858112.html?.tsrc=rss",
-        "published": "Sat, 14 Nov 2026 15:28:58 +0000",
-        "source": "Yahoo Finance",
-        "provider": "YAHOO",
-        "categories": "",
-        "image": ""
-      },
-      {
         "title": "This unloved UK share yields 8.2% — and is getting cheaper!",
         "link": "https://www.twelfthmagpie.com/2026/11/14/this-uk-share-yields-8-2-and-is-getting-cheaper/",
         "published": "Sat, 14 Nov 2026 13:58:00 +0000",
@@ -607,15 +616,6 @@
         "provider": "MAGPIE",
         "categories": "Investing Articles Investing For Beginners",
         "image": "https://www.twelfthmagpie.com/wp-content/uploads/2026/06/AdobeStock_349905801-1200x800.jpeg"
-      },
-      {
-        "title": "This penny stock is cheap, according to 2 select brokers",
-        "link": "https://www.twelfthmagpie.com/2026/11/14/this-penny-stock-is-cheap-according-to-2-select-brokers/",
-        "published": "Sat, 14 Nov 2026 08:03:49 +0000",
-        "source": "The Twelfth Magpie",
-        "provider": "MAGPIE",
-        "categories": "Investing Articles Small-Cap Shares",
-        "image": "https://www.twelfthmagpie.com/wp-content/uploads/2022/10/Big-Ben.jpg"
       },
       {
         "title": "US Supreme Court to consider lawsuit over Robinhood's 2021 IPO",
@@ -638,7 +638,7 @@
       {
         "title": "Cerebras shares jump 17% on upbeat annual forecast, easing AI jitters",
         "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNbmdjUUVpckNjeXppUVBxc0RDVjRiM1BHYThTbXgtWkgyRGpZTnRqbkhxcWhVNndSNVNTUUJ3elpaNWxuSlk1Ql92QVAtWDU5djBXNy1SYldScFlDLVl0MmFhanlzS0RNUHRDRjRXa0g4RlRGcDZUdmRJZGNrX2I2TWdzWmd5bUxBTnB2R3JzOHQ1Rjlub0kyTHBuMHFFb0hYUDhQM0NicDRlQQ?oc=5",
-        "published": "Fri, 13 Nov 2026 08:00:08 GMT",
+        "published": "Thu, 12 Nov 2026 21:06:00 GMT",
         "source": "Reuters",
         "provider": "REUTERS",
         "categories": "",
@@ -735,7 +735,7 @@
           },
           "YAHOO": {
             "ok": true,
-            "count": 12,
+            "count": 11,
             "retainedPrevious": 0,
             "errors": [
               "https://finance.yahoo.com/news/rssindex: 404 Not Found"
@@ -743,7 +743,7 @@
           },
           "REUTERS": {
             "ok": true,
-            "count": 9,
+            "count": 8,
             "retainedPrevious": 0,
             "errors": [
               "https://www.reuters.com/arc/outboundfeeds/v3/all/?outputType=xml: 404 Not Found"
@@ -1468,6 +1468,15 @@
             "image": "https://i.guim.co.uk/img/media/74aeb469d38039f0e21eb808a8dd9a246b6470ec/534_0_5343_4275/master/5343.jpg?width=140&quality=85&auto=format&fit=max&s=ce39858c6c691c56c42f9a5cf5597853"
           },
           {
+            "title": "Philippines’ Carmelle wins first Eurovision contest in Asia",
+            "link": "https://www.theguardian.com/tv-and-radio/2026/nov/14/philippines-carmelle-wins-first-eurovision-contest-in-asia",
+            "published": "Sat, 14 Nov 2026 19:01:32 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Eurovision Music Asia Pacific Culture World news Philippines Thailand",
+            "image": "https://i.guim.co.uk/img/media/e086ead12105dc2c27d05464ce6db1d81b380886/300_0_3206_2564/master/3206.jpg?width=140&quality=85&auto=format&fit=max&s=6824875970409bb022b0fe92c92ae52e"
+          },
+          {
             "title": "Nvidia scandal: US treasury chief blames Lutnick’s commerce department over alleged lack of action",
             "link": "https://www.theguardian.com/technology/2026/nov/13/nvidia-scandal-sparks-us-national-security-concerns-china",
             "published": "Fri, 13 Nov 2026 19:51:28 GMT",
@@ -1504,13 +1513,22 @@
             "image": "https://i.guim.co.uk/img/media/b76023068afd6989a4d83782e8ad21ac88094570/335_0_3331_2666/master/3331.jpg?width=140&quality=85&auto=format&fit=max&s=ae6e7cc781873a609353d81df20f9e53"
           },
           {
-            "title": "Ukraine captures first Indonesian prisoner of war amid surge in Russian recruitment",
-            "link": "https://www.theguardian.com/world/2026/nov/11/ukraine-indonesian-pow-prisoner-of-war-russia",
-            "published": "Wed, 11 Nov 2026 05:33:27 GMT",
+            "title": "Even Labor MPs are at a loss over the Victorian premier’s ‘tough love’ plan for youth offenders",
+            "link": "https://www.theguardian.com/australia-news/2026/nov/15/victoria-premier-ben-caroll-youth-crime-offenders-plan-ntwnfb",
+            "published": "Sat, 14 Nov 2026 19:00:53 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Ukraine Indonesia Russia Asia Pacific Europe",
-            "image": "https://i.guim.co.uk/img/media/65096d4645f0ba893acee8e385a8a46095fb0391/1113_504_4209_3367/master/4209.jpg?width=140&quality=85&auto=format&fit=max&s=8984b641ab37abc6325b231b8c5674cc"
+            "categories": "Victoria state election 2026 Victoria Victorian politics Australia news Youth justice",
+            "image": "https://i.guim.co.uk/img/media/0ddcc3866d426031d184b92ca5117f79edd2abd4/390_0_5750_4600/master/5750.jpg?width=140&quality=85&auto=format&fit=max&s=0c9a26d78f9de18030033c9b633d5278"
+          },
+          {
+            "title": "Art ‘must not be sacrificed on the altar of corporate profit’ Liberal senator says as AI policy debate rages",
+            "link": "https://www.theguardian.com/australia-news/2026/nov/15/art-over-profit-ai-policy-debate-andrew-mclachlan",
+            "published": "Sat, 14 Nov 2026 19:00:52 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Australian politics AI (artificial intelligence) Datacentres - Australia Technology Australia news Liberal party",
+            "image": "https://i.guim.co.uk/img/media/bb100c4ad17c64282442b40c27895d51765e32dd/0_0_3485_2789/master/3485.jpg?width=140&quality=85&auto=format&fit=max&s=d72d9f2961e3b70e5c920ce9fd1fa088"
           },
           {
             "title": "Microsoft ‘deeply sorry’ for global outage that could have billion-dollar impact on Australia",
@@ -1538,24 +1556,6 @@
             "provider": "GUARDIAN",
             "categories": "New South Wales Australia news One Nation New South Wales politics",
             "image": "https://i.guim.co.uk/img/media/bad470fd72c96843e66c54b24e828b110309e74f/920_806_5642_4517/master/5642.jpg?width=140&quality=85&auto=format&fit=max&s=d26253caa471b9a1073a46e86c2ca7b0"
-          },
-          {
-            "title": "Microsoft outage: company scrambles to fix global issue that took down Outlook and Teams",
-            "link": "https://www.theguardian.com/technology/2026/nov/13/microsoft-outage-outlook-teams-word-excel-reports",
-            "published": "Fri, 13 Nov 2026 17:41:15 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Microsoft Technology sector Business Technology US news Australia news UK news World news",
-            "image": "https://i.guim.co.uk/img/media/dfa589c16097054908f431498d8161b7edbee12f/399_0_6288_5030/master/6288.jpg?width=140&quality=85&auto=format&fit=max&s=3759adfe789d05387c776999255cfb34"
-          },
-          {
-            "title": "What’s behind Australia’s surge in teen extremism?",
-            "link": "https://www.theguardian.com/australia-news/2026/nov/13/australia-surge-in-teen-extremism-ntwnfb",
-            "published": "Fri, 13 Nov 2026 11:33:57 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Australian security and counter-terrorism Australia news Northern Territory Australian police and policing Australian federal police Young people Technology",
-            "image": "https://i.guim.co.uk/img/media/73d8f7306ac81a98efc7615dd99b04af35587a1e/554_0_5211_4171/master/5211.jpg?width=140&quality=85&auto=format&fit=max&s=75d8bbcc5e5dc6e1e1bb5611b8caad67"
           }
         ],
         "POLITICS": [
@@ -2318,6 +2318,15 @@
       "categories": {
         "UK": [
           {
+            "title": "Family of 80-year-old woman set on fire reveal ‘catastrophic’ injuries",
+            "link": "https://metro.co.uk/2026/11/14/family-80-year-old-woman-set-fire-reveal-catastrophic-injuries-29793244/",
+            "published": "Sat, 14 Nov 2026 19:39:38 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News UK Crime News Fire Hertfordshire",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_320314595-af17-e1794684507619.jpg?quality=90&strip=all&w=646"
+          },
+          {
             "title": "Expert’s plea to cat owners as rare songbird killed after epic journey from Siberia",
             "link": "https://metro.co.uk/2026/11/14/rare-siberian-bird-meets-tragic-fate-uk-garden-29793162/",
             "published": "Sat, 14 Nov 2026 18:01:09 +0000",
@@ -2487,18 +2496,18 @@
             "provider": "METRO",
             "categories": "News UK Sexual harassment Worcestershire",
             "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_320183579-0c59.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Conservative and Reform politicians get into shouting match live on air",
-            "link": "https://metro.co.uk/2026/11/13/conservative-reform-politicians-get-shouting-match-live-air-29791512/",
-            "published": "Fri, 13 Nov 2026 17:24:42 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News UK Conservative Party Migrants Oxfordshire Reform UK",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_320551457-fa93.jpg?quality=90&strip=all&w=646"
           }
         ],
         "WORLD": [
+          {
+            "title": "Ukraine MP accidentally flashes presenter during live TV interview",
+            "link": "https://metro.co.uk/2026/11/14/ukraine-mp-accidentally-flashes-presenter-live-tv-interview-29793140/",
+            "published": "Sat, 14 Nov 2026 18:25:26 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News World Russia-Ukraine war Ukraine",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_320608684-bcce.jpg?quality=90&strip=all&w=646"
+          },
           {
             "title": "Europe ramps up space war with Russia through ‘low orbit’ technology",
             "link": "https://metro.co.uk/2026/11/13/europe-ramps-space-war-russia-low-orbit-technology-29791329/",
@@ -2725,6 +2734,15 @@
             "provider": "METRO",
             "categories": "News Politics Liberal Democrats Nigel Farage Reform UK The Budget UK Parliament",
             "image": ""
+          },
+          {
+            "title": "Ukraine MP accidentally flashes presenter during live TV interview",
+            "link": "https://metro.co.uk/2026/11/14/ukraine-mp-accidentally-flashes-presenter-live-tv-interview-29793140/",
+            "published": "Sat, 14 Nov 2026 18:25:26 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News World Russia-Ukraine war Ukraine",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_320608684-bcce.jpg?quality=90&strip=all&w=646"
           }
         ],
         "BUSINESS": [
@@ -2904,6 +2922,33 @@
         ],
         "ENTERTAINMENT": [
           {
+            "title": "Strictly fans order judges to ‘back off’ Lacey Turner after she looks on verge of tears",
+            "link": "https://metro.co.uk/2026/11/14/strictly-fans-order-judges-back-off-lacey-turner-looks-verge-tears-29793326/",
+            "published": "Sat, 14 Nov 2026 20:25:22 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment TV Anton Du Beke BBC Craig Revel Horwood Lacey Turner Strictly Come Dancing Vito Coppola",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_320668201-75b7.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Russell Brand accused of ‘raping 16-year-old’ who he referred to as ‘the child’",
+            "link": "https://metro.co.uk/2026/11/14/russell-brand-accused-raping-16-year-old-nicknamed-the-child-29793205/",
+            "published": "Sat, 14 Nov 2026 19:21:31 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment Showbiz Russell Brand",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/11/comp-1794686119.png?w=646"
+          },
+          {
+            "title": "Strictly’s Craig Revel Horwood lays into Nikita Kuzmin: ‘You’re taking the mick’",
+            "link": "https://metro.co.uk/2026/11/14/strictlys-craig-revel-horwood-lays-nikita-kuzmin-youre-taking-mick-29793223/",
+            "published": "Sat, 14 Nov 2026 19:14:48 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment TV BBC Craig Revel Horwood Dani Dyer Nikita Kuzmin Strictly Come Dancing",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/11/craig-revel-horwood-dani-dyer-and-nikita-kuzmin-on-strictly-come-dancing-picture-bbc.png?w=646"
+          },
+          {
             "title": "Russell Brand’s rotting pub to reopen after never serving a single pint",
             "link": "https://metro.co.uk/2026/11/14/russell-brands-rotting-pub-reopen-never-serving-a-single-pint-29793079/",
             "published": "Sat, 14 Nov 2026 18:13:09 +0000",
@@ -3030,13 +3075,13 @@
             "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_320555313-38ac.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Strictly star forced to change partners hours before live show",
+            "title": "Strictly fans gobsmacked after star forced to learn new dance hours before show",
             "link": "https://metro.co.uk/2026/11/13/strictly-star-forced-change-partners-hours-live-show-29791903/",
             "published": "Fri, 13 Nov 2026 18:39:49 +0000",
             "source": "Metro",
             "provider": "METRO",
             "categories": "Entertainment TV Aljaz Skorjanec BBC Delta Goodrem Kai Widdrington Strictly Come Dancing",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_313133586-5a4a-e1791990069840.jpg?quality=90&strip=all&w=646"
+            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_320659019-4484.jpg?quality=90&strip=all&w=646"
           },
           {
             "title": "James Blunt branded ‘cop out’ for breaking promise to change name to budget airline",
@@ -3055,33 +3100,6 @@
             "provider": "METRO",
             "categories": "Entertainment Film Aaron Taylor-Johnson Daniel Craig Jack Lowden James Bond Nicholas Hoult Robert Pattinson",
             "image": "https://metro.co.uk/wp-content/uploads/2026/11/comp-1794583763.png?w=646"
-          },
-          {
-            "title": "Avril Lavigne, 42, secretly welcomes first baby and shares adorable photo",
-            "link": "https://metro.co.uk/2026/11/13/avril-lavigne-42-secretly-welcomes-first-baby-shares-adorable-photo-29791646/",
-            "published": "Fri, 13 Nov 2026 16:34:44 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Entertainment Showbiz Avril Lavigne US Showbiz news",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_170463202-ff4a.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Waitrose releases unseen clip from 2026 Christmas advert: ‘Didn’t know it could get better’",
-            "link": "https://metro.co.uk/2026/11/13/waitrose-releases-unseen-clip-2026-christmas-advert-didnt-know-get-better-29791527/",
-            "published": "Fri, 13 Nov 2026 16:17:06 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Entertainment TV Christmas TV adverts Joe Wilkinson Keira Knightley Rivals Waitrose",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_320082458-7ea0.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Celebrity Traitors star King Kenny had to have his mum sectioned when he was 18",
-            "link": "https://metro.co.uk/2026/11/13/celebrity-traitors-star-king-kenny-mum-sectioned-18-29791235/",
-            "published": "Fri, 13 Nov 2026 16:16:15 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Entertainment TV Celebrity Traitors",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_318507712-3e57-e1793205368680.jpg?quality=90&strip=all&w=646"
           }
         ]
       },
@@ -3092,11 +3110,11 @@
         },
         "WORLD": {
           "ok": true,
-          "count": 13
+          "count": 14
         },
         "POLITICS": {
           "ok": true,
-          "count": 12
+          "count": 13
         },
         "BUSINESS": {
           "ok": true,
@@ -3221,6 +3239,24 @@
         "STOCK_MARKET": [],
         "STOCKS": [
           {
+            "title": "Micron Technology (MU): Does a Low Earnings Multiple Understate Its AI Opportunity?",
+            "link": "https://finance.yahoo.com/technology/ai/articles/micron-technology-mu-does-low-193008035.html?.tsrc=rss",
+            "published": "Sat, 14 Nov 2026 19:30:08 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "5 AI Infrastructure Stocks to Watch After CoreWeave’s Earnings",
+            "link": "https://finance.yahoo.com/technology/ai/articles/5-ai-infrastructure-stocks-watch-192326731.html?.tsrc=rss",
+            "published": "Sat, 14 Nov 2026 19:23:26 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
             "title": "Dow Jones Futures: Market Rally Shaky As Nvidia Earnings, Anthropic IPO Loom; What Should You Do?",
             "link": "https://uk.finance.yahoo.com/m/53e50dc8-f137-3f6c-bfd6-912334fef9f1/dow-jones-futures%3A-market.html?.tsrc=rss",
             "published": "Sat, 14 Nov 2026 17:07:23 +0000",
@@ -3300,33 +3336,6 @@
             "provider": "YAHOO",
             "categories": "",
             "image": "https://www.twelfthmagpie.com/wp-content/uploads/2026/10/Stock_CashWallet.jpeg"
-          },
-          {
-            "title": "Which 7%+ FTSE 100 dividend yield is best value?",
-            "link": "https://www.twelfthmagpie.com/2026/11/14/which-7-ftse-100-dividend-yield-is-best-value/?.tsrc=rss",
-            "published": "Sat, 14 Nov 2026 07:07:01 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2023/04/Tower-Bridge-1200x675.jpg"
-          },
-          {
-            "title": "SpaceX’s Starship Launched Today. No Booster Catch Might Hurt the Stock.",
-            "link": "https://uk.finance.yahoo.com/m/4fa34c1e-5da4-3857-8dc8-c6f0616d3883/spacex%E2%80%99s-starship-launched.html?.tsrc=rss",
-            "published": "Fri, 13 Nov 2026 23:39:00 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "The 60/40 Portfolio Is Having a Disappointing Year. Blame Bonds.",
-            "link": "https://uk.finance.yahoo.com/m/e5dcf856-6a7b-3e77-94cd-b1000bbf154c/the-60%2F40-portfolio-is-having.html?.tsrc=rss",
-            "published": "Fri, 13 Nov 2026 23:25:00 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
           }
         ]
       },
@@ -3342,7 +3351,7 @@
         },
         "STOCKS": {
           "ok": true,
-          "count": 12,
+          "count": 11,
           "retainedPrevious": 0,
           "errors": [
             "https://finance.yahoo.com/news/rssindex: 404 Not Found"
@@ -3502,16 +3511,7 @@
           {
             "title": "Cerebras shares jump 17% on upbeat annual forecast, easing AI jitters",
             "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNbmdjUUVpckNjeXppUVBxc0RDVjRiM1BHYThTbXgtWkgyRGpZTnRqbkhxcWhVNndSNVNTUUJ3elpaNWxuSlk1Ql92QVAtWDU5djBXNy1SYldScFlDLVl0MmFhanlzS0RNUHRDRjRXa0g4RlRGcDZUdmRJZGNrX2I2TWdzWmd5bUxBTnB2R3JzOHQ1Rjlub0kyTHBuMHFFb0hYUDhQM0NicDRlQQ?oc=5",
-            "published": "Fri, 13 Nov 2026 08:00:08 GMT",
-            "source": "Reuters",
-            "provider": "REUTERS",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "Retail buyers limit Nvidia stock rout",
-            "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVHdDV1ltYXhSMVY3dUtMMGxkZHdxRld0cThBSlQzUmt2NE9fTENSM2NZWHowSk9wZS1ObXpTVFZqNlZ2dUQxam5NVC0yYXNBcW41amRsbXFMbEFfblNLWXNkSUhnOGcwOWFocUlyQllReDBwSjdzakJMZTNkYUpDN3FMY0QxaWVSeGRtNVEyOEJFNlRjb1ZXMFJmTXIxeUU?oc=5",
-            "published": "Thu, 12 Nov 2026 20:10:35 GMT",
+            "published": "Thu, 12 Nov 2026 21:06:00 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3573,7 +3573,7 @@
         },
         "STOCKS": {
           "ok": true,
-          "count": 9,
+          "count": 8,
           "retainedPrevious": 0,
           "errors": [
             "https://www.reuters.com/arc/outboundfeeds/v3/all/?outputType=xml: 404 Not Found"
@@ -3688,5 +3688,5 @@
       }
     }
   },
-  "stocksUpdated": "2026-11-14T18:15:05.109Z"
+  "stocksUpdated": "2026-11-14T20:37:39.893Z"
 }
