@@ -1,7 +1,34 @@
 {
-  "updated": "2026-11-14T02:14:51.297Z",
+  "updated": "2026-11-14T06:39:58.110Z",
   "categories": {
     "UK": [
+      {
+        "title": "UK tells blind Nigerian pensioner to go home to India",
+        "link": "https://www.theguardian.com/uk-news/2026/nov/14/uk-tells-blind-nigerian-pensioner-to-go-home-to-india",
+        "published": "Sat, 14 Nov 2026 06:00:37 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "UK news Immigration and asylum Home Office Blindness and visual impairment Shabana Mahmood Politics Health",
+        "image": "https://i.guim.co.uk/img/media/e73cf35123e8bd53321089a41687a7d298f4654a/1125_0_6827_5464/master/6827.jpg?width=140&quality=85&auto=format&fit=max&s=c183c52d4ec3a4e9fcec7342598a6887"
+      },
+      {
+        "title": "Giant new London skyscraper would be almost as tall as The Shard",
+        "link": "https://metro.co.uk/2026/11/14/giant-new-london-skyscraper-almost-tall-shard-29780677/",
+        "published": "Sat, 14 Nov 2026 06:00:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News UK City London",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_258652954-a486.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Rejuvenated Shaun Murphy benefiting from stepping off snooker hamster wheel",
+        "link": "https://metro.co.uk/2026/11/14/rejuvenated-shaun-murphy-benefiting-stepping-off-snooker-hamster-wheel-29788017/",
+        "published": "Sat, 14 Nov 2026 06:00:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Snooker Sport Ronnie O'Sullivan Shaun Murphy",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_320327854-6029.jpg?quality=90&strip=all&w=646"
+      },
       {
         "title": "US Air Force responds to suspected drone activity at RAF Lakenheath",
         "link": "https://www.theguardian.com/uk-news/2026/nov/13/us-air-force-responds-to-suspected-drone-activity-at-raf-lakenheath",
@@ -30,15 +57,6 @@
         "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_320579357-b9ba.jpg?quality=90&strip=all&w=646"
       },
       {
-        "title": "Mystery jogger caught pooping in Chelsea alleyway for second time in eight days",
-        "link": "https://metro.co.uk/2026/11/13/mystery-jogger-caught-pooping-chelsea-alleyway-second-time-eight-days-29791980/",
-        "published": "Fri, 13 Nov 2026 21:21:49 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News UK Chelsea London",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/11/1794590389983_3241236823884609.jpg?quality=90&strip=all&w=636"
-      },
-      {
         "title": "Probation officers in England and Wales vote to strike over pay and workloads",
         "link": "https://www.theguardian.com/society/2026/nov/13/probation-officers-in-england-and-wales-vote-for-strike-action-over-pay-and-workloads",
         "published": "Fri, 13 Nov 2026 20:51:01 GMT",
@@ -46,24 +64,6 @@
         "provider": "GUARDIAN",
         "categories": "Prisons and probation UK criminal justice Public sector pay UK news Industrial action Staff shortages England Wales Public services policy",
         "image": "https://i.guim.co.uk/img/media/210975900bcd4af5d82e0f77eea4cfc10704b96f/710_0_4085_3266/master/4085.jpg?width=140&quality=85&auto=format&fit=max&s=af150b0f669ca87f4d79f2e941aff9eb"
-      },
-      {
-        "title": "How Microsoft outage has affected key public services in the UK",
-        "link": "https://www.theguardian.com/technology/2026/nov/13/how-microsoft-outage-has-affected-key-public-services-in-the-uk",
-        "published": "Fri, 13 Nov 2026 19:45:43 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Microsoft NHS Hospitals Police Judiciary Email UK news Property",
-        "image": "https://i.guim.co.uk/img/media/2c293692c6bd4a9b5d281bcf55a2e22ea6fa4dcc/541_0_3331_2666/master/3331.jpg?width=140&quality=85&auto=format&fit=max&s=a1725a4ec6132c630e526134f46f7a88"
-      },
-      {
-        "title": "‘Needs to move on’ – Mauricio Pochettino urged to sell £47m Manchester United star",
-        "link": "https://metro.co.uk/2026/11/13/mauricio-pochettino-urged-sell-47m-man-utd-star-needs-move-on-29790964/",
-        "published": "Fri, 13 Nov 2026 19:19:42 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Football Sport Bruno Fernandes Manchester United Mauricio Pochettino Premier League Rene Meulensteen",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_291665913-eb10.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "Probation staff vote for strike action in 'serious anger' over pay and workloads",
@@ -95,12 +95,21 @@
     ],
     "WORLD": [
       {
-        "title": "US-bound flights out of Australia grounded as telecommunications outage affects American travel",
-        "link": "https://www.theguardian.com/australia-news/2026/nov/14/us-bound-flights-out-of-australia-grounded-as-telecommunications-outage-affects-american-travel",
-        "published": "Sat, 14 Nov 2026 01:54:25 GMT",
+        "title": "Microsoft ‘deeply sorry’ for global outage that could have billion-dollar impact on Australia",
+        "link": "https://www.theguardian.com/australia-news/2026/nov/14/microsoft-deeply-sorry-for-global-disruption-that-could-have-billion-dollar-impact-on-australia",
+        "published": "Sat, 14 Nov 2026 06:19:04 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
-        "categories": "Air transport Australia news Sydney Melbourne Airline industry",
+        "categories": "Australia news Microsoft Business Australian economy",
+        "image": "https://i.guim.co.uk/img/media/6e00c0e827484eda171fc2f542c59ea59f98fec9/411_82_4687_3752/master/4687.jpg?width=140&quality=85&auto=format&fit=max&s=32d07acfc6c3a30cd9dc6332d3e3023c"
+      },
+      {
+        "title": "US-bound flights out of Australia delayed after telecommunications outage grounded American planes",
+        "link": "https://www.theguardian.com/australia-news/2026/nov/14/us-bound-flights-out-of-australia-grounded-as-telecommunications-outage-affects-american-travel",
+        "published": "Sat, 14 Nov 2026 04:56:06 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Air transport Australia news Sydney Melbourne Airline industry Sydney airport",
         "image": "https://i.guim.co.uk/img/media/0f73a43c7adabdff5e4709c7319a3e2dd6459d4d/2337_146_6560_5249/master/6560.jpg?width=140&quality=85&auto=format&fit=max&s=5e9b61407d5b8104eb046c8c98d7d409"
       },
       {
@@ -111,15 +120,6 @@
         "provider": "GUARDIAN",
         "categories": "New South Wales Australia news One Nation New South Wales politics",
         "image": "https://i.guim.co.uk/img/media/bad470fd72c96843e66c54b24e828b110309e74f/920_806_5642_4517/master/5642.jpg?width=140&quality=85&auto=format&fit=max&s=d26253caa471b9a1073a46e86c2ca7b0"
-      },
-      {
-        "title": "Microsoft ‘deeply sorry’ for global disruption that could have billion-dollar impact on Australia",
-        "link": "https://www.theguardian.com/australia-news/2026/nov/14/microsoft-deeply-sorry-for-global-disruption-that-could-have-billion-dollar-impact-on-australia",
-        "published": "Sat, 14 Nov 2026 00:52:48 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Australia news Microsoft Business Australian economy",
-        "image": "https://i.guim.co.uk/img/media/6e00c0e827484eda171fc2f542c59ea59f98fec9/411_82_4687_3752/master/4687.jpg?width=140&quality=85&auto=format&fit=max&s=32d07acfc6c3a30cd9dc6332d3e3023c"
       },
       {
         "title": "Three new Coronation Street spoiler videos reveal gory Jodie twist",
@@ -187,6 +187,15 @@
     ],
     "POLITICS": [
       {
+        "title": "UK tells blind Nigerian pensioner to go home to India",
+        "link": "https://www.theguardian.com/uk-news/2026/nov/14/uk-tells-blind-nigerian-pensioner-to-go-home-to-india",
+        "published": "Sat, 14 Nov 2026 06:00:37 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "UK news Immigration and asylum Home Office Blindness and visual impairment Shabana Mahmood Politics Health",
+        "image": "https://i.guim.co.uk/img/media/e73cf35123e8bd53321089a41687a7d298f4654a/1125_0_6827_5464/master/6827.jpg?width=140&quality=85&auto=format&fit=max&s=c183c52d4ec3a4e9fcec7342598a6887"
+      },
+      {
         "title": "Andy Burnham urges Labour to ‘rearm’ for Kemi Badenoch comeback",
         "link": "https://www.theguardian.com/politics/2026/nov/13/andy-burnham-urges-labour-to-re-arm-for-kemi-badenoch-comeback",
         "published": "Fri, 13 Nov 2026 18:20:01 GMT",
@@ -221,15 +230,6 @@
         "provider": "METRO",
         "categories": "News UK Conservative Party Migrants Oxfordshire Reform UK",
         "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_320551457-fa93.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Fight the climate crisis or go for growth? There is a way Burnham can do both | Jonathan Freedland",
-        "link": "https://www.theguardian.com/commentisfree/2026/nov/13/fight-climate-crisis-growth-andy-burnham-economic-leaders",
-        "published": "Fri, 13 Nov 2026 17:10:23 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Politics Climate crisis Andy Burnham Carbon capture and storage (CCS) Cop31 Fossil fuels Environment policy Green economy Energy Oil Greenhouse gas emissions Environment UK news",
-        "image": "https://i.guim.co.uk/img/media/70eb94c74dfeb1e1ed113742cbbc73e20b53e992/778_0_5338_4272/master/5338.jpg?width=140&quality=85&auto=format&fit=max&s=d82ac095ca282b3871ed9384de6f65fa"
       },
       {
         "title": "Two ways the law could change after Russell Brand’s conviction",
@@ -279,9 +279,9 @@
     ],
     "BUSINESS": [
       {
-        "title": "Nationwide FAA ground stop: nearly 11,000 flights delayed or canceled at airports across the US",
+        "title": "US aviation agency lifts nationwide ground stop affecting all air travel",
         "link": "https://www.theguardian.com/world/2026/nov/13/faa-nationwide-ground-stop-flights",
-        "published": "Sat, 14 Nov 2026 01:01:12 GMT",
+        "published": "Sat, 14 Nov 2026 02:15:53 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
         "categories": "Air transport Trump administration Airline industry US news World news US politics Business",
@@ -313,15 +313,6 @@
         "provider": "GUARDIAN",
         "categories": "Housing market US mortgages Business Mortgage rates US interest rates Real estate US economy Economics US news",
         "image": "https://i.guim.co.uk/img/media/861fa365835f36d65c4fe3a0adf09f6b63ba43ad/142_0_2344_1875/master/2344.jpg?width=140&quality=85&auto=format&fit=max&s=8773e098930ce08aa711f613f70b46b6"
-      },
-      {
-        "title": "Avril Lavigne, 42, secretly welcomes first baby and shares adorable photo",
-        "link": "https://metro.co.uk/2026/11/13/avril-lavigne-42-secretly-welcomes-first-baby-shares-adorable-photo-29791646/",
-        "published": "Fri, 13 Nov 2026 16:34:44 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Entertainment Showbiz Avril Lavigne US Showbiz news",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_170463202-ff4a.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "Global oil supply returns to surplus for first time since start of Iran war, says IEA",
@@ -367,9 +358,27 @@
         "provider": "METRO",
         "categories": "News Politics Andy Burnham British Government Business Work",
         "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_305078487-3c32.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Royal painters immortalise business heroes saving British high streets",
+        "link": "https://metro.co.uk/2026/10/27/royal-painters-immortalise-business-heroes-saving-british-high-streets-29741431/",
+        "published": "Tue, 27 Oct 2026 07:00:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News UK Business",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/14ea7d61-219b-46f7-8f22-260502bbc109-24e6.png?w=646"
       }
     ],
     "TECH": [
+      {
+        "title": "I’m shocked by how little has changed about Zelda: Ocarina Of Time remake – Reader’s Feature",
+        "link": "https://metro.co.uk/2026/11/14/im-shocked-little-changed-zelda-ocarina-time-remake-readers-feature-29792161/",
+        "published": "Sat, 14 Nov 2026 06:00:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Entertainment Gaming Nintendo Nintendo Switch 2 Reader's Feature The Legend of Zelda",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_311337352-320e.jpg?quality=90&strip=all&w=646"
+      },
       {
         "title": "GTA 6 is worth all the hype and will be worth the wait – Reader’s Feature",
         "link": "https://metro.co.uk/2026/11/14/gta-6-worth-hype-will-worth-wait-readers-feature-29792134/",
@@ -416,15 +425,6 @@
         "image": "https://i.guim.co.uk/img/media/5534caea091e39afe776168281e50dd327c8be8e/563_0_3334_2668/master/3334.jpg?width=140&quality=85&auto=format&fit=max&s=62c117f622bf4e5987845906efdee2f7"
       },
       {
-        "title": "GTA 6 is so big there’s an entire TV show inside it called Macca & Friends",
-        "link": "https://metro.co.uk/2026/11/13/gta-6-big-entire-tv-show-inside-called-macca-friends-29791721/",
-        "published": "Fri, 13 Nov 2026 19:41:13 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Entertainment Gaming Games news GTA 6 Rockstar Games",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_320555313-38ac.jpg?quality=90&strip=all&w=646"
-      },
-      {
         "title": "‘Ahead of his time’: AI helps unlock discoveries hidden in notebooks of man who transformed maths",
         "link": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
         "published": "Fri, 13 Nov 2026 16:38:27 GMT",
@@ -463,6 +463,15 @@
     ],
     "ENTERTAINMENT": [
       {
+        "title": "Three new Coronation Street spoiler videos reveal gory Jodie twist",
+        "link": "https://metro.co.uk/2026/11/13/three-new-coronation-street-spoiler-videos-reveal-gory-jodie-twist-29787970/",
+        "published": "Fri, 13 Nov 2026 23:59:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Coronation Street Soaps Alya Nazir Amy Robbins Christina Boyd Daniel Osbourne George Shuttleworth Jodie Ramsey Julia Goulding Olivia Frances-Brown Rob Mallard Sair Khan Shona Platt Tony Maudsley",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_320409450-2edf.jpg?quality=90&strip=all&w=646"
+      },
+      {
         "title": "New Emmerdale videos reveal unsettling new Tom King updates as Belle’s horror looms",
         "link": "https://metro.co.uk/2026/11/13/new-emmerdale-videos-reveal-unsettling-tom-king-updates-belles-horror-looms-29791006/",
         "published": "Fri, 13 Nov 2026 23:59:00 +0000",
@@ -470,15 +479,6 @@
         "provider": "METRO",
         "categories": "Emmerdale Soaps Cain Dingle Charles Anderson James Chase Jeff Hordley Kevin Mathurin Moira Dingle Natalie J Robb Tom King",
         "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_320538863-3e0e.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Suki takes drastic action in EastEnders that will have devastating consequences",
-        "link": "https://metro.co.uk/2026/11/13/eastenders-suki-takes-drastic-action-will-devastating-consequences-29781791/",
-        "published": "Fri, 13 Nov 2026 23:59:00 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "EastEnders Soaps Balvinder Sopal Eve Panesar-Unwin Heather Peace Suki Panesar-Unwin",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_320056861-5f3c.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "Noel Fielding claims he’s ‘deeply disturbed’ by Russell Brand’s crimes in first statement",
@@ -555,6 +555,24 @@
     ],
     "STOCKS": [
       {
+        "title": "7%+ dividend yields! 3 top investment trusts for passive income",
+        "link": "https://www.twelfthmagpie.com/2026/11/14/7-dividend-yields-here-are-3-top-investment-trusts-for-passive-income/",
+        "published": "Sat, 14 Nov 2026 06:33:00 +0000",
+        "source": "The Twelfth Magpie",
+        "provider": "MAGPIE",
+        "categories": "Dividend Shares Investing Articles",
+        "image": "https://www.twelfthmagpie.com/wp-content/uploads/2026/10/Stock_HappyWoman.jpeg"
+      },
+      {
+        "title": "Everyone’s buying these ETFs right now! Here’s why they could be star buys",
+        "link": "https://www.twelfthmagpie.com/2026/11/14/everyones-buying-these-etfs-right-now-heres-why-they-could-be-star-buys/",
+        "published": "Sat, 14 Nov 2026 06:02:00 +0000",
+        "source": "The Twelfth Magpie",
+        "provider": "MAGPIE",
+        "categories": "Investing Articles Investing For Beginners",
+        "image": "https://www.twelfthmagpie.com/wp-content/uploads/2026/06/AdobeStock_999408056-1200x633.jpeg"
+      },
+      {
         "title": "Dow Jones Futures: Market Rally Shaky As Nvidia Earnings, Anthropic IPO Loom; SpaceX Starship Flight 15 Booster Diverts.",
         "link": "https://uk.finance.yahoo.com/m/53e50dc8-f137-3f6c-bfd6-912334fef9f1/dow-jones-futures%3A-market.html?.tsrc=rss",
         "published": "Sat, 14 Nov 2026 00:41:41 +0000",
@@ -573,18 +591,18 @@
         "image": ""
       },
       {
-        "title": "The 60/40 Portfolio Is Having a Disappointing Year. Blame Bonds.",
-        "link": "https://uk.finance.yahoo.com/m/e5dcf856-6a7b-3e77-94cd-b1000bbf154c/the-60%2F40-portfolio-is-having.html?.tsrc=rss",
-        "published": "Fri, 13 Nov 2026 23:25:00 +0000",
-        "source": "Yahoo Finance",
-        "provider": "YAHOO",
+        "title": "EXCLUSIVE: Investors flock to Anthropic IPO but question durability of AI lead",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOckJYSDVUWDh1cTJPb3ptd2pLZmxuNXBtSEJkN0F0WWFucUZuWDgtQ0dZbzZITDBWY3dhSWZqcjcyZl9FdGpHdHJsX1dkbVowTkZ3OWRKd3pwN2NIMnBGZ1AtbDFkMkl6Vm1RZFNsZ2VDOU1nLUVmY2d4UHV2U01ER1pJTmdlSGFDdmsyM2ZhbXlXYVdEb01ERlNybGxWY0RsYlo4QlNxa0NCaUNpQjQw?oc=5",
+        "published": "Fri, 13 Nov 2026 23:30:55 GMT",
+        "source": "Reuters",
+        "provider": "REUTERS",
         "categories": "",
         "image": ""
       },
       {
-        "title": "Walmart, Target, and Nvidia Headline a Pivotal Week for Q3 Earnings",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/walmart-target-nvidia-headline-pivotal-230000146.html?.tsrc=rss",
-        "published": "Fri, 13 Nov 2026 23:00:00 +0000",
+        "title": "The 60/40 Portfolio Is Having a Disappointing Year. Blame Bonds.",
+        "link": "https://uk.finance.yahoo.com/m/e5dcf856-6a7b-3e77-94cd-b1000bbf154c/the-60%2F40-portfolio-is-having.html?.tsrc=rss",
+        "published": "Fri, 13 Nov 2026 23:25:00 +0000",
         "source": "Yahoo Finance",
         "provider": "YAHOO",
         "categories": "",
@@ -625,24 +643,6 @@
         "provider": "MAGPIE",
         "categories": "Dividend Shares Investing Articles",
         "image": "https://www.twelfthmagpie.com/wp-content/uploads/2023/10/Shell-1200x675.jpg"
-      },
-      {
-        "title": "Prediction: this growth share could surge as investors pivot from Nvidia stock",
-        "link": "https://www.twelfthmagpie.com/2026/11/13/prediction-this-growth-share-could-surge-as-investors-pivot-from-nvidia-stock/",
-        "published": "Fri, 13 Nov 2026 14:37:00 +0000",
-        "source": "The Twelfth Magpie",
-        "provider": "MAGPIE",
-        "categories": "Investing Articles US Stock",
-        "image": "https://www.twelfthmagpie.com/wp-content/uploads/2024/07/Full-purse-1200x800.jpg"
-      },
-      {
-        "title": "Cerebras shares jump 17% on upbeat annual forecast, easing AI jitters",
-        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNbmdjUUVpckNjeXppUVBxc0RDVjRiM1BHYThTbXgtWkgyRGpZTnRqbkhxcWhVNndSNVNTUUJ3elpaNWxuSlk1Ql92QVAtWDU5djBXNy1SYldScFlDLVl0MmFhanlzS0RNUHRDRjRXa0g4RlRGcDZUdmRJZGNrX2I2TWdzWmd5bUxBTnB2R3JzOHQ1Rjlub0kyTHBuMHFFb0hYUDhQM0NicDRlQQ?oc=5",
-        "published": "Thu, 12 Nov 2026 21:06:00 GMT",
-        "source": "Reuters",
-        "provider": "REUTERS",
-        "categories": "",
-        "image": ""
       }
     ]
   },
@@ -743,7 +743,7 @@
           },
           "REUTERS": {
             "ok": true,
-            "count": 11,
+            "count": 12,
             "retainedPrevious": 0,
             "errors": [
               "https://www.reuters.com/arc/outboundfeeds/v3/all/?outputType=xml: 404 Not Found"
@@ -810,15 +810,6 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/11/1920x1080/skynews-frost-weather-cold_7405810.jpg?20261113125907"
-          },
-          {
-            "title": "Two Iranians convicted of spying for their country after entering Britain illegally",
-            "link": "https://news.sky.com/story/two-iranians-convicted-of-spying-for-their-country-after-entering-britain-illegally-13611458",
-            "published": "Thu, 12 Nov 2026 11:36:00 +0000",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/11/1920x1080/skynews-mostafa-sepahvand-farhad-manesh_7404907.jpg?20261112115845"
           }
         ],
         "WORLD": [
@@ -857,15 +848,6 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/11/1920x1080/skynews-israel-palestine_7404900.jpg?20261112114527"
-          },
-          {
-            "title": "Bomb alert at Calais train station disrupts Eurostar",
-            "link": "https://news.sky.com/story/bomb-alert-at-calais-train-station-affects-eurostar-13611403",
-            "published": "Thu, 12 Nov 2026 09:27:00 +0000",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/11/1920x1080/skynews-eurostar-st-pancras_7405000.jpg?20261112130714"
           }
         ],
         "POLITICS": [
@@ -1043,15 +1025,6 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/11/1920x1080/skynews-jensen-huang-nvidia_7402606.jpg?20261110022343"
-          },
-          {
-            "title": "FDA orders blindness risk warning on weight loss drugs",
-            "link": "https://news.sky.com/story/fda-orders-blindness-risk-warning-on-weight-loss-drugs-13610424",
-            "published": "Tue, 10 Nov 2026 00:24:00 +0000",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/06/1920x1080/skynews-wegovy-weight-loss_7270949.jpg?20260611170032"
           }
         ],
         "ENTERTAINMENT": [
@@ -1132,11 +1105,11 @@
       "health": {
         "UK": {
           "ok": true,
-          "count": 7
+          "count": 6
         },
         "WORLD": {
           "ok": true,
-          "count": 5
+          "count": 4
         },
         "POLITICS": {
           "ok": true,
@@ -1148,7 +1121,7 @@
         },
         "TECH": {
           "ok": true,
-          "count": 7
+          "count": 6
         },
         "ENTERTAINMENT": {
           "ok": true,
@@ -1159,6 +1132,15 @@
     "GUARDIAN": {
       "categories": {
         "UK": [
+          {
+            "title": "UK tells blind Nigerian pensioner to go home to India",
+            "link": "https://www.theguardian.com/uk-news/2026/nov/14/uk-tells-blind-nigerian-pensioner-to-go-home-to-india",
+            "published": "Sat, 14 Nov 2026 06:00:37 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "UK news Immigration and asylum Home Office Blindness and visual impairment Shabana Mahmood Politics Health",
+            "image": "https://i.guim.co.uk/img/media/e73cf35123e8bd53321089a41687a7d298f4654a/1125_0_6827_5464/master/6827.jpg?width=140&quality=85&auto=format&fit=max&s=c183c52d4ec3a4e9fcec7342598a6887"
+          },
           {
             "title": "US Air Force responds to suspected drone activity at RAF Lakenheath",
             "link": "https://www.theguardian.com/uk-news/2026/nov/13/us-air-force-responds-to-suspected-drone-activity-at-raf-lakenheath",
@@ -1232,13 +1214,13 @@
             "image": "https://i.guim.co.uk/img/media/4c1be2018c85b1bd8f3b44061ee196854105b58f/0_0_3590_2874/master/3590.jpg?width=140&quality=85&auto=format&fit=max&s=8747823bb9347de7d7a997354c336057"
           },
           {
-            "title": "Microsoft outage hits hospitals, GPs, schools and police across UK",
-            "link": "https://www.theguardian.com/technology/2026/nov/13/microsoft-outage-hits-nhs-hospitals-gps-schools-and-police-across-uk",
-            "published": "Fri, 13 Nov 2026 18:10:05 GMT",
+            "title": "No 10 considering expanding under-25s benefits overhaul to older age groups",
+            "link": "https://www.theguardian.com/society/2026/nov/13/no-10-considering-expanding-under-25s-benefits-overhaul-to-older-age-groups",
+            "published": "Fri, 13 Nov 2026 17:43:26 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Microsoft NHS Hospitals Police UK news Schools Universities Higher education Society Health Education",
-            "image": "https://i.guim.co.uk/img/media/2c228d770bc36da0b6ae784dc3d2be62613a6e18/210_0_2579_2065/master/2579.jpg?width=140&quality=85&auto=format&fit=max&s=564f6d76df4b85262cfd0c08d36d32eb"
+            "categories": "Welfare Benefits Labour Young people State benefits Politics UK news Disability Pat McFadden Society",
+            "image": "https://i.guim.co.uk/img/media/c2b0279682d508425e716930b12babc769cd705c/1106_585_4650_3723/master/4650.jpg?width=140&quality=85&auto=format&fit=max&s=ae911deb0c8a1cca78223aca44e0a48b"
           },
           {
             "title": "Row breaks out between Tories and Reform at Piddington news conference – as it happened",
@@ -1275,15 +1257,6 @@
             "provider": "GUARDIAN",
             "categories": "Northern Ireland Newry Democratic Unionist party (DUP) Sentencing Rape and sexual assault UK news Politics Crime",
             "image": "https://i.guim.co.uk/img/media/9ee7a3f2c3d331a1d2c8a1743b391afc50d0d158/686_0_3432_2745/master/3432.jpg?width=140&quality=85&auto=format&fit=max&s=32c200365d199ee8bb83c136cdf0dd86"
-          },
-          {
-            "title": "Nigel Farage’s security paid for by Reform UK despite claim over £5m gift",
-            "link": "https://www.theguardian.com/politics/2026/nov/13/nigel-farage-personal-security-costs-reform-uk",
-            "published": "Fri, 13 Nov 2026 14:37:23 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Nigel Farage Reform UK Politics UK news",
-            "image": "https://i.guim.co.uk/img/media/907e4659d263a4a09efa52db38644aeeae855269/671_0_3827_3062/master/3827.jpg?width=140&quality=85&auto=format&fit=max&s=1e6602de8351950ffe46c77d5b0857c0"
           },
           {
             "title": "How Microsoft outage has affected key public services in the UK",
@@ -1477,12 +1450,21 @@
             "image": "https://i.guim.co.uk/img/media/65096d4645f0ba893acee8e385a8a46095fb0391/1113_504_4209_3367/master/4209.jpg?width=140&quality=85&auto=format&fit=max&s=8984b641ab37abc6325b231b8c5674cc"
           },
           {
-            "title": "US-bound flights out of Australia grounded as telecommunications outage affects American travel",
-            "link": "https://www.theguardian.com/australia-news/2026/nov/14/us-bound-flights-out-of-australia-grounded-as-telecommunications-outage-affects-american-travel",
-            "published": "Sat, 14 Nov 2026 01:54:25 GMT",
+            "title": "Microsoft ‘deeply sorry’ for global outage that could have billion-dollar impact on Australia",
+            "link": "https://www.theguardian.com/australia-news/2026/nov/14/microsoft-deeply-sorry-for-global-disruption-that-could-have-billion-dollar-impact-on-australia",
+            "published": "Sat, 14 Nov 2026 06:19:04 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Air transport Australia news Sydney Melbourne Airline industry",
+            "categories": "Australia news Microsoft Business Australian economy",
+            "image": "https://i.guim.co.uk/img/media/6e00c0e827484eda171fc2f542c59ea59f98fec9/411_82_4687_3752/master/4687.jpg?width=140&quality=85&auto=format&fit=max&s=32d07acfc6c3a30cd9dc6332d3e3023c"
+          },
+          {
+            "title": "US-bound flights out of Australia delayed after telecommunications outage grounded American planes",
+            "link": "https://www.theguardian.com/australia-news/2026/nov/14/us-bound-flights-out-of-australia-grounded-as-telecommunications-outage-affects-american-travel",
+            "published": "Sat, 14 Nov 2026 04:56:06 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Air transport Australia news Sydney Melbourne Airline industry Sydney airport",
             "image": "https://i.guim.co.uk/img/media/0f73a43c7adabdff5e4709c7319a3e2dd6459d4d/2337_146_6560_5249/master/6560.jpg?width=140&quality=85&auto=format&fit=max&s=5e9b61407d5b8104eb046c8c98d7d409"
           },
           {
@@ -1493,15 +1475,6 @@
             "provider": "GUARDIAN",
             "categories": "New South Wales Australia news One Nation New South Wales politics",
             "image": "https://i.guim.co.uk/img/media/bad470fd72c96843e66c54b24e828b110309e74f/920_806_5642_4517/master/5642.jpg?width=140&quality=85&auto=format&fit=max&s=d26253caa471b9a1073a46e86c2ca7b0"
-          },
-          {
-            "title": "Microsoft ‘deeply sorry’ for global disruption that could have billion-dollar impact on Australia",
-            "link": "https://www.theguardian.com/australia-news/2026/nov/14/microsoft-deeply-sorry-for-global-disruption-that-could-have-billion-dollar-impact-on-australia",
-            "published": "Sat, 14 Nov 2026 00:52:48 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Australia news Microsoft Business Australian economy",
-            "image": "https://i.guim.co.uk/img/media/6e00c0e827484eda171fc2f542c59ea59f98fec9/411_82_4687_3752/master/4687.jpg?width=140&quality=85&auto=format&fit=max&s=32d07acfc6c3a30cd9dc6332d3e3023c"
           },
           {
             "title": "Microsoft outage: company scrambles to fix global issue that took down Outlook and Teams",
@@ -1523,6 +1496,15 @@
           }
         ],
         "POLITICS": [
+          {
+            "title": "UK tells blind Nigerian pensioner to go home to India",
+            "link": "https://www.theguardian.com/uk-news/2026/nov/14/uk-tells-blind-nigerian-pensioner-to-go-home-to-india",
+            "published": "Sat, 14 Nov 2026 06:00:37 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "UK news Immigration and asylum Home Office Blindness and visual impairment Shabana Mahmood Politics Health",
+            "image": "https://i.guim.co.uk/img/media/e73cf35123e8bd53321089a41687a7d298f4654a/1125_0_6827_5464/master/6827.jpg?width=140&quality=85&auto=format&fit=max&s=c183c52d4ec3a4e9fcec7342598a6887"
+          },
           {
             "title": "Andy Burnham urges Labour to ‘rearm’ for Kemi Badenoch comeback",
             "link": "https://www.theguardian.com/politics/2026/nov/13/andy-burnham-urges-labour-to-re-arm-for-kemi-badenoch-comeback",
@@ -1576,15 +1558,6 @@
             "provider": "GUARDIAN",
             "categories": "Immigration and asylum Oxfordshire UK news Politics Chris Philp Local politics England",
             "image": "https://i.guim.co.uk/img/media/6a2188c2d16ad721b1cd8b78868f9ef4829d52e1/506_0_5989_4792/master/5989.jpg?width=140&quality=85&auto=format&fit=max&s=2e16aa06eb298f2eef783e792ac5a24f"
-          },
-          {
-            "title": "Eleanor Donaldson, wife of former DUP leader, placed on sex offender register",
-            "link": "https://www.theguardian.com/uk-news/2026/nov/13/eleanor-donaldson-wife-of-former-dup-leader-placed-on-sex-offender-register",
-            "published": "Fri, 13 Nov 2026 14:48:02 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Northern Ireland Newry Democratic Unionist party (DUP) Sentencing Rape and sexual assault UK news Politics Crime",
-            "image": "https://i.guim.co.uk/img/media/9ee7a3f2c3d331a1d2c8a1743b391afc50d0d158/686_0_3432_2745/master/3432.jpg?width=140&quality=85&auto=format&fit=max&s=32c200365d199ee8bb83c136cdf0dd86"
           },
           {
             "title": "Fight the climate crisis or go for growth? There is a way Burnham can do both | Jonathan Freedland",
@@ -1715,9 +1688,9 @@
             "image": "https://i.guim.co.uk/img/media/b63ef4b2cd095319a80edb2f7cb40f210d4581c1/564_0_3154_2523/master/3154.jpg?width=140&quality=85&auto=format&fit=max&s=00f4153beac0510e18c3ba0bc72b2e40"
           },
           {
-            "title": "Nationwide FAA ground stop: nearly 11,000 flights delayed or canceled at airports across the US",
+            "title": "US aviation agency lifts nationwide ground stop affecting all air travel",
             "link": "https://www.theguardian.com/world/2026/nov/13/faa-nationwide-ground-stop-flights",
-            "published": "Sat, 14 Nov 2026 01:01:12 GMT",
+            "published": "Sat, 14 Nov 2026 02:15:53 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
             "categories": "Air transport Trump administration Airline industry US news World news US politics Business",
@@ -2282,6 +2255,15 @@
       "categories": {
         "UK": [
           {
+            "title": "Giant new London skyscraper would be almost as tall as The Shard",
+            "link": "https://metro.co.uk/2026/11/14/giant-new-london-skyscraper-almost-tall-shard-29780677/",
+            "published": "Sat, 14 Nov 2026 06:00:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News UK City London",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_258652954-a486.jpg?quality=90&strip=all&w=646"
+          },
+          {
             "title": "All flights at US airports grounded ‘due to extraordinary circumstances’",
             "link": "https://metro.co.uk/2026/11/13/flights-us-airports-grounded-due-extraordinary-circumstances-29792061/",
             "published": "Fri, 13 Nov 2026 21:28:34 +0000",
@@ -2444,22 +2426,13 @@
             "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_320379193-d20e.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "‘Needs to move on’ – Mauricio Pochettino urged to sell £47m Manchester United star",
-            "link": "https://metro.co.uk/2026/11/13/mauricio-pochettino-urged-sell-47m-man-utd-star-needs-move-on-29790964/",
-            "published": "Fri, 13 Nov 2026 19:19:42 +0000",
+            "title": "Rejuvenated Shaun Murphy benefiting from stepping off snooker hamster wheel",
+            "link": "https://metro.co.uk/2026/11/14/rejuvenated-shaun-murphy-benefiting-stepping-off-snooker-hamster-wheel-29788017/",
+            "published": "Sat, 14 Nov 2026 06:00:00 +0000",
             "source": "Metro",
             "provider": "METRO",
-            "categories": "Football Sport Bruno Fernandes Manchester United Mauricio Pochettino Premier League Rene Meulensteen",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_291665913-eb10.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "I woke up with my hair in my one-night stand’s mouth",
-            "link": "https://metro.co.uk/2026/11/13/woke-hair-one-night-stands-mouth-29787972/",
-            "published": "Fri, 13 Nov 2026 18:00:00 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Lifestyle Sex Columnists fetish Opinion Romance",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_320410702-c5fa.jpg?quality=90&strip=all&w=646"
+            "categories": "Snooker Sport Ronnie O'Sullivan Shaun Murphy",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_320327854-6029.jpg?quality=90&strip=all&w=646"
           }
         ],
         "WORLD": [
@@ -2880,18 +2853,18 @@
             "provider": "METRO",
             "categories": "Entertainment Music James Blunt",
             "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316786330-e147.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Avril Lavigne, 42, secretly welcomes first baby and shares adorable photo",
-            "link": "https://metro.co.uk/2026/11/13/avril-lavigne-42-secretly-welcomes-first-baby-shares-adorable-photo-29791646/",
-            "published": "Fri, 13 Nov 2026 16:34:44 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Entertainment Showbiz Avril Lavigne US Showbiz news",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_170463202-ff4a.jpg?quality=90&strip=all&w=646"
           }
         ],
         "TECH": [
+          {
+            "title": "I’m shocked by how little has changed about Zelda: Ocarina Of Time remake – Reader’s Feature",
+            "link": "https://metro.co.uk/2026/11/14/im-shocked-little-changed-zelda-ocarina-time-remake-readers-feature-29792161/",
+            "published": "Sat, 14 Nov 2026 06:00:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment Gaming Nintendo Nintendo Switch 2 Reader's Feature The Legend of Zelda",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_311337352-320e.jpg?quality=90&strip=all&w=646"
+          },
           {
             "title": "GTA 6 is worth all the hype and will be worth the wait – Reader’s Feature",
             "link": "https://metro.co.uk/2026/11/14/gta-6-worth-hype-will-worth-wait-readers-feature-29792134/",
@@ -3102,6 +3075,15 @@
             "image": "https://metro.co.uk/wp-content/uploads/2026/11/comp-1794572821.png?w=646"
           },
           {
+            "title": "Three new Coronation Street spoiler videos reveal gory Jodie twist",
+            "link": "https://metro.co.uk/2026/11/13/three-new-coronation-street-spoiler-videos-reveal-gory-jodie-twist-29787970/",
+            "published": "Fri, 13 Nov 2026 23:59:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Coronation Street Soaps Alya Nazir Amy Robbins Christina Boyd Daniel Osbourne George Shuttleworth Jodie Ramsey Julia Goulding Olivia Frances-Brown Rob Mallard Sair Khan Shona Platt Tony Maudsley",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_320409450-2edf.jpg?quality=90&strip=all&w=646"
+          },
+          {
             "title": "New Emmerdale videos reveal unsettling new Tom King updates as Belle’s horror looms",
             "link": "https://metro.co.uk/2026/11/13/new-emmerdale-videos-reveal-unsettling-tom-king-updates-belles-horror-looms-29791006/",
             "published": "Fri, 13 Nov 2026 23:59:00 +0000",
@@ -3109,15 +3091,6 @@
             "provider": "METRO",
             "categories": "Emmerdale Soaps Cain Dingle Charles Anderson James Chase Jeff Hordley Kevin Mathurin Moira Dingle Natalie J Robb Tom King",
             "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_320538863-3e0e.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Suki takes drastic action in EastEnders that will have devastating consequences",
-            "link": "https://metro.co.uk/2026/11/13/eastenders-suki-takes-drastic-action-will-devastating-consequences-29781791/",
-            "published": "Fri, 13 Nov 2026 23:59:00 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "EastEnders Soaps Balvinder Sopal Eve Panesar-Unwin Heather Peace Suki Panesar-Unwin",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_320056861-5f3c.jpg?quality=90&strip=all&w=646"
           }
         ]
       },
@@ -3136,11 +3109,11 @@
         },
         "BUSINESS": {
           "ok": true,
-          "count": 20
+          "count": 19
         },
         "TECH": {
           "ok": true,
-          "count": 5
+          "count": 6
         },
         "ENTERTAINMENT": {
           "ok": true,
@@ -3491,6 +3464,15 @@
         ],
         "STOCKS": [
           {
+            "title": "EXCLUSIVE: Investors flock to Anthropic IPO but question durability of AI lead",
+            "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOckJYSDVUWDh1cTJPb3ptd2pLZmxuNXBtSEJkN0F0WWFucUZuWDgtQ0dZbzZITDBWY3dhSWZqcjcyZl9FdGpHdHJsX1dkbVowTkZ3OWRKd3pwN2NIMnBGZ1AtbDFkMkl6Vm1RZFNsZ2VDOU1nLUVmY2d4UHV2U01ER1pJTmdlSGFDdmsyM2ZhbXlXYVdEb01ERlNybGxWY0RsYlo4QlNxa0NCaUNpQjQw?oc=5",
+            "published": "Fri, 13 Nov 2026 23:30:55 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
             "title": "US Supreme Court to consider lawsuit over Robinhood's 2021 IPO",
             "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOUE0zT1RvMFJtc1k0LXVEa0Y4WUV1SjRBQUd0T1RSYzVJSjJ1MTlVZEdXUmVLZUgyWGdXMXZkTGdja3I1WG10QklEb2JaN1dYbFY3ZG5YenpZTTdXY29HbTByeEQzTWRpak1FdjRtVnpoY1VHMGVIZkVBSzU3QlhISDQ3UE1vR3Q4RFd4a0NfMmJmbEV6OVpuYWdpUExFOEJlT1d5LWtrTE9nQTNRdnZWRDQ1VnVlS3BIX0gw?oc=5",
             "published": "Fri, 13 Nov 2026 21:47:11 GMT",
@@ -3563,6 +3545,15 @@
             "image": ""
           },
           {
+            "title": "VIEW Anthropic's $1.4 trillion IPO bid sets up high-stakes test for AI market",
+            "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNWDNuV0ZtNUJSM09SdnhpOUNHcnJkU05iSHFPSUJicXNBLUI0aGVyODlnaThFZ2huUlJqZWpYSklNclJkOU1hdmFyeG5URzB5R3kxUTNTekd2Q0s2eEVEaHJETGVRNS1oVjFTMXdBaTBDYk9vUHM0cGp1Ykp4akRwUThxd0NYVHNnVEV5OVdZWEtVRDZDb1VJVjN5ZUlpVFZYLVV6VmdyQnl1OUVPUGxmWWRkQ2hzc3dRN1dnUVZfNA?oc=5",
+            "published": "Tue, 10 Nov 2026 13:43:22 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
             "title": "Wall St ends lower as hot inflation data, Fed comments heighten rate worries",
             "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSEE5eGJXT1lYRVFJMUpWb2VCTENjZ2hBNWk0QWl5QVZBNmJ4TFBodVUtRVRzV0JubVE0NFJYRFlmYkpuc0tlbTBValFhV0ppcGdYNEZERXV4ZnhLZUJKTF9fUzZEeHM3cDRwdmlMdUVIUWlERHprb3lKakQ1S1gzSmI5LVZYWWx2cTBjVC1sVEc1OG8tOS0ta0k5VQ?oc=5",
             "published": "Tue, 10 Nov 2026 10:26:00 GMT",
@@ -3579,15 +3570,6 @@
             "provider": "REUTERS",
             "categories": "",
             "image": ""
-          },
-          {
-            "title": "Wall Street stocks rally after heavy AI-related selloff",
-            "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUG9ENFo3M0RHNWI0VEdfTlZhWmpjVGR0UjViV3dBQllRVkNha0YzU1FhX2lDaWVUT1U1Ym5DbWRlOFpJZ3JPU3AwZ1Nia3NNWjdKc3Jvd0VXU3otQU83ZjFlQmZwbHcyZmJKZFk4dVJWaXhWQnV6MTF6TUpmaDcxNmdhbFFNaU1N?oc=5",
-            "published": "Sat, 07 Nov 2026 02:37:13 GMT",
-            "source": "Reuters",
-            "provider": "REUTERS",
-            "categories": "",
-            "image": ""
           }
         ]
       },
@@ -3600,7 +3582,7 @@
         },
         "STOCKS": {
           "ok": true,
-          "count": 11,
+          "count": 12,
           "retainedPrevious": 0,
           "errors": [
             "https://www.reuters.com/arc/outboundfeeds/v3/all/?outputType=xml: 404 Not Found"
@@ -3611,6 +3593,24 @@
     "MAGPIE": {
       "categories": {
         "STOCKS": [
+          {
+            "title": "7%+ dividend yields! 3 top investment trusts for passive income",
+            "link": "https://www.twelfthmagpie.com/2026/11/14/7-dividend-yields-here-are-3-top-investment-trusts-for-passive-income/",
+            "published": "Sat, 14 Nov 2026 06:33:00 +0000",
+            "source": "The Twelfth Magpie",
+            "provider": "MAGPIE",
+            "categories": "Dividend Shares Investing Articles",
+            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2026/10/Stock_HappyWoman.jpeg"
+          },
+          {
+            "title": "Everyone’s buying these ETFs right now! Here’s why they could be star buys",
+            "link": "https://www.twelfthmagpie.com/2026/11/14/everyones-buying-these-etfs-right-now-heres-why-they-could-be-star-buys/",
+            "published": "Sat, 14 Nov 2026 06:02:00 +0000",
+            "source": "The Twelfth Magpie",
+            "provider": "MAGPIE",
+            "categories": "Investing Articles Investing For Beginners",
+            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2026/06/AdobeStock_999408056-1200x633.jpeg"
+          },
           {
             "title": "Anthropic’s valuation has fallen to $1.3trn but could this beaten-up AI stock in the S&P 500 offer more potential?",
             "link": "https://www.twelfthmagpie.com/2026/11/13/anthropics-valuation-has-fallen-to-1-3trn-but-could-this-beaten-up-ai-stock-in-the-sp-500-offer-more-potential/",
@@ -3682,24 +3682,6 @@
             "provider": "MAGPIE",
             "categories": "Growth Shares Investing Articles",
             "image": "https://www.twelfthmagpie.com/wp-content/uploads/2023/04/High-five-1200x675.jpg"
-          },
-          {
-            "title": "This S&P 500 stock could be a winner from the Nvidia turmoil",
-            "link": "https://www.twelfthmagpie.com/2026/11/13/this-sp-500-stock-could-be-a-winner-from-the-nvidia-turmoil/",
-            "published": "Fri, 13 Nov 2026 11:43:28 +0000",
-            "source": "The Twelfth Magpie",
-            "provider": "MAGPIE",
-            "categories": "Investing Articles US Stock",
-            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2024/07/Searching-1200x675.jpg"
-          },
-          {
-            "title": "This surging UK stock has a 5.2% dividend yield and P/E under 7 — it’s tipped to rise up to 13%!",
-            "link": "https://www.twelfthmagpie.com/2026/11/13/this-surging-uk-stock-has-a-5-2-dividend-yield-and-p-e-under-7-its-tipped-to-rise-up-to-13/",
-            "published": "Fri, 13 Nov 2026 10:25:27 +0000",
-            "source": "The Twelfth Magpie",
-            "provider": "MAGPIE",
-            "categories": "Investing Articles Investing For Beginners",
-            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2026/10/Stock_FriendsCafe.jpeg"
           }
         ]
       },
@@ -3715,5 +3697,5 @@
       }
     }
   },
-  "stocksUpdated": "2026-11-14T02:14:56.535Z"
+  "stocksUpdated": "2026-11-14T06:40:04.257Z"
 }
