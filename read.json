@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14T20:37:39.940Z",
+  "updated": "2026-11-14T22:34:24.409Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -24,19 +24,13 @@
         "title": "A Court of Splintered Harmony",
         "author": "Sarah J. Maas",
         "narrator": "Elizabeth Evans",
-        "image": "https://m.media-amazon.com/images/I/51FBqskXJ2L._SL500_.jpg"
+        "image": "https://covers.openlibrary.org/b/id/15273593-L.jpg"
       },
       {
         "title": "Dungeon Crawler Carl",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://covers.openlibrary.org/b/id/15143022-L.jpg"
-      },
-      {
-        "title": "Bram Stoker's Dracula",
-        "author": "Bram Stoker",
-        "narrator": "Jonathan Bailey , Ella Purnell , Aimee Lou Wood , Louis Partridge , David Jonsson , Johnny Flynn , Lesley Manville , Maggie Gyllenhaal",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/03/85/a8/0385a8b0-667d-baed-8423-132574f5a40f/9781785752292.png/600x600bb.jpg"
+        "image": "https://m.media-amazon.com/images/I/51HIZdnqASL._SL500_.jpg"
       },
       {
         "title": "The Witch",
@@ -45,10 +39,10 @@
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/21/e2/a3/21e2a31c-2e04-6d99-0af9-180a08fa96a2/9798349169328.jpg/600x600bb.jpg"
       },
       {
-        "title": "The Single Father",
-        "author": "Jade Lee Wright",
-        "narrator": "Tamaryn Payne",
-        "image": "https://m.media-amazon.com/images/I/51lIA+wgzgL._SL500_.jpg"
+        "title": "Bram Stoker's Dracula",
+        "author": "Bram Stoker",
+        "narrator": "Jonathan Bailey , Ella Purnell , Aimee Lou Wood , Louis Partridge , David Jonsson , Johnny Flynn , Lesley Manville , Maggie Gyllenhaal",
+        "image": "https://m.media-amazon.com/images/I/51nLhYS-rhL._SL500_.jpg"
       },
       {
         "title": "Carl's Doomsday Scenario",
@@ -61,6 +55,12 @@
         "author": "Suzanne Collins",
         "narrator": "Jefferson White",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f0/5c/b6/f05cb68a-da4c-f986-ebf3-14af7fbaf690/9781546171492.png/600x600bb.jpg"
+      },
+      {
+        "title": "The Dungeon Anarchist's Cookbook",
+        "author": "Matt Dinniman",
+        "narrator": "Jeff Hays , The Critical Drinker",
+        "image": "https://m.media-amazon.com/images/I/518nfG1FaYL._SL500_.jpg"
       }
     ],
     "BOOKS": [
@@ -123,14 +123,14 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-11-14T20:37:39.940Z",
-      "lastSuccessfulRefresh": "2026-11-14T20:37:39.940Z",
+      "checkedAt": "2026-11-14T22:34:24.409Z",
+      "lastSuccessfulRefresh": "2026-11-14T22:34:24.409Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-11-14T20:37:53.961Z",
-      "lastSuccessfulRefresh": "2026-11-14T20:37:53.961Z",
+      "checkedAt": "2026-11-14T22:34:36.243Z",
+      "lastSuccessfulRefresh": "2026-11-14T22:34:36.243Z",
       "reason": ""
     }
   }
