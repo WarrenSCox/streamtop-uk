@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-15T06:45:54.554Z",
+  "updated": "2026-11-15T07:45:42.657Z",
   "categories": {
     "UK": [
       {
@@ -45,7 +45,7 @@
         "source": "Sky News",
         "provider": "SKY",
         "categories": "",
-        "image": "https://e3.365dm.com/26/11/1920x1080/skynews-russell-brand-court_7398112.jpg?20261106145926"
+        "image": "https://e3.365dm.com/26/11/1920x1080/skynews-russell-brand-court_7398112.jpg?20261115065240"
       },
       {
         "title": "Someone lost their camper van? Council appeal after fly-tippers trash site",
@@ -140,15 +140,6 @@
         "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_320608684-bcce.jpg?quality=90&strip=all&w=646"
       },
       {
-        "title": "I spent 20 years in a doomsday cult",
-        "link": "https://metro.co.uk/2026/11/14/i-spent-twenty-years-a-doomsday-cult-29722175/",
-        "published": "Sat, 14 Nov 2026 16:00:00 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Lifestyle Features New York United States of America",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317727362-fe12-e1792680992979.jpg?quality=90&strip=all&w=646"
-      },
-      {
         "title": "Microsoft confirms all services are restored after global outage",
         "link": "https://news.sky.com/story/microsoft-confirms-all-services-are-restored-after-global-outage-13612219",
         "published": "Sat, 14 Nov 2026 14:56:00 +0000",
@@ -183,6 +174,15 @@
         "provider": "METRO",
         "categories": "News World Russia-Ukraine war SpaceX",
         "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_320558321-f9b4.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "One of world’s most wanted terrorists, 74, escapes house arrest by abseiling from flat",
+        "link": "https://metro.co.uk/2026/11/13/one-worlds-wanted-terrorists-74-escapes-house-arrest-abseiling-flat-29790210/",
+        "published": "Fri, 13 Nov 2026 10:50:05 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News World Argentina Crime News Italy",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_320313692-afec.jpg?quality=90&strip=all&w=646"
       }
     ],
     "POLITICS": [
@@ -463,13 +463,22 @@
     ],
     "ENTERTAINMENT": [
       {
+        "title": "Scarlett Moffatt: ‘I hope I’m A Celebrity shows the real Leigh Francis’",
+        "link": "https://metro.co.uk/2026/11/15/scarlett-moffatt-i-hope-im-a-celebrity-shows-real-leigh-francis-29791065/",
+        "published": "Sun, 15 Nov 2026 07:00:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Entertainment TV Exclusive I'm A Celebrity ITV ITVX Keith Lemon Leigh Francis Scarlett Moffatt Weekend",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEC_320542229-8b36.jpg?quality=90&strip=all&w=646"
+      },
+      {
         "title": "Minister says 'changing age of consent deserves proper consideration' after Brand allegations",
         "link": "https://news.sky.com/story/minister-says-changing-age-of-consent-deserves-proper-consideration-after-brand-allegations-13612375",
         "published": "Sat, 14 Nov 2026 23:47:00 +0000",
         "source": "Sky News",
         "provider": "SKY",
         "categories": "",
-        "image": "https://e3.365dm.com/26/11/1920x1080/skynews-russell-brand-court_7398112.jpg?20261106145926"
+        "image": "https://e3.365dm.com/26/11/1920x1080/skynews-russell-brand-court_7398112.jpg?20261115065240"
       },
       {
         "title": "Strictly fans order judges to ‘back off’ Lacey Turner after she looks on verge of tears",
@@ -542,18 +551,27 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/11/1920x1080/skynews-russell-brand-jemima-khan_7402834.jpg?20261110092646"
-      },
-      {
-        "title": "New information from 'several people' about Russell Brand being assessed by police",
-        "link": "https://news.sky.com/story/new-information-from-several-people-about-russell-brand-being-assessed-by-police-13610681",
-        "published": "Tue, 10 Nov 2026 14:54:00 +0000",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/11/1920x1080/skynews-court-russell-brand_7402134.jpg?20261109125819"
       }
     ],
     "STOCKS": [
+      {
+        "title": "10.4% dividend yield! Should I buy this FTSE 250 income stock?",
+        "link": "https://www.twelfthmagpie.com/2026/11/15/10-4-dividend-yield-should-i-buy-this-ftse-250-income-stock/",
+        "published": "Sun, 15 Nov 2026 07:11:00 +0000",
+        "source": "The Twelfth Magpie",
+        "provider": "MAGPIE",
+        "categories": "Dividend Shares Investing Articles",
+        "image": "https://www.twelfthmagpie.com/wp-content/uploads/2026/06/AdobeStock_680954671-1200x800.jpeg"
+      },
+      {
+        "title": "After jumping 13%, are National Grid shares still a ‘safe’ investment?",
+        "link": "https://www.twelfthmagpie.com/2026/11/15/after-jumping-13-are-national-grid-shares-still-a-safe-investment/",
+        "published": "Sun, 15 Nov 2026 07:01:00 +0000",
+        "source": "The Twelfth Magpie",
+        "provider": "MAGPIE",
+        "categories": "Investing Articles Investing For Beginners",
+        "image": "https://www.twelfthmagpie.com/wp-content/uploads/2026/07/AdobeStock_1887358417-1200x675.jpeg"
+      },
       {
         "title": "Dow Jones Futures Loom, Bitcoin Dives In Shaky Market Rally; Nvidia Earnings, Anthropic IPO Ahead",
         "link": "https://uk.finance.yahoo.com/m/53e50dc8-f137-3f6c-bfd6-912334fef9f1/dow-jones-futures-loom%2C.html?.tsrc=rss",
@@ -591,15 +609,6 @@
         "image": "https://www.twelfthmagpie.com/wp-content/uploads/2025/01/Dividend-Yield-1200x675.jpg"
       },
       {
-        "title": "Here’s Why Tesla (TSLA) Is One of the Top High P/E Stocks Under the 200-Day SMA",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/why-tesla-tsla-one-top-152951928.html?.tsrc=rss",
-        "published": "Sat, 14 Nov 2026 15:29:51 +0000",
-        "source": "Yahoo Finance",
-        "provider": "YAHOO",
-        "categories": "",
-        "image": ""
-      },
-      {
         "title": "This unloved UK share yields 8.2% — and is getting cheaper!",
         "link": "https://www.twelfthmagpie.com/2026/11/14/this-uk-share-yields-8-2-and-is-getting-cheaper/",
         "published": "Sat, 14 Nov 2026 13:58:00 +0000",
@@ -609,13 +618,13 @@
         "image": "https://www.twelfthmagpie.com/wp-content/uploads/2026/10/Stock_CashWallet.jpeg"
       },
       {
-        "title": "£20,000 invested in a Stocks and Shares ISA 10 years ago is now worth…",
-        "link": "https://www.twelfthmagpie.com/2026/11/14/20000-invested-in-a-stocks-and-shares-isa-10-years-ago-is-now-worth/",
-        "published": "Sat, 14 Nov 2026 09:06:00 +0000",
-        "source": "The Twelfth Magpie",
-        "provider": "MAGPIE",
-        "categories": "Investing Articles Investing For Beginners",
-        "image": "https://www.twelfthmagpie.com/wp-content/uploads/2026/06/AdobeStock_349905801-1200x800.jpeg"
+        "title": "EXCLUSIVE: Investors flock to Anthropic IPO but question durability of AI lead",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOckJYSDVUWDh1cTJPb3ptd2pLZmxuNXBtSEJkN0F0WWFucUZuWDgtQ0dZbzZITDBWY3dhSWZqcjcyZl9FdGpHdHJsX1dkbVowTkZ3OWRKd3pwN2NIMnBGZ1AtbDFkMkl6Vm1RZFNsZ2VDOU1nLUVmY2d4UHV2U01ER1pJTmdlSGFDdmsyM2ZhbXlXYVdEb01ERlNybGxWY0RsYlo4QlNxa0NCaUNpQjQw?oc=5",
+        "published": "Fri, 13 Nov 2026 23:30:55 GMT",
+        "source": "Reuters",
+        "provider": "REUTERS",
+        "categories": "",
+        "image": ""
       },
       {
         "title": "US Supreme Court to consider lawsuit over Robinhood's 2021 IPO",
@@ -630,15 +639,6 @@
         "title": "Cerebras shares surge as forecast raise, surprise profit ease AI spending worries",
         "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQd2pqZHJibkJHUE5qR01NY2FVeDZ5cWRpSTRxN0FBdmpQR1lwbWxyZ09NdTFOVHJhS1liaVlPbkM2ZGRlNW5jb1Y5OHh2U0RTeE1IQ2NxQVBKa1pSZlF4d0dmNXlyRnR2SGgyd2laemZXdUN1Q3hNWnBJVFNSOHJoUXVkSEJDNmplOWRhekVuTHJFclBwNzVkTHBwSzV1VFI2c25BaFY3eWk5QUtXQ0dQRXluM1gyQVhicE1CM042T0NpZw?oc=5",
         "published": "Fri, 13 Nov 2026 14:39:20 GMT",
-        "source": "Reuters",
-        "provider": "REUTERS",
-        "categories": "",
-        "image": ""
-      },
-      {
-        "title": "Mapping the Market: Eli Lilly shares ready to rally again",
-        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOb1Z6ZF90dHJPS1lzVFlJV2VuZFpiYk1sOF9TQWNVZjUta1h3eGw4c1lJWXctaHVTbkRRVmpzY2NIS1MyLXowV0ZNTU1lOTE3OWdiaUpHdC1nTFUzZU9qVThuMFNrQ25xeGdGSGxLRzdGdUItRUtMYXUxRmVia041ZGYwWWp2Nm8?oc=5",
-        "published": "Fri, 13 Nov 2026 11:11:00 GMT",
         "source": "Reuters",
         "provider": "REUTERS",
         "categories": "",
@@ -764,7 +764,7 @@
             "source": "Sky News",
             "provider": "SKY",
             "categories": "",
-            "image": "https://e3.365dm.com/26/11/1920x1080/skynews-russell-brand-court_7398112.jpg?20261106145926"
+            "image": "https://e3.365dm.com/26/11/1920x1080/skynews-russell-brand-court_7398112.jpg?20261115065240"
           },
           {
             "title": "Wales beat the All Blacks for first time since 1953",
@@ -1089,7 +1089,7 @@
             "source": "Sky News",
             "provider": "SKY",
             "categories": "",
-            "image": "https://e3.365dm.com/26/11/1920x1080/skynews-russell-brand-court_7398112.jpg?20261106145926"
+            "image": "https://e3.365dm.com/26/11/1920x1080/skynews-russell-brand-court_7398112.jpg?20261115065240"
           },
           {
             "title": "Tim Westwood pleads not guilty to further sexual offence charges",
@@ -2597,15 +2597,6 @@
             "provider": "METRO",
             "categories": "News World Iran Iran war RAF and Red Arrows Terror",
             "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_320233738-208b.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "I spent 20 years in a doomsday cult",
-            "link": "https://metro.co.uk/2026/11/14/i-spent-twenty-years-a-doomsday-cult-29722175/",
-            "published": "Sat, 14 Nov 2026 16:00:00 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Lifestyle Features New York United States of America",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_317727362-fe12-e1792680992979.jpg?quality=90&strip=all&w=646"
           }
         ],
         "POLITICS": [
@@ -2958,6 +2949,15 @@
         ],
         "ENTERTAINMENT": [
           {
+            "title": "Scarlett Moffatt: ‘I hope I’m A Celebrity shows the real Leigh Francis’",
+            "link": "https://metro.co.uk/2026/11/15/scarlett-moffatt-i-hope-im-a-celebrity-shows-real-leigh-francis-29791065/",
+            "published": "Sun, 15 Nov 2026 07:00:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment TV Exclusive I'm A Celebrity ITV ITVX Keith Lemon Leigh Francis Scarlett Moffatt Weekend",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEC_320542229-8b36.jpg?quality=90&strip=all&w=646"
+          },
+          {
             "title": "Strictly fans order judges to ‘back off’ Lacey Turner after she looks on verge of tears",
             "link": "https://metro.co.uk/2026/11/14/strictly-fans-order-judges-back-off-lacey-turner-looks-verge-tears-29793326/",
             "published": "Sat, 14 Nov 2026 20:25:22 +0000",
@@ -3127,15 +3127,6 @@
             "provider": "METRO",
             "categories": "Entertainment Music James Blunt",
             "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316786330-e147.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "The biggest James Bond clue has been in our faces the whole time",
-            "link": "https://metro.co.uk/2026/11/13/biggest-james-bond-clue-faces-whole-time-29791320/",
-            "published": "Fri, 13 Nov 2026 16:36:28 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Entertainment Film Aaron Taylor-Johnson Daniel Craig Jack Lowden James Bond Nicholas Hoult Robert Pattinson",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/11/comp-1794583763.png?w=646"
           }
         ]
       },
@@ -3146,7 +3137,7 @@
         },
         "WORLD": {
           "ok": true,
-          "count": 13
+          "count": 12
         },
         "POLITICS": {
           "ok": true,
@@ -3527,6 +3518,15 @@
         ],
         "STOCKS": [
           {
+            "title": "EXCLUSIVE: Investors flock to Anthropic IPO but question durability of AI lead",
+            "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOckJYSDVUWDh1cTJPb3ptd2pLZmxuNXBtSEJkN0F0WWFucUZuWDgtQ0dZbzZITDBWY3dhSWZqcjcyZl9FdGpHdHJsX1dkbVowTkZ3OWRKd3pwN2NIMnBGZ1AtbDFkMkl6Vm1RZFNsZ2VDOU1nLUVmY2d4UHV2U01ER1pJTmdlSGFDdmsyM2ZhbXlXYVdEb01ERlNybGxWY0RsYlo4QlNxa0NCaUNpQjQw?oc=5",
+            "published": "Fri, 13 Nov 2026 23:30:55 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
             "title": "US Supreme Court to consider lawsuit over Robinhood's 2021 IPO",
             "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOUE0zT1RvMFJtc1k0LXVEa0Y4WUV1SjRBQUd0T1RSYzVJSjJ1MTlVZEdXUmVLZUgyWGdXMXZkTGdja3I1WG10QklEb2JaN1dYbFY3ZG5YenpZTTdXY29HbTByeEQzTWRpak1FdjRtVnpoY1VHMGVIZkVBSzU3QlhISDQ3UE1vR3Q4RFd4a0NfMmJmbEV6OVpuYWdpUExFOEJlT1d5LWtrTE9nQTNRdnZWRDQ1VnVlS3BIX0gw?oc=5",
             "published": "Fri, 13 Nov 2026 21:47:11 GMT",
@@ -3566,15 +3566,6 @@
             "title": "Nvidia options traders bank on longer-term stock recovery",
             "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNOWEyZG5xanFDejdGbHAzNGdaMTh5d2tpR2dPWVB0eFVTNnRkcmJJbm1US3FlV3NzaGJsdE5kQ2h6TmswQjlHQ2V6akZkeWlHSFF3OGlybk9COXNPOGlZTFhvMVhUMW1EOUdFLTc0WDc0LWliQ0VETnRmNUJWU3hOdloyOE82ejcyYUlXWlJMT0tEeHpyOEowZnZFcF8yX3By?oc=5",
             "published": "Thu, 12 Nov 2026 18:38:45 GMT",
-            "source": "Reuters",
-            "provider": "REUTERS",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "Anthropic IPO could draw record retail buying, Vanda Research says",
-            "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPSkc4cW15aGVaZG4tLTR1YVpRUWJzNXVtQ0RyR2d1bEFXTFFIU2xhWEduUmxTUFJWZEt0cVh3ZDNxNnRwV2k0WFlnMlNycWpycVVSNGl0Qy1NMlhvZVBUWVhVVGhISDZpcUxBdGVFQnRXRzhCTGZYZVEzUEh1MjlBOFZ6X2p3eG4tUlF3a3NNUXhzYzU5d0NmcVhqS1QzcG5DMUItVWlDdlJ3U1ZoU0tscy1xa3Fxbnh2dHhPYmpNQ1VZOUk0?oc=5",
-            "published": "Wed, 11 Nov 2026 17:23:49 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3629,6 +3620,24 @@
     "MAGPIE": {
       "categories": {
         "STOCKS": [
+          {
+            "title": "10.4% dividend yield! Should I buy this FTSE 250 income stock?",
+            "link": "https://www.twelfthmagpie.com/2026/11/15/10-4-dividend-yield-should-i-buy-this-ftse-250-income-stock/",
+            "published": "Sun, 15 Nov 2026 07:11:00 +0000",
+            "source": "The Twelfth Magpie",
+            "provider": "MAGPIE",
+            "categories": "Dividend Shares Investing Articles",
+            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2026/06/AdobeStock_680954671-1200x800.jpeg"
+          },
+          {
+            "title": "After jumping 13%, are National Grid shares still a ‘safe’ investment?",
+            "link": "https://www.twelfthmagpie.com/2026/11/15/after-jumping-13-are-national-grid-shares-still-a-safe-investment/",
+            "published": "Sun, 15 Nov 2026 07:01:00 +0000",
+            "source": "The Twelfth Magpie",
+            "provider": "MAGPIE",
+            "categories": "Investing Articles Investing For Beginners",
+            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2026/07/AdobeStock_1887358417-1200x675.jpeg"
+          },
           {
             "title": "This beaten-down income stock now yields over 7%, after decades of dividend growth",
             "link": "https://www.twelfthmagpie.com/2026/11/14/this-beaten-down-income-stock-now-yields-over-7-after-decades-of-dividend-growth/",
@@ -3700,24 +3709,6 @@
             "provider": "MAGPIE",
             "categories": "Investing Articles Investing For Beginners",
             "image": "https://www.twelfthmagpie.com/wp-content/uploads/2026/06/AdobeStock_999408056-1200x633.jpeg"
-          },
-          {
-            "title": "Anthropic’s valuation has fallen to $1.3trn but could this beaten-up AI stock in the S&P 500 offer more potential?",
-            "link": "https://www.twelfthmagpie.com/2026/11/13/anthropics-valuation-has-fallen-to-1-3trn-but-could-this-beaten-up-ai-stock-in-the-sp-500-offer-more-potential/",
-            "published": "Fri, 13 Nov 2026 15:14:00 +0000",
-            "source": "The Twelfth Magpie",
-            "provider": "MAGPIE",
-            "categories": "Investing Articles US Stock",
-            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2026/10/Stock_Anthropic-1200x646.jpeg"
-          },
-          {
-            "title": "BP vs Shell shares: which is better-positioned to benefit from falling oil prices?",
-            "link": "https://www.twelfthmagpie.com/2026/11/13/bp-vs-shell-shares-which-is-better-positioned-to-benefit-from-falling-oil-prices/",
-            "published": "Fri, 13 Nov 2026 14:37:18 +0000",
-            "source": "The Twelfth Magpie",
-            "provider": "MAGPIE",
-            "categories": "Dividend Shares Investing Articles",
-            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2023/10/Shell-1200x675.jpg"
           }
         ]
       },
@@ -3733,5 +3724,5 @@
       }
     }
   },
-  "stocksUpdated": "2026-11-15T06:46:02.143Z"
+  "stocksUpdated": "2026-11-15T07:45:49.748Z"
 }
