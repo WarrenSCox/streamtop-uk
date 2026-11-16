@@ -1,7 +1,16 @@
 {
-  "updated": "2026-11-16T06:45:53.791Z",
+  "updated": "2026-11-16T07:11:11.839Z",
   "categories": {
     "UK": [
+      {
+        "title": "The Forest Boy: Inside the mysterious case that turned out to be a hoax",
+        "link": "https://metro.co.uk/2026/11/16/forest-boy-inside-mysterious-case-turned-a-hoax-29778669/",
+        "published": "Mon, 16 Nov 2026 07:00:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News Features Metro newspaper Real Life",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/11/Forest-boy-2-feb4-e1794248475293.jpg?quality=90&strip=all&w=646"
+      },
       {
         "title": "UK exposed to polycrisis of threats amid government ‘complacency’",
         "link": "https://www.theguardian.com/society/2026/nov/16/uk-exposed-to-polycrisis-of-threats-amid-government-complacency",
@@ -10,15 +19,6 @@
         "provider": "GUARDIAN",
         "categories": "Emergency planning UK news House of Commons Cyberwar Climate crisis Extreme weather Politics Espionage Hacking House of Lords AI (artificial intelligence) Food security Drugs",
         "image": "https://i.guim.co.uk/img/media/3ba762c70e9c188fc6533e353ffe9c2e077e95c6/0_0_4183_3347/master/4183.jpg?width=140&quality=85&auto=format&fit=max&s=2e252d83e1e5acf197ba4a3668df8463"
-      },
-      {
-        "title": "'I'm applying for 8-9 jobs a week and getting nothing back': Young people on struggle to find work",
-        "link": "https://news.sky.com/story/im-applying-for-8-9-jobs-a-week-and-getting-nothing-back-young-people-on-struggle-to-find-work-13612667",
-        "published": "Mon, 16 Nov 2026 06:12:00 +0000",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/11/1920x1080/skynews-neets-martin-young_7407245.png?20261115191916"
       },
       {
         "title": "Home Office accused of trying to cancel online talk by Andreas Malm",
@@ -37,15 +37,6 @@
         "provider": "GUARDIAN",
         "categories": "Electric, hybrid and low-emission cars Motoring Motoring Greenhouse gas emissions Environment Money Technology Travel and transport Road transport UK news Automotive industry UK cost of living crisis Business",
         "image": "https://i.guim.co.uk/img/media/2c482caa3e759cd7a5225f2c03f309598ab7e3a4/0_1589_3765_3012/master/3765.jpg?width=140&quality=85&auto=format&fit=max&s=01029c2819ff6e54c3548089e4148013"
-      },
-      {
-        "title": "Special needs overhaul in England could bring in new avenues for extra support",
-        "link": "https://www.theguardian.com/education/2026/nov/16/families-rights-appeal-support-send-overhaul-england",
-        "published": "Mon, 16 Nov 2026 06:00:35 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Special educational needs Schools Lucy Powell School funding Department for Education Children Education policy Politics England Education UK news",
-        "image": "https://i.guim.co.uk/img/media/681dfa3b17c9c913ee0e3c919781fa3616c07b1d/479_0_2917_2333/master/2917.jpg?width=140&quality=85&auto=format&fit=max&s=1b73623dac318a1cc46941c9e4d3c148"
       },
       {
         "title": "Cheerleaders at under-18 competition targeted by online ‘creep-shotters’",
@@ -82,6 +73,15 @@
         "provider": "METRO",
         "categories": "News Politics abortion British Government Crime News Health News Ministry of Justice",
         "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_160625401-199e.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "PM to say 'Brexit hasn't worked' and set out conditions for future EU deal in major speech",
+        "link": "https://news.sky.com/story/pm-to-say-brexit-hasnt-worked-and-set-out-conditions-for-future-eu-deal-in-major-speech-13612600",
+        "published": "Sun, 15 Nov 2026 21:33:00 +0000",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/11/1920x1080/skynews-andy-burnham-wales_7406338.jpg?20261114113449"
       },
       {
         "title": "Driver, 50, who died in crash with horses on M18 named and pictured",
@@ -187,6 +187,33 @@
     ],
     "POLITICS": [
       {
+        "title": "Andy Burnham to say Brexit ‘has not worked’ and he will sign new deal with EU",
+        "link": "https://www.theguardian.com/politics/2026/nov/16/andy-burnham-brexit-has-not-worked-sign-new-deal-with-eu",
+        "published": "Mon, 16 Nov 2026 07:00:38 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Brexit Andy Burnham European Union Europe World news Politics Foreign policy UK news Trade policy Economic policy",
+        "image": "https://i.guim.co.uk/img/media/a9167ab535ad3f6ea97ad5092601ebdb54f5d261/247_0_6155_4927/master/6155.jpg?width=140&quality=85&auto=format&fit=max&s=9a45417adf85d4e3c1c1bd540b62862b"
+      },
+      {
+        "title": "UK exposed to polycrisis of threats amid government ‘complacency’",
+        "link": "https://www.theguardian.com/society/2026/nov/16/uk-exposed-to-polycrisis-of-threats-amid-government-complacency",
+        "published": "Mon, 16 Nov 2026 06:30:35 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Emergency planning UK news House of Commons Cyberwar Climate crisis Extreme weather Politics Espionage Hacking House of Lords AI (artificial intelligence) Food security Drugs",
+        "image": "https://i.guim.co.uk/img/media/3ba762c70e9c188fc6533e353ffe9c2e077e95c6/0_0_4183_3347/master/4183.jpg?width=140&quality=85&auto=format&fit=max&s=2e252d83e1e5acf197ba4a3668df8463"
+      },
+      {
+        "title": "Prep for disaster, ministers said – and millions stocked up. It’s the UK government that’s not ready | Jean Coussins",
+        "link": "https://www.theguardian.com/commentisfree/2026/nov/16/uk-prep-disaster-stock-government-ready-food-water-cash-resilience",
+        "published": "Mon, 16 Nov 2026 06:30:34 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Emergency planning Society UK news Politics Food & drink industry Cybercrime",
+        "image": "https://i.guim.co.uk/img/media/bdd6a2572638f3f085f4aad893ad136f37b09021/720_0_5039_4031/master/5039.jpg?width=140&quality=85&auto=format&fit=max&s=6c54cda4b22b4684c97d99281fb0ec23"
+      },
+      {
         "title": "Home Office accused of trying to cancel online talk by Andreas Malm",
         "link": "https://www.theguardian.com/politics/2026/nov/16/home-office-andreas-malm-climate-academic-online-talk",
         "published": "Mon, 16 Nov 2026 06:00:37 GMT",
@@ -196,24 +223,6 @@
         "image": "https://i.guim.co.uk/img/media/930d01efe71df8352c4ebe534faf5b61d3fc8f15/0_0_4724_3780/master/4724.jpg?width=140&quality=85&auto=format&fit=max&s=b97a5e389c6e04fe4c81e5938a3069f3"
       },
       {
-        "title": "Special needs overhaul in England could bring in new avenues for extra support",
-        "link": "https://www.theguardian.com/education/2026/nov/16/families-rights-appeal-support-send-overhaul-england",
-        "published": "Mon, 16 Nov 2026 06:00:35 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Special educational needs Schools Lucy Powell School funding Department for Education Children Education policy Politics England Education UK news",
-        "image": "https://i.guim.co.uk/img/media/681dfa3b17c9c913ee0e3c919781fa3616c07b1d/479_0_2917_2333/master/2917.jpg?width=140&quality=85&auto=format&fit=max&s=1b73623dac318a1cc46941c9e4d3c148"
-      },
-      {
-        "title": "From post-midterms Republicans to a dog wearing a cone: Edith Pritchett’s week in Venn diagrams – cartoon",
-        "link": "https://www.theguardian.com/lifeandstyle/picture/2026/nov/16/edith-pritchett-week-in-venn-diagrams-cartoon-burnham-eu-republicans-midterms-north-sea-oil",
-        "published": "Mon, 16 Nov 2026 06:00:34 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Life and style Politics",
-        "image": "https://i.guim.co.uk/img/media/55e76f0bc3d406208f8c0aadcad403f3fcd882f3/1_0_1684_1346/master/1684.jpg?width=140&quality=85&auto=format&fit=max&s=ef8efe29f48229e10a61102b019d8323"
-      },
-      {
         "title": "Government accused of 'complacency' over 'catastrophic' security risks to UK",
         "link": "https://news.sky.com/story/government-accused-of-complacency-over-catastrophic-security-risks-to-uk-13612651",
         "published": "Mon, 16 Nov 2026 00:28:00 +0000",
@@ -221,15 +230,6 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/11/1920x1080/skynews-food-shop-supermarket_7407479.jpg?20261116035926"
-      },
-      {
-        "title": "Burnham pledges early intervention and ‘benefits backstop’ to tackle youth jobs crisis",
-        "link": "https://www.theguardian.com/society/2026/nov/15/no-free-lunch-milburn-mcfadden-kuenssberg-uk-benefits-youth-unemployment-neet",
-        "published": "Mon, 16 Nov 2026 00:06:13 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Youth unemployment Andy Burnham Benefits Universal credit Welfare Young people Politics UK news Pat McFadden Disability Society",
-        "image": "https://i.guim.co.uk/img/media/b9948bd228b02aa56a0356f2a3f2713b85d83833/290_0_4473_3579/master/4473.jpg?width=140&quality=85&auto=format&fit=max&s=ac37a8f6dd0b557e724874bc86532ce8"
       },
       {
         "title": "Sky News announces new hosts of Sunday Morning With…",
@@ -278,6 +278,15 @@
       }
     ],
     "BUSINESS": [
+      {
+        "title": "My brother is guilt-tripping me into becoming an unpaid carer for our mum",
+        "link": "https://metro.co.uk/2026/11/16/brother-guilt-tripping-becoming-unpaid-carer-mum-29793095/",
+        "published": "Mon, 16 Nov 2026 07:00:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Lifestyle Money Family Money Tips Mums The Money Problem",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/11/GettyImages-1257664292-7443.jpg?quality=90&strip=all&w=646"
+      },
       {
         "title": "When the boss has an affair, the whole family business can pay the price",
         "link": "https://www.theguardian.com/business/2026/nov/15/nvidia-ceo-jensen-huang-affair-business",
@@ -333,15 +342,6 @@
         "image": "https://i.guim.co.uk/img/media/7ed43949a5180577da723e2bf8cbe9c1ff30a73b/116_0_2500_2000/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=a42d4b21d85e960cc27767128ff75b5b"
       },
       {
-        "title": "Microsoft outage shakes up companies, schools and local governments across US",
-        "link": "https://www.theguardian.com/technology/2026/nov/13/microsoft-outage-shakes-up-companies-local-governments",
-        "published": "Fri, 13 Nov 2026 21:13:59 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Microsoft Technology US news Computing Business Software",
-        "image": "https://i.guim.co.uk/img/media/b63ef4b2cd095319a80edb2f7cb40f210d4581c1/564_0_3154_2523/master/3154.jpg?width=140&quality=85&auto=format&fit=max&s=00f4153beac0510e18c3ba0bc72b2e40"
-      },
-      {
         "title": "Job adverts to be legally required to include salary information",
         "link": "https://metro.co.uk/2026/11/05/job-adverts-legally-required-include-salary-information-29770124/",
         "published": "Thu, 05 Nov 2026 22:30:00 +0000",
@@ -371,6 +371,15 @@
     ],
     "TECH": [
       {
+        "title": "Here is why you are seeing ‘pervert glasses’ everywhere in London today",
+        "link": "https://metro.co.uk/2026/11/16/seeing-pervert-glasses-everywhere-london-today-29793766/",
+        "published": "Mon, 16 Nov 2026 07:00:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News UK Artificial Intelligence Kylie Jenner Mark Zuckerberg",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/11/comp-option-smart-glasses.png?w=646"
+      },
+      {
         "title": "UK exposed to polycrisis of threats amid government ‘complacency’",
         "link": "https://www.theguardian.com/society/2026/nov/16/uk-exposed-to-polycrisis-of-threats-amid-government-complacency",
         "published": "Mon, 16 Nov 2026 06:30:35 GMT",
@@ -387,6 +396,15 @@
         "provider": "METRO",
         "categories": "Entertainment Gaming Disney Games Inbox GTA 6 Rockstar Games Star Wars The Game Awards The Legend of Zelda",
         "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310234382-c3ac.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Elon Musk joins 165,000 others calling for Nvidia to bring back Jensen Huang in open letter",
+        "link": "https://www.theguardian.com/technology/2026/nov/16/elon-musk-tech-execs-open-letter-jensen-huang-return-nvidia-ceo",
+        "published": "Mon, 16 Nov 2026 01:01:08 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Nvidia Jensen Huang US news Technology AI (artificial intelligence) Trump administration Elon Musk Silicon Valley China Business",
+        "image": "https://i.guim.co.uk/img/media/e480adfe7860e9e4439f965fe15e55a5e4ff13f0/555_0_5960_4770/master/5960.jpg?width=140&quality=85&auto=format&fit=max&s=50878ed33290d246ee0c626a144dabdb"
       },
       {
         "title": "Evercade Nexus review – a retro gaming handheld for the ages",
@@ -414,24 +432,6 @@
         "provider": "METRO",
         "categories": "Horoscopes Lifestyle Aquarius Aries Astrology Cancer (star sign) Capricorn Gemini Leo Libra Pisces Sagittarius Scorpio Taurus Virgo",
         "image": "https://metro.co.uk/wp-content/uploads/2023/04/new-horoscope-2023-02-a5db.gif?w=646"
-      },
-      {
-        "title": "How sensitive data from Centrelink and other Australian agencies may have been fed to Palantir software",
-        "link": "https://www.theguardian.com/technology/2026/nov/16/personal-data-centrelink-ato-ndis-palantir",
-        "published": "Sun, 15 Nov 2026 21:06:03 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Palantir Australia news Technology Australian politics Peter Thiel",
-        "image": "https://i.guim.co.uk/img/media/7ca1181a4138e0412b2c6313ada9da4dd8a1edde/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=becab6b376ee3eed7f61fa71160c247c"
-      },
-      {
-        "title": "‘Grand Theft Auto Flu’: is the whole world really taking the day off work to play GTA VI?",
-        "link": "https://www.theguardian.com/games/2026/nov/16/grand-theft-auto-gta-vi-first-new-game-released-in-13-years",
-        "published": "Sun, 15 Nov 2026 14:00:15 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Grand Theft Auto VI Games Culture",
-        "image": "https://i.guim.co.uk/img/media/cad0cb203d4cb07169ebae435e7d4b9bf4f5096a/548_0_2700_2160/master/2700.jpg?width=140&quality=85&auto=format&fit=max&s=f9e5e16e2f9144dbfd137c4aace6276d"
       },
       {
         "title": "FBI seizes $1.2bn stolen in Binance cryptocurrency hack",
@@ -555,6 +555,24 @@
     ],
     "STOCKS": [
       {
+        "title": "Rolls-Royce shares just did it again",
+        "link": "https://www.twelfthmagpie.com/2026/11/16/rolls-royce-shares-just-did-it-again/",
+        "published": "Mon, 16 Nov 2026 07:07:05 +0000",
+        "source": "The Twelfth Magpie",
+        "provider": "MAGPIE",
+        "categories": "Growth Shares Investing Articles",
+        "image": "https://www.twelfthmagpie.com/wp-content/uploads/2026/10/Stock_HappyWoman.jpeg"
+      },
+      {
+        "title": "Prediction: Diageo’s turnaround strategy will make its shares jump by…",
+        "link": "https://www.twelfthmagpie.com/2026/11/16/prediction-diageos-turnaround-strategy-will-make-its-shares-jump-by/",
+        "published": "Mon, 16 Nov 2026 07:01:00 +0000",
+        "source": "The Twelfth Magpie",
+        "provider": "MAGPIE",
+        "categories": "Investing Articles Investing For Beginners",
+        "image": "https://www.twelfthmagpie.com/wp-content/uploads/2024/07/Publican-1200x800.jpg"
+      },
+      {
         "title": "I asked ChatGPT how ridiculous Musk’s $100trn SpaceX stock claim was",
         "link": "https://www.twelfthmagpie.com/2026/11/16/i-asked-chatgpt-how-ridiculous-musks-100trn-claim-about-spacex-stock-was/",
         "published": "Mon, 16 Nov 2026 06:07:11 +0000",
@@ -598,24 +616,6 @@
         "provider": "MAGPIE",
         "categories": "Dividend Shares Investing Articles",
         "image": "https://www.twelfthmagpie.com/wp-content/uploads/2024/07/Beach-bike-ride-1200x800.jpg"
-      },
-      {
-        "title": "Where are the opportunities in the UK stock market?",
-        "link": "https://www.twelfthmagpie.com/2026/11/15/where-are-the-opportunities-in-the-uk-stock-market/",
-        "published": "Sun, 15 Nov 2026 17:06:00 +0000",
-        "source": "The Twelfth Magpie",
-        "provider": "MAGPIE",
-        "categories": "Investing Articles Value Shares",
-        "image": "https://www.twelfthmagpie.com/wp-content/uploads/2023/03/Looking-at-the-details-1200x675.jpg"
-      },
-      {
-        "title": "Here’s how to start investing with £25 a week",
-        "link": "https://www.twelfthmagpie.com/2026/11/15/heres-how-to-start-investing-with-25-a-week/",
-        "published": "Sun, 15 Nov 2026 17:01:00 +0000",
-        "source": "The Twelfth Magpie",
-        "provider": "MAGPIE",
-        "categories": "Investing Articles Investing For Beginners",
-        "image": "https://www.twelfthmagpie.com/wp-content/uploads/2024/05/British-money-1200x801.jpg"
       },
       {
         "title": "US Supreme Court to consider lawsuit over Robinhood's 2021 IPO",
@@ -743,7 +743,7 @@
           },
           "REUTERS": {
             "ok": true,
-            "count": 11,
+            "count": 12,
             "retainedPrevious": 0,
             "errors": [
               "https://www.reuters.com/arc/outboundfeeds/v3/all/?outputType=xml: 404 Not Found"
@@ -794,15 +794,6 @@
             "image": "https://e3.365dm.com/26/11/1920x1080/skynews-michael-gove-matt-forde_7405909.jpg?20261113153631"
           },
           {
-            "title": "'I'm applying for 8-9 jobs a week and getting nothing back': Young people on struggle to find work",
-            "link": "https://news.sky.com/story/im-applying-for-8-9-jobs-a-week-and-getting-nothing-back-young-people-on-struggle-to-find-work-13612667",
-            "published": "Mon, 16 Nov 2026 06:12:00 +0000",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/11/1920x1080/skynews-neets-martin-young_7407245.png?20261115191916"
-          },
-          {
             "title": "Man dies after being struck by ambulance",
             "link": "https://news.sky.com/story/man-dies-after-being-struck-by-ambulance-near-sunderland-13612455",
             "published": "Sun, 15 Nov 2026 12:06:00 +0000",
@@ -837,6 +828,15 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/11/1920x1080/skynews-richard-williams-sas_7406468.jpg?20261114144431"
+          },
+          {
+            "title": "Man, 21, stabbed to death in London",
+            "link": "https://news.sky.com/story/man-21-stabbed-to-death-in-london-13612274",
+            "published": "Sat, 14 Nov 2026 17:12:00 +0000",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/11/1920x1080/skynews-thomas-oduro-murder_7406589.jpg?20261114172534"
           }
         ],
         "WORLD": [
@@ -1587,6 +1587,24 @@
         ],
         "POLITICS": [
           {
+            "title": "Andy Burnham to say Brexit ‘has not worked’ and he will sign new deal with EU",
+            "link": "https://www.theguardian.com/politics/2026/nov/16/andy-burnham-brexit-has-not-worked-sign-new-deal-with-eu",
+            "published": "Mon, 16 Nov 2026 07:00:38 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Brexit Andy Burnham European Union Europe World news Politics Foreign policy UK news Trade policy Economic policy",
+            "image": "https://i.guim.co.uk/img/media/a9167ab535ad3f6ea97ad5092601ebdb54f5d261/247_0_6155_4927/master/6155.jpg?width=140&quality=85&auto=format&fit=max&s=9a45417adf85d4e3c1c1bd540b62862b"
+          },
+          {
+            "title": "UK exposed to polycrisis of threats amid government ‘complacency’",
+            "link": "https://www.theguardian.com/society/2026/nov/16/uk-exposed-to-polycrisis-of-threats-amid-government-complacency",
+            "published": "Mon, 16 Nov 2026 06:30:35 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Emergency planning UK news House of Commons Cyberwar Climate crisis Extreme weather Politics Espionage Hacking House of Lords AI (artificial intelligence) Food security Drugs",
+            "image": "https://i.guim.co.uk/img/media/3ba762c70e9c188fc6533e353ffe9c2e077e95c6/0_0_4183_3347/master/4183.jpg?width=140&quality=85&auto=format&fit=max&s=2e252d83e1e5acf197ba4a3668df8463"
+          },
+          {
             "title": "Home Office accused of trying to cancel online talk by Andreas Malm",
             "link": "https://www.theguardian.com/politics/2026/nov/16/home-office-andreas-malm-climate-academic-online-talk",
             "published": "Mon, 16 Nov 2026 06:00:37 GMT",
@@ -1632,22 +1650,13 @@
             "image": "https://i.guim.co.uk/img/media/4ecc02fb0d0fc19818ecb0509a94abb8c809af8d/283_0_6172_4940/master/6172.jpg?width=140&quality=85&auto=format&fit=max&s=087ed29827ad9a46cb71ef1906d4ef63"
           },
           {
-            "title": "Planned asylum seeker detention centre next to Oxfordshire sewage works criticised",
-            "link": "https://www.theguardian.com/uk-news/2026/nov/15/planned-asylum-seeker-detention-centre-next-to-oxfordshire-sewage-works-criticised",
-            "published": "Sun, 15 Nov 2026 16:47:39 GMT",
+            "title": "Prep for disaster, ministers said – and millions stocked up. It’s the UK government that’s not ready | Jean Coussins",
+            "link": "https://www.theguardian.com/commentisfree/2026/nov/16/uk-prep-disaster-stock-government-ready-food-water-cash-resilience",
+            "published": "Mon, 16 Nov 2026 06:30:34 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Immigration and asylum Oxfordshire UK news Politics Thames Water Home Office",
-            "image": "https://i.guim.co.uk/img/media/d09ed18d9dd0cdd685e28614ca19c5a774a69750/268_0_2268_1816/master/2268.jpg?width=140&quality=85&auto=format&fit=max&s=a94ae645f7999f7bde5d4240fd8be790"
-          },
-          {
-            "title": "Obama portrait artist draws Burnham for Big Issue cover to highlight rough sleeping vow",
-            "link": "https://www.theguardian.com/society/2026/nov/15/obama-portrait-artist-draws-burnham-big-issue-rough-sleeping-vow-shepard-fairey",
-            "published": "Sun, 15 Nov 2026 12:00:15 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Homelessness Andy Burnham UK news Shepard Fairey The Big Issue Street art Housing Politics Society Art",
-            "image": "https://i.guim.co.uk/img/media/208466e37890210b61c6218af791b07a065ebe46/0_20_1240_991/master/1240.jpg?width=140&quality=85&auto=format&fit=max&s=ebc8ddf22b9aacce0110fad1b337da33"
+            "categories": "Emergency planning Society UK news Politics Food & drink industry Cybercrime",
+            "image": "https://i.guim.co.uk/img/media/bdd6a2572638f3f085f4aad893ad136f37b09021/720_0_5039_4031/master/5039.jpg?width=140&quality=85&auto=format&fit=max&s=6c54cda4b22b4684c97d99281fb0ec23"
           },
           {
             "title": "The Guardian view on Cop31: the green transition must not be derailed | Editorial",
@@ -1702,15 +1711,6 @@
             "provider": "GUARDIAN",
             "categories": "United Nations United Arab Emirates Sudan Middle East and north Africa World news Foreign policy US foreign policy Politics",
             "image": "https://i.guim.co.uk/img/media/a306d86ea8e9ae4032d1581ae50da27baedd2b31/359_0_2523_2019/master/2523.jpg?width=140&quality=85&auto=format&fit=max&s=0d9f71bff2f90233f03fa68ff4cf21fa"
-          },
-          {
-            "title": "A rapid interest rate rise seems inevitable – and households are expected to pick up the tab",
-            "link": "https://www.theguardian.com/business/2026/nov/14/interest-rate-rise-phillip-inman-inflation-economy",
-            "published": "Sat, 14 Nov 2026 16:00:48 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Bank of England Inflation Interest rates Economic growth (GDP) Economics Business Politics UK news",
-            "image": "https://i.guim.co.uk/img/media/91a65d8728a29fe09fb1706e308ff8c46b77c4d6/187_0_2954_2363/master/2954.jpg?width=140&quality=85&auto=format&fit=max&s=f97dd0061161f4f38fc8ed6c84f1fd3d"
           },
           {
             "title": "Pasta, pies and paperwork errors: the reality of Brexit food checks",
@@ -2023,6 +2023,15 @@
             "image": "https://i.guim.co.uk/img/media/3ba762c70e9c188fc6533e353ffe9c2e077e95c6/0_0_4183_3347/master/4183.jpg?width=140&quality=85&auto=format&fit=max&s=2e252d83e1e5acf197ba4a3668df8463"
           },
           {
+            "title": "Elon Musk joins 165,000 others calling for Nvidia to bring back Jensen Huang in open letter",
+            "link": "https://www.theguardian.com/technology/2026/nov/16/elon-musk-tech-execs-open-letter-jensen-huang-return-nvidia-ceo",
+            "published": "Mon, 16 Nov 2026 01:01:08 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Nvidia Jensen Huang US news Technology AI (artificial intelligence) Trump administration Elon Musk Silicon Valley China Business",
+            "image": "https://i.guim.co.uk/img/media/e480adfe7860e9e4439f965fe15e55a5e4ff13f0/555_0_5960_4770/master/5960.jpg?width=140&quality=85&auto=format&fit=max&s=50878ed33290d246ee0c626a144dabdb"
+          },
+          {
             "title": "Reports of AI-related child sexual abuse material rise 8,400% in two years, data shows",
             "link": "https://www.theguardian.com/technology/2026/nov/16/ai-related-child-sexual-abuse-material-rise-exploitation-deepfakes",
             "published": "Mon, 16 Nov 2026 00:01:27 GMT",
@@ -2039,15 +2048,6 @@
             "provider": "GUARDIAN",
             "categories": "Australian politics AI (artificial intelligence) Datacentres - Australia Technology Australia news Liberal party Labor party Intellectual property Australian music Coalition",
             "image": "https://i.guim.co.uk/img/media/bb100c4ad17c64282442b40c27895d51765e32dd/0_0_3485_2789/master/3485.jpg?width=140&quality=85&auto=format&fit=max&s=d72d9f2961e3b70e5c920ce9fd1fa088"
-          },
-          {
-            "title": "Nvidia scandal: US treasury chief blames Lutnick’s commerce department over alleged lack of action",
-            "link": "https://www.theguardian.com/technology/2026/nov/13/nvidia-scandal-sparks-us-national-security-concerns-china",
-            "published": "Fri, 13 Nov 2026 19:51:28 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Nvidia Jensen Huang China US politics Asia Pacific Technology AI (artificial intelligence) Trump administration Donald Trump US news US national security CIA Technology sector Computing Espionage Business World news",
-            "image": "https://i.guim.co.uk/img/media/5534caea091e39afe776168281e50dd327c8be8e/563_0_3334_2668/master/3334.jpg?width=140&quality=85&auto=format&fit=max&s=62c117f622bf4e5987845906efdee2f7"
           },
           {
             "title": "How sensitive data from Centrelink and other Australian agencies may have been fed to Palantir software",
@@ -2345,6 +2345,15 @@
       "categories": {
         "UK": [
           {
+            "title": "The Forest Boy: Inside the mysterious case that turned out to be a hoax",
+            "link": "https://metro.co.uk/2026/11/16/forest-boy-inside-mysterious-case-turned-a-hoax-29778669/",
+            "published": "Mon, 16 Nov 2026 07:00:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News Features Metro newspaper Real Life",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/11/Forest-boy-2-feb4-e1794248475293.jpg?quality=90&strip=all&w=646"
+          },
+          {
             "title": "Cheerleaders at under-18 competition targeted by online ‘creep-shotters’",
             "link": "https://metro.co.uk/2026/11/16/cheerleaders-under-18-competition-targeted-online-creep-shotters-29703839/",
             "published": "Mon, 16 Nov 2026 06:00:00 +0000",
@@ -2514,15 +2523,6 @@
             "provider": "METRO",
             "categories": "News UK Crime News London",
             "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_320642852-db01.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Deadly crash may have been avoided if police were sent to the right place sooner",
-            "link": "https://metro.co.uk/2026/11/14/deadly-crash-may-avoided-police-sent-right-place-sooner-29792637/",
-            "published": "Sat, 14 Nov 2026 16:36:02 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News UK Crash London Metropolitan Police",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_320631540-9f09.jpg?quality=90&strip=all&w=646"
           }
         ],
         "WORLD": [
@@ -2669,15 +2669,6 @@
             "provider": "METRO",
             "categories": "News Home Office Shabana Mahmood",
             "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_252126580-6598.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "USA star lifts lid on Mauricio Pochettio approach that will delight Man Utd fans",
-            "link": "https://metro.co.uk/2026/11/15/usa-star-lifts-lid-mauricio-pochettio-approach-will-delight-man-utd-fans-29793813/",
-            "published": "Sun, 15 Nov 2026 14:24:49 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Football Sport Manchester United Mauricio Pochettino",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_320751253-a91d.jpg?quality=90&strip=all&w=646"
           }
         ],
         "POLITICS": [
@@ -2961,9 +2952,27 @@
             "provider": "METRO",
             "categories": "Music News Tech UK Artificial Intelligence Business London London Grassroots Music Tube Map SXSW London 2026",
             "image": "https://metro.co.uk/wp-content/uploads/2026/05/SEI_299101165-c269.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "My brother is guilt-tripping me into becoming an unpaid carer for our mum",
+            "link": "https://metro.co.uk/2026/11/16/brother-guilt-tripping-becoming-unpaid-carer-mum-29793095/",
+            "published": "Mon, 16 Nov 2026 07:00:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Lifestyle Money Family Money Tips Mums The Money Problem",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/11/GettyImages-1257664292-7443.jpg?quality=90&strip=all&w=646"
           }
         ],
         "TECH": [
+          {
+            "title": "Here is why you are seeing ‘pervert glasses’ everywhere in London today",
+            "link": "https://metro.co.uk/2026/11/16/seeing-pervert-glasses-everywhere-london-today-29793766/",
+            "published": "Mon, 16 Nov 2026 07:00:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News UK Artificial Intelligence Kylie Jenner Mark Zuckerberg",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/11/comp-option-smart-glasses.png?w=646"
+          },
           {
             "title": "Games Inbox: Are you taking time off to play GTA 6?",
             "link": "https://metro.co.uk/2026/11/16/games-inbox-taking-time-off-play-gta-6-29794318/",
@@ -3209,7 +3218,7 @@
         },
         "WORLD": {
           "ok": true,
-          "count": 17
+          "count": 16
         },
         "POLITICS": {
           "ok": true,
@@ -3217,11 +3226,11 @@
         },
         "BUSINESS": {
           "ok": true,
-          "count": 18
+          "count": 19
         },
         "TECH": {
           "ok": true,
-          "count": 6
+          "count": 7
         },
         "ENTERTAINMENT": {
           "ok": true,
@@ -3599,6 +3608,24 @@
             "image": ""
           },
           {
+            "title": "Retail buyers limit Nvidia stock rout",
+            "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVHdDV1ltYXhSMVY3dUtMMGxkZHdxRld0cThBSlQzUmt2NE9fTENSM2NZWHowSk9wZS1ObXpTVFZqNlZ2dUQxam5NVC0yYXNBcW41amRsbXFMbEFfblNLWXNkSUhnOGcwOWFocUlyQllReDBwSjdzakJMZTNkYUpDN3FMY0QxaWVSeGRtNVEyOEJFNlRjb1ZXMFJmTXIxeUU?oc=5",
+            "published": "Thu, 12 Nov 2026 20:10:35 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "Equities close lower as Nvidia drop outweighs energy gains",
+            "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQY01YWkJBY3Roa2hlWkVsbHhpcHplMm5NX09pWEJlMC1rWTY1ZDJoTUh0elc0WTZvdmpDOXJhS04tN2J5Y0N4NmZPdGk0aUhKdVZLT2RMSTk4S2EyZEJMYzY3WnpMMklfRjF3ZEJXZzU3d1VBTmlWS3Y1cllaYURseVQ4Nl93RFVLOXB4M1J6bnM1YVQ5QXBaSDZCOXEwUQ?oc=5",
+            "published": "Thu, 12 Nov 2026 09:37:00 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
             "title": "European shares log record close on Siemens, CoreWeave-fueled AI optimism",
             "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPVlRWM1JkZFR6Qy1vb0dDbkhqTHRsd2FIaGV4SUdSWkxITF9ndW1UNExHR2IyZk1uV2JjMU5XVndQRUxMVXI0d1QzV3ZfZkNYQVhHOEZueDEzb3ZWaDVwYjNyV3BvZnJpbGVQeFl0ZjBxNUxzdzdORWFodTBDSGtlQXBHaXAwc1pUMEMyeEtOdHhZdkMyYkVxLWYwR0FlTC0wWDNGck9HNG11b0NMN3NMbHVWcFlsTUlUSXc?oc=5",
             "published": "Wed, 11 Nov 2026 17:53:08 GMT",
@@ -3642,15 +3669,6 @@
             "provider": "REUTERS",
             "categories": "",
             "image": ""
-          },
-          {
-            "title": "COMMENTARY: Middle East oil price war heralds post-conflict glut",
-            "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOWWdUbTZOMkxOdnRzOHBPdHRWSFBmNG1jZnFISWQ0MVFaWEc1MUlkTjRuNlhSQzdMQWQxaXQzYTBOTGtBd0NkYnRNTFNHaDlNZ0xwVU1JODVSMFdLZnREeGttWWlEdmE3ZnJwODdnMG5iQnJwRlZBbDZvOEU5UjczRC1UcGo5S0p4U01KZWMzcVBjNEdnWW42clRaR1U5QXpoMHh1bnE0T2phU1I1OEpUVFJJUHN2LThoMFd3WGJR?oc=5",
-            "published": "Mon, 09 Nov 2026 09:04:24 GMT",
-            "source": "Reuters",
-            "provider": "REUTERS",
-            "categories": "",
-            "image": ""
           }
         ]
       },
@@ -3663,7 +3681,7 @@
         },
         "STOCKS": {
           "ok": true,
-          "count": 11,
+          "count": 12,
           "retainedPrevious": 0,
           "errors": [
             "https://www.reuters.com/arc/outboundfeeds/v3/all/?outputType=xml: 404 Not Found"
@@ -3674,6 +3692,24 @@
     "MAGPIE": {
       "categories": {
         "STOCKS": [
+          {
+            "title": "Rolls-Royce shares just did it again",
+            "link": "https://www.twelfthmagpie.com/2026/11/16/rolls-royce-shares-just-did-it-again/",
+            "published": "Mon, 16 Nov 2026 07:07:05 +0000",
+            "source": "The Twelfth Magpie",
+            "provider": "MAGPIE",
+            "categories": "Growth Shares Investing Articles",
+            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2026/10/Stock_HappyWoman.jpeg"
+          },
+          {
+            "title": "Prediction: Diageo’s turnaround strategy will make its shares jump by…",
+            "link": "https://www.twelfthmagpie.com/2026/11/16/prediction-diageos-turnaround-strategy-will-make-its-shares-jump-by/",
+            "published": "Mon, 16 Nov 2026 07:01:00 +0000",
+            "source": "The Twelfth Magpie",
+            "provider": "MAGPIE",
+            "categories": "Investing Articles Investing For Beginners",
+            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2024/07/Publican-1200x800.jpg"
+          },
           {
             "title": "I asked ChatGPT how ridiculous Musk’s $100trn SpaceX stock claim was",
             "link": "https://www.twelfthmagpie.com/2026/11/16/i-asked-chatgpt-how-ridiculous-musks-100trn-claim-about-spacex-stock-was/",
@@ -3736,24 +3772,6 @@
             "provider": "MAGPIE",
             "categories": "Dividend Shares Investing Articles",
             "image": "https://www.twelfthmagpie.com/wp-content/uploads/2024/07/Counting-money-1200x802.jpg"
-          },
-          {
-            "title": "Here’s how to invest £20,000 in a Stocks and Shares ISA to target an 8% dividend yield.",
-            "link": "https://www.twelfthmagpie.com/2026/11/15/heres-how-to-invest-a-20000-in-a-stocks-and-shares-isa-to-target-an-8-dividend-yield/",
-            "published": "Sun, 15 Nov 2026 12:43:29 +0000",
-            "source": "The Twelfth Magpie",
-            "provider": "MAGPIE",
-            "categories": "Dividend Shares Investing Articles",
-            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2022/10/Investor-research.jpg"
-          },
-          {
-            "title": "Up 80%, are Western Digital shares an AI trade hiding in plain sight?",
-            "link": "https://www.twelfthmagpie.com/2026/11/15/up-80-are-western-digital-shares-an-ai-trade-hiding-in-plain-sight/",
-            "published": "Sun, 15 Nov 2026 10:05:00 +0000",
-            "source": "The Twelfth Magpie",
-            "provider": "MAGPIE",
-            "categories": "Investing Articles US Stock",
-            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2023/04/Coffee-1200x675.jpg"
           }
         ]
       },
@@ -3769,5 +3787,5 @@
       }
     }
   },
-  "stocksUpdated": "2026-11-16T06:45:58.893Z"
+  "stocksUpdated": "2026-11-16T07:11:16.570Z"
 }
