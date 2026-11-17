@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T18:28:02.849Z",
+  "updated": "2026-11-17T21:03:12.923Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -102,7 +102,7 @@
       {
         "title": "The World of Bunny Vs Monkey",
         "author": "",
-        "image": "https://storage.googleapis.com/lr-assets/main/covers/1791798310-world-of-bunny-vs-monkey-hardback-front-cover-rgb-1-312x400.jpg"
+        "image": "https://storage.googleapis.com/lr-assets/_nielsen/200/9780241769416.jpg"
       },
       {
         "title": "Lottie Brooks's Twelve Disasters of Christmas",
@@ -123,13 +123,13 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-11-17T18:28:02.850Z",
-      "lastSuccessfulRefresh": "2026-11-17T18:28:02.850Z",
+      "checkedAt": "2026-11-17T21:03:12.923Z",
+      "lastSuccessfulRefresh": "2026-11-17T21:03:12.923Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
       "status": "stale",
-      "checkedAt": "2026-11-17T18:28:16.102Z",
+      "checkedAt": "2026-11-17T21:03:28.210Z",
       "lastSuccessfulRefresh": "2026-11-16T07:11:28.780Z",
       "reason": "503 https://www.audible.co.uk/charts/best"
     }
