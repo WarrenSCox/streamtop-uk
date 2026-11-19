@@ -1,7 +1,16 @@
 {
-  "updated": "2026-11-19T07:36:37.074Z",
+  "updated": "2026-11-19T07:50:25.744Z",
   "categories": {
     "UK": [
+      {
+        "title": "How long will young people be waiting for change after the Milburn report?",
+        "link": "https://metro.co.uk/2026/11/19/long-will-young-people-waiting-change-milburn-report-29802330/",
+        "published": "Thu, 19 Nov 2026 07:40:18 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News Politics Andy Burnham British Government",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_278091663-8783.jpg?quality=90&strip=all&w=646"
+      },
       {
         "title": "Trump points at Putin and jokes ‘who is he?’ before saying ‘he’s my friend’",
         "link": "https://metro.co.uk/2026/11/19/trump-points-putin-jokes-who-saying-hes-friend-29803174/",
@@ -55,15 +64,6 @@
         "provider": "METRO",
         "categories": "News UK British Transport Police Kent Rail This is Not Right",
         "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_321160732-d0a5.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "EasyJet flight makes U-turn after declaring emergency due to ‘bird strike’",
-        "link": "https://metro.co.uk/2026/11/18/easyjet-flight-makes-u-turn-declaring-emergency-due-bird-strike-29801779/",
-        "published": "Wed, 18 Nov 2026 22:03:52 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News UK Bristol Airport Flights",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_321111619-99f2.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "Children among hundreds of thousands of London transport users who may have been hit by data breach",
@@ -187,6 +187,15 @@
     ],
     "POLITICS": [
       {
+        "title": "How long will young people be waiting for change after the Milburn report?",
+        "link": "https://metro.co.uk/2026/11/19/long-will-young-people-waiting-change-milburn-report-29802330/",
+        "published": "Thu, 19 Nov 2026 07:40:18 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News Politics Andy Burnham British Government",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_278091663-8783.jpg?quality=90&strip=all&w=646"
+      },
+      {
         "title": "Ram through datacentres no one wants and hope the AI bubble never bursts: that’s the UK’s growth plan | George Monbiot",
         "link": "https://www.theguardian.com/commentisfree/2026/nov/19/uk-growth-plan-datacentres-ai-bubble-big-tech",
         "published": "Thu, 19 Nov 2026 06:00:19 GMT",
@@ -212,15 +221,6 @@
         "provider": "GUARDIAN",
         "categories": "Tulip Siddiq Labour Bangladesh Politics UK news World news",
         "image": "https://i.guim.co.uk/img/media/8855d537c98024a3980af1a52e6d724b5a59685c/456_0_4560_3648/master/4560.jpg?width=140&quality=85&auto=format&fit=max&s=b9a678f6534bdf3f03fb99b3daf55464"
-      },
-      {
-        "title": "Andy Burnham is in danger of over-selling his big Brussels summit. What happens if he under-delivers? | Joël Reland",
-        "link": "https://www.theguardian.com/commentisfree/2026/nov/19/andy-burnham-risks-over-selling-his-big-brussels-summit-what-happens-if-he-under-delivers",
-        "published": "Thu, 19 Nov 2026 05:00:18 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Brexit European Union Andy Burnham Europe Foreign policy Politics UK news World news",
-        "image": "https://i.guim.co.uk/img/media/8c0792480f8e66c2c1ec6e4c21c70c6820aff06c/437_0_4370_3496/master/4370.jpg?width=140&quality=85&auto=format&fit=max&s=6a445bbe18ad1c1ffefda92c295112c3"
       },
       {
         "title": "Homes could face £400 energy bill hike in January – what will that mean for you?",
@@ -268,13 +268,13 @@
         "image": "https://e3.365dm.com/26/11/1920x1080/skynews-andy-burnham-wales_7406338.jpg?20261114113449"
       },
       {
-        "title": "Brejoin? Is Andy Burnham going to reverse Brexit? – podcast",
-        "link": "https://www.theguardian.com/news/audio/2026/nov/19/brejoin-is-andy-burnham-going-to-reverse-brexit-podcast",
-        "published": "Thu, 19 Nov 2026 03:00:15 GMT",
+        "title": "Andy Burnham is in danger of over-selling his big Brussels summit. What happens if he under-delivers? | Joël Reland",
+        "link": "https://www.theguardian.com/commentisfree/2026/nov/19/andy-burnham-risks-over-selling-his-big-brussels-summit-what-happens-if-he-under-delivers",
+        "published": "Thu, 19 Nov 2026 05:00:18 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
-        "categories": "European Union Brexit Andy Burnham Foreign policy Politics UK news",
-        "image": "https://i.guim.co.uk/img/media/0f3f9c5fb91730c4a2fd1bab3c90fed9828719bf/218_0_5160_4128/master/5160.jpg?width=140&quality=85&auto=format&fit=max&s=6198b33d64a258efb3718d0bd78fc033"
+        "categories": "Brexit European Union Andy Burnham Europe Foreign policy Politics UK news World news",
+        "image": "https://i.guim.co.uk/img/media/8c0792480f8e66c2c1ec6e4c21c70c6820aff06c/437_0_4370_3496/master/4370.jpg?width=140&quality=85&auto=format&fit=max&s=6a445bbe18ad1c1ffefda92c295112c3"
       }
     ],
     "BUSINESS": [
@@ -1256,7 +1256,7 @@
             "source": "The Guardian",
             "provider": "GUARDIAN",
             "categories": "Brexit Foreign policy European Union Europe Politics UK news World news",
-            "image": "https://i.guim.co.uk/img/media/f7ad60a116dae04179547396d95174f6a9e9f4d8/1000_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=f5cf8619c3e847045eddc8cc1b23273b"
+            "image": "https://i.guim.co.uk/img/media/23982dd7bf21c4a556aaef5d8e716b31dde60ae4/432_0_4320_3456/master/4320.jpg?width=140&quality=85&auto=format&fit=max&s=0f2735f6234fd080c6d6379e04f34315"
           },
           {
             "title": "Burnham considering cuts to national insurance to create more youth jobs",
@@ -1584,7 +1584,7 @@
             "source": "The Guardian",
             "provider": "GUARDIAN",
             "categories": "Brexit Foreign policy European Union Europe Politics UK news World news",
-            "image": "https://i.guim.co.uk/img/media/f7ad60a116dae04179547396d95174f6a9e9f4d8/1000_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=f5cf8619c3e847045eddc8cc1b23273b"
+            "image": "https://i.guim.co.uk/img/media/23982dd7bf21c4a556aaef5d8e716b31dde60ae4/432_0_4320_3456/master/4320.jpg?width=140&quality=85&auto=format&fit=max&s=0f2735f6234fd080c6d6379e04f34315"
           },
           {
             "title": "Ram through datacentres no one wants and hope the AI bubble never bursts: that’s the UK’s growth plan | George Monbiot",
@@ -2282,6 +2282,15 @@
       "categories": {
         "UK": [
           {
+            "title": "How long will young people be waiting for change after the Milburn report?",
+            "link": "https://metro.co.uk/2026/11/19/long-will-young-people-waiting-change-milburn-report-29802330/",
+            "published": "Thu, 19 Nov 2026 07:40:18 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News Politics Andy Burnham British Government",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_278091663-8783.jpg?quality=90&strip=all&w=646"
+          },
+          {
             "title": "Trump points at Putin and jokes ‘who is he?’ before saying ‘he’s my friend’",
             "link": "https://metro.co.uk/2026/11/19/trump-points-putin-jokes-who-saying-hes-friend-29803174/",
             "published": "Thu, 19 Nov 2026 07:03:47 +0000",
@@ -2451,15 +2460,6 @@
             "provider": "METRO",
             "categories": "News World Assisted Dying Coronavirus Death",
             "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_321109038-406b-e1795001376577.jpg?quality=90&strip=all&w=638"
-          },
-          {
-            "title": "Massive explosion that ‘shook houses’ in Rochdale may have been caused by a hot tub",
-            "link": "https://metro.co.uk/2026/11/18/massive-explosion-shook-houses-rochdale-may-caused-a-hot-tub-29801269/",
-            "published": "Wed, 18 Nov 2026 12:45:01 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News UK Fire Rochdale",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_321089045-506e.jpg?quality=90&strip=all&w=646"
           }
         ],
         "WORLD": [
@@ -2627,6 +2627,15 @@
           }
         ],
         "POLITICS": [
+          {
+            "title": "How long will young people be waiting for change after the Milburn report?",
+            "link": "https://metro.co.uk/2026/11/19/long-will-young-people-waiting-change-milburn-report-29802330/",
+            "published": "Thu, 19 Nov 2026 07:40:18 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News Politics Andy Burnham British Government",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_278091663-8783.jpg?quality=90&strip=all&w=646"
+          },
           {
             "title": "Homes could face £400 energy bill hike in January – what will that mean for you?",
             "link": "https://metro.co.uk/2026/11/18/443-energy-bill-hike-january-mean-29800624/",
@@ -3168,7 +3177,7 @@
         },
         "POLITICS": {
           "ok": true,
-          "count": 15
+          "count": 16
         },
         "BUSINESS": {
           "ok": true,
@@ -3572,15 +3581,6 @@
             "image": ""
           },
           {
-            "title": "Wall Street ends mixed after Nvidia earnings, Fed minutes",
-            "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNLUw0WGdCZWFQMDBna01NRTEzWEQxbHlSU2RHS2FFX0dIdDc5Si1kQjdzRVFpSTRLeThVQ1V5NG01UG1HSGtJNFZOYjI0OHpIbHRvWjdNOFNjZWhhYzFTWVJJVklORUV4YmJoOWhjd1Nhc1hULXVVYncyUmZUQjJwMFh4RGJsSFhhcjlwc2NpVUhNUEdfQXdsekQ1c3AzZVlZcUdSN3ZlTDJUQ3g4WjRlNHhydEJ2OVJTeHpj?oc=5",
-            "published": "Wed, 18 Nov 2026 10:28:00 GMT",
-            "source": "Reuters",
-            "provider": "REUTERS",
-            "categories": "",
-            "image": ""
-          },
-          {
             "title": "Nvidia's numbers impress but investors fret over CEO succession",
             "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbldlWEozckRZVFhNcGlyNVhJSkxoQ1E2UFduQ3ZaNHFBT0RKMW12eTNJV1BhNzZVMENXWFk0OWE1Z1RWRlUwMW82a2RhYm9kQjlIcmlUb1dzNVBUU25hVHQ5eEdVckRac3B5cUlFMjZkUUlJUFYyZFdjVW95R1ZiT0JZdnFSM0RvMG8tdkxOY21uNFRuOGRTdFJqMzBySXgtTDQ2T2ZzUDdzb1UxbGtfeA?oc=5",
             "published": "Wed, 18 Nov 2026 08:33:31 GMT",
@@ -3638,6 +3638,15 @@
             "title": "Wall Street ends lower ahead of Nvidia results, focus turns to Anthropic debut",
             "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOemNySVhGbms1VkxVYXFsTFdtdVh1MjNQQk16Y1ZfNGFHMFhDRWUtZldZRzJzSWxpNlBLWVpTenJnU2FHZndaVUlEclFtQVNvTzJBWTNpM1p0N3dmWjlyMEFKbkowZkpSanhVcEVLUjZfOWxNcW5OZVFuLTNFNF93ZDd4b0wxX1VzNlJPODdqc0xob1ZrR0xuQkJ6bExvNDdQMk5saFVSdkVBZw?oc=5",
             "published": "Tue, 17 Nov 2026 10:51:00 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "EXCLUSIVE: India may limit leveraged stock bets to curb volatility, sources say",
+            "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQOW0tQWdjMmJOOUJOV3RYNzByeUVmLTZNYTRKTGszNHBqTVR2OHlrZnBLQXN6UlhFeFhOMGRBblFpSTJjcVJVckMybVJDYnhWU01VanpQOWNkVXFhZmlrYXM0empDNE5aXzBSQUVnSnBTSDlYZ3JJNURScmdzSFM5ei1VTTdiZVVhOTA4RjdOMHF0VkQ4bHhVdFZRek91d0NXVjlxVkh1UmMxWDZMMmpfelJ0aHhubWRu?oc=5",
+            "published": "Tue, 17 Nov 2026 08:22:58 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3769,5 +3778,5 @@
       }
     }
   },
-  "stocksUpdated": "2026-11-19T07:36:42.752Z"
+  "stocksUpdated": "2026-11-19T07:50:32.034Z"
 }
