@@ -1,7 +1,16 @@
 {
-  "updated": "2026-11-20T06:59:30.390Z",
+  "updated": "2026-11-20T07:27:53.651Z",
   "categories": {
     "UK": [
+      {
+        "title": "What impact has Brexit had on the UK and EU economies?",
+        "link": "https://www.theguardian.com/business/2026/nov/20/what-impact-brexit-uk-eu-economies",
+        "published": "Fri, 20 Nov 2026 07:00:26 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Economics Brexit Economic policy Global economy European Union International trade Trade policy Politics European Commission Europe Business UK news",
+        "image": "https://i.guim.co.uk/img/media/262689907bb3a962b8ff4c1ec998672008bc17cc/1037_0_7200_5760/master/7200.jpg?width=140&quality=85&auto=format&fit=max&s=7211935cbb241db32158355594f03df7"
+      },
       {
         "title": "Piccadilly Line TfL workers strike for 24 hours in row over sacked colleague",
         "link": "https://metro.co.uk/2026/11/20/piccadilly-line-tfl-workers-strike-24-hours-row-sacked-colleague-29805949/",
@@ -82,18 +91,18 @@
         "provider": "METRO",
         "categories": "News UK Crime News London Metropolitan Police",
         "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_209251649-0d4b.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Man who ‘tortured Brit to death’ messages revealed as he ‘tried to cover tracks’",
-        "link": "https://metro.co.uk/2026/11/19/man-tortured-brit-death-messages-revealed-tried-cover-tracks-29805901/",
-        "published": "Thu, 19 Nov 2026 22:32:25 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News US Crime News",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_306613588-3cdd-e1792431783569.jpg?quality=90&strip=all&w=646"
       }
     ],
     "WORLD": [
+      {
+        "title": "Vape users hospitalised after losing consciousness, prompting public health warning in New South Wales",
+        "link": "https://www.theguardian.com/australia-news/2026/nov/20/vape-users-hospitalised-after-losing-consciousness-prompting-public-health-warning-in-new-south-wales",
+        "published": "Fri, 20 Nov 2026 07:17:01 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Health New South Wales Australia news Vaping",
+        "image": "https://i.guim.co.uk/img/media/a8c083df952ff966868d4c06e9dd4da0fa335d1a/481_0_3661_2929/master/3661.jpg?width=140&quality=85&auto=format&fit=max&s=5df6a99a90c9e39471ef25a952defa4a"
+      },
       {
         "title": "Baby born with heart abnormalities ‘didn’t have a chance’ after non-medical free birth, NSW inquest hears",
         "link": "https://www.theguardian.com/australia-news/2026/nov/20/routine-checks-may-have-saved-babies-lives-freebirth-inquest-nsw-ntwnfb",
@@ -129,15 +138,6 @@
         "provider": "GUARDIAN",
         "categories": "United Nations World news Foreign policy United Arab Emirates Middle East and north Africa António Guterres US foreign policy Americas Costa Rica Politics",
         "image": "https://i.guim.co.uk/img/media/7298fc5c87ed7c445360fa35f598662e4d8a510d/624_0_2779_2223/master/2779.jpg?width=140&quality=85&auto=format&fit=max&s=810844650f584edda94e8970574c9af8"
-      },
-      {
-        "title": "Beau Lamarre-Condon’s explanations of body disposal ‘ring hollow’, court hears",
-        "link": "https://www.theguardian.com/australia-news/2026/nov/20/beau-lamarre-condons-attempts-to-explain-disposal-alleged-victims-bodies-ring-hollow-court-hears-ntwnfb",
-        "published": "Fri, 20 Nov 2026 04:58:21 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "New South Wales Australia news Sydney",
-        "image": "https://i.guim.co.uk/img/media/ebfc885f7db8935002487a469a0f9baba836690e/421_206_2120_1696/master/2120.jpg?width=140&quality=85&auto=format&fit=max&s=12490dfac7ffce2dab18fa22c1de279f"
       },
       {
         "title": "Saudi's tallest skyscraper damaged in Houthi attack",
@@ -187,6 +187,24 @@
     ],
     "POLITICS": [
       {
+        "title": "What impact has Brexit had on the UK and EU economies?",
+        "link": "https://www.theguardian.com/business/2026/nov/20/what-impact-brexit-uk-eu-economies",
+        "published": "Fri, 20 Nov 2026 07:00:26 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Economics Brexit Economic policy Global economy European Union International trade Trade policy Politics European Commission Europe Business UK news",
+        "image": "https://i.guim.co.uk/img/media/262689907bb3a962b8ff4c1ec998672008bc17cc/1037_0_7200_5760/master/7200.jpg?width=140&quality=85&auto=format&fit=max&s=7211935cbb241db32158355594f03df7"
+      },
+      {
+        "title": "While the headlines rave about Milburn’s Neets review, the young people I know are angry and frustrated | Felicity Halstead",
+        "link": "https://www.theguardian.com/commentisfree/2026/nov/20/alan-milburn-review-neets-welfare-reform-youth-unemployment",
+        "published": "Fri, 20 Nov 2026 07:00:25 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Youth unemployment Unemployment Society Young people UK news Politics",
+        "image": "https://i.guim.co.uk/img/media/54ee2dd7912086ac9c759c7784085d6cc82423d7/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=78fceb5e38ceab15ae25464e1cc5ccbf"
+      },
+      {
         "title": "Race to be next UN secretary general exposes divisions among world powers",
         "link": "https://www.theguardian.com/world/2026/nov/20/race-to-be-next-un-secretary-general-exposes-divisions-among-world-powers",
         "published": "Fri, 20 Nov 2026 05:00:24 GMT",
@@ -223,24 +241,6 @@
         "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_321310361-f951.jpg?quality=90&strip=all&w=646"
       },
       {
-        "title": "UK-EU reset talks will go ‘down to the wire’ as crunch summit approaches",
-        "link": "https://www.theguardian.com/world/2026/nov/19/uk-eu-reset-talks-andy-burnham-food-farming-tuition-fees",
-        "published": "Thu, 19 Nov 2026 20:52:05 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "European Union Europe Andy Burnham Trade policy Politics UK news",
-        "image": "https://i.guim.co.uk/img/media/78f4d52aa44fb56369bd027db2731ab2539e3e15/426_0_4300_3440/master/4300.jpg?width=140&quality=85&auto=format&fit=max&s=40b967ab32c7307a2b2a90e3326ee460"
-      },
-      {
-        "title": "Jason White on Andy Burnham’s overtures to the EU – cartoon",
-        "link": "https://www.theguardian.com/commentisfree/picture/2026/nov/19/jason-white-on-andy-burnhams-overtures-to-the-eu-cartoon",
-        "published": "Thu, 19 Nov 2026 18:49:01 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "European Union Brexit Europe Foreign policy Politics UK news World news Andy Burnham",
-        "image": "https://i.guim.co.uk/img/media/4a9be051c3c86ae0cadc642e00166c001b42fcdc/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=e8f8ec28ee49316b089becf0b66d7076"
-      },
-      {
         "title": "Robert Jenrick’s parody of GTA VI starring himself raises a few questions",
         "link": "https://metro.co.uk/2026/11/19/robert-jenricks-parody-gta-vi-starring-raises-a-questions-29803572/",
         "published": "Thu, 19 Nov 2026 13:02:08 +0000",
@@ -268,13 +268,13 @@
         "image": "https://e3.365dm.com/26/10/1920x1080/skynews-nato-army-training_7370199.jpg?20261007075725"
       },
       {
-        "title": "It’s unfashionable to say it, but class still matters – and young people know that | Polly Toynbee",
-        "link": "https://www.theguardian.com/commentisfree/2026/nov/19/class-young-people-nepotism-workplace-social-inequality",
-        "published": "Thu, 19 Nov 2026 18:36:23 GMT",
+        "title": "UK-EU reset talks will go ‘down to the wire’ as crunch summit approaches",
+        "link": "https://www.theguardian.com/world/2026/nov/19/uk-eu-reset-talks-andy-burnham-food-farming-tuition-fees",
+        "published": "Thu, 19 Nov 2026 20:52:05 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
-        "categories": "Inequality Young people Education Politics Society UK news",
-        "image": "https://i.guim.co.uk/img/media/aa64d365246fd0ca982a31a9867d309e058ef47b/0_91_2656_2125/master/2656.jpg?width=140&quality=85&auto=format&fit=max&s=dc58f126c7ccd1661791e603c2903912"
+        "categories": "European Union Europe Andy Burnham Trade policy Politics UK news",
+        "image": "https://i.guim.co.uk/img/media/78f4d52aa44fb56369bd027db2731ab2539e3e15/426_0_4300_3440/master/4300.jpg?width=140&quality=85&auto=format&fit=max&s=40b967ab32c7307a2b2a90e3326ee460"
       }
     ],
     "BUSINESS": [
@@ -463,6 +463,24 @@
     ],
     "ENTERTAINMENT": [
       {
+        "title": "Gemma Chan: ‘Channing Tatum’s new role is nothing like Magic Mike’",
+        "link": "https://metro.co.uk/2026/11/20/gemma-chan-channing-tatums-new-role-nothing-like-magic-mike-29795964/",
+        "published": "Fri, 20 Nov 2026 07:00:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Entertainment Film Channing Tatum",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315509519-a0bc.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Emmerdale confirms shocking Tom lie that proves he’s still evil",
+        "link": "https://metro.co.uk/2026/11/20/emmerdale-confirms-shocking-tom-king-lie-proves-still-evil-29796581/",
+        "published": "Fri, 20 Nov 2026 07:00:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Emmerdale Soaps Belle Dingle Eden Taylor-Draper James Chase Tom King",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_320284963-a0c8.jpg?quality=90&strip=all&w=646"
+      },
+      {
         "title": "Factory worker dies after ‘destroying’ own rectum in air gun mishap",
         "link": "https://metro.co.uk/2026/11/19/factory-worker-dies-destroying-rectum-air-gun-mishap-29805828/",
         "published": "Thu, 19 Nov 2026 22:14:49 +0000",
@@ -479,24 +497,6 @@
         "provider": "METRO",
         "categories": "Emmerdale Soaps Claire King Kim Tate Patsy Kensit Sadie King",
         "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_320285119-70f5.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Russell Brand ‘fears going bald’ after being stripped of shampoo in prison",
-        "link": "https://metro.co.uk/2026/11/19/russell-brand-fears-going-bald-stripped-shampoo-prison-29805773/",
-        "published": "Thu, 19 Nov 2026 20:49:57 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Entertainment Showbiz Prisons Russell Brand",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_319585051-f99c.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Ross grimly proud by Tyrone’s reaction to Hope as Coronation Street spoilers reveal what happens next",
-        "link": "https://metro.co.uk/2026/11/19/ross-proud-tyrones-reaction-hope-coronation-street-spoilers-reveal-next-29803727/",
-        "published": "Thu, 19 Nov 2026 20:30:00 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Coronation Street Soaps Alan Halsall Tyrone Dobbs",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_320284886-9106-e1795086344399.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "The Further Mis-Adventures of Cliff Booth review – Tarantino and Fincher join forces for Brad Pitt’s glorious return",
@@ -555,6 +555,15 @@
     ],
     "STOCKS": [
       {
+        "title": "Indian finance hub eyes dual share model to kickstart public offers, sources say",
+        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbW5TRW5QLXdYUDN1STlVWDlRYXNrU0dRT3VZbThKZ0o3dG00a0R3ZUpfUjU3WDFEUzJxTWFOdXhkZHBHTmZoMnhZdFBDQXcyTEg4bHJ4dUtoSDZPanJyak8yUFNxVXdZV09UYXdmSnRzRkVNUUxaWG1QTS1oVnRwM21SczN6WDJJNC1BeGhqMkx4bTZUUG9DcWVlR2E4RVYtYks2dEdrZm11bjF1Nlp0NjFQTVJ0UU1oa0dPZmFVS2dvOVZPVUFvNQ?oc=5",
+        "published": "Fri, 20 Nov 2026 06:46:00 GMT",
+        "source": "Reuters",
+        "provider": "REUTERS",
+        "categories": "",
+        "image": ""
+      },
+      {
         "title": "Dow Jones Futures: Techs Slide, Anthropic Retreats After Ugly Market Reversal To New Lows",
         "link": "https://uk.finance.yahoo.com/m/9e02231d-41cd-31ac-b37f-993325b8a4ca/dow-jones-futures%3A-techs.html?.tsrc=rss",
         "published": "Fri, 20 Nov 2026 04:09:46 +0000",
@@ -576,15 +585,6 @@
         "title": "Asia shares drop on AI worries, echoing Wall Street's decline despite the strong Anthropic debut",
         "link": "https://finance.yahoo.com/markets/stocks/articles/asia-shares-drop-ai-worries-031709382.html?.tsrc=rss",
         "published": "Fri, 20 Nov 2026 03:17:09 +0000",
-        "source": "Yahoo Finance",
-        "provider": "YAHOO",
-        "categories": "",
-        "image": ""
-      },
-      {
-        "title": "Anthropic Stock Slips After-Hours as Blockbuster IPO Does Little for AI Names: OpenAI-Backer SoftBank Crashes in Nikkei Meltdown",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/anthropic-stock-slips-hours-blockbuster-015552218.html?.tsrc=rss",
-        "published": "Fri, 20 Nov 2026 01:55:52 +0000",
         "source": "Yahoo Finance",
         "provider": "YAHOO",
         "categories": "",
@@ -735,7 +735,7 @@
           },
           "YAHOO": {
             "ok": true,
-            "count": 9,
+            "count": 8,
             "retainedPrevious": 0,
             "errors": [
               "https://finance.yahoo.com/news/rssindex: 404 Not Found"
@@ -884,15 +884,6 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/11/1920x1080/skynews-palestinians-gaza_7409882.jpg?20261118205348"
-          },
-          {
-            "title": "William and Kate meet India's PM as they wrap up royal visit",
-            "link": "https://news.sky.com/story/prince-william-and-kate-meet-indias-pm-narendra-modi-as-they-wrap-up-royal-visit-13613699",
-            "published": "Wed, 18 Nov 2026 18:54:00 +0000",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/11/1920x1080/skynews-modi-william-kate_7409824.jpg?20261118192123"
           }
         ],
         "POLITICS": [
@@ -1118,7 +1109,7 @@
         },
         "WORLD": {
           "ok": true,
-          "count": 9
+          "count": 8
         },
         "POLITICS": {
           "ok": true,
@@ -1268,6 +1259,15 @@
             "image": "https://i.guim.co.uk/img/media/d22aed040ea988c178a195f0f52489f33b337771/260_0_2600_2080/master/2600.jpg?width=140&quality=85&auto=format&fit=max&s=c7fbb09467e069ed6610b96d562a8048"
           },
           {
+            "title": "What impact has Brexit had on the UK and EU economies?",
+            "link": "https://www.theguardian.com/business/2026/nov/20/what-impact-brexit-uk-eu-economies",
+            "published": "Fri, 20 Nov 2026 07:00:26 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Economics Brexit Economic policy Global economy European Union International trade Trade policy Politics European Commission Europe Business UK news",
+            "image": "https://i.guim.co.uk/img/media/262689907bb3a962b8ff4c1ec998672008bc17cc/1037_0_7200_5760/master/7200.jpg?width=140&quality=85&auto=format&fit=max&s=7211935cbb241db32158355594f03df7"
+          },
+          {
             "title": "What is at stake at the EU-UK summit in Brussels?",
             "link": "https://www.theguardian.com/politics/2026/nov/19/eu-uk-summit-explainer-burnham-brexit-brussels",
             "published": "Thu, 19 Nov 2026 13:11:23 GMT",
@@ -1293,15 +1293,6 @@
             "provider": "GUARDIAN",
             "categories": "Brexit European Union Europe Foreign policy Politics UK news Labour Andy Burnham World news",
             "image": "https://i.guim.co.uk/img/media/e7e77af1ae8f833009340ea6ee0c97de81ec17f2/0_0_4903_3922/master/4903.jpg?width=140&quality=85&auto=format&fit=max&s=a012fd8a6c11c067882c24e746e84b99"
-          },
-          {
-            "title": "Energy price cap rise: how to switch providers",
-            "link": "https://www.theguardian.com/money/2026/nov/18/energy-price-cap-rise-how-to-beat-the-january-hike",
-            "published": "Wed, 18 Nov 2026 12:52:05 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Energy bills Consumer affairs Household bills Money Saving money Energy industry Business UK cost of living crisis UK news",
-            "image": "https://i.guim.co.uk/img/media/418a09fb88cb2accf037a1de2d48ca13618da2ea/117_0_1768_1414/master/1768.jpg?width=140&quality=85&auto=format&fit=max&s=51bb8d5d85e55244bfce31c3e3910b58"
           },
           {
             "title": "Is it time to change the UK age of consent? – podcast",
@@ -1459,6 +1450,15 @@
             "image": "https://i.guim.co.uk/img/media/74ea5af6d2da16d80eca867a35183ae07fb370fa/193_0_2247_1798/master/2247.jpg?width=140&quality=85&auto=format&fit=max&s=ea3a6c350de36a5ebefbb42b1e349a25"
           },
           {
+            "title": "Vape users hospitalised after losing consciousness, prompting public health warning in New South Wales",
+            "link": "https://www.theguardian.com/australia-news/2026/nov/20/vape-users-hospitalised-after-losing-consciousness-prompting-public-health-warning-in-new-south-wales",
+            "published": "Fri, 20 Nov 2026 07:17:01 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Health New South Wales Australia news Vaping",
+            "image": "https://i.guim.co.uk/img/media/a8c083df952ff966868d4c06e9dd4da0fa335d1a/481_0_3661_2929/master/3661.jpg?width=140&quality=85&auto=format&fit=max&s=5df6a99a90c9e39471ef25a952defa4a"
+          },
+          {
             "title": "Baby born with heart abnormalities ‘didn’t have a chance’ after non-medical free birth, NSW inquest hears",
             "link": "https://www.theguardian.com/australia-news/2026/nov/20/routine-checks-may-have-saved-babies-lives-freebirth-inquest-nsw-ntwnfb",
             "published": "Fri, 20 Nov 2026 06:51:54 GMT",
@@ -1493,18 +1493,18 @@
             "provider": "GUARDIAN",
             "categories": "Datacentres - Australia Technology AI (artificial intelligence) Australia news Victoria",
             "image": "https://i.guim.co.uk/img/media/9acf294a8c0fe26735bc3164495be1c8cbfbe068/683_0_6827_5464/master/6827.jpg?width=140&quality=85&auto=format&fit=max&s=17900272fc8dd5c5221231513aab8877"
-          },
-          {
-            "title": "‘Perfect weapon’: diabetic woman found guilty of murdering her 94-year-old parents with insulin",
-            "link": "https://www.theguardian.com/australia-news/2026/nov/20/diabetic-woman-found-guilty-murdering-94-year-old-parents-with-insulin-ntwnfb",
-            "published": "Fri, 20 Nov 2026 04:15:16 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Australia news South Australia Adelaide",
-            "image": "https://i.guim.co.uk/img/media/526c54d5025c65a86473a42bf78176c1075209bc/0_0_3780_3024/master/3780.jpg?width=140&quality=85&auto=format&fit=max&s=17f5e4a51ede2a5b3d0859d583ef842d"
           }
         ],
         "POLITICS": [
+          {
+            "title": "What impact has Brexit had on the UK and EU economies?",
+            "link": "https://www.theguardian.com/business/2026/nov/20/what-impact-brexit-uk-eu-economies",
+            "published": "Fri, 20 Nov 2026 07:00:26 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Economics Brexit Economic policy Global economy European Union International trade Trade policy Politics European Commission Europe Business UK news",
+            "image": "https://i.guim.co.uk/img/media/262689907bb3a962b8ff4c1ec998672008bc17cc/1037_0_7200_5760/master/7200.jpg?width=140&quality=85&auto=format&fit=max&s=7211935cbb241db32158355594f03df7"
+          },
           {
             "title": "UK-EU reset talks will go ‘down to the wire’ as crunch summit approaches",
             "link": "https://www.theguardian.com/world/2026/nov/19/uk-eu-reset-talks-andy-burnham-food-farming-tuition-fees",
@@ -1560,13 +1560,13 @@
             "image": "https://i.guim.co.uk/img/media/9f48ca68c40f6949ad41db2c7f564ebe5dd7e8e6/484_0_3334_2667/master/3334.jpg?width=140&quality=85&auto=format&fit=max&s=5e583813aa5c6f0dfa6f8b7f19988a49"
           },
           {
-            "title": "What is at stake at the EU-UK summit in Brussels?",
-            "link": "https://www.theguardian.com/politics/2026/nov/19/eu-uk-summit-explainer-burnham-brexit-brussels",
-            "published": "Thu, 19 Nov 2026 13:11:23 GMT",
+            "title": "While the headlines rave about Milburn’s Neets review, the young people I know are angry and frustrated | Felicity Halstead",
+            "link": "https://www.theguardian.com/commentisfree/2026/nov/20/alan-milburn-review-neets-welfare-reform-youth-unemployment",
+            "published": "Fri, 20 Nov 2026 07:00:25 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Brexit UK news Andy Burnham European Union Europe Politics Young people Emissions trading Ursula von der Leyen",
-            "image": "https://i.guim.co.uk/img/media/21ddeb28259d25b93c94905de55f645b5eb1d446/620_27_3852_3082/master/3852.jpg?width=140&quality=85&auto=format&fit=max&s=014c4a5d4fd21a693d5d5dd01b797882"
+            "categories": "Youth unemployment Unemployment Society Young people UK news Politics",
+            "image": "https://i.guim.co.uk/img/media/54ee2dd7912086ac9c759c7784085d6cc82423d7/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=78fceb5e38ceab15ae25464e1cc5ccbf"
           },
           {
             "title": "From Germany, with love: a letter to the UK | Klaus Brinkbäumer",
@@ -1621,15 +1621,6 @@
             "provider": "GUARDIAN",
             "categories": "Brexit European Union Andy Burnham Europe Foreign policy Politics UK news World news",
             "image": "https://i.guim.co.uk/img/media/8c0792480f8e66c2c1ec6e4c21c70c6820aff06c/437_0_4370_3496/master/4370.jpg?width=140&quality=85&auto=format&fit=max&s=6a445bbe18ad1c1ffefda92c295112c3"
-          },
-          {
-            "title": "Kemi and Andy put another nail in the coffin of his consensus politics | John Crace",
-            "link": "https://www.theguardian.com/politics/2026/nov/18/kemi-badenoch-andy-burnham-consensus-politics-pmqs",
-            "published": "Wed, 18 Nov 2026 17:35:35 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "PMQs House of Commons Politics Andy Burnham Kemi Badenoch UK news",
-            "image": "https://i.guim.co.uk/img/media/72d2d93ac690f9946e2a7b01570471c4755a8ea4/377_268_5443_4354/master/5443.jpg?width=140&quality=85&auto=format&fit=max&s=1e73cd17f01cce0804e556b1745e04b4"
           },
           {
             "title": "Race to be next UN secretary general exposes divisions among world powers",
@@ -2597,15 +2588,6 @@
             "provider": "METRO",
             "categories": "EastEnders Soaps Francesca Henry Gina Knight Kitty Castledine",
             "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_320856930-3470.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Andriy Shevchenko demands apology from Chelsea winger Mykhailo Mudryk over ‘baseless’ failed drugs test claims",
-            "link": "https://metro.co.uk/2026/11/19/andriy-shevchenko-demands-apology-mykhailo-mudryk-baseless-drugs-test-claims-29805259/",
-            "published": "Thu, 19 Nov 2026 16:48:34 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Football Sport Andriy Shevchenko Chelsea FC Mykhailo Mudryk Premier League Tottenham Hotspur Ukraine Ukraine football team",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_307361703-189f.jpg?quality=90&strip=all&w=646"
           }
         ],
         "POLITICS": [
@@ -2994,6 +2976,15 @@
         ],
         "ENTERTAINMENT": [
           {
+            "title": "Gemma Chan: ‘Channing Tatum’s new role is nothing like Magic Mike’",
+            "link": "https://metro.co.uk/2026/11/20/gemma-chan-channing-tatums-new-role-nothing-like-magic-mike-29795964/",
+            "published": "Fri, 20 Nov 2026 07:00:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment Film Channing Tatum",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315509519-a0bc.jpg?quality=90&strip=all&w=646"
+          },
+          {
             "title": "Russell Brand ‘fears going bald’ after being stripped of shampoo in prison",
             "link": "https://metro.co.uk/2026/11/19/russell-brand-fears-going-bald-stripped-shampoo-prison-29805773/",
             "published": "Thu, 19 Nov 2026 20:49:57 +0000",
@@ -3102,6 +3093,15 @@
             "image": "https://metro.co.uk/wp-content/uploads/2026/11/comp-1795081051.png?w=646"
           },
           {
+            "title": "Emmerdale confirms shocking Tom lie that proves he’s still evil",
+            "link": "https://metro.co.uk/2026/11/20/emmerdale-confirms-shocking-tom-king-lie-proves-still-evil-29796581/",
+            "published": "Fri, 20 Nov 2026 07:00:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Emmerdale Soaps Belle Dingle Eden Taylor-Draper James Chase Tom King",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_320284963-a0c8.jpg?quality=90&strip=all&w=646"
+          },
+          {
             "title": "Factory worker dies after ‘destroying’ own rectum in air gun mishap",
             "link": "https://metro.co.uk/2026/11/19/factory-worker-dies-destroying-rectum-air-gun-mishap-29805828/",
             "published": "Thu, 19 Nov 2026 22:14:49 +0000",
@@ -3164,7 +3164,7 @@
         },
         "WORLD": {
           "ok": true,
-          "count": 18
+          "count": 17
         },
         "POLITICS": {
           "ok": true,
@@ -3180,7 +3180,7 @@
         },
         "ENTERTAINMENT": {
           "ok": true,
-          "count": 18
+          "count": 20
         }
       }
     },
@@ -3363,15 +3363,6 @@
             "provider": "YAHOO",
             "categories": "",
             "image": ""
-          },
-          {
-            "title": "Trip.com (TCOM) Stock Moves -1.84%: What You Should Know",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/trip-com-tcom-stock-moves-220002933.html?.tsrc=rss",
-            "published": "Thu, 19 Nov 2026 22:00:02 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
           }
         ]
       },
@@ -3387,7 +3378,7 @@
         },
         "STOCKS": {
           "ok": true,
-          "count": 9,
+          "count": 8,
           "retainedPrevious": 0,
           "errors": [
             "https://finance.yahoo.com/news/rssindex: 404 Not Found"
@@ -3527,6 +3518,15 @@
         ],
         "STOCKS": [
           {
+            "title": "Indian finance hub eyes dual share model to kickstart public offers, sources say",
+            "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbW5TRW5QLXdYUDN1STlVWDlRYXNrU0dRT3VZbThKZ0o3dG00a0R3ZUpfUjU3WDFEUzJxTWFOdXhkZHBHTmZoMnhZdFBDQXcyTEg4bHJ4dUtoSDZPanJyak8yUFNxVXdZV09UYXdmSnRzRkVNUUxaWG1QTS1oVnRwM21SczN6WDJJNC1BeGhqMkx4bTZUUG9DcWVlR2E4RVYtYks2dEdrZm11bjF1Nlp0NjFQTVJ0UU1oa0dPZmFVS2dvOVZPVUFvNQ?oc=5",
+            "published": "Fri, 20 Nov 2026 06:46:00 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
             "title": "Japanese investors sought $9.4 billion of shares in Anthropic IPO, sources say",
             "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbzA3aGxPN3dWWXpGQ0NxUkVUdm9md2JpZnZQSjFtY0ZTeG1sazJtSUxMZHliR2Z2Rm5paDM2UjRwa3VXRDNUb2JCV0JOQkdiUnBnek50RTEtMGlCUmRsMTNaTkVfcklXVWk4SjZSRnFGN1BmblVxdVhfLVU3MkFkd3JYd21IY0ozME1KUjZUMjNXeHZGZzJxU3VrYWVkODc1RF9wZzA1UnBCRzBSY3dlQWllcEZaQzZGNXp6Z0JWTQ?oc=5",
             "published": "Thu, 19 Nov 2026 20:07:44 GMT",
@@ -3620,15 +3620,6 @@
             "title": "AI selloff has investors scrambling to measure their true exposure",
             "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPcHdOczVVbVFPLUNVbGtXQjhqRmNnMWN3eVlUOG5vRFpnM05ScWdkakZQTWhCTTh3T0JKcFlXN2k3d3ZEemxqbGRBUDZkTGtxMUg0SzlvRGxGUS1aWHNEVldEQ1dRVFU2RXVRdlhjZ3ZLRmN2Z3VkMjlTOUs2M0Z1MElIZklXT1dJejUtVTdxc3hXSFc5VXFhOWotQl9HV2ZKdEtfaDhZc2ZLWGRhQV9XVC1vb0REOW5IYmxF?oc=5",
             "published": "Mon, 16 Nov 2026 19:16:20 GMT",
-            "source": "Reuters",
-            "provider": "REUTERS",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "Stocks mostly ease with tech, Nvidia concerns; airline shares fall late in session",
-            "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZ0cyVmdPTTRkWGt3UlMtUFRyOGhvdDNlM1FYVy1MSVN0elpQZHgtWXctVEE1M2RjQm9IcmwzUGU4cEhEQnhsQWlOX2RhUFk1NzBXeFkwM3lMek16ajB1ZmozdGpLR0cwQ2JTcGVlTTJwMEc2ZFZ3bklxeTk4eElFaHZLaw?oc=5",
-            "published": "Sun, 15 Nov 2026 08:00:00 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3760,5 +3751,5 @@
       }
     }
   },
-  "stocksUpdated": "2026-11-20T06:59:34.992Z"
+  "stocksUpdated": "2026-11-20T07:27:58.284Z"
 }
