@@ -1,7 +1,19 @@
 {
-  "updated": "2026-11-20T20:30:27.695Z",
+  "updated": "2026-11-20T22:37:14.258Z",
   "charts": {
     "AUDIOBOOKS": [
+      {
+        "title": "Michael",
+        "author": "Bob Mortimer",
+        "narrator": "Bob Mortimer , Matt Berry",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e4/a8/5c/e4a85c40-36a7-ac29-d01b-b4e7d92e76b1/9781398548121.jpg/600x600bb.jpg"
+      },
+      {
+        "title": "Exoplanet",
+        "author": "Benjamin Percy",
+        "narrator": "Anthony Mackie , Ariana DeBose , John Leguizamo , Ray Porter , Cherry Jones , Aida Osman , Charlie Plummer , Sufe Bradshaw , Full cast",
+        "image": "https://m.media-amazon.com/images/I/51QMmltt5IL._SL500_.jpg"
+      },
       {
         "title": "All She Wants for Christmas",
         "author": "Lisa Jewell",
@@ -9,10 +21,10 @@
         "image": "https://m.media-amazon.com/images/I/51sHa2PFlvL._SL500_.jpg"
       },
       {
-        "title": "Exoplanet",
-        "author": "Benjamin Percy",
-        "narrator": "Anthony Mackie , Ariana DeBose , John Leguizamo , Ray Porter , Cherry Jones , Aida Osman , Charlie Plummer , Sufe Bradshaw , Full cast",
-        "image": "https://m.media-amazon.com/images/I/51QMmltt5IL._SL500_.jpg"
+        "title": "Sunrise on the Reaping (The Hunger Games)",
+        "author": "Suzanne Collins",
+        "narrator": "Jefferson White",
+        "image": "https://m.media-amazon.com/images/I/51aRJv+TnTL._SL500_.jpg"
       },
       {
         "title": "A Court of Splintered Harmony",
@@ -27,40 +39,28 @@
         "image": "https://covers.openlibrary.org/b/id/15143022-L.jpg"
       },
       {
-        "title": "Trainspotting",
-        "author": "Irvine Welsh",
-        "narrator": "Tam Dean Burn Burn",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/b9/59/5a/b9595a28-0e30-2b4a-629f-1fffcb8db135/9781448159550.jpg/600x600bb.jpg"
-      },
-      {
-        "title": "Sunrise on the Reaping (The Hunger Games)",
-        "author": "Suzanne Collins",
-        "narrator": "Jefferson White",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f0/5c/b6/f05cb68a-da4c-f986-ebf3-14af7fbaf690/9781546171492.png/600x600bb.jpg"
-      },
-      {
         "title": "The Witch",
         "author": "Freida McFadden",
         "narrator": "Saskia Maarleveld , Marin Ireland",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/21/e2/a3/21e2a31c-2e04-6d99-0af9-180a08fa96a2/9798349169328.jpg/600x600bb.jpg"
       },
       {
-        "title": "Michael",
-        "author": "Bob Mortimer",
-        "narrator": "Bob Mortimer , Matt Berry",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e4/a8/5c/e4a85c40-36a7-ac29-d01b-b4e7d92e76b1/9781398548121.jpg/600x600bb.jpg"
+        "title": "Bram Stoker's Dracula",
+        "author": "Bram Stoker",
+        "narrator": "Jonathan Bailey , Ella Purnell , Aimee Lou Wood , Louis Partridge , David Jonsson , Johnny Flynn , Lesley Manville , Maggie Gyllenhaal",
+        "image": "https://m.media-amazon.com/images/I/51nLhYS-rhL._SL500_.jpg"
       },
       {
         "title": "Carl's Doomsday Scenario",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://m.media-amazon.com/images/I/51e1PKKdv8L._SL500_.jpg"
+        "image": "https://covers.openlibrary.org/b/id/11702962-L.jpg"
       },
       {
         "title": "The Dungeon Anarchist's Cookbook",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays , The Critical Drinker",
-        "image": "https://m.media-amazon.com/images/I/518nfG1FaYL._SL500_.jpg"
+        "image": "https://covers.openlibrary.org/b/id/15277856-L.jpg"
       }
     ],
     "BOOKS": [
@@ -123,15 +123,15 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-11-20T20:30:27.696Z",
-      "lastSuccessfulRefresh": "2026-11-20T20:30:27.696Z",
+      "checkedAt": "2026-11-20T22:37:14.258Z",
+      "lastSuccessfulRefresh": "2026-11-20T22:37:14.258Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
-      "status": "stale",
-      "checkedAt": "2026-11-20T20:30:43.892Z",
-      "lastSuccessfulRefresh": "2026-11-19T00:15:54.297Z",
-      "reason": "503 https://www.audible.co.uk/charts/best"
+      "status": "healthy",
+      "checkedAt": "2026-11-20T22:37:25.129Z",
+      "lastSuccessfulRefresh": "2026-11-20T22:37:25.129Z",
+      "reason": ""
     }
   }
 }

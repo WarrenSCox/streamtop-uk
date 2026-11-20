@@ -1,7 +1,16 @@
 {
-  "updated": "2026-11-20T20:30:22.032Z",
+  "updated": "2026-11-20T22:37:09.955Z",
   "categories": {
     "UK": [
+      {
+        "title": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day of trading",
+        "link": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+        "published": "Fri, 20 Nov 2026 21:38:17 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Stock markets Anthropic Market turmoil US markets Technology sector IPOs Business Economics Global economy Technology Japan South Korea Asia Pacific World news AI (artificial intelligence) Internet IPOs UK news US news",
+        "image": "https://i.guim.co.uk/img/media/578833ee207aab76c1b6a542f17226703dbd735b/686_0_5336_4269/master/5336.jpg?width=140&quality=85&auto=format&fit=max&s=95af56c4e78299bd447fd1e5bd03b452"
+      },
       {
         "title": "BA flight grounded after ‘crew deploy evacuation slides before takeoff’",
         "link": "https://metro.co.uk/2026/11/20/ba-flight-grounded-crew-deploy-evacuation-slides-takeoff-29808343/",
@@ -39,15 +48,6 @@
         "image": "https://i.guim.co.uk/img/media/311ab8da7f054396f1dd576b47069e8b03792e22/304_0_4120_3296/master/4120.jpg?width=140&quality=85&auto=format&fit=max&s=b9430c6c19047b5b3153fa6497e7885e"
       },
       {
-        "title": "Andy, António and Ursula: the joyful EU throuple break Nigel’s bitter heart | John Crace",
-        "link": "https://www.theguardian.com/politics/2026/nov/20/andy-burnham-and-eu-ready-to-love-again-but-question-of-tuition-fees-glossed-over",
-        "published": "Fri, 20 Nov 2026 18:53:21 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Politics UK news",
-        "image": "https://i.guim.co.uk/img/media/0ff02806c4fa74fe8cd47255a9ce60c01e5961aa/520_0_5200_4160/master/5200.jpg?width=140&quality=85&auto=format&fit=max&s=1232f91d884dedf1912bb2954cb4b014"
-      },
-      {
         "title": "White supremacist convicted of plotting to firebomb migrant hotel",
         "link": "https://news.sky.com/story/white-supremacist-convicted-of-plotting-to-firebomb-migrant-hotel-13614434",
         "published": "Fri, 20 Nov 2026 18:46:00 +0000",
@@ -57,13 +57,22 @@
         "image": "https://e3.365dm.com/26/11/1920x1080/skynews-mikka-anderson-anderson_7411610.jpg?20261120165432"
       },
       {
-        "title": "'Alpha Sadist' jailed for life for murder of British woman he groomed on fetish website",
+        "title": "Man jailed for murder of British woman he groomed on fetish website",
         "link": "https://news.sky.com/story/alpha-sadist-jailed-for-life-for-murder-of-british-woman-he-groomed-on-fetish-website-13614463",
         "published": "Fri, 20 Nov 2026 18:39:00 +0000",
         "source": "Sky News",
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/07/1920x1080/skynews-sonia-exelby-florida_7308098.jpg?20260727205251"
+      },
+      {
+        "title": "Florida mechanic found guilty of murdering British woman who attorney says came to US to die",
+        "link": "https://www.theguardian.com/us-news/2026/nov/20/florida-man-guilty-murder-british-woman",
+        "published": "Fri, 20 Nov 2026 18:36:30 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Florida US crime US news UK news World news",
+        "image": "https://i.guim.co.uk/img/media/68822b4af6e85f21c7ca85d279e5ad43ec97d7f0/0_739_4252_3402/master/4252.jpg?width=140&quality=85&auto=format&fit=max&s=92f25a5d55d0fad5b5507d63e8834c52"
       },
       {
         "title": "Two men killed after glider plunges into Scottish loch",
@@ -73,15 +82,6 @@
         "provider": "METRO",
         "categories": "News UK Flights Scotland",
         "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_312595085-2e32.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Student who smashed Stone of Destiny exhibit says it was his ‘birthright’",
-        "link": "https://metro.co.uk/2026/11/20/student-smashed-stone-destiny-exhibit-says-birthright-29808013/",
-        "published": "Fri, 20 Nov 2026 17:00:39 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News UK Crime News",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_321311540-ad40.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "Two dead after microlight glider crashes",
@@ -95,6 +95,24 @@
     ],
     "WORLD": [
       {
+        "title": "Trump threatens ‘tremendous penalties’ on US tech firms that build datacenters abroad",
+        "link": "https://www.theguardian.com/us-news/2026/nov/20/trump-datacenters-white-house",
+        "published": "Fri, 20 Nov 2026 21:47:41 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Donald Trump US news World news US politics Russia China US foreign policy Europe Asia Pacific",
+        "image": "https://i.guim.co.uk/img/media/9532d886df85f2ca4c23d7e6a6341c606f995971/357_0_3572_2857/master/3572.jpg?width=140&quality=85&auto=format&fit=max&s=07ff49e86c3162c2f8cbd055b6230888"
+      },
+      {
+        "title": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day of trading",
+        "link": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+        "published": "Fri, 20 Nov 2026 21:38:17 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Stock markets Anthropic Market turmoil US markets Technology sector IPOs Business Economics Global economy Technology Japan South Korea Asia Pacific World news AI (artificial intelligence) Internet IPOs UK news US news",
+        "image": "https://i.guim.co.uk/img/media/578833ee207aab76c1b6a542f17226703dbd735b/686_0_5336_4269/master/5336.jpg?width=140&quality=85&auto=format&fit=max&s=95af56c4e78299bd447fd1e5bd03b452"
+      },
+      {
         "title": "Jodie uses shock explosion to her advantage as Coronation Street spoilers reveal what happens next",
         "link": "https://metro.co.uk/2026/11/20/coronation-street-spoilers-reveal-next-amid-jodie-plan-explosion-29806392/",
         "published": "Fri, 20 Nov 2026 20:00:00 +0000",
@@ -102,15 +120,6 @@
         "provider": "METRO",
         "categories": "Coronation Street Soaps Jodie Ramsey Olivia Frances-Brown",
         "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_320859260-a98d.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Anthropic shares slump on second day of trading as markets reel from AI sell-off",
-        "link": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
-        "published": "Fri, 20 Nov 2026 16:26:07 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Stock markets Anthropic Market turmoil US markets Technology sector IPOs Business Economics Global economy Technology Japan South Korea Asia Pacific World news AI (artificial intelligence) Internet IPOs UK news US news",
-        "image": "https://i.guim.co.uk/img/media/578833ee207aab76c1b6a542f17226703dbd735b/686_0_5336_4269/master/5336.jpg?width=140&quality=85&auto=format&fit=max&s=95af56c4e78299bd447fd1e5bd03b452"
       },
       {
         "title": "As the Coalition stares down One Nation in NSW, a new threat is rising: the teals",
@@ -128,7 +137,7 @@
         "source": "Sky News",
         "provider": "SKY",
         "categories": "",
-        "image": "https://e3.365dm.com/25/04/1920x1080/skynews-traders-new-york-stock-exchange_6881899.jpg?20250410154647"
+        "image": "https://e3.365dm.com/26/11/1920x1080/skynews-anthropic-nasdaq_7410960.jpg?20261119214359"
       },
       {
         "title": "‘Weak and dizzy’: the secretive ICE force-feeding tactics that ended a Cuban father’s hunger strike",
@@ -174,15 +183,6 @@
         "provider": "METRO",
         "categories": "News World Australia Terror",
         "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_278072382-6070-e1795119376102.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Putin displayed rarely seen gesture when meeting with ‘friend’ Trump",
-        "link": "https://metro.co.uk/2026/11/19/putin-displayed-rarely-seen-gesture-meeting-friend-trump-29803638/",
-        "published": "Thu, 19 Nov 2026 11:55:53 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News World Donald Trump Russia United States of America Vladimir Putin",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_321219564-0771.jpg?quality=90&strip=all&w=646"
       }
     ],
     "POLITICS": [
@@ -201,7 +201,7 @@
         "published": "Fri, 20 Nov 2026 18:53:21 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
-        "categories": "Politics UK news",
+        "categories": "Politics UK news Andy Burnham Brexit European Union Europe Ursula von der Leyen Foreign policy",
         "image": "https://i.guim.co.uk/img/media/0ff02806c4fa74fe8cd47255a9ce60c01e5961aa/520_0_5200_4160/master/5200.jpg?width=140&quality=85&auto=format&fit=max&s=1232f91d884dedf1912bb2954cb4b014"
       },
       {
@@ -279,6 +279,15 @@
     ],
     "BUSINESS": [
       {
+        "title": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day of trading",
+        "link": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+        "published": "Fri, 20 Nov 2026 21:38:17 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Stock markets Anthropic Market turmoil US markets Technology sector IPOs Business Economics Global economy Technology Japan South Korea Asia Pacific World news AI (artificial intelligence) Internet IPOs UK news US news",
+        "image": "https://i.guim.co.uk/img/media/578833ee207aab76c1b6a542f17226703dbd735b/686_0_5336_4269/master/5336.jpg?width=140&quality=85&auto=format&fit=max&s=95af56c4e78299bd447fd1e5bd03b452"
+      },
+      {
         "title": "What exactly is in the deal between the UK and the EU?",
         "link": "https://www.theguardian.com/politics/2026/nov/20/what-is-in-deal-between-uk-eu-explainer",
         "published": "Fri, 20 Nov 2026 18:19:53 GMT",
@@ -286,15 +295,6 @@
         "provider": "GUARDIAN",
         "categories": "Trade policy European Union Europe Brexit Foreign policy UK news Politics",
         "image": "https://i.guim.co.uk/img/media/7dc3c60fa8338bc5ee1369a6d31d699690231550/148_0_2427_1942/master/2427.jpg?width=140&quality=85&auto=format&fit=max&s=408ad629bea9f26f5474edd3bed42498"
-      },
-      {
-        "title": "Anthropic shares slump on second day of trading as markets reel from AI sell-off",
-        "link": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
-        "published": "Fri, 20 Nov 2026 16:26:07 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Stock markets Anthropic Market turmoil US markets Technology sector IPOs Business Economics Global economy Technology Japan South Korea Asia Pacific World news AI (artificial intelligence) Internet IPOs UK news US news",
-        "image": "https://i.guim.co.uk/img/media/578833ee207aab76c1b6a542f17226703dbd735b/686_0_5336_4269/master/5336.jpg?width=140&quality=85&auto=format&fit=max&s=95af56c4e78299bd447fd1e5bd03b452"
       },
       {
         "title": "Poundland chief shares pain with staff amid last-ditch rescue talks",
@@ -330,7 +330,7 @@
         "source": "Sky News",
         "provider": "SKY",
         "categories": "",
-        "image": "https://e3.365dm.com/25/04/1920x1080/skynews-traders-new-york-stock-exchange_6881899.jpg?20250410154647"
+        "image": "https://e3.365dm.com/26/11/1920x1080/skynews-anthropic-nasdaq_7410960.jpg?20261119214359"
       },
       {
         "title": "What impact has Brexit had on the UK and EU economies?",
@@ -371,7 +371,16 @@
     ],
     "TECH": [
       {
-        "title": "The 11 best analog and low-tech gifts for a life beyond your phone screen",
+        "title": "Disgraced Nvidia boss Jensen Huang told employee he would ‘pee on their brain’",
+        "link": "https://metro.co.uk/2026/11/20/disgraced-nvidia-boss-jensen-huang-told-employee-pee-brain-29808479/",
+        "published": "Fri, 20 Nov 2026 21:17:15 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News US Artificial Intelligence",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_321009454-deb2.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "We’ve tried everything to get off our phones. These 11 things work (and make great gifts)",
         "link": "https://www.theguardian.com/thefilter-us/2026/nov/20/best-analog-holiday-gift-ideas",
         "published": "Fri, 20 Nov 2026 20:15:38 GMT",
         "source": "The Guardian",
@@ -407,15 +416,6 @@
         "image": "https://i.guim.co.uk/img/media/273bb0e7e4744bed07df3a7a32fce1b43ce606a4/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=2b3288a10415baec970b5b8ba145b25e"
       },
       {
-        "title": "Anthropic shares slump on second day of trading as markets reel from AI sell-off",
-        "link": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
-        "published": "Fri, 20 Nov 2026 16:26:07 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Stock markets Anthropic Market turmoil US markets Technology sector IPOs Business Economics Global economy Technology Japan South Korea Asia Pacific World news AI (artificial intelligence) Internet IPOs UK news US news",
-        "image": "https://i.guim.co.uk/img/media/578833ee207aab76c1b6a542f17226703dbd735b/686_0_5336_4269/master/5336.jpg?width=140&quality=85&auto=format&fit=max&s=95af56c4e78299bd447fd1e5bd03b452"
-      },
-      {
         "title": "Take-Two boss shuts down GTA 7 questions as he addresses GTA movie",
         "link": "https://metro.co.uk/2026/11/20/take-two-boss-shuts-gta-7-questions-addresses-gta-movie-29807712/",
         "published": "Fri, 20 Nov 2026 15:53:58 +0000",
@@ -423,6 +423,15 @@
         "provider": "METRO",
         "categories": "Entertainment Gaming Games news GTA 6 Rockstar Games",
         "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310234407-4ddf.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Anthropic among big fallers in global stock market rout",
+        "link": "https://news.sky.com/story/anthropic-among-big-fallers-in-global-stock-market-rout-13614361",
+        "published": "Fri, 20 Nov 2026 13:39:00 +0000",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/11/1920x1080/skynews-anthropic-nasdaq_7410960.jpg?20261119214359"
       },
       {
         "title": "EU reveals it suffered 'AI-powered' cyber attack",
@@ -443,15 +452,6 @@
         "image": "https://e3.365dm.com/26/11/1920x1080/skynews-india-mumbai-earthshot_7408760.jpg?20261117143813"
       },
       {
-        "title": "Nvidia releases first results since Jensen Huang's resignation",
-        "link": "https://news.sky.com/story/jensen-huang-acknowledges-serious-mistakes-but-says-he-would-be-honoured-to-return-as-nvidia-ceo-13613323",
-        "published": "Tue, 17 Nov 2026 16:17:00 +0000",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/11/1920x1080/skynews-taiwan-nvidia-taipei_7404808.jpg?20261112101611"
-      },
-      {
         "title": "‘Light therapy without remortgaging the house’: the best LED face masks – tested",
         "link": "https://www.theguardian.com/thefilter/2025/sep/19/best-led-red-light-therapy-face-masks",
         "published": "Fri, 20 Nov 2026 15:06:46 GMT",
@@ -462,6 +462,15 @@
       }
     ],
     "ENTERTAINMENT": [
+      {
+        "title": "I’m A Celebrity faces fresh ‘friction’ in camp after Joanna Page stormed out",
+        "link": "https://metro.co.uk/2026/11/20/im-a-celebrity-faces-fresh-friction-camp-joanna-page-stormed-29808398/",
+        "published": "Fri, 20 Nov 2026 22:05:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Entertainment TV AJ Odudu I'm A Celebrity ITV Joanna Page Mariella Frostrup",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_321288044-cf3b-e1795204388173.jpg?quality=90&strip=all&w=646"
+      },
       {
         "title": "Jodie uses shock explosion to her advantage as Coronation Street spoilers reveal what happens next",
         "link": "https://metro.co.uk/2026/11/20/coronation-street-spoilers-reveal-next-amid-jodie-plan-explosion-29806392/",
@@ -497,15 +506,6 @@
         "provider": "METRO",
         "categories": "Entertainment Music Billie Eilish BST Hyde Park Glastonbury Festival Music Festivals",
         "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_317429149-13c1-e1795200256657.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Bad Girls and Coronation Street legend Helen Fraser dies aged 84",
-        "link": "https://metro.co.uk/2026/11/20/bad-girls-coronation-street-legend-helen-fraser-dies-aged-84-29808317/",
-        "published": "Fri, 20 Nov 2026 18:07:54 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Coronation Street Soaps Celebrity Deaths",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_321438607-ecd2.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "Seth Meyers on Elon Musk saying he’s not Maga: ‘Trump’s closest allies are scrambling to get away’",
@@ -555,56 +555,38 @@
     ],
     "STOCKS": [
       {
-        "title": "American Express (AXP) Is Growing Revenue by More Than 10%, but Its Stock Is 25% Cheaper: Is Wall Street Missing an Opportunity?",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/american-express-axp-growing-revenue-201629481.html?.tsrc=rss",
-        "published": "Fri, 20 Nov 2026 20:16:29 +0000",
+        "title": "BC-Select Stock Indices",
+        "link": "https://finance.yahoo.com/markets/world-indices/articles/bc-select-stock-indices-223013738.html?.tsrc=rss",
+        "published": "Fri, 20 Nov 2026 22:30:13 +0000",
         "source": "Yahoo Finance",
         "provider": "YAHOO",
         "categories": "",
         "image": ""
       },
       {
-        "title": "Intercontinental Exchange (ICE) Is Growing Revenue by 10%+, Yet Its Stock Is Down 25%: Is a Rebound Ahead?",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/intercontinental-exchange-ice-growing-revenue-201528117.html?.tsrc=rss",
-        "published": "Fri, 20 Nov 2026 20:15:28 +0000",
+        "title": "Alps Group Inc Regains Compliance with Nasdaq Minimum Bid Price Requirement",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/alps-group-inc-regains-compliance-221500387.html?.tsrc=rss",
+        "published": "Fri, 20 Nov 2026 22:15:00 +0000",
         "source": "Yahoo Finance",
         "provider": "YAHOO",
         "categories": "",
         "image": ""
       },
       {
-        "title": "Nvidia, Nasdaq Slide Deepens After Report of SEC Accounting Probe",
-        "link": "https://uk.finance.yahoo.com/m/cff37c7c-0ca9-37b0-a414-8f2a8d6939e4/nvidia%2C-nasdaq-slide-deepens.html?.tsrc=rss",
-        "published": "Fri, 20 Nov 2026 19:57:50 +0000",
+        "title": "Compass Group (LSE:CPG) Stock Could Be 22% Above Fair Value Following Portfolio Rebuild",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/compass-group-lse-cpg-stock-221115850.html?.tsrc=rss",
+        "published": "Fri, 20 Nov 2026 22:11:15 +0000",
         "source": "Yahoo Finance",
         "provider": "YAHOO",
         "categories": "",
         "image": ""
       },
       {
-        "title": "This VIX Signal Is Bullish For The S&P 500",
-        "link": "https://uk.finance.yahoo.com/m/86b151b8-07e2-3e2d-87d0-900ec79aa14f/this-vix-signal-is-bullish.html?.tsrc=rss",
-        "published": "Fri, 20 Nov 2026 19:48:03 +0000",
+        "title": "Stock Market Today: Nasdaq Tanks 5% With AI Trade Thrashed; Nvidia, Anthropic Dive",
+        "link": "https://uk.finance.yahoo.com/m/4b546235-124e-3fa4-b951-41a067ff7bf2/stock-market-today%3A-nasdaq.html?.tsrc=rss",
+        "published": "Fri, 20 Nov 2026 21:55:21 +0000",
         "source": "Yahoo Finance",
         "provider": "YAHOO",
-        "categories": "",
-        "image": ""
-      },
-      {
-        "title": "Anthropic retail traders face losses as shares dive 13% the day after debut",
-        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOTnI5ZjRqcHhFQXkycDMySHZ1Tkl4V2RKdzNIcTlPdFhCMlJhZEkzX2RSZ0F0cjgteE9RX3JQejRRWHV6RnMtdXA3b3RKczRka0dxSEsyZU5SNFhUbTRZMU00NTVOdXE4RTI0OURfdE41aGIzc2N3ZnpsRFBxNkdsOUYzOGFnNEFGVkppNTVlTkR0OUstdU5jZWwyRUtOWGxVeEJBMWpiZ3FWRzVDdG8tUG1va3VWS2U0a3pWcg?oc=5",
-        "published": "Fri, 20 Nov 2026 18:16:23 GMT",
-        "source": "Reuters",
-        "provider": "REUTERS",
-        "categories": "",
-        "image": ""
-      },
-      {
-        "title": "Anthropic's IPO bank closed position meant to stabilize stock, removing source of support",
-        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQSVpRUnlwbWF4cmpjRkg1N1ZnRU9Dc1ZIRFFQU3pyMHNac0tJSXlINUg5YUdLRl9mMUEzQTRkZTdQWHJwRkhJbmYyWV9VYkt4dDVTSGRib3VzbVVENWd1WWllZkhzR2E5SGhrNm5xOUM1QzBfdFFqZlNvNmJDUHFNeU1IdnRMclVkRmdsNTRxTWVZY0hQYWJHN05EZ2xxZTFORDZ0V1g2eWZEWnBGRnVEVVNROURGMVFCTzkwbA?oc=5",
-        "published": "Fri, 20 Nov 2026 17:10:35 GMT",
-        "source": "Reuters",
-        "provider": "REUTERS",
         "categories": "",
         "image": ""
       },
@@ -639,6 +621,24 @@
         "title": "US AI chip curbs hit China tech stocks, spur self-sufficiency push",
         "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNM3JhZ1hpWlJqYlVISU9pcFFUS0N1Sk9MeEx5aU9jWmt5OVBxY2RkeWNCWDBITU5nYmdNdzFNQm4xTkZVbTM3T214cjhzSDBPWHFsaGt0Uk56c2F0TUFOOWl2ZlZHRGhjdXN5WDNPM3BiS3E1QW9lbHZ0NjZDUVNtaVZBbGUzNmxMR1o4c3REOGE3c3R4ZFk3d1VpR3diM0FmTnphSVdtR0M5MWpHRm9OeFJtaTQ5U1p6bnVRc3VnTW54cVVW?oc=5",
         "published": "Fri, 20 Nov 2026 08:23:43 GMT",
+        "source": "Reuters",
+        "provider": "REUTERS",
+        "categories": "",
+        "image": ""
+      },
+      {
+        "title": "Indian finance hub eyes dual share model to kickstart public offers, sources say",
+        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbW5TRW5QLXdYUDN1STlVWDlRYXNrU0dRT3VZbThKZ0o3dG00a0R3ZUpfUjU3WDFEUzJxTWFOdXhkZHBHTmZoMnhZdFBDQXcyTEg4bHJ4dUtoSDZPanJyak8yUFNxVXdZV09UYXdmSnRzRkVNUUxaWG1QTS1oVnRwM21SczN6WDJJNC1BeGhqMkx4bTZUUG9DcWVlR2E4RVYtYks2dEdrZm11bjF1Nlp0NjFQTVJ0UU1oa0dPZmFVS2dvOVZPVUFvNQ?oc=5",
+        "published": "Fri, 20 Nov 2026 06:46:00 GMT",
+        "source": "Reuters",
+        "provider": "REUTERS",
+        "categories": "",
+        "image": ""
+      },
+      {
+        "title": "Japanese investors sought $9.4 billion of shares in Anthropic IPO, sources say",
+        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbzA3aGxPN3dWWXpGQ0NxUkVUdm9md2JpZnZQSjFtY0ZTeG1sazJtSUxMZHliR2Z2Rm5paDM2UjRwa3VXRDNUb2JCV0JOQkdiUnBnek50RTEtMGlCUmRsMTNaTkVfcklXVWk4SjZSRnFGN1BmblVxdVhfLVU3MkFkd3JYd21IY0ozME1KUjZUMjNXeHZGZzJxU3VrYWVkODc1RF9wZzA1UnBCRzBSY3dlQWllcEZaQzZGNXp6Z0JWTQ?oc=5",
+        "published": "Thu, 19 Nov 2026 20:07:44 GMT",
         "source": "Reuters",
         "provider": "REUTERS",
         "categories": "",
@@ -785,7 +785,7 @@
             "image": "https://e3.365dm.com/26/11/1920x1080/skynews-joanne-young-court_7410678.jpg?20261119160357"
           },
           {
-            "title": "'Alpha Sadist' jailed for life for murder of British woman he groomed on fetish website",
+            "title": "Man jailed for murder of British woman he groomed on fetish website",
             "link": "https://news.sky.com/story/alpha-sadist-jailed-for-life-for-murder-of-british-woman-he-groomed-on-fetish-website-13614463",
             "published": "Fri, 20 Nov 2026 18:39:00 +0000",
             "source": "Sky News",
@@ -874,7 +874,7 @@
             "source": "Sky News",
             "provider": "SKY",
             "categories": "",
-            "image": "https://e3.365dm.com/25/04/1920x1080/skynews-traders-new-york-stock-exchange_6881899.jpg?20250410154647"
+            "image": "https://e3.365dm.com/26/11/1920x1080/skynews-anthropic-nasdaq_7410960.jpg?20261119214359"
           },
           {
             "title": "Thomas Markle fit to stand trial over child abuse images, US court rules",
@@ -935,6 +935,15 @@
         ],
         "BUSINESS": [
           {
+            "title": "Anthropic among big fallers in global stock market rout",
+            "link": "https://news.sky.com/story/anthropic-among-big-fallers-in-global-stock-market-rout-13614361",
+            "published": "Fri, 20 Nov 2026 13:39:00 +0000",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/11/1920x1080/skynews-anthropic-nasdaq_7410960.jpg?20261119214359"
+          },
+          {
             "title": "Poundland chief shares pain with staff amid last-ditch rescue talks",
             "link": "https://news.sky.com/story/poundland-chief-shares-pain-with-staff-amid-last-ditch-rescue-talks-13614407",
             "published": "Fri, 20 Nov 2026 15:32:00 +0000",
@@ -944,13 +953,13 @@
             "image": "https://e3.365dm.com/26/10/1920x1080/skynews-poundland-sheffield_7372627.jpg?20261010073001"
           },
           {
-            "title": "Anthropic among big fallers in global stock market rout",
-            "link": "https://news.sky.com/story/anthropic-among-big-fallers-in-global-stock-market-rout-13614361",
-            "published": "Fri, 20 Nov 2026 13:39:00 +0000",
+            "title": "Gulf wholesaler makes late entry in dash to save Poundland",
+            "link": "https://news.sky.com/story/gulf-wholesaler-makes-late-entry-in-dash-to-save-poundland-13614276",
+            "published": "Fri, 20 Nov 2026 09:25:00 +0000",
             "source": "Sky News",
             "provider": "SKY",
             "categories": "",
-            "image": "https://e3.365dm.com/25/04/1920x1080/skynews-traders-new-york-stock-exchange_6881899.jpg?20250410154647"
+            "image": "https://e3.365dm.com/26/11/1920x1080/skynews-poundland-kleinman_7406316.jpg?20261114102016"
           },
           {
             "title": "British Gas owner Centrica cuts hundreds of jobs in Business unit",
@@ -960,15 +969,6 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/25/01/1920x1080/skynews-centrica-gas_6795959.jpg?20250110120511"
-          },
-          {
-            "title": "Gulf wholesaler makes late entry in dash to save Poundland",
-            "link": "https://news.sky.com/story/gulf-wholesaler-makes-late-entry-in-dash-to-save-poundland-13614276",
-            "published": "Fri, 20 Nov 2026 09:25:00 +0000",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/11/1920x1080/skynews-poundland-kleinman_7406316.jpg?20261114102016"
           },
           {
             "title": "Households stockpiling 'emergency items' boosts retail sales",
@@ -1027,6 +1027,15 @@
         ],
         "TECH": [
           {
+            "title": "Anthropic among big fallers in global stock market rout",
+            "link": "https://news.sky.com/story/anthropic-among-big-fallers-in-global-stock-market-rout-13614361",
+            "published": "Fri, 20 Nov 2026 13:39:00 +0000",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/11/1920x1080/skynews-anthropic-nasdaq_7410960.jpg?20261119214359"
+          },
+          {
             "title": "EU reveals it suffered 'AI-powered' cyber attack",
             "link": "https://news.sky.com/story/eu-reveals-it-suffered-ai-powered-cyber-attack-13613970",
             "published": "Thu, 19 Nov 2026 15:38:00 +0000",
@@ -1045,15 +1054,6 @@
             "image": "https://e3.365dm.com/26/11/1920x1080/skynews-taiwan-nvidia-taipei_7404808.jpg?20261112101611"
           },
           {
-            "title": "William and Kate host glittering Earthshot Prize ceremony in Mumbai",
-            "link": "https://news.sky.com/story/william-and-kate-host-glittering-earthshot-prize-ceremony-in-mumbai-13613397",
-            "published": "Tue, 17 Nov 2026 21:08:00 +0000",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/11/1920x1080/skynews-india-mumbai-earthshot_7408760.jpg?20261117143813"
-          },
-          {
             "title": "California sues OpenAI over rogue bots' 'dangerous' attack on another AI company",
             "link": "https://news.sky.com/story/california-sues-openai-over-entirely-foreseeable-hugging-face-attack-13613097",
             "published": "Tue, 17 Nov 2026 07:20:00 +0000",
@@ -1070,6 +1070,15 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/04/1920x1080/skynews-paedophile-police-scotland_7229391.jpg?20261116103950"
+          },
+          {
+            "title": "William and Kate host glittering Earthshot Prize ceremony in Mumbai",
+            "link": "https://news.sky.com/story/william-and-kate-host-glittering-earthshot-prize-ceremony-in-mumbai-13613397",
+            "published": "Tue, 17 Nov 2026 21:08:00 +0000",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/11/1920x1080/skynews-india-mumbai-earthshot_7408760.jpg?20261117143813"
           }
         ],
         "ENTERTAINMENT": [
@@ -1157,7 +1166,7 @@
         },
         "TECH": {
           "ok": true,
-          "count": 5
+          "count": 6
         },
         "ENTERTAINMENT": {
           "ok": true,
@@ -1168,6 +1177,15 @@
     "GUARDIAN": {
       "categories": {
         "UK": [
+          {
+            "title": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day of trading",
+            "link": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+            "published": "Fri, 20 Nov 2026 21:38:17 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Stock markets Anthropic Market turmoil US markets Technology sector IPOs Business Economics Global economy Technology Japan South Korea Asia Pacific World news AI (artificial intelligence) Internet IPOs UK news US news",
+            "image": "https://i.guim.co.uk/img/media/578833ee207aab76c1b6a542f17226703dbd735b/686_0_5336_4269/master/5336.jpg?width=140&quality=85&auto=format&fit=max&s=95af56c4e78299bd447fd1e5bd03b452"
+          },
           {
             "title": "JP Morgan boss says he will find ways to offset ‘unfair’ rise in UK tax on banks",
             "link": "https://www.theguardian.com/business/2026/nov/20/jp-morgan-jamie-dimon-uk-tax-hike-bank-surcharge",
@@ -1241,24 +1259,6 @@
             "image": "https://i.guim.co.uk/img/media/94e3fae494c08ea928538429f7f3a3632e56c95d/688_0_6880_5504/master/6880.jpg?width=140&quality=85&auto=format&fit=max&s=7330433c679e71619cbff9f2d3090fc2"
           },
           {
-            "title": "Voters in four out of five UK parliamentary seats back rejoining EU",
-            "link": "https://www.theguardian.com/politics/2026/nov/20/voters-in-four-out-of-five-uk-parliamentary-seats-back-rejoining-eu",
-            "published": "Fri, 20 Nov 2026 17:55:09 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Andy Burnham European Union UK news Politics Europe",
-            "image": "https://i.guim.co.uk/img/media/3e5b2a2b2017ce1fd94aee416c3105a330392403/644_0_6440_5152/master/6440.jpg?width=140&quality=85&auto=format&fit=max&s=06fa2ecc367e15c86d32cd41cb3e95dc"
-          },
-          {
-            "title": "Andy, António and Ursula: the joyful EU throuple break Nigel’s bitter heart | John Crace",
-            "link": "https://www.theguardian.com/politics/2026/nov/20/andy-burnham-and-eu-ready-to-love-again-but-question-of-tuition-fees-glossed-over",
-            "published": "Fri, 20 Nov 2026 18:53:21 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Politics UK news",
-            "image": "https://i.guim.co.uk/img/media/0ff02806c4fa74fe8cd47255a9ce60c01e5961aa/520_0_5200_4160/master/5200.jpg?width=140&quality=85&auto=format&fit=max&s=1232f91d884dedf1912bb2954cb4b014"
-          },
-          {
             "title": "Burnham has agreed EU reset deal with tuition fees issue unresolved, says No 10",
             "link": "https://www.theguardian.com/politics/2026/nov/20/fallout-over-tuition-fees-may-snag-burnhams-eu-deal-say-insiders",
             "published": "Fri, 20 Nov 2026 16:03:13 GMT",
@@ -1293,6 +1293,15 @@
             "provider": "GUARDIAN",
             "categories": "Social care Carers Children Young people Fostering England UK news Society Politics",
             "image": "https://i.guim.co.uk/img/media/7878dea6e1cf06cc7463280dfdd0c8160a25696e/255_0_5783_4626/master/5783.jpg?width=140&quality=85&auto=format&fit=max&s=1206e3b5e60a79e1460b04d65653f7fb"
+          },
+          {
+            "title": "Home Office tells woman born and raised in London she is not British",
+            "link": "https://www.theguardian.com/uk-news/2026/nov/20/home-office-tells-woman-born-london-she-is-not-british",
+            "published": "Fri, 20 Nov 2026 11:22:17 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Immigration and asylum Homelessness Housing UK news Social exclusion Society Home Office London Politics Commonwealth immigration",
+            "image": "https://i.guim.co.uk/img/media/53839eb12d1e1f492999e1dfee14890cceb0c889/706_0_5888_4711/master/5888.jpg?width=140&quality=85&auto=format&fit=max&s=188331565cf3c116ed9ef7fd50ca40ba"
           },
           {
             "title": "Misty-eyed Burnham gambles on closer ties with EU as he throws down gauntlet to Tories and Reform",
@@ -1441,9 +1450,18 @@
             "image": "https://i.guim.co.uk/img/media/03f57a225008dd1bc1f3dc849a2f4e634086c7a4/342_0_2918_2334/master/2918.jpg?width=140&quality=85&auto=format&fit=max&s=dc6fc0dfac1be7b487bda0d86f9b5664"
           },
           {
-            "title": "Anthropic shares slump on second day of trading as markets reel from AI sell-off",
+            "title": "Trump threatens ‘tremendous penalties’ on US tech firms that build datacenters abroad",
+            "link": "https://www.theguardian.com/us-news/2026/nov/20/trump-datacenters-white-house",
+            "published": "Fri, 20 Nov 2026 21:47:41 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Donald Trump US news World news US politics Russia China US foreign policy Europe Asia Pacific",
+            "image": "https://i.guim.co.uk/img/media/9532d886df85f2ca4c23d7e6a6341c606f995971/357_0_3572_2857/master/3572.jpg?width=140&quality=85&auto=format&fit=max&s=07ff49e86c3162c2f8cbd055b6230888"
+          },
+          {
+            "title": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day of trading",
             "link": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
-            "published": "Fri, 20 Nov 2026 16:26:07 GMT",
+            "published": "Fri, 20 Nov 2026 21:38:17 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
             "categories": "Stock markets Anthropic Market turmoil US markets Technology sector IPOs Business Economics Global economy Technology Japan South Korea Asia Pacific World news AI (artificial intelligence) Internet IPOs UK news US news",
@@ -1475,15 +1493,6 @@
             "provider": "GUARDIAN",
             "categories": "Donald Trump Apec summit Xi Jinping US politics US news China Asia Pacific World news",
             "image": "https://i.guim.co.uk/img/media/9a7a08432aefc55cf68fcacd78775e012efb2000/480_0_4800_3840/master/4800.jpg?width=140&quality=85&auto=format&fit=max&s=e7dbd1a9b4c3dc24afe5bacd823fc0dc"
-          },
-          {
-            "title": "New page in history? Xi, Trump and Putin summit was more of a footnote",
-            "link": "https://www.theguardian.com/world/2026/nov/19/new-page-in-history-xi-trump-and-putin-summit-was-more-of-a-footnote",
-            "published": "Thu, 19 Nov 2026 15:35:01 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "China Russia US news Xi Jinping Vladimir Putin Donald Trump US foreign policy Apec summit Asia Pacific World news",
-            "image": "https://i.guim.co.uk/img/media/82a515f04bc247c4248d7219eb825c2d67060618/1173_38_6573_5258/master/6573.jpg?width=140&quality=85&auto=format&fit=max&s=ff26b505997ed52268622211444bed41"
           },
           {
             "title": "As the Coalition stares down One Nation in NSW, a new threat is rising: the teals",
@@ -1596,6 +1605,15 @@
             "image": "https://i.guim.co.uk/img/media/7ab90ee7eab9abe855627600310684a63cf95761/235_0_2599_2079/master/2599.jpg?width=140&quality=85&auto=format&fit=max&s=d0bd0178c32086892ed6ecb0ae5b6715"
           },
           {
+            "title": "Andy, António and Ursula: the joyful EU throuple break Nigel’s bitter heart | John Crace",
+            "link": "https://www.theguardian.com/politics/2026/nov/20/andy-burnham-and-eu-ready-to-love-again-but-question-of-tuition-fees-glossed-over",
+            "published": "Fri, 20 Nov 2026 18:53:21 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Politics UK news Andy Burnham Brexit European Union Europe Ursula von der Leyen Foreign policy",
+            "image": "https://i.guim.co.uk/img/media/0ff02806c4fa74fe8cd47255a9ce60c01e5961aa/520_0_5200_4160/master/5200.jpg?width=140&quality=85&auto=format&fit=max&s=1232f91d884dedf1912bb2954cb4b014"
+          },
+          {
             "title": "The Guardian view on Britain and Europe: Burnham’s reset cannot be the final destination | Editorial",
             "link": "https://www.theguardian.com/commentisfree/2026/nov/20/the-guardian-view-on-britain-and-europe-burnhams-reset-cannot-be-the-final-destination",
             "published": "Fri, 20 Nov 2026 18:13:24 GMT",
@@ -1650,24 +1668,6 @@
             "image": "https://i.guim.co.uk/img/media/ca1f1aed0ae22e539ea1748d91c405eae550b667/469_0_4688_3751/master/4688.jpg?width=140&quality=85&auto=format&fit=max&s=7642f3fc59b2fc13a8208c5f861afcec"
           },
           {
-            "title": "This year, the Greens have reshaped British politics. Now we need party systems to match that influence | Caroline Lucas",
-            "link": "https://www.theguardian.com/commentisfree/2026/nov/19/green-party-british-politics-systems-zack-polanski",
-            "published": "Thu, 19 Nov 2026 10:00:24 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Green party Electoral reform Caroline Lucas Andy Burnham Politics UK news",
-            "image": "https://i.guim.co.uk/img/media/fa3786b2c77d84d3c91c77ee7091086d3d19840f/538_0_7911_6328/master/7911.jpg?width=140&quality=85&auto=format&fit=max&s=87d0dafac2962a190517f6466c48973a"
-          },
-          {
-            "title": "Andy, António and Ursula: the joyful EU throuple break Nigel’s bitter heart | John Crace",
-            "link": "https://www.theguardian.com/politics/2026/nov/20/andy-burnham-and-eu-ready-to-love-again-but-question-of-tuition-fees-glossed-over",
-            "published": "Fri, 20 Nov 2026 18:53:21 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Politics UK news",
-            "image": "https://i.guim.co.uk/img/media/0ff02806c4fa74fe8cd47255a9ce60c01e5961aa/520_0_5200_4160/master/5200.jpg?width=140&quality=85&auto=format&fit=max&s=1232f91d884dedf1912bb2954cb4b014"
-          },
-          {
             "title": "Misty-eyed Burnham gambles on closer ties with EU as he throws down gauntlet to Tories and Reform",
             "link": "https://www.theguardian.com/politics/2026/nov/20/andy-burnham-uk-eu-brussels-summit",
             "published": "Fri, 20 Nov 2026 18:22:50 GMT",
@@ -1695,6 +1695,15 @@
             "image": "https://i.guim.co.uk/img/media/7298fc5c87ed7c445360fa35f598662e4d8a510d/624_0_2779_2223/master/2779.jpg?width=140&quality=85&auto=format&fit=max&s=810844650f584edda94e8970574c9af8"
           },
           {
+            "title": "Grade I interiors, gold bars, cost fears: Bank of England faces headache over £160m revamp",
+            "link": "https://www.theguardian.com/business/2026/nov/19/bank-of-england-revamp",
+            "published": "Thu, 19 Nov 2026 06:00:19 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Bank of England Andrew Bailey Business Politics UK news Federal Reserve World news Architecture",
+            "image": "https://i.guim.co.uk/img/media/c25762bd1e283f73a3c740c2f6a7ab8bb4b20330/471_0_3764_3012/master/3764.jpg?width=140&quality=85&auto=format&fit=max&s=5146b3c0802972a56494b475fa4c15a2"
+          },
+          {
             "title": "Martin Rowson on the summits in Shenzhen and Brussels – cartoon",
             "link": "https://www.theguardian.com/commentisfree/picture/2026/nov/20/martin-rowson-summits-shenzhen-brussels-trump-xi-putin-cartoon",
             "published": "Fri, 20 Nov 2026 17:30:16 GMT",
@@ -1715,9 +1724,9 @@
         ],
         "BUSINESS": [
           {
-            "title": "Anthropic shares slump on second day of trading as markets reel from AI sell-off",
+            "title": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day of trading",
             "link": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
-            "published": "Fri, 20 Nov 2026 16:26:07 GMT",
+            "published": "Fri, 20 Nov 2026 21:38:17 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
             "categories": "Stock markets Anthropic Market turmoil US markets Technology sector IPOs Business Economics Global economy Technology Japan South Korea Asia Pacific World news AI (artificial intelligence) Internet IPOs UK news US news",
@@ -1960,15 +1969,6 @@
             "image": "https://i.guim.co.uk/img/media/ee69770a776940e2892feb15709c3eb47dd97272/366_0_4169_3334/master/4169.jpg?width=140&quality=85&auto=format&fit=max&s=ce46bddea53beb265fd3080ff220912c"
           },
           {
-            "title": "Anthropic shares slump on second day of trading as markets reel from AI sell-off",
-            "link": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
-            "published": "Fri, 20 Nov 2026 16:26:07 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Stock markets Anthropic Market turmoil US markets Technology sector IPOs Business Economics Global economy Technology Japan South Korea Asia Pacific World news AI (artificial intelligence) Internet IPOs UK news US news",
-            "image": "https://i.guim.co.uk/img/media/578833ee207aab76c1b6a542f17226703dbd735b/686_0_5336_4269/master/5336.jpg?width=140&quality=85&auto=format&fit=max&s=95af56c4e78299bd447fd1e5bd03b452"
-          },
-          {
             "title": "NextDC vows to keep future datacentres away from homes after community backlash in Melbourne",
             "link": "https://www.theguardian.com/australia-news/2026/nov/20/nextdc-vows-to-keep-future-datacentres-away-from-homes-after-community-backlash-in-melbourne",
             "published": "Fri, 20 Nov 2026 04:37:08 GMT",
@@ -1996,7 +1996,16 @@
             "image": "https://i.guim.co.uk/img/media/f21be169b52ca2b5f51250db2e1f038f14af993b/236_0_3021_2417/master/3021.jpg?width=140&quality=85&auto=format&fit=max&s=cfd2d2381022640d3abcec2594556295"
           },
           {
-            "title": "The 11 best analog and low-tech gifts for a life beyond your phone screen",
+            "title": "Anthropic CEO acknowledges AI has 'very real risks' shortly before IPO – video",
+            "link": "https://www.theguardian.com/technology/video/2026/nov/19/anthropic-dario-amodei-acknowledges-ai-risks-before-ipo-video",
+            "published": "Thu, 19 Nov 2026 16:24:13 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Anthropic Technology US news AI (artificial intelligence) Business Dario Amodei Stock markets Technology sector",
+            "image": "https://i.guim.co.uk/img/media/e5c40ff59ef47cd73480080f50cff6aee0a18c5f/115_0_3086_2469/master/3086.jpg?width=140&quality=85&auto=format&fit=max&s=8c69367ee99a59652be4b3db3c2735a8"
+          },
+          {
+            "title": "We’ve tried everything to get off our phones. These 11 things work (and make great gifts)",
             "link": "https://www.theguardian.com/thefilter-us/2026/nov/20/best-analog-holiday-gift-ideas",
             "published": "Fri, 20 Nov 2026 20:15:38 GMT",
             "source": "The Guardian",
@@ -2929,6 +2938,15 @@
         ],
         "TECH": [
           {
+            "title": "Disgraced Nvidia boss Jensen Huang told employee he would ‘pee on their brain’",
+            "link": "https://metro.co.uk/2026/11/20/disgraced-nvidia-boss-jensen-huang-told-employee-pee-brain-29808479/",
+            "published": "Fri, 20 Nov 2026 21:17:15 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News US Artificial Intelligence",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_321009454-deb2.jpg?quality=90&strip=all&w=646"
+          },
+          {
             "title": "Call Of Duty slump continues as Modern Warfare 4 fails to crack top 10 of 2026",
             "link": "https://metro.co.uk/2026/11/20/call-duty-slump-continues-modern-warfare-4-fails-crack-top-10-2026-29808170/",
             "published": "Fri, 20 Nov 2026 17:13:11 +0000",
@@ -2948,6 +2966,15 @@
           }
         ],
         "ENTERTAINMENT": [
+          {
+            "title": "I’m A Celebrity faces fresh ‘friction’ in camp after Joanna Page stormed out",
+            "link": "https://metro.co.uk/2026/11/20/im-a-celebrity-faces-fresh-friction-camp-joanna-page-stormed-29808398/",
+            "published": "Fri, 20 Nov 2026 22:05:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment TV AJ Odudu I'm A Celebrity ITV Joanna Page Mariella Frostrup",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_321288044-cf3b-e1795204388173.jpg?quality=90&strip=all&w=646"
+          },
           {
             "title": "Glastonbury 2027 headliner announces surprise London performance",
             "link": "https://metro.co.uk/2026/11/20/glastonbury-2027-headliner-announces-surprise-london-performance-29808242/",
@@ -3084,15 +3111,6 @@
             "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_318661710-ebd3.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "I’m A Celebrity fans claim Wayne Rooney’s shocking toilet secret is the ‘biggest ick’",
-            "link": "https://metro.co.uk/2026/11/20/im-a-celebrity-camp-left-speechless-wayne-rooney-reveals-bathroom-secret-29805980/",
-            "published": "Fri, 20 Nov 2026 08:08:24 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Entertainment TV Coleen Rooney Wayne Rooney",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_321293791-e268.jpg?quality=90&strip=all&w=646"
-          },
-          {
             "title": "Jodie uses shock explosion to her advantage as Coronation Street spoilers reveal what happens next",
             "link": "https://metro.co.uk/2026/11/20/coronation-street-spoilers-reveal-next-amid-jodie-plan-explosion-29806392/",
             "published": "Fri, 20 Nov 2026 20:00:00 +0000",
@@ -3149,7 +3167,7 @@
         },
         "TECH": {
           "ok": true,
-          "count": 2
+          "count": 3
         },
         "ENTERTAINMENT": {
           "ok": true,
@@ -3266,36 +3284,72 @@
         "STOCK_MARKET": [],
         "STOCKS": [
           {
-            "title": "American Express (AXP) Is Growing Revenue by More Than 10%, but Its Stock Is 25% Cheaper: Is Wall Street Missing an Opportunity?",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/american-express-axp-growing-revenue-201629481.html?.tsrc=rss",
-            "published": "Fri, 20 Nov 2026 20:16:29 +0000",
+            "title": "BC-Select Stock Indices",
+            "link": "https://finance.yahoo.com/markets/world-indices/articles/bc-select-stock-indices-223013738.html?.tsrc=rss",
+            "published": "Fri, 20 Nov 2026 22:30:13 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
             "image": ""
           },
           {
-            "title": "Intercontinental Exchange (ICE) Is Growing Revenue by 10%+, Yet Its Stock Is Down 25%: Is a Rebound Ahead?",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/intercontinental-exchange-ice-growing-revenue-201528117.html?.tsrc=rss",
-            "published": "Fri, 20 Nov 2026 20:15:28 +0000",
+            "title": "Alps Group Inc Regains Compliance with Nasdaq Minimum Bid Price Requirement",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/alps-group-inc-regains-compliance-221500387.html?.tsrc=rss",
+            "published": "Fri, 20 Nov 2026 22:15:00 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
             "image": ""
           },
           {
-            "title": "Nvidia, Nasdaq Slide Deepens After Report of SEC Accounting Probe",
-            "link": "https://uk.finance.yahoo.com/m/cff37c7c-0ca9-37b0-a414-8f2a8d6939e4/nvidia%2C-nasdaq-slide-deepens.html?.tsrc=rss",
-            "published": "Fri, 20 Nov 2026 19:57:50 +0000",
+            "title": "Compass Group (LSE:CPG) Stock Could Be 22% Above Fair Value Following Portfolio Rebuild",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/compass-group-lse-cpg-stock-221115850.html?.tsrc=rss",
+            "published": "Fri, 20 Nov 2026 22:11:15 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
             "image": ""
           },
           {
-            "title": "This VIX Signal Is Bullish For The S&P 500",
-            "link": "https://uk.finance.yahoo.com/m/86b151b8-07e2-3e2d-87d0-900ec79aa14f/this-vix-signal-is-bullish.html?.tsrc=rss",
-            "published": "Fri, 20 Nov 2026 19:48:03 +0000",
+            "title": "Stock Market Today: Nasdaq Tanks 5% With AI Trade Thrashed; Nvidia, Anthropic Dive",
+            "link": "https://uk.finance.yahoo.com/m/4b546235-124e-3fa4-b951-41a067ff7bf2/stock-market-today%3A-nasdaq.html?.tsrc=rss",
+            "published": "Fri, 20 Nov 2026 21:55:21 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "Nasdaq turns negative: Why Anthropic & other tech stocks are getting crushed",
+            "link": "https://finance.yahoo.com/video/nasdaq-turns-negative-why-anthropic--other-tech-stocks-are-getting-crushed-213846825.html?.tsrc=rss",
+            "published": "Fri, 20 Nov 2026 21:38:46 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "How Low Nvidia Stock Can Go Now",
+            "link": "https://uk.finance.yahoo.com/m/4bbf9581-d9bc-3f2e-9760-2221f5e509cc/how-low-nvidia-stock-can-go.html?.tsrc=rss",
+            "published": "Fri, 20 Nov 2026 21:33:00 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "Intuit Earnings Signal That Some AI Software Fears Are Sound",
+            "link": "https://uk.finance.yahoo.com/m/9025bf5f-47bd-35cc-a90f-80a68daef480/intuit-earnings-signal-that.html?.tsrc=rss",
+            "published": "Fri, 20 Nov 2026 21:31:00 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "How major US stock indexes fared Friday 11/20/2026",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/major-us-stock-indexes-fared-213016263.html?.tsrc=rss",
+            "published": "Fri, 20 Nov 2026 21:30:16 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
@@ -3304,70 +3358,34 @@
           {
             "title": "Nasdaq wipes out gains for the year as Anthropic IPO fails to quell AI nerves",
             "link": "https://www.cnn.com/2026/11/20/investing/us-stocks-anthropic-ai?.tsrc=rss",
-            "published": "Fri, 20 Nov 2026 19:39:22 +0000",
+            "published": "Fri, 20 Nov 2026 21:13:53 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
-            "image": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2305475004.jpg?c=16x9&q=w_800,c_fill"
+            "image": "https://media.cnn.com/api/v1/images/stellar/prod/ap26323536233201.jpg?c=16x9&q=w_800,c_fill"
           },
           {
-            "title": "Chips are crashing like it's 2008 as the Nasdaq 100 nears a bear market",
-            "link": "https://finance.yahoo.com/markets/article/chips-are-crashing-like-its-2008-as-the-nasdaq-100-nears-a-bear-market-192805534.html?.tsrc=rss",
-            "published": "Fri, 20 Nov 2026 19:28:05 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "Stock Market Today: Nasdaq Turns Negative For 2026 As Fear Gauge Spikes; Walmart Advances (Live Coverage)",
-            "link": "https://uk.finance.yahoo.com/m/4b546235-124e-3fa4-b951-41a067ff7bf2/stock-market-today%3A-nasdaq.html?.tsrc=rss",
-            "published": "Fri, 20 Nov 2026 19:10:42 +0000",
+            "title": "Fear of Missing Out Driving Young Investors: Chaudhuri",
+            "link": "https://finance.yahoo.com/video/fear-missing-driving-young-investors-210852999.html?.tsrc=rss",
+            "published": "Fri, 20 Nov 2026 21:08:52 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
             "image": ""
           },
           {
-            "title": "The Worst Could Still Be Ahead for Markets. 3 Ways to Prepare Your Portfolio.",
-            "link": "https://uk.finance.yahoo.com/m/dd53b257-6d6b-30a0-8da3-3203ee6d7fa0/the-worst-could-still-be.html?.tsrc=rss",
-            "published": "Fri, 20 Nov 2026 19:09:00 +0000",
+            "title": "Stocks Tumble Into Correction",
+            "link": "https://uk.finance.yahoo.com/m/4049ed28-419f-3b73-9c4c-80420ef27fa2/stocks-tumble-into-correction.html?.tsrc=rss",
+            "published": "Fri, 20 Nov 2026 21:01:42 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
             "image": ""
           },
           {
-            "title": "S&P 500’s Tech Sector Crosses Bear Market Threshold",
-            "link": "https://uk.finance.yahoo.com/m/52463e5b-f0f5-3431-bbf6-38bb3296bc38/s%26p-500%E2%80%99s-tech-sector-crosses.html?.tsrc=rss",
-            "published": "Fri, 20 Nov 2026 18:37:56 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "7 reasons why tech stocks are getting hammered again",
-            "link": "https://finance.yahoo.com/markets/article/7-reasons-why-tech-stocks-are-getting-hammered-again-183747857.html?.tsrc=rss",
-            "published": "Fri, 20 Nov 2026 18:37:47 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "Sozzi: Anthropic’s IPO Surges; Is AMD’s Pullback a Buy?",
-            "link": "https://finance.yahoo.com/video/sozzi-anthropics-ipo-surges-is-amds-pullback-a-buy-181915349.html?.tsrc=rss",
-            "published": "Fri, 20 Nov 2026 18:19:15 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "Microsoft (MSFT) and Its Rivals Are Making a Huge AI Bet – Here’s What Investors Should Know",
-            "link": "https://finance.yahoo.com/technology/ai/articles/microsoft-msft-rivals-making-huge-180640023.html?.tsrc=rss",
-            "published": "Fri, 20 Nov 2026 18:06:40 +0000",
+            "title": "This VIX Signal Is Bullish For The S&P 500",
+            "link": "https://uk.finance.yahoo.com/m/86b151b8-07e2-3e2d-87d0-900ec79aa14f/this-vix-signal-is-bullish.html?.tsrc=rss",
+            "published": "Fri, 20 Nov 2026 21:01:31 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
@@ -3527,24 +3545,6 @@
         ],
         "STOCKS": [
           {
-            "title": "Anthropic retail traders face losses as shares dive 13% the day after debut",
-            "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOTnI5ZjRqcHhFQXkycDMySHZ1Tkl4V2RKdzNIcTlPdFhCMlJhZEkzX2RSZ0F0cjgteE9RX3JQejRRWHV6RnMtdXA3b3RKczRka0dxSEsyZU5SNFhUbTRZMU00NTVOdXE4RTI0OURfdE41aGIzc2N3ZnpsRFBxNkdsOUYzOGFnNEFGVkppNTVlTkR0OUstdU5jZWwyRUtOWGxVeEJBMWpiZ3FWRzVDdG8tUG1va3VWS2U0a3pWcg?oc=5",
-            "published": "Fri, 20 Nov 2026 18:16:23 GMT",
-            "source": "Reuters",
-            "provider": "REUTERS",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "Anthropic's IPO bank closed position meant to stabilize stock, removing source of support",
-            "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQSVpRUnlwbWF4cmpjRkg1N1ZnRU9Dc1ZIRFFQU3pyMHNac0tJSXlINUg5YUdLRl9mMUEzQTRkZTdQWHJwRkhJbmYyWV9VYkt4dDVTSGRib3VzbVVENWd1WWllZkhzR2E5SGhrNm5xOUM1QzBfdFFqZlNvNmJDUHFNeU1IdnRMclVkRmdsNTRxTWVZY0hQYWJHN05EZ2xxZTFORDZ0V1g2eWZEWnBGRnVEVVNROURGMVFCTzkwbA?oc=5",
-            "published": "Fri, 20 Nov 2026 17:10:35 GMT",
-            "source": "Reuters",
-            "provider": "REUTERS",
-            "categories": "",
-            "image": ""
-          },
-          {
             "title": "US AI chip curbs hit China tech stocks, spur self-sufficiency push",
             "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNM3JhZ1hpWlJqYlVISU9pcFFUS0N1Sk9MeEx5aU9jWmt5OVBxY2RkeWNCWDBITU5nYmdNdzFNQm4xTkZVbTM3T214cjhzSDBPWHFsaGt0Uk56c2F0TUFOOWl2ZlZHRGhjdXN5WDNPM3BiS3E1QW9lbHZ0NjZDUVNtaVZBbGUzNmxMR1o4c3REOGE3c3R4ZFk3d1VpR3diM0FmTnphSVdtR0M5MWpHRm9OeFJtaTQ5U1p6bnVRc3VnTW54cVVW?oc=5",
             "published": "Fri, 20 Nov 2026 08:23:43 GMT",
@@ -3557,15 +3557,6 @@
             "title": "Indian finance hub eyes dual share model to kickstart public offers, sources say",
             "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbW5TRW5QLXdYUDN1STlVWDlRYXNrU0dRT3VZbThKZ0o3dG00a0R3ZUpfUjU3WDFEUzJxTWFOdXhkZHBHTmZoMnhZdFBDQXcyTEg4bHJ4dUtoSDZPanJyak8yUFNxVXdZV09UYXdmSnRzRkVNUUxaWG1QTS1oVnRwM21SczN6WDJJNC1BeGhqMkx4bTZUUG9DcWVlR2E4RVYtYks2dEdrZm11bjF1Nlp0NjFQTVJ0UU1oa0dPZmFVS2dvOVZPVUFvNQ?oc=5",
             "published": "Fri, 20 Nov 2026 06:46:00 GMT",
-            "source": "Reuters",
-            "provider": "REUTERS",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "Anthropic valued at $1.5 trillion as IPO raises record $81 billion",
-            "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPR3NST2trRTZCZkdmblYtRm5pcldXRUJTVjZkZUJ6bHJYbjFUSUJ6ZGVJNW1SMVg0ZWthVnlfVVRhZnlld192c0pBaUZSUzRZS0xGdFlYRnViSU9RYVhHWXRpVDlULS0tREUzcDhfa0NGSVIzVkFTOXBzeW5JelpBVy1RV2FFWEpwdnFhZnlqUVN0bUxWSXJaTVFzTEQxTDlFVVpkRERxQmplM0V2X3c?oc=5",
-            "published": "Fri, 20 Nov 2026 04:45:13 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3599,6 +3590,15 @@
             "image": ""
           },
           {
+            "title": "Anthropic valued at $1.5 trillion as IPO raises record $81 billion",
+            "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPR3NST2trRTZCZkdmblYtRm5pcldXRUJTVjZkZUJ6bHJYbjFUSUJ6ZGVJNW1SMVg0ZWthVnlfVVRhZnlld192c0pBaUZSUzRZS0xGdFlYRnViSU9RYVhHWXRpVDlULS0tREUzcDhfa0NGSVIzVkFTOXBzeW5JelpBVy1RV2FFWEpwdnFhZnlqUVN0bUxWSXJaTVFzTEQxTDlFVVpkRERxQmplM0V2X3c?oc=5",
+            "published": "Wed, 18 Nov 2026 21:26:00 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
             "title": "EXCLUSIVE: India may limit leveraged stock bets to curb volatility, sources say",
             "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQOW0tQWdjMmJOOUJOV3RYNzByeUVmLTZNYTRKTGszNHBqTVR2OHlrZnBLQXN6UlhFeFhOMGRBblFpSTJjcVJVckMybVJDYnhWU01VanpQOWNkVXFhZmlrYXM0empDNE5aXzBSQUVnSnBTSDlYZ3JJNURScmdzSFM5ei1VTTdiZVVhOTA4RjdOMHF0VkQ4bHhVdFZRek91d0NXVjlxVkh1UmMxWDZMMmpfelJ0aHhubWRu?oc=5",
             "published": "Wed, 18 Nov 2026 10:25:37 GMT",
@@ -3617,6 +3617,15 @@
             "image": ""
           },
           {
+            "title": "Nvidia options traders bank on longer-term stock recovery",
+            "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNOWEyZG5xanFDejdGbHAzNGdaMTh5d2tpR2dPWVB0eFVTNnRkcmJJbm1US3FlV3NzaGJsdE5kQ2h6TmswQjlHQ2V6akZkeWlHSFF3OGlybk9COXNPOGlZTFhvMVhUMW1EOUdFLTc0WDc0LWliQ0VETnRmNUJWU3hOdloyOE82ejcyYUlXWlJMT0tEeHpyOEowZnZFcF8yX3By?oc=5",
+            "published": "Wed, 18 Nov 2026 08:00:00 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
             "title": "Oil prices settle lower as traders weigh surplus supply outlook",
             "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbmp3REJQam1xdjkyMkpCN1JlSkotTnJNM0JEWDVFNmJqZ2FHbmNIN2E0V2twa2N3djBLTXlNNVJvcDJmZVNXMlBlQnk2VG1FTThnX0hQbVRqS2dKbVVBdXl6MWR5ZHo0S2VneWt2bUdwVjE4TnNxaHFLN0hHNU9IUVljVnNXLWJTeHdORFFJX3BfQXhPTThEbGFYQXhYaGNneHRHcVRGS2NyOFhxTzVN?oc=5",
             "published": "Wed, 18 Nov 2026 02:16:00 GMT",
@@ -3629,6 +3638,15 @@
             "title": "MDA Space Ltd. (MDA.TO) | Stock Price & Latest News",
             "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1sMlVxQ0E2NVZDVWV3Z3d6WG9iZnlQZjh3aXNIS0ZydmhVRDJKZi1fS0ZOUUEwb1dGVlJnclFiS2lOXzd3OG9HRmhMc0NfLS1WaHY2dVg3SmZuWW5DX0E?oc=5",
             "published": "Wed, 18 Nov 2026 00:41:03 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "Nvidia shares set for $335 billion swing after earnings, options show",
+            "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQcVgtN05zY1JHMFRsZlg2WkdkdGNRMDV4bFl4RllkcWFvVEVyd0QxTUhZWERjUmhIWTlOTkxiNHpxQjJpQTV1ZU45dGNmT2M5MDd4ZkRZeHNxSGNjaTFPdHUyRXJEdHlrSGRuWUlaX0VDRkpWNG9CS2UySmxFajBDQ1NjU0JMcUl6NFNmbFZoOXYyY19GMExQSkZva2VWMWUtUGpLRG93TkRhWHRU?oc=5",
+            "published": "Tue, 17 Nov 2026 20:48:29 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3760,5 +3778,5 @@
       }
     }
   },
-  "stocksUpdated": "2026-11-20T20:30:27.631Z"
+  "stocksUpdated": "2026-11-20T22:37:14.179Z"
 }
