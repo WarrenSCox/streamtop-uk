@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T19:05:05.798Z",
+  "updated": "2026-11-21T19:26:20.715Z",
   "categories": {
     "UK": [
       {
@@ -26,7 +26,7 @@
         "published": "Sat, 21 Nov 2026 18:20:37 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
-        "categories": "England Immigration and asylum UK news",
+        "categories": "Immigration and asylum England UK news Migration Communities Suffolk Home Office",
         "image": "https://i.guim.co.uk/img/media/bfb4a0d197f8daee0456ecc459f3eddb4cc320cc/835_0_4628_3704/master/4628.jpg?width=140&quality=85&auto=format&fit=max&s=3f0a91a0567e177545453ca396f15e90"
       },
       {
@@ -95,6 +95,33 @@
     ],
     "WORLD": [
       {
+        "title": "‘Six, seven, maybe more preventable deaths’: Queensland’s LNP faces reckoning over broken health system",
+        "link": "https://www.theguardian.com/australia-news/2026/nov/22/queensland-health-ambulance-deaths-lnp-labor-ntwnfb",
+        "published": "Sat, 21 Nov 2026 19:00:08 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Queensland politics Liberal National party Health Queensland Australia news",
+        "image": "https://i.guim.co.uk/img/media/e9bb488d6f56a808e4c08a19e1ddea696735455d/410_0_2606_2085/master/2606.jpg?width=140&quality=85&auto=format&fit=max&s=4f36239acbfcd8f7333ae1e3de2f8bf2"
+      },
+      {
+        "title": "Cigarettes on silver platters at Bondi ‘clean’ beauty business lip gloss launch referred for investigation",
+        "link": "https://www.theguardian.com/australia-news/2026/nov/22/cigarette-platter-bondi-copini-beauty-event-investigation",
+        "published": "Sat, 21 Nov 2026 19:00:07 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Health Health policy Health Sydney New South Wales Australia news Smoking",
+        "image": "https://i.guim.co.uk/img/media/6ce0bb93a4da40d20b813c67e99af09399f8268b/214_0_1747_1398/master/1747.jpg?width=140&quality=85&auto=format&fit=max&s=1a964940fcd99abace8e52b45c33992e"
+      },
+      {
+        "title": "Australian neo-Nazis among far-right groups raising hundreds of thousands via global crowdfunding platform",
+        "link": "https://www.theguardian.com/australia-news/2026/nov/22/australian-neo-nazis-among-far-right-groups-raising-hundreds-of-thousands-via-global-crowdfunding-platform-ntwnfb",
+        "published": "Sat, 21 Nov 2026 19:00:06 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Australia news Crowdfunding The far right",
+        "image": "https://i.guim.co.uk/img/media/f407e25401074b0d9b8e2c21e82c592c40e9f9f0/512_0_6880_5504/master/6880.jpg?width=140&quality=85&auto=format&fit=max&s=b957a7fcf2ffb37f8d972e65ce799d6e"
+      },
+      {
         "title": "Alleged Mexican drug cartel boss ‘El Chapo Isidro’ arrested in special forces raid",
         "link": "https://www.theguardian.com/world/2026/nov/21/alleged-mexican-drug-cartel-boss-el-chapo-isidro-meza-flores-arrested",
         "published": "Sat, 21 Nov 2026 17:46:55 GMT",
@@ -122,24 +149,6 @@
         "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_321492899-ade1.jpg?quality=90&strip=all&w=646"
       },
       {
-        "title": "Haitians excited but uneasy as El Salvador troops fight gangs",
-        "link": "https://www.theguardian.com/world/2026/nov/21/excitement-unease-haiti-el-salvador-troops-gangs-war-bukele",
-        "published": "Sat, 21 Nov 2026 11:00:57 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Haiti World news El Salvador Americas Gangs Port-au-Prince Caribbean Gun crime",
-        "image": "https://i.guim.co.uk/img/media/50cadcfc3b9aea76e63e685b18e73e9625ebe68b/479_0_4942_3957/master/4942.jpg?width=140&quality=85&auto=format&fit=max&s=40ed7d0881298a1c6a8fae92ef3d7ba7"
-      },
-      {
-        "title": "China commits to low-carbon electrification and help for others to improve",
-        "link": "https://www.theguardian.com/environment/2026/nov/21/china-commits-low-carbon-electrification-help-others-improve",
-        "published": "Sat, 21 Nov 2026 09:47:57 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Cop31 Environment Energy China Fossil fuel divestment World news Global climate talks Greenhouse gas emissions Renewable energy Fossil fuels Asia Pacific",
-        "image": "https://i.guim.co.uk/img/media/9e68aee336577ce0e768fd142e23caf3b9396a18/240_71_6107_4885/master/6107.jpg?width=140&quality=85&auto=format&fit=max&s=71e768ed29a219f5ff58d9520b737a67"
-      },
-      {
         "title": "Denmark says it thwarted 'Russian plot' to kill US-Ukrainian rapper",
         "link": "https://news.sky.com/story/denmark-says-it-thwarted-russian-plot-to-kill-us-ukrainian-rapper-kyivstoner-13614604",
         "published": "Sat, 21 Nov 2026 05:15:00 +0000",
@@ -147,15 +156,6 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/11/1920x1080/skynews-rasmus-kieffer-kristensen_7412023.jpg?20261121053937"
-      },
-      {
-        "title": "Teenager allegedly organised arsons and kidnapping on Signal during Melbourne hospitality wars",
-        "link": "https://www.theguardian.com/australia-news/2026/nov/21/teenager-allegedly-organised-arsons-and-kidnapping-on-signal-during-melbourne-hospitality-wars-ntwnfb",
-        "published": "Sat, 21 Nov 2026 04:44:00 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Victoria Australia news Australian police and policing Melbourne",
-        "image": "https://i.guim.co.uk/img/media/99136bef967ae4aba72dfc6e04e06a4ec0dc1eab/0_1497_4284_3427/master/4284.jpg?width=140&quality=85&auto=format&fit=max&s=cb1363336ef34583a49d6bf4a024f358"
       },
       {
         "title": "Anthropic among big fallers in global stock market rout",
@@ -744,7 +744,7 @@
           },
           "REUTERS": {
             "ok": true,
-            "count": 12,
+            "count": 11,
             "retainedPrevious": 0,
             "errors": [
               "https://www.reuters.com/arc/outboundfeeds/v3/all/?outputType=xml: 404 Not Found"
@@ -1157,7 +1157,7 @@
             "published": "Sat, 21 Nov 2026 18:20:37 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "England Immigration and asylum UK news",
+            "categories": "Immigration and asylum England UK news Migration Communities Suffolk Home Office",
             "image": "https://i.guim.co.uk/img/media/bfb4a0d197f8daee0456ecc459f3eddb4cc320cc/835_0_4628_3704/master/4628.jpg?width=140&quality=85&auto=format&fit=max&s=3f0a91a0567e177545453ca396f15e90"
           },
           {
@@ -1469,6 +1469,33 @@
             "image": "https://i.guim.co.uk/img/media/8a7d32d3197bc67811a5805eb05a308525f47b92/153_59_1632_1306/master/1632.jpg?width=140&quality=85&auto=format&fit=max&s=92c6d97e2934ea2f2295ecc777f5fa09"
           },
           {
+            "title": "‘Six, seven, maybe more preventable deaths’: Queensland’s LNP faces reckoning over broken health system",
+            "link": "https://www.theguardian.com/australia-news/2026/nov/22/queensland-health-ambulance-deaths-lnp-labor-ntwnfb",
+            "published": "Sat, 21 Nov 2026 19:00:08 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Queensland politics Liberal National party Health Queensland Australia news",
+            "image": "https://i.guim.co.uk/img/media/e9bb488d6f56a808e4c08a19e1ddea696735455d/410_0_2606_2085/master/2606.jpg?width=140&quality=85&auto=format&fit=max&s=4f36239acbfcd8f7333ae1e3de2f8bf2"
+          },
+          {
+            "title": "Cigarettes on silver platters at Bondi ‘clean’ beauty business lip gloss launch referred for investigation",
+            "link": "https://www.theguardian.com/australia-news/2026/nov/22/cigarette-platter-bondi-copini-beauty-event-investigation",
+            "published": "Sat, 21 Nov 2026 19:00:07 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Health Health policy Health Sydney New South Wales Australia news Smoking",
+            "image": "https://i.guim.co.uk/img/media/6ce0bb93a4da40d20b813c67e99af09399f8268b/214_0_1747_1398/master/1747.jpg?width=140&quality=85&auto=format&fit=max&s=1a964940fcd99abace8e52b45c33992e"
+          },
+          {
+            "title": "Australian neo-Nazis among far-right groups raising hundreds of thousands via global crowdfunding platform",
+            "link": "https://www.theguardian.com/australia-news/2026/nov/22/australian-neo-nazis-among-far-right-groups-raising-hundreds-of-thousands-via-global-crowdfunding-platform-ntwnfb",
+            "published": "Sat, 21 Nov 2026 19:00:06 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Australia news Crowdfunding The far right",
+            "image": "https://i.guim.co.uk/img/media/f407e25401074b0d9b8e2c21e82c592c40e9f9f0/512_0_6880_5504/master/6880.jpg?width=140&quality=85&auto=format&fit=max&s=b957a7fcf2ffb37f8d972e65ce799d6e"
+          },
+          {
             "title": "Teenager allegedly organised arsons and kidnapping on Signal during Melbourne hospitality wars",
             "link": "https://www.theguardian.com/australia-news/2026/nov/21/teenager-allegedly-organised-arsons-and-kidnapping-on-signal-during-melbourne-hospitality-wars-ntwnfb",
             "published": "Sat, 21 Nov 2026 04:44:00 GMT",
@@ -1485,33 +1512,6 @@
             "provider": "GUARDIAN",
             "categories": "Victoria state election 2026 Victorian politics Australia news",
             "image": "https://i.guim.co.uk/img/media/96ab340872e588ad309196b07390be6b1c05c064/0_0_935_748/master/935.jpg?width=140&quality=85&auto=format&fit=max&s=cb157e8ba631ea73ff9af551de474e32"
-          },
-          {
-            "title": "NSW passes Mount Pleasant coalmine law as Greens claim change an attempt to head off One Nation",
-            "link": "https://www.theguardian.com/australia-news/2026/nov/21/nsw-passes-hunter-valley-coalmine-law-as-greens-claim-change-an-attempt-to-head-off-one-nation-ntwnfb",
-            "published": "Fri, 20 Nov 2026 23:09:57 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "New South Wales Australia news Coal Mining Chris Minns New South Wales politics One Nation Labor party",
-            "image": "https://i.guim.co.uk/img/media/b24b376c3c4ded825f413fd2ac48655f5fcb5e3c/480_0_4800_3840/master/4800.jpg?width=140&quality=85&auto=format&fit=max&s=0bf10c399ce4d8386b40e0e8eef67063"
-          },
-          {
-            "title": "As the Coalition stares down One Nation in NSW, a new threat is rising: independents",
-            "link": "https://www.theguardian.com/australia-news/2026/nov/21/coalition-one-nation-teals-new-threat-sydney",
-            "published": "Fri, 20 Nov 2026 14:00:32 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "NSW election 2027 New South Wales Australia news Sydney Australian politics Chris Minns",
-            "image": "https://i.guim.co.uk/img/media/4a587781117ac3e5eb250fd3995c2d9a5ad2cc47/0_0_2500_2000/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=a5438b3e06b24450b62de7c2fa3bd121"
-          },
-          {
-            "title": "Vape users hospitalised after losing consciousness, prompting public health warning in New South Wales",
-            "link": "https://www.theguardian.com/australia-news/2026/nov/20/vape-users-hospitalised-after-losing-consciousness-prompting-public-health-warning-in-new-south-wales",
-            "published": "Fri, 20 Nov 2026 07:17:01 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Health New South Wales Australia news Vaping",
-            "image": "https://i.guim.co.uk/img/media/a8c083df952ff966868d4c06e9dd4da0fa335d1a/481_0_3661_2929/master/3661.jpg?width=140&quality=85&auto=format&fit=max&s=5df6a99a90c9e39471ef25a952defa4a"
           }
         ],
         "POLITICS": [
@@ -3574,15 +3574,6 @@
             "image": ""
           },
           {
-            "title": "Oil prices settle lower as traders weigh surplus supply outlook",
-            "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbmp3REJQam1xdjkyMkpCN1JlSkotTnJNM0JEWDVFNmJqZ2FHbmNIN2E0V2twa2N3djBLTXlNNVJvcDJmZVNXMlBlQnk2VG1FTThnX0hQbVRqS2dKbVVBdXl6MWR5ZHo0S2VneWt2bUdwVjE4TnNxaHFLN0hHNU9IUVljVnNXLWJTeHdORFFJX3BfQXhPTThEbGFYQXhYaGNneHRHcVRGS2NyOFhxTzVN?oc=5",
-            "published": "Wed, 18 Nov 2026 21:24:43 GMT",
-            "source": "Reuters",
-            "provider": "REUTERS",
-            "categories": "",
-            "image": ""
-          },
-          {
             "title": "EXCLUSIVE: India may limit leveraged stock bets to curb volatility, sources say",
             "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQOW0tQWdjMmJOOUJOV3RYNzByeUVmLTZNYTRKTGszNHBqTVR2OHlrZnBLQXN6UlhFeFhOMGRBblFpSTJjcVJVckMybVJDYnhWU01VanpQOWNkVXFhZmlrYXM0empDNE5aXzBSQUVnSnBTSDlYZ3JJNURScmdzSFM5ei1VTTdiZVVhOTA4RjdOMHF0VkQ4bHhVdFZRek91d0NXVjlxVkh1UmMxWDZMMmpfelJ0aHhubWRu?oc=5",
             "published": "Wed, 18 Nov 2026 10:25:37 GMT",
@@ -3629,7 +3620,7 @@
         },
         "STOCKS": {
           "ok": true,
-          "count": 12,
+          "count": 11,
           "retainedPrevious": 0,
           "errors": [
             "https://www.reuters.com/arc/outboundfeeds/v3/all/?outputType=xml: 404 Not Found"
@@ -3744,5 +3735,5 @@
       }
     }
   },
-  "stocksUpdated": "2026-11-21T19:05:14.561Z"
+  "stocksUpdated": "2026-11-21T19:26:27.751Z"
 }
