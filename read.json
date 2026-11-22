@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-22T14:51:00.124Z",
+  "updated": "2026-11-22T19:50:04.077Z",
   "charts": {
     "AUDIOBOOKS": [
       {
         "title": "Michael",
         "author": "Bob Mortimer",
         "narrator": "Bob Mortimer , Matt Berry",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e4/a8/5c/e4a85c40-36a7-ac29-d01b-b4e7d92e76b1/9781398548121.jpg/600x600bb.jpg"
+        "image": "https://m.media-amazon.com/images/I/416cTSKa0GL._SL500_.jpg"
       },
       {
         "title": "Exoplanet",
@@ -24,7 +24,13 @@
         "title": "Sunrise on the Reaping (The Hunger Games)",
         "author": "Suzanne Collins",
         "narrator": "Jefferson White",
-        "image": "https://m.media-amazon.com/images/I/51aRJv+TnTL._SL500_.jpg"
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f0/5c/b6/f05cb68a-da4c-f986-ebf3-14af7fbaf690/9781546171492.png/600x600bb.jpg"
+      },
+      {
+        "title": "Dungeon Crawler Carl",
+        "author": "Matt Dinniman",
+        "narrator": "Jeff Hays",
+        "image": "https://covers.openlibrary.org/b/id/15143022-L.jpg"
       },
       {
         "title": "A Court of Splintered Harmony",
@@ -33,10 +39,10 @@
         "image": "https://covers.openlibrary.org/b/id/15273593-L.jpg"
       },
       {
-        "title": "Dungeon Crawler Carl",
-        "author": "Matt Dinniman",
-        "narrator": "Jeff Hays",
-        "image": "https://covers.openlibrary.org/b/id/15143022-L.jpg"
+        "title": "The Hunger Games",
+        "author": "Suzanne Collins",
+        "narrator": "Tatiana Maslany",
+        "image": "https://covers.openlibrary.org/b/id/12646537-L.jpg"
       },
       {
         "title": "The Witch",
@@ -48,19 +54,13 @@
         "title": "Bram Stoker's Dracula",
         "author": "Bram Stoker",
         "narrator": "Jonathan Bailey , Ella Purnell , Aimee Lou Wood , Louis Partridge , David Jonsson , Johnny Flynn , Lesley Manville , Maggie Gyllenhaal",
-        "image": "https://m.media-amazon.com/images/I/51nLhYS-rhL._SL500_.jpg"
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/03/85/a8/0385a8b0-667d-baed-8423-132574f5a40f/9781785752292.png/600x600bb.jpg"
       },
       {
         "title": "Carl's Doomsday Scenario",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
         "image": "https://covers.openlibrary.org/b/id/11702962-L.jpg"
-      },
-      {
-        "title": "The Dungeon Anarchist's Cookbook",
-        "author": "Matt Dinniman",
-        "narrator": "Jeff Hays , The Critical Drinker",
-        "image": "https://covers.openlibrary.org/b/id/15277856-L.jpg"
       }
     ],
     "BOOKS": [
@@ -87,7 +87,7 @@
       {
         "title": "Guinness World Records 2027",
         "author": "",
-        "image": "https://storage.googleapis.com/lr-assets/bds-images/m/978024/9780241769416.jpg"
+        "image": "http://www.bibdsl.co.uk/bds-images/l/978180/9781806500222.jpg"
       },
       {
         "title": "Lottie Brooks's Twelve Disasters of Christmas",
@@ -123,15 +123,15 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-11-22T14:51:00.124Z",
-      "lastSuccessfulRefresh": "2026-11-22T14:51:00.124Z",
+      "checkedAt": "2026-11-22T19:50:04.078Z",
+      "lastSuccessfulRefresh": "2026-11-22T19:50:04.078Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
-      "status": "stale",
-      "checkedAt": "2026-11-22T14:51:35.501Z",
-      "lastSuccessfulRefresh": "2026-11-20T22:37:25.129Z",
-      "reason": "503 https://www.audible.co.uk/charts/best"
+      "status": "healthy",
+      "checkedAt": "2026-11-22T19:50:18.791Z",
+      "lastSuccessfulRefresh": "2026-11-22T19:50:18.791Z",
+      "reason": ""
     }
   }
 }
