@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T07:02:06.468Z",
+  "updated": "2026-11-22T14:51:00.124Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -87,7 +87,7 @@
       {
         "title": "Guinness World Records 2027",
         "author": "",
-        "image": "http://www.bibdsl.co.uk/bds-images/l/978180/9781806500222.jpg"
+        "image": "https://storage.googleapis.com/lr-assets/bds-images/m/978024/9780241769416.jpg"
       },
       {
         "title": "Lottie Brooks's Twelve Disasters of Christmas",
@@ -123,13 +123,13 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-11-22T07:02:06.468Z",
-      "lastSuccessfulRefresh": "2026-11-22T07:02:06.468Z",
+      "checkedAt": "2026-11-22T14:51:00.124Z",
+      "lastSuccessfulRefresh": "2026-11-22T14:51:00.124Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
       "status": "stale",
-      "checkedAt": "2026-11-22T07:02:19.733Z",
+      "checkedAt": "2026-11-22T14:51:35.501Z",
       "lastSuccessfulRefresh": "2026-11-20T22:37:25.129Z",
       "reason": "503 https://www.audible.co.uk/charts/best"
     }
