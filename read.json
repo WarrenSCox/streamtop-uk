@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24T05:54:44.726Z",
+  "updated": "2026-11-24T10:03:13.568Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -30,7 +30,7 @@
         "title": "Dungeon Crawler Carl",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://m.media-amazon.com/images/I/51HIZdnqASL._SL500_.jpg"
+        "image": "https://covers.openlibrary.org/b/id/15143022-L.jpg"
       },
       {
         "title": "A Court of Splintered Harmony",
@@ -123,14 +123,14 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-11-24T05:54:44.726Z",
-      "lastSuccessfulRefresh": "2026-11-24T05:54:44.726Z",
+      "checkedAt": "2026-11-24T10:03:13.568Z",
+      "lastSuccessfulRefresh": "2026-11-24T10:03:13.568Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-11-24T05:54:57.721Z",
-      "lastSuccessfulRefresh": "2026-11-24T05:54:57.721Z",
+      "checkedAt": "2026-11-24T10:03:25.637Z",
+      "lastSuccessfulRefresh": "2026-11-24T10:03:25.637Z",
       "reason": ""
     }
   }
