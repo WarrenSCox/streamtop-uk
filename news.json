@@ -1,7 +1,34 @@
 {
-  "updated": "2026-11-24T00:01:09.529Z",
+  "updated": "2026-11-24T05:54:38.716Z",
   "categories": {
     "UK": [
+      {
+        "title": "Nearly four million in destitution across UK, study suggests",
+        "link": "https://news.sky.com/story/nearly-four-million-people-in-destitution-across-uk-study-suggests-13615711",
+        "published": "Tue, 24 Nov 2026 03:17:00 +0000",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/11/1920x1080/skynews-food-bank-food_7409168.jpg?20261123161637"
+      },
+      {
+        "title": "Illicit substances found in one in eight vapes seized from students",
+        "link": "https://news.sky.com/story/children-using-vapes-spiked-with-spice-and-thc-police-warn-13615742",
+        "published": "Tue, 24 Nov 2026 01:45:00 +0000",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/11/1920x1080/skynews-vape-vaping_7414674.jpg?20261123174043"
+      },
+      {
+        "title": "Victims failed at every step of criminal justice system - report",
+        "link": "https://news.sky.com/story/victims-of-crime-being-failed-at-every-step-of-justice-system-report-warns-13615855",
+        "published": "Tue, 24 Nov 2026 01:37:00 +0000",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/04/1920x1080/skynews-old-bailey-courts-london_7221010.jpg?20260415194737"
+      },
       {
         "title": "Boy, 4, fatally shoots himself playing with gun left lying around home",
         "link": "https://metro.co.uk/2026/11/23/boy-4-fatally-shoots-playing-gun-left-lying-around-home-29814630/",
@@ -64,36 +91,63 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/20/03/1920x1080/skynews-capita-outsourcer_4942946.jpg?20200309121349"
-      },
-      {
-        "title": "Martin Property Group makes last-gasp pitch to seal Poundland rescue",
-        "link": "https://news.sky.com/story/martin-property-group-makes-last-gasp-pitch-to-seal-poundland-rescue-13615589",
-        "published": "Mon, 23 Nov 2026 11:33:00 +0000",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/11/1920x1080/skynews-poundland-kleinman_7406316.jpg?20261114102016"
-      },
-      {
-        "title": "Snow forecast as cold health alerts in parts of UK",
-        "link": "https://news.sky.com/story/snow-and-frost-forecast-for-parts-of-the-uk-as-wintry-conditions-arrive-13615538",
-        "published": "Mon, 23 Nov 2026 09:25:00 +0000",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/11/1920x1080/skynews-snow-weather_7414285.jpg?20261123105618"
-      },
-      {
-        "title": "Hacker sentenced for leaking Grand Theft Auto VI clips",
-        "link": "https://news.sky.com/story/hacker-sentenced-for-leaking-grand-theft-auto-vi-clips-during-cybercrime-spree-13615501",
-        "published": "Mon, 23 Nov 2026 06:46:00 +0000",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/11/1920x1080/skynews-arion-kurtaj-gta-gta-6_7414238.jpg?20261123095316"
       }
     ],
     "WORLD": [
+      {
+        "title": "Australian politics live: Government lacks ‘moral authority’ on decarbonisation, Monique Ryan says; eight teens arrested over alleged schoolies assault",
+        "link": "https://www.theguardian.com/australia-news/live/2026/nov/24/labor-penny-wong-us-china-anthony-albanese-final-sitting-week-ntwnfb",
+        "published": "Tue, 24 Nov 2026 05:22:20 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Australian politics Australia news Australian economy Business Health Australian education Australian immigration and asylum Australian foreign policy Labor party",
+        "image": "https://i.guim.co.uk/img/media/d9986cfb67bf7d66b96cd3b14d5e4bdb388902ba/558_0_5575_4460/master/5575.jpg?width=140&quality=85&auto=format&fit=max&s=c9b3d6c247e3a8c6043a10c696f48094"
+      },
+      {
+        "title": "South Korea tells island residents to take shelter after Russian military aircraft approach",
+        "link": "https://www.theguardian.com/world/2026/nov/24/south-korea-tells-island-residents-to-take-shelter-after-russian-military-aircraft-approach",
+        "published": "Tue, 24 Nov 2026 04:14:43 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "South Korea Russia Asia Pacific",
+        "image": "https://i.guim.co.uk/img/media/a64555d05e60fde8290f1489232b209ec8ba900c/996_199_4012_3210/master/4012.jpg?width=140&quality=85&auto=format&fit=max&s=3029f9b2443baacb8f134a3006fb300b"
+      },
+      {
+        "title": "Social media companies could be fined 5% of global revenue after Labor and Greens join forces on online safety laws",
+        "link": "https://www.theguardian.com/technology/2026/nov/24/social-media-big-tech-fines-global-revenue-australia-digital-duty-care-laws",
+        "published": "Tue, 24 Nov 2026 04:03:16 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Australian politics Technology Meta Australia news",
+        "image": "https://i.guim.co.uk/img/media/d9d3d16ddafbbb2d6d25e61b14faa15c1b8edeb6/238_0_6238_4991/master/6238.jpg?width=140&quality=85&auto=format&fit=max&s=b2476a5aef811b2128cada4739be7a15"
+      },
+      {
+        "title": "Gisele Pelicot 'deeply shocked' as nude photos of her sent to media",
+        "link": "https://news.sky.com/story/gisele-pelicot-deeply-shocked-after-nude-photos-used-to-promote-book-13615849",
+        "published": "Tue, 24 Nov 2026 02:54:00 +0000",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/11/1920x1080/skynews-gisele-pelicot-france_7414958.jpg?20261124010316"
+      },
+      {
+        "title": "China sentences official to death for spying for foreign country",
+        "link": "https://www.theguardian.com/world/2026/nov/24/china-official-ma-death-sentence-spying-leaking-national-secrets",
+        "published": "Tue, 24 Nov 2026 02:37:36 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "China Espionage Asia Pacific",
+        "image": "https://i.guim.co.uk/img/media/5d7028c1f7418b6df67a8b82c97cfc5563385eba/154_0_2536_2029/master/2536.jpg?width=140&quality=85&auto=format&fit=max&s=44cb141ed2c5bf5b241d085672ec0b9e"
+      },
+      {
+        "title": "Sky News documentary wins International Emmy",
+        "link": "https://news.sky.com/story/24-hours-in-the-kill-zone-sky-news-documentary-wins-international-emmy-13615753",
+        "published": "Tue, 24 Nov 2026 02:06:00 +0000",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/11/1920x1080/skynews-sky-news-ukraine_7414962.jpg?20261124022335"
+      },
       {
         "title": "The end for Jodie and Lily on Coronation Street as Shona is too late",
         "link": "https://metro.co.uk/2026/11/23/end-jodie-lily-coronation-street-shona-late-29803114/",
@@ -102,24 +156,6 @@
         "provider": "METRO",
         "categories": "Coronation Street Soaps Jodie Ramsey Julia Goulding Olivia Frances-Brown Shona Platt",
         "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_321112679-3350.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Australian politics live: Taylor notes ‘tough year’ for Coalition party room; King Charles ‘deeply saddened’ by Meldrum’s death",
-        "link": "https://www.theguardian.com/australia-news/live/2026/nov/24/labor-penny-wong-us-china-anthony-albanese-final-sitting-week-ntwnfb",
-        "published": "Mon, 23 Nov 2026 23:42:49 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Australian politics Australia news Australian economy Business Health Australian education Australian immigration and asylum Australian foreign policy Labor party",
-        "image": "https://i.guim.co.uk/img/media/7a7744f47b650ef928308170e6cfe6118d27f308/688_0_6880_5504/master/6880.jpg?width=140&quality=85&auto=format&fit=max&s=037dc2a4a0f418015558a3a071a305c1"
-      },
-      {
-        "title": "Butt of the joke: Trump impersonator mocks president at Canada press dinner",
-        "link": "https://www.theguardian.com/world/2026/nov/23/canada-trump-impersonator-press-dinner",
-        "published": "Mon, 23 Nov 2026 22:41:48 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Canada World news Americas Mark Carney Donald Trump",
-        "image": "https://i.guim.co.uk/img/media/fd2a6955fac805e0a3ba873c88fcd4cd86fea573/448_0_3149_2519/master/3149.jpg?width=140&quality=85&auto=format&fit=max&s=0c0ba3332a8a70d5b715b83efe23e0cd"
       },
       {
         "title": "Jodie’s wicked scheme pays off as Coronation Street spoilers reveal what happens next",
@@ -140,24 +176,6 @@
         "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_321779418-9996.jpg?quality=90&strip=all&w=646"
       },
       {
-        "title": "Sculpture stolen from Spanish church in 1970s is found in UK museum",
-        "link": "https://metro.co.uk/2026/11/23/sculpture-stolen-spanish-church-1970s-found-uk-museum-29814174/",
-        "published": "Mon, 23 Nov 2026 17:20:26 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News UK London Metropolitan Police Spain",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_321800579-f64d.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Cop31 collapses: why did climate talks fall apart? - The Latest",
-        "link": "https://www.theguardian.com/news/audio/2026/nov/23/cop31-collapses-why-did-climate-talks-fall-apart-the-latest",
-        "published": "Mon, 23 Nov 2026 17:19:55 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Cop31 Climate crisis United Nations Global climate talks Fossil fuels Environment World news Energy Fossil fuel divestment Turkey Australia news Europe",
-        "image": "https://i.guim.co.uk/img/media/bfd5ba75d2fef1972b3c75b1a735ae9b05d31036/156_27_6787_5429/master/6787.jpg?width=140&quality=85&auto=format&fit=max&s=da215f2c7e360e655c53f507906b5a06"
-      },
-      {
         "title": "Deadly fire at confectionery factory kills 24 as rescuers search for dozens still missing",
         "link": "https://news.sky.com/story/deadly-fire-at-confectionery-factory-in-indonesia-kills-24-as-rescuers-search-for-dozens-still-missing-13615577",
         "published": "Mon, 23 Nov 2026 10:52:00 +0000",
@@ -165,27 +183,18 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/11/1920x1080/skynews-serang-indonesia_7414286.jpg?20261123105702"
-      },
-      {
-        "title": "Man who was lured to remote villa and held for 15 hours rescued after being tied up and beaten",
-        "link": "https://news.sky.com/story/man-rescued-after-being-lured-to-remote-villa-in-spain-where-he-was-held-for-15-hours-tied-up-and-beaten-13615282",
-        "published": "Sun, 22 Nov 2026 15:13:00 +0000",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/11/1920x1080/skynews-civil-guard-montserrat_7413582.jpg?20261122164357"
-      },
-      {
-        "title": "Meet the Ukrainian energy workers dodging drones to bring people's electricity back",
-        "link": "https://news.sky.com/story/meet-the-ukrainian-energy-workers-who-dodge-drones-to-bring-peoples-electricity-back-13615168",
-        "published": "Sun, 22 Nov 2026 09:16:00 +0000",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/11/1920x1080/skynews-maksym-ukraine-drummond_7411179.jpg?20261122092143"
       }
     ],
     "POLITICS": [
+      {
+        "title": "Zack Polanski backs report endorsing Nato membership and maintaining nuclear weapons",
+        "link": "https://www.theguardian.com/politics/2026/nov/24/zack-polanski-backs-report-endorsing-nato-membership-maintaining-nuclear-weapons",
+        "published": "Tue, 24 Nov 2026 00:01:01 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Zack Polanski Green party Defence policy Politics UK news",
+        "image": "https://i.guim.co.uk/img/media/631070f63a2fb9a39634bf065f768197aa90271b/519_0_4025_3220/master/4025.jpg?width=140&quality=85&auto=format&fit=max&s=50ed534edfaacb4ac477f90f09916225"
+      },
       {
         "title": "Burnham says it would be ‘unthinkable’ to rejoin EU without referendum",
         "link": "https://www.theguardian.com/politics/2026/nov/23/andy-burnham-brexit-deal-eu",
@@ -212,15 +221,6 @@
         "provider": "GUARDIAN",
         "categories": "Politics Andy Burnham Labour Brexit European Union Europe UK news Foreign policy",
         "image": "https://i.guim.co.uk/img/media/9fa0fc1787733a99e1d9b2214d123d8163677f84/195_0_4828_3862/master/4828.jpg?width=140&quality=85&auto=format&fit=max&s=a444a56e37754b8dc3602dd98704eeb4"
-      },
-      {
-        "title": "‘Scapegoating’: green groups condemn plan to axe Environment Agency and Natural England",
-        "link": "https://www.theguardian.com/politics/2026/nov/23/natural-england-could-be-abolished-quango-cull-louise-haigh",
-        "published": "Mon, 23 Nov 2026 17:47:58 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Quangos Louise Haigh Environment policy Natural England Environment Politics UK news Conservation England Labour Devolution Access to green space Economic policy Construction industry Real estate",
-        "image": "https://i.guim.co.uk/img/media/b46f01566289f841fb7954222888ae0175122aad/1324_870_4795_3835/master/4795.jpg?width=140&quality=85&auto=format&fit=max&s=4a40a542fc4fecab084e3c1fd15755b6"
       },
       {
         "title": "Environment Agency and Natural England could be axed in Labour shake-up",
@@ -268,13 +268,13 @@
         "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_320026508-bb3c.jpg?quality=90&strip=all&w=646"
       },
       {
-        "title": "What tactics will Burnham use to sell his EU plans? – podcast",
-        "link": "https://www.theguardian.com/politics/audio/2026/nov/23/what-tactics-will-burnham-use-to-sell-his-eu-plans-podcast",
-        "published": "Mon, 23 Nov 2026 17:42:13 GMT",
+        "title": "‘Scapegoating’: green groups condemn plan to axe Environment Agency and Natural England",
+        "link": "https://www.theguardian.com/politics/2026/nov/23/natural-england-could-be-abolished-quango-cull-louise-haigh",
+        "published": "Mon, 23 Nov 2026 17:47:58 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
-        "categories": "Politics Brexit Andy Burnham European Union UK news Foreign policy Labour World news Europe Trade policy Business Economic policy",
-        "image": "https://i.guim.co.uk/img/media/780e376c30452f47a88c6a3829f08b80d2f5f59d/1666_61_5305_4244/master/5305.jpg?width=140&quality=85&auto=format&fit=max&s=baeea66c55ad8f6f4eaf8d20e85d127e"
+        "categories": "Quangos Louise Haigh Environment policy Natural England Environment Politics UK news Conservation England Labour Devolution Access to green space Economic policy Construction industry Real estate",
+        "image": "https://i.guim.co.uk/img/media/b46f01566289f841fb7954222888ae0175122aad/1324_870_4795_3835/master/4795.jpg?width=140&quality=85&auto=format&fit=max&s=4a40a542fc4fecab084e3c1fd15755b6"
       }
     ],
     "BUSINESS": [
@@ -295,15 +295,6 @@
         "provider": "GUARDIAN",
         "categories": "Jensen Huang Nvidia Technology sector Technology Donald Trump Business US news World news",
         "image": "https://i.guim.co.uk/img/media/d43043e64abd1e9a3d80d7870de50d134c45b4dd/199_0_5507_4407/master/5507.jpg?width=140&quality=85&auto=format&fit=max&s=9777f3efbe0433b8488aa88bcecef998"
-      },
-      {
-        "title": "World’s youngest self-made female billionaire reveals secret behind her 96-hour weeks",
-        "link": "https://metro.co.uk/2026/11/23/worlds-youngest-self-made-female-billionaire-reveals-secret-behind-96-hour-weeks-29812860/",
-        "published": "Mon, 23 Nov 2026 16:01:48 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News US Making Money Money Tips",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/11/GettyImages-2305208448-6c33.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "Wild stock market swings: will I lose money, and is there anything I can do?",
@@ -367,9 +358,45 @@
         "provider": "METRO",
         "categories": "News Politics Andy Burnham British Government Business Work",
         "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_305078487-3c32.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Royal painters immortalise business heroes saving British high streets",
+        "link": "https://metro.co.uk/2026/10/27/royal-painters-immortalise-business-heroes-saving-british-high-streets-29741431/",
+        "published": "Tue, 27 Oct 2026 07:00:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News UK Business",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/14ea7d61-219b-46f7-8f22-260502bbc109-24e6.png?w=646"
       }
     ],
     "TECH": [
+      {
+        "title": "Nvidia rejoices at Jensen Huang’s second coming as White House takes victory lap",
+        "link": "https://www.theguardian.com/technology/2026/nov/23/nvidia-jensen-huang-return-ceo",
+        "published": "Tue, 24 Nov 2026 01:34:39 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Nvidia AI (artificial intelligence) Jensen Huang Technology Computing",
+        "image": "https://i.guim.co.uk/img/media/acc6b55b5a2588de1743b839ccdd4877f7978618/463_0_4821_3856/master/4821.jpg?width=140&quality=85&auto=format&fit=max&s=203a93cae1aa0ce160fd7aa72d148430"
+      },
+      {
+        "title": "Games Inbox: Is it better to wait for the PC version of GTA 6?",
+        "link": "https://metro.co.uk/2026/11/24/games-inbox-better-wait-pc-version-gta-6-29814747/",
+        "published": "Tue, 24 Nov 2026 01:00:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Entertainment Gaming Games Inbox GTA 6 PC Games Rockstar Games",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310228785-4006.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Daily horoscope November 24, 2026: Today’s predictions for your star sign",
+        "link": "https://metro.co.uk/2026/11/24/daily-horoscope-november-24-2026-predictions-star-sign-29814707/",
+        "published": "Tue, 24 Nov 2026 00:01:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Horoscopes Lifestyle Aquarius Aries Astrology Cancer (star sign) Capricorn Gemini Leo Libra Pisces Sagittarius Scorpio Taurus Virgo",
+        "image": "https://metro.co.uk/wp-content/uploads/2023/04/new-horoscope-2023-02-a5db.gif?w=646"
+      },
       {
         "title": "Jensen Huang reinstated as Nvidia CEO after Trump intervenes",
         "link": "https://www.theguardian.com/technology/2026/nov/23/jensen-huang-reinstated-as-nvidia-chief-executive",
@@ -407,24 +434,6 @@
         "image": "https://i.guim.co.uk/img/media/0685580621412c0ab09c57f3e1cbcfe36f682121/126_0_3780_3024/master/3780.jpg?width=140&quality=85&auto=format&fit=max&s=fa2ca7ab7793e1ef1f6f28976543118b"
       },
       {
-        "title": "How freaked out should we be? After mass outages, experts tell us how close we are to ‘doomsday’",
-        "link": "https://www.theguardian.com/technology/2026/nov/23/tech-outages-security-experts",
-        "published": "Mon, 23 Nov 2026 16:58:17 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Technology AI (artificial intelligence) Flights Air transport Travel",
-        "image": "https://i.guim.co.uk/img/media/9d85845928e02b3a6eff671b4454f59dd4937dfb/1_0_2999_2400/master/2999.jpg?width=140&quality=85&auto=format&fit=max&s=990e59089ea65f3b3eefe1201fde1f1d"
-      },
-      {
-        "title": "‘Cyberpunk 2 is cancelled’ jokes director suffering from ‘GTA 6 depression’",
-        "link": "https://metro.co.uk/2026/11/23/cyberpunk-2-cancelled-jokes-director-suffering-gta-6-depression-29814112/",
-        "published": "Mon, 23 Nov 2026 16:05:40 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Entertainment Gaming Games news GTA 6 PlayStation 5 Xbox Series X",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_321800598-3cfd.jpg?quality=90&strip=all&w=646"
-      },
-      {
         "title": "Hacker sentenced for leaking Grand Theft Auto VI clips",
         "link": "https://news.sky.com/story/hacker-sentenced-for-leaking-grand-theft-auto-vi-clips-during-cybercrime-spree-13615501",
         "published": "Mon, 23 Nov 2026 06:46:00 +0000",
@@ -450,44 +459,17 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/11/1920x1080/skynews-gcap-raf-fighter-jet_7413066.jpg?20261122010615"
-      },
-      {
-        "title": "‘Pervert glasses’ named word of the year by Macquarie dictionary, ahead of ‘nudify’ and ‘AI;DR’",
-        "link": "https://www.theguardian.com/science/2026/nov/23/pervert-glasses-meta-word-of-the-year-macquarie-dictionary-nudify-aidr",
-        "published": "Mon, 23 Nov 2026 13:55:40 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Language Australian books Australia news Linguistics AI (artificial intelligence)",
-        "image": "https://i.guim.co.uk/img/media/157cb03ca11449508590bbb8b23daca70b5a59ce/418_0_4164_3333/master/4164.jpg?width=140&quality=85&auto=format&fit=max&s=3e842895d6ccaf9e9f6342fb5695c9ff"
       }
     ],
     "ENTERTAINMENT": [
       {
-        "title": "Alarm bells ring as worrying Ant turns on Kathleen-Angel in Hollyoaks",
-        "link": "https://metro.co.uk/2026/11/23/alarm-bells-ring-worrying-ant-turns-kathleen-angel-hollyoaks-29813911/",
+        "title": "The end for Jodie and Lily on Coronation Street as Shona is too late",
+        "link": "https://metro.co.uk/2026/11/23/end-jodie-lily-coronation-street-shona-late-29803114/",
         "published": "Mon, 23 Nov 2026 23:59:00 +0000",
         "source": "Metro",
         "provider": "METRO",
-        "categories": "Hollyoaks Soaps Cleo McQueen",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_321797553-02fb.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Emmerdale star reveals Tom goes darker than ever with ‘large and visceral’ plan confirmed",
-        "link": "https://metro.co.uk/2026/11/23/emmerdale-star-reveals-tom-goes-darker-ever-visceral-plan-29801887/",
-        "published": "Mon, 23 Nov 2026 23:59:00 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Emmerdale Soaps Belle Dingle Eden Taylor-Draper James Chase Tom King",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_321112795-e88b.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Shockwaves rock Walford as Ned explodes a massive bombshell in EastEnders",
-        "link": "https://metro.co.uk/2026/11/23/shockwaves-rock-walford-eastenders-ned-explodes-a-massive-bombshell-29811946/",
-        "published": "Mon, 23 Nov 2026 23:59:00 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "EastEnders Soaps Jamie Bamber Laura Doddington Ned Hawkins Nicola Mitchell",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_321776273-6939.jpg?quality=90&strip=all&w=646"
+        "categories": "Coronation Street Soaps Jodie Ramsey Julia Goulding Olivia Frances-Brown Shona Platt",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_321112679-3350.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "Max rushed to hospital in EastEnders – and it’s Cindy’s fault",
@@ -497,6 +479,24 @@
         "provider": "METRO",
         "categories": "EastEnders Soaps Cindy Beale Jake Wood Max Branning Michelle Collins",
         "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_321776264-ed07.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Piper may be Tom’s first victim as our beloved Emmerdale bestie goes missing",
+        "link": "https://metro.co.uk/2026/11/23/piper-may-toms-first-victim-beloved-emmerdale-bestie-goes-missing-29804510/",
+        "published": "Mon, 23 Nov 2026 23:59:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Emmerdale Soaps Belle Dingle Eden Taylor-Draper James Chase Tom King",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_232696948-4be9-e1795452592642.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Alarm bells ring as worrying Ant turns on Kathleen-Angel in Hollyoaks",
+        "link": "https://metro.co.uk/2026/11/23/alarm-bells-ring-worrying-ant-turns-kathleen-angel-hollyoaks-29813911/",
+        "published": "Mon, 23 Nov 2026 23:59:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Hollyoaks Soaps Cleo McQueen",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_321797553-02fb.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "Clashing Through the Snow review – Amazon’s Christmas romcom is a bust",
@@ -555,36 +555,36 @@
     ],
     "STOCKS": [
       {
-        "title": "SharkNinja To Join S&P 500 Index",
-        "link": "https://uk.finance.yahoo.com/m/cc396177-40de-3092-88f3-436b29060cbe/sharkninja-to-join-s%26p-500.html?.tsrc=rss",
-        "published": "Mon, 23 Nov 2026 23:49:55 +0000",
+        "title": "3 AI Infrastructure Stocks Retail Investors Are Watching After Nvidia Shares Jump",
+        "link": "https://finance.yahoo.com/technology/ai/articles/3-ai-infrastructure-stocks-retail-052634911.html?.tsrc=rss",
+        "published": "Tue, 24 Nov 2026 05:26:34 +0000",
         "source": "Yahoo Finance",
         "provider": "YAHOO",
         "categories": "",
         "image": ""
       },
       {
-        "title": "SharkNinja Set to Join S&P 500; Others to Join S&P MidCap 400 and S&P SmallCap 600",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/sharkninja-set-join-p-500-232300474.html?.tsrc=rss",
-        "published": "Mon, 23 Nov 2026 23:23:00 +0000",
+        "title": "Nvidia shares soar more than 30% after Huang reinstated as CEO",
+        "link": "https://www.cnn.com/2026/11/23/markets/us-stocks-rebound-intl?.tsrc=rss",
+        "published": "Tue, 24 Nov 2026 04:23:57 +0000",
+        "source": "Yahoo Finance",
+        "provider": "YAHOO",
+        "categories": "",
+        "image": "https://media.cnn.com/api/v1/images/stellar/prod/c-2026-07-16t114202z-1746392503-rc2yemachshb-rtrmadp-3-nvidia-japan.jpg?c=16x9&q=w_800,c_fill"
+      },
+      {
+        "title": "Asian stocks rally as Taiwan leads with 9% rebound in AI trade",
+        "link": "https://uk.finance.yahoo.com/news/asian-stocks-rally-taiwan-leads-040608393.html?.tsrc=rss",
+        "published": "Tue, 24 Nov 2026 04:06:08 +0000",
         "source": "Yahoo Finance",
         "provider": "YAHOO",
         "categories": "",
         "image": ""
       },
       {
-        "title": "BC-Select Stock Indices",
-        "link": "https://finance.yahoo.com/markets/world-indices/articles/bc-select-stock-indices-223013211.html?.tsrc=rss",
-        "published": "Mon, 23 Nov 2026 22:30:13 +0000",
-        "source": "Yahoo Finance",
-        "provider": "YAHOO",
-        "categories": "",
-        "image": ""
-      },
-      {
-        "title": "Dollar General (DG) Increases Yet Falls Behind Market: What Investors Need to Know",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/dollar-general-dg-increases-yet-221501206.html?.tsrc=rss",
-        "published": "Mon, 23 Nov 2026 22:15:01 +0000",
+        "title": "Nvidia’s Asian Suppliers Rally as Jensen Huang Returns as CEO: SK Hynix Jumps 8%, SoftBank Shares Rise in Tokyo",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-asian-suppliers-rally-jensen-012213841.html?.tsrc=rss",
+        "published": "Tue, 24 Nov 2026 01:22:13 +0000",
         "source": "Yahoo Finance",
         "provider": "YAHOO",
         "categories": "",
@@ -627,18 +627,18 @@
         "image": "https://www.twelfthmagpie.com/wp-content/uploads/2025/01/Gradual-Increase-1200x675.jpg"
       },
       {
-        "title": "EXCLUSIVE: Like SpaceX, Anthropic ran an unusual IPO process, chafing some bankers",
-        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNT1RsTFBlMWZGejNqWjVvdVlYX2lRTGpZZXhoYXFXN2RuV3lHZ09ra0ctdnZqc3hiVENXSlc2ZTBIbDRyTmpTS1Nhdk1kdU5HLW5FNGdNRTNoeXVBeEc5cDl5VGx3c3dUSzNDYkVVTHVfenVQbHFUQ0hQS2NfalhuNDczWFdUS0FWQS1iZ1ZhVnNYMy1FOHVSUmlBMmI3NTdVTGY1X0JxTFRmYnptV3huQQ?oc=5",
-        "published": "Sun, 22 Nov 2026 11:03:00 GMT",
+        "title": "Anthropic retail traders face losses as shares dive 13% the day after debut",
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOTnI5ZjRqcHhFQXkycDMySHZ1Tkl4V2RKdzNIcTlPdFhCMlJhZEkzX2RSZ0F0cjgteE9RX3JQejRRWHV6RnMtdXA3b3RKczRka0dxSEsyZU5SNFhUbTRZMU00NTVOdXE4RTI0OURfdE41aGIzc2N3ZnpsRFBxNkdsOUYzOGFnNEFGVkppNTVlTkR0OUstdU5jZWwyRUtOWGxVeEJBMWpiZ3FWRzVDdG8tUG1va3VWS2U0a3pWcg?oc=5",
+        "published": "Fri, 20 Nov 2026 18:16:23 GMT",
         "source": "Reuters",
         "provider": "REUTERS",
         "categories": "",
         "image": ""
       },
       {
-        "title": "Anthropic retail traders face losses as shares dive 13% the day after debut",
-        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOTnI5ZjRqcHhFQXkycDMySHZ1Tkl4V2RKdzNIcTlPdFhCMlJhZEkzX2RSZ0F0cjgteE9RX3JQejRRWHV6RnMtdXA3b3RKczRka0dxSEsyZU5SNFhUbTRZMU00NTVOdXE4RTI0OURfdE41aGIzc2N3ZnpsRFBxNkdsOUYzOGFnNEFGVkppNTVlTkR0OUstdU5jZWwyRUtOWGxVeEJBMWpiZ3FWRzVDdG8tUG1va3VWS2U0a3pWcg?oc=5",
-        "published": "Fri, 20 Nov 2026 18:16:23 GMT",
+        "title": "European shares post worst week in over a year as AI trade unravels",
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOLTRUN3RabW5hOWVFMWhrajEweXFyWWRURWthSmRXYlVrTF9jcGJyRGFoQ0xyZzlpeXNBWkJqTU9UaDAySmluOU5FZkd5eTZ2R0pZT1dIODdaQktHX1BrVGlhVUZjVjhUb20zZnYyY19yTWNCdVppTmJTQmREaUktRXhJXzdkMGdCT0YtYlplSGxOR2NVb2xrRHdyWW44QlBHV0R3dk1kOA?oc=5",
+        "published": "Fri, 20 Nov 2026 17:43:39 GMT",
         "source": "Reuters",
         "provider": "REUTERS",
         "categories": "",
@@ -736,7 +736,7 @@
           },
           "YAHOO": {
             "ok": true,
-            "count": 10,
+            "count": 11,
             "retainedPrevious": 0,
             "errors": [
               "https://finance.yahoo.com/news/rssindex: 404 Not Found"
@@ -758,6 +758,33 @@
     "SKY": {
       "categories": {
         "UK": [
+          {
+            "title": "Nearly four million in destitution across UK, study suggests",
+            "link": "https://news.sky.com/story/nearly-four-million-people-in-destitution-across-uk-study-suggests-13615711",
+            "published": "Tue, 24 Nov 2026 03:17:00 +0000",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/11/1920x1080/skynews-food-bank-food_7409168.jpg?20261123161637"
+          },
+          {
+            "title": "Illicit substances found in one in eight vapes seized from students",
+            "link": "https://news.sky.com/story/children-using-vapes-spiked-with-spice-and-thc-police-warn-13615742",
+            "published": "Tue, 24 Nov 2026 01:45:00 +0000",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/11/1920x1080/skynews-vape-vaping_7414674.jpg?20261123174043"
+          },
+          {
+            "title": "Victims failed at every step of criminal justice system - report",
+            "link": "https://news.sky.com/story/victims-of-crime-being-failed-at-every-step-of-justice-system-report-warns-13615855",
+            "published": "Tue, 24 Nov 2026 01:37:00 +0000",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/04/1920x1080/skynews-old-bailey-courts-london_7221010.jpg?20260415194737"
+          },
           {
             "title": "Hacker sentenced for leaking Grand Theft Auto VI clips",
             "link": "https://news.sky.com/story/hacker-sentenced-for-leaking-grand-theft-auto-vi-clips-during-cybercrime-spree-13615501",
@@ -793,45 +820,27 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/11/1920x1080/skynews-brighton-beach-beach_7413785.jpg?20261122180629"
-          },
-          {
-            "title": "Snow forecast as cold health alerts in parts of UK",
-            "link": "https://news.sky.com/story/snow-and-frost-forecast-for-parts-of-the-uk-as-wintry-conditions-arrive-13615538",
-            "published": "Mon, 23 Nov 2026 09:25:00 +0000",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/11/1920x1080/skynews-snow-weather_7414285.jpg?20261123105618"
-          },
-          {
-            "title": "Major trial to examine if AI can help detect breast cancer earlier",
-            "link": "https://news.sky.com/story/major-trial-to-examine-if-ai-can-help-detect-breast-cancer-earlier-13615166",
-            "published": "Mon, 23 Nov 2026 00:01:00 +0000",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/08/1920x1080/skynews-breast-cancer-cancer_7313399.jpg?20260804081239"
-          },
-          {
-            "title": "Suspect charged over death of man found injured in hospital car park",
-            "link": "https://news.sky.com/story/man-21-dies-after-being-found-seriously-injured-in-hospital-car-park-13615200",
-            "published": "Sun, 22 Nov 2026 11:47:00 +0000",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/11/1920x1080/skynews-dundee-ninewells-hospital_7414155.jpg?20261123082627"
-          },
-          {
-            "title": "Martin Property Group makes last-gasp pitch to seal Poundland rescue",
-            "link": "https://news.sky.com/story/martin-property-group-makes-last-gasp-pitch-to-seal-poundland-rescue-13615589",
-            "published": "Mon, 23 Nov 2026 11:33:00 +0000",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/11/1920x1080/skynews-poundland-kleinman_7406316.jpg?20261114102016"
           }
         ],
         "WORLD": [
+          {
+            "title": "Gisele Pelicot 'deeply shocked' as nude photos of her sent to media",
+            "link": "https://news.sky.com/story/gisele-pelicot-deeply-shocked-after-nude-photos-used-to-promote-book-13615849",
+            "published": "Tue, 24 Nov 2026 02:54:00 +0000",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/11/1920x1080/skynews-gisele-pelicot-france_7414958.jpg?20261124010316"
+          },
+          {
+            "title": "Sky News documentary wins International Emmy",
+            "link": "https://news.sky.com/story/24-hours-in-the-kill-zone-sky-news-documentary-wins-international-emmy-13615753",
+            "published": "Tue, 24 Nov 2026 02:06:00 +0000",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/11/1920x1080/skynews-sky-news-ukraine_7414962.jpg?20261124022335"
+          },
           {
             "title": "Deadly fire at confectionery factory kills 24 as rescuers search for dozens still missing",
             "link": "https://news.sky.com/story/deadly-fire-at-confectionery-factory-in-indonesia-kills-24-as-rescuers-search-for-dozens-still-missing-13615577",
@@ -867,15 +876,6 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/11/1920x1080/skynews-maksym-ukraine-drummond_7411179.jpg?20261122092143"
-          },
-          {
-            "title": "At least 24 dead after boat taking passengers to funeral capsizes in Nigeria",
-            "link": "https://news.sky.com/story/at-least-24-dead-after-boat-taking-passengers-to-funeral-capsizes-in-nigeria-13615057",
-            "published": "Sat, 21 Nov 2026 21:32:00 +0000",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/11/1920x1080/skynews-nema-nigeria-boat-capsizing_7413023.jpg?20261121221031"
           }
         ],
         "POLITICS": [
@@ -1124,11 +1124,11 @@
       "health": {
         "UK": {
           "ok": true,
-          "count": 8
+          "count": 7
         },
         "WORLD": {
           "ok": true,
-          "count": 5
+          "count": 6
         },
         "POLITICS": {
           "ok": true,
@@ -1424,6 +1424,24 @@
             "image": "https://i.guim.co.uk/img/media/109833a4d1387ede241180856c6e37007aa8a6a3/264_354_897_717/master/897.jpg?width=140&quality=85&auto=format&fit=max&s=8e424ac24ad3eb43602b54fde7ef7bfb"
           },
           {
+            "title": "South Korea tells island residents to take shelter after Russian military aircraft approach",
+            "link": "https://www.theguardian.com/world/2026/nov/24/south-korea-tells-island-residents-to-take-shelter-after-russian-military-aircraft-approach",
+            "published": "Tue, 24 Nov 2026 04:14:43 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "South Korea Russia Asia Pacific",
+            "image": "https://i.guim.co.uk/img/media/a64555d05e60fde8290f1489232b209ec8ba900c/996_199_4012_3210/master/4012.jpg?width=140&quality=85&auto=format&fit=max&s=3029f9b2443baacb8f134a3006fb300b"
+          },
+          {
+            "title": "China sentences official to death for spying for foreign country",
+            "link": "https://www.theguardian.com/world/2026/nov/24/china-official-ma-death-sentence-spying-leaking-national-secrets",
+            "published": "Tue, 24 Nov 2026 02:37:36 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "China Espionage Asia Pacific",
+            "image": "https://i.guim.co.uk/img/media/5d7028c1f7418b6df67a8b82c97cfc5563385eba/154_0_2536_2029/master/2536.jpg?width=140&quality=85&auto=format&fit=max&s=44cb141ed2c5bf5b241d085672ec0b9e"
+          },
+          {
             "title": "Lucy Powell to visit China to promote UK education weeks after MI5 warning",
             "link": "https://www.theguardian.com/politics/2026/nov/23/uk-visit-china-lucy-powell-education-mi5-universities-warning",
             "published": "Mon, 23 Nov 2026 16:42:09 GMT",
@@ -1451,31 +1469,31 @@
             "image": "https://i.guim.co.uk/img/media/3d9052371f434580f71c25a962110e47f2e6a076/605_0_6228_4986/master/6228.jpg?width=140&quality=85&auto=format&fit=max&s=b27cbf562e91080e6b506b93ff0b44c3"
           },
           {
-            "title": "China commits to low-carbon electrification and help for others to improve",
-            "link": "https://www.theguardian.com/environment/2026/nov/21/china-commits-low-carbon-electrification-help-others-improve",
-            "published": "Sat, 21 Nov 2026 09:47:57 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Cop31 Environment Energy China Fossil fuel divestment World news Global climate talks Greenhouse gas emissions Renewable energy Fossil fuels Asia Pacific",
-            "image": "https://i.guim.co.uk/img/media/9e68aee336577ce0e768fd142e23caf3b9396a18/240_71_6107_4885/master/6107.jpg?width=140&quality=85&auto=format&fit=max&s=71e768ed29a219f5ff58d9520b737a67"
-          },
-          {
-            "title": "Trump threatens ‘tremendous penalties’ for US tech firms that build datacenters abroad",
-            "link": "https://www.theguardian.com/us-news/2026/nov/20/trump-datacenters-white-house",
-            "published": "Fri, 20 Nov 2026 21:47:41 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Donald Trump US news World news US politics Russia China US foreign policy Europe Asia Pacific",
-            "image": "https://i.guim.co.uk/img/media/9532d886df85f2ca4c23d7e6a6341c606f995971/357_0_3572_2857/master/3572.jpg?width=140&quality=85&auto=format&fit=max&s=07ff49e86c3162c2f8cbd055b6230888"
-          },
-          {
-            "title": "Australian politics live: Taylor notes ‘tough year’ for Coalition party room; King Charles ‘deeply saddened’ by Meldrum’s death",
+            "title": "Australian politics live: Government lacks ‘moral authority’ on decarbonisation, Monique Ryan says; eight teens arrested over alleged schoolies assault",
             "link": "https://www.theguardian.com/australia-news/live/2026/nov/24/labor-penny-wong-us-china-anthony-albanese-final-sitting-week-ntwnfb",
-            "published": "Mon, 23 Nov 2026 23:42:49 GMT",
+            "published": "Tue, 24 Nov 2026 05:22:20 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
             "categories": "Australian politics Australia news Australian economy Business Health Australian education Australian immigration and asylum Australian foreign policy Labor party",
-            "image": "https://i.guim.co.uk/img/media/7a7744f47b650ef928308170e6cfe6118d27f308/688_0_6880_5504/master/6880.jpg?width=140&quality=85&auto=format&fit=max&s=037dc2a4a0f418015558a3a071a305c1"
+            "image": "https://i.guim.co.uk/img/media/d9986cfb67bf7d66b96cd3b14d5e4bdb388902ba/558_0_5575_4460/master/5575.jpg?width=140&quality=85&auto=format&fit=max&s=c9b3d6c247e3a8c6043a10c696f48094"
+          },
+          {
+            "title": "Social media companies could be fined 5% of global revenue after Labor and Greens join forces on online safety laws",
+            "link": "https://www.theguardian.com/technology/2026/nov/24/social-media-big-tech-fines-global-revenue-australia-digital-duty-care-laws",
+            "published": "Tue, 24 Nov 2026 04:03:16 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Australian politics Technology Meta Australia news",
+            "image": "https://i.guim.co.uk/img/media/d9d3d16ddafbbb2d6d25e61b14faa15c1b8edeb6/238_0_6238_4991/master/6238.jpg?width=140&quality=85&auto=format&fit=max&s=b2476a5aef811b2128cada4739be7a15"
+          },
+          {
+            "title": "Beau Lamarre-Condon chose ‘long walk’ to witness box rather than silence, his barrister tells court",
+            "link": "https://www.theguardian.com/australia-news/2026/nov/24/beau-lamarre-condon-trial-barrister-closing-statement-ntwnfb",
+            "published": "Tue, 24 Nov 2026 01:25:20 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "New South Wales Australia news Sydney",
+            "image": "https://i.guim.co.uk/img/media/ebfc885f7db8935002487a469a0f9baba836690e/195_219_2439_1952/master/2439.jpg?width=140&quality=85&auto=format&fit=max&s=9b9bab7eb46eaec2cfbe9a58a146111f"
           },
           {
             "title": "Cop31 collapses: why did climate talks fall apart? - The Latest",
@@ -1494,27 +1512,18 @@
             "provider": "GUARDIAN",
             "categories": "Environment Food Australia news Climate crisis Agriculture Vegetarianism Veganism",
             "image": "https://i.guim.co.uk/img/media/e50b5a6eff849b3a981e6a6c376ecefbca08a976/500_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=27e549713bf8802b112762a29a163166"
-          },
-          {
-            "title": "Domestic violence perpetrators are using smart car features to abuse, researchers warn",
-            "link": "https://www.theguardian.com/society/2026/nov/23/smart-car-tracking-control-features-domestic-violence-warning-ntwnfb",
-            "published": "Mon, 23 Nov 2026 13:57:45 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Domestic violence Motoring Technology Australia news",
-            "image": "https://i.guim.co.uk/img/media/8c241696f80fee0162024cf4ce50e049a40039be/894_0_6880_5504/master/6880.jpg?width=140&quality=85&auto=format&fit=max&s=36ccf87b754aaece8f8acbdb19385b5d"
-          },
-          {
-            "title": "‘Pervert glasses’ named word of the year by Macquarie dictionary, ahead of ‘nudify’ and ‘AI;DR’",
-            "link": "https://www.theguardian.com/science/2026/nov/23/pervert-glasses-meta-word-of-the-year-macquarie-dictionary-nudify-aidr",
-            "published": "Mon, 23 Nov 2026 13:55:40 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Language Australian books Australia news Linguistics AI (artificial intelligence)",
-            "image": "https://i.guim.co.uk/img/media/157cb03ca11449508590bbb8b23daca70b5a59ce/418_0_4164_3333/master/4164.jpg?width=140&quality=85&auto=format&fit=max&s=3e842895d6ccaf9e9f6342fb5695c9ff"
           }
         ],
         "POLITICS": [
+          {
+            "title": "Zack Polanski backs report endorsing Nato membership and maintaining nuclear weapons",
+            "link": "https://www.theguardian.com/politics/2026/nov/24/zack-polanski-backs-report-endorsing-nato-membership-maintaining-nuclear-weapons",
+            "published": "Tue, 24 Nov 2026 00:01:01 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Zack Polanski Green party Defence policy Politics UK news",
+            "image": "https://i.guim.co.uk/img/media/631070f63a2fb9a39634bf065f768197aa90271b/519_0_4025_3220/master/4025.jpg?width=140&quality=85&auto=format&fit=max&s=50ed534edfaacb4ac477f90f09916225"
+          },
           {
             "title": "Burnham says it would be ‘unthinkable’ to rejoin EU without referendum",
             "link": "https://www.theguardian.com/politics/2026/nov/23/andy-burnham-brexit-deal-eu",
@@ -1568,15 +1577,6 @@
             "provider": "GUARDIAN",
             "categories": "Immigration and asylum Home Office Ghana Children Politics Society UK news",
             "image": "https://i.guim.co.uk/img/media/b95551e78ef46344471e63c9da209763725fb22e/714_0_4800_3840/master/4800.jpg?width=140&quality=85&auto=format&fit=max&s=043f34578d8b70d0f2547b02dbf57fdf"
-          },
-          {
-            "title": "Asylum seekers removed from UK subjected to ‘unnecessary and intimidating’ force",
-            "link": "https://www.theguardian.com/uk-news/2026/nov/23/asylum-seekers-removed-from-uk-unnecessary-and-intimidating-force",
-            "published": "Mon, 23 Nov 2026 12:23:06 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Immigration and asylum UK news Home Office Refugees Politics",
-            "image": "https://i.guim.co.uk/img/media/63339bfefcf476890ac93a72c6dfa887e91037a5/779_0_4223_3379/master/4223.jpg?width=140&quality=85&auto=format&fit=max&s=af03f2919214f8dcd26ae40f4a33fe28"
           },
           {
             "title": "The Guardian view on Andy Burnham’s EU intentions: undogmatic consensus building is a sensible strategy | Editorial",
@@ -1943,6 +1943,15 @@
             "image": "https://i.guim.co.uk/img/media/247601abada695f09f302253178bbc8f6e58cd42/415_0_4165_3333/master/4165.jpg?width=140&quality=85&auto=format&fit=max&s=19283afd22dbc9bfead542bffab860d5"
           },
           {
+            "title": "Nvidia rejoices at Jensen Huang’s second coming as White House takes victory lap",
+            "link": "https://www.theguardian.com/technology/2026/nov/23/nvidia-jensen-huang-return-ceo",
+            "published": "Tue, 24 Nov 2026 01:34:39 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Nvidia AI (artificial intelligence) Jensen Huang Technology Computing",
+            "image": "https://i.guim.co.uk/img/media/acc6b55b5a2588de1743b839ccdd4877f7978618/463_0_4821_3856/master/4821.jpg?width=140&quality=85&auto=format&fit=max&s=203a93cae1aa0ce160fd7aa72d148430"
+          },
+          {
             "title": "Child safety groups urge Amazon and eBay to stop selling AI toys until proved safe",
             "link": "https://www.theguardian.com/technology/2026/nov/23/child-safety-groups-urge-amazon-ebay-stop-selling-ai-toys-until-proved-safe",
             "published": "Mon, 23 Nov 2026 17:18:06 GMT",
@@ -1968,15 +1977,6 @@
             "provider": "GUARDIAN",
             "categories": "US politics Nvidia Jensen Huang US news Technology Republicans Trump administration World news China Technology sector US national security Business AI (artificial intelligence)",
             "image": "https://i.guim.co.uk/img/media/4c4701470b09edcfeba9cbda93c6910a248a274b/0_116_6218_4975/master/6218.jpg?width=140&quality=85&auto=format&fit=max&s=635252dd42b880401caf9c475fc93266"
-          },
-          {
-            "title": "Datacentre bosses met Australian state premiers and ministers almost 120 times in three years, analysis finds",
-            "link": "https://www.theguardian.com/australia-news/2026/nov/23/datacentre-bosses-met-australian-state-premiers-and-ministers-almost-120-times-in-three-years-analysis-finds",
-            "published": "Sun, 22 Nov 2026 19:00:34 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Datacentres - Australia Queensland Australia news New South Wales Tasmania Victoria Australian Capital Territory (ACT) Technology AI (artificial intelligence) David Crisafulli",
-            "image": "https://i.guim.co.uk/img/media/7c9ca8255b51e9604fa64118322f08bb4d19c764/475_0_3640_2912/master/3640.jpg?width=140&quality=85&auto=format&fit=max&s=841a5935e90b464a6f0e36a81358e58e"
           },
           {
             "title": "How freaked out should we be? After mass outages, experts tell us how close we are to ‘doomsday’",
@@ -2936,18 +2936,27 @@
             "provider": "METRO",
             "categories": "News UK Crime News London",
             "image": "https://metro.co.uk/wp-content/uploads/2026/11/01M84YA70CNX1WXDNYS2QARE18-1cf9.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "World’s youngest self-made female billionaire reveals secret behind her 96-hour weeks",
-            "link": "https://metro.co.uk/2026/11/23/worlds-youngest-self-made-female-billionaire-reveals-secret-behind-96-hour-weeks-29812860/",
-            "published": "Mon, 23 Nov 2026 16:01:48 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News US Making Money Money Tips",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/11/GettyImages-2305208448-6c33.jpg?quality=90&strip=all&w=646"
           }
         ],
         "TECH": [
+          {
+            "title": "Games Inbox: Is it better to wait for the PC version of GTA 6?",
+            "link": "https://metro.co.uk/2026/11/24/games-inbox-better-wait-pc-version-gta-6-29814747/",
+            "published": "Tue, 24 Nov 2026 01:00:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment Gaming Games Inbox GTA 6 PC Games Rockstar Games",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310228785-4006.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Daily horoscope November 24, 2026: Today’s predictions for your star sign",
+            "link": "https://metro.co.uk/2026/11/24/daily-horoscope-november-24-2026-predictions-star-sign-29814707/",
+            "published": "Tue, 24 Nov 2026 00:01:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Horoscopes Lifestyle Aquarius Aries Astrology Cancer (star sign) Capricorn Gemini Leo Libra Pisces Sagittarius Scorpio Taurus Virgo",
+            "image": "https://metro.co.uk/wp-content/uploads/2023/04/new-horoscope-2023-02-a5db.gif?w=646"
+          },
           {
             "title": "Banjo-Kazooie comeback hinted by new Activision job listing",
             "link": "https://metro.co.uk/2026/11/23/banjo-kazooie-comeback-hinted-new-activision-job-listing-29814452/",
@@ -3077,40 +3086,13 @@
             "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_321711802-f22d.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Sensible Band go to War – the musical legacy of Cannon Fodder",
-            "link": "https://metro.co.uk/2026/11/23/sensible-band-go-war-musical-legacy-cannon-fodder-29811544/",
-            "published": "Mon, 23 Nov 2026 01:00:00 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Entertainment Gaming 90s nostalgia Games news",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_321746140-72a1.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Alarm bells ring as worrying Ant turns on Kathleen-Angel in Hollyoaks",
-            "link": "https://metro.co.uk/2026/11/23/alarm-bells-ring-worrying-ant-turns-kathleen-angel-hollyoaks-29813911/",
+            "title": "The end for Jodie and Lily on Coronation Street as Shona is too late",
+            "link": "https://metro.co.uk/2026/11/23/end-jodie-lily-coronation-street-shona-late-29803114/",
             "published": "Mon, 23 Nov 2026 23:59:00 +0000",
             "source": "Metro",
             "provider": "METRO",
-            "categories": "Hollyoaks Soaps Cleo McQueen",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_321797553-02fb.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Emmerdale star reveals Tom goes darker than ever with ‘large and visceral’ plan confirmed",
-            "link": "https://metro.co.uk/2026/11/23/emmerdale-star-reveals-tom-goes-darker-ever-visceral-plan-29801887/",
-            "published": "Mon, 23 Nov 2026 23:59:00 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Emmerdale Soaps Belle Dingle Eden Taylor-Draper James Chase Tom King",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_321112795-e88b.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Shockwaves rock Walford as Ned explodes a massive bombshell in EastEnders",
-            "link": "https://metro.co.uk/2026/11/23/shockwaves-rock-walford-eastenders-ned-explodes-a-massive-bombshell-29811946/",
-            "published": "Mon, 23 Nov 2026 23:59:00 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "EastEnders Soaps Jamie Bamber Laura Doddington Ned Hawkins Nicola Mitchell",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_321776273-6939.jpg?quality=90&strip=all&w=646"
+            "categories": "Coronation Street Soaps Jodie Ramsey Julia Goulding Olivia Frances-Brown Shona Platt",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_321112679-3350.jpg?quality=90&strip=all&w=646"
           },
           {
             "title": "Max rushed to hospital in EastEnders – and it’s Cindy’s fault",
@@ -3122,13 +3104,22 @@
             "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_321776264-ed07.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Coronation Street’s Carla and Betsy team up to destroy Idris – and target Brody",
-            "link": "https://metro.co.uk/2026/11/23/coronation-streets-carla-betsy-team-destroy-idris-target-brody-29802175/",
+            "title": "Piper may be Tom’s first victim as our beloved Emmerdale bestie goes missing",
+            "link": "https://metro.co.uk/2026/11/23/piper-may-toms-first-victim-beloved-emmerdale-bestie-goes-missing-29804510/",
             "published": "Mon, 23 Nov 2026 23:59:00 +0000",
             "source": "Metro",
             "provider": "METRO",
-            "categories": "Coronation Street Soaps Alison King Betsy Swain Brody Michaelis Carla Connor-Swain Idris Nazir Junade Khan Ryan Mulvey Sydney Martin",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_321112656-229c.jpg?quality=90&strip=all&w=646"
+            "categories": "Emmerdale Soaps Belle Dingle Eden Taylor-Draper James Chase Tom King",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_232696948-4be9-e1795452592642.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Alarm bells ring as worrying Ant turns on Kathleen-Angel in Hollyoaks",
+            "link": "https://metro.co.uk/2026/11/23/alarm-bells-ring-worrying-ant-turns-kathleen-angel-hollyoaks-29813911/",
+            "published": "Mon, 23 Nov 2026 23:59:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Hollyoaks Soaps Cleo McQueen",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_321797553-02fb.jpg?quality=90&strip=all&w=646"
           },
           {
             "title": "Police swarm on Coronation Street as Christina uncovers a murderous truth",
@@ -3140,13 +3131,31 @@
             "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_321112662-55e3.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "The end for Jodie and Lily on Coronation Street as Shona is too late",
-            "link": "https://metro.co.uk/2026/11/23/end-jodie-lily-coronation-street-shona-late-29803114/",
+            "title": "Coronation Street’s Carla and Betsy team up to destroy Idris – and target Brody",
+            "link": "https://metro.co.uk/2026/11/23/coronation-streets-carla-betsy-team-destroy-idris-target-brody-29802175/",
             "published": "Mon, 23 Nov 2026 23:59:00 +0000",
             "source": "Metro",
             "provider": "METRO",
-            "categories": "Coronation Street Soaps Jodie Ramsey Julia Goulding Olivia Frances-Brown Shona Platt",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_321112679-3350.jpg?quality=90&strip=all&w=646"
+            "categories": "Coronation Street Soaps Alison King Betsy Swain Brody Michaelis Carla Connor-Swain Idris Nazir Junade Khan Ryan Mulvey Sydney Martin",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_321112656-229c.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Shockwaves rock Walford as Ned explodes a massive bombshell in EastEnders",
+            "link": "https://metro.co.uk/2026/11/23/shockwaves-rock-walford-eastenders-ned-explodes-a-massive-bombshell-29811946/",
+            "published": "Mon, 23 Nov 2026 23:59:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "EastEnders Soaps Jamie Bamber Laura Doddington Ned Hawkins Nicola Mitchell",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_321776273-6939.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Poisoning trauma for Emmerdale’s Moira and Cain with life on the line",
+            "link": "https://metro.co.uk/2026/11/23/emmerdales-moira-cain-face-poisoning-trauma-life-line-29804880/",
+            "published": "Mon, 23 Nov 2026 23:59:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Emmerdale Soaps Cain Dingle James Chase Jeff Hordley Moira Dingle Natalie J Robb Tom King",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_299357590-a273.jpg?quality=90&strip=all&w=646"
           }
         ]
       },
@@ -3165,11 +3174,11 @@
         },
         "BUSINESS": {
           "ok": true,
-          "count": 20
+          "count": 19
         },
         "TECH": {
           "ok": true,
-          "count": 2
+          "count": 4
         },
         "ENTERTAINMENT": {
           "ok": true,
@@ -3286,9 +3295,63 @@
         "STOCK_MARKET": [],
         "STOCKS": [
           {
+            "title": "3 AI Infrastructure Stocks Retail Investors Are Watching After Nvidia Shares Jump",
+            "link": "https://finance.yahoo.com/technology/ai/articles/3-ai-infrastructure-stocks-retail-052634911.html?.tsrc=rss",
+            "published": "Tue, 24 Nov 2026 05:26:34 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "Nvidia shares soar more than 30% after Huang reinstated as CEO",
+            "link": "https://www.cnn.com/2026/11/23/markets/us-stocks-rebound-intl?.tsrc=rss",
+            "published": "Tue, 24 Nov 2026 04:23:57 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": "https://media.cnn.com/api/v1/images/stellar/prod/c-2026-07-16t114202z-1746392503-rc2yemachshb-rtrmadp-3-nvidia-japan.jpg?c=16x9&q=w_800,c_fill"
+          },
+          {
+            "title": "Asian stocks rally as Taiwan leads with 9% rebound in AI trade",
+            "link": "https://uk.finance.yahoo.com/news/asian-stocks-rally-taiwan-leads-040608393.html?.tsrc=rss",
+            "published": "Tue, 24 Nov 2026 04:06:08 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "Nvidia’s Asian Suppliers Rally as Jensen Huang Returns as CEO: SK Hynix Jumps 8%, SoftBank Shares Rise in Tokyo",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-asian-suppliers-rally-jensen-012213841.html?.tsrc=rss",
+            "published": "Tue, 24 Nov 2026 01:22:13 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "U.S. stock futures steady after Nvidia-led Wall Street rally",
+            "link": "https://uk.finance.yahoo.com/news/u-stock-futures-steady-nvidia-005409619.html?.tsrc=rss",
+            "published": "Tue, 24 Nov 2026 00:54:09 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
             "title": "SharkNinja To Join S&P 500 Index",
             "link": "https://uk.finance.yahoo.com/m/cc396177-40de-3092-88f3-436b29060cbe/sharkninja-to-join-s%26p-500.html?.tsrc=rss",
-            "published": "Mon, 23 Nov 2026 23:49:55 +0000",
+            "published": "Tue, 24 Nov 2026 00:09:34 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "SharkNinja Stock to Join the S&P 500 as AES Leaves",
+            "link": "https://uk.finance.yahoo.com/m/e7ad2b58-935d-3b0f-93a0-2e01ee4531b5/sharkninja-stock-to-join-the.html?.tsrc=rss",
+            "published": "Tue, 24 Nov 2026 00:04:00 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
@@ -3329,51 +3392,6 @@
             "provider": "YAHOO",
             "categories": "",
             "image": ""
-          },
-          {
-            "title": "Paper Giant Scraps Sale of European Package Business for Spinoff Instead. Why the Stock Fell.",
-            "link": "https://uk.finance.yahoo.com/m/69bed39a-4a37-3272-be20-8a0546641d36/paper-giant-scraps-sale-of.html?.tsrc=rss",
-            "published": "Mon, 23 Nov 2026 21:53:00 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "GMEX Robotics Corporation Announces Share Consolidation",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/gmex-robotics-corporation-announces-share-214500483.html?.tsrc=rss",
-            "published": "Mon, 23 Nov 2026 21:45:00 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "US stocks surge, cheering return of Nvidia CEO and shrugging off scandal",
-            "link": "https://uk.finance.yahoo.com/news/asian-tech-back-firing-line-024445775.html?.tsrc=rss",
-            "published": "Mon, 23 Nov 2026 21:44:58 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "Nvidia shares soar more than 30% after Huang reinstated as CEO",
-            "link": "https://www.cnn.com/2026/11/23/markets/us-stocks-rebound-intl?.tsrc=rss",
-            "published": "Mon, 23 Nov 2026 21:43:00 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": "https://media.cnn.com/api/v1/images/stellar/prod/c-2026-07-16t114202z-1746392503-rc2yemachshb-rtrmadp-3-nvidia-japan.jpg?c=16x9&q=w_800,c_fill"
-          },
-          {
-            "title": "How major US stock indexes fared Monday 11/23/2026",
-            "link": "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-213053319.html?.tsrc=rss",
-            "published": "Mon, 23 Nov 2026 21:30:53 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": ""
           }
         ]
       },
@@ -3389,7 +3407,7 @@
         },
         "STOCKS": {
           "ok": true,
-          "count": 10,
+          "count": 11,
           "retainedPrevious": 0,
           "errors": [
             "https://finance.yahoo.com/news/rssindex: 404 Not Found"
@@ -3538,15 +3556,6 @@
             "image": ""
           },
           {
-            "title": "EXCLUSIVE: Like SpaceX, Anthropic ran an unusual IPO process, chafing some bankers",
-            "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNT1RsTFBlMWZGejNqWjVvdVlYX2lRTGpZZXhoYXFXN2RuV3lHZ09ra0ctdnZqc3hiVENXSlc2ZTBIbDRyTmpTS1Nhdk1kdU5HLW5FNGdNRTNoeXVBeEc5cDl5VGx3c3dUSzNDYkVVTHVfenVQbHFUQ0hQS2NfalhuNDczWFdUS0FWQS1iZ1ZhVnNYMy1FOHVSUmlBMmI3NTdVTGY1X0JxTFRmYnptV3huQQ?oc=5",
-            "published": "Sun, 22 Nov 2026 11:03:00 GMT",
-            "source": "Reuters",
-            "provider": "REUTERS",
-            "categories": "",
-            "image": ""
-          },
-          {
             "title": "Anthropic retail traders face losses as shares dive 13% the day after debut",
             "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOTnI5ZjRqcHhFQXkycDMySHZ1Tkl4V2RKdzNIcTlPdFhCMlJhZEkzX2RSZ0F0cjgteE9RX3JQejRRWHV6RnMtdXA3b3RKczRka0dxSEsyZU5SNFhUbTRZMU00NTVOdXE4RTI0OURfdE41aGIzc2N3ZnpsRFBxNkdsOUYzOGFnNEFGVkppNTVlTkR0OUstdU5jZWwyRUtOWGxVeEJBMWpiZ3FWRzVDdG8tUG1va3VWS2U0a3pWcg?oc=5",
             "published": "Fri, 20 Nov 2026 18:16:23 GMT",
@@ -3568,6 +3577,15 @@
             "title": "Indian shares rise for fourth straight week as AI rout deepens",
             "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPaEJHRkZDOVdTT19VcGt0YU9SeHdvSmo4cDZVR1R2RzdDUUFJREc0bkNBcDFrUDN1X052bGljQUdsQ19jMTkxZlhYZTI3LW94RUFKb043WXpDZW5mUThLVk95eVcxU005bVNGV0EyY2JlWUlpWDAwZHJDaGJSMlNIMndQZ0QyWGtGVlo4WjB1YjZzNGlfYzBPVFdfaE1MTVdabVZmLXdLdkxsTDJmczdWSW5wRUNlMTg?oc=5",
             "published": "Fri, 20 Nov 2026 10:44:07 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "Indian finance hub eyes dual share model to kickstart public offers, sources say",
+            "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbW5TRW5QLXdYUDN1STlVWDlRYXNrU0dRT3VZbThKZ0o3dG00a0R3ZUpfUjU3WDFEUzJxTWFOdXhkZHBHTmZoMnhZdFBDQXcyTEg4bHJ4dUtoSDZPanJyak8yUFNxVXdZV09UYXdmSnRzRkVNUUxaWG1QTS1oVnRwM21SczN6WDJJNC1BeGhqMkx4bTZUUG9DcWVlR2E4RVYtYks2dEdrZm11bjF1Nlp0NjFQTVJ0UU1oa0dPZmFVS2dvOVZPVUFvNQ?oc=5",
+            "published": "Fri, 20 Nov 2026 06:46:00 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3610,6 +3628,15 @@
             "image": ""
           },
           {
+            "title": "UBS sees S&P 500 at 8,200 by end-2027 on earnings strength, resilient economy",
+            "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOV0lINnoxcGVVcHJmRzZnclQtZ2VMaXE0d1ltZjVGUDRtMnhfMUNzRWdVNDNoallwTjM1Sm1qUHVCblJFV2dpQkNPRFV0QnlNYnN1S2N6ckQ0SnNxNmY1bmU2N015SWF3ekpPUkU1dmx0cGhhd1kwQ2VYTEprYUxTbkVSZFNSMnJ6bjEwTE1BZXM5TWJablh5Rk5ua3ZTdGQ1amZUV3dyRDJIOGozYVA2STcyWQ?oc=5",
+            "published": "Wed, 18 Nov 2026 11:46:09 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
             "title": "EXCLUSIVE: India may limit leveraged stock bets to curb volatility, sources say",
             "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQOW0tQWdjMmJOOUJOV3RYNzByeUVmLTZNYTRKTGszNHBqTVR2OHlrZnBLQXN6UlhFeFhOMGRBblFpSTJjcVJVckMybVJDYnhWU01VanpQOWNkVXFhZmlrYXM0empDNE5aXzBSQUVnSnBTSDlYZ3JJNURScmdzSFM5ei1VTTdiZVVhOTA4RjdOMHF0VkQ4bHhVdFZRek91d0NXVjlxVkh1UmMxWDZMMmpfelJ0aHhubWRu?oc=5",
             "published": "Wed, 18 Nov 2026 10:25:37 GMT",
@@ -3619,18 +3646,9 @@
             "image": ""
           },
           {
-            "title": "Investors slashed tech exposure allocations by most since 2006",
-            "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9hUzk5NzA2a0JXelk4ZWhJcFpPT3Q2NWxVa3Bmdl9lUUhTaDZVQ0pFRTZ2WTRkVFRGQWNzenhrN2FaWkJzM0NBMTZEU3dLMHJTRHBWd21XSnhmcXQ2cmRHSWpBOUxwV2F0c2dGZENCZTBmekpuRXRzVkJxcw?oc=5",
-            "published": "Tue, 17 Nov 2026 11:35:04 GMT",
-            "source": "Reuters",
-            "provider": "REUTERS",
-            "categories": "",
-            "image": ""
-          },
-          {
-            "title": "Wall Street ends lower ahead of Nvidia results, focus turns to Anthropic debut",
-            "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOemNySVhGbms1VkxVYXFsTFdtdVh1MjNQQk16Y1ZfNGFHMFhDRWUtZldZRzJzSWxpNlBLWVpTenJnU2FHZndaVUlEclFtQVNvTzJBWTNpM1p0N3dmWjlyMEFKbkowZkpSanhVcEVLUjZfOWxNcW5OZVFuLTNFNF93ZDd4b0wxX1VzNlJPODdqc0xob1ZrR0xuQkJ6bExvNDdQMk5saFVSdkVBZw?oc=5",
-            "published": "Tue, 17 Nov 2026 10:51:00 GMT",
+            "title": "Dangote Refinery to expand IPO by up to 30% to $2.1 billion, sources say",
+            "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQQXhSVU11bzZHX1pyS3hTa0FYenBUQ2NkdnFJeUkzdkdGaW5lYlh0bmNrMVMtMmRoTG5DQ05mTnlBeU5GLTVMZU1obTR4WWppQzBLcVJOTkdvZjFmVTlSOTc1YlBsM19LQUJkZTlKdm5TY19YUTlwWjJIX2lHbU5qZlR0cWQ2REhJMmFOTzlhZlBZalRRQnRyanh5NnRzVDdsMHFiaC1JaGIzZ1B5czNCYQ?oc=5",
+            "published": "Tue, 17 Nov 2026 12:35:41 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3762,5 +3780,5 @@
       }
     }
   },
-  "stocksUpdated": "2026-11-24T00:01:16.584Z"
+  "stocksUpdated": "2026-11-24T05:54:44.667Z"
 }
