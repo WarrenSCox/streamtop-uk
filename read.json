@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-25T10:23:53.316Z",
+  "updated": "2026-11-25T20:07:44.875Z",
   "charts": {
     "AUDIOBOOKS": [
       {
         "title": "Michael",
         "author": "Bob Mortimer",
         "narrator": "Bob Mortimer , Matt Berry",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e4/a8/5c/e4a85c40-36a7-ac29-d01b-b4e7d92e76b1/9781398548121.jpg/600x600bb.jpg"
+        "image": "https://m.media-amazon.com/images/I/416cTSKa0GL._SL500_.jpg"
       },
       {
         "title": "Exoplanet",
@@ -15,16 +15,16 @@
         "image": "https://m.media-amazon.com/images/I/51QMmltt5IL._SL500_.jpg"
       },
       {
-        "title": "Sunrise on the Reaping (The Hunger Games)",
-        "author": "Suzanne Collins",
-        "narrator": "Jefferson White",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f0/5c/b6/f05cb68a-da4c-f986-ebf3-14af7fbaf690/9781546171492.png/600x600bb.jpg"
-      },
-      {
         "title": "All She Wants for Christmas",
         "author": "Lisa Jewell",
         "narrator": "Ruth Wilson , Matthew Rhys , Phoebe Dynevor , Harriet Walter",
         "image": "https://m.media-amazon.com/images/I/51sHa2PFlvL._SL500_.jpg"
+      },
+      {
+        "title": "Sunrise on the Reaping (The Hunger Games)",
+        "author": "Suzanne Collins",
+        "narrator": "Jefferson White",
+        "image": "https://m.media-amazon.com/images/I/51aRJv+TnTL._SL500_.jpg"
       },
       {
         "title": "Dungeon Crawler Carl",
@@ -36,13 +36,13 @@
         "title": "A Court of Splintered Harmony",
         "author": "Sarah J. Maas",
         "narrator": "Elizabeth Evans",
-        "image": "https://m.media-amazon.com/images/I/51FBqskXJ2L._SL500_.jpg"
+        "image": "https://covers.openlibrary.org/b/id/15273593-L.jpg"
       },
       {
         "title": "The Hunger Games",
         "author": "Suzanne Collins",
         "narrator": "Tatiana Maslany",
-        "image": "https://m.media-amazon.com/images/I/410kujB9VGL._SL500_.jpg"
+        "image": "https://covers.openlibrary.org/b/id/12646537-L.jpg"
       },
       {
         "title": "I Follow You",
@@ -123,15 +123,15 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-11-25T10:23:53.316Z",
-      "lastSuccessfulRefresh": "2026-11-25T10:23:53.316Z",
+      "checkedAt": "2026-11-25T20:07:44.875Z",
+      "lastSuccessfulRefresh": "2026-11-25T20:07:44.875Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
-      "status": "stale",
-      "checkedAt": "2026-11-25T10:24:08.978Z",
-      "lastSuccessfulRefresh": "2026-11-25T08:47:51.874Z",
-      "reason": "503 https://www.audible.co.uk/charts/best"
+      "status": "healthy",
+      "checkedAt": "2026-11-25T20:07:57.695Z",
+      "lastSuccessfulRefresh": "2026-11-25T20:07:57.695Z",
+      "reason": ""
     }
   }
 }
