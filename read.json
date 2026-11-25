@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25T08:47:38.629Z",
+  "updated": "2026-11-25T10:23:53.316Z",
   "charts": {
     "AUDIOBOOKS": [
       {
@@ -65,24 +65,14 @@
     ],
     "BOOKS": [
       {
+        "title": "Michael",
+        "author": "Bob Mortimer",
+        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978139/9781398548091.jpg"
+      },
+      {
         "title": "Gruffalo Granny",
-        "author": "Julia Donaldson. New",
+        "author": "",
         "image": "https://storage.googleapis.com/lr-assets/main/covers/1780656267-9781035065516-324x400.jpg"
-      },
-      {
-        "title": "A Sprinkle in Time",
-        "author": "",
-        "image": "http://www.bibdsl.co.uk/bds-images/l/978070/9780702349300.jpg"
-      },
-      {
-        "title": "Fight or Flight",
-        "author": "",
-        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978024/9780241745212.jpg"
-      },
-      {
-        "title": "Is It Too Late to Make a Run for It?",
-        "author": "Judi Dench and 1 more",
-        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978024/9780241799536.jpg"
       },
       {
         "title": "Guinness World Records 2027",
@@ -90,29 +80,39 @@
         "image": "http://www.bibdsl.co.uk/bds-images/l/978180/9781806500222.jpg"
       },
       {
+        "title": "Fight or Flight",
+        "author": "",
+        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978024/9780241745212.jpg"
+      },
+      {
+        "title": "A Sprinkle in Time",
+        "author": "",
+        "image": "http://www.bibdsl.co.uk/bds-images/l/978070/9780702349300.jpg"
+      },
+      {
+        "title": "The Wretched Divine",
+        "author": "Adalyn Grace",
+        "image": "http://www.bibdsl.co.uk/bds-images/l/978139/9781399630023.jpg"
+      },
+      {
+        "title": "Brimstone",
+        "author": "Callie Hart",
+        "image": "http://www.bibdsl.co.uk/bds-images/l/978139/9781399745512.jpg"
+      },
+      {
         "title": "Lottie Brooks's Twelve Disasters of Christmas",
         "author": "",
-        "image": "https://storage.googleapis.com/lr-assets/bds-images/m/978103/9781037200076.jpg"
-      },
-      {
-        "title": "A Court of Splintered Harmony",
-        "author": "Sarah J. Maas",
-        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978103/9781037200076.jpg"
-      },
-      {
-        "title": "Chain Reaction",
-        "author": "Lee Child and 1 more",
-        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978191/9781911754244.jpg"
+        "image": "http://www.bibdsl.co.uk/bds-images/m/978180/9781807845827.jpg"
       },
       {
         "title": "The Killer Isn't™ Alice",
         "author": "Iris Starling",
-        "image": "https://storage.googleapis.com/lr-assets/bds-images/m/978035/9780356522999.jpg"
+        "image": "https://storage.googleapis.com/lr-assets/bds-images/m/978180/9781800812949.jpg"
       },
       {
-        "title": "The Knave and the Moon",
-        "author": "Rachel Gillig",
-        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978035/9780356522999.jpg"
+        "title": "The End of Everything",
+        "author": "M. John Harrison",
+        "image": "https://storage.googleapis.com/lr-assets/bds-images/l/978180/9781800812949.jpg"
       }
     ]
   },
@@ -123,15 +123,15 @@
   "health": {
     "BOOKS": {
       "status": "healthy",
-      "checkedAt": "2026-11-25T08:47:38.630Z",
-      "lastSuccessfulRefresh": "2026-11-25T08:47:38.630Z",
+      "checkedAt": "2026-11-25T10:23:53.316Z",
+      "lastSuccessfulRefresh": "2026-11-25T10:23:53.316Z",
       "reason": ""
     },
     "AUDIOBOOKS": {
-      "status": "healthy",
-      "checkedAt": "2026-11-25T08:47:51.874Z",
+      "status": "stale",
+      "checkedAt": "2026-11-25T10:24:08.978Z",
       "lastSuccessfulRefresh": "2026-11-25T08:47:51.874Z",
-      "reason": ""
+      "reason": "503 https://www.audible.co.uk/charts/best"
     }
   }
 }
