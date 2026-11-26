@@ -1,7 +1,16 @@
 {
-  "updated": "2026-11-25T21:49:11.405Z",
+  "updated": "2026-11-26T03:01:26.704Z",
   "categories": {
     "UK": [
+      {
+        "title": "Joshua Kimmich blasts Bayern Munich board over Jamal Musiala health situation",
+        "link": "https://metro.co.uk/2026/11/26/joshua-kimmich-blasts-bayern-munich-board-jamal-musiala-health-situation-29820754/",
+        "published": "Thu, 26 Nov 2026 01:23:47 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Football Sport Bayern Munich FC Bundesliga Champions League Germany football team Harry Kane Premier League",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/11/Joshua-Kimmich-1572.jpg?quality=90&strip=all&w=646"
+      },
       {
         "title": "Body found in dense woodland in search for missing woman, 20, as boyfriend charged with her murder",
         "link": "https://metro.co.uk/2026/11/25/body-found-woodland-search-missing-woman-20-boyfriend-court-murder-29820646/",
@@ -18,16 +27,7 @@
         "source": "Sky News",
         "provider": "SKY",
         "categories": "",
-        "image": "https://e3.365dm.com/26/06/1920x1080/skynews-simon-le-bon-duran-duran_7285490.jpg?20260629091936"
-      },
-      {
-        "title": "Latvian gymnast Artemijs Zizins makes history with UK Championship qualification",
-        "link": "https://metro.co.uk/2026/11/25/latvian-gymnast-artemijs-zizins-makes-history-uk-championship-qualification-29820603/",
-        "published": "Wed, 25 Nov 2026 20:50:34 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Sport",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_309362123-1fe8.jpg?quality=90&strip=all&w=646"
+        "image": "https://e3.365dm.com/26/11/1920x1080/skynews-taylor-andy_7416653.jpg?20261125223846"
       },
       {
         "title": "Moment ‘evil’ killer uses wheelchair as ‘prop’ to lure victim to his home",
@@ -95,40 +95,49 @@
     ],
     "WORLD": [
       {
-        "title": "Australian politics live: Hanson ‘delighted’ as Liberal senator defects to One Nation; Bowen says global tensions ‘infected’ Cop31",
+        "title": "Australian politics live: Blyth did not ‘feel safe’ in the Liberal party before One Nation defection; ‘coal must be replaced’, Bowen says",
         "link": "https://www.theguardian.com/australia-news/live/2026/nov/26/labor-anthony-albanese-pauline-hanson-one-nation-angus-taylor-coalition-ntwnfb",
-        "published": "Wed, 25 Nov 2026 21:30:06 GMT",
+        "published": "Thu, 26 Nov 2026 02:49:33 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
         "categories": "Australia news Australian politics Australian economy Business Health Australian education Australian immigration and asylum Australian foreign policy",
-        "image": "https://i.guim.co.uk/img/media/ce6cb56abf202649179c638f3a9b93b6efd40887/817_0_3829_3065/master/3829.jpg?width=140&quality=85&auto=format&fit=max&s=bb74df4639acdddc2a7c95b3f50d4b41"
+        "image": "https://i.guim.co.uk/img/media/f6b4122a7b255425d7edaf7051f990faebedc605/489_0_6591_5273/master/6591.jpg?width=140&quality=85&auto=format&fit=max&s=a3fb4d9b90e850985c9b942f5d497f98"
       },
       {
-        "title": "Liberal senator Leah Blyth announces defection to One Nation",
+        "title": "Coalition would privatise Melbourne’s sewage treatment while selling state-owned land and renewables to fund Victorian election promises",
+        "link": "https://www.theguardian.com/australia-news/2026/nov/26/liberal-nationals-victoria-election-policy-costings-revealed-sewage-land-energy",
+        "published": "Thu, 26 Nov 2026 02:35:09 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Victoria state election 2026 Victorian politics Jess Wilson Victoria Melbourne Australia news",
+        "image": "https://i.guim.co.uk/img/media/ada4bb365561f12ee0ef729583d5ef8a1082d741/4_0_5040_4032/master/5040.jpg?width=140&quality=85&auto=format&fit=max&s=7fe8d3290955a71627069d699b669954"
+      },
+      {
+        "title": "Out-of-control bushfire with flames 10-metres high destroys at least six homes on Flinders Island",
+        "link": "https://www.theguardian.com/australia-news/2026/nov/25/large-bushfire-threatens-homes-and-properties-on-remote-island-off-tasmania",
+        "published": "Thu, 26 Nov 2026 01:59:30 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Bushfires Australia news Tasmania",
+        "image": "https://i.guim.co.uk/img/media/233bcc415b139a4c7cb303ad0a176d9ff6433c48/66_0_880_704/master/880.jpg?width=140&quality=85&auto=format&fit=max&s=b202b3c29c5683ffa86cc26b07ff0f0b"
+      },
+      {
+        "title": "Joshua Kimmich blasts Bayern Munich board over Jamal Musiala health situation",
+        "link": "https://metro.co.uk/2026/11/26/joshua-kimmich-blasts-bayern-munich-board-jamal-musiala-health-situation-29820754/",
+        "published": "Thu, 26 Nov 2026 01:23:47 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Football Sport Bayern Munich FC Bundesliga Champions League Germany football team Harry Kane Premier League",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/11/Joshua-Kimmich-1572.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "‘Turncoat’: Liberal senator Leah Blyth announces defection to One Nation, blindsiding Coalition",
         "link": "https://www.theguardian.com/australia-news/2026/nov/26/liberal-senator-leah-blyth-defection-to-one-nation-ntwnfb",
-        "published": "Wed, 25 Nov 2026 20:50:15 GMT",
+        "published": "Thu, 26 Nov 2026 00:58:49 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
         "categories": "Australian politics South Australian politics Australia news Angus Taylor Matthew Canavan One Nation Liberal party Coalition",
         "image": "https://i.guim.co.uk/img/media/b8e0686e082ee97c403961ee3228cab6cd5bcf48/0_0_1943_1555/master/1943.jpg?width=140&quality=85&auto=format&fit=max&s=757367d930714c816470fe6d0a80c401"
-      },
-      {
-        "title": "All hostages rescued after Colombian security forces storm supermarket, police say",
-        "link": "https://www.theguardian.com/world/2026/nov/25/hostages-freed-colombia-security-forces-storm-cartagena-supermarket",
-        "published": "Wed, 25 Nov 2026 20:20:23 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Colombia World news Americas",
-        "image": "https://i.guim.co.uk/img/media/a3585592d60a650e6033ad7e718f5e89458d216d/440_75_2600_2080/master/2600.jpg?width=140&quality=85&auto=format&fit=max&s=33ea692d3cf725ee634c71826c01d100"
-      },
-      {
-        "title": "Lululemon founder stuns Canadian women’s leadership conference with sexist comments",
-        "link": "https://www.theguardian.com/world/2026/nov/25/lululemon-founder-comments-canada-womens-leadership-conference",
-        "published": "Wed, 25 Nov 2026 19:57:49 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Canada Maternity & paternity rights Work & careers Americas",
-        "image": "https://i.guim.co.uk/img/media/791b8933a92292555c629c4bcc1e8056243c898c/0_94_3742_2993/master/3742.jpg?width=140&quality=85&auto=format&fit=max&s=8fd2114a9006f05a834aace6fb28f4ce"
       },
       {
         "title": "‘I stumbled across a Russian man hiding in remote Thai jungle for two decades’",
@@ -174,15 +183,6 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/11/1920x1080/skynews-mississippi-us-plane-crash_7415949.jpg?20261125081644"
-      },
-      {
-        "title": "BA and easyJet flights had GPS signals ‘jammed’ by a Russian warship",
-        "link": "https://metro.co.uk/2026/11/24/ba-easyjet-flights-gps-signals-jammed-a-russian-warship-29816491/",
-        "published": "Tue, 24 Nov 2026 15:24:39 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News World British Airways easyJet Russia Russia-Ukraine war Ryanair",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_267870223-2d58.jpg?quality=90&strip=all&w=646"
       }
     ],
     "POLITICS": [
@@ -192,7 +192,7 @@
         "published": "Wed, 25 Nov 2026 20:50:34 +0000",
         "source": "Metro",
         "provider": "METRO",
-        "categories": "Sport",
+        "categories": "Snooker Sport",
         "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_309362123-1fe8.jpg?quality=90&strip=all&w=646"
       },
       {
@@ -279,6 +279,15 @@
     ],
     "BUSINESS": [
       {
+        "title": "Judge blocks Brendan Carr-led FCC from taking any further action against ABC’s licenses",
+        "link": "https://www.theguardian.com/us-news/2026/nov/25/brendan-carr-fcc-abc-licenses",
+        "published": "Thu, 26 Nov 2026 02:52:47 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Trump administration US news Media ABC Television industry US television industry Law (US)",
+        "image": "https://i.guim.co.uk/img/media/2837d22e6ac7d6b68b6c62587ea76bcc88e46cf7/357_0_4376_3500/master/4376.jpg?width=140&quality=85&auto=format&fit=max&s=d356dd5a573054755e0fd9cb77445888"
+      },
+      {
         "title": "UK food inflation could hit 5% next year, Bank of England says",
         "link": "https://www.theguardian.com/business/2026/nov/25/uk-food-inflation-sharp-rise-next-year-mounting-cost-pressures-bank-of-england",
         "published": "Wed, 25 Nov 2026 19:25:57 GMT",
@@ -333,15 +342,6 @@
         "image": "https://e3.365dm.com/26/11/1920x1080/skynews-poundland-high-street_7399760.jpg?20261107102851"
       },
       {
-        "title": "Our ‘Paris manifesto’ proposes how to deal with extreme wealth in the AI age | Open letter",
-        "link": "https://www.theguardian.com/commentisfree/2026/nov/25/paris-manifesto-open-letter-ai-oligarchy",
-        "published": "Wed, 25 Nov 2026 11:00:47 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "US news US politics US income inequality AI (artificial intelligence)",
-        "image": "https://i.guim.co.uk/img/media/2dd975b73ad768204e517055d0fd577371cdf078/598_0_4903_3922/master/4903.jpg?width=140&quality=85&auto=format&fit=max&s=a9ed09c809e9d202b100178e38712dd4"
-      },
-      {
         "title": "Huawei guilty of plotting to steal trade secrets and bank fraud",
         "link": "https://news.sky.com/story/chinese-tech-giant-guilty-of-plotting-to-steal-trade-secrets-and-bank-fraud-13616130",
         "published": "Tue, 24 Nov 2026 21:05:00 +0000",
@@ -370,6 +370,33 @@
       }
     ],
     "TECH": [
+      {
+        "title": "Nintendo Wii is 20 years old and its legacy is still felt to this day",
+        "link": "https://metro.co.uk/2026/11/26/nintendo-wii-20-years-old-legacy-still-felt-this-day-29780578/",
+        "published": "Thu, 26 Nov 2026 01:00:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Entertainment Gaming 00s nostalgia Capcom Games news Mario Kart Nintendo Super Mario The Legend of Zelda Wii",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_320167833-c6c4.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Games Inbox: Would you watch a GTA movie?",
+        "link": "https://metro.co.uk/2026/11/26/games-inbox-watch-a-gta-movie-29820736/",
+        "published": "Thu, 26 Nov 2026 01:00:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Entertainment Gaming Call of Duty Games Inbox GTA 6 Mario Kart The Game Awards The Legend of Zelda",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_321259001-99ed.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Daily horoscope November 26, 2026: Today’s predictions for your star sign",
+        "link": "https://metro.co.uk/2026/11/26/daily-horoscope-november-26-2026-predictions-star-sign-29820653/",
+        "published": "Thu, 26 Nov 2026 00:01:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Horoscopes Lifestyle Aquarius Aries Astrology Cancer (star sign) Capricorn Gemini Leo Libra Pisces Sagittarius Scorpio Taurus Virgo",
+        "image": "https://metro.co.uk/wp-content/uploads/2023/04/new-horoscope-2023-02-a5db.gif?w=646"
+      },
       {
         "title": "Which gaming headsets are worth the cost? I put 20 to the test – here are the best for 2026",
         "link": "https://www.theguardian.com/thefilter/2026/nov/25/best-gaming-headsets-tested-uk",
@@ -407,15 +434,6 @@
         "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_322015141-549e.jpg?quality=90&strip=all&w=646"
       },
       {
-        "title": "Call Of Duty veteran tells young people not to become video game developers",
-        "link": "https://metro.co.uk/2026/11/25/call-duty-veteran-tells-young-people-not-become-video-game-developers-29819982/",
-        "published": "Wed, 25 Nov 2026 16:29:07 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Entertainment Gaming Call of Duty Games news",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_322009791-6db9.jpg?quality=90&strip=all&w=646"
-      },
-      {
         "title": "New York bans AI toys, including those using internet to talk to children",
         "link": "https://www.theguardian.com/us-news/2026/nov/25/new-york-bans-ai-toys",
         "published": "Wed, 25 Nov 2026 15:29:21 GMT",
@@ -434,15 +452,6 @@
         "image": "https://i.guim.co.uk/img/media/d54809933e2eee65787d13cd9a4d4669e8792c6e/1_0_2999_2400/master/2999.jpg?width=140&quality=85&auto=format&fit=max&s=c59726fdbe087d7b2b401631aa5f9b08"
       },
       {
-        "title": "Botty? AI helps resurrect voice of John Motson for football video game",
-        "link": "https://www.theguardian.com/media/2026/nov/25/ai-helps-resurrect-voice-john-motson-football-video-game-fc27",
-        "published": "Wed, 25 Nov 2026 15:13:10 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "John Motson Games AI (artificial intelligence) Media Football Sport Culture Technology UK news",
-        "image": "https://i.guim.co.uk/img/media/d52e8fa78cedadca70c70f6e59bfcd90f9e39367/57_0_2250_1800/master/2250.jpg?width=140&quality=85&auto=format&fit=max&s=3114b2b42e73428bec0fd49db5beb3e5"
-      },
-      {
         "title": "Hacker sentenced for leaking Grand Theft Auto VI clips",
         "link": "https://news.sky.com/story/hacker-sentenced-for-leaking-grand-theft-auto-vi-clips-during-cybercrime-spree-13615501",
         "published": "Mon, 23 Nov 2026 06:46:00 +0000",
@@ -450,18 +459,54 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/11/1920x1080/skynews-arion-kurtaj-gta-gta-6_7414238.jpg?20261123095316"
-      },
-      {
-        "title": "The unexpected joy hiding in Grand Theft Auto VI’s chaos? A little routine",
-        "link": "https://www.theguardian.com/games/2026/nov/25/the-secret-to-grand-theft-auto-vi-routine-rockstar-games",
-        "published": "Wed, 25 Nov 2026 15:00:28 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Games Culture Grand Theft Auto VI Action games PlayStation 5 Xbox series S/X Grand Theft Auto",
-        "image": "https://i.guim.co.uk/img/media/ef5fa26a7887426e1b7a631c556eccd3610d759b/478_0_2700_2160/master/2700.jpg?width=140&quality=85&auto=format&fit=max&s=17a816007cad9960f8af249084ffb820"
       }
     ],
     "ENTERTAINMENT": [
+      {
+        "title": "Games Inbox: Would you watch a GTA movie?",
+        "link": "https://metro.co.uk/2026/11/26/games-inbox-watch-a-gta-movie-29820736/",
+        "published": "Thu, 26 Nov 2026 01:00:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Entertainment Gaming Call of Duty Games Inbox GTA 6 Mario Kart The Game Awards The Legend of Zelda",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_321259001-99ed.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Katherine Heigl ‘disturbed’ by teen film where she pretended dad was her lover",
+        "link": "https://metro.co.uk/2026/11/25/katherine-heigl-disturbed-teen-film-pretended-dad-lover-29820591/",
+        "published": "Wed, 25 Nov 2026 22:30:49 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Entertainment Film Grey's Anatomy",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_321977454-8a85.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Amy’s fears deepen for Ken in Coronation Street and it’s up to Steve to save him",
+        "link": "https://metro.co.uk/2026/11/25/coronation-streets-amy-fears-ken-steve-save-29803156/",
+        "published": "Wed, 25 Nov 2026 22:00:00 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Coronation Street Soaps Adam Barlow Amy Barlow Daniel Osbourne Elle Mulvaney Ken Barlow Rob Mallard Sam Robertson Simon Gregson Steve McDonald William Roache",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_321112726-0125.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Duran Duran’s Andy Taylor dies aged 65 after cancer battle",
+        "link": "https://metro.co.uk/2026/11/25/duran-durans-andy-taylor-dies-aged-65-cancer-battle-29820672/",
+        "published": "Wed, 25 Nov 2026 21:50:36 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Entertainment Music Duran Duran Rock music",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_322038458-2d2f-e1795646789883.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Andy Taylor, guitarist in Duran Duran, dies aged 65",
+        "link": "https://www.theguardian.com/music/2026/nov/25/andy-taylor-duran-duran-guitarist-dead",
+        "published": "Wed, 25 Nov 2026 21:41:34 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Duran Duran Pop and rock Music Culture UK news",
+        "image": "https://i.guim.co.uk/img/media/bd793454c7d6ddaf1771ffa261550b2698533ee7/0_32_4345_3475/master/4345.jpg?width=140&quality=85&auto=format&fit=max&s=ade1d7adfff1badd92a797ab5495e5e0"
+      },
       {
         "title": "Duran Duran guitarist Andy Taylor has died aged 65",
         "link": "https://news.sky.com/story/duran-duran-guitarist-andy-taylor-has-died-aged-65-13616421",
@@ -469,34 +514,7 @@
         "source": "Sky News",
         "provider": "SKY",
         "categories": "",
-        "image": "https://e3.365dm.com/26/06/1920x1080/skynews-simon-le-bon-duran-duran_7285490.jpg?20260629091936"
-      },
-      {
-        "title": "Emmerdale star confirms final showdown with Graham will take Steve ‘to his final breath’",
-        "link": "https://metro.co.uk/2026/11/25/emmerdale-star-confirms-showdown-graham-will-take-steve-to-final-breath-29820041/",
-        "published": "Wed, 25 Nov 2026 20:20:00 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Emmerdale Soaps Andrew Scarborough Graham Foster Paul Opacic Steve Marchant",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_322023197-e54d.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Ross knows how to destroy Fiz as Coronation Street spoilers confirm what happens next",
-        "link": "https://metro.co.uk/2026/11/25/ross-knows-destroy-fiz-coronation-street-spoilers-confirm-next-29818262/",
-        "published": "Wed, 25 Nov 2026 20:00:00 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Coronation Street Soaps Fiz Dobbs Ian Burfield Jennie McAlpine Ross Wilkes",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_320659434-1c05.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Angry Dingle takes on Sadie as Emmerdale spoilers reveal what happens next",
-        "link": "https://metro.co.uk/2026/11/25/angry-dingle-takes-sadie-emmerdale-spoilers-reveal-happens-next-29818771/",
-        "published": "Wed, 25 Nov 2026 19:30:00 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Emmerdale Soaps Caleb Miligan Patsy Kensit Sadie King William Ash",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_320285001-50a5.jpg?quality=90&strip=all&w=646"
+        "image": "https://e3.365dm.com/26/11/1920x1080/skynews-taylor-andy_7416653.jpg?20261125223846"
       },
       {
         "title": "Grand Theft Auto VI: The Album review – even GTA sceptics will warm to this zeitgeisty, star-packed soundtrack",
@@ -517,15 +535,6 @@
         "image": "https://i.guim.co.uk/img/media/b124112c08a8b8e6e386825e4b0e7437a4f1ac2c/249_0_1379_1104/master/1379.jpg?width=140&quality=85&auto=format&fit=max&s=35911f0314426fc7bf4fd95871f2ea0b"
       },
       {
-        "title": "The Fox review – talking animals are the least weird thing in this delightfully peculiar comedy",
-        "link": "https://www.theguardian.com/film/2026/nov/26/the-fox-australian-movie-review-olivia-colman-sam-neill-dario-russo-emily-browning-jai-courtney",
-        "published": "Wed, 25 Nov 2026 14:00:29 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Australian film Film Olivia Colman Sam Neill Culture Comedy films",
-        "image": "https://i.guim.co.uk/img/media/e21a84bf3bbf66126fb4accf87d1d07186b86dfc/610_0_5865_4694/master/5865.jpg?width=140&quality=85&auto=format&fit=max&s=95b0498085eb71c0d643487e59c03aa4"
-      },
-      {
         "title": "Who's performing at Glastonbury 2027?",
         "link": "https://news.sky.com/story/harry-styles-sam-fender-and-billie-eilish-to-headline-glastonbury-13613219",
         "published": "Tue, 17 Nov 2026 12:47:00 +0000",
@@ -542,60 +551,42 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/11/1920x1080/skynews-raye-mercury-prize_7407899.jpg?20261116160106"
-      },
-      {
-        "title": "Depardieu drops appeal against sexual assault conviction and apologises",
-        "link": "https://news.sky.com/story/depardieu-drops-appeal-against-sexual-assault-conviction-and-apologises-13612791",
-        "published": "Mon, 16 Nov 2026 12:06:00 +0000",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/11/1920x1080/skynews-gerard-depardieu-actor_7407725.jpg?20261116121424"
       }
     ],
     "STOCKS": [
       {
-        "title": "Dauch (DCH) Trades at Just 4× Estimated 2027 Earnings. What’s Holding It Back?",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/dauch-dch-trades-just-4-212450568.html?.tsrc=rss",
-        "published": "Wed, 25 Nov 2026 21:24:50 +0000",
+        "title": "U.S. stock futures steady after whipsaw session on Wall St",
+        "link": "https://uk.finance.yahoo.com/news/u-stock-futures-steady-whipsaw-001609166.html?.tsrc=rss",
+        "published": "Thu, 26 Nov 2026 00:16:09 +0000",
         "source": "Yahoo Finance",
         "provider": "YAHOO",
         "categories": "",
         "image": ""
       },
       {
-        "title": "How major US stock indexes fared Wednesday 11/25/2026",
-        "link": "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-211718440.html?.tsrc=rss",
-        "published": "Wed, 25 Nov 2026 21:17:18 +0000",
+        "title": "U.S. stock futures turn higher as tech rebound holds after wild swings on Wall St",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/u-stock-futures-steady-whipsaw-001343016.html?.tsrc=rss",
+        "published": "Thu, 26 Nov 2026 00:13:43 +0000",
         "source": "Yahoo Finance",
         "provider": "YAHOO",
         "categories": "",
         "image": ""
       },
       {
-        "title": "These 5 Tech Stocks are Sidestepping the AI Downturn",
-        "link": "https://uk.finance.yahoo.com/m/d635c9d7-dbc8-3f44-bc94-e186ec33e2bd/these-5-tech-stocks-are.html?.tsrc=rss",
-        "published": "Wed, 25 Nov 2026 21:16:00 +0000",
+        "title": "5 Best Healthcare Stocks To Buy for 2027",
+        "link": "https://finance.yahoo.com/healthcare/articles/5-best-healthcare-stocks-buy-224526274.html?.tsrc=rss",
+        "published": "Wed, 25 Nov 2026 22:45:26 +0000",
         "source": "Yahoo Finance",
         "provider": "YAHOO",
         "categories": "",
         "image": ""
       },
       {
-        "title": "Tech stocks are volatile as AI fears overshadow Huang’s Nvidia return",
-        "link": "https://www.cnn.com/2026/11/25/business/ai-sell-off-despite-huang-nvidia-return?.tsrc=rss",
-        "published": "Wed, 25 Nov 2026 21:08:16 +0000",
+        "title": "BC-Select Stock Indices",
+        "link": "https://finance.yahoo.com/markets/world-indices/articles/bc-select-stock-indices-223013659.html?.tsrc=rss",
+        "published": "Wed, 25 Nov 2026 22:30:13 +0000",
         "source": "Yahoo Finance",
         "provider": "YAHOO",
-        "categories": "",
-        "image": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2306838289.jpg?c=16x9&q=w_800,c_fill"
-      },
-      {
-        "title": "Nasdaq, S&P 500 ease, but off lows of the day as investors seek bargains",
-        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNdUdBTGhVT2V5cDcydUZMX2NTdTkxVDBJSHdCMUgwNXBibGhQc28zdktpLXA2dGVUYzRzV3hpMld1U29KempSNUswd2dNYVdITlFxV2NycEkwbnlpZkdPSDNicVRKM3NCU2l0M0hoWU13UTZkbTAtX2JFempxaUtFbjdTZGMxT2lXM2g3dkR4cy1UYnVfZ09kOWpTNGxtUEZZOTRPaXhENlZ6OGt2ZF94d0RCVjdOSldfc0E?oc=5",
-        "published": "Wed, 25 Nov 2026 20:04:52 GMT",
-        "source": "Reuters",
-        "provider": "REUTERS",
         "categories": "",
         "image": ""
       },
@@ -636,9 +627,18 @@
         "image": ""
       },
       {
-        "title": "Anthropic shares tumble below $83 IPO price, on track to lose nearly $200 billion in value",
-        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMHBNOVY5RDc1NmxUUjNnZkNhLWROQkhUOFZpVmQ0SEI0UG9aSUpTTjhpV3EydTNkdW8xYm1KOWF6OXg2Z3BMaUJCWTE3WnFCM0hCZGNuQ3ZKUklsYUROVWQzdExOamNKVlJLRTgwYWpoYVdOUjlDY0pxTmxZajlvckJ4cHc0TG1hbW1ZUkszaDZ2M2Rvd3RqTWRFaVRENXVWT0pr?oc=5",
-        "published": "Tue, 24 Nov 2026 20:47:56 GMT",
+        "title": "Nasdaq, S&P 500 end down, but well off lows as investors buy bargains",
+        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNdUdBTGhVT2V5cDcydUZMX2NTdTkxVDBJSHdCMUgwNXBibGhQc28zdktpLXA2dGVUYzRzV3hpMld1U29KempSNUswd2dNYVdITlFxV2NycEkwbnlpZkdPSDNicVRKM3NCU2l0M0hoWU13UTZkbTAtX2JFempxaUtFbjdTZGMxT2lXM2g3dkR4cy1UYnVfZ09kOWpTNGxtUEZZOTRPaXhENlZ6OGt2ZF94d0RCVjdOSldfc0E?oc=5",
+        "published": "Wed, 25 Nov 2026 10:08:00 GMT",
+        "source": "Reuters",
+        "provider": "REUTERS",
+        "categories": "",
+        "image": ""
+      },
+      {
+        "title": "US stocks slide as Nvidia rally fizzles out, dollar falls",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPVGQ3cVhHXzJBLXEybDVWX21xeWcxbUVEOHA1ZV9IU0lacEM2a3dKbmFLSGk2Y1MwLXk0OVFzWV8yT1JNQ3FnX3hWNGxidEZvbDZwTl8tdjNoUDV6MU45ZnJSa3lSMnZJNXdwWk5VRUFOYzJlTk11TmZaS1hocXhPVUE4bw?oc=5",
+        "published": "Tue, 24 Nov 2026 23:33:16 GMT",
         "source": "Reuters",
         "provider": "REUTERS",
         "categories": "",
@@ -736,7 +736,7 @@
           },
           "YAHOO": {
             "ok": true,
-            "count": 9,
+            "count": 10,
             "retainedPrevious": 0,
             "errors": [
               "https://finance.yahoo.com/news/rssindex: 404 Not Found"
@@ -744,7 +744,7 @@
           },
           "REUTERS": {
             "ok": true,
-            "count": 7,
+            "count": 10,
             "retainedPrevious": 0,
             "errors": [
               "https://www.reuters.com/arc/outboundfeeds/v3/all/?outputType=xml: 404 Not Found"
@@ -765,7 +765,7 @@
             "source": "Sky News",
             "provider": "SKY",
             "categories": "",
-            "image": "https://e3.365dm.com/26/06/1920x1080/skynews-simon-le-bon-duran-duran_7285490.jpg?20260629091936"
+            "image": "https://e3.365dm.com/26/11/1920x1080/skynews-taylor-andy_7416653.jpg?20261125223846"
           },
           {
             "title": "Multiple chances missed to protect two-year-old murdered by his grandparents, report finds",
@@ -878,15 +878,6 @@
             "image": "https://e3.365dm.com/26/11/1920x1080/skynews-huawei-mobile-logo_7415657.jpg?20261124210537"
           },
           {
-            "title": "FA chair had to sign NDA to view FIFA documents on World Cup sell-off",
-            "link": "https://news.sky.com/story/fa-chair-had-to-sign-nda-to-view-fifa-documents-on-world-cup-sell-off-13615958",
-            "published": "Tue, 24 Nov 2026 12:12:00 +0000",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/11/1920x1080/skynews-gianni-infantino-debbie-hewitt_7415270.jpg?20261124130731"
-          },
-          {
             "title": "Morocco 'astonished' at decision to restore Senegal as Africa Cup of Nations champions",
             "link": "https://news.sky.com/story/senegal-awarded-africa-cup-of-nations-after-winning-appeal-over-title-being-stripped-13615900",
             "published": "Tue, 24 Nov 2026 08:06:00 +0000",
@@ -896,22 +887,13 @@
             "image": "https://e3.365dm.com/26/11/1920x1080/skynews-senegal-morocco_7415350.jpg?20261124144126"
           },
           {
-            "title": "China 'sentences official to death for spying'",
-            "link": "https://news.sky.com/story/china-reportedly-sentences-official-to-death-for-leaking-state-secrets-13615962",
-            "published": "Tue, 24 Nov 2026 12:22:00 +0000",
+            "title": "FA chair had to sign NDA to view FIFA documents on World Cup sell-off",
+            "link": "https://news.sky.com/story/fa-chair-had-to-sign-nda-to-view-fifa-documents-on-world-cup-sell-off-13615958",
+            "published": "Tue, 24 Nov 2026 12:12:00 +0000",
             "source": "Sky News",
             "provider": "SKY",
             "categories": "",
-            "image": "https://e3.365dm.com/26/11/1920x1080/skynews-mss-ministry-state-security_7415284.jpg?20261124131351"
-          },
-          {
-            "title": "Gisele Pelicot 'deeply shocked' as nude photos of her sent to media",
-            "link": "https://news.sky.com/story/gisele-pelicot-deeply-shocked-after-nude-photos-used-to-promote-book-13615849",
-            "published": "Tue, 24 Nov 2026 02:54:00 +0000",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/11/1920x1080/skynews-gisele-pelicot-france_7414958.jpg?20261124010316"
+            "image": "https://e3.365dm.com/26/11/1920x1080/skynews-gianni-infantino-debbie-hewitt_7415270.jpg?20261124130731"
           }
         ],
         "POLITICS": [
@@ -1108,7 +1090,7 @@
             "source": "Sky News",
             "provider": "SKY",
             "categories": "",
-            "image": "https://e3.365dm.com/26/06/1920x1080/skynews-simon-le-bon-duran-duran_7285490.jpg?20260629091936"
+            "image": "https://e3.365dm.com/26/11/1920x1080/skynews-taylor-andy_7416653.jpg?20261125223846"
           },
           {
             "title": "Robert Pattinson named as new James Bond",
@@ -1182,7 +1164,7 @@
         },
         "WORLD": {
           "ok": true,
-          "count": 10
+          "count": 8
         },
         "POLITICS": {
           "ok": true,
@@ -1388,6 +1370,15 @@
         ],
         "WORLD": [
           {
+            "title": "At least 31 killed as fuel tanker crash ignites large fire on Cairo highway",
+            "link": "https://www.theguardian.com/world/2026/nov/25/people-killed-fuel-tanker-crash-ignites-large-fire-cairo-highway",
+            "published": "Thu, 26 Nov 2026 00:39:10 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Egypt Middle East and north Africa Africa World news Road safety",
+            "image": "https://i.guim.co.uk/img/media/6812ad2841dc33db22e057b035ee4c97d0e86530/187_212_1857_1486/master/1857.jpg?width=140&quality=85&auto=format&fit=max&s=383efbd03159a528ed80f89ede390c4b"
+          },
+          {
             "title": "Swiss tourist killed and British and Americans injured by elephants in Cameroon",
             "link": "https://www.theguardian.com/environment/2026/nov/25/swiss-tourist-killed-british-americans-injured-elephants-cameroon",
             "published": "Wed, 25 Nov 2026 14:03:18 GMT",
@@ -1422,15 +1413,6 @@
             "provider": "GUARDIAN",
             "categories": "Ukraine Libya Russia Volodymyr Zelenskyy World news Middle East and north Africa Europe Africa Weapons technology Drones (military)",
             "image": "https://i.guim.co.uk/img/media/cfb76673617a9119c98c92a444bacae6ca40eb5c/404_0_1800_1440/master/1800.jpg?width=140&quality=85&auto=format&fit=max&s=8c0889c3bdc2c172aa530662154d2f6c"
-          },
-          {
-            "title": "Russian warship sinks in Benghazi after suspected Ukrainian drone attack",
-            "link": "https://www.theguardian.com/world/2026/nov/22/blast-russian-ship-suspected-drone-attack-benghazi-libya",
-            "published": "Sun, 22 Nov 2026 21:33:44 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Russia Libya Middle East and north Africa World news Africa Water transport Drones (military) Ukraine",
-            "image": "https://i.guim.co.uk/img/media/196206fc578eb19b5303b6bfe5930996ed24961b/0_0_900_720/master/900.jpg?width=140&quality=85&auto=format&fit=max&s=4a5a7fec09c73b0d217b6d1303a01b0c"
           },
           {
             "title": "All hostages rescued after Colombian security forces storm supermarket, police say",
@@ -1523,49 +1505,49 @@
             "image": "https://i.guim.co.uk/img/media/515210e29bb0c7d2077263b355c6ce39f3b006d5/243_0_3321_2656/master/3321.jpg?width=140&quality=85&auto=format&fit=max&s=ea01d85bb0c9da02666f01ad83b856b5"
           },
           {
-            "title": "Australian politics live: Hanson ‘delighted’ as Liberal senator defects to One Nation; Bowen says global tensions ‘infected’ Cop31",
+            "title": "Australian politics live: Blyth did not ‘feel safe’ in the Liberal party before One Nation defection; ‘coal must be replaced’, Bowen says",
             "link": "https://www.theguardian.com/australia-news/live/2026/nov/26/labor-anthony-albanese-pauline-hanson-one-nation-angus-taylor-coalition-ntwnfb",
-            "published": "Wed, 25 Nov 2026 21:30:06 GMT",
+            "published": "Thu, 26 Nov 2026 02:49:33 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
             "categories": "Australia news Australian politics Australian economy Business Health Australian education Australian immigration and asylum Australian foreign policy",
-            "image": "https://i.guim.co.uk/img/media/ce6cb56abf202649179c638f3a9b93b6efd40887/817_0_3829_3065/master/3829.jpg?width=140&quality=85&auto=format&fit=max&s=bb74df4639acdddc2a7c95b3f50d4b41"
+            "image": "https://i.guim.co.uk/img/media/f6b4122a7b255425d7edaf7051f990faebedc605/489_0_6591_5273/master/6591.jpg?width=140&quality=85&auto=format&fit=max&s=a3fb4d9b90e850985c9b942f5d497f98"
           },
           {
-            "title": "Liberal senator Leah Blyth announces defection to One Nation",
-            "link": "https://www.theguardian.com/australia-news/2026/nov/26/liberal-senator-leah-blyth-defection-to-one-nation-ntwnfb",
-            "published": "Wed, 25 Nov 2026 20:50:15 GMT",
+            "title": "Coalition would privatise Melbourne’s sewage treatment while selling state-owned land and renewables to fund Victorian election promises",
+            "link": "https://www.theguardian.com/australia-news/2026/nov/26/liberal-nationals-victoria-election-policy-costings-revealed-sewage-land-energy",
+            "published": "Thu, 26 Nov 2026 02:35:09 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Australian politics South Australian politics Australia news Angus Taylor Matthew Canavan One Nation Liberal party Coalition",
-            "image": "https://i.guim.co.uk/img/media/b8e0686e082ee97c403961ee3228cab6cd5bcf48/0_0_1943_1555/master/1943.jpg?width=140&quality=85&auto=format&fit=max&s=757367d930714c816470fe6d0a80c401"
+            "categories": "Victoria state election 2026 Victorian politics Jess Wilson Victoria Melbourne Australia news",
+            "image": "https://i.guim.co.uk/img/media/ada4bb365561f12ee0ef729583d5ef8a1082d741/4_0_5040_4032/master/5040.jpg?width=140&quality=85&auto=format&fit=max&s=7fe8d3290955a71627069d699b669954"
           },
           {
-            "title": "Aidan is one of thousands of students forced to verbally defend his honours thesis as universities take on AI",
-            "link": "https://www.theguardian.com/australia-news/2026/nov/25/australian-universities-tackle-ai-plagiarism-oral-assessment-honours-masters-phd",
-            "published": "Wed, 25 Nov 2026 14:00:29 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Australian universities AI (artificial intelligence) Australian education Computing Technology Australia news",
-            "image": "https://i.guim.co.uk/img/media/908614cdd05b81d36b3667409a3239a6f801312e/0_0_6795_5439/master/6795.jpg?width=140&quality=85&auto=format&fit=max&s=313689c82f7c4780c7069cde9e6f55c2"
-          },
-          {
-            "title": "Large bushfire threatens homes and properties on Flinders Island off Tasmania",
+            "title": "Out-of-control bushfire with flames 10-metres high destroys at least six homes on Flinders Island",
             "link": "https://www.theguardian.com/australia-news/2026/nov/25/large-bushfire-threatens-homes-and-properties-on-remote-island-off-tasmania",
-            "published": "Wed, 25 Nov 2026 13:55:42 GMT",
+            "published": "Thu, 26 Nov 2026 01:59:30 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
             "categories": "Bushfires Australia news Tasmania",
             "image": "https://i.guim.co.uk/img/media/233bcc415b139a4c7cb303ad0a176d9ff6433c48/66_0_880_704/master/880.jpg?width=140&quality=85&auto=format&fit=max&s=b202b3c29c5683ffa86cc26b07ff0f0b"
           },
           {
-            "title": "IVF, elective abortion, gender-affirming care and VAD to cease under Catholic ownership of private hospitals",
-            "link": "https://www.theguardian.com/australia-news/2026/nov/25/ivf-elective-abortion-assisted-dying-calvary-catholic-ownership-private-hospitals-ntwnfb",
-            "published": "Wed, 25 Nov 2026 08:05:27 GMT",
+            "title": "‘Turncoat’: Liberal senator Leah Blyth announces defection to One Nation, blindsiding Coalition",
+            "link": "https://www.theguardian.com/australia-news/2026/nov/26/liberal-senator-leah-blyth-defection-to-one-nation-ntwnfb",
+            "published": "Thu, 26 Nov 2026 00:58:49 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Health Hospitals Australia news",
-            "image": "https://i.guim.co.uk/img/media/6ebe6074312b0df5c8a62642fa32e3fe391286ba/688_0_6880_5504/master/6880.jpg?width=140&quality=85&auto=format&fit=max&s=a2aa69f3972fd5ec6772c959eb3f092f"
+            "categories": "Australian politics South Australian politics Australia news Angus Taylor Matthew Canavan One Nation Liberal party Coalition",
+            "image": "https://i.guim.co.uk/img/media/b8e0686e082ee97c403961ee3228cab6cd5bcf48/0_0_1943_1555/master/1943.jpg?width=140&quality=85&auto=format&fit=max&s=757367d930714c816470fe6d0a80c401"
+          },
+          {
+            "title": "Aidan didn’t expect a spoken-word component in his thesis - but universities hope it will help tackle AI",
+            "link": "https://www.theguardian.com/australia-news/2026/nov/25/australian-universities-tackle-ai-plagiarism-oral-assessment-honours-masters-phd",
+            "published": "Wed, 25 Nov 2026 14:00:29 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Australian universities AI (artificial intelligence) Australian education Computing Technology Australia news",
+            "image": "https://i.guim.co.uk/img/media/908614cdd05b81d36b3667409a3239a6f801312e/0_0_6795_5439/master/6795.jpg?width=140&quality=85&auto=format&fit=max&s=313689c82f7c4780c7069cde9e6f55c2"
           }
         ],
         "POLITICS": [
@@ -1761,6 +1743,15 @@
             "image": "https://i.guim.co.uk/img/media/1e62345f75c4b03ed8949417f520577e19e7e89d/914_0_5738_4593/master/5738.jpg?width=140&quality=85&auto=format&fit=max&s=3091977c5a46f024323dfe5f0a48d5b1"
           },
           {
+            "title": "Judge blocks Brendan Carr-led FCC from taking any further action against ABC’s licenses",
+            "link": "https://www.theguardian.com/us-news/2026/nov/25/brendan-carr-fcc-abc-licenses",
+            "published": "Thu, 26 Nov 2026 02:52:47 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Trump administration US news Media ABC Television industry US television industry Law (US)",
+            "image": "https://i.guim.co.uk/img/media/2837d22e6ac7d6b68b6c62587ea76bcc88e46cf7/357_0_4376_3500/master/4376.jpg?width=140&quality=85&auto=format&fit=max&s=d356dd5a573054755e0fd9cb77445888"
+          },
+          {
             "title": "US inflation hits highest since May after prices climb 3.8% over the last year",
             "link": "https://www.theguardian.com/business/2026/nov/25/consumer-prices-september-october-energy-inflation",
             "published": "Wed, 25 Nov 2026 15:46:15 GMT",
@@ -1822,15 +1813,6 @@
             "provider": "GUARDIAN",
             "categories": "US politics Nvidia Jensen Huang US news Technology Republicans Trump administration World news China Technology sector US national security Business AI (artificial intelligence)",
             "image": "https://i.guim.co.uk/img/media/4c4701470b09edcfeba9cbda93c6910a248a274b/0_116_6218_4975/master/6218.jpg?width=140&quality=85&auto=format&fit=max&s=635252dd42b880401caf9c475fc93266"
-          },
-          {
-            "title": "Hacks, AI and conspiracy theories: why are we having so many outages?",
-            "link": "https://www.theguardian.com/technology/2026/nov/22/hacks-ai-internet-outages-airlines-banks-microsoft-apple",
-            "published": "Sun, 22 Nov 2026 06:00:19 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Technology Airline industry Technology sector Business UK news US news World news",
-            "image": "https://i.guim.co.uk/img/media/917aeeec17f3bee46d98e2201997eb1f9a0b316c/0_807_4000_3198/master/4000.jpg?width=140&quality=85&auto=format&fit=max&s=d4752a8d74606eaec6916b68b2a9c81d"
           },
           {
             "title": "Trump, Nvidia and power: could we be nearing the end of tech’s Gilded Age?",
@@ -2006,7 +1988,7 @@
             "image": "https://i.guim.co.uk/img/media/d52e8fa78cedadca70c70f6e59bfcd90f9e39367/57_0_2250_1800/master/2250.jpg?width=140&quality=85&auto=format&fit=max&s=3114b2b42e73428bec0fd49db5beb3e5"
           },
           {
-            "title": "Aidan is one of thousands of students forced to verbally defend his honours thesis as universities take on AI",
+            "title": "Aidan didn’t expect a spoken-word component in his thesis - but universities hope it will help tackle AI",
             "link": "https://www.theguardian.com/australia-news/2026/nov/25/australian-universities-tackle-ai-plagiarism-oral-assessment-honours-masters-phd",
             "published": "Wed, 25 Nov 2026 14:00:29 GMT",
             "source": "The Guardian",
@@ -2107,6 +2089,15 @@
         ],
         "ENTERTAINMENT": [
           {
+            "title": "Andy Taylor, guitarist in Duran Duran, dies aged 65",
+            "link": "https://www.theguardian.com/music/2026/nov/25/andy-taylor-duran-duran-guitarist-dead",
+            "published": "Wed, 25 Nov 2026 21:41:34 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Duran Duran Pop and rock Music Culture UK news",
+            "image": "https://i.guim.co.uk/img/media/bd793454c7d6ddaf1771ffa261550b2698533ee7/0_32_4345_3475/master/4345.jpg?width=140&quality=85&auto=format&fit=max&s=ade1d7adfff1badd92a797ab5495e5e0"
+          },
+          {
             "title": "Grand Theft Auto VI: The Album review – even GTA sceptics will warm to this zeitgeisty, star-packed soundtrack",
             "link": "https://www.theguardian.com/music/2026/nov/25/grand-theft-auto-vi-the-album-review",
             "published": "Wed, 25 Nov 2026 17:50:18 GMT",
@@ -2179,15 +2170,6 @@
             "image": "https://i.guim.co.uk/img/media/3dcaebdde75152ebe1867b54119f2bfa4df1a870/492_0_2700_2160/master/2700.jpg?width=140&quality=85&auto=format&fit=max&s=67b53fa39c25840a813124e5adac1e0c"
           },
           {
-            "title": "‘I said no thanks to the casting couch. But other actresses had problems’: Jane Alexander on 50 years of stardom",
-            "link": "https://www.theguardian.com/film/2026/nov/25/jane-alexander-interview",
-            "published": "Wed, 25 Nov 2026 12:00:56 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Film Acting Culture Stage Boxing Muhammad Ali Race US news Birds",
-            "image": "https://i.guim.co.uk/img/media/b4088816a603819790802872b75796c85e02e935/2940_1550_2202_1761/master/2202.jpg?width=140&quality=85&auto=format&fit=max&s=45b2e11c3035a255d2d0030484d2addd"
-          },
-          {
             "title": "Reeling in the years: how Hollywood fell for its own vanishing glories",
             "link": "https://www.theguardian.com/film/2026/nov/25/hollywood-nostalgia-further-mis-adventures-of-cliff-booth-quentin-tarantino",
             "published": "Wed, 25 Nov 2026 11:53:30 GMT",
@@ -2224,6 +2206,15 @@
             "image": "https://i.guim.co.uk/img/media/0afed90b9f8e86063db7aac11dee1976a200445c/1_0_2999_2400/master/2999.jpg?width=140&quality=85&auto=format&fit=max&s=b495b18b31f7243a6f20b251dcc3e231"
           },
           {
+            "title": "‘I said no thanks to the casting couch. But other actresses had problems’: Jane Alexander on 50 years of stardom",
+            "link": "https://www.theguardian.com/film/2026/nov/25/jane-alexander-interview",
+            "published": "Wed, 25 Nov 2026 12:00:56 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Film Acting Culture Stage Boxing Muhammad Ali Race US news Birds",
+            "image": "https://i.guim.co.uk/img/media/b4088816a603819790802872b75796c85e02e935/2940_1550_2202_1761/master/2202.jpg?width=140&quality=85&auto=format&fit=max&s=45b2e11c3035a255d2d0030484d2addd"
+          },
+          {
             "title": "Post your questions for Danny Boyle",
             "link": "https://www.theguardian.com/film/2026/nov/25/post-your-questions-for-danny-boyle",
             "published": "Wed, 25 Nov 2026 06:00:07 GMT",
@@ -2249,15 +2240,6 @@
             "provider": "GUARDIAN",
             "categories": "Television Culture Television & radio Apple TV Macaulay Culkin Film",
             "image": "https://i.guim.co.uk/img/media/c75dee497bfa42c7944efaf226dc31b07229bf33/0_681_3600_2880/master/3600.jpg?width=140&quality=85&auto=format&fit=max&s=5f7cf4593ef6f260d1275c202dee659a"
-          },
-          {
-            "title": "‘A fight to demand that humans are worth investing in’: Theaster Gates on taking over America’s last porcelain factory",
-            "link": "https://www.theguardian.com/artanddesign/2026/nov/23/theaster-gates-pickard-china-art",
-            "published": "Mon, 23 Nov 2026 11:00:56 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Theaster Gates Design Art Art and design Culture Black US culture Art Architecture Chicago Manufacturing sector US news Illinois",
-            "image": "https://i.guim.co.uk/img/media/3d0c2983f7d692b91d056a0644ec38f8acdf2f98/0_1456_3996_3197/master/3996.jpg?width=140&quality=85&auto=format&fit=max&s=6e3114303d98458a4e97010c6c9c67c2"
           },
           {
             "title": "‘As much joy as I could find’: a splash of colour – in pictures",
@@ -2491,13 +2473,13 @@
             "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_294466895-8808.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Latvian gymnast Artemijs Zizins makes history with UK Championship qualification",
-            "link": "https://metro.co.uk/2026/11/25/latvian-gymnast-artemijs-zizins-makes-history-uk-championship-qualification-29820603/",
-            "published": "Wed, 25 Nov 2026 20:50:34 +0000",
+            "title": "Joshua Kimmich blasts Bayern Munich board over Jamal Musiala health situation",
+            "link": "https://metro.co.uk/2026/11/26/joshua-kimmich-blasts-bayern-munich-board-jamal-musiala-health-situation-29820754/",
+            "published": "Thu, 26 Nov 2026 01:23:47 +0000",
             "source": "Metro",
             "provider": "METRO",
-            "categories": "Sport",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_309362123-1fe8.jpg?quality=90&strip=all&w=646"
+            "categories": "Football Sport Bayern Munich FC Bundesliga Champions League Germany football team Harry Kane Premier League",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/11/Joshua-Kimmich-1572.jpg?quality=90&strip=all&w=646"
           }
         ],
         "WORLD": [
@@ -2590,6 +2572,15 @@
             "provider": "METRO",
             "categories": "News World Andy Burnham Ed Miliband NATO Vladimir Putin Volodymyr Zelensky Wes Streeting",
             "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_321566691-4dd6.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Joshua Kimmich blasts Bayern Munich board over Jamal Musiala health situation",
+            "link": "https://metro.co.uk/2026/11/26/joshua-kimmich-blasts-bayern-munich-board-jamal-musiala-health-situation-29820754/",
+            "published": "Thu, 26 Nov 2026 01:23:47 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Football Sport Bayern Munich FC Bundesliga Champions League Germany football team Harry Kane Premier League",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/11/Joshua-Kimmich-1572.jpg?quality=90&strip=all&w=646"
           },
           {
             "title": "Harry and Vinny ‘destroyed over baby Ethan shocker’ as EastEnders spoilers reveal what happens next",
@@ -2770,7 +2761,7 @@
             "published": "Wed, 25 Nov 2026 20:50:34 +0000",
             "source": "Metro",
             "provider": "METRO",
-            "categories": "Sport",
+            "categories": "Snooker Sport",
             "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_309362123-1fe8.jpg?quality=90&strip=all&w=646"
           }
         ],
@@ -2958,6 +2949,33 @@
         ],
         "TECH": [
           {
+            "title": "Nintendo Wii is 20 years old and its legacy is still felt to this day",
+            "link": "https://metro.co.uk/2026/11/26/nintendo-wii-20-years-old-legacy-still-felt-this-day-29780578/",
+            "published": "Thu, 26 Nov 2026 01:00:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment Gaming 00s nostalgia Capcom Games news Mario Kart Nintendo Super Mario The Legend of Zelda Wii",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_320167833-c6c4.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Games Inbox: Would you watch a GTA movie?",
+            "link": "https://metro.co.uk/2026/11/26/games-inbox-watch-a-gta-movie-29820736/",
+            "published": "Thu, 26 Nov 2026 01:00:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment Gaming Call of Duty Games Inbox GTA 6 Mario Kart The Game Awards The Legend of Zelda",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_321259001-99ed.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Daily horoscope November 26, 2026: Today’s predictions for your star sign",
+            "link": "https://metro.co.uk/2026/11/26/daily-horoscope-november-26-2026-predictions-star-sign-29820653/",
+            "published": "Thu, 26 Nov 2026 00:01:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Horoscopes Lifestyle Aquarius Aries Astrology Cancer (star sign) Capricorn Gemini Leo Libra Pisces Sagittarius Scorpio Taurus Virgo",
+            "image": "https://metro.co.uk/wp-content/uploads/2023/04/new-horoscope-2023-02-a5db.gif?w=646"
+          },
+          {
             "title": "Devil May Cry creator wants to make a ‘truly insane’ Castlevania game",
             "link": "https://metro.co.uk/2026/11/25/devil-may-cry-creator-wants-make-a-truly-insane-castlevania-game-29820391/",
             "published": "Wed, 25 Nov 2026 17:39:51 +0000",
@@ -2977,6 +2995,33 @@
           }
         ],
         "ENTERTAINMENT": [
+          {
+            "title": "Games Inbox: Would you watch a GTA movie?",
+            "link": "https://metro.co.uk/2026/11/26/games-inbox-watch-a-gta-movie-29820736/",
+            "published": "Thu, 26 Nov 2026 01:00:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment Gaming Call of Duty Games Inbox GTA 6 Mario Kart The Game Awards The Legend of Zelda",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_321259001-99ed.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Katherine Heigl ‘disturbed’ by teen film where she pretended dad was her lover",
+            "link": "https://metro.co.uk/2026/11/25/katherine-heigl-disturbed-teen-film-pretended-dad-lover-29820591/",
+            "published": "Wed, 25 Nov 2026 22:30:49 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment Film Grey's Anatomy",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_321977454-8a85.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Duran Duran’s Andy Taylor dies aged 65 after cancer battle",
+            "link": "https://metro.co.uk/2026/11/25/duran-durans-andy-taylor-dies-aged-65-cancer-battle-29820672/",
+            "published": "Wed, 25 Nov 2026 21:50:36 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment Music Duran Duran Rock music",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_322038458-2d2f-e1795646789883.jpg?quality=90&strip=all&w=646"
+          },
           {
             "title": "Gordon Ramsay confirmed as new Top Gear host as BBC reveals release date",
             "link": "https://metro.co.uk/2026/11/25/gordon-ramsay-confirmed-new-top-gear-host-bbc-reveals-release-date-29820328/",
@@ -3104,22 +3149,13 @@
             "image": "https://metro.co.uk/wp-content/uploads/2026/11/xmas-tv-ad.png?w=646"
           },
           {
-            "title": "Alan Carr is inviting you to get married at his £3,300,000 castle in Scotland",
-            "link": "https://metro.co.uk/2026/11/25/alan-carr-inviting-get-married-3-300-000-castle-scotland-29817865/",
-            "published": "Wed, 25 Nov 2026 10:21:09 +0000",
+            "title": "Amy’s fears deepen for Ken in Coronation Street and it’s up to Steve to save him",
+            "link": "https://metro.co.uk/2026/11/25/coronation-streets-amy-fears-ken-steve-save-29803156/",
+            "published": "Wed, 25 Nov 2026 22:00:00 +0000",
             "source": "Metro",
             "provider": "METRO",
-            "categories": "Entertainment TV Alan Carr",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_286121052-372d.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "I’m a Celebrity fans bash Mariella for ‘horrible fake’ apology to AJ Odudu",
-            "link": "https://metro.co.uk/2026/11/25/im-a-celebrity-fans-bash-mariella-horrible-fake-apology-aj-odudu-29817839/",
-            "published": "Wed, 25 Nov 2026 10:17:12 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Entertainment TV AJ Odudu I'm A Celebrity ITV Mariella Frostrup",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_321938834-8b6c.jpg?quality=90&strip=all&w=646"
+            "categories": "Coronation Street Soaps Adam Barlow Amy Barlow Daniel Osbourne Elle Mulvaney Ken Barlow Rob Mallard Sam Robertson Simon Gregson Steve McDonald William Roache",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_321112726-0125.jpg?quality=90&strip=all&w=646"
           },
           {
             "title": "Emmerdale star confirms final showdown with Graham will take Steve ‘to his final breath’",
@@ -3138,24 +3174,6 @@
             "provider": "METRO",
             "categories": "Coronation Street Soaps Fiz Dobbs Ian Burfield Jennie McAlpine Ross Wilkes",
             "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_320659434-1c05.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Angry Dingle takes on Sadie as Emmerdale spoilers reveal what happens next",
-            "link": "https://metro.co.uk/2026/11/25/angry-dingle-takes-sadie-emmerdale-spoilers-reveal-happens-next-29818771/",
-            "published": "Wed, 25 Nov 2026 19:30:00 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Emmerdale Soaps Caleb Miligan Patsy Kensit Sadie King William Ash",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_320285001-50a5.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Harry and Vinny ‘destroyed over baby Ethan shocker’ as EastEnders spoilers reveal what happens next",
-            "link": "https://metro.co.uk/2026/11/25/harry-vinny-destroyed-ethan-dad-shock-eastenders-spoilers-reveal-happens-next-29818498/",
-            "published": "Wed, 25 Nov 2026 18:05:00 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "EastEnders Soaps Elijah Holloway Francesca Henry Gina Knight Harry Mitchell Penny Branning Shiv Jalota Vinny Panesar",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_321987043-6578.jpg?quality=90&strip=all&w=646"
           }
         ]
       },
@@ -3166,7 +3184,7 @@
         },
         "WORLD": {
           "ok": true,
-          "count": 11
+          "count": 12
         },
         "POLITICS": {
           "ok": true,
@@ -3178,7 +3196,7 @@
         },
         "TECH": {
           "ok": true,
-          "count": 2
+          "count": 5
         },
         "ENTERTAINMENT": {
           "ok": true,
@@ -3295,81 +3313,90 @@
         "STOCK_MARKET": [],
         "STOCKS": [
           {
-            "title": "Dauch (DCH) Trades at Just 4× Estimated 2027 Earnings. What’s Holding It Back?",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/dauch-dch-trades-just-4-212450568.html?.tsrc=rss",
-            "published": "Wed, 25 Nov 2026 21:24:50 +0000",
+            "title": "U.S. stock futures steady after whipsaw session on Wall St",
+            "link": "https://uk.finance.yahoo.com/news/u-stock-futures-steady-whipsaw-001609166.html?.tsrc=rss",
+            "published": "Thu, 26 Nov 2026 00:16:09 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
             "image": ""
           },
           {
-            "title": "How major US stock indexes fared Wednesday 11/25/2026",
-            "link": "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-211718440.html?.tsrc=rss",
-            "published": "Wed, 25 Nov 2026 21:17:18 +0000",
+            "title": "U.S. stock futures turn higher as tech rebound holds after wild swings on Wall St",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/u-stock-futures-steady-whipsaw-001343016.html?.tsrc=rss",
+            "published": "Thu, 26 Nov 2026 00:13:43 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
             "image": ""
           },
           {
-            "title": "These 5 Tech Stocks are Sidestepping the AI Downturn",
-            "link": "https://uk.finance.yahoo.com/m/d635c9d7-dbc8-3f44-bc94-e186ec33e2bd/these-5-tech-stocks-are.html?.tsrc=rss",
-            "published": "Wed, 25 Nov 2026 21:16:00 +0000",
+            "title": "5 Best Healthcare Stocks To Buy for 2027",
+            "link": "https://finance.yahoo.com/healthcare/articles/5-best-healthcare-stocks-buy-224526274.html?.tsrc=rss",
+            "published": "Wed, 25 Nov 2026 22:45:26 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
             "image": ""
           },
           {
-            "title": "Tech stocks are volatile as AI fears overshadow Huang’s Nvidia return",
-            "link": "https://www.cnn.com/2026/11/25/business/ai-sell-off-despite-huang-nvidia-return?.tsrc=rss",
-            "published": "Wed, 25 Nov 2026 21:08:16 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2306838289.jpg?c=16x9&q=w_800,c_fill"
-          },
-          {
-            "title": "Wall Street rebounds amid fragile sentiment as Nasdaq recovers from steep morning drop",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/wall-street-rebounds-amid-fragile-210348853.html?.tsrc=rss",
-            "published": "Wed, 25 Nov 2026 21:03:48 +0000",
+            "title": "BC-Select Stock Indices",
+            "link": "https://finance.yahoo.com/markets/world-indices/articles/bc-select-stock-indices-223013659.html?.tsrc=rss",
+            "published": "Wed, 25 Nov 2026 22:30:13 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
             "image": ""
           },
           {
-            "title": "Stock Market Trading Hours For Thanksgiving And Black Friday",
-            "link": "https://uk.finance.yahoo.com/m/b9c07147-90c9-300a-9712-4f1b0d4b57b3/stock-market-trading-hours.html?.tsrc=rss",
-            "published": "Wed, 25 Nov 2026 21:01:47 +0000",
+            "title": "Looking for Bargains? These S&P 500 Companies Are Aggressively Buying Back Stock.",
+            "link": "https://uk.finance.yahoo.com/m/4e6a065b-848e-36f7-ab73-17a73dde122f/looking-for-bargains%3F-these.html?.tsrc=rss",
+            "published": "Wed, 25 Nov 2026 22:16:00 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
             "image": ""
           },
           {
-            "title": "Jakks Pacific (JAKK) Stock Is Down 5.6% Today Without Company News",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/jakks-pacific-jakk-stock-down-210017009.html?.tsrc=rss",
-            "published": "Wed, 25 Nov 2026 21:00:17 +0000",
+            "title": "Stock Market Today: Dow Swings Into A Win; Anthropic Almost Retakes Its IPO Price",
+            "link": "https://uk.finance.yahoo.com/m/90407e46-3b17-34e8-8c82-527bf00b63e4/stock-market-today%3A-dow.html?.tsrc=rss",
+            "published": "Wed, 25 Nov 2026 21:51:14 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
             "image": ""
           },
           {
-            "title": "Stoke (STOK) Stock Is Up 8.3% Today Without Company News",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/stoke-stok-stock-8-3-204525381.html?.tsrc=rss",
-            "published": "Wed, 25 Nov 2026 20:45:25 +0000",
+            "title": "US stocks end mostly down as bargain-hunting tempers hit to AI shares",
+            "link": "https://uk.finance.yahoo.com/news/tech-firms-back-crosshairs-huang-024219391.html?.tsrc=rss",
+            "published": "Wed, 25 Nov 2026 21:49:19 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
             "image": ""
           },
           {
-            "title": "Mobia Medical (MOBI) Stock Is Up 11.1% Today Without Company News",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/mobia-medical-mobi-stock-11-204514191.html?.tsrc=rss",
-            "published": "Wed, 25 Nov 2026 20:45:14 +0000",
+            "title": "Don’t Let the Bounce Fool You: The Stock Market’s Pain Could Get Way Worse",
+            "link": "https://uk.finance.yahoo.com/m/b54c241d-2605-3a93-b6b8-e6cacd2e7588/don%E2%80%99t-let-the-bounce-fool.html?.tsrc=rss",
+            "published": "Wed, 25 Nov 2026 21:49:00 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "Snowflake Inc. (SNOW) Declines More Than Market: Some Information for Investors",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/snowflake-inc-snow-declines-more-214502815.html?.tsrc=rss",
+            "published": "Wed, 25 Nov 2026 21:45:02 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "The AI boom helped lift retirement accounts, but the Nvidia whiplash showed how much investors’ financial futures depend on a handful of stocks",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/ai-boom-helped-lift-retirement-213702725.html?.tsrc=rss",
+            "published": "Wed, 25 Nov 2026 21:37:02 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
@@ -3389,7 +3416,7 @@
         },
         "STOCKS": {
           "ok": true,
-          "count": 9,
+          "count": 10,
           "retainedPrevious": 0,
           "errors": [
             "https://finance.yahoo.com/news/rssindex: 404 Not Found"
@@ -3529,15 +3556,6 @@
         ],
         "STOCKS": [
           {
-            "title": "Nasdaq, S&P 500 ease, but off lows of the day as investors seek bargains",
-            "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNdUdBTGhVT2V5cDcydUZMX2NTdTkxVDBJSHdCMUgwNXBibGhQc28zdktpLXA2dGVUYzRzV3hpMld1U29KempSNUswd2dNYVdITlFxV2NycEkwbnlpZkdPSDNicVRKM3NCU2l0M0hoWU13UTZkbTAtX2JFempxaUtFbjdTZGMxT2lXM2g3dkR4cy1UYnVfZ09kOWpTNGxtUEZZOTRPaXhENlZ6OGt2ZF94d0RCVjdOSldfc0E?oc=5",
-            "published": "Wed, 25 Nov 2026 20:04:52 GMT",
-            "source": "Reuters",
-            "provider": "REUTERS",
-            "categories": "",
-            "image": ""
-          },
-          {
             "title": "Walmart-backed PhonePe restarts IPO process, eyes up to $15 billion valuation in market debut, source says",
             "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNbkVTQU5UZjA4Wnc3STdBc0xPZnhhdzE5VWxlbUJHTG5XWjFlRHRiZWFUcHdHeThRQTJZVkZqOXFMRWNJR0lQVnlLQkEtSllnQ1ZXVVl4ZmJhTkNxaGwwcGh6bHZIZjZDRmttX09iOU5nS3BKMDB6aWhybHNyc1BiVlRNQ1loSXBUSFB0Z1UwbXJtTW9WRW9wMVBJOU5PU3N0Ul9mT2dibTk4NXZnbVV5Ny1UZFZwdG5vc1BiZXVRemFXT0NFbmc?oc=5",
             "published": "Wed, 25 Nov 2026 18:35:51 GMT",
@@ -3547,9 +3565,36 @@
             "image": ""
           },
           {
+            "title": "Nasdaq, S&P 500 end down, but well off lows as investors buy bargains",
+            "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNdUdBTGhVT2V5cDcydUZMX2NTdTkxVDBJSHdCMUgwNXBibGhQc28zdktpLXA2dGVUYzRzV3hpMld1U29KempSNUswd2dNYVdITlFxV2NycEkwbnlpZkdPSDNicVRKM3NCU2l0M0hoWU13UTZkbTAtX2JFempxaUtFbjdTZGMxT2lXM2g3dkR4cy1UYnVfZ09kOWpTNGxtUEZZOTRPaXhENlZ6OGt2ZF94d0RCVjdOSldfc0E?oc=5",
+            "published": "Wed, 25 Nov 2026 10:08:00 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "US stocks slide as Nvidia rally fizzles out, dollar falls",
+            "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPVGQ3cVhHXzJBLXEybDVWX21xeWcxbUVEOHA1ZV9IU0lacEM2a3dKbmFLSGk2Y1MwLXk0OVFzWV8yT1JNQ3FnX3hWNGxidEZvbDZwTl8tdjNoUDV6MU45ZnJSa3lSMnZJNXdwWk5VRUFOYzJlTk11TmZaS1hocXhPVUE4bw?oc=5",
+            "published": "Tue, 24 Nov 2026 23:33:16 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
             "title": "Anthropic shares tumble below $83 IPO price, on track to lose nearly $200 billion in value",
             "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMHBNOVY5RDc1NmxUUjNnZkNhLWROQkhUOFZpVmQ0SEI0UG9aSUpTTjhpV3EydTNkdW8xYm1KOWF6OXg2Z3BMaUJCWTE3WnFCM0hCZGNuQ3ZKUklsYUROVWQzdExOamNKVlJLRTgwYWpoYVdOUjlDY0pxTmxZajlvckJ4cHc0TG1hbW1ZUkszaDZ2M2Rvd3RqTWRFaVRENXVWT0pr?oc=5",
             "published": "Tue, 24 Nov 2026 20:47:56 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "Nigeria's SEC approves Dangote refinery's IPO share distribution plan, sources say",
+            "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNTEIwNEtiZmRzUElhSzJQTUNtNXJDTGZRelZmcWl3MG43RmdaTGdsWU15ODNLbm9yQkZlM1RwcTJFMENCNWdWRVJodnR6aHZreGZnZzVhLVJ1U0lXanBjUXhfb0JsU3Yzb29kLXhibEk1OUxGRzl4QTNDU3RkVUlfd2xHU1NZTkhRNWlfd0tXSDd4dVp5bXNPZnBJcWVvS2FJS0lheWZHUmJZVnFnM1BiT1ZRclJmX3EzM3VONVJ3SFFOblQwellPdDJmYw?oc=5",
+            "published": "Mon, 23 Nov 2026 17:53:43 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3576,7 +3621,16 @@
           {
             "title": "Stocks fall as Anthropic debut fails to ease AI concerns; dollar rises",
             "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBKVlNYZ0xucjVqQUMzV3BSemlBQ2ZPcmxTejY2bXF6bzUyZTR3OEhOc3FoQW5JS095Uzl2LWhJcDdpVXpoeWF3c245cllBNFRjeks3eTdta3kxU3BiWm1IcG1ScWIweFVBdTk0eFpURlFDZi1kUmVIQ0dVTQ?oc=5",
-            "published": "Thu, 19 Nov 2026 22:00:58 GMT",
+            "published": "Thu, 19 Nov 2026 22:58:43 GMT",
+            "source": "Reuters",
+            "provider": "REUTERS",
+            "categories": "",
+            "image": ""
+          },
+          {
+            "title": "Wall Street ends mixed after Nvidia earnings, Fed minutes",
+            "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNLUw0WGdCZWFQMDBna01NRTEzWEQxbHlSU2RHS2FFX0dIdDc5Si1kQjdzRVFpSTRLeThVQ1V5NG01UG1HSGtJNFZOYjI0OHpIbHRvWjdNOFNjZWhhYzFTWVJJVklORUV4YmJoOWhjd1Nhc1hULXVVYncyUmZUQjJwMFh4RGJsSFhhcjlwc2NpVUhNUEdfQXdsekQ1c3AzZVlZcUdSN3ZlTDJUQ3g4WjRlNHhydEJ2OVJTeHpj?oc=5",
+            "published": "Thu, 19 Nov 2026 22:54:10 GMT",
             "source": "Reuters",
             "provider": "REUTERS",
             "categories": "",
@@ -3602,7 +3656,7 @@
         },
         "STOCKS": {
           "ok": true,
-          "count": 7,
+          "count": 10,
           "retainedPrevious": 0,
           "errors": [
             "https://www.reuters.com/arc/outboundfeeds/v3/all/?outputType=xml: 404 Not Found"
@@ -3717,5 +3771,5 @@
       }
     }
   },
-  "stocksUpdated": "2026-11-25T21:49:17.449Z"
+  "stocksUpdated": "2026-11-26T03:01:32.689Z"
 }
