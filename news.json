@@ -1,42 +1,78 @@
 {
-  "updated": "2026-11-27T08:46:05.591Z",
+  "updated": "2026-11-27T13:46:03.694Z",
   "categories": {
     "UK": [
       {
-        "title": "UK government services go offline after ‘cyber incident’",
-        "link": "https://metro.co.uk/2026/11/27/uk-government-services-go-offline-cyber-incident-29823837/",
-        "published": "Fri, 27 Nov 2026 08:45:30 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News UK Department for Work and Pensions",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_316908219-4cee.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Tube strike enters day two – here are all the lines affected",
-        "link": "https://metro.co.uk/2026/11/27/tube-strike-enters-day-two-lines-affected-29823684/",
-        "published": "Fri, 27 Nov 2026 07:25:32 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News UK London London Underground RMT Strikes Transport for London Travel News",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_322116824-7568.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "'Horrible spike in flu' as hospital cases surge",
-        "link": "https://news.sky.com/story/nhs-warns-of-horrible-spike-in-flu-as-hospital-cases-surge-13617056",
-        "published": "Fri, 27 Nov 2026 06:04:00 +0000",
+        "title": "Poundland boss urges staff to feel pride in turnaround efforts",
+        "link": "https://news.sky.com/story/poundland-boss-urges-staff-to-feel-pride-in-turnaround-efforts-13617201",
+        "published": "Fri, 27 Nov 2026 13:22:00 +0000",
         "source": "Sky News",
         "provider": "SKY",
         "categories": "",
-        "image": "https://e3.365dm.com/26/11/1920x1080/skynews-flu-hospital-patient_7417570.jpg?20261127061824"
+        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-poundland-retail_7364343.jpg?20260929173320"
       },
       {
-        "title": "Metro goes behind the scenes at Infernos after its iconic ‘sticky’ carpet is removed after a decade",
-        "link": "https://metro.co.uk/2026/11/27/metro-tours-infernos-nightclub-iconic-sticky-carpet-removed-a-decade-29822395/",
-        "published": "Fri, 27 Nov 2026 06:00:00 +0000",
+        "title": "Putin and Zelensky launch massive attacks on each other’s home cities",
+        "link": "https://metro.co.uk/2026/11/27/putin-zelensky-launch-massive-attacks-others-home-cities-29824385/",
+        "published": "Fri, 27 Nov 2026 12:33:11 +0000",
         "source": "Metro",
         "provider": "METRO",
-        "categories": "News UK London",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_322012751-08ff.jpg?quality=90&strip=all&w=646"
+        "categories": "News World Donald Trump Russia-Ukraine war Vladimir Putin Volodymyr Zelensky",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_322172634-d17b.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Dave the trespassing cat who’s banned from a pharmacy could be feline of the year",
+        "link": "https://metro.co.uk/2026/11/27/dave-trespassing-cat-banned-a-pharmacy-feline-year-29823757/",
+        "published": "Fri, 27 Nov 2026 11:30:17 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News Weird Animals Cats Norfolk",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/11/coverimages56190906-32f6-e1795778219119.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Dad died after getting trapped in fake narrow cave for five hours",
+        "link": "https://metro.co.uk/2026/11/27/man-died-trapped-narrow-65ft-long-artificial-tunnel-five-hours-29824102/",
+        "published": "Fri, 27 Nov 2026 11:28:34 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News UK Court Cumbria",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_154178117-cbfc.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Huge boom heard over UK city after easyJet ‘engine fails’ after takeoff",
+        "link": "https://metro.co.uk/2026/11/27/huge-boom-heard-uk-city-easyjet-engine-fails-takeoff-29824109/",
+        "published": "Fri, 27 Nov 2026 11:02:28 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News UK easyJet Edinburgh Edinburgh Airport Flights",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_322181232-301a.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Met Office issues yellow ice warning after rare ‘freezing rain’ hits UK",
+        "link": "https://metro.co.uk/2026/11/27/met-office-issues-yellow-ice-warning-freezing-rain-hits-uk-29823870/",
+        "published": "Fri, 27 Nov 2026 10:55:26 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News UK Met Office Rain Snow UK weather Weather",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_320988585-4cc0.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Centrica warns on jobs after government snubs Rough gas storage deal",
+        "link": "https://news.sky.com/story/centrica-warns-on-jobs-after-government-snubs-rough-gas-storage-deal-13617109",
+        "published": "Fri, 27 Nov 2026 09:13:00 +0000",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/23/06/1920x1080/skynews-rough-gas-storage-centrica_6203261.jpg?20230630110555"
+      },
+      {
+        "title": "MoD can't find contact details for half of veterans",
+        "link": "https://news.sky.com/story/mod-missing-contact-details-for-nearly-half-of-uks-strategic-reservists-13617071",
+        "published": "Fri, 27 Nov 2026 07:30:00 +0000",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/11/1920x1080/skynews-uk-army-military-reserves_7416868.jpg?20261126091243"
       },
       {
         "title": "MoD 'severely lacks expertise' to improve military housing",
@@ -55,53 +91,44 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/11/1920x1080/skynews-amazon-germany_7417550.jpg?20261127015645"
-      },
-      {
-        "title": "'The cold's here to stay': Snow possible - with ice warning issued",
-        "link": "https://news.sky.com/story/uk-weather-snow-possible-this-weekend-with-yellow-ice-warning-in-force-13617046",
-        "published": "Fri, 27 Nov 2026 02:20:00 +0000",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/11/1920x1080/skynews-weather-uk-winter-durham_7408433.jpg?20261117093816"
-      },
-      {
-        "title": "Stalkers and abusers will be made to fix behaviour in ‘tough, targeted action’",
-        "link": "https://metro.co.uk/2026/11/27/stalkers-abusers-will-made-fix-behaviour-tough-targeted-action-29822882/",
-        "published": "Fri, 27 Nov 2026 00:02:00 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News UK Crime News This is Not Right",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_227588499-1744.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Grandmother woke up in hospital mortuary after being declared dead in ‘extremely distressing event’",
-        "link": "https://metro.co.uk/2026/11/26/grandmother-woke-hospital-mortuary-declared-dead-extremely-distressing-event-29822294/",
-        "published": "Thu, 26 Nov 2026 21:04:08 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_220955111-0dff-e1795725655476.jpg?quality=90&strip=all&w=625"
-      },
-      {
-        "title": "Security incident reported at Royal Navy headquarters",
-        "link": "https://news.sky.com/story/security-incident-reported-at-royal-navy-headquarters-13616806",
-        "published": "Thu, 26 Nov 2026 12:36:00 +0000",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/11/1920x1080/skynews-hms-excellent-whale-island_7417037.jpg?20261126142124"
       }
     ],
     "WORLD": [
       {
-        "title": "Lives ‘ruined’ as evil Ross, Jodie and Idris strike in Coronation Street pincer attack",
-        "link": "https://metro.co.uk/2026/11/27/evil-ross-jodie-idris-strike-coronation-street-pincer-attack-29823373/",
-        "published": "Fri, 27 Nov 2026 07:00:00 +0000",
+        "title": "Putin and Zelensky launch massive attacks on each other’s home cities",
+        "link": "https://metro.co.uk/2026/11/27/putin-zelensky-launch-massive-attacks-others-home-cities-29824385/",
+        "published": "Fri, 27 Nov 2026 12:33:11 +0000",
         "source": "Metro",
         "provider": "METRO",
-        "categories": "Coronation Street Soaps Alison King Carla Connor-Swain David Platt Gary Windass Ian Burfield Idris Nazir Jack P. Shepherd Jodie Ramsey Julia Goulding Junade Khan Maria Connor Mikey North Olivia Frances-Brown Ross Wilkes Samia Longchambon Shona Platt",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/11/Coro_Villains-0e39.jpg?quality=90&strip=all&w=646"
+        "categories": "News World Donald Trump Russia-Ukraine war Vladimir Putin Volodymyr Zelensky",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_322172634-d17b.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "‘Crisis in empathy’: prison guard was watching TV while Aboriginal man was dying in custody, NSW coroner finds",
+        "link": "https://www.theguardian.com/australia-news/2026/nov/27/crisis-in-empathy-death-in-custody-of-aboriginal-man-tj-denniss-was-preventable-says-nsw-coroner-ntwnfb",
+        "published": "Fri, 27 Nov 2026 11:18:47 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Australia news Deaths in custody Indigenous Australians",
+        "image": "https://i.guim.co.uk/img/media/3ed474d282a9fb1521fe2f84620f6cc0b572ec16/834_0_4172_3338/master/4172.jpg?width=140&quality=85&auto=format&fit=max&s=c67038bbe9b6e2902174359583958e97"
+      },
+      {
+        "title": "Arsenal make approach to sign Spain international to replace £50m star",
+        "link": "https://metro.co.uk/2026/11/27/arsenal-make-approach-sign-spain-international-replace-50m-star-29823951/",
+        "published": "Fri, 27 Nov 2026 10:01:13 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Football Sport Arsenal Arsenal transfer news Premier League Transfer News and Rumours",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_321956874-a6db.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Here’s what could happen if Putin launched a nuclear bomb in space",
+        "link": "https://metro.co.uk/2026/11/27/happen-putin-launched-a-nuclear-bomb-space-2-29824092/",
+        "published": "Fri, 27 Nov 2026 09:43:38 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News Tech Nuclear Power Russia Science Space Vladimir Putin",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_321769450-4b22.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "Grace Tame calls out ex-Murdoch media executive who said she ‘must be looking to be raped again’",
@@ -120,24 +147,6 @@
         "provider": "GUARDIAN",
         "categories": "Trees and forests Western Australia Environment Australia news",
         "image": "https://i.guim.co.uk/img/media/3e4848c07c7c03592c3555b5a08458a1c94099b7/35_0_1060_848/master/1060.jpg?width=140&quality=85&auto=format&fit=max&s=7e8c94b7698fafe4ba3780d2043464d4"
-      },
-      {
-        "title": "Mad about mara: the DIY dance movement helping young Nigerians escape the daily grind",
-        "link": "https://www.theguardian.com/world/2026/nov/27/mad-about-mara-the-diy-dance-movement-helping-young-nigerians-escape-the-daily-grind",
-        "published": "Fri, 27 Nov 2026 06:00:56 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Nigeria Culture Music Africa World news",
-        "image": "https://i.guim.co.uk/img/media/420a704a7b9337bcc84564de8c0db0836d052aac/433_0_5275_4223/master/5275.jpg?width=140&quality=85&auto=format&fit=max&s=558556ddc90089bd8666c299074f9675"
-      },
-      {
-        "title": "Italy’s Dolomites are more popular than ever, but I found a way to escape the crowds",
-        "link": "https://metro.co.uk/2026/11/27/italys-dolomites-popular-ever-found-a-way-escape-crowds-29746348/",
-        "published": "Fri, 27 Nov 2026 06:00:00 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Lifestyle Travel Italy Travel Inspiration Travel Reviews",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/image000111-372a.jpeg?quality=90&strip=all&w=646"
       },
       {
         "title": "Amazon staff to strike and rally on busiest weekend of the year",
@@ -174,53 +183,44 @@
         "provider": "METRO",
         "categories": "News World Russia Russia-Ukraine war Ukraine United States of America Vladimir Putin",
         "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_263696238-7c4f.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Legendary 186mph Mercedes supercar that money couldn’t buy is finally going on sale",
-        "link": "https://metro.co.uk/2026/11/26/legendary-186mph-mercedes-supercar-money-couldnt-buy-finally-going-sale-29817778/",
-        "published": "Thu, 26 Nov 2026 08:56:22 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News World Germany Mercedes Motoring Stuttgart",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/11/coverimages56186805-be45.jpg?quality=90&strip=all&w=646"
       }
     ],
     "POLITICS": [
       {
-        "title": "UK government services go offline after ‘cyber incident’",
-        "link": "https://metro.co.uk/2026/11/27/uk-government-services-go-offline-cyber-incident-29823837/",
-        "published": "Fri, 27 Nov 2026 08:45:30 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News UK Department for Work and Pensions",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_316908219-4cee.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Banks may pass on £1.5bn tax rise on to customers, warns Bank of England chief",
-        "link": "https://www.theguardian.com/business/2026/nov/27/bank-tax-rise-customers-bank-of-england-andrew-bailey",
-        "published": "Fri, 27 Nov 2026 08:17:13 GMT",
+        "title": "Department for Work and Pensions takes services offline after ‘cyber incident’ – UK politics live",
+        "link": "https://www.theguardian.com/politics/live/2026/nov/27/department-work-pensions-offline-cyber-incident-rosebank-slapps-latest-news-updates",
+        "published": "Fri, 27 Nov 2026 13:31:06 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
-        "categories": "Banking Bank of England Andrew Bailey Financial sector Business Politics UK news",
-        "image": "https://i.guim.co.uk/img/media/4052a9d7c5a9c1de8842fe2b75cc4143a1c9fa82/0_0_4806_3847/master/4806.jpg?width=140&quality=85&auto=format&fit=max&s=09bcd646a998831f855c7922ccf54d5b"
+        "categories": "Politics UK news Oil Law Benefits",
+        "image": "https://i.guim.co.uk/img/media/ecca9af59662e10c267bb8178c969d23ff13ef74/994_0_5006_4004/master/5006.jpg?width=140&quality=85&auto=format&fit=max&s=17d074cb194c2b8bb842d6179de17c6f"
       },
       {
-        "title": "Natural England objected to a datacentre. Weeks later ministers threatened to abolish the agency",
-        "link": "https://www.theguardian.com/environment/2026/nov/27/natural-england-objected-datacentre-ministers-abolish-bristol",
-        "published": "Fri, 27 Nov 2026 07:00:57 GMT",
+        "title": "A third of rough sleepers offered bed or support after Burnham Christmas vow",
+        "link": "https://www.theguardian.com/society/2026/nov/27/third-rough-sleepers-offered-bed-support-burnham-christmas-vow",
+        "published": "Fri, 27 Nov 2026 13:28:17 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
-        "categories": "Natural England Conservation Bristol Datacentres - UK Environment policy Planning policy Politics Environment Agency Quangos UK news Environment AI (artificial intelligence)",
-        "image": "https://i.guim.co.uk/img/media/b5748b57a64addd2c5bb997a92af840adb787b60/1358_0_4536_3629/master/4536.jpg?width=140&quality=85&auto=format&fit=max&s=fcc73496bafea207577837b9037886d4"
+        "categories": "Homelessness Andy Burnham Housing Society Politics",
+        "image": "https://i.guim.co.uk/img/media/806910e6c3dcb4040cb577313127ddb70baf9c56/560_0_2790_2232/master/2790.jpg?width=140&quality=85&auto=format&fit=max&s=242259adfc6f3fcf859bcc8aa336d080"
       },
       {
-        "title": "The most surprising thing about Burnham’s slow politics is this: it could be working | Andy Beckett",
-        "link": "https://www.theguardian.com/commentisfree/2026/nov/27/andy-burnham-slow-politics-working-media-voters-reset-westminster",
-        "published": "Fri, 27 Nov 2026 06:00:56 GMT",
+        "title": "DWP ‘cyber incident’ knocks almost all pensions and benefits systems offline",
+        "link": "https://www.theguardian.com/politics/2026/nov/27/dwp-cyber-incident-pensions-benefits-systems-offline",
+        "published": "Fri, 27 Nov 2026 13:13:00 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
-        "categories": "Andy Burnham Politics Labour Kemi Badenoch UK news Media",
-        "image": "https://i.guim.co.uk/img/media/b32c55ed32bafa901de5c7edd33b6e0f196fd5d0/434_0_4379_3504/master/4379.jpg?width=140&quality=85&auto=format&fit=max&s=ce197a9ea56039cb2ada7ae19ebabc71"
+        "categories": "Welfare Pensions Benefits State benefits Politics UK news Society",
+        "image": "https://i.guim.co.uk/img/media/0d82e1461d1d579ccc389c5c6840749137a2819f/342_0_3000_2400/master/3000.jpg?width=140&quality=85&auto=format&fit=max&s=b99780f3f8c851e11de0b6d5d913b35c"
+      },
+      {
+        "title": "Meta whistleblower calls on Burnham to go further with ban on NDAs",
+        "link": "https://www.theguardian.com/technology/2026/nov/27/meta-whistleblower-sarah-wynn-williams-calls-on-burnham-to-go-further-with-ban-on-non-disclosure-agreements",
+        "published": "Fri, 27 Nov 2026 12:30:08 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Meta Technology AI (artificial intelligence) Politics Law UK news Freedom of speech",
+        "image": "https://i.guim.co.uk/img/media/f277f364251690f43120ef6a9b54a085d1c66319/245_0_3333_2667/master/3333.jpg?width=140&quality=85&auto=format&fit=max&s=abb01599ec71ca09f5bfeb9f9c7d8865"
       },
       {
         "title": "Have social media stars demeaned No 10?",
@@ -268,16 +268,43 @@
         "image": "https://e3.365dm.com/26/09/1920x1080/skynews-dinghy-hardelot-france_7359291.jpg?20260923115537"
       },
       {
-        "title": "Up to 1.4m UK workers risk missing out on zero-hours shake-up, say unions",
-        "link": "https://www.theguardian.com/uk-news/2026/nov/27/up-to-1point4-million-uk-workers-risk-missing-out-zero-hours-shake-up",
-        "published": "Fri, 27 Nov 2026 06:00:55 GMT",
+        "title": "Banks may pass on £1.5bn tax rise to customers, warns Bank of England chief",
+        "link": "https://www.theguardian.com/business/2026/nov/27/bank-tax-rise-customers-bank-of-england-andrew-bailey",
+        "published": "Fri, 27 Nov 2026 10:10:29 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
-        "categories": "Zero-hours contracts Employment law UK news Andy Burnham Politics Work & careers Youth unemployment Trade unions",
-        "image": "https://i.guim.co.uk/img/media/9d8fe4e1e133840150c64308612a6fd47bd62fb1/683_0_6827_5464/master/6827.jpg?width=140&quality=85&auto=format&fit=max&s=0a64c99a20e7296796ab864ea41a9504"
+        "categories": "Banking Bank of England Andrew Bailey Financial sector Business Politics UK news Family finances Money UK cost of living crisis",
+        "image": "https://i.guim.co.uk/img/media/4052a9d7c5a9c1de8842fe2b75cc4143a1c9fa82/830_252_4289_3435/master/4289.jpg?width=140&quality=85&auto=format&fit=max&s=3fce09a4246c730c56a379165ec92dff"
       }
     ],
     "BUSINESS": [
+      {
+        "title": "Poundland boss urges staff to feel pride in turnaround efforts",
+        "link": "https://news.sky.com/story/poundland-boss-urges-staff-to-feel-pride-in-turnaround-efforts-13617201",
+        "published": "Fri, 27 Nov 2026 13:22:00 +0000",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/09/1920x1080/skynews-poundland-retail_7364343.jpg?20260929173320"
+      },
+      {
+        "title": "MPs to probe role of private equity on high street after Poundland collapse",
+        "link": "https://news.sky.com/story/mps-to-probe-role-of-private-equity-on-high-street-after-poundland-collapse-13617156",
+        "published": "Fri, 27 Nov 2026 10:45:00 +0000",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/26/11/1920x1080/skynews-poundland-high-street_7399760.jpg?20261126025637"
+      },
+      {
+        "title": "Centrica warns on jobs after government snubs Rough gas storage deal",
+        "link": "https://news.sky.com/story/centrica-warns-on-jobs-after-government-snubs-rough-gas-storage-deal-13617109",
+        "published": "Fri, 27 Nov 2026 09:13:00 +0000",
+        "source": "Sky News",
+        "provider": "SKY",
+        "categories": "",
+        "image": "https://e3.365dm.com/23/06/1920x1080/skynews-rough-gas-storage-centrica_6203261.jpg?20230630110555"
+      },
       {
         "title": "Tinie Tempah backs £1,000,000 initiative to support Britain’s high streets",
         "link": "https://metro.co.uk/2026/11/27/tinie-tempah-backs-1-000-000-initiative-support-britains-high-streets-29822408/",
@@ -295,24 +322,6 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/11/1920x1080/skynews-amazon-germany_7417550.jpg?20261127015645"
-      },
-      {
-        "title": "Airline suspends all flights - as carrier faces bankruptcy",
-        "link": "https://news.sky.com/story/norse-atlantic-airways-suspends-all-flights-as-carrier-faces-bankruptcy-13616901",
-        "published": "Thu, 26 Nov 2026 16:36:00 +0000",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/26/11/1920x1080/skynews-norse-norse-atlantic-airways_7417261.jpg?20261126170942"
-      },
-      {
-        "title": "Crest Nicholson chair to step down amid urgent lender talks",
-        "link": "https://news.sky.com/story/crest-nicholson-chair-to-step-down-amid-urgent-lender-talks-13616897",
-        "published": "Thu, 26 Nov 2026 16:24:00 +0000",
-        "source": "Sky News",
-        "provider": "SKY",
-        "categories": "",
-        "image": "https://e3.365dm.com/19/06/1920x1080/skynews-crest-nicholson-housebuilder_4692132.jpg?20190611112015"
       },
       {
         "title": "China reserves right to take ‘necessary measures’ after Trump’s new tariff proposals",
@@ -358,80 +367,62 @@
         "provider": "METRO",
         "categories": "News Politics Andy Burnham British Government Business Work",
         "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_305078487-3c32.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Royal painters immortalise business heroes saving British high streets",
-        "link": "https://metro.co.uk/2026/10/27/royal-painters-immortalise-business-heroes-saving-british-high-streets-29741431/",
-        "published": "Tue, 27 Oct 2026 07:00:00 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "News UK Business",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/10/14ea7d61-219b-46f7-8f22-260502bbc109-24e6.png?w=646"
       }
     ],
     "TECH": [
       {
-        "title": "Natural England objected to a datacentre. Weeks later ministers threatened to abolish the agency",
-        "link": "https://www.theguardian.com/environment/2026/nov/27/natural-england-objected-datacentre-ministers-abolish-bristol",
-        "published": "Fri, 27 Nov 2026 07:00:57 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Natural England Conservation Bristol Datacentres - UK Environment policy Planning policy Politics Environment Agency Quangos UK news Environment AI (artificial intelligence)",
-        "image": "https://i.guim.co.uk/img/media/b5748b57a64addd2c5bb997a92af840adb787b60/1358_0_4536_3629/master/4536.jpg?width=140&quality=85&auto=format&fit=max&s=fcc73496bafea207577837b9037886d4"
-      },
-      {
-        "title": "‘If the bot gets it wrong, who’s liable?’ Retailers enter the unknown with AI shopping assistants on Black Friday",
-        "link": "https://www.theguardian.com/business/2026/nov/27/retailers-ai-shopping-assistants-black-friday-brands-meta-muse",
-        "published": "Fri, 27 Nov 2026 07:00:56 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Retail industry AI (artificial intelligence) Black Friday Business Meta Technology Chatbots Shopping Money Computing Virtual assistant UK news World news",
-        "image": "https://i.guim.co.uk/img/media/bf333e3f6dd6c522cb53dcbc952b64553693c73d/0_0_3385_2708/master/3385.jpg?width=140&quality=85&auto=format&fit=max&s=038470cc091c20f4dc117fdc4590c2fc"
-      },
-      {
-        "title": "Forget extra hot, a ‘mum’s coffee’ is the only way to drink your morning cup",
-        "link": "https://metro.co.uk/2026/11/27/forget-extra-hot-a-mums-coffee-way-drink-morning-cup-29822975/",
-        "published": "Fri, 27 Nov 2026 07:00:00 +0000",
+        "title": "Best Black Friday deals for PS5, Xbox and Switch 2 games and consoles",
+        "link": "https://metro.co.uk/2026/11/27/best-black-friday-deals-ps5-xbox-switch-2-games-consoles-29824535/",
+        "published": "Fri, 27 Nov 2026 13:14:04 +0000",
         "source": "Metro",
         "provider": "METRO",
-        "categories": "Lifestyle Coffee Mums TikTok",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_321140496-fdfd.jpg?quality=90&strip=all&w=646"
+        "categories": "Entertainment Gaming Black Friday Games news Nintendo Nintendo Switch 2 PlayStation 5 Xbox Series X",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEC_322187712-07a1.jpg?quality=90&strip=all&w=646"
       },
       {
-        "title": "Games Inbox: Is The Witcher 4 the next big game after GTA 6?",
-        "link": "https://metro.co.uk/2026/11/27/games-inbox-witcher-4-next-big-game-gta-6-29823669/",
-        "published": "Fri, 27 Nov 2026 02:00:00 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Entertainment Gaming Games Inbox GTA 6 Nintendo Rockstar Games The Legend of Zelda The Witcher Wii Xbox 360",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_314014966-738d.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "GTA 6 review – better late than never",
-        "link": "https://metro.co.uk/2026/11/27/gta-6-review-better-late-never-29819175/",
-        "published": "Fri, 27 Nov 2026 01:00:00 +0000",
-        "source": "Metro",
-        "provider": "METRO",
-        "categories": "Entertainment Gaming Games news Games reviews Grand Theft Auto GTA 5 GTA 6 PlayStation 5 Rockstar Games Xbox Series X",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310228783-3b25.jpg?quality=90&strip=all&w=646"
-      },
-      {
-        "title": "Slow internet? The best wifi extenders and mesh systems to boost your home network – tested",
-        "link": "https://www.theguardian.com/thefilter/2026/nov/26/best-wifi-extender-repeater-uk",
-        "published": "Thu, 26 Nov 2026 20:00:43 GMT",
+        "title": "Meta whistleblower calls on Burnham to go further with ban on NDAs",
+        "link": "https://www.theguardian.com/technology/2026/nov/27/meta-whistleblower-sarah-wynn-williams-calls-on-burnham-to-go-further-with-ban-on-non-disclosure-agreements",
+        "published": "Fri, 27 Nov 2026 12:30:08 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
-        "categories": "Technology Life and style Gadgets Wifi Broadband Internet",
-        "image": "https://i.guim.co.uk/img/media/593be969b42029b62c32996c24e46a5d2eedb6df/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=71cbd1dbee593f3eacc901c0e45b1530"
+        "categories": "Meta Technology AI (artificial intelligence) Politics Law UK news Freedom of speech",
+        "image": "https://i.guim.co.uk/img/media/f277f364251690f43120ef6a9b54a085d1c66319/245_0_3333_2667/master/3333.jpg?width=140&quality=85&auto=format&fit=max&s=abb01599ec71ca09f5bfeb9f9c7d8865"
       },
       {
-        "title": "Dozens of court cases in England and Wales affected by undisclosed AI use in 2026",
-        "link": "https://www.theguardian.com/technology/2026/nov/26/dozens-of-court-cases-in-england-and-wales-affected-by-undisclosed-ai-use-in-2026",
-        "published": "Thu, 26 Nov 2026 12:19:37 GMT",
+        "title": "Small price tag, big upgrade: the best Black Friday deals under $50",
+        "link": "https://www.theguardian.com/thefilter-us/2026/nov/27/best-black-friday-sales-deals-50",
+        "published": "Fri, 27 Nov 2026 12:15:11 GMT",
         "source": "The Guardian",
         "provider": "GUARDIAN",
-        "categories": "AI (artificial intelligence) Law Technology UK criminal justice Judiciary",
-        "image": "https://i.guim.co.uk/img/media/18a0e7b9f66bc93973a6114fb4fac2215545e754/415_0_4167_3335/master/4167.jpg?width=140&quality=85&auto=format&fit=max&s=4dde606c8245482dad518cc7a22ff83f"
+        "categories": "Gift ideas from the Filter US Black Friday Shopping Life and style Shops and shopping Beauty Skincare Homes Travel Technology Food Fragrance Accessories Kitchen essentials",
+        "image": "https://i.guim.co.uk/img/media/7e258a5dd25684166d4013d80c7a52e2b6b4a475/1_0_2499_2000/master/2499.jpg?width=140&quality=85&auto=format&fit=max&s=78da4f3366d349c64ec892d3da81f9e5"
+      },
+      {
+        "title": "Lucia actress says she worked on GTA 6 for ‘almost a decade’ as she thanks fans",
+        "link": "https://metro.co.uk/2026/11/27/lucia-actress-says-worked-gta-6-almost-a-decade-thanks-fans-29824095/",
+        "published": "Fri, 27 Nov 2026 10:33:27 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "Entertainment Gaming Games news Grand Theft Auto GTA 6 Rockstar Games",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310234387-d140.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "GTA in Istanbul? Meet the game developers bringing virtual crime chaos to their home cities",
+        "link": "https://www.theguardian.com/games/2026/nov/27/gta-grand-theft-auto-clones",
+        "published": "Fri, 27 Nov 2026 10:15:20 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Games Culture Grand Theft Auto Grand Theft Auto VI Action games",
+        "image": "https://i.guim.co.uk/img/media/ef32cc0e5feacf4ee97215c03a912968b66455f6/481_190_663_531/master/663.jpg?width=140&quality=85&auto=format&fit=max&s=cc68cd1fc2bdaa0e996f40000049b398"
+      },
+      {
+        "title": "Here’s what could happen if Putin launched a nuclear bomb in space",
+        "link": "https://metro.co.uk/2026/11/27/happen-putin-launched-a-nuclear-bomb-space-2-29824092/",
+        "published": "Fri, 27 Nov 2026 09:43:38 +0000",
+        "source": "Metro",
+        "provider": "METRO",
+        "categories": "News Tech Nuclear Power Russia Science Space Vladimir Putin",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_321769450-4b22.jpg?quality=90&strip=all&w=646"
       },
       {
         "title": "Britain's weather could be about to feel very different, Met Office warns",
@@ -459,44 +450,62 @@
         "provider": "SKY",
         "categories": "",
         "image": "https://e3.365dm.com/26/09/1920x1080/skynews-spacex-starship_7363581.jpg?20261126061554"
+      },
+      {
+        "title": "‘It’s not helping’: calls for guardrails and regulations as AI use rises at US retailers",
+        "link": "https://www.theguardian.com/us-news/2026/nov/27/ai-retailer-consumer-guardrails",
+        "published": "Fri, 27 Nov 2026 10:00:02 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "US news AI (artificial intelligence) Technology Walmart Retail industry Surveillance US unions Business",
+        "image": "https://i.guim.co.uk/img/media/b00b5e8e8d672e254701571ca7a06b5d31716990/950_531_4337_3469/master/4337.jpg?width=140&quality=85&auto=format&fit=max&s=88f707a2ab8bf753941c28b1c5bcd775"
       }
     ],
     "ENTERTAINMENT": [
       {
-        "title": "Iconic soap star Lesley Saweard – who played role for 66 years – dies aged 92",
-        "link": "https://metro.co.uk/2026/11/27/iconic-soap-star-lesley-saweard-played-role-66-years-dies-aged-92-29823793/",
-        "published": "Fri, 27 Nov 2026 08:37:51 +0000",
+        "title": "Cancel your weekend plans to binge ‘disturbing’ dystopian thriller racing up Amazon Prime chart",
+        "link": "https://metro.co.uk/2026/11/27/cancel-weekend-plans-binge-disturbing-dystopian-thriller-racing-amazon-prime-chart-29824673/",
+        "published": "Fri, 27 Nov 2026 13:30:00 +0000",
         "source": "Metro",
         "provider": "METRO",
-        "categories": "Soaps Soaps Showbiz The Archers",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/11/lesley-saweard-comp.png?w=646"
+        "categories": "Entertainment TV Amazon Prime Video Blade Runner Michelle Yeoh Ridley Scott Science fiction US TV news",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_322185980-982b.jpg?quality=90&strip=all&w=646"
       },
       {
-        "title": "Take it from a soap writer – here’s what makes a Christmas episode into a cracker",
-        "link": "https://metro.co.uk/2026/11/27/take-a-soap-writer-makes-a-christmas-episode-a-cracker-29805920/",
-        "published": "Fri, 27 Nov 2026 08:37:12 +0000",
+        "title": "Take That admit they’re ‘really happy as a three’ without Jason Orange",
+        "link": "https://metro.co.uk/2026/11/27/take-admit-really-happy-a-three-without-jason-orange-29824653/",
+        "published": "Fri, 27 Nov 2026 12:52:25 +0000",
         "source": "Metro",
         "provider": "METRO",
-        "categories": "Coronation Street Soaps Belle Dingle Debbie Webster Denise Fox Diane Parish Eden Taylor-Draper Jake Wood James Chase Max Branning Sue Devaney Tom King",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/11/image-8002.png?w=646"
+        "categories": "Entertainment Music",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_321004747-2020-e1795783597899.jpg?quality=90&strip=all&w=646"
       },
       {
-        "title": "Soaps Christmas spoiler preview confirms massive Coronation Street, EastEnders and Emmerdale twists",
-        "link": "https://metro.co.uk/2026/11/27/soaps-christmas-spoiler-preview-eastenders-emmerdale-coronation-street-29809966/",
-        "published": "Fri, 27 Nov 2026 08:00:00 +0000",
+        "title": "BBC axes 5 fan favourite Gladiators from the upcoming fourth series",
+        "link": "https://metro.co.uk/2026/11/27/bbc-axes-5-fan-favourite-gladiators-upcoming-fourth-series-29824181/",
+        "published": "Fri, 27 Nov 2026 11:20:39 +0000",
         "source": "Metro",
         "provider": "METRO",
-        "categories": "Soaps Belle Dingle Christmas Christmas TV Debbie Webster Linda Carter Max Branning",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_321881455-8b6d.jpg?quality=90&strip=all&w=646"
+        "categories": "Entertainment TV AJ Odudu BBC Chris Ramsey George Clarke Gladiators Sara Pascoe",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_186785599-5985.jpg?quality=90&strip=all&w=646"
       },
       {
-        "title": "Ross’ vulgar new move in Coronation Street as he targets child whose life he will destroy",
-        "link": "https://metro.co.uk/2026/11/27/ross-vulgar-new-move-coronation-street-targets-child-29821889/",
-        "published": "Fri, 27 Nov 2026 07:30:00 +0000",
+        "title": "Former Buzzcocks drummer Phil Barker dies ‘in his sleep’",
+        "link": "https://metro.co.uk/2026/11/27/former-buzzcocks-drummer-phil-barker-dies-in-sleep-29824368/",
+        "published": "Fri, 27 Nov 2026 11:20:03 +0000",
         "source": "Metro",
         "provider": "METRO",
-        "categories": "Coronation Street Soaps Ian Burfield Ross Wilkes",
-        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_320284917-2298.jpg?quality=90&strip=all&w=646"
+        "categories": "Entertainment Music",
+        "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_322186499-6a82.jpg?quality=90&strip=all&w=646"
+      },
+      {
+        "title": "Cozy escapism or festive trash? How Netflix holiday movies took over Christmas",
+        "link": "https://www.theguardian.com/film/2026/nov/27/netflix-christmas-holiday-movies",
+        "published": "Fri, 27 Nov 2026 10:00:00 GMT",
+        "source": "The Guardian",
+        "provider": "GUARDIAN",
+        "categories": "Romance films Netflix Culture Film Lindsay Lohan Christmas",
+        "image": "https://i.guim.co.uk/img/media/e950713adce8a6d4dab1da011ae77f4d4b1547fe/600_0_6000_4802/master/6000.jpg?width=140&quality=85&auto=format&fit=max&s=98f7a450d49472484877e8dd5d044347"
       },
       {
         "title": "‘A window into imagination’: the magic of Macy’s Thanksgiving Day Parade – in pictures",
@@ -515,15 +524,6 @@
         "provider": "GUARDIAN",
         "categories": "Julie Delpy Film Culture Refugees Sexual harassment",
         "image": "https://i.guim.co.uk/img/media/207f4bfc289684e56747486d5449e43fc55dda6f/259_0_7713_6173/master/7713.jpg?width=140&quality=85&auto=format&fit=max&s=af17b2e1afa862110eb1a9d63de115c0"
-      },
-      {
-        "title": "Andy Taylor, guitarist in Duran Duran, dies aged 65",
-        "link": "https://www.theguardian.com/music/2026/nov/25/andy-taylor-duran-duran-guitarist-dead",
-        "published": "Wed, 25 Nov 2026 21:41:34 GMT",
-        "source": "The Guardian",
-        "provider": "GUARDIAN",
-        "categories": "Duran Duran Pop and rock Music Culture UK news",
-        "image": "https://i.guim.co.uk/img/media/547d1c22f314717baaec2ac2f197d223fbb3edc8/48_629_3185_2546/master/3185.jpg?width=140&quality=85&auto=format&fit=max&s=19470e3bb360d3b80cf9c6e1f897acb2"
       },
       {
         "title": "Simon Le Bon pays tribute to Duran Duran guitarist Andy Taylor",
@@ -555,76 +555,67 @@
     ],
     "STOCKS": [
       {
-        "title": "Rio Tinto shares have fallen over 30% since June and now offer a 6.3% yield. Is this a golden buying opportunity?",
-        "link": "https://www.twelfthmagpie.com/2026/11/27/rio-tinto-shares-have-fallen-over-30-since-june-and-now-offer-a-6-3-yield-is-this-a-golden-buying-opportunity/",
-        "published": "Fri, 27 Nov 2026 07:31:00 +0000",
-        "source": "The Twelfth Magpie",
-        "provider": "MAGPIE",
-        "categories": "Investing Articles Value Shares",
-        "image": "https://www.twelfthmagpie.com/wp-content/uploads/2026/07/AdobeStock_137417730-1200x800.jpeg"
-      },
-      {
-        "title": "MARKETS LIVE: London set for further gains as global technology and mining stocks recover",
-        "link": "https://www.proactiveinvestors.com/companies/news/1102556/markets-live-london-set-for-further-gains-as-global-technology-and-mining-stocks-recover-1102556.html?.tsrc=rss",
-        "published": "Fri, 27 Nov 2026 06:57:00 +0000",
-        "source": "Yahoo Finance",
-        "provider": "YAHOO",
-        "categories": "",
-        "image": "https://cdn.proactiveinvestors.com/eyJidWNrZXQiOiJwYS1jZG4iLCJrZXkiOiJ1cGxvYWRcL05ld3NcL0ltYWdlXC8yMDI2XzExXC9zaHV0dGVyc3RvY2stMjM0NDEwOTUzLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0Ijo2MzAsImZpdCI6ImNvdmVyIn19fQ=="
-      },
-      {
-        "title": "Is the Stock Market Open Today? Here Are the Trading Hours for Black Friday.",
-        "link": "https://uk.finance.yahoo.com/m/59f6de8f-22b7-3936-a702-52611c591c0e/is-the-stock-market-open.html?.tsrc=rss",
-        "published": "Fri, 27 Nov 2026 05:01:00 +0000",
+        "title": "Vera Therapeutics (VERA) Stock Jumps 16.4% Premarket: No Company News",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/vera-therapeutics-vera-stock-jumps-133018816.html?.tsrc=rss",
+        "published": "Fri, 27 Nov 2026 13:30:18 +0000",
         "source": "Yahoo Finance",
         "provider": "YAHOO",
         "categories": "",
         "image": ""
       },
       {
-        "title": "Asian stocks rally as China shares surge on fresh market-support pledges",
-        "link": "https://uk.finance.yahoo.com/news/asian-stocks-rally-china-shares-042609674.html?.tsrc=rss",
-        "published": "Fri, 27 Nov 2026 04:26:09 +0000",
+        "title": "Inter (INTR) Stock Jumps 14.5% Premarket: Latin American Stocks Rally",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/inter-intr-stock-jumps-14-131533340.html?.tsrc=rss",
+        "published": "Fri, 27 Nov 2026 13:15:33 +0000",
         "source": "Yahoo Finance",
         "provider": "YAHOO",
         "categories": "",
         "image": ""
       },
       {
-        "title": "Diageo or Greggs? Which beaten-down UK stock looks cheapest?",
-        "link": "https://www.twelfthmagpie.com/2026/11/26/diageo-or-greggs-which-beaten-down-uk-stock-looks-cheapest/",
-        "published": "Thu, 26 Nov 2026 17:07:21 +0000",
-        "source": "The Twelfth Magpie",
-        "provider": "MAGPIE",
-        "categories": "Investing Articles Value Shares",
-        "image": "https://www.twelfthmagpie.com/wp-content/uploads/2024/07/Box-Hill-1200x800.jpg"
+        "title": "Dow Jones Futures Rise; Look For This Bullish Market Signal On Black Friday",
+        "link": "https://uk.finance.yahoo.com/m/158e82fc-b889-34b6-8704-99a49e9a83ae/dow-jones-futures-rise%3B-look.html?.tsrc=rss",
+        "published": "Fri, 27 Nov 2026 13:06:54 +0000",
+        "source": "Yahoo Finance",
+        "provider": "YAHOO",
+        "categories": "",
+        "image": ""
       },
       {
-        "title": "This 10.3% yield could turn a £20,000 Stocks and Shares ISA into a £2,060 annual income",
-        "link": "https://www.twelfthmagpie.com/2026/11/26/this-10-3-yield-could-turn-a-20000-stocks-and-shares-isa-into-a-2060-annual-income/",
-        "published": "Thu, 26 Nov 2026 17:02:00 +0000",
-        "source": "The Twelfth Magpie",
-        "provider": "MAGPIE",
-        "categories": "Dividend Shares Investing Articles",
-        "image": "https://www.twelfthmagpie.com/wp-content/uploads/2026/11/AdobeStock_2215135273-1200x666.jpeg"
-      },
-      {
-        "title": "Up 360% but still on a P/E of 15.8! Should I sell my favourite FTSE 250 stock or buy more?",
-        "link": "https://www.twelfthmagpie.com/2026/11/26/up-360-but-still-on-a-p-e-of-15-8-should-i-sell-my-favourite-ftse-250-stock-or-buy-more/",
-        "published": "Thu, 26 Nov 2026 15:01:24 +0000",
+        "title": "Forget the AI trade, I’m targeting generational wealth with UK growth stocks",
+        "link": "https://www.twelfthmagpie.com/2026/11/27/forget-the-ai-trade-im-targeting-generational-wealth-with-uk-growth-stocks/",
+        "published": "Fri, 27 Nov 2026 13:00:00 +0000",
         "source": "The Twelfth Magpie",
         "provider": "MAGPIE",
         "categories": "Growth Shares Investing Articles",
         "image": "https://www.twelfthmagpie.com/wp-content/uploads/2026/11/AdobeStock_2215135273-1200x666.jpeg"
       },
       {
-        "title": "J.P. Morgan sees Indian stocks rise further in 2027 after 'great comeback' of 2026",
-        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQQWRmQXRtWGtJcjVxUnJtb3JhWHItaTMtanZUcll1emlBaUFzZU1Eay11ZV9neGRlVnRKMXlMNDVnTDkwMDdjeHVMcUJhRldlUnVzZy11Q2ZYT05Mb3ZZWGRYSDFKT0dtM0t4Z2IweGpmZDZKR2pOSjRHSW5KRE1JQXpWX1VBRlpWTDgtdllpNFprV3RjTUYwWkZFSGo4cEJ3dDlaeUNYU0s4dm9DYUNhWV9qdGRfTUFqUkpDaA?oc=5",
-        "published": "Thu, 26 Nov 2026 12:37:44 GMT",
-        "source": "Reuters",
-        "provider": "REUTERS",
+        "title": "9.95% yield and 20 years of dividend payouts! Is this the best small-cap for a Stocks & Shares ISA?",
+        "link": "https://www.twelfthmagpie.com/2026/11/27/9-95-yield-and-20-years-of-dividend-payouts-is-this-the-best-small-cap-for-a-stocks-shares-isa/",
+        "published": "Fri, 27 Nov 2026 12:42:00 +0000",
+        "source": "The Twelfth Magpie",
+        "provider": "MAGPIE",
+        "categories": "Dividend Shares Investing Articles",
+        "image": "https://www.twelfthmagpie.com/wp-content/uploads/2022/06/Decision-making.jpg"
+      },
+      {
+        "title": "Premarket movers: AI stocks rebound, Vertex slides on FDA review",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/premarket-movers-ai-stocks-rebound-123708136.html?.tsrc=rss",
+        "published": "Fri, 27 Nov 2026 12:37:08 +0000",
+        "source": "Yahoo Finance",
+        "provider": "YAHOO",
         "categories": "",
         "image": ""
+      },
+      {
+        "title": "Prediction: Barclays shares are thrillingly cheap with a P/E of 9.2 and will grow 43% by December 2027!",
+        "link": "https://www.twelfthmagpie.com/2026/11/27/prediction-barclays-shares-are-thrillingly-cheap-with-a-p-e-of-9-2-and-will-grow-43-by-december-2027/",
+        "published": "Fri, 27 Nov 2026 12:36:27 +0000",
+        "source": "The Twelfth Magpie",
+        "provider": "MAGPIE",
+        "categories": "Investing Articles Value Shares",
+        "image": "https://www.twelfthmagpie.com/wp-content/uploads/2026/10/Stock_BOE.jpeg"
       },
       {
         "title": "Musk pledges two SpaceX shares for every US child in $18 billion AI charm offensive",
@@ -639,6 +630,15 @@
         "title": "World stocks tumble as Trump tariffs rattle markets, AI rally fades",
         "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNRFVsTjFROGtER0loSkZOcnF2NDRLUWFmcjBHZ01ybE51N19idjFFMXI1dnFqZ21JYS1HVVpicTJ1V1RfVU4zd3pkVEZMWHdqMUJWRENOQWJ2VjFqT1Y3WS0xYTV3bzd2RnRraFhtOVpzVE9yYThzdV9tdWxJbUpjNzFraw?oc=5",
         "published": "Thu, 26 Nov 2026 00:28:43 GMT",
+        "source": "Reuters",
+        "provider": "REUTERS",
+        "categories": "",
+        "image": ""
+      },
+      {
+        "title": "AI stock rout deepens but damage is limited by afternoon bounce",
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMmNMM0doWElDVk9BdjNGZnJHakNCUFg1blQzSlk0eW9zeVduV3ZKcEtJd0hpUkxDMVhnRE9rY1lLUzF1eENZaFh0SUNKbmRjanN3YWtZakZud2RYUnlSRkk5b1RZT2VfbFJPXzhZVEVyYnFnRHBwYVlGdFQzaEt2Z2VjaGVXWUE0Qmd5bjZYandmR2M2QXBSY2tKem80OGNlSzh3?oc=5",
+        "published": "Wed, 25 Nov 2026 23:39:08 GMT",
         "source": "Reuters",
         "provider": "REUTERS",
         "categories": "",
@@ -744,7 +744,7 @@
           },
           "REUTERS": {
             "ok": true,
-            "count": 11,
+            "count": 10,
             "retainedPrevious": 0,
             "errors": [
               "https://www.reuters.com/arc/outboundfeeds/v3/all/?outputType=xml: 404 Not Found"
@@ -759,13 +759,22 @@
       "categories": {
         "UK": [
           {
-            "title": "'Horrible spike in flu' as hospital cases surge",
-            "link": "https://news.sky.com/story/nhs-warns-of-horrible-spike-in-flu-as-hospital-cases-surge-13617056",
-            "published": "Fri, 27 Nov 2026 06:04:00 +0000",
+            "title": "Poundland boss urges staff to feel pride in turnaround efforts",
+            "link": "https://news.sky.com/story/poundland-boss-urges-staff-to-feel-pride-in-turnaround-efforts-13617201",
+            "published": "Fri, 27 Nov 2026 13:22:00 +0000",
             "source": "Sky News",
             "provider": "SKY",
             "categories": "",
-            "image": "https://e3.365dm.com/26/11/1920x1080/skynews-flu-hospital-patient_7417570.jpg?20261127061824"
+            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-poundland-retail_7364343.jpg?20260929173320"
+          },
+          {
+            "title": "MoD can't find contact details for half of veterans",
+            "link": "https://news.sky.com/story/mod-missing-contact-details-for-nearly-half-of-uks-strategic-reservists-13617071",
+            "published": "Fri, 27 Nov 2026 07:30:00 +0000",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/11/1920x1080/skynews-uk-army-military-reserves_7416868.jpg?20261126091243"
           },
           {
             "title": "'The cold's here to stay': Snow possible - with ice warning issued",
@@ -775,6 +784,15 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/11/1920x1080/skynews-weather-uk-winter-durham_7408433.jpg?20261117093816"
+          },
+          {
+            "title": "Centrica warns on jobs after government snubs Rough gas storage deal",
+            "link": "https://news.sky.com/story/centrica-warns-on-jobs-after-government-snubs-rough-gas-storage-deal-13617109",
+            "published": "Fri, 27 Nov 2026 09:13:00 +0000",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/23/06/1920x1080/skynews-rough-gas-storage-centrica_6203261.jpg?20230630110555"
           },
           {
             "title": "MoD 'severely lacks expertise' to improve military housing",
@@ -842,15 +860,6 @@
             "image": "https://e3.365dm.com/26/11/1920x1080/skynews-egypt-fuel-tanker_7416493.jpg?20261125192108"
           },
           {
-            "title": "Myanmar says it will not comply with 'inappropriate' ICJ genocide orders",
-            "link": "https://news.sky.com/story/myanmar-says-it-will-not-comply-with-inappropriate-icj-genocide-orders-13616762",
-            "published": "Thu, 26 Nov 2026 10:48:00 +0000",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/11/1920x1080/skynews-min-aung-hlaing-myanmar_7411273.jpg?20261120103547"
-          },
-          {
             "title": "Airline suspends all flights - as carrier faces bankruptcy",
             "link": "https://news.sky.com/story/norse-atlantic-airways-suspends-all-flights-as-carrier-faces-bankruptcy-13616901",
             "published": "Thu, 26 Nov 2026 16:36:00 +0000",
@@ -869,6 +878,15 @@
             "image": "https://e3.365dm.com/26/11/1920x1080/skynews-nasdaq-us-stock-market_7416713.jpg?20261126040530"
           },
           {
+            "title": "Myanmar says it will not comply with 'inappropriate' ICJ genocide orders",
+            "link": "https://news.sky.com/story/myanmar-says-it-will-not-comply-with-inappropriate-icj-genocide-orders-13616762",
+            "published": "Thu, 26 Nov 2026 10:48:00 +0000",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/11/1920x1080/skynews-min-aung-hlaing-myanmar_7411273.jpg?20261120103547"
+          },
+          {
             "title": "Two children among six dead in plane crash",
             "link": "https://news.sky.com/story/divers-find-bodies-of-six-people-including-two-children-after-us-plane-crash-13616273",
             "published": "Wed, 25 Nov 2026 06:38:00 +0000",
@@ -885,15 +903,6 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/09/1920x1080/skynews-spacex-starship_7363581.jpg?20261126061554"
-          },
-          {
-            "title": "Colombian police storm supermarket, freeing hostages and killing gunman",
-            "link": "https://news.sky.com/story/armed-men-take-at-least-25-hostages-in-supermarket-in-colombia-tourist-hotspot-13616139",
-            "published": "Tue, 24 Nov 2026 21:36:00 +0000",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/11/1920x1080/skynews-cartagena-colombia_7415717.jpg?20261124215325"
           }
         ],
         "POLITICS": [
@@ -917,6 +926,33 @@
           }
         ],
         "BUSINESS": [
+          {
+            "title": "Poundland boss urges staff to feel pride in turnaround efforts",
+            "link": "https://news.sky.com/story/poundland-boss-urges-staff-to-feel-pride-in-turnaround-efforts-13617201",
+            "published": "Fri, 27 Nov 2026 13:22:00 +0000",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/09/1920x1080/skynews-poundland-retail_7364343.jpg?20260929173320"
+          },
+          {
+            "title": "MPs to probe role of private equity on high street after Poundland collapse",
+            "link": "https://news.sky.com/story/mps-to-probe-role-of-private-equity-on-high-street-after-poundland-collapse-13617156",
+            "published": "Fri, 27 Nov 2026 10:45:00 +0000",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/26/11/1920x1080/skynews-poundland-high-street_7399760.jpg?20261126025637"
+          },
+          {
+            "title": "Centrica warns on jobs after government snubs Rough gas storage deal",
+            "link": "https://news.sky.com/story/centrica-warns-on-jobs-after-government-snubs-rough-gas-storage-deal-13617109",
+            "published": "Fri, 27 Nov 2026 09:13:00 +0000",
+            "source": "Sky News",
+            "provider": "SKY",
+            "categories": "",
+            "image": "https://e3.365dm.com/23/06/1920x1080/skynews-rough-gas-storage-centrica_6203261.jpg?20230630110555"
+          },
           {
             "title": "Amazon staff to strike and rally on busiest weekend of the year",
             "link": "https://news.sky.com/story/amazon-staff-to-strike-and-rally-on-busiest-weekend-of-the-year-13617042",
@@ -979,33 +1015,6 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/10/1920x1080/skynews-poundland-sheffield_7372627.jpg?20261010073001"
-          },
-          {
-            "title": "Best 0% credit offers for Black Friday purchases",
-            "link": "https://news.sky.com/story/best-0-credit-offers-for-black-friday-purchases-13616660",
-            "published": "Thu, 26 Nov 2026 07:22:00 +0000",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/11/1920x1080/skynews-shopping-black-friday_7416799.jpg?20261126074018"
-          },
-          {
-            "title": "Four in five Black Friday deals are duds, research finds",
-            "link": "https://news.sky.com/story/four-in-five-black-friday-deals-are-duds-research-finds-13615902",
-            "published": "Tue, 24 Nov 2026 08:32:00 +0000",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/11/1920x1080/skynews-deals-money_7415067.jpg?20261124083925"
-          },
-          {
-            "title": "Anthropic plunges below IPO price in renewed tech sell-off",
-            "link": "https://news.sky.com/story/anthropic-plunges-below-ipo-price-in-renewed-tech-sell-off-13616066",
-            "published": "Tue, 24 Nov 2026 17:15:00 +0000",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/26/11/1920x1080/skynews-anthropic-ipo_7410550.jpg?20261119142304"
           }
         ],
         "TECH": [
@@ -1071,15 +1080,6 @@
             "provider": "SKY",
             "categories": "",
             "image": "https://e3.365dm.com/26/11/1920x1080/skynews-anthropic-nasdaq_7410960.jpg?20261119214359"
-          },
-          {
-            "title": "EU reveals it suffered 'AI-powered' cyber attack",
-            "link": "https://news.sky.com/story/eu-reveals-it-suffered-ai-powered-cyber-attack-13613970",
-            "published": "Thu, 19 Nov 2026 15:38:00 +0000",
-            "source": "Sky News",
-            "provider": "SKY",
-            "categories": "",
-            "image": "https://e3.365dm.com/24/01/1920x1080/skynews-hacker-cyberattack_6439404.jpg?20240131153309"
           }
         ],
         "ENTERTAINMENT": [
@@ -1151,11 +1151,11 @@
       "health": {
         "UK": {
           "ok": true,
-          "count": 6
+          "count": 8
         },
         "WORLD": {
           "ok": true,
-          "count": 9
+          "count": 8
         },
         "POLITICS": {
           "ok": true,
@@ -1167,7 +1167,7 @@
         },
         "TECH": {
           "ok": true,
-          "count": 8
+          "count": 7
         },
         "ENTERTAINMENT": {
           "ok": true,
@@ -1496,6 +1496,15 @@
             "image": "https://i.guim.co.uk/img/media/04f173935b2839f52dc33177838a3752879697b5/537_46_4868_3895/master/4868.jpg?width=140&quality=85&auto=format&fit=max&s=8ce547f826fe7a9102630ca22321755b"
           },
           {
+            "title": "‘Crisis in empathy’: prison guard was watching TV while Aboriginal man was dying in custody, NSW coroner finds",
+            "link": "https://www.theguardian.com/australia-news/2026/nov/27/crisis-in-empathy-death-in-custody-of-aboriginal-man-tj-denniss-was-preventable-says-nsw-coroner-ntwnfb",
+            "published": "Fri, 27 Nov 2026 11:18:47 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Australia news Deaths in custody Indigenous Australians",
+            "image": "https://i.guim.co.uk/img/media/3ed474d282a9fb1521fe2f84620f6cc0b572ec16/834_0_4172_3338/master/4172.jpg?width=140&quality=85&auto=format&fit=max&s=c67038bbe9b6e2902174359583958e97"
+          },
+          {
             "title": "Grace Tame calls out ex-Murdoch media executive who said she ‘must be looking to be raped again’",
             "link": "https://www.theguardian.com/australia-news/2026/nov/27/grace-tame-responds-former-murdoch-executive-nephew-rape-comment-ntwnfb",
             "published": "Fri, 27 Nov 2026 06:54:59 GMT",
@@ -1530,26 +1539,62 @@
             "provider": "GUARDIAN",
             "categories": "Alan Jones trial Australia news Australian media Media",
             "image": "https://i.guim.co.uk/img/media/9a14f73bf85c82ca8d5e453d06c96c43a6951725/250_0_2500_2000/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=879105fb0586cc009f4778c70fc63790"
-          },
-          {
-            "title": "Former RAAF pilot convicted of murder after staging wife’s death as lawnmower accident",
-            "link": "https://www.theguardian.com/australia-news/2026/nov/27/raaf-pilot-robert-john-crawford-guilty-murder-wife-staged-as-lawn-mowing-accident-ntwnfb",
-            "published": "Fri, 27 Nov 2026 04:56:32 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Australia news Queensland Brisbane",
-            "image": "https://i.guim.co.uk/img/media/bb04e375911b11f5697e4c07ff421d79a221ae72/383_0_3422_2739/master/3422.jpg?width=140&quality=85&auto=format&fit=max&s=3e4c84291e7ca1a19fad7c94d87ca04e"
           }
         ],
         "POLITICS": [
           {
-            "title": "Banks may pass on £1.5bn tax rise on to customers, warns Bank of England chief",
-            "link": "https://www.theguardian.com/business/2026/nov/27/bank-tax-rise-customers-bank-of-england-andrew-bailey",
-            "published": "Fri, 27 Nov 2026 08:17:13 GMT",
+            "title": "Department for Work and Pensions takes services offline after ‘cyber incident’ – UK politics live",
+            "link": "https://www.theguardian.com/politics/live/2026/nov/27/department-work-pensions-offline-cyber-incident-rosebank-slapps-latest-news-updates",
+            "published": "Fri, 27 Nov 2026 13:31:06 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Banking Bank of England Andrew Bailey Financial sector Business Politics UK news",
-            "image": "https://i.guim.co.uk/img/media/4052a9d7c5a9c1de8842fe2b75cc4143a1c9fa82/0_0_4806_3847/master/4806.jpg?width=140&quality=85&auto=format&fit=max&s=09bcd646a998831f855c7922ccf54d5b"
+            "categories": "Politics UK news Oil Law Benefits",
+            "image": "https://i.guim.co.uk/img/media/ecca9af59662e10c267bb8178c969d23ff13ef74/994_0_5006_4004/master/5006.jpg?width=140&quality=85&auto=format&fit=max&s=17d074cb194c2b8bb842d6179de17c6f"
+          },
+          {
+            "title": "A third of rough sleepers offered bed or support after Burnham Christmas vow",
+            "link": "https://www.theguardian.com/society/2026/nov/27/third-rough-sleepers-offered-bed-support-burnham-christmas-vow",
+            "published": "Fri, 27 Nov 2026 13:28:17 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Homelessness Andy Burnham Housing Society Politics",
+            "image": "https://i.guim.co.uk/img/media/806910e6c3dcb4040cb577313127ddb70baf9c56/560_0_2790_2232/master/2790.jpg?width=140&quality=85&auto=format&fit=max&s=242259adfc6f3fcf859bcc8aa336d080"
+          },
+          {
+            "title": "DWP ‘cyber incident’ knocks almost all pensions and benefits systems offline",
+            "link": "https://www.theguardian.com/politics/2026/nov/27/dwp-cyber-incident-pensions-benefits-systems-offline",
+            "published": "Fri, 27 Nov 2026 13:13:00 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Welfare Pensions Benefits State benefits Politics UK news Society",
+            "image": "https://i.guim.co.uk/img/media/0d82e1461d1d579ccc389c5c6840749137a2819f/342_0_3000_2400/master/3000.jpg?width=140&quality=85&auto=format&fit=max&s=b99780f3f8c851e11de0b6d5d913b35c"
+          },
+          {
+            "title": "Meta whistleblower calls on Burnham to go further with ban on NDAs",
+            "link": "https://www.theguardian.com/technology/2026/nov/27/meta-whistleblower-sarah-wynn-williams-calls-on-burnham-to-go-further-with-ban-on-non-disclosure-agreements",
+            "published": "Fri, 27 Nov 2026 12:30:08 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Meta Technology AI (artificial intelligence) Politics Law UK news Freedom of speech",
+            "image": "https://i.guim.co.uk/img/media/f277f364251690f43120ef6a9b54a085d1c66319/245_0_3333_2667/master/3333.jpg?width=140&quality=85&auto=format&fit=max&s=abb01599ec71ca09f5bfeb9f9c7d8865"
+          },
+          {
+            "title": "Banks may pass on £1.5bn tax rise to customers, warns Bank of England chief",
+            "link": "https://www.theguardian.com/business/2026/nov/27/bank-tax-rise-customers-bank-of-england-andrew-bailey",
+            "published": "Fri, 27 Nov 2026 10:10:29 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Banking Bank of England Andrew Bailey Financial sector Business Politics UK news Family finances Money UK cost of living crisis",
+            "image": "https://i.guim.co.uk/img/media/4052a9d7c5a9c1de8842fe2b75cc4143a1c9fa82/830_252_4289_3435/master/4289.jpg?width=140&quality=85&auto=format&fit=max&s=3fce09a4246c730c56a379165ec92dff"
+          },
+          {
+            "title": "Labour’s split over Rosebank oilfield exposed by letter from nearly 100 MPs",
+            "link": "https://www.theguardian.com/politics/2026/nov/26/labour-split-over-rosebank-oilfield-exposed-by-letter-from-nearly-100-mps",
+            "published": "Fri, 27 Nov 2026 08:39:59 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Labour Oil Energy Environment Fossil fuels Politics UK news Energy industry Greenhouse gas emissions",
+            "image": "https://i.guim.co.uk/img/media/3b4b8cb55704a3ce1cd05925a86f51425692e4d8/617_0_4074_3259/master/4074.jpg?width=140&quality=85&auto=format&fit=max&s=06908736da2a2aea64361929ef2eb91b"
           },
           {
             "title": "Natural England objected to a datacentre. Weeks later ministers threatened to abolish the agency",
@@ -1561,58 +1606,13 @@
             "image": "https://i.guim.co.uk/img/media/b5748b57a64addd2c5bb997a92af840adb787b60/1358_0_4536_3629/master/4536.jpg?width=140&quality=85&auto=format&fit=max&s=fcc73496bafea207577837b9037886d4"
           },
           {
-            "title": "Up to 1.4m UK workers risk missing out on zero-hours shake-up, say unions",
-            "link": "https://www.theguardian.com/uk-news/2026/nov/27/up-to-1point4-million-uk-workers-risk-missing-out-zero-hours-shake-up",
-            "published": "Fri, 27 Nov 2026 06:00:55 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Zero-hours contracts Employment law UK news Andy Burnham Politics Work & careers Youth unemployment Trade unions",
-            "image": "https://i.guim.co.uk/img/media/9d8fe4e1e133840150c64308612a6fd47bd62fb1/683_0_6827_5464/master/6827.jpg?width=140&quality=85&auto=format&fit=max&s=0a64c99a20e7296796ab864ea41a9504"
-          },
-          {
-            "title": "Net migration to UK falls to lowest level since 1997 excluding pandemic",
-            "link": "https://www.theguardian.com/uk-news/2026/nov/26/net-migration-to-uk-falls-to-lowest-level-since-1997-excluding-pandemic",
-            "published": "Thu, 26 Nov 2026 20:01:47 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Immigration and asylum Migration Office for National Statistics Home Office UK news Politics",
-            "image": "https://i.guim.co.uk/img/media/2acbd7cd57ac01e54489d7c1bc69d56ed62a57a8/607_609_3999_3201/master/3999.jpg?width=140&quality=85&auto=format&fit=max&s=00fb07bfeee9a001fcfb3a1d8dfbc0a7"
-          },
-          {
-            "title": "Major East Midlands road projects shelved to divert funding to defence",
-            "link": "https://www.theguardian.com/world/2026/nov/26/major-east-midlands-road-projects-shelved-to-divert-funding-to-defence",
-            "published": "Thu, 26 Nov 2026 18:47:24 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Road transport Derby Transport policy Politics Transport UK news Business",
-            "image": "https://i.guim.co.uk/img/media/b6488618771ff1e1c4395f894db1fc4f5f50fb2e/283_0_1361_1089/master/1361.jpg?width=140&quality=85&auto=format&fit=max&s=2ea2f7df1ad345ffabd428d9ba2efb28"
-          },
-          {
-            "title": "Number of Neets in UK falls below a million as Burnham pushes to tackle crisis",
-            "link": "https://www.theguardian.com/society/2026/nov/26/neets-uk-young-people-education-employment-training-andy-burnham",
-            "published": "Thu, 26 Nov 2026 18:43:13 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Youth unemployment Business Unemployment Young people Benefits Welfare Labour UK news Politics Society Office for National Statistics Andy Burnham",
-            "image": "https://i.guim.co.uk/img/media/5ed2a70981b6249eff2491c184d3503f49eccad9/1_340_3616_2893/master/3616.jpg?width=140&quality=85&auto=format&fit=max&s=a3bb2ea7ae7878a2f31ef25c20f8c9dd"
-          },
-          {
-            "title": "Mandelson tried to influence Starmer’s cabinet reshuffle, new documents reveal – as it happened",
-            "link": "https://www.theguardian.com/politics/live/2026/nov/26/uk-eu-food-deal-farage-penalty-compensation-reform-net-migration-latest-news-updates",
-            "published": "Thu, 26 Nov 2026 17:41:58 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Politics UK news Labour Brexit European Union Trade policy Peter Mandelson Migration Immigration and asylum Europe Foreign policy Reform UK Nigel Farage Homelessness Housing",
-            "image": "https://i.guim.co.uk/img/media/e3b6ac9ef90ac1b1de2bc7f9894728762310b412/433_94_2992_2394/master/2992.jpg?width=140&quality=85&auto=format&fit=max&s=37aae666cd23b18016a8cbf4baa6297d"
-          },
-          {
             "title": "The most surprising thing about Burnham’s slow politics is this: it could be working | Andy Beckett",
             "link": "https://www.theguardian.com/commentisfree/2026/nov/27/andy-burnham-slow-politics-working-media-voters-reset-westminster",
             "published": "Fri, 27 Nov 2026 06:00:56 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
             "categories": "Andy Burnham Politics Labour Kemi Badenoch UK news Media",
-            "image": "https://i.guim.co.uk/img/media/b32c55ed32bafa901de5c7edd33b6e0f196fd5d0/434_0_4379_3504/master/4379.jpg?width=140&quality=85&auto=format&fit=max&s=ce197a9ea56039cb2ada7ae19ebabc71"
+            "image": "https://i.guim.co.uk/img/media/3dfd986346ba42e1c2f540a9598600d861827d40/801_0_6880_5504/master/6880.jpg?width=140&quality=85&auto=format&fit=max&s=47ec2bc4fb39fba5b7f766f29d8e3a3f"
           },
           {
             "title": "Some old-school advice for Burnham: boost competition if you want growth | Nils Pratley",
@@ -1961,6 +1961,33 @@
             "image": "https://i.guim.co.uk/img/media/c705226e3d7b0501675e456628ff5a522b977f05/651_0_3257_2606/master/3257.jpg?width=140&quality=85&auto=format&fit=max&s=b40e5421cc7ba448b6202ff436de5087"
           },
           {
+            "title": "Meta whistleblower calls on Burnham to go further with ban on NDAs",
+            "link": "https://www.theguardian.com/technology/2026/nov/27/meta-whistleblower-sarah-wynn-williams-calls-on-burnham-to-go-further-with-ban-on-non-disclosure-agreements",
+            "published": "Fri, 27 Nov 2026 12:30:08 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Meta Technology AI (artificial intelligence) Politics Law UK news Freedom of speech",
+            "image": "https://i.guim.co.uk/img/media/f277f364251690f43120ef6a9b54a085d1c66319/245_0_3333_2667/master/3333.jpg?width=140&quality=85&auto=format&fit=max&s=abb01599ec71ca09f5bfeb9f9c7d8865"
+          },
+          {
+            "title": "‘It’s not helping’: calls for guardrails and regulations as AI use rises at US retailers",
+            "link": "https://www.theguardian.com/us-news/2026/nov/27/ai-retailer-consumer-guardrails",
+            "published": "Fri, 27 Nov 2026 10:00:02 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "US news AI (artificial intelligence) Technology Walmart Retail industry Surveillance US unions Business",
+            "image": "https://i.guim.co.uk/img/media/b00b5e8e8d672e254701571ca7a06b5d31716990/950_531_4337_3469/master/4337.jpg?width=140&quality=85&auto=format&fit=max&s=88f707a2ab8bf753941c28b1c5bcd775"
+          },
+          {
+            "title": "Pizza history: AI agent’s cardless purchase is a first for UK",
+            "link": "https://www.theguardian.com/business/2026/nov/27/ai-agent-cardless-transaction-pizza-papa-john-uk-fca-truelayer",
+            "published": "Fri, 27 Nov 2026 09:53:11 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Technology Food & drink industry Retail industry Banking Financial Conduct Authority Business AI (artificial intelligence) UK news",
+            "image": "https://i.guim.co.uk/img/media/bf6bce003fbe74cd0f36f89414dd7b2fb6f3888f/996_0_5020_4016/master/5020.jpg?width=140&quality=85&auto=format&fit=max&s=cc476f12dc0c009172d0f11ea897ec28"
+          },
+          {
             "title": "Natural England objected to a datacentre. Weeks later ministers threatened to abolish the agency",
             "link": "https://www.theguardian.com/environment/2026/nov/27/natural-england-objected-datacentre-ministers-abolish-bristol",
             "published": "Fri, 27 Nov 2026 07:00:57 GMT",
@@ -1970,31 +1997,13 @@
             "image": "https://i.guim.co.uk/img/media/b5748b57a64addd2c5bb997a92af840adb787b60/1358_0_4536_3629/master/4536.jpg?width=140&quality=85&auto=format&fit=max&s=fcc73496bafea207577837b9037886d4"
           },
           {
-            "title": "New York bans AI toys, including those using internet to talk to children",
-            "link": "https://www.theguardian.com/us-news/2026/nov/25/new-york-bans-ai-toys",
-            "published": "Wed, 25 Nov 2026 15:29:21 GMT",
+            "title": "Small price tag, big upgrade: the best Black Friday deals under $50",
+            "link": "https://www.theguardian.com/thefilter-us/2026/nov/27/best-black-friday-sales-deals-50",
+            "published": "Fri, 27 Nov 2026 12:15:11 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "New York US news AI (artificial intelligence) Toys",
-            "image": "https://i.guim.co.uk/img/media/c63cd1b6d68275d8461c1bc612aa99fff6a89fc6/344_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=5d28722a369f9fd83cd445274e6f8376"
-          },
-          {
-            "title": "Botty? AI helps resurrect voice of John Motson for football video game",
-            "link": "https://www.theguardian.com/media/2026/nov/25/ai-helps-resurrect-voice-john-motson-football-video-game-fc27",
-            "published": "Wed, 25 Nov 2026 15:13:10 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "John Motson Games AI (artificial intelligence) Media Football Sport Culture Technology UK news",
-            "image": "https://i.guim.co.uk/img/media/d52e8fa78cedadca70c70f6e59bfcd90f9e39367/57_0_2250_1800/master/2250.jpg?width=140&quality=85&auto=format&fit=max&s=3114b2b42e73428bec0fd49db5beb3e5"
-          },
-          {
-            "title": "Aidan didn’t expect a spoken-word component in his thesis - but universities hope it will help tackle AI",
-            "link": "https://www.theguardian.com/australia-news/2026/nov/25/australian-universities-tackle-ai-plagiarism-oral-assessment-honours-masters-phd",
-            "published": "Wed, 25 Nov 2026 14:00:29 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Australian universities AI (artificial intelligence) Australian education Computing Technology Australia news",
-            "image": "https://i.guim.co.uk/img/media/908614cdd05b81d36b3667409a3239a6f801312e/0_0_6795_5439/master/6795.jpg?width=140&quality=85&auto=format&fit=max&s=313689c82f7c4780c7069cde9e6f55c2"
+            "categories": "Gift ideas from the Filter US Black Friday Shopping Life and style Shops and shopping Beauty Skincare Homes Travel Technology Food Fragrance Accessories Kitchen essentials",
+            "image": "https://i.guim.co.uk/img/media/7e258a5dd25684166d4013d80c7a52e2b6b4a475/1_0_2499_2000/master/2499.jpg?width=140&quality=85&auto=format&fit=max&s=78da4f3366d349c64ec892d3da81f9e5"
           },
           {
             "title": "‘If the bot gets it wrong, who’s liable?’ Retailers enter the unknown with AI shopping assistants on Black Friday",
@@ -2022,15 +2031,6 @@
             "provider": "GUARDIAN",
             "categories": "Games Headphones Gadgets Life and style Technology Culture",
             "image": "https://i.guim.co.uk/img/media/3a276f2e93b202239afa2ec435374399390e14f5/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=abc7a8bc3b5ad3562638fcde41a3f43d"
-          },
-          {
-            "title": "Is grandma asking rude questions at the dinner table again? This Instagram account can help",
-            "link": "https://www.theguardian.com/wellness/2026/nov/25/life100-viral-instagram-series-susan-thau-sondra-goldstein",
-            "published": "Wed, 25 Nov 2026 15:21:38 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Well actually Life and style Friendship Instagram Social media Technology Digital media Psychology",
-            "image": "https://i.guim.co.uk/img/media/d54809933e2eee65787d13cd9a4d4669e8792c6e/1_0_2999_2400/master/2999.jpg?width=140&quality=85&auto=format&fit=max&s=c59726fdbe087d7b2b401631aa5f9b08"
           },
           {
             "title": "‘The mistake has been corrected’: end of Jensen Huang’s brief walk in the wilderness",
@@ -2069,16 +2069,25 @@
             "image": "https://i.guim.co.uk/img/media/1c86eb468485514265ee27c663d10f3cb3fb8fb0/341_0_3331_2666/master/3331.jpg?width=140&quality=85&auto=format&fit=max&s=dd66d360e69fe6d1a25db0bc7d5b1af0"
           },
           {
-            "title": "Dressmaker review – delightful business sim is a cut above",
-            "link": "https://www.theguardian.com/games/2026/nov/26/dressmaker-review-delightful-business-sim-is-a-cut-above",
-            "published": "Thu, 26 Nov 2026 12:00:34 GMT",
+            "title": "GTA in Istanbul? Meet the game developers bringing virtual crime chaos to their home cities",
+            "link": "https://www.theguardian.com/games/2026/nov/27/gta-grand-theft-auto-clones",
+            "published": "Fri, 27 Nov 2026 10:15:20 GMT",
             "source": "The Guardian",
             "provider": "GUARDIAN",
-            "categories": "Games Technology PC",
-            "image": "https://i.guim.co.uk/img/media/d847b3ff22400983425dbf9acff6d72003d9ad3c/134_0_1125_900/master/1125.jpg?width=140&quality=85&auto=format&fit=max&s=59c0f81017dcc236a1b13cf82a4c80a4"
+            "categories": "Games Culture Grand Theft Auto Grand Theft Auto VI Action games",
+            "image": "https://i.guim.co.uk/img/media/ef32cc0e5feacf4ee97215c03a912968b66455f6/481_190_663_531/master/663.jpg?width=140&quality=85&auto=format&fit=max&s=cc68cd1fc2bdaa0e996f40000049b398"
           }
         ],
         "ENTERTAINMENT": [
+          {
+            "title": "Cozy escapism or festive trash? How Netflix holiday movies took over Christmas",
+            "link": "https://www.theguardian.com/film/2026/nov/27/netflix-christmas-holiday-movies",
+            "published": "Fri, 27 Nov 2026 10:00:00 GMT",
+            "source": "The Guardian",
+            "provider": "GUARDIAN",
+            "categories": "Romance films Netflix Culture Film Lindsay Lohan Christmas",
+            "image": "https://i.guim.co.uk/img/media/e950713adce8a6d4dab1da011ae77f4d4b1547fe/600_0_6000_4802/master/6000.jpg?width=140&quality=85&auto=format&fit=max&s=98f7a450d49472484877e8dd5d044347"
+          },
           {
             "title": "‘I was very aggressive. They threw me out of every school’ … Julie Delpy on acting, anger and predatory directors",
             "link": "https://www.theguardian.com/film/2026/nov/26/julie-delpy-acting-anger-predatory-directors",
@@ -2150,15 +2159,6 @@
             "provider": "GUARDIAN",
             "categories": "Chris Pratt Family films Film Culture Apple TV Comedy films",
             "image": "https://i.guim.co.uk/img/media/5c0f67915c8fd6b7b5accc72307876cee7587dd5/417_0_4841_3875/master/4841.jpg?width=140&quality=85&auto=format&fit=max&s=42431133972cea6ac7c6e0a4ba3823e1"
-          },
-          {
-            "title": "Tell us: what have you been reading this month?",
-            "link": "https://www.theguardian.com/books/2022/feb/23/tell-us-what-have-you-been-reading-this-month",
-            "published": "Wed, 25 Nov 2026 13:02:28 GMT",
-            "source": "The Guardian",
-            "provider": "GUARDIAN",
-            "categories": "Books Culture Life and style",
-            "image": "https://i.guim.co.uk/img/media/b791117314a30cf187ab0b89f0d23de6d5b1d22b/0_0_5760_3456/master/5760.jpg?width=140&quality=85&auto=format&fit=max&s=743ef395d39eedf0cee6d3962e78fa28"
           },
           {
             "title": "Reeling in the years: how Hollywood fell for its own vanishing glories",
@@ -2293,30 +2293,93 @@
       "categories": {
         "UK": [
           {
+            "title": "Putin and Zelensky launch massive attacks on each other’s home cities",
+            "link": "https://metro.co.uk/2026/11/27/putin-zelensky-launch-massive-attacks-others-home-cities-29824385/",
+            "published": "Fri, 27 Nov 2026 12:33:11 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News World Donald Trump Russia-Ukraine war Vladimir Putin Volodymyr Zelensky",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_322172634-d17b.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Dave the trespassing cat who’s banned from a pharmacy could be feline of the year",
+            "link": "https://metro.co.uk/2026/11/27/dave-trespassing-cat-banned-a-pharmacy-feline-year-29823757/",
+            "published": "Fri, 27 Nov 2026 11:30:17 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News Weird Animals Cats Norfolk",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/11/coverimages56190906-32f6-e1795778219119.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Dad died after getting trapped in fake narrow cave for five hours",
+            "link": "https://metro.co.uk/2026/11/27/man-died-trapped-narrow-65ft-long-artificial-tunnel-five-hours-29824102/",
+            "published": "Fri, 27 Nov 2026 11:28:34 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News UK Court Cumbria",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_154178117-cbfc.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Huge boom heard over UK city after easyJet ‘engine fails’ after takeoff",
+            "link": "https://metro.co.uk/2026/11/27/huge-boom-heard-uk-city-easyjet-engine-fails-takeoff-29824109/",
+            "published": "Fri, 27 Nov 2026 11:02:28 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News UK easyJet Edinburgh Edinburgh Airport Flights",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_322181232-301a.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Met Office issues yellow ice warning after rare ‘freezing rain’ hits UK",
+            "link": "https://metro.co.uk/2026/11/27/met-office-issues-yellow-ice-warning-freezing-rain-hits-uk-29823870/",
+            "published": "Fri, 27 Nov 2026 10:55:26 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News UK Met Office Rain Snow UK weather Weather",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_320988585-4cc0.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "MoD doesn’t have emails for half of its 100,000 reservists after call up warning",
+            "link": "https://metro.co.uk/2026/11/27/mod-doesnt-emails-half-100-000-reservists-call-warning-29823880/",
+            "published": "Fri, 27 Nov 2026 09:44:42 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News UK British Army Ministry of Defence RAF and Red Arrows Royal Navy",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_322177310-06f4.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Nearly 400,000 people wrongly told they’d won £39,000,000 on EuroMillions",
+            "link": "https://metro.co.uk/2026/11/27/nearly-400-000-people-wrongly-told-won-39-000-000-euromillions-29823762/",
+            "published": "Fri, 27 Nov 2026 08:45:47 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News World EuroMillions Lottery",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_254140680-752f.jpg?quality=90&strip=all&w=646"
+          },
+          {
             "title": "UK government services go offline after ‘cyber incident’",
             "link": "https://metro.co.uk/2026/11/27/uk-government-services-go-offline-cyber-incident-29823837/",
             "published": "Fri, 27 Nov 2026 08:45:30 +0000",
             "source": "Metro",
             "provider": "METRO",
-            "categories": "News UK Department for Work and Pensions",
+            "categories": "News UK Cybercrime Department for Work and Pensions",
             "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_316908219-4cee.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Tube strike enters day two – here are all the lines affected",
+            "title": "London Tube strike ends but disruption continues – and more walkouts planned",
             "link": "https://metro.co.uk/2026/11/27/tube-strike-enters-day-two-lines-affected-29823684/",
             "published": "Fri, 27 Nov 2026 07:25:32 +0000",
             "source": "Metro",
             "provider": "METRO",
             "categories": "News UK London London Underground RMT Strikes Transport for London Travel News",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_322116824-7568.jpg?quality=90&strip=all&w=646"
+            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_322122124-23c6.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Metro goes behind the scenes at Infernos after its iconic ‘sticky’ carpet is removed after a decade",
+            "title": "Infernos’ ‘sticky’ carpet is no more – here are the bizarre things found under it",
             "link": "https://metro.co.uk/2026/11/27/metro-tours-infernos-nightclub-iconic-sticky-carpet-removed-a-decade-29822395/",
             "published": "Fri, 27 Nov 2026 06:00:00 +0000",
             "source": "Metro",
             "provider": "METRO",
-            "categories": "News UK London",
+            "categories": "News UK London Margot Robbie",
             "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_322012751-08ff.jpg?quality=90&strip=all&w=646"
           },
           {
@@ -2392,7 +2455,7 @@
             "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_319556927-7c30-e1795705299274.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Doctor Who ‘Tardis’ could save town centre after crime rate goes ‘through the roof’",
+            "title": "Doctor Who ‘Tardis’ appears in Watford to fight crime – what does it look like inside?",
             "link": "https://metro.co.uk/2026/11/26/doctor-tardis-save-town-crime-goes-through-roof-29822523/",
             "published": "Thu, 26 Nov 2026 14:37:51 +0000",
             "source": "Metro",
@@ -2408,72 +2471,18 @@
             "provider": "METRO",
             "categories": "News Weird Animals Yorkshire",
             "image": "https://metro.co.uk/wp-content/uploads/2026/11/coverimages56165758-e54b-e1795702330458.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Structures spotted on Mars by Nasa ‘proof’ of alien life, says Ufologist",
-            "link": "https://metro.co.uk/2026/11/26/structures-spotted-mars-nasa-proof-alien-life-says-ufologist-29821361/",
-            "published": "Thu, 26 Nov 2026 13:46:02 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News Weird Aliens Astronomy Mars Space UFOs",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/11/GettyImages-1124671845.jpg-ezgif.com-video-to-gif-converter-da9d.gif?w=646"
-          },
-          {
-            "title": "Diana Award set up to honour the late Princess of Wales goes into administration",
-            "link": "https://metro.co.uk/2026/11/26/diana-award-set-honour-late-princess-wales-goes-administration-29822039/",
-            "published": "Thu, 26 Nov 2026 13:07:22 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News UK Charity Diana, Princess Of Wales",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_310004249-67b1.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Royal Navy headquarters HMS Excellent evacuated after security incident",
-            "link": "https://metro.co.uk/2026/11/26/royal-navy-headquarters-hms-excellent-evacuated-security-incident-29822117/",
-            "published": "Thu, 26 Nov 2026 13:03:48 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News US Ministry of Defence Royal Navy",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_322097675-39d3.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "First picture of baby hippo born at UK safari park for first time in 40 years",
-            "link": "https://metro.co.uk/2026/11/26/first-picture-baby-hippo-born-uk-safari-park-first-time-40-years-29821724/",
-            "published": "Thu, 26 Nov 2026 12:26:38 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News UK Animals Wiltshire",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_322087633-1ed1.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Mum’s letter nagging her son to change his pants found in university after 60 years",
-            "link": "https://metro.co.uk/2026/11/26/mums-letter-nagging-son-change-pants-found-university-60-years-29821445/",
-            "published": "Thu, 26 Nov 2026 11:28:08 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News UK BBC Nottinghamshire Universities",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_322078043-bf13.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Net migration falls to lowest level since 1997 outside pandemic",
-            "link": "https://metro.co.uk/2026/11/26/net-migration-falls-lowest-level-since-1997-outside-pandemic-29821202/",
-            "published": "Thu, 26 Nov 2026 10:09:47 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News Politics British Government Home Office Immigration Labour Party Shabana Mahmood",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_275170626-7e31.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Woman ‘drugged and raped by husband’ asked police: ‘Is it my fault?’",
-            "link": "https://metro.co.uk/2026/11/26/woman-drugged-raped-husband-asked-police-is-fault-29820947/",
-            "published": "Thu, 26 Nov 2026 10:01:30 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News UK Court Crime News Manchester",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_311840291-18aa.jpg?quality=90&strip=all&w=646"
           }
         ],
         "WORLD": [
+          {
+            "title": "Putin and Zelensky launch massive attacks on each other’s home cities",
+            "link": "https://metro.co.uk/2026/11/27/putin-zelensky-launch-massive-attacks-others-home-cities-29824385/",
+            "published": "Fri, 27 Nov 2026 12:33:11 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "News World Donald Trump Russia-Ukraine war Vladimir Putin Volodymyr Zelensky",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_322172634-d17b.jpg?quality=90&strip=all&w=646"
+          },
           {
             "title": "Donald Trump’s son-in-law says Putin is a ‘grand man of politics’",
             "link": "https://metro.co.uk/2026/11/26/donald-trumps-son-in-law-says-putin-a-grand-man-politics-29822541/",
@@ -2547,22 +2556,22 @@
             "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_321696520-7f2e.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Lives ‘ruined’ as evil Ross, Jodie and Idris strike in Coronation Street pincer attack",
-            "link": "https://metro.co.uk/2026/11/27/evil-ross-jodie-idris-strike-coronation-street-pincer-attack-29823373/",
-            "published": "Fri, 27 Nov 2026 07:00:00 +0000",
+            "title": "Arsenal make approach to sign Spain international to replace £50m star",
+            "link": "https://metro.co.uk/2026/11/27/arsenal-make-approach-sign-spain-international-replace-50m-star-29823951/",
+            "published": "Fri, 27 Nov 2026 10:01:13 +0000",
             "source": "Metro",
             "provider": "METRO",
-            "categories": "Coronation Street Soaps Alison King Carla Connor-Swain David Platt Gary Windass Ian Burfield Idris Nazir Jack P. Shepherd Jodie Ramsey Julia Goulding Junade Khan Maria Connor Mikey North Olivia Frances-Brown Ross Wilkes Samia Longchambon Shona Platt",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/11/Coro_Villains-0e39.jpg?quality=90&strip=all&w=646"
+            "categories": "Football Sport Arsenal Arsenal transfer news Premier League Transfer News and Rumours",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_321956874-a6db.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Italy’s Dolomites are more popular than ever, but I found a way to escape the crowds",
-            "link": "https://metro.co.uk/2026/11/27/italys-dolomites-popular-ever-found-a-way-escape-crowds-29746348/",
-            "published": "Fri, 27 Nov 2026 06:00:00 +0000",
+            "title": "Here’s what could happen if Putin launched a nuclear bomb in space",
+            "link": "https://metro.co.uk/2026/11/27/happen-putin-launched-a-nuclear-bomb-space-2-29824092/",
+            "published": "Fri, 27 Nov 2026 09:43:38 +0000",
             "source": "Metro",
             "provider": "METRO",
-            "categories": "Lifestyle Travel Italy Travel Inspiration Travel Reviews",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/image000111-372a.jpeg?quality=90&strip=all&w=646"
+            "categories": "News Tech Nuclear Power Russia Science Space Vladimir Putin",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_321769450-4b22.jpg?quality=90&strip=all&w=646"
           }
         ],
         "POLITICS": [
@@ -2736,15 +2745,6 @@
             "provider": "METRO",
             "categories": "News Politics Crime News Racism Reform UK Social Media",
             "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_320062486-ac77.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "UK government services go offline after ‘cyber incident’",
-            "link": "https://metro.co.uk/2026/11/27/uk-government-services-go-offline-cyber-incident-29823837/",
-            "published": "Fri, 27 Nov 2026 08:45:30 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "News UK Department for Work and Pensions",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_316908219-4cee.jpg?quality=90&strip=all&w=646"
           }
         ],
         "BUSINESS": [
@@ -2913,50 +2913,113 @@
         ],
         "TECH": [
           {
-            "title": "Forget extra hot, a ‘mum’s coffee’ is the only way to drink your morning cup",
-            "link": "https://metro.co.uk/2026/11/27/forget-extra-hot-a-mums-coffee-way-drink-morning-cup-29822975/",
-            "published": "Fri, 27 Nov 2026 07:00:00 +0000",
+            "title": "Best Black Friday deals for PS5, Xbox and Switch 2 games and consoles",
+            "link": "https://metro.co.uk/2026/11/27/best-black-friday-deals-ps5-xbox-switch-2-games-consoles-29824535/",
+            "published": "Fri, 27 Nov 2026 13:14:04 +0000",
             "source": "Metro",
             "provider": "METRO",
-            "categories": "Lifestyle Coffee Mums TikTok",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_321140496-fdfd.jpg?quality=90&strip=all&w=646"
+            "categories": "Entertainment Gaming Black Friday Games news Nintendo Nintendo Switch 2 PlayStation 5 Xbox Series X",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEC_322187712-07a1.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "Games Inbox: Is The Witcher 4 the next big game after GTA 6?",
-            "link": "https://metro.co.uk/2026/11/27/games-inbox-witcher-4-next-big-game-gta-6-29823669/",
-            "published": "Fri, 27 Nov 2026 02:00:00 +0000",
+            "title": "Lucia actress says she worked on GTA 6 for ‘almost a decade’ as she thanks fans",
+            "link": "https://metro.co.uk/2026/11/27/lucia-actress-says-worked-gta-6-almost-a-decade-thanks-fans-29824095/",
+            "published": "Fri, 27 Nov 2026 10:33:27 +0000",
             "source": "Metro",
             "provider": "METRO",
-            "categories": "Entertainment Gaming Games Inbox GTA 6 Nintendo Rockstar Games The Legend of Zelda The Witcher Wii Xbox 360",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_314014966-738d.jpg?quality=90&strip=all&w=646"
+            "categories": "Entertainment Gaming Games news Grand Theft Auto GTA 6 Rockstar Games",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310234387-d140.jpg?quality=90&strip=all&w=646"
           },
           {
-            "title": "GTA 6 review – better late than never",
-            "link": "https://metro.co.uk/2026/11/27/gta-6-review-better-late-never-29819175/",
-            "published": "Fri, 27 Nov 2026 01:00:00 +0000",
+            "title": "Here’s what could happen if Putin launched a nuclear bomb in space",
+            "link": "https://metro.co.uk/2026/11/27/happen-putin-launched-a-nuclear-bomb-space-2-29824092/",
+            "published": "Fri, 27 Nov 2026 09:43:38 +0000",
             "source": "Metro",
             "provider": "METRO",
-            "categories": "Entertainment Gaming Games news Games reviews Grand Theft Auto GTA 5 GTA 6 PlayStation 5 Rockstar Games Xbox Series X",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310228783-3b25.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Daily horoscope November 27, 2026: Today’s predictions for your star sign",
-            "link": "https://metro.co.uk/2026/11/27/daily-horoscope-november-27-2026-predictions-star-sign-29823169/",
-            "published": "Fri, 27 Nov 2026 00:01:00 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Horoscopes Lifestyle Aquarius Aries Astrology Cancer (star sign) Capricorn Gemini Leo Libra Pisces Sagittarius Scorpio Taurus Virgo",
-            "image": "https://metro.co.uk/wp-content/uploads/2023/04/new-horoscope-2023-02-a5db.gif?w=646"
+            "categories": "News Tech Nuclear Power Russia Science Space Vladimir Putin",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_321769450-4b22.jpg?quality=90&strip=all&w=646"
           }
         ],
         "ENTERTAINMENT": [
+          {
+            "title": "Cancel your weekend plans to binge ‘disturbing’ dystopian thriller racing up Amazon Prime chart",
+            "link": "https://metro.co.uk/2026/11/27/cancel-weekend-plans-binge-disturbing-dystopian-thriller-racing-amazon-prime-chart-29824673/",
+            "published": "Fri, 27 Nov 2026 13:30:00 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment TV Amazon Prime Video Blade Runner Michelle Yeoh Ridley Scott Science fiction US TV news",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_322185980-982b.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Take That admit they’re ‘really happy as a three’ without Jason Orange",
+            "link": "https://metro.co.uk/2026/11/27/take-admit-really-happy-a-three-without-jason-orange-29824653/",
+            "published": "Fri, 27 Nov 2026 12:52:25 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment Music",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_321004747-2020-e1795783597899.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "BBC axes 5 fan favourite Gladiators from the upcoming fourth series",
+            "link": "https://metro.co.uk/2026/11/27/bbc-axes-5-fan-favourite-gladiators-upcoming-fourth-series-29824181/",
+            "published": "Fri, 27 Nov 2026 11:20:39 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment TV AJ Odudu BBC Chris Ramsey George Clarke Gladiators Sara Pascoe",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_186785599-5985.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Former Buzzcocks drummer Phil Barker dies ‘in his sleep’",
+            "link": "https://metro.co.uk/2026/11/27/former-buzzcocks-drummer-phil-barker-dies-in-sleep-29824368/",
+            "published": "Fri, 27 Nov 2026 11:20:03 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment Music",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_322186499-6a82.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Focker-In-Law opens to abysmal reaction and branded the ‘worst movie’",
+            "link": "https://metro.co.uk/2026/11/27/focker-in-law-opens-abysmal-reaction-branded-worst-movie-29824183/",
+            "published": "Fri, 27 Nov 2026 10:51:53 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment Film Ariana Grande Ben Stiller Comedy Robert De Niro",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_321424525-b4fe-e1795775411421.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Lucia actress says she worked on GTA 6 for ‘almost a decade’ as she thanks fans",
+            "link": "https://metro.co.uk/2026/11/27/lucia-actress-says-worked-gta-6-almost-a-decade-thanks-fans-29824095/",
+            "published": "Fri, 27 Nov 2026 10:33:27 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment Gaming Games news Grand Theft Auto GTA 6 Rockstar Games",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310234387-d140.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "Strictly Come Dancing star claims she was ‘treated appallingly’ on BBC show",
+            "link": "https://metro.co.uk/2026/11/27/strictly-come-dancing-star-claims-treated-appallingly-bbc-show-29823842/",
+            "published": "Fri, 27 Nov 2026 10:16:01 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment TV BBC Neil Jones Strictly Come Dancing Toyah Willcox",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_220484938-38e8.jpg?quality=90&strip=all&w=646"
+          },
+          {
+            "title": "I’m a Celebrity fans squirm after spotting ‘awkward’ Ant and Dec moment with Mariella Frostrup",
+            "link": "https://metro.co.uk/2026/11/27/im-a-celebrity-fans-squirm-spotting-awkward-ant-dec-moment-mariella-frostrup-29823788/",
+            "published": "Fri, 27 Nov 2026 08:57:03 +0000",
+            "source": "Metro",
+            "provider": "METRO",
+            "categories": "Entertainment TV Ant and Dec I'm A Celebrity ITV Mariella Frostrup",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_322098376-bb5c.jpg?quality=90&strip=all&w=646"
+          },
           {
             "title": "Playtime’s over – Buddy is the most twisted horror film of the year",
             "link": "https://metro.co.uk/2026/11/27/playtimes-buddy-twisted-horror-film-year-29756364/",
             "published": "Fri, 27 Nov 2026 06:00:00 +0000",
             "source": "Metro",
             "provider": "METRO",
-            "categories": "Entertainment Film Horror movies and TV shows",
+            "categories": "Entertainment Film Film reviews Horror movies and TV shows",
             "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_319052888-833d.jpg?quality=90&strip=all&w=646"
           },
           {
@@ -3014,121 +3077,22 @@
             "image": "https://metro.co.uk/wp-content/uploads/2026/11/comp-1795703474.png?w=646"
           },
           {
-            "title": "Proud Gordon Ramsay visits daughter Holly in hospital after birth of first grandchild",
+            "title": "Adam Peaty’s estranged dad looks downcast after Holly Ramsay welcomes baby girl",
             "link": "https://metro.co.uk/2026/11/26/holly-ramsay-adam-peaty-announce-birth-baby-girl-beautiful-name-29822305/",
             "published": "Thu, 26 Nov 2026 13:33:49 +0000",
             "source": "Metro",
             "provider": "METRO",
             "categories": "Entertainment Showbiz Adam Peaty Gordon Ramsay Holly Ramsay Tana Ramsay",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/11/comp-1795718868.png?w=646"
+            "image": "https://metro.co.uk/wp-content/uploads/2026/11/comp-1795775472.png?w=646"
           },
           {
-            "title": "I’m A Celebrity fans fear for AJ Odudu after her reaction to Mariella crying",
-            "link": "https://metro.co.uk/2026/11/26/im-a-celebrity-fans-fear-aj-odudu-reaction-mariella-crying-29821468/",
-            "published": "Thu, 26 Nov 2026 13:32:10 +0000",
+            "title": "‘We’ve been through stuff’ EastEnders icon delivers moving message to abusive ‘fans’",
+            "link": "https://metro.co.uk/2026/11/27/eastenders-icon-delivers-moving-message-abusive-fans-29823786/",
+            "published": "Fri, 27 Nov 2026 09:10:02 +0000",
             "source": "Metro",
             "provider": "METRO",
-            "categories": "Entertainment TV AJ Odudu I'm A Celebrity Mariella Frostrup",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_322098301-397f.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Former Bake Off finalist confirmed as new judge: ‘I have big shoes to fill’",
-            "link": "https://metro.co.uk/2026/11/26/former-bake-off-finalist-confirmed-new-judge-i-big-shoes-fill-29820931/",
-            "published": "Thu, 26 Nov 2026 12:00:00 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Entertainment TV Channel 4 The Great British Bake Off",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_322083560-6f55.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Huw Edwards angrily claims ‘I lost the plot’ in shocking Channel 4 documentary",
-            "link": "https://metro.co.uk/2026/11/26/huw-edwards-angrily-claims-i-lost-plot-grilled-shocking-channel-4-documentary-29821584/",
-            "published": "Thu, 26 Nov 2026 11:38:16 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Entertainment TV BBC Channel 4 Huw Edwards",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_322089609-edf6-e1795691972431.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Brad Pitt and Angelina Jolie release shock joint statement after settling $164,000,000 legal battle",
-            "link": "https://metro.co.uk/2026/11/26/brad-pitt-angelina-jolie-release-joint-statement-settling-164-000-000-legal-battle-29821000/",
-            "published": "Thu, 26 Nov 2026 10:52:45 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Entertainment Showbiz Angelina Jolie Brad Pitt US Showbiz news",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_322068429-b131.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Iconic soap star Lesley Saweard – who played role for 66 years – dies aged 92",
-            "link": "https://metro.co.uk/2026/11/27/iconic-soap-star-lesley-saweard-played-role-66-years-dies-aged-92-29823793/",
-            "published": "Fri, 27 Nov 2026 08:37:51 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Soaps Soaps Showbiz The Archers",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/11/lesley-saweard-comp.png?w=646"
-          },
-          {
-            "title": "Take it from a soap writer – here’s what makes a Christmas episode into a cracker",
-            "link": "https://metro.co.uk/2026/11/27/take-a-soap-writer-makes-a-christmas-episode-a-cracker-29805920/",
-            "published": "Fri, 27 Nov 2026 08:37:12 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Coronation Street Soaps Belle Dingle Debbie Webster Denise Fox Diane Parish Eden Taylor-Draper Jake Wood James Chase Max Branning Sue Devaney Tom King",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/11/image-8002.png?w=646"
-          },
-          {
-            "title": "Soaps Christmas spoiler preview confirms massive Coronation Street, EastEnders and Emmerdale twists",
-            "link": "https://metro.co.uk/2026/11/27/soaps-christmas-spoiler-preview-eastenders-emmerdale-coronation-street-29809966/",
-            "published": "Fri, 27 Nov 2026 08:00:00 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Soaps Belle Dingle Christmas Christmas TV Debbie Webster Linda Carter Max Branning",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_321881455-8b6d.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Ross’ vulgar new move in Coronation Street as he targets child whose life he will destroy",
-            "link": "https://metro.co.uk/2026/11/27/ross-vulgar-new-move-coronation-street-targets-child-29821889/",
-            "published": "Fri, 27 Nov 2026 07:30:00 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Coronation Street Soaps Ian Burfield Ross Wilkes",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_320284917-2298.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Thea’s loss drives Emmerdale’s Kim to despair amid Graham dad secret",
-            "link": "https://metro.co.uk/2026/11/27/theas-loss-drives-emmerdales-kim-despair-amid-graham-dad-secret-29822398/",
-            "published": "Fri, 27 Nov 2026 07:30:00 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Emmerdale Soaps Andrew Scarborough Chelsea Edge Claire King DS Thea Ramsden Graham Foster Kim Tate",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_320285119-70f5-e1795703210603.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Hope determined to lose her virginity to Sam in Coronation Street – and tells a serious lie",
-            "link": "https://metro.co.uk/2026/11/27/coronation-streets-hope-determined-lose-virginity-sam-tells-a-lie-29807532/",
-            "published": "Fri, 27 Nov 2026 07:00:00 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Coronation Street Soaps Hope Stape Isabella Flanagan Jude Riordan Sam Blakeman",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_321112678-8545.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Emmerdale’s Sarah in danger as she is haunted by dead Dr Todd",
-            "link": "https://metro.co.uk/2026/11/27/emmerdales-sarah-danger-haunted-dead-dr-todd-29806452/",
-            "published": "Fri, 27 Nov 2026 07:00:00 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Emmerdale Soaps Caroline Harker Dr Todd Katie Hill Sarah Sugden",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_321112774-ec83.jpg?quality=90&strip=all&w=646"
-          },
-          {
-            "title": "Lives ‘ruined’ as evil Ross, Jodie and Idris strike in Coronation Street pincer attack",
-            "link": "https://metro.co.uk/2026/11/27/evil-ross-jodie-idris-strike-coronation-street-pincer-attack-29823373/",
-            "published": "Fri, 27 Nov 2026 07:00:00 +0000",
-            "source": "Metro",
-            "provider": "METRO",
-            "categories": "Coronation Street Soaps Alison King Carla Connor-Swain David Platt Gary Windass Ian Burfield Idris Nazir Jack P. Shepherd Jodie Ramsey Julia Goulding Junade Khan Maria Connor Mikey North Olivia Frances-Brown Ross Wilkes Samia Longchambon Shona Platt",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/11/Coro_Villains-0e39.jpg?quality=90&strip=all&w=646"
+            "categories": "EastEnders Soaps Eve Panesar-Unwin Heather Peace",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_234762657-5ad4-e1795769133370.jpg?quality=90&strip=all&w=646"
           }
         ]
       },
@@ -3139,11 +3103,11 @@
         },
         "WORLD": {
           "ok": true,
-          "count": 10
+          "count": 11
         },
         "POLITICS": {
           "ok": true,
-          "count": 20
+          "count": 19
         },
         "BUSINESS": {
           "ok": true,
@@ -3151,11 +3115,11 @@
         },
         "TECH": {
           "ok": true,
-          "count": 4
+          "count": 3
         },
         "ENTERTAINMENT": {
           "ok": true,
-          "count": 20
+          "count": 17
         }
       }
     },
@@ -3268,27 +3232,18 @@
         "STOCK_MARKET": [],
         "STOCKS": [
           {
-            "title": "MARKETS LIVE: London set for further gains as global technology and mining stocks recover",
-            "link": "https://www.proactiveinvestors.com/companies/news/1102556/markets-live-london-set-for-further-gains-as-global-technology-and-mining-stocks-recover-1102556.html?.tsrc=rss",
-            "published": "Fri, 27 Nov 2026 06:57:00 +0000",
-            "source": "Yahoo Finance",
-            "provider": "YAHOO",
-            "categories": "",
-            "image": "https://cdn.proactiveinvestors.com/eyJidWNrZXQiOiJwYS1jZG4iLCJrZXkiOiJ1cGxvYWRcL05ld3NcL0ltYWdlXC8yMDI2XzExXC9zaHV0dGVyc3RvY2stMjM0NDEwOTUzLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0Ijo2MzAsImZpdCI6ImNvdmVyIn19fQ=="
-          },
-          {
-            "title": "Is the Stock Market Open Today? Here Are the Trading Hours for Black Friday.",
-            "link": "https://uk.finance.yahoo.com/m/59f6de8f-22b7-3936-a702-52611c591c0e/is-the-stock-market-open.html?.tsrc=rss",
-            "published": "Fri, 27 Nov 2026 05:01:00 +0000",
+            "title": "Vera Therapeutics (VERA) Stock Jumps 16.4% Premarket: No Company News",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/vera-therapeutics-vera-stock-jumps-133018816.html?.tsrc=rss",
+            "published": "Fri, 27 Nov 2026 13:30:18 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
             "image": ""
           },
           {
-            "title": "Asian stocks rally as China shares surge on fresh market-support pledges",
-            "link": "https://uk.finance.yahoo.com/news/asian-stocks-rally-china-shares-042609674.html?.tsrc=rss",
-            "published": "Fri, 27 Nov 2026 04:26:09 +0000",
+            "title": "Inter (INTR) Stock Jumps 14.5% Premarket: Latin American Stocks Rally",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/inter-intr-stock-jumps-14-131533340.html?.tsrc=rss",
+            "published": "Fri, 27 Nov 2026 13:15:33 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
@@ -3297,79 +3252,88 @@
           {
             "title": "Dow Jones Futures Rise; Look For This Bullish Market Signal On Black Friday",
             "link": "https://uk.finance.yahoo.com/m/158e82fc-b889-34b6-8704-99a49e9a83ae/dow-jones-futures-rise%3B-look.html?.tsrc=rss",
-            "published": "Fri, 27 Nov 2026 04:23:58 +0000",
+            "published": "Fri, 27 Nov 2026 13:06:54 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
             "image": ""
           },
           {
-            "title": "U.S. stock futures rise sharply; Nasdaq up 1.7% in holiday-thinned trade",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/u-stock-futures-rise-holiday-003122658.html?.tsrc=rss",
-            "published": "Fri, 27 Nov 2026 00:31:22 +0000",
+            "title": "Premarket movers: AI stocks rebound, Vertex slides on FDA review",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/premarket-movers-ai-stocks-rebound-123708136.html?.tsrc=rss",
+            "published": "Fri, 27 Nov 2026 12:37:08 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
             "image": ""
           },
           {
-            "title": "Steve Cohen’s 5 Biggest Stock Bets for 2027",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/steve-cohen-5-biggest-stock-220614898.html?.tsrc=rss",
-            "published": "Thu, 26 Nov 2026 22:06:14 +0000",
+            "title": "Prediction: Barclays shares are thrillingly cheap with a P/E of 9.2 and will grow 43% by December 2027!",
+            "link": "https://www.twelfthmagpie.com/2026/11/27/prediction-barclays-shares-are-thrillingly-cheap-with-a-p-e-of-9-2-and-will-grow-43-by-december-2027/?.tsrc=rss",
+            "published": "Fri, 27 Nov 2026 12:36:27 +0000",
+            "source": "Yahoo Finance",
+            "provider": "YAHOO",
+            "categories": "",
+            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2026/10/Stock_BOE.jpeg"
+          },
+          {
+            "title": "Vertex (VRTX) Stock Falls 7.3% Premarket Without Company News",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/vertex-vrtx-stock-falls-7-121533478.html?.tsrc=rss",
+            "published": "Fri, 27 Nov 2026 12:15:33 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
             "image": ""
           },
           {
-            "title": "Wall Street Sees Upside in AstraZeneca PLC (AZN) as Shares Retreat",
-            "link": "https://finance.yahoo.com/healthcare/articles/wall-street-sees-upside-astrazeneca-203743976.html?.tsrc=rss",
-            "published": "Thu, 26 Nov 2026 20:37:43 +0000",
+            "title": "Why Is MercadoLibre (MELI) Stock Up in Premarket Trading Today? Market Rally",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/why-mercadolibre-meli-stock-premarket-121533990.html?.tsrc=rss",
+            "published": "Fri, 27 Nov 2026 12:15:33 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
             "image": ""
           },
           {
-            "title": "AbbVie Inc. (ABBV) Is Moving Beyond Humira. Is ABBV Stock a Buy for 2027?",
-            "link": "https://finance.yahoo.com/healthcare/articles/abbvie-inc-abbv-moving-beyond-203655398.html?.tsrc=rss",
-            "published": "Thu, 26 Nov 2026 20:36:55 +0000",
+            "title": "XP (XP) Stock Jumps 19.5% Premarket Without Company News",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/xp-xp-stock-jumps-19-120021545.html?.tsrc=rss",
+            "published": "Fri, 27 Nov 2026 12:00:21 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
             "image": ""
           },
           {
-            "title": "Apple Stocks Rise as AI Selloff Spares the iPhone Maker",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/apple-stocks-rise-ai-selloff-190038273.html?.tsrc=rss",
-            "published": "Thu, 26 Nov 2026 19:00:38 +0000",
+            "title": "StoneCo (STNE) Stock Jumps 13.1% Premarket Without Company News",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/stoneco-stne-stock-jumps-13-120021496.html?.tsrc=rss",
+            "published": "Fri, 27 Nov 2026 12:00:21 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
             "image": ""
           },
           {
-            "title": "SoftBank Group Stocks Jump 7.32% as AI Rebound Lifts Tokyo After a 14.83% Rout",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/softbank-group-stocks-jump-7-184827003.html?.tsrc=rss",
-            "published": "Thu, 26 Nov 2026 18:48:27 +0000",
+            "title": "Nu Holdings (NU) Stock Jumps 8.3% Premarket Without Company News",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/nu-holdings-nu-stock-jumps-120019786.html?.tsrc=rss",
+            "published": "Fri, 27 Nov 2026 12:00:19 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
             "image": ""
           },
           {
-            "title": "IBM Stocks Climb 3.33% as Wedbush Starts Coverage at Outperform With $276 Target",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/ibm-stocks-climb-3-33-184634000.html?.tsrc=rss",
-            "published": "Thu, 26 Nov 2026 18:46:34 +0000",
+            "title": "MARKETS LIVE: US stock futures jump ahead of shortened Black Friday trading session",
+            "link": "https://www.proactiveinvestors.com/companies/news/1102556/markets-live-us-stock-futures-jump-ahead-of-shortened-black-friday-trading-session-1102556.html?.tsrc=rss",
+            "published": "Fri, 27 Nov 2026 11:57:00 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
-            "image": ""
+            "image": "https://cdn.proactiveinvestors.com/eyJidWNrZXQiOiJwYS1jZG4iLCJrZXkiOiJ1cGxvYWRcL05ld3NcL0ltYWdlXC8yMDI2XzExXC8yMDI0LTA0LTIyLTEzLTEwLTM4LTllZTA4ZDhmMDZjZDEwZDkyMjY4MmZiNjQ0YzU5MTdkLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0Ijo2MzAsImZpdCI6ImNvdmVyIn19fQ=="
           },
           {
-            "title": "Chevron Stocks Rise 1.06% as Brent Jumps 3.5% on Saudi Refinery Attack Claim",
-            "link": "https://finance.yahoo.com/energy/articles/chevron-stocks-rise-1-06-184046291.html?.tsrc=rss",
-            "published": "Thu, 26 Nov 2026 18:40:46 +0000",
+            "title": "BofA Sees S&P 500 Rising 8% in 2027: Are Your ETFs Ready for a Soft Landing?",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/bofa-sees-p-500-rising-110800608.html?.tsrc=rss",
+            "published": "Fri, 27 Nov 2026 11:08:00 +0000",
             "source": "Yahoo Finance",
             "provider": "YAHOO",
             "categories": "",
@@ -3529,15 +3493,6 @@
         ],
         "STOCKS": [
           {
-            "title": "J.P. Morgan sees Indian stocks rise further in 2027 after 'great comeback' of 2026",
-            "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQQWRmQXRtWGtJcjVxUnJtb3JhWHItaTMtanZUcll1emlBaUFzZU1Eay11ZV9neGRlVnRKMXlMNDVnTDkwMDdjeHVMcUJhRldlUnVzZy11Q2ZYT05Mb3ZZWGRYSDFKT0dtM0t4Z2IweGpmZDZKR2pOSjRHSW5KRE1JQXpWX1VBRlpWTDgtdllpNFprV3RjTUYwWkZFSGo4cEJ3dDlaeUNYU0s4dm9DYUNhWV9qdGRfTUFqUkpDaA?oc=5",
-            "published": "Thu, 26 Nov 2026 12:37:44 GMT",
-            "source": "Reuters",
-            "provider": "REUTERS",
-            "categories": "",
-            "image": ""
-          },
-          {
             "title": "Musk pledges two SpaceX shares for every US child in $18 billion AI charm offensive",
             "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNklmekFZWmFURnFwVlBHa2FlTGZwYkxaSkNSRUxMV2lsanFDc2hkdGF1RGhHWlJoUTBicHFXY1B3dWxHa0xmdU5mYzFBbGpYN3Z5N2xTS2U1bVBJeVZQVHRucldkRVhsVlVfNldnTWpRclIzSjJQa0tMMnBFVGhDTS1HYzdwVlctaXowdDJtdVJaNkxLcXo2Tk9Odi1XZnI0c1JScHZycXhWRUNUZmQ4?oc=5",
             "published": "Thu, 26 Nov 2026 04:15:00 GMT",
@@ -3638,7 +3593,7 @@
         },
         "STOCKS": {
           "ok": true,
-          "count": 11,
+          "count": 10,
           "retainedPrevious": 0,
           "errors": [
             "https://www.reuters.com/arc/outboundfeeds/v3/all/?outputType=xml: 404 Not Found"
@@ -3649,6 +3604,60 @@
     "MAGPIE": {
       "categories": {
         "STOCKS": [
+          {
+            "title": "Forget the AI trade, I’m targeting generational wealth with UK growth stocks",
+            "link": "https://www.twelfthmagpie.com/2026/11/27/forget-the-ai-trade-im-targeting-generational-wealth-with-uk-growth-stocks/",
+            "published": "Fri, 27 Nov 2026 13:00:00 +0000",
+            "source": "The Twelfth Magpie",
+            "provider": "MAGPIE",
+            "categories": "Growth Shares Investing Articles",
+            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2026/11/AdobeStock_2215135273-1200x666.jpeg"
+          },
+          {
+            "title": "9.95% yield and 20 years of dividend payouts! Is this the best small-cap for a Stocks & Shares ISA?",
+            "link": "https://www.twelfthmagpie.com/2026/11/27/9-95-yield-and-20-years-of-dividend-payouts-is-this-the-best-small-cap-for-a-stocks-shares-isa/",
+            "published": "Fri, 27 Nov 2026 12:42:00 +0000",
+            "source": "The Twelfth Magpie",
+            "provider": "MAGPIE",
+            "categories": "Dividend Shares Investing Articles",
+            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2022/06/Decision-making.jpg"
+          },
+          {
+            "title": "Prediction: Barclays shares are thrillingly cheap with a P/E of 9.2 and will grow 43% by December 2027!",
+            "link": "https://www.twelfthmagpie.com/2026/11/27/prediction-barclays-shares-are-thrillingly-cheap-with-a-p-e-of-9-2-and-will-grow-43-by-december-2027/",
+            "published": "Fri, 27 Nov 2026 12:36:27 +0000",
+            "source": "The Twelfth Magpie",
+            "provider": "MAGPIE",
+            "categories": "Investing Articles Value Shares",
+            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2026/10/Stock_BOE.jpeg"
+          },
+          {
+            "title": "By November 2027, BP shares could turn £10,000 into…",
+            "link": "https://www.twelfthmagpie.com/2026/11/27/by-november-2027-bp-shares-could-turn-10000-into/",
+            "published": "Fri, 27 Nov 2026 12:07:00 +0000",
+            "source": "The Twelfth Magpie",
+            "provider": "MAGPIE",
+            "categories": "Dividend Shares Investing Articles",
+            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2021/10/Trader.jpg"
+          },
+          {
+            "title": "With a P/E under 9 and a yield above 5%, this FTSE 250 share is tipped to surge 38%",
+            "link": "https://www.twelfthmagpie.com/2026/11/27/with-a-p-e-under-9-and-a-yield-above-5-this-ftse-250-share-is-tipped-to-surge-38/",
+            "published": "Fri, 27 Nov 2026 10:24:42 +0000",
+            "source": "The Twelfth Magpie",
+            "provider": "MAGPIE",
+            "categories": "Growth Shares Investing Articles",
+            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2024/07/Searching-1200x675.jpg"
+          },
+          {
+            "title": "Prediction: Diageo shares could hit £21 by the end of 2026",
+            "link": "https://www.twelfthmagpie.com/2026/11/27/prediction-diageo-shares-could-hit-21-by-the-end-of-2026/",
+            "published": "Fri, 27 Nov 2026 10:02:41 +0000",
+            "source": "The Twelfth Magpie",
+            "provider": "MAGPIE",
+            "categories": "Growth Shares Investing Articles",
+            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2026/10/Stock_FriendsCafe.jpeg"
+          },
           {
             "title": "Rio Tinto shares have fallen over 30% since June and now offer a 6.3% yield. Is this a golden buying opportunity?",
             "link": "https://www.twelfthmagpie.com/2026/11/27/rio-tinto-shares-have-fallen-over-30-since-june-and-now-offer-a-6-3-yield-is-this-a-golden-buying-opportunity/",
@@ -3684,60 +3693,6 @@
             "provider": "MAGPIE",
             "categories": "Growth Shares Investing Articles",
             "image": "https://www.twelfthmagpie.com/wp-content/uploads/2026/11/AdobeStock_2215135273-1200x666.jpeg"
-          },
-          {
-            "title": "Up 75.5% in 3 years, what’s next for Aviva shares?",
-            "link": "https://www.twelfthmagpie.com/2026/11/26/up-75-5-in-3-years-whats-next-for-aviva-shares/",
-            "published": "Thu, 26 Nov 2026 15:01:00 +0000",
-            "source": "The Twelfth Magpie",
-            "provider": "MAGPIE",
-            "categories": "Investing Articles Investing For Beginners",
-            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2026/06/AdobeStock_215654421-1200x800.jpeg"
-          },
-          {
-            "title": "Down 28% and trading at a 7.5% discount – is this former FTSE 100 darling the best stock to buy today?",
-            "link": "https://www.twelfthmagpie.com/2026/11/26/down-28-and-trading-at-a-7-5-discount-is-this-former-ftse-100-darling-the-best-stock-to-buy-today/",
-            "published": "Thu, 26 Nov 2026 14:47:55 +0000",
-            "source": "The Twelfth Magpie",
-            "provider": "MAGPIE",
-            "categories": "Growth Shares Investing Articles",
-            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2026/11/AdobeStock_2215135273-1200x666.jpeg"
-          },
-          {
-            "title": "This FTSE 100 defence share’s just won a RECORD contract! And it’s not BAE Systems…",
-            "link": "https://www.twelfthmagpie.com/2026/11/26/this-ftse-100-defence-shares-just-won-a-record-contract-and-its-not-bae-systems/",
-            "published": "Thu, 26 Nov 2026 13:13:42 +0000",
-            "source": "The Twelfth Magpie",
-            "provider": "MAGPIE",
-            "categories": "Investing Articles Market Movers",
-            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2024/06/Spaceship-1200x764.jpg"
-          },
-          {
-            "title": "Here’s what you’d have today if you’d invested £10,000 in the S&P 500 just 1 month ago…",
-            "link": "https://www.twelfthmagpie.com/2026/11/26/heres-what-youd-have-today-if-youd-invested-10000-in-the-sp-500-just-1-month-ago/",
-            "published": "Thu, 26 Nov 2026 13:04:35 +0000",
-            "source": "The Twelfth Magpie",
-            "provider": "MAGPIE",
-            "categories": "Investing Articles Value Shares",
-            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2022/10/US-flag.jpg"
-          },
-          {
-            "title": "2 cheap FTSE 100 shares to consider buying in December",
-            "link": "https://www.twelfthmagpie.com/2026/11/26/2-cheap-ftse-100-shares-to-consider-buying-in-december/",
-            "published": "Thu, 26 Nov 2026 12:55:20 +0000",
-            "source": "The Twelfth Magpie",
-            "provider": "MAGPIE",
-            "categories": "Investing Articles Value Shares",
-            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2021/10/Unwrapping-Presents.jpg"
-          },
-          {
-            "title": "Forget Rolls-Royce, are Nvidia shares just too cheap to ignore?",
-            "link": "https://www.twelfthmagpie.com/2026/11/26/forget-rolls-royce-shares-is-nvidia-just-too-cheap-to-ignore/",
-            "published": "Thu, 26 Nov 2026 12:42:10 +0000",
-            "source": "The Twelfth Magpie",
-            "provider": "MAGPIE",
-            "categories": "Growth Shares Investing Articles",
-            "image": "https://www.twelfthmagpie.com/wp-content/uploads/2026/11/AdobeStock_2113442630-1200x675.jpeg"
           }
         ]
       },
@@ -3753,5 +3708,5 @@
       }
     }
   },
-  "stocksUpdated": "2026-11-27T08:46:10.696Z"
+  "stocksUpdated": "2026-11-27T13:46:11.740Z"
 }
