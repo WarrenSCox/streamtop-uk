@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-27T21:26:11.944Z",
+  "updated": "2026-11-27T22:38:15.823Z",
   "charts": {
     "AUDIOBOOKS": [
       {
         "title": "Michael",
         "author": "Bob Mortimer",
         "narrator": "Bob Mortimer , Matt Berry",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e4/a8/5c/e4a85c40-36a7-ac29-d01b-b4e7d92e76b1/9781398548121.jpg/600x600bb.jpg"
+        "image": "https://m.media-amazon.com/images/I/416cTSKa0GL._SL500_.jpg"
       },
       {
         "title": "Exoplanet",
@@ -30,19 +30,19 @@
         "title": "Dungeon Crawler Carl",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://m.media-amazon.com/images/I/51HIZdnqASL._SL500_.jpg"
-      },
-      {
-        "title": "A Court of Splintered Harmony",
-        "author": "Sarah J. Maas",
-        "narrator": "Elizabeth Evans",
-        "image": "https://covers.openlibrary.org/b/id/15273593-L.jpg"
+        "image": "https://covers.openlibrary.org/b/id/15143022-L.jpg"
       },
       {
         "title": "The Hunger Games",
         "author": "Suzanne Collins",
         "narrator": "Tatiana Maslany",
         "image": "https://m.media-amazon.com/images/I/410kujB9VGL._SL500_.jpg"
+      },
+      {
+        "title": "A Court of Splintered Harmony",
+        "author": "Sarah J. Maas",
+        "narrator": "Elizabeth Evans",
+        "image": "https://covers.openlibrary.org/b/id/15273593-L.jpg"
       },
       {
         "title": "Wrath of Terra",
@@ -54,13 +54,13 @@
         "title": "Carl's Doomsday Scenario",
         "author": "Matt Dinniman",
         "narrator": "Jeff Hays",
-        "image": "https://covers.openlibrary.org/b/id/11702962-L.jpg"
+        "image": "https://m.media-amazon.com/images/I/51e1PKKdv8L._SL500_.jpg"
       },
       {
-        "title": "The Witch",
-        "author": "Freida McFadden",
-        "narrator": "Saskia Maarleveld , Marin Ireland",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/21/e2/a3/21e2a31c-2e04-6d99-0af9-180a08fa96a2/9798349169328.jpg/600x600bb.jpg"
+        "title": "The Dungeon Anarchist's Cookbook",
+        "author": "Matt Dinniman",
+        "narrator": "Jeff Hays , The Critical Drinker",
+        "image": "https://covers.openlibrary.org/b/id/15277856-L.jpg"
       }
     ],
     "BOOKS": [
@@ -77,7 +77,7 @@
       {
         "title": "Guinness World Records 2027",
         "author": "",
-        "image": "http://www.bibdsl.co.uk/bds-images/l/978180/9781806500222.jpg"
+        "image": "https://storage.googleapis.com/lr-assets/bds-images/m/978024/9780241745212.jpg"
       },
       {
         "title": "Fight or Flight",
@@ -122,16 +122,16 @@
   },
   "health": {
     "BOOKS": {
-      "status": "stale",
-      "checkedAt": "2026-11-27T21:26:11.944Z",
-      "lastSuccessfulRefresh": "2026-11-27T13:46:11.790Z",
-      "reason": "expected exactly 10 ranked titles, got 0"
+      "status": "healthy",
+      "checkedAt": "2026-11-27T22:38:15.824Z",
+      "lastSuccessfulRefresh": "2026-11-27T22:38:15.824Z",
+      "reason": ""
     },
     "AUDIOBOOKS": {
-      "status": "stale",
-      "checkedAt": "2026-11-27T21:26:12.270Z",
-      "lastSuccessfulRefresh": "2026-11-27T08:46:11.145Z",
-      "reason": "503 https://www.audible.co.uk/charts/best"
+      "status": "healthy",
+      "checkedAt": "2026-11-27T22:38:56.602Z",
+      "lastSuccessfulRefresh": "2026-11-27T22:38:56.602Z",
+      "reason": ""
     }
   }
 }
